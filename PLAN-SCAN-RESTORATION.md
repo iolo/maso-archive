@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R10 are complete; the active goal is to restore all November 1984 articles.
+R00–R11 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -61,8 +61,9 @@ Reuse the existing OCR, mapping, correction, assembly and export machinery.
 Some `tools/pdf_restore/` entry points currently assume a PDF path, PDF page
 indices and PDF geometry. Connect the cleaned JPEGs at that input boundary,
 replacing PDF rendering with image loading where needed. Direct JPEG integration
-for mapped Tesseract and native article export passed R00. Segment assembly and
-whole-issue export remain to be integrated before their first JPEG use. Existing
+for mapped Tesseract and native article export passed R00. Structured JPEG
+segment assembly passed R11 with complete Feature I and unchanged PDF behavior.
+Whole-issue export remains to be integrated before its first JPEG use. Existing
 PDF commands remain valid for PDF inputs.
 
 Keep this input change small. Reuse the pinned OCR runtime, reviewed region maps,
@@ -258,17 +259,15 @@ restored JSON/assets and faithful source evidence first.
 | R08 — Feature I middle segment b | Actual 24–29; whole feature remains partial | 170 identical native files, six code contexts, two binary examples, five original figures; pending sentence join onto 30 |
 | R09 — Feature I middle segment c | Actual 30–35; whole feature remains partial | 147 identical native files, three code contexts, three tables, nineteen mathematical occurrences and six original figures; 36–39 and assembly pending |
 | R10 — Feature I final segment d | Actual 36–39; whole feature remains partial | 145 identical native files, four monitor contexts, three byte tables and twelve original figures; all 22 source pages covered in separate segments, assembly pending |
+| R11 — complete Feature I assembly | Actual 18–39; complete native article package | 650 identical files; typed source indexes, uncertainty and source links preserved; four original segments unchanged; 229 shared tests pass |
 
-Immediate next action: **R11**, integrate and verify JPEG segment assembly,
-then assemble Feature I on actual 18–39 from its four immutable segments. Retain
-all typed structures, source links, uncertainty occurrences and the exact pending
-29/30 sentence join. Preserve the explicit cross-segment relationship between
-the rocket on 35 and the independent table/explanation on 36, including the
-source discrepancy. Check the assembled package in a fresh process without OCR
-or a presentation build. Keep PDF assembly behavior compatible.
-Feature I spans actual 18–39; Feature II starts on 40 and its ending remains
-unverified. Preserve the four segments on 18–39. Integrate JPEG segment
-assembly before the first assembly operation.
+Immediate next action: **R12**, locate Feature II's ending and inspect its
+boundaries, then restore its opening in a bounded batch of at most six new
+mapped source views. Its title/byline begin on actual 40; the ending is still
+unverified. Preserve complete Feature I on 18–39 and its four original segments.
+JPEG assembly is now integrated and checked; use the same source/structure and
+fresh native rebuild gates for later long articles. Whole-issue export remains
+to be checked before first use.
 Then continue the remaining articles in bounded batches through issue closeout.
 R01 delivered the editorial; R02 Bit
 Pattern; R03 the complete four-page Apple FORTRAN installment with separate
@@ -285,5 +284,6 @@ in progress. R10 preserves the final four pages, original monitor/table examples
 and source-linked dot-size/grid structure. One targeted text-crop repair added
 optional region selection and disjoint evidence reuse to the shared PDF/JPEG
 pipeline, with 225 regression tests and both shared plans unchanged.
-JPEG segment assembly and whole-issue export remain to be checked
-before their first use.
+R11 assembles complete Feature I with projected typed indexes, exact source
+relationships and the 29/30 sentence join. All 650 native files reproduce;
+229 shared tests pass. Whole-issue export remains to be checked before first use.

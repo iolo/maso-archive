@@ -359,6 +359,45 @@ The export still requires exactly one raw outcome and asset per mapped text
 region, with original settings bytes and source pins. Never rewrite old settings
 to name the revised map. This supports both PDF and JPEG sources.
 
+### Structured JPEG segment assembly
+
+The same `tools.pdf_restore.assemble` command accepts an explicit
+`index_mode: structured-regions-v1` for reviewed JPEG segments. Supply
+`expected_source_indices`, pinned `inventory` sources/queue, original segment
+manifests, exact `resolved_notes`, explicit `prose_joins` and
+`relationship_links`. Source indices, filename numbers, reading order and
+printed folios remain distinct; no PDF page metadata is invented. Existing PDF
+assembly modes retain their original recipe and projection behavior.
+
+This mode requires complete segment-local regional ranges, table cells and
+independent code-group indexes. Each code group owns one logical code block;
+its physical rows, wraps, instruction units and source fields remain separate.
+Unknown correction indexes reject until they have an explicit projection.
+Included source views must be disjoint and follow their reviewed reading order.
+The combined inventory pins must match the segments' original provenance.
+
+The assembler namespaces local identities, projects block/article/listing UTF-8
+ranges and preserves zero-length blank-cell/field spans. Explicit adjacent prose
+joins retain the original region text and update affected offsets and references.
+Declared pending joins must agree with both immutable boundary records.
+Cross-segment figure/table links require matching outgoing/incoming source
+occurrences and the original package manifest. Original source discrepancies,
+dot sizes, labels, numerical values and local uncertainties remain literal.
+
+Every active specialized index row has a `source_ref` to its exact original
+correction record. Active scan links name exported source-region assets. Derived
+review-crop/context pins retain their historical scope in the immutable original
+corrections; they are not relabeled as exported files. All original segment
+files are retained byte for byte. The combined raw archive also includes the
+original recognition maps needed by reused OCR settings. Offline checking
+recomputes the complete projection from retained segments and rejects changes
+even if outer files have been rehashed. No OCR or presentation build is required.
+
+November 1984 Feature I is the first checked use: actual 18–39, four immutable
+segments and 650 identical native files in a fresh rebuild. Its 487 table cells,
+518 physical code rows, 494 figure labels, 24 local uncertainty occurrences and
+the explicit 29/30 sentence join retain source-linked structure.
+
 The package schema now supports explicit `content_order`, `region_assets` and
 hashed `review_records`. Maps produced in step 3 still validate. A readable
 package must represent every mapped region, include every block/figure exactly

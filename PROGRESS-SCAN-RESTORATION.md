@@ -4,9 +4,9 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R10 complete: five November 1984 articles have complete reproducible
-JSON/assets packages; Feature I has four reproducible segments covering all actual
-18–39, with whole-article assembly pending. Six section headings have source-backed non-owning
+**R00–R11 complete: six November 1984 articles have complete reproducible
+JSON/assets packages, including the complete Feature I on actual 18–39.
+Its four original segments remain unchanged. Six section headings have source-backed non-owning
 classifications.**
 All completed records are assistant sample-reviewed.
 Twenty-eight canonical identities await disposition. The 24 cleaned source sets
@@ -38,6 +38,7 @@ labels and the preserved exports retain their existing values.
 | R08 — Feature I middle segment b | Passed; whole article partial | Actual 24–29; 170 identical files, six code contexts, two binary examples and five original figures; 30–39 pending |
 | R09 — Feature I middle segment c | Passed; whole article partial | Actual 30–35; 147 identical files, three code contexts, three tables, nineteen mathematical occurrences and six original figures; 36–39 and assembly pending |
 | R10 — Feature I final segment d | Passed; whole article partial | Actual 36–39; 145 identical files, four monitor contexts, three byte tables and twelve original figures; all source pages covered, whole-feature assembly pending |
+| R11 — complete Feature I assembly | Passed | Actual 18–39; 650 identical native files, all typed source indexes and the 29/30 sentence join; original four segments unchanged |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -431,3 +432,58 @@ Next: **R11**, integrate and verify JPEG segment assembly, then combine actual
 18–39 while retaining typed structures, source relationships, uncertainties and
 the exact 29/30 sentence join. Continue Feature II and all remaining November
 identities through issue closeout afterward.
+
+## R11 completed — 2026-11-15
+
+Selected the complete Feature I assembly on actual 18–39 under its existing
+canonical identity. All four original segment packages remain byte-preserved
+inside the assembly. The sentence ending on 29 joins the opening on 30 with
+exactly one reviewed space, and both original region transcriptions remain
+separately indexed. The rocket on 35 links explicitly to the independent
+table/explanation on 36; the printed discrepancy is preserved.
+
+The native package accounts for all 22 source views, 169 mapped regions,
+142 original OCR outcomes, 101 logical blocks and 27 original figures. Its
+projected indexes retain eleven tables/487 cells, seventeen code contexts,
+518 physical rows, 441 logical units (413 numbered and 28 unnumbered), 2,849
+assembler fields, 117 source literal tokens, 37 inline fields, 23 BASIC tokens,
+116 monitor fields, nineteen mathematical occurrences, 494 figure labels and
+all 24 local uncertainty occurrences. Twenty-three existing figure structures
+and associations remain typed; the opening segment's four original figures
+retain their source labels/assets and original content relationships. Forty-one
+prose joins include the newly resolved cross-segment sentence join. There are
+2,092 direct references to exact immutable correction records.
+
+The shared assembler now accepts opt-in `structured-regions-v1` JPEG recipes,
+with explicit source indices and pinned inventory. It namespaces local
+identities, projects block/article/listing byte ranges, preserves blank spans,
+and rejects unprojected indexes, overlapping text partitions and dangling
+active references. Original boundary declarations and cross-segment source
+relationships must match. Historical source IDs retain their original scope;
+active indexes name assembled blocks/assets. The combined raw archive preserves
+621 entries, including ten original recognition maps. Existing PDF assembly
+recipes and projections remain compatible. Neither shared OCR/PDF plan changed.
+
+All 650 native files compare byte for byte against a fresh-process rebuild with
+the final reference/partition checks, without OCR or a presentation build.
+The earlier 169 master-to-crop pixel checks are reused after rehashing masters
+and proving copied crop bytes and source geometry unchanged. Sixteen invalid
+projections reject, and 229 shared tests pass (214 PDF plus fifteen JPEG,
+recognition-reuse and structured-assembly tests). One synthetic fixture's
+reading-order origin and one reference gate's treatment of historical boundary
+IDs required repairs; failed logs remain preserved. Both repeated exports and
+the selected export passed. The nine earlier article/segment packages and their
+private evidence, contents classifications, source masters and cleanup records
+remain exact.
+
+November now has six complete article packages, no partial article, six non-owning
+headings and 28 unclassified identities. Local source uncertainty, original
+encoded bytes/typesetting, execution and human acceptance remain separate from
+the successful package reproduction.
+
+See the [complete Feature I result](metadata/catalog/scan-restoration/1984-11-apple-machine-language.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R12**, locate Feature II's ending and restore its opening in a bounded
+batch. Its observed title/byline begin on actual 40. Continue all remaining
+November identities, source-image accounting, covers and whole-issue native
+export/rebuild afterward.

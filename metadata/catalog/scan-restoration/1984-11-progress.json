@@ -5,8 +5,8 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 5,
-  "partial_articles": 1,
+  "readable_articles": 6,
+  "partial_articles": 0,
   "identitiesAwaitingDisposition": 28,
   "entries": [
     {
@@ -16,7 +16,7 @@
       "page_candidates": [],
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "previous_location_evidence": [
         {
@@ -27,6 +27,15 @@
           },
           "finding_index": 0,
           "status": "opening-located; ending-unverified"
+        },
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-07/review/feature-transition.json",
+            "sha256": "fa67ec72e6b951fee6a86167b828fa399bc70f516fd26f5cc3ede259ec71c4a8",
+            "bytes": 1035
+          },
+          "finding_key": "featureI",
+          "status": "opening-and-ending-located; interior-restoration-in-progress"
         }
       ],
       "observed_title": "애플 베이직에서 기계어로(2)",
@@ -36,12 +45,12 @@
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-07/review/feature-transition.json",
-          "sha256": "fa67ec72e6b951fee6a86167b828fa399bc70f516fd26f5cc3ede259ec71c4a8",
-          "bytes": 1035
+          "path": "archive/scans/1984-11/restoration/batch-11/validation.json",
+          "sha256": "fd3bc24855eae59aa89e54aadbbda98b6fb47da72b4c335c719bbf8213ce9071",
+          "bytes": 237644
         },
-        "finding_key": "featureI",
-        "status": "opening-and-ending-located; interior-restoration-in-progress"
+        "finding_key": "completeFeatureI",
+        "status": "Observed 18-39 source extent assembled; opening and ending evidence retained."
       },
       "segments": [
         {
@@ -619,41 +628,518 @@
       ],
       "continuation_pending": [],
       "limitations": [
-        "Four immutable segments preserve all actual 18-39. Whole-feature assembly and the 29/30 sentence join remain pending.",
-        "Segment a retains eleven dash counts and two object-name candidates; b three object-name candidates; c seven locally indexed uncertainties; d one open table glyph with 0/C candidates.",
-        "Original encoding/typesetting, historical claims, execution and human acceptance remain unverified."
+        "Twenty-four source uncertainty occurrences retain explicit local candidates/count limitations in the complete assembly.",
+        "Original encoded bytes/typesetting, historical claims, program execution and human acceptance remain unverified."
       ],
-      "pending_prose_join": {
-        "after_folio": 29,
-        "next_folio": 30,
-        "left_literal": "사실 앞에서 즐겨썼던",
-        "right_literal": "흰색과 검은색 그래픽에서는",
-        "separator": " ",
-        "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-08/review/continuations.json",
-          "sha256": "75478e66c6657a47cb15082fc1bf4afc38b733fb76a8dd3c714d17bcc126d303",
-          "bytes": 2401
-        }
-      },
-      "assembly_pending": true,
+      "assembly_pending": false,
       "cross_segment_relationships": [
         {
           "from_segment": "c",
           "from_folio": 35,
-          "figure_id": "rocket",
+          "figure_id": "c-rocket",
           "to_segment": "d",
           "to_folio": 36,
-          "table_id": "p036-white-table",
-          "status": "Source-compared independent representations; package relationship recorded; whole-feature assembly pending.",
+          "table_id": "d-p036-white-table",
+          "status": "Resolved source relationship in selected assembly; independent printed discrepancy preserved.",
           "evidence": {
-            "path": "archive/scans/1984-11/restoration/batch-10/validation.json",
-            "sha256": "5dec2b8bb15e60fd4d6977477224bbb0000916eaab4339b3306c73b31e2dfd1d",
-            "bytes": 45952
+            "path": "archive/scans/1984-11/restoration/batch-11/validation.json",
+            "sha256": "fd3bc24855eae59aa89e54aadbbda98b6fb47da72b4c335c719bbf8213ce9071",
+            "bytes": 237644
+          }
+        }
+      ],
+      "source_views": [
+        {
+          "source_index": 21,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-018.jpg",
+            "sha256": "06f8f4e1cf36a0bc8b5f7fff1620a0752f60046343fc72248c45f78604051f53",
+            "bytes": 12111183
           },
-          "boundary_evidence": {
-            "path": "archive/scans/1984-11/restoration/batch-10/review/continuations.json",
-            "sha256": "9d94b9acfb807d7718915dfaa385e2651e3f68dc8dd6ea443da23662dea1e402",
-            "bytes": 1839
+          "width_px": 4741,
+          "height_px": 6911,
+          "reading_order": 20,
+          "source_filename_number": 18,
+          "printed_page": "18",
+          "image_to_upright_normalized": [
+            0.0002109259649862898,
+            0,
+            0,
+            0.0001446968600781363,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 22,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-019.jpg",
+            "sha256": "a1f7b132469bb7ed030b3eef14df36798bbdfc67d7cbe2c85a1c586b52557f46",
+            "bytes": 9383202
+          },
+          "width_px": 4752,
+          "height_px": 6916,
+          "reading_order": 21,
+          "source_filename_number": 19,
+          "printed_page": "19",
+          "image_to_upright_normalized": [
+            0.00021043771043771043,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 23,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-020.jpg",
+            "sha256": "e6e3fb1205c6d624e65f24bdd6e397a102cdbfd7f3946831518dcaced1ddfa0a",
+            "bytes": 8575974
+          },
+          "width_px": 4744,
+          "height_px": 6919,
+          "reading_order": 22,
+          "source_filename_number": 20,
+          "printed_page": "20",
+          "image_to_upright_normalized": [
+            0.00021079258010118043,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 24,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-021.jpg",
+            "sha256": "d98d9a82ec51127cd9174f4cd36b9c2ee76819bf4c18393614ae0d4ef700c48e",
+            "bytes": 8627935
+          },
+          "width_px": 4748,
+          "height_px": 6920,
+          "reading_order": 23,
+          "source_filename_number": 21,
+          "printed_page": "21",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 25,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-022.jpg",
+            "sha256": "28b03ab0524b9de4b98fd7250a3292d6bceeb743346bc491a004b30dcc6ade2e",
+            "bytes": 8339916
+          },
+          "width_px": 4742,
+          "height_px": 6926,
+          "reading_order": 24,
+          "source_filename_number": 22,
+          "printed_page": "22",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 26,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-023.jpg",
+            "sha256": "2f2d0b96974cf4fa5bea94b1aea135feeadbf89cf38b0020a1bbb8cac6c29ed7",
+            "bytes": 8815803
+          },
+          "width_px": 4755,
+          "height_px": 6915,
+          "reading_order": 25,
+          "source_filename_number": 23,
+          "printed_page": "23",
+          "image_to_upright_normalized": [
+            0.0002103049421661409,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 27,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-024.jpg",
+            "sha256": "0f0fb64a69e6d5554d5b7c5bb2c6cfbc503ec2b75ddc4e7bc43f7c659e0c9c64",
+            "bytes": 8295428
+          },
+          "width_px": 4748,
+          "height_px": 6913,
+          "reading_order": 26,
+          "source_filename_number": 24,
+          "printed_page": "24",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 28,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-025.jpg",
+            "sha256": "eddfa037cedbbbd6f1a1b06b0938a6e502a63e7e53b97b2e0f8103bdf3c89046",
+            "bytes": 8717851
+          },
+          "width_px": 4746,
+          "height_px": 6911,
+          "reading_order": 27,
+          "source_filename_number": 25,
+          "printed_page": "25",
+          "image_to_upright_normalized": [
+            0.00021070375052675939,
+            0,
+            0,
+            0.0001446968600781363,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 29,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-026.jpg",
+            "sha256": "1ef38bf8c371b731282bef63a10ff3d90ae8652f352ef17e7f227da691b29ea0",
+            "bytes": 8391991
+          },
+          "width_px": 4742,
+          "height_px": 6913,
+          "reading_order": 28,
+          "source_filename_number": 26,
+          "printed_page": "26",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 30,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-027.jpg",
+            "sha256": "287ef6e57246466813ca1bc0562b409cf37440933d674507feb9dd174632796b",
+            "bytes": 8582103
+          },
+          "width_px": 4749,
+          "height_px": 6912,
+          "reading_order": 29,
+          "source_filename_number": 27,
+          "printed_page": "27",
+          "image_to_upright_normalized": [
+            0.0002105706464518846,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 31,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-028.jpg",
+            "sha256": "c6e841321036dcc1680d1dd2be5795616c669727a1238a9d239057bbd9fcf8fc",
+            "bytes": 8544554
+          },
+          "width_px": 4737,
+          "height_px": 6916,
+          "reading_order": 30,
+          "source_filename_number": 28,
+          "printed_page": "28",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 32,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-029.jpg",
+            "sha256": "d67a30adf2727ea85ef57a2630777114318420e3551d2508797208d7de857123",
+            "bytes": 9048086
+          },
+          "width_px": 4748,
+          "height_px": 6922,
+          "reading_order": 31,
+          "source_filename_number": 29,
+          "printed_page": "29",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 33,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-030.jpg",
+            "sha256": "9bf0c7364b1fdc8e56e9aba1f8c144f709ad6036a3b4b0016ee919375a8b60f4",
+            "bytes": 8370342
+          },
+          "width_px": 4739,
+          "height_px": 6921,
+          "reading_order": 32,
+          "source_filename_number": 30,
+          "printed_page": "30",
+          "image_to_upright_normalized": [
+            0.00021101498206372652,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 34,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-031.jpg",
+            "sha256": "16d3e76f9eb0f036eb24f4c4eb3b52b675eb023b94558e9525d47dbc35944a81",
+            "bytes": 8611183
+          },
+          "width_px": 4742,
+          "height_px": 6912,
+          "reading_order": 33,
+          "source_filename_number": 31,
+          "printed_page": "31",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 35,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-032.jpg",
+            "sha256": "155ed9c567731a466efd9392255e209f5869bd60bc02b2d0e37387798ba62e72",
+            "bytes": 8201531
+          },
+          "width_px": 4736,
+          "height_px": 6921,
+          "reading_order": 34,
+          "source_filename_number": 32,
+          "printed_page": "32",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 36,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-033.jpg",
+            "sha256": "c96ebb4d3c58952db7fb28285bbe76e9edabf956bd538b5d1a31ee99da97f214",
+            "bytes": 8529105
+          },
+          "width_px": 4743,
+          "height_px": 6920,
+          "reading_order": 35,
+          "source_filename_number": 33,
+          "printed_page": "33",
+          "image_to_upright_normalized": [
+            0.0002108370229812355,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 37,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-034.jpg",
+            "sha256": "f3a26a8b086187fd887fb3f371230b41d7e2b576f99ac432eac92f28d98557e3",
+            "bytes": 7885719
+          },
+          "width_px": 4738,
+          "height_px": 6923,
+          "reading_order": 36,
+          "source_filename_number": 34,
+          "printed_page": "34",
+          "image_to_upright_normalized": [
+            0.00021105951878429716,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 38,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-035.jpg",
+            "sha256": "7fcbad6e340010a828edcc206ca4dae8d1e3f04268a7962f21adea45a97d2532",
+            "bytes": 8633349
+          },
+          "width_px": 4746,
+          "height_px": 6921,
+          "reading_order": 37,
+          "source_filename_number": 35,
+          "printed_page": "35",
+          "image_to_upright_normalized": [
+            0.00021070375052675939,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 39,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-036.jpg",
+            "sha256": "18fa717ddbbb8a30bdec9670c151dcd9f1a7bd07ad18ad1941212941e105fe21",
+            "bytes": 8611159
+          },
+          "width_px": 4736,
+          "height_px": 6926,
+          "reading_order": 38,
+          "source_filename_number": 36,
+          "printed_page": "36",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 40,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-037.jpg",
+            "sha256": "ad831c60044e7274ac9ee90a7351f4e58c19a524006706c60e0863a329ceb804",
+            "bytes": 8378928
+          },
+          "width_px": 4746,
+          "height_px": 6921,
+          "reading_order": 39,
+          "source_filename_number": 37,
+          "printed_page": "37",
+          "image_to_upright_normalized": [
+            0.00021070375052675939,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 41,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-038.jpg",
+            "sha256": "346451a77a7b594d56ae8f6b67076348f9b79fb89c1c574c38fc425c7dfdab32",
+            "bytes": 8059178
+          },
+          "width_px": 4737,
+          "height_px": 6920,
+          "reading_order": 40,
+          "source_filename_number": 38,
+          "printed_page": "38",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 42,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-039.jpg",
+            "sha256": "08e07273b10624fb968e64c71c2ac723121422c3b0167a3ffe9a44f01954af87",
+            "bytes": 8380889
+          },
+          "width_px": 4742,
+          "height_px": 6915,
+          "reading_order": 41,
+          "source_filename_number": 39,
+          "printed_page": "39",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/apple-machine-language-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/apple-machine-language-r01/manifest.json",
+          "sha256": "654c5b0f3a2ce0ea4b4e79274caa5ad6b6c28094a4fea66532896a851b2dda6b",
+          "bytes": 116178
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-11/validation.json",
+          "sha256": "fd3bc24855eae59aa89e54aadbbda98b6fb47da72b4c335c719bbf8213ce9071",
+          "bytes": 237644
+        }
+      ],
+      "resolved_prose_joins": [
+        {
+          "after_folio": 29,
+          "next_folio": 30,
+          "left_literal": "사실 앞에서 즐겨썼던",
+          "right_literal": "흰색과 검은색 그래픽에서는",
+          "separator": " ",
+          "block_id": "b-continuing-prose",
+          "status": "Joined in selected assembly without duplicated source text.",
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-11/validation.json",
+            "sha256": "fd3bc24855eae59aa89e54aadbbda98b6fb47da72b4c335c719bbf8213ce9071",
+            "bytes": 237644
           }
         }
       ]
@@ -1657,6 +2143,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R11: integrate and verify JPEG segment assembly, then assemble the complete Feature I on actual 18-39 from immutable segments a-d. Resolve the pending 29/30 sentence join and retain cross-segment source relationships, typed structures and local uncertainties. Then restore Feature II and all remaining November identities through issue closeout.",
+  "next": "R12: locate the ending of Feature II, 기계어로 음악구현, whose observed opening is actual 40; inspect neighboring boundaries and restore its opening in a bounded batch of at most six new mapped source views. Continue all remaining November identities, then source-image accounting, covers and whole-issue native export/rebuild. Preserve Feature I and its original segments.",
   "group_headings": 6
 }

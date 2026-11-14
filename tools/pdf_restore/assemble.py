@@ -9,9 +9,9 @@ import re
 import tempfile
 import zipfile
 
-from .build import checked, check_export, copy_pin, safe_path, validate_source
+from .build import checked, check_export, copy_pin, safe_path, validate_source, validate_recognition_map
 from .inventory import ROOT, pin, write_json
-from .package import validate_package
+from .package import validate_package, page_index, page_selector
 from .preview import render_preview
 
 
@@ -30,6 +30,9 @@ def text_bytes(package):
 
 
 def validate_recipe(recipe):
+    if recipe.get('index_mode') == 'structured-regions-v1':
+        from .assembly_structured import validate_recipe as validate_structured
+        return validate_structured(recipe)
     examples = recipe.get('index_mode') in ('mixed-source-listing-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1')
     optional = ({'index_mode', 'prose_joins'} if examples else {'index_mode'}) | {'shared_pdf_pages', 'resolved_exclusions'}
     if recipe.get('index_mode') == 'wrapped-listing-v1':
@@ -108,7 +111,8 @@ def read_segment(folder, manifest):
     for id, row in records.items():
         if row['scan'] != assets[id]:
             raise ValueError('Segment review scan differs from region asset')
-    pages = {p['pdf_index']: p for p in package['pages']}
+    pages = {page_index(p): p for p in package['pages']}
+    selector = page_selector(package)
     raw_ids = set()
     for row in package['raw_ocr']:
         ids = row['region_ids']
@@ -116,13 +120,29 @@ def read_segment(folder, manifest):
             raise ValueError('Invalid segment OCR region')
         id = ids[0]
         settings = json.loads(checked(folder, row['settings']))
-        page = pages[regions[id]['pdf_index']]
-        if (settings['package']['sha256'] != provenance['map']['sha256'] or
+        page = pages[page_index(regions[id])]
+        bundles = [b for b in provenance['ocr_bundles']
+                   if row['settings']['path'].rsplit('/', 1)[0] == b['directory'] and
+                   id in b.get('region_ids', [r['id'] for r in regions.values()
+                                             if page_index(r) == page_index(page)])]
+        if len(bundles) != 1:
+            raise ValueError('Segment OCR requires one original bundle scope')
+        bundle = bundles[0]
+        recognition = bundle.get('recognition_map', provenance['map'])
+        if 'recognition_map' in bundle:
+            original = json.loads(checked(folder, {**recognition,
+                'path': bundle['directory'] + '/recognition-map.json'}))
+            scope = bundle.get('region_ids', [r['id'] for r in regions.values()
+                                             if page_index(r) == page_index(page)])
+            validate_recognition_map(original, mapped, region_ids=set(scope))
+        if (settings['package']['sha256'] != recognition['sha256'] or
             settings['source_sha256'] != package['source']['sha256'] or
-            settings['pdf_index'] != page['pdf_index'] or settings['pdf_page'] != page['pdf_page'] or
+            page_index(settings) != page_index(page) or settings[selector] != page[selector] or
             settings['region_ids'] != ids or settings.get('orientation_correction') != page.get('orientation_correction') or
             records[id]['raw_ocr'] != row['text']):
             raise ValueError('Segment OCR provenance differs from original map/review')
+        if package['schema_version'] == 2 and settings.get('image') != page['image']:
+            raise ValueError('Segment OCR image differs from original source view')
         raw_ids.add(id)
     if raw_ids != {id for id, row in regions.items() if row['kind'] != 'figure'}:
         raise ValueError('Segment lacks complete regional OCR evidence')
@@ -132,9 +152,22 @@ def read_segment(folder, manifest):
     return package, corrections
 
 
+def validate_inventory_binding(recipe, folder):
+    if recipe.get('index_mode') != 'structured-regions-v1':
+        return
+    provenance = json.loads((folder / 'provenance.json').read_bytes())
+    for key, original_key in [('sources', 'inventory'), ('queue', 'queue')]:
+        if any(recipe['inventory'][key][field] != provenance[original_key][field]
+               for field in ('sha256', 'bytes')):
+            raise ValueError('Assembly inventory differs from original segment provenance')
+
+
 def project(recipe, segments):
     """Derive combined content and correction indexes; never modify original evidence."""
     validate_recipe(recipe)
+    if recipe.get('index_mode') == 'structured-regions-v1':
+        from .assembly_structured import project_structured
+        return project_structured(recipe, segments)
     from .assembly_shared import validate_shared_pages
     validate_shared_pages(recipe, segments)
     if recipe.get('index_mode') == 'mixed-source-listing-v1':
@@ -277,11 +310,17 @@ def assembly_record(folder, recipe):
     return dict(version=1, recipe=pin(folder, 'assembly-recipe.json'), segments=rows)
 
 
-def raw_names(package, recipe):
+def raw_names(package, recipe, folder=None):
     names = {r[k]['path'] for r in package['raw_ocr'] for k in ('text', 'positions', 'settings')}
     names |= {r['asset']['path'] for r in package['region_assets']}
     names |= {f'segments/{s["name"]}/{name}' for s in recipe['segments']
               for name in ('map.json', 'runtime.json', 'provenance.json', 'corrections.json')}
+    if recipe.get('index_mode') == 'structured-regions-v1':
+        for spec in recipe['segments']:
+            prefix = 'segments/' + spec['name']
+            provenance = json.loads(safe_path(folder, prefix + '/provenance.json').read_bytes())
+            names.update(prefix + '/' + bundle['directory'] + '/recognition-map.json'
+                         for bundle in provenance['ocr_bundles'] if 'recognition_map' in bundle)
     return sorted(names)
 
 
@@ -290,6 +329,8 @@ def check_assembly(folder, package, *, preview=False):
     recipe = json.loads((folder / 'assembly-recipe.json').read_bytes())
     validate_recipe(recipe)
     segments = [read_segment(safe_path(folder, 'segments/' + row['name']), row['manifest']) for row in recipe['segments']]
+    for row in recipe['segments']:
+        validate_inventory_binding(recipe, safe_path(folder, 'segments/' + row['name']))
     expected, corrections = project(recipe, segments)
     if json.loads((folder / 'map.json').read_bytes()) != map_projection(expected):
         raise ValueError('Assembly map differs from original segments')
@@ -305,7 +346,7 @@ def check_assembly(folder, package, *, preview=False):
         if (folder / name).read_bytes() != value:
             raise ValueError('Assembly reading download differs from original segments')
     with zipfile.ZipFile(folder / 'raw-ocr.zip') as archive:
-        if archive.namelist() != raw_names(expected, recipe) or any(
+        if archive.namelist() != raw_names(expected, recipe, folder) or any(
                 archive.read(name) != safe_path(folder, name).read_bytes() for name in archive.namelist()):
             raise ValueError('Assembly raw archive differs from original segment bytes')
     expected['downloads'] = [pin(folder, name) for name in ['article.txt'] + (['listing.txt'] if listing else []) + ['raw-ocr.zip']]
@@ -331,9 +372,10 @@ def assemble(recipe_path, output, root=ROOT, *, preview=False):
         if output.is_relative_to(folder) or folder.is_relative_to(output):
             raise ValueError('Assembly output overlaps a segment input')
         segments.append(read_segment(folder, spec['manifest']))
+        validate_inventory_binding(recipe, folder)
         folders.append(folder)
     package, corrections = project(recipe, segments)
-    validate_source(package, root)
+    validate_source(package, root, inventory_pins=recipe.get('inventory'))
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(dir=output.parent, prefix='.pdf-assembly-') as temporary:
         stage = Path(temporary) / 'export'
@@ -355,7 +397,7 @@ def assemble(recipe_path, output, root=ROOT, *, preview=False):
         if listing:
             (stage / 'listing.txt').write_bytes(listing)
         with zipfile.ZipFile(stage / 'raw-ocr.zip', 'w', compression=zipfile.ZIP_DEFLATED) as archive:
-            for name in raw_names(package, recipe):
+            for name in raw_names(package, recipe, stage):
                 info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
                 info.compress_type, info.external_attr = zipfile.ZIP_DEFLATED, 0o644 << 16
                 archive.writestr(info, safe_path(stage, name).read_bytes())

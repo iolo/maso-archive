@@ -1,0 +1,910 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R11",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0001",
+  "title": "특집I : 애플베이직에서 기계어로",
+  "observed_title": "애플 베이직에서 기계어로(2)",
+  "outcome": "Complete reproducible presentation-independent Feature I assembly from four immutable JPEG segments; original local uncertainty remains explicit.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/apple-machine-language-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/apple-machine-language-r01/manifest.json",
+    "sha256": "654c5b0f3a2ce0ea4b4e79274caa5ad6b6c28094a4fea66532896a851b2dda6b",
+    "bytes": 116178
+  },
+  "assembly_record": {
+    "path": "archive/scans/1984-11/packages/apple-machine-language-r01/assembly.json",
+    "sha256": "678567ed4442781757f0b6c1975da7facad48fa8306ecc7160cd1f25e4ec7218",
+    "bytes": 2490
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-11/validation.json",
+    "sha256": "fd3bc24855eae59aa89e54aadbbda98b6fb47da72b4c335c719bbf8213ce9071",
+    "bytes": 237644
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-11/evidence-manifest.json",
+    "sha256": "c39cc5143222724b5caeaa52c0ae1c486822dc3747017d2492329eb4aff0bbf7",
+    "bytes": 4446
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-018.jpg",
+      "sha256": "06f8f4e1cf36a0bc8b5f7fff1620a0752f60046343fc72248c45f78604051f53",
+      "bytes": 12111183
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-019.jpg",
+      "sha256": "a1f7b132469bb7ed030b3eef14df36798bbdfc67d7cbe2c85a1c586b52557f46",
+      "bytes": 9383202
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-020.jpg",
+      "sha256": "e6e3fb1205c6d624e65f24bdd6e397a102cdbfd7f3946831518dcaced1ddfa0a",
+      "bytes": 8575974
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-021.jpg",
+      "sha256": "d98d9a82ec51127cd9174f4cd36b9c2ee76819bf4c18393614ae0d4ef700c48e",
+      "bytes": 8627935
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-022.jpg",
+      "sha256": "28b03ab0524b9de4b98fd7250a3292d6bceeb743346bc491a004b30dcc6ade2e",
+      "bytes": 8339916
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-023.jpg",
+      "sha256": "2f2d0b96974cf4fa5bea94b1aea135feeadbf89cf38b0020a1bbb8cac6c29ed7",
+      "bytes": 8815803
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-024.jpg",
+      "sha256": "0f0fb64a69e6d5554d5b7c5bb2c6cfbc503ec2b75ddc4e7bc43f7c659e0c9c64",
+      "bytes": 8295428
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-025.jpg",
+      "sha256": "eddfa037cedbbbd6f1a1b06b0938a6e502a63e7e53b97b2e0f8103bdf3c89046",
+      "bytes": 8717851
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-026.jpg",
+      "sha256": "1ef38bf8c371b731282bef63a10ff3d90ae8652f352ef17e7f227da691b29ea0",
+      "bytes": 8391991
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-027.jpg",
+      "sha256": "287ef6e57246466813ca1bc0562b409cf37440933d674507feb9dd174632796b",
+      "bytes": 8582103
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-028.jpg",
+      "sha256": "c6e841321036dcc1680d1dd2be5795616c669727a1238a9d239057bbd9fcf8fc",
+      "bytes": 8544554
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-029.jpg",
+      "sha256": "d67a30adf2727ea85ef57a2630777114318420e3551d2508797208d7de857123",
+      "bytes": 9048086
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-030.jpg",
+      "sha256": "9bf0c7364b1fdc8e56e9aba1f8c144f709ad6036a3b4b0016ee919375a8b60f4",
+      "bytes": 8370342
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-031.jpg",
+      "sha256": "16d3e76f9eb0f036eb24f4c4eb3b52b675eb023b94558e9525d47dbc35944a81",
+      "bytes": 8611183
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-032.jpg",
+      "sha256": "155ed9c567731a466efd9392255e209f5869bd60bc02b2d0e37387798ba62e72",
+      "bytes": 8201531
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-033.jpg",
+      "sha256": "c96ebb4d3c58952db7fb28285bbe76e9edabf956bd538b5d1a31ee99da97f214",
+      "bytes": 8529105
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-034.jpg",
+      "sha256": "f3a26a8b086187fd887fb3f371230b41d7e2b576f99ac432eac92f28d98557e3",
+      "bytes": 7885719
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-035.jpg",
+      "sha256": "7fcbad6e340010a828edcc206ca4dae8d1e3f04268a7962f21adea45a97d2532",
+      "bytes": 8633349
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-036.jpg",
+      "sha256": "18fa717ddbbb8a30bdec9670c151dcd9f1a7bd07ad18ad1941212941e105fe21",
+      "bytes": 8611159
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-037.jpg",
+      "sha256": "ad831c60044e7274ac9ee90a7351f4e58c19a524006706c60e0863a329ceb804",
+      "bytes": 8378928
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-038.jpg",
+      "sha256": "346451a77a7b594d56ae8f6b67076348f9b79fb89c1c574c38fc425c7dfdab32",
+      "bytes": 8059178
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-039.jpg",
+      "sha256": "08e07273b10624fb968e64c71c2ac723121422c3b0167a3ffe9a44f01954af87",
+      "bytes": 8380889
+    }
+  ],
+  "printed_folios": [
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39"
+  ],
+  "observed_whole_extent": [
+    18,
+    39
+  ],
+  "immutable_segments": [
+    {
+      "segment_id": "a",
+      "printed_folios": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "source_views": [
+        {
+          "source_index": 21,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-018.jpg",
+            "sha256": "06f8f4e1cf36a0bc8b5f7fff1620a0752f60046343fc72248c45f78604051f53",
+            "bytes": 12111183
+          },
+          "width_px": 4741,
+          "height_px": 6911,
+          "reading_order": 20,
+          "source_filename_number": 18,
+          "printed_page": "18",
+          "image_to_upright_normalized": [
+            0.0002109259649862898,
+            0,
+            0,
+            0.0001446968600781363,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 22,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-019.jpg",
+            "sha256": "a1f7b132469bb7ed030b3eef14df36798bbdfc67d7cbe2c85a1c586b52557f46",
+            "bytes": 9383202
+          },
+          "width_px": 4752,
+          "height_px": 6916,
+          "reading_order": 21,
+          "source_filename_number": 19,
+          "printed_page": "19",
+          "image_to_upright_normalized": [
+            0.00021043771043771043,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 23,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-020.jpg",
+            "sha256": "e6e3fb1205c6d624e65f24bdd6e397a102cdbfd7f3946831518dcaced1ddfa0a",
+            "bytes": 8575974
+          },
+          "width_px": 4744,
+          "height_px": 6919,
+          "reading_order": 22,
+          "source_filename_number": 20,
+          "printed_page": "20",
+          "image_to_upright_normalized": [
+            0.00021079258010118043,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 24,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-021.jpg",
+            "sha256": "d98d9a82ec51127cd9174f4cd36b9c2ee76819bf4c18393614ae0d4ef700c48e",
+            "bytes": 8627935
+          },
+          "width_px": 4748,
+          "height_px": 6920,
+          "reading_order": 23,
+          "source_filename_number": 21,
+          "printed_page": "21",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 25,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-022.jpg",
+            "sha256": "28b03ab0524b9de4b98fd7250a3292d6bceeb743346bc491a004b30dcc6ade2e",
+            "bytes": 8339916
+          },
+          "width_px": 4742,
+          "height_px": 6926,
+          "reading_order": 24,
+          "source_filename_number": 22,
+          "printed_page": "22",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 26,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-023.jpg",
+            "sha256": "2f2d0b96974cf4fa5bea94b1aea135feeadbf89cf38b0020a1bbb8cac6c29ed7",
+            "bytes": 8815803
+          },
+          "width_px": 4755,
+          "height_px": 6915,
+          "reading_order": 25,
+          "source_filename_number": 23,
+          "printed_page": "23",
+          "image_to_upright_normalized": [
+            0.0002103049421661409,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/apple-machine-language-a-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/apple-machine-language-a-r01/manifest.json",
+          "sha256": "dc9c3befb032c4acbdefbf69fb358b42d717242683e545cab1f2d3bffcbf73d1",
+          "bytes": 30715
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-07/validation.json",
+          "sha256": "c2b9b7fe675334516da2f8812c03f4c860cc0c77ff8e95b4eb657cd399041828",
+          "bytes": 52477
+        }
+      ]
+    },
+    {
+      "segment_id": "b",
+      "printed_folios": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "source_views": [
+        {
+          "source_index": 27,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-024.jpg",
+            "sha256": "0f0fb64a69e6d5554d5b7c5bb2c6cfbc503ec2b75ddc4e7bc43f7c659e0c9c64",
+            "bytes": 8295428
+          },
+          "width_px": 4748,
+          "height_px": 6913,
+          "reading_order": 26,
+          "source_filename_number": 24,
+          "printed_page": "24",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 28,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-025.jpg",
+            "sha256": "eddfa037cedbbbd6f1a1b06b0938a6e502a63e7e53b97b2e0f8103bdf3c89046",
+            "bytes": 8717851
+          },
+          "width_px": 4746,
+          "height_px": 6911,
+          "reading_order": 27,
+          "source_filename_number": 25,
+          "printed_page": "25",
+          "image_to_upright_normalized": [
+            0.00021070375052675939,
+            0,
+            0,
+            0.0001446968600781363,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 29,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-026.jpg",
+            "sha256": "1ef38bf8c371b731282bef63a10ff3d90ae8652f352ef17e7f227da691b29ea0",
+            "bytes": 8391991
+          },
+          "width_px": 4742,
+          "height_px": 6913,
+          "reading_order": 28,
+          "source_filename_number": 26,
+          "printed_page": "26",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 30,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-027.jpg",
+            "sha256": "287ef6e57246466813ca1bc0562b409cf37440933d674507feb9dd174632796b",
+            "bytes": 8582103
+          },
+          "width_px": 4749,
+          "height_px": 6912,
+          "reading_order": 29,
+          "source_filename_number": 27,
+          "printed_page": "27",
+          "image_to_upright_normalized": [
+            0.0002105706464518846,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 31,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-028.jpg",
+            "sha256": "c6e841321036dcc1680d1dd2be5795616c669727a1238a9d239057bbd9fcf8fc",
+            "bytes": 8544554
+          },
+          "width_px": 4737,
+          "height_px": 6916,
+          "reading_order": 30,
+          "source_filename_number": 28,
+          "printed_page": "28",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 32,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-029.jpg",
+            "sha256": "d67a30adf2727ea85ef57a2630777114318420e3551d2508797208d7de857123",
+            "bytes": 9048086
+          },
+          "width_px": 4748,
+          "height_px": 6922,
+          "reading_order": 31,
+          "source_filename_number": 29,
+          "printed_page": "29",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/apple-machine-language-b-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/apple-machine-language-b-r01/manifest.json",
+          "sha256": "e3e307268edb2bef87ff11d418222b9b1c2602516c18e44bed27c29d92066c62",
+          "bytes": 28475
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-08/validation.json",
+          "sha256": "02168ee14a8c2feb352936d866f585d80bbd3a4ed7ff8ed673e82d04f87736d1",
+          "bytes": 50295
+        }
+      ]
+    },
+    {
+      "segment_id": "c",
+      "printed_folios": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
+      "source_views": [
+        {
+          "source_index": 33,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-030.jpg",
+            "sha256": "9bf0c7364b1fdc8e56e9aba1f8c144f709ad6036a3b4b0016ee919375a8b60f4",
+            "bytes": 8370342
+          },
+          "width_px": 4739,
+          "height_px": 6921,
+          "reading_order": 32,
+          "source_filename_number": 30,
+          "printed_page": "30",
+          "image_to_upright_normalized": [
+            0.00021101498206372652,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 34,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-031.jpg",
+            "sha256": "16d3e76f9eb0f036eb24f4c4eb3b52b675eb023b94558e9525d47dbc35944a81",
+            "bytes": 8611183
+          },
+          "width_px": 4742,
+          "height_px": 6912,
+          "reading_order": 33,
+          "source_filename_number": 31,
+          "printed_page": "31",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 35,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-032.jpg",
+            "sha256": "155ed9c567731a466efd9392255e209f5869bd60bc02b2d0e37387798ba62e72",
+            "bytes": 8201531
+          },
+          "width_px": 4736,
+          "height_px": 6921,
+          "reading_order": 34,
+          "source_filename_number": 32,
+          "printed_page": "32",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 36,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-033.jpg",
+            "sha256": "c96ebb4d3c58952db7fb28285bbe76e9edabf956bd538b5d1a31ee99da97f214",
+            "bytes": 8529105
+          },
+          "width_px": 4743,
+          "height_px": 6920,
+          "reading_order": 35,
+          "source_filename_number": 33,
+          "printed_page": "33",
+          "image_to_upright_normalized": [
+            0.0002108370229812355,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 37,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-034.jpg",
+            "sha256": "f3a26a8b086187fd887fb3f371230b41d7e2b576f99ac432eac92f28d98557e3",
+            "bytes": 7885719
+          },
+          "width_px": 4738,
+          "height_px": 6923,
+          "reading_order": 36,
+          "source_filename_number": 34,
+          "printed_page": "34",
+          "image_to_upright_normalized": [
+            0.00021105951878429716,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 38,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-035.jpg",
+            "sha256": "7fcbad6e340010a828edcc206ca4dae8d1e3f04268a7962f21adea45a97d2532",
+            "bytes": 8633349
+          },
+          "width_px": 4746,
+          "height_px": 6921,
+          "reading_order": 37,
+          "source_filename_number": 35,
+          "printed_page": "35",
+          "image_to_upright_normalized": [
+            0.00021070375052675939,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/apple-machine-language-c-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/apple-machine-language-c-r01/manifest.json",
+          "sha256": "15b6300554d6becf1a84e5890aa582e19b99f734174ae6d69f6598b010403b9d",
+          "bytes": 24517
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-09/validation.json",
+          "sha256": "0ed7760ecc74973075d420fc810841d102e3f1088fcdaa1a8305586065ee4204",
+          "bytes": 44977
+        }
+      ]
+    },
+    {
+      "segment_id": "d",
+      "printed_folios": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "source_views": [
+        {
+          "source_index": 39,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-036.jpg",
+            "sha256": "18fa717ddbbb8a30bdec9670c151dcd9f1a7bd07ad18ad1941212941e105fe21",
+            "bytes": 8611159
+          },
+          "width_px": 4736,
+          "height_px": 6926,
+          "reading_order": 38,
+          "source_filename_number": 36,
+          "printed_page": "36",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 40,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-037.jpg",
+            "sha256": "ad831c60044e7274ac9ee90a7351f4e58c19a524006706c60e0863a329ceb804",
+            "bytes": 8378928
+          },
+          "width_px": 4746,
+          "height_px": 6921,
+          "reading_order": 39,
+          "source_filename_number": 37,
+          "printed_page": "37",
+          "image_to_upright_normalized": [
+            0.00021070375052675939,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 41,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-038.jpg",
+            "sha256": "346451a77a7b594d56ae8f6b67076348f9b79fb89c1c574c38fc425c7dfdab32",
+            "bytes": 8059178
+          },
+          "width_px": 4737,
+          "height_px": 6920,
+          "reading_order": 40,
+          "source_filename_number": 38,
+          "printed_page": "38",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 42,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-039.jpg",
+            "sha256": "08e07273b10624fb968e64c71c2ac723121422c3b0167a3ffe9a44f01954af87",
+            "bytes": 8380889
+          },
+          "width_px": 4742,
+          "height_px": 6915,
+          "reading_order": 41,
+          "source_filename_number": 39,
+          "printed_page": "39",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/apple-machine-language-d-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/apple-machine-language-d-r01/manifest.json",
+          "sha256": "54ab9cc6daccdc95b79f76b3f89c3594097ed4e254f42f522b31ef1d2fe246db",
+          "bytes": 24236
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-10/validation.json",
+          "sha256": "5dec2b8bb15e60fd4d6977477224bbb0000916eaab4339b3306c73b31e2dfd1d",
+          "bytes": 45952
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "sourceImages": 22,
+    "newSourceViews": 0,
+    "newOcrTasks": 0,
+    "mappedRegions": 169,
+    "rawOcrRegions": 142,
+    "readingBlocks": 101,
+    "originalFigures": 27,
+    "regionalTextRanges": 142,
+    "explicitJoins": 41,
+    "crossSegmentProseJoins": 1,
+    "tables": 11,
+    "tableCells": 487,
+    "listingContexts": 17,
+    "physicalRows": 518,
+    "logicalUnits": 441,
+    "numberedEntries": 413,
+    "unnumberedUnits": 28,
+    "assemblerFields": 2849,
+    "sourceLiteralTokens": 117,
+    "inlineFields": 37,
+    "basicFields": 23,
+    "monitorFields": 116,
+    "formulaOccurrences": 19,
+    "sourceUncertainties": 24,
+    "figureLabels": 494,
+    "projectedFigureStructures": 23,
+    "figureAssociations": 23,
+    "contentAssociations": 20,
+    "resolvedSourceRelationships": 1,
+    "sourceRecordReferences": 2092,
+    "rawArchiveEntries": 621,
+    "retainedRecognitionMaps": 10,
+    "packageFiles": 650
+  },
+  "source_crop_proof": "Reuse the 169 earlier master-to-crop pixel comparisons after rehashing source masters and comparing copied crop bytes/geometry exactly; no fresh image derivation or review.",
+  "previousCheckpointCommit": "b38b3ca7",
+  "inputIntegrationCommit": "f74c4884",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "cafaff63e64d7e795a4ae169477ca78371a2c88e5726834184280a9c67198245",
+      "bytes": 206300
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "8eba306f6ec9aa55215bc177c846f75bef986dbcf4c30a7e98604a34b73d0a0b",
+      "bytes": 27797
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "57c7e2d767630227af42f3cf5ffe4a9b5039323a6c0e31e37ac83d78ad9b990c",
+      "bytes": 29664
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [
+    "tools/pdf_restore/assemble.py",
+    "tools/pdf_restore/assembly_structured.py",
+    "tests/test_image_assemble.py",
+    "docs/PDF-RESTORATION.md"
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 15
+  },
+  "attempts": {
+    "ocrTasks": 0,
+    "exportFailures": 0,
+    "projectionPreflightFailures": 0,
+    "testFixtureRepairs": 1,
+    "sourceReferenceGateRepairs": 1,
+    "repeatBuilds": 2,
+    "verifierPreflightRepairs": 0
+  },
+  "limitations": [
+    "Original encoded bytes/typesetting, historical claims, program execution and human acceptance remain unverified. Twenty-four source uncertainty occurrences remain local and explicit.",
+    "[a] Source bytes, execution, typesetting widths, historical claims and human acceptance remain unverified.",
+    "[a] Eleven dashed cell run counts and two object filename final glyphs remain locally explicit.",
+    "[a] Original encoding/typesetting, historical claims, execution and human acceptance remain unverified.",
+    "[a] Printed wraps and literal source anomalies retained. Original encoded whitespace and execution remain unverified.",
+    "[b] Original encoding/typesetting, historical claims, execution and human acceptance remain unverified.",
+    "[b] Three object filename final glyphs retain local 0/O candidates. Original encoding/typesetting, historical claims, program execution and human acceptance remain unverified.",
+    "[b] Physical rows/fields are source readings, not original encoded bytes or execution-verified programs.",
+    "[c] Original encoding/typesetting, numerical/hardware claims, execution and human acceptance remain unverified.",
+    "[c] Seven local uncertainties: one ellipsis count, damaged prose, damaged decimal, two object-name glyphs and two SKIP0 glyph occurrences.",
+    "[c] Original encoded bytes/typesetting, historical claims, execution and human acceptance remain unverified.",
+    "[c] Literal source rows, not original encoded bytes or execution-verified programs.",
+    "[d] Original encoded bytes/typesetting, historical claims, execution and human acceptance remain unverified.",
+    "[d] One open table glyph retains local 0/C candidates. Source representations, original encoding/typesetting, execution and human acceptance remain unverified.",
+    "[d] Literal printed monitor examples; original bytes and execution remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-11/recipe.json --output archive/scans/1984-11/packages/apple-machine-language-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-11/recipe.json --output work/validation/scans-1984-11-apple-machine-language-r02",
+    "env PYTHONPATH=src:. python3 -m archive.scans.1984-11.restoration.batch-11.verify-review",
+    "env PYTHONPATH=src:. python3 -m unittest discover -s tests -p 'test_pdf*.py' -v",
+    "env PYTHONPATH=src:. python3 -m unittest tests.test_image_source tests.test_recognition_map tests.test_image_assemble -v"
+  ],
+  "next": "R12: locate the ending of Feature II, 기계어로 음악구현, whose observed opening is actual 40; inspect neighboring boundaries and restore its opening in a bounded batch of at most six new mapped source views. Continue all remaining November identities, then source-image accounting, covers and whole-issue native export/rebuild. Preserve Feature I and its original segments."
+}
