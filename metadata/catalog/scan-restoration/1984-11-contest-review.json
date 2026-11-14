@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R04",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0029",
+  "title": "공모총평",
+  "printed_title": "성의와 자세",
+  "status": "readable/sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/contest-review-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/contest-review-r01/manifest.json",
+    "sha256": "50be52be32ad325ff738efd1dff2b7348b4cba06c53ba8609d4e75b019180ec6",
+    "bytes": 7332
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-04/validation.json",
+    "sha256": "fda2824ebc7d77a9c46df2e20634f2d8e66984eae557d544a5bb7eed11d95af3",
+    "bytes": 14621
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-04/evidence-manifest.json",
+    "sha256": "bc04ae9a93f5660e86a0a1e5d609fbaa69540238fad22bd9029d4a78dddeb165",
+    "bytes": 24662
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-210.jpg",
+      "sha256": "7e10b0c4fdc6215f4ea08e294680326b3588d78f99de63d02e75215259420b38",
+      "bytes": 7665824
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-211.jpg",
+      "sha256": "d22093d0fd58c2f71b6e908e37375b9a7e6f2cb124f6f55cee3111487dad60d2",
+      "bytes": 8118673
+    }
+  ],
+  "printed_folios": [
+    "210",
+    "211"
+  ],
+  "summary": {
+    "sourceImages": 2,
+    "lookupImages": 2,
+    "mappedRegions": 10,
+    "selectedRawOcrTasks": 9,
+    "readingBlocks": 6,
+    "originalFigures": 1,
+    "regionalTextRanges": 9,
+    "explicitJoins": 3,
+    "numberedLists": 2,
+    "numberedItems": 9,
+    "tables": 1,
+    "entrantRows": 9,
+    "headerCells": 4,
+    "dataCells": 36,
+    "tableCells": 40,
+    "localUncertaintyMarkers": 1,
+    "packageFiles": 45
+  },
+  "inputIntegrationCommit": "f74c4884",
+  "previousCheckpointCommit": "10694883",
+  "implementationUnchanged": true,
+  "attempts": {
+    "pageWrapperInvocations": 2,
+    "selectedTasks": 9,
+    "interruptedWrapperExits": 1,
+    "unconfirmedTasks": 1,
+    "targetedTaskRetries": 1,
+    "reusedCompletedTasks": 2,
+    "sourceCorrectionPasses": 1,
+    "preOcrMapRefinements": 1,
+    "engineChanges": 0,
+    "exportRefinements": 0
+  },
+  "findings": [
+    "Actual folios 210-211 bounded by a separate contest notice on 209 and SPC-CLOCK opening on 212.",
+    "Every eligible region, reading contribution and all 40 table cells source-compared; two numbered lists and both helicopter entrants remain distinct.",
+    "Printed historical wording, unusual punctuation and date/page reference retained without correction.",
+    "Ten crops match source pixels, all 45 native files match a fresh-process export, and eight invalid cases reject.",
+    "One interrupted wrapper exit is preserved; completed heading/title outputs reused and only the unconfirmed body task retried once. No engine or shared plan changes."
+  ],
+  "ocrTiming": {
+    "measuredSeconds": 7.340670349999982,
+    "completeTotalAvailable": false,
+    "scope": "Measured successful retry and six page-211 tasks only. The interrupted attempt did not save durations for heading/title/original body; a complete total cannot be reported."
+  },
+  "limitations": [
+    "Fourth entrant name retains a visible dot with a local punctuation-versus-ink uncertainty.",
+    "Original encoded bytes, exact typesetting whitespace, historical claims and human acceptance remain unverified.",
+    "A data-only pilot; no new OCR engine qualification, PDF-plan changes, executable program claims or whole-issue completion."
+  ],
+  "next": "R05: locate 기초 테크닉 코너 (maso-1984-11-toc-0016, canonical reference 122); verify its ending and adjacent material before mapping at most six source views."
+}

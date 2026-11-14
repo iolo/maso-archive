@@ -4,7 +4,7 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R03 complete: three November 1984 articles are readable/sample-reviewed.** The 24 cleaned source sets
+**R00–R04 complete: four November 1984 articles are readable/sample-reviewed.** The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -18,6 +18,8 @@ body counts and per-article availability remain undetermined.
 | R00 — scan input integration | Passed | 246 pinned JPEG inputs, forty TOC identities, shared OCR/native export and PDF regressions checked |
 | R01 — November short prose pilot | Passed | Editorial on printed/source page 17; all 29 export files reproduce exactly |
 | R02 — contrasting November layout | Passed for this sample | Two-page BASIC article; 79 listing rows, 36 table cells and 62 reproducible files |
+| R03 — final Apple FORTRAN installment | Passed for this sample | Four pages; compiler/symbol/output contexts, 355 table cells and 231 reproducible files |
+| R04 — contest commentary | Passed for this sample | Two pages; three continuation joins, 40 table cells and 45 reproducible files |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -107,6 +109,35 @@ unverified. The original plots were not reconstructed.
 
 Three articles are readable/sample-reviewed; 37 identities await disposition.
 See the [FORTRAN result](metadata/catalog/scan-restoration/1984-11-apple-fortran.json).
-Next: **R04**, locate the short 공모총평 candidate at reference 210 and verify its
+Next at this checkpoint: **R04**, locate the short 공모총평 candidate at reference 210 and verify its
 extent before mapping. The pilot remains bounded; JPEG segment assembly and
 whole-issue export integration remain pending before their first use.
+
+## R04 completed — 2026-11-15
+
+Restored 공모총평 / 성의와 자세 on visibly printed 210–211, with the separate
+contest notice on 209 and SPC-CLOCK opening on 212 as boundaries. All ten mapped
+regions, nine text outcomes, three continuation joins and two numbered lists
+were source-compared. The entrant table retains four headers and nine rows:
+40 indexed cells, including both distinct 헬리콥터 submissions. Historical
+wording, unusual punctuation and the printed date/page reference remain intact.
+A visible dot after the fourth entrant's name has a local uncertainty note.
+
+A pre-OCR map refinement separates the final text line and emblem. One page
+wrapper exited 143 before saving completion evidence; the cause is unknown.
+The interrupted files are preserved, completed heading/title outputs reused,
+and only the unconfirmed body task retried once successfully. Missing timings
+are explicit; no complete OCR-duration total is claimed.
+
+All 45 native files reproduce exactly in a fresh process. Ten pixel-exact crops,
+all reading ranges/cells and eight rejected invalid cases pass. The prior three
+packages/evidence, original masters, cleanup records, shared implementation and
+OCR/PDF plans remain unchanged. Four articles are readable/sample-reviewed;
+36 canonical identities await disposition. This remains a pilot, with human
+acceptance and original encoded bytes unverified.
+
+See the [contest commentary result](metadata/catalog/scan-restoration/1984-11-contest-review.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R05**, locate the complete 기초 테크닉 코너 candidate at reference 122,
+verify its ending and neighbors, then map a bounded batch. JPEG segment assembly
+and whole-issue export integration remain pending before their first use.

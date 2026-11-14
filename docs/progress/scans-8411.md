@@ -4,8 +4,8 @@
 
 ## Current outcome
 
-Forty canonical TOC identities are queued: three readable/sample-reviewed articles
-and 37 awaiting disposition. The complete editorial `maso-1984-11-toc-0034` is
+Forty canonical TOC identities are queued: four readable/sample-reviewed articles
+and 36 awaiting disposition. The complete editorial `maso-1984-11-toc-0034` is
 restored from printed/source page 17, between
 an advertisement (16) and the separate Apple machine-language feature (18).
 All three boundary views were inspected; no global filename/folio offset follows.
@@ -180,3 +180,59 @@ separately measured. The unchanged PDF/JPEG test baseline is reused.
 Tracked result: [1984-11-apple-fortran.json](../../metadata/catalog/scan-restoration/1984-11-apple-fortran.json).
 November now has three readable articles and 37 identities awaiting disposition.
 Next: R04, locate and bound the 공모총평 candidate at canonical reference 210.
+
+## R04 — contest commentary and entrants, 2026-11-15
+
+`maso-1984-11-toc-0029`, 공모총평 / 성의와 자세, is complete and
+readable/sample-reviewed from actual folios 210–211. Page 209 is the separate
+contest notice; 212 opens SPC-CLOCK. Two mapped source images and two boundary
+lookups stay within the saved scope. The top-right 편집부 credit is associated
+with this article and read before its body.
+
+Before OCR, the map review split the closing line from the emblem so that its
+rectangular text crop contains only text. The first map and views are retained.
+The page-210 wrapper exited 143 after producing draft files but before saving
+the body completion record and timings. Its cause is unknown. The complete
+heading/title outputs and settings were reused byte for byte; only the
+unconfirmed body task was retried once from the same frozen crop. All interrupted
+files and the explicit recovery manifest are retained. Measured durations cover
+the successful retry and six page-211 tasks; a complete OCR total is unavailable.
+The shared pipeline, runtime and map were not changed during recovery.
+
+One source-comparison pass covers all ten regions and nine reading outcomes.
+Six reading blocks retain the section heading, title, byline, complete body,
+entrant-table heading and table. Three exact joins preserve 자신/의 at the page
+break, 주석이/하나도 across columns and 계/속 at the closing line. Six submission
+examples and three requirements have independent list indexes. The original
+ending emblem remains an uncaptioned image.
+
+All four headers and 36 data cells in the nine-entrant table are indexed to their
+own text ranges. The two 헬리콥터 submissions remain separate by name/platform.
+Printed 돐 forms, 테크니컬한. punctuation and the historical 84. 10월 / 212페이지
+reference are retained. A visible dot after 황 종 태 is preserved with an explicit
+punctuation-versus-incidental-mark uncertainty; no external name lookup ran.
+
+All 45 files at `archive/scans/1984-11/packages/contest-review-r01/` match a
+fresh-process export exactly. Independent source decoding verifies ten exact
+crops. All regional reading bytes, the inserted column separator, table cells,
+list items and joins validate. Eight invalid cases reject dropped entrants,
+merged lists, lost word fragments, altered references, removed uncertainty,
+invented captions, table-as-code classification and a wrong source hash.
+The previous three packages/evidence, original masters, cleanup metadata,
+implementation and shared OCR/PDF plans remain exact. The unchanged PDF/JPEG
+test baseline is reused for this data-only checkpoint.
+
+Private source readings, map, raw/partial OCR, recovery, correction/index records,
+reproduction scripts, validation and cleanup preview are under
+`archive/scans/1984-11/restoration/batch-04/`. Its evidence manifest pins every
+retained batch file except itself. No broad session deletion ran. Checkpoint
+wall time includes review, tool waits, recovery and export; active review time
+was not separately measured. Original encoded bytes, exact typesetting
+whitespace, historical claims, character-perfect certification and human
+acceptance remain unverified.
+
+Tracked result: [1984-11-contest-review.json](../../metadata/catalog/scan-restoration/1984-11-contest-review.json).
+November now has four readable articles and 36 canonical identities awaiting
+disposition. Next: R05, verify the ending and neighbors of 기초 테크닉 코너
+(`maso-1984-11-toc-0016`, reference 122) before mapping at most six source views.
+JPEG segment assembly and whole-issue export still need integration before use.

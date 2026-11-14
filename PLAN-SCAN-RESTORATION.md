@@ -231,10 +231,14 @@ restored JSON/assets and faithful source evidence first.
 | R00 — scan input integration | Minimal JPEG input support, November input/TOC pins, focused checks | Same OCR pipeline accepts the scan views; existing PDF input and behavior remain compatible |
 | R01 — short prose pilot | One located November article, raw OCR, corrections and checked package | Full pilot text/region review and independent identical rebuild |
 | R02 — contrasting layout | Bounded November listing/table/figure sample and its evidence | Rows/cells/assets/continuations accounted for; any failed prerequisite repaired before scaling |
+| R03 — Apple FORTRAN | Complete final installment, compiler/symbol/output fields and original plot | 231 identical native files, 355 indexed table cells, explicit source uncertainty |
+| R04 — contest commentary | Complete two-page commentary, entrant table and recovery evidence | 45 identical files, 40 indexed cells, exact continuation joins and bounded OCR retry |
 
-Immediate next action: **R04**, locate the short 공모총평 candidate at reference
-210 and verify its extent before mapping. R01 delivered the editorial; R02 Bit
+Immediate next action: **R05**, locate 기초 테크닉 코너 at reference 122 and
+verify its ending and neighbors before mapping at most six source views.
+R01 delivered the editorial; R02 Bit
 Pattern; R03 the complete four-page Apple FORTRAN installment with separate
-compiler/output/symbol contexts and an original plotted figure. November remains
+compiler/output/symbol contexts and an original plotted figure; R04 the two-page
+contest commentary and nine-entrant table. November remains
 in progress. JPEG segment assembly and whole-issue export remain to be checked
 before their first use.
