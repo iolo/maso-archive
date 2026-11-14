@@ -338,6 +338,15 @@ print wraps may be joined with an explicit note. Code retains the transcribed
 whitespace and physical wraps; uncertain characters or blank counts use `⟦…⟧`
 and an accompanying explanation. Do not repair code from expected semantics.
 
+For a figure-only crop correction, an OCR bundle may explicitly pin its original
+map with `recognition_map`. The builder validates both maps and permits only
+figure bounding-box differences; every other field, including text regions,
+exclusions and page/source geometry, must match exactly. OCR settings continue
+to name the original map hash. The export retains that map under the bundle's
+`recognition-map.json`, alongside the revised package map. Preserve the original
+bundle and record the derived figure asset and its review separately. This
+opt-in path supports both PDF and JPEG maps and never reruns recognition.
+
 The package schema now supports explicit `content_order`, `region_assets` and
 hashed `review_records`. Maps produced in step 3 still validate. A readable
 package must represent every mapped region, include every block/figure exactly

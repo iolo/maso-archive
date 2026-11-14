@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R06 are complete; the active goal is to restore all November 1984 articles.
+R00–R07 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -254,17 +254,20 @@ restored JSON/assets and faithful source evidence first.
 | R04 — contest commentary | Complete two-page commentary, entrant table and recovery evidence | 45 identical files, 40 indexed cells, exact continuation joins and bounded OCR retry |
 | R05 — Basic Techniques | Complete final installment, independent listings and history table | 118 identical files, six captioned contexts, 58 numbered entries and 21 history cells |
 | R06 — source contents classification | Six non-owning headings and bounded feature probes | Fourteen identical files, six pixel-exact contexts, canonical relationships retained |
+| R07 — Feature I opening segment | Actual 18–23; whole feature remains partial | 179 identical native files, three tables, four code contexts, four original figures; explicit continuation pending on 24–39 |
 
-Immediate next action: **R07**, inspect the feature transition at sources
-037–041 and relevant neighbors, then restore at most six opening source views
-of feature I as an explicit segment. Integrate JPEG segment assembly before
-the first assembly operation.
+Immediate next action: **R08**, inspect actual 24–29 and the 29/30 continuation,
+then restore those six source views as the next explicit Feature I segment.
+Feature I spans actual 18–39; Feature II starts on 40 and its ending remains
+unverified. Preserve the opening segment on 18–23. Integrate JPEG segment
+assembly before the first assembly operation.
 Then continue the remaining articles in bounded batches through issue closeout.
 R01 delivered the editorial; R02 Bit
 Pattern; R03 the complete four-page Apple FORTRAN installment with separate
 compiler/output/symbol contexts and an original plotted figure; R04 the two-page
 contest commentary and nine-entrant table; R05 the three-page final Basic
 Techniques installment and its six code examples; R06 six source-backed group
-classifications. November remains
+classifications; R07 the opening six-page Feature I segment with typed table and
+assembler fields, source-linked BASIC wraps and original figure labels. November remains
 in progress. JPEG segment assembly and whole-issue export remain to be checked
 before their first use.

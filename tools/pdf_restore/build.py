@@ -42,6 +42,22 @@ def copy_pin(source_root, stage, record, destination=None):
     return pin(stage, destination)
 
 
+def validate_recognition_map(original, current):
+    """Reuse OCR only when a reviewed map changed figure crop bounds alone.
+
+    Recognition settings still name the original, pinned map. Compare the full
+    validated maps, including exclusions and all text geometry, rather than
+    guessing which source fields affect recognition.
+    """
+    before, after = (deepcopy(validate_package(p)) for p in (original, current))
+    for package in (before, after):
+        for region in package['regions']:
+            if region['kind'] == 'figure':
+                region.pop('bbox')
+    if before != after:
+        raise ValueError('Recognition map differs beyond figure crop bounds')
+
+
 def package_pins(package):
     for row in package['raw_ocr']:
         for key in ('text', 'positions', 'settings'):
@@ -176,6 +192,14 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
         raw_regions = set()
         selector = page_selector(package)
         for bundle in recipe['ocr_bundles']:
+            recognition_map = bundle.get('recognition_map', recipe['map'])
+            if 'recognition_map' in bundle:
+                original = json.loads(checked(base, recognition_map))
+                # Compare the input map, before blocks/assets are added below.
+                current = json.loads(checked(base, recipe['map']))
+                validate_recognition_map(original, current)
+                copy_pin(base, stage, recognition_map,
+                         f'{bundle["directory"]}/recognition-map.json')
             folder = safe_path(base, bundle['directory'])
             manifest = json.loads(checked(base, bundle['manifest']))
             page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)
@@ -198,7 +222,7 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                 page = next(p for p in package['pages'] if page_index(p) == page_index(regions[id]))
                 if settings.get('orientation_correction') != page.get('orientation_correction'):
                     raise ValueError('OCR orientation correction differs from mapped page')
-                if (settings['package']['sha256'] != recipe['map']['sha256'] or
+                if (settings['package']['sha256'] != recognition_map['sha256'] or
                     settings['source_sha256'] != package['source']['sha256'] or
                     page_index(settings) != page_index(regions[id]) or
                     manifest[selector] != settings[selector] or settings['region_ids'] != ids):

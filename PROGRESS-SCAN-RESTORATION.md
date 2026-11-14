@@ -4,10 +4,11 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R06 complete: five November 1984 articles have reproducible JSON/assets
-packages in the project's schema; six section headings have source-backed
-non-owning classifications.** All completed records are assistant sample-reviewed.
-Twenty-nine canonical identities await disposition. The 24 cleaned source sets
+**R00–R07 complete: five November 1984 articles have complete reproducible
+JSON/assets packages; Feature I has a reproducible opening segment and remains
+partial. Six section headings have source-backed non-owning classifications.**
+All completed records are assistant sample-reviewed.
+Twenty-eight canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -32,6 +33,7 @@ labels and the preserved exports retain their existing values.
 | R04 — contest commentary | Passed for this sample | Two pages; three continuation joins, 40 table cells and 45 reproducible files |
 | R05 — final Basic Techniques installment | Passed | Three pages; six captioned code contexts, 58 numbered entries, 21 history cells and 118 reproducible files |
 | R06 — contents ownership | Passed | Six non-owning headings; fourteen reproducible classification files and bounded feature location evidence |
+| R07 — Feature I opening segment | Passed; whole article partial | Actual 18–23; 179 identical files, three tables, four code contexts and four original figures; 24–39 pending |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -222,3 +224,47 @@ See [contents classification result](metadata/catalog/scan-restoration/1984-11-c
 Next: **R07**, verify the transition around sources 037–041, then restore a
 bounded opening segment of feature I. JPEG segment assembly needs integration
 before the first assembly; whole-issue export remains pending.
+
+## R07 completed — 2026-11-15
+
+Feature I, 애플 베이직에서 기계어로(2), opens on actual 18 and ends on 39.
+Feature II, 기계어로 음악 구현, opens on 40 with the byline 탁연상; its ending
+remains unverified. Restored only Feature I's opening segment, actual 18–23,
+under its canonical article identity. Actual 24 begins a new paragraph and
+listing 4; no word or numbered listing row splits at this segment boundary.
+The article remains partial, with present pages 24–39 awaiting restoration.
+
+The segment preserves 25 logical blocks, three tables/182 grid slots, ten actual
+blank cells, three merged header continuations, four separate code contexts,
+139 physical rows including two visual separators, 96 numbered entries and
+581 assembler fields. Nine byte-continuation rows remain attached to their
+numbered source entries. Four original figures retain 54 literal label
+occurrences. Captions, prose joins, table cells, code fields and original assets
+have source-linked ranges and associations independently of page presentation.
+Printed decimal/hex/DATA/DFB differences, OF/OFF variants and diagram label
+arrangements remain literal. Eleven dashed-run counts and two object-name
+0/O glyph candidates remain explicit.
+
+All 179 native files reproduce exactly in a fresh process without OCR or a
+presentation build. Forty-four crop pixel checks and twelve rejected invalid
+cases pass. Forty OCR tasks completed in 28.860 summed engine seconds, with
+no failed tasks or retries. Enlarged review caught a clipped triangle apex;
+the selected crop widens its top by eighteen rendered pixels. The original map,
+bundle and mistaken early crop pass remain preserved. An explicit, pinned
+recognition-map reuse path accepts figure-bound changes alone and retains all
+original OCR/settings bytes. Both PDF and JPEG paths pass: 214 PDF regression
+tests and six JPEG/reuse tests. One map-ID preflight, one gap-shape export
+preflight and one verifier count repair are retained; selected export content
+did not change after the successful build.
+
+The five prior article packages/evidence, R06 classifications/evidence, original
+sources, cleanup records and shared OCR/PDF plans remain exact. The shared
+builder change and its implementation pins are recorded explicitly. November
+now has five complete packages, one partial feature, six non-owning headings
+and 28 unclassified identities. Human acceptance and execution remain unverified.
+
+See the [Feature I segment result](metadata/catalog/scan-restoration/1984-11-apple-machine-language-a.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R08**, restore actual 24–29 as the next bounded Feature I segment and
+check its 29/30 continuation. Integrate JPEG segment assembly before combining
+the preserved segments; whole-issue export remains pending.

@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R07",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0001",
+  "title": "특집I : 애플베이직에서 기계어로",
+  "observed_title": "애플 베이직에서 기계어로(2)",
+  "outcome": "Reproducible presentation-independent opening segment; whole article remains partial.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "segment_id": "a",
+  "selected_package": "archive/scans/1984-11/packages/apple-machine-language-a-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/apple-machine-language-a-r01/manifest.json",
+    "sha256": "dc9c3befb032c4acbdefbf69fb358b42d717242683e545cab1f2d3bffcbf73d1",
+    "bytes": 30715
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-07/validation.json",
+    "sha256": "c2b9b7fe675334516da2f8812c03f4c860cc0c77ff8e95b4eb657cd399041828",
+    "bytes": 52477
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-07/evidence-manifest.json",
+    "sha256": "d805f3ad8a115d959b345c7c7bd7345a566dc365f19606a4b9ad3c2254e2afe9",
+    "bytes": 99219
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-018.jpg",
+      "sha256": "06f8f4e1cf36a0bc8b5f7fff1620a0752f60046343fc72248c45f78604051f53",
+      "bytes": 12111183
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-019.jpg",
+      "sha256": "a1f7b132469bb7ed030b3eef14df36798bbdfc67d7cbe2c85a1c586b52557f46",
+      "bytes": 9383202
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-020.jpg",
+      "sha256": "e6e3fb1205c6d624e65f24bdd6e397a102cdbfd7f3946831518dcaced1ddfa0a",
+      "bytes": 8575974
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-021.jpg",
+      "sha256": "d98d9a82ec51127cd9174f4cd36b9c2ee76819bf4c18393614ae0d4ef700c48e",
+      "bytes": 8627935
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-022.jpg",
+      "sha256": "28b03ab0524b9de4b98fd7250a3292d6bceeb743346bc491a004b30dcc6ade2e",
+      "bytes": 8339916
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-023.jpg",
+      "sha256": "2f2d0b96974cf4fa5bea94b1aea135feeadbf89cf38b0020a1bbb8cac6c29ed7",
+      "bytes": 8815803
+    }
+  ],
+  "printed_folios": [
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23"
+  ],
+  "observed_whole_extent": [
+    18,
+    39
+  ],
+  "continuation_pending": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "transition_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-07/review/feature-transition.json",
+    "sha256": "fa67ec72e6b951fee6a86167b828fa399bc70f516fd26f5cc3ede259ec71c4a8",
+    "bytes": 1035
+  },
+  "summary": {
+    "sourceImages": 6,
+    "outsideLookupViews": 7,
+    "mappedRegions": 44,
+    "rawOcrTasks": 40,
+    "readingBlocks": 25,
+    "originalFigures": 4,
+    "figureLabels": 54,
+    "tables": 3,
+    "tableGridSlots": 182,
+    "mergedHeaderContinuations": 3,
+    "actualBlankCells": 10,
+    "dashRunUncertainties": 11,
+    "listingContexts": 4,
+    "physicalRows": 139,
+    "textBearingPhysicalRows": 137,
+    "numberedEntries": 96,
+    "byteContinuationRows": 9,
+    "assemblerFields": 581,
+    "listingCaptions": 3,
+    "regionalTextRanges": 40,
+    "explicitJoins": 15,
+    "sourceLiteralFragments": 74,
+    "localUncertainties": 13,
+    "packageFiles": 179
+  },
+  "inputIntegrationCommit": "f74c4884",
+  "previousCheckpointCommit": "a7f6551d",
+  "implementation_changes": [
+    {
+      "before": {
+        "path": "tools/pdf_restore/build.py",
+        "sha256": "409cb8b9d468c0418ac529a49b25a3ddd2e180aa93e23f7bff7a440246ea45f1",
+        "bytes": 16940
+      },
+      "after": {
+        "path": "tools/pdf_restore/build.py",
+        "sha256": "7955991fa331e3b0f0b3b960ad0dc2a0108209103fa329f91436ff2b8e7f0be9",
+        "bytes": 18147
+      },
+      "reason": "Explicit pinned recognition-map reuse for figure-only bounds changes; default path unchanged."
+    }
+  ],
+  "implementation": [
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "e403d888f8b8170413b34695089a5dbc7f80df786a3b2b41ebacdddef5881987",
+      "bytes": 12076
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "7955991fa331e3b0f0b3b960ad0dc2a0108209103fa329f91436ff2b8e7f0be9",
+      "bytes": 18147
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "c721436fda72861b3e4691306ebe67170498a666afe179698c2adf522d960088",
+      "bytes": 6125
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegAndRecognitionMap": 6
+  },
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "ocrSeconds": 28.859728418001396,
+  "attempts": {
+    "ocrTasks": 40,
+    "ocrFailures": 0,
+    "ocrRetries": 0,
+    "figureCropRepairs": 1,
+    "exportPreflightRejected": 1,
+    "mapIdPreflightRejected": 1,
+    "verifierPreflightRepairs": 1
+  },
+  "limitations": [
+    "Only actual 18-23 are restored in this segment. Actual 24-39 await subsequent segments; no missing-source claim.",
+    "Eleven dashed cell run counts and two object filename final glyphs remain locally explicit.",
+    "Original encoding/typesetting, historical claims, execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-07/recipe.json --output archive/scans/1984-11/packages/apple-machine-language-a-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-07/recipe.json --output work/validation/scans-1984-11-apple-machine-language-a-r01",
+    "env PYTHONPATH=src:. python3 -m archive.scans.1984-11.restoration.batch-07.verify-review"
+  ],
+  "next": "R08: restore the next Feature I segment on actual 24-29 after checking all six views and the 29/30 continuation. Preserve opening segment a. Integrate JPEG segment assembly before first whole-article assembly; continue through 39, then restore Feature II and remaining November entries."
+}
