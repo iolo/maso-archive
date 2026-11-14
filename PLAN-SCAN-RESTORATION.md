@@ -1,13 +1,25 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R03 are complete; November issue restoration continues. Track execution in
+R00–R04 are complete; November issue restoration continues. Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
 ## Aim
 
-Turn the cleaned scans into readable article JSON, searchable text, code downloads
-and original figures, with enough source evidence to revisit a correction.
+Restore the cleaned scans as **reproducible, presentation-independent article and
+issue packages in the project's own schema**. Preserve logical content order,
+titles and identities, prose, code, table rows/cells, original figures, captions
+and their associations, with source provenance, correction evidence and explicit
+gaps or uncertainties. Searchable text and code downloads are derived outputs;
+OCR is one stage of restoration. The web reading room is a sample presentation
+of these packages, not the definition of a restored article.
+
+Preserve source geometry as evidence while expressing article structure and
+relationships independently of a particular page layout or reader. Rebuild the
+selected JSON/assets package from pinned sources and reviewed inputs, without
+fresh OCR or a reading-room build, and compare all output files exactly. This
+establishes artifact reproducibility; source fidelity also requires the separate
+coverage, structure, asset, range and review checks below.
 Keep this a practical issue-by-issue job. A useful partial article with a clear
 gap is better than getting stuck trying to reconstruct lost paper.
 
@@ -111,9 +123,11 @@ source. Then qualify a listing/table/figure example from the same issue in a
 separate bounded checkpoint. Choose it after inspecting the actual layout;
 candidate counts and TOC ordering alone do not establish its extent.
 
-The scan-input pilot passes when text order is usable, source coverage is accounted for,
-uncertainties remain visible, assets and ranges point to the right occurrences,
-and the saved package reproduces without fresh OCR. This checks the new inputs
+The scan-input pilot passes when the project's schema represents the article's
+logical structure and relationships, source coverage is accounted for,
+uncertainties remain explicit, assets and ranges point to the right occurrences,
+and the complete JSON/assets package reproduces without fresh OCR or dependence
+on a presentation build. Text readability alone does not pass this gate. This checks the new inputs
 through the established workflow. It does not repeat the completed PDF OCR engine
 experiments. A successful OCR command or an image-only exception alone does not
 pass this gate.
@@ -148,7 +162,11 @@ automatically turning them into article transcriptions. Explicitly account for
 TOC-listed indexes/notices rather than silently dropping them.
 
 Availability (`readable`, `partial`, `image-only`, `failed`, `unresolved`) and
-review status stay separate. Assistant sample review is not human acceptance.
+review status stay separate from reproduction results. `readable` is an existing
+content-availability value, not the restoration objective or proof of a
+reproducible package. Report completed schema-based packages and their rebuild
+evidence as restoration progress, with availability, gaps and review level as
+separate attributes. Assistant sample review is not human acceptance.
 A failed OCR attempt is not a missing page; an unlocated article is not proof of
 source absence. Record source-linked uncertainty and damage without inventing
 replacement text or imagery.

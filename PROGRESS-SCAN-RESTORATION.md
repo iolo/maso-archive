@@ -4,7 +4,8 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R04 complete: four November 1984 articles are readable/sample-reviewed.** The 24 cleaned source sets
+**R00–R04 complete: four November 1984 articles have reproducible JSON/assets
+packages in the project's schema.** All four are assistant sample-reviewed. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -12,6 +13,13 @@ The checked current TOC snapshot supplies 1,119 identities and 919 provisional
 article candidates across these dates. Twenty-two dates add coverage beyond the
 supplied PDFs; February and March 1984 are supplementary-source cases. Final
 body counts and per-article availability remain undetermined.
+
+The restoration target is presentation-independent structured data, with source
+evidence and reproducible exports. The reading room is a sample presentation.
+The existing `availability: readable` value records content availability;
+`verification: sample-reviewed` records review level. Reproduction is established
+separately by the complete package rebuild comparisons reported below. These
+labels and the preserved exports retain their existing values.
 
 | Checkpoint | Status | Next result |
 | --- | --- | --- |
@@ -67,7 +75,7 @@ and deck were corrected visually. The 29-file JSON/assets package reproduces
 byte for byte in a separate process without OCR. Native JPEG/cleanup hashes,
 shared plans and the R00 implementation remain unchanged.
 
-One article is readable/sample-reviewed; the other 39 canonical identities await
+One reproducible article package is complete; the other 39 canonical identities await
 disposition. This does not complete November or qualify listing/table handling.
 See the [editorial result](metadata/catalog/scan-restoration/1984-11-editorial.json)
 and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
@@ -86,7 +94,7 @@ cases reject. Existing editorial evidence, cleanup records, implementation and
 shared OCR/PDF plans remain unchanged; the existing 214 PDF plus three JPEG test
 baseline is retained rather than rerun for this data-only batch.
 
-Two articles are readable/sample-reviewed; 38 canonical identities await
+Two reproducible article packages are complete; 38 canonical identities await
 disposition. This sample establishes a small listing and two unruled reference
 tables; complex tables, diagrams and captions still need case-specific review.
 See the [Bit Pattern result](metadata/catalog/scan-restoration/1984-11-bit-pattern.json)
@@ -107,7 +115,7 @@ uncertainties remain in decorative marks, ellipses, reference glyphs and spacing
 Source claims, numerical output, execution, encoding and human acceptance remain
 unverified. The original plots were not reconstructed.
 
-Three articles are readable/sample-reviewed; 37 identities await disposition.
+Three reproducible article packages are complete; 37 identities await disposition.
 See the [FORTRAN result](metadata/catalog/scan-restoration/1984-11-apple-fortran.json).
 Next at this checkpoint: **R04**, locate the short 공모총평 candidate at reference 210 and verify its
 extent before mapping. The pilot remains bounded; JPEG segment assembly and
@@ -132,7 +140,7 @@ are explicit; no complete OCR-duration total is claimed.
 All 45 native files reproduce exactly in a fresh process. Ten pixel-exact crops,
 all reading ranges/cells and eight rejected invalid cases pass. The prior three
 packages/evidence, original masters, cleanup records, shared implementation and
-OCR/PDF plans remain unchanged. Four articles are readable/sample-reviewed;
+OCR/PDF plans remain unchanged. Four reproducible article packages are complete;
 36 canonical identities await disposition. This remains a pilot, with human
 acceptance and original encoded bytes unverified.
 
@@ -141,3 +149,15 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R05**, locate the complete 기초 테크닉 코너 candidate at reference 122,
 verify its ending and neighbors, then map a bounded batch. JPEG segment assembly
 and whole-issue export integration remain pending before their first use.
+
+## Restoration objective clarified — 2026-11-15
+
+The owner clarified that restoration targets reproducible, presentation-independent
+packages in the project's schema, with the web reading room as a sample
+presentation. Earlier progress summaries used the availability label `readable`
+as shorthand for completed work; that wording understated the deliverable.
+Updated the project introduction, scan plan and scan progress terminology.
+The four completed pilots already include structured JSON/assets, provenance,
+corrections, source-linked ranges and exact fresh-process rebuild evidence.
+Availability, review level and reproduction remain separate properties. This
+documentation correction does not alter schema enums or preserved packages.

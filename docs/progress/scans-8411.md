@@ -4,8 +4,13 @@
 
 ## Current outcome
 
-Forty canonical TOC identities are queued: four readable/sample-reviewed articles
-and 36 awaiting disposition. The complete editorial `maso-1984-11-toc-0034` is
+Forty canonical TOC identities are queued: four articles have reproducible
+JSON/assets packages in the project's schema, and 36 await disposition.
+All four packages are assistant sample-reviewed. Restoration preserves logical
+structure, content/assets and source evidence independently of presentation;
+the web reading room is a sample consumer. The existing `readable` availability
+value is separate from the exact package rebuild checks recorded below.
+The complete editorial `maso-1984-11-toc-0034` is
 restored from printed/source page 17, between
 an advertisement (16) and the separate Apple machine-language feature (18).
 All three boundary views were inspected; no global filename/folio offset follows.
@@ -58,7 +63,7 @@ column split inside 베이직 and the final line before the emblem. The original
 emblem is an image with no invented caption or encoded-character interpretation.
 
 The 29-file native at `archive/scans/1984-11/packages/editorial-r01/` is
-readable/sample-reviewed and matches a separate fresh-process export exactly,
+assistant sample-reviewed and matches a separate fresh-process export exactly,
 without rerunning OCR. All six crops match independent source pixels; all text
 range bytes and reading joins validate. The original JPEG, cleanup metadata,
 R00 implementation and shared OCR/PDF plans remain exact. A small external note
@@ -82,7 +87,7 @@ reference 116 as a candidate, then record its exact source extent and batch scop
 
 ## R02 — Bit Pattern, 2026-11-15
 
-`maso-1984-11-toc-0014` is complete and readable/sample-reviewed from printed
+`maso-1984-11-toc-0014` has a complete, reproducible schema-based package from printed
 116–117. Confirmed the visible folios, previous mathematics ending on 115 and
 separate FORTRAN opening on 118. The lower-page 117 bookstore advertisement,
 repeated running headers and folios are excluded. Two mapped images and two
@@ -123,8 +128,8 @@ Tracked result: [1984-11-bit-pattern.json](../../metadata/catalog/scan-restorati
 Native reproduction and validation commands are in the private `validation.json`.
 The small ending emblem has no caption; complex illustrations, captions and ruled
 tables are not certified by this sample. Human acceptance, character-perfect
-proofreading and execution remain unverified. November is incomplete: two readable
-articles and 38 canonical identities awaiting disposition.
+proofreading and execution remain unverified. November is incomplete: two
+reproducible article packages and 38 canonical identities awaiting disposition.
 
 Next: R03, verify the actual ending and neighboring boundary of 애플 포트란
 (`maso-1984-11-toc-0015`), whose opening is confirmed on printed/source 118.
@@ -133,7 +138,7 @@ and whole-issue export remain pending before they are required.
 
 ## R03 — final Apple FORTRAN installment, 2026-11-15
 
-`maso-1984-11-toc-0015` is complete and readable/sample-reviewed from visibly
+`maso-1984-11-toc-0015` has a complete, reproducible schema-based package from visibly
 printed 118–121. The final-installment heading, closing text/emblem, Bit Pattern
 ending on 117 and different article opening on 122 establish its scope. Four
 mapped views and two outside lookups stay within the saved batch limit.
@@ -178,13 +183,13 @@ mapping, review, tool/conversation waits and exports; active review time is not
 separately measured. The unchanged PDF/JPEG test baseline is reused.
 
 Tracked result: [1984-11-apple-fortran.json](../../metadata/catalog/scan-restoration/1984-11-apple-fortran.json).
-November now has three readable articles and 37 identities awaiting disposition.
+November now has three reproducible article packages and 37 identities awaiting disposition.
 Next: R04, locate and bound the 공모총평 candidate at canonical reference 210.
 
 ## R04 — contest commentary and entrants, 2026-11-15
 
-`maso-1984-11-toc-0029`, 공모총평 / 성의와 자세, is complete and
-readable/sample-reviewed from actual folios 210–211. Page 209 is the separate
+`maso-1984-11-toc-0029`, 공모총평 / 성의와 자세, has a complete,
+reproducible schema-based package from actual folios 210–211. Page 209 is the separate
 contest notice; 212 opens SPC-CLOCK. Two mapped source images and two boundary
 lookups stay within the saved scope. The top-right 편집부 credit is associated
 with this article and read before its body.
@@ -232,7 +237,7 @@ whitespace, historical claims, character-perfect certification and human
 acceptance remain unverified.
 
 Tracked result: [1984-11-contest-review.json](../../metadata/catalog/scan-restoration/1984-11-contest-review.json).
-November now has four readable articles and 36 canonical identities awaiting
+November now has four reproducible article packages and 36 canonical identities awaiting
 disposition. Next: R05, verify the ending and neighbors of 기초 테크닉 코너
 (`maso-1984-11-toc-0016`, reference 122) before mapping at most six source views.
 JPEG segment assembly and whole-issue export still need integration before use.

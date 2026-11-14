@@ -2,6 +2,17 @@
 
 An unofficial digital archive of the monthly magazine Microsoftware.
 
+Restoration produces **reproducible, presentation-independent article and issue
+packages in the project's own schema**. These preserve content, logical structure,
+code, tables, figures and their relationships, together with source provenance,
+corrections and explicit gaps or uncertainties. OCR text is one input to this work.
+The web reading room is a sample presentation of the restored data.
+
+Reproduction checks rebuild packages from pinned sources and reviewed inputs and
+compare the resulting files. Availability labels such as `readable` describe
+content availability; review status describes verification. Neither label alone
+establishes a reproducible restoration or complete fidelity to the source.
+
 **CD1, CD2, CD3 restoration and the combined reading room are implemented.**
 The private reader provides issue/date-group browsing, library TOCs, Korean
 article text, code downloads, figures, original attachments and metadata search.
