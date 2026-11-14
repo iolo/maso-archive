@@ -1,0 +1,627 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R02",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0014",
+  "title": "비트 패턴",
+  "status": "readable/sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/bit-pattern-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/bit-pattern-r01/manifest.json",
+    "sha256": "c67a559486692bb041edb19a2dff7d909756ed0c7121b2f7f9a9fcfc5c520bcc",
+    "bytes": 9914
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-116.jpg",
+      "sha256": "38e7bc63fc841209dc8aebb4149000a24490bc593db2c8a54e24aa1d14fd29b7",
+      "bytes": 8267301
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-117.jpg",
+      "sha256": "ace134cd927ca4a99c9ccdf0e8e471cdec60ce47d78100e8da67f26471f8dc7d",
+      "bytes": 9236521
+    }
+  ],
+  "printed_folios": [
+    "116",
+    "117"
+  ],
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-02/validation.json",
+    "sha256": "69e733bbcad13aca15511804fcb0844ff9a620d243a917057cb01ca11c9500e8",
+    "bytes": 16932
+  },
+  "summary": {
+    "sourceImages": 2,
+    "lookupImages": 2,
+    "mappedRegions": 14,
+    "rawOcrTasks": 13,
+    "readingBlocks": 9,
+    "originalFigures": 1,
+    "physicalListingRows": 79,
+    "numberedEntries": 41,
+    "tables": 2,
+    "tableRows": 18,
+    "tableCells": 36,
+    "packageFiles": 62
+  },
+  "inputIntegrationCommit": "f74c4884",
+  "previousArticleCommit": "61578b29",
+  "implementationUnchanged": true,
+  "artifacts": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/checkpoint.json",
+      "sha256": "0970aaa9d667cd1c086423b3a3c4a627a4bc538b8da694c0ad367ede692786db",
+      "bytes": 1481
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/cleanup-preview.txt",
+      "sha256": "a76756bbd345af592e736f98113e75fa8d9cb0ec0eaf6c5a5b2f353970b16b3b",
+      "bytes": 233
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/corrections.json",
+      "sha256": "381a2e88288aeb05a8b7eded6c4b74bd09012c7dbe84da267712c7e494d56bc2",
+      "bytes": 164071
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/map-source.py",
+      "sha256": "ac3a4f791760d9c5e45e78533483afc17d5fe1fb93d155c2c34f63dba1e3d6fe",
+      "bytes": 5390
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/map.json",
+      "sha256": "85d35dcc2ee4db4ca366cc631a3eae9c957c9e4c5d3289a34dd96c9eba24df8b",
+      "bytes": 7283
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/body-psm6.settings.json",
+      "sha256": "692c9985b2d1c7cb0c4cec42f23d932df8c4184e676aedf9faf3d313513958f9",
+      "bytes": 1050
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/body-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/body-psm6.tsv",
+      "sha256": "29a128ec363fe6482dd5560e105c1f1e6bbe433825e76ff663ee0d57dd301f93",
+      "bytes": 16866
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/body-psm6.txt",
+      "sha256": "01b4fd0baad5b87cbfcc6569d30707e038d0cb6c1c7861208a65218076712e1c",
+      "bytes": 1731
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/body.png",
+      "sha256": "8b9801cc26a895615cd4ddb578b72988e7dcbb474ccc3e44c940a226a17d3489",
+      "bytes": 6590280
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/byline-psm6.settings.json",
+      "sha256": "6e17388300f8b8fdb07acdb20f256f605924a5390fd7a114045ab8c885b69067",
+      "bytes": 1055
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/byline-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/byline-psm6.tsv",
+      "sha256": "7515bfe1d6a0812736e2c2615317fab0116f03cda812f721485be43e1d3d5eaa",
+      "bytes": 535
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/byline-psm6.txt",
+      "sha256": "ce6dc1e19fa716fc577a0983b8febe1062155096d4b616175e7fdf388b7fb9bc",
+      "bytes": 54
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/byline.png",
+      "sha256": "d7978b13d7e0497f8746df4d976e9a845bb17592f9ed2e7f79359defe813a0eb",
+      "bytes": 288274
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/code-a-psm6.settings.json",
+      "sha256": "be3a93206ce73188f8bacd0f2b2c3c45a98ad58e75b5e1c883f1be4dcccaf850",
+      "bytes": 1051
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/code-a-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/code-a-psm6.tsv",
+      "sha256": "44b2a860cabd065758fe7de7750534a6e59df647073d95523357acd66aaca85f",
+      "bytes": 3884
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/code-a-psm6.txt",
+      "sha256": "bc5fd170d9db24139b42ac3bcd745494b7b0e3ac190e2fcd1be698c3c942bca9",
+      "bytes": 599
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/code-a.png",
+      "sha256": "e3d6d3548b079ca87e9126f0cf9089366e3a1895976bafb64d9400de40a20c34",
+      "bytes": 2539386
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/deck-psm6.settings.json",
+      "sha256": "66a5d903100d9b65b9dda821a928ce7c7c44da094beada9d405533d9baa8413e",
+      "bytes": 1050
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/deck-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/deck-psm6.tsv",
+      "sha256": "b858626e78a425c7b0ee37e43f9ee4e1105d14f314bbafcb5c4eed2bec8db3e0",
+      "bytes": 1411
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/deck-psm6.txt",
+      "sha256": "b97b1f63ba9186027e9851650e0ab5670290501353d10f00b8f4796916e636b3",
+      "bytes": 143
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/deck.png",
+      "sha256": "7f501cd9df58eef6ddf13cb7f1e10aa0a50aa86b2abff0c39fe5c99ac25da694",
+      "bytes": 1146612
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/eligible-page.png",
+      "sha256": "a2b99465ef5f701915ce83a46fe7dc2e39461333fefb8687211d9468df82abdb",
+      "bytes": 16927919
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/emblem.png",
+      "sha256": "5d02398d49f6a5aaf2d56ac988e0d8eec150f32881ffeb09eac73a25fee201c9",
+      "bytes": 12744
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/evidence.json",
+      "sha256": "be8307edcf97f8592fde43fae12b7179d73f5a54246de644e47f0d51244bf135",
+      "bytes": 9061
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-heading-psm6.settings.json",
+      "sha256": "11f04ddb2cff44ab7ca2a7c18fe3707c91f2c14124f110e00e107544d65e5e74",
+      "bytes": 1069
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-heading-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-heading-psm6.tsv",
+      "sha256": "e6111cd430fe5b0250784959c25adf587b0f5ee92dbcb19dc65905c430496021",
+      "bytes": 372
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-heading-psm6.txt",
+      "sha256": "9dab44351aa2539b75762d01993ec2168c33946d6e901a5387c52eb6b78bfac7",
+      "bytes": 24
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-heading.png",
+      "sha256": "24f9df83f950f9f28f96624d375787bc47dbb65f5a3d0cc906e213cb96bde976",
+      "bytes": 240097
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-note-psm6.settings.json",
+      "sha256": "982296dc8a819afc31ebb519045b06c7d52289b41108c5fecd064d9a24a7b4ea",
+      "bytes": 1063
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-note-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-note-psm6.tsv",
+      "sha256": "990d4c4c09773dc06569a9aa4f8a5db5fcd452ead7ec9ee27089bf68aa4f3acd",
+      "bytes": 600
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-note-psm6.txt",
+      "sha256": "e02fa75b87be3e26219cd82157af2c5d64c8b70f8897ac5f87ce5df224b37c86",
+      "bytes": 44
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-note.png",
+      "sha256": "32ff7542f82b52799df58e4aa71d14cd4328ebcab362f5156bc50b105306dbd2",
+      "bytes": 176874
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-table-psm6.settings.json",
+      "sha256": "e9d93def851b2806f6a01b1ccfca304e93bf43f3fe6d9429c791ae1474038824",
+      "bytes": 1065
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-table-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-table-psm6.tsv",
+      "sha256": "6529a941f0164403c27347711c325b9300f8098ffd61da71c4d9deae14c497b7",
+      "bytes": 5670
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-table-psm6.txt",
+      "sha256": "ef3522ad6372ab2718ac88c37f0ea7f40fa069108e7be80814d14e548a454199",
+      "bytes": 560
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/lines-table.png",
+      "sha256": "682e6f4fecef4adb214611946efc9437f6d8759c7e4a36886ef26d697c065cc9",
+      "bytes": 2062695
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/page.png",
+      "sha256": "9164125439a7da734f0f050445b1a542e148f3ebdb9f3cbc79c3e43d32912bd2",
+      "bytes": 30700386
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/timing.json",
+      "sha256": "dae11e111a0c4b362c80abc27e5aa7e0789b6cdd7a9d51aecf7a768617ec5fa0",
+      "bytes": 597
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/title-psm6.settings.json",
+      "sha256": "a59a3d5182653e0e0f90278f3f870ca9a79f2301b9d61521f17e8ea3f3285b90",
+      "bytes": 1052
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/title-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/title-psm6.tsv",
+      "sha256": "a174348857d3827cababc98ffe42ceea686b3961c8700090da991e3bbfe47406",
+      "bytes": 411
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/title-psm6.txt",
+      "sha256": "7b6e4f0c237beb92282ff66ba9d8464644f36913ba07119dc203b6b5192e3e68",
+      "bytes": 26
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/title.png",
+      "sha256": "d7a09783b88a5650a099c2925cf0f47479765d6992b848d7e09255570b9e7f6c",
+      "bytes": 1272325
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-heading-psm6.settings.json",
+      "sha256": "f578da2b460d88480147e284a0a9c939d0a788b07863773a9d32a86e3b42fc04",
+      "bytes": 1066
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-heading-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-heading-psm6.tsv",
+      "sha256": "1b9c9f6a0faccb80b0a371581e924b2d3338fb9dd43fe1763ffcb9fd01c86c16",
+      "bytes": 332
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-heading-psm6.txt",
+      "sha256": "cf9379060ddd70f3143c59ffcac7bfdc2ca89788b07edd56a87d3a44d929f6d0",
+      "bytes": 21
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-heading.png",
+      "sha256": "9a8b76d7aa229c96c62b02d7c2e1193d99ef63734ea06fc373d889d7ee82e1fc",
+      "bytes": 216779
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-left-psm6.settings.json",
+      "sha256": "0e892053312602f9b6e6c59934e48b8abde65acf82a207b84f948a7c26475280",
+      "bytes": 1060
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-left-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-left-psm6.tsv",
+      "sha256": "f074bf19bfa630f296cb50305f6a15f2e084e8b8712995ea18a2dfcc0d8f47f9",
+      "bytes": 2156
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-left-psm6.txt",
+      "sha256": "da5b3b2de9032ebebb1d4cf23c7699f0375f67d30b15bd4b7bfa0efc320bb393",
+      "bytes": 183
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-left.png",
+      "sha256": "f94e0137c1fa2132ea69fdd0d3aa9e8e9bc6448a03eceba73a8a6b427cc08b60",
+      "bytes": 900825
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-right-psm6.settings.json",
+      "sha256": "c437340c34e907e8608ac85a4578bdff50f05e6c14febb5da868d94ea0324b11",
+      "bytes": 1063
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-right-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-right-psm6.tsv",
+      "sha256": "977a48d3c3fa9e866a0bfe60582ae970d184f39ae30978aee75105c8572ba92f",
+      "bytes": 2646
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-right-psm6.txt",
+      "sha256": "7a3e08868294a1778527e6a5d24c3d4d529006d72fb08d3271375c778ff0c9d7",
+      "bytes": 223
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-116/vars-right.png",
+      "sha256": "ca9e8b43395c172cf0451ac8b26903ec5791eef8752b28d874beb78125101b3d",
+      "bytes": 1053048
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-b-psm6.settings.json",
+      "sha256": "246e6f8638ee748f8e40ddcd22a75ef0914def77a900ee39e63368ab276d597b",
+      "bytes": 1049
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-b-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-b-psm6.tsv",
+      "sha256": "202bf5b0e40c032072e2830cc37ac07083c6e7e50eae424006555ea27a2afd03",
+      "bytes": 6793
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-b-psm6.txt",
+      "sha256": "7ec5237631cf66bec682a0d0e63d922630d5bbdf2103cf54d05e2fba1763a994",
+      "bytes": 998
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-b.png",
+      "sha256": "3abec4a27df893405e1d0a3b049b5aa9a75abc411689eeb2c589ba28f92b740d",
+      "bytes": 4709917
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-c-psm6.settings.json",
+      "sha256": "7681c66189b465c7a0fbde3bd3d351a8f444d898682e4ea0d24d35fbb1397c53",
+      "bytes": 1050
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-c-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-c-psm6.tsv",
+      "sha256": "a75f605df259ef6791833a6bbb136e5e861357322955aca4154adceb489dbfab",
+      "bytes": 7252
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-c-psm6.txt",
+      "sha256": "dbb742b36ea1a2a4e2ca0a0f657cd8d4f89031a19088416c31e934a7282c35a0",
+      "bytes": 1045
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/code-c.png",
+      "sha256": "200665a16d26ea485ff71814bc3f865a6ac0a97c28915286be80a70f8b689d99",
+      "bytes": 4843320
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/eligible-page.png",
+      "sha256": "16032a7ba8439d3d771fd2cc806d03cfb353997b8bd1005afa97f79ab60d10b3",
+      "bytes": 9801534
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/evidence.json",
+      "sha256": "7095be47b1f71993dc6b61186ce0603d730109a742cc47ea98c0cc223937ec95",
+      "bytes": 2238
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/page.png",
+      "sha256": "3d61d5f91bc7008a72c19c5f05e6fa15cbb659768f85e26fefdb4bd4f72a36b3",
+      "bytes": 32976882
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/ocr-117/timing.json",
+      "sha256": "2ccf0728b9a237a9b806dc65423cd5fe93bc54b632f8e818a6ce935e07505233",
+      "bytes": 216
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/previous-issue-progress.json",
+      "sha256": "e5b2b507491a76a8d2a5b97661255c22a9d7794e4a3d6e60e41acc11285a6d4d",
+      "bytes": 14564
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/recipe.json",
+      "sha256": "f9bf9983d78e03cb9a894034cec8b84fa524ba61b201cffbd96c6a18dc0c8025",
+      "bytes": 3172
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/body-map.png",
+      "sha256": "8b9801cc26a895615cd4ddb578b72988e7dcbb474ccc3e44c940a226a17d3489",
+      "bytes": 6590280
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/byline-map.png",
+      "sha256": "d7978b13d7e0497f8746df4d976e9a845bb17592f9ed2e7f79359defe813a0eb",
+      "bytes": 288274
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/code-a-map.png",
+      "sha256": "e3d6d3548b079ca87e9126f0cf9089366e3a1895976bafb64d9400de40a20c34",
+      "bytes": 2539386
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/code-a-reviewed.txt",
+      "sha256": "483330856db5740719f6ddacc340d0aadf782c4de15a96e3275335ba9da867d7",
+      "bytes": 524
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/code-b-map.png",
+      "sha256": "3abec4a27df893405e1d0a3b049b5aa9a75abc411689eeb2c589ba28f92b740d",
+      "bytes": 4709917
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/code-b-reviewed.txt",
+      "sha256": "07b484f98ec9a758eaa67e091012f3833019aeb8650f31ea804b5776deea728a",
+      "bytes": 907
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/code-c-map.png",
+      "sha256": "200665a16d26ea485ff71814bc3f865a6ac0a97c28915286be80a70f8b689d99",
+      "bytes": 4843320
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/code-c-reviewed.txt",
+      "sha256": "29add506e9463755033dddd2b111df275560559cbce6c195eaed43cd84e65069",
+      "bytes": 871
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/deck-map.png",
+      "sha256": "7f501cd9df58eef6ddf13cb7f1e10aa0a50aa86b2abff0c39fe5c99ac25da694",
+      "bytes": 1146612
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/emblem-map.png",
+      "sha256": "5d02398d49f6a5aaf2d56ac988e0d8eec150f32881ffeb09eac73a25fee201c9",
+      "bytes": 12744
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/lines-heading-map.png",
+      "sha256": "24f9df83f950f9f28f96624d375787bc47dbb65f5a3d0cc906e213cb96bde976",
+      "bytes": 240097
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/lines-note-map.png",
+      "sha256": "32ff7542f82b52799df58e4aa71d14cd4328ebcab362f5156bc50b105306dbd2",
+      "bytes": 176874
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/lines-table-map.png",
+      "sha256": "682e6f4fecef4adb214611946efc9437f6d8759c7e4a36886ef26d697c065cc9",
+      "bytes": 2062695
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/listing-review.json",
+      "sha256": "f9b303c714a7801237df86a360373d1b558d8712590b8be1236f47093bee269d",
+      "bytes": 19061
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/location-115.png",
+      "sha256": "3abbddda65a51c3e261ad67b398c90c7f597641825bf04c7ca4df544f084d55a",
+      "bytes": 3446228
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/location-116.png",
+      "sha256": "fec8a92046ab061aadb2b7df7c2a79bf9c669b845ff0a2f36dc61ff9dec2901f",
+      "bytes": 3504050
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/location-117.png",
+      "sha256": "7b47abe20020accaea232cb893b80725fbe6f41a4d02863766fb3bb5e25a4fd5",
+      "bytes": 3710489
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/location-118.png",
+      "sha256": "749099ecf470ad76b15d97fceee287aaea527be78c1f44dc2afdec8ddb69dbb4",
+      "bytes": 3578715
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/map-atlas.jpg",
+      "sha256": "9d78bd824da6117a0b8ebf978f5b865db160ad8cf86d02cb84dc45c202131e0d",
+      "bytes": 1103821
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/quoted-blank-1370.png",
+      "sha256": "5a88e43fe8f8dbe8f6c9eea2144ef131a8ba1d419a662e5d405fd33dd7d5ffde",
+      "bytes": 140685
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/title-map.png",
+      "sha256": "d7a09783b88a5650a099c2925cf0f47479765d6992b848d7e09255570b9e7f6c",
+      "bytes": 1272325
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/vars-heading-map.png",
+      "sha256": "9a8b76d7aa229c96c62b02d7c2e1193d99ef63734ea06fc373d889d7ee82e1fc",
+      "bytes": 216779
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/vars-left-map.png",
+      "sha256": "f94e0137c1fa2132ea69fdd0d3aa9e8e9bc6448a03eceba73a8a6b427cc08b60",
+      "bytes": 900825
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review/vars-right-map.png",
+      "sha256": "ca9e8b43395c172cf0451ac8b26903ec5791eef8752b28d874beb78125101b3d",
+      "bytes": 1053048
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/review-listing.py",
+      "sha256": "6ab16fa9a5056db0a8cd732655473f6b1baff6f64a76accfb6985b0552b71a6e",
+      "bytes": 4106
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/save-review.py",
+      "sha256": "051047c7ec4d9c6155d8cf99bcafb7e16ea5b17c0f4b4fff8a69234864e9f563",
+      "bytes": 13388
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/scope.json",
+      "sha256": "182229fc5e3ca23c5e2479a4b3941c1336ac5941e91e8602ea73464a5ea6ec42",
+      "bytes": 762
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/validation.json",
+      "sha256": "69e733bbcad13aca15511804fcb0844ff9a620d243a917057cb01ca11c9500e8",
+      "bytes": 16932
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-02/verify-review.py",
+      "sha256": "f0e106f8f56d1a1e54cf9c6cb4b556d48c9b3003c3964ead465a97b9738f10f8",
+      "bytes": 9791
+    }
+  ],
+  "findings": [
+    "Complete article on printed 116-117; separate mathematics on 115, FORTRAN opening on 118, and lower-page 117 advertisement excluded.",
+    "All 79 text-bearing physical listing rows and 41 numbered entries are source-compared. The 1090 cross-page continuation stays an unnumbered physical row.",
+    "Two reference tables retain 18 rows/36 cells with row-local ranges and source pins, including literal 1180~1120.",
+    "One unclear trailing comment mark at 1220 remains visible as a marker with unknown original glyph/count. Apparent code mistakes are retained; program execution is unverified.",
+    "All 62 native files match a separate fresh-process export without new OCR; fourteen source crops are pixel-exact and six invalid accounting cases reject.",
+    "Existing editorial, cleanup metadata, shared implementation and PLAN-OCR.md/PLAN-PDF.md remain unchanged."
+  ],
+  "limitations": [
+    "One unclear comment-tail mark remains explicit; original glyph/count and encoding are unverified.",
+    "Source code retains apparent printed anomalies and is not execution-verified.",
+    "This sample qualifies a small two-page listing, two unruled reference tables and an ending emblem; complex ruled tables, diagrams and captions need their own source review.",
+    "Human acceptance and complete character-perfect proofreading remain unverified."
+  ],
+  "next": "R03: establish the full extent of 애플 포트란 (maso-1984-11-toc-0015), whose opening is confirmed on printed/source 118; verify its end and neighboring boundary before mapping, within six mapped pages and twenty lookup pages."
+}

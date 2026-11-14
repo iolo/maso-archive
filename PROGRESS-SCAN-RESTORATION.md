@@ -1,10 +1,10 @@
 # Donated scan restoration progress
 
-Updated 2026-11-14. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
+Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00 and R01 complete: one November 1984 article is readable/sample-reviewed.** The 24 cleaned source sets
+**R00–R02 complete: two November 1984 articles are readable/sample-reviewed.** The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -17,7 +17,7 @@ body counts and per-article availability remain undetermined.
 | --- | --- | --- |
 | R00 — scan input integration | Passed | 246 pinned JPEG inputs, forty TOC identities, shared OCR/native export and PDF regressions checked |
 | R01 — November short prose pilot | Passed | Editorial on printed/source page 17; all 29 export files reproduce exactly |
-| R02 — contrasting November layout | Not started | Qualify listing/table/figure handling before scaling |
+| R02 — contrasting November layout | Passed for this sample | Two-page BASIC article; 79 listing rows, 36 table cells and 62 reproducible files |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -70,6 +70,27 @@ disposition. This does not complete November or qualify listing/table handling.
 See the [editorial result](metadata/catalog/scan-restoration/1984-11-editorial.json)
 and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 
-Next: **R02**, a bounded November listing/table/figure sample. The TOC's 비트 패턴
-reference 116 is a candidate; locate its actual extent before mapping or OCR.
-Keep batch history in the issue record and the cleanup index unchanged.
+## R02 completed — 2026-11-15
+
+Restored 비트 패턴 on printed/source pages 116–117. The shared mapped Tesseract
+pipeline produced thirteen raw region outcomes. All fourteen eligible regions,
+79 text-bearing listing rows, 41 numbered entries and 36 table cells were
+source-compared. The 1090 cross-page wrap, quoted blanks, printed anomalies and
+one unclear trailing comment mark remain explicit. No program was executed.
+
+All 62 native JSON/assets files reproduce exactly in a separate process without
+OCR. Fourteen crops match independent source pixels; six invalid range/cell/wrap
+cases reject. Existing editorial evidence, cleanup records, implementation and
+shared OCR/PDF plans remain unchanged; the existing 214 PDF plus three JPEG test
+baseline is retained rather than rerun for this data-only batch.
+
+Two articles are readable/sample-reviewed; 38 canonical identities await
+disposition. This sample establishes a small listing and two unruled reference
+tables; complex tables, diagrams and captions still need case-specific review.
+See the [Bit Pattern result](metadata/catalog/scan-restoration/1984-11-bit-pattern.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+
+Next: **R03**, establish the full extent of 애플 포트란, beginning on confirmed
+printed/source 118. Verify the ending and neighboring boundary before mapping.
+The issue remains in progress; JPEG segment assembly and issue export integration
+remain pending before their first use.

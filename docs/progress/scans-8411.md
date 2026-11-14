@@ -4,8 +4,8 @@
 
 ## Current outcome
 
-Forty canonical TOC identities are queued: one readable/sample-reviewed article
-and 39 awaiting disposition. The complete editorial `maso-1984-11-toc-0034` is
+Forty canonical TOC identities are queued: two readable/sample-reviewed articles
+and 38 awaiting disposition. The complete editorial `maso-1984-11-toc-0034` is
 restored from printed/source page 17, between
 an advertisement (16) and the separate Apple machine-language feature (18).
 All three boundary views were inspected; no global filename/folio offset follows.
@@ -79,3 +79,54 @@ historical claims remain unverified. Listing/table handling, JPEG segment
 assembly, whole-issue export and the remaining November identities are pending.
 Next: R02; locate a bounded listing/table/figure example, with 비트 패턴 at canonical
 reference 116 as a candidate, then record its exact source extent and batch scope.
+
+## R02 — Bit Pattern, 2026-11-15
+
+`maso-1984-11-toc-0014` is complete and readable/sample-reviewed from printed
+116–117. Confirmed the visible folios, previous mathematics ending on 115 and
+separate FORTRAN opening on 118. The lower-page 117 bookstore advertisement,
+repeated running headers and folios are excluded. Two mapped images and two
+boundary lookups stay inside the saved batch limit.
+
+The existing mapped Tesseract pipeline processed thirteen text/code regions at
+6000-pixel bounded scale, with 8.282 summed engine seconds. There were no failed
+regions, OCR retries, crop repairs or engine switches. Its small listing font
+produced many draft errors; one source-comparison pass covers all fourteen
+eligible regions, including every text-bearing code row and table cell.
+
+The native retains nine reading blocks, one original ending emblem, three source
+listing panels, 79 physical rows and 41 numbered entries (1000–1400). Physical
+wraps remain intact, including the continuation of 1090 at the top of 117.
+Two unruled reference tables contain eighteen rows/thirty-six indexed cells;
+row-local construction prevents repeated text from pointing to another cell.
+The printed reversed range 1180~1120 and literal PROGRAMER, ADRESS, DELET and
+THENWDELSE1390 remain unchanged. Quoted blanks and a 1220 unclear-tail marker have
+source-linked ranges; original glyph/count and encoded bytes remain unverified.
+No source code was repaired by syntax expectations or executed.
+
+All 62 files in `archive/scans/1984-11/packages/bit-pattern-r01/` match a separate
+fresh-process export without new OCR. Independent decoding/cropping proves all
+fourteen source-region pixels; exact regional text, table cells, physical and
+logical rows, quoted fields and the cross-page wrap validate. Six rejection
+cases cover dropped rows, reused cells, wrong scans, lost continuation, altered
+quoted blanks and wrong printed line numbers. Prior editorial evidence, source
+masters, cleanup metadata, implementation and shared plans remain exact.
+The unchanged 214-PDF/three-JPEG test baseline is retained for this data-only work.
+
+Maps, raw OCR, correction/index records, original crops, listing-review scripts,
+validation and the session-cleanup preview are preserved under
+`archive/scans/1984-11/restoration/batch-02/`. No broad session deletion ran.
+Elapsed time includes review, tool/conversation waits and interruption; active
+review time was not separately measured.
+
+Tracked result: [1984-11-bit-pattern.json](../../metadata/catalog/scan-restoration/1984-11-bit-pattern.json).
+Native reproduction and validation commands are in the private `validation.json`.
+The small ending emblem has no caption; complex illustrations, captions and ruled
+tables are not certified by this sample. Human acceptance, character-perfect
+proofreading and execution remain unverified. November is incomplete: two readable
+articles and 38 canonical identities awaiting disposition.
+
+Next: R03, verify the actual ending and neighboring boundary of 애플 포트란
+(`maso-1984-11-toc-0015`), whose opening is confirmed on printed/source 118.
+Map at most six source views after that location check. JPEG segment assembly
+and whole-issue export remain pending before they are required.

@@ -2,12 +2,12 @@
   "schema_version": 1,
   "issue_id": "maso-1984-11",
   "status": "in-progress",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 1,
+  "readable_articles": 2,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 39,
+  "identitiesAwaitingDisposition": 38,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -164,10 +164,75 @@
       "page_candidates": [
         116
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "source_views": [
+        {
+          "source_index": 119,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-116.jpg",
+            "sha256": "38e7bc63fc841209dc8aebb4149000a24490bc593db2c8a54e24aa1d14fd29b7",
+            "bytes": 8267301
+          },
+          "width_px": 4735,
+          "height_px": 6924,
+          "reading_order": 118,
+          "source_filename_number": 116,
+          "printed_page": "116",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 120,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-117.jpg",
+            "sha256": "ace134cd927ca4a99c9ccdf0e8e471cdec60ce47d78100e8da67f26471f8dc7d",
+            "bytes": 9236521
+          },
+          "width_px": 4733,
+          "height_px": 6921,
+          "reading_order": 119,
+          "source_filename_number": 117,
+          "printed_page": "117",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/bit-pattern-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/bit-pattern-r01/manifest.json",
+          "sha256": "c67a559486692bb041edb19a2dff7d909756ed0c7121b2f7f9a9fcfc5c520bcc",
+          "bytes": 9914
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-02/validation.json",
+          "sha256": "69e733bbcad13aca15511804fcb0844ff9a620d243a917057cb01ca11c9500e8",
+          "bytes": 16932
+        }
+      ],
+      "limitations": [
+        "One unclear comment-tail mark remains explicit; original glyph/count and encoding are unverified.",
+        "Source code retains apparent printed anomalies and is not execution-verified.",
+        "This sample qualifies a small two-page listing, two unruled reference tables and an ending emblem; complex ruled tables, diagrams and captions need their own source review.",
+        "Human acceptance and complete character-perfect proofreading remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0015",
@@ -517,5 +582,5 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R02: locate and bound a November listing/table/figure example; candidate 비트 패턴 (canonical page reference 116) needs visual extent confirmation before mapping or OCR."
+  "next": "R03: establish the full extent of 애플 포트란 (maso-1984-11-toc-0015), whose opening is confirmed on printed/source 118; verify its end and neighboring boundary before mapping, within six mapped pages and twenty lookup pages."
 }
