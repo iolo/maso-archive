@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "issue": "1984-02",
+  "completedOn": "2026-11-14",
+  "status": "cleanup-checked-with-recorded-uncertainties",
+  "output": "archive/scans/1984-02",
+  "summary": {
+    "entries": 992,
+    "imageEntries": 496,
+    "sidecars": 496,
+    "notes": 0,
+    "uniqueImages": 248,
+    "duplicateImages": 248,
+    "imageBytes": 1756108252,
+    "orderedImages": 248,
+    "extras": 0,
+    "filenameRange": [
+      1,
+      246
+    ],
+    "filenameGaps": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "decodedImages": 248,
+    "contactSheets": 9
+  },
+  "sourceArchives": [
+    {
+      "path": "maso-img/마이크로소프트웨어_004호_1984_02-20261023T064212Z-1-001.zip",
+      "bytes": 1808127287,
+      "sha256": "6a390f2f2504d883f3582fbdab0d531a461a32a4abe46508d200a7f12be1e601",
+      "sha256After": "6a390f2f2504d883f3582fbdab0d531a461a32a4abe46508d200a7f12be1e601",
+      "crcRead": "all-entries-passed"
+    },
+    {
+      "path": "maso-img/마이크로소프트웨어_004호_1984_02-20261023T064212Z-1-002.zip",
+      "bytes": 1704936050,
+      "sha256": "743afc33954c52e7c1481a9e19541e0b190208add3b53ffb64cd1c0a71d18f14",
+      "sha256After": "743afc33954c52e7c1481a9e19541e0b190208add3b53ffb64cd1c0a71d18f14",
+      "crcRead": "all-entries-passed"
+    }
+  ],
+  "validation": {
+    "issue": "1984-02",
+    "result": "passed",
+    "manifestSha256": "33ba96b0788750038cf237c0ca7268e4a85879f07e8e188361e183be9567b90e",
+    "sourceArchives": 2,
+    "sourceEntriesChecked": 992,
+    "uniqueImageHashesChecked": 248,
+    "duplicateImageEntriesChecked": 248,
+    "sidecarsAccounted": 496,
+    "contactSheetHashesChecked": 9,
+    "originalZipHashesUnchanged": true,
+    "readingOrderContiguous": true,
+    "pageListRows": 248,
+    "reviewMappingsChecked": true
+  },
+  "visualReview": {
+    "overviewViewed": true,
+    "printedPageSamplesChecked": 8,
+    "fullPaginationVerified": false,
+    "findings": [
+      "Front cover visibly identifies February 1984. All four cover faces were checked in the shared cover preview; no separate spine scan is present.",
+      "Source filenames 13-16 are absent. Source slots 11 and 12 are unusually wide 8541 by 7006 pixel scans, showing a multi-panel TOC and an AMD seminar advertisement. Both were inspected separately at larger scale and preserved intact; the filename gap is not treated as four proven missing physical pages.",
+      "Source slot 242 is a sideways subscription card; two separately named payment-slip scans follow its source anchor. Their printed page numbers remain unset and rotation is deferred to derivatives.",
+      "All 248 retained images were included in the viewed overview. Several scans show folds or fading. No additional gross ordering anomaly was apparent; eight enlarged printed-number samples match their filenames."
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "docs/SCAN-ISSUE-1984-02.md",
+      "bytes": 3229,
+      "sha256": "857fd76d014821504baee26e08894fb6527581126e0df2d78cd88d090fa4d8bb"
+    },
+    {
+      "path": "metadata/catalog/scans/1984-02-recipe.json",
+      "bytes": 1418,
+      "sha256": "5041123a0745d2711fe409ae001b0f9dcde56f9be91b5ad484590d35d6fd1ee0"
+    },
+    {
+      "path": "tools/scan_campaign.py",
+      "bytes": 20955,
+      "sha256": "31cddabb9c2eeae531d737a0dde3e7a6bcb9b8af6564ffd74dcdcc346894f90a"
+    },
+    {
+      "path": "tools/scan_cleanup.py",
+      "bytes": 13926,
+      "sha256": "c9c3c12868924a9a70f20d3e9dc004297fabf7d42f03551835993d20f8e4df04"
+    },
+    {
+      "path": "archive/scans/1984-02/README.md",
+      "bytes": 1716,
+      "sha256": "40dfd0a3cbbd5df8cb072ad38925bbe3377b686d518f9ccd41542cf37cdb35f7"
+    },
+    {
+      "path": "archive/scans/1984-02/manifest.json",
+      "bytes": 470615,
+      "sha256": "33ba96b0788750038cf237c0ca7268e4a85879f07e8e188361e183be9567b90e"
+    },
+    {
+      "path": "archive/scans/1984-02/page-list.csv",
+      "bytes": 29855,
+      "sha256": "4900878015e9548429ddbbd6986b565ae3433026eed1c30723c7063edea2d25c"
+    },
+    {
+      "path": "archive/scans/1984-02/review/decisions.json",
+      "bytes": 1284,
+      "sha256": "cf88000a903e07dedc01024cef39ce12a49ab55dbdbeace160a62a0c3d7f993f"
+    },
+    {
+      "path": "archive/scans/1984-02/review/overview.jpg",
+      "bytes": 2412094,
+      "sha256": "2cbb4c6ce9af61546cee994cd9ee3ee46986c4ff66dcec8733406dbe45a1046c"
+    },
+    {
+      "path": "archive/scans/1984-02/review/page-011.jpg",
+      "bytes": 286217,
+      "sha256": "1bcd6a2c0981ecabf4901b6937d6136834a6655e2ba06f001e8d4ca66583092b"
+    },
+    {
+      "path": "archive/scans/1984-02/review/page-012.jpg",
+      "bytes": 315021,
+      "sha256": "eb99791d9b3a390d7c6e9920040192eb3032ccb69a66af2a30d6da833077274d"
+    },
+    {
+      "path": "archive/scans/1984-02/review/page-242.jpg",
+      "bytes": 355972,
+      "sha256": "510e030e093ae57705ce07249650238f5d3ef89bf80a81040712f1a3c76dc46e"
+    },
+    {
+      "path": "archive/scans/1984-02/review/pagination-crops.json",
+      "bytes": 3658,
+      "sha256": "9dcb2e536898682e818db64d14baac7c2d1842035762a28d908cec2a00ca72a7"
+    },
+    {
+      "path": "archive/scans/1984-02/review/pagination-samples.jpg",
+      "bytes": 213146,
+      "sha256": "afa6e4e740ad7f3d058953325b6da798ed59c964c8b7a336ed7ff42ea15673a6"
+    },
+    {
+      "path": "archive/scans/1984-02/review/verification.json",
+      "bytes": 453,
+      "sha256": "771411d5e88221b4a80e7ec71784f4ebc8c968d5cb36501bd19b5b0279706892"
+    },
+    {
+      "path": "archive/scans/1984-02/review.json",
+      "bytes": 4306,
+      "sha256": "0431349e2fa425912c5c0fd93d16cff31c209aa26df042b24ceb921ac8d4f72f"
+    },
+    {
+      "path": "archive/scans/1984-02/summary.json",
+      "bytes": 336,
+      "sha256": "722a5faaff5edf537c551b06011216912eb26680e954dcc7ddd48b91ebab7027"
+    }
+  ]
+}
