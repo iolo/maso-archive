@@ -1,7 +1,8 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R04 are complete; November issue restoration continues. Track execution in
+R00–R05 are complete; the active goal is to restore all November 1984 articles.
+Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
 ## Aim
@@ -251,12 +252,15 @@ restored JSON/assets and faithful source evidence first.
 | R02 — contrasting layout | Bounded November listing/table/figure sample and its evidence | Rows/cells/assets/continuations accounted for; any failed prerequisite repaired before scaling |
 | R03 — Apple FORTRAN | Complete final installment, compiler/symbol/output fields and original plot | 231 identical native files, 355 indexed table cells, explicit source uncertainty |
 | R04 — contest commentary | Complete two-page commentary, entrant table and recovery evidence | 45 identical files, 40 indexed cells, exact continuation joins and bounded OCR retry |
+| R05 — Basic Techniques | Complete final installment, independent listings and history table | 118 identical files, six captioned contexts, 58 numbered entries and 21 history cells |
 
-Immediate next action: **R05**, locate 기초 테크닉 코너 at reference 122 and
-verify its ending and neighbors before mapping at most six source views.
+Immediate next action: **R06**, inspect the original November contents pages to
+classify apparent section headings and establish feature ownership/location.
+Then continue the remaining articles in bounded batches through issue closeout.
 R01 delivered the editorial; R02 Bit
 Pattern; R03 the complete four-page Apple FORTRAN installment with separate
 compiler/output/symbol contexts and an original plotted figure; R04 the two-page
-contest commentary and nine-entrant table. November remains
+contest commentary and nine-entrant table; R05 the three-page final Basic
+Techniques installment and its six code examples. November remains
 in progress. JPEG segment assembly and whole-issue export remain to be checked
 before their first use.

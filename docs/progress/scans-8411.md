@@ -4,9 +4,9 @@
 
 ## Current outcome
 
-Forty canonical TOC identities are queued: four articles have reproducible
-JSON/assets packages in the project's schema, and 36 await disposition.
-All four packages are assistant sample-reviewed. Restoration preserves logical
+Forty canonical TOC identities are queued: five articles have reproducible
+JSON/assets packages in the project's schema, and 35 await disposition.
+All five packages are assistant sample-reviewed. Restoration preserves logical
 structure, content/assets and source evidence independently of presentation;
 the web reading room is a sample consumer. The existing `readable` availability
 value is separate from the exact package rebuild checks recorded below.
@@ -241,3 +241,62 @@ November now has four reproducible article packages and 36 canonical identities 
 disposition. Next: R05, verify the ending and neighbors of 기초 테크닉 코너
 (`maso-1984-11-toc-0016`, reference 122) before mapping at most six source views.
 JPEG segment assembly and whole-issue export still need integration before use.
+
+## R05 — final Basic Techniques installment, 2026-11-15
+
+The goal now covers every November article. `maso-1984-11-toc-0016`, 기초 테크닉
+코너 / —시작과 끝—, is complete on actual folios 122–124, with 마지막회 and
+끝내면서 confirming its final-installment scope. The preceding FORTRAN ending
+on 121 and advertisement on 125 establish boundaries. Three mapped source images
+and two boundary lookups remain within the checkpoint limit. Views 126/127 were
+prepared during location work but not inspected or used to infer article extent.
+
+All 27 mapped Tesseract tasks completed successfully in 13.812 summed engine
+seconds. No OCR retry, map refinement or engine switch occurred. One source
+comparison pass covers all 28 eligible regions, every text-bearing code row,
+caption and history cell. Twenty-five schema-based blocks retain six independent
+listing contexts. Their repeated numbers remain local to each example: 58
+numbered entries, 64 text-bearing physical rows and two visible blank rows.
+The quotation wraps and the wrapped zero under listing 1-1 line 70 remain
+continuations. Six caption associations and three SPC-1000 variant associations
+preserve source relationships. Seven history rows retain 21 indexed cells.
+
+The prose joins preserve 위/치에 across columns and 성원/해준 before the final
+emblem. Source 쉽상이다, 깨끗히, 스윗치/스위치, 지우고저, 게제, the history's
+에니메이션 and comma/period date differences remain unchanged. The historical
+Matt.2:5-7 attribution is retained without external correction. Two large
+quotation blank runs have unknown counts; eight dot-matrix LO occurrences carry
+local O/0 candidates. Other original bytes, spacing widths, historical claims,
+execution and human acceptance remain unverified. The ending emblem is an
+original image without interpreted text or caption.
+
+An index guard caught substring LO matches inside COLOR before writing the
+recipe. That failed generator and two rejected recipe-missing export invocations
+are recorded; neither produced a native package. The independent verifier's
+boundary list then needed newline/comma cases for actual standalone identifiers.
+Both earlier verifiers are retained. These repairs changed index construction
+or checking only; no source reading, OCR or selected export was replaced.
+
+All 118 files at `archive/scans/1984-11/packages/basic-techniques-r01/` match a
+fresh-process export from frozen reviewed inputs, without a presentation build.
+All 28 source crops are pixel-exact. Complete regional ranges, six listing byte
+partitions, physical/logical rows, captions, variant links, twelve quoted fields,
+21 history cells and ten local uncertainty records validate. Twelve rejection
+cases include context collapse, a fabricated wrapped-zero number, lost wraps,
+wrong captions/variants, altered history cells, inferred blank counts, truncation,
+invented emblem captions, wrong source pins and LO redirected inside COLOR.
+The prior four packages/evidence, cleanup metadata, original scans, shared tools
+and OCR/PDF plans remain exact. The existing PDF/JPEG test baseline is reused.
+
+Raw OCR, source readings, maps, retained preflights, reproduction scripts,
+validation and cleanup preview are preserved under
+`archive/scans/1984-11/restoration/batch-05/`; its evidence manifest pins every
+retained batch file except itself. No broad deletion ran. Checkpoint wall time
+includes review, tool waits, verification and exports; active review time was
+not separately measured.
+
+Tracked result: [1984-11-basic-techniques.json](../../metadata/catalog/scan-restoration/1984-11-basic-techniques.json).
+Five reproducible article packages are complete; 35 canonical identities await
+disposition. Next: R06, inspect the original contents pages to classify apparent
+section headings and establish feature ownership/location before further mapping.
+JPEG segment assembly and whole-issue export remain pending before their use.

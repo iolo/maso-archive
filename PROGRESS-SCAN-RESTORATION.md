@@ -4,8 +4,8 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R04 complete: four November 1984 articles have reproducible JSON/assets
-packages in the project's schema.** All four are assistant sample-reviewed. The 24 cleaned source sets
+**R00–R05 complete: five November 1984 articles have reproducible JSON/assets
+packages in the project's schema.** All five are assistant sample-reviewed. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -28,6 +28,7 @@ labels and the preserved exports retain their existing values.
 | R02 — contrasting November layout | Passed for this sample | Two-page BASIC article; 79 listing rows, 36 table cells and 62 reproducible files |
 | R03 — final Apple FORTRAN installment | Passed for this sample | Four pages; compiler/symbol/output contexts, 355 table cells and 231 reproducible files |
 | R04 — contest commentary | Passed for this sample | Two pages; three continuation joins, 40 table cells and 45 reproducible files |
+| R05 — final Basic Techniques installment | Passed | Three pages; six captioned code contexts, 58 numbered entries, 21 history cells and 118 reproducible files |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -161,3 +162,32 @@ The four completed pilots already include structured JSON/assets, provenance,
 corrections, source-linked ranges and exact fresh-process rebuild evidence.
 Availability, review level and reproduction remain separate properties. This
 documentation correction does not alter schema enums or preserved packages.
+
+## R05 completed — 2026-11-15
+
+The active goal now covers all November 1984 articles. Restored the complete
+기초 테크닉 코너 final installment, —시작과 끝—, on actual folios 122–124.
+The package preserves 25 structured blocks, six separate captioned listing
+contexts, three SPC-1000 variant relationships, 64 text-bearing code rows,
+two visual blank rows, 58 numbered entries and seven history rows/21 cells.
+Two prose joins retain the column and closing-line continuations. Original
+wording, punctuation and historical claims remain unchanged. Two quotation
+blank-run counts and eight LO identifier glyph candidates remain explicit.
+
+All 118 JSON/assets files match a fresh-process rebuild without OCR or a
+presentation build. All 28 crops match source pixels; twelve invalid cases
+reject. Twenty-seven OCR tasks completed in 13.812 summed engine seconds,
+with no failed tasks or retries. One index-construction repair and two verifier
+boundary repairs occurred before acceptance; the failed preflights are retained.
+Two premature export commands rejected without output because the recipe had
+not yet passed its index guard. Selected package text never changed after export.
+
+Prior four packages/evidence, original scans, cleanup records, shared tools and
+OCR/PDF plans remain exact. The unchanged PDF/JPEG regression baseline is reused
+for this data-only checkpoint. Five reproducible article packages are complete;
+35 canonical identities await disposition. Human acceptance, exact original
+encoding/typesetting and execution remain unverified.
+
+See [Basic Techniques result](metadata/catalog/scan-restoration/1984-11-basic-techniques.json).
+Next: **R06**, inspect the original contents pages to classify apparent section
+headings and establish feature ownership/location before the next article batch.

@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 4,
+  "readable_articles": 5,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 36,
+  "identitiesAwaitingDisposition": 35,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -359,10 +359,94 @@
       "page_candidates": [
         122
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "source_views": [
+        {
+          "source_index": 125,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-122.jpg",
+            "sha256": "deb967bb8a09096bb4e0871ad58cc331f01772663e062efe5397d921c1534535",
+            "bytes": 8940015
+          },
+          "width_px": 4735,
+          "height_px": 6920,
+          "reading_order": 124,
+          "source_filename_number": 122,
+          "printed_page": "122",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 126,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-123.jpg",
+            "sha256": "7fdc1d23e4a2237fe7e790686e67cb08499d6a8d9d4dfc64dd3dbd89b14b73fc",
+            "bytes": 9300405
+          },
+          "width_px": 4730,
+          "height_px": 6919,
+          "reading_order": 125,
+          "source_filename_number": 123,
+          "printed_page": "123",
+          "image_to_upright_normalized": [
+            0.00021141649048625792,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 127,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-124.jpg",
+            "sha256": "58db1483fb807c874c50278faff00dc1d8848fb18a1c1a7ffc0c42df8268e881",
+            "bytes": 8676370
+          },
+          "width_px": 4753,
+          "height_px": 6920,
+          "reading_order": 126,
+          "source_filename_number": 124,
+          "printed_page": "124",
+          "image_to_upright_normalized": [
+            0.00021039343572480537,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/basic-techniques-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/basic-techniques-r01/manifest.json",
+          "sha256": "c76d980cfea1d20b02a378af3c6cf30f09ca7bc886fadb6ddbc8ebd46941df60",
+          "bytes": 19034
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-05/validation.json",
+          "sha256": "72fa42c168a9d3004a8ba95e3b6bb518aa9376b372e8550000254cef1331e45a",
+          "bytes": 32649
+        }
+      ],
+      "limitations": [
+        "Two quotation attribution blank-run counts remain unresolved; eight LO identifier glyphs retain local O/0 candidates.",
+        "Original encoded bytes, exact typesetting whitespace, source claims, execution and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0017",
@@ -757,5 +841,5 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R05: locate 기초 테크닉 코너 (maso-1984-11-toc-0016, canonical reference 122); verify its ending and adjacent material before mapping at most six source views."
+  "next": "R06: inspect the original November contents pages to classify apparent section headings and establish feature ownership/location before the next article batch; preserve all canonical identities."
 }

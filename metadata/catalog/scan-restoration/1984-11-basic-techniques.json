@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R05",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0016",
+  "title": "기초 테크닉 코너",
+  "printed_subtitle": "—시작과 끝—",
+  "outcome": "reproducible schema-based article package",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/basic-techniques-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/basic-techniques-r01/manifest.json",
+    "sha256": "c76d980cfea1d20b02a378af3c6cf30f09ca7bc886fadb6ddbc8ebd46941df60",
+    "bytes": 19034
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-05/validation.json",
+    "sha256": "72fa42c168a9d3004a8ba95e3b6bb518aa9376b372e8550000254cef1331e45a",
+    "bytes": 32649
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-05/evidence-manifest.json",
+    "sha256": "04c20175051d6c6444ed3676cf359e7f0e7bf6aa5383a977244d81f43327b5c1",
+    "bytes": 46281
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-122.jpg",
+      "sha256": "deb967bb8a09096bb4e0871ad58cc331f01772663e062efe5397d921c1534535",
+      "bytes": 8940015
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-123.jpg",
+      "sha256": "7fdc1d23e4a2237fe7e790686e67cb08499d6a8d9d4dfc64dd3dbd89b14b73fc",
+      "bytes": 9300405
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-124.jpg",
+      "sha256": "58db1483fb807c874c50278faff00dc1d8848fb18a1c1a7ffc0c42df8268e881",
+      "bytes": 8676370
+    }
+  ],
+  "printed_folios": [
+    "122",
+    "123",
+    "124"
+  ],
+  "summary": {
+    "sourceImages": 3,
+    "lookupImages": 2,
+    "mappedRegions": 28,
+    "rawOcrTasks": 27,
+    "readingBlocks": 25,
+    "originalFigures": 1,
+    "regionalTextRanges": 27,
+    "explicitJoins": 2,
+    "listingContexts": 6,
+    "listingCaptions": 6,
+    "variantAssociations": 3,
+    "physicalRows": 66,
+    "textBearingPhysicalRows": 64,
+    "visualBlankRows": 2,
+    "numberedEntries": 58,
+    "quotedFields": 12,
+    "quotedSingleBlankFields": 8,
+    "historyRows": 7,
+    "historyCells": 21,
+    "localUncertaintyMarkers": 10,
+    "packageFiles": 118
+  },
+  "inputIntegrationCommit": "f74c4884",
+  "previousCheckpointCommit": "9d04c280",
+  "implementationUnchanged": true,
+  "attempts": {
+    "ocrTasks": 27,
+    "ocrFailures": 0,
+    "ocrRetries": 0,
+    "sourceCorrectionPasses": 1,
+    "mapRefinements": 0,
+    "indexPreflightRepairs": 1,
+    "exportPreflightRejected": 2,
+    "validatorBoundaryRepairs": 2,
+    "engineChanges": 0
+  },
+  "ocrSeconds": 13.812239229002444,
+  "findings": [
+    "Actual folios 122-124 form the complete final installment, bounded by Apple FORTRAN on 121 and an advertisement on 125.",
+    "Six independent captioned code contexts retain 64 text-bearing rows, two visual blank rows, 58 numbered entries and three SPC-1000 variant relationships.",
+    "Wrapped quote text and the standalone wrapped zero remain inside their original numbered statement; no line numbers invented.",
+    "Seven history rows retain 21 literal cells; comma/period differences and source wording remain unchanged.",
+    "All 118 native files reproduce exactly from frozen reviewed inputs; 28 pixel-exact crops and twelve rejected invalid cases pass.",
+    "Index/validator preflights are preserved. No OCR retries, engine switches, source-text refinement after export or shared implementation changes."
+  ],
+  "limitations": [
+    "Two quotation attribution blank-run counts remain unresolved; eight LO identifier glyphs retain local O/0 candidates.",
+    "Original encoded bytes, exact typesetting whitespace, source claims, execution and human acceptance remain unverified."
+  ],
+  "next": "R06: inspect the original November contents pages to classify apparent section headings and establish feature ownership/location before the next article batch; preserve all canonical identities."
+}
