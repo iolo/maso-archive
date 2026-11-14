@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R03",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0015",
+  "title": "애플 포트란",
+  "status": "readable/sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/apple-fortran-r02",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/apple-fortran-r02/manifest.json",
+    "sha256": "ad07bd25659391b55ffd4bf9dbd6db64f4e2d02135d11e2379f6df886fc9d77f",
+    "bytes": 39403
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-03/validation.json",
+    "sha256": "a49b19ed5620a0b13909ecdb642c96350a78bff34cc1068372d6cf1fa8f7fdec",
+    "bytes": 61545
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-03/evidence-manifest.json",
+    "sha256": "b584046353de30d1e4d9b69361e951a95f37cce7dc62f2fad4cc211032727559",
+    "bytes": 150953
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-118.jpg",
+      "sha256": "8a2c4de3dd7e2faf1e40a83c10a4db216ef28ba3460bc9c93a954a6097a78860",
+      "bytes": 8690321
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-119.jpg",
+      "sha256": "77ddf0a668774010c206a76cf909b5b8fac659b9e40d65e36a829f3d40622b1b",
+      "bytes": 8731912
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-120.jpg",
+      "sha256": "5d139fffc1dc379cdf90ecb4010ebc1d64bb6205bc43e37b4d5b7e0e44f886d9",
+      "bytes": 7994777
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-121.jpg",
+      "sha256": "12d0f33eead4489d8eff6b5757ba6cb08309317d94e8c6300dd228c2e01e49c5",
+      "bytes": 8647191
+    }
+  ],
+  "printed_folios": [
+    "118",
+    "119",
+    "120",
+    "121"
+  ],
+  "summary": {
+    "sourceImages": 4,
+    "lookupImages": 2,
+    "mappedRegions": 57,
+    "rawOcrTasks": 55,
+    "readingBlocks": 50,
+    "codeBlocks": 9,
+    "codePhysicalTextRows": 78,
+    "compilerRows": 33,
+    "symbolRows": 27,
+    "numericOutputRows": 25,
+    "numericOutputCells": 100,
+    "tables": 8,
+    "tableRows": 90,
+    "tableCells": 355,
+    "blankCells": 56,
+    "argumentMappingRows": 12,
+    "originalFigures": 2,
+    "localUncertaintyMarkers": 27,
+    "packageFiles": 231
+  },
+  "preserved_candidate": {
+    "path": "archive/scans/1984-11/packages/apple-fortran-r01",
+    "manifest": {
+      "path": "archive/scans/1984-11/packages/apple-fortran-r01/manifest.json",
+      "sha256": "3dafd3ec78efe40d4e74bb0109ec9f82f6b9083f579135264e133bde1dce8d3c",
+      "bytes": 39403
+    },
+    "disposition": {
+      "path": "archive/scans/1984-11/restoration/batch-03/review/candidate-disposition.json",
+      "sha256": "2e426d961993ed861d88e814d6f823657aecd4f52932687c8f91ad33df0b991b",
+      "bytes": 368
+    }
+  },
+  "inputIntegrationCommit": "f74c4884",
+  "previousCheckpointCommit": "3353598a",
+  "implementationUnchanged": true,
+  "findings": [
+    "Complete final installment, with actual folios 118-121 and different adjacent articles on 117 and 122.",
+    "Source headings, forms, examples, compiler tables, symbol tables, numeric output, plotted figure and caption are separate contexts.",
+    "Compiler indices 0-32, offsets, blank labels, numeric labels and A continuation remain separate fields.",
+    "Repeated RAD records, 56 blank cells and 100 literal numeric-output cells are retained without recomputation or deduplication.",
+    "57 crops match source pixels and all 231 selected files match a fresh-process export. Ten invalid cases reject, including the preserved first classification candidate.",
+    "Source uncertainty markers remain explicit; no execution or source-encoding certification."
+  ],
+  "limitations": [
+    "Decorative marks, ellipsis counts, slash/1 glyphs, faint relation prefix/connector and quoted format blank counts remain explicit.",
+    "Original encoded bytes, exact typesetting whitespace, historical claims, execution and human acceptance remain unverified.",
+    "Plot is retained as source image; no point positions or plotted glyph counts inferred."
+  ],
+  "next": "R04: locate a second short pilot article, candidate 공모총평 (maso-1984-11-toc-0029, canonical reference 210); verify its extent and adjacent material before mapping."
+}

@@ -4,7 +4,7 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R02 complete: two November 1984 articles are readable/sample-reviewed.** The 24 cleaned source sets
+**R00–R03 complete: three November 1984 articles are readable/sample-reviewed.** The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -90,7 +90,23 @@ tables; complex tables, diagrams and captions still need case-specific review.
 See the [Bit Pattern result](metadata/catalog/scan-restoration/1984-11-bit-pattern.json)
 and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 
-Next: **R03**, establish the full extent of 애플 포트란, beginning on confirmed
-printed/source 118. Verify the ending and neighboring boundary before mapping.
-The issue remains in progress; JPEG segment assembly and issue export integration
-remain pending before their first use.
+## R03 completed — 2026-11-15
+
+Restored the final 애플 포트란 installment on printed/source 118–121. Fifty-five
+raw OCR outcomes support 57 source-compared regions, fifty reading blocks and
+two original figures. The export preserves nine code blocks/78 text-bearing
+rows, 33 compiler rows, 27 symbol rows, 100 numeric-output cells and the literal
+output caption. Eight field tables retain 355 cells, including 56 blanks.
+
+All 231 selected files reproduce exactly in a fresh process. Source/caption/range
+checks and ten rejection cases pass. A pre-OCR crop refinement and a later export
+classification refinement are retained; no OCR was repeated. Explicit local
+uncertainties remain in decorative marks, ellipses, reference glyphs and spacing.
+Source claims, numerical output, execution, encoding and human acceptance remain
+unverified. The original plots were not reconstructed.
+
+Three articles are readable/sample-reviewed; 37 identities await disposition.
+See the [FORTRAN result](metadata/catalog/scan-restoration/1984-11-apple-fortran.json).
+Next: **R04**, locate the short 공모총평 candidate at reference 210 and verify its
+extent before mapping. The pilot remains bounded; JPEG segment assembly and
+whole-issue export integration remain pending before their first use.

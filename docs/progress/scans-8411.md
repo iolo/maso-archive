@@ -4,8 +4,8 @@
 
 ## Current outcome
 
-Forty canonical TOC identities are queued: two readable/sample-reviewed articles
-and 38 awaiting disposition. The complete editorial `maso-1984-11-toc-0034` is
+Forty canonical TOC identities are queued: three readable/sample-reviewed articles
+and 37 awaiting disposition. The complete editorial `maso-1984-11-toc-0034` is
 restored from printed/source page 17, between
 an advertisement (16) and the separate Apple machine-language feature (18).
 All three boundary views were inspected; no global filename/folio offset follows.
@@ -130,3 +130,53 @@ Next: R03, verify the actual ending and neighboring boundary of 애플 포트란
 (`maso-1984-11-toc-0015`), whose opening is confirmed on printed/source 118.
 Map at most six source views after that location check. JPEG segment assembly
 and whole-issue export remain pending before they are required.
+
+## R03 — final Apple FORTRAN installment, 2026-11-15
+
+`maso-1984-11-toc-0015` is complete and readable/sample-reviewed from visibly
+printed 118–121. The final-installment heading, closing text/emblem, Bit Pattern
+ending on 117 and different article opening on 122 establish its scope. Four
+mapped views and two outside lookups stay within the saved batch limit.
+
+The pre-OCR crop review caught narrow wrapped-column bounds and a clipped S in
+the subroutine form. The first map and two example crops are retained; the final
+bounds were widened before recognition. All 55 Tesseract tasks finished in
+17.333 summed engine seconds, with zero failed regions, OCR retries or engine
+switches. All 57 eligible regions were compared with source in one review pass.
+
+The native preserves fifty reading blocks, nine code blocks/78 text-bearing
+rows, 33 compiler-index rows, 27 symbol rows and 100 literal numeric-output
+cells. Eight field tables retain 90 rows/355 cells, including 56 blanks.
+Compiler indices, offsets, labels and A continuation are distinct fields;
+repeated RAD records remain separate. Twelve argument-mapping rows preserve
+independent calling contexts. The output plot is a source crop with its literal
+caption and an explicit shared numeric-table association; its coordinates and
+asterisk counts were not inferred. The ending emblem remains uncaptioned.
+
+Printed SUBROURINE, EP/EPS differences, Suroutine, repeated LOGICAL and I/IY/Y
+references are retained. Decorative marks, ellipsis counts, faint relation
+marks, slash/1 references and compiler-format blank counts have 27 local markers.
+Numerical values and the compiler's 33-lines/0-errors report are historical print,
+not new arithmetic or execution validation. Source encoding, exact typesetting
+whitespace, program correctness and human acceptance remain unverified.
+
+The first export inherited code-font OCR tags for numeric/symbol/output data.
+That candidate and a reproducible input snapshot are retained. The selected
+`archive/scans/1984-11/packages/apple-fortran-r02/` corrects only classification;
+no source reading or OCR changed. All 231 selected files reproduce identically
+in a fresh process. Ten rejection cases include collapsed RAD records, filled
+blanks, altered output values, swapped compiler fields, caption IDs, lost prose,
+wrong scans, missing uncertainty and the actual first classification candidate.
+All 57 crops match separately decoded source pixels. Prior packages/evidence,
+cleanup records, implementation and shared plans remain unchanged.
+
+Private maps, OCR, source readings, corrections, attempts, candidate snapshot,
+validators and cleanup preview are under `archive/scans/1984-11/restoration/batch-03/`.
+Its evidence manifest pins every retained file; validation.json has reproduction
+commands and limits. No broad session cleanup ran. Checkpoint wall time includes
+mapping, review, tool/conversation waits and exports; active review time is not
+separately measured. The unchanged PDF/JPEG test baseline is reused.
+
+Tracked result: [1984-11-apple-fortran.json](../../metadata/catalog/scan-restoration/1984-11-apple-fortran.json).
+November now has three readable articles and 37 identities awaiting disposition.
+Next: R04, locate and bound the 공모총평 candidate at canonical reference 210.

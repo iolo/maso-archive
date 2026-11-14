@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R02 are complete; November issue restoration continues. Track execution in
+R00–R03 are complete; November issue restoration continues. Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
 ## Aim
@@ -232,9 +232,9 @@ restored JSON/assets and faithful source evidence first.
 | R01 — short prose pilot | One located November article, raw OCR, corrections and checked package | Full pilot text/region review and independent identical rebuild |
 | R02 — contrasting layout | Bounded November listing/table/figure sample and its evidence | Rows/cells/assets/continuations accounted for; any failed prerequisite repaired before scaling |
 
-Immediate next action: **R03**, verify the extent of the Apple FORTRAN article
-starting on printed 118, then map a bounded batch. R01 delivered the editorial
-as 29 checked files; R02 delivered Bit Pattern on 116–117 as 62 checked files,
-including its listing and two unruled reference tables. November remains in
-progress. Complex tables/diagrams, JPEG segment assembly and whole-issue export
-need their respective checks before use.
+Immediate next action: **R04**, locate the short 공모총평 candidate at reference
+210 and verify its extent before mapping. R01 delivered the editorial; R02 Bit
+Pattern; R03 the complete four-page Apple FORTRAN installment with separate
+compiler/output/symbol contexts and an original plotted figure. November remains
+in progress. JPEG segment assembly and whole-issue export remain to be checked
+before their first use.
