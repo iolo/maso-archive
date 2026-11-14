@@ -673,3 +673,59 @@ See the [Feature II final source result](metadata/catalog/scan-restoration/1984-
 and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R16**, assemble actual 40–58 with source/structure checks and an independent
 native rebuild, then continue the remaining November entries and issue closeout.
+
+## R16 completed — 2026-11-15
+
+Assembled complete Feature II, 기계어로 음악구현 by 탁연상, on actual 40–58
+from four immutable source segments. GOODMUSIC listing 2 now has one program
+identity across 104/105, MINI ORGAN listing 1 across 0115/0116, and listing 2
+across 0304/0305. The split TW character-definition group and SOUND2 routine
+each retain one joined group and both original constituent records. The MINI
+ORGAN source-example relationship now links its prose and three diagrams to both
+complete original listings.
+
+The complete native package retains nineteen source views, 102 original region
+assets, 96 raw OCR outcomes, 76 logical blocks and six original figures. Its six
+distinct code contexts preserve 1,143 physical rows, 1,119 logical units, 7,747
+independent fields and 1,878 literal DATA/DFB/DEFB occurrences. Two tables retain
+156 cells; 322 physical BASIC fields, 96 inline fields, seventeen mathematical
+occurrences, 266 figure labels and all 23 local uncertainties remain indexed.
+The logical DATA value 27 retains its separate printed 2/7 fragments. Printed
+KEY? labels, 321~319, numerical discrepancies, blank fields and repeated data
+remain literal. No instruction semantics resolve source glyphs or generate
+replacement diagrams.
+
+Added opt-in structured-programs-v1 assembly for explicit source-declared
+program/group joins and scoped diagram component/label references. Program joins
+require matching original outgoing/incoming records, consecutive rows and folios,
+the previous-package manifest and adjacent code blocks. Original row identities
+and source values remain stable; block/listing offsets project into unified
+programs. Diagram axes, guides, phase bars, connectors, branch labels and null
+junction labels retain typed source relationships. Existing structured-region
+and PDF modes keep their earlier projection behavior.
+
+All 435 native files match a separate-process rebuild byte for byte. All four
+original segments are embedded exactly. The 102 earlier decoded-master pixel
+proofs remain valid after rehashing masters/crops and comparing copied geometry
+and bytes. Twenty-one invalid projections reject. All 232 regression tests pass:
+214 PDF and eighteen JPEG/recognition/assembly tests, including three new program
+assembly tests. Fourteen earlier packages and their private evidence, contents
+classifications and shared plans remain exact, including the complete Feature I
+package. No OCR or presentation build was needed.
+
+Retained failed attempts document a missing projected block-owner reference,
+an over-strict rejection of an unlabelled connector junction, and an independent
+verifier assumption that every logical DATA token had a contiguous span. These
+gates were repaired without changing historical source values. Both complete
+exports passed on their first attempts. Session cleanup ran in preview mode only.
+
+November now has seven complete article packages, no partial article, six
+non-owning headings and 27 unclassified entries. Sample review and byte-for-byte
+reproduction do not establish original encoding/typesetting, numerical/source
+correctness, program execution or human acceptance.
+
+See the [complete Feature II result](metadata/catalog/scan-restoration/1984-11-machine-music.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R17**, locate and restore 개구리 (catalog page candidate 66), checking
+its actual title, ownership and ending in a bounded batch. Continue all remaining
+November entries, source-image/covers accounting and whole-issue export/rebuild.

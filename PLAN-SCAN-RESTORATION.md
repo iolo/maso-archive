@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R15 are complete; the active goal is to restore all November 1984 articles.
+R00–R16 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -264,14 +264,15 @@ restored JSON/assets and faithful source evidence first.
 | R13 — Feature II middle segment b | Actual 46–51; whole feature remains partial | 152 identical native files; 185 numbered units, original screen and two flowcharts; GOODMUSIC final part and MINI ORGAN listing continuation retained |
 | R14 — Feature II listing segment c | Actual 52–57; whole feature remains partial | 65 identical native files; 692 numbered rows, 4,844 independent source fields and typed data/routine groups; listing 1 ends and listing 2 begins on 55 |
 | R15 — Feature II final source segment d | Actual 58; all source pages covered, whole assembly pending | 17 identical native files; 116 numbered rows, 812 independent fields, fourteen typed routine groups and final A3E7 RET source evidence |
+| R16 — complete Feature II assembly | Actual 40–58; complete native article package | 435 identical native files; three program joins, TW/SOUND2 group joins, 1,143 physical rows, 7,747 fields and six original typed diagrams; 232 regression tests pass |
 
-Immediate next action: **R16**, assemble complete Feature II actual 40–58 from
-four immutable segments. Preserve unified GOODMUSIC listing 2 and both MINI ORGAN
-program identities, join the split TW data group and SOUND2 routine, and retain
-all typed diagram references. Extend structured assembly for cross-segment
-program indexes and additional diagram reference fields as needed, with focused
-regression/negative checks and an independent native rebuild. All nineteen source
-pages are covered; this is not yet a complete article package.
+Immediate next action: **R17**, locate and restore 개구리,
+`maso-1984-11-toc-0004`, with catalog page candidate 66. Check the actual title,
+body ownership and ending before mapping at most six new source views; neighboring
+TOC references do not establish its extent. November now has seven complete
+article packages, no partial article, six non-owning headings and 27 unclassified
+entries. Complete Feature II on 40–58 retains three unified program identities,
+both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
 JPEG assembly is now integrated and checked; use the same source/structure and
 fresh native rebuild gates for later long articles. Whole-issue export remains

@@ -30,6 +30,9 @@ LOCAL_KEYS = {'line_id', 'source_unit_id', 'label_id', 'occurrence_id', 'row_id'
 def validate_recipe(recipe):
     required = {'index_mode', 'segments', 'expected_source_indices', 'inventory', 'evidence',
                 'uncertainties', 'resolved_notes', 'prose_joins', 'relationship_links'}
+    programs = recipe.get('index_mode') == 'structured-programs-v1'
+    if programs:
+        required |= {'program_links', 'group_links', 'example_links'}
     if set(recipe) != required:
         raise ValueError('Unknown or missing structured assembly recipe field')
     if not isinstance(recipe['segments'], list) or not 2 <= len(recipe['segments']) <= 12:
@@ -41,6 +44,9 @@ def validate_recipe(recipe):
         names.append(spec['name'])
     if len(set(names)) != len(names):
         raise ValueError('Duplicate structured segment identity')
+    if programs:
+        from .assembly_programs import validate_extensions
+        validate_extensions(recipe, names)
     pages = recipe['expected_source_indices']
     if (not isinstance(pages, list) or not pages or
             any(type(i) is not int or i < 0 for i in pages) or len(set(pages)) != len(pages)):
@@ -97,6 +103,8 @@ class Context:
         self.tables = {t['table_id'] for t in correction.get('tables', [])}
         self.groups = {g['listing_id']: g for g in correction.get('listing_groups', [])}
         self.assets = {r['region_id']: r['asset'] for r in source['region_assets']}
+        self.program_mode = False
+        self.listing_ids = {id: self.name + '-' + id for id in self.groups}
         self.positions = {self.name + '-' + id: (self.name + '-' + id, 0) for id in self.blocks}
         self.article, self.listing = text_bytes(source)
         if set(correction) - set(INDEXES) - METADATA:
@@ -137,8 +145,11 @@ class Context:
                 result[key] = [self.identity(v, self.figures) for v in item]
             elif key == 'table_id':
                 result[key] = self.identity(item, self.tables)
-            elif key == 'listing_id':
-                result[key] = self.identity(item, self.groups)
+            elif key == 'listing_id' or self.program_mode and key in ('from_listing_id', 'to_listing_id'):
+                self.identity(item, self.groups)
+                result[key] = self.listing_ids[item]
+            elif self.program_mode and key == 'group_id':
+                result[key] = self.name + ':' + item
             elif key in LOCAL_KEYS:
                 result[key] = self.name + ':' + item
             elif key == 'physical_line_ids':
@@ -166,6 +177,8 @@ class Context:
         target, within = self.positions[self.identity(owner, self.blocks)]
         a, z = within + row['start_byte'], within + row['end_byte']
         projected.update(start_byte=a, end_byte=z)
+        if self.program_mode:
+            projected['block_id'] = target
         if row.get('download') != 'listing.txt':
             projected.update(download='article.txt', **{START:ranges[target][0]+a, END:ranges[target][0]+z})
         return projected
@@ -198,6 +211,8 @@ def project_structured(recipe, originals):
         if source['schema_version'] != 2:
             raise ValueError('Structured JPEG mode requires explicit image-source packages')
         context=Context(spec,source,correction,offset);contexts.append(context);offset+=len(context.listing)
+    programs = recipe['index_mode'] == 'structured-programs-v1'
+    for context in contexts:context.program_mode = programs
     first=contexts[0].source;package=deepcopy(first)
     for key in ('pages','regions','excluded_regions','blocks','figures','content_order','raw_ocr','region_assets'):
         package[key]=[]
@@ -232,6 +247,9 @@ def project_structured(recipe, originals):
         raise ValueError('Structured source views differ from reviewed reading order')
     validate_pending_joins(recipe, contexts)
     positions,resolved=join_blocks(recipe,package,contexts)
+    if programs:
+        from .assembly_programs import join_programs
+        program_records = join_programs(recipe, package, contexts, positions)
     for context in contexts:context.positions=positions
     ranges=block_ranges(package);article,listing=text_bytes(package)
     if listing != b''.join(c.listing for c in contexts):raise ValueError('Assembly changed original code bytes/order')
@@ -297,6 +315,9 @@ def project_structured(recipe, originals):
                 if key=='content_associations' and original.get('kind') in ('pending-source-example','cross-segment-source-example'):
                     continue  # Explicitly resolved below; every occurrence must match one link.
                 row=context.row(key,i)
+                if programs and key=='figure_structures':
+                    from .assembly_programs import project_figure
+                    row=project_figure(context, original, row)
                 if key=='tables':
                     owner=original['block_id'];rows=[]
                     for source_row,target_row in zip(original['rows'],row['rows'],strict=True):
@@ -310,12 +331,20 @@ def project_structured(recipe, originals):
                     literal=original.get('marker',original.get('literal',original.get('text',original.get('separator'))))
                     context.block_span(original,row,ranges,literal=literal)
                 if key in ('listing_index','listing_line_index','logical_listing_line_index','source_literal_index','inline_source_fields','basic_source_fields','monitor_source_fields') or original.get('download')=='listing.txt':context.listing_spans(original,row)
+                if programs and key=='listing_line_index':
+                    within=context.positions[context.identity(original['block_id'],context.blocks)][1]
+                    row['block_start_byte']+=within;row['block_end_byte']+=within
+                    for field in row.get('fields',[]):
+                        field['block_start_byte']+=within;field['block_end_byte']+=within
                 correction[key].append(row)
     # The new separator has an active occurrence as well as original segment joins.
     for row in resolved:
         target=row['block_id'];end=row['right_utf8_offset'];start=end-len(row['separator'].encode())
         correction['prose_joins'].append(dict(kind='cross-segment',block_id=target,start_byte=start,end_byte=end,separator=row['separator'],download='article.txt',**{START:ranges[target][0]+start,END:ranges[target][0]+end},source_blocks=row['source_blocks'],evidence=deepcopy(row['evidence'])))
     resolve_relationships(recipe,contexts,correction)
+    if programs:
+        from .assembly_programs import finish_programs
+        finish_programs(recipe, package, correction, contexts, program_records)
     validate_references(package, correction)
     validate_package(package)
     return package,correction

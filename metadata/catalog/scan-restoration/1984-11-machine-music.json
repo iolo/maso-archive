@@ -1,0 +1,836 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R16",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0002",
+  "title": "특집II : 기계어로 음악구현",
+  "observed_title": "기계어로 음악구현",
+  "observed_byline": "탁연상",
+  "outcome": "Complete reproducible presentation-independent Feature II package, with unified GOODMUSIC and both MINI ORGAN program identities, joined TW/SOUND2 groups and source-linked diagram relationships; local uncertainty retained.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/machine-music-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/machine-music-r01/manifest.json",
+    "sha256": "750db509745f1f8eaa4b4c6f5abfe88ce581c4140baae1e66694ec9be2ff358f",
+    "bytes": 77674
+  },
+  "assembly_record": {
+    "path": "archive/scans/1984-11/packages/machine-music-r01/assembly.json",
+    "sha256": "8741c888877bc7950d39b8192fa62e88318f7969ff9d836aee6679199c5d18dd",
+    "bytes": 2492
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-16/validation.json",
+    "sha256": "1a97b3107470bf4cab0c0bf668eef38220bde650d83c4d6ae9187b08ecebfcda",
+    "bytes": 158282
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-16/evidence-manifest.json",
+    "sha256": "d2d8bbfb3afb8a93ad30820c60a7456e1c4cd485fbeefd371521c4d7a0e71904",
+    "bytes": 6157
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-040.jpg",
+      "sha256": "8532883b146ae97245e380670c7a740bb52111308c4763cac89e45ecd988bd70",
+      "bytes": 9889142
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-041.jpg",
+      "sha256": "48d1e964edf8f3cb38d280c56d787716047934f50390f9974e10e7e4e0e7f3bd",
+      "bytes": 8029833
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-042.jpg",
+      "sha256": "85c9ea5e8fd9f7118db6259ecab7d35d30b3b6494358d7561af6df279375c0e8",
+      "bytes": 8048770
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-043.jpg",
+      "sha256": "128aaf1c466ac8bc8f5be7fd0820ad3452a2a3b1e37f43db0dbc0f94e671451c",
+      "bytes": 7583210
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-044.jpg",
+      "sha256": "7b9428d0b40cb318ee3b6fa303372db71743b0baca852b3de81073d2d1a6391a",
+      "bytes": 8046804
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-045.jpg",
+      "sha256": "44263814a8452b79338922ee3b1271a166814e10684a4ec66be3a0499c011f51",
+      "bytes": 8432123
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-046.jpg",
+      "sha256": "4fcf23a40d47c6de0769ae662b238208aa41207ff0a7722ab3f6894df52e1eaa",
+      "bytes": 8090054
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-047.jpg",
+      "sha256": "a6e6cd307f08cf903711fe5ddd86653bbe69f41d2875a179aaca408ec6ccf3b7",
+      "bytes": 8238788
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-048.jpg",
+      "sha256": "cbc5dccf6afe9e75bb5b7ea5f8258072498e9058e9cefa005d093c1f92a5d6bc",
+      "bytes": 8088711
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-049.jpg",
+      "sha256": "57ef0fb54982e4ce8455cbd41ad706706721e562e5000f1572c58b9f1398d5c2",
+      "bytes": 8493756
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-050.jpg",
+      "sha256": "598c3a46ec5e483c9ac0bdb173454c97a63340f53505b9790bb19d51f9d5171a",
+      "bytes": 7318337
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-051.jpg",
+      "sha256": "54eb7069fc92b82c808fc0f95e4806953a70f73e90c689951672801eb0fc9d6a",
+      "bytes": 8640612
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-052.jpg",
+      "sha256": "cf898b11cc282a1184de2a3ac44e15a3f9dfe39ba6c751214a02215ae97c1c4c",
+      "bytes": 8815794
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-053.jpg",
+      "sha256": "4d02cbdd775f6a6396bc7f8a9042711527540f22d71cd7826c06d2567b74b22f",
+      "bytes": 9378940
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-054.jpg",
+      "sha256": "d1decbd76be2a6388d8411edb307e69c37ceab1531c1cd12c37caa86b4f209b9",
+      "bytes": 9126762
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-055.jpg",
+      "sha256": "9db60d93961d79a906d8057dc86c75ae00638fa9086418be0a14a97a3638b783",
+      "bytes": 8794732
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-056.jpg",
+      "sha256": "98741637ab6004ee45a13ff0272d0cea6037eaae823680936e13afbd93053e1a",
+      "bytes": 8280722
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-057.jpg",
+      "sha256": "68d41f323f8fde2e0993a9a6421ae967ee543cf6b6df1c197ecd0b863a90fac8",
+      "bytes": 8447967
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-058.jpg",
+      "sha256": "2155f16ecf26a0aa3b24bcaa9203442b48db7634250b86d0c232bcda498bde74",
+      "bytes": 8096871
+    }
+  ],
+  "printed_folios": [
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58"
+  ],
+  "observed_whole_extent": [
+    40,
+    58
+  ],
+  "immutable_segments": [
+    {
+      "segment_id": "a",
+      "printed_folios": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "source_views": [
+        {
+          "source_index": 43,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-040.jpg",
+            "sha256": "8532883b146ae97245e380670c7a740bb52111308c4763cac89e45ecd988bd70",
+            "bytes": 9889142
+          },
+          "width_px": 4734,
+          "height_px": 6915,
+          "reading_order": 42,
+          "source_filename_number": 40,
+          "printed_page": "40",
+          "image_to_upright_normalized": [
+            0.00021123785382340515,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 44,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-041.jpg",
+            "sha256": "48d1e964edf8f3cb38d280c56d787716047934f50390f9974e10e7e4e0e7f3bd",
+            "bytes": 8029833
+          },
+          "width_px": 4748,
+          "height_px": 6913,
+          "reading_order": 43,
+          "source_filename_number": 41,
+          "printed_page": "41",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 45,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-042.jpg",
+            "sha256": "85c9ea5e8fd9f7118db6259ecab7d35d30b3b6494358d7561af6df279375c0e8",
+            "bytes": 8048770
+          },
+          "width_px": 4742,
+          "height_px": 6925,
+          "reading_order": 44,
+          "source_filename_number": 42,
+          "printed_page": "42",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 46,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-043.jpg",
+            "sha256": "128aaf1c466ac8bc8f5be7fd0820ad3452a2a3b1e37f43db0dbc0f94e671451c",
+            "bytes": 7583210
+          },
+          "width_px": 4748,
+          "height_px": 6918,
+          "reading_order": 45,
+          "source_filename_number": 43,
+          "printed_page": "43",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 47,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-044.jpg",
+            "sha256": "7b9428d0b40cb318ee3b6fa303372db71743b0baca852b3de81073d2d1a6391a",
+            "bytes": 8046804
+          },
+          "width_px": 4747,
+          "height_px": 6924,
+          "reading_order": 46,
+          "source_filename_number": 44,
+          "printed_page": "44",
+          "image_to_upright_normalized": [
+            0.0002106593638087213,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 48,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-045.jpg",
+            "sha256": "44263814a8452b79338922ee3b1271a166814e10684a4ec66be3a0499c011f51",
+            "bytes": 8432123
+          },
+          "width_px": 4749,
+          "height_px": 6920,
+          "reading_order": 47,
+          "source_filename_number": 45,
+          "printed_page": "45",
+          "image_to_upright_normalized": [
+            0.0002105706464518846,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/machine-music-a-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/machine-music-a-r01/manifest.json",
+          "sha256": "93316c0bcf7f14fa5f4d4d353b7107c56cc7a8fec0e40d41ec343244325e3310",
+          "bytes": 32382
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-12/validation.json",
+          "sha256": "e6d60948b6ad02d244ec606f2d3e89dd3c4bfb660d94a2a23306810fae67af14",
+          "bytes": 57334
+        }
+      ]
+    },
+    {
+      "segment_id": "b",
+      "printed_folios": [
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "source_views": [
+        {
+          "source_index": 49,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-046.jpg",
+            "sha256": "4fcf23a40d47c6de0769ae662b238208aa41207ff0a7722ab3f6894df52e1eaa",
+            "bytes": 8090054
+          },
+          "width_px": 4746,
+          "height_px": 6923,
+          "reading_order": 48,
+          "source_filename_number": 46,
+          "printed_page": "46",
+          "image_to_upright_normalized": [
+            0.00021070375052675939,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 50,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-047.jpg",
+            "sha256": "a6e6cd307f08cf903711fe5ddd86653bbe69f41d2875a179aaca408ec6ccf3b7",
+            "bytes": 8238788
+          },
+          "width_px": 4744,
+          "height_px": 6912,
+          "reading_order": 49,
+          "source_filename_number": 47,
+          "printed_page": "47",
+          "image_to_upright_normalized": [
+            0.00021079258010118043,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 51,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-048.jpg",
+            "sha256": "cbc5dccf6afe9e75bb5b7ea5f8258072498e9058e9cefa005d093c1f92a5d6bc",
+            "bytes": 8088711
+          },
+          "width_px": 4750,
+          "height_px": 6926,
+          "reading_order": 50,
+          "source_filename_number": 48,
+          "printed_page": "48",
+          "image_to_upright_normalized": [
+            0.0002105263157894737,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 52,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-049.jpg",
+            "sha256": "57ef0fb54982e4ce8455cbd41ad706706721e562e5000f1572c58b9f1398d5c2",
+            "bytes": 8493756
+          },
+          "width_px": 4743,
+          "height_px": 6913,
+          "reading_order": 51,
+          "source_filename_number": 49,
+          "printed_page": "49",
+          "image_to_upright_normalized": [
+            0.0002108370229812355,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 53,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-050.jpg",
+            "sha256": "598c3a46ec5e483c9ac0bdb173454c97a63340f53505b9790bb19d51f9d5171a",
+            "bytes": 7318337
+          },
+          "width_px": 4750,
+          "height_px": 6926,
+          "reading_order": 52,
+          "source_filename_number": 50,
+          "printed_page": "50",
+          "image_to_upright_normalized": [
+            0.0002105263157894737,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 54,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-051.jpg",
+            "sha256": "54eb7069fc92b82c808fc0f95e4806953a70f73e90c689951672801eb0fc9d6a",
+            "bytes": 8640612
+          },
+          "width_px": 4740,
+          "height_px": 6915,
+          "reading_order": 53,
+          "source_filename_number": 51,
+          "printed_page": "51",
+          "image_to_upright_normalized": [
+            0.0002109704641350211,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/machine-music-b-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/machine-music-b-r01/manifest.json",
+          "sha256": "64e48b59e4a9a4fd64b2c0609f7d6491243ad53745323085617ab9fe371dd042",
+          "bytes": 25796
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-13/validation.json",
+          "sha256": "7f208c91543c9e7d196c8b3ed63b3e5aba7496ee0df30fcc4133d2381d9ee2a7",
+          "bytes": 47866
+        }
+      ]
+    },
+    {
+      "segment_id": "c",
+      "printed_folios": [
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ],
+      "source_views": [
+        {
+          "source_index": 55,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-052.jpg",
+            "sha256": "cf898b11cc282a1184de2a3ac44e15a3f9dfe39ba6c751214a02215ae97c1c4c",
+            "bytes": 8815794
+          },
+          "width_px": 4746,
+          "height_px": 6923,
+          "reading_order": 54,
+          "source_filename_number": 52,
+          "printed_page": "52",
+          "image_to_upright_normalized": [
+            0.00021070375052675939,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 56,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-053.jpg",
+            "sha256": "4d02cbdd775f6a6396bc7f8a9042711527540f22d71cd7826c06d2567b74b22f",
+            "bytes": 9378940
+          },
+          "width_px": 4743,
+          "height_px": 6913,
+          "reading_order": 55,
+          "source_filename_number": 53,
+          "printed_page": "53",
+          "image_to_upright_normalized": [
+            0.0002108370229812355,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 57,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-054.jpg",
+            "sha256": "d1decbd76be2a6388d8411edb307e69c37ceab1531c1cd12c37caa86b4f209b9",
+            "bytes": 9126762
+          },
+          "width_px": 4743,
+          "height_px": 6919,
+          "reading_order": 56,
+          "source_filename_number": 54,
+          "printed_page": "54",
+          "image_to_upright_normalized": [
+            0.0002108370229812355,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 58,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-055.jpg",
+            "sha256": "9db60d93961d79a906d8057dc86c75ae00638fa9086418be0a14a97a3638b783",
+            "bytes": 8794732
+          },
+          "width_px": 4754,
+          "height_px": 6917,
+          "reading_order": 57,
+          "source_filename_number": 55,
+          "printed_page": "55",
+          "image_to_upright_normalized": [
+            0.00021034917963819942,
+            0,
+            0,
+            0.00014457134595923088,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 59,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-056.jpg",
+            "sha256": "98741637ab6004ee45a13ff0272d0cea6037eaae823680936e13afbd93053e1a",
+            "bytes": 8280722
+          },
+          "width_px": 4743,
+          "height_px": 6921,
+          "reading_order": 58,
+          "source_filename_number": 56,
+          "printed_page": "56",
+          "image_to_upright_normalized": [
+            0.0002108370229812355,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 60,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-057.jpg",
+            "sha256": "68d41f323f8fde2e0993a9a6421ae967ee543cf6b6df1c197ecd0b863a90fac8",
+            "bytes": 8447967
+          },
+          "width_px": 4735,
+          "height_px": 6923,
+          "reading_order": 59,
+          "source_filename_number": 57,
+          "printed_page": "57",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/machine-music-c-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/machine-music-c-r01/manifest.json",
+          "sha256": "1c97c66ca6c62d49f7b0e4a885d535cd39ffaf9dc5db6b2ebceeb9f5a6be727b",
+          "bytes": 10898
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-14/validation.json",
+          "sha256": "34bb4069cadd14c3acbfa885425b478a5f7612bc690e9821489ebe48cbf71fc5",
+          "bytes": 24566
+        }
+      ]
+    },
+    {
+      "segment_id": "d",
+      "printed_folios": [
+        "58"
+      ],
+      "source_views": [
+        {
+          "source_index": 61,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-058.jpg",
+            "sha256": "2155f16ecf26a0aa3b24bcaa9203442b48db7634250b86d0c232bcda498bde74",
+            "bytes": 8096871
+          },
+          "width_px": 4738,
+          "height_px": 6918,
+          "reading_order": 60,
+          "source_filename_number": 58,
+          "printed_page": "58",
+          "image_to_upright_normalized": [
+            0.00021105951878429716,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/machine-music-d-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/machine-music-d-r01/manifest.json",
+          "sha256": "4dc37e0dfe925db9bb6ad9990469a48936987984dad84ba06ccd19f330844c26",
+          "bytes": 2726
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-15/validation.json",
+          "sha256": "b2b06b06ba0a22216df2962b0643dcb99fa5aaf5b2c0e635af343cc427258df7",
+          "bytes": 11934
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "sourceImages": 19,
+    "mappedRegions": 102,
+    "rawOcrRegions": 96,
+    "readingBlocks": 76,
+    "originalFigures": 6,
+    "regionalTextRanges": 96,
+    "explicitJoins": 17,
+    "tables": 2,
+    "tableCells": 156,
+    "listingContexts": 6,
+    "physicalRows": 1143,
+    "logicalUnits": 1119,
+    "assemblerFields": 7747,
+    "sourceLiteralTokens": 1878,
+    "inlineFields": 96,
+    "basicFields": 322,
+    "formulaOccurrences": 17,
+    "sourceUncertainties": 23,
+    "figureLabels": 266,
+    "projectedFigureStructures": 6,
+    "figureAssociations": 6,
+    "listingCaptions": 5,
+    "contentAssociations": 202,
+    "joinedPrograms": 3,
+    "joinedSourceGroups": 2,
+    "completedExampleRelationships": 1,
+    "sourceRecordReferences": 5233,
+    "rawArchiveEntries": 406,
+    "packageFiles": 435,
+    "newSourceViews": 0,
+    "newOcrTasks": 0,
+    "negativeCases": 21
+  },
+  "source_crop_proof": "Reuse all 102 earlier decoded-master-to-crop pixel comparisons after rehashing original masters/crops and comparing copied region bytes and geometry exactly. No new OCR or source image derivation.",
+  "previousCheckpointCommit": "c23093d0",
+  "inputIntegrationCommit": "f74c4884",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "dbbd2e25fb0de1969917604ab1bbf41ab22cbf3afbb79ea00a27acb5375d1a3d",
+      "bytes": 208327
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "2cddde54495dccaa7c2ef0d0d27a3b017baa306da196223c7ee1ea729811949e",
+      "bytes": 16884
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "8b7fa958c36e2054e482dbd6a8f3e69fbc2c001e86ce0e23c4cd57802c562a48",
+      "bytes": 31340
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [
+    "docs/PDF-RESTORATION.md",
+    "tests/test_image_program_assemble.py",
+    "tools/pdf_restore/assemble.py",
+    "tools/pdf_restore/assembly_programs.py",
+    "tools/pdf_restore/assembly_structured.py"
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 18,
+    "total": 232
+  },
+  "attempts": {
+    "newOcrTasks": 0,
+    "exportFailures": 0,
+    "projectionPreflightFailures": 1,
+    "sourceOwnerGateRepairs": 1,
+    "unlabelledJunctionGateRepairs": 1,
+    "verifierPreflightRepairs": 1
+  },
+  "limitations": [
+    "Twenty-three local source-glyph uncertainty occurrences remain indexed; original encoded bytes/typesetting, numerical/source correctness, historical code execution and human acceptance remain unverified.",
+    "[a] Four local uncertainty occurrences remain: first-octave note glyph group, object filename suffix and two decorative string glyphs.",
+    "[a] Original encoded bytes/typesetting, execution, numerical correctness, external bibliography and human acceptance remain unverified.",
+    "[a] Reading representation of source rows; original encoded bytes/typesetting and execution unverified.",
+    "[b] Original encoded bytes/typesetting, execution, historical claims and human acceptance remain unverified.",
+    "[b] Nine source-glyph uncertainty occurrences remain: six assembler address/name glyphs and three composite screen-symbol groups.",
+    "[b] Printed numerical claims, row ranges, source command spellings, original encoded bytes/typesetting, execution and human acceptance remain unverified.",
+    "[b] Printed fields and source glyph candidates, not original encoded bytes or execution-verified code.",
+    "[c] Original encoded bytes/typesetting, code execution, source numerical correctness and human acceptance remain unverified.",
+    "[c] Ten local source-glyph uncertainty occurrences retain the D/0 address marker and nine 0/O name candidates.",
+    "[c] Original encoded bytes/typesetting, source correctness, execution and human acceptance remain unverified.",
+    "[c] Literal source fields; encoded bytes, original alignment and execution unverified.",
+    "[d] Original encoded bytes/typesetting, historical code correctness, execution and human acceptance remain unverified.",
+    "[d] Literal printed fields; original encoding, typesetting and execution unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-16/recipe.json --output archive/scans/1984-11/packages/machine-music-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-16/recipe.json --output work/validation/scans-1984-11-machine-music-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-16/verify-review.py",
+    "env PYTHONPATH=src:. python3 -m unittest discover -s tests -p 'test_pdf_*.py' -v",
+    "env PYTHONPATH=src:. python3 -m unittest tests.test_image_source tests.test_recognition_map tests.test_image_assemble tests.test_image_program_assemble -v"
+  ],
+  "next": "R17: locate and restore 개구리 (maso-1984-11-toc-0004, catalog page candidate 66) in a bounded batch of at most six new mapped source views. Verify the actual source title, ownership and ending rather than assuming an extent from neighboring TOC references. Preserve both complete features and all immutable segments. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild."
+}

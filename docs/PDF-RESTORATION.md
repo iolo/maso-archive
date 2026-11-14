@@ -398,6 +398,36 @@ segments and 650 identical native files in a fresh rebuild. Its 487 table cells,
 518 physical code rows, 494 figure labels, 24 local uncertainty occurrences and
 the explicit 29/30 sentence join retain source-linked structure.
 
+Use the opt-in `index_mode: structured-programs-v1` when one printed program
+continues across source segments. It retains the structured recipe fields and
+adds explicit `program_links`, `group_links` and `example_links` lists. A program
+link identifies each segment/listing, its last/first printed row and the exact
+outgoing/incoming `content_associations` array occurrence. Both source boundary
+records must agree on consecutive rows, source folios, the open label when
+present, and the original previous-package manifest. Only adjacent code blocks
+in reviewed content order join, with no inserted bytes. Unresolved program
+boundaries reject. Existing structured-region and PDF modes keep their original
+projection behavior.
+
+Joined programs have one code block, listing group and complete listing range.
+Physical/logical row identities retain their segment scope; source field values,
+blank slots and listing bytes remain exact. Physical-row numbers are continuous
+within the joined program, with original numbers retained separately. Regional,
+field and data spans project into the unified block while preserving independent
+article/listing coordinates. Constituent listing groups/ranges retain their
+original `source_ref` records under `source_parts`.
+
+A group link names an explicit program link and the two source association
+occurrences. Matching open/incoming character or routine groups join only at the
+same program boundary, retaining both constituent records. Example links extend
+an original source-example relationship to explicitly selected complete listings;
+they cannot discard its existing program relationships. Typed diagram projection
+also scopes component/edge identities and validates standard and specialized
+label, axis, guide and bar references. Unlabelled connector junctions keep null
+labels. These relationships describe printed source structure, not execution or
+replacement graphics. The complete export embeds every original segment and
+checks its projection again during offline verification.
+
 The package schema now supports explicit `content_order`, `region_assets` and
 hashed `review_records`. Maps produced in step 3 still validate. A readable
 package must represent every mapped region, include every block/figure exactly
