@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R01",
+  "completedOn": "2026-11-14",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0034",
+  "title": "편집자 노트",
+  "status": "readable/sample-reviewed",
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_image": {
+    "path": "archive/scans/1984-11/pages/page-017.jpg",
+    "sha256": "09cb25c234239cbd912ee50a331ef95aa77a16b2c77d87db0ae87cac753f11f6",
+    "bytes": 8346915
+  },
+  "printed_page": "17",
+  "source_images": 1,
+  "lookup_images": 2,
+  "raw_ocr_tasks": 5,
+  "mapped_regions": 6,
+  "reading_blocks": 3,
+  "figures": 1,
+  "package_files": 29,
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-01/validation.json",
+    "sha256": "4906d6a3da95983178045e4e6edb04589b3f7f28e8ccd40f6246eb487a4a7d9d",
+    "bytes": 8910
+  },
+  "selected_package": "archive/scans/1984-11/packages/editorial-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/editorial-r01/manifest.json",
+    "sha256": "ad3be05afc74a5651dc201a4fd0b5d38ad5f92cd9d275890e5c6f478c2504b04",
+    "bytes": 4461
+  },
+  "inputIntegrationCommit": "f74c4884",
+  "artifacts": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/attempt-01.json",
+      "sha256": "57e6e2875c471f80f3c2a6a10917ea2d1f75fc20c768f1da6ac5ea4e19df9882",
+      "bytes": 265
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/checkpoint.json",
+      "sha256": "6e098f6cfea41c9c60557e9e836103f276fa9f030e2e777c33be27ece6ad08cd",
+      "bytes": 1116
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/cleanup-preview.txt",
+      "sha256": "c2f2deb849ca8272d4db4f789b08286ec6dcfcf602cb5e746dd165c414c7c865",
+      "bytes": 233
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/corrections.json",
+      "sha256": "7c6a6bf3f1546babed384cd24b35a00d12949c2f1977634f044410f7f878c613",
+      "bytes": 18056
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/map-initial.json",
+      "sha256": "ad095fa2e6a7166d8b5b72d041353d466fccdedc60fe58ee2d1a654288c51387",
+      "bytes": 3772
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/map.json",
+      "sha256": "aa3f69cd306be79d8488e420a8b9d92028613cf1bdd464b027eb3886e7119cd8",
+      "bytes": 3792
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/deck-psm6.settings.json",
+      "sha256": "13e0d5036a227fccd11b5092ab2c758893ca402fec1db173372ccb7062536d3e",
+      "bytes": 1047
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/deck-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/deck-psm6.tsv",
+      "sha256": "f9eab61c21a8b06407b0e47db67c0cb43f79269952401e9c3c6e993d894e998e",
+      "bytes": 379
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/deck-psm6.txt",
+      "sha256": "5e7470bceaa758f04d280311e29682132e1cb9112803df251bb4721b9c15e150",
+      "bytes": 17
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/deck.png",
+      "sha256": "7962b3dfac342e7799cd94ad7ac96021257d33fbf4b82c6f9a52b7807a6a053d",
+      "bytes": 285809
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/eligible-page.png",
+      "sha256": "10925e3e9b91f60a7b7f7b3007d1cca6267e70a4be6884b9bd91e85dfaf0d3ff",
+      "bytes": 7547580
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/emblem.png",
+      "sha256": "a5e03d26853c3745665658237fd3e1cd3d4f138dd6196ba563f8bee50db0dfc8",
+      "bytes": 9557
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/ending-psm6.settings.json",
+      "sha256": "709c018f6849876c61abde50f22901a65342496c9954bfbfd9bb57692dce1286",
+      "bytes": 1054
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/ending-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/ending-psm6.tsv",
+      "sha256": "2bec07fc3591024305fc3a7c5a7900d3cd6504ff7571994020c347ad335fc8bb",
+      "bytes": 550
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/ending-psm6.txt",
+      "sha256": "5e108aca9e20a550bf7932ed7702d9061e4ae249c4d7ef7ebe6685ac1bc86972",
+      "bytes": 36
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/ending.png",
+      "sha256": "ab9de16ea3e44757e77e89255844ecca978a800494704f125270ea7dc1ba5b6b",
+      "bytes": 74029
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/evidence.json",
+      "sha256": "1aebce46a6b1db7f387ddef280d5736e6deaaaa559de5644207b716d220aa81e",
+      "bytes": 4545
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/heading-psm6.settings.json",
+      "sha256": "a057d9eb65c66955424906e3d17bc98702a2c8e6d57d72772385ea0c75ff5a2f",
+      "bytes": 1053
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/heading-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/heading-psm6.tsv",
+      "sha256": "9ee6beb2a9adfe64a2ecd94be2e2b3d431f0f4adb3db070cef911fedf95ecd3f",
+      "bytes": 586
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/heading-psm6.txt",
+      "sha256": "c45fcf1c1853230a98907f90fd5009296af4a11d3390813b384beac5106918cc",
+      "bytes": 33
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/heading.png",
+      "sha256": "75143f99aaa2a713524ebcb49d8c629265e16fe6d5c7e2d86eac1420fc6f0882",
+      "bytes": 286609
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/left-psm6.settings.json",
+      "sha256": "fce3ef953e4619d750b1dae0abd5f14b2ea533466fbdfd427a8b0af2ea411e0c",
+      "bytes": 1049
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/left-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/left-psm6.tsv",
+      "sha256": "dc937d1914571f9fe1920904d391b6774c266caa2fd0f0c398bc7b028f56ab14",
+      "bytes": 18641
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/left-psm6.txt",
+      "sha256": "0cb024b5becc3d0b5193b08237870990a148b730e5d3cde69ec4e3fc7b3c4142",
+      "bytes": 1900
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/left.png",
+      "sha256": "763a5f8987b6a04aba4a005c96f280fdcc5b379b9b4b155ac86672d3b406a96f",
+      "bytes": 3405897
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/page.png",
+      "sha256": "7e0a4c5d0199bffd5c22e724f952deca0c277cb38d2a19e00910a05d145a888e",
+      "bytes": 15605628
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/right-psm6.settings.json",
+      "sha256": "d74700f2f44e174de03323a3c0cbc02a119f6637466c25ac1fc87b70cde0c3b8",
+      "bytes": 1051
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/right-psm6.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/right-psm6.tsv",
+      "sha256": "79a2d5b11b06192e884b4c6b491bf8e7cd9605ee20f0c984ac5ff33748e1f4e8",
+      "bytes": 17081
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/right-psm6.txt",
+      "sha256": "9ff18fd862778b3bc1afb2cd9774da7790b665a4bbf996f127772c7ca41c2b7d",
+      "bytes": 1740
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/right.png",
+      "sha256": "b42f2248b8c5c1ee16a13f55fd47e02649277ddabc88aae86b1e7fc8188c4b51",
+      "bytes": 3273708
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/ocr/timing.json",
+      "sha256": "393a3c02c9e9eccc613f279010527bdf32d3c475b52e7d5f087888ca3e8cca15",
+      "bytes": 334
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/recipe.json",
+      "sha256": "52329c9d9d5c9252e7dcfa2cf1587630c6bb9b56c5ec7b620608d2d4a0b3f7ac",
+      "bytes": 2239
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/review/actual-crops.jpg",
+      "sha256": "4ed20254d68ce14bfd2ab95092d23eaa899652d86e5a919b49a4efc093dce596",
+      "bytes": 616026
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/review/map-preview.jpg",
+      "sha256": "2a84384ea4b1d1f73f76dc0b5b8eb2879aa72919fc082c177b58cd76ebcb6d14",
+      "bytes": 487366
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/review/note-clarification.json",
+      "sha256": "5d8f8632390bc082dfbc4e8fcf0dedcefe789c1f2021f3686984235174f33eba",
+      "bytes": 383
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/save-review.py",
+      "sha256": "976a00f5d9d62b6fc54a54de41d25f2a75c61ee0fba1e2a49ee67e0999478a5b",
+      "bytes": 9292
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/validation.json",
+      "sha256": "4906d6a3da95983178045e4e6edb04589b3f7f28e8ccd40f6246eb487a4a7d9d",
+      "bytes": 8910
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-01/verify-review.py",
+      "sha256": "71e6df1a02fb5ca3987fc32ed0c25fd37e9184a539f49b2f44676402a176350f",
+      "bytes": 5620
+    }
+  ],
+  "findings": [
+    "Complete one-page editorial; source 16 is an advertisement and 18 starts a separate feature.",
+    "Source heading/deck manually recovered where raw Tesseract failed; every pilot reading region compared with scans in one source pass.",
+    "Five exact regional byte ranges and two explicit prose joins preserve the column-internal word split and final line.",
+    "Original ending emblem retained without a caption or character-code interpretation.",
+    "All 29 native package files match a separate fresh-process export without new OCR.",
+    "One overbroad free-text correction note is clarified externally; source text and immutable native package remain unchanged."
+  ],
+  "limitations": [
+    "Assistant compared every mapped pilot region and all pilot reading text with scans; human acceptance and character-perfect proofreading remain unverified.",
+    "Historical source spelling and claims retained; encoded bytes and typesetting-space widths are not certified.",
+    "No article code or table is present, so listing/table qualification remains R02."
+  ],
+  "next": "R02: locate and bound a November listing/table/figure example; candidate 비트 패턴 (canonical page reference 116) needs visual extent confirmation before mapping or OCR."
+}

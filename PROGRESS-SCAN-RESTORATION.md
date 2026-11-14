@@ -4,7 +4,7 @@ Updated 2026-11-14. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00 complete; the November 1984 editorial is located and ready for OCR.** The 24 cleaned source sets
+**R00 and R01 complete: one November 1984 article is readable/sample-reviewed.** The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -16,7 +16,7 @@ body counts and per-article availability remain undetermined.
 | Checkpoint | Status | Next result |
 | --- | --- | --- |
 | R00 — scan input integration | Passed | 246 pinned JPEG inputs, forty TOC identities, shared OCR/native export and PDF regressions checked |
-| R01 — November short prose pilot | Located; OCR pending | Editorial `maso-1984-11-toc-0034` is complete on printed/source page 17 |
+| R01 — November short prose pilot | Passed | Editorial on printed/source page 17; all 29 export files reproduce exactly |
 | R02 — contrasting November layout | Not started | Qualify listing/table/figure handling before scaling |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
@@ -55,5 +55,21 @@ See [November progress](docs/progress/scans-8411.md) and the
 Segment assembly and whole-issue export still need JPEG integration before use;
 R00 establishes the shared OCR/native-article path, not a completed issue workflow.
 
-Next: **R01**, the one-page November editorial. Keep batch history in its issue
-record and leave the completed cleanup index unchanged.
+## R01 completed — 2026-11-14
+
+Restored the complete one-page November editorial from the JPEG source using the
+shared mapped Tesseract pipeline. Five raw OCR outcomes, six source regions,
+three reading blocks and the original ending emblem are preserved. All pilot
+reading text was compared with the scans; raw OCR misses in the orange heading
+and deck were corrected visually. The 29-file JSON/assets package reproduces
+byte for byte in a separate process without OCR. Native JPEG/cleanup hashes,
+shared plans and the R00 implementation remain unchanged.
+
+One article is readable/sample-reviewed; the other 39 canonical identities await
+disposition. This does not complete November or qualify listing/table handling.
+See the [editorial result](metadata/catalog/scan-restoration/1984-11-editorial.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+
+Next: **R02**, a bounded November listing/table/figure sample. The TOC's 비트 패턴
+reference 116 is a candidate; locate its actual extent before mapping or OCR.
+Keep batch history in the issue record and the cleanup index unchanged.

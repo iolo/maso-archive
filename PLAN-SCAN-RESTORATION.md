@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00 is complete; the first article pilot is next. Track it in
+R00 and the first article pilot (R01) are complete. Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
 ## Aim
@@ -232,5 +232,6 @@ restored JSON/assets and faithful source evidence first.
 | R01 — short prose pilot | One located November article, raw OCR, corrections and checked package | Full pilot text/region review and independent identical rebuild |
 | R02 — contrasting layout | Bounded November listing/table/figure sample and its evidence | Rows/cells/assets/continuations accounted for; any failed prerequisite repaired before scaling |
 
-Immediate next action: **R01**; the November editorial is located on printed page 17.
-No scan OCR or restoration package has been produced under this plan yet.
+Immediate next action: **R02**, a bounded November listing/table/figure sample.
+R01 delivered the editorial on printed page 17 as a checked 29-file JSON/assets
+package. The issue and contrasting-layout qualification remain in progress.

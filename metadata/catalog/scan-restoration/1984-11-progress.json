@@ -1,0 +1,521 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-11",
+  "status": "in-progress",
+  "updated": "2026-11-14",
+  "source_type": "jpeg-set",
+  "canonical_identities": 40,
+  "readable_articles": 1,
+  "partial_articles": 0,
+  "identitiesAwaitingDisposition": 39,
+  "entries": [
+    {
+      "toc_entry_id": "maso-1984-11-toc-0001",
+      "title": "특집I : 애플베이직에서 기계어로",
+      "parent_id": null,
+      "page_candidates": [],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0002",
+      "title": "특집II : 기계어로 음악구현",
+      "parent_id": null,
+      "page_candidates": [],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0003",
+      "title": "취미생활",
+      "parent_id": null,
+      "page_candidates": [],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0004",
+      "title": "개구리",
+      "parent_id": "maso-1984-11-toc-0003",
+      "page_candidates": [
+        66
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0005",
+      "title": "3차원 우주전쟁",
+      "parent_id": "maso-1984-11-toc-0003",
+      "page_candidates": [
+        70
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0006",
+      "title": "미로II",
+      "parent_id": "maso-1984-11-toc-0003",
+      "page_candidates": [
+        75
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0007",
+      "title": "아기펭귄",
+      "parent_id": "maso-1984-11-toc-0003",
+      "page_candidates": [
+        78
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0008",
+      "title": "컨닝",
+      "parent_id": "maso-1984-11-toc-0003",
+      "page_candidates": [
+        86
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0009",
+      "title": "배고픈 거미",
+      "parent_id": "maso-1984-11-toc-0003",
+      "page_candidates": [
+        90
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0010",
+      "title": "로즈런너",
+      "parent_id": "maso-1984-11-toc-0003",
+      "page_candidates": [
+        93
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0011",
+      "title": "깡통이 통-통-통",
+      "parent_id": "maso-1984-11-toc-0003",
+      "page_candidates": [
+        102
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0012",
+      "title": "교육입문",
+      "parent_id": null,
+      "page_candidates": [],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0013",
+      "title": "수학을 통한 논리학습",
+      "parent_id": "maso-1984-11-toc-0012",
+      "page_candidates": [
+        110
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0014",
+      "title": "비트 패턴",
+      "parent_id": "maso-1984-11-toc-0012",
+      "page_candidates": [
+        116
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0015",
+      "title": "애플 포트란",
+      "parent_id": "maso-1984-11-toc-0012",
+      "page_candidates": [
+        118
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0016",
+      "title": "기초 테크닉 코너",
+      "parent_id": "maso-1984-11-toc-0012",
+      "page_candidates": [
+        122
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0017",
+      "title": "비지니스",
+      "parent_id": null,
+      "page_candidates": [],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0018",
+      "title": "리스즈트",
+      "parent_id": "maso-1984-11-toc-0017",
+      "page_candidates": [
+        140
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0019",
+      "title": "전산개발 시스템 연구",
+      "parent_id": "maso-1984-11-toc-0017",
+      "page_candidates": [
+        154
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0020",
+      "title": "의료보험 수가계산",
+      "parent_id": "maso-1984-11-toc-0017",
+      "page_candidates": [
+        160
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0021",
+      "title": "어음 거래 관리",
+      "parent_id": "maso-1984-11-toc-0017",
+      "page_candidates": [
+        169
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0022",
+      "title": "ISAM",
+      "parent_id": "maso-1984-11-toc-0017",
+      "page_candidates": [
+        174
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0023",
+      "title": "비지캘크 한계의 극복",
+      "parent_id": "maso-1984-11-toc-0017",
+      "page_candidates": [
+        180
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0024",
+      "title": "텍스트 파일이란",
+      "parent_id": "maso-1984-11-toc-0017",
+      "page_candidates": [
+        185
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0025",
+      "title": "테크니컬",
+      "parent_id": null,
+      "page_candidates": [],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0026",
+      "title": "애플 EPROM 프로그래머의 제작",
+      "parent_id": "maso-1984-11-toc-0025",
+      "page_candidates": [
+        198
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0027",
+      "title": "MAX-PRINT",
+      "parent_id": "maso-1984-11-toc-0025",
+      "page_candidates": [
+        206
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0028",
+      "title": "공모입선작",
+      "parent_id": null,
+      "page_candidates": [],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0029",
+      "title": "공모총평",
+      "parent_id": "maso-1984-11-toc-0028",
+      "page_candidates": [
+        210
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0030",
+      "title": "SPC-CLOCK",
+      "parent_id": "maso-1984-11-toc-0028",
+      "page_candidates": [
+        212
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0031",
+      "title": "사운드 키보드",
+      "parent_id": "maso-1984-11-toc-0028",
+      "page_candidates": [
+        218
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0032",
+      "title": "읽을거리 : 통합 소프트웨어",
+      "parent_id": null,
+      "page_candidates": [
+        232
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0033",
+      "title": "정보모음",
+      "parent_id": null,
+      "page_candidates": [],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0034",
+      "title": "편집자 노트",
+      "parent_id": "maso-1984-11-toc-0033",
+      "page_candidates": [
+        17
+      ],
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "source_views": [
+        {
+          "source_index": 20,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-017.jpg",
+            "sha256": "09cb25c234239cbd912ee50a331ef95aa77a16b2c77d87db0ae87cac753f11f6",
+            "bytes": 8346915
+          },
+          "width_px": 4749,
+          "height_px": 6908,
+          "reading_order": 19,
+          "source_filename_number": 17,
+          "printed_page": "17",
+          "image_to_upright_normalized": [
+            0.0002105706464518846,
+            0,
+            0,
+            0.00014475969889982628,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/editorial-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/editorial-r01/manifest.json",
+          "sha256": "ad3be05afc74a5651dc201a4fd0b5d38ad5f92cd9d275890e5c6f478c2504b04",
+          "bytes": 4461
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-01/validation.json",
+          "sha256": "4906d6a3da95983178045e4e6edb04589b3f7f28e8ccd40f6246eb487a4a7d9d",
+          "bytes": 8910
+        },
+        {
+          "path": "archive/scans/1984-11/restoration/batch-01/review/note-clarification.json",
+          "sha256": "5d8f8632390bc082dfbc4e8fcf0dedcefe789c1f2021f3686984235174f33eba",
+          "bytes": 383
+        }
+      ]
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0035",
+      "title": "정보 레이다",
+      "parent_id": "maso-1984-11-toc-0033",
+      "page_candidates": [
+        127
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0036",
+      "title": "메아리",
+      "parent_id": "maso-1984-11-toc-0033",
+      "page_candidates": [
+        222
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0037",
+      "title": "디버깅 룸",
+      "parent_id": "maso-1984-11-toc-0033",
+      "page_candidates": [
+        225
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0038",
+      "title": "복덕방",
+      "parent_id": "maso-1984-11-toc-0033",
+      "page_candidates": [
+        226
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0039",
+      "title": "Q&A",
+      "parent_id": "maso-1984-11-toc-0033",
+      "page_candidates": [
+        229
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    },
+    {
+      "toc_entry_id": "maso-1984-11-toc-0040",
+      "title": "광고색인",
+      "parent_id": "maso-1984-11-toc-0033",
+      "page_candidates": [
+        240
+      ],
+      "classification": "unclassified",
+      "body_owner": null,
+      "availability": "unresolved",
+      "verification": "unreviewed"
+    }
+  ],
+  "next": "R02: locate and bound a November listing/table/figure example; candidate 비트 패턴 (canonical page reference 116) needs visual extent confirmation before mapping or OCR."
+}
