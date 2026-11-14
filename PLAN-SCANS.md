@@ -110,3 +110,25 @@ The finish step rechecks all ZIP entries and output hashes, records the review,
 exports a page list, writes an issue report/result record, and updates progress.
 Commit only that issue's tracked recipe, result and report plus the progress
 update and any shared-tool changes. Original scans and previews stay outside Git.
+
+## Campaign completion — November 14, 2026
+
+All 24 donated issues are cleaned and committed separately, with an issue report
+and progress update at every checkpoint. The complete SHA-256 pass confirmed
+6,070 distinct JPEG masters (49.16 GiB), omitting 6,073 exact duplicate copies and
+12,157 confirmed AppleDouble sidecars from the working sets. All sixteen ordinary
+text-note entries are preserved. Original donation ZIPs and retained JPEG bytes
+remain unchanged.
+
+The [progress index](PROGRESS-SCANS.md) links every issue report. The
+[collection audit](metadata/catalog/scans/collection-audit.json) passed after
+rehashing all 59 ZIPs and all 6,070 masters, checking source-member coverage,
+page-list/review mappings, historical artifact fingerprints and issue commits.
+The repeatable checker is `python3 -m tools.scan_collection_audit`; select a fresh
+`--output` path when rerunning it.
+
+Visual findings distinguish exact duplicates, differing damaged alternatives,
+intact foldouts, filename gaps and unresolved physical pagination. July 1987's
+misordered early block is corrected in its reviewed reading list. March 1984's
+late-page order remains uncertain. Full physical collation, OCR restoration and
+reading-room integration remain future work.

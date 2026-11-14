@@ -10,7 +10,15 @@ The donation contains 59 ZIPs. Checked issues account for 24,316
 source file entries, 6,070 distinct JPEG masters,
 6,073 duplicate JPEG copies omitted, and 12,157
 confirmed AppleDouble sidecars omitted from the working sets.
-Retained masters occupy 49.16 GiB.
+Retained masters occupy 49.16 GiB. All sixteen donor-note files are retained.
+There are 217 contact sheets, 6,066 proposed reading-order entries and four extras
+(two separately retained spines and July 1987's two damaged alternatives).
+
+**The collection-wide completion audit passed.** All 59 original ZIPs are covered
+exactly once. Every ZIP and retained master was hashed again, every source member
+accounted for, and page-list/review mappings checked. Each issue has its own commit
+including a progress update. See the [audit record](metadata/catalog/scans/collection-audit.json)
+for totals, issue commit hashes, checks and limitations.
 
 | Issue/report | Status | Distinct scans | Filename gaps |
 | --- | --- | ---: | --- |
@@ -66,8 +74,12 @@ historical fingerprints. Issue source and master hashes remain pinned separately
 
 ## Next
 
-All donated issues have checked cleanup results. The collection-wide completion
-audit is the remaining gate before marking the campaign complete.
+The donated-scan cleanup campaign is complete. Use each issue's `page-list.csv`
+and `review.json` as the restoration handoff; `manifest.json` retains the received
+source mappings and initial order. July 1987's reviewed page list corrects the
+misordered source block 025–030 without renaming or changing its JPEG masters.
+Filename gaps explained by intact foldouts remain distinguished from confirmed
+absence and unknown physical pagination.
 
 Recheck any extracted issue from the repository root:
 
@@ -75,7 +87,15 @@ Recheck any extracted issue from the repository root:
 python3 -m tools.scan_cleanup --verify archive/scans/YYYY-MM
 ```
 
+To rerun the collection audit, choose a fresh output path (existing audit files
+are protected from overwriting):
+
+```sh
+python3 -m tools.scan_collection_audit --output archive/scans/shared/collection-audit-recheck.json
+```
+
 March 1984's late-page order, June 1987's torn-page note despite present scans,
-and July 1987's damaged alternatives require the issue-specific findings; do not
+July 1987's reordered block and damaged alternatives, and December 1987's torn
+rear cover require the issue-specific findings; do not
 silently infer repair or absence from those names. OCR restoration and reading-room
 integration remain separate work.

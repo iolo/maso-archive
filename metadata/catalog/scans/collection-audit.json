@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "completedOn": "2026-11-14",
+  "result": "passed",
+  "checks": [
+    "Every donated issue has a committed recipe, result and progress update.",
+    "Every source ZIP is covered exactly once; current ZIP SHA-256 matches extraction.",
+    "Every non-directory ZIP member has exactly one provenance mapping.",
+    "Every retained master, note, contact sheet and issue artifact has checked hashes.",
+    "Historical shared-tool/document hashes match the relevant issue commit.",
+    "Every page-list row agrees with the extraction and visual review mappings.",
+    "Each reviewed reading order retains every ordered slot exactly once."
+  ],
+  "totals": {
+    "issues": 24,
+    "archives": 59,
+    "sourceArchiveBytes": 105613592861,
+    "entries": 24316,
+    "imageEntries": 12143,
+    "sidecars": 12157,
+    "notes": 16,
+    "uniqueImages": 6070,
+    "duplicateImages": 6073,
+    "imageBytes": 52782820741,
+    "orderedImages": 6066,
+    "extras": 4,
+    "decodedImages": 6070,
+    "contactSheets": 217
+  },
+  "checkpoints": [
+    {
+      "issue": "1983-12",
+      "commit": "89bf4d9dd941d52cfb225d754a25b099d845db10",
+      "result": "metadata/catalog/scans/1983-12-result.json",
+      "resultSha256": "f6d0fcc6f56a59c1938bad2b965ff484debc35859a363b5325b03ea6409edb5f",
+      "manifestSha256": "9bb9dc80aceb47cbf6466f88427da532678b39191109ee0d6ba0896454d6cdaf"
+    },
+    {
+      "issue": "1984-02",
+      "commit": "7e82e776b334ba8467896077f8fcac4c4ef30f58",
+      "result": "metadata/catalog/scans/1984-02-result.json",
+      "resultSha256": "31287726321f5fe10671bd4502fbd76127d0fbfcba3d63a61b3ea3ab371ef8ca",
+      "manifestSha256": "33ba96b0788750038cf237c0ca7268e4a85879f07e8e188361e183be9567b90e"
+    },
+    {
+      "issue": "1984-03",
+      "commit": "19a9d1050e6fc936c3d7a2e7df1a59031da90fc6",
+      "result": "metadata/catalog/scans/1984-03-result.json",
+      "resultSha256": "83fcbaa2d6f5afb82d74fc41c6e194939a9e5f6976e5eec4d83f477aee5c7066",
+      "manifestSha256": "88818934e16078a411f7060159a9cca4f208c9f8561f84f205aec5e911d9b291"
+    },
+    {
+      "issue": "1984-04",
+      "commit": "5479c7973cce949269e25f82844ed5fad4838061",
+      "result": "metadata/catalog/scans/1984-04-result.json",
+      "resultSha256": "fe8bb4a881a803ed5ab12748f63c62d2a9d8b60e657c13034309d5aebb91cfcd",
+      "manifestSha256": "06ab86c66ea049cbc1bb924b4de02c4bbb715bda8ded0a035658ead9ea5216a9"
+    },
+    {
+      "issue": "1984-11",
+      "commit": "121bac328355d3bb232bd86a01a3ba1ef9a60985",
+      "result": "metadata/catalog/scans/1984-11-result.json",
+      "resultSha256": "116c8073a78372213116978b75757e38aa84cb9af8b91ae7bd8d83f1b4c31262",
+      "manifestSha256": "2a2a0e7c2731b661f43e8966eb51074c4b1b7b49b82378855883fd83cb50f362"
+    },
+    {
+      "issue": "1985-01",
+      "commit": "a42b5c8d7f4cd10148ce39f36bb63a8a2985e1f7",
+      "result": "metadata/catalog/scans/1985-01-result.json",
+      "resultSha256": "e7f2d466ed41db79d4de9fa42a396872536d526298ee3d4ae2603853c7b82272",
+      "manifestSha256": "28dfedf274354aa6a62f0ffbeb81dc93080aeadd5112a43decb2a47c94ad96d3"
+    },
+    {
+      "issue": "1985-04",
+      "commit": "6278eb36a93330e325bd9af1051c9f054af6876f",
+      "result": "metadata/catalog/scans/1985-04-result.json",
+      "resultSha256": "49683b4623a7075e22f3b6588e279ad2d81c3465dbe00c175c34a9b72b69fb76",
+      "manifestSha256": "186348e3fb7e98158e9b07dbd618e91a35081f292785c1546d4c1c2fde078111"
+    },
+    {
+      "issue": "1985-05",
+      "commit": "7d11f6d5eb5d50feaf7ca992c61fd19c404bba5d",
+      "result": "metadata/catalog/scans/1985-05-result.json",
+      "resultSha256": "e8cc3a40430d9c6c890ca240a32bdc65b49dbd922d1354a5b0ddc7d92395f6cf",
+      "manifestSha256": "e0fe5e1bbc21b4b9b9d96cf5336c2dd059ac593feb146948ca59a408eca13761"
+    },
+    {
+      "issue": "1985-06",
+      "commit": "7d225b0c634f4df843b72d66042c1592476a6905",
+      "result": "metadata/catalog/scans/1985-06-result.json",
+      "resultSha256": "65b2a10c99321d19d226365fc8113591688ee60cb5709c1ec68044382c6e36d2",
+      "manifestSha256": "57588e939b5c2a889d3b605825385a406479a644e4806a7f514952464d675f29"
+    },
+    {
+      "issue": "1985-07",
+      "commit": "8b484ee93412995a09adfdf4cdd691b2af88dddc",
+      "result": "metadata/catalog/scans/1985-07-result.json",
+      "resultSha256": "b875757ab6e217a8e3f91374c3a42e014db59961b590ae46de657482d9cc8e91",
+      "manifestSha256": "0c0f8a73006db55cc09bcda4be524c5dec20c89e66756b92fb27d96f8e3da4c4"
+    },
+    {
+      "issue": "1985-08",
+      "commit": "ad20fcb3b3532a7863eee4479074fac87f2ed96a",
+      "result": "metadata/catalog/scans/1985-08-result.json",
+      "resultSha256": "4962878e63d5612e2039787afc1360123b7726044b7d0f47a4f314c246712a67",
+      "manifestSha256": "35428eee679112ecb0d9551c7cc0f3b35cd2228682399d30a649acbf962473e6"
+    },
+    {
+      "issue": "1985-09",
+      "commit": "82652e5656f0312dae065638c728280652548d1f",
+      "result": "metadata/catalog/scans/1985-09-result.json",
+      "resultSha256": "4fc37add1a04685d44f8bed2931de1d7c051edfcf0d7c3defc3f20f46ea84dcb",
+      "manifestSha256": "5d23fc9b24782d3c13137bd183c8da9bc95542022085f0f66e009bed4943345e"
+    },
+    {
+      "issue": "1985-12",
+      "commit": "fca85792526f96d9da74a4a6992ad2ecc898aba0",
+      "result": "metadata/catalog/scans/1985-12-result.json",
+      "resultSha256": "a5247a51bd4bf354d9cc579a8ac5ed07ce22dfbc93c417fff6f88726b6691bad",
+      "manifestSha256": "4b5ca745a9032ef70788206d1a6b29d4f50aaef1973e20cc06869bff270c54d3"
+    },
+    {
+      "issue": "1987-01",
+      "commit": "2002097d5587a42f273b0104fabd56e0788c2aca",
+      "result": "metadata/catalog/scans/1987-01-result.json",
+      "resultSha256": "e157d3b9ee3dbfada0c5beba73fc985b4be1be41a4c538bcb6df3e33a50288e8",
+      "manifestSha256": "e7e00113ab7a7ae287e7a6dbdaa674d169272501f47171e41b07bbfb07bde327"
+    },
+    {
+      "issue": "1987-02",
+      "commit": "ceac9d396f952d3a985920a4bac23355d0b034f9",
+      "result": "metadata/catalog/scans/1987-02-result.json",
+      "resultSha256": "447dd605a06cc902bc943e9fe9e0949353023b82c28aa51ae9a94ae653bf350e",
+      "manifestSha256": "4f2546e94de6091e45528eb8204e5d1d59aefe4e4b273ec60541bb4e2d569cc6"
+    },
+    {
+      "issue": "1987-03",
+      "commit": "1b1ae733fd7b9024b088ccb5dec8111632c5a40a",
+      "result": "metadata/catalog/scans/1987-03-result.json",
+      "resultSha256": "3eef883dfccd887808b775f34aec7b2cb089a72764317d805eff9fd2f8388837",
+      "manifestSha256": "d5ff1821a6cdb5282b86a3864fc09f73a525e4955d5a0e1d6c3796449f406249"
+    },
+    {
+      "issue": "1987-04",
+      "commit": "607407a3d174a37b26cc5a9009394bdb61135822",
+      "result": "metadata/catalog/scans/1987-04-result.json",
+      "resultSha256": "238ec66259c36b92a54c7c744c60f3a6e05377d0e812d9879a09b5243bdec0a3",
+      "manifestSha256": "9e8f0dc418501d288af699d10194e9543975cfaeb11061c8507e05573b616456"
+    },
+    {
+      "issue": "1987-06",
+      "commit": "b3b1cea488fdeeedf8b3de8602d16b8641792904",
+      "result": "metadata/catalog/scans/1987-06-result.json",
+      "resultSha256": "2cc5159e81ebd702a715a7213258612f4edf9ecd5ea94867ac9b9f8f7aa70a80",
+      "manifestSha256": "b26de4f0189b603359a9e68a0da3ed5491741b5620fa1dc103386b33eddf8404"
+    },
+    {
+      "issue": "1987-07",
+      "commit": "7509dfb6f3aa3616e85bd55cfca41dbb924aafa6",
+      "result": "metadata/catalog/scans/1987-07-result.json",
+      "resultSha256": "e1a2eed3ddbc4ce64ba8540186659a2ac507c83db6fda4ba375d6f0e12466f0a",
+      "manifestSha256": "ef37d2dfa5618c90543dfef0f6dd9688d715af6149c85e200d7fc70e265f0884"
+    },
+    {
+      "issue": "1987-08",
+      "commit": "5f15919ef5da7a1183ee006ba92117c0a2f46802",
+      "result": "metadata/catalog/scans/1987-08-result.json",
+      "resultSha256": "b05611269088772d1df59b5b282f4d36df3c3a8ef620043d683fbd7d39f9c0f6",
+      "manifestSha256": "bfa0bec5d427c4c52e158ad5cf8fe15d29d410edb9deb54630d2b4ca5b4a649b"
+    },
+    {
+      "issue": "1987-09",
+      "commit": "c452e06972d07d82fdbb7e08be056def1bec364f",
+      "result": "metadata/catalog/scans/1987-09-result.json",
+      "resultSha256": "59e4c94fe7475353344de1e5472b29825ca16f38f3323f24bef6fdf18a0710ad",
+      "manifestSha256": "31b6508d87b38a3dd78096d50eb5ec8516412eee603110d26ac32edd737ee67f"
+    },
+    {
+      "issue": "1987-10",
+      "commit": "1ef585379441aa216f40da01ec601f0ef4297a30",
+      "result": "metadata/catalog/scans/1987-10-result.json",
+      "resultSha256": "2055985c993dd51aca294c31bf682c90647c020d20f3bc5b2fd859c507337576",
+      "manifestSha256": "5392d7ec54ffbb237402c4be6709965e02d9d53735ff5d6bf41cf0993afaa074"
+    },
+    {
+      "issue": "1987-11",
+      "commit": "ac606dbf3b3940313842493a440f0e2299850315",
+      "result": "metadata/catalog/scans/1987-11-result.json",
+      "resultSha256": "c82db1899901bf332bd2a3011f14465c3da7c9f36113ad03b76a0f916650080d",
+      "manifestSha256": "b548c45d33e2bf1f0f6f0746a14bef2e4b86f657836131f442d1453d9c8bb96b"
+    },
+    {
+      "issue": "1987-12",
+      "commit": "85963c4c85fb46e9c5a49bd28b2e0cd4ba2805fb",
+      "result": "metadata/catalog/scans/1987-12-result.json",
+      "resultSha256": "7ef7d5bfb38f6e49866276a93ef4bea59a2624e2807546a793455e89b16154f4",
+      "manifestSha256": "214aec4fec9bf628cdabe06459d3f7ed388ee0bb2755fdca8814da6f41261259"
+    }
+  ],
+  "historicalSharedArtifacts": [
+    {
+      "issue": "1983-12",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "89bf4d9dd941d52cfb225d754a25b099d845db10"
+    },
+    {
+      "issue": "1984-02",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "7e82e776b334ba8467896077f8fcac4c4ef30f58"
+    },
+    {
+      "issue": "1984-03",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "19a9d1050e6fc936c3d7a2e7df1a59031da90fc6"
+    },
+    {
+      "issue": "1984-04",
+      "path": "PLAN-SCANS.md",
+      "checkpoint": "5479c7973cce949269e25f82844ed5fad4838061"
+    },
+    {
+      "issue": "1984-11",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "121bac328355d3bb232bd86a01a3ba1ef9a60985"
+    },
+    {
+      "issue": "1985-01",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "a42b5c8d7f4cd10148ce39f36bb63a8a2985e1f7"
+    },
+    {
+      "issue": "1985-04",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "6278eb36a93330e325bd9af1051c9f054af6876f"
+    },
+    {
+      "issue": "1985-05",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "7d11f6d5eb5d50feaf7ca992c61fd19c404bba5d"
+    },
+    {
+      "issue": "1985-06",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "7d225b0c634f4df843b72d66042c1592476a6905"
+    },
+    {
+      "issue": "1985-07",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "8b484ee93412995a09adfdf4cdd691b2af88dddc"
+    },
+    {
+      "issue": "1985-08",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "ad20fcb3b3532a7863eee4479074fac87f2ed96a"
+    },
+    {
+      "issue": "1985-09",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "82652e5656f0312dae065638c728280652548d1f"
+    },
+    {
+      "issue": "1985-12",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "fca85792526f96d9da74a4a6992ad2ecc898aba0"
+    },
+    {
+      "issue": "1987-01",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "2002097d5587a42f273b0104fabd56e0788c2aca"
+    },
+    {
+      "issue": "1987-02",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "ceac9d396f952d3a985920a4bac23355d0b034f9"
+    },
+    {
+      "issue": "1987-03",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "1b1ae733fd7b9024b088ccb5dec8111632c5a40a"
+    },
+    {
+      "issue": "1987-04",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "607407a3d174a37b26cc5a9009394bdb61135822"
+    },
+    {
+      "issue": "1987-06",
+      "path": "tools/scan_campaign.py",
+      "checkpoint": "b3b1cea488fdeeedf8b3de8602d16b8641792904"
+    }
+  ],
+  "limitations": [
+    "Visual review covered all contact-sheet images plus selected enlarged views.",
+    "Full printed pagination and physical completeness remain unverified.",
+    "ZIP-entry CRC/SHA checks and full JPEG decoding were performed per issue; this collection pass rehashes the ZIPs and masters without repeating decoding."
+  ]
+}
