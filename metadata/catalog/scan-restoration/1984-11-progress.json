@@ -1486,38 +1486,186 @@
               "bytes": 47866
             }
           ]
+        },
+        {
+          "segment_id": "c",
+          "printed_folios": [
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57"
+          ],
+          "source_views": [
+            {
+              "source_index": 55,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-052.jpg",
+                "sha256": "cf898b11cc282a1184de2a3ac44e15a3f9dfe39ba6c751214a02215ae97c1c4c",
+                "bytes": 8815794
+              },
+              "width_px": 4746,
+              "height_px": 6923,
+              "reading_order": 54,
+              "source_filename_number": 52,
+              "printed_page": "52",
+              "image_to_upright_normalized": [
+                0.00021070375052675939,
+                0,
+                0,
+                0.0001444460494005489,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 56,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-053.jpg",
+                "sha256": "4d02cbdd775f6a6396bc7f8a9042711527540f22d71cd7826c06d2567b74b22f",
+                "bytes": 9378940
+              },
+              "width_px": 4743,
+              "height_px": 6913,
+              "reading_order": 55,
+              "source_filename_number": 53,
+              "printed_page": "53",
+              "image_to_upright_normalized": [
+                0.0002108370229812355,
+                0,
+                0,
+                0.00014465499783017504,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 57,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-054.jpg",
+                "sha256": "d1decbd76be2a6388d8411edb307e69c37ceab1531c1cd12c37caa86b4f209b9",
+                "bytes": 9126762
+              },
+              "width_px": 4743,
+              "height_px": 6919,
+              "reading_order": 56,
+              "source_filename_number": 54,
+              "printed_page": "54",
+              "image_to_upright_normalized": [
+                0.0002108370229812355,
+                0,
+                0,
+                0.00014452955629426219,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 58,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-055.jpg",
+                "sha256": "9db60d93961d79a906d8057dc86c75ae00638fa9086418be0a14a97a3638b783",
+                "bytes": 8794732
+              },
+              "width_px": 4754,
+              "height_px": 6917,
+              "reading_order": 57,
+              "source_filename_number": 55,
+              "printed_page": "55",
+              "image_to_upright_normalized": [
+                0.00021034917963819942,
+                0,
+                0,
+                0.00014457134595923088,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 59,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-056.jpg",
+                "sha256": "98741637ab6004ee45a13ff0272d0cea6037eaae823680936e13afbd93053e1a",
+                "bytes": 8280722
+              },
+              "width_px": 4743,
+              "height_px": 6921,
+              "reading_order": 58,
+              "source_filename_number": 56,
+              "printed_page": "56",
+              "image_to_upright_normalized": [
+                0.0002108370229812355,
+                0,
+                0,
+                0.00014448779078167894,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 60,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-057.jpg",
+                "sha256": "68d41f323f8fde2e0993a9a6421ae967ee543cf6b6df1c197ecd0b863a90fac8",
+                "bytes": 8447967
+              },
+              "width_px": 4735,
+              "height_px": 6923,
+              "reading_order": 59,
+              "source_filename_number": 57,
+              "printed_page": "57",
+              "image_to_upright_normalized": [
+                0.00021119324181626187,
+                0,
+                0,
+                0.0001444460494005489,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/machine-music-c-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/machine-music-c-r01/manifest.json",
+              "sha256": "1c97c66ca6c62d49f7b0e4a885d535cd39ffaf9dc5db6b2ebceeb9f5a6be727b",
+              "bytes": 10898
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-14/validation.json",
+              "sha256": "34bb4069cadd14c3acbfa885425b478a5f7612bc690e9821489ebe48cbf71fc5",
+              "bytes": 24566
+            }
+          ]
         }
       ],
       "package": null,
       "assembly_pending": true,
       "continuation_pending": [
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
         58
       ],
       "pending_listing_continuation": {
-        "program": "MINI ORGAN character-definition/screen routine",
-        "listing_id": "organ-shape-listing",
-        "last_segment": "b",
-        "last_folio": 51,
-        "last_printed_row": 115,
-        "next_folio": 52,
-        "next_printed_row": 116,
-        "open_source_label": "TW:",
+        "program": "MINI ORGAN performance routine",
+        "listing_id": "organ-performance-listing",
+        "last_segment": "c",
+        "last_folio": 57,
+        "last_printed_row": 304,
+        "next_folio": 58,
+        "next_printed_row": 305,
+        "open_source_label": "SOUND2:",
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-13/review/continuations.json",
-          "sha256": "3b99ad78e4f1435022700abb9b0606e25355a497d7b3e543cb48b93468cf16a2",
-          "bytes": 4093
+          "path": "archive/scans/1984-11/restoration/batch-14/review/continuations.json",
+          "sha256": "2656cb754b430a1f09751db5f6090cd465373601b9d837e1c055bb41610d701d",
+          "bytes": 4096
         },
-        "status": "Next part located; preserve one program and open data-group identity."
+        "status": "Final part located; preserve one program and the open routine identity."
       },
       "limitations": [
-        "Segments a/b cover actual 40-51; present 52-58 and whole-feature assembly remain pending.",
-        "Thirteen source-glyph uncertainty occurrences remain across the two immutable segments; original pixels and candidates retained.",
+        "Segments a/b/c cover actual 40-57; present final 58 and whole-feature assembly remain pending.",
+        "Twenty-three local source-glyph uncertainty occurrences remain across three immutable segments; original pixels and candidates retained.",
         "Original encoded bytes/typesetting, execution, printed numerical/range correctness and human acceptance remain unverified."
       ],
       "restored_segment_continuations": [
@@ -1551,6 +1699,40 @@
             "path": "archive/scans/1984-11/restoration/batch-13/validation.json",
             "sha256": "7f208c91543c9e7d196c8b3ed63b3e5aba7496ee0df30fcc4133d2381d9ee2a7",
             "bytes": 47866
+          }
+        },
+        {
+          "program": "MINI ORGAN character-definition/screen routine",
+          "printed_listing": "1",
+          "from_segment": "b",
+          "from_folio": 51,
+          "last_previous_printed_row": 115,
+          "to_segment": "c",
+          "to_folio": 52,
+          "first_printed_row": 116,
+          "last_printed_row": 502,
+          "split_data_group": "TW:",
+          "status": "Both program parts and TW group parts restored; unified program/data-group assembly remains pending.",
+          "previous_boundary": {
+            "program": "MINI ORGAN character-definition/screen routine",
+            "listing_id": "organ-shape-listing",
+            "last_segment": "b",
+            "last_folio": 51,
+            "last_printed_row": 115,
+            "next_folio": 52,
+            "next_printed_row": 116,
+            "open_source_label": "TW:",
+            "evidence": {
+              "path": "archive/scans/1984-11/restoration/batch-13/review/continuations.json",
+              "sha256": "3b99ad78e4f1435022700abb9b0606e25355a497d7b3e543cb48b93468cf16a2",
+              "bytes": 4093
+            },
+            "status": "Next part located; preserve one program and open data-group identity."
+          },
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-14/validation.json",
+            "sha256": "34bb4069cadd14c3acbfa885425b478a5f7612bc690e9821489ebe48cbf71fc5",
+            "bytes": 24566
           }
         }
       ]
@@ -2524,6 +2706,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R14: restore Feature II actual 52-57 in at most six mapped source views. Preserve MINI ORGAN listing 1 continuation at printed row 0116 and the open TW character-definition group from 51; inspect and record its transition into listing 2 on 55. Retain source fields, labels and data literals independently. Continue final actual 58 and whole-feature assembly afterward, preserving unified program identities and source diagram relationships. Then restore all remaining November identities, account for source images/covers and verify whole-issue native export/rebuild.",
+  "next": "R15: restore Feature II final actual 58, resuming MINI ORGAN listing 2 at printed row 0305 after 0304 SOUND2: on 57. Preserve all source fields and the final row/end evidence. Then assemble the complete 40-58 feature, unifying GOODMUSIC and both MINI ORGAN program identities across immutable segments, including the split TW data group and typed source diagram relationships. Continue all remaining November identities, source images/covers accounting and whole-issue native export/rebuild afterward.",
   "group_headings": 6
 }

@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R13 are complete; the active goal is to restore all November 1984 articles.
+R00–R14 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -262,13 +262,14 @@ restored JSON/assets and faithful source evidence first.
 | R11 — complete Feature I assembly | Actual 18–39; complete native article package | 650 identical files; typed source indexes, uncertainty and source links preserved; four original segments unchanged; 229 shared tests pass |
 | R12 — Feature II opening segment | Actual 40–45; whole feature remains partial | 192 identical native files; two tables, three code contexts and three original diagrams with typed source relationships; listing continuation onto 46 explicit |
 | R13 — Feature II middle segment b | Actual 46–51; whole feature remains partial | 152 identical native files; 185 numbered units, original screen and two flowcharts; GOODMUSIC final part and MINI ORGAN listing continuation retained |
+| R14 — Feature II listing segment c | Actual 52–57; whole feature remains partial | 65 identical native files; 692 numbered rows, 4,844 independent source fields and typed data/routine groups; listing 1 ends and listing 2 begins on 55 |
 
-Immediate next action: **R14**, restore Feature II actual 52–57 in at most six
-mapped source views. MINI ORGAN listing 1 continues at 0116 on 52, including the
-open TW character-definition group from 51. Inspect its transition into listing 2
-on 55. The feature's located extent is 40–58; segments a/b now preserve 40–51.
-Continue final 58 and whole-feature assembly afterward. Preserve one program
-identity across listing/segment boundaries and all typed diagram references.
+Immediate next action: **R15**, restore Feature II final actual 58. MINI ORGAN
+listing 2 resumes at 0305 after 0304 SOUND2: on 57. Retain all printed fields and
+the final row/end evidence. Segments a/b/c now preserve actual 40–57; the feature's
+located extent is 40–58. Then assemble the complete feature, preserving unified
+GOODMUSIC and both MINI ORGAN program identities, the split TW data group and
+all typed diagram references across the immutable segments.
 Preserve complete Feature I on 18–39 and its four original segments.
 JPEG assembly is now integrated and checked; use the same source/structure and
 fresh native rebuild gates for later long articles. Whole-issue export remains

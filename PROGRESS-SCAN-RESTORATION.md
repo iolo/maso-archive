@@ -588,3 +588,52 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R14**, restore actual 52–57, including the listing 1 continuation and its
 transition into listing 2. Final 58 and whole-feature assembly follow before
 continuing the remaining November identities and issue closeout.
+
+## R14 completed — 2026-11-15
+
+Restored Feature II actual 52–57 as segment c under the same canonical identity.
+MINI ORGAN listing 1 resumes at 0116 inside the TW character-definition group,
+continues through the character and title/screen data, and ends at 0502 END on
+55 with its printed address 9678 and blank object-byte field. The separately
+captioned listing 2 starts below it at 0000 ORG 9FDAH. Its current final row is
+0304 SOUND2: SUB A on 57; present source 58 resumes at 0305 and remains pending.
+
+The native segment retains fourteen source regions, three logical blocks and
+eleven panel joins. Two distinct program contexts preserve 692 numbered rows,
+4,844 independently transcribed source fields and 1,440 DEFB literal occurrences.
+Typed source groups retain 37 character-definition groups, sixteen title-data
+groups, thirteen variable-definition groups, 52 routine groups and one listing
+preamble. Group identities use listing and source-row occurrences; repeated data
+and labels are not deduplicated. The incoming TW group and outgoing SOUND2
+routine retain explicit continuation relationships. No character artwork or
+object code is regenerated from these values.
+
+All panels and the listing caption were compared against enlarged source crops.
+The source RR: label at 0356 corrects an initial full-page AA: reading. Independent
+fields retain 9A2H at listing 2 row 0045, 0FCH at 0059, (KEY),IY at 0061, 949H
+at 0086, BIT 4,D at 0183, CBH/CBL at 0297/0298 and the visible KEY?1 operand at
+0303. Ten local glyph uncertainties retain a D/0 initial address marker and nine
+0/O label/operand alternatives, without resolving encoded names by program
+expectation. Tabs represent field alignment, not recovered typesetting.
+
+All 65 native files match an independent fresh-process rebuild byte for byte.
+Fourteen source-to-crop pixel checks and eighteen invalid structural cases pass.
+All fourteen mapped OCR tasks completed without engine failures or retries;
+recognition errors were corrected from source. One pre-OCR refinement widened
+five right-panel margins. One verifier ordering assumption failed and was repaired
+to match uncertainty occurrences by region, row and field; its failed attempt is
+retained. Native preparation and both exports passed without repairs.
+
+The twelve earlier packages and their private evidence, contents classifications,
+original masters, cleanup records and shared plans remain exact. The rehashed
+229-test R11 baseline is reused for unchanged shared implementation, schemas and
+tests. Session cleanup ran in preview mode only. November remains six complete
+packages, one partial feature, six non-owning headings and 27 unclassified entries.
+Original encoded bytes/typesetting, execution and human acceptance remain
+unverified.
+
+See the [Feature II segment c result](metadata/catalog/scan-restoration/1984-11-machine-music-c.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R15**, restore final actual 58, then assemble the complete 40–58 feature
+with unified program/data-group identities and retained typed diagram references.
+Continue the remaining November entries and whole-issue closeout afterward.
