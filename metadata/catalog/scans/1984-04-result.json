@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "issue": "1984-04",
+  "completedOn": "2026-11-14",
+  "status": "pilot-checked-with-open-gap",
+  "output": "archive/scans/1984-04",
+  "summary": {
+    "entries": 1028,
+    "imageEntries": 514,
+    "sidecars": 514,
+    "notes": 0,
+    "uniqueImages": 257,
+    "duplicateImages": 257,
+    "imageBytes": 1889010983,
+    "orderedImages": 256,
+    "extras": 1,
+    "filenameRange": [
+      1,
+      254
+    ],
+    "filenameGaps": [
+      13,
+      14
+    ],
+    "decodedImages": 257,
+    "contactSheets": 9
+  },
+  "sourceArchives": [
+    {
+      "path": "maso-img/마이크로소프트웨어_006호_1984_04-20261023T070200Z-1-001.zip",
+      "bytes": 1843000608,
+      "sha256": "b9d360135db87050d2f55404e865f15ecc1d3c5d6dc4239045e09441dd7d62cb",
+      "sha256After": "b9d360135db87050d2f55404e865f15ecc1d3c5d6dc4239045e09441dd7d62cb",
+      "crcRead": "all-entries-passed"
+    },
+    {
+      "path": "maso-img/마이크로소프트웨어_006호_1984_04-20261023T070200Z-1-002.zip",
+      "bytes": 1935930691,
+      "sha256": "5d4e954652a570557ece679a85c6cbdda49d59e079b11e7e8f41c37dedfbbf1d",
+      "sha256After": "5d4e954652a570557ece679a85c6cbdda49d59e079b11e7e8f41c37dedfbbf1d",
+      "crcRead": "all-entries-passed"
+    }
+  ],
+  "validation": {
+    "issue": "1984-04",
+    "result": "passed",
+    "manifestSha256": "06ab86c66ea049cbc1bb924b4de02c4bbb715bda8ded0a035658ead9ea5216a9",
+    "sourceArchives": 2,
+    "sourceEntriesChecked": 1028,
+    "uniqueImageHashesChecked": 257,
+    "duplicateImageEntriesChecked": 257,
+    "sidecarsAccounted": 514,
+    "contactSheetHashesChecked": 9,
+    "originalZipHashesUnchanged": true,
+    "readingOrderContiguous": true
+  },
+  "visualReview": {
+    "contactSheetsViewed": 9,
+    "printedPageSamplesChecked": 12,
+    "filenameGaps": [
+      13,
+      14
+    ],
+    "fullPaginationVerified": false,
+    "overwriteRefusalChecked": true,
+    "pageListAndReviewMappingsChecked": true
+  },
+  "artifacts": [
+    {
+      "path": "PLAN-SCANS.md",
+      "bytes": 4350,
+      "sha256": "ae3f45a87442bda371b0719b15c224b7298a56c8a861d9f3edceda6cf3122fd1"
+    },
+    {
+      "path": "tools/scan_cleanup.py",
+      "bytes": 13926,
+      "sha256": "c9c3c12868924a9a70f20d3e9dc004297fabf7d42f03551835993d20f8e4df04"
+    },
+    {
+      "path": "metadata/catalog/scans/1984-04-recipe.json",
+      "bytes": 1081,
+      "sha256": "2b1da0409e4ed5fe9311927ed55987c4866a84bc6489bbdb04c8faadbba793e6"
+    },
+    {
+      "path": "docs/SCAN-PILOT-1984-04.md",
+      "bytes": 3823,
+      "sha256": "261dfcae399990e95b0f5793a6d56c53ec712f17f0ac109394861c60114feebb"
+    },
+    {
+      "path": "archive/scans/1984-04/README.md",
+      "bytes": 2122,
+      "sha256": "9ffbd64dd50b3218c326a70df75fcfa19c525f56f825a68bb39b02212a5cdbf7"
+    },
+    {
+      "path": "archive/scans/1984-04/manifest.json",
+      "bytes": 487378,
+      "sha256": "06ab86c66ea049cbc1bb924b4de02c4bbb715bda8ded0a035658ead9ea5216a9"
+    },
+    {
+      "path": "archive/scans/1984-04/page-list.csv",
+      "bytes": 30626,
+      "sha256": "e81f57de65bc2ee3dd87a22f175ead7b86447e1fb0bbc1026bb804a75adbd3fb"
+    },
+    {
+      "path": "archive/scans/1984-04/review/pagination-crops.json",
+      "bytes": 3171,
+      "sha256": "84f33075ef1964fcc1e25e134e15f7d3c9204acc37fb29adcaf3718b441cfcc8"
+    },
+    {
+      "path": "archive/scans/1984-04/review/verification.json",
+      "bytes": 398,
+      "sha256": "d320d76028a406d26c9a9ca2e52a35ab9a78f4f24a8d0d9b0d9544b3752bd1c0"
+    },
+    {
+      "path": "archive/scans/1984-04/review.json",
+      "bytes": 6300,
+      "sha256": "301e6155457f29ca7b436663f9418ac8560b79fae5aa1098bd8496164bfa0c64"
+    },
+    {
+      "path": "archive/scans/1984-04/summary.json",
+      "bytes": 321,
+      "sha256": "fe31545ef06db0c24684be2167676ff1a0f62d60bab737f427a63d37826f4e5e"
+    },
+    {
+      "path": "archive/scans/1984-04/review/pagination-samples.jpg",
+      "bytes": 240716,
+      "sha256": "6c642a95ec88cb1440325cc64b8c16f25086dca9c1e1c176d6fbdef819c53b28"
+    },
+    {
+      "path": "archive/scans/1984-04/review/toc-page-011.jpg",
+      "bytes": 453807,
+      "sha256": "c57010ea87a52d1e7db1976f5d52b361c36a404dc78feee4523382f3340b209c"
+    }
+  ],
+  "nextPilot": "1984-03 (not started)"
+}

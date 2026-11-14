@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "issue": "1984-04",
+  "sourceFolder": "마이크로소프트웨어_006호_1984_04",
+  "archives": [
+    "maso-img/마이크로소프트웨어_006호_1984_04-20261023T070200Z-1-001.zip",
+    "maso-img/마이크로소프트웨어_006호_1984_04-20261023T070200Z-1-002.zip"
+  ],
+  "output": "archive/scans/1984-04",
+  "expectedUniqueImages": 257,
+  "expectedFilenameRange": [1, 254],
+  "expectedFilenameGaps": [13, 14],
+  "specialImages": {
+    "AFront001.jpg": {"path": "extras/spine.jpg", "role": "spine", "position": null},
+    "AFront002.jpg": {"path": "covers/front.jpg", "role": "front-cover", "position": 0},
+    "AFront003.jpg": {"path": "covers/inside-front.jpg", "role": "inside-front-cover", "position": 1},
+    "Rear001.jpg": {"path": "covers/inside-back.jpg", "role": "inside-back-cover", "position": 10000},
+    "Rear002.jpg": {"path": "covers/back.jpg", "role": "back-cover", "position": 10001}
+  },
+  "reviewStatus": "Cover mapping and page order require pilot visual review; source filename numbers are not verified printed page numbers."
+}
