@@ -637,3 +637,39 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R15**, restore final actual 58, then assemble the complete 40–58 feature
 with unified program/data-group identities and retained typed diagram references.
 Continue the remaining November entries and whole-issue closeout afterward.
+
+## R15 completed — 2026-11-15
+
+Restored final Feature II actual 58 as segment d. MINI ORGAN listing 2 resumes
+at 0305 inside SOUND2 and ends at the observed 0420 A3E7 C9 RET. The following
+advertisement boundary reuses pinned R12 extent evidence. All nineteen source
+pages on actual 40–58 are now covered in four separate immutable segments;
+whole-feature assembly remains pending.
+
+Two original listing panels form one logical code block with one explicit join.
+The segment retains 116 numbered rows, 812 independently transcribed source
+fields and fourteen typed routine groups. Incoming SOUND2 keeps its source
+relationship to 0304 on 57. PLAY remains one routine across the panel boundary.
+The printed KEY?3, KEY?2 and KEY?1 labels retain their visible question marks,
+supporting the literal KEY?1 jump retained in segment c. No new caption, filename,
+END directive, derived object bytes or execution claim is introduced.
+
+All 17 native files match a fresh-process rebuild byte for byte. Both source
+crops match original pixels, and fourteen invalid structural cases reject.
+Both mapped OCR tasks completed without engine failures or retries. The source
+map needed no refinement; native preparation, exports and verification passed.
+The thirteen earlier packages and private evidence, source masters, contents
+classifications and shared plans remain exact. The rehashed 229-test R11 baseline
+is reused for unchanged shared implementation, schemas and tests. Session cleanup
+ran in preview mode only.
+
+November remains six complete article packages, one partial feature, six
+non-owning headings and 27 unclassified entries. The complete Feature II package
+must unify GOODMUSIC listing 2, both MINI ORGAN programs, split data/routine groups
+and typed diagram relationships before its status changes. Original encoded
+bytes/typesetting, execution and human acceptance remain unverified.
+
+See the [Feature II final source result](metadata/catalog/scan-restoration/1984-11-machine-music-d.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R16**, assemble actual 40–58 with source/structure checks and an independent
+native rebuild, then continue the remaining November entries and issue closeout.

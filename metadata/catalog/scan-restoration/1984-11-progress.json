@@ -1640,32 +1640,59 @@
               "bytes": 24566
             }
           ]
+        },
+        {
+          "segment_id": "d",
+          "printed_folios": [
+            "58"
+          ],
+          "source_views": [
+            {
+              "source_index": 61,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-058.jpg",
+                "sha256": "2155f16ecf26a0aa3b24bcaa9203442b48db7634250b86d0c232bcda498bde74",
+                "bytes": 8096871
+              },
+              "width_px": 4738,
+              "height_px": 6918,
+              "reading_order": 60,
+              "source_filename_number": 58,
+              "printed_page": "58",
+              "image_to_upright_normalized": [
+                0.00021105951878429716,
+                0,
+                0,
+                0.00014455044810638914,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/machine-music-d-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/machine-music-d-r01/manifest.json",
+              "sha256": "4dc37e0dfe925db9bb6ad9990469a48936987984dad84ba06ccd19f330844c26",
+              "bytes": 2726
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-15/validation.json",
+              "sha256": "b2b06b06ba0a22216df2962b0643dcb99fa5aaf5b2c0e635af343cc427258df7",
+              "bytes": 11934
+            }
+          ]
         }
       ],
       "package": null,
       "assembly_pending": true,
-      "continuation_pending": [
-        58
-      ],
-      "pending_listing_continuation": {
-        "program": "MINI ORGAN performance routine",
-        "listing_id": "organ-performance-listing",
-        "last_segment": "c",
-        "last_folio": 57,
-        "last_printed_row": 304,
-        "next_folio": 58,
-        "next_printed_row": 305,
-        "open_source_label": "SOUND2:",
-        "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-14/review/continuations.json",
-          "sha256": "2656cb754b430a1f09751db5f6090cd465373601b9d837e1c055bb41610d701d",
-          "bytes": 4096
-        },
-        "status": "Final part located; preserve one program and the open routine identity."
-      },
+      "continuation_pending": [],
+      "pending_listing_continuation": null,
       "limitations": [
-        "Segments a/b/c cover actual 40-57; present final 58 and whole-feature assembly remain pending.",
-        "Twenty-three local source-glyph uncertainty occurrences remain across three immutable segments; original pixels and candidates retained.",
+        "Segments a/b/c/d cover every source page in observed actual 40-58 extent; complete native article assembly remains pending.",
+        "Twenty-three local source-glyph uncertainty occurrences remain across four immutable segments; original pixels and candidates retained.",
         "Original encoded bytes/typesetting, execution, printed numerical/range correctness and human acceptance remain unverified."
       ],
       "restored_segment_continuations": [
@@ -1733,6 +1760,40 @@
             "path": "archive/scans/1984-11/restoration/batch-14/validation.json",
             "sha256": "34bb4069cadd14c3acbfa885425b478a5f7612bc690e9821489ebe48cbf71fc5",
             "bytes": 24566
+          }
+        },
+        {
+          "program": "MINI ORGAN performance routine",
+          "printed_listing": "2",
+          "from_segment": "c",
+          "from_folio": 57,
+          "last_previous_printed_row": 304,
+          "to_segment": "d",
+          "to_folio": 58,
+          "first_printed_row": 305,
+          "last_printed_row": 420,
+          "split_routine_group": "SOUND2:",
+          "status": "Both program/routine source parts restored; unified program/group assembly remains pending.",
+          "previous_boundary": {
+            "program": "MINI ORGAN performance routine",
+            "listing_id": "organ-performance-listing",
+            "last_segment": "c",
+            "last_folio": 57,
+            "last_printed_row": 304,
+            "next_folio": 58,
+            "next_printed_row": 305,
+            "open_source_label": "SOUND2:",
+            "evidence": {
+              "path": "archive/scans/1984-11/restoration/batch-14/review/continuations.json",
+              "sha256": "2656cb754b430a1f09751db5f6090cd465373601b9d837e1c055bb41610d701d",
+              "bytes": 4096
+            },
+            "status": "Final part located; preserve one program and the open routine identity."
+          },
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-15/validation.json",
+            "sha256": "b2b06b06ba0a22216df2962b0643dcb99fa5aaf5b2c0e635af343cc427258df7",
+            "bytes": 11934
           }
         }
       ]
@@ -2706,6 +2767,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R15: restore Feature II final actual 58, resuming MINI ORGAN listing 2 at printed row 0305 after 0304 SOUND2: on 57. Preserve all source fields and the final row/end evidence. Then assemble the complete 40-58 feature, unifying GOODMUSIC and both MINI ORGAN program identities across immutable segments, including the split TW data group and typed source diagram relationships. Continue all remaining November identities, source images/covers accounting and whole-issue native export/rebuild afterward.",
+  "next": "R16: assemble complete Feature II actual 40-58 from four immutable segments. Preserve unified GOODMUSIC listing 2 and both MINI ORGAN program identities; join TW and SOUND2 source groups across their boundaries. Extend structured assembly for cross-segment program indexes and all typed source diagram references as needed, with focused regression/negative checks and a fresh native rebuild. Then restore all remaining November identities, account for source images/covers and verify whole-issue native export/rebuild.",
   "group_headings": 6
 }

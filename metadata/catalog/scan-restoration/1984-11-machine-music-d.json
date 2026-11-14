@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R15",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0002",
+  "title": "특집II : 기계어로 음악구현",
+  "observed_title": "기계어로 음악구현",
+  "observed_byline": "탁연상",
+  "outcome": "Reproducible presentation-independent Feature II final source segment d; all 40-58 source pages covered separately, whole-feature assembly remains pending.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "segment_id": "d",
+  "selected_package": "archive/scans/1984-11/packages/machine-music-d-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/machine-music-d-r01/manifest.json",
+    "sha256": "4dc37e0dfe925db9bb6ad9990469a48936987984dad84ba06ccd19f330844c26",
+    "bytes": 2726
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-15/validation.json",
+    "sha256": "b2b06b06ba0a22216df2962b0643dcb99fa5aaf5b2c0e635af343cc427258df7",
+    "bytes": 11934
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-15/evidence-manifest.json",
+    "sha256": "60df30960c5b0e20b02683b92f795f281473449f627efb800659a84584307c3d",
+    "bytes": 11305
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-058.jpg",
+      "sha256": "2155f16ecf26a0aa3b24bcaa9203442b48db7634250b86d0c232bcda498bde74",
+      "bytes": 8096871
+    }
+  ],
+  "printed_folios": [
+    "58"
+  ],
+  "observed_whole_extent": [
+    40,
+    58
+  ],
+  "previous_segment_folios": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "continuation_pending": [],
+  "assembly_pending": true,
+  "continuation_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-15/review/continuations.json",
+    "sha256": "6ebc2e91b590a54ff90f0681a4d91780880a5ed53f7346b657d80356e200ba73",
+    "bytes": 1939
+  },
+  "summary": {
+    "blocks": 1,
+    "regions": 2,
+    "joins": 1,
+    "codeContexts": 1,
+    "physicalRows": 116,
+    "numberedUnits": 116,
+    "assemblerFields": 812,
+    "dataSourceTokens": 0,
+    "routineGroups": 14,
+    "uncertainties": 0,
+    "captions": 0,
+    "figures": 0,
+    "sourceImages": 1,
+    "outsideLookupViews": 2,
+    "newOutsideLookupViews": 0,
+    "ocrTasks": 2,
+    "ocrSeconds": 3.1083033419999992,
+    "packageFiles": 17,
+    "negativeCases": 14
+  },
+  "previousCheckpointCommit": "032a6235",
+  "inputIntegrationCommit": "f74c4884",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "cafaff63e64d7e795a4ae169477ca78371a2c88e5726834184280a9c67198245",
+      "bytes": 206300
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "8eba306f6ec9aa55215bc177c846f75bef986dbcf4c30a7e98604a34b73d0a0b",
+      "bytes": 27797
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "57c7e2d767630227af42f3cf5ffe4a9b5039323a6c0e31e37ac83d78ad9b990c",
+      "bytes": 29664
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 15,
+    "total": 229,
+    "reason": "All pinned shared implementation, schemas, tests and plans unchanged; R11 regression logs and evidence rehashed."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 0,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "nativeInputFailures": 0,
+    "exportFailures": 0,
+    "verificationPreflightRepairs": 0
+  },
+  "limitations": [
+    "Segment d restores final actual 58. All source pages 40-58 are now covered by separate segments; whole-feature assembly remains pending.",
+    "MINI ORGAN listing 2 and its incoming SOUND2 routine must assemble with segment c. GOODMUSIC and listing 1/TW parts also await unified assembly.",
+    "Original encoded bytes/typesetting, historical code correctness, execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-15/recipe.json --output archive/scans/1984-11/packages/machine-music-d-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-15/recipe.json --output work/validation/scans-1984-11-machine-music-d-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-15/verify-review.py"
+  ],
+  "next": "R16: assemble complete Feature II actual 40-58 from four immutable segments. Preserve unified GOODMUSIC listing 2 and both MINI ORGAN program identities; join TW and SOUND2 source groups across their boundaries. Extend structured assembly for cross-segment program indexes and all typed source diagram references as needed, with focused regression/negative checks and a fresh native rebuild. Then restore all remaining November identities, account for source images/covers and verify whole-issue native export/rebuild."
+}
