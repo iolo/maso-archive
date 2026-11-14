@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R17",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0004",
+  "title": "개구리",
+  "observed_title": "개구리",
+  "observed_byline": "편집부",
+  "observed_platform": "FC-100",
+  "outcome": "Complete reproducible presentation-independent article package with one original BASIC program, physical/logical wraps, source DATA/string occurrences, variable/range explanation tables, screenshot relationships and explicit uncertainty.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/frog-r02",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/frog-r02/manifest.json",
+    "sha256": "9814234b3749a3499141da1952d0f285def8f626c8c6f19e5ae65350d069d415",
+    "bytes": 13118
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-17/validation.json",
+    "sha256": "f15d329e553aec0269b4e8294d88d67e1450bf0572f1490ba8a8da0af902f2ac",
+    "bytes": 30572
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-17/evidence-manifest.json",
+    "sha256": "2152af9eb98f90a0156e3963128afefa2acb3a7bcd99aff5c6cc09e55c09a401",
+    "bytes": 44145
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-066.jpg",
+      "sha256": "db47b9315770fa38e44236a1e628a0cd0b521277cf3b536113c24e20c4863037",
+      "bytes": 8289884
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-067.jpg",
+      "sha256": "4d9ca7a8048a1254086afb69e568bdf1ff8617c08677a44a1d825ed0a7e1770b",
+      "bytes": 7945602
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-068.jpg",
+      "sha256": "4345af2bd38b246dc9bea54267191f8e23a575c5d265005be5fa3f0eb1abfa52",
+      "bytes": 7377791
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-069.jpg",
+      "sha256": "d7f1a80809de2b79f92d67a209e94d4b64b02fcf00ebf74373406189e34bb65d",
+      "bytes": 8117632
+    }
+  ],
+  "printed_folios": [
+    "66",
+    "67",
+    "68",
+    "69"
+  ],
+  "observed_whole_extent": [
+    66,
+    69
+  ],
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-17/review/article-boundaries.json",
+    "sha256": "c3fc482dfc9526261b015464027ab9387d207d09b597f202833f9a8f8cd31e34",
+    "bytes": 2247
+  },
+  "summary": {
+    "blocks": 10,
+    "regions": 18,
+    "joins": 7,
+    "tables": 2,
+    "tableRows": 34,
+    "tablePositions": 68,
+    "codeContexts": 1,
+    "physicalRows": 314,
+    "numberedUnits": 284,
+    "physicalFields": 598,
+    "dataLogicalTokens": 473,
+    "quotedLogicalStrings": 32,
+    "basicPhysicalTokens": 2782,
+    "inlineFields": 16,
+    "formulaOccurrences": 1,
+    "figures": 1,
+    "figureLabels": 6,
+    "sourceParagraphs": 5,
+    "programRangeExplanations": 21,
+    "variableDefinitions": 13,
+    "uncertainties": 12,
+    "sourceImages": 4,
+    "outsideLookupViews": 2,
+    "ocrTasks": 17,
+    "ocrSeconds": 12.963253771999007,
+    "packageFiles": 78,
+    "negativeCases": 17
+  },
+  "previousCheckpointCommit": "ed66812c",
+  "inputIntegrationCommit": "f74c4884",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "dbbd2e25fb0de1969917604ab1bbf41ab22cbf3afbb79ea00a27acb5375d1a3d",
+      "bytes": 208327
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "2cddde54495dccaa7c2ef0d0d27a3b017baa306da196223c7ee1ea729811949e",
+      "bytes": 16884
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "8b7fa958c36e2054e482dbd6a8f3e69fbc2c001e86ce0e23c4cd57802c562a48",
+      "bytes": 31340
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 18,
+    "total": 232,
+    "reason": "R16 implementation/schema/test pins and frozen regression logs rehashed unchanged. Data-only source restoration."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 0,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "nativeInputFailures": 0,
+    "successfulInputRevisions": 1,
+    "exportFailures": 0,
+    "verificationPreflightRepairs": 0
+  },
+  "inputRevision": {
+    "initialPackage": {
+      "path": "archive/scans/1984-11/packages/frog-r01/manifest.json",
+      "sha256": "7d5f410c213d9c7e82e8dc720e36dc9df5ae33ea8ba0f2fe5d5bb5da431702ae",
+      "bytes": 13118
+    },
+    "initialInputs": [
+      {
+        "path": "archive/scans/1984-11/restoration/batch-17/review/native-input-01/corrections.json",
+        "sha256": "eb7ab8e8aec37634417d7ae3cefbb9b4947b258b86782764dd55e8a0bfd780a8",
+        "bytes": 3144287
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-17/review/native-input-01/recipe.json",
+        "sha256": "3dc94b76dab182e6f478a5f5ef61c6d98857f3a0af586959344b365d4e10e8e3",
+        "bytes": 4204
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-17/review/native-input-01/save-review.py",
+        "sha256": "5996a94f7df358219020b9fd6b338a7bcf354b5a186afc066f856a2dc558e344",
+        "bytes": 18271
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-17/review/native-input-01/structure-check.py",
+        "sha256": "32631c4f4587ce12b1da7a1656623daa57774d8d116a05bbe4213e206767688e",
+        "bytes": 11425
+      }
+    ],
+    "reason": "Retain successful initial export/rebuild, then refine two explicit 10/80 prose fragments and index printed bonus formula; source text, figures and recognition unchanged."
+  },
+  "limitations": [
+    "Complete observed article extent 66-69; source compared, with explicit local glyph and whitespace uncertainty.",
+    "Music-command O/0 readings, three quoted blank-run counts, status-string spacing, explanation range-separator count and one screenshot digit retain local uncertainty.",
+    "Original encoded bytes/typesetting, source correctness, program execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-17/recipe.json --output archive/scans/1984-11/packages/frog-r02",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-17/recipe.json --output work/validation/scans-1984-11-frog-r02",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-17/verify-review.py"
+  ],
+  "next": "R18: locate and restore 3차원 우주전쟁 (maso-1984-11-toc-0005, catalog page candidate 70) in a bounded batch of at most six new mapped source views. Check the actual title, ownership and ending before assuming an extent from neighboring TOC references. Preserve all earlier packages and frozen evidence, including complete features and 개구리. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild."
+}

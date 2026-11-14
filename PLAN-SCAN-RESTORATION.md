@@ -265,12 +265,13 @@ restored JSON/assets and faithful source evidence first.
 | R14 — Feature II listing segment c | Actual 52–57; whole feature remains partial | 65 identical native files; 692 numbered rows, 4,844 independent source fields and typed data/routine groups; listing 1 ends and listing 2 begins on 55 |
 | R15 — Feature II final source segment d | Actual 58; all source pages covered, whole assembly pending | 17 identical native files; 116 numbered rows, 812 independent fields, fourteen typed routine groups and final A3E7 RET source evidence |
 | R16 — complete Feature II assembly | Actual 40–58; complete native article package | 435 identical native files; three program joins, TW/SOUND2 group joins, 1,143 physical rows, 7,747 fields and six original typed diagrams; 232 regression tests pass |
+| R17 — 개구리 | Actual 66–69; complete native article package | 78 identical native files; 314 physical rows/284 logical units, 473 DATA tokens, 68 explanatory table cells and original screenshot relationships; twelve local uncertainties retained |
 
-Immediate next action: **R17**, locate and restore 개구리,
-`maso-1984-11-toc-0004`, with catalog page candidate 66. Check the actual title,
+Immediate next action: **R18**, locate and restore 3차원 우주전쟁,
+`maso-1984-11-toc-0005`, with catalog page candidate 70. Check the actual title,
 body ownership and ending before mapping at most six new source views; neighboring
-TOC references do not establish its extent. November now has seven complete
-article packages, no partial article, six non-owning headings and 27 unclassified
+TOC references do not establish its extent. November now has eight complete
+article packages, no partial article, six non-owning headings and 26 unclassified
 entries. Complete Feature II on 40–58 retains three unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

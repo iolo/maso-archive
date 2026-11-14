@@ -4,13 +4,12 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R13 complete: six November 1984 articles have complete reproducible
-JSON/assets packages, including the complete Feature I on actual 18–39.
-Feature II has two reproducible segments covering 40–51 and remains partial.
-Feature I's four original segments remain unchanged. Six section headings have source-backed non-owning
-classifications.**
+**R00–R17 complete: eight November 1984 articles have complete reproducible
+JSON/assets packages, including Feature I on actual 18–39, Feature II on 40–58
+and 개구리 on 66–69. Both features retain their immutable original segments.
+Six section headings have source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Twenty-seven canonical identities await disposition. The 24 cleaned source sets
+Twenty-six canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -42,6 +41,10 @@ labels and the preserved exports retain their existing values.
 | R11 — complete Feature I assembly | Passed | Actual 18–39; 650 identical native files, all typed source indexes and the 29/30 sentence join; original four segments unchanged |
 | R12 — Feature II opening segment a | Passed; whole article partial | Actual 40–45; 192 identical native files, two tables, three code contexts and three original structured diagrams; listing continues on 46 |
 | R13 — Feature II middle segment b | Passed; whole article partial | Actual 46–51; 152 identical files, 185 numbered units, original keyboard screen and two typed flowcharts; listing/data group continues on 52 |
+| R14 — Feature II listing segment c | Passed; whole article partial | Actual 52–57; 65 identical files, 692 numbered rows, 4,844 fields and typed data/routine groups |
+| R15 — Feature II final source segment d | Passed; assembly pending at this checkpoint | Actual 58; 17 identical files, 116 numbered rows, 812 fields and fourteen routine groups |
+| R16 — complete Feature II assembly | Passed | Actual 40–58; 435 identical files, unified programs/groups and typed diagram relationships; 232 shared tests pass |
+| R17 — 개구리 | Passed | Actual 66–69; 78 identical files, one 284-unit BASIC program, 68 table cells and original screenshot relationships; twelve local uncertainties retained |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -729,3 +732,51 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R17**, locate and restore 개구리 (catalog page candidate 66), checking
 its actual title, ownership and ending in a bounded batch. Continue all remaining
 November entries, source-image/covers accounting and whole-issue export/rebuild.
+
+## R17 completed — 2026-11-15
+
+Restored complete 개구리, credited to 편집부 for FC-100, on actual 66–69.
+The preceding 취미생활 divider remains a non-owning section heading. The 정보
+emblem closes the main prose, while the attached variable/program explanations
+and listing continue through final 3830 RETURN. Actual 70 opens the separate
+3차원 우주전쟁 article.
+
+One original BASIC program retains 314 physical rows and 284 logical numbered
+units across six panels. The music string at 2150 retains both printed fragments;
+3380 DATA retains its continuation into the opposite column. The package indexes
+473 literal DATA occurrences, including signed values, names, five ** delimiters
+and END, plus 32 quoted logical strings. Source OBSCATLE, TE and the extra final
+0 after PARK, 500 remain literal. No program was executed or corrected by expected
+behavior.
+
+Two explanatory tables retain thirteen variable definitions and twenty-one
+program-range descriptions, with 68 cells and typed listing relationships. Five
+prose paragraphs, the split 10/80 reference to line 1080, printed bonus formula
+and original screenshot/status relationships remain independent of presentation.
+Twelve local uncertainties cover music-string O/0 glyphs, three quoted blank-run
+counts, status-string spacing, an extended range separator and one screenshot
+digit. No caption or replacement screenshot was invented.
+
+All 78 selected native files match a separate-process rebuild byte for byte.
+All eighteen crops match the original decoded-master pixels, and seventeen
+invalid structural cases reject. Seventeen mapped OCR tasks completed without
+engine failures or retries; no source-map refinement was needed. A successful
+initial export/rebuild is retained before refining the explicit prose-number
+fragments and bonus-formula index in the selected revision. Neither revision
+changes the recognized source text or original image assets.
+
+All fifteen earlier packages and their private evidence, contents classifications,
+source masters and shared plans remain exact. The unchanged implementation,
+schemas, tests and frozen R16 logs support reuse of the 232-test baseline;
+this data-only batch does not rerun those regressions. Session cleanup ran in
+preview mode only. The batch freezes 208 private evidence files.
+
+November now has eight complete article packages, no partial article, six
+non-owning headings and 26 unclassified entries. Original encoding/typesetting,
+source correctness, execution and human acceptance remain unverified.
+
+See the [개구리 result](metadata/catalog/scan-restoration/1984-11-frog.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R18**, locate and restore 3차원 우주전쟁 (catalog page candidate 70),
+verifying actual boundaries in a bounded batch. Continue all remaining November
+identities, source-image/covers accounting and whole-issue native export/rebuild.

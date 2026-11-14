@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 7,
+  "readable_articles": 8,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 27,
+  "identitiesAwaitingDisposition": 26,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -2502,10 +2502,128 @@
       "page_candidates": [
         66
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "개구리",
+      "observed_byline": "편집부",
+      "observed_platform": "FC-100",
+      "observed_whole_extent": [
+        66,
+        69
+      ],
+      "source_views": [
+        {
+          "source_index": 69,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-066.jpg",
+            "sha256": "db47b9315770fa38e44236a1e628a0cd0b521277cf3b536113c24e20c4863037",
+            "bytes": 8289884
+          },
+          "width_px": 4743,
+          "height_px": 6921,
+          "reading_order": 68,
+          "source_filename_number": 66,
+          "printed_page": "66",
+          "image_to_upright_normalized": [
+            0.0002108370229812355,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 70,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-067.jpg",
+            "sha256": "4d9ca7a8048a1254086afb69e568bdf1ff8617c08677a44a1d825ed0a7e1770b",
+            "bytes": 7945602
+          },
+          "width_px": 4732,
+          "height_px": 6916,
+          "reading_order": 69,
+          "source_filename_number": 67,
+          "printed_page": "67",
+          "image_to_upright_normalized": [
+            0.00021132713440405747,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 71,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-068.jpg",
+            "sha256": "4345af2bd38b246dc9bea54267191f8e23a575c5d265005be5fa3f0eb1abfa52",
+            "bytes": 7377791
+          },
+          "width_px": 4738,
+          "height_px": 6921,
+          "reading_order": 70,
+          "source_filename_number": 68,
+          "printed_page": "68",
+          "image_to_upright_normalized": [
+            0.00021105951878429716,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 72,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-069.jpg",
+            "sha256": "d7f1a80809de2b79f92d67a209e94d4b64b02fcf00ebf74373406189e34bb65d",
+            "bytes": 8117632
+          },
+          "width_px": 4758,
+          "height_px": 6917,
+          "reading_order": 71,
+          "source_filename_number": 69,
+          "printed_page": "69",
+          "image_to_upright_normalized": [
+            0.0002101723413198823,
+            0,
+            0,
+            0.00014457134595923088,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/frog-r02",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/frog-r02/manifest.json",
+          "sha256": "9814234b3749a3499141da1952d0f285def8f626c8c6f19e5ae65350d069d415",
+          "bytes": 13118
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-17/validation.json",
+          "sha256": "f15d329e553aec0269b4e8294d88d67e1450bf0572f1490ba8a8da0af902f2ac",
+          "bytes": 30572
+        },
+        {
+          "path": "archive/scans/1984-11/restoration/batch-17/review/article-boundaries.json",
+          "sha256": "c3fc482dfc9526261b015464027ab9387d207d09b597f202833f9a8f8cd31e34",
+          "bytes": 2247
+        }
+      ],
+      "limitations": [
+        "Complete observed article extent 66-69; source compared, with explicit local glyph and whitespace uncertainty.",
+        "Music-command O/0 readings, three quoted blank-run counts, status-string spacing, explanation range-separator count and one screenshot digit retain local uncertainty.",
+        "Original encoded bytes/typesetting, source correctness, program execution and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0005",
@@ -3425,6 +3543,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R17: locate and restore 개구리 (maso-1984-11-toc-0004, catalog page candidate 66) in a bounded batch of at most six new mapped source views. Verify the actual source title, ownership and ending rather than assuming an extent from neighboring TOC references. Preserve both complete features and all immutable segments. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild.",
+  "next": "R18: locate and restore 3차원 우주전쟁 (maso-1984-11-toc-0005, catalog page candidate 70) in a bounded batch of at most six new mapped source views. Check the actual title, ownership and ending before assuming an extent from neighboring TOC references. Preserve all earlier packages and frozen evidence, including complete features and 개구리. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }
