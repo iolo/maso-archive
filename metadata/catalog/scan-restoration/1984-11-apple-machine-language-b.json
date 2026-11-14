@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R08",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0001",
+  "title": "특집I : 애플베이직에서 기계어로",
+  "outcome": "Reproducible presentation-independent middle segment b; whole article remains partial.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "segment_id": "b",
+  "selected_package": "archive/scans/1984-11/packages/apple-machine-language-b-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/apple-machine-language-b-r01/manifest.json",
+    "sha256": "e3e307268edb2bef87ff11d418222b9b1c2602516c18e44bed27c29d92066c62",
+    "bytes": 28475
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-08/validation.json",
+    "sha256": "02168ee14a8c2feb352936d866f585d80bbd3a4ed7ff8ed673e82d04f87736d1",
+    "bytes": 50295
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-08/evidence-manifest.json",
+    "sha256": "8916c3729f67dfb0f9fabef627ca25ccba2aaaf65b2abc72f3a9ff71a55a47af",
+    "bytes": 112018
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-024.jpg",
+      "sha256": "0f0fb64a69e6d5554d5b7c5bb2c6cfbc503ec2b75ddc4e7bc43f7c659e0c9c64",
+      "bytes": 8295428
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-025.jpg",
+      "sha256": "eddfa037cedbbbd6f1a1b06b0938a6e502a63e7e53b97b2e0f8103bdf3c89046",
+      "bytes": 8717851
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-026.jpg",
+      "sha256": "1ef38bf8c371b731282bef63a10ff3d90ae8652f352ef17e7f227da691b29ea0",
+      "bytes": 8391991
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-027.jpg",
+      "sha256": "287ef6e57246466813ca1bc0562b409cf37440933d674507feb9dd174632796b",
+      "bytes": 8582103
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-028.jpg",
+      "sha256": "c6e841321036dcc1680d1dd2be5795616c669727a1238a9d239057bbd9fcf8fc",
+      "bytes": 8544554
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-029.jpg",
+      "sha256": "d67a30adf2727ea85ef57a2630777114318420e3551d2508797208d7de857123",
+      "bytes": 9048086
+    }
+  ],
+  "printed_folios": [
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ],
+  "observed_whole_extent": [
+    18,
+    39
+  ],
+  "previous_segment_folios": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "continuation_pending": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "continuation_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-08/review/continuations.json",
+    "sha256": "75478e66c6657a47cb15082fc1bf4afc38b733fb76a8dd3c714d17bcc126d303",
+    "bytes": 2401
+  },
+  "summary": {
+    "sourceImages": 6,
+    "outsideLookupViews": 2,
+    "mappedRegions": 44,
+    "rawOcrTasks": 39,
+    "readingBlocks": 27,
+    "regionalTextRanges": 39,
+    "explicitJoins": 12,
+    "listingContexts": 6,
+    "captionedAssemblerContexts": 3,
+    "physicalRows": 205,
+    "numberedEntries": 171,
+    "unnumberedUnits": 11,
+    "byteContinuationRows": 9,
+    "assemblerFields": 1260,
+    "inlineFields": 37,
+    "originalFigures": 5,
+    "figureLabels": 133,
+    "figureCells": 150,
+    "binaryTables": 2,
+    "tableGridSlots": 36,
+    "sourceTableLabels": 34,
+    "absentHeaderSlots": 2,
+    "sourceLiteralTokens": 36,
+    "localUncertainties": 3,
+    "packageFiles": 170
+  },
+  "lookup_scope": {
+    "new_folios": [
+      30
+    ],
+    "reused_verified_boundary_folios": [
+      23
+    ]
+  },
+  "previousCheckpointCommit": "53007431",
+  "inputIntegrationCommit": "f74c4884",
+  "implementationUnchangedSince": "53007431",
+  "implementation": [
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "e403d888f8b8170413b34695089a5dbc7f80df786a3b2b41ebacdddef5881987",
+      "bytes": 12076
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "7955991fa331e3b0f0b3b960ad0dc2a0108209103fa329f91436ff2b8e7f0be9",
+      "bytes": 18147
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "c721436fda72861b3e4691306ebe67170498a666afe179698c2adf522d960088",
+      "bytes": 6125
+    }
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionBaseline": {
+    "checkpoint": "R07",
+    "tests": {
+      "pdf": 214,
+      "jpegAndRecognitionMap": 6
+    },
+    "reason": "No shared code/schema/runtime changed in this data-only batch."
+  },
+  "ocrSeconds": 28.316286578998188,
+  "attempts": {
+    "ocrTasks": 39,
+    "ocrFailures": 0,
+    "ocrRetries": 0,
+    "preOcrMapRefinementPasses": 1,
+    "spellingConfirmationRefinements": 1,
+    "exportFailures": 0,
+    "verifierPreflightRepairs": 1
+  },
+  "limitations": [
+    "This segment covers actual 24-29 only; opening segment a on 18-23 is preserved separately. Actual 30-39 remain to be restored and assembled.",
+    "The final sentence continues on actual 30 with 흰색과 검은색 그래픽에서는; no missing-source claim.",
+    "Three object filename final glyphs retain local 0/O candidates. Original encoding/typesetting, historical claims, program execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-08/recipe.json --output archive/scans/1984-11/packages/apple-machine-language-b-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-08/recipe.json --output work/validation/scans-1984-11-apple-machine-language-b-r01",
+    "env PYTHONPATH=src:. python3 -m archive.scans.1984-11.restoration.batch-08.verify-review"
+  ],
+  "next": "R09: inspect and restore actual 30-35 as Feature I segment c; explicitly join the pending 29/30 sentence and inspect the 35/36 continuation. Preserve segments a and b. Then restore 36-39 and integrate JPEG segment assembly before assembling the whole feature; continue all remaining November identities and issue closeout."
+}
