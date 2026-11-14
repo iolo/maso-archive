@@ -256,13 +256,16 @@ restored JSON/assets and faithful source evidence first.
 | R06 — source contents classification | Six non-owning headings and bounded feature probes | Fourteen identical files, six pixel-exact contexts, canonical relationships retained |
 | R07 — Feature I opening segment | Actual 18–23; whole feature remains partial | 179 identical native files, three tables, four code contexts, four original figures; explicit continuation pending on 24–39 |
 | R08 — Feature I middle segment b | Actual 24–29; whole feature remains partial | 170 identical native files, six code contexts, two binary examples, five original figures; pending sentence join onto 30 |
+| R09 — Feature I middle segment c | Actual 30–35; whole feature remains partial | 147 identical native files, three code contexts, three tables, nineteen mathematical occurrences and six original figures; 36–39 and assembly pending |
 
-Immediate next action: **R09**, inspect actual 30–35 and the 35/36 continuation,
-then restore those six source views as the next explicit Feature I segment.
-Preserve the pending sentence join from 29 onto 30. After this segment, restore
-36–39 and assemble the complete feature only after JPEG assembly integration.
+Immediate next action: **R10**, restore actual 36–39 as Feature I segment d.
+Compare the original byte table and decoding explanation on 36 with the separately
+observed rocket diagram on 35; preserve any source discrepancies without
+recomputing either representation. Preserve the pending sentence join from 29
+onto 30, whose two sides now exist in separate packages. Assemble the complete
+feature only after JPEG assembly integration.
 Feature I spans actual 18–39; Feature II starts on 40 and its ending remains
-unverified. Preserve the two segments on 18–29. Integrate JPEG segment
+unverified. Preserve the three segments on 18–35. Integrate JPEG segment
 assembly before the first assembly operation.
 Then continue the remaining articles in bounded batches through issue closeout.
 R01 delivered the editorial; R02 Bit
@@ -273,6 +276,8 @@ Techniques installment and its six code examples; R06 six source-backed group
 classifications; R07 the opening six-page Feature I segment with typed table and
 assembler fields, source-linked BASIC wraps and original figure labels; R08 the
 next six-page segment with three independent assembler listings, annotated
-monitor/carry examples and structured source diagrams. November remains
+monitor/carry examples and structured source diagrams; R09 the next six pages
+with literal mathematical occurrences, colour/address tables, two complete
+assembler listings, an independent BASIC example and observed dot grids. November remains
 in progress. JPEG segment assembly and whole-issue export remain to be checked
 before their first use.

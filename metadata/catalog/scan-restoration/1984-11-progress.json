@@ -351,23 +351,171 @@
               "bytes": 50295
             }
           ]
+        },
+        {
+          "segment_id": "c",
+          "printed_folios": [
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35"
+          ],
+          "source_views": [
+            {
+              "source_index": 33,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-030.jpg",
+                "sha256": "9bf0c7364b1fdc8e56e9aba1f8c144f709ad6036a3b4b0016ee919375a8b60f4",
+                "bytes": 8370342
+              },
+              "width_px": 4739,
+              "height_px": 6921,
+              "reading_order": 32,
+              "source_filename_number": 30,
+              "printed_page": "30",
+              "image_to_upright_normalized": [
+                0.00021101498206372652,
+                0,
+                0,
+                0.00014448779078167894,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 34,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-031.jpg",
+                "sha256": "16d3e76f9eb0f036eb24f4c4eb3b52b675eb023b94558e9525d47dbc35944a81",
+                "bytes": 8611183
+              },
+              "width_px": 4742,
+              "height_px": 6912,
+              "reading_order": 33,
+              "source_filename_number": 31,
+              "printed_page": "31",
+              "image_to_upright_normalized": [
+                0.00021088148460565162,
+                0,
+                0,
+                0.00014467592592592592,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 35,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-032.jpg",
+                "sha256": "155ed9c567731a466efd9392255e209f5869bd60bc02b2d0e37387798ba62e72",
+                "bytes": 8201531
+              },
+              "width_px": 4736,
+              "height_px": 6921,
+              "reading_order": 34,
+              "source_filename_number": 32,
+              "printed_page": "32",
+              "image_to_upright_normalized": [
+                0.00021114864864864866,
+                0,
+                0,
+                0.00014448779078167894,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 36,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-033.jpg",
+                "sha256": "c96ebb4d3c58952db7fb28285bbe76e9edabf956bd538b5d1a31ee99da97f214",
+                "bytes": 8529105
+              },
+              "width_px": 4743,
+              "height_px": 6920,
+              "reading_order": 35,
+              "source_filename_number": 33,
+              "printed_page": "33",
+              "image_to_upright_normalized": [
+                0.0002108370229812355,
+                0,
+                0,
+                0.00014450867052023122,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 37,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-034.jpg",
+                "sha256": "f3a26a8b086187fd887fb3f371230b41d7e2b576f99ac432eac92f28d98557e3",
+                "bytes": 7885719
+              },
+              "width_px": 4738,
+              "height_px": 6923,
+              "reading_order": 36,
+              "source_filename_number": 34,
+              "printed_page": "34",
+              "image_to_upright_normalized": [
+                0.00021105951878429716,
+                0,
+                0,
+                0.0001444460494005489,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 38,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-035.jpg",
+                "sha256": "7fcbad6e340010a828edcc206ca4dae8d1e3f04268a7962f21adea45a97d2532",
+                "bytes": 8633349
+              },
+              "width_px": 4746,
+              "height_px": 6921,
+              "reading_order": 37,
+              "source_filename_number": 35,
+              "printed_page": "35",
+              "image_to_upright_normalized": [
+                0.00021070375052675939,
+                0,
+                0,
+                0.00014448779078167894,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/apple-machine-language-c-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/apple-machine-language-c-r01/manifest.json",
+              "sha256": "15b6300554d6becf1a84e5890aa582e19b99f734174ae6d69f6598b010403b9d",
+              "bytes": 24517
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-09/validation.json",
+              "sha256": "0ed7760ecc74973075d420fc810841d102e3f1088fcdaa1a8305586065ee4204",
+              "bytes": 44977
+            }
+          ]
         }
       ],
       "continuation_pending": [
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
         36,
         37,
         38,
         39
       ],
       "limitations": [
-        "Two immutable segments preserve actual 18-29. Present source pages 30-39 await restoration and whole-article assembly.",
-        "Segment a retains eleven unresolved dashed-run counts and two object filename 0/O candidates; segment b retains three object filename 0/O candidates.",
+        "Three immutable segments preserve actual 18-35. Present 36-39 and whole-article assembly remain pending.",
+        "Segment a retains eleven dash counts and two object-name glyph candidates; segment b retains three object-name candidates; segment c retains seven locally indexed uncertainties.",
         "Original encoding/typesetting, historical claims, execution and human acceptance remain unverified."
       ],
       "pending_prose_join": {
@@ -380,6 +528,17 @@
           "path": "archive/scans/1984-11/restoration/batch-08/review/continuations.json",
           "sha256": "75478e66c6657a47cb15082fc1bf4afc38b733fb76a8dd3c714d17bcc126d303",
           "bytes": 2401
+        }
+      },
+      "pending_relationship": {
+        "from_folio": 35,
+        "figure_id": "rocket",
+        "to_folio": 36,
+        "target": "Original diagram decoding and byte table; pending source comparison in segment d.",
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-09/review/continuations.json",
+          "sha256": "9d7f5c3b9bfdc59493895f8e8c8a33f4180d0ce20e3f50f3b1e5f853a92b99ef",
+          "bytes": 2425
         }
       }
     },
@@ -1382,6 +1541,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R09: inspect and restore actual 30-35 as Feature I segment c; explicitly join the pending 29/30 sentence and inspect the 35/36 continuation. Preserve segments a and b. Then restore 36-39 and integrate JPEG segment assembly before assembling the whole feature; continue all remaining November identities and issue closeout.",
+  "next": "R10: restore actual 36-39 as Feature I segment d; resolve the source relationship between the rocket diagram on 35 and its explanation/byte table on 36. Preserve segments a-c. Then integrate JPEG segment assembly and assemble 18-39, including the pending 29/30 sentence join. Continue Feature II and all remaining November identities through issue closeout.",
   "group_headings": 6
 }

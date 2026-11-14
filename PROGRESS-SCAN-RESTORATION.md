@@ -4,9 +4,9 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R08 complete: five November 1984 articles have complete reproducible
-JSON/assets packages; Feature I has two reproducible segments covering actual
-18–29 and remains partial. Six section headings have source-backed non-owning
+**R00–R09 complete: five November 1984 articles have complete reproducible
+JSON/assets packages; Feature I has three reproducible segments covering actual
+18–35 and remains partial. Six section headings have source-backed non-owning
 classifications.**
 All completed records are assistant sample-reviewed.
 Twenty-eight canonical identities await disposition. The 24 cleaned source sets
@@ -36,6 +36,7 @@ labels and the preserved exports retain their existing values.
 | R06 — contents ownership | Passed | Six non-owning headings; fourteen reproducible classification files and bounded feature location evidence |
 | R07 — Feature I opening segment | Passed; whole article partial | Actual 18–23; 179 identical files, three tables, four code contexts and four original figures; 24–39 pending |
 | R08 — Feature I middle segment b | Passed; whole article partial | Actual 24–29; 170 identical files, six code contexts, two binary examples and five original figures; 30–39 pending |
+| R09 — Feature I middle segment c | Passed; whole article partial | Actual 30–35; 147 identical files, three code contexts, three tables, nineteen mathematical occurrences and six original figures; 36–39 and assembly pending |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -318,3 +319,55 @@ Next: **R09**, restore actual 30–35, preserving the pending 29/30 sentence and
 checking the 35/36 continuation. Then restore 36–39 and integrate JPEG segment
 assembly before combining the immutable feature segments. Whole-issue export
 and the remaining November identities stay in scope.
+
+## R09 completed — 2026-11-15
+
+Restored actual 30–35 as a third immutable Feature I segment under the existing
+canonical identity. Listing 7 spans 32–33; listing 8 is complete on 34. The small
+BASIC example remains independent. Logical continuations preserve split words
+and the formula 40*AA across 32/33 without duplicating source text. The pending
+29/30 sentence has both sides restored in separate packages; its assembly join
+is still pending. Page 36 starts a new paragraph and continues the raster topic.
+The rocket diagram on 35 awaits an explicit relationship to the original byte
+table and decoding explanation on 36 after their restoration.
+
+The package preserves 25 logical blocks, eight joins, three code contexts,
+152 physical rows, 146 numbered entries, two byte continuations, 1,008 assembler
+fields, 23 BASIC tokens and seven DFB literals. Three tables contain 197 grid
+slots, distinguishing 23 actual blanks, four merged continuations, two shared
+colour-label continuations and six ellipsis cells. Eight source annotations
+retain the address diagram's labels and bracket contexts. Nineteen mathematical
+occurrences preserve literal source characters and line breaks. Six original
+figures retain 71 labels, 28 colour-symbol cells and 196 observed dot/blank cells.
+
+The BASIC example's 1892 and line 44 remain as printed. The address table's 9340,
+row 52's $3000, AA/A differences, formula double asterisk, 13736 versus
+13896+21=13917, the 79-command claim and repeated 140 remain independent source
+readings. The uncorrected colour example retains adjacent dots at the byte
+boundary; the next example alternates. The rocket's 168 cells were reviewed
+independently of the next page's byte table. Seven local uncertainties cover
+an ellipsis count, damaged prose, a damaged decimal and four 0/O glyph
+occurrences. No uncertain digits or damaged word were filled from expected
+machine behavior or numerical results.
+
+All 147 native files reproduce exactly in a separate process without OCR or a
+presentation build. All 39 source crops match pixels, and sixteen invalid
+structural cases reject. Thirty-three OCR tasks completed in 28.538 summed
+engine seconds with no failures or retries. One pre-OCR map refinement and one
+private prose-script quote repair are preserved. Both exports and the independent
+verifier passed without preflight repairs. The seven earlier article/segment
+packages and their evidence, contents classifications, source masters, cleanup
+pins, shared implementation and OCR/PDF plans remain exact. This data-only
+checkpoint reuses R07's 220-test regression baseline.
+
+November still has five complete articles, one partial feature, six non-owning
+headings and 28 unclassified identities. Feature I has checked segments for
+eighteen of its twenty-two pages. Original encoded bytes/typesetting, execution
+and human acceptance remain unverified.
+
+See the [Feature I segment c result](metadata/catalog/scan-restoration/1984-11-apple-machine-language-c.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R10**, restore actual 36–39 and the rocket diagram/table relationship.
+Then integrate JPEG segment assembly and combine the complete 18–39 feature,
+including the pending 29/30 sentence join. Feature II, all remaining November
+identities and whole-issue export remain in scope.
