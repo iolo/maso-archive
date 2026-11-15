@@ -37,12 +37,16 @@ def validate_recipe(recipe):
     if programs:
         required |= {'program_links', 'group_links', 'example_links'}
     if 'source_index_mode' in recipe:
-        if not programs or recipe['source_index_mode'] not in ('regional-literals-v1','regional-literals-v2','regional-literals-v3'):
+        if not programs or recipe['source_index_mode'] not in ('regional-literals-v1','regional-literals-v2','regional-literals-v3','regional-literals-v4'):
             raise ValueError('Unsupported structured source index extension')
         required.add('source_index_mode')
     if recipe.get('source_index_mode')=='regional-literals-v3':
         from .assembly_source_structures import validate_links
         required.add('reference_links')
+        validate_links(recipe)
+    if recipe.get('source_index_mode')=='regional-literals-v4':
+        from .assembly_source_graphs import validate_links
+        required |= {'reference_links','paragraph_links','figure_links'}
         validate_links(recipe)
     if programs and any('address_join' in r for r in recipe['program_links']) and recipe.get('source_index_mode')!='regional-literals-v2':
         raise ValueError('Printed address joins require regional-literals-v2')
@@ -113,6 +117,10 @@ def checked_span(data, start, end, literal=None):
 class Context:
     def __init__(self, spec, source, correction, offset, *, source_indexes=False, source_index_version='regional-literals-v1'):
         self.spec, self.source, self.correction, self.offset = spec, source, correction, offset
+        self.source_graphs = source_indexes and source_index_version=='regional-literals-v4'
+        if self.source_graphs:
+            self.correction = deepcopy(correction)
+            for key in ('listing_line_index','logical_listing_line_index'):self.correction.setdefault(key,[])
         self.name, self.prefix = spec['name'], 'segments/' + spec['name']
         self.regions = {r['id'] for r in source['regions'] + source['excluded_regions']}
         self.blocks = {b['id']: b for b in source['blocks']}
@@ -124,8 +132,8 @@ class Context:
         self.program_mode = False
         self.numbered = False
         self.source_indexes = source_indexes
-        self.extended_source_indexes = source_indexes and source_index_version in ('regional-literals-v2','regional-literals-v3')
-        self.source_structures = source_indexes and source_index_version=='regional-literals-v3'
+        self.extended_source_indexes = source_indexes and source_index_version in ('regional-literals-v2','regional-literals-v3','regional-literals-v4')
+        self.source_structures = source_indexes and source_index_version in ('regional-literals-v3','regional-literals-v4')
         self.logical_aliases = {}
         self.listing_ids = {id: self.name + '-' + id for id in self.groups}
         self.positions = {self.name + '-' + id: (self.name + '-' + id, 0) for id in self.blocks}
@@ -135,6 +143,9 @@ class Context:
         metadata = METADATA | {'previous_package_manifest', 'character_perfect_code'} if source_indexes else METADATA
         if set(correction) - set(indexes) - metadata:
             raise ValueError('Unrecognized structured correction index; add an explicit projection')
+        if self.source_graphs:
+            from .assembly_source_graphs import prepare_context
+            prepare_context(self)
 
     def identity(self, value, allowed):
         if value not in allowed:
@@ -145,6 +156,9 @@ class Context:
         return self.positions[self.identity(value, self.blocks)][0]
 
     def refs(self, value):
+        if self.source_graphs:
+            from .assembly_source_graphs import references
+            return references(self,value)
         if isinstance(value, list):
             return [self.refs(v) for v in value]
         if not isinstance(value, dict):
@@ -270,7 +284,7 @@ class Context:
 
 def project_structured(recipe, originals):
     validate_recipe(recipe)
-    source_indexes = recipe.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2','regional-literals-v3')
+    source_indexes = recipe.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2','regional-literals-v3','regional-literals-v4')
     indexes = INDEXES + ('text_index', 'unresolved_graphics', 'unresolved_text') if source_indexes else INDEXES
     contexts=[];offset=0
     for spec,(source,correction) in zip(recipe['segments'],originals,strict=True):
@@ -367,6 +381,7 @@ def project_structured(recipe, originals):
                 raise ValueError('Structured listing index differs from complete code blocks')
             cursor=end
         physical=context.correction.get('listing_line_index',[])
+        if context.source_graphs:physical=physical+context.command_physical
         if ''.join(r['text'] for r in physical).encode()!=context.listing:raise ValueError('Physical rows differ from complete source listing')
         for row in physical:
             checked_span(context.listing,row[START],row[END],row['text'])
@@ -376,7 +391,9 @@ def project_structured(recipe, originals):
                 checked_span(context.blocks[row['block_id']]['text'].encode(),field['block_start_byte'],field['block_end_byte'],field['literal'])
         physical_by_id={r['line_id']:r for r in physical}
         if len(physical_by_id)!=len(physical):raise ValueError('Duplicate physical listing row')
-        units=context.correction.get('logical_listing_line_index',[]);unit_ids={r['line_id'] for r in units}
+        units=context.correction.get('logical_listing_line_index',[])
+        if context.source_graphs:units=units+context.command_logical
+        unit_ids={r['line_id'] for r in units}
         if len(unit_ids)!=len(units):raise ValueError('Duplicate logical listing unit')
         for row in units:
             parts=[physical_by_id.get(id) for id in row['physical_line_ids']]
@@ -392,7 +409,7 @@ def project_structured(recipe, originals):
             validate_source_indexes(context)
         if context.source_structures:
             from .assembly_source_structures import validate_source
-            validate_source(context)
+            if not context.source_graphs:validate_source(context)
         for key in indexes:
             for i,original in enumerate(context.correction.get(key,[])):
                 if key=='content_associations' and original.get('kind') in ('pending-source-example','cross-segment-source-example'):
@@ -438,6 +455,9 @@ def project_structured(recipe, originals):
                     from .assembly_source_indexes import project_index
                     project_index(context,key,original,row,ranges)
                 correction[key].append(row)
+        if context.source_graphs:
+            from .assembly_source_graphs import append_command_rows
+            append_command_rows(context,correction,ranges)
     # The new separator has an active occurrence as well as original segment joins.
     for row in resolved:
         target=row['block_id'];end=row['right_utf8_offset'];start=end-len(row['separator'].encode())
@@ -452,6 +472,9 @@ def project_structured(recipe, originals):
     if recipe.get('source_index_mode')=='regional-literals-v3':
         from .assembly_source_structures import finish
         finish(recipe,package,correction,contexts)
+    if recipe.get('source_index_mode')=='regional-literals-v4':
+        from .assembly_source_graphs import finish
+        finish(recipe,package,correction,contexts)
     if source_indexes:
         from .assembly_source_indexes import finish_indexes
         finish_indexes(package,correction,contexts)
@@ -462,6 +485,9 @@ def project_structured(recipe, originals):
 
 def validate_references(package,correction):
     """Every active reference closes inside the assembled typed structures."""
+    if correction.get('source_index_mode')=='regional-literals-v4':
+        from .assembly_source_graphs import validate_active
+        validate_active(correction,package)
     blocks={b['id'] for b in package['blocks']}
     regions={r['id'] for r in package['regions']+package['excluded_regions']}
     figures={f['id'] for f in package['figures']}
@@ -485,7 +511,7 @@ def validate_references(package,correction):
              'source_unit_id':logical,'from_node':nodes,'to_node':nodes}
     multiples={**{k:blocks for k in BLOCK_LISTS},'region_ids':regions,'figure_ids':figures,'physical_line_ids':physical}
     indexes = INDEXES
-    if correction.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2','regional-literals-v3'):
+    if correction.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2','regional-literals-v3','regional-literals-v4'):
         from .assembly_source_indexes import UNIT_KEYS, UNIT_LISTS, REGION_LISTS, BLOCK_EXTRA, LOCAL_EXTRA, BLOCK_EXTRA_LISTS, LISTING_EXTRA
         singles.update({k:logical for k in UNIT_KEYS})
         singles.update(physical_line_id=physical,table_row_id={r['row_id'] for t in correction['tables'] for r in t['rows']})

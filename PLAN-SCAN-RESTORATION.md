@@ -1,8 +1,8 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R45 are complete. The owner resumed the whole-November restoration goal;
-R46 is next: checked assembly of the complete EPROM article.
+R00–R46 are complete. The owner requested a pause after the current batch.
+On resume, R47 begins with MAX-PRINT, observed opening on 206; it has not started.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -295,19 +295,25 @@ restored JSON/assets and faithful source evidence first.
 | R43 — complete 텍스트 화일이란? assembly | Actual 185–195; complete native article package | 456 identical files including 447 exact embedded segment files; source graphs, commands, mixed coordinate owners and fifteen reviewed prose/listing references; 115 pixel checks, 55 invalid cases and 253 fresh regressions |
 | R44 — EPROM programmer opening segment a | Actual 198–201 of observed 198–205; whole article remains partial | 152 identical native files; 28 unnumbered pin terminals, 177 table/grid cells, seven cross-section nodes, eight block connections, twelve timing rows / fourteen connectors and source POKE example; 40 pixel checks and 69 invalid cases; unchanged 253-test baseline reused |
 | R45 — EPROM programmer final segment b | Actual 202–205; all source folios restored, article assembly pending | 119 identical native files; three flowcharts / 30 nodes / 30 edges, circuit / 243 printed fields / 65 wire groups, one program / 43 units / 46 physical rows and five bibliography entries; 28 pixel checks and 81 invalid cases; unchanged 253-test baseline reused |
+| R46 — complete EPROM programmer assembly | Actual 198–205; complete native article package | 280 identical files including 271 exact embedded segment files; scoped flow/circuit structures, separate command/program contexts, source-owned paragraph continuation and caption qualification; 68 pixel checks, 89 invalid cases and 258 fresh regressions |
 
-Immediate next action: **R46**, assemble complete **198–205** of
-**애플 EPROM 프로그래머의 제작**, `maso-1984-11-toc-0026`, without fresh OCR.
-Both source segments are restored; the whole article remains partial until checked
-native assembly. Preserve `eprom-a-r03` and `eprom-b-r02` exactly. Qualify active
-ownership and namespace flow graphs/nodes/edges, circuit components/ports/fields/
-wires/crossings/address bindings, listing contexts and mixed coordinates. Extend
-an opt-in assembly contract with meaningful tests if existing projection cannot
-represent these structures. Keep the opening POKE example distinct from the
-final program. Represent the **더 / 욱** logical paragraph continuation across
-201/204 and the intervening figures without changing frozen source blocks.
-Independently rebuild and byte-compare the whole native package, with the source,
-structure, pixel, negative and preservation gates.
+Paused after **R46**. On resume, **R47** will establish **MAX-PRINT**,
+`maso-1984-11-toc-0027`, from its observed opener **206** and neighboring source
+pages. Confirm its full extent, observed title/byline, body ownership and source
+listing/table/figure structures before mapping. Keep the checkpoint bounded to
+at most two identities, six new mapped source views and twenty outside lookup
+views; restore a segment if needed and assemble separately. Do not guess its end.
+
+Preserve complete **198–205** of **애플 EPROM 프로그래머의 제작** as `eprom-r01`,
+with immutable `eprom-a-r03` and `eprom-b-r02`. All **280 native files** reproduce
+byte for byte, including **271 exact embedded segment files**. Scoped flow/circuit
+identities and mixed coordinate owners remain explicit. The opening POKE command
+and final program retain separate contexts and exact source bytes. The **더 / 욱**
+logical paragraph continuation across 201/204 retains both frozen source blocks
+and intervening figures. Printed figure 4 is qualified by its actual caption;
+reference 5 and the uncaptioned circuit remain unresolved. All **68 pixel checks**,
+**89 damage cases**, **11,101 coordinate comparisons** and **258 fresh regressions**
+passed. The opt-in `regional-literals-v4` assembly contract retains older behavior.
 
 Preserve final `eprom-b-r02` on **202–205**, including the clockwise source views
 on 202/203, three flowcharts and R/W connector pairs, 51 circuit components/symbols,
@@ -430,7 +436,7 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-three complete article packages, one partial article, six non-owning
+November now has twenty-four complete article packages, no partial articles, six non-owning
 headings and ten unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.

@@ -2451,3 +2451,52 @@ Next: **R46**, qualify and assemble the complete EPROM native article with all
 source graphs, contexts, coordinate owners and paragraph/caption qualifications.
 The whole-November goal remains active, including the remaining identities,
 covers/source-image accounting and whole-issue export/rebuild.
+
+
+## R46 completed; paused after this batch — 2026-11-16
+
+Assembled complete **198–205** of **애플 EPROM 프로그래머의 제작** as
+`eprom-r01`, with immutable `eprom-a-r03` and `eprom-b-r02` embedded exactly.
+This is a reproducible native article in the project schema. Its **52 blocks,
+68 regions, nine original figures and four tables / 177 cells** retain their
+source ownership and content order. Two code contexts remain separate: the
+opening exact POKE command receives one derived unnumbered row/unit, while the
+final program retains **43 numbered units / 46 physical rows**. The original
+command correction record and both source segment packages remain unchanged.
+
+Active flow/circuit identities retain figure/panel scopes, repeated connector
+labels, component ports, printed fields, wire groups and address-label bindings.
+The **201 더 / 204 욱** logical paragraph continuation records both exact source
+fragments across the intervening diagrams without rewriting source blocks.
+Printed **그림 4** is bound to its actual flowchart caption; reference **5** remains
+unresolved and the circuit receives no invented caption. Duplicate **그림 3**,
+source wording, unmarked crossing, bus elisions and all **33 source uncertainties**
+remain explicit. Original encoding, exact spacing, device operation and full human
+proofreading remain unverified; the verification status is sample-reviewed.
+
+All **280 native files reproduce byte for byte** in an independent build,
+including **271 exact embedded segment files**. All **68 master-derived crop
+checks**, **11,101 source coordinate comparisons** and **89 deliberately damaged
+source/native cases** pass. The **44 earlier selected packages**, frozen evidence,
+early artifact arrays and six headings remain exact and valid. All **258 fresh
+regressions** pass: 214 PDF and 44 JPEG/recognition/assembly checks. There was
+**no new OCR**; the 59 selected original OCR outcomes/settings remain exact.
+
+The opt-in **regional-literals-v4** assembly contract adds scoped graph/circuit
+projection, source command derivation and explicit paragraph/caption links, with
+five focused tests. Earlier modes retain their behavior. Evidence preserves the
+unsupported v3 preflight, a corrected synthetic test fixture and two failed audit
+attempts: a no-op damage mutation and a missing independent listing-wrapper
+assertion. The final damage case and independent checker correct these gaps;
+native data was unchanged. PLAN-OCR.md and PLAN-PDF.md remain unchanged.
+Cleanup was preview-only; **34 private evidence files** are frozen.
+
+November now has **twenty-four complete articles, no partial articles, six
+non-owning headings and ten unclassified entries**. See the
+[R46 result](metadata/catalog/scan-restoration/1984-11-eprom.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+The owner requested a pause after this batch. **R47 has not started**; on resume,
+establish MAX-PRINT from its observed opener **206**, including its full extent,
+title/byline and structures before bounded mapping. The ten remaining identities,
+covers/source-image accounting and checked whole-issue native export/rebuild
+remain in scope. The whole-November goal is paused, not complete.

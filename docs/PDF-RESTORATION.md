@@ -3709,3 +3709,38 @@ uses v3 to assemble 185–195, retain all native diagram/command/program structu
 and qualify a marker that captured the initial 3 of the printed 3190–3220 range.
 Its source encoding, spacing and execution claims remain unverified. The shared
 OCR/PDF operating plans and established assembly contracts remain unchanged.
+
+### Scoped flow/circuit graphs and logical paragraph continuations
+
+`structured-programs-v1` with `source_index_mode: regional-literals-v4` adds
+explicit figure/graph scopes for node and edge identities, including repeated
+R/W connector labels in separate flow panels. Circuit components, ports, printed
+fields, wires, crossings, bus elisions and address-label bindings receive typed
+identities. References close against declared definitions; identical host and
+EPROM address labels remain distinct. Unknown terminal numbers, elided wires,
+unvalued components and unmarked crossings retain their source qualifications.
+
+This mode requires empty program/group/example/reference/prose/relationship join
+lists. Use existing modes for those joins. Its `paragraph_links` list names exact
+left/right source paragraph associations and a matching original continuation
+declaration. Source ranges, boundary literals, folios and intervening figure
+material are checked. The active logical paragraph contains the two unchanged
+source fragments and their joined display; source blocks and content order are
+preserved. `figure_links` accounts for every number in a pending source figure
+reference: verified targets require an actual matching caption association and
+display caption, while ambiguous numbers remain explicitly unresolved. No caption
+is invented to repair printed numbering.
+
+A complete `unnumbered-command-example` context may derive one physical row and
+one logical command unit from its exact source command association, with no
+printed line number or execution claim. Its provenance points to that original
+association rather than an absent source row index. The source correction remains
+unchanged. Command and program contexts retain separate identities and byte
+ranges, even when their unchanged bytes share the combined listing download.
+
+Every active byte span follows the explicit article/listing coordinate rules of
+v3. Source extents and counterpart segment folios must agree with whole-article
+coverage. November's EPROM article uses v4 for the 198–205 source graphs and the
+201/204 paragraph continuation across the intervening diagrams. Source caption 4
+is observed; reference 5 and the uncaptioned circuit remain qualified separately.
+Existing v1–v3/PDF behavior and both shared operating plans remain unchanged.
