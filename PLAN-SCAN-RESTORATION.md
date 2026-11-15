@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R16 are complete; the active goal is to restore all November 1984 articles.
+R00–R28 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -275,15 +275,18 @@ restored JSON/assets and faithful source evidence first.
 | R24 — 배고픈 거미 | Actual 90–92; complete native article package | 59 identical native files; 226 numbered units / 253 physical rows, 36 table cells, six sprite DATA groups / 192 hex fields, 22 web-coordinate pairs, nine fruit triples, cross-page 1270 and original DRAW/PLAY fragments; 21 local uncertainties retained |
 | R25 — 로즈런너 opening segment a | Actual 93–98; whole article remains partial | 101 identical native files; independent setup, complete BASIC 1000–5410 / 463 physical rows, monitor 0C00–0C60 / 99 byte fields, twelve paragraphs, 24 variable fields, 140 drawing commands, original screenshots/captions and explicit 99–101 continuation |
 | R26 — 로즈런너 continuation segment b | Actual 99–101; all source pages restored, assembly pending | 33 identical native files; 324 monitor rows, 721 byte fields, 95 blank operands, fourteen repeated BRK/??? runs, original INA/E8 and final 0F33 FF ??? retained; four local glyph alternatives |
+| R27 — complete 로즈런너 assembly | Actual 93–101; complete native article package | 143 identical native files; three contexts, 831 physical rows / 810 logical units, 820 monitor byte fields, source alternatives and prior-address relationship; 242 shared regressions pass |
+| R28 — 깡통이 통-통-통 | Actual 102–104; complete native article package | 72 identical native files; 119 BASIC rows, 75 table cells including a continued definition, eight paired grids / 1,536 observed cells, sixteen DATA groups / 192 fields, original illustration/screen/emblem and explicit prose/listing mismatch; four local uncertainties |
 
-Immediate next action: **R27**, assemble complete 로즈런너,
-`maso-1984-11-toc-0010`, actual 93–101, from immutable segments a and b.
-Qualify an explicit address-based source program join from 0C60 to 0C63;
-the existing numbered-program join cannot represent these printed boundaries.
-Retain three independent contexts: setup, complete BASIC and one whole monitor
-listing. Independently rebuild and audit all 831 physical rows, 810 logical
-units, 820 monitor byte fields, original figures/captions, local alternatives
-and typed relationships. Preserve all original segment files and evidence.
+Immediate next action: **R29**, locate and restore 수학을 통한 논리학습,
+`maso-1984-11-toc-0013`, contents starting-page candidate 110. Verify the actual
+title, installment, extent, ownership and all observed equations, figures/tables
+and listings before mapping at most six source views. Preserve complete
+깡통이 통-통-통 on actual 102–104, including the cross-column explanation cell,
+independent paired-grid observations, all DATA occurrences and original prose/
+listing mismatch. Preserve complete 로즈런너 on actual 93–101, its three source
+contexts and all immutable segments/evidence. The explicit address join and v2
+coordinate projection are qualified; frozen v1 packages remain reproducible.
 Preserve complete 배고픈 거미 on actual 90–92,
 including the numberless incoming 1270 fragment, selective 2470 explanation,
 original sprite groups, numeric groups, macro strings and local uncertainty.
@@ -291,8 +294,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has thirteen complete article packages, one partial article, six non-owning
-headings and 20 unclassified entries. Complete Feature II on 40–58 retains three
+November now has fifteen complete article packages, no partial articles, six non-owning
+headings and 19 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
@@ -338,8 +341,8 @@ The v2 source-index projection handles the new coordinate/graphic/caption forms;
 frozen v1 assemblies retain their original conventions. All 143 native files
 rebuild exactly, all 32 source crops pass pixel checks, all 25 earlier packages
 still validate with exact bytes/evidence, and 242 shared regressions pass.
-November has 14 complete articles, no partial articles, six non-owning headings
-and 20 identities awaiting disposition. R28 starts by verifying 깡통이 통-통-통
-from contents page candidate 102. The remaining issue scope includes every
+At R27, November had 14 complete articles, no partial articles, six non-owning
+headings and 20 identities awaiting disposition. R28 then completed 깡통이 통-통-통
+on actual 102–104; current counts and next work are listed above. The remaining issue scope includes every
 unresolved identity, covers/source-image accounting and a checked whole-issue
 native export/rebuild; the reading room remains a sample presentation.

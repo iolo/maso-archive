@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 14,
+  "readable_articles": 15,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 20,
+  "identitiesAwaitingDisposition": 19,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -4768,10 +4768,113 @@
       "page_candidates": [
         102
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "깡통이 통-통-통",
+      "observed_subtitle": "새로운 방법의 에니메이션 방법을 제공하여 주는",
+      "observed_byline": "편집부",
+      "observed_platform": "SPC-1000",
+      "observed_whole_extent": [
+        102,
+        104
+      ],
+      "source_views": [
+        {
+          "source_index": 105,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-102.jpg",
+            "sha256": "b8d974836a127708e877460ccb1b37e17b1a8486de2ca3b0a83c5f602aa079b4",
+            "bytes": 8259029
+          },
+          "width_px": 4736,
+          "height_px": 6924,
+          "reading_order": 104,
+          "source_filename_number": 102,
+          "printed_page": "102",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 106,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-103.jpg",
+            "sha256": "7803e834fda691a8a70b2515f5019f214d5cb901b7ae13ca843444612e7b3e59",
+            "bytes": 8242793
+          },
+          "width_px": 4725,
+          "height_px": 6915,
+          "reading_order": 105,
+          "source_filename_number": 103,
+          "printed_page": "103",
+          "image_to_upright_normalized": [
+            0.00021164021164021165,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 107,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-104.jpg",
+            "sha256": "ddc7f75fe250b802192c525e18ee4e8acd557fe76e8a52b2259c5a1a4b44bd14",
+            "bytes": 7841999
+          },
+          "width_px": 4720,
+          "height_px": 6914,
+          "reading_order": 106,
+          "source_filename_number": 104,
+          "printed_page": "104",
+          "image_to_upright_normalized": [
+            0.000211864406779661,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/kang-tong-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/kang-tong-r01/manifest.json",
+          "sha256": "02cdabc7ef87b3b7ed327532b93b5b591f8256e96f0f94df41e552c698390db9",
+          "bytes": 11894
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-28/validation.json",
+          "sha256": "866e7cc5ff6a0c32333a839bd74ebed8cc9ae54b52d53f2a823604d007a02d83",
+          "bytes": 35658
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-28/validation.json",
+          "sha256": "866e7cc5ff6a0c32333a839bd74ebed8cc9ae54b52d53f2a823604d007a02d83",
+          "bytes": 35658
+        },
+        "finding_key": "summary",
+        "status": "Complete observed 102-104 article: opening/title and final 2180 DATA verified against adjacent independent source bodies; all native files independently reproduced."
+      },
+      "assembly_pending": false,
+      "continuation_pending": [],
+      "limitations": [
+        "Complete observed article extent 102-104 restored in native schema with independent source figures and typed structures.",
+        "Local hex glyph, touching comment marks and faint ink alternatives remain explicit. Original encoded bytes/typesetting, source correctness, historical claims, execution and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0012",
@@ -5607,6 +5710,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R28: locate and restore 깡통이 통-통-통 (maso-1984-11-toc-0011, contents start candidate 102). Verify actual title, ownership, ending and typed structures before selecting a bounded batch of at most six new mapped views. Preserve complete November packages and immutable source segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R29: locate and restore 수학을 통한 논리학습 (maso-1984-11-toc-0013, contents starting-page candidate 110). Verify actual title, installment, extent, ownership, equations, diagrams/tables and original listings before mapping a bounded batch of at most six source views. Preserve every completed package and immutable segment. Continue all remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }

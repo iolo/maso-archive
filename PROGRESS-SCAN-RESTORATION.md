@@ -1395,3 +1395,66 @@ Next: **R28**, locate 깡통이 통-통-통, contents starting-page candidate 10
 and verify its actual extent and structures before selecting at most six new
 mapped views. Continue every remaining November identity, covers/source-image
 accounting and checked whole-issue native export/rebuild.
+
+## R28 completed — 2026-11-15
+
+Restored complete 깡통이 통-통-통 on actual 102–104 as a reproducible native
+article package. Actual 101 ends 로즈런너; actual 105 starts an advertisement.
+The source retains the subtitle's historical 에니메이션 spelling, SPC-1000 and
+editorial credit, seven prose paragraphs, original can/spring illustration,
+screen photograph, closing emblem and eight paired character-grid drawings.
+The illustration's original rectangle overlaps its separately indexed credits;
+that source composition is retained without masking or invented artwork.
+
+One original BASIC listing contains all 119 numbered physical/logical units,
+1000–2180. Six control targets, fifteen SOUND expressions, title/floor/display
+expressions and the original character-definition loader remain typed source
+relationships. Sixteen independently labelled DATA groups retain all 192 hex
+fields, including repeated zero fields. The last statement is 2180 DATA; no
+terminal END is printed. Four local uncertainty records cover B/8 shapes,
+touching comment marks and a faint trace after GOTO 1080. Original encoded bytes,
+typesetting, program correctness and execution remain unverified.
+
+The 18 program-explanation rows and seven variable definitions retain 75 indexed
+cells. The 1440–1450 definition continues from the left column to the right-column
+top, with both source fragments preserved. The explanation's printed 1540 target
+for source 1060 remains distinct from the listing's GOTO 1530. The source's
+&H8 F prose spacing also remains independent of program &H8F.
+
+Each paired drawing retains 12 rows, 16 columns and every observed filled/empty
+cell, with original scan-relative center patches and separate printed code labels.
+All 1,536 observations were reviewed against source overlays and independently
+checked against crop pixels. The sixteen DATA/label relationships assert source
+label equality; no DATA was decoded to generate or repair a glyph, screen or
+animation. Original image assets remain alongside the typed observations.
+
+All 72 native files match a separate-process rebuild byte for byte. All 24 crops
+match pixels from the original masters under the recorded thumbnail transform.
+Thirty-four invalid structural cases reject. All 26 earlier packages, frozen
+evidence, classifications, masters and shared plans retain exact pins and still
+validate. The unchanged R27 implementation/test pins and frozen passing logs
+support reuse of the 242-test baseline; regressions were not rerun for this
+data-only article.
+
+One pre-OCR map refinement widened text and grid-label margins. All thirteen
+OCR tasks completed without engine failure or retry; title/subtitle drafts were
+empty and were transcribed directly from source. There were no post-OCR geometry
+changes. The initial grid fit selected inner rules and was rejected by overlay
+review; the final fit retains all outer cells. Source comparison corrected the
+selected historical spelling and later comment-rule counts. An unselected first
+export incorrectly indexed the REM SOUND SET heading as a SOUND command; that
+record was removed before the independent rebuild. All attempts are retained.
+The final structure preflight and full audit passed on their first attempts.
+Cleanup ran in preview mode only; 270 private evidence files are frozen.
+
+November now has **15 complete article packages, no partial articles, six
+non-owning headings and 19 identities awaiting disposition**. Source correctness,
+original encoding/typesetting, execution, historical claims and human acceptance
+remain unverified. The whole issue remains in progress.
+
+See the [깡통이 통-통-통 result](metadata/catalog/scan-restoration/1984-11-kang-tong.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R29**, verify 수학을 통한 논리학습 from contents page candidate 110,
+including its actual installment/extent and observed mathematical structures,
+before selecting at most six mapped views. Continue every remaining November
+identity, covers/source-image accounting and checked whole-issue native export.
