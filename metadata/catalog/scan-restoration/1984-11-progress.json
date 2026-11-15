@@ -8075,14 +8075,13 @@
         198,
         199,
         200,
-        201
-      ],
-      "pending_folios": [
+        201,
         202,
         203,
         204,
         205
       ],
+      "pending_folios": [],
       "assembly_required": true,
       "segments": [
         {
@@ -8194,20 +8193,148 @@
               "bytes": 77802
             }
           ]
+        },
+        {
+          "segment_id": "b",
+          "printed_folios": [
+            "202",
+            "203",
+            "204",
+            "205"
+          ],
+          "source_views": [
+            {
+              "source_index": 205,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-202.jpg",
+                "sha256": "e3fadb6c107d6d29daf2d74625ef3cc7246cdc8bff5a75773a2a02f48f0f66f2",
+                "bytes": 6799829
+              },
+              "width_px": 4725,
+              "height_px": 6934,
+              "reading_order": 204,
+              "source_filename_number": 202,
+              "printed_page": "202",
+              "image_to_upright_normalized": [
+                0,
+                0.00021164021164021165,
+                -0.00014421690222094028,
+                0,
+                1,
+                0
+              ],
+              "orientation_correction": {
+                "clockwise_degrees": 90,
+                "evidence": "Source printed flow/circuit labels are upright after90degrees clockwise rotation;folio/running furniture remain atside. Derived reading view only;JPEG master unchanged."
+              }
+            },
+            {
+              "source_index": 206,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-203.jpg",
+                "sha256": "f72fc0d6d21f80c4ca36da650f7f7b6ceab021fac773e1b236e3eeee241861ea",
+                "bytes": 7244136
+              },
+              "width_px": 4725,
+              "height_px": 6914,
+              "reading_order": 205,
+              "source_filename_number": 203,
+              "printed_page": "203",
+              "image_to_upright_normalized": [
+                0,
+                0.00021164021164021165,
+                -0.0001446340757882557,
+                0,
+                1,
+                0
+              ],
+              "orientation_correction": {
+                "clockwise_degrees": 90,
+                "evidence": "Source printed flow/circuit labels are upright after90degrees clockwise rotation;folio/running furniture remain atside. Derived reading view only;JPEG master unchanged."
+              }
+            },
+            {
+              "source_index": 207,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-204.jpg",
+                "sha256": "bbdcce6fcef890b9553ae02a25b2a0ea904f0b4116e173af711ae49827a66d7e",
+                "bytes": 8084528
+              },
+              "width_px": 4753,
+              "height_px": 6917,
+              "reading_order": 206,
+              "source_filename_number": 204,
+              "printed_page": "204",
+              "image_to_upright_normalized": [
+                0.00021039343572480537,
+                0,
+                0,
+                0.00014457134595923088,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 208,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-205.jpg",
+                "sha256": "92885aea82527fad72d625c63ebc331eebd3ce5998b4a546fd660785347c1cc5",
+                "bytes": 8581353
+              },
+              "width_px": 4733,
+              "height_px": 6929,
+              "reading_order": 207,
+              "source_filename_number": 205,
+              "printed_page": "205",
+              "image_to_upright_normalized": [
+                0.00021128248468201986,
+                0,
+                0,
+                0.0001443209698369173,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/eprom-b-r02",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/eprom-b-r02/manifest.json",
+              "sha256": "03c25cf66b58a178b59b543ae15d778a3276a9db56e33c1a4aef2a1424693425",
+              "bytes": 20314
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-45/validation.json",
+              "sha256": "486534d71b93d3116cfb573695715a99f874b47042d96dafb969337311e69abb",
+              "bytes": 64211
+            }
+          ]
         }
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-44/review/boundary-review.json",
-          "sha256": "2830501bb9ef346a69de941e4b8341c0e5e84fad0287868d1eb03cc1aa320879",
-          "bytes": 2496
+          "path": "archive/scans/1984-11/restoration/batch-45/review/source-review-completion.json",
+          "sha256": "e4371e0940828e2c1df26f4be543a7c6a5f175c2a8bb5330f46f5d46d4fa2989",
+          "bytes": 6046
         },
-        "status": "Observed198–205 body;opening198–201 restored;202–205 and checked whole-article assembly pending.197divider and206MAX-PRINT opener distinct."
+        "status": "All source folios 198–205 represented across two immutable native segments. Checked complete-article assembly remains pending; figure-number and logical paragraph continuation qualifications retained."
       },
       "limitations": [
-        "Opening source segment198–201 only;202–205 and checked whole-article assembly remain pending.",
-        "Original bytes,exact whitespace,technical correctness,device operation and full human proofreading unverified.",
-        "Duplicate figure3 captions,reference4/5,printedRGM/CS/wording and local alternatives retained without expected-circuit repair."
+        "All eight source folios restored across preserved segments; checked complete-article native assembly is pending.",
+        "Original encoded bytes, exact spacing, technical correctness/device operation and full human proofreading remain unverified.",
+        "Figure numbering, source circuit crossing/bus qualifications and 201/204 paragraph continuation must remain explicit."
+      ],
+      "previous_location_evidence": [
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-44/review/boundary-review.json",
+            "sha256": "2830501bb9ef346a69de941e4b8341c0e5e84fad0287868d1eb03cc1aa320879",
+            "bytes": 2496
+          },
+          "status": "Observed198–205 body;opening198–201 restored;202–205 and checked whole-article assembly pending.197divider and206MAX-PRINT opener distinct."
+        }
       ]
     },
     {
@@ -8539,6 +8666,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "On user resume,R45: restore EPROM programmer continuation202–205 (maso-1984-11-toc-0026) from preserved sources.202contains full-page flowcharts;203circuit;204continues201prose after더 with욱 좋은... and contains program listing;205construction/operation/expansion and bibliography end beforeMAX-PRINT206. Establish source rotation/geometry,all figure/circuit/bit/label structures,listing context and caption-number discrepancies;at most six new mapped source views/two identities. Preserve immutable eprom-a-r03 on198–201 and later assemble complete198–205 separately with native source/structure/coordinate/pixel/negative/preservation and independent byte-rebuild gates. Do not rerun successful OCR or frozen checkpoint scripts. User requested pause afterR44;do not startR45 until resumed. Ten unclassified identities,covers/source-image accounting and whole-issue export/rebuild remain. Keep PLAN-OCR.md and PLAN-PDF.md unchanged.",
+  "next": "R46: assemble the complete EPROM programmer article, maso-1984-11-toc-0026, observed 198–205, from immutable eprom-a-r03 and eprom-b-r02. Preserve both native segments and all original OCR evidence. Qualify active source ownership and namespace every flow graph/node/edge, circuit component/port/field/wire/crossing/address binding, source listing context and mixed coordinate range; extend an opt-in assembly contract with meaningful tests if existing projection cannot represent them. Keep the opening POKE example distinct from the final 43-unit program. Represent the 201 더 / 204 욱 logical paragraph continuation across the intervening figures without changing source blocks. Preserve duplicate figure 3 captions, observed figure 4, the uncaptioned circuit and unresolved printed reference 5; do not invent a caption or resolve ambiguity by expectation. Independently rebuild and byte-compare the complete package and run source/structure/pixel/negative/preservation gates. No fresh OCR. Then continue the ten unclassified identities, covers/source-image accounting and whole-issue export/rebuild. The user resumed the goal after R44; keep it active. Leave PLAN-OCR.md and PLAN-PDF.md unchanged.",
   "group_headings": 6
 }

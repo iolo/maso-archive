@@ -1,0 +1,835 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R45",
+  "completedOn": "2026-11-16",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0026",
+  "title": "애플 EPROM 프로그래머의 제작",
+  "observed_title": "애플용 EPROM 프로그래머의 제작",
+  "observed_whole_extent": [
+    198,
+    205
+  ],
+  "selected_extent": [
+    202,
+    205
+  ],
+  "outcome": "Complete final native source segment 202–205: three flowcharts, original circuit with explicit source wire/terminal structures, one wrapped BASIC program and closing prose/bibliography. Whole article remains partial pending checked assembly with preserved opening 198–201.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/eprom-b-r02",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/eprom-b-r02/manifest.json",
+    "sha256": "03c25cf66b58a178b59b543ae15d778a3276a9db56e33c1a4aef2a1424693425",
+    "bytes": 20314
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-45/validation.json",
+    "sha256": "486534d71b93d3116cfb573695715a99f874b47042d96dafb969337311e69abb",
+    "bytes": 64211
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-45/evidence-manifest.json",
+    "sha256": "a9aa8cfe8ddbf40002c915093f1ec25e99bc7b20bfad9304e30ae83e34f586ed",
+    "bytes": 63274
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-11/restoration/batch-45/recipe.json",
+    "sha256": "a11e4a04906dfd0985f1bbed42e739292136c43ea7149e8d22904d4bc91f9ed1",
+    "bytes": 8237
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-44/review/boundary-review.json",
+    "sha256": "2830501bb9ef346a69de941e4b8341c0e5e84fad0287868d1eb03cc1aa320879",
+    "bytes": 2496
+  },
+  "source_review": {
+    "path": "archive/scans/1984-11/restoration/batch-45/review/source-review-completion.json",
+    "sha256": "e4371e0940828e2c1df26f4be543a7c6a5f175c2a8bb5330f46f5d46d4fa2989",
+    "bytes": 6046
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-202.jpg",
+      "sha256": "e3fadb6c107d6d29daf2d74625ef3cc7246cdc8bff5a75773a2a02f48f0f66f2",
+      "bytes": 6799829
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-203.jpg",
+      "sha256": "f72fc0d6d21f80c4ca36da650f7f7b6ceab021fac773e1b236e3eeee241861ea",
+      "bytes": 7244136
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-204.jpg",
+      "sha256": "bbdcce6fcef890b9553ae02a25b2a0ea904f0b4116e173af711ae49827a66d7e",
+      "bytes": 8084528
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-205.jpg",
+      "sha256": "92885aea82527fad72d625c63ebc331eebd3ce5998b4a546fd660785347c1cc5",
+      "bytes": 8581353
+    }
+  ],
+  "printed_folios": [
+    "202",
+    "203",
+    "204",
+    "205"
+  ],
+  "summary": {
+    "sourceImages": 4,
+    "regions": 28,
+    "ocrTasks": 26,
+    "successfulRecognitionOutcomes": 27,
+    "targetedChangedCropTasks": 1,
+    "figureAssets": 2,
+    "blocks": 23,
+    "flowGraphs": 3,
+    "flowNodes": 30,
+    "flowEdges": 30,
+    "flowBranchLabels": 7,
+    "crossPanelConnectorPairs": 2,
+    "circuitComponentsAndSymbols": 51,
+    "circuitPrintedFields": 243,
+    "visibleWireGroups": 65,
+    "circuitPortEndpoints": 175,
+    "busElisions": 2,
+    "unmarkedCrossings": 1,
+    "scopedAddressLabelBindings": 13,
+    "logicalProgramUnits": 43,
+    "physicalProgramRows": 46,
+    "sourceSections": 5,
+    "sourceTokens": 381,
+    "sourceQuotedStrings": 8,
+    "bibliographyEntries": 5,
+    "localUncertainties": 14,
+    "nativeFiles": 119,
+    "negativeCases": 81,
+    "nestedSourceRanges": 2061,
+    "ocrSeconds": 18.391476657999647
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p202-flow-original",
+      "source_index": 205,
+      "pixel_bounds": [
+        480,
+        204,
+        5616,
+        3746
+      ],
+      "scan": {
+        "path": "ocr-202/p202-flow-original.png",
+        "sha256": "24006b4be35eb5570b29e3fc37ff7804a52ca0c3e5aaa314c0e61f88bb5398d0",
+        "bytes": 19747005
+      }
+    },
+    {
+      "region_id": "p202-initialization-text",
+      "source_index": 205,
+      "pixel_bounds": [
+        576,
+        384,
+        2088,
+        2924
+      ],
+      "scan": {
+        "path": "ocr-202/p202-initialization-text.png",
+        "sha256": "5a3cc4f2b2f4991a9eb0a73dc23e7401de65d33e6ee0588ac71d43e37cbe5a1a",
+        "bytes": 4267075
+      }
+    },
+    {
+      "region_id": "p202-read-text",
+      "source_index": 205,
+      "pixel_bounds": [
+        2220,
+        392,
+        3816,
+        3276
+      ],
+      "scan": {
+        "path": "ocr-202/p202-read-text.png",
+        "sha256": "e4ee17e044fbbbbe3cad080697f387070d4481c23fb9fd9f7a2661bbcfddd674",
+        "bytes": 5047093
+      }
+    },
+    {
+      "region_id": "p202-write-text",
+      "source_index": 205,
+      "pixel_bounds": [
+        3900,
+        408,
+        5472,
+        3472
+      ],
+      "scan": {
+        "path": "ocr-202/p202-write-text.png",
+        "sha256": "09634ab4aa2c8049c0ec4e457622b43966336daaa2e95a3b1b695cee3ffa5681",
+        "bytes": 5279479
+      }
+    },
+    {
+      "region_id": "p202-caption-flow",
+      "source_index": 205,
+      "pixel_bounds": [
+        2658,
+        3483,
+        3108,
+        3591
+      ],
+      "scan": {
+        "path": "ocr-202/p202-caption-flow.png",
+        "sha256": "8194006f78b1d65b31c2b09c6e81182b61b72295dea5043aa8984f39b4e81064",
+        "bytes": 58800
+      }
+    },
+    {
+      "region_id": "p203-circuit-original",
+      "source_index": 206,
+      "pixel_bounds": [
+        462,
+        319,
+        5298,
+        3879
+      ],
+      "scan": {
+        "path": "ocr-203/p203-circuit-original.png",
+        "sha256": "12bc056b00bcac0b6cd8f558814077b149850e61a02b068e58f2b07ff3ba9ff3",
+        "bytes": 19847694
+      }
+    },
+    {
+      "region_id": "p203-connector-text",
+      "source_index": 206,
+      "pixel_bounds": [
+        978,
+        590,
+        1842,
+        3260
+      ],
+      "scan": {
+        "path": "ocr-203-connector-r02/p203-connector-text.png",
+        "sha256": "61df655fc80a1f21dd5cbed2a467c18fb0a39831fc0ab57e2d3e64091f05a655",
+        "bytes": 2708816
+      }
+    },
+    {
+      "region_id": "p203-buffer-text",
+      "source_index": 206,
+      "pixel_bounds": [
+        1470,
+        668,
+        1908,
+        1595
+      ],
+      "scan": {
+        "path": "ocr-203/p203-buffer-text.png",
+        "sha256": "95ef670fa9e4db08bf4b1a64f3f3a893df76334720dd8b5ee9096fb45c1481ef",
+        "bytes": 502568
+      }
+    },
+    {
+      "region_id": "p203-pia-text",
+      "source_index": 206,
+      "pixel_bounds": [
+        2028,
+        537,
+        2760,
+        2510
+      ],
+      "scan": {
+        "path": "ocr-203/p203-pia-text.png",
+        "sha256": "d62071c05f302015aacccd5a43ff3bd662653861d026197b45fcb485f2fd37ec",
+        "bytes": 1771483
+      }
+    },
+    {
+      "region_id": "p203-eprom-text",
+      "source_index": 206,
+      "pixel_bounds": [
+        4434,
+        475,
+        5046,
+        2346
+      ],
+      "scan": {
+        "path": "ocr-203/p203-eprom-text.png",
+        "sha256": "a9ee7630fe30846cf147f8c3de4570f882763234913e541eb14e447c0676b209",
+        "bytes": 1431877
+      }
+    },
+    {
+      "region_id": "p203-pulse-text",
+      "source_index": 206,
+      "pixel_bounds": [
+        2754,
+        926,
+        4314,
+        1981
+      ],
+      "scan": {
+        "path": "ocr-203/p203-pulse-text.png",
+        "sha256": "6c8f20f4271f0050ab3a4ed216d7d4971def7a48e1b14d3b7f69031a03d36929",
+        "bytes": 2015749
+      }
+    },
+    {
+      "region_id": "p203-supply-text",
+      "source_index": 206,
+      "pixel_bounds": [
+        2970,
+        2009,
+        4326,
+        2793
+      ],
+      "scan": {
+        "path": "ocr-203/p203-supply-text.png",
+        "sha256": "8abf640b028a5194a9321683971cbb12b23c3db631d1e3617c3863aaf359d071",
+        "bytes": 1258218
+      }
+    },
+    {
+      "region_id": "p203-counter-text",
+      "source_index": 206,
+      "pixel_bounds": [
+        2376,
+        2591,
+        3408,
+        3588
+      ],
+      "scan": {
+        "path": "ocr-203/p203-counter-text.png",
+        "sha256": "82c79c38c70bc124cdbd4faff989b79c01f835a269109a9c0243bdbc312b6bdd",
+        "bytes": 1273579
+      }
+    },
+    {
+      "region_id": "p203-flipflops-text",
+      "source_index": 206,
+      "pixel_bounds": [
+        3156,
+        2808,
+        4374,
+        3686
+      ],
+      "scan": {
+        "path": "ocr-203/p203-flipflops-text.png",
+        "sha256": "6d770a7e22cab75d2435d1619f8ced4cec78c83f36d643827f7841810758986a",
+        "bytes": 1285802
+      }
+    },
+    {
+      "region_id": "p204-software-left",
+      "source_index": 207,
+      "pixel_bounds": [
+        210,
+        708,
+        1938,
+        1026
+      ],
+      "scan": {
+        "path": "ocr-204/p204-software-left.png",
+        "sha256": "ec76b503049aa82ce89077f04fbfa8fdf97fdb0e9270f6726e527dedf393cea3",
+        "bytes": 755303
+      }
+    },
+    {
+      "region_id": "p204-software-right",
+      "source_index": 207,
+      "pixel_bounds": [
+        2049,
+        726,
+        3785,
+        1578
+      ],
+      "scan": {
+        "path": "ocr-204/p204-software-right.png",
+        "sha256": "92d68a42b03d3cd01d4f56246b92d2d4297b560bb9218f7be8c9bebe47cda1e2",
+        "bytes": 1860934
+      }
+    },
+    {
+      "region_id": "p204-caption-listing",
+      "source_index": 207,
+      "pixel_bounds": [
+        280,
+        1104,
+        734,
+        1230
+      ],
+      "scan": {
+        "path": "ocr-204/p204-caption-listing.png",
+        "sha256": "0c0f512144f25241cc2dbd952fc79edab5e1bd0fc314eadf65002c8f7b564c4c",
+        "bytes": 74170
+      }
+    },
+    {
+      "region_id": "p204-listing",
+      "source_index": 207,
+      "pixel_bounds": [
+        432,
+        1284,
+        1773,
+        5478
+      ],
+      "scan": {
+        "path": "ocr-204/p204-listing.png",
+        "sha256": "b183af4048ce88f9bac661935c843d97717fb257b4d2846f04f3d55afb02769f",
+        "bytes": 7435237
+      }
+    },
+    {
+      "region_id": "p204-construction-heading",
+      "source_index": 207,
+      "pixel_bounds": [
+        2135,
+        1727,
+        2652,
+        1902
+      ],
+      "scan": {
+        "path": "ocr-204/p204-construction-heading.png",
+        "sha256": "4cfec111e1ce8b7f0b13676e35fc75981bbcb3dbc3191fd9481e20b1c0b13f12",
+        "bytes": 118027
+      }
+    },
+    {
+      "region_id": "p204-construction-body",
+      "source_index": 207,
+      "pixel_bounds": [
+        2040,
+        1950,
+        3798,
+        4446
+      ],
+      "scan": {
+        "path": "ocr-204/p204-construction-body.png",
+        "sha256": "d2df1031c28f9649a72f877e557bd263ada1be2e4c104e2bceab209dbeb1f017",
+        "bytes": 5791812
+      }
+    },
+    {
+      "region_id": "p204-operation-heading",
+      "source_index": 207,
+      "pixel_bounds": [
+        2152,
+        4602,
+        2660,
+        4776
+      ],
+      "scan": {
+        "path": "ocr-204/p204-operation-heading.png",
+        "sha256": "6e8cd378175a546aa98ed3c0563b614d95f3fdd7a3cc2784823efe2890e7cbbb",
+        "bytes": 112734
+      }
+    },
+    {
+      "region_id": "p204-operation-body",
+      "source_index": 207,
+      "pixel_bounds": [
+        2049,
+        4830,
+        3794,
+        5580
+      ],
+      "scan": {
+        "path": "ocr-204/p204-operation-body.png",
+        "sha256": "6522646b190001f03777c24a7fd77666ec7ae417b3ee9ab0f38f5ceb10cdab10",
+        "bytes": 1678294
+      }
+    },
+    {
+      "region_id": "p205-operation-left",
+      "source_index": 208,
+      "pixel_bounds": [
+        299,
+        714,
+        2058,
+        5580
+      ],
+      "scan": {
+        "path": "ocr-205/p205-operation-left.png",
+        "sha256": "0238d57fa6744febb6f4360db5643ecbd5350608f5dbb505cb747ad60b8a7550",
+        "bytes": 11488730
+      }
+    },
+    {
+      "region_id": "p205-operation-right",
+      "source_index": 208,
+      "pixel_bounds": [
+        2151,
+        702,
+        3861,
+        1044
+      ],
+      "scan": {
+        "path": "ocr-205/p205-operation-right.png",
+        "sha256": "7573e7419b961b6f543fcc01d12b11a204e9a68f333a985e55514beee1431a5d",
+        "bytes": 782053
+      }
+    },
+    {
+      "region_id": "p205-expansion-heading",
+      "source_index": 208,
+      "pixel_bounds": [
+        2233,
+        1176,
+        2820,
+        1356
+      ],
+      "scan": {
+        "path": "ocr-205/p205-expansion-heading.png",
+        "sha256": "f73f52cb8ea6703f0e57d1a5acb9a84e0a110c5fe380562581f89f354abb2393",
+        "bytes": 162850
+      }
+    },
+    {
+      "region_id": "p205-expansion-body",
+      "source_index": 208,
+      "pixel_bounds": [
+        2147,
+        1404,
+        3861,
+        4848
+      ],
+      "scan": {
+        "path": "ocr-205/p205-expansion-body.png",
+        "sha256": "b3c107db5a8a2afbc2a059575d53ddba3d45d847de9eeadaedbccc29a6b23550",
+        "bytes": 8260415
+      }
+    },
+    {
+      "region_id": "p205-bibliography-heading",
+      "source_index": 208,
+      "pixel_bounds": [
+        2286,
+        4968,
+        2623,
+        5076
+      ],
+      "scan": {
+        "path": "ocr-205/p205-bibliography-heading.png",
+        "sha256": "8af5462242bf3390b416a287d4691f665556aafa51425f53ff1858b3af81499a",
+        "bytes": 46850
+      }
+    },
+    {
+      "region_id": "p205-bibliography",
+      "source_index": 208,
+      "pixel_bounds": [
+        2241,
+        5052,
+        3746,
+        5556
+      ],
+      "scan": {
+        "path": "ocr-205/p205-bibliography.png",
+        "sha256": "20d855385e39e6948abbb73539617e457b4478dc2cde3223f3afc3354e544718",
+        "bytes": 1023781
+      }
+    }
+  ],
+  "rotation_corner_proof": [
+    {
+      "source_index": 205,
+      "original_image": {
+        "path": "archive/scans/1984-11/pages/page-202.jpg",
+        "sha256": "e3fadb6c107d6d29daf2d74625ef3cc7246cdc8bff5a75773a2a02f48f0f66f2",
+        "bytes": 6799829
+      },
+      "original_size": [
+        4725,
+        6934
+      ],
+      "clockwise_degrees": 90,
+      "normalized_corner_images": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.1102230246251565e-16,
+          0.0
+        ],
+        [
+          1.1102230246251565e-16,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_index": 206,
+      "original_image": {
+        "path": "archive/scans/1984-11/pages/page-203.jpg",
+        "sha256": "f72fc0d6d21f80c4ca36da650f7f7b6ceab021fac773e1b236e3eeee241861ea",
+        "bytes": 7244136
+      },
+      "original_size": [
+        4725,
+        6914
+      ],
+      "clockwise_degrees": 90,
+      "normalized_corner_images": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.1102230246251565e-16,
+          0.0
+        ],
+        [
+          1.1102230246251565e-16,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "previousCheckpointCommit": "405e600e2b2e79cd009c278051fb302324aaae95",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "3a0ad4835b5b4be5d1fc6e8a427332263f1bfdc3d10b8a0f067cc435903ae482",
+      "bytes": 219790
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_numbered_assemble.py",
+      "sha256": "d6d877b8207adfd616878bc639682abc661aba81909d2934402d98c6636dc3e8",
+      "bytes": 13404
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_image_source_structures.py",
+      "sha256": "93b82ab3f26c7a976e2a8e25b4aa2abd2bb33141cdf73bcfdd7e6c6da189e9a1",
+      "bytes": 12579
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "9b9c74c831f35d3a1a71fdbec215206745ab56749a7d65791f7095dad1f94493",
+      "bytes": 17278
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "46d2f4ad8c8b2be5fefeaf9f89cc0e317c0342d42e6751a32a2398a5eb0e7ed8",
+      "bytes": 28021
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_numbered.py",
+      "sha256": "a123c2d5dc6f0d365399a8cf29f795426e93b0ee8d001c3fd544617fa23ccced",
+      "bytes": 10533
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a05173be8ac6367356583f3ec497b47fe382f7753bd3155c7e8b665384ab4890",
+      "bytes": 20501
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "81f3456ffa97802de13435491309320d351493ef5b924b846c75705b253213e2",
+      "bytes": 24032
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_structures.py",
+      "sha256": "82a51f9a7f24ab783183ca4e661f266ba7a0ff3ae0336b39f7bdc504d127a1f6",
+      "bytes": 21330
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "30768e1f76e6affb154d71967f20c4bada7d2fd6ea730a52d2946cb3d98157db",
+      "bytes": 39954
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "49f8b030a4ad2549a889481f45ffbb1238fd7baf2b351bc2fc49b00b35448f43",
+      "bytes": 21558
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 39,
+    "total": 253
+  },
+  "regressionLogs": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-43/pdf-final-regressions-03.log",
+      "sha256": "21776dd73930d5ae848826a02f7145a54dd42fd165a77de89b5509ced346d731",
+      "bytes": 36395
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-43/jpeg-final-regressions-03.log",
+      "sha256": "1b202b0ffc8e070da73eaf3221d4eaf1350f5d3aeed03cbd7424ceb99937f52f",
+      "bytes": 7780
+    }
+  ],
+  "regressionsFresh": false,
+  "regressionBaseline": {
+    "path": "metadata/catalog/scan-restoration/1984-11-eprom-a.json",
+    "sha256": "f486532e2249c9ee91728fcda97698f3e688bd1209a9c74cca4cca8693d4a14b",
+    "bytes": 28061
+  },
+  "supersededCandidates": [
+    {
+      "package": "archive/scans/1984-11/packages/eprom-b-r01",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/eprom-b-r01/manifest.json",
+        "sha256": "349e465aa7b9fb10616b9d24e18f1c6b2d6cbd7967af5488ea617dac4f17891b",
+        "bytes": 20314
+      },
+      "status": "Unselected initial display candidate;selectedr02separates sourceindent/blankbands fromcodebytes andusesthesharedphysical/logicalcoordinatecontract. Originalnativebytesandinputsretained."
+    }
+  ],
+  "attempts": {
+    "mappedViews": 4,
+    "newOutsideLookupViews": 0,
+    "reusedBoundaryFolios": [
+      198,
+      201,
+      206
+    ],
+    "initialPageOcrJobs": 4,
+    "initialPageExitCodes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "selectedOcrTasks": 26,
+    "retainedSuccessfulOcrOutcomes": 27,
+    "targetedChangedCropTasks": 1,
+    "successfulSameInputRecognitionRepeated": 0,
+    "engineSwitches": 0,
+    "mapPreparationRuns": 2,
+    "nativePreparationRuns": 3,
+    "nativeCandidateBuilds": 2,
+    "independentCandidateRebuilds": 2,
+    "verificationRuns": 2,
+    "verificationFailures": 1,
+    "verificationFailureReason": "Exact floating-point affine corner equality replaced with 1e-12 tolerance; source and native data unchanged.",
+    "sharedImplementationChanges": 0,
+    "regressionTestsFresh": false,
+    "cleanupApplied": false
+  },
+  "reviewCorrections": [
+    "All 26 initial OCR tasks succeeded. One widened connector crop added one recognition task on changed input; successful unchanged inputs were reused.",
+    "The repaired connector view includes the right-hand +5V label and host A3 inverter pin 12.",
+    "Unselected r01 contained editorial indentation and blank newlines. Selected r02 keeps their source display evidence as metadata and uses the shared physical/logical coordinate contract. Source glyphs and physical wraps are unchanged.",
+    "The first audit used exact floating-point equality for affine corner coordinates. The final audit uses a 1e-12 tolerance; source pixels and native data are unchanged.",
+    "The independent checker also verifies repeated R occurrences and quoted-string source ownership. All 81 damaged structures are rejected."
+  ],
+  "limitations": [
+    "Final source segment202–205 only;immutable opening198–201 must be assembled separately before whole-article completion.",
+    "Original encodedbytes,exact indentation/quotedspacing,technical correctness/device operation and full human proofreading unverified.",
+    "Circuit source graph retains visiblewiregroups,source terminalfields,bus elisions and unmarkedcrossing uncertainty;no textbookpinout completion or missingwire repair.",
+    "Opening duplicatefigure3 andreference4/5 need complete-article qualification;flowcaption4 observed,circuit hasno printedcaption;no figure5caption supplied."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-45/recipe.json --output archive/scans/1984-11/packages/eprom-b-r02",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-45/recipe.json --output work/validation/scans-1984-11-eprom-b-r02",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-45/verify-review.py"
+  ],
+  "next": "R46: assemble the complete EPROM programmer article, maso-1984-11-toc-0026, observed 198–205, from immutable eprom-a-r03 and eprom-b-r02. Preserve both native segments and all original OCR evidence. Qualify active source ownership and namespace every flow graph/node/edge, circuit component/port/field/wire/crossing/address binding, source listing context and mixed coordinate range; extend an opt-in assembly contract with meaningful tests if existing projection cannot represent them. Keep the opening POKE example distinct from the final 43-unit program. Represent the 201 더 / 204 욱 logical paragraph continuation across the intervening figures without changing source blocks. Preserve duplicate figure 3 captions, observed figure 4, the uncaptioned circuit and unresolved printed reference 5; do not invent a caption or resolve ambiguity by expectation. Independently rebuild and byte-compare the complete package and run source/structure/pixel/negative/preservation gates. No fresh OCR. Then continue the ten unclassified identities, covers/source-image accounting and whole-issue export/rebuild. The user resumed the goal after R44; keep it active. Leave PLAN-OCR.md and PLAN-PDF.md unchanged."
+}

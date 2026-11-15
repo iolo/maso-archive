@@ -1,8 +1,8 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R44 are complete. The whole-November restoration goal is paused after R44
-at the owner's request; resume from R45 when requested.
+R00–R45 are complete. The owner resumed the whole-November restoration goal;
+R46 is next: checked assembly of the complete EPROM article.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -294,14 +294,33 @@ restored JSON/assets and faithful source evidence first.
 | R42 — 텍스트 화일이란? final segment | Actual 191–195; complete native final segment, article assembly pending | 161 identical files; comparison table / 54 cells, paired record diagrams, one program / 227 numbered units / 281 physical rows / fourteen source sections, three DATA strings, eight printed map rows / 64 hex tokens and six logical command formats; 41 pixel checks and 68 invalid cases; unchanged 249-test baseline reused |
 | R43 — complete 텍스트 화일이란? assembly | Actual 185–195; complete native article package | 456 identical files including 447 exact embedded segment files; source graphs, commands, mixed coordinate owners and fifteen reviewed prose/listing references; 115 pixel checks, 55 invalid cases and 253 fresh regressions |
 | R44 — EPROM programmer opening segment a | Actual 198–201 of observed 198–205; whole article remains partial | 152 identical native files; 28 unnumbered pin terminals, 177 table/grid cells, seven cross-section nodes, eight block connections, twelve timing rows / fourteen connectors and source POKE example; 40 pixel checks and 69 invalid cases; unchanged 253-test baseline reused |
+| R45 — EPROM programmer final segment b | Actual 202–205; all source folios restored, article assembly pending | 119 identical native files; three flowcharts / 30 nodes / 30 edges, circuit / 243 printed fields / 65 wire groups, one program / 43 units / 46 physical rows and five bibliography entries; 28 pixel checks and 81 invalid cases; unchanged 253-test baseline reused |
 
-Next on resume: **R45**, restore **202–205** of **애플 EPROM 프로그래머의 제작**,
-`maso-1984-11-toc-0026`, then assemble complete **198–205** in a separate
-checkpoint. Do not start R45 while the owner's pause is in effect. Page 202 has
-full-page flowcharts, 203 a circuit diagram, 204 the prose continuation and program
-listing, and 205 construction/operation/expansion and bibliography. Establish
-rotation, source geometry, circuit/flow relationships, listing context and
-caption-number discrepancies within the usual two-identity/six-view bound.
+Immediate next action: **R46**, assemble complete **198–205** of
+**애플 EPROM 프로그래머의 제작**, `maso-1984-11-toc-0026`, without fresh OCR.
+Both source segments are restored; the whole article remains partial until checked
+native assembly. Preserve `eprom-a-r03` and `eprom-b-r02` exactly. Qualify active
+ownership and namespace flow graphs/nodes/edges, circuit components/ports/fields/
+wires/crossings/address bindings, listing contexts and mixed coordinates. Extend
+an opt-in assembly contract with meaningful tests if existing projection cannot
+represent these structures. Keep the opening POKE example distinct from the
+final program. Represent the **더 / 욱** logical paragraph continuation across
+201/204 and the intervening figures without changing frozen source blocks.
+Independently rebuild and byte-compare the whole native package, with the source,
+structure, pixel, negative and preservation gates.
+
+Preserve final `eprom-b-r02` on **202–205**, including the clockwise source views
+on 202/203, three flowcharts and R/W connector pairs, 51 circuit components/symbols,
+243 printed fields, 175 endpoints and 65 source wire groups. Host and EPROM address
+labels remain distinct. Keep bus elisions, unnumbered terminals, the unvalued LED
+resistor and unmarked CE/D1 crossing qualified; do not complete them from external
+pinouts. Retain 43 program units / 46 physical rows, three wraps, eight quoted
+strings, five named REM sections, code token fragments and all five bibliography
+entries. Source indentation and two blank display bands are metadata, without
+original-byte claims. Preserve fourteen local uncertainties and original technical
+wording. Figure 4 is observed; the circuit has no printed caption. Reference 5
+remains unresolved, rather than receiving an invented caption.
+
 Preserve immutable `eprom-a-r03` on **198–201**, observed title
 **애플용 EPROM 프로그래머의 제작**, with bylines **이 우 빈** and **이 용 훈**.
 Its 152 native files reproduce exactly. Keep the 28 unnumbered terminal labels
@@ -311,7 +330,7 @@ block graph and timing arrows/loop. The two source **그림 3** captions, **RGM*
 prose **CS** beside pinout **CE**, original wording and nineteen local uncertainties
 remain explicit. The 201 prose ends **더** and continues on 204 after the two
 full-page diagrams; do not infer missing text from that layout. Reference
-**그림 4, 5** remains unresolved pending continuation review. No original device
+**그림 4, 5** requires the qualification above. No original device
 operation, exact encoded bytes or full human proofreading is claimed.
 
 Preserve complete **텍스트 화일이란?**, `maso-1984-11-toc-0024`, on **185–195**,

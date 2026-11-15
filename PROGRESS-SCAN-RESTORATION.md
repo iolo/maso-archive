@@ -2399,3 +2399,55 @@ The owner requested a pause after this batch. **R45 has not started**; on resume
 restore **202–205**, then assemble the complete EPROM article separately. The
 remaining identities, covers/source-image accounting and whole-issue native
 export/rebuild remain part of the unchanged goal.
+
+## R45 completed; goal resumed — 2026-11-16
+
+The owner resumed the goal after the R44 pause. Restored final native segment
+**202–205** of **애플 EPROM 프로그래머의 제작** as `eprom-b-r02`. All eight source
+folios now have native segment packages; the complete article remains **partial
+until checked assembly** with immutable opening `eprom-a-r03` on 198–201.
+
+The 202/203 reading views rotate the original images **90 degrees clockwise**,
+with unchanged JPEG masters and explicit affine provenance. Three flowcharts
+retain **30 nodes, 30 edges, seven branch labels and two matching R/W connector
+pairs**. The circuit retains **51 components/symbols, 243 printed fields, 175
+port endpoints and 65 visible wire groups**. Thirteen scoped address-label
+bindings distinguish host and EPROM outputs. Unprinted pin numbers, two elided
+buses, an unvalued resistor, damaged reset label and the unmarked CE/D1 collector
+crossing remain qualified. No missing wire or textbook pinout is supplied.
+
+One printed BASIC program retains **43 numbered units / 46 physical rows**,
+three wraps, **381 tokens, eight quoted strings and five named REM sections**.
+The split A/D variable, PRO/GRAMMER word and line 510 continuation retain source
+fragments. Indentation projections and two blank display bands are separate
+metadata, with no original-byte claim. Closing prose and all **five bibliography
+entries** retain source wording, including the Hay-/den wrap and technical claims.
+The source figure 4 caption and uncaptioned circuit remain distinct; printed
+reference 5 is unresolved. The 201 **더** / 204 **욱** paragraph continuation awaits
+whole-article assembly. **Fourteen local uncertainties** remain explicit.
+
+All **119 native files reproduce byte for byte** in an independent build.
+All **28 master-derived crop checks** and two affine corner checks pass;
+**81 deliberately damaged cases** are rejected, including wrong repeated R
+occurrences and quoted-string ownership. The **43 earlier selected packages**,
+frozen evidence, early artifact arrays and six headings remain exact and valid.
+Shared implementation is unchanged; the **253-test baseline** and logs are
+rehashed and reused, **not freshly rerun**. PLAN-OCR.md and PLAN-PDF.md are unchanged.
+
+All **26 initial OCR tasks** succeeded. One widened connector crop restores a
+clipped +5V label and inverter pin 12, adding one task on changed input; unchanged
+successful tasks were reused. Unselected r01 and its inputs remain preserved;
+r02 separates display indentation/blank bands from code bytes and follows the
+shared physical/logical coordinate contract. The initial affine audit used exact
+floating-point equality; the final audit uses a 1e-12 tolerance without changing
+source or native data. Cleanup was preview-only; **296 private evidence files**
+are frozen.
+
+November remains at **twenty-three complete articles, one partial article, six
+non-owning headings and ten unclassified entries**. See the
+[R45 result](metadata/catalog/scan-restoration/1984-11-eprom-b.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R46**, qualify and assemble the complete EPROM native article with all
+source graphs, contexts, coordinate owners and paragraph/caption qualifications.
+The whole-November goal remains active, including the remaining identities,
+covers/source-image accounting and whole-issue export/rebuild.
