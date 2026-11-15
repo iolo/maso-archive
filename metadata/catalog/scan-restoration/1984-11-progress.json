@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 17,
+  "readable_articles": 18,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 17,
+  "identitiesAwaitingDisposition": 16,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -6193,10 +6193,176 @@
       "page_candidates": [
         154
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "전산개발 시스템 연구",
+      "observed_installment": "마지막회",
+      "observed_byline": "트라이젬 / 삼보컴퓨터 교육부",
+      "observed_whole_extent": [
+        154,
+        159
+      ],
+      "source_views": [
+        {
+          "source_index": 157,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-154.jpg",
+            "sha256": "ca4a5c1c89adc9f2711293549ee1ef2494d052249cc7a46ec04d38ef798627bf",
+            "bytes": 8193474
+          },
+          "width_px": 4751,
+          "height_px": 6901,
+          "reading_order": 156,
+          "source_filename_number": 154,
+          "printed_page": "154",
+          "image_to_upright_normalized": [
+            0.00021048200378867606,
+            0,
+            0,
+            0.00014490653528474135,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 158,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-155.jpg",
+            "sha256": "6b52b42e79d48928971ef28358782a79bcc6daf076061c4c919c94a72ec3beac",
+            "bytes": 7981851
+          },
+          "width_px": 4727,
+          "height_px": 6909,
+          "reading_order": 157,
+          "source_filename_number": 155,
+          "printed_page": "155",
+          "image_to_upright_normalized": [
+            0.0002115506663845991,
+            0,
+            0,
+            0.00014473874656245476,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 159,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-156.jpg",
+            "sha256": "a4dc8a7ee7cb5ff72dd43419a0d95c29087e73b683e4cdc3c72477069311d8c2",
+            "bytes": 7977110
+          },
+          "width_px": 4750,
+          "height_px": 6913,
+          "reading_order": 158,
+          "source_filename_number": 156,
+          "printed_page": "156",
+          "image_to_upright_normalized": [
+            0.0002105263157894737,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 160,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-157.jpg",
+            "sha256": "38f756db6b8f150e92c997c953d4097fe30d2927fe0c5df4d3270a1a83ac5f2d",
+            "bytes": 8367153
+          },
+          "width_px": 4731,
+          "height_px": 6919,
+          "reading_order": 159,
+          "source_filename_number": 157,
+          "printed_page": "157",
+          "image_to_upright_normalized": [
+            0.0002113718030014796,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 161,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-158.jpg",
+            "sha256": "caf5beb8c3f9e683e6b40270069a107acd19a5be0e165b43f29b3245ba68c458",
+            "bytes": 8026251
+          },
+          "width_px": 4729,
+          "height_px": 6925,
+          "reading_order": 160,
+          "source_filename_number": 158,
+          "printed_page": "158",
+          "image_to_upright_normalized": [
+            0.00021146119687037428,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 162,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-159.jpg",
+            "sha256": "11fe56cf23a57427ba5b65b24e1ee4d07931e8be8fc538971d82d19368167b40",
+            "bytes": 8934125
+          },
+          "width_px": 4732,
+          "height_px": 6925,
+          "reading_order": 161,
+          "source_filename_number": 159,
+          "printed_page": "159",
+          "image_to_upright_normalized": [
+            0.00021132713440405747,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/system-development-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/system-development-r01/manifest.json",
+          "sha256": "0169801a3f094e0bc4e6cb5b5685f92ef84b2e3a4e38d1bb8d905670da482166",
+          "bytes": 35676
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-34/validation.json",
+          "sha256": "707b886ea65f1dcc1c70b38363921a1cd39f7083e1aa755e60f6416d9192fb55",
+          "bytes": 75199
+        }
+      ],
+      "assembly_pending": false,
+      "continuation_pending": [],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-34/scope.json",
+          "sha256": "7bfe7f9bf5b31357fb322bc2d2e8c8fbd78977ea1818540ed70a0459f86851da",
+          "bytes": 2196
+        },
+        "status": "Complete final installment on actual 154-159, with source opening/title/byline and original closing emblem; separate neighboring articles on 153/160 verified."
+      },
+      "limitations": [
+        "Complete observed source 154-159 restored with original figures and typed document structures; source review is assistant sample review, not full human acceptance.",
+        "Selected handwriting, slashed zero/O, punctuation, inverse-video markers and printer ornament alternatives remain source-linked; original encoded glyph/blank/control-byte counts are unverified.",
+        "Printed record lengths, ruler bands, field labels, empty cells and unusual mode-column placements remain independent source observations; no executable/database schema, source-correctness or execution claim.",
+        "Original prose wording/anomalies and reference numbers are preserved. Prose reflow and tab-separated cell transcriptions are explicit editorial structure, not original typesetting bytes."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0020",
@@ -6632,6 +6798,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R34: locate and restore 전산개발 시스템 연구 (maso-1984-11-toc-0019, contents start candidate 154). Establish actual title/byline, body ownership, ending and source structures before mapping a bounded batch (at most two identities/six mapped views). Preserve complete November packages, all immutable source segments/evidence, and the independent MAKE LISZT/LISZTER formatter contexts, same-group 111 join, original DATA/diagrams/definitions/control-display alternatives and both source reports. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild. Reuse the unchanged shared OCR/PDF operating plans.",
+  "next": "R35: locate and restore 의료보험 수가계산 (maso-1984-11-toc-0020, contents start candidate 160). Verify actual title/byline, full source extent/ending, ownership and typed structures before choosing at most two identities and six mapped views. Segment and retain explicit continuation/assembly state if the article exceeds six views. Preserve complete November packages and frozen evidence, including all original system-development forms, blank cells/rulers, seven-column I/O grids, flow topology, screenshots, evaluation report and uncertainties. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild, with shared OCR/PDF plans unchanged.",
   "group_headings": 6
 }

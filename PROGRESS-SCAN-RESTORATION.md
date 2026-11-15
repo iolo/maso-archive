@@ -4,15 +4,16 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R33 checkpoints complete: seventeen November 1984 articles have complete
+**R00–R34 checkpoints complete: eighteen November 1984 articles have complete
 reproducible JSON/assets packages, with no partial article currently open.
-The latest is complete 리스즈트 on actual 140–153, retaining independent
-MAKE LISZT/LISZTER contexts and the same logical 111 remark join. All three
-original segments remain immutable. Both features and the assembled game
+The latest is 전산개발 시스템 연구 on actual 154–159, retaining the original
+record forms, seven-column I/O grids, flow graphs, report/screen examples and
+evaluation report. Complete 리스즈트 retains its independent program contexts
+and immutable segments. Both features and the assembled game
 articles also retain their original segments. Six section headings have
 source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Seventeen canonical identities await disposition. The 24 cleaned source sets
+Sixteen canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -62,7 +63,8 @@ labels and the preserved exports retain their existing values.
 | R31 — 리스즈트 middle segment b | Passed; whole article partial | Actual 146–151; 153 identical files, 102 LISZTER groups / 480 physical rows, nine bracketed continuations and 107 DATA strings; 111 continuation, 152–153 and assembly pending |
 | R32 — 리스즈트 final source segment c | Passed; assembly pending | Actual 152–153; 47 identical files, 59 groups / 96 physical rows, thirty variable definitions, three loop pairs and three uncertain control-display occurrences; all source pages covered |
 | R33 — complete 리스즈트 assembly | Passed | Actual 140–153; 425 identical files, 187 logical groups / 643 physical rows, all source structures and uncertainties; 246 fresh shared regressions |
-| November 1984 issue closeout | Not started | Seventeen identities remain; source-image accounting and whole-issue native export/rebuild remain |
+| R34 — 전산개발 시스템 연구 | Passed | Actual 154–159; 212 identical files, five layouts / 52 fields, 111 table cells / 59 blanks, two flow graphs and nineteen screen fields; 54 invalid cases rejected |
+| November 1984 issue closeout | Not started | Sixteen identities remain; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -1771,3 +1773,70 @@ Next: **R34**, locate 전산개발 시스템 연구 (contents start candidate 15
 its source boundaries and structures, then restore a bounded batch. The full
 November objective still includes every remaining identity and whole-issue
 source accounting/export/rebuild.
+
+## R34 completed — 2026-11-15
+
+Restored complete 전산개발 시스템 연구 on actual 154–159, the final installment
+credited to 트라이젬 / 삼보컴퓨터 교육부. Source 153 contains the separate LISZTER
+ending/advertisement; 160 opens 의료보험 수가계산. The canonical TOC identity and
+business-section parent remain unchanged; this identity now owns its restored
+six-page article body.
+
+The native package retains 37 logical text blocks / nine column-page joins and
+fourteen original assets. Five record-layout forms have 52 ordered field labels,
+independent declared lengths, grouped headings, twenty 001–400 ruler bands and
+400 separate repeated major-label occurrences. Blank writing areas and blank
+record values remain explicit. Original record byte offsets/widths are unknown;
+the handwritten layout is not treated as an executable database declaration.
+
+Five native tables retain **111 cells, including 59 blanks**. Both General Flow
+forms have seven physical I/O columns with an empty final heading. Form8's
+Random remains in column7 under that blank heading; form9's Listing remains in
+column6 under Access Mode. Original split header text, selected Masterr01 spelling
+and both repeated 세금계산서 annotations remain source-owned. Two flow graphs
+retain eight nodes, one junction and seven edges. Two report samples retain
+their different column inventories and blank data areas. Three screen dumps
+retain nineteen separate fields, prompts, mask patterns and inverse-marker
+alternatives. The original evaluation report preserves author/date metadata and
+all five body rows. Actual caption omissions remain distinct from prose references.
+
+All 607 figure-label occurrences and 28 prose paragraphs retain source links and
+UTF-8 byte ownership, including repeated short labels and blank-cell anchors.
+Thirty-one local uncertainty records preserve handwriting, slashed zero/O,
+punctuation, printer ornament and inverse-marker alternatives. Original wording,
+printed anomalies and all nine continuation joins remain unchanged; prose reflow
+and tab-separated transcriptions are explicit editorial structure. Original
+encoding, program behavior, source correctness and full human proofreading
+remain unverified.
+
+All **212 native files** reproduce exactly in an independent build. All **60
+master-derived crop checks** pass; **54 deliberately damaged structural cases**
+are rejected. All **32 earlier selected packages and frozen evidence** remain
+exact and valid. Shared implementation/tests/schemas and PLAN-OCR.md / PLAN-PDF.md
+are unchanged. The frozen R33 baseline of **246 passing tests** was rehashed and
+reused, not freshly rerun.
+
+Six initial OCR jobs completed with exit 0 (46 tasks). One pre-OCR refinement
+adjusted tight crop edges. Close later review found clipped introductory strokes
+and caption5/9 tops; two map revisions led to one targeted widened-input repair
+per affected region. All three repair jobs completed with exit 0. The selected
+package reuses 43 initial tasks plus three repaired regions; all 49 successful
+attempt outputs are retained, without identical-input recognition repetition.
+
+Source/index preparation corrected repeated-string locators before export.
+Initial export and an already-started rebuild rejected clashing figure/text IDs
+before persistent output; distinct figure IDs and recomputed article coordinates
+passed both second runs. Both structural preflights passed. The first full audit
+showed its checker accepted a missing flow-header entry; required header roles,
+source-row ownership, evaluation metadata and caption checks were strengthened.
+The second full audit passed without changing the restored package. Every attempt
+is retained, cleanup ran in preview mode only, and **783 private evidence files**
+are frozen.
+
+November now has **eighteen complete article packages, no partial articles,
+six non-owning headings and sixteen identities awaiting disposition**. See the
+[R34 result](metadata/catalog/scan-restoration/1984-11-system-development.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R35**, establish 의료보험 수가계산's full source extent from start candidate
+160, then restore a bounded segment if necessary. Every remaining identity and
+whole-issue source accounting/export/rebuild remain in scope.

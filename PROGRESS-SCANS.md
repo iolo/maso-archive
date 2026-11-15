@@ -83,7 +83,7 @@ absence and unknown physical pagination.
 
 The next campaign is described in [the scan restoration plan](PLAN-SCAN-RESTORATION.md)
 and tracked separately in [restoration progress](PROGRESS-SCAN-RESTORATION.md).
-Its first pilot is November 1984; restoration execution has not started.
+Its first pilot issue is November 1984.
 
 Recheck any extracted issue from the repository root:
 

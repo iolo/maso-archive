@@ -282,11 +282,19 @@ restored JSON/assets and faithful source evidence first.
 | R31 — 리스즈트 middle segment b | Actual 146–151; whole article remains partial | 153 identical native files; 102 LISZTER groups / 480 physical rows, nine bracketed continuations, 107 DATA strings, twelve report pages and typed source relationships; group 111, 152–153 and assembly pending |
 | R32 — 리스즈트 final source segment c | Actual 152–153; all source pages covered, assembly pending | 47 identical native files; 59 groups / 96 physical rows, thirty variable definitions with two qualifiers, three loop pairs, original control-display alternatives/report/illustration; 49 invalid cases rejected |
 | R33 — complete 리스즈트 assembly | Actual 140–153; complete native article package | 425 identical files; 187 logical groups / 643 physical rows, separate MAKE LISZT/LISZTER contexts, same-group 111 join and every original source structure; 45 invalid cases rejected and 246 fresh regressions |
+| R34 — 전산개발 시스템 연구 | Actual 154–159; complete native article package | 212 identical files; five layouts / 52 fields / twenty ruler bands, 111 cells / 59 blanks, two flow graphs, three screens / nineteen UI fields and original evaluation report; 54 invalid cases rejected |
 
-Immediate next action: **R34**, locate and restore 전산개발 시스템 연구,
-`maso-1984-11-toc-0019`, with contents start candidate 154. Establish its actual
-title/byline, body ownership, ending and typed source structures before choosing
-a batch of at most two identities and six mapped views. Preserve complete
+Immediate next action: **R35**, locate and restore 의료보험 수가계산,
+`maso-1984-11-toc-0020`, with contents start candidate 160. Establish its actual
+title/byline, full extent/ending, ownership and typed structures before choosing
+at most two identities and six mapped views. Segment longer articles with
+explicit continuation and assembly state. Preserve complete 전산개발 시스템 연구
+on actual 154–159, including all original layouts/ruler bands/blank fields,
+seven-column I/O grids and their unusual value placement, two flow graphs,
+report/screen examples, evaluation cells and local alternatives. Its 212 native
+files reproduce exactly; all sixty crops and 54 invalid structural cases pass.
+No shared code changed; the unchanged 246-test R33 baseline was rehashed and
+reused, not freshly rerun. Preserve complete
 리스즈트 on actual 140–153 and its three immutable source segments. The qualified
 opt-in `structured-formatted-v1` mode retains multiple code blocks per program,
 original formatter annotations and a same-number logical fragment join. Its
@@ -311,8 +319,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has seventeen complete article packages, no partial articles, six non-owning
-headings and 17 unclassified entries. Complete Feature II on 40–58 retains three
+November now has eighteen complete article packages, no partial articles, six non-owning
+headings and 16 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
