@@ -3672,3 +3672,40 @@ remain unverified claims. Existing assembly modes and both shared operating
 plans retain their established contracts. Tests cover both boundary kinds,
 multiple code blocks, independent programs, nested Unicode spans, repeated runs,
 false joins, dangling references and rehashed outer-index tampering.
+
+### Commands, visual slots and reviewed references in JPEG assemblies
+
+`structured-programs-v1` with `source_index_mode: regional-literals-v3` projects
+disjoint program contexts together with native command-format groups, visual
+slots, record fields, footnotes and caption/body/transcription relationships.
+Command rows/tokens, cells/slots, fields, labels and footnotes receive scoped
+identities with closed active references. Figure connectors may target explicitly
+declared nodes, file slots or node subareas in the same source figure. Duplicate
+definitions and dangling targets are rejected. Original private review pins carry
+an explicit source-context wrapper; they do not claim exported asset paths.
+
+Every nested byte span retains its explicit download owner. Prose and command
+formats address `article.txt`; code and its physical fragments address
+`listing.txt`. Physical-row field offsets remain row-local. When original logical
+parts omit `physical_start_byte`, derive it only from their declared physical-row
+identity, matching character span and source text. Single-region table rows may
+use their table's explicit region declaration; cell source parts must agree.
+
+The recipe's `reference_links` list covers every `source-pending-listing-reference`
+once. Each link names an exact original segment/association/literal, a target
+segment/listing and reviewed evidence. `units` targets explicit source-unit IDs;
+`sections` targets declared source section labels; `listing` targets the complete
+program context. Target source coverage and printed numbers are checked. An
+optional source `context` supplies a containing block/UTF-8 range/literal to
+qualify an incomplete original marker without changing frozen source metadata.
+The active result preserves that marker, adds the expanded source occurrence and
+names the verified targets. Source-declared article extents and pending segment
+folios must agree exactly with complete assembly coverage before their scope
+markers are resolved.
+
+This opt-in mode requires empty program/group/example join lists; existing modes
+remain available for cross-segment program joins. November's text-file article
+uses v3 to assemble 185–195, retain all native diagram/command/program structures,
+and qualify a marker that captured the initial 3 of the printed 3190–3220 range.
+Its source encoding, spacing and execution claims remain unverified. The shared
+OCR/PDF operating plans and established assembly contracts remain unchanged.

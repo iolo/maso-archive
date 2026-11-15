@@ -137,7 +137,8 @@ def validate_source_indexes(context):
                 need(cursor==cell['end_byte'] and ''.join(parts)==cell['text'],
                      'Continued table cell parts do not cover the selected literal')
             if regional_parts:
-                need(row.get('region_ids',[row.get('region_id')])==list(dict.fromkeys(regional_parts)),
+                fallback=table.get('region_id') if context.source_structures else None
+                need(row.get('region_ids',[row.get('region_id',fallback)])==list(dict.fromkeys(regional_parts)),
                      'Table row regions differ from its cell source parts')
     regions={r['id']:r for r in context.source['regions']}
     for figure in correction.get('figure_structures',[]):

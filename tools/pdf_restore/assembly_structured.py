@@ -37,9 +37,13 @@ def validate_recipe(recipe):
     if programs:
         required |= {'program_links', 'group_links', 'example_links'}
     if 'source_index_mode' in recipe:
-        if not programs or recipe['source_index_mode'] not in ('regional-literals-v1','regional-literals-v2'):
+        if not programs or recipe['source_index_mode'] not in ('regional-literals-v1','regional-literals-v2','regional-literals-v3'):
             raise ValueError('Unsupported structured source index extension')
         required.add('source_index_mode')
+    if recipe.get('source_index_mode')=='regional-literals-v3':
+        from .assembly_source_structures import validate_links
+        required.add('reference_links')
+        validate_links(recipe)
     if programs and any('address_join' in r for r in recipe['program_links']) and recipe.get('source_index_mode')!='regional-literals-v2':
         raise ValueError('Printed address joins require regional-literals-v2')
     if programs and any('numbered_join' in r for r in recipe['program_links']) and recipe.get('source_index_mode')!='regional-literals-v2':
@@ -120,7 +124,8 @@ class Context:
         self.program_mode = False
         self.numbered = False
         self.source_indexes = source_indexes
-        self.extended_source_indexes = source_indexes and source_index_version=='regional-literals-v2'
+        self.extended_source_indexes = source_indexes and source_index_version in ('regional-literals-v2','regional-literals-v3')
+        self.source_structures = source_indexes and source_index_version=='regional-literals-v3'
         self.logical_aliases = {}
         self.listing_ids = {id: self.name + '-' + id for id in self.groups}
         self.positions = {self.name + '-' + id: (self.name + '-' + id, 0) for id in self.blocks}
@@ -146,6 +151,12 @@ class Context:
             return deepcopy(value)
         result = {}
         for key, item in value.items():
+            if self.source_structures:
+                from .assembly_source_structures import reference
+                handled, revised = reference(self, key, item)
+                if handled:
+                    result[key] = revised
+                    continue
             if self.numbered:
                 from .assembly_numbered import reference
                 handled, revised = reference(self, key, item)
@@ -259,7 +270,7 @@ class Context:
 
 def project_structured(recipe, originals):
     validate_recipe(recipe)
-    source_indexes = recipe.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2')
+    source_indexes = recipe.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2','regional-literals-v3')
     indexes = INDEXES + ('text_index', 'unresolved_graphics', 'unresolved_text') if source_indexes else INDEXES
     contexts=[];offset=0
     for spec,(source,correction) in zip(recipe['segments'],originals,strict=True):
@@ -379,11 +390,19 @@ def project_structured(recipe, originals):
         if source_indexes:
             from .assembly_source_indexes import validate_source_indexes
             validate_source_indexes(context)
+        if context.source_structures:
+            from .assembly_source_structures import validate_source
+            validate_source(context)
         for key in indexes:
             for i,original in enumerate(context.correction.get(key,[])):
                 if key=='content_associations' and original.get('kind') in ('pending-source-example','cross-segment-source-example'):
                     continue  # Explicitly resolved below; every occurrence must match one link.
                 row=context.row(key,i)
+                if context.source_structures:
+                    from .assembly_source_structures import project_index
+                    project_index(context,key,original,row,ranges)
+                    correction[key].append(row)
+                    continue
                 if programs and key=='figure_structures' and not (source_indexes and 'figure_region_id' not in original):
                     from .assembly_programs import project_figure
                     row=project_figure(context, original, row)
@@ -430,6 +449,9 @@ def project_structured(recipe, originals):
     if formatted:
         from .assembly_formatted import finish
         finish(recipe, package, correction, contexts)
+    if recipe.get('source_index_mode')=='regional-literals-v3':
+        from .assembly_source_structures import finish
+        finish(recipe,package,correction,contexts)
     if source_indexes:
         from .assembly_source_indexes import finish_indexes
         finish_indexes(package,correction,contexts)
@@ -455,12 +477,15 @@ def validate_references(package,correction):
             if 'node_id' in value:nodes.add(value['node_id'])
             for child in value.values():collect(child)
     collect(correction['figure_structures'])
+    if correction.get('source_index_mode')=='regional-literals-v3':
+        from .assembly_source_structures import figure_nodes
+        for figure in correction['figure_structures']:nodes.update(figure_nodes(figure))
     singles={**{k:blocks for k in BLOCK_KEYS},**{k:regions for k in REGION_KEYS},
              'figure_id':figures,'table_id':tables,'listing_id':listings,
              'source_unit_id':logical,'from_node':nodes,'to_node':nodes}
     multiples={**{k:blocks for k in BLOCK_LISTS},'region_ids':regions,'figure_ids':figures,'physical_line_ids':physical}
     indexes = INDEXES
-    if correction.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2'):
+    if correction.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2','regional-literals-v3'):
         from .assembly_source_indexes import UNIT_KEYS, UNIT_LISTS, REGION_LISTS, BLOCK_EXTRA, LOCAL_EXTRA, BLOCK_EXTRA_LISTS, LISTING_EXTRA
         singles.update({k:logical for k in UNIT_KEYS})
         singles.update(physical_line_id=physical,table_row_id={r['row_id'] for t in correction['tables'] for r in t['rows']})

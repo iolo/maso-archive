@@ -2305,3 +2305,44 @@ non-owning headings and eleven unclassified entries**. See the
 Next: **R43**, assemble the complete **185–195** article with checked source,
 structure and coordinate projection and an independent native rebuild. All other
 remaining identities and whole-issue accounting/export/rebuild remain in scope.
+
+## R43 completed — 2026-11-15
+
+Assembled complete **텍스트 화일이란?**, **185–195**, credited to **편 집 부**
+under **애플 컴패티블**, as `text-file-r03`. Both immutable native source
+segments remain embedded exactly. The complete article retains 88 blocks,
+115 regions, ten original assets, three tables / 103 cells, 227 numbered program
+units / 281 physical rows, thirteen command groups and all 165 local uncertainties.
+Original source anomalies and the editorial qualification of BLANK$ spacing remain.
+
+All **456 native files reproduce byte for byte** in an independent build,
+including **447 exact embedded segment files**. All **115 master-derived crop
+checks** pass; **55 deliberately damaged cases** are rejected. The **41 earlier
+selected packages and frozen evidence** remain exact and valid. All 105 original
+OCR task outcomes/settings are retained, with **no new OCR**. Fresh regressions
+pass **253 tests: 214 PDF and 39 JPEG/recognition/assembly**. PLAN-OCR.md and
+PLAN-PDF.md remain unchanged.
+
+The opt-in `regional-literals-v3` assembly mode preserves native graphs, command
+structures and mixed article/listing coordinate ownership. Fifteen explicitly
+reviewed references now bind prose to source listing units or sections. One frozen
+marker captured “리스팅 3” at the prefix of “리스팅 3190에서 3220”; its original
+record is preserved, with an exact expanded source context and checked targets
+3190, 3200, 3210 and 3220. This verifies source relationships without claiming
+program meaning or execution.
+
+The unsupported v2 attempt and failed/passing v3 projection logs remain retained.
+Three native candidate builds and independent rebuilds are preserved; r01/r02 are
+unqualified development snapshots, and r03 is selected. A deliberate corruption
+exposed a missing literal-versus-slice assertion in the independent checker; that
+check was added and the final audit passed without changing article data.
+Cleanup was preview-only; **40 private evidence files** are frozen.
+
+November now has **twenty-three complete articles, no partial articles, six
+non-owning headings and eleven unclassified entries**. See the
+[R43 result](metadata/catalog/scan-restoration/1984-11-text-file.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R44**, establish the full extent and source structures of the EPROM
+programmer article opening on **198**, then restore a bounded native segment.
+All eleven remaining identities, covers/source-image accounting and checked
+whole-issue export/rebuild remain in scope; the issue goal remains active.

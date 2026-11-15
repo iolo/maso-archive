@@ -5,8 +5,8 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 22,
-  "partial_articles": 1,
+  "readable_articles": 23,
+  "partial_articles": 0,
   "identitiesAwaitingDisposition": 11,
   "entries": [
     {
@@ -7417,7 +7417,7 @@
       ],
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "observed_title": "텍스트 화일이란?",
       "observed_byline": "편 집 부",
@@ -7728,19 +7728,28 @@
         195
       ],
       "pending_folios": [],
-      "assembly_required": true,
+      "assembly_required": false,
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-42/scope.json",
-          "sha256": "c1746a1efe153b34322606b293569a4e5e1d714d387e32c212b9778ee5398625",
-          "bytes": 1846
+          "path": "archive/scans/1984-11/restoration/batch-43/review/source-review-completion.json",
+          "sha256": "f912badf0ca46bc4d1fa4e749ca9e8f4b4dec820a9813d1281d4705a192dc43d",
+          "bytes": 6525
         },
-        "status": "Complete source extent185–195 represented across two immutable native segments;whole-article assembly remains pending.196 advertisement,197 divider and198 EPROM opener are separate."
+        "status": "Complete observed185–195 source extent restored and independently rebuilt from two exact immutable segments;following196 advertisement,197 divider and198 EPROM article remain separate."
       },
       "limitations": [
-        "All eleven source folios represented across preserved segments;checked whole-article native assembly is pending.",
-        "Original encoded bytes,exact spaces/rule counts and execution remain unverified. Selected30-space BLANK$ follows sourceREM30,with editorial physical allocation.",
-        "Source spelling,technical/program discrepancies and local alternatives remain unchanged;assistant source review is not full human proofreading."
+        "Original encoded bytes,exact spacing/rule counts,execution and full human proofreading remain unverified.",
+        "[a] The rotated opener uses original rectangular source crops and a full original asset; its text receives manual source comparison without changing masters or inventing a deskewed historical page.",
+        "[a] Original glyph/spacing/encoding and technical/program execution remain unverified.",
+        "[a] Original encoded bytes, exact typography/spacing and program/command/storage behavior remain unverified; assistant source comparison is not full human proofreading.",
+        "[a] Native pipe/slash projections, slot IDs, connectors and role locators describe source structure. No record byte offsets, NUL values or executable replacement are invented.",
+        "[a] Original source technical wording, missing punctuation, spelling differences and local glyph/handwriting candidates retained.",
+        "[b] Selected program display only; original byte encoding,exact spaces/long rule counts and execution remain unverified.",
+        "[b] Original labels,program errors,source prose/listing discrepancies and local glyph candidates must be retained without expected-value repair.",
+        "[b] Original encoded bytes,exact whitespace/rule counts and program/command execution remain unverified; assistant source comparison is not full human proofreading.",
+        "[b] The selected30-space BLANK$ literal follows the printed REM30 claim. Its15/15 allocation across displayed fragments is editorial; original encoded count and physical allocation remain unknown.",
+        "[b] Printed technical claims,missing semicolons,menu-bound/target discrepancy,FILENAMQ,SILICON VALLY and local source alternatives retained without program repair.",
+        "[b] Selected display only; source bytes/spacing and execution unverified."
       ],
       "previous_location_evidence": [
         {
@@ -7750,6 +7759,262 @@
             "bytes": 2390
           },
           "status": "Complete source extent185–195 observed;only opening185–190 restored.196 advertisement,197 divider and198 EPROM opener are separate."
+        },
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-42/scope.json",
+            "sha256": "c1746a1efe153b34322606b293569a4e5e1d714d387e32c212b9778ee5398625",
+            "bytes": 1846
+          },
+          "status": "Complete source extent185–195 represented across two immutable native segments;whole-article assembly remains pending.196 advertisement,197 divider and198 EPROM opener are separate."
+        }
+      ],
+      "source_views": [
+        {
+          "source_index": 188,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-185.jpg",
+            "sha256": "29a5417bf2ba240619efb73d3e864337260add5873e7d669477f504de52e1904",
+            "bytes": 13159222
+          },
+          "width_px": 4726,
+          "height_px": 6918,
+          "reading_order": 187,
+          "source_filename_number": 185,
+          "printed_page": "185",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 189,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-186.jpg",
+            "sha256": "04355c76baf4cf8061822dd7ca59e9cefc638b514fa1750bb52723c38e688299",
+            "bytes": 8260002
+          },
+          "width_px": 4754,
+          "height_px": 6928,
+          "reading_order": 188,
+          "source_filename_number": 186,
+          "printed_page": "186",
+          "image_to_upright_normalized": [
+            0.00021034917963819942,
+            0,
+            0,
+            0.0001443418013856813,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 190,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-187.jpg",
+            "sha256": "30938d02b3c77f69c148faa3b789e8e69316c23cef19af00ac16d20cd52fe282",
+            "bytes": 9003902
+          },
+          "width_px": 4736,
+          "height_px": 6924,
+          "reading_order": 189,
+          "source_filename_number": 187,
+          "printed_page": "187",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 191,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-188.jpg",
+            "sha256": "676438321c7bb8e332f33ab46d1569953ee24c545aee6d70658fa74af2c5d809",
+            "bytes": 9125164
+          },
+          "width_px": 4756,
+          "height_px": 6925,
+          "reading_order": 190,
+          "source_filename_number": 188,
+          "printed_page": "188",
+          "image_to_upright_normalized": [
+            0.00021026072329688813,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 192,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-189.jpg",
+            "sha256": "680fc3a813b59fc1f11cb83d0cc052f3579b3e8a118125c678a67cbb417be370",
+            "bytes": 9089064
+          },
+          "width_px": 4729,
+          "height_px": 6922,
+          "reading_order": 191,
+          "source_filename_number": 189,
+          "printed_page": "189",
+          "image_to_upright_normalized": [
+            0.00021146119687037428,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 193,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-190.jpg",
+            "sha256": "e2ae2a592e86cf7d3e83db33cae4beedc92bcec32dc095ad39faf31a359723ec",
+            "bytes": 8263273
+          },
+          "width_px": 4752,
+          "height_px": 6925,
+          "reading_order": 192,
+          "source_filename_number": 190,
+          "printed_page": "190",
+          "image_to_upright_normalized": [
+            0.00021043771043771043,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 194,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-191.jpg",
+            "sha256": "4161eefd93762d5a962a37d98b683788493be2039d23a093019b7af4f2e48a18",
+            "bytes": 8946307
+          },
+          "width_px": 4729,
+          "height_px": 6921,
+          "reading_order": 193,
+          "source_filename_number": 191,
+          "printed_page": "191",
+          "image_to_upright_normalized": [
+            0.00021146119687037428,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 195,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-192.jpg",
+            "sha256": "f316ae922ad72bbba0b2130e6c8ccd07f05b92b4b9bb1a1a4b099e22f389d852",
+            "bytes": 8422209
+          },
+          "width_px": 4753,
+          "height_px": 6925,
+          "reading_order": 194,
+          "source_filename_number": 192,
+          "printed_page": "192",
+          "image_to_upright_normalized": [
+            0.00021039343572480537,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 196,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-193.jpg",
+            "sha256": "eae6a56ad34102585a924f23d3cbd1d65ff4d130bb74fc9f71d78952375f55c4",
+            "bytes": 8590904
+          },
+          "width_px": 4728,
+          "height_px": 6922,
+          "reading_order": 195,
+          "source_filename_number": 193,
+          "printed_page": "193",
+          "image_to_upright_normalized": [
+            0.00021150592216582064,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 197,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-194.jpg",
+            "sha256": "15ea97c4398108da807b9b9601ccf96905ebcd3a98c50a5e5f2e8fad88d9adb1",
+            "bytes": 7760114
+          },
+          "width_px": 4725,
+          "height_px": 6925,
+          "reading_order": 196,
+          "source_filename_number": 194,
+          "printed_page": "194",
+          "image_to_upright_normalized": [
+            0.00021164021164021165,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 198,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-195.jpg",
+            "sha256": "c55a2027ef34bdd06dbc37e9b297aaea2c3afdfd2de8be66cbf0e5a9d2d86c04",
+            "bytes": 8304923
+          },
+          "width_px": 4728,
+          "height_px": 6918,
+          "reading_order": 197,
+          "source_filename_number": 195,
+          "printed_page": "195",
+          "image_to_upright_normalized": [
+            0.00021150592216582064,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/text-file-r03",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/text-file-r03/manifest.json",
+          "sha256": "b484b930204ff12d4599b3994e1421774469a39c75deca33b5d78b3ef9a9db72",
+          "bytes": 82299
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-43/validation.json",
+          "sha256": "5b040f5b49e0f1b24c3a1306de6f3c5017e337e59320eae3763cb765ba375744",
+          "bytes": 156631
         }
       ]
     },
@@ -8127,6 +8392,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R43: assemble complete 텍스트 화일이란?185–195 (maso-1984-11-toc-0024) from immutable text-file-a-r02 and text-file-b-r02. Preserve slanted opener/native text,all six diagrams/table structures,source command formats,227-unit/281-row program with fourteen source sections,cross-column token fragments,printed map strings and local source uncertainty. Project article/listing/source coordinates and figure/prose relationships with checked ownership,then independently rebuild/byte-compare the full native article; do not repeat successful OCR or change frozen inputs. Continue all eleven unclassified November identities,covers/source-image accounting and checked whole-issue native export/rebuild. Keep PLAN-OCR.md and PLAN-PDF.md unchanged.",
+  "next": "R44: establish complete source extent,observed title/byline,body ownership and source structures of 애플 EPROM 프로그래머의 제작 (maso-1984-11-toc-0026,contents/observed opener198). Preserve complete native text-file185–195 and both immutable segments,all source diagrams/slots/commands/program fragments and reviewed3190–3220 reference context. Restore at most two identities/six new mapped source views;segment and later assemble if needed. Continue all eleven unclassified November identities,covers/source-image accounting and checked whole-issue native export/rebuild. Keep PLAN-OCR.md and PLAN-PDF.md unchanged.",
   "group_headings": 6
 }

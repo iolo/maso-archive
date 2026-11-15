@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R42 are complete; the active goal is to restore all November 1984 articles.
+R00–R43 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -291,14 +291,20 @@ restored JSON/assets and faithful source evidence first.
 | R40 — 비지캘크 한계의 극복 | Actual 180–184; complete native article package | 212 identical files; eighteen grids / 615 cells / 45 blanks / thirty formulas, eleven command sequences and typed aggregation/transfer relationships; 63 pixel checks and 58 invalid cases; unchanged 249-test baseline reused |
 | R41 — 텍스트 화일이란? opening | Actual 185–190 of observed 185–195; complete native opening segment | 286 identical files; four typed diagrams, 49 record-strip slots, six blank hierarchy slots, eight connectors, eleven command-format groups / 23 logical commands; 74 pixel checks and 49 invalid cases; unchanged 249-test baseline reused |
 | R42 — 텍스트 화일이란? final segment | Actual 191–195; complete native final segment, article assembly pending | 161 identical files; comparison table / 54 cells, paired record diagrams, one program / 227 numbered units / 281 physical rows / fourteen source sections, three DATA strings, eight printed map rows / 64 hex tokens and six logical command formats; 41 pixel checks and 68 invalid cases; unchanged 249-test baseline reused |
+| R43 — complete 텍스트 화일이란? assembly | Actual 185–195; complete native article package | 456 identical files including 447 exact embedded segment files; source graphs, commands, mixed coordinate owners and fifteen reviewed prose/listing references; 115 pixel checks, 55 invalid cases and 253 fresh regressions |
 
-Immediate next action: **R43**, assemble complete **텍스트 화일이란?**,
-`maso-1984-11-toc-0024`, on **185–195**, credited to **편 집 부** under
-**애플 컴패티블**. Both native source segments are restored; the whole article
-remains partial until checked assembly. Preserve immutable `text-file-a-r02`
-and `text-file-b-r02`. Project article/listing/source coordinates, caption/figure
-relationships, prose/listing references and source ownership, then independently
-rebuild and byte-compare the complete native article without fresh OCR.
+Immediate next action: **R44**, establish the complete source extent, observed
+title/byline, body ownership and source structures of **애플 EPROM 프로그래머의 제작**,
+`maso-1984-11-toc-0026`, beginning at observed opener **198**. Use at most six
+new mapped source views and two identities; restore a bounded segment if the
+article needs more, then assemble it in a later checkpoint.
+Preserve complete **텍스트 화일이란?**, `maso-1984-11-toc-0024`, on **185–195**,
+credited to **편 집 부** under **애플 컴패티블**, as `text-file-r03` and its
+immutable `text-file-a-r02` and `text-file-b-r02` segments. All 456 native files
+reproduce byte for byte, including 447 exact embedded segment files. Fifteen
+reviewed prose/listing references retain their source evidence; the frozen marker
+capturing “리스팅 3” within “리스팅 3190에서 3220” remains unchanged, with an
+explicit containing context and checked 3190–3220 source-unit targets.
 Final 191–195 retains table1's 54 cells, blank header, row group and footnotes;
 the paired blocked/delimited record diagrams; and one printed program with
 227 numbered units, 281 physical rows, fourteen REM-labeled sections, three DATA
@@ -315,7 +321,8 @@ stacked C-over-R labels and literal zero-like glyphs, eleven source command
 formats and their physical wraps/alternative branches. Keep FILEANAME,
 TEXT.SEQ, POSIT-TION, incomplete punctuation, original technical wording and
 local glyph/handwriting alternatives. These are source structures without
-recovered-byte or execution claims. The whole article remains partial.
+recovered-byte or execution claims. The complete assembly preserves both source
+segments and all 165 local uncertainties without fresh OCR.
 Preserve complete 비지캘크 한계의 극복
 on actual 180–184: eighteen grids, 615 source cells including 45 blanks and thirty
 formulas, printed labels, separator bands, six boxed inputs, six block-range
@@ -388,7 +395,7 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-two complete article packages, one partial article, six non-owning
+November now has twenty-three complete article packages, no partial articles, six non-owning
 headings and 11 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
