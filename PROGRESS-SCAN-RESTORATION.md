@@ -4,13 +4,14 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R29 checkpoints complete: sixteen November 1984 articles have complete
-reproducible JSON/assets packages, with no partial articles. The latest is
-수학을 통한 논리학습 on actual 110–115. Both features and the assembled game
+**R00–R30 checkpoints complete: sixteen November 1984 articles have complete
+reproducible JSON/assets packages. 리스즈트 has a verified opening segment on
+actual 140–145; its remaining 146–153 and assembly are pending, so it stays partial.
+The latest complete article is 수학을 통한 논리학습 on actual 110–115. Both features and the assembled game
 articles retain their immutable original segments. Six section headings have
 source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Eighteen canonical identities await disposition. The 24 cleaned source sets
+Seventeen canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -56,7 +57,8 @@ labels and the preserved exports retain their existing values.
 | R25–R27 — 로즈런너 segments and assembly | Passed | Actual 93–101; 143 identical assembled files, three source contexts and 242 passing shared regressions |
 | R28 — 깡통이 통-통-통 | Passed | Actual 102–104; 72 identical native files, source grids and DATA relationships retained |
 | R29 — 수학을 통한 논리학습 | Passed | Actual 110–115; 211 identical native files, 76 mathematical trees, forty exercise items and four source programs |
-| November 1984 issue closeout | Not started | Eighteen identities still await disposition; source-image accounting and whole-issue native export/rebuild remain |
+| R30 — 리스즈트 opening segment a | Passed; whole article partial | Actual 140–145; 216 identical files, two formatted listing contexts, original memory-layout / flowchart structures; 146–153 and assembly pending |
+| November 1984 issue closeout | Not started | Seventeen identities and one partial article remain; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -1513,3 +1515,73 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R30**, locate canonical 리스즈트, contents starting-page candidate 140;
 verify its actual source title, ownership, extent and structures before mapping
 a bounded batch. Retain the received title separately from any observed variant.
+
+## R30 completed — 2026-11-15
+
+Located 리스즈트 (LISZT), canonical maso-1984-11-toc-0018, on actual 140–153.
+The source confirms the received Korean title. Source 139 is a separate business
+section opener; 153 contains the final listing/report and original illustration,
+and 154 opens 전산개발 시스템 연구. This bounded checkpoint restores the six-view
+opening segment on 140–145. The whole article remains partial, with 146–153 and
+whole-article assembly explicitly pending.
+
+The native schema retains all opening explanatory text, five usage steps, nine
+formatter properties, three original pull quotations, nine column/page joins and
+32 source explanation/listing references. References into later source groups
+remain unresolved relationships with explicit pending folios. Three word-space
+joins and one paragraph break are represented as editorial separators; they do
+not claim additional printed glyphs. Original spelling and the different NEXT
+references on 143 and 144 remain unchanged.
+
+Two original diagrams have independent typed source records: an eight-slot
+memory layout with pointer/range relationships, and a seventeen-node flowchart
+with four connector junctions, 27 connector routes, source branch labels, dashed
+zones and the original asterisk-marked same-number continuation route. Their
+49 label occurrences retain distinct identities, including repeated REM tests.
+Both original captions and the closing emblem remain associated with their
+source images; no replacement artwork or generated program output was made.
+
+MAKE LISZT and LISZTER are independent original formatted-listing contexts.
+Seventeen MAKE LISZT groups (200–280) and ten LISZTER groups (0–9) retain 67
+physical rows, 94 physical fields, 460 physical tokens and 109 literal records.
+The source report's 725 bytes, seventeen line numbers, nineteen non-REM statements
+and two remarks remain source claims. The report's trailing END is separate from
+the program's numbered 280 END. Eight visible wrap underscores, multi-row remark
+and statement groups, source headers/date/page labels, the original comparison
+order `= <LP`, and the missing visible closing quote at MAKE LISZT 255 remain
+literal. Twenty-one local uncertainty records cover source spacing, that quote
+and a separate ink trace. No executable colons/REM tokens or encoded blank counts
+were inferred. Historical programs were not executed.
+
+All 216 final native files reproduce exactly in a separate process. All 54
+source crops match the original pixels; 38 deliberately invalid structural cases
+are rejected. All 28 earlier selected packages remain valid with exact package
+and evidence bytes. The unchanged R27 baseline of 242 passing shared tests was
+rehashed and reused, not freshly rerun. Shared implementation and both shared
+OCR/PDF plans remain unchanged. Source correctness, original encoded bytes and
+full human proofreading remain separate from artifact reproduction.
+
+The first map validation rejected a segment suffix in the canonical package ID
+before OCR; the corrected map preserves that identity. One pre-OCR geometry
+refinement widened tight prose edges. All 51 mapped OCR tasks completed without
+engine failures or retries; only the decorative-title draft is empty and was
+transcribed directly from the scan. Source preparation refined paragraph/word
+joins and remark ownership. Preparation 03 stopped because editorial spacing
+lacked source-part records. The two earlier exports remain pinned and unselected;
+the second had used the preserved prior recipe after preparation stopped. Final
+r03 includes explicit separator records and passed its first structure preflight.
+The first full audit stopped when an intentionally invalid UTF-8 boundary raised
+a decoding exception; the harness now records that rejection, and the second
+full audit passes all 38 cases. All attempt logs are preserved. Cleanup ran in
+preview mode only; 551 private batch evidence files are frozen.
+
+November now has **sixteen complete article packages, one partial article, six
+non-owning headings and seventeen identities awaiting disposition**. The full
+November objective remains active, including covers/source-image accounting and
+a checked whole-issue native export/rebuild.
+
+See the [R30 segment result](metadata/catalog/scan-restoration/1984-11-liszt-a.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R31**, restore actual 146–151 as the original LISZTER continuation,
+starting with printed group 10. Preserve outgoing partial groups explicitly;
+152–153 and whole-article assembly follow in later bounded checkpoints.
