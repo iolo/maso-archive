@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R23",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0008",
+  "title": "컨닝",
+  "observed_title": "컨 닝",
+  "observed_subtitle": "시력이 실력인 만큼",
+  "observed_byline": "편집부",
+  "observed_platform": "FC-100",
+  "observed_whole_extent": [
+    86,
+    89
+  ],
+  "printed_folios": [
+    "86",
+    "87",
+    "88",
+    "89"
+  ],
+  "outcome": "Complete reproducible presentation-independent source package with four original prose paragraphs, independent variable/explanation tables, physical/logical BASIC units, source DATA/loader/key relationships, original screenshot/closing emblem and explicit glyph/whitespace/source uncertainty.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-086.jpg",
+      "sha256": "0df8192ffd75671fd3e183b2897134fcac56be05dc5643c582ec5907b825daae",
+      "bytes": 8530645
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-087.jpg",
+      "sha256": "8129b9d591414c8cc9bf4bd1de478aa17bb1799f91730721c57a08b11752e9f5",
+      "bytes": 8194849
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-088.jpg",
+      "sha256": "f8291a1ec843a7d0c7d6ac4e9cf21da8ebd41afc626be5ccc6aea3d6f7db173c",
+      "bytes": 7726817
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-089.jpg",
+      "sha256": "504efeadb43cac83b3efa14cbded55a2c1659a22b11bc974cf598a3ff906d1be",
+      "bytes": 8548021
+    }
+  ],
+  "selected_package": "archive/scans/1984-11/packages/cunning-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/cunning-r01/manifest.json",
+    "sha256": "2ce8999c1d7951751d2d05f8b93fe94e7b42d52ac129e5b344a148c738f72d89",
+    "bytes": 12514
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-23/validation.json",
+    "sha256": "26642ffe3c3066f55047326a91d79386d2a6cca4bc0ff17ddb2b0ceab0de2c0c",
+    "bytes": 30196
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-23/evidence-manifest.json",
+    "sha256": "2428c6440ec66e6a3c696c68115629f21509fdca5af6eb70a549f02487a690f0",
+    "bytes": 43535
+  },
+  "summary": {
+    "sourceImages": 4,
+    "regions": 18,
+    "blocks": 10,
+    "figures": 2,
+    "tableRows": 38,
+    "tableCells": 76,
+    "programExplanations": 29,
+    "variableDefinitions": 9,
+    "listingContexts": 1,
+    "physicalRows": 253,
+    "logicalUnits": 223,
+    "physicalFields": 476,
+    "dataTokens": 223,
+    "characterDefinitionTokens": 112,
+    "sentinelTokens": 1,
+    "coordinateTokens": 110,
+    "coordinatePairs": 55,
+    "graphicMarkers": 5,
+    "localUncertainties": 24,
+    "basicPhysicalTokens": 2343,
+    "sourceLiteralOccurrences": 251,
+    "sourceParagraphs": 4,
+    "figureLabels": 9,
+    "keyDispatchBranches": 8,
+    "nativeFiles": 75,
+    "negativeCases": 21
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p086-title",
+      "source_index": 89,
+      "pixel_bounds": [
+        1681,
+        474,
+        2401,
+        870
+      ],
+      "scan": {
+        "path": "ocr-86/p086-title.png",
+        "sha256": "a758fbc3987dcd45a438b66329f9c2aad6fc0e11b63bcfd7a8185868bdb86d55",
+        "bytes": 356286
+      }
+    },
+    {
+      "region_id": "p086-subtitle",
+      "source_index": 89,
+      "pixel_bounds": [
+        1471,
+        918,
+        2689,
+        1110
+      ],
+      "scan": {
+        "path": "ocr-86/p086-subtitle.png",
+        "sha256": "33c3560f91fa9339cfa07e158ee5e2b50333baa72d1eff5d892d73061c11c166",
+        "bytes": 358093
+      }
+    },
+    {
+      "region_id": "p086-platform",
+      "source_index": 89,
+      "pixel_bounds": [
+        2894,
+        1326,
+        3236,
+        1434
+      ],
+      "scan": {
+        "path": "ocr-86/p086-platform.png",
+        "sha256": "ffd7c6ce26dfb913986ff538161e0cb167111adbce1ab73ccec3a99d721b820c",
+        "bytes": 52821
+      }
+    },
+    {
+      "region_id": "p086-byline",
+      "source_index": 89,
+      "pixel_bounds": [
+        3371,
+        1326,
+        3700,
+        1434
+      ],
+      "scan": {
+        "path": "ocr-86/p086-byline.png",
+        "sha256": "44443867742c818b94b35bb85a848cf90887f4d167b6131add42efcfe418143a",
+        "bytes": 50668
+      }
+    },
+    {
+      "region_id": "p086-body",
+      "source_index": 89,
+      "pixel_bounds": [
+        300,
+        1572,
+        1998,
+        3720
+      ],
+      "scan": {
+        "path": "ocr-86/p086-body.png",
+        "sha256": "b94ecf489f44d89dca15d4ad0cbadaa59fb1509eba024cf52a90f6001c1f4b21",
+        "bytes": 5017325
+      }
+    },
+    {
+      "region_id": "p086-screen",
+      "source_index": 89,
+      "pixel_bounds": [
+        2158,
+        1578,
+        3844,
+        2730
+      ],
+      "scan": {
+        "path": "ocr-86/p086-screen.png",
+        "sha256": "d44c82b410987439e1fde8162adb59000814726a87e672e157efd081b2fec379",
+        "bytes": 3808130
+      }
+    },
+    {
+      "region_id": "p086-variables-heading",
+      "source_index": 89,
+      "pixel_bounds": [
+        374,
+        3876,
+        1086,
+        4051
+      ],
+      "scan": {
+        "path": "ocr-86/p086-variables-heading.png",
+        "sha256": "786777b0b699a1637d22ee113b434a7cbf08fc55c060a07f63babd4e5d9396e9",
+        "bytes": 181230
+      }
+    },
+    {
+      "region_id": "p086-variables",
+      "source_index": 89,
+      "pixel_bounds": [
+        295,
+        4134,
+        1797,
+        5058
+      ],
+      "scan": {
+        "path": "ocr-86/p086-variables.png",
+        "sha256": "e9cbec54b3ff702282e4cc3204c7b082d0b73140a35eb01011cb497182e5355d",
+        "bytes": 1740872
+      }
+    },
+    {
+      "region_id": "p086-explanation-heading",
+      "source_index": 89,
+      "pixel_bounds": [
+        382,
+        5166,
+        1332,
+        5328
+      ],
+      "scan": {
+        "path": "ocr-86/p086-explanation-heading.png",
+        "sha256": "99efc9686f1dce8aeb17db452f1af46a7a1651670d2764e9e1d8eadb2ff7edbe",
+        "bytes": 227004
+      }
+    },
+    {
+      "region_id": "p086-explanation-first",
+      "source_index": 89,
+      "pixel_bounds": [
+        287,
+        5364,
+        1904,
+        5550
+      ],
+      "scan": {
+        "path": "ocr-86/p086-explanation-first.png",
+        "sha256": "ec1b22f8ed15186bfbc95109a98407674f63e88dc5b5fa8f70d280557ed4d613",
+        "bytes": 402102
+      }
+    },
+    {
+      "region_id": "p086-explanation-final",
+      "source_index": 89,
+      "pixel_bounds": [
+        2137,
+        2790,
+        3655,
+        5556
+      ],
+      "scan": {
+        "path": "ocr-86/p086-explanation-final.png",
+        "sha256": "15391dfae982c295a9861921604561eec964562072c743aad5f1ab59ba2e2361",
+        "bytes": 5436552
+      }
+    },
+    {
+      "region_id": "p086-end-mark",
+      "source_index": 89,
+      "pixel_bounds": [
+        3716,
+        5472,
+        3803,
+        5562
+      ],
+      "scan": {
+        "path": "ocr-86/p086-end-mark.png",
+        "sha256": "8d4765f90989e50e5cddba894d818c1efaeb3d630af68657233bd36a83845766",
+        "bytes": 14065
+      }
+    },
+    {
+      "region_id": "p087-listing-left",
+      "source_index": 90,
+      "pixel_bounds": [
+        329,
+        948,
+        1913,
+        5472
+      ],
+      "scan": {
+        "path": "ocr-87/p087-listing-left.png",
+        "sha256": "748a792cf43e5f22ffa396d2cfb31aeef67c89fec185b5b31eec35431ae56dd7",
+        "bytes": 9324012
+      }
+    },
+    {
+      "region_id": "p087-listing-right",
+      "source_index": 90,
+      "pixel_bounds": [
+        2192,
+        948,
+        3715,
+        5406
+      ],
+      "scan": {
+        "path": "ocr-87/p087-listing-right.png",
+        "sha256": "bdb1b784c9517717a943f1751de0641c9cf003892da50614ef26108de59f505f",
+        "bytes": 8839370
+      }
+    },
+    {
+      "region_id": "p088-listing-left",
+      "source_index": 91,
+      "pixel_bounds": [
+        321,
+        869,
+        1927,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-88/p088-listing-left.png",
+        "sha256": "c999abf17c050c9d6fb4ab8c34b55b17132bfc8e46de15d4d65eedeb66c65f12",
+        "bytes": 9370034
+      }
+    },
+    {
+      "region_id": "p088-listing-right",
+      "source_index": 91,
+      "pixel_bounds": [
+        2165,
+        869,
+        3743,
+        5514
+      ],
+      "scan": {
+        "path": "ocr-88/p088-listing-right.png",
+        "sha256": "037479eb34382127b222db747acb0966ea59f83a7bf9ba989be4a469fe933e2d",
+        "bytes": 9120282
+      }
+    },
+    {
+      "region_id": "p089-listing-left",
+      "source_index": 92,
+      "pixel_bounds": [
+        361,
+        912,
+        1933,
+        2880
+      ],
+      "scan": {
+        "path": "ocr-89/p089-listing-left.png",
+        "sha256": "eec1242d12e4a6e21cddb0ba59a2a5eb9e3396a38153adb4635a6d32bdd1a265",
+        "bytes": 3935586
+      }
+    },
+    {
+      "region_id": "p089-listing-right",
+      "source_index": 92,
+      "pixel_bounds": [
+        2208,
+        894,
+        3726,
+        2808
+      ],
+      "scan": {
+        "path": "ocr-89/p089-listing-right.png",
+        "sha256": "3771f3dee9e0dce81f56375c3116907cdc384e95f2d7e17973ba11fc0df820e6",
+        "bytes": 3974525
+      }
+    }
+  ],
+  "previousCheckpointCommit": "25f803ea",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "91f7fe959cd1e246dd49e7d74d42bd3a1cd76e8de6464dbc62d5739214d74fb0",
+      "bytes": 211140
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "f7443fce3f52398466ad735ecc48ab7923e1e84dd7f6adb0e8b430b51821b2ef",
+      "bytes": 14200
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a61732ba4af3ad2527b5bc4893dd29fce54631420aed4145c0a08b4f0b8b1eb8",
+      "bytes": 17713
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "5cb0e0c82d4b6e8623db1106241d1b0bfcac398ffcc1f217f21f24f59f69e422",
+      "bytes": 16537
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "5a3325c59f06129cd3f296f3bcb77cb49d0baae95e7f1cb846cde0bfa5433287",
+      "bytes": 34557
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 25,
+    "total": 239,
+    "logs": [
+      {
+        "path": "archive/scans/1984-11/restoration/batch-22/pdf-final-regressions.log",
+        "sha256": "b0ddd7d834a0f20c87a770b46801a65159fb4ea727475fb11b7ee680bce383fa",
+        "bytes": 36395
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-22/jpeg-final-regressions.log",
+        "sha256": "58f2e5e0e4b8ed9a83cab823a6e64f1e7fc04fbfde0e1229726ba14be3cf4d81",
+        "bytes": 4779
+      }
+    ],
+    "reason": "R22 implementation/schema/test pins and frozen full regression logs rehashed unchanged; this is a data-only restoration."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 1,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "exportFailures": 0,
+    "independentRebuildFailures": 0,
+    "verifierPreflightRepairs": 1
+  },
+  "limitations": [
+    "Complete observed article extent 86-89; selected source readings retain explicit glyph/whitespace/source uncertainty.",
+    "Five editorial key-label occurrence markers have unknown original bytes/counts; source punctuation, symbol order and the unclosed 2680 quote remain unchanged.",
+    "Original encoding/typesetting, quoted spaces, music glyph readings, source correctness, historical execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-23/recipe.json --output archive/scans/1984-11/packages/cunning-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-23/recipe.json --output work/validation/scans-1984-11-cunning-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-23/verify-review.py"
+  ],
+  "next": "R24: locate and restore 배고픈 거미 (maso-1984-11-toc-0009, TOC starting-page candidate 90). Verify actual source title, ownership, ending and typed structures before mapping a bounded batch of at most six new views. Preserve all completed November packages and source evidence. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild."
+}

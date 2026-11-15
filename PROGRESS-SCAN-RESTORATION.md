@@ -1106,3 +1106,56 @@ Next: **R23**, locate and restore 컨닝 from TOC starting-page candidate 86;
 verify the actual extent and source structures before mapping. Continue every
 remaining November identity, covers/source accounting and the checked whole-issue
 native export/rebuild.
+
+## R23 completed — 2026-11-15
+
+Restored complete 컨닝, actual 86–89, as a presentation-independent source
+package. The printed title is 컨 닝, the subtitle is 시력이 실력인 만큼,
+and the platform/byline are FC-100 / 편집부. Actual 85 ends 아기펭귄; actual
+90 opens 배고픈 거미. A separate bookstore advertisement below the program
+on 89 remains explicitly excluded from this article and preserved in its master
+for issue-level accounting.
+
+Four source paragraphs, nine variable definitions and twenty-nine program-range
+explanations retain independent identities. Both M definitions remain separate.
+One original BASIC context retains 223 numbered units and 253 physical rows.
+Its 223 DATA tokens comprise 112 character-definition values, one printed
+sentinel and 110 signed coordinate values in 55 source pairs. The 3170 value
+14 is physically split after 1; both fragments remain attached to one logical
+token. Eight printed joystick dispatch targets, the original loaders, score
+reference and key diagram retain typed source relationships.
+
+Five uncertain printed key-label occurrences retain editorial markers, visual
+candidates and null original bytes/counts. Twenty-four local uncertainties cover
+quoted spacing, MML letter/digit readings, faint annotations and screenshot
+labels. The dot-shaped punctuation at 1440, printed `= <` at 1460/2050, KY(I)
+at 1250, the missing closing quote at 2680 and the literal time claim remain
+unchanged. The original screenshot and editorial closing emblem are retained;
+boxed prose arrows, three student instances, observed labels and penalty marks
+have source links. No program, music, glyph or bitmap output was executed or
+generated.
+
+All 75 native files match a separate-process rebuild byte for byte. All eighteen
+crops match decoded-master pixels, and 21 invalid structural cases reject.
+Twenty-one earlier native packages and their private evidence, classifications,
+masters and shared plans remain exact. Rehashed R22 implementation/test pins and
+frozen logs support reuse of the 239-test baseline; those regressions were not
+rerun for this data-only restoration.
+
+One pre-OCR refinement widened four left crop edges. Sixteen OCR tasks completed
+without engine failure or retry, and no later geometry changes were needed.
+Both exports passed on their first attempts. An initial negative-test audit
+referenced an undeclared byte-key constant; the audit setup was corrected and
+the complete audit then passed. Cleanup ran in preview mode only. The batch
+freezes 206 private evidence files.
+
+November now has twelve complete article packages, no partial article, six
+non-owning headings and 22 unclassified identities. Original encoding/typesetting,
+source correctness, execution and human acceptance remain unverified.
+
+See the [컨닝 result](metadata/catalog/scan-restoration/1984-11-cunning.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R24**, locate and restore 배고픈 거미 from TOC starting-page candidate
+90. Verify the actual extent and source structures before mapping. Continue
+every remaining November identity, covers/source accounting and the checked
+whole-issue native export/rebuild.

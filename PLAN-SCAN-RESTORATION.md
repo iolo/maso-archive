@@ -271,16 +271,17 @@ restored JSON/assets and faithful source evidence first.
 | R20 — 아기펭귄 opening segment a | Actual 78–83; whole article remains partial | 133 identical native files; 28 variable definitions, 43 explanations, nine nested branches, two continued cells, three listing contexts and 61 scan-linked custom-glyph runs; 3240 remains open onto 84 |
 | R21 — 아기펭귄 continuation segment b | Actual 84–85; all source pages restored, assembly pending | 25 identical native files; 280 physical rows, 222 printed statements plus incoming 3240 fragment, 48 maze fields, eight GAME OVER groups, ten key assignments and 90 graphic/run occurrences; original 5460 END retained |
 | R22 — complete 아기펭귄 assembly | Actual 78–85; complete native article package | 167 identical native files; 456 logical BASIC units from 592 physical rows, both monitor contexts, 142 table cells, 151 graphic/run records, overlapping artwork placement and 22 resolved source relationships; 239 regression tests pass |
+| R23 — 컨닝 | Actual 86–89; complete native article package | 75 identical native files; 223 numbered units / 253 physical rows, 76 table cells, 223 DATA tokens including split 14, original screen/closing emblem, five uncertain key-label occurrences and literal source anomalies retained |
 
-Immediate next action: **R23**, locate and restore 컨닝,
-`maso-1984-11-toc-0008`, TOC starting-page candidate 86. Verify its actual title,
+Immediate next action: **R24**, locate and restore 배고픈 거미,
+`maso-1984-11-toc-0009`, TOC starting-page candidate 90. Verify its actual title,
 ownership and ending from the source images before selecting a bounded batch
-of at most six new mapped views. Preserve complete 아기펭귄 on actual 78–85
-and both immutable segments, including the same-unit 3240 join, all uncertain
-graphic runs, continued cells and original source relationships. Original segment
+of at most six new mapped views. Preserve complete 컨닝 on actual 86–89,
+complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
+3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has eleven complete article packages, no partial article, six non-owning
-headings and 23 unclassified entries. Complete Feature II on 40–58 retains three
+November now has twelve complete article packages, no partial article, six non-owning
+headings and 22 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

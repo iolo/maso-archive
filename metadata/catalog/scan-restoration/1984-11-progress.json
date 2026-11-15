@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 11,
+  "readable_articles": 12,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 23,
+  "identitiesAwaitingDisposition": 22,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -3954,10 +3954,133 @@
       "page_candidates": [
         86
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "컨 닝",
+      "observed_subtitle": "시력이 실력인 만큼",
+      "observed_byline": "편집부",
+      "observed_platform": "FC-100",
+      "observed_whole_extent": [
+        86,
+        89
+      ],
+      "source_views": [
+        {
+          "source_index": 89,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-086.jpg",
+            "sha256": "0df8192ffd75671fd3e183b2897134fcac56be05dc5643c582ec5907b825daae",
+            "bytes": 8530645
+          },
+          "width_px": 4728,
+          "height_px": 6901,
+          "reading_order": 88,
+          "source_filename_number": 86,
+          "printed_page": "86",
+          "image_to_upright_normalized": [
+            0.00021150592216582064,
+            0,
+            0,
+            0.00014490653528474135,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 90,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-087.jpg",
+            "sha256": "8129b9d591414c8cc9bf4bd1de478aa17bb1799f91730721c57a08b11752e9f5",
+            "bytes": 8194849
+          },
+          "width_px": 4737,
+          "height_px": 6910,
+          "reading_order": 89,
+          "source_filename_number": 87,
+          "printed_page": "87",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.0001447178002894356,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 91,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-088.jpg",
+            "sha256": "f8291a1ec843a7d0c7d6ac4e9cf21da8ebd41afc626be5ccc6aea3d6f7db173c",
+            "bytes": 7726817
+          },
+          "width_px": 4741,
+          "height_px": 6910,
+          "reading_order": 90,
+          "source_filename_number": 88,
+          "printed_page": "88",
+          "image_to_upright_normalized": [
+            0.0002109259649862898,
+            0,
+            0,
+            0.0001447178002894356,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 92,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-089.jpg",
+            "sha256": "504efeadb43cac83b3efa14cbded55a2c1659a22b11bc974cf598a3ff906d1be",
+            "bytes": 8548021
+          },
+          "width_px": 4738,
+          "height_px": 6913,
+          "reading_order": 91,
+          "source_filename_number": 89,
+          "printed_page": "89",
+          "image_to_upright_normalized": [
+            0.00021105951878429716,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/cunning-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/cunning-r01/manifest.json",
+          "sha256": "2ce8999c1d7951751d2d05f8b93fe94e7b42d52ac129e5b344a148c738f72d89",
+          "bytes": 12514
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-23/validation.json",
+          "sha256": "26642ffe3c3066f55047326a91d79386d2a6cca4bc0ff17ddb2b0ceab0de2c0c",
+          "bytes": 30196
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-23/validation.json",
+          "sha256": "26642ffe3c3066f55047326a91d79386d2a6cca4bc0ff17ddb2b0ceab0de2c0c",
+          "bytes": 30196
+        },
+        "finding_key": "structure",
+        "status": "Observed original 86-89 article extent and ending source 3220; independent advertisement and adjacent article boundaries retained."
+      },
+      "limitations": [
+        "Complete observed article extent 86-89; selected source readings retain explicit glyph/whitespace/source uncertainty.",
+        "Five editorial key-label occurrence markers have unknown original bytes/counts; source punctuation, symbol order and the unclosed 2680 quote remain unchanged.",
+        "Original encoding/typesetting, quoted spaces, music glyph readings, source correctness, historical execution and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0009",
@@ -4829,6 +4952,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R23: locate and restore 컨닝 (maso-1984-11-toc-0008, TOC starting-page candidate 86). Verify actual source title, ownership, ending and typed structures before selecting a bounded batch of at most six new mapped views. Preserve all complete November packages and immutable source segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R24: locate and restore 배고픈 거미 (maso-1984-11-toc-0009, TOC starting-page candidate 90). Verify actual source title, ownership, ending and typed structures before mapping a bounded batch of at most six new views. Preserve all completed November packages and source evidence. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }
