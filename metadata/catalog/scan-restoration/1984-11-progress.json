@@ -5438,11 +5438,11 @@
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-30/scope.json",
-          "sha256": "93ecae71c23dbc51675a1c8eae8d69e471976427a43213dd3086f80ff74f2c5e",
-          "bytes": 2044
+          "path": "archive/scans/1984-11/restoration/batch-31/scope.json",
+          "sha256": "cf9215758de3248d77102f2482235877ba57e9505d000b759c83641e1b4cef16",
+          "bytes": 1900
         },
-        "status": "Observed 140-153 extent located; opening 140-145 restored. LISZTER 146-153 and whole assembly pending."
+        "status": "Observed 140-153 extent located; source 140-151 restored in immutable segments a/b. Group 111 continues on 152; 152-153 and whole assembly pending."
       },
       "segments": [
         {
@@ -5598,32 +5598,181 @@
               "bytes": 72356
             }
           ]
+        },
+        {
+          "segment_id": "b",
+          "printed_folios": [
+            "146",
+            "147",
+            "148",
+            "149",
+            "150",
+            "151"
+          ],
+          "source_views": [
+            {
+              "source_index": 149,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-146.jpg",
+                "sha256": "3115828cb8a8a8c127165ef5cec1782ed20a5609259467208751a21f955fac13",
+                "bytes": 7554826
+              },
+              "width_px": 4752,
+              "height_px": 6921,
+              "reading_order": 148,
+              "source_filename_number": 146,
+              "printed_page": "146",
+              "image_to_upright_normalized": [
+                0.00021043771043771043,
+                0,
+                0,
+                0.00014448779078167894,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 150,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-147.jpg",
+                "sha256": "0319e8802c1aaa40cffe1b9e6a7e204de2b8232a0ee34d17da86123fb03ba91a",
+                "bytes": 7810720
+              },
+              "width_px": 4729,
+              "height_px": 6912,
+              "reading_order": 149,
+              "source_filename_number": 147,
+              "printed_page": "147",
+              "image_to_upright_normalized": [
+                0.00021146119687037428,
+                0,
+                0,
+                0.00014467592592592592,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 151,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-148.jpg",
+                "sha256": "82765a2cb9ea6e5840ac7136be1112693ec5ffe8807f3fcc6627fe7e7be8852d",
+                "bytes": 7500502
+              },
+              "width_px": 4726,
+              "height_px": 6923,
+              "reading_order": 150,
+              "source_filename_number": 148,
+              "printed_page": "148",
+              "image_to_upright_normalized": [
+                0.00021159542953872197,
+                0,
+                0,
+                0.0001444460494005489,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 152,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-149.jpg",
+                "sha256": "c33f77a923737ce8c5d6e82a15332e3c8f476361b3d80ecc67fa3d5a26a18e6c",
+                "bytes": 8097869
+              },
+              "width_px": 4731,
+              "height_px": 6907,
+              "reading_order": 151,
+              "source_filename_number": 149,
+              "printed_page": "149",
+              "image_to_upright_normalized": [
+                0.0002113718030014796,
+                0,
+                0,
+                0.00014478065730418415,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 153,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-150.jpg",
+                "sha256": "63a66f175028bef6e1577ba2796452d0d14c36db13cc38514e50d17a13a6e2a0",
+                "bytes": 7656148
+              },
+              "width_px": 4752,
+              "height_px": 6908,
+              "reading_order": 152,
+              "source_filename_number": 150,
+              "printed_page": "150",
+              "image_to_upright_normalized": [
+                0.00021043771043771043,
+                0,
+                0,
+                0.00014475969889982628,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 154,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-151.jpg",
+                "sha256": "936e2983b1754cdf34aba3a57d0cb6079690479edbaca3dc2e5c8f8ece4f131c",
+                "bytes": 7864287
+              },
+              "width_px": 4726,
+              "height_px": 6912,
+              "reading_order": 153,
+              "source_filename_number": 151,
+              "printed_page": "151",
+              "image_to_upright_normalized": [
+                0.00021159542953872197,
+                0,
+                0,
+                0.00014467592592592592,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/liszt-b-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/liszt-b-r01/manifest.json",
+              "sha256": "808144587f55b0127c39668c898c3e1fcbc3ceb75aba3ed7975745738e046e9f",
+              "bytes": 25998
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-31/validation.json",
+              "sha256": "ac04ca2163e14b18f3a52cb8bd4a8198774adfa57d04a292ae3246622d2171e1",
+              "bytes": 56018
+            }
+          ]
         }
       ],
       "continuation_pending": [
-        146,
-        147,
-        148,
-        149,
-        150,
-        151,
         152,
         153
       ],
       "assembly_pending": true,
       "pending_listing_continuation": {
         "listing_id": "liszter",
-        "last_printed_row": 9,
-        "logical_unit_complete": true,
-        "next_folio": 146,
-        "next_printed_row": 10,
-        "source_form": "Original formatted BASIC listing, including printed remark and continuation conventions."
+        "last_printed_row": 111,
+        "logical_unit_complete": false,
+        "next_folio": 152,
+        "next_printed_marker": "[111]",
+        "selected_tail_directive": "RETURN",
+        "source_form": "Original formatted BASIC group remains open because its source remark continues."
       },
       "limitations": [
-        "Opening source segment 140-145 only; LISZTER 146-153 and whole-article assembly pending.",
-        "Original formatter display retained without inventing executable BASIC separators, REM tokens or encoded whitespace.",
-        "Original syntax anomalies, source explanatory disagreement, missing visible quote and ink alternatives retained.",
-        "Original encoded bytes/typesetting, historical/program correctness, execution and human acceptance remain unverified."
+        "Middle source segment 146-151 only; 152-153 and whole 140-153 assembly remain pending.",
+        "Original formatter group 111 is incomplete at the boundary despite printed RETURN; its remark continues on 152.",
+        "Quoted blanks, display indentation and I/1 printer-control alternatives remain source-linked; no executable reconstruction, original encoded-byte or source-correctness claim.",
+        "Source reports/comments, including 80-column/LL=46 disagreement and printed comparison direction, remain literal. Historical execution and human acceptance remain unverified."
       ]
     },
     {
@@ -6072,6 +6221,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R31: restore actual 146-151 of 리스즈트 (maso-1984-11-toc-0018) as the original LISZTER formatted-listing continuation. Use the Korean canonical title 리스즈트; preserve opening segment a on 140-145 exactly. Source 145 ends printed group 9 and a CONTINUED notice; 146 begins group 10. Verify all printed numbers, unnumbered statements, repeated bracketed continuation numbers, comment groups, original whitespace/wrap underscores, DATA tokens, report headers and source relationships, with any outgoing group explicitly pending. Actual 152-153 and whole 140-153 assembly remain later tasks. Keep formatter output distinct from inferred executable BASIC; do not add REM/colon tokens or normalize printed anomalies. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R32: restore actual 152-153 of 리스즈트 (maso-1984-11-toc-0018) as the original final LISZTER formatted-listing segment. Source 151 has group 111 PRINT/RETURN, but the same group continues under [111] with its original remark on 152. Preserve the final source groups, variable-description comments, nested-loop example, original control-character display/uncertainties, report statistics/END, final original illustration and advertisement exclusion. Do not infer original control bytes, executable REM/colon tokens or program correctness from formatting. Preserve immutable segments a (140-145) and b (146-151). Then qualify assembly and independently rebuild the complete observed 140-153 native article, including same-group 111, nine bracketed internal joins, physical DATA fragments, original diagrams and every source relationship. Continue all remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }

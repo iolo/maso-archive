@@ -1,0 +1,862 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R31",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0018",
+  "title": "리스즈트",
+  "observed_title": "리스즈트",
+  "roman_title": "LISZT",
+  "outcome": "Verified reproducible native middle segment 146-151: 102 original LISZTER formatter groups / 480 physical rows, nine bracketed repeated-number continuations, 107 source-owned DATA strings, report pages 2-13, remarks, initializers, control/POKE/prompt relationships and explicit incomplete outgoing group 111.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-146.jpg",
+      "sha256": "3115828cb8a8a8c127165ef5cec1782ed20a5609259467208751a21f955fac13",
+      "bytes": 7554826
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-147.jpg",
+      "sha256": "0319e8802c1aaa40cffe1b9e6a7e204de2b8232a0ee34d17da86123fb03ba91a",
+      "bytes": 7810720
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-148.jpg",
+      "sha256": "82765a2cb9ea6e5840ac7136be1112693ec5ffe8807f3fcc6627fe7e7be8852d",
+      "bytes": 7500502
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-149.jpg",
+      "sha256": "c33f77a923737ce8c5d6e82a15332e3c8f476361b3d80ecc67fa3d5a26a18e6c",
+      "bytes": 8097869
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-150.jpg",
+      "sha256": "63a66f175028bef6e1577ba2796452d0d14c36db13cc38514e50d17a13a6e2a0",
+      "bytes": 7656148
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-151.jpg",
+      "sha256": "936e2983b1754cdf34aba3a57d0cb6079690479edbaca3dc2e5c8f8ece4f131c",
+      "bytes": 7864287
+    }
+  ],
+  "printed_folios": [
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151"
+  ],
+  "observed_whole_extent": [
+    140,
+    153
+  ],
+  "restored_segment_extent": [
+    146,
+    151
+  ],
+  "segment_id": "b",
+  "pending_folios": [
+    152,
+    153
+  ],
+  "assembly_pending": true,
+  "outgoing_group": {
+    "listing_id": "liszter",
+    "printed_line": 111,
+    "complete": false,
+    "next_folio": 152,
+    "next_printed_marker": "[111]"
+  },
+  "previous_segment_catalog": {
+    "path": "metadata/catalog/scan-restoration/1984-11-liszt-a.json",
+    "sha256": "11c9739540c5dde6578c6751a596697f1e5ed8416ca7bd5c5681b7b05c407106",
+    "bytes": 31164
+  },
+  "selected_package": "archive/scans/1984-11/packages/liszt-b-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/liszt-b-r01/manifest.json",
+    "sha256": "808144587f55b0127c39668c898c3e1fcbc3ceb75aba3ed7975745738e046e9f",
+    "bytes": 25998
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-31/validation.json",
+    "sha256": "ac04ca2163e14b18f3a52cb8bd4a8198774adfa57d04a292ae3246622d2171e1",
+    "bytes": 56018
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-31/evidence-manifest.json",
+    "sha256": "4011006a05b306164b046f047aa844033dd9049968c418df5d073ea9ab6093c2",
+    "bytes": 84516
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-31/scope.json",
+    "sha256": "cf9215758de3248d77102f2482235877ba57e9505d000b759c83641e1b4cef16",
+    "bytes": 1900
+  },
+  "summary": {
+    "sourceImages": 6,
+    "regions": 36,
+    "blocks": 36,
+    "figures": 0,
+    "ocrTasks": 36,
+    "listingContexts": 1,
+    "logicalGroups": 102,
+    "physicalRows": 480,
+    "physicalFields": 591,
+    "sourceTokens": 2896,
+    "sourceLiterals": 630,
+    "bracketedContinuations": 9,
+    "formatterPages": 12,
+    "dataGroups": 5,
+    "dataStrings": 107,
+    "sourceRemarkGroups": 57,
+    "sourceRemarkRows": 165,
+    "wrapMarkers": 13,
+    "controlTargets": 54,
+    "pokeExpressions": 14,
+    "initializations": 26,
+    "inputPrompts": 10,
+    "commentReferences": 4,
+    "localUncertainties": 43,
+    "outgoingGroup": 111,
+    "outgoingComplete": false,
+    "nativeFiles": 153,
+    "negativeCases": 43,
+    "ocrSeconds": 11.787199457008683
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p146-left-header",
+      "source_index": 149,
+      "pixel_bounds": [
+        927,
+        792,
+        1360,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-146/p146-left-header.png",
+        "sha256": "f984435b35d40820fcb7a4091d8effa9514222e7238d2e64986997f8b9b92095",
+        "bytes": 230703
+      }
+    },
+    {
+      "region_id": "p146-left-listing",
+      "source_index": 149,
+      "pixel_bounds": [
+        515,
+        1320,
+        1896,
+        5304
+      ],
+      "scan": {
+        "path": "ocr-146/p146-left-listing.png",
+        "sha256": "b89a39ff76687ac30ff0df6833e9ebd54eb23cf182456b16484e71782f99a729",
+        "bytes": 6797906
+      }
+    },
+    {
+      "region_id": "p146-left-continued",
+      "source_index": 149,
+      "pixel_bounds": [
+        659,
+        5364,
+        1051,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-146/p146-left-continued.png",
+        "sha256": "a3314566b748fd6888bb384b31e535f7e5db44404f728de6fc1c0d1938e50a1c",
+        "bytes": 97418
+      }
+    },
+    {
+      "region_id": "p146-right-header",
+      "source_index": 149,
+      "pixel_bounds": [
+        2706,
+        792,
+        3140,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-146/p146-right-header.png",
+        "sha256": "9ef94e96e0d5f1f63988b1d61efc21a04f59cfb6de565cbccc0f856f9285d323",
+        "bytes": 226842
+      }
+    },
+    {
+      "region_id": "p146-right-listing",
+      "source_index": 149,
+      "pixel_bounds": [
+        2233,
+        1224,
+        3634,
+        5304
+      ],
+      "scan": {
+        "path": "ocr-146/p146-right-listing.png",
+        "sha256": "03b1010754778d02dc762537f018b3c0e1421b6dc7d03693a46e4b9a50d4e51c",
+        "bytes": 6909710
+      }
+    },
+    {
+      "region_id": "p146-right-continued",
+      "source_index": 149,
+      "pixel_bounds": [
+        2439,
+        5364,
+        2852,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-146/p146-right-continued.png",
+        "sha256": "a724b1fae7c9e126a03dd1e21cf9f9cb72f5101d50a1ec7be951821a6c652ad7",
+        "bytes": 96569
+      }
+    },
+    {
+      "region_id": "p147-left-header",
+      "source_index": 150,
+      "pixel_bounds": [
+        923,
+        792,
+        1355,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-147/p147-left-header.png",
+        "sha256": "497d62e461495b8bbb87f838cde0e72e038422eb213d24669d86174e360353da",
+        "bytes": 232793
+      }
+    },
+    {
+      "region_id": "p147-left-listing",
+      "source_index": 150,
+      "pixel_bounds": [
+        476,
+        1224,
+        1881,
+        5346
+      ],
+      "scan": {
+        "path": "ocr-147/p147-left-listing.png",
+        "sha256": "71d7472662e2ee1d8dce3ff04b65dcd3d08d39bc465c9b2beba1db4d50c04979",
+        "bytes": 6994340
+      }
+    },
+    {
+      "region_id": "p147-left-continued",
+      "source_index": 150,
+      "pixel_bounds": [
+        656,
+        5364,
+        1047,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-147/p147-left-continued.png",
+        "sha256": "fce1035a9a653874b5beccf5e22b04544c160551373a3af2f17254e5343d37e3",
+        "bytes": 93153
+      }
+    },
+    {
+      "region_id": "p147-right-header",
+      "source_index": 150,
+      "pixel_bounds": [
+        2696,
+        792,
+        3129,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-147/p147-right-header.png",
+        "sha256": "640a01cd9f9b8902ec0835736bebaada3a87b0ea899d2fb9029ad7b1250297bd",
+        "bytes": 243217
+      }
+    },
+    {
+      "region_id": "p147-right-listing",
+      "source_index": 150,
+      "pixel_bounds": [
+        2229,
+        1254,
+        3621,
+        5298
+      ],
+      "scan": {
+        "path": "ocr-147/p147-right-listing.png",
+        "sha256": "b022080c8b6b2e5f7515c708f81657aa59d3591a55cdc53c9b69040ba2d5c422",
+        "bytes": 7006268
+      }
+    },
+    {
+      "region_id": "p147-right-continued",
+      "source_index": 150,
+      "pixel_bounds": [
+        2430,
+        5364,
+        2841,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-147/p147-right-continued.png",
+        "sha256": "aaacd69a533bf3b37804a7f5b124832be24b9f273764f7aa872466a03f9c0bb5",
+        "bytes": 99509
+      }
+    },
+    {
+      "region_id": "p148-left-header",
+      "source_index": 151,
+      "pixel_bounds": [
+        921,
+        792,
+        1352,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-148/p148-left-header.png",
+        "sha256": "94cddee3ac0fc49f463c0f3d352c3b54b6d3b3f9c5dac5e804db9d54a77e83fe",
+        "bytes": 233801
+      }
+    },
+    {
+      "region_id": "p148-left-listing",
+      "source_index": 151,
+      "pixel_bounds": [
+        536,
+        1224,
+        1856,
+        5352
+      ],
+      "scan": {
+        "path": "ocr-148/p148-left-listing.png",
+        "sha256": "b4fd46a86be861780be7b5c31e25a021f13357b06769e0ecaa6cc686a759e41e",
+        "bytes": 6575657
+      }
+    },
+    {
+      "region_id": "p148-left-continued",
+      "source_index": 151,
+      "pixel_bounds": [
+        655,
+        5364,
+        1045,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-148/p148-left-continued.png",
+        "sha256": "34c10bceee85ce7d073581b987b455f2d702f2abe8e7aaa843fe7bc1d5d1f067",
+        "bytes": 96249
+      }
+    },
+    {
+      "region_id": "p148-right-header",
+      "source_index": 151,
+      "pixel_bounds": [
+        2691,
+        792,
+        3122,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-148/p148-right-header.png",
+        "sha256": "84333e962f9c1803bfdefb7299a0bf91d82f913fbebdf2e3d5825bad950e7045",
+        "bytes": 225041
+      }
+    },
+    {
+      "region_id": "p148-right-listing",
+      "source_index": 151,
+      "pixel_bounds": [
+        2224,
+        1224,
+        3584,
+        5352
+      ],
+      "scan": {
+        "path": "ocr-148/p148-right-listing.png",
+        "sha256": "693e029204b772499b7f8c02337b7540df727fe25f3e54916460c3f339ea9a1f",
+        "bytes": 6658326
+      }
+    },
+    {
+      "region_id": "p148-right-continued",
+      "source_index": 151,
+      "pixel_bounds": [
+        2424,
+        5364,
+        2835,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-148/p148-right-continued.png",
+        "sha256": "5d9631814744a8c3838ff89fde445d2393eab4245118baebf6acf480d448f0ca",
+        "bytes": 96288
+      }
+    },
+    {
+      "region_id": "p149-left-header",
+      "source_index": 152,
+      "pixel_bounds": [
+        924,
+        792,
+        1357,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-149/p149-left-header.png",
+        "sha256": "c177c1cd08a3899b179ea952c89dbc3805fa38256a8fc9f02ef90a22e8fc11f4",
+        "bytes": 238870
+      }
+    },
+    {
+      "region_id": "p149-left-listing",
+      "source_index": 152,
+      "pixel_bounds": [
+        509,
+        1260,
+        1895,
+        5352
+      ],
+      "scan": {
+        "path": "ocr-149/p149-left-listing.png",
+        "sha256": "906d590a0266b7bf3f0ed832fd72251abbd96c92e65521fa21b52935865e0462",
+        "bytes": 7282680
+      }
+    },
+    {
+      "region_id": "p149-left-continued",
+      "source_index": 152,
+      "pixel_bounds": [
+        657,
+        5364,
+        1049,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-149/p149-left-continued.png",
+        "sha256": "a86bac6aa155d74cbb06b86d87e2bbe770c3a8a7b699a9b70eb8605c83bd48ac",
+        "bytes": 94528
+      }
+    },
+    {
+      "region_id": "p149-right-header",
+      "source_index": 152,
+      "pixel_bounds": [
+        2700,
+        792,
+        3132,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-149/p149-right-header.png",
+        "sha256": "f6fb7841abc3a494d35be5114b810c3411e7d427827c2312998c207f642daac3",
+        "bytes": 241114
+      }
+    },
+    {
+      "region_id": "p149-right-listing",
+      "source_index": 152,
+      "pixel_bounds": [
+        2239,
+        1278,
+        3650,
+        5352
+      ],
+      "scan": {
+        "path": "ocr-149/p149-right-listing.png",
+        "sha256": "fa6d75106f821855d770f9e28a904ec4975a78d9883bae2fe5cb2ef4964a7de9",
+        "bytes": 7121517
+      }
+    },
+    {
+      "region_id": "p149-right-continued",
+      "source_index": 152,
+      "pixel_bounds": [
+        2433,
+        5364,
+        2845,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-149/p149-right-continued.png",
+        "sha256": "497ac42d86449c0f9daa8ae39bebe7f8bea85acb10bb7a745961526075002376",
+        "bytes": 100817
+      }
+    },
+    {
+      "region_id": "p150-left-header",
+      "source_index": 153,
+      "pixel_bounds": [
+        928,
+        792,
+        1362,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-150/p150-left-header.png",
+        "sha256": "d236bcab42d967211680a4981f94454b5824a9f23d64c964bc1fcde88c6f926b",
+        "bytes": 237351
+      }
+    },
+    {
+      "region_id": "p150-left-listing",
+      "source_index": 153,
+      "pixel_bounds": [
+        511,
+        1332,
+        1858,
+        5370
+      ],
+      "scan": {
+        "path": "ocr-150/p150-left-listing.png",
+        "sha256": "7aad1a3558425e8cbebec7f2ac03221ca9cc87421c08a621e3a74fa3f5ff9aa0",
+        "bytes": 6610903
+      }
+    },
+    {
+      "region_id": "p150-left-continued",
+      "source_index": 153,
+      "pixel_bounds": [
+        660,
+        5364,
+        1053,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-150/p150-left-continued.png",
+        "sha256": "87816774e9e1ceb312ab87d127a0f779e2087b4c5336cb76f45fa7eb95a3a34e",
+        "bytes": 93694
+      }
+    },
+    {
+      "region_id": "p150-right-header",
+      "source_index": 153,
+      "pixel_bounds": [
+        2711,
+        792,
+        3145,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-150/p150-right-header.png",
+        "sha256": "f1663f0766b29a93447a0f0ae4e6e3e62be7f8088139b646edc25f812b41ad63",
+        "bytes": 226568
+      }
+    },
+    {
+      "region_id": "p150-right-listing",
+      "source_index": 153,
+      "pixel_bounds": [
+        2228,
+        1254,
+        3653,
+        5340
+      ],
+      "scan": {
+        "path": "ocr-150/p150-right-listing.png",
+        "sha256": "9fb2c88d92c7d91c07be6681212b900faa78af739d8eadc358f7b87121d0c325",
+        "bytes": 7337773
+      }
+    },
+    {
+      "region_id": "p150-right-continued",
+      "source_index": 153,
+      "pixel_bounds": [
+        2443,
+        5364,
+        2856,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-150/p150-right-continued.png",
+        "sha256": "d3fcf9e3e6035d6d23ef6d1a429aa4b5c30fe2311eb12ce30b427eb2cb1084a2",
+        "bytes": 90093
+      }
+    },
+    {
+      "region_id": "p151-left-header",
+      "source_index": 154,
+      "pixel_bounds": [
+        922,
+        792,
+        1354,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-151/p151-left-header.png",
+        "sha256": "4f78149dc19c8f62224be6031b322b6f987b4de1a740c31db9b666e542fb133d",
+        "bytes": 238910
+      }
+    },
+    {
+      "region_id": "p151-left-listing",
+      "source_index": 154,
+      "pixel_bounds": [
+        475,
+        1272,
+        1855,
+        5400
+      ],
+      "scan": {
+        "path": "ocr-151/p151-left-listing.png",
+        "sha256": "5adf2d8e129ff5b065b210e1e7a0a40cd980e26e175acb116d5d656cac0c1d7d",
+        "bytes": 7193684
+      }
+    },
+    {
+      "region_id": "p151-left-continued",
+      "source_index": 154,
+      "pixel_bounds": [
+        656,
+        5364,
+        1047,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-151/p151-left-continued.png",
+        "sha256": "d602ead6f5e409fcbd731d956a1a94521f7dfa71a536a7a66f01de8b8de5717e",
+        "bytes": 90146
+      }
+    },
+    {
+      "region_id": "p151-right-header",
+      "source_index": 154,
+      "pixel_bounds": [
+        2695,
+        792,
+        3126,
+        1224
+      ],
+      "scan": {
+        "path": "ocr-151/p151-right-header.png",
+        "sha256": "9ff0137fc334fd7902a69d77b8a1ac5498066da00a0f4701062be6ea5997fd83",
+        "bytes": 235161
+      }
+    },
+    {
+      "region_id": "p151-right-listing",
+      "source_index": 154,
+      "pixel_bounds": [
+        2215,
+        1266,
+        3643,
+        5400
+      ],
+      "scan": {
+        "path": "ocr-151/p151-right-listing.png",
+        "sha256": "3c8bc1b19920ec3ba1f25c2ef432a7f076b983e1f42db81016d74394ac94bcef",
+        "bytes": 7293511
+      }
+    },
+    {
+      "region_id": "p151-right-continued",
+      "source_index": 154,
+      "pixel_bounds": [
+        2428,
+        5364,
+        2839,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-151/p151-right-continued.png",
+        "sha256": "46f6649f0c8fb32eeb46c0281e8b6d97ea48684193ea0e396d12a424fdc42714",
+        "bytes": 95074
+      }
+    }
+  ],
+  "previousCheckpointCommit": "099c334169a17741fd24e94ea6b6d496bda5a9a2",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "0ab58e312ea3ddc012c8ccd756323621b4952761f6cde4002dd634e116f3e10a",
+      "bytes": 213135
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "4879f926b7c30e67066809d0bf042f324374c8e1c1e8c5280139ce864671b7ed",
+      "bytes": 19774
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "ebbe91142e36073a0210e6987a17de537c8dfa82660dea5e915c7bdfc91e9ed5",
+      "bytes": 23259
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "7366545d7eb3eb7e9774185702a94ec2e1aa2ca9c55fff3937ca8aeff57c2b16",
+      "bytes": 37022
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionBaseline": {
+    "checkpoint": "R27",
+    "regressionTests": {
+      "pdf": 214,
+      "jpegRecognitionAndAssembly": 28,
+      "total": 242
+    },
+    "logs": [
+      {
+        "path": "archive/scans/1984-11/restoration/batch-27/pdf-final-regressions-05.log",
+        "sha256": "a5a9d670e480f990a9cb3ec3b82b3e6669b34111cd766d2ac3a44e6a50db3e0d",
+        "bytes": 36395
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-27/jpeg-final-regressions-04.log",
+        "sha256": "b0920747fe1af82a370f9233396464366f9162eb050c3dd70861ef3c103d62ea",
+        "bytes": 5426
+      }
+    ],
+    "reused": true,
+    "reason": "Data-only article restoration; every shared implementation/test/schema pin and frozen passing test log rehashed unchanged. No regression rerun claimed."
+  },
+  "attempts": {
+    "successfulOcrTasks": 36,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "coordinatorSession": 16555,
+    "coordinatorExitCode": 143,
+    "retainedCompleteFolios": [
+      146,
+      147
+    ],
+    "successfulTasksReused": 12,
+    "unstartedPageRuns": 4,
+    "successfulRecognitionRepeated": 0,
+    "emptyDraftRegions": [
+      "p151-right-continued"
+    ],
+    "retainedBundleValidationExpressionRepairs": 1,
+    "mapPreparationRuns": 2,
+    "mapValidationFailures": 0,
+    "preOcrGeometryRefinements": 1,
+    "postOcrMapChanges": 0,
+    "sourceTranscriptionVersions": 2,
+    "sourceParserPreparationRuns": 2,
+    "sourceParserPreparationFailures": 1,
+    "nativePreparationRuns": 1,
+    "nativeExportRuns": 1,
+    "independentRebuildRuns": 1,
+    "structurePreflightFailures": 0,
+    "fullAuditRuns": 1,
+    "fullAuditFailures": 0,
+    "note": "One pre-OCR geometry refinement widened report-header bottoms. Original two-worker coordinator terminated with exit 143 after pages 146/147 had complete evidence/timing bundles; no worker remained. Every retained raw/crop/map pin was verified, and four unstarted pages completed separately with exit 0. The first retained-bundle validation expression compared different path namespaces; corrected hash comparison passed without changing evidence. No successful recognition was repeated. Source transcription restored the visible GRAFTRAX hyphen before native export. Parser preparation 01 detected a quoted multiplication asterisk misclassified as a remark; quote-aware row ownership preserves all 107 DATA strings and their original physical fragments. Final source preparation, first native export/rebuild, first structural preflight and first full audit pass. No source program execution or fresh regression run."
+  },
+  "limitations": [
+    "Middle source segment 146-151 only; 152-153 and whole 140-153 assembly remain pending.",
+    "Original formatter group 111 is incomplete at the boundary despite printed RETURN; its remark continues on 152.",
+    "Quoted blanks, display indentation and I/1 printer-control alternatives remain source-linked; no executable reconstruction, original encoded-byte or source-correctness claim.",
+    "Source reports/comments, including 80-column/LL=46 disagreement and printed comparison direction, remain literal. Historical execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-31/recipe.json --output archive/scans/1984-11/packages/liszt-b-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-31/recipe.json --output work/validation/scans-1984-11-liszt-b-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-31/verify-review.py"
+  ],
+  "next": "R32: restore actual 152-153 of 리스즈트 (maso-1984-11-toc-0018) as the original final LISZTER formatted-listing segment. Source 151 has group 111 PRINT/RETURN, but the same group continues under [111] with its original remark on 152. Preserve the final source groups, variable-description comments, nested-loop example, original control-character display/uncertainties, report statistics/END, final original illustration and advertisement exclusion. Do not infer original control bytes, executable REM/colon tokens or program correctness from formatting. Preserve immutable segments a (140-145) and b (146-151). Then qualify assembly and independently rebuild the complete observed 140-153 native article, including same-group 111, nine bracketed internal joins, physical DATA fragments, original diagrams and every source relationship. Continue all remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild."
+}

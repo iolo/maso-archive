@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R30 are complete; the active goal is to restore all November 1984 articles.
+R00–R31 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -279,15 +279,17 @@ restored JSON/assets and faithful source evidence first.
 | R28 — 깡통이 통-통-통 | Actual 102–104; complete native article package | 72 identical native files; 119 BASIC rows, 75 table cells including a continued definition, eight paired grids / 1,536 observed cells, sixteen DATA groups / 192 fields, original illustration/screen/emblem and explicit prose/listing mismatch; four local uncertainties |
 | R29 — 수학을 통한 논리학습 | Actual 110–115; complete native article package | 211 identical native files; 76 mathematical trees, forty exercise items, four independent listings / 240 logical units / 245 physical rows, 96 explanation cells and two original area diagrams; 37 invalid structural cases rejected |
 | R30 — 리스즈트 opening segment a | Actual 140–145; whole article remains partial | 216 identical native files; five usage steps, nine properties, 27 numbered formatter groups / 67 physical rows, original memory layout / eight slots and flowchart / seventeen nodes / 27 connectors; 146–153 and assembly pending |
+| R31 — 리스즈트 middle segment b | Actual 146–151; whole article remains partial | 153 identical native files; 102 LISZTER groups / 480 physical rows, nine bracketed continuations, 107 DATA strings, twelve report pages and typed source relationships; group 111, 152–153 and assembly pending |
 
-Immediate next action: **R31**, restore actual 146–151 of 리스즈트,
-`maso-1984-11-toc-0018`, as the original LISZTER formatted-listing continuation.
-The source confirms the received title and whole extent 140–153. Preserve opening
-segment a on 140–145 exactly. Its group 9 ends before the original CONTINUED
-notice; 146 resumes at group 10. Verify numbered groups, unnumbered statements,
-bracketed continuation numbers, comments, DATA, wrap marks, headers and any
-outgoing partial group. Actual 152–153 and whole-article assembly remain later
-tasks. Preserve source formatter output without inventing executable REM/colon
+Immediate next action: **R32**, restore final actual 152–153 of 리스즈트,
+`maso-1984-11-toc-0018`. Preserve immutable segments a on 140–145 and b on
+146–151. Group 111 has PRINT/RETURN on 151 but its remark continues under
+`[111]` on 152; retain that same-group boundary explicitly. Verify all final
+groups, variable-description comments, nested-loop example, original control-glyph
+display, report statistics/END, original illustration and advertisement exclusion.
+Then qualify assembly and independently rebuild the complete observed 140–153
+article with all source relationships and both prior segments unchanged.
+Preserve source formatter output without inventing control bytes or executable REM/colon
 tokens or normalizing printed anomalies. Preserve complete 수학을 통한 논리학습 on actual 110–115,
 including fraction/root grouping, long-division notation, repeated exercise terms,
 four independent source programs and local uncertainty. Preserve complete
