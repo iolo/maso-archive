@@ -268,14 +268,18 @@ restored JSON/assets and faithful source evidence first.
 | R17 — 개구리 | Actual 66–69; complete native article package | 78 identical native files; 314 physical rows/284 logical units, 473 DATA tokens, 68 explanatory table cells and original screenshot relationships; twelve local uncertainties retained |
 | R18 — 3차원 우주전쟁 | Actual 70–74; complete native article package | 70 identical native files; 418 physical rows/403 logical units, 118 DATA positions including eight blanks, 22 sprite-data groups and thirty explanatory cells; original editorial illustration retained |
 | R19 — 미로II | Actual 75–77; complete native article package | 70 identical native files; 142 physical rows/83 sparse logical units, 112 explanatory cells, literal 109/46-character hex strings and five coordinate DATA groups; original screenshot relationships and eight local uncertainties retained |
+| R20 — 아기펭귄 opening segment a | Actual 78–83; whole article remains partial | 133 identical native files; 28 variable definitions, 43 explanations, nine nested branches, two continued cells, three listing contexts and 61 scan-linked custom-glyph runs; 3240 remains open onto 84 |
 
-Immediate next action: **R20**, locate and restore 아기펭귄,
-`maso-1984-11-toc-0007`, with catalog page candidate 78. Check the actual title,
-body ownership and ending before mapping at most six new source views; retain
-explicit continuation if the article exceeds one batch. Neighboring TOC references
-do not establish its extent. November now has ten complete
-article packages, no partial article, six non-owning headings and 24 unclassified
-entries. Complete Feature II on 40–58 retains three unified program identities,
+Immediate next action: **R21**, restore actual 84–85 of 아기펭귄,
+`maso-1984-11-toc-0007`, as an explicit continuation segment. The whole observed
+extent is 78–85; 86 opens 컨닝. The top of 84 continues the same 3240 ON CH GOTO
+unit with `, 3420` before the next numbered 3250 statement. Preserve this physical
+join and restore the remaining custom glyph/data relationships before a separate
+whole-article assembly and independent native rebuild. Check assembly support for
+the same-unit continuation and sparse BASIC numbers before first use.
+November now has ten complete article packages, one partial article, six non-owning
+headings and 23 unclassified entries. Complete Feature II on 40–58 retains three
+unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
 JPEG assembly is now integrated and checked; use the same source/structure and

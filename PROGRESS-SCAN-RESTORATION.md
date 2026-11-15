@@ -4,13 +4,15 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R19 complete: ten November 1984 articles have complete reproducible
+**R00–R20 checkpoints complete: ten November 1984 articles have complete reproducible
 JSON/assets packages, including Feature I on actual 18–39, Feature II on 40–58,
 개구리 on 66–69, 3차원 우주전쟁 on 70–74 and 미로II on 75–77. Both features retain their
 immutable original segments.
+아기펭귄 has a verified opening segment on 78–83; 84–85 and whole-article
+assembly remain pending, so this article stays partial.
 Six section headings have source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Twenty-four canonical identities await disposition. The 24 cleaned source sets
+Twenty-three canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -48,6 +50,7 @@ labels and the preserved exports retain their existing values.
 | R17 — 개구리 | Passed | Actual 66–69; 78 identical files, one 284-unit BASIC program, 68 table cells and original screenshot relationships; twelve local uncertainties retained |
 | R18 — 3차원 우주전쟁 | Passed | Actual 70–74; 70 identical files, one 403-unit BASIC program, thirty table cells, original editorial illustration and typed music/sprite DATA groups; 23 local uncertainties retained |
 | R19 — 미로II | Passed | Actual 75–77; 70 identical files, 83 sparse BASIC units, 112 table cells, literal hex and coordinate DATA groups, and original screenshot relationships; eight local uncertainties retained |
+| R20 — 아기펭귄 opening segment a | Passed; whole article partial | Actual 78–83; 133 identical files, 142 table cells, nine nested branches, 88 monitor rows/700 byte fields, 234 BASIC units and 61 scan-linked custom-glyph runs; 3240 continues on 84 |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -884,3 +887,77 @@ Next: **R20**, locate and restore 아기펭귄 (catalog page candidate 78), chec
 actual boundaries and retaining explicit continuation if more than six new source
 views are needed. Continue every remaining November identity, source-image/covers
 accounting and checked whole-issue native export/rebuild.
+
+## R20 completed — 2026-11-15
+
+Restored the opening segment of 아기펭귄 on actual 78–83, credited to
+원성욱/김경헌 for SPC-1000. The observed title is 아기 펭귄. All eight article
+pages were inspected to establish the actual 78–85 extent; actual 86 opens
+컨닝. The article remains partial until 84–85 are restored and assembled.
+
+Two explanatory tables preserve 28 variable definitions and 43 program-range
+explanations, with 142 cells. The nine ON/GOTO key branches continue across the
+79/80 page boundary. The 3670–3760 description continues from 80's left column
+into its right column. Both description cells retain their separate physical
+source fragments. Repeated SY definitions and independent O/zero forms in the
+prose/table/listing remain literal. Future listing references point explicitly
+to unrestored 84–85 rather than claiming complete segment coverage.
+
+Three original listing identities remain separate. List 1 retains 26 address
+rows and its four-byte final row. List 2 retains 62 address rows across two
+panels, including every printed zero row. Together they preserve 700 byte-field
+readings; faint source fields retain local alternatives and original-master
+detail evidence. No binary, disassembly, music or shape rendering was generated.
+
+List 3 BASIC retains 312 physical rows, including three visual blank separators,
+and 234 numbered source units. Nine split tokens preserve physical fragments,
+including 4920, THEN, GOSUB and -32. A numeric wrap beginning with 2 remains
+part of 2850. Sixty-one distinct editorial custom-glyph run markers retain scan
+links with null original bytes and counts. These markers identify source
+occurrences and are not literal original code or evidence of executable bytes.
+Eight title DATA groups retain their graphic strings, 32 numeric parameters
+and pending loader relationships. Twelve information DATA strings retain their
+source order and loader references.
+
+The final 3240 ON CH GOTO fragment stays explicitly open: `, 3420` at the top of
+84 continues it before numbered 3250. No terminal directive or complete logical
+unit is invented at the segment boundary. The remaining source ends at 5460 END
+on 85; that ending is location evidence, not a restored part of this segment.
+
+The original penguin illustration remains one figure with two overlapping crops
+and original source-coordinate placement. Its tagline, the original game screen,
+status labels/values and the independent clock/conductor illustration retain
+separate identities and relationships. Thirty-three local source uncertainties
+cover faint byte glyphs, punctuation, stylized wording, screenshot labels,
+O/zero readings and quoted whitespace, separately from the 61 graphic markers.
+
+All 133 selected native files match a separate-process rebuild byte for byte.
+All 34 source crops match decoded-master pixels; 28 invalid structural cases
+reject. The first successful independent audit was followed by stronger source
+placement and null glyph-byte/count probes; both audits passed and native files
+remained unchanged. All eighteen earlier packages and private evidence,
+classifications, masters, implementation and shared plans remain exact. The
+unchanged pins and frozen R16 logs support reuse of the 232-test baseline;
+those regressions were not rerun for this data-only segment.
+
+One initial map validation rejected a segment suffix in the canonical article
+ID; the canonical identity was restored before map creation/OCR. One pre-OCR
+refinement widened three regions. Thirty OCR tasks then finished without engine
+failure or retry and without later geometry changes. An OCR audit assumption
+about the existing map-hash contract and one typed-branch lookup's omitted
+source space were corrected before verification/native publication. The initial
+failures and successful outcomes are retained. Both exports passed on their
+first attempts. Cleanup ran in preview mode only. The batch freezes 362 private
+evidence files.
+
+November now has ten complete articles, one partial article, six non-owning
+headings and 23 unclassified identities. Original encoding/typesetting, source
+correctness, execution and human acceptance remain unverified.
+
+See the [아기펭귄 segment result](metadata/catalog/scan-restoration/1984-11-baby-penguin-a.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R21**, restore actual 84–85, including the incoming 3240 fragment, then
+assemble and independently rebuild the complete eight-page article. Verify
+assembly support for this same-unit continuation and sparse BASIC numbering
+before use. Continue all remaining November identities, covers/source accounting
+and the checked whole-issue native export/rebuild.

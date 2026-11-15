@@ -6,8 +6,8 @@
   "source_type": "jpeg-set",
   "canonical_identities": 40,
   "readable_articles": 10,
-  "partial_articles": 0,
-  "identitiesAwaitingDisposition": 24,
+  "partial_articles": 1,
+  "identitiesAwaitingDisposition": 23,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -2893,10 +2893,200 @@
       "page_candidates": [
         78
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "observed_title": "아기 펭귄",
+      "observed_byline": "원성욱/김경헌",
+      "observed_platform": "SPC-1000",
+      "observed_whole_extent": [
+        78,
+        85
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-20/review/article-boundaries.json",
+          "sha256": "0e144fde2348a5d1bb7a356b1efae7b576f4d5a9d9f9cef940e6f1b3c6f2a127",
+          "bytes": 3049
+        },
+        "status": "Full observed 78-85 extent located; 78-83 restored, 84-85 pending."
+      },
+      "segments": [
+        {
+          "segment_id": "a",
+          "printed_folios": [
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83"
+          ],
+          "source_views": [
+            {
+              "source_index": 81,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-078.jpg",
+                "sha256": "8bc288aea23ac5d997ffb7f04f61c565844e995d80ef901e5713ec8d7be71b42",
+                "bytes": 8347257
+              },
+              "width_px": 4736,
+              "height_px": 6916,
+              "reading_order": 80,
+              "source_filename_number": 78,
+              "printed_page": "78",
+              "image_to_upright_normalized": [
+                0.00021114864864864866,
+                0,
+                0,
+                0.00014459224985540774,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 82,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-079.jpg",
+                "sha256": "c00b23a1be983589870a169c6f572a98487fd0ef03d62aff3d139b0d16322fb8",
+                "bytes": 8368746
+              },
+              "width_px": 4735,
+              "height_px": 6902,
+              "reading_order": 81,
+              "source_filename_number": 79,
+              "printed_page": "79",
+              "image_to_upright_normalized": [
+                0.00021119324181626187,
+                0,
+                0,
+                0.0001448855404230658,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 83,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-080.jpg",
+                "sha256": "261fa7f4d198004fc0870bcd90a2bd0d4fa2a6496d3f2d20fdf103bb6bc6844e",
+                "bytes": 8616702
+              },
+              "width_px": 4737,
+              "height_px": 6902,
+              "reading_order": 82,
+              "source_filename_number": 80,
+              "printed_page": "80",
+              "image_to_upright_normalized": [
+                0.00021110407430863416,
+                0,
+                0,
+                0.0001448855404230658,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 84,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-081.jpg",
+                "sha256": "d17c3bb34d1b6841724984b8f5216939ba167c15543df1369822d9649e66b225",
+                "bytes": 9253508
+              },
+              "width_px": 4733,
+              "height_px": 6902,
+              "reading_order": 83,
+              "source_filename_number": 81,
+              "printed_page": "81",
+              "image_to_upright_normalized": [
+                0.00021128248468201986,
+                0,
+                0,
+                0.0001448855404230658,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 85,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-082.jpg",
+                "sha256": "0e11cba90be3d0d5b539dfc0536c43d4af5c8709659c0176a11f4112233a7579",
+                "bytes": 8092849
+              },
+              "width_px": 4730,
+              "height_px": 6903,
+              "reading_order": 84,
+              "source_filename_number": 82,
+              "printed_page": "82",
+              "image_to_upright_normalized": [
+                0.00021141649048625792,
+                0,
+                0,
+                0.00014486455164421265,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 86,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-083.jpg",
+                "sha256": "55e67ba73dac7ac8354d0a81d2a3d4ab4fdaceeb2cef288cb50ab40145aacbfb",
+                "bytes": 8782330
+              },
+              "width_px": 4739,
+              "height_px": 6900,
+              "reading_order": 85,
+              "source_filename_number": 83,
+              "printed_page": "83",
+              "image_to_upright_normalized": [
+                0.00021101498206372652,
+                0,
+                0,
+                0.00014492753623188405,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/baby-penguin-a-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/baby-penguin-a-r01/manifest.json",
+              "sha256": "18fc1e7652040e5457a50fa3eb9b343c0459179583e5dc621b416031716ee6e5",
+              "bytes": 22421
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-20/validation.json",
+              "sha256": "ceeff7c99f65f372696e6500e2e90809afdb0b3135816f0b836e40a364f3f780",
+              "bytes": 46223
+            }
+          ]
+        }
+      ],
+      "continuation_pending": [
+        84,
+        85
+      ],
+      "assembly_pending": true,
+      "pending_listing_continuation": {
+        "listing_id": "penguin-basic",
+        "last_printed_row": 3240,
+        "logical_unit_complete": false,
+        "next_folio": 84,
+        "following_physical_fragment": ", 3420",
+        "next_numbered_row": 3250
+      },
+      "limitations": [
+        "Segment a restores actual 78-83 only. Actual 84-85, the open 3240 physical continuation and whole-article assembly remain pending.",
+        "Sixty-one editorial custom-glyph run markers retain original scan links with unknown bytes and counts. These markers are not literal original code and do not certify executable text.",
+        "Local faint byte glyphs, punctuation, stylized tagline, screenshot labels and quoted whitespace retain explicit uncertainty. Independent prose/table/code forms remain literal.",
+        "Original encoded bytes/typesetting, source correctness, program/music/shape execution and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0008",
@@ -3780,6 +3970,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R20: locate and restore 아기펭귄 (maso-1984-11-toc-0007, catalog page candidate 78) in a bounded batch of at most six new mapped source views. Check its actual title, ownership and ending; retain explicit continuation if the article exceeds one batch. Preserve all earlier packages and frozen evidence. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild.",
+  "next": "R21: restore actual 84-85 of 아기펭귄 (maso-1984-11-toc-0007) as an explicit continuation segment. The top of 84 continues 3240 ON CH GOTO with , 3420 before numbered 3250; retain the same logical source unit. Then assemble and independently rebuild the complete observed 78-85 article, preserving every segment, source glyph occurrence and typed source relationship. Continue all remaining November identities, source-image/covers accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }
