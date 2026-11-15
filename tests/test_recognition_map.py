@@ -45,8 +45,8 @@ class RecognitionMapTests(unittest.TestCase):
                         self.assertFalse((root/'work/invalid').exists())
 
     def test_targeted_text_repair_reuses_unchanged_pdf_and_jpeg_regions(self):
-        for jpeg in (False, True):
-            with self.subTest(jpeg=jpeg), tempfile.TemporaryDirectory() as temporary:
+        for jpeg, revised_note in ((False,False),(True,False),(False,True),(True,True)):
+            with self.subTest(jpeg=jpeg,revised_note=revised_note), tempfile.TemporaryDirectory() as temporary:
                 root = Path(temporary)
                 fixture = test_image_source.ImageSourceTests() if jpeg else test_pdf_build.PDFBuildTests()
                 path = fixture.fixture(root); base = path.parent
@@ -55,6 +55,8 @@ class RecognitionMapTests(unittest.TestCase):
                 (base / 'recognition-map.json').write_bytes(original)
                 current = json.loads(original)
                 current['regions'][2]['bbox'][1] = .39
+                if revised_note:
+                    current['regions'][2]['notes'] += ' Reviewed expanded crop.'
                 write_json(base / 'map.json', current)
                 recipe['map'] = pin(base, 'map.json')
                 repair = base / 'repair'; repair.mkdir()
@@ -72,6 +74,10 @@ class RecognitionMapTests(unittest.TestCase):
                 write_json(repair / 'evidence.json', evidence)
                 recipe['ocr_bundles'][0].update(region_ids=['r1','r2'],
                     recognition_map=pin(base, 'recognition-map.json'))
+                if revised_note:
+                    recipe['ocr_bundles'][0]['unselected_note_revisions']=[dict(region_id='r3',
+                        before=json.loads(original)['regions'][2]['notes'],after=current['regions'][2]['notes'],
+                        reason='The separately recognized repaired region carries its reviewed crop annotation.')]
                 recipe['ocr_bundles'].append(dict(directory='repair', region_ids=['r3'],
                     manifest=pin(base, 'repair/evidence.json')))
                 corrections = json.loads((base / 'corrections.json').read_bytes())
@@ -107,6 +113,29 @@ class RecognitionMapTests(unittest.TestCase):
                 bad = copy.deepcopy(current); bad['regions'][2][key] = value
                 with self.subTest(key=key), self.assertRaises(ValueError):
                     validate_recognition_map(original,bad,region_ids={'r1','r2'})
+
+    def test_unselected_note_dispositions_cannot_change_recognized_content_or_other_metadata(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path=test_image_source.ImageSourceTests().fixture(Path(temporary))
+            original=json.loads((path.parent/'map.json').read_bytes());current=copy.deepcopy(original)
+            before=current['regions'][2]['notes'];current['regions'][2].update(notes=before+' Expanded crop reviewed.')
+            revisions=[dict(region_id='r3',before=before,after=current['regions'][2]['notes'],reason='Separate crop repair.')]
+            validate_recognition_map(original,current,region_ids={'r1','r2'},unselected_note_revisions=revisions)
+            recipe=json.loads(path.read_bytes());recipe['ocr_bundles'][0]['unselected_note_revisions']=revisions
+            write_json(path,recipe)
+            with self.assertRaisesRegex(ValueError,'require an original recognition map'):
+                build(path,Path(temporary)/'work/rejected-note',Path(temporary))
+            for field,value in [('before','invented'),('after','invented'),('reason',''),('region_id','r1')]:
+                changed=copy.deepcopy(revisions);changed[0][field]=value
+                with self.subTest(field=field),self.assertRaises(ValueError):
+                    validate_recognition_map(original,current,region_ids={'r1','r2'},unselected_note_revisions=changed)
+            for scope,notes in [(None,revisions),({'r1','r2','r3'},revisions),({'r1','r2'},[]),({'r1','r2'},revisions*2)]:
+                with self.subTest(scope=scope,notes=notes),self.assertRaises(ValueError):
+                    validate_recognition_map(original,current,region_ids=scope,unselected_note_revisions=notes)
+            for key,value in [('kind','code'),('bbox',[.1,.1,.2,.2])]:
+                changed=copy.deepcopy(current);changed['regions'][0][key]=value
+                with self.subTest(key=key),self.assertRaises(ValueError):
+                    validate_recognition_map(original,changed,region_ids={'r1','r2'},unselected_note_revisions=revisions)
 
     def test_invalid_bundle_scopes_and_unknown_results_reject(self):
         for scope in [[],['r1','r1'],['unknown'],'r1']:

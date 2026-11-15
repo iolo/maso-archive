@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 19,
+  "readable_articles": 20,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 15,
+  "identitiesAwaitingDisposition": 14,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -6919,10 +6919,151 @@
       "page_candidates": [
         169
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "어음거래관리",
+      "observed_byline": "애플 컴패티블 / 문 상 훈 / 한일네무 경리부",
+      "observed_whole_extent": [
+        169,
+        173
+      ],
+      "source_views": [
+        {
+          "source_index": 172,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-169.jpg",
+            "sha256": "f02965e5c18be1cb2263897eaab1aa1893197932a08b9f318e213eb93a5b20ff",
+            "bytes": 8414061
+          },
+          "width_px": 4734,
+          "height_px": 6925,
+          "reading_order": 171,
+          "source_filename_number": 169,
+          "printed_page": "169",
+          "image_to_upright_normalized": [
+            0.00021123785382340515,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 173,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-170.jpg",
+            "sha256": "5f5d42d3156e6693adc9abb4f13abf86e1d7203b3f54c25d1d3c71828266ff9e",
+            "bytes": 8188523
+          },
+          "width_px": 4753,
+          "height_px": 6925,
+          "reading_order": 172,
+          "source_filename_number": 170,
+          "printed_page": "170",
+          "image_to_upright_normalized": [
+            0.00021039343572480537,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 174,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-171.jpg",
+            "sha256": "bb56af450b37aeba06e784c8fbe5b0d2de4d2339ef429fa0e3c522c8271daa56",
+            "bytes": 8560455
+          },
+          "width_px": 4732,
+          "height_px": 6924,
+          "reading_order": 173,
+          "source_filename_number": 171,
+          "printed_page": "171",
+          "image_to_upright_normalized": [
+            0.00021132713440405747,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 175,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-172.jpg",
+            "sha256": "871113f7be810a883407c4d841df89d67a5af77786870cb2debb48ecc76508ee",
+            "bytes": 7831021
+          },
+          "width_px": 4753,
+          "height_px": 6925,
+          "reading_order": 174,
+          "source_filename_number": 172,
+          "printed_page": "172",
+          "image_to_upright_normalized": [
+            0.00021039343572480537,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 176,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-173.jpg",
+            "sha256": "8cd3dbe089929949effb00820ca3c684e907f7c23ab9e8c3e2b81d9d5b89214e",
+            "bytes": 8977074
+          },
+          "width_px": 4731,
+          "height_px": 6922,
+          "reading_order": 175,
+          "source_filename_number": 173,
+          "printed_page": "173",
+          "image_to_upright_normalized": [
+            0.0002113718030014796,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/bill-management-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/bill-management-r01/manifest.json",
+          "sha256": "baf77ec15f043672085e1b57bee6c8194a9a68b7d52eb641627a3d02ac932a4c",
+          "bytes": 24830
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-38/validation.json",
+          "sha256": "9807bb841504342f9fa5ca68af1da41f6ae610ba61a0a23a2d8948d73479b634",
+          "bytes": 55562
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-38/scope.json",
+          "sha256": "cdbe7805f206d757af038073f041552cd1cfa48447f2be9b176973560953499d",
+          "bytes": 1813
+        },
+        "status": "Observed169 opener and173 final source3140 RETURN;174 opens separate ISAM. Complete source extent restored in one independently reproducible native package."
+      },
+      "limitations": [
+        "Original encoded bytes, exact typesetting/quoted blank counts, full human proofreading and program correctness/execution remain unverified.",
+        "Original Korean/printer glyph fragments, quoted padding and source punctuation remain selected display readings with local alternatives; no behavioral or financial-rule corrections.",
+        "Reference columns, paragraph reflow and two dotted-leader example arrows are editorial structure with source-owned literals, not original machine/type-setting bytes."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0022",
@@ -7334,6 +7475,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R38: locate and restore 어음 거래 관리 (maso-1984-11-toc-0021, contents start169; observed opener169). Establish actual title/byline, body ownership, ending and source structures before mapping at most two identities/six source views. Preserve complete medical-fee160–168 and all earlier selected packages, immutable source segments, local glyph/punctuation alternatives and frozen evidence. Continue all fifteen remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild. Reuse shared OCR/PDF operating plans unchanged.",
+  "next": "R39: locate and restore ISAM (maso-1984-11-toc-0022, contents start174 and observed opener174). Establish full ending, observed title/byline, body ownership and all source structures before mapping at most two identities/six source views. Preserve complete bill-management169–173, all four independent source programs and their source-local number/routine identities, printer glyph/blank-count alternatives, source disagreements and every earlier selected package/frozen evidence. Continue all fourteen remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild. Keep shared OCR/PDF operating plans unchanged.",
   "group_headings": 6
 }

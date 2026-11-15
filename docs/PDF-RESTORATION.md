@@ -359,6 +359,15 @@ The export still requires exactly one raw outcome and asset per mapped text
 region, with original settings bytes and source pins. Never rewrite old settings
 to name the revised map. This supports both PDF and JPEG sources.
 
+If a separately repaired region also gains a review annotation, a reused bundle
+may explicitly list `unselected_note_revisions`, each with `region_id`, exact
+`before`/`after` notes and a nonblank `reason`. Only regions outside that bundle's
+recognition scope qualify. The old map and settings stay byte-preserved; all
+selected notes, source/page records, roles, identities, exclusions and selected
+bounds still match. Missing, repeated, incorrect or selected-region dispositions
+reject. Without this optional list, all notes retain the existing exact-match
+requirement. Both PDF and JPEG exports/rebuilds exercise this path.
+
 ### Structured JPEG segment assembly
 
 The same `tools.pdf_restore.assemble` command accepts an explicit

@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R37 are complete; the active goal is to restore all November 1984 articles.
+R00–R38 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -286,11 +286,21 @@ restored JSON/assets and faithful source evidence first.
 | R35 — 의료보험 수가계산 opening segment a | Actual 160–165; whole article remains partial | 92 identical files; 52 retrospective entries, 120 report cells, 131 logical program units / 194 physical rows, 29 DATA strings and original illustrations/captions; 53 invalid cases rejected |
 | R36 — 의료보험 수가계산 final segment b | Actual 166–168; all source pages restored, assembly pending | 21 identical files; 141 logical units / 189 physical rows, 68 numeric DATA fields, fourteen department strings, ten classification labels and original prose-number disagreement; 47 invalid cases rejected |
 | R37 — complete 의료보험 수가계산 assembly | Actual 160–168; complete native article package | 122 identical files; 272 logical units / 383 physical rows, 52 retrospective entries, 120 report cells, explicit 21010/21520 boundary and all source relationships/alternatives; 44 invalid cases rejected and 248 fresh regressions |
+| R38 — 어음 거래 관리 | Actual 169–173; complete native article package | 148 identical files; four independent programs, 303 logical units / 628 physical rows, 55 reference rows / 110 cells and 97 local alternatives; 53 invalid cases rejected and 249 fresh regressions |
 
-Immediate next action: **R38**, locate and restore 어음 거래 관리,
-`maso-1984-11-toc-0021`, with contents start candidate and observed opener **169**.
+Immediate next action: **R39**, locate and restore ISAM,
+`maso-1984-11-toc-0022`, with contents start candidate and observed opener **174**.
 Establish the actual title/byline, ending, body ownership and source structures
 before mapping at most two identities/six source views. Preserve complete
+어음 거래 관리 on actual 169–173, including separate MENU/LIST1/LIST2/LIST3
+contexts, repeated source numbers/routines, the same2000 column continuation,
+record/control definitions, original prose/load-name/punctuation discrepancies
+and 97 local glyph/blank-count/zero-O alternatives. Its 148 native files reproduce
+exactly; all 34 pixel checks, 53 invalid cases and fresh 214 PDF / 35 JPEG tests
+pass. Two disjoint crop repairs retain all original recognition. Optional exact
+note dispositions qualify only annotations outside a reused bundle's scope;
+selected notes, geometry and source metadata retain strict matching.
+Preserve complete
 의료보험 수가계산 on actual 160–168 and both immutable segments. Its 122 native
 files reproduce exactly; all 26 pixel crops, 44 negative cases and fresh
 214 PDF / 34 JPEG-recognition-assembly tests pass. The opt-in observed numbered
@@ -330,8 +340,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has nineteen complete article packages, no partial articles, six non-owning
-headings and 15 unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty complete article packages, no partial articles, six non-owning
+headings and 14 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

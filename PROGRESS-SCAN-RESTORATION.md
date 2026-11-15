@@ -2012,3 +2012,66 @@ non-owning headings and fifteen identities awaiting disposition**. See the
 Next: **R38**, establish the complete source extent and structures of
 **어음 거래 관리**, whose observed opener is 169. Every remaining identity and
 whole-issue covers/source accounting/export/rebuild remain in scope.
+
+## R38 completed — 2026-11-15
+
+Restored complete **어음 거래 관리**, observed source title **어음거래관리**,
+on actual **169–173** as `bill-management-r01`. The source credit is
+**애플 컴패티블 / 문 상 훈 / 한일네무 경리부**. Actual 174 opens the separate
+ISAM article; source 173 ends LIST3 at **3140 RETURN**.
+
+The native package keeps **four independent programs: MENU, LIST1, LIST2 and
+LIST3**, with **303 logical units / 628 physical rows**, 931 physical fields,
+6,055 source tokens and 314 quoted literal records. Repeated row numbers and
+amount-formatting/title routines retain their program ownership. LIST3's 2000
+unit crosses the two columns on 173 without an invented repeated number or
+inserted logical character. Four captions remain associated with their listings.
+
+Eight native reference tables retain **55 label/description rows / 110 cells**:
+file properties, eleven record fields, six Korean control definitions, eight
+printer controls and 26 program-explanation ranges. Ten prose paragraphs,
+source field/prompt/input/output relationships, 26 printed control assignments,
+27 source-numbered targets, five explained routine groups and the original
+closing emblem remain explicit. Reference columns and two dotted-leader example
+arrows are declared editorial structure; they do not assert original bytes.
+
+Original MENU 110~120 and LIST2 180~315 explanation endpoints remain beside their
+longer source sequences. The repeated LIST3 125~200 range, E$/ES$, HELLO/HANIL
+load names, TITAL and selected unclosed LIST1 330 quote are preserved.
+**97 local uncertainties** retain decomposed printer glyphs, quoted padding and
+zero/O alternatives. Two broad quoted blank bands have one selected display
+space each and an unknown original count. Exact typesetting/encoded bytes,
+program correctness/execution and full human proofreading remain unverified.
+
+All **148 native files reproduce byte for byte** in a fresh final-implementation
+build. All **34 master-derived crop checks** pass; **53 deliberately damaged
+structures** are rejected. All **36 earlier selected packages and frozen
+evidence** remain exact and valid. Fresh shared regressions pass:
+**214 PDF + 35 JPEG/recognition/assembly = 249**. PLAN-OCR.md and PLAN-PDF.md
+remain unchanged.
+
+All five initial OCR jobs succeeded. Enlarged source comparison found a clipped
+173/2040 VTAB token and leading digits in the 170/LIST2 range explanation.
+Each region received one targeted expanded-crop retry in a fresh directory;
+35 successful tasks include the two superseded crops, with **33 selected tasks**,
+no unchanged-success repetition and no engine switch. All original maps/settings
+are retained. A repaired-region annotation is qualified through optional exact
+before/after/reason dispositions outside each reused bundle's scope; selected
+notes, roles, geometry, source records and exclusions still match strictly.
+PDF/JPEG rebuild and rejection tests cover this opt-in path.
+
+The initial row parser mistook wrapped numeric operands for line numbers;
+independently inspected source-number sequences now qualify the selected rows.
+A focused test initially made a no-op role mutation, and the independent checker
+initially counted dictionary values instead of region keys. Failed scripts/logs
+are retained; corrected checks pass. One native export, two independent rebuilds
+and the first full audit pass. Cleanup was preview-only; **479 private evidence
+files** are frozen.
+
+November now has **twenty complete articles, no partial articles, six non-owning
+headings and fourteen identities awaiting disposition**. See the
+[R38 result](metadata/catalog/scan-restoration/1984-11-bill-management.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R39**, establish the full extent and structures of **ISAM**, whose
+observed opener is 174. Every remaining identity and whole-issue covers/source
+accounting/export/rebuild remain in scope.

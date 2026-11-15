@@ -42,13 +42,14 @@ def copy_pin(source_root, stage, record, destination=None):
     return pin(stage, destination)
 
 
-def validate_recognition_map(original, current, *, region_ids=None):
+def validate_recognition_map(original, current, *, region_ids=None, unselected_note_revisions=None):
     """Reuse OCR when the selected recognition regions are unchanged.
 
     Recognition settings still name the original, pinned map. Compare the full
     validated maps, including exclusions and selected text geometry. Explicit
     bundle scope permits other regions' bounds to change for a targeted repair;
-    all identities, roles, notes, source/page records and exclusions still match.
+    all identities, roles, source/page records and exclusions still match.
+    Notes match unless exact dispositions qualify annotations outside the scope.
     Without a scope only figure bounds may differ, as before.
     """
     before, after = (deepcopy(validate_package(p)) for p in (original, current))
@@ -56,6 +57,24 @@ def validate_recognition_map(original, current, *, region_ids=None):
         known = {r['id'] for r in before['regions']}
         if not region_ids or not set(region_ids) <= known:
             raise ValueError('Recognition scope must name mapped regions')
+    if unselected_note_revisions is not None:
+        if region_ids is None or not isinstance(unselected_note_revisions, list) or not unselected_note_revisions:
+            raise ValueError('Note revisions require explicit recognition scope and dispositions')
+        old_regions = {r['id']: r for r in before['regions']}
+        new_regions = {r['id']: r for r in after['regions']}
+        seen = set()
+        for revision in unselected_note_revisions:
+            if (not isinstance(revision, dict) or set(revision) != {'region_id','before','after','reason'} or
+                    any(not isinstance(v,str) or not v.strip() for v in revision.values())):
+                raise ValueError('Invalid unselected-region note disposition')
+            id = revision['region_id']
+            if (id in seen or id in region_ids or id not in old_regions or id not in new_regions or
+                    revision['before'] == revision['after'] or
+                    old_regions[id].get('notes') != revision['before'] or
+                    new_regions[id].get('notes') != revision['after']):
+                raise ValueError('Note disposition differs from its unselected source occurrence')
+            seen.add(id)
+            old_regions[id]['notes'] = revision['after']
     for package in (before, after):
         for region in package['regions']:
             if region['kind'] == 'figure' or region_ids is not None and region['id'] not in region_ids:
@@ -198,6 +217,8 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
         raw_regions = set()
         selector = page_selector(package)
         for bundle in recipe['ocr_bundles']:
+            if 'unselected_note_revisions' in bundle and 'recognition_map' not in bundle:
+                raise ValueError('Note dispositions require an original recognition map')
             folder = safe_path(base, bundle['directory'])
             manifest = json.loads(checked(base, bundle['manifest']))
             bundle_page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)
@@ -216,7 +237,8 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                 original = json.loads(checked(base, recognition_map))
                 # Compare the input map, before blocks/assets are added below.
                 current = json.loads(checked(base, recipe['map']))
-                validate_recognition_map(original, current, region_ids=selected_ids)
+                validate_recognition_map(original, current, region_ids=selected_ids,
+                    unselected_note_revisions=bundle.get('unselected_note_revisions'))
                 copy_pin(base, stage, recognition_map,
                          f'{bundle["directory"]}/recognition-map.json')
             page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)
