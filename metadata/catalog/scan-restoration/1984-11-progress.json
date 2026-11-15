@@ -5,8 +5,8 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 16,
-  "partial_articles": 1,
+  "readable_articles": 17,
+  "partial_articles": 0,
   "identitiesAwaitingDisposition": 17,
   "entries": [
     {
@@ -5428,7 +5428,7 @@
       ],
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "observed_title": "리스즈트",
       "observed_roman_title": "LISZT",
@@ -5438,11 +5438,12 @@
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-32/scope.json",
-          "sha256": "c70ec51a4cc7fc705cca6b4ccd4d407368ec763b027434235a5e2c8189aa2c4d",
-          "bytes": 1110
+          "path": "archive/scans/1984-11/restoration/batch-33/validation.json",
+          "sha256": "918e5adddb4eeeb1d991419780b21be74fc1a8ce0ad7afa3de31191930e593c8",
+          "bytes": 133774
         },
-        "status": "Observed 140-153 source extent covered by three immutable segments; whole-article assembly and same-group 111 join pending."
+        "finding_key": "summary",
+        "status": "Complete observed 140-153 source extent assembled and independently rebuilt; original source structures, separate program identities and same logical 111 join retained."
       },
       "segments": [
         {
@@ -5821,21 +5822,368 @@
         }
       ],
       "continuation_pending": [],
-      "assembly_pending": true,
-      "pending_listing_continuation": {
-        "listing_id": "liszter",
-        "last_printed_row": 111,
-        "logical_unit_complete": false,
-        "next_folio": 152,
-        "next_printed_marker": "[111]",
-        "source_form": "Original group 111 exists in both source segments b/c and must be joined during complete-article assembly.",
-        "all_source_fragments_restored": true
-      },
+      "assembly_pending": false,
       "limitations": [
-        "Final source segment 152-153 only. All observed source pages 140-153 are covered by three segments; whole-article assembly remains pending.",
-        "Incoming [111] is the final remark fragment of group 111 on 151; join that same group during whole-article assembly.",
-        "Selected control-display enclosures, quoted spacing and printed indentation are visual readings; original control bytes and encoded whitespace remain unverified.",
-        "Number gaps, blank remarks, SPILT/PROCEDING, original parenthesized assignment and report statistics/END retained without source repair or execution. Historical correctness and human acceptance remain unverified."
+        "Original typesetting, encoded whitespace/control bytes, historical correctness, execution and full human proofreading remain unverified.",
+        "[a] Source whitespace, typesetting and original encoded bytes remain unverified. Historical syntax and behavior do not determine corrections.",
+        "[a] Original formatter display retained without inventing executable BASIC separators, REM tokens or encoded whitespace.",
+        "[a] Original syntax anomalies, source explanatory disagreement, missing visible quote and ink alternatives retained.",
+        "[a] Original encoded bytes/typesetting, historical/program correctness, execution and human acceptance remain unverified.",
+        "[a] Original formatter output, not inferred executable BASIC; encoded bytes and whitespace counts unverified.",
+        "[b] This is original formatter output, not recovered executable BASIC or original encoded bytes.",
+        "[b] Quoted blanks, display indentation and I/1 printer-control alternatives remain source-linked; no executable reconstruction, original encoded-byte or source-correctness claim.",
+        "[b] Source reports/comments, including 80-column/LL=46 disagreement and printed comparison direction, remain literal. Historical execution and human acceptance remain unverified.",
+        "[b] Original formatted display, not recovered executable BASIC or certified encoded whitespace.",
+        "[c] Original encoded bytes, display stroke glyphs and whitespace counts remain unverified.",
+        "[c] The source report statistics remain printed claims rather than executed measurements.",
+        "[c] Selected control-display enclosures, quoted spacing and printed indentation are visual readings; original control bytes and encoded whitespace remain unverified.",
+        "[c] Number gaps, blank remarks, SPILT/PROCEDING, original parenthesized assignment and report statistics/END retained without source repair or execution. Historical correctness and human acceptance remain unverified.",
+        "[c] Original formatted display, not recovered executable BASIC or certified encoded whitespace."
+      ],
+      "previous_location_evidence": [
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-32/scope.json",
+            "sha256": "c70ec51a4cc7fc705cca6b4ccd4d407368ec763b027434235a5e2c8189aa2c4d",
+            "bytes": 1110
+          },
+          "status": "Observed 140-153 source extent covered by three immutable segments; whole-article assembly and same-group 111 join pending."
+        }
+      ],
+      "source_views": [
+        {
+          "source_index": 143,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-140.jpg",
+            "sha256": "bf818271185c323f54e62d0ade06453a006862054d3fab2fe259e016fa6bd0c0",
+            "bytes": 7784075
+          },
+          "width_px": 4720,
+          "height_px": 6919,
+          "reading_order": 142,
+          "source_filename_number": 140,
+          "printed_page": "140",
+          "image_to_upright_normalized": [
+            0.000211864406779661,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 144,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-141.jpg",
+            "sha256": "dcc8d47f6faea1b6cd573cbdfa81976a5ff00dddaff133483a657d17d073de3d",
+            "bytes": 8589668
+          },
+          "width_px": 4737,
+          "height_px": 6923,
+          "reading_order": 143,
+          "source_filename_number": 141,
+          "printed_page": "141",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 145,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-142.jpg",
+            "sha256": "2a72276c26577467e1d52e1bc6d847fe7bd6aa7bc3281faf6ee5dc962a82b9e7",
+            "bytes": 8442937
+          },
+          "width_px": 4762,
+          "height_px": 6929,
+          "reading_order": 144,
+          "source_filename_number": 142,
+          "printed_page": "142",
+          "image_to_upright_normalized": [
+            0.00020999580008399833,
+            0,
+            0,
+            0.0001443209698369173,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 146,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-143.jpg",
+            "sha256": "2756f510d3443148bdecd89368d72d647cb0706f4b559cea1e2cb79e31901514",
+            "bytes": 8665117
+          },
+          "width_px": 4732,
+          "height_px": 6922,
+          "reading_order": 145,
+          "source_filename_number": 143,
+          "printed_page": "143",
+          "image_to_upright_normalized": [
+            0.00021132713440405747,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 147,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-144.jpg",
+            "sha256": "12696eaae0baceb29c5c46a2168f5122c92257050c5767c50655124756419314",
+            "bytes": 8514550
+          },
+          "width_px": 4739,
+          "height_px": 6921,
+          "reading_order": 146,
+          "source_filename_number": 144,
+          "printed_page": "144",
+          "image_to_upright_normalized": [
+            0.00021101498206372652,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 148,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-145.jpg",
+            "sha256": "835e6e38d9aad298f54e680291942cb9151b9f9d0b442e9d71f14e99cd5c0a4f",
+            "bytes": 8269623
+          },
+          "width_px": 4725,
+          "height_px": 6912,
+          "reading_order": 147,
+          "source_filename_number": 145,
+          "printed_page": "145",
+          "image_to_upright_normalized": [
+            0.00021164021164021165,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 149,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-146.jpg",
+            "sha256": "3115828cb8a8a8c127165ef5cec1782ed20a5609259467208751a21f955fac13",
+            "bytes": 7554826
+          },
+          "width_px": 4752,
+          "height_px": 6921,
+          "reading_order": 148,
+          "source_filename_number": 146,
+          "printed_page": "146",
+          "image_to_upright_normalized": [
+            0.00021043771043771043,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 150,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-147.jpg",
+            "sha256": "0319e8802c1aaa40cffe1b9e6a7e204de2b8232a0ee34d17da86123fb03ba91a",
+            "bytes": 7810720
+          },
+          "width_px": 4729,
+          "height_px": 6912,
+          "reading_order": 149,
+          "source_filename_number": 147,
+          "printed_page": "147",
+          "image_to_upright_normalized": [
+            0.00021146119687037428,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 151,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-148.jpg",
+            "sha256": "82765a2cb9ea6e5840ac7136be1112693ec5ffe8807f3fcc6627fe7e7be8852d",
+            "bytes": 7500502
+          },
+          "width_px": 4726,
+          "height_px": 6923,
+          "reading_order": 150,
+          "source_filename_number": 148,
+          "printed_page": "148",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 152,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-149.jpg",
+            "sha256": "c33f77a923737ce8c5d6e82a15332e3c8f476361b3d80ecc67fa3d5a26a18e6c",
+            "bytes": 8097869
+          },
+          "width_px": 4731,
+          "height_px": 6907,
+          "reading_order": 151,
+          "source_filename_number": 149,
+          "printed_page": "149",
+          "image_to_upright_normalized": [
+            0.0002113718030014796,
+            0,
+            0,
+            0.00014478065730418415,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 153,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-150.jpg",
+            "sha256": "63a66f175028bef6e1577ba2796452d0d14c36db13cc38514e50d17a13a6e2a0",
+            "bytes": 7656148
+          },
+          "width_px": 4752,
+          "height_px": 6908,
+          "reading_order": 152,
+          "source_filename_number": 150,
+          "printed_page": "150",
+          "image_to_upright_normalized": [
+            0.00021043771043771043,
+            0,
+            0,
+            0.00014475969889982628,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 154,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-151.jpg",
+            "sha256": "936e2983b1754cdf34aba3a57d0cb6079690479edbaca3dc2e5c8f8ece4f131c",
+            "bytes": 7864287
+          },
+          "width_px": 4726,
+          "height_px": 6912,
+          "reading_order": 153,
+          "source_filename_number": 151,
+          "printed_page": "151",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 155,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-152.jpg",
+            "sha256": "644a12092e7e6cb85fcc50fd48c655ffc6b558084d9bdef33709cbc24bbc11f9",
+            "bytes": 8071472
+          },
+          "width_px": 4754,
+          "height_px": 6913,
+          "reading_order": 154,
+          "source_filename_number": 152,
+          "printed_page": "152",
+          "image_to_upright_normalized": [
+            0.00021034917963819942,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 156,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-153.jpg",
+            "sha256": "027a4028769ab48b59d5a548bad65cab9c4351af458a68945f33133337f3f3b1",
+            "bytes": 9771564
+          },
+          "width_px": 4748,
+          "height_px": 6901,
+          "reading_order": 155,
+          "source_filename_number": 153,
+          "printed_page": "153",
+          "image_to_upright_normalized": [
+            0.00021061499578770007,
+            0,
+            0,
+            0.00014490653528474135,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/liszt-r02",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/liszt-r02/manifest.json",
+          "sha256": "6c0293fb5825a22740e75c25f4e66a8bf24ee31c9d1ee90992e29b5cc87a6f56",
+          "bytes": 76311
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-33/validation.json",
+          "sha256": "918e5adddb4eeeb1d991419780b21be74fc1a8ce0ad7afa3de31191930e593c8",
+          "bytes": 133774
+        }
+      ],
+      "resolved_formatted_programs": [
+        {
+          "program_id": "liszter",
+          "left_segment": "a",
+          "right_segment": "b",
+          "kind": "consecutive",
+          "left_last": 9,
+          "right_first": 10,
+          "outgoing_association": 108,
+          "incoming_association": 202,
+          "joined_reading": null
+        },
+        {
+          "program_id": "liszter",
+          "left_segment": "b",
+          "right_segment": "c",
+          "kind": "same-number",
+          "left_last": 111,
+          "right_first": 111,
+          "outgoing_association": 201,
+          "incoming_association": 98,
+          "joined_reading": "111 PRINT CHR$(27)\"5\";\n    RETURN\n[111]    *   ESC-5 IS STANDARD SET\n"
+        }
       ]
     },
     {
@@ -6284,6 +6632,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R33: qualify opt-in formatted BASIC assembly and independently rebuild the complete observed 140-153 리스즈트 (maso-1984-11-toc-0018) article from immutable segments a/b/c. Preserve independent MAKE LISZT and LISZTER identities; join the original same-group [111] remark without adding a program number. Preserve all physical rows, nine internal bracket continuations, 107 DATA display strings, original diagrams/prose/source relationships, thirty variable definitions and separate qualifiers, nested loops, numbering gaps, blank remarks, three control-display alternatives and both source reports. Do not infer executable REM/colon tokens, encoded blanks/control bytes, execution or source correctness. Follow the source-backed assembly-handoff specification; qualify projection and run shared PDF/JPEG regressions if implementation changes. Then continue the remaining November identities and whole-issue source accounting/export/rebuild.",
+  "next": "R34: locate and restore 전산개발 시스템 연구 (maso-1984-11-toc-0019, contents start candidate 154). Establish actual title/byline, body ownership, ending and source structures before mapping a bounded batch (at most two identities/six mapped views). Preserve complete November packages, all immutable source segments/evidence, and the independent MAKE LISZT/LISZTER formatter contexts, same-group 111 join, original DATA/diagrams/definitions/control-display alternatives and both source reports. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild. Reuse the unchanged shared OCR/PDF operating plans.",
   "group_headings": 6
 }

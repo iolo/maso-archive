@@ -4,11 +4,12 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R32 checkpoints complete: sixteen November 1984 articles have complete
-reproducible JSON/assets packages. 리스즈트 has verified segments covering
-all actual 140–153; whole-article assembly is pending, so it stays partial.
-The latest complete article is 수학을 통한 논리학습 on actual 110–115. Both features and the assembled game
-articles retain their immutable original segments. Six section headings have
+**R00–R33 checkpoints complete: seventeen November 1984 articles have complete
+reproducible JSON/assets packages, with no partial article currently open.
+The latest is complete 리스즈트 on actual 140–153, retaining independent
+MAKE LISZT/LISZTER contexts and the same logical 111 remark join. All three
+original segments remain immutable. Both features and the assembled game
+articles also retain their original segments. Six section headings have
 source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
 Seventeen canonical identities await disposition. The 24 cleaned source sets
@@ -60,7 +61,8 @@ labels and the preserved exports retain their existing values.
 | R30 — 리스즈트 opening segment a | Passed; whole article partial | Actual 140–145; 216 identical files, two formatted listing contexts, original memory-layout / flowchart structures; 146–153 and assembly pending |
 | R31 — 리스즈트 middle segment b | Passed; whole article partial | Actual 146–151; 153 identical files, 102 LISZTER groups / 480 physical rows, nine bracketed continuations and 107 DATA strings; 111 continuation, 152–153 and assembly pending |
 | R32 — 리스즈트 final source segment c | Passed; assembly pending | Actual 152–153; 47 identical files, 59 groups / 96 physical rows, thirty variable definitions, three loop pairs and three uncertain control-display occurrences; all source pages covered |
-| November 1984 issue closeout | Not started | Seventeen identities and one partial article remain; source-image accounting and whole-issue native export/rebuild remain |
+| R33 — complete 리스즈트 assembly | Passed | Actual 140–153; 425 identical files, 187 logical groups / 643 physical rows, all source structures and uncertainties; 246 fresh shared regressions |
+| November 1984 issue closeout | Not started | Seventeen identities remain; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -1707,3 +1709,65 @@ Next is **R33**: qualify formatted multi-block assembly, join the same logical
 111 group, preserve the independent MAKE LISZT/LISZTER contexts and every source
 structure, and prove the whole 140–153 package reproducible. The assembly handoff
 records the concrete requirements; whole-issue restoration remains active.
+
+## R33 completed — 2026-11-15
+
+Assembled complete 리스즈트, actual 140–153, from immutable segments a/b/c.
+The selected native package retains independent MAKE LISZT and LISZTER program
+identities, with seventeen original code blocks separated by source headers and
+notices. A new opt-in `structured-formatted-v1` mode declares consecutive 9/10
+and same-number 111 joins explicitly. PRINT/RETURN on 151 and its `[111]` remark
+on 152 form one logical source group; no program number, executable REM/colon
+or encoded control byte was invented.
+
+The complete article retains 187 logical groups (17 MAKE LISZT + 170 LISZTER),
+643 physical rows, 840 physical fields, 3,920 source tokens and 842 literal
+records. All 107 DATA strings and their physical fragments remain source-owned,
+including empty LET, quoted asterisks and the split XDRAW display. Nine internal
+bracket continuations, thirty variable definitions, two separate numbered
+qualifiers, three FOR/NEXT pairs, six blank remarks and original numbering gaps
+remain explicit. Thirty-two explanation occurrences and 59 control targets now
+resolve within their declared program identities; source disagreements remain
+unchanged.
+
+All prose, nine joins, five usage steps and nine properties remain intact.
+The original memory layout, flowchart topology and 49 figure-label records retain
+active source identities; all five original figures/crops and their caption or
+no-caption relationships survive. Three distinct control-display occurrences
+retain their original crop, alternatives and unknown encoding/counts. Seventy-nine
+local uncertainty records remain explicit. Both source statistic reports retain
+their original numbers and unverified execution status; the final report END is
+separate from numbered program units.
+
+All **425 native files** reproduce byte for byte in a separate process. Every
+projected original record was independently compared with its frozen correction
+record, including nested character/byte coordinates and source pins. All **101
+master-derived pixel crops** match, **45 deliberately damaged structures** are
+rejected, and all **31 earlier selected packages/evidence** remain exact and valid.
+Fresh shared regressions pass: **214 PDF + 32 JPEG/recognition/assembly = 246**.
+No OCR ran; all 96 successful original tasks and their map/settings evidence
+were retained unchanged. PLAN-OCR.md and PLAN-PDF.md remain unchanged.
+
+An initial projection expected a completeness field absent from earlier R30
+records; the explicit source boundary now qualifies that case while requiring
+joins for every explicitly incomplete fragment. Initial synthetic test attempts
+repaired a fixture glyph offset, imported fixture-class discovery and a malformed
+opt-in rejection case. Independent checker diagnostics corrected regional-reference
+handling, then caught a real defect: the final report's active article.txt range
+remained segment-local because it lacked start_byte/end_byte fields. Added an
+opt-in owner-based projection and regression for that span form. The initial
+native pair is pinned and unselected; fresh **liszt-r02** and its independent
+rebuild pass the complete source audit. All attempts remain preserved.
+
+Preview-only cleanup ran; 34 private evidence files are frozen. Artifact
+reproduction remains distinct from original encoding, historical correctness,
+execution and full human proofreading. November now has **seventeen complete
+article packages, no partial articles, six non-owning headings and seventeen
+identities awaiting disposition**.
+
+See the [R33 result](metadata/catalog/scan-restoration/1984-11-liszt.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R34**, locate 전산개발 시스템 연구 (contents start candidate 154), establish
+its source boundaries and structures, then restore a bounded batch. The full
+November objective still includes every remaining identity and whole-issue
+source accounting/export/rebuild.

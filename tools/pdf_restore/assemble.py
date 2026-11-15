@@ -30,7 +30,7 @@ def text_bytes(package):
 
 
 def validate_recipe(recipe):
-    if recipe.get('index_mode') in ('structured-regions-v1', 'structured-programs-v1'):
+    if recipe.get('index_mode') in ('structured-regions-v1', 'structured-programs-v1', 'structured-formatted-v1'):
         from .assembly_structured import validate_recipe as validate_structured
         return validate_structured(recipe)
     examples = recipe.get('index_mode') in ('mixed-source-listing-v1', 'standalone-examples-v1', 'wrapped-listing-v1', 'regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-scan-notes-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1')
@@ -153,7 +153,7 @@ def read_segment(folder, manifest):
 
 
 def validate_inventory_binding(recipe, folder):
-    if recipe.get('index_mode') not in ('structured-regions-v1', 'structured-programs-v1'):
+    if recipe.get('index_mode') not in ('structured-regions-v1', 'structured-programs-v1', 'structured-formatted-v1'):
         return
     provenance = json.loads((folder / 'provenance.json').read_bytes())
     for key, original_key in [('sources', 'inventory'), ('queue', 'queue')]:
@@ -165,7 +165,7 @@ def validate_inventory_binding(recipe, folder):
 def project(recipe, segments):
     """Derive combined content and correction indexes; never modify original evidence."""
     validate_recipe(recipe)
-    if recipe.get('index_mode') in ('structured-regions-v1', 'structured-programs-v1'):
+    if recipe.get('index_mode') in ('structured-regions-v1', 'structured-programs-v1', 'structured-formatted-v1'):
         from .assembly_structured import project_structured
         return project_structured(recipe, segments)
     from .assembly_shared import validate_shared_pages
@@ -315,7 +315,7 @@ def raw_names(package, recipe, folder=None):
     names |= {r['asset']['path'] for r in package['region_assets']}
     names |= {f'segments/{s["name"]}/{name}' for s in recipe['segments']
               for name in ('map.json', 'runtime.json', 'provenance.json', 'corrections.json')}
-    if recipe.get('index_mode') in ('structured-regions-v1', 'structured-programs-v1'):
+    if recipe.get('index_mode') in ('structured-regions-v1', 'structured-programs-v1', 'structured-formatted-v1'):
         for spec in recipe['segments']:
             prefix = 'segments/' + spec['name']
             provenance = json.loads(safe_path(folder, prefix + '/provenance.json').read_bytes())

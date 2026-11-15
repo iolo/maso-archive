@@ -281,21 +281,20 @@ restored JSON/assets and faithful source evidence first.
 | R30 — 리스즈트 opening segment a | Actual 140–145; whole article remains partial | 216 identical native files; five usage steps, nine properties, 27 numbered formatter groups / 67 physical rows, original memory layout / eight slots and flowchart / seventeen nodes / 27 connectors; 146–153 and assembly pending |
 | R31 — 리스즈트 middle segment b | Actual 146–151; whole article remains partial | 153 identical native files; 102 LISZTER groups / 480 physical rows, nine bracketed continuations, 107 DATA strings, twelve report pages and typed source relationships; group 111, 152–153 and assembly pending |
 | R32 — 리스즈트 final source segment c | Actual 152–153; all source pages covered, assembly pending | 47 identical native files; 59 groups / 96 physical rows, thirty variable definitions with two qualifiers, three loop pairs, original control-display alternatives/report/illustration; 49 invalid cases rejected |
+| R33 — complete 리스즈트 assembly | Actual 140–153; complete native article package | 425 identical files; 187 logical groups / 643 physical rows, separate MAKE LISZT/LISZTER contexts, same-group 111 join and every original source structure; 45 invalid cases rejected and 246 fresh regressions |
 
-Immediate next action: **R33**, qualify assembly and independently rebuild the
-complete observed 140–153 리스즈트 article, `maso-1984-11-toc-0018`, from immutable
-segments a/b/c. All source pages are now restored. Join group 111's PRINT/RETURN
-on 151 with its `[111]` remark on 152 without adding a program number. Keep
-MAKE LISZT and LISZTER distinct and preserve every physical formatter row,
-source DATA fragment, definition/qualifier, diagram, reference and uncertainty.
-The current logical-fragment join requires `basic-numbered`, while source program
-projection assumes one code block per context; qualify an opt-in extension for
-the formatted multi-block contexts and new references before using it. Expected
-source observations are 187 logical groups and 643 physical rows across the two
-programs; these counts do not certify execution or recovered original bytes.
-Follow the [R32 assembly handoff](archive/scans/1984-11/restoration/batch-32/review/assembly-handoff.json),
-add meaningful projection/boundary regressions, run shared PDF/JPEG checks if
-implementation changes, and prove exact assembly rebuild and prior preservation.
+Immediate next action: **R34**, locate and restore 전산개발 시스템 연구,
+`maso-1984-11-toc-0019`, with contents start candidate 154. Establish its actual
+title/byline, body ownership, ending and typed source structures before choosing
+a batch of at most two identities and six mapped views. Preserve complete
+리스즈트 on actual 140–153 and its three immutable source segments. The qualified
+opt-in `structured-formatted-v1` mode retains multiple code blocks per program,
+original formatter annotations and a same-number logical fragment join. Its
+independent 425-file rebuild, all-source-record audit, 101 pixel checks and fresh
+214 PDF / 32 JPEG-recognition-assembly tests pass. Keep both program identities,
+107 DATA strings, original diagrams, definitions/qualifiers, three control-display
+alternatives and both source reports; the 187 logical / 643 physical row counts
+are source observations, not execution or recovered-byte claims.
 Preserve source formatter output without inventing control bytes or executable REM/colon
 tokens or normalizing printed anomalies. Preserve complete 수학을 통한 논리학습 on actual 110–115,
 including fraction/root grouping, long-division notation, repeated exercise terms,
@@ -312,7 +311,7 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has sixteen complete article packages, one partial article, six non-owning
+November now has seventeen complete article packages, no partial articles, six non-owning
 headings and 17 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.

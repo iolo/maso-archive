@@ -171,7 +171,7 @@ def project_index(context,key,original,row,ranges):
             target['physical_start_byte']=part['physical_start_byte']+context.offset
     # Physical fields and caption spans have their own coordinate owners.
     owner=original.get('block_id',original.get('code_block_id'))
-    if owner is None and original.get('listing_id') is not None:owner=context.code_block(original['listing_id'])
+    if owner is None and original.get('listing_id') is not None and not context.formatted:owner=context.code_block(original['listing_id'])
     if context.extended_source_indexes and owner is None and original.get('source_unit_id') is not None:
         matches=[r for r in context.correction['logical_listing_line_index'] if r['line_id']==original['source_unit_id']]
         need(len(matches)==1, 'Literal coordinate owner lacks one original source unit')
@@ -202,6 +202,14 @@ def project_index(context,key,original,row,ranges):
                     checked_span(context.blocks[current]['text'].encode(),source['anchor_byte'],source['anchor_byte'])
                     target.update(block_anchor_byte=source['anchor_byte']+within,download='article.txt',
                                   anchor_byte=ranges[context.block(current)][0]+within+source['anchor_byte'])
+            if context.formatted and source.get('download')=='article.txt' and START in source:
+                need(current in context.blocks, 'Formatted article span lacks its original block owner')
+                base=context.ranges[current][0]
+                a,z=source[START]-base,source[END]-base
+                checked_span(context.blocks[current]['text'].encode(),a,z,source.get('literal',source.get('text')))
+                within=context.positions[context.identity(current,context.blocks)][1]
+                target[START]=ranges[context.block(current)][0]+within+a
+                target[END]=ranges[context.block(current)][0]+within+z
             if source.get('download')=='listing.txt' and START in source:
                 checked_span(context.listing,source[START],source[END],source.get('literal',source.get('text')))
                 target[START]=source[START]+context.offset;target[END]=source[END]+context.offset

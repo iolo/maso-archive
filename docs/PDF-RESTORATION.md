@@ -3608,3 +3608,38 @@ vocabulary so frozen assemblies can still be checked and reproduced. These
 extensions do not change the PDF source path or shared OCR/PDF operating plans.
 Validation includes native independent rebuilds, malformed join/ownership/span
 rejection, graphics/caption/anchor checks and verification of frozen assemblies.
+
+### Original formatter displays across JPEG segments
+
+Use `index_mode: structured-formatted-v1` with
+`source_index_mode: regional-literals-v2` for original formatted BASIC output
+whose program spans several code blocks separated by headers, notices or other
+source material. Declare every source listing exactly once in `formatted_programs`.
+Each program has an `id`, ordered `parts` naming `segment` / `listing_id`, and
+one `joins` record per adjacent segment boundary. Code blocks and physical
+listing downloads retain their original bytes and order.
+
+A join declares `kind` (`consecutive` or `same-number`), `left_last`,
+`right_first`, and original `outgoing_association` / `incoming_association`
+indices. Consecutive joins require the next printed number and
+`joined_reading: null`. Same-number joins require both explicitly incomplete
+source fragments, their original bracket annotation, matching source folios and
+an exact `joined_reading` containing both original physical fragments. No
+separator, executable REM token, colon or control byte is invented. Every
+incomplete fragment must be accounted for by an explicit join.
+
+The assembled logical group keeps its physical source parts, UTF-8 byte ranges,
+logical character positions and original source-fragment records. Program
+identities remain separate even where numbers overlap. Typed definitions,
+numbered qualifiers, FOR/NEXT relationships, report headers/notices, source
+references, diagram components and repeated control-display runs receive active
+namespaced identities. Each projected occurrence links back to its immutable
+correction record. Original control-display crops remain associated with their
+figures; unknown glyph counts/encoding remain unknown.
+
+LISZT in November 1984 uses this mode to join 9/10 and the same-number 111 remark
+while preserving MAKE LISZT and LISZTER. Source reports and program behavior
+remain unverified claims. Existing assembly modes and both shared operating
+plans retain their established contracts. Tests cover both boundary kinds,
+multiple code blocks, independent programs, nested Unicode spans, repeated runs,
+false joins, dangling references and rehashed outer-index tampering.

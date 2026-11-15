@@ -28,6 +28,9 @@ LOCAL_KEYS = {'line_id', 'source_unit_id', 'label_id', 'occurrence_id', 'row_id'
 
 
 def validate_recipe(recipe):
+    if recipe.get('index_mode') == 'structured-formatted-v1':
+        from .assembly_formatted import validate_recipe as validate_formatted
+        return validate_formatted(recipe)
     required = {'index_mode', 'segments', 'expected_source_indices', 'inventory', 'evidence',
                 'uncertainties', 'resolved_notes', 'prose_joins', 'relationship_links'}
     programs = recipe.get('index_mode') == 'structured-programs-v1'
@@ -111,6 +114,7 @@ class Context:
         self.tables = {t['table_id'] for t in correction.get('tables', [])}
         self.groups = {g['listing_id']: g for g in correction.get('listing_groups', [])}
         self.assets = {r['region_id']: r['asset'] for r in source['region_assets']}
+        self.formatted = False
         self.program_mode = False
         self.source_indexes = source_indexes
         self.extended_source_indexes = source_indexes and source_index_version=='regional-literals-v2'
@@ -139,6 +143,12 @@ class Context:
             return deepcopy(value)
         result = {}
         for key, item in value.items():
+            if self.formatted:
+                from .assembly_formatted import reference
+                handled, revised = reference(self, key, item)
+                if handled:
+                    result[key] = revised
+                    continue
             if self.source_indexes:
                 from .assembly_source_indexes import reference
                 handled, result_value = reference(self, key, item)
@@ -247,6 +257,10 @@ def project_structured(recipe, originals):
         if source['schema_version'] != 2:
             raise ValueError('Structured JPEG mode requires explicit image-source packages')
         context=Context(spec,source,correction,offset,source_indexes=source_indexes,source_index_version=recipe.get('source_index_mode'));contexts.append(context);offset+=len(context.listing)
+    formatted = recipe['index_mode'] == 'structured-formatted-v1'
+    if formatted:
+        from .assembly_formatted import prepare
+        prepare(recipe, contexts)
     programs = recipe['index_mode'] == 'structured-programs-v1'
     fragments = programs and any('logical_join' in r for r in recipe['program_links'])
     for context in contexts:context.program_mode = programs
@@ -317,7 +331,10 @@ def project_structured(recipe, originals):
                 for id,v in coverage.items())):
             raise ValueError('Structured regional ranges do not cover source text')
         code_ids=[r['id'] for r in context.source['content_order'] if r['type']=='block' and context.blocks[r['id']]['kind']=='code']
-        if {context.code_block(id) for id in context.groups} != set(code_ids) or len(context.groups)!=len(code_ids):raise ValueError('Structured listing groups differ from code blocks')
+        if formatted:
+            from .assembly_formatted import check_groups
+            check_groups(context, code_ids)
+        elif {context.code_block(id) for id in context.groups} != set(code_ids) or len(context.groups)!=len(code_ids):raise ValueError('Structured listing groups differ from code blocks')
         if any(group.get('execute_verified') is not False for group in context.groups.values()):
             raise ValueError('Structured listing groups cannot establish execution')
         supplied=context.correction.get('listing_index',[]);cursor=0
@@ -399,6 +416,9 @@ def project_structured(recipe, originals):
     if programs:
         from .assembly_programs import finish_programs
         finish_programs(recipe, package, correction, contexts, program_records)
+    if formatted:
+        from .assembly_formatted import finish
+        finish(recipe, package, correction, contexts)
     if source_indexes:
         from .assembly_source_indexes import finish_indexes
         finish_indexes(package,correction,contexts)
