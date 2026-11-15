@@ -1283,3 +1283,58 @@ every address/byte/mnemonic/operand field and source anomaly. Then assemble and
 independently rebuild the complete 93–101 article from immutable segments.
 Continue every remaining November identity, covers/source-image accounting and
 the checked whole-issue native export/rebuild.
+
+## R26 completed — 2026-11-15
+
+Restored 로즈런너's original List 2 continuation on actual 99–101 as an
+independent reproducible native segment. The opening 0C63 follows segment a's
+0C60. The physical listing ends at printed 0F33 FF ???, after the earlier RTS
+at 0ED1; actual 102 opens 깡통이 통-통-통. All observed article source pages
+93–101 are now restored in separate immutable segments. Whole-article assembly
+and its independent rebuild remain pending.
+
+Every one of the 324 printed rows retains an independent address, byte group,
+mnemonic and operand field. The native indexes contain 721 separate printed
+byte fields, 95 explicit blank operands and 2,017 physical fields overall.
+Thirty-three ??? rows, twenty-five BRK rows and fourteen consecutive repeated
+runs retain every source occurrence. Both consecutive RTS rows at 0D2E/0D2F
+remain distinct. No repeated record was dropped or inferred padding added.
+
+The original E8 / INA pairing at 0EC1 remains unchanged, as do ASL $FFFF and
+the 0F2D 0C ??? row. Four local B/8 or D/0 alternatives retain selected readings,
+source spans and null original glyph counts. Two direct original-master row
+details independently match source pixels and document the 0F22/0F27 shape
+comparison. Printed byte fields remain source literals; no generated binary,
+disassembler normalization, program execution or source-correctness claim.
+
+There are 193 typed address-literal matches, including one matching the earlier
+0C02 row in immutable segment a. These record textual address equality, with
+explicit selected/prior/unmatched scope; they do not certify control flow or
+code/data ownership. The continuation and original ending retain their own
+source relationships and assembly handoff.
+
+All 33 native files match a separate-process rebuild byte for byte. All six
+mapped crops match decoded-master pixels, and 28 invalid structural cases
+reject. Twenty-four earlier native packages and their frozen evidence,
+classifications, masters and shared plans retain exact pins. Rehashed R22
+implementation/test pins and frozen logs support reuse of the unchanged
+239-test baseline; those regressions were not rerun for this data-only segment.
+
+All six OCR tasks completed without engine failure or retry. No crop refinement
+or post-OCR geometry change was needed. Native preparation, both exports,
+structure preflight and full audit passed on their first attempts. Prospective
+timing starts before mapping/OCR; three inherited full-page revalidation views
+preceded that timer and are not included in it. Cleanup ran in preview mode
+only. The checkpoint freezes 119 private evidence files.
+
+November remains at thirteen complete articles, one partial article, six
+non-owning headings and 20 unclassified identities. Original encoding/typesetting,
+source correctness, execution and human acceptance remain unverified.
+
+See the [로즈런너 continuation result](metadata/catalog/scan-restoration/1984-11-lores-runner-b.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R27**, qualify an explicit address-based monitor join from 0C60 to 0C63
+and assemble/rebuild the complete 93–101 article. The existing numbered-program
+join cannot express this source boundary; retain original address identities
+and all typed structures when extending it. Continue every remaining November
+identity, covers/source-image accounting and checked whole-issue native export.

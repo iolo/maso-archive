@@ -274,14 +274,16 @@ restored JSON/assets and faithful source evidence first.
 | R23 — 컨닝 | Actual 86–89; complete native article package | 75 identical native files; 223 numbered units / 253 physical rows, 76 table cells, 223 DATA tokens including split 14, original screen/closing emblem, five uncertain key-label occurrences and literal source anomalies retained |
 | R24 — 배고픈 거미 | Actual 90–92; complete native article package | 59 identical native files; 226 numbered units / 253 physical rows, 36 table cells, six sprite DATA groups / 192 hex fields, 22 web-coordinate pairs, nine fruit triples, cross-page 1270 and original DRAW/PLAY fragments; 21 local uncertainties retained |
 | R25 — 로즈런너 opening segment a | Actual 93–98; whole article remains partial | 101 identical native files; independent setup, complete BASIC 1000–5410 / 463 physical rows, monitor 0C00–0C60 / 99 byte fields, twelve paragraphs, 24 variable fields, 140 drawing commands, original screenshots/captions and explicit 99–101 continuation |
+| R26 — 로즈런너 continuation segment b | Actual 99–101; all source pages restored, assembly pending | 33 identical native files; 324 monitor rows, 721 byte fields, 95 blank operands, fourteen repeated BRK/??? runs, original INA/E8 and final 0F33 FF ??? retained; four local glyph alternatives |
 
-Immediate next action: **R26**, restore actual 99–101 of 로즈런너,
-`maso-1984-11-toc-0010`, as the original List 2 machine-language continuation.
-Source 99 begins 0C63 after segment a's 0C60; source 101 ends at printed
-0F33 FF ??? before the next article on 102. Retain every printed field and
-source anomaly. Then assemble and independently rebuild the complete 93–101
-article, preserving segment a's complete BASIC, setup, prose/table/figures,
-physical fragments, source glyphs and typed relationships.
+Immediate next action: **R27**, assemble complete 로즈런너,
+`maso-1984-11-toc-0010`, actual 93–101, from immutable segments a and b.
+Qualify an explicit address-based source program join from 0C60 to 0C63;
+the existing numbered-program join cannot represent these printed boundaries.
+Retain three independent contexts: setup, complete BASIC and one whole monitor
+listing. Independently rebuild and audit all 831 physical rows, 810 logical
+units, 820 monitor byte fields, original figures/captions, local alternatives
+and typed relationships. Preserve all original segment files and evidence.
 Preserve complete 배고픈 거미 on actual 90–92,
 including the numberless incoming 1270 fragment, selective 2470 explanation,
 original sprite groups, numeric groups, macro strings and local uncertainty.

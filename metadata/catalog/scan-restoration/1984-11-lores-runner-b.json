@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R26",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0010",
+  "title": "로즈런너",
+  "observed_title": "로즈런너",
+  "outcome": "Verified reproducible presentation-independent List 2 continuation 99-101: all 324 physical/logical rows, 721 printed byte fields, independent blank operands, repeated unknown/trap runs, original INA/E8, source address-literal matches and local glyph alternatives retained. All source pages restored across segments; whole assembly pending.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-099.jpg",
+      "sha256": "d2573ba4ffee6882d302505d5dfb3e96f910dd1361023bad5da67f34c5361031",
+      "bytes": 7759196
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-100.jpg",
+      "sha256": "ac35e1b3a0f6690e2f42b654250c784e68624435adef97fe4908df390974a193",
+      "bytes": 8002743
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-101.jpg",
+      "sha256": "fad41213657e493ce8f10aa5b118dc10fe6eed34551af1a9c4291bd842b25fa2",
+      "bytes": 8360183
+    }
+  ],
+  "printed_folios": [
+    "99",
+    "100",
+    "101"
+  ],
+  "observed_whole_extent": [
+    93,
+    101
+  ],
+  "restored_segment_extent": [
+    99,
+    101
+  ],
+  "segment_id": "b",
+  "pending_folios": [],
+  "assembly_pending": true,
+  "selected_package": "archive/scans/1984-11/packages/lores-runner-b-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/lores-runner-b-r01/manifest.json",
+    "sha256": "0aa7847d35e7616f0da548100a23979ce0ed2972033b7fe4f78a6ca6255ae919",
+    "bytes": 5489
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-26/validation.json",
+    "sha256": "23fca207db6df617bb6a26576bd78f37b8e6c470770636878d05c7acd840d4b6",
+    "bytes": 19984
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-26/evidence-manifest.json",
+    "sha256": "eaccc0e1a80069fdcd65b0efe987c6086d6dd559662cb84a8a69bbe3e59153ff",
+    "bytes": 25250
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-26/scope.json",
+    "sha256": "a5445a73c881244cc975274febaf8196c5654d6ca5fa8de69d93b329119e9086",
+    "bytes": 1192
+  },
+  "summary": {
+    "sourceImages": 3,
+    "regions": 6,
+    "blocks": 1,
+    "figures": 0,
+    "ocrTasks": 6,
+    "listingContexts": 1,
+    "physicalRows": 324,
+    "logicalUnits": 324,
+    "monitorByteFields": 721,
+    "physicalFields": 2017,
+    "blankOperands": 95,
+    "unknownMnemonicRows": 33,
+    "brkRows": 25,
+    "repeatedListingRuns": 14,
+    "addressLiteralMatches": 193,
+    "priorSegmentAddressMatches": 1,
+    "localUncertainties": 4,
+    "firstPrintedAddress": "0C63",
+    "lastPrintedAddress": "0F33",
+    "wholeAssemblyPending": true,
+    "nativeFiles": 33,
+    "negativeCases": 28,
+    "ocrSeconds": 7.539252814996871
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p099-monitor-left",
+      "source_index": 102,
+      "pixel_bounds": [
+        427,
+        780,
+        1602,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-099/p099-monitor-left.png",
+        "sha256": "72e5df82f2803b5ff35a86cf17151ac7223a5f08bd5c853bd6d5664b3889c101",
+        "bytes": 7318601
+      }
+    },
+    {
+      "region_id": "p099-monitor-right",
+      "source_index": 102,
+      "pixel_bounds": [
+        2258,
+        780,
+        3408,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-099/p099-monitor-right.png",
+        "sha256": "a0e9165257703bfdda5171fc84a1ba5bb955af923eb4051bccd0bb153275490d",
+        "bytes": 7224012
+      }
+    },
+    {
+      "region_id": "p100-monitor-left",
+      "source_index": 103,
+      "pixel_bounds": [
+        451,
+        780,
+        1621,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-100/p100-monitor-left.png",
+        "sha256": "df6e6e33a7fe53b89d37c04978d678a3a4c60cde0a057276fc7923d26c709b32",
+        "bytes": 7325910
+      }
+    },
+    {
+      "region_id": "p100-monitor-right",
+      "source_index": 103,
+      "pixel_bounds": [
+        2297,
+        792,
+        3427,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-100/p100-monitor-right.png",
+        "sha256": "8bb46bcab484d97a0affe7564e707536a13464cd09d19b7785e96213a576f859",
+        "bytes": 7097999
+      }
+    },
+    {
+      "region_id": "p101-monitor-left",
+      "source_index": 104,
+      "pixel_bounds": [
+        423,
+        780,
+        1624,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-101/p101-monitor-left.png",
+        "sha256": "62222083ae161a43145a04d22f00f2b240473c2ac53eba121a4511743e2aef15",
+        "bytes": 7845758
+      }
+    },
+    {
+      "region_id": "p101-monitor-right",
+      "source_index": 104,
+      "pixel_bounds": [
+        2261,
+        786,
+        3433,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-101/p101-monitor-right.png",
+        "sha256": "68d4c299acf736572e6c1592768346b5d60b730f146c3e492c809d313ecd3bcb",
+        "bytes": 7441696
+      }
+    }
+  ],
+  "previousCheckpointCommit": "7dda657d",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "91f7fe959cd1e246dd49e7d74d42bd3a1cd76e8de6464dbc62d5739214d74fb0",
+      "bytes": 211140
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "f7443fce3f52398466ad735ecc48ab7923e1e84dd7f6adb0e8b430b51821b2ef",
+      "bytes": 14200
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a61732ba4af3ad2527b5bc4893dd29fce54631420aed4145c0a08b4f0b8b1eb8",
+      "bytes": 17713
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "5cb0e0c82d4b6e8623db1106241d1b0bfcac398ffcc1f217f21f24f59f69e422",
+      "bytes": 16537
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "5a3325c59f06129cd3f296f3bcb77cb49d0baae95e7f1cb846cde0bfa5433287",
+      "bytes": 34557
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 25,
+    "total": 239,
+    "logs": [
+      {
+        "path": "archive/scans/1984-11/restoration/batch-22/pdf-final-regressions.log",
+        "sha256": "b0ddd7d834a0f20c87a770b46801a65159fb4ea727475fb11b7ee680bce383fa",
+        "bytes": 36395
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-22/jpeg-final-regressions.log",
+        "sha256": "58f2e5e0e4b8ed9a83cab823a6e64f1e7fc04fbfde0e1229726ba14be3cf4d81",
+        "bytes": 4779
+      }
+    ],
+    "reason": "R22 implementation/schema/test pins and frozen full regression logs rehashed unchanged; this is a data-only restoration."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 0,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "exportFailures": 0,
+    "independentRebuildFailures": 0,
+    "mapIdPreflightRepairs": 0,
+    "structurePreflightRepairs": 0,
+    "verifierPreflightRepairs": 0
+  },
+  "timingScope": "Prospective from checkpoint creation before mapping/OCR. Revalidation of three R25 full-page lookup views 99-101 preceded this timer; no time estimate added.",
+  "limitations": [
+    "Continuation segment b restores actual 99-101 only. All observed 93-101 source pages are now in separate segments; whole-article native assembly/rebuild remains pending.",
+    "Printed INA/E8, unknown mnemonics, repeated zero/FF rows, blank operands and local B/8 or D/0 alternatives retain exact source links; no inferred executable corrections.",
+    "Original encoding/typesetting, disassembly/program correctness, generated binary/screen/audio output, historical claims and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-26/recipe.json --output archive/scans/1984-11/packages/lores-runner-b-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-26/recipe.json --output work/validation/scans-1984-11-lores-runner-b-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-26/verify-review.py"
+  ],
+  "next": "R27: assemble complete 로즈런너 (maso-1984-11-toc-0010), actual 93-101, from immutable segments a (93-98) and b (99-101). Qualify an explicit address-based source program join from 0C60 to 0C63; the existing numbered-program join cannot represent these printed address boundaries. Preserve three independent contexts (setup, complete BASIC and one whole monitor listing), every original field/blank/run, all source glyph/whitespace alternatives, original figures/captions and typed relationships. Independently rebuild and audit the complete native package; original segments/evidence remain exact. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild."
+}

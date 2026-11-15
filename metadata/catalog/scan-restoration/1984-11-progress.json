@@ -4216,11 +4216,11 @@
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-25/scope.json",
-          "sha256": "2de83ab4a6335f9715289d4532a96fa3cc174f511a864f7d223d76770edb165b",
-          "bytes": 2130
+          "path": "archive/scans/1984-11/restoration/batch-26/scope.json",
+          "sha256": "a5445a73c881244cc975274febaf8196c5654d6ca5fa8de69d93b329119e9086",
+          "bytes": 1192
         },
-        "status": "Observed 93-101 extent located; opening 93-98 restored, machine-language 99-101 and whole assembly pending."
+        "status": "Complete 93-101 source extent restored in immutable segments a/b; whole native assembly/rebuild pending."
       },
       "segments": [
         {
@@ -4376,26 +4376,112 @@
               "bytes": 38775
             }
           ]
+        },
+        {
+          "segment_id": "b",
+          "printed_folios": [
+            "99",
+            "100",
+            "101"
+          ],
+          "source_views": [
+            {
+              "source_index": 102,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-099.jpg",
+                "sha256": "d2573ba4ffee6882d302505d5dfb3e96f910dd1361023bad5da67f34c5361031",
+                "bytes": 7759196
+              },
+              "width_px": 4735,
+              "height_px": 6919,
+              "reading_order": 101,
+              "source_filename_number": 99,
+              "printed_page": "99",
+              "image_to_upright_normalized": [
+                0.00021119324181626187,
+                0,
+                0,
+                0.00014452955629426219,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 103,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-100.jpg",
+                "sha256": "ac35e1b3a0f6690e2f42b654250c784e68624435adef97fe4908df390974a193",
+                "bytes": 8002743
+              },
+              "width_px": 4733,
+              "height_px": 6922,
+              "reading_order": 102,
+              "source_filename_number": 100,
+              "printed_page": "100",
+              "image_to_upright_normalized": [
+                0.00021128248468201986,
+                0,
+                0,
+                0.0001444669170759896,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 104,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-101.jpg",
+                "sha256": "fad41213657e493ce8f10aa5b118dc10fe6eed34551af1a9c4291bd842b25fa2",
+                "bytes": 8360183
+              },
+              "width_px": 4740,
+              "height_px": 6918,
+              "reading_order": 103,
+              "source_filename_number": 101,
+              "printed_page": "101",
+              "image_to_upright_normalized": [
+                0.0002109704641350211,
+                0,
+                0,
+                0.00014455044810638914,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/lores-runner-b-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/lores-runner-b-r01/manifest.json",
+              "sha256": "0aa7847d35e7616f0da548100a23979ce0ed2972033b7fe4f78a6ca6255ae919",
+              "bytes": 5489
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-26/validation.json",
+              "sha256": "23fca207db6df617bb6a26576bd78f37b8e6c470770636878d05c7acd840d4b6",
+              "bytes": 19984
+            }
+          ]
         }
       ],
-      "continuation_pending": [
-        99,
-        100,
-        101
-      ],
+      "continuation_pending": [],
       "assembly_pending": true,
       "pending_listing_continuation": {
         "listing_id": "lores-monitor",
-        "last_printed_address": "0C60",
-        "logical_unit_complete": true,
-        "next_folio": 99,
-        "next_printed_address": "0C63",
-        "whole_last_printed_address": "0F33"
+        "left_segment": "a",
+        "left_last_printed_address": "0C60",
+        "right_segment": "b",
+        "right_first_printed_address": "0C63",
+        "last_printed_address": "0F33",
+        "source_complete": true,
+        "assembly_pending": true
       },
       "limitations": [
-        "Opening segment a restores actual 93-98 only. Actual 99-101 are present; machine-language continuation and whole-article assembly remain pending.",
-        "Original source words, printed anomalies, graphic marks, physical wraps and source relationships retained. Source glyph/blank/ink alternatives remain explicit.",
-        "Original encoding/typesetting, program and disassembly correctness, generated screen/audio/byte output, historical claims and human acceptance remain unverified."
+        "Continuation segment b restores actual 99-101 only. All observed 93-101 source pages are now in separate segments; whole-article native assembly/rebuild remains pending.",
+        "Printed INA/E8, unknown mnemonics, repeated zero/FF rows, blank operands and local B/8 or D/0 alternatives retain exact source links; no inferred executable corrections.",
+        "Original encoding/typesetting, disassembly/program correctness, generated binary/screen/audio output, historical claims and human acceptance remain unverified."
       ]
     },
     {
@@ -5244,6 +5330,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R26: restore actual 99-101 of 로즈런너 (maso-1984-11-toc-0010) as the original List 2 machine-language continuation. Opening segment a retains setup, complete BASIC 1000-5410 and monitor 0C00-0C60; actual 99 begins 0C63, and actual 101 ends at printed 0F33 FF ??? before the next article on 102. Preserve every printed address/byte/mnemonic/operand field, source anomaly, unknown graphic and original relationship. Then assemble and independently rebuild the complete observed 93-101 article with both immutable segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R27: assemble complete 로즈런너 (maso-1984-11-toc-0010), actual 93-101, from immutable segments a (93-98) and b (99-101). Qualify an explicit address-based source program join from 0C60 to 0C63; the existing numbered-program join cannot represent these printed address boundaries. Preserve three independent contexts (setup, complete BASIC and one whole monitor listing), every original field/blank/run, all source glyph/whitespace alternatives, original figures/captions and typed relationships. Independently rebuild and audit the complete native package; original segments/evidence remain exact. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }
