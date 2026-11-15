@@ -5,8 +5,8 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 18,
-  "partial_articles": 1,
+  "readable_articles": 19,
+  "partial_articles": 0,
   "identitiesAwaitingDisposition": 15,
   "entries": [
     {
@@ -6373,7 +6373,7 @@
       ],
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "observed_title": "의료보험수가계산",
       "observed_installment": "마지막회",
@@ -6508,14 +6508,77 @@
             0,
             0
           ]
+        },
+        {
+          "source_index": 169,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-166.jpg",
+            "sha256": "43119f1ca158f30f4bb76a470a74886ce44ba58cbe92892762183861914bf4d3",
+            "bytes": 8358543
+          },
+          "width_px": 4726,
+          "height_px": 6931,
+          "reading_order": 168,
+          "source_filename_number": 166,
+          "printed_page": "166",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.00014427932477276007,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 170,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-167.jpg",
+            "sha256": "49d53ccc36349479eb7dafa315eb417daac787c9c18109e713f039e6882ba6e3",
+            "bytes": 8795844
+          },
+          "width_px": 4709,
+          "height_px": 6907,
+          "reading_order": 169,
+          "source_filename_number": 167,
+          "printed_page": "167",
+          "image_to_upright_normalized": [
+            0.00021235931195582927,
+            0,
+            0,
+            0.00014478065730418415,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 171,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-168.jpg",
+            "sha256": "44e96a1031310b7c859ca3033fd06735415e46d2143b6f848d1045d9ff5c0c5a",
+            "bytes": 7779384
+          },
+          "width_px": 4726,
+          "height_px": 6913,
+          "reading_order": 170,
+          "source_filename_number": 168,
+          "printed_page": "168",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
         }
       ],
       "package": {
-        "path": "archive/scans/1984-11/packages/medical-fee-a-r02",
+        "path": "archive/scans/1984-11/packages/medical-fee-r02",
         "manifest": {
-          "path": "archive/scans/1984-11/packages/medical-fee-a-r02/manifest.json",
-          "sha256": "43171222904049e1fa9d03ceeffb30e04b0b800bc91acca5614b4297941319b0",
-          "bytes": 15324
+          "path": "archive/scans/1984-11/packages/medical-fee-r02/manifest.json",
+          "sha256": "7fa6ec8edd918cb06bd8cc1eb94cc5f97312b63a110c2ca9137ec5ff256113fe",
+          "bytes": 21213
         }
       },
       "segments": [
@@ -6764,37 +6827,90 @@
       ],
       "evidence": [
         {
-          "path": "archive/scans/1984-11/restoration/batch-35/validation.json",
-          "sha256": "a30846d97b63f261cf7cf6b3dd8960cb1729ffe8c0053098887f4f1c5a18c3bd",
-          "bytes": 41664
+          "path": "archive/scans/1984-11/restoration/batch-37/validation.json",
+          "sha256": "8da4093691a3f8efe0a4ed3d033f582b96c2c5a6275ba2ece0c4c12627fc0960",
+          "bytes": 50402
         }
       ],
-      "assembly_pending": true,
+      "assembly_pending": false,
       "continuation_pending": [],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-36/scope.json",
-          "sha256": "fa527fcf1570a9812113d26862f7fe305bbdde1ae7dfa975dcf4b4373f4579b6",
-          "bytes": 1441
+          "path": "archive/scans/1984-11/restoration/batch-37/validation.json",
+          "sha256": "8da4093691a3f8efe0a4ed3d033f582b96c2c5a6275ba2ece0c4c12627fc0960",
+          "bytes": 50402
         },
-        "status": "Observed160–168 full extent; all source pages restored in immutable opening160–165/final166–168 segments. Explicit21010/21520 boundary and original40410 ending; complete article assembly pending."
+        "finding_key": "summary",
+        "status": "Complete observed160–168 source extent assembled and independently rebuilt; exact numbered/wrapped source rows, report/hierarchy structures, prose disagreements and glyph alternatives retained."
       },
       "limitations": [
-        "Final source segment166–168 only. Opening160–165 is preserved separately; whole-article assembly remains pending.",
-        "All original DATA/order, physical wraps, printer strings, prose/reference disagreement and local punctuation/glyph alternatives retained.",
-        "Original encoded bytes, exact quoted whitespace/typesetting, program correctness/execution and human acceptance remain unverified."
+        "Original encoded bytes, exact typesetting/quoted whitespace, program execution, historical correctness and full human proofreading remain unverified.",
+        "[a] Original encoding and exact whitespace are unverified; no program execution or present-day medical accuracy claimed.",
+        "[a] Original medical/financial/program claims, source spelling/reference anomalies and local printer-glyph alternatives retained without behavioral correction.",
+        "[a] Original encoded bytes, exact typesetting/quoted space counts, program execution and human acceptance remain unverified.",
+        "[a] Selected printer/source display; original encoded bytes, exact whitespace and program execution unverified.",
+        "[b] Original zero/O, glyph count, quoted whitespace, printer marks and encoded bytes require explicit local alternatives.",
+        "[b] The original final branch is retained without asserting that the program ran or recovering machine bytes.",
+        "[b] All original DATA/order, physical wraps, printer strings, prose/reference disagreement and local punctuation/glyph alternatives retained.",
+        "[b] Original encoded bytes, exact quoted whitespace/typesetting, program correctness/execution and human acceptance remain unverified.",
+        "[b] Source display only; exact spaces, original encoding, punctuation and execution remain unverified."
       ],
       "all_source_pages_restored": true,
-      "pending_listing_assembly": {
-        "listing_id": "medical-fee-program",
-        "left_last_printed_row": 21010,
-        "right_first_printed_row": 21520,
-        "source_boundary": [
-          165,
-          166
-        ],
-        "printed_number_gap_infers_missing_rows": false
-      }
+      "previous_location_evidence": [
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-36/scope.json",
+            "sha256": "fa527fcf1570a9812113d26862f7fe305bbdde1ae7dfa975dcf4b4373f4579b6",
+            "bytes": 1441
+          },
+          "status": "Observed160–168 full extent; all source pages restored in immutable opening160–165/final166–168 segments. Explicit21010/21520 boundary and original40410 ending; complete article assembly pending."
+        }
+      ],
+      "resolved_programs": [
+        {
+          "id": "medical-fee-program",
+          "listing_id": "a-medical-fee-program",
+          "block_id": "a-medical-fee-program",
+          "left": {
+            "segment": "a",
+            "listing_id": "medical-fee-program",
+            "last_printed_row": 21010,
+            "association": 136
+          },
+          "right": {
+            "segment": "b",
+            "listing_id": "medical-fee-program",
+            "first_printed_row": 21520,
+            "association": 0
+          },
+          "right_block_offset": 9414,
+          "source_text_preserved": true,
+          "execute_verified": false,
+          "source_occurrences": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "78d0005e3262ebb6fb8790cef191a6472b9384f9b724da6f8196ccfbb0fabc17",
+                "bytes": 3664526
+              },
+              "pointer": "/content_associations/136"
+            },
+            {
+              "corrections": {
+                "path": "segments/b/corrections.json",
+                "sha256": "6b5af5f5cafa90dcfd18ab826f70b846b9f59da21286b4a51884a98a9dd7bedd",
+                "bytes": 3299854
+              },
+              "pointer": "/content_associations/0"
+            }
+          ],
+          "numbered_join": {
+            "left_source_unit_id": "medical-fee-program:n21010",
+            "right_source_unit_id": "medical-fee-program:n21520",
+            "missing_rows_inferred": false
+          }
+        }
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0021",
@@ -7218,6 +7334,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R37: assemble complete 의료보험 수가계산 on actual160–168 from immutable medical-fee-a-r02 and medical-fee-b-r01. Preserve52 retrospective entries,120 report cells/metadata,all original assets/captions,272 logical program units/383 physical rows,source DATA groups and every source/glyph/punctuation/prose-reference relationship. Qualify a narrowly scoped explicit printed-number boundary for21010/21520; skipped numbers are not inferred missing instructions. Keep existing assembly modes/recipes and all frozen prior packages/evidence unchanged, verify source-owned UTF-8 projections including code/report/prose, and independently rebuild the complete native article. Any shared-code change requires fresh PDF/JPEG regressions. Continue all remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild; keep shared OCR/PDF plans unchanged.",
+  "next": "R38: locate and restore 어음 거래 관리 (maso-1984-11-toc-0021, contents start169; observed opener169). Establish actual title/byline, body ownership, ending and source structures before mapping at most two identities/six source views. Preserve complete medical-fee160–168 and all earlier selected packages, immutable source segments, local glyph/punctuation alternatives and frozen evidence. Continue all fifteen remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild. Reuse shared OCR/PDF operating plans unchanged.",
   "group_headings": 6
 }

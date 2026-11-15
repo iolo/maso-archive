@@ -1964,3 +1964,51 @@ assemble/rebuild complete 160–168 from both immutable source segments. Preserv
 all 272 logical units / 383 physical rows, report/retrospective structures and
 source alternatives. Every remaining identity and whole-issue source
 accounting/export/rebuild remain in scope.
+
+## R37 completed — 2026-11-15
+
+Assembled complete **의료보험 수가계산**, actual **160–168**, as
+`medical-fee-r02` from both immutable source segments. The native article retains
+52 retrospective entries and their parent relationships, 22 prose paragraphs,
+the original report's metadata and 120 cells, three original figures/captions,
+and **272 logical program units / 383 physical rows**. Its 655 physical fields,
+7,984 source tokens, 391 literal records, DATA groups and 34 local uncertainty
+records remain source-owned and reproducible independently of presentation.
+
+The explicit opt-in `numbered_join` qualifies the observed **21010/21520**
+boundary using both source declarations, folios and the preceding manifest.
+It preserves spaced BASIC numbers, every physical wrap, logical character
+ranges and UTF-8 byte coordinates. No missing instructions or final END directive
+are inferred. Existing assembly recipes retain their previous rules.
+
+All 28 cross-segment prose links now address the embedded source records and
+program units. The prose's **22000** reference has no corresponding printed
+listing unit and remains an explicit source disagreement. The second prose
+22530 clearing-loop reference still differs from the actual 22532 source loop.
+Selected `ㅊ` / `ㅜㅣ` fragments, zero/O, quoted-space and semicolon/colon
+alternatives remain unchanged. Original encoding, exact typesetting/whitespace,
+program correctness/execution and full human proofreading remain unverified.
+
+All **122 native files reproduce byte for byte** in an independent build;
+all **26 master-derived pixel crops** match. The independent original-record
+and coordinate audit rejects **44 deliberately damaged structures**. All
+**35 earlier selected packages and frozen evidence** remain exact and valid.
+Fresh shared regressions pass: **214 PDF + 34 JPEG/recognition/assembly = 248**.
+The 23 successful source OCR tasks are reused, with no new OCR. PLAN-OCR.md and
+PLAN-PDF.md remain unchanged.
+
+The first native candidate remains pinned and unselected: a department DATA
+source-unit list still used segment-local identities. The corrected projection
+has dedicated coverage; fresh `r02` export/rebuild passes. Projection, fixture
+and checker failures and logs are retained. The first full audit's report-zero
+mutation selected a cell already containing its replacement; the retained
+checker was corrected to select an actual zero, and the second full audit passes.
+Cleanup was preview-only; **34 private evidence files** are frozen.
+
+November now has **nineteen complete articles, no partial articles, six
+non-owning headings and fifteen identities awaiting disposition**. See the
+[R37 result](metadata/catalog/scan-restoration/1984-11-medical-fee.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R38**, establish the complete source extent and structures of
+**어음 거래 관리**, whose observed opener is 169. Every remaining identity and
+whole-issue covers/source accounting/export/rebuild remain in scope.

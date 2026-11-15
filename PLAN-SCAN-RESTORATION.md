@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R36 are complete; the active goal is to restore all November 1984 articles.
+R00–R37 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -285,17 +285,20 @@ restored JSON/assets and faithful source evidence first.
 | R34 — 전산개발 시스템 연구 | Actual 154–159; complete native article package | 212 identical files; five layouts / 52 fields / twenty ruler bands, 111 cells / 59 blanks, two flow graphs, three screens / nineteen UI fields and original evaluation report; 54 invalid cases rejected |
 | R35 — 의료보험 수가계산 opening segment a | Actual 160–165; whole article remains partial | 92 identical files; 52 retrospective entries, 120 report cells, 131 logical program units / 194 physical rows, 29 DATA strings and original illustrations/captions; 53 invalid cases rejected |
 | R36 — 의료보험 수가계산 final segment b | Actual 166–168; all source pages restored, assembly pending | 21 identical files; 141 logical units / 189 physical rows, 68 numeric DATA fields, fourteen department strings, ten classification labels and original prose-number disagreement; 47 invalid cases rejected |
+| R37 — complete 의료보험 수가계산 assembly | Actual 160–168; complete native article package | 122 identical files; 272 logical units / 383 physical rows, 52 retrospective entries, 120 report cells, explicit 21010/21520 boundary and all source relationships/alternatives; 44 invalid cases rejected and 248 fresh regressions |
 
-Immediate next action: **R37**, assemble complete 의료보험 수가계산 on actual
-160–168, `maso-1984-11-toc-0020`, from immutable `medical-fee-a-r02` and
-`medical-fee-b-r01`. All source pages are restored. Preserve the 52 retrospective
-entries, report metadata/120 cells, three original assets, 272 logical program
-units / 383 physical rows, original DATA fields and all local alternatives and
-source relationships. Qualify narrowly scoped explicit printed-number boundary
-support for 21010/21520 without inferring missing instructions or changing existing
-assembly semantics. Check source program identity and every source-owned UTF-8
-projection, then independently rebuild the complete native article. Any shared-code
-change requires fresh PDF/JPEG regressions; shared OCR/PDF plans remain unchanged.
+Immediate next action: **R38**, locate and restore 어음 거래 관리,
+`maso-1984-11-toc-0021`, with contents start candidate and observed opener **169**.
+Establish the actual title/byline, ending, body ownership and source structures
+before mapping at most two identities/six source views. Preserve complete
+의료보험 수가계산 on actual 160–168 and both immutable segments. Its 122 native
+files reproduce exactly; all 26 pixel crops, 44 negative cases and fresh
+214 PDF / 34 JPEG-recognition-assembly tests pass. The opt-in observed numbered
+join preserves spaced BASIC numbers and physical wraps without inferred missing
+instructions. Keep all 52 retrospective entries, 120 report cells/metadata,
+272 logical units / 383 physical rows, DATA and source relationships, original
+22000 and 22530/22532 prose disagreements, and 34 local alternatives. Original
+encoded bytes and execution remain unverified. Shared OCR/PDF plans are unchanged.
 Preserve complete 전산개발 시스템 연구
 on actual 154–159, including all original layouts/ruler bands/blank fields,
 seven-column I/O grids and their unusual value placement, two flow graphs,
@@ -327,7 +330,7 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has eighteen complete article packages, one partial article, six non-owning
+November now has nineteen complete article packages, no partial articles, six non-owning
 headings and 15 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.

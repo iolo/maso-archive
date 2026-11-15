@@ -429,6 +429,26 @@ metadata projection. In particular, qualifying the November 아기펭귄 3240
 boundary does not certify its tables, graphic-marker indexes or cross-segment
 relationships, or mark the whole article complete.
 
+For distinct BASIC units with spaced printed numbers, a program link may instead
+declare `numbered_join` with `left_source_unit_id`, `right_source_unit_id`, and
+`missing_rows_inferred: false`. This requires `regional-literals-v2`. Both
+original continuation records must explicitly deny missing-row inference and
+agree on the actual boundary numbers, folios, label and previous manifest.
+Every observed number must match its physical and logical source records in
+strictly increasing order. Every physical row has exactly one logical owner;
+logical character ranges omit physical newlines while UTF-8 coordinates retain
+them. A declared final source unit is required. Gaps never create instructions.
+
+This opt-in projection also qualifies cross-segment explanation occurrences
+against the embedded preceding corrections and source unit, scopes report and
+DATA references, and preserves retrospective parent identities. A printed prose
+number absent from the complete observed listing remains an explicit unresolved
+source disagreement. It is not replaced by a nearby program line. Immutable
+source corrections retain all original declarations; active continuation flags
+describe the assembled source extent. Completion asserts neither executable
+correctness nor original machine bytes. Recipes without this extension retain
+their existing projection rules.
+
 Set `source_index_mode: regional-literals-v1` on a structured-program recipe
 when the source segments also carry complete `text_index`, `unresolved_graphics`
 and `unresolved_text` indexes. This separate opt-in projects all original block

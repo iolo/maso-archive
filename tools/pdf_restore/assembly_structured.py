@@ -42,6 +42,8 @@ def validate_recipe(recipe):
         required.add('source_index_mode')
     if programs and any('address_join' in r for r in recipe['program_links']) and recipe.get('source_index_mode')!='regional-literals-v2':
         raise ValueError('Printed address joins require regional-literals-v2')
+    if programs and any('numbered_join' in r for r in recipe['program_links']) and recipe.get('source_index_mode')!='regional-literals-v2':
+        raise ValueError('Observed numbered joins require regional-literals-v2')
     if set(recipe) != required:
         raise ValueError('Unknown or missing structured assembly recipe field')
     if not isinstance(recipe['segments'], list) or not 2 <= len(recipe['segments']) <= 12:
@@ -116,6 +118,7 @@ class Context:
         self.assets = {r['region_id']: r['asset'] for r in source['region_assets']}
         self.formatted = False
         self.program_mode = False
+        self.numbered = False
         self.source_indexes = source_indexes
         self.extended_source_indexes = source_indexes and source_index_version=='regional-literals-v2'
         self.logical_aliases = {}
@@ -143,6 +146,12 @@ class Context:
             return deepcopy(value)
         result = {}
         for key, item in value.items():
+            if self.numbered:
+                from .assembly_numbered import reference
+                handled, revised = reference(self, key, item)
+                if handled:
+                    result[key] = revised
+                    continue
             if self.formatted:
                 from .assembly_formatted import reference
                 handled, revised = reference(self, key, item)
@@ -263,7 +272,9 @@ def project_structured(recipe, originals):
         prepare(recipe, contexts)
     programs = recipe['index_mode'] == 'structured-programs-v1'
     fragments = programs and any('logical_join' in r for r in recipe['program_links'])
-    for context in contexts:context.program_mode = programs
+    for context in contexts:
+        context.program_mode = programs
+        context.numbered = programs and any('numbered_join' in r for r in recipe['program_links'])
     first=contexts[0].source;package=deepcopy(first)
     for key in ('pages','regions','excluded_regions','blocks','figures','content_order','raw_ocr','region_assets'):
         package[key]=[]

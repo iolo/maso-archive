@@ -1,0 +1,960 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R37",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0020",
+  "title": "의료보험 수가계산",
+  "observed_title": "의료보험수가계산",
+  "observed_whole_extent": [
+    160,
+    168
+  ],
+  "outcome": "Complete reproducible native medical-fee article160–168:52 retrospective entries,120 report cells/metadata,three original figures,272 logical program units/383 physical rows,DATA groups,28 source-owned cross-segment prose links and34 local uncertainty records. Original22000 absent-number and22530/22532 disagreements remain explicit; no inferred missing instructions, END directive or original machine bytes.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/medical-fee-r02",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/medical-fee-r02/manifest.json",
+    "sha256": "7fa6ec8edd918cb06bd8cc1eb94cc5f97312b63a110c2ca9137ec5ff256113fe",
+    "bytes": 21213
+  },
+  "assembly_record": {
+    "path": "archive/scans/1984-11/packages/medical-fee-r02/assembly.json",
+    "sha256": "3da1042eaf43dc41ae50d78c681ee2d34938e4eb50b7962de6f09f1758869e6c",
+    "bytes": 1342
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-37/validation.json",
+    "sha256": "8da4093691a3f8efe0a4ed3d033f582b96c2c5a6275ba2ece0c4c12627fc0960",
+    "bytes": 50402
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-37/evidence-manifest.json",
+    "sha256": "d33d6351f5d1afebb709a46411f54b98eb994981b644bd38288cc8f76c2f9dcc",
+    "bytes": 7365
+  },
+  "assembly_recipe": {
+    "path": "archive/scans/1984-11/restoration/batch-37/assembly-recipe.json",
+    "sha256": "c4fb7de366710b149f38fc47a3e73e8299e4e49c729e3d45708e272f70d44f43",
+    "bytes": 3577
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-160.jpg",
+      "sha256": "d1151c49e2eb9cabc899cca08a933770cdecd3b39e6fd1d85a787561681754bd",
+      "bytes": 9283694
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-161.jpg",
+      "sha256": "cae08dab01e67cc59f1de1b154676f4f1f3d4205cd5a7937a76c79fce3e14f7a",
+      "bytes": 10511639
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-162.jpg",
+      "sha256": "ba6da7fcdbe95c1cef73240c963d57ecced1800ff6f8f9edfd067465d59184ac",
+      "bytes": 7901771
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-163.jpg",
+      "sha256": "460885e60a14f42553c214e5fa62abc6942705a0461ab60f8ca232ac4ede6dda",
+      "bytes": 8953689
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-164.jpg",
+      "sha256": "0331f16944027b573ce2a1507aca2ad741162372a42c00cff610a0ee3a926caa",
+      "bytes": 7885905
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-165.jpg",
+      "sha256": "8254229430ad5cbfd7d5921df7b80fd83a599c669be6b54fe5b93d690f693a4b",
+      "bytes": 8102896
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-166.jpg",
+      "sha256": "43119f1ca158f30f4bb76a470a74886ce44ba58cbe92892762183861914bf4d3",
+      "bytes": 8358543
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-167.jpg",
+      "sha256": "49d53ccc36349479eb7dafa315eb417daac787c9c18109e713f039e6882ba6e3",
+      "bytes": 8795844
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-168.jpg",
+      "sha256": "44e96a1031310b7c859ca3033fd06735415e46d2143b6f848d1045d9ff5c0c5a",
+      "bytes": 7779384
+    }
+  ],
+  "printed_folios": [
+    "160",
+    "161",
+    "162",
+    "163",
+    "164",
+    "165",
+    "166",
+    "167",
+    "168"
+  ],
+  "immutable_segments": [
+    {
+      "segment_id": "a",
+      "printed_folios": [
+        "160",
+        "161",
+        "162",
+        "163",
+        "164",
+        "165"
+      ],
+      "source_views": [
+        {
+          "source_index": 163,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-160.jpg",
+            "sha256": "d1151c49e2eb9cabc899cca08a933770cdecd3b39e6fd1d85a787561681754bd",
+            "bytes": 9283694
+          },
+          "width_px": 4750,
+          "height_px": 6921,
+          "reading_order": 162,
+          "source_filename_number": 160,
+          "printed_page": "160",
+          "image_to_upright_normalized": [
+            0.0002105263157894737,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 164,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-161.jpg",
+            "sha256": "cae08dab01e67cc59f1de1b154676f4f1f3d4205cd5a7937a76c79fce3e14f7a",
+            "bytes": 10511639
+          },
+          "width_px": 4729,
+          "height_px": 6916,
+          "reading_order": 163,
+          "source_filename_number": 161,
+          "printed_page": "161",
+          "image_to_upright_normalized": [
+            0.00021146119687037428,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 165,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-162.jpg",
+            "sha256": "ba6da7fcdbe95c1cef73240c963d57ecced1800ff6f8f9edfd067465d59184ac",
+            "bytes": 7901771
+          },
+          "width_px": 4727,
+          "height_px": 6920,
+          "reading_order": 164,
+          "source_filename_number": 162,
+          "printed_page": "162",
+          "image_to_upright_normalized": [
+            0.0002115506663845991,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 166,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-163.jpg",
+            "sha256": "460885e60a14f42553c214e5fa62abc6942705a0461ab60f8ca232ac4ede6dda",
+            "bytes": 8953689
+          },
+          "width_px": 4733,
+          "height_px": 6925,
+          "reading_order": 165,
+          "source_filename_number": 163,
+          "printed_page": "163",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 167,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-164.jpg",
+            "sha256": "0331f16944027b573ce2a1507aca2ad741162372a42c00cff610a0ee3a926caa",
+            "bytes": 7885905
+          },
+          "width_px": 4726,
+          "height_px": 6925,
+          "reading_order": 166,
+          "source_filename_number": 164,
+          "printed_page": "164",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 168,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-165.jpg",
+            "sha256": "8254229430ad5cbfd7d5921df7b80fd83a599c669be6b54fe5b93d690f693a4b",
+            "bytes": 8102896
+          },
+          "width_px": 4731,
+          "height_px": 6928,
+          "reading_order": 167,
+          "source_filename_number": 165,
+          "printed_page": "165",
+          "image_to_upright_normalized": [
+            0.0002113718030014796,
+            0,
+            0,
+            0.0001443418013856813,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/medical-fee-a-r02",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/medical-fee-a-r02/manifest.json",
+          "sha256": "43171222904049e1fa9d03ceeffb30e04b0b800bc91acca5614b4297941319b0",
+          "bytes": 15324
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-35/validation.json",
+          "sha256": "a30846d97b63f261cf7cf6b3dd8960cb1729ffe8c0053098887f4f1c5a18c3bd",
+          "bytes": 41664
+        }
+      ]
+    },
+    {
+      "segment_id": "b",
+      "printed_folios": [
+        "166",
+        "167",
+        "168"
+      ],
+      "source_views": [
+        {
+          "source_index": 169,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-166.jpg",
+            "sha256": "43119f1ca158f30f4bb76a470a74886ce44ba58cbe92892762183861914bf4d3",
+            "bytes": 8358543
+          },
+          "width_px": 4726,
+          "height_px": 6931,
+          "reading_order": 168,
+          "source_filename_number": 166,
+          "printed_page": "166",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.00014427932477276007,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 170,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-167.jpg",
+            "sha256": "49d53ccc36349479eb7dafa315eb417daac787c9c18109e713f039e6882ba6e3",
+            "bytes": 8795844
+          },
+          "width_px": 4709,
+          "height_px": 6907,
+          "reading_order": 169,
+          "source_filename_number": 167,
+          "printed_page": "167",
+          "image_to_upright_normalized": [
+            0.00021235931195582927,
+            0,
+            0,
+            0.00014478065730418415,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 171,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-168.jpg",
+            "sha256": "44e96a1031310b7c859ca3033fd06735415e46d2143b6f848d1045d9ff5c0c5a",
+            "bytes": 7779384
+          },
+          "width_px": 4726,
+          "height_px": 6913,
+          "reading_order": 170,
+          "source_filename_number": 168,
+          "printed_page": "168",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/medical-fee-b-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/medical-fee-b-r01/manifest.json",
+          "sha256": "e1804ede1c945c7459c8075a80b3e3cf941f0343629360e56d913a0b755ca3e4",
+          "bytes": 3389
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-36/validation.json",
+          "sha256": "dea9bbcdf91c9bdb2b77d3bfeb4b776ed9582c75f9ff715f4a5bd61c0a287da3",
+          "bytes": 22257
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "sourceImages": 9,
+    "regions": 26,
+    "blocks": 14,
+    "figures": 3,
+    "logicalUnits": 272,
+    "physicalRows": 383,
+    "physicalFields": 655,
+    "sourceTokens": 7984,
+    "sourceLiterals": 391,
+    "retrospectiveEntries": 52,
+    "reportCells": 120,
+    "localUncertainties": 34,
+    "explanationLinks": 28,
+    "absentPrintedProseReference": 22000,
+    "nativeFiles": 122,
+    "negativeActualSourceCases": 44
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "a-p160-installment",
+      "source_index": 163,
+      "pixel_bounds": [
+        238,
+        414,
+        820,
+        618
+      ],
+      "scan": {
+        "path": "segments/a/ocr-160/p160-installment.png",
+        "sha256": "abf45fa72a545388207d91db0c321b90162979413dbbe627f77d6feb25aef07c",
+        "bytes": 173251
+      }
+    },
+    {
+      "region_id": "a-p160-title",
+      "source_index": 163,
+      "pixel_bounds": [
+        947,
+        1266,
+        3188,
+        1681
+      ],
+      "scan": {
+        "path": "segments/a/ocr-160/p160-title.png",
+        "sha256": "863bcae96a4e8a6b89ea9c2359b9202c7711e2b35b452816ba3357b738179ad1",
+        "bytes": 1776610
+      }
+    },
+    {
+      "region_id": "a-p160-byline",
+      "source_index": 163,
+      "pixel_bounds": [
+        2721,
+        2442,
+        3797,
+        2808
+      ],
+      "scan": {
+        "path": "segments/a/ocr-160/p160-byline.png",
+        "sha256": "ce3a35494465f3fbe1b8abdb2d0341b9a3b2a80a85a38689b5d1315ffe857584",
+        "bytes": 482166
+      }
+    },
+    {
+      "region_id": "a-p160-history-heading",
+      "source_index": 163,
+      "pixel_bounds": [
+        1601,
+        2988,
+        2451,
+        3102
+      ],
+      "scan": {
+        "path": "segments/a/ocr-160/p160-history-heading.png",
+        "sha256": "a306d889e0f9ba3fa3454a96e004c5d4bd2a8d9dcae7702c9a04983247d5fe8c",
+        "bytes": 158192
+      }
+    },
+    {
+      "region_id": "a-p160-history-left",
+      "source_index": 163,
+      "pixel_bounds": [
+        448,
+        3210,
+        1911,
+        5442
+      ],
+      "scan": {
+        "path": "segments/a/ocr-160/p160-history-left.png",
+        "sha256": "ba8f2beeaae2f434a96052f940a6434ee119599793d12ff9cfd5305339470bec",
+        "bytes": 4055811
+      }
+    },
+    {
+      "region_id": "a-p160-history-right",
+      "source_index": 163,
+      "pixel_bounds": [
+        2166,
+        3210,
+        3666,
+        5442
+      ],
+      "scan": {
+        "path": "segments/a/ocr-160/p160-history-right.png",
+        "sha256": "b9a35c0ba45c5c1b1f715f532a5342c3ce3f8a2057367aceb6d7d71c4ae63b52",
+        "bytes": 4160057
+      }
+    },
+    {
+      "region_id": "a-p161-intro",
+      "source_index": 164,
+      "pixel_bounds": [
+        287,
+        750,
+        1978,
+        1464
+      ],
+      "scan": {
+        "path": "segments/a/ocr-161/p161-intro.png",
+        "sha256": "488625fcee6f8580be8ffb3019077020fdb5d758acf9065e358f40ca52e2163b",
+        "bytes": 1625197
+      }
+    },
+    {
+      "region_id": "a-p161-heading1",
+      "source_index": 164,
+      "pixel_bounds": [
+        307,
+        1644,
+        1158,
+        1794
+      ],
+      "scan": {
+        "path": "segments/a/ocr-161/p161-heading1.png",
+        "sha256": "abacdfce098db78e54fbc95a28774b606d4e1b9912e6411c4b468f88b3c76c36",
+        "bytes": 207147
+      }
+    },
+    {
+      "region_id": "a-p161-body-left",
+      "source_index": 164,
+      "pixel_bounds": [
+        287,
+        1872,
+        1986,
+        4224
+      ],
+      "scan": {
+        "path": "segments/a/ocr-161/p161-body-left.png",
+        "sha256": "a12d0dfc3c9ce166a43a0a1fb96f2ad878c4d32c76edf98f10698924c75a4542",
+        "bytes": 5373745
+      }
+    },
+    {
+      "region_id": "a-p161-body-right",
+      "source_index": 164,
+      "pixel_bounds": [
+        2137,
+        750,
+        3837,
+        4224
+      ],
+      "scan": {
+        "path": "segments/a/ocr-161/p161-body-right.png",
+        "sha256": "1be9a1e99a17f0729364e3c7bfe04278de88f812219b57ad43d4147d952d7fca",
+        "bytes": 8071478
+      }
+    },
+    {
+      "region_id": "a-p161-illustration",
+      "source_index": 164,
+      "pixel_bounds": [
+        287,
+        4278,
+        3816,
+        5562
+      ],
+      "scan": {
+        "path": "segments/a/ocr-161/p161-illustration.png",
+        "sha256": "5e1086b9b057d5b6f497cc0d81509c6088bdaa693f9cb44437f36fd3f2370f3c",
+        "bytes": 10092113
+      }
+    },
+    {
+      "region_id": "a-p162-incoming-left",
+      "source_index": 165,
+      "pixel_bounds": [
+        291,
+        750,
+        1989,
+        1860
+      ],
+      "scan": {
+        "path": "segments/a/ocr-162/p162-incoming-left.png",
+        "sha256": "9e6da62a3cb7586c21cb7a4c94454efd4f7580d59d10369f630cc1e74e434247",
+        "bytes": 2534358
+      }
+    },
+    {
+      "region_id": "a-p162-incoming-right",
+      "source_index": 165,
+      "pixel_bounds": [
+        2156,
+        750,
+        2931,
+        846
+      ],
+      "scan": {
+        "path": "segments/a/ocr-162/p162-incoming-right.png",
+        "sha256": "c03bb87b2993cba218c97c9995beaa1414d1fa3d2714ade1957c6004124f32cb",
+        "bytes": 103271
+      }
+    },
+    {
+      "region_id": "a-p162-heading2",
+      "source_index": 165,
+      "pixel_bounds": [
+        2176,
+        1020,
+        3034,
+        1188
+      ],
+      "scan": {
+        "path": "segments/a/ocr-162/p162-heading2.png",
+        "sha256": "176461d4c57d0d08df2c7b227612a453446a97f1d46695635da4c4f02e7b1979",
+        "bytes": 228616
+      }
+    },
+    {
+      "region_id": "a-p162-body-right",
+      "source_index": 165,
+      "pixel_bounds": [
+        2151,
+        1260,
+        3825,
+        1860
+      ],
+      "scan": {
+        "path": "segments/a/ocr-162/p162-body-right.png",
+        "sha256": "ce2096cca2e24d9a277efc68505a5775bb3823a74dee007b952a30c6c77a344a",
+        "bytes": 1306973
+      }
+    },
+    {
+      "region_id": "a-p162-end-mark",
+      "source_index": 165,
+      "pixel_bounds": [
+        3730,
+        1788,
+        3804,
+        1872
+      ],
+      "scan": {
+        "path": "segments/a/ocr-162/p162-end-mark.png",
+        "sha256": "c35fcc3f948b4fc1bc4e0b8b06a45ba2f9e9d617d3e66e70089ee6f8d7581ac8",
+        "bytes": 11072
+      }
+    },
+    {
+      "region_id": "a-p162-caption1",
+      "source_index": 165,
+      "pixel_bounds": [
+        364,
+        2004,
+        919,
+        2076
+      ],
+      "scan": {
+        "path": "segments/a/ocr-162/p162-caption1.png",
+        "sha256": "78dc9544be17db60688a7fb73b354798b29a8cda2dc63fb9c117ede32dd726f1",
+        "bytes": 59019
+      }
+    },
+    {
+      "region_id": "a-p162-report-original",
+      "source_index": 165,
+      "pixel_bounds": [
+        295,
+        2088,
+        3825,
+        5580
+      ],
+      "scan": {
+        "path": "segments/a/ocr-162/p162-report-original.png",
+        "sha256": "f4dc8493f674628a268418a1f1bfc41b7bb3fe7f1dc3b58f7a64c768c91cb0a7",
+        "bytes": 14821144
+      }
+    },
+    {
+      "region_id": "a-p162-report-text",
+      "source_index": 165,
+      "pixel_bounds": [
+        352,
+        2214,
+        3747,
+        5436
+      ],
+      "scan": {
+        "path": "segments/a/ocr-162/p162-report-text.png",
+        "sha256": "fb64bb496695f85367b44f43c7d715dd8924004620824721029bdd58b5e5d0cd",
+        "bytes": 13204560
+      }
+    },
+    {
+      "region_id": "a-p163-caption-list",
+      "source_index": 166,
+      "pixel_bounds": [
+        282,
+        690,
+        1132,
+        768
+      ],
+      "scan": {
+        "path": "segments/a/ocr-163/p163-caption-list.png",
+        "sha256": "a41c930573362feaa472e566a7be6b3924d54afd0eaaabafa0684777b87d2d02",
+        "bytes": 94946
+      }
+    },
+    {
+      "region_id": "a-p163-listing",
+      "source_index": 166,
+      "pixel_bounds": [
+        414,
+        924,
+        3650,
+        5484
+      ],
+      "scan": {
+        "path": "segments/a/ocr-163/p163-listing.png",
+        "sha256": "9de8eb1493fb5f01c715333cd2ac356d3959adc354454596a01d0c4237ad16e9",
+        "bytes": 20365708
+      }
+    },
+    {
+      "region_id": "a-p164-listing",
+      "source_index": 167,
+      "pixel_bounds": [
+        446,
+        948,
+        3633,
+        5454
+      ],
+      "scan": {
+        "path": "segments/a/ocr-164/p164-listing.png",
+        "sha256": "f9d09d2cfded413db1f78bef3ad7257bd50f120ca97958aab2ca5e578307310f",
+        "bytes": 18276635
+      }
+    },
+    {
+      "region_id": "a-p165-listing",
+      "source_index": 168,
+      "pixel_bounds": [
+        405,
+        948,
+        3598,
+        5448
+      ],
+      "scan": {
+        "path": "segments/a/ocr-165/p165-listing.png",
+        "sha256": "04fb12c09fd50d6a0a9ddc9b0c77211d98a712a56df6eeeb6c0799cd93a47ad3",
+        "bytes": 18620361
+      }
+    },
+    {
+      "region_id": "b-p166-listing",
+      "source_index": 169,
+      "pixel_bounds": [
+        417,
+        869,
+        3707,
+        5454
+      ],
+      "scan": {
+        "path": "segments/b/ocr-166/p166-listing.png",
+        "sha256": "9c11aab0175e286a93953dfd5afde1b0e6f0b0445433a07c08a6e5845ce13f7d",
+        "bytes": 19607567
+      }
+    },
+    {
+      "region_id": "b-p167-listing",
+      "source_index": 170,
+      "pixel_bounds": [
+        417,
+        869,
+        3707,
+        5454
+      ],
+      "scan": {
+        "path": "segments/b/ocr-167/p167-listing.png",
+        "sha256": "7be00b0f83de3d64b2c1d6b748e235fc3d8c27a43bef182815c888d1f31467ca",
+        "bytes": 20364900
+      }
+    },
+    {
+      "region_id": "b-p168-listing",
+      "source_index": 171,
+      "pixel_bounds": [
+        418,
+        869,
+        3717,
+        5454
+      ],
+      "scan": {
+        "path": "segments/b/ocr-168-retry/p168-listing.png",
+        "sha256": "e1783a9f1c57246f1f99565d8b82b4912cce69047f5f7b2a48a3e54f98189bda",
+        "bytes": 18784758
+      }
+    }
+  ],
+  "previousCheckpointCommit": "eade68026e77535c4385fc6e000777ab29863e9c",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "747c95ce352c12a4ad344894d97b5855abf25b9fd303f2ffc9869c1e72048df3",
+      "bytes": 216682
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_numbered_assemble.py",
+      "sha256": "d6d877b8207adfd616878bc639682abc661aba81909d2934402d98c6636dc3e8",
+      "bytes": 13404
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "46d2f4ad8c8b2be5fefeaf9f89cc0e317c0342d42e6751a32a2398a5eb0e7ed8",
+      "bytes": 28021
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_numbered.py",
+      "sha256": "a123c2d5dc6f0d365399a8cf29f795426e93b0ee8d001c3fd544617fa23ccced",
+      "bytes": 10533
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a05173be8ac6367356583f3ec497b47fe382f7753bd3155c7e8b665384ab4890",
+      "bytes": 20501
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "ce11a1f9ba3cea5de910d4a272059bdf5c4c76fefd9a3d96b0b66ebb21075375",
+      "bytes": 23936
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "91a680f120c5f2bba01cb7991e3ee652ee0d52371bd9a533972d9790b1343119",
+      "bytes": 38502
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [
+    "docs/PDF-RESTORATION.md",
+    "tools/pdf_restore/assembly_programs.py",
+    "tools/pdf_restore/assembly_structured.py",
+    "tools/pdf_restore/assembly_numbered.py",
+    "tests/test_image_numbered_assemble.py"
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 34,
+    "total": 248
+  },
+  "regressionLogs": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-37/pdf-final-regressions-02.log",
+      "sha256": "7619eded6c62f2fd7cabfae7d6845808267922c9a37de0290269560fa3f73296",
+      "bytes": 36395
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-37/jpeg-final-regressions-02.log",
+      "sha256": "914477099897a624861b130aa95f1c933bbec75cc962f015ff558b2ec56bc4b3",
+      "bytes": 6738
+    }
+  ],
+  "regressionsFresh": true,
+  "attempts": {
+    "newOcrTasks": 0,
+    "successfulOcrTasksReused": 23,
+    "projectionPreflightRuns": 2,
+    "projectionPreflightFailures": 1,
+    "focusedTestRuns": 4,
+    "focusedTestFailures": 1,
+    "structurePreflightRuns": 4,
+    "structurePreflightFailures": 3,
+    "nativeAssemblyRuns": 2,
+    "nativeRebuildRuns": 2,
+    "supersededUnselectedOutputPairs": 1,
+    "fullAuditRuns": 2,
+    "fullAuditFailures": 1,
+    "finalPdfTests": 214,
+    "finalJpegRecognitionAndAssemblyTests": 34,
+    "note": "First projection correctly rejected unresolved prior prose references. Added source-declared link resolution, explicit absent22000 reference and final source ending qualification. Initial test discovery also included imported fixture tests; switched to module import. A later focused fixture failure used the following rather than preceding prose literal; fixed the fixture source, retaining strict source-pin/occurrence checks. Independent structural preflights corrected checker treatment of region aliases, caption coordinate ownership and joined article.txt code offsets. Full source audit found an unscoped department DATA source-unit list in first native candidate; retained and pinned r01 and its rebuild unselected, fixed opt-in scoping and added rejection coverage, then exported/rebuilt fresh r02. First full audit attempted to change a report cell already containing1 and thus made no change; retained original audit script/log and selected an actual zero occurrence. Second full audit passes all44 negative cases. Final214 PDF/34 JPEG tests are freshly run; earlier logs retained. No source/OCR bytes or shared operating plans changed."
+  },
+  "limitations": [
+    "Original encoded bytes, exact typesetting/quoted whitespace, program execution, historical correctness and full human proofreading remain unverified.",
+    "[a] Original encoding and exact whitespace are unverified; no program execution or present-day medical accuracy claimed.",
+    "[a] Original medical/financial/program claims, source spelling/reference anomalies and local printer-glyph alternatives retained without behavioral correction.",
+    "[a] Original encoded bytes, exact typesetting/quoted space counts, program execution and human acceptance remain unverified.",
+    "[a] Selected printer/source display; original encoded bytes, exact whitespace and program execution unverified.",
+    "[b] Original zero/O, glyph count, quoted whitespace, printer marks and encoded bytes require explicit local alternatives.",
+    "[b] The original final branch is retained without asserting that the program ran or recovering machine bytes.",
+    "[b] All original DATA/order, physical wraps, printer strings, prose/reference disagreement and local punctuation/glyph alternatives retained.",
+    "[b] Original encoded bytes, exact quoted whitespace/typesetting, program correctness/execution and human acceptance remain unverified.",
+    "[b] Source display only; exact spaces, original encoding, punctuation and execution remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-37/assembly-recipe.json --output archive/scans/1984-11/packages/medical-fee-r02",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-37/assembly-recipe.json --output work/validation/scans-1984-11-medical-fee-r02",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-37/verify-assembly.py",
+    "env PYTHONPATH=src:. python3 -m unittest discover -s tests -p 'test_pdf_*.py' -v",
+    "env PYTHONPATH=src:. python3 -m unittest -v tests.test_image_source tests.test_recognition_map tests.test_image_assemble tests.test_image_program_assemble tests.test_image_fragment_assemble tests.test_image_source_indexes tests.test_image_address_assemble tests.test_image_formatted_assemble tests.test_image_numbered_assemble"
+  ],
+  "next": "R38: locate and restore 어음 거래 관리 (maso-1984-11-toc-0021, contents start169; observed opener169). Establish actual title/byline, body ownership, ending and source structures before mapping at most two identities/six source views. Preserve complete medical-fee160–168 and all earlier selected packages, immutable source segments, local glyph/punctuation alternatives and frozen evidence. Continue all fifteen remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild. Reuse shared OCR/PDF operating plans unchanged."
+}
