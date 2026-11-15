@@ -2250,3 +2250,58 @@ non-owning headings and eleven unclassified entries**. See the
 Next: **R42**, restore text-file continuation **191–195**, then assemble the
 complete article in a separate checkpoint. All remaining identities and
 whole-issue covers/source accounting/export/rebuild remain in scope.
+
+## R42 completed — 2026-11-15
+
+Restored final source segment **191–195** of **텍스트 화일이란?** as
+`text-file-b-r02`. Together with immutable opening 185–190, all eleven source
+folios are represented. The whole article remains **partial until checked native
+assembly**; no article-completion count is added yet.
+
+Table 1 retains **18 rows / 54 cells**, its observed blank first header, command
+row group and two footnotes with their source targets. The paired blocked and
+delimited record diagrams retain **six field/example bindings** and four visible
+**#** separators. Original padding counts and field byte offsets are not invented;
+the diagonal marks in the blocked example remain original imagery without an
+asserted connector role. Caption triangles retain their up/right/down directions.
+
+The single printed BASIC program preserves **227 numbered units / 281 physical
+rows**, **fourteen REM-labeled sections**, 2,662 physical source tokens and
+118 literal records, including **three DATA strings**. Source-owned fragments
+retain the 200, 4999 and 11030 column crossings, split 13000 destination digits
+and N1$/N2$/AD$ identifiers. Eight printed sector-map rows retain **64 hex tokens**
+and their ASCII displays as source strings, without recovered-sector or decoded
+byte claims. Two command-format groups preserve eight physical rows, six logical
+commands, 52 tokens, alternative branches and source command-section links.
+
+The original thirteen-selection/twelve-target menu discrepancy, missing
+semicolons, **FILENAMQ**, **SILICON VALLY**, table **억세스** and technical wording
+remain unchanged. **145 local uncertainties** retain rule/quoted spacing and
+glyph alternatives. The selected 30-space BLANK$ literal follows the printed
+**REM 30 SPACES** comment; its selected 15/15 allocation between source fragments
+is explicitly editorial. Original encoded count/allocation, exact spacing,
+execution and full human proofreading remain unverified.
+
+All **161 native files reproduce byte for byte** in a fresh independent build.
+All **41 master-derived crop checks** pass, and **68 deliberately damaged
+structures** are rejected. The **40 earlier selected packages and frozen evidence**
+remain exact and valid. Shared implementation is unchanged; the existing
+**249-test baseline** and logs are rehashed and reused, **not freshly rerun**.
+PLAN-OCR.md and PLAN-PDF.md remain unchanged.
+
+All five original OCR jobs succeeded across **37 tasks**, without crop retry,
+engine switch or repetition of unchanged successful input. The initial map passed.
+Review caught a preparation error that classified the menu's quoted DATA
+MANAGEMENT heading as a DATA statement; the initial inputs are retained, and the
+correction selects only the three strings in the actual 7110 DATA statement.
+Candidate r02 adds logical command groups/tokens and command-section links; r01
+and its inputs remain preserved. Cleanup was preview-only; **376 private evidence
+files** are frozen.
+
+November remains at **twenty-two complete articles, one partial article, six
+non-owning headings and eleven unclassified entries**. See the
+[R42 result](metadata/catalog/scan-restoration/1984-11-text-file-b.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R43**, assemble the complete **185–195** article with checked source,
+structure and coordinate projection and an independent native rebuild. All other
+remaining identities and whole-issue accounting/export/rebuild remain in scope.

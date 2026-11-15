@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R41 are complete; the active goal is to restore all November 1984 articles.
+R00–R42 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -290,14 +290,25 @@ restored JSON/assets and faithful source evidence first.
 | R39 — ISAM | Actual 174–179; complete native article package | 178 identical files; two printed listing contexts, 116 logical units / 132 physical rows, typed linked-record/memory-disk structures, 149 cells / 15 blanks and eleven connectors; 53 invalid cases rejected; unchanged 249-test baseline reused |
 | R40 — 비지캘크 한계의 극복 | Actual 180–184; complete native article package | 212 identical files; eighteen grids / 615 cells / 45 blanks / thirty formulas, eleven command sequences and typed aggregation/transfer relationships; 63 pixel checks and 58 invalid cases; unchanged 249-test baseline reused |
 | R41 — 텍스트 화일이란? opening | Actual 185–190 of observed 185–195; complete native opening segment | 286 identical files; four typed diagrams, 49 record-strip slots, six blank hierarchy slots, eight connectors, eleven command-format groups / 23 logical commands; 74 pixel checks and 49 invalid cases; unchanged 249-test baseline reused |
+| R42 — 텍스트 화일이란? final segment | Actual 191–195; complete native final segment, article assembly pending | 161 identical files; comparison table / 54 cells, paired record diagrams, one program / 227 numbered units / 281 physical rows / fourteen source sections, three DATA strings, eight printed map rows / 64 hex tokens and six logical command formats; 41 pixel checks and 68 invalid cases; unchanged 249-test baseline reused |
 
-Immediate next action: **R42**, restore the **191–195** continuation of
-**텍스트 화일이란?**, `maso-1984-11-toc-0024`, beginning with random WRITE.
-The whole source extent is **185–195**, credited to **편 집 부** under
-**애플 컴패티블**. Source-check the printed menu/example BASIC listing on
-193–195 through its final 14999 row. Then assemble the immutable segments in a
-separate bounded checkpoint with source/structure/coordinate checks and an
-independent native rebuild. Preserve opening `text-file-a-r02` on 185–190:
+Immediate next action: **R43**, assemble complete **텍스트 화일이란?**,
+`maso-1984-11-toc-0024`, on **185–195**, credited to **편 집 부** under
+**애플 컴패티블**. Both native source segments are restored; the whole article
+remains partial until checked assembly. Preserve immutable `text-file-a-r02`
+and `text-file-b-r02`. Project article/listing/source coordinates, caption/figure
+relationships, prose/listing references and source ownership, then independently
+rebuild and byte-compare the complete native article without fresh OCR.
+Final 191–195 retains table1's 54 cells, blank header, row group and footnotes;
+the paired blocked/delimited record diagrams; and one printed program with
+227 numbered units, 281 physical rows, fourteen REM-labeled sections, three DATA
+strings and eight quoted map rows / 64 hex tokens. Keep the three cross-column
+statements, split identifiers/destination digits, thirteen-selection/twelve-target
+menu discrepancy, missing semicolons, FILENAMQ and SILICON VALLY. The selected
+30-space BLANK$ literal follows source REM30; its original byte count and physical
+allocation remain unverified, with the selected 15/15 allocation explicitly
+editorial. Keep rule/quoted spacing and glyph alternatives without repair.
+Preserve opening `text-file-a-r02` on 185–190:
 the original slanted opener/photo/four diagrams, hierarchy/analogy arrows,
 six blank file slots with second-slot hatching, 49 visual record slots with
 stacked C-over-R labels and literal zero-like glyphs, eleven source command
