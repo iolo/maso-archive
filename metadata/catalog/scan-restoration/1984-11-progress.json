@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 20,
+  "readable_articles": 21,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 14,
+  "identitiesAwaitingDisposition": 13,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -7072,10 +7072,173 @@
       "page_candidates": [
         174
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "ISAM",
+      "observed_subtitle": "랜덤 화일 관리 도구 설계",
+      "observed_byline": "트라이젬 / 이 영 진 편역",
+      "observed_whole_extent": [
+        174,
+        179
+      ],
+      "source_views": [
+        {
+          "source_index": 177,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-174.jpg",
+            "sha256": "37ee9cf99846357dc104c2ce345d93d4cb6ab13fa52096916bae4e7b3d3d1f97",
+            "bytes": 8538930
+          },
+          "width_px": 4747,
+          "height_px": 6919,
+          "reading_order": 176,
+          "source_filename_number": 174,
+          "printed_page": "174",
+          "image_to_upright_normalized": [
+            0.0002106593638087213,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 178,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-175.jpg",
+            "sha256": "a3bd0b22e91961411908e749a9d044aa52eb2ea43d74c10608915b1b8cbe8bd0",
+            "bytes": 10565138
+          },
+          "width_px": 4733,
+          "height_px": 6923,
+          "reading_order": 177,
+          "source_filename_number": 175,
+          "printed_page": "175",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 179,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-176.jpg",
+            "sha256": "f2c450c343396cc5dbc474a54cab9c896c94b9e6ca0887817675bb5053278e99",
+            "bytes": 7920607
+          },
+          "width_px": 4726,
+          "height_px": 6929,
+          "reading_order": 178,
+          "source_filename_number": 176,
+          "printed_page": "176",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.0001443209698369173,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 180,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-177.jpg",
+            "sha256": "73e75c4a12b27800d4774944d1527e67e6d138210c9c6d0c38fc4c100b49ea90",
+            "bytes": 8547822
+          },
+          "width_px": 4733,
+          "height_px": 6924,
+          "reading_order": 179,
+          "source_filename_number": 177,
+          "printed_page": "177",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 181,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-178.jpg",
+            "sha256": "fe599e0415175c0b94130692cc00f27b3539da8d8bd2020f1d956d161c8872b1",
+            "bytes": 7854007
+          },
+          "width_px": 4755,
+          "height_px": 6925,
+          "reading_order": 180,
+          "source_filename_number": 178,
+          "printed_page": "178",
+          "image_to_upright_normalized": [
+            0.0002103049421661409,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 182,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-179.jpg",
+            "sha256": "d1d28ece8ec335a1194b04733c0007be1421c9cd46c705f929177d27aa6765a0",
+            "bytes": 8503064
+          },
+          "width_px": 4733,
+          "height_px": 6923,
+          "reading_order": 181,
+          "source_filename_number": 179,
+          "printed_page": "179",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/isam-r03",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/isam-r03/manifest.json",
+          "sha256": "b69c9c19a8e62294f5395a4905c526ee743bbd8b900ec8829af2832d6be1d1c6",
+          "bytes": 29987
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-39/validation.json",
+          "sha256": "9c18ca18a36cc93a813a03558833220b7efe2aefd16fe027c68458e647c8fc3c",
+          "bytes": 65724
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-39/scope.json",
+          "sha256": "053695fc9005e8069c05d1b088e020b8233b4f5255a0c400bdb926eb73524820",
+          "bytes": 2118
+        },
+        "status": "Observed174 ISAM opener and179 final940 GOTO110 above a separate advertisement;180 opens a separate article. Complete source extent restored as a reproducible native package."
+      },
+      "limitations": [
+        "Original encoded bytes, exact typesetting/quoted spacing, full human proofreading and program correctness/execution remain unverified.",
+        "Prose reflow and table/label role/row/column IDs are editorial structures; all selected source literals, original image geometry, explicit blank slots and source relationship contexts remain preserved.",
+        "Listing2 is a complete printed replacement fragment, not an independently complete executable. Printed contradictions and uncertain letter/number alternatives remain explicit; no algorithm or arithmetic repairs."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0023",
@@ -7475,6 +7638,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R39: locate and restore ISAM (maso-1984-11-toc-0022, contents start174 and observed opener174). Establish full ending, observed title/byline, body ownership and all source structures before mapping at most two identities/six source views. Preserve complete bill-management169–173, all four independent source programs and their source-local number/routine identities, printer glyph/blank-count alternatives, source disagreements and every earlier selected package/frozen evidence. Continue all fourteen remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild. Keep shared OCR/PDF operating plans unchanged.",
+  "next": "R40: establish full extent, observed title/byline, body ownership and source structures of 비지캘크 한계의 극복 (maso-1984-11-toc-0023, contents start180 and observed opener180), then restore at most two identities/six mapped views. Preserve complete ISAM174–179, its two distinct printed listing contexts and exact1~630 replacement relationship, original memory/disk cells/blank slots/graphs and source discrepancies/alternatives, plus every earlier selected package and frozen evidence. Continue all thirteen remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild. Keep shared OCR/PDF operating plans unchanged.",
   "group_headings": 6
 }

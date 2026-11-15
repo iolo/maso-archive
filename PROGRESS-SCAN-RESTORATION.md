@@ -4,20 +4,18 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R36 checkpoints complete: eighteen November 1984 articles have complete
-reproducible JSON/assets packages. 의료보험 수가계산 is now partial, with its
-full source extent 160–168 restored in immutable opening/final segments;
-whole-article assembly remains pending.
-Its native data retains the retrospective hierarchy, report cells, original
-illustration and physical/logical program structure. The latest complete article
-is 전산개발 시스템 연구 on actual 154–159, retaining the original
-record forms, seven-column I/O grids, flow graphs, report/screen examples and
-evaluation report. Complete 리스즈트 retains its independent program contexts
+**R00–R39 checkpoints complete: twenty-one November 1984 articles have complete
+reproducible JSON/assets packages, with no partial articles. The latest is
+ISAM on actual 174–179: two printed listing contexts, their source-declared
+replacement relationship, typed linked-record and memory/disk diagrams,
+original assets, source references and local alternatives are preserved.
+어음 거래 관리 and the assembled 의료보험 수가계산 also remain complete.
+Complete 리스즈트 retains its independent program contexts
 and immutable segments. Both features and the assembled game
 articles also retain their original segments. Six section headings have
 source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Fifteen canonical identities await disposition. The 24 cleaned source sets
+Thirteen canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -70,7 +68,10 @@ labels and the preserved exports retain their existing values.
 | R34 — 전산개발 시스템 연구 | Passed | Actual 154–159; 212 identical files, five layouts / 52 fields, 111 table cells / 59 blanks, two flow graphs and nineteen screen fields; 54 invalid cases rejected |
 | R35 — 의료보험 수가계산 opening segment a | Passed for this segment | Actual 160–165; 92 identical files, 52 retrospective entries, 120 report cells and 131 logical / 194 physical program rows; 166–168 and assembly pending |
 | R36 — 의료보험 수가계산 final segment b | Passed for this segment | Actual 166–168; 21 identical files, 141 logical / 189 physical rows, 68 numeric DATA fields and fourteen departments; full source coverage, assembly pending |
-| November 1984 issue closeout | Not started | Sixteen identities remain; source-image accounting and whole-issue native export/rebuild remain |
+| R37 — complete 의료보험 수가계산 assembly | Passed | Actual 160–168; 122 identical native files; both immutable segments and all source relationships retained |
+| R38 — 어음 거래 관리 | Passed | Actual 169–173; 148 identical native files, four independent programs, 55 reference rows and 97 local alternatives |
+| R39 — ISAM | Passed | Actual 174–179; 178 identical native files, two source listings, typed diagrams/blank slots/graphs, 53 invalid cases rejected |
+| November 1984 issue closeout | Not started | Thirteen identities remain; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -2075,3 +2076,61 @@ headings and fourteen identities awaiting disposition**. See the
 Next: **R39**, establish the full extent and structures of **ISAM**, whose
 observed opener is 174. Every remaining identity and whole-issue covers/source
 accounting/export/rebuild remain in scope.
+
+## R39 completed — 2026-11-15
+
+Restored complete **ISAM**, subtitle **랜덤 화일 관리 도구 설계**, on actual
+**174–179** as `isam-r03`. The credit is **트라이젬 / 이 영 진 편역**.
+Listing 2 ends at **940 GOTO110**, above a separate advertisement; actual 180
+opens 비지캘크 한계의 극복. The advertisement remains a master/source-accounting
+item outside the ISAM transcription.
+
+The native package preserves **two distinct printed listing contexts**, with
+**116 logical units / 132 physical rows**, 248 physical fields, 881 source tokens
+and 35 quoted literals. The original instruction to retain listing 1's **1~630**
+and add listing 2 is an explicit relationship; no merged executable is invented.
+Source-number references, six menu-dispatch targets, variable bindings and file
+command records keep their original context. The five operations/fifteen steps,
+seven variable definitions, 28 algorithm references and five search-state
+assignments remain typed source structures.
+
+Five original assets accompany the native data. Both linked-record diagrams keep
+their headers, **15 explicit blank cells**, ellipsis bands and five link paths;
+the semantic source record of a bracket outlet remains unverified. The memory/disk
+example retains **36 data cells**, its grouped three-grade header, ten nodes and
+six connectors. Original illustration and closing emblem have no invented
+captions. Across nine tables, the package retains **62 rows / 149 cells**.
+
+Original **Division reminder**, diagram **PART$** versus prose/listing **PART**,
+row 2's printed average **40**, listing 1's **914 PRINT IE**, repeated NEXT
+statements and printed word-break hyphens are preserved. **27 local alternatives**
+retain letter/number candidates. Enlarged comparison corrected an initial
+**강부웅** reading to printed **강부옹** in both diagram tables; earlier native
+candidates and their input selections remain preserved. Exact encoded bytes,
+spacing, program correctness/execution and full human proofreading remain
+unverified.
+
+All **178 native files reproduce byte for byte** in a fresh independent build.
+All **46 master-derived crop checks** pass, and **53 deliberately damaged
+structures** are rejected. All **37 earlier selected packages and frozen
+evidence** remain exact and valid. Shared implementation did not change: the
+R38 **214 PDF + 35 JPEG/recognition/assembly = 249** test baseline and logs are
+rehashed and reused, **not freshly rerun**. PLAN-OCR.md and PLAN-PDF.md remain
+unchanged.
+
+All six OCR jobs succeeded, covering **41 tasks**, with no targeted retry,
+unchanged-success repetition or engine switch. Pre-OCR footer/column-edge
+refinements and their original map attempts are retained. The first native
+preparation failed on a caption block alias; its script is retained. Three native
+candidates and two independent rebuilds preserve the later structural additions
+and source-name correction. Both full audits passed; the final audit added
+explicit native figure/caption/source-association checks. Cleanup was preview-only;
+**443 private evidence files** are frozen.
+
+November now has **twenty-one complete articles, no partial articles, six
+non-owning headings and thirteen identities awaiting disposition**. See the
+[R39 result](metadata/catalog/scan-restoration/1984-11-isam.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R40**, establish the complete extent and source structures of
+**비지캘크 한계의 극복**, whose observed opener is 180. All remaining identities
+and whole-issue covers/source accounting/export/rebuild remain in scope.
