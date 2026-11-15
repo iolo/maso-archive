@@ -4,9 +4,10 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R35 checkpoints complete: eighteen November 1984 articles have complete
+**R00–R36 checkpoints complete: eighteen November 1984 articles have complete
 reproducible JSON/assets packages. 의료보험 수가계산 is now partial, with its
-opening 160–165 restored and listing 166–168 / whole-article assembly pending.
+full source extent 160–168 restored in immutable opening/final segments;
+whole-article assembly remains pending.
 Its native data retains the retrospective hierarchy, report cells, original
 illustration and physical/logical program structure. The latest complete article
 is 전산개발 시스템 연구 on actual 154–159, retaining the original
@@ -68,6 +69,7 @@ labels and the preserved exports retain their existing values.
 | R33 — complete 리스즈트 assembly | Passed | Actual 140–153; 425 identical files, 187 logical groups / 643 physical rows, all source structures and uncertainties; 246 fresh shared regressions |
 | R34 — 전산개발 시스템 연구 | Passed | Actual 154–159; 212 identical files, five layouts / 52 fields, 111 table cells / 59 blanks, two flow graphs and nineteen screen fields; 54 invalid cases rejected |
 | R35 — 의료보험 수가계산 opening segment a | Passed for this segment | Actual 160–165; 92 identical files, 52 retrospective entries, 120 report cells and 131 logical / 194 physical program rows; 166–168 and assembly pending |
+| R36 — 의료보험 수가계산 final segment b | Passed for this segment | Actual 166–168; 21 identical files, 141 logical / 189 physical rows, 68 numeric DATA fields and fourteen departments; full source coverage, assembly pending |
 | November 1984 issue closeout | Not started | Sixteen identities remain; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
@@ -1906,3 +1908,59 @@ Next: **R36**, restore actual 166–168, preserving the source boundary
 21010/21520 without inventing missing rows. Then qualify any required explicit
 printed-number boundary support and assemble/rebuild complete 160–168. Every
 remaining identity and whole-issue source accounting/export/rebuild remain in scope.
+
+## R36 completed — 2026-11-15
+
+Restored the final 의료보험 수가계산 source segment on actual **166–168** as
+`medical-fee-b-r01`, retaining the canonical identity and immutable opening
+`medical-fee-a-r02`. Source 165 ends at 21010; 166 starts at 21520. The final
+source statement is **40410 GOTO 22500**, followed by the separate 어음거래관리
+article on 169. Skipped printed numbers do not imply missing pages or invented
+instructions. All source pages of the observed 160–168 article are now covered;
+whole-article assembly remains pending.
+
+The native segment retains **141 logical program units / 189 physical rows**,
+330 physical fields, 3,946 source tokens and 238 literal records. Three numeric
+DATA groups preserve **29 / 24 / 15 fields**, with fourteen department DATA
+strings and ten separate classification labels. Nine report-output labels and
+28 exact links to the earlier prose remain source-owned. The original second
+22530 clearing-loop reference remains distinct from the loop actually printed
+as 22532; neither source was silently repaired.
+
+Seven token joins preserve split identifiers, operands and Korean report text.
+Selected punctuation at 23130/23470/23520/23540 remains semicolon-like with colon
+alternatives. The 22650 label retains visible selected `ㅊ` / `ㅜㅣ` source
+fragments, with composed-syllable and printer/control-mark alternatives; no
+original encoding is inferred. Twenty-one uncertainty records retain these
+readings, P0/PO, QS/OS and quoted-spacing alternatives. Source correctness,
+original encoded bytes/typesetting, execution and human acceptance remain
+unverified.
+
+All **21 native files reproduce exactly** in an independent build. All **three
+master-derived crop checks** pass, and **47 deliberately damaged structures**
+are rejected. All **34 earlier selected packages and frozen evidence** remain
+exact and valid. Shared implementation/tests/schemas and PLAN-OCR.md / PLAN-PDF.md
+are unchanged. The **246-test R33 baseline** was rehashed/reused, not freshly
+rerun.
+
+Initial OCR jobs for 166/167 exited 0. Page 168's first process exited **143**
+after PNG generation without recognition results; its incomplete directory,
+log and pins are retained. A process check confirmed no original OCR process
+was live. One bounded retry in a fresh directory exited 0. Three successful
+recognition tasks are selected, with no successful-input repetition or engine
+switch; the interrupted attempt's duration is unknown. Initial local source
+parsing mistook a wrapped `1 TO 4` for a numbered unit; the original parser/log
+are retained. The selected five-digit source grammar and independent expected
+number lists preserve it as a physical continuation. Second source preparation,
+one export/rebuild, structural preflight and complete audit passed. Cleanup was
+preview-only; **94 private evidence files** are frozen.
+
+November remains at **eighteen complete articles, one partial article, six
+non-owning headings and fifteen identities awaiting disposition**. See the
+[R36 result](metadata/catalog/scan-restoration/1984-11-medical-fee-b.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R37**, qualify the explicit 21010/21520 printed-number boundary and
+assemble/rebuild complete 160–168 from both immutable source segments. Preserve
+all 272 logical units / 383 physical rows, report/retrospective structures and
+source alternatives. Every remaining identity and whole-issue source
+accounting/export/rebuild remain in scope.

@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R35 are complete; the active goal is to restore all November 1984 articles.
+R00–R36 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -284,17 +284,19 @@ restored JSON/assets and faithful source evidence first.
 | R33 — complete 리스즈트 assembly | Actual 140–153; complete native article package | 425 identical files; 187 logical groups / 643 physical rows, separate MAKE LISZT/LISZTER contexts, same-group 111 join and every original source structure; 45 invalid cases rejected and 246 fresh regressions |
 | R34 — 전산개발 시스템 연구 | Actual 154–159; complete native article package | 212 identical files; five layouts / 52 fields / twenty ruler bands, 111 cells / 59 blanks, two flow graphs, three screens / nineteen UI fields and original evaluation report; 54 invalid cases rejected |
 | R35 — 의료보험 수가계산 opening segment a | Actual 160–165; whole article remains partial | 92 identical files; 52 retrospective entries, 120 report cells, 131 logical program units / 194 physical rows, 29 DATA strings and original illustrations/captions; 53 invalid cases rejected |
+| R36 — 의료보험 수가계산 final segment b | Actual 166–168; all source pages restored, assembly pending | 21 identical files; 141 logical units / 189 physical rows, 68 numeric DATA fields, fourteen department strings, ten classification labels and original prose-number disagreement; 47 invalid cases rejected |
 
-Immediate next action: **R36**, restore the final 의료보험 수가계산 listing on
-actual 166–168, `maso-1984-11-toc-0020`. Its observed full extent is 160–168;
-opening segment a on 160–165 is preserved as `medical-fee-a-r02`. Verify every
-remaining source row and the explicit 21010/21520 boundary. Skipped printed
-numbers do not establish missing scans or instructions. Preserve all 52
-retrospective entries, report metadata/120 cells, 131 logical program units /
-194 physical rows and local alternatives. Then assemble the complete article,
-checking source program identity, coordinate projection and a fresh native rebuild.
-Qualify any needed declared-number-boundary extension separately while retaining
-existing assembly semantics and frozen exports. Preserve complete 전산개발 시스템 연구
+Immediate next action: **R37**, assemble complete 의료보험 수가계산 on actual
+160–168, `maso-1984-11-toc-0020`, from immutable `medical-fee-a-r02` and
+`medical-fee-b-r01`. All source pages are restored. Preserve the 52 retrospective
+entries, report metadata/120 cells, three original assets, 272 logical program
+units / 383 physical rows, original DATA fields and all local alternatives and
+source relationships. Qualify narrowly scoped explicit printed-number boundary
+support for 21010/21520 without inferring missing instructions or changing existing
+assembly semantics. Check source program identity and every source-owned UTF-8
+projection, then independently rebuild the complete native article. Any shared-code
+change requires fresh PDF/JPEG regressions; shared OCR/PDF plans remain unchanged.
+Preserve complete 전산개발 시스템 연구
 on actual 154–159, including all original layouts/ruler bands/blank fields,
 seven-column I/O grids and their unusual value placement, two flow graphs,
 report/screen examples, evaluation cells and local alternatives. Its 212 native

@@ -6672,6 +6672,94 @@
               "bytes": 41664
             }
           ]
+        },
+        {
+          "segment_id": "b",
+          "printed_folios": [
+            "166",
+            "167",
+            "168"
+          ],
+          "source_views": [
+            {
+              "source_index": 169,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-166.jpg",
+                "sha256": "43119f1ca158f30f4bb76a470a74886ce44ba58cbe92892762183861914bf4d3",
+                "bytes": 8358543
+              },
+              "width_px": 4726,
+              "height_px": 6931,
+              "reading_order": 168,
+              "source_filename_number": 166,
+              "printed_page": "166",
+              "image_to_upright_normalized": [
+                0.00021159542953872197,
+                0,
+                0,
+                0.00014427932477276007,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 170,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-167.jpg",
+                "sha256": "49d53ccc36349479eb7dafa315eb417daac787c9c18109e713f039e6882ba6e3",
+                "bytes": 8795844
+              },
+              "width_px": 4709,
+              "height_px": 6907,
+              "reading_order": 169,
+              "source_filename_number": 167,
+              "printed_page": "167",
+              "image_to_upright_normalized": [
+                0.00021235931195582927,
+                0,
+                0,
+                0.00014478065730418415,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 171,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-168.jpg",
+                "sha256": "44e96a1031310b7c859ca3033fd06735415e46d2143b6f848d1045d9ff5c0c5a",
+                "bytes": 7779384
+              },
+              "width_px": 4726,
+              "height_px": 6913,
+              "reading_order": 170,
+              "source_filename_number": 168,
+              "printed_page": "168",
+              "image_to_upright_normalized": [
+                0.00021159542953872197,
+                0,
+                0,
+                0.00014465499783017504,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/medical-fee-b-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/medical-fee-b-r01/manifest.json",
+              "sha256": "e1804ede1c945c7459c8075a80b3e3cf941f0343629360e56d913a0b755ca3e4",
+              "bytes": 3389
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-36/validation.json",
+              "sha256": "dea9bbcdf91c9bdb2b77d3bfeb4b776ed9582c75f9ff715f4a5bd61c0a287da3",
+              "bytes": 22257
+            }
+          ]
         }
       ],
       "evidence": [
@@ -6682,24 +6770,31 @@
         }
       ],
       "assembly_pending": true,
-      "continuation_pending": [
-        166,
-        167,
-        168
-      ],
+      "continuation_pending": [],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-35/scope.json",
-          "sha256": "985bce203decd32ca77ddc078a9467eb7e8edd14cf30ea307e4e72a38836b02c",
-          "bytes": 2246
+          "path": "archive/scans/1984-11/restoration/batch-36/scope.json",
+          "sha256": "fa527fcf1570a9812113d26862f7fe305bbdde1ae7dfa975dcf4b4373f4579b6",
+          "bytes": 1441
         },
-        "status": "Observed final installment160–168, with separate neighboring bodies159/169. Opening160–165 restored; final listing166–168 and whole-article assembly pending."
+        "status": "Observed160–168 full extent; all source pages restored in immutable opening160–165/final166–168 segments. Explicit21010/21520 boundary and original40410 ending; complete article assembly pending."
       },
       "limitations": [
-        "Opening source segment160–165 only; listing166–168 and whole-article assembly remain pending.",
-        "Original medical/financial/program claims, source spelling/reference anomalies and local printer-glyph alternatives retained without behavioral correction.",
-        "Original encoded bytes, exact typesetting/quoted space counts, program execution and human acceptance remain unverified."
-      ]
+        "Final source segment166–168 only. Opening160–165 is preserved separately; whole-article assembly remains pending.",
+        "All original DATA/order, physical wraps, printer strings, prose/reference disagreement and local punctuation/glyph alternatives retained.",
+        "Original encoded bytes, exact quoted whitespace/typesetting, program correctness/execution and human acceptance remain unverified."
+      ],
+      "all_source_pages_restored": true,
+      "pending_listing_assembly": {
+        "listing_id": "medical-fee-program",
+        "left_last_printed_row": 21010,
+        "right_first_printed_row": 21520,
+        "source_boundary": [
+          165,
+          166
+        ],
+        "printed_number_gap_infers_missing_rows": false
+      }
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0021",
@@ -7123,6 +7218,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R36: restore final medical-fee program segment on actual166–168 (maso-1984-11-toc-0020), starting21520 and ending40410. Preserve immutable opening segment160–165, all original report cells/metadata,52 retrospective entries, physical wraps and local alternatives. Verify source rows and the21010/21520 boundary explicitly; skipped printed numbers are not evidence of missing scans or instructions. Then assemble complete160–168 with checked program identity/source-coordinate projection and an independent native rebuild; qualify any required declared-number-boundary extension separately without changing existing assembly semantics. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild. Keep shared OCR/PDF plans unchanged.",
+  "next": "R37: assemble complete 의료보험 수가계산 on actual160–168 from immutable medical-fee-a-r02 and medical-fee-b-r01. Preserve52 retrospective entries,120 report cells/metadata,all original assets/captions,272 logical program units/383 physical rows,source DATA groups and every source/glyph/punctuation/prose-reference relationship. Qualify a narrowly scoped explicit printed-number boundary for21010/21520; skipped numbers are not inferred missing instructions. Keep existing assembly modes/recipes and all frozen prior packages/evidence unchanged, verify source-owned UTF-8 projections including code/report/prose, and independently rebuild the complete native article. Any shared-code change requires fresh PDF/JPEG regressions. Continue all remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild; keep shared OCR/PDF plans unchanged.",
   "group_headings": 6
 }

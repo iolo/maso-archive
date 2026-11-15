@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R36",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0020",
+  "title": "의료보험 수가계산",
+  "observed_title": "의료보험수가계산",
+  "observed_whole_extent": [
+    160,
+    168
+  ],
+  "outcome": "Complete reproducible final source segment166–168:141 logical units/189 physical rows,68 numeric DATA fields,14 departments,10 classification labels,9 report-output labels,28 links to original prose,explicit22530/22532 disagreement,and21 local alternatives. All160–168 source pages now covered in immutable segments; complete article assembly pending.",
+  "segment_id": "b",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/medical-fee-b-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/medical-fee-b-r01/manifest.json",
+    "sha256": "e1804ede1c945c7459c8075a80b3e3cf941f0343629360e56d913a0b755ca3e4",
+    "bytes": 3389
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-36/validation.json",
+    "sha256": "dea9bbcdf91c9bdb2b77d3bfeb4b776ed9582c75f9ff715f4a5bd61c0a287da3",
+    "bytes": 22257
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-36/evidence-manifest.json",
+    "sha256": "23450df780df1db7e263bdb78efd743a149dc93375195068f0a8e3317d177967",
+    "bytes": 19639
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-36/scope.json",
+    "sha256": "fa527fcf1570a9812113d26862f7fe305bbdde1ae7dfa975dcf4b4373f4579b6",
+    "bytes": 1441
+  },
+  "source_review": {
+    "path": "archive/scans/1984-11/restoration/batch-36/review/source-review-completion.json",
+    "sha256": "7977132f9e7b1c306d03ec52a26eea1c8bbf5917bb708a82e7dbe86df6f11400",
+    "bytes": 2346
+  },
+  "interruption_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-36/review/ocr-168-interruption.json",
+    "sha256": "db5600650c094286c149b389529b9310a8be6b4e93b0a96b761a410177f902e1",
+    "bytes": 1148
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-166.jpg",
+      "sha256": "43119f1ca158f30f4bb76a470a74886ce44ba58cbe92892762183861914bf4d3",
+      "bytes": 8358543
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-167.jpg",
+      "sha256": "49d53ccc36349479eb7dafa315eb417daac787c9c18109e713f039e6882ba6e3",
+      "bytes": 8795844
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-168.jpg",
+      "sha256": "44e96a1031310b7c859ca3033fd06735415e46d2143b6f848d1045d9ff5c0c5a",
+      "bytes": 7779384
+    }
+  ],
+  "printed_folios": [
+    "166",
+    "167",
+    "168"
+  ],
+  "restored_segment_extent": [
+    166,
+    168
+  ],
+  "pending_folios": [],
+  "assembly_pending": true,
+  "summary": {
+    "sourceImages": 3,
+    "regions": 3,
+    "ocrTasks": 3,
+    "figures": 0,
+    "blocks": 1,
+    "listingContexts": 1,
+    "logicalUnits": 141,
+    "physicalRows": 189,
+    "physicalFields": 330,
+    "sourceTokens": 3946,
+    "sourceLiterals": 238,
+    "numericDataGroups": 3,
+    "numericDataFields": 68,
+    "departmentDataStrings": 14,
+    "classificationLabels": 10,
+    "reportOutputLabels": 9,
+    "tokenJoins": 7,
+    "sourceExplanationLinks": 28,
+    "sourceProseNumberDisagreements": 1,
+    "printedAnomalies": 5,
+    "localUncertainties": 21,
+    "proseJoins": 2,
+    "nativeFiles": 21,
+    "negativeCases": 47,
+    "ocrSecondsSuccessfulAttempts": 10.15225722901232
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p166-listing",
+      "source_index": 169,
+      "pixel_bounds": [
+        417,
+        869,
+        3707,
+        5454
+      ],
+      "scan": {
+        "path": "ocr-166/p166-listing.png",
+        "sha256": "9c11aab0175e286a93953dfd5afde1b0e6f0b0445433a07c08a6e5845ce13f7d",
+        "bytes": 19607567
+      }
+    },
+    {
+      "region_id": "p167-listing",
+      "source_index": 170,
+      "pixel_bounds": [
+        417,
+        869,
+        3707,
+        5454
+      ],
+      "scan": {
+        "path": "ocr-167/p167-listing.png",
+        "sha256": "7be00b0f83de3d64b2c1d6b748e235fc3d8c27a43bef182815c888d1f31467ca",
+        "bytes": 20364900
+      }
+    },
+    {
+      "region_id": "p168-listing",
+      "source_index": 171,
+      "pixel_bounds": [
+        418,
+        869,
+        3717,
+        5454
+      ],
+      "scan": {
+        "path": "ocr-168-retry/p168-listing.png",
+        "sha256": "e1783a9f1c57246f1f99565d8b82b4912cce69047f5f7b2a48a3e54f98189bda",
+        "bytes": 18784758
+      }
+    }
+  ],
+  "previousCheckpointCommit": "3358e4a4af2f9a1e67f65a23907d3e3971223668",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "ab97355c4df613cf037e8c3c2a65ae90fb32f65025ab0f9709d3308c061919f9",
+      "bytes": 215324
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "46d2f4ad8c8b2be5fefeaf9f89cc0e317c0342d42e6751a32a2398a5eb0e7ed8",
+      "bytes": 28021
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "4879f926b7c30e67066809d0bf042f324374c8e1c1e8c5280139ce864671b7ed",
+      "bytes": 19774
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "ce11a1f9ba3cea5de910d4a272059bdf5c4c76fefd9a3d96b0b66ebb21075375",
+      "bytes": 23936
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "d5afe95adb8de68fc5bfe5f2c36e56fa75463a20dd43c0dc428d426dabf50394",
+      "bytes": 37895
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionBaseline": {
+    "checkpoint": "R33",
+    "regressionTests": {
+      "pdf": 214,
+      "jpegRecognitionAndAssembly": 32,
+      "total": 246
+    },
+    "logs": [
+      {
+        "path": "archive/scans/1984-11/restoration/batch-33/pdf-final-regressions-02.log",
+        "sha256": "b6fd830ba48fbdf458c3a52e4e3273098a66a841fbdf6c149169ee09f8f3241b",
+        "bytes": 36395
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-33/jpeg-final-regressions-03.log",
+        "sha256": "6685416a6ba1951acc7dd04b2631640f00ae2f51a9577acf0b8557eb6318cd95",
+        "bytes": 6304
+      }
+    ],
+    "reused": true,
+    "reason": "Data-only restoration; shared implementation/tests/schema and passing frozen logs rehashed unchanged. No fresh regression run claimed."
+  },
+  "attempts": {
+    "initialPageProcesses": 3,
+    "initialPageExitCodes": [
+      0,
+      0,
+      143
+    ],
+    "retryPageExitCodes": [
+      0
+    ],
+    "interruptedPageProcesses": 1,
+    "boundedRetries": 1,
+    "totalSuccessfulOcrTasks": 3,
+    "selectedOcrTasks": 3,
+    "sameSuccessfulInputRecognitionRepeated": 0,
+    "engineSwitches": 0,
+    "failedAttemptDurationKnown": false,
+    "mapPreparationRuns": 1,
+    "geometryRepairRuns": 0,
+    "sourcePreparationRuns": 2,
+    "sourcePreparationFailures": 1,
+    "nativePreparationRuns": 1,
+    "nativeExportRuns": 1,
+    "nativeExportFailures": 0,
+    "nativeRebuildRuns": 1,
+    "nativeRebuildFailures": 0,
+    "structurePreflightRuns": 1,
+    "structurePreflightFailures": 0,
+    "fullAuditRuns": 1,
+    "fullAuditFailures": 0,
+    "note": "All three maps/full-page/crop-edge views checked before OCR. Initial166/167 exited0;168 process returned terminal143 after PNGs, with no recognition evidence/text/settings. Confirmed no original OCR process live and retained incomplete directory/log/pins. One permitted retry in a fresh directory exited0. Three successful tasks selected without repeating successful input or switching engines. Initial local parser treated wrapped1 TO4 as a numbered row; original failed parser/log retained and selected five-digit grammar checked against all141 observed source numbers. Second source preparation passed without altering source readings. Native export,independent rebuild,structural preflight and47-negative/pixel/byte/preservation audit each passed once. Shared implementation/tests/schemas unchanged;246-test R33 baseline rehashed/reused,not freshly rerun."
+  },
+  "limitations": [
+    "Final source segment166–168 only. Opening160–165 is preserved separately; whole-article assembly remains pending.",
+    "All original DATA/order, physical wraps, printer strings, prose/reference disagreement and local punctuation/glyph alternatives retained.",
+    "Original encoded bytes, exact quoted whitespace/typesetting, program correctness/execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-36/recipe.json --output archive/scans/1984-11/packages/medical-fee-b-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-36/recipe.json --output work/validation/scans-1984-11-medical-fee-b-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-36/verify-review.py"
+  ],
+  "next": "R37: assemble complete 의료보험 수가계산 on actual160–168 from immutable medical-fee-a-r02 and medical-fee-b-r01. Preserve52 retrospective entries,120 report cells/metadata,all original assets/captions,272 logical program units/383 physical rows,source DATA groups and every source/glyph/punctuation/prose-reference relationship. Qualify a narrowly scoped explicit printed-number boundary for21010/21520; skipped numbers are not inferred missing instructions. Keep existing assembly modes/recipes and all frozen prior packages/evidence unchanged, verify source-owned UTF-8 projections including code/report/prose, and independently rebuild the complete native article. Any shared-code change requires fresh PDF/JPEG regressions. Continue all remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild; keep shared OCR/PDF plans unchanged."
+}
