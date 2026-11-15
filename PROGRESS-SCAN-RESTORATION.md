@@ -1216,3 +1216,70 @@ Next: **R25**, locate and restore 로즈런너 from TOC starting-page candidate 
 Verify actual ownership, extent and source structures before mapping. Continue
 every remaining November identity, covers/source-image accounting and the checked
 whole-issue native export/rebuild.
+
+## R25 completed — 2026-11-15
+
+Restored the opening segment of 로즈런너, actual 93–98, as a reproducible
+presentation-independent package. The complete observed article spans 93–101;
+actual 102 opens 깡통이 통-통-통. The source subtitle and 트라이젬 / 애플
+컴패티블 / 편집부 credit retain their original readings and claim status.
+Twelve prose paragraphs include the 93/94 전 / 에 word continuation. Eight
+variable rows retain 24 independent identifier/separator/definition fields.
+Original grammar, naming inconsistencies and printed key/control instructions
+remain source-linked without silent repair.
+
+Three original code contexts remain independent: an unnumbered setup command,
+the complete printed BASIC listing 1000–5410, and the opening machine-language
+listing 0C00–0C60. They retain 507 physical rows and 486 logical units: 442
+BASIC units from 463 physical rows, one setup unit and 43 monitor rows. The
+monitor retains 99 printed byte fields and eight independent blank operands.
+Printed END at 2990 precedes later routines; BASIC physically ends with 5410
+RETURN. The setup retains positive POKE16384, the 1090 closing quote remains
+alone on its physical row, and targets 1350/2100/2400/1930 retain split fragments.
+
+The native structures retain 140 drawing commands with independent coordinate
+expressions, 41 POKE expressions, 47 source control targets, three stage-routine
+groups, three setup commands and three CALL references. Six named key-edit
+references and two CTRL—G instructions remain relationships; no control bytes
+were inserted into code. The source statement that both programs are required
+retains explicit listing identities. Original List 1/List 2 captions, three
+independent screenshots, nine observed screen labels and closing emblem survive.
+
+Six uncertain graphic runs retain editorial markers, visual candidates and null
+original bytes/counts. Twelve local uncertainties cover quoted spaces, table
+identifier glyphs, a prose ink mark, the selected PEEI/PEEK reading and the
+physical SCRN / X boundary at 3030. Its zero-separator logical projection is
+explicit, with a whitespace alternative; no missing opening parenthesis was
+inserted. Source KK and the printed spaced operators remain unchanged. No
+program, machine-code execution, generated maze/screen, glyph or audio output
+was produced.
+
+All 101 native files match a separate-process rebuild byte for byte. All 26
+crops match decoded-master pixels, and 39 invalid structural cases reject.
+Twenty-three earlier native packages and their frozen evidence, classifications,
+masters and shared plans remain exact. Rehashed R22 implementation/test pins and
+frozen logs support reuse of the unchanged 239-test baseline; those regressions
+were not rerun for this data-only restoration.
+
+The first map preflight rejected a segment suffix on the canonical article id;
+the id was corrected before map output. One pre-OCR refinement widened eleven
+listing/caption regions after crop review caught a clipped 2770 top and tight
+edges. All 22 OCR tasks completed without engine failure or retry; no geometry
+changed after OCR. Both exports and the full audit passed on their first
+attempts. A raw-string warning in the independent checker was removed after
+its first passing structure preflight. Cleanup ran in preview mode only.
+The checkpoint freezes 347 private evidence files.
+
+November now has thirteen complete article packages, one partial article, six
+non-owning headings and 20 unclassified identities. The whole 로즈런너 article
+remains partial: original machine-language source 99–101 is present but not yet
+restored, and whole-article assembly remains pending. Original encoding/typesetting,
+source correctness, execution and human acceptance remain unverified.
+
+See the [opening 로즈런너 result](metadata/catalog/scan-restoration/1984-11-lores-runner-a.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R26**, restore 99–101 from printed 0C63 through 0F33 FF ???, preserving
+every address/byte/mnemonic/operand field and source anomaly. Then assemble and
+independently rebuild the complete 93–101 article from immutable segments.
+Continue every remaining November identity, covers/source-image accounting and
+the checked whole-issue native export/rebuild.

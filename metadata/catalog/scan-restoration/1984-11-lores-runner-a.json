@@ -1,0 +1,675 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R25",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0010",
+  "title": "로즈런너",
+  "observed_title": "로즈런너",
+  "observed_subtitle": "타임지가 선정한 가장 우수한 게임 로드 런너의 축소판",
+  "observed_byline": "편집부",
+  "observed_platform": "트라이젬 / 애플 컴패티블",
+  "outcome": "Verified reproducible presentation-independent opening segment 93-98: twelve prose paragraphs including a cross-page word, variable table, independent setup, complete printed BASIC context, separate machine-language opening, 140 source drawing commands, original screenshots/captions, graphic uncertainty and explicit continuation.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-093.jpg",
+      "sha256": "70f6d7945ee074d998048c25b9db96f1334e98f64c1fce7807a619a361807a15",
+      "bytes": 9692836
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-094.jpg",
+      "sha256": "9be44d2ad5d7f0347d7502036ba3a687da8ed2ba5df8575289678b25dd5f77b4",
+      "bytes": 7869897
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-095.jpg",
+      "sha256": "03dfffb0c3e62da791c0cfe97abf6a50d83333b6181f55f6733fabe1f40f6da9",
+      "bytes": 8215167
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-096.jpg",
+      "sha256": "807524acb517e4c9796cec372f326c52911a76d48a8635dfaa09048bb7252754",
+      "bytes": 7540071
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-097.jpg",
+      "sha256": "48bd71f8a322b64ff35d9ff7ee20256825277dce57d39eca43212e327fa6c19c",
+      "bytes": 8189494
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-098.jpg",
+      "sha256": "c2c6a6ce1effd795360fd3c12e975cb0c3efd271e09f0194ef15ddf419591cbf",
+      "bytes": 7388533
+    }
+  ],
+  "printed_folios": [
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98"
+  ],
+  "observed_whole_extent": [
+    93,
+    101
+  ],
+  "restored_segment_extent": [
+    93,
+    98
+  ],
+  "segment_id": "a",
+  "pending_folios": [
+    99,
+    100,
+    101
+  ],
+  "assembly_pending": true,
+  "selected_package": "archive/scans/1984-11/packages/lores-runner-a-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/lores-runner-a-r01/manifest.json",
+    "sha256": "00e4313745b7d99a007e52db3816cca88b7f9e36857b84fe49c641d7ecd415db",
+    "bytes": 16933
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-25/validation.json",
+    "sha256": "4c3368eea7b532bd81b490f3a78277cea66d48544ad273e0e1fbbb3593e33cb6",
+    "bytes": 38775
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-25/evidence-manifest.json",
+    "sha256": "a2d605079b0b66261e8af3e6606dd8f5b865f0cbf79a7f650d8d3b1cb30d7f9f",
+    "bytes": 73973
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-25/scope.json",
+    "sha256": "2de83ab4a6335f9715289d4532a96fa3cc174f511a864f7d223d76770edb165b",
+    "bytes": 2130
+  },
+  "summary": {
+    "sourceImages": 6,
+    "regions": 26,
+    "blocks": 12,
+    "figures": 4,
+    "ocrTasks": 22,
+    "tableRows": 8,
+    "tableCells": 24,
+    "sourceParagraphs": 12,
+    "listingContexts": 3,
+    "basicLogicalUnits": 442,
+    "basicPhysicalRows": 463,
+    "monitorRows": 43,
+    "monitorByteFields": 99,
+    "physicalRows": 507,
+    "logicalUnits": 486,
+    "physicalFields": 1177,
+    "sourceLiteralOccurrences": 797,
+    "basicPhysicalTokens": 2780,
+    "drawingCommands": 140,
+    "pokeExpressions": 41,
+    "controlTargets": 47,
+    "stageRoutines": 3,
+    "setupCommands": 3,
+    "callReferences": 3,
+    "graphicRunOccurrences": 6,
+    "localUncertainties": 12,
+    "figureLabels": 9,
+    "listingCaptions": 2,
+    "remainingCodeFolios": [
+      99,
+      100,
+      101
+    ],
+    "nativeFiles": 101,
+    "negativeCases": 39,
+    "ocrSeconds": 16.030546895992302
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p093-title",
+      "source_index": 96,
+      "pixel_bounds": [
+        328,
+        462,
+        1513,
+        882
+      ],
+      "scan": {
+        "path": "ocr-093/p093-title.png",
+        "sha256": "92f4462b5788c1a83a6048ec8dbb4b09ad5258061c2fff8013bcd0a531671436",
+        "bytes": 756787
+      }
+    },
+    {
+      "region_id": "p093-subtitle",
+      "source_index": 96,
+      "pixel_bounds": [
+        1516,
+        750,
+        3481,
+        882
+      ],
+      "scan": {
+        "path": "ocr-093/p093-subtitle.png",
+        "sha256": "32e6290681127f4107b72cbe8600da13e7acfde3c2e3981c026ee8cf29d00957",
+        "bytes": 371340
+      }
+    },
+    {
+      "region_id": "p093-credit",
+      "source_index": 96,
+      "pixel_bounds": [
+        2370,
+        1014,
+        3678,
+        1122
+      ],
+      "scan": {
+        "path": "ocr-093/p093-credit.png",
+        "sha256": "dcaab9cfa476756c40cad6e118c6174b6c3708b79b93df878ba67dfebe3fa752",
+        "bytes": 212020
+      }
+    },
+    {
+      "region_id": "p093-body-left",
+      "source_index": 96,
+      "pixel_bounds": [
+        349,
+        1128,
+        2067,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-093/p093-body-left.png",
+        "sha256": "a2ef446744352d67f874f3f0dbf7ceb94bf58d84f6957ad9499ba38a34a21587",
+        "bytes": 10314264
+      }
+    },
+    {
+      "region_id": "p093-screen-first",
+      "source_index": 96,
+      "pixel_bounds": [
+        2185,
+        1242,
+        3884,
+        2412
+      ],
+      "scan": {
+        "path": "ocr-093/p093-screen-first.png",
+        "sha256": "9a138e2adf30eaba77aa0e4d8a1e5bc826590bd4f20125518bfceb91872c9810",
+        "bytes": 3483959
+      }
+    },
+    {
+      "region_id": "p093-screen-second",
+      "source_index": 96,
+      "pixel_bounds": [
+        2185,
+        2478,
+        3884,
+        3654
+      ],
+      "scan": {
+        "path": "ocr-093/p093-screen-second.png",
+        "sha256": "c1b746978baf08913a8a2c7718adb9f3f784f5dfb960fbb67f9a11ff8643d78e",
+        "bytes": 3461308
+      }
+    },
+    {
+      "region_id": "p093-screen-third",
+      "source_index": 96,
+      "pixel_bounds": [
+        2185,
+        3714,
+        3888,
+        4878
+      ],
+      "scan": {
+        "path": "ocr-093/p093-screen-third.png",
+        "sha256": "f6f984cfcb818928f671b1ff0eef29d3e3ee1a0b2420f365fe9dd691710c8b8c",
+        "bytes": 3807925
+      }
+    },
+    {
+      "region_id": "p093-body-right",
+      "source_index": 96,
+      "pixel_bounds": [
+        2185,
+        4944,
+        3884,
+        5556
+      ],
+      "scan": {
+        "path": "ocr-093/p093-body-right.png",
+        "sha256": "debc46bb22a1a57e977f14a954e2dd0e4f0dd48665411b73d14e1898f08bfee7",
+        "bytes": 1430325
+      }
+    },
+    {
+      "region_id": "p094-body-incoming",
+      "source_index": 97,
+      "pixel_bounds": [
+        262,
+        750,
+        1961,
+        942
+      ],
+      "scan": {
+        "path": "ocr-094/p094-body-incoming.png",
+        "sha256": "37e7e8b3941c54baaa2f0697852adc66948c6b4b51d5d257198844bae638b4c5",
+        "bytes": 461648
+      }
+    },
+    {
+      "region_id": "p094-bootstrap",
+      "source_index": 97,
+      "pixel_bounds": [
+        323,
+        954,
+        1834,
+        1056
+      ],
+      "scan": {
+        "path": "ocr-094/p094-bootstrap.png",
+        "sha256": "d702d3efd138ed652ce51583d14082079cad10dc413b460eb9a2a13a3d66aa43",
+        "bytes": 225276
+      }
+    },
+    {
+      "region_id": "p094-body-final",
+      "source_index": 97,
+      "pixel_bounds": [
+        262,
+        1062,
+        1965,
+        1356
+      ],
+      "scan": {
+        "path": "ocr-094/p094-body-final.png",
+        "sha256": "7726753a0ca5152247b2334b040c9dcc3fe8c7fb80767d054269d172ea5ce183",
+        "bytes": 726183
+      }
+    },
+    {
+      "region_id": "p094-variable-heading",
+      "source_index": 97,
+      "pixel_bounds": [
+        348,
+        1464,
+        1063,
+        1596
+      ],
+      "scan": {
+        "path": "ocr-094/p094-variable-heading.png",
+        "sha256": "d4c3dcaebca9204426d5981a62f0dc1f8f173d464b601ed5a2efbe0f9f2fe941",
+        "bytes": 154391
+      }
+    },
+    {
+      "region_id": "p094-variables",
+      "source_index": 97,
+      "pixel_bounds": [
+        262,
+        1626,
+        1321,
+        2442
+      ],
+      "scan": {
+        "path": "ocr-094/p094-variables.png",
+        "sha256": "7049dc9403064145dbfab90da3c473e5ecc67a2e5d07ef9376b6ccc5487d415a",
+        "bytes": 1139605
+      }
+    },
+    {
+      "region_id": "p094-end-mark",
+      "source_index": 97,
+      "pixel_bounds": [
+        1845,
+        2328,
+        1920,
+        2418
+      ],
+      "scan": {
+        "path": "ocr-094/p094-end-mark.png",
+        "sha256": "f20c3e5802af3da260a934ba2fdc322f219f66229188ba7f246300e590777847",
+        "bytes": 11798
+      }
+    },
+    {
+      "region_id": "p094-basic-caption",
+      "source_index": 97,
+      "pixel_bounds": [
+        315,
+        2670,
+        985,
+        2748
+      ],
+      "scan": {
+        "path": "ocr-094/p094-basic-caption.png",
+        "sha256": "9cb76089923703dbc56e09b6b9d75ed811eb624696e5f448fe62dae1d3a97350",
+        "bytes": 80141
+      }
+    },
+    {
+      "region_id": "p094-basic-left",
+      "source_index": 97,
+      "pixel_bounds": [
+        369,
+        2790,
+        1743,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-094/p094-basic-left.png",
+        "sha256": "f5a759171ebfb14ba3ab42e2e042d86e506d1dbf01c3f01b3911e347c10bca2c",
+        "bytes": 4836992
+      }
+    },
+    {
+      "region_id": "p094-basic-right",
+      "source_index": 97,
+      "pixel_bounds": [
+        2206,
+        792,
+        3650,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-094/p094-basic-right.png",
+        "sha256": "7be240eafcbb1d65bcfcf6aaeb9374d87b966a469e3609a449a704fd305fd5ff",
+        "bytes": 8403598
+      }
+    },
+    {
+      "region_id": "p095-basic-left",
+      "source_index": 98,
+      "pixel_bounds": [
+        439,
+        780,
+        1808,
+        5496
+      ],
+      "scan": {
+        "path": "ocr-095/p095-basic-left.png",
+        "sha256": "6a2d13d04d2cf942ea708f02d91daecff82f6883541e9e1bb9c3451b967d6a75",
+        "bytes": 8475139
+      }
+    },
+    {
+      "region_id": "p095-basic-right",
+      "source_index": 98,
+      "pixel_bounds": [
+        2292,
+        780,
+        3616,
+        5496
+      ],
+      "scan": {
+        "path": "ocr-095/p095-basic-right.png",
+        "sha256": "01ccdc6412b2938cc93fbddecadf61febe1db9957378f508b5feeadc9ad5501c",
+        "bytes": 8136948
+      }
+    },
+    {
+      "region_id": "p096-basic-left",
+      "source_index": 99,
+      "pixel_bounds": [
+        411,
+        780,
+        1802,
+        5496
+      ],
+      "scan": {
+        "path": "ocr-096/p096-basic-left.png",
+        "sha256": "16fde6e26537418703100ebf77860b15cea98e2a27b853bb7effcba9e3c658cd",
+        "bytes": 8213758
+      }
+    },
+    {
+      "region_id": "p096-basic-right",
+      "source_index": 99,
+      "pixel_bounds": [
+        2249,
+        780,
+        3546,
+        5496
+      ],
+      "scan": {
+        "path": "ocr-096/p096-basic-right.png",
+        "sha256": "7030fcfc105c41262c4c11eb06b9df7d4960460c7e5d037e990174ee1ce484ab",
+        "bytes": 7515315
+      }
+    },
+    {
+      "region_id": "p097-basic-left",
+      "source_index": 100,
+      "pixel_bounds": [
+        394,
+        780,
+        1820,
+        5490
+      ],
+      "scan": {
+        "path": "ocr-097/p097-basic-left.png",
+        "sha256": "7708ffb1992749fa8c0495e0427ce61eeda1f9f9739d82f69e19c1ede4d96a9a",
+        "bytes": 8799282
+      }
+    },
+    {
+      "region_id": "p097-basic-right",
+      "source_index": 100,
+      "pixel_bounds": [
+        2238,
+        792,
+        3533,
+        5496
+      ],
+      "scan": {
+        "path": "ocr-097/p097-basic-right.png",
+        "sha256": "a0b034ba59eb1ebcd402f3dbe6b0ad032193faa3fb718cf4c7f7ed8e6cf461cd",
+        "bytes": 8311325
+      }
+    },
+    {
+      "region_id": "p098-basic-final",
+      "source_index": 101,
+      "pixel_bounds": [
+        450,
+        768,
+        1742,
+        5520
+      ],
+      "scan": {
+        "path": "ocr-098/p098-basic-final.png",
+        "sha256": "288c49ac00b9fbc98901ce77010583d4d7ad3f00d0d206b1bc337393b9c6b838",
+        "bytes": 7612066
+      }
+    },
+    {
+      "region_id": "p098-monitor-caption",
+      "source_index": 101,
+      "pixel_bounds": [
+        2180,
+        1542,
+        2931,
+        1651
+      ],
+      "scan": {
+        "path": "ocr-098/p098-monitor-caption.png",
+        "sha256": "5f9114b4d899998dd1cf2413b07efd180c7e5ba5a59c19c085f237b3f3a20cb0",
+        "bytes": 105890
+      }
+    },
+    {
+      "region_id": "p098-monitor-opening",
+      "source_index": 101,
+      "pixel_bounds": [
+        2286,
+        1697,
+        3451,
+        5478
+      ],
+      "scan": {
+        "path": "ocr-098/p098-monitor-opening.png",
+        "sha256": "c994cdba2668e8ab28fdf79e5fb8e05f246efe0f80f5d8516899259b77201e13",
+        "bytes": 5650069
+      }
+    }
+  ],
+  "previousCheckpointCommit": "d0b1797c",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "91f7fe959cd1e246dd49e7d74d42bd3a1cd76e8de6464dbc62d5739214d74fb0",
+      "bytes": 211140
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "f7443fce3f52398466ad735ecc48ab7923e1e84dd7f6adb0e8b430b51821b2ef",
+      "bytes": 14200
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a61732ba4af3ad2527b5bc4893dd29fce54631420aed4145c0a08b4f0b8b1eb8",
+      "bytes": 17713
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "5cb0e0c82d4b6e8623db1106241d1b0bfcac398ffcc1f217f21f24f59f69e422",
+      "bytes": 16537
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "5a3325c59f06129cd3f296f3bcb77cb49d0baae95e7f1cb846cde0bfa5433287",
+      "bytes": 34557
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 25,
+    "total": 239,
+    "logs": [
+      {
+        "path": "archive/scans/1984-11/restoration/batch-22/pdf-final-regressions.log",
+        "sha256": "b0ddd7d834a0f20c87a770b46801a65159fb4ea727475fb11b7ee680bce383fa",
+        "bytes": 36395
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-22/jpeg-final-regressions.log",
+        "sha256": "58f2e5e0e4b8ed9a83cab823a6e64f1e7fc04fbfde0e1229726ba14be3cf4d81",
+        "bytes": 4779
+      }
+    ],
+    "reason": "R22 implementation/schema/test pins and frozen full regression logs rehashed unchanged; this is a data-only restoration."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 1,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "exportFailures": 0,
+    "independentRebuildFailures": 0,
+    "mapIdPreflightRepairs": 1,
+    "structurePreflightRepairs": 0,
+    "verifierPreflightRepairs": 0
+  },
+  "limitations": [
+    "Opening segment a restores actual 93-98 only. Actual 99-101 are present; machine-language continuation and whole-article assembly remain pending.",
+    "Original source words, printed anomalies, graphic marks, physical wraps and source relationships retained. Source glyph/blank/ink alternatives remain explicit.",
+    "Original encoding/typesetting, program and disassembly correctness, generated screen/audio/byte output, historical claims and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-25/recipe.json --output archive/scans/1984-11/packages/lores-runner-a-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-25/recipe.json --output work/validation/scans-1984-11-lores-runner-a-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-25/verify-review.py"
+  ],
+  "next": "R26: restore actual 99-101 of 로즈런너 (maso-1984-11-toc-0010) as the original List 2 machine-language continuation. Opening segment a retains setup, complete BASIC 1000-5410 and monitor 0C00-0C60; actual 99 begins 0C63, and actual 101 ends at printed 0F33 FF ??? before the next article on 102. Preserve every printed address/byte/mnemonic/operand field, source anomaly, unknown graphic and original relationship. Then assemble and independently rebuild the complete observed 93-101 article with both immutable segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild."
+}

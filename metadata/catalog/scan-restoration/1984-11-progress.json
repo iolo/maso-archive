@@ -6,8 +6,8 @@
   "source_type": "jpeg-set",
   "canonical_identities": 40,
   "readable_articles": 13,
-  "partial_articles": 0,
-  "identitiesAwaitingDisposition": 21,
+  "partial_articles": 1,
+  "identitiesAwaitingDisposition": 20,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -4202,10 +4202,201 @@
       "page_candidates": [
         93
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "observed_title": "로즈런너",
+      "observed_subtitle": "타임지가 선정한 가장 우수한 게임 로드 런너의 축소판",
+      "observed_byline": "편집부",
+      "observed_platform": "트라이젬 / 애플 컴패티블",
+      "observed_whole_extent": [
+        93,
+        101
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-25/scope.json",
+          "sha256": "2de83ab4a6335f9715289d4532a96fa3cc174f511a864f7d223d76770edb165b",
+          "bytes": 2130
+        },
+        "status": "Observed 93-101 extent located; opening 93-98 restored, machine-language 99-101 and whole assembly pending."
+      },
+      "segments": [
+        {
+          "segment_id": "a",
+          "printed_folios": [
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98"
+          ],
+          "source_views": [
+            {
+              "source_index": 96,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-093.jpg",
+                "sha256": "70f6d7945ee074d998048c25b9db96f1334e98f64c1fce7807a619a361807a15",
+                "bytes": 9692836
+              },
+              "width_px": 4734,
+              "height_px": 6913,
+              "reading_order": 95,
+              "source_filename_number": 93,
+              "printed_page": "93",
+              "image_to_upright_normalized": [
+                0.00021123785382340515,
+                0,
+                0,
+                0.00014465499783017504,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 97,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-094.jpg",
+                "sha256": "9be44d2ad5d7f0347d7502036ba3a687da8ed2ba5df8575289678b25dd5f77b4",
+                "bytes": 7869897
+              },
+              "width_px": 4732,
+              "height_px": 6924,
+              "reading_order": 96,
+              "source_filename_number": 94,
+              "printed_page": "94",
+              "image_to_upright_normalized": [
+                0.00021132713440405747,
+                0,
+                0,
+                0.00014442518775274407,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 98,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-095.jpg",
+                "sha256": "03dfffb0c3e62da791c0cfe97abf6a50d83333b6181f55f6733fabe1f40f6da9",
+                "bytes": 8215167
+              },
+              "width_px": 4736,
+              "height_px": 6918,
+              "reading_order": 97,
+              "source_filename_number": 95,
+              "printed_page": "95",
+              "image_to_upright_normalized": [
+                0.00021114864864864866,
+                0,
+                0,
+                0.00014455044810638914,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 99,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-096.jpg",
+                "sha256": "807524acb517e4c9796cec372f326c52911a76d48a8635dfaa09048bb7252754",
+                "bytes": 7540071
+              },
+              "width_px": 4749,
+              "height_px": 6927,
+              "reading_order": 98,
+              "source_filename_number": 96,
+              "printed_page": "96",
+              "image_to_upright_normalized": [
+                0.0002105706464518846,
+                0,
+                0,
+                0.00014436263894903998,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 100,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-097.jpg",
+                "sha256": "48bd71f8a322b64ff35d9ff7ee20256825277dce57d39eca43212e327fa6c19c",
+                "bytes": 8189494
+              },
+              "width_px": 4735,
+              "height_px": 6918,
+              "reading_order": 99,
+              "source_filename_number": 97,
+              "printed_page": "97",
+              "image_to_upright_normalized": [
+                0.00021119324181626187,
+                0,
+                0,
+                0.00014455044810638914,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 101,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-098.jpg",
+                "sha256": "c2c6a6ce1effd795360fd3c12e975cb0c3efd271e09f0194ef15ddf419591cbf",
+                "bytes": 7388533
+              },
+              "width_px": 4728,
+              "height_px": 6922,
+              "reading_order": 100,
+              "source_filename_number": 98,
+              "printed_page": "98",
+              "image_to_upright_normalized": [
+                0.00021150592216582064,
+                0,
+                0,
+                0.0001444669170759896,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/lores-runner-a-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/lores-runner-a-r01/manifest.json",
+              "sha256": "00e4313745b7d99a007e52db3816cca88b7f9e36857b84fe49c641d7ecd415db",
+              "bytes": 16933
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-25/validation.json",
+              "sha256": "4c3368eea7b532bd81b490f3a78277cea66d48544ad273e0e1fbbb3593e33cb6",
+              "bytes": 38775
+            }
+          ]
+        }
+      ],
+      "continuation_pending": [
+        99,
+        100,
+        101
+      ],
+      "assembly_pending": true,
+      "pending_listing_continuation": {
+        "listing_id": "lores-monitor",
+        "last_printed_address": "0C60",
+        "logical_unit_complete": true,
+        "next_folio": 99,
+        "next_printed_address": "0C63",
+        "whole_last_printed_address": "0F33"
+      },
+      "limitations": [
+        "Opening segment a restores actual 93-98 only. Actual 99-101 are present; machine-language continuation and whole-article assembly remain pending.",
+        "Original source words, printed anomalies, graphic marks, physical wraps and source relationships retained. Source glyph/blank/ink alternatives remain explicit.",
+        "Original encoding/typesetting, program and disassembly correctness, generated screen/audio/byte output, historical claims and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0011",
@@ -5053,6 +5244,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R25: locate and restore 로즈런너 (maso-1984-11-toc-0010, TOC starting-page candidate 93). Verify actual source title, ownership, ending and typed structures before mapping a bounded batch of at most six new views. Preserve all completed November packages and source evidence. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R26: restore actual 99-101 of 로즈런너 (maso-1984-11-toc-0010) as the original List 2 machine-language continuation. Opening segment a retains setup, complete BASIC 1000-5410 and monitor 0C00-0C60; actual 99 begins 0C63, and actual 101 ends at printed 0F33 FF ??? before the next article on 102. Preserve every printed address/byte/mnemonic/operand field, source anomaly, unknown graphic and original relationship. Then assemble and independently rebuild the complete observed 93-101 article with both immutable segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }

@@ -273,19 +273,24 @@ restored JSON/assets and faithful source evidence first.
 | R22 — complete 아기펭귄 assembly | Actual 78–85; complete native article package | 167 identical native files; 456 logical BASIC units from 592 physical rows, both monitor contexts, 142 table cells, 151 graphic/run records, overlapping artwork placement and 22 resolved source relationships; 239 regression tests pass |
 | R23 — 컨닝 | Actual 86–89; complete native article package | 75 identical native files; 223 numbered units / 253 physical rows, 76 table cells, 223 DATA tokens including split 14, original screen/closing emblem, five uncertain key-label occurrences and literal source anomalies retained |
 | R24 — 배고픈 거미 | Actual 90–92; complete native article package | 59 identical native files; 226 numbered units / 253 physical rows, 36 table cells, six sprite DATA groups / 192 hex fields, 22 web-coordinate pairs, nine fruit triples, cross-page 1270 and original DRAW/PLAY fragments; 21 local uncertainties retained |
+| R25 — 로즈런너 opening segment a | Actual 93–98; whole article remains partial | 101 identical native files; independent setup, complete BASIC 1000–5410 / 463 physical rows, monitor 0C00–0C60 / 99 byte fields, twelve paragraphs, 24 variable fields, 140 drawing commands, original screenshots/captions and explicit 99–101 continuation |
 
-Immediate next action: **R25**, locate and restore 로즈런너,
-`maso-1984-11-toc-0010`, TOC starting-page candidate 93. Verify its actual title,
-ownership and ending from the source images before selecting a bounded batch
-of at most six new mapped views. Preserve complete 배고픈 거미 on actual 90–92,
+Immediate next action: **R26**, restore actual 99–101 of 로즈런너,
+`maso-1984-11-toc-0010`, as the original List 2 machine-language continuation.
+Source 99 begins 0C63 after segment a's 0C60; source 101 ends at printed
+0F33 FF ??? before the next article on 102. Retain every printed field and
+source anomaly. Then assemble and independently rebuild the complete 93–101
+article, preserving segment a's complete BASIC, setup, prose/table/figures,
+physical fragments, source glyphs and typed relationships.
+Preserve complete 배고픈 거미 on actual 90–92,
 including the numberless incoming 1270 fragment, selective 2470 explanation,
 original sprite groups, numeric groups, macro strings and local uncertainty.
 Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has thirteen complete article packages, no partial article, six non-owning
-headings and 21 unclassified entries. Complete Feature II on 40–58 retains three
+November now has thirteen complete article packages, one partial article, six non-owning
+headings and 20 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
