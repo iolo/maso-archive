@@ -15,6 +15,39 @@ S,E='utf8_byte_start','utf8_byte_end_exclusive'
 
 
 class ImageSourceIndexTests(unittest.TestCase):
+    def test_label_graphics_derived_code_coordinates_whole_caption_and_prose_anchor(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);path=self.fixture(root);recipe=json.loads(path.read_bytes())
+            segments=[read_segment((root/s['manifest']['path']).parent,s['manifest']) for s in recipe['segments']]
+            recipe['source_index_mode']='regional-literals-v2'
+            c=segments[0][1]
+            for key in ('unresolved_graphics','unresolved_text'):
+                c[key][0].pop('block_start_byte');c[key][0].pop('block_end_byte')
+            label=c['figure_label_index'][0];label['text']='Apple ⟦screen⟧';label.pop('literal',None)
+            c['figure_structures'][0].update(figure_id='figure',labels=[label['label_id']])
+            graphic=dict(figure_id='figure',figure_label_id=label['label_id'],region_id=label['region_id'],scan=label['scan'],
+                marker='⟦screen⟧',transcription_excerpt='⟦screen⟧',status='manual-correction-required',
+                original_bytes=None,encoded_bytes=None,originalGlyphCount=None,source_encoding_verified=False,machine_byte_verified=False)
+            for key in ('unresolved_graphics','unresolved_text'):c[key].append(deepcopy(graphic))
+            caption=c['listing_caption_associations'][0]
+            caption.pop('start_byte');caption.pop('end_byte');caption['caption_region_id']='table-region'
+            c['source_uncertainties'].append(dict(block_id='table',region_id='table-region',anchor_byte=0,literal=''))
+            package,active=project(recipe,segments)
+            self.assertEqual(active['unresolved_graphics'][0]['block_start_byte'],9)
+            self.assertEqual(active['unresolved_graphics'][1]['figure_label_id'],'a:figure:l1')
+            self.assertEqual(active['figure_structures'][0]['labels'],['a:figure:l1'])
+            anchor=active['source_uncertainties'][-1]
+            self.assertEqual(anchor['anchor_byte'],block_ranges(package)['a-table'][0])
+            self.assertEqual(anchor['download'],'article.txt')
+            for case in ('missing marker','wrong owner','invented caption','split anchor'):
+                altered=deepcopy(segments);bad=altered[0][1]
+                if case=='missing marker':
+                    for key in ('unresolved_graphics','unresolved_text'):bad[key].pop()
+                elif case=='wrong owner':bad['figure_structures'][0]['labels']=['absent']
+                elif case=='invented caption':bad['listing_caption_associations'][0]['caption_literal']='inferred'
+                else:bad['source_uncertainties'][-1]['anchor_byte']=1
+                with self.subTest(case=case),self.assertRaises(ValueError):project(recipe,altered)
+
     def fixture(self,root):
         path=fragments.ImageFragmentAssemblyTests().fixture(root)
         recipe=json.loads(path.read_bytes());specs=[];selected='10 PRINT ⟦x⟧ '
@@ -90,6 +123,7 @@ class ImageSourceIndexTests(unittest.TestCase):
             for out in outputs:
                 p=assemble(path,out,root);self.assertEqual(check_export(out),p);c=json.loads((out/'corrections.json').read_bytes())
                 glyph=c['unresolved_graphics'][0]
+                self.assertNotIn('block_start_byte',c['basic_source_fields'][0])  # Frozen v1 projection vocabulary.
                 self.assertEqual({k:v for k,v in glyph.items() if k!='source_ref'},
                                  {k:v for k,v in c['unresolved_text'][0].items() if k!='source_ref'})
                 self.assertIsNone(glyph['original_bytes']);self.assertIsNone(glyph['originalGlyphCount'])

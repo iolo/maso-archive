@@ -1,0 +1,1028 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R27",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0010",
+  "title": "로즈런너",
+  "observed_title": "로즈런너",
+  "observed_byline": "편집부",
+  "observed_platform": "트라이젬 / 애플 컴패티블",
+  "outcome": "Complete reproducible presentation-independent 로즈런너 package, actual 93-101. Explicit printed-address join retains one whole monitor program alongside independent setup/BASIC contexts, original literal fields, source relationships, tables, figures/captions and all local uncertainties.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/lores-runner-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/lores-runner-r01/manifest.json",
+    "sha256": "685d54991c8e489b6ee2803069170f7a650302811fbc7969e4295d94b144879a",
+    "bytes": 25152
+  },
+  "assembly_record": {
+    "path": "archive/scans/1984-11/packages/lores-runner-r01/assembly.json",
+    "sha256": "d8c9242331f77504f5020ab4245831ccf77e3bd99f1580136dbe721a91d78041",
+    "bytes": 1342
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-27/validation.json",
+    "sha256": "974e56f239e472bc353f3f4a64d4b6e27c628831ed11ebcf70f79ca5004f2aec",
+    "bytes": 50726
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-27/evidence-manifest.json",
+    "sha256": "497cf85193cdea4af7ed6a382e1cae88bf5a479d23ebacf421141018b349d135",
+    "bytes": 9341
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-093.jpg",
+      "sha256": "70f6d7945ee074d998048c25b9db96f1334e98f64c1fce7807a619a361807a15",
+      "bytes": 9692836
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-094.jpg",
+      "sha256": "9be44d2ad5d7f0347d7502036ba3a687da8ed2ba5df8575289678b25dd5f77b4",
+      "bytes": 7869897
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-095.jpg",
+      "sha256": "03dfffb0c3e62da791c0cfe97abf6a50d83333b6181f55f6733fabe1f40f6da9",
+      "bytes": 8215167
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-096.jpg",
+      "sha256": "807524acb517e4c9796cec372f326c52911a76d48a8635dfaa09048bb7252754",
+      "bytes": 7540071
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-097.jpg",
+      "sha256": "48bd71f8a322b64ff35d9ff7ee20256825277dce57d39eca43212e327fa6c19c",
+      "bytes": 8189494
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-098.jpg",
+      "sha256": "c2c6a6ce1effd795360fd3c12e975cb0c3efd271e09f0194ef15ddf419591cbf",
+      "bytes": 7388533
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-099.jpg",
+      "sha256": "d2573ba4ffee6882d302505d5dfb3e96f910dd1361023bad5da67f34c5361031",
+      "bytes": 7759196
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-100.jpg",
+      "sha256": "ac35e1b3a0f6690e2f42b654250c784e68624435adef97fe4908df390974a193",
+      "bytes": 8002743
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-101.jpg",
+      "sha256": "fad41213657e493ce8f10aa5b118dc10fe6eed34551af1a9c4291bd842b25fa2",
+      "bytes": 8360183
+    }
+  ],
+  "printed_folios": [
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99",
+    "100",
+    "101"
+  ],
+  "observed_whole_extent": [
+    93,
+    101
+  ],
+  "immutable_segments": [
+    {
+      "segment_id": "a",
+      "printed_folios": [
+        "93",
+        "94",
+        "95",
+        "96",
+        "97",
+        "98"
+      ],
+      "source_views": [
+        {
+          "source_index": 96,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-093.jpg",
+            "sha256": "70f6d7945ee074d998048c25b9db96f1334e98f64c1fce7807a619a361807a15",
+            "bytes": 9692836
+          },
+          "width_px": 4734,
+          "height_px": 6913,
+          "reading_order": 95,
+          "source_filename_number": 93,
+          "printed_page": "93",
+          "image_to_upright_normalized": [
+            0.00021123785382340515,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 97,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-094.jpg",
+            "sha256": "9be44d2ad5d7f0347d7502036ba3a687da8ed2ba5df8575289678b25dd5f77b4",
+            "bytes": 7869897
+          },
+          "width_px": 4732,
+          "height_px": 6924,
+          "reading_order": 96,
+          "source_filename_number": 94,
+          "printed_page": "94",
+          "image_to_upright_normalized": [
+            0.00021132713440405747,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 98,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-095.jpg",
+            "sha256": "03dfffb0c3e62da791c0cfe97abf6a50d83333b6181f55f6733fabe1f40f6da9",
+            "bytes": 8215167
+          },
+          "width_px": 4736,
+          "height_px": 6918,
+          "reading_order": 97,
+          "source_filename_number": 95,
+          "printed_page": "95",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 99,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-096.jpg",
+            "sha256": "807524acb517e4c9796cec372f326c52911a76d48a8635dfaa09048bb7252754",
+            "bytes": 7540071
+          },
+          "width_px": 4749,
+          "height_px": 6927,
+          "reading_order": 98,
+          "source_filename_number": 96,
+          "printed_page": "96",
+          "image_to_upright_normalized": [
+            0.0002105706464518846,
+            0,
+            0,
+            0.00014436263894903998,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 100,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-097.jpg",
+            "sha256": "48bd71f8a322b64ff35d9ff7ee20256825277dce57d39eca43212e327fa6c19c",
+            "bytes": 8189494
+          },
+          "width_px": 4735,
+          "height_px": 6918,
+          "reading_order": 99,
+          "source_filename_number": 97,
+          "printed_page": "97",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 101,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-098.jpg",
+            "sha256": "c2c6a6ce1effd795360fd3c12e975cb0c3efd271e09f0194ef15ddf419591cbf",
+            "bytes": 7388533
+          },
+          "width_px": 4728,
+          "height_px": 6922,
+          "reading_order": 100,
+          "source_filename_number": 98,
+          "printed_page": "98",
+          "image_to_upright_normalized": [
+            0.00021150592216582064,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/lores-runner-a-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/lores-runner-a-r01/manifest.json",
+          "sha256": "00e4313745b7d99a007e52db3816cca88b7f9e36857b84fe49c641d7ecd415db",
+          "bytes": 16933
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-25/validation.json",
+          "sha256": "4c3368eea7b532bd81b490f3a78277cea66d48544ad273e0e1fbbb3593e33cb6",
+          "bytes": 38775
+        }
+      ]
+    },
+    {
+      "segment_id": "b",
+      "printed_folios": [
+        "99",
+        "100",
+        "101"
+      ],
+      "source_views": [
+        {
+          "source_index": 102,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-099.jpg",
+            "sha256": "d2573ba4ffee6882d302505d5dfb3e96f910dd1361023bad5da67f34c5361031",
+            "bytes": 7759196
+          },
+          "width_px": 4735,
+          "height_px": 6919,
+          "reading_order": 101,
+          "source_filename_number": 99,
+          "printed_page": "99",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 103,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-100.jpg",
+            "sha256": "ac35e1b3a0f6690e2f42b654250c784e68624435adef97fe4908df390974a193",
+            "bytes": 8002743
+          },
+          "width_px": 4733,
+          "height_px": 6922,
+          "reading_order": 102,
+          "source_filename_number": 100,
+          "printed_page": "100",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 104,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-101.jpg",
+            "sha256": "fad41213657e493ce8f10aa5b118dc10fe6eed34551af1a9c4291bd842b25fa2",
+            "bytes": 8360183
+          },
+          "width_px": 4740,
+          "height_px": 6918,
+          "reading_order": 103,
+          "source_filename_number": 101,
+          "printed_page": "101",
+          "image_to_upright_normalized": [
+            0.0002109704641350211,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/lores-runner-b-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/lores-runner-b-r01/manifest.json",
+          "sha256": "0aa7847d35e7616f0da548100a23979ce0ed2972033b7fe4f78a6ca6255ae919",
+          "bytes": 5489
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-26/validation.json",
+          "sha256": "23fca207db6df617bb6a26576bd78f37b8e6c470770636878d05c7acd840d4b6",
+          "bytes": 19984
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "sourceImages": 9,
+    "regions": 32,
+    "blocks": 12,
+    "figures": 4,
+    "listingContexts": 3,
+    "physicalRows": 831,
+    "logicalUnits": 810,
+    "basicLogicalUnits": 442,
+    "basicPhysicalRows": 463,
+    "monitorRows": 367,
+    "monitorByteFields": 820,
+    "blankOperands": 103,
+    "tableRows": 8,
+    "tableCells": 24,
+    "sourceParagraphs": 12,
+    "drawingCommands": 140,
+    "pokeExpressions": 41,
+    "controlTargets": 47,
+    "stageRoutines": 3,
+    "setupCommands": 3,
+    "callReferences": 3,
+    "graphicRunOccurrences": 6,
+    "localUncertainties": 16,
+    "figureLabels": 9,
+    "listingCaptions": 2,
+    "addressLiteralMatches": 193,
+    "resolvedPriorAddressMatches": 1,
+    "newOcrTasks": 0,
+    "nativeFiles": 143,
+    "negativeActualSourceCases": 18
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "a-p093-title",
+      "source_index": 96,
+      "pixel_bounds": [
+        328,
+        462,
+        1513,
+        882
+      ],
+      "scan": {
+        "path": "segments/a/ocr-093/p093-title.png",
+        "sha256": "92f4462b5788c1a83a6048ec8dbb4b09ad5258061c2fff8013bcd0a531671436",
+        "bytes": 756787
+      }
+    },
+    {
+      "region_id": "a-p093-subtitle",
+      "source_index": 96,
+      "pixel_bounds": [
+        1516,
+        750,
+        3481,
+        882
+      ],
+      "scan": {
+        "path": "segments/a/ocr-093/p093-subtitle.png",
+        "sha256": "32e6290681127f4107b72cbe8600da13e7acfde3c2e3981c026ee8cf29d00957",
+        "bytes": 371340
+      }
+    },
+    {
+      "region_id": "a-p093-credit",
+      "source_index": 96,
+      "pixel_bounds": [
+        2370,
+        1014,
+        3678,
+        1122
+      ],
+      "scan": {
+        "path": "segments/a/ocr-093/p093-credit.png",
+        "sha256": "dcaab9cfa476756c40cad6e118c6174b6c3708b79b93df878ba67dfebe3fa752",
+        "bytes": 212020
+      }
+    },
+    {
+      "region_id": "a-p093-body-left",
+      "source_index": 96,
+      "pixel_bounds": [
+        349,
+        1128,
+        2067,
+        5544
+      ],
+      "scan": {
+        "path": "segments/a/ocr-093/p093-body-left.png",
+        "sha256": "a2ef446744352d67f874f3f0dbf7ceb94bf58d84f6957ad9499ba38a34a21587",
+        "bytes": 10314264
+      }
+    },
+    {
+      "region_id": "a-p093-screen-first",
+      "source_index": 96,
+      "pixel_bounds": [
+        2185,
+        1242,
+        3884,
+        2412
+      ],
+      "scan": {
+        "path": "segments/a/ocr-093/p093-screen-first.png",
+        "sha256": "9a138e2adf30eaba77aa0e4d8a1e5bc826590bd4f20125518bfceb91872c9810",
+        "bytes": 3483959
+      }
+    },
+    {
+      "region_id": "a-p093-screen-second",
+      "source_index": 96,
+      "pixel_bounds": [
+        2185,
+        2478,
+        3884,
+        3654
+      ],
+      "scan": {
+        "path": "segments/a/ocr-093/p093-screen-second.png",
+        "sha256": "c1b746978baf08913a8a2c7718adb9f3f784f5dfb960fbb67f9a11ff8643d78e",
+        "bytes": 3461308
+      }
+    },
+    {
+      "region_id": "a-p093-screen-third",
+      "source_index": 96,
+      "pixel_bounds": [
+        2185,
+        3714,
+        3888,
+        4878
+      ],
+      "scan": {
+        "path": "segments/a/ocr-093/p093-screen-third.png",
+        "sha256": "f6f984cfcb818928f671b1ff0eef29d3e3ee1a0b2420f365fe9dd691710c8b8c",
+        "bytes": 3807925
+      }
+    },
+    {
+      "region_id": "a-p093-body-right",
+      "source_index": 96,
+      "pixel_bounds": [
+        2185,
+        4944,
+        3884,
+        5556
+      ],
+      "scan": {
+        "path": "segments/a/ocr-093/p093-body-right.png",
+        "sha256": "debc46bb22a1a57e977f14a954e2dd0e4f0dd48665411b73d14e1898f08bfee7",
+        "bytes": 1430325
+      }
+    },
+    {
+      "region_id": "a-p094-body-incoming",
+      "source_index": 97,
+      "pixel_bounds": [
+        262,
+        750,
+        1961,
+        942
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-body-incoming.png",
+        "sha256": "37e7e8b3941c54baaa2f0697852adc66948c6b4b51d5d257198844bae638b4c5",
+        "bytes": 461648
+      }
+    },
+    {
+      "region_id": "a-p094-bootstrap",
+      "source_index": 97,
+      "pixel_bounds": [
+        323,
+        954,
+        1834,
+        1056
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-bootstrap.png",
+        "sha256": "d702d3efd138ed652ce51583d14082079cad10dc413b460eb9a2a13a3d66aa43",
+        "bytes": 225276
+      }
+    },
+    {
+      "region_id": "a-p094-body-final",
+      "source_index": 97,
+      "pixel_bounds": [
+        262,
+        1062,
+        1965,
+        1356
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-body-final.png",
+        "sha256": "7726753a0ca5152247b2334b040c9dcc3fe8c7fb80767d054269d172ea5ce183",
+        "bytes": 726183
+      }
+    },
+    {
+      "region_id": "a-p094-variable-heading",
+      "source_index": 97,
+      "pixel_bounds": [
+        348,
+        1464,
+        1063,
+        1596
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-variable-heading.png",
+        "sha256": "d4c3dcaebca9204426d5981a62f0dc1f8f173d464b601ed5a2efbe0f9f2fe941",
+        "bytes": 154391
+      }
+    },
+    {
+      "region_id": "a-p094-variables",
+      "source_index": 97,
+      "pixel_bounds": [
+        262,
+        1626,
+        1321,
+        2442
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-variables.png",
+        "sha256": "7049dc9403064145dbfab90da3c473e5ecc67a2e5d07ef9376b6ccc5487d415a",
+        "bytes": 1139605
+      }
+    },
+    {
+      "region_id": "a-p094-end-mark",
+      "source_index": 97,
+      "pixel_bounds": [
+        1845,
+        2328,
+        1920,
+        2418
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-end-mark.png",
+        "sha256": "f20c3e5802af3da260a934ba2fdc322f219f66229188ba7f246300e590777847",
+        "bytes": 11798
+      }
+    },
+    {
+      "region_id": "a-p094-basic-caption",
+      "source_index": 97,
+      "pixel_bounds": [
+        315,
+        2670,
+        985,
+        2748
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-basic-caption.png",
+        "sha256": "9cb76089923703dbc56e09b6b9d75ed811eb624696e5f448fe62dae1d3a97350",
+        "bytes": 80141
+      }
+    },
+    {
+      "region_id": "a-p094-basic-left",
+      "source_index": 97,
+      "pixel_bounds": [
+        369,
+        2790,
+        1743,
+        5508
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-basic-left.png",
+        "sha256": "f5a759171ebfb14ba3ab42e2e042d86e506d1dbf01c3f01b3911e347c10bca2c",
+        "bytes": 4836992
+      }
+    },
+    {
+      "region_id": "a-p094-basic-right",
+      "source_index": 97,
+      "pixel_bounds": [
+        2206,
+        792,
+        3650,
+        5508
+      ],
+      "scan": {
+        "path": "segments/a/ocr-094/p094-basic-right.png",
+        "sha256": "7be240eafcbb1d65bcfcf6aaeb9374d87b966a469e3609a449a704fd305fd5ff",
+        "bytes": 8403598
+      }
+    },
+    {
+      "region_id": "a-p095-basic-left",
+      "source_index": 98,
+      "pixel_bounds": [
+        439,
+        780,
+        1808,
+        5496
+      ],
+      "scan": {
+        "path": "segments/a/ocr-095/p095-basic-left.png",
+        "sha256": "6a2d13d04d2cf942ea708f02d91daecff82f6883541e9e1bb9c3451b967d6a75",
+        "bytes": 8475139
+      }
+    },
+    {
+      "region_id": "a-p095-basic-right",
+      "source_index": 98,
+      "pixel_bounds": [
+        2292,
+        780,
+        3616,
+        5496
+      ],
+      "scan": {
+        "path": "segments/a/ocr-095/p095-basic-right.png",
+        "sha256": "01ccdc6412b2938cc93fbddecadf61febe1db9957378f508b5feeadc9ad5501c",
+        "bytes": 8136948
+      }
+    },
+    {
+      "region_id": "a-p096-basic-left",
+      "source_index": 99,
+      "pixel_bounds": [
+        411,
+        780,
+        1802,
+        5496
+      ],
+      "scan": {
+        "path": "segments/a/ocr-096/p096-basic-left.png",
+        "sha256": "16fde6e26537418703100ebf77860b15cea98e2a27b853bb7effcba9e3c658cd",
+        "bytes": 8213758
+      }
+    },
+    {
+      "region_id": "a-p096-basic-right",
+      "source_index": 99,
+      "pixel_bounds": [
+        2249,
+        780,
+        3546,
+        5496
+      ],
+      "scan": {
+        "path": "segments/a/ocr-096/p096-basic-right.png",
+        "sha256": "7030fcfc105c41262c4c11eb06b9df7d4960460c7e5d037e990174ee1ce484ab",
+        "bytes": 7515315
+      }
+    },
+    {
+      "region_id": "a-p097-basic-left",
+      "source_index": 100,
+      "pixel_bounds": [
+        394,
+        780,
+        1820,
+        5490
+      ],
+      "scan": {
+        "path": "segments/a/ocr-097/p097-basic-left.png",
+        "sha256": "7708ffb1992749fa8c0495e0427ce61eeda1f9f9739d82f69e19c1ede4d96a9a",
+        "bytes": 8799282
+      }
+    },
+    {
+      "region_id": "a-p097-basic-right",
+      "source_index": 100,
+      "pixel_bounds": [
+        2238,
+        792,
+        3533,
+        5496
+      ],
+      "scan": {
+        "path": "segments/a/ocr-097/p097-basic-right.png",
+        "sha256": "a0b034ba59eb1ebcd402f3dbe6b0ad032193faa3fb718cf4c7f7ed8e6cf461cd",
+        "bytes": 8311325
+      }
+    },
+    {
+      "region_id": "a-p098-basic-final",
+      "source_index": 101,
+      "pixel_bounds": [
+        450,
+        768,
+        1742,
+        5520
+      ],
+      "scan": {
+        "path": "segments/a/ocr-098/p098-basic-final.png",
+        "sha256": "288c49ac00b9fbc98901ce77010583d4d7ad3f00d0d206b1bc337393b9c6b838",
+        "bytes": 7612066
+      }
+    },
+    {
+      "region_id": "a-p098-monitor-caption",
+      "source_index": 101,
+      "pixel_bounds": [
+        2180,
+        1542,
+        2931,
+        1651
+      ],
+      "scan": {
+        "path": "segments/a/ocr-098/p098-monitor-caption.png",
+        "sha256": "5f9114b4d899998dd1cf2413b07efd180c7e5ba5a59c19c085f237b3f3a20cb0",
+        "bytes": 105890
+      }
+    },
+    {
+      "region_id": "a-p098-monitor-opening",
+      "source_index": 101,
+      "pixel_bounds": [
+        2286,
+        1697,
+        3451,
+        5478
+      ],
+      "scan": {
+        "path": "segments/a/ocr-098/p098-monitor-opening.png",
+        "sha256": "c994cdba2668e8ab28fdf79e5fb8e05f246efe0f80f5d8516899259b77201e13",
+        "bytes": 5650069
+      }
+    },
+    {
+      "region_id": "b-p099-monitor-left",
+      "source_index": 102,
+      "pixel_bounds": [
+        427,
+        780,
+        1602,
+        5508
+      ],
+      "scan": {
+        "path": "segments/b/ocr-099/p099-monitor-left.png",
+        "sha256": "72e5df82f2803b5ff35a86cf17151ac7223a5f08bd5c853bd6d5664b3889c101",
+        "bytes": 7318601
+      }
+    },
+    {
+      "region_id": "b-p099-monitor-right",
+      "source_index": 102,
+      "pixel_bounds": [
+        2258,
+        780,
+        3408,
+        5508
+      ],
+      "scan": {
+        "path": "segments/b/ocr-099/p099-monitor-right.png",
+        "sha256": "a0e9165257703bfdda5171fc84a1ba5bb955af923eb4051bccd0bb153275490d",
+        "bytes": 7224012
+      }
+    },
+    {
+      "region_id": "b-p100-monitor-left",
+      "source_index": 103,
+      "pixel_bounds": [
+        451,
+        780,
+        1621,
+        5508
+      ],
+      "scan": {
+        "path": "segments/b/ocr-100/p100-monitor-left.png",
+        "sha256": "df6e6e33a7fe53b89d37c04978d678a3a4c60cde0a057276fc7923d26c709b32",
+        "bytes": 7325910
+      }
+    },
+    {
+      "region_id": "b-p100-monitor-right",
+      "source_index": 103,
+      "pixel_bounds": [
+        2297,
+        792,
+        3427,
+        5508
+      ],
+      "scan": {
+        "path": "segments/b/ocr-100/p100-monitor-right.png",
+        "sha256": "8bb46bcab484d97a0affe7564e707536a13464cd09d19b7785e96213a576f859",
+        "bytes": 7097999
+      }
+    },
+    {
+      "region_id": "b-p101-monitor-left",
+      "source_index": 104,
+      "pixel_bounds": [
+        423,
+        780,
+        1624,
+        5508
+      ],
+      "scan": {
+        "path": "segments/b/ocr-101/p101-monitor-left.png",
+        "sha256": "62222083ae161a43145a04d22f00f2b240473c2ac53eba121a4511743e2aef15",
+        "bytes": 7845758
+      }
+    },
+    {
+      "region_id": "b-p101-monitor-right",
+      "source_index": 104,
+      "pixel_bounds": [
+        2261,
+        786,
+        3433,
+        5508
+      ],
+      "scan": {
+        "path": "segments/b/ocr-101/p101-monitor-right.png",
+        "sha256": "68d4c299acf736572e6c1592768346b5d60b730f146c3e492c809d313ecd3bcb",
+        "bytes": 7441696
+      }
+    }
+  ],
+  "previousCheckpointCommit": "f9578421e8a9c3b71fe640ef1cb8ba05f8e00d9e",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "0ab58e312ea3ddc012c8ccd756323621b4952761f6cde4002dd634e116f3e10a",
+      "bytes": 213135
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "4879f926b7c30e67066809d0bf042f324374c8e1c1e8c5280139ce864671b7ed",
+      "bytes": 19774
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "ebbe91142e36073a0210e6987a17de537c8dfa82660dea5e915c7bdfc91e9ed5",
+      "bytes": 23259
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "7366545d7eb3eb7e9774185702a94ec2e1aa2ca9c55fff3937ca8aeff57c2b16",
+      "bytes": 37022
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [
+    "tools/pdf_restore/assembly_addresses.py",
+    "tools/pdf_restore/assembly_programs.py",
+    "tools/pdf_restore/assembly_source_indexes.py",
+    "tools/pdf_restore/assembly_structured.py",
+    "tests/test_image_address_assemble.py",
+    "tests/test_image_source_indexes.py",
+    "docs/PDF-RESTORATION.md"
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 28,
+    "total": 242
+  },
+  "attempts": {
+    "newOcrTasks": 0,
+    "projectionPreflightFailures": 3,
+    "diagnosticProjectionFailures": 1,
+    "initialJpegRegressionRunFailures": 1,
+    "newAnchorTestRunFailures": 1,
+    "priorCompatibilityHarnessFailures": 1,
+    "priorCompatibilityFailuresBeforeVersionSplit": 1,
+    "fullAuditFailedAttempts": 4,
+    "fullAuditPassedAttempt": 5,
+    "nativeExportRuns": 3,
+    "nativeRebuildRuns": 3,
+    "supersededUnselectedOutputPairs": 2,
+    "note": "All attempts retained. Early native pairs remain unselected under work/validation: first before the explicit coordinate version, second before source-unit coordinate-owner projection. Final selected pair uses v2 and retains full native/source checks. Audit checker repairs covered the original 6000-pixel thumbnail transform, Counter key inventory and 103 whole-monitor blank operands; the owner audit prompted a source-unit-based projection fix. A split UTF-8 anchor test prompted zero-length boundary validation. Prior assembly comparison prompted the explicit v1/v2 split."
+  },
+  "limitations": [
+    "Original encoded bytes/typesetting, graphic glyph counts, source correctness, execution, historical claims and human acceptance remain unverified.",
+    "[a] Source whitespace, symbols, control-key representation and printed listing anomalies require source comparison.",
+    "[a] Printed machine bytes are source literals; original encoding, disassembly correctness, execution and human acceptance remain unverified.",
+    "[a] Original source words, printed anomalies, graphic marks, physical wraps and source relationships retained. Source glyph/blank/ink alternatives remain explicit.",
+    "[a] Original encoding/typesetting, program and disassembly correctness, generated screen/audio/byte output, historical claims and human acceptance remain unverified.",
+    "[a] Selected source reading; original bytes/typesetting, unknown graphic runs, program correctness and execution unverified.",
+    "[b] Faint hexadecimal and operand glyphs require local source comparison; no inferred opcode/operand repair.",
+    "[b] Printed bytes are source literals. Original encoded bytes, disassembly correctness, execution and human acceptance remain unverified.",
+    "[b] Printed INA/E8, unknown mnemonics, repeated zero/FF rows, blank operands and local B/8 or D/0 alternatives retain exact source links; no inferred executable corrections.",
+    "[b] Original encoding/typesetting, disassembly/program correctness, generated binary/screen/audio output, historical claims and human acceptance remain unverified.",
+    "[b] Printed source bytes/mnemonics/operands are reading literals; original encoding, disassembly correctness and execution remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-27/assembly-recipe.json --output archive/scans/1984-11/packages/lores-runner-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-27/assembly-recipe.json --output work/validation/scans-1984-11-lores-runner-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-27/verify-assembly.py",
+    "env PYTHONPATH=src:. python3 -m unittest discover -s tests -p 'test_pdf_*.py' -v",
+    "env PYTHONPATH=src:. python3 -m unittest -v tests.test_image_source tests.test_recognition_map tests.test_image_assemble tests.test_image_program_assemble tests.test_image_fragment_assemble tests.test_image_source_indexes tests.test_image_address_assemble"
+  ],
+  "next": "R28: locate and restore 깡통이 통-통-통 (maso-1984-11-toc-0011, contents start candidate 102). Verify actual title, ownership, ending and typed structures before selecting a bounded batch of at most six new mapped views. Preserve complete November packages and immutable source segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild."
+}

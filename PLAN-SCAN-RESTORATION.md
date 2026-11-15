@@ -331,3 +331,15 @@ fields, 322 data literals, ten label-delimited data groups and 168 figure labels
 The two flowcharts distinguish printed shapes, connector junctions and routine
 expansions without execution claims. All 152 files reproduce; nine local glyph
 uncertainties and the open program/data-group continuation remain explicit.
+
+R27 completes 로즈런너, actual 93–101, by joining the original monitor address
+boundary explicitly while keeping setup, BASIC and monitor contexts distinct.
+The v2 source-index projection handles the new coordinate/graphic/caption forms;
+frozen v1 assemblies retain their original conventions. All 143 native files
+rebuild exactly, all 32 source crops pass pixel checks, all 25 earlier packages
+still validate with exact bytes/evidence, and 242 shared regressions pass.
+November has 14 complete articles, no partial articles, six non-owning headings
+and 20 identities awaiting disposition. R28 starts by verifying 깡통이 통-통-통
+from contents page candidate 102. The remaining issue scope includes every
+unresolved identity, covers/source-image accounting and a checked whole-issue
+native export/rebuild; the reading room remains a sample presentation.

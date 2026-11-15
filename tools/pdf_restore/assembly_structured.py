@@ -34,9 +34,11 @@ def validate_recipe(recipe):
     if programs:
         required |= {'program_links', 'group_links', 'example_links'}
     if 'source_index_mode' in recipe:
-        if not programs or recipe['source_index_mode'] != 'regional-literals-v1':
+        if not programs or recipe['source_index_mode'] not in ('regional-literals-v1','regional-literals-v2'):
             raise ValueError('Unsupported structured source index extension')
         required.add('source_index_mode')
+    if programs and any('address_join' in r for r in recipe['program_links']) and recipe.get('source_index_mode')!='regional-literals-v2':
+        raise ValueError('Printed address joins require regional-literals-v2')
     if set(recipe) != required:
         raise ValueError('Unknown or missing structured assembly recipe field')
     if not isinstance(recipe['segments'], list) or not 2 <= len(recipe['segments']) <= 12:
@@ -89,6 +91,8 @@ def checked_span(data, start, end, literal=None):
     if type(start) is not int or type(end) is not int or not 0 <= start <= end <= len(data):
         raise ValueError('Structured byte span lies outside its coordinate system')
     try:
+        if start == end:
+            data[:start].decode('utf-8')
         value = data[start:end].decode('utf-8')
     except UnicodeDecodeError as error:
         raise ValueError('Structured byte span splits a UTF-8 character') from error
@@ -98,7 +102,7 @@ def checked_span(data, start, end, literal=None):
 
 
 class Context:
-    def __init__(self, spec, source, correction, offset, *, source_indexes=False):
+    def __init__(self, spec, source, correction, offset, *, source_indexes=False, source_index_version='regional-literals-v1'):
         self.spec, self.source, self.correction, self.offset = spec, source, correction, offset
         self.name, self.prefix = spec['name'], 'segments/' + spec['name']
         self.regions = {r['id'] for r in source['regions'] + source['excluded_regions']}
@@ -109,13 +113,14 @@ class Context:
         self.assets = {r['region_id']: r['asset'] for r in source['region_assets']}
         self.program_mode = False
         self.source_indexes = source_indexes
+        self.extended_source_indexes = source_indexes and source_index_version=='regional-literals-v2'
         self.logical_aliases = {}
         self.listing_ids = {id: self.name + '-' + id for id in self.groups}
         self.positions = {self.name + '-' + id: (self.name + '-' + id, 0) for id in self.blocks}
         self.article, self.listing = text_bytes(source)
         if source_indexes:self.ranges=block_ranges(source)
         indexes = INDEXES + ('text_index', 'unresolved_graphics', 'unresolved_text') if source_indexes else INDEXES
-        metadata = METADATA | {'previous_package_manifest'} if source_indexes else METADATA
+        metadata = METADATA | {'previous_package_manifest', 'character_perfect_code'} if source_indexes else METADATA
         if set(correction) - set(indexes) - metadata:
             raise ValueError('Unrecognized structured correction index; add an explicit projection')
 
@@ -189,6 +194,19 @@ class Context:
     def block_span(self, row, projected, ranges, *, owner=None, literal=None):
         owner = owner or row.get('block_id') or self.code_block(row['listing_id'])
         data = self.blocks[owner]['text'].encode()
+        listing_coordinates=(row.get('download')=='listing.txt' or
+                             row.get(START)==row['start_byte'] and row.get(END)==row['end_byte'])
+        if self.extended_source_indexes and self.blocks[owner]['kind']=='code' and listing_coordinates:
+            base=next(r[START] for r in self.correction['listing_index'] if r['block_id']==owner)
+            a,z=row.get('block_start_byte',row['start_byte']-base),row.get('block_end_byte',row['end_byte']-base)
+            if (row['start_byte'],row['end_byte'])!=(base+a,base+z):
+                raise ValueError('Literal listing and block coordinate systems differ')
+            checked_span(data,a,z,literal)
+            projected.update(start_byte=row['start_byte']+self.offset,end_byte=row['end_byte']+self.offset,
+                             block_id=self.block(owner),download='listing.txt',
+                             block_start_byte=a+self.positions[self.identity(owner,self.blocks)][1],
+                             block_end_byte=z+self.positions[self.identity(owner,self.blocks)][1])
+            return projected
         checked_span(data, row['start_byte'], row['end_byte'], literal)
         target, within = self.positions[self.identity(owner, self.blocks)]
         a, z = within + row['start_byte'], within + row['end_byte']
@@ -222,13 +240,13 @@ class Context:
 
 def project_structured(recipe, originals):
     validate_recipe(recipe)
-    source_indexes = recipe.get('source_index_mode') == 'regional-literals-v1'
+    source_indexes = recipe.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2')
     indexes = INDEXES + ('text_index', 'unresolved_graphics', 'unresolved_text') if source_indexes else INDEXES
     contexts=[];offset=0
     for spec,(source,correction) in zip(recipe['segments'],originals,strict=True):
         if source['schema_version'] != 2:
             raise ValueError('Structured JPEG mode requires explicit image-source packages')
-        context=Context(spec,source,correction,offset,source_indexes=source_indexes);contexts.append(context);offset+=len(context.listing)
+        context=Context(spec,source,correction,offset,source_indexes=source_indexes,source_index_version=recipe.get('source_index_mode'));contexts.append(context);offset+=len(context.listing)
     programs = recipe['index_mode'] == 'structured-programs-v1'
     fragments = programs and any('logical_join' in r for r in recipe['program_links'])
     for context in contexts:context.program_mode = programs
@@ -350,7 +368,13 @@ def project_structured(recipe, originals):
                     row['rows']=rows
                 elif key=='listing_caption_associations':
                     literal=original.get('caption_literal') if source_indexes and 'caption_literal' in original else original['literal']
-                    context.block_span(original,row,ranges,owner=original['caption_block_id'],literal=literal)
+                    span=original
+                    if context.extended_source_indexes and 'start_byte' not in original:
+                        caption=context.blocks[original['caption_block_id']]
+                        if caption['text']!=literal or original.get('caption_region_id') not in caption['region_ids']:
+                            raise ValueError('Whole caption association differs from its source block')
+                        span=dict(original,start_byte=0,end_byte=len(literal.encode()))
+                    context.block_span(span,row,ranges,owner=original['caption_block_id'],literal=literal)
                 elif 'start_byte' in original and 'end_byte' in original:
                     literal=original.get('marker',original.get('literal',original.get('text',original.get('separator'))))
                     context.block_span(original,row,ranges,literal=literal)
@@ -405,14 +429,17 @@ def validate_references(package,correction):
              'source_unit_id':logical,'from_node':nodes,'to_node':nodes}
     multiples={**{k:blocks for k in BLOCK_LISTS},'region_ids':regions,'figure_ids':figures,'physical_line_ids':physical}
     indexes = INDEXES
-    if correction.get('source_index_mode') == 'regional-literals-v1':
-        from .assembly_source_indexes import UNIT_KEYS, UNIT_LISTS, REGION_LISTS, BLOCK_EXTRA, LOCAL_EXTRA
+    if correction.get('source_index_mode') in ('regional-literals-v1','regional-literals-v2'):
+        from .assembly_source_indexes import UNIT_KEYS, UNIT_LISTS, REGION_LISTS, BLOCK_EXTRA, LOCAL_EXTRA, BLOCK_EXTRA_LISTS, LISTING_EXTRA
         singles.update({k:logical for k in UNIT_KEYS})
         singles.update(physical_line_id=physical,table_row_id={r['row_id'] for t in correction['tables'] for r in t['rows']})
         singles.update({k:blocks for k in BLOCK_EXTRA})
         singles.update({k:{r['label_id'] for r in correction['figure_label_index']} for k in LOCAL_EXTRA})
         multiples.update({k:logical for k in UNIT_LISTS})
         multiples.update({k:regions for k in REGION_LISTS})
+        multiples.update({k:blocks for k in BLOCK_EXTRA_LISTS})
+        multiples.update(listing_ids=listings,labels={r['label_id'] for r in correction['figure_label_index']})
+        singles.update({k:listings for k in LISTING_EXTRA})
         multiples.update(table_ids=tables,group_ids={r['group_id'] for r in correction['content_associations'] if 'group_id' in r})
         indexes += ('text_index','unresolved_graphics','unresolved_text')
     def walk(value):

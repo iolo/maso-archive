@@ -5,8 +5,8 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 13,
-  "partial_articles": 1,
+  "readable_articles": 14,
+  "partial_articles": 0,
   "identitiesAwaitingDisposition": 20,
   "entries": [
     {
@@ -4204,7 +4204,7 @@
       ],
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "observed_title": "로즈런너",
       "observed_subtitle": "타임지가 선정한 가장 우수한 게임 로드 런너의 축소판",
@@ -4216,11 +4216,12 @@
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-26/scope.json",
-          "sha256": "a5445a73c881244cc975274febaf8196c5654d6ca5fa8de69d93b329119e9086",
-          "bytes": 1192
+          "path": "archive/scans/1984-11/restoration/batch-27/validation.json",
+          "sha256": "974e56f239e472bc353f3f4a64d4b6e27c628831ed11ebcf70f79ca5004f2aec",
+          "bytes": 50726
         },
-        "status": "Complete 93-101 source extent restored in immutable segments a/b; whole native assembly/rebuild pending."
+        "finding_key": "summary",
+        "status": "Complete observed 93-101 source extent assembled and independently rebuilt; original opening, ending and source structures retained."
       },
       "segments": [
         {
@@ -4467,21 +4468,297 @@
         }
       ],
       "continuation_pending": [],
-      "assembly_pending": true,
-      "pending_listing_continuation": {
-        "listing_id": "lores-monitor",
-        "left_segment": "a",
-        "left_last_printed_address": "0C60",
-        "right_segment": "b",
-        "right_first_printed_address": "0C63",
-        "last_printed_address": "0F33",
-        "source_complete": true,
-        "assembly_pending": true
-      },
+      "assembly_pending": false,
       "limitations": [
-        "Continuation segment b restores actual 99-101 only. All observed 93-101 source pages are now in separate segments; whole-article native assembly/rebuild remains pending.",
-        "Printed INA/E8, unknown mnemonics, repeated zero/FF rows, blank operands and local B/8 or D/0 alternatives retain exact source links; no inferred executable corrections.",
-        "Original encoding/typesetting, disassembly/program correctness, generated binary/screen/audio output, historical claims and human acceptance remain unverified."
+        "Original encoded bytes/typesetting, graphic glyph counts, source correctness, execution, historical claims and human acceptance remain unverified.",
+        "[a] Source whitespace, symbols, control-key representation and printed listing anomalies require source comparison.",
+        "[a] Printed machine bytes are source literals; original encoding, disassembly correctness, execution and human acceptance remain unverified.",
+        "[a] Original source words, printed anomalies, graphic marks, physical wraps and source relationships retained. Source glyph/blank/ink alternatives remain explicit.",
+        "[a] Original encoding/typesetting, program and disassembly correctness, generated screen/audio/byte output, historical claims and human acceptance remain unverified.",
+        "[a] Selected source reading; original bytes/typesetting, unknown graphic runs, program correctness and execution unverified.",
+        "[b] Faint hexadecimal and operand glyphs require local source comparison; no inferred opcode/operand repair.",
+        "[b] Printed bytes are source literals. Original encoded bytes, disassembly correctness, execution and human acceptance remain unverified.",
+        "[b] Printed INA/E8, unknown mnemonics, repeated zero/FF rows, blank operands and local B/8 or D/0 alternatives retain exact source links; no inferred executable corrections.",
+        "[b] Original encoding/typesetting, disassembly/program correctness, generated binary/screen/audio output, historical claims and human acceptance remain unverified.",
+        "[b] Printed source bytes/mnemonics/operands are reading literals; original encoding, disassembly correctness and execution remain unverified."
+      ],
+      "previous_location_evidence": [
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-26/scope.json",
+            "sha256": "a5445a73c881244cc975274febaf8196c5654d6ca5fa8de69d93b329119e9086",
+            "bytes": 1192
+          },
+          "status": "Complete 93-101 source extent restored in immutable segments a/b; whole native assembly/rebuild pending."
+        }
+      ],
+      "source_views": [
+        {
+          "source_index": 96,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-093.jpg",
+            "sha256": "70f6d7945ee074d998048c25b9db96f1334e98f64c1fce7807a619a361807a15",
+            "bytes": 9692836
+          },
+          "width_px": 4734,
+          "height_px": 6913,
+          "reading_order": 95,
+          "source_filename_number": 93,
+          "printed_page": "93",
+          "image_to_upright_normalized": [
+            0.00021123785382340515,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 97,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-094.jpg",
+            "sha256": "9be44d2ad5d7f0347d7502036ba3a687da8ed2ba5df8575289678b25dd5f77b4",
+            "bytes": 7869897
+          },
+          "width_px": 4732,
+          "height_px": 6924,
+          "reading_order": 96,
+          "source_filename_number": 94,
+          "printed_page": "94",
+          "image_to_upright_normalized": [
+            0.00021132713440405747,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 98,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-095.jpg",
+            "sha256": "03dfffb0c3e62da791c0cfe97abf6a50d83333b6181f55f6733fabe1f40f6da9",
+            "bytes": 8215167
+          },
+          "width_px": 4736,
+          "height_px": 6918,
+          "reading_order": 97,
+          "source_filename_number": 95,
+          "printed_page": "95",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 99,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-096.jpg",
+            "sha256": "807524acb517e4c9796cec372f326c52911a76d48a8635dfaa09048bb7252754",
+            "bytes": 7540071
+          },
+          "width_px": 4749,
+          "height_px": 6927,
+          "reading_order": 98,
+          "source_filename_number": 96,
+          "printed_page": "96",
+          "image_to_upright_normalized": [
+            0.0002105706464518846,
+            0,
+            0,
+            0.00014436263894903998,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 100,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-097.jpg",
+            "sha256": "48bd71f8a322b64ff35d9ff7ee20256825277dce57d39eca43212e327fa6c19c",
+            "bytes": 8189494
+          },
+          "width_px": 4735,
+          "height_px": 6918,
+          "reading_order": 99,
+          "source_filename_number": 97,
+          "printed_page": "97",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 101,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-098.jpg",
+            "sha256": "c2c6a6ce1effd795360fd3c12e975cb0c3efd271e09f0194ef15ddf419591cbf",
+            "bytes": 7388533
+          },
+          "width_px": 4728,
+          "height_px": 6922,
+          "reading_order": 100,
+          "source_filename_number": 98,
+          "printed_page": "98",
+          "image_to_upright_normalized": [
+            0.00021150592216582064,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 102,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-099.jpg",
+            "sha256": "d2573ba4ffee6882d302505d5dfb3e96f910dd1361023bad5da67f34c5361031",
+            "bytes": 7759196
+          },
+          "width_px": 4735,
+          "height_px": 6919,
+          "reading_order": 101,
+          "source_filename_number": 99,
+          "printed_page": "99",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 103,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-100.jpg",
+            "sha256": "ac35e1b3a0f6690e2f42b654250c784e68624435adef97fe4908df390974a193",
+            "bytes": 8002743
+          },
+          "width_px": 4733,
+          "height_px": 6922,
+          "reading_order": 102,
+          "source_filename_number": 100,
+          "printed_page": "100",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 104,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-101.jpg",
+            "sha256": "fad41213657e493ce8f10aa5b118dc10fe6eed34551af1a9c4291bd842b25fa2",
+            "bytes": 8360183
+          },
+          "width_px": 4740,
+          "height_px": 6918,
+          "reading_order": 103,
+          "source_filename_number": 101,
+          "printed_page": "101",
+          "image_to_upright_normalized": [
+            0.0002109704641350211,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/lores-runner-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/lores-runner-r01/manifest.json",
+          "sha256": "685d54991c8e489b6ee2803069170f7a650302811fbc7969e4295d94b144879a",
+          "bytes": 25152
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-27/validation.json",
+          "sha256": "974e56f239e472bc353f3f4a64d4b6e27c628831ed11ebcf70f79ca5004f2aec",
+          "bytes": 50726
+        }
+      ],
+      "resolved_programs": [
+        {
+          "id": "lores-monitor-whole",
+          "listing_id": "a-lores-monitor",
+          "block_id": "a-lores-monitor",
+          "left": {
+            "segment": "a",
+            "listing_id": "lores-monitor",
+            "last_printed_address": "0C60",
+            "association": 263
+          },
+          "right": {
+            "segment": "b",
+            "listing_id": "lores-monitor",
+            "first_printed_address": "0C63",
+            "association": 208
+          },
+          "right_block_offset": 945,
+          "source_text_preserved": true,
+          "execute_verified": false,
+          "source_occurrences": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "7a74c65b638e12fd74888be72cafc79e842e72ee06e138f90600d074f521c8c9",
+                "bytes": 4077687
+              },
+              "pointer": "/content_associations/263"
+            },
+            {
+              "corrections": {
+                "path": "segments/b/corrections.json",
+                "sha256": "382ae026dea44f010f4f54e5a6e68ebcd09ef5e4c16e5a959c9ddf5b9d109070",
+                "bytes": 2216194
+              },
+              "pointer": "/content_associations/208"
+            }
+          ],
+          "address_join": {
+            "left_source_unit_id": "lores-monitor:a0C60",
+            "right_source_unit_id": "lores-monitor:a0C63",
+            "left_folio": "98",
+            "right_folio": "99"
+          }
+        }
+      ],
+      "resolved_source_relationships": [
+        {
+          "kind": "source-address-literal-match",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "382ae026dea44f010f4f54e5a6e68ebcd09ef5e4c16e5a959c9ddf5b9d109070",
+              "bytes": 2216194
+            },
+            "pointer": "/content_associations/170"
+          },
+          "target_source_unit_id": "a:lores-monitor:a0C02",
+          "source_values_changed": false,
+          "execute_verified": false
+        }
       ]
     },
     {
@@ -5330,6 +5607,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R27: assemble complete 로즈런너 (maso-1984-11-toc-0010), actual 93-101, from immutable segments a (93-98) and b (99-101). Qualify an explicit address-based source program join from 0C60 to 0C63; the existing numbered-program join cannot represent these printed address boundaries. Preserve three independent contexts (setup, complete BASIC and one whole monitor listing), every original field/blank/run, all source glyph/whitespace alternatives, original figures/captions and typed relationships. Independently rebuild and audit the complete native package; original segments/evidence remain exact. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R28: locate and restore 깡통이 통-통-통 (maso-1984-11-toc-0011, contents start candidate 102). Verify actual title, ownership, ending and typed structures before selecting a bounded batch of at most six new mapped views. Preserve complete November packages and immutable source segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }

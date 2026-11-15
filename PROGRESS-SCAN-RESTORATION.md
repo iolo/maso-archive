@@ -1338,3 +1338,60 @@ and assemble/rebuild the complete 93–101 article. The existing numbered-progra
 join cannot express this source boundary; retain original address identities
 and all typed structures when extending it. Continue every remaining November
 identity, covers/source-image accounting and checked whole-issue native export.
+
+## R27 completed — 2026-11-15
+
+Assembled the complete 로즈런너 article, actual 93–101, from the two immutable
+source segments. Setup, the complete BASIC program and the whole monitor listing
+remain three independent contexts. The explicit printed-address join connects
+0C60 to 0C63 using original continuation declarations, folios, the prior manifest
+and the count of printed byte fields. No synthetic numbered rows or instruction
+semantics establish the boundary.
+
+The native structures retain all 831 physical rows and 810 logical units,
+including 442 BASIC units and 367 monitor rows with 820 printed byte fields and
+103 blank operands. All 12 prose paragraphs, eight variable-table rows/24 cells,
+140 drawing commands, 41 POKE expressions, 47 control targets, three stage groups,
+three setup commands and three CALL relationships survive. Both listing captions,
+three independent screenshots, the closing emblem and nine figure labels remain.
+Six graphic-run markers and all 16 local uncertainties retain unknown original
+bytes/counts and source alternatives. Original PEEI, KK, SCRN / X, E8 / INA,
+repeated rows and the final 0F33 FF ??? remain unchanged. The prior-segment 0C02
+address-literal match now closes inside the assembled monitor context; it still
+asserts literal equality only.
+
+An explicit `regional-literals-v2` projection handles these listing-global and
+block-relative spans, source-unit coordinate owners, figure-label graphic marks,
+whole captions and prose anchors. Frozen v1 conventions remain intact. The
+compatibility audit checks every earlier November package using current code,
+as well as its exact native bytes and frozen evidence. Shared OCR/PDF plans
+remain unchanged; no new OCR, generated binary, screen, glyph or audio output.
+
+All 143 native files match a separate-process rebuild byte for byte. All 32 crops
+match pixels from the original masters under the recorded 6000-pixel thumbnail
+transform. Eighteen invalid actual-source cases reject; the full regression run
+passes 214 PDF tests and 28 JPEG/recognition/assembly tests. All 25 earlier native
+packages and their frozen evidence remain exact and currently validate.
+
+Attempt logs are retained. Three projection preflights failed before source
+coordinate/caption support was complete. An initial regression failure exposed
+a label-format assumption; the anchor test exposed empty spans inside UTF-8
+characters. A frozen-assembly comparison prompted the explicit v1/v2 split.
+Four full-audit attempts identified checker assumptions about the image transform,
+Counter inventories and whole-monitor blank count, plus a missing coordinate
+owner for setup-command fragments. That owner now derives from the original
+source unit. Two superseded, unselected export/rebuild pairs remain under
+`work/validation`; the final pair passed the complete audit. Cleanup ran in
+preview mode only. The catalog records the attempts and frozen evidence pins.
+
+November now has **14 complete article packages, zero partial articles, six
+non-owning headings and 20 unclassified identities**. Source correctness,
+original encoding/typesetting, execution and human acceptance remain unverified.
+Whole-issue restoration is still in progress.
+
+See the [complete 로즈런너 result](metadata/catalog/scan-restoration/1984-11-lores-runner.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R28**, locate 깡통이 통-통-통, contents starting-page candidate 102,
+and verify its actual extent and structures before selecting at most six new
+mapped views. Continue every remaining November identity, covers/source-image
+accounting and checked whole-issue native export/rebuild.

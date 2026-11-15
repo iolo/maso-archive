@@ -3578,3 +3578,33 @@ May cat adapter evidence is in
 `private/pdf-restoration/12-1984-05-cat-reference-adapter/validation-final.json`.
 All106 PDF tests pass; the real two-segment projection/rebuild and all32 earlier
 assemblies validate. It adds no OCR, rendering or code-execution requirement.
+
+### Printed-address joins for JPEG source segments
+
+`structured-programs-v1` with `source_index_mode: regional-literals-v2` adds an
+explicit `address_join` alternative to a numbered program link. Its left/right
+endpoints use `last_printed_address` / `first_printed_address`, not synthetic row
+numbers. The join declares both original logical-unit identities and printed
+folios. Original continuation associations, prior manifest, endpoint rows,
+physical-row ownership and observed address inventories must agree. The next
+printed address must equal the preceding printed address plus its count of
+separate printed byte fields. This is source accounting; mnemonic semantics,
+execution and byte correctness do not establish the join. Repeated instructions
+and blank operands retain independent source occurrences.
+
+The v2 literal projection distinguishes listing-global byte spans, block-relative
+byte spans, physical-row field spans and logical character positions. Explicit
+coordinate pairs must agree; optional code-marker block coordinates derive from
+the original listing index. Whole-block caption associations are accepted only
+when their literal and source region agree with the complete caption block.
+Figure-label graphic runs remain tied to their original labels and scans, with
+unknown bytes/counts. Prose uncertainty anchors address `article.txt`; prior
+address-literal matches resolve only against a pinned preceding segment and the
+same joined listing. Setup and BASIC contexts remain separate from the joined
+monitor program. Every projected record links back to immutable corrections.
+
+`regional-literals-v1` retains its existing coordinate conventions and output
+vocabulary so frozen assemblies can still be checked and reproduced. These
+extensions do not change the PDF source path or shared OCR/PDF operating plans.
+Validation includes native independent rebuilds, malformed join/ownership/span
+rejection, graphics/caption/anchor checks and verification of frozen assemblies.

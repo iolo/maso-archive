@@ -12,11 +12,14 @@ from .assembly_structured import checked_span, START, END
 
 UNIT_KEYS = {'source_string_unit_id', 'parameter_source_unit_id', 'target_source_unit_id',
              'last_source_unit_id', 'first_source_unit_id', 'previous_source_unit_id',
-             'open_final_source_unit_id', 'incoming_source_unit_id'}
-UNIT_LISTS = {'source_unit_ids', 'loader_source_unit_ids', 'display_source_unit_ids'}
+             'open_final_source_unit_id', 'incoming_source_unit_id', 'embedded_end_source_unit_id',
+             'prior_source_unit_id'}
+UNIT_LISTS = {'source_unit_ids', 'loader_source_unit_ids', 'display_source_unit_ids', 'earlier_rts_source_unit_ids'}
 REGION_LISTS = {'figure_region_ids', 'loader_region_ids'}
-BLOCK_EXTRA = {'tagline_block_id'}
-LOCAL_EXTRA = {'value_label_id'}
+BLOCK_EXTRA = {'tagline_block_id', 'source_prose_block_id'}
+LOCAL_EXTRA = {'value_label_id', 'figure_label_id'}
+BLOCK_EXTRA_LISTS = {'listing_block_ids'}
+LISTING_EXTRA = {'setup_listing_id'}
 
 
 def need(condition, message):
@@ -30,18 +33,41 @@ def unit(context, value):
 def reference(context, key, value):
     if key == 'boundary_evidence':return True, NotImplemented
     if value is None:return False, None
+    if not context.extended_source_indexes and key in {'prior_source_unit_id','embedded_end_source_unit_id','earlier_rts_source_unit_ids','source_prose_block_id','listing_block_ids','setup_listing_id','listing_ids','labels','figure_label_id'}:
+        return False, None
+    if key == 'prior_source_unit_id':return True, value  # Qualified against the prior manifest after joining.
     if key in UNIT_KEYS:return True, unit(context,value)
     if key in UNIT_LISTS:return True, [unit(context,v) for v in value]
     if key in REGION_LISTS:return True, [context.identity(v,context.regions) for v in value]
     if key in BLOCK_EXTRA:return True, context.block(value)
+    if key in BLOCK_EXTRA_LISTS:return True, [context.block(v) for v in value]
+    if key in LISTING_EXTRA:
+        context.identity(value,context.groups)
+        return True, context.listing_ids[value]
+    if key == 'listing_ids':
+        for v in value:context.identity(v,context.groups)
+        return True, [context.listing_ids[v] for v in value]
+    if key == 'labels' and isinstance(value,list) and all(isinstance(v,str) for v in value):
+        return True, [context.name+':'+v for v in value]
     if key == 'table_ids':return True, [context.identity(v,context.tables) for v in value]
     if key in LOCAL_EXTRA or key in ('physical_line_id','table_row_id','paragraph_id'):
         return True, context.name + ':' + value
     return False, None
 
 
+def graphic_span(context, row):
+    """Derive optional block coordinates from the explicit listing index base."""
+    base=next(r[START] for r in context.correction['listing_index'] if r['block_id']==row['block_id'])
+    a,z=row[START]-base,row[END]-base
+    need(row.get('block_start_byte',a)==a and row.get('block_end_byte',z)==z,
+         'Graphic listing and block coordinate systems differ')
+    return a,z
+
+
 def validate_source_indexes(context):
     correction=context.correction
+    need(correction.get('character_perfect_code',False) is False,
+         'Source indexes cannot establish character-perfect code')
     supplied=correction.get('text_index',[])
     need(len(supplied)==len(context.blocks) and {r['block_id'] for r in supplied}==set(context.blocks),
          'Source text index must cover each original block exactly once')
@@ -54,15 +80,31 @@ def validate_source_indexes(context):
     for id,block in context.blocks.items():
         for match in re.finditer(r'⟦[^⟧]+⟧',block['text']):
             expected[(id,len(block['text'][:match.start()].encode()),match.group())]+=1
+    labels={r['label_id']:r for r in correction.get('figure_label_index',[])}
+    need(len(labels)==len(correction.get('figure_label_index',[])), 'Duplicate source figure label')
+    for id,label in labels.items():
+        for match in re.finditer(r'⟦[^⟧]+⟧',label.get('text',label.get('literal',''))):
+            expected[('figure-label:'+id,len(label.get('text',label.get('literal',''))[:match.start()].encode()),match.group())]+=1
     observed=Counter()
     physical={r['line_id']:r for r in correction['listing_line_index']}
     logical={r['line_id']:r for r in correction['logical_listing_line_index']}
     for row in graphics:
-        id=row['block_id'];a,z=row['block_start_byte'],row['block_end_byte']
         need(row.get('status')=='manual-correction-required' and
              all(k in row and row[k] is None for k in ('original_bytes','encoded_bytes','originalGlyphCount')) and
              all(row.get(k) is False for k in ('source_encoding_verified','machine_byte_verified')),
              'Graphic occurrence must retain unknown bytes/counts and unverified encoding')
+        if 'figure_label_id' in row:
+            label=labels.get(row['figure_label_id'])
+            figure=next((f for f in correction.get('figure_structures',[]) if f.get('figure_id')==row.get('figure_id')),None)
+            need(label is not None and figure is not None and row['figure_label_id'] in figure.get('labels',[])
+                 and label['region_id']==row['region_id']==figure['figure_region_id']
+                 and label['scan']==row['scan']==context.assets[row['region_id']]
+                 and row['transcription_excerpt']==row['marker'] and label['text'].count(row['marker'])==1,
+                 'Graphic occurrence differs from its figure label source')
+            a=len(label['text'].split(row['marker'])[0].encode())
+            observed[('figure-label:'+row['figure_label_id'],a,row['marker'])]+=1
+            continue
+        id=row['block_id'];a,z=graphic_span(context,row)
         checked_span(context.blocks[id]['text'].encode(),a,z,row['marker'])
         checked_span(context.listing,row[START],row[END],row['marker'])
         source=physical.get(row['physical_line_id'])
@@ -99,6 +141,9 @@ def validate_source_indexes(context):
                      'Table row regions differ from its cell source parts')
     regions={r['id']:r for r in context.source['regions']}
     for figure in correction.get('figure_structures',[]):
+        if 'labels' in figure:
+            need(all(id in labels and labels[id]['region_id']==figure['figure_region_id'] for id in figure['labels']),
+                 'Figure labels differ from their owning source region')
         for part in figure.get('parts',[]):
             source=regions.get(part['region_id'])
             need(source is not None and source['kind']=='figure' and part['scan']==context.assets[part['region_id']] and
@@ -113,9 +158,24 @@ def project_index(context,key,original,row,ranges):
         row.update(download='article.txt',**{START:ranges[target][0]+within,END:ranges[target][0]+within+length})
         return
     if key in ('listing_line_index','listing_caption_associations'):return
+    if key in ('unresolved_graphics','unresolved_text') and 'block_id' in original:
+        a,z=graphic_span(context,original)
+        within=context.positions[context.identity(original['block_id'],context.blocks)][1]
+        row.update(block_start_byte=a+within,block_end_byte=z+within)
+    if context.extended_source_indexes and key=='logical_listing_line_index':
+        physical={r['line_id']:r for r in context.correction['listing_line_index']}
+        for part,target in zip(original.get('source_parts',[]),row.get('source_parts',[]),strict=True):
+            source=physical.get(part['line_id'])
+            need(source is not None and part['line_id'] in original['physical_line_ids']
+                 and part['physical_start_byte']==source[START], 'Logical source part differs from physical listing coordinates')
+            target['physical_start_byte']=part['physical_start_byte']+context.offset
     # Physical fields and caption spans have their own coordinate owners.
     owner=original.get('block_id',original.get('code_block_id'))
     if owner is None and original.get('listing_id') is not None:owner=context.code_block(original['listing_id'])
+    if context.extended_source_indexes and owner is None and original.get('source_unit_id') is not None:
+        matches=[r for r in context.correction['logical_listing_line_index'] if r['line_id']==original['source_unit_id']]
+        need(len(matches)==1, 'Literal coordinate owner lacks one original source unit')
+        owner=matches[0]['block_id']
     def walk(source,target,owner):
         if isinstance(source,list):
             for a,b in zip(source,target,strict=True):walk(a,b,owner)
@@ -137,6 +197,11 @@ def project_index(context,key,original,row,ranges):
                     need(source['anchor_byte']==base+source['block_anchor_byte'], 'Source anchor coordinate systems differ')
                     target['block_anchor_byte']=source['block_anchor_byte']+within
                     target['anchor_byte']=source['anchor_byte']+context.offset
+                elif context.extended_source_indexes and 'anchor_byte' in source:
+                    need(context.blocks[current]['kind']!='code', 'Code anchor requires explicit coordinate owner')
+                    checked_span(context.blocks[current]['text'].encode(),source['anchor_byte'],source['anchor_byte'])
+                    target.update(block_anchor_byte=source['anchor_byte']+within,download='article.txt',
+                                  anchor_byte=ranges[context.block(current)][0]+within+source['anchor_byte'])
             if source.get('download')=='listing.txt' and START in source:
                 checked_span(context.listing,source[START],source[END],source.get('literal',source.get('text')))
                 target[START]=source[START]+context.offset;target[END]=source[END]+context.offset
@@ -170,6 +235,27 @@ def resolve_prior(correction,contexts):
                             for k in ('sha256','bytes')), 'Source metadata previous manifest differs')
         for index,source in enumerate(current.correction['content_associations']):
             kind=source['kind']
+            if kind=='source-address-literal-match' and source.get('match_scope')=='prior-segment-monitor-row':
+                need(n>0, 'Address literal match lacks its prior segment')
+                prior=contexts[n-1]
+                need(all(source.get('prior_package_manifest',{}).get(k)==prior.spec['manifest'][k] for k in ('sha256','bytes')),
+                     'Address literal match prior manifest differs')
+                matches=[r for r in prior.correction['logical_listing_line_index']
+                         if r['line_id']==source.get('prior_source_unit_id') and r['listing_id']==source['listing_id']
+                         and r.get('printed_address')==source.get('address_literal')]
+                active=projected[(current.name,f'/content_associations/{index}')]
+                need(len(matches)==1 and active['listing_id']==prior.listing_ids[matches[0]['listing_id']]
+                     and source.get('printed_operand','').lstrip('$')==source['address_literal']
+                     and source.get('target_source_unit_id') is None,
+                     'Prior address literal does not identify one joined source row')
+                target=unit(prior,matches[0]['line_id'])
+                active.update(target_source_unit_id=target,prior_source_unit_id=target,
+                              match_scope='assembled-monitor-row',
+                              previous_segment_manifest=rebase({**prior.spec['manifest'],'path':'manifest.json'},prior.prefix))
+                active.pop('prior_package_manifest',None)
+                resolutions.append(dict(kind=kind,source=deepcopy(active['source_ref']),target_source_unit_id=target,
+                                        source_values_changed=False,execute_verified=False))
+                continue
             if not kind.startswith('source-prior-'):continue
             need(n>0,'Prior source relationship lacks its immediately preceding segment')
             prior=contexts[n-1];manifest=source.get('previous_package_manifest',{})
