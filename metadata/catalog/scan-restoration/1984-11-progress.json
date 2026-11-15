@@ -2910,7 +2910,7 @@
           "sha256": "0e144fde2348a5d1bb7a356b1efae7b576f4d5a9d9f9cef940e6f1b3c6f2a127",
           "bytes": 3049
         },
-        "status": "Full observed 78-85 extent located; 78-83 restored, 84-85 pending."
+        "status": "Full observed 78-85 extent restored in two source segments; whole article assembly pending."
       },
       "segments": [
         {
@@ -3066,27 +3066,102 @@
               "bytes": 46223
             }
           ]
+        },
+        {
+          "segment_id": "b",
+          "printed_folios": [
+            "84",
+            "85"
+          ],
+          "source_views": [
+            {
+              "source_index": 87,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-084.jpg",
+                "sha256": "9ba586e1ed7916009940fa61ab82e36aeb34444b8fdc55fd4583cd55b96a1564",
+                "bytes": 7694552
+              },
+              "width_px": 4728,
+              "height_px": 6910,
+              "reading_order": 86,
+              "source_filename_number": 84,
+              "printed_page": "84",
+              "image_to_upright_normalized": [
+                0.00021150592216582064,
+                0,
+                0,
+                0.0001447178002894356,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 88,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-085.jpg",
+                "sha256": "7094761d0aa4a09db6f0fe7400033cf03caa0a546f36e1f844f92c23f7533f67",
+                "bytes": 8203802
+              },
+              "width_px": 4742,
+              "height_px": 6900,
+              "reading_order": 87,
+              "source_filename_number": 85,
+              "printed_page": "85",
+              "image_to_upright_normalized": [
+                0.00021088148460565162,
+                0,
+                0,
+                0.00014492753623188405,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/baby-penguin-b-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/baby-penguin-b-r01/manifest.json",
+              "sha256": "3e5f0566ca4994b37d12aefa3730f325c5ffd514800a0dea0f3bd99e8b29bc27",
+              "bytes": 4083
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-21/validation.json",
+              "sha256": "f2a845e9e54bb4bf1e4f3c2d551f2ff4f794ce5b02a20305f52179ec2be917a9",
+              "bytes": 17439
+            }
+          ]
         }
       ],
-      "continuation_pending": [
+      "continuation_pending": [],
+      "assembly_pending": true,
+      "limitations": [
+        "Segment b covers actual 84-85 only. Preceding actual 78-83 are preserved in segment a; whole eight-page assembly and rebuild remain pending.",
+        "The incoming , 3420 is the remainder of source 3240, whose number and preceding text occur only in segment a; the source text here does not invent its printed number.",
+        "Ninety editorial custom-glyph/run markers preserve original scans and selected visual pattern observations with null original bytes/counts; these are not literal original code.",
+        "Original encoding/typesetting, quoted whitespace, O/zero readings, source correctness, execution and human acceptance remain unverified."
+      ],
+      "all_source_folios_restored": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
         84,
         85
       ],
-      "assembly_pending": true,
-      "pending_listing_continuation": {
+      "pending_listing_join": {
         "listing_id": "penguin-basic",
-        "last_printed_row": 3240,
-        "logical_unit_complete": false,
-        "next_folio": 84,
-        "following_physical_fragment": ", 3420",
-        "next_numbered_row": 3250
-      },
-      "limitations": [
-        "Segment a restores actual 78-83 only. Actual 84-85, the open 3240 physical continuation and whole-article assembly remain pending.",
-        "Sixty-one editorial custom-glyph run markers retain original scan links with unknown bytes and counts. These markers are not literal original code and do not certify executable text.",
-        "Local faint byte glyphs, punctuation, stylized tagline, screenshot labels and quoted whitespace retain explicit uncertainty. Independent prose/table/code forms remain literal.",
-        "Original encoded bytes/typesetting, source correctness, program/music/shape execution and human acceptance remain unverified."
-      ]
+        "source_unit": 3240,
+        "left_segment": "a",
+        "right_segment": "b",
+        "left_literal": "3240 ON CH GOTO 3250, 3300, 3360",
+        "right_literal": ", 3420",
+        "separator": "",
+        "status": "Both physical source parts restored; logical join and whole-article assembly pending."
+      }
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0008",
@@ -3970,6 +4045,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R21: restore actual 84-85 of 아기펭귄 (maso-1984-11-toc-0007) as an explicit continuation segment. The top of 84 continues 3240 ON CH GOTO with , 3420 before numbered 3250; retain the same logical source unit. Then assemble and independently rebuild the complete observed 78-85 article, preserving every segment, source glyph occurrence and typed source relationship. Continue all remaining November identities, source-image/covers accounting and checked whole-issue native export/rebuild.",
+  "next": "R22: assemble complete 아기펭귄 (maso-1984-11-toc-0007, actual 78-85) from immutable segments a and b, preserving source 3240 as one logical unit with both physical parts and sparse BASIC numbering. Preserve all original OCR bindings, 151 glyph/run occurrences with unknown bytes/counts, continued tables, data/loader/key relationships and artwork placement. Validate or add a narrowly opt-in assembly projection with meaningful compatibility/negative tests and a fresh independent whole-package rebuild before marking the article complete. Continue every remaining November identity, source-image/covers accounting and checked whole-issue export.",
   "group_headings": 6
 }

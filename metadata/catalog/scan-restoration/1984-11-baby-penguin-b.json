@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R21",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0007",
+  "title": "아기펭귄",
+  "observed_title": "아기 펭귄",
+  "observed_byline": "원성욱/김경헌",
+  "observed_platform": "SPC-1000",
+  "outcome": "Verified reproducible presentation-independent continuation segment on actual 84-85: incoming numberless 3240 source fragment, remaining BASIC statements through 5460 END, 48 original unquoted maze DATA fields, eight GAME OVER data groups, shared loader relationships, original key assignments and 90 scan-linked graphic/run occurrences. All eight article source pages restored in separate immutable segments; whole article assembly remains pending.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/baby-penguin-b-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/baby-penguin-b-r01/manifest.json",
+    "sha256": "3e5f0566ca4994b37d12aefa3730f325c5ffd514800a0dea0f3bd99e8b29bc27",
+    "bytes": 4083
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-21/validation.json",
+    "sha256": "f2a845e9e54bb4bf1e4f3c2d551f2ff4f794ce5b02a20305f52179ec2be917a9",
+    "bytes": 17439
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-21/evidence-manifest.json",
+    "sha256": "cd5cc4593a8a1e68cb1a86e75c0b641d97b5f2c0fc4ecad5b3d7a4a4489a8de0",
+    "bytes": 18823
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-084.jpg",
+      "sha256": "9ba586e1ed7916009940fa61ab82e36aeb34444b8fdc55fd4583cd55b96a1564",
+      "bytes": 7694552
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-085.jpg",
+      "sha256": "7094761d0aa4a09db6f0fe7400033cf03caa0a546f36e1f844f92c23f7533f67",
+      "bytes": 8203802
+    }
+  ],
+  "printed_folios": [
+    "84",
+    "85"
+  ],
+  "observed_whole_extent": [
+    78,
+    85
+  ],
+  "restored_segment_extent": [
+    84,
+    85
+  ],
+  "segment_id": "b",
+  "pending_folios": [],
+  "assembly_pending": true,
+  "previous_package_manifest": {
+    "path": "archive/scans/1984-11/packages/baby-penguin-a-r01/manifest.json",
+    "sha256": "18fc1e7652040e5457a50fa3eb9b343c0459179583e5dc621b416031716ee6e5",
+    "bytes": 22421
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-21/review/article-boundaries.json",
+    "sha256": "ea6fb7ad4b42d3a4fa2c0a16c6162ffdd3d874e7503c4d7afcedf2894d259a6e",
+    "bytes": 1588
+  },
+  "summary": {
+    "sourceImages": 2,
+    "regions": 4,
+    "blocks": 1,
+    "codeContexts": 1,
+    "physicalRows": 280,
+    "visualBlankRows": 1,
+    "printedNumberedStatements": 222,
+    "logicalSourceUnits": 223,
+    "incomingSourceFragments": 1,
+    "physicalFields": 502,
+    "basicSourceFields": 1967,
+    "unresolvedGraphicRuns": 90,
+    "mazeDataRows": 10,
+    "mazeDataFields": 48,
+    "mazeFieldsPerRow": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      3
+    ],
+    "gameOverDataGroups": 8,
+    "numericDataTokens": 32,
+    "quotedDataStrings": 8,
+    "quotedLogicalStrings": 46,
+    "wrappedSourceTokens": 10,
+    "functionKeyAssignments": 10,
+    "priorExplanationLinks": 17,
+    "priorKeyTargets": 4,
+    "sourceUncertainties": 18,
+    "ending": "5460 END",
+    "assemblyPending": true,
+    "outsideLookupViews": 2,
+    "ocrTasks": 4,
+    "ocrSeconds": 6.691473724000389,
+    "packageFiles": 25,
+    "negativeCases": 25
+  },
+  "previousCheckpointCommit": "2d0ec841",
+  "inputIntegrationCommit": "f74c4884",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "dbbd2e25fb0de1969917604ab1bbf41ab22cbf3afbb79ea00a27acb5375d1a3d",
+      "bytes": 208327
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "2cddde54495dccaa7c2ef0d0d27a3b017baa306da196223c7ee1ea729811949e",
+      "bytes": 16884
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "8b7fa958c36e2054e482dbd6a8f3e69fbc2c001e86ce0e23c4cd57802c562a48",
+      "bytes": 31340
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 18,
+    "total": 232,
+    "reason": "R16 implementation/schema/test pins and frozen regression logs rehashed unchanged. Data-only source restoration."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 0,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "nativeInputFailures": 0,
+    "preExportStructureRefinements": 0,
+    "exportFailures": 0,
+    "verificationPreflightRepairs": 0,
+    "mapSchemaFailures": 0,
+    "originalDetailTargetingAdjustments": 0
+  },
+  "limitations": [
+    "Segment b covers actual 84-85 only. Preceding actual 78-83 are preserved in segment a; whole eight-page assembly and rebuild remain pending.",
+    "The incoming , 3420 is the remainder of source 3240, whose number and preceding text occur only in segment a; the source text here does not invent its printed number.",
+    "Ninety editorial custom-glyph/run markers preserve original scans and selected visual pattern observations with null original bytes/counts; these are not literal original code.",
+    "Original encoding/typesetting, quoted whitespace, O/zero readings, source correctness, execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-21/recipe.json --output archive/scans/1984-11/packages/baby-penguin-b-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-21/recipe.json --output work/validation/scans-1984-11-baby-penguin-b-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-21/verify-review.py"
+  ],
+  "next": "R22: assemble complete 아기펭귄 (maso-1984-11-toc-0007, actual 78-85) from immutable segments a and b, preserving source 3240 as one logical unit with both physical parts and sparse BASIC numbering. Preserve all original OCR bindings, 151 glyph/run occurrences with unknown bytes/counts, continued tables, data/loader/key relationships and artwork placement. Validate or add a narrowly opt-in assembly projection with meaningful compatibility/negative tests and a fresh independent whole-package rebuild before marking the article complete. Continue every remaining November identity, source-image/covers accounting and checked whole-issue export."
+}

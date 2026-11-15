@@ -4,12 +4,12 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R20 checkpoints complete: ten November 1984 articles have complete reproducible
+**R00–R21 checkpoints complete: ten November 1984 articles have complete reproducible
 JSON/assets packages, including Feature I on actual 18–39, Feature II on 40–58,
 개구리 on 66–69, 3차원 우주전쟁 on 70–74 and 미로II on 75–77. Both features retain their
 immutable original segments.
-아기펭귄 has a verified opening segment on 78–83; 84–85 and whole-article
-assembly remain pending, so this article stays partial.
+아기펭귄 has two verified source segments covering all actual 78–85;
+whole-article assembly remains pending, so this article stays partial.
 Six section headings have source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
 Twenty-three canonical identities await disposition. The 24 cleaned source sets
@@ -51,6 +51,7 @@ labels and the preserved exports retain their existing values.
 | R18 — 3차원 우주전쟁 | Passed | Actual 70–74; 70 identical files, one 403-unit BASIC program, thirty table cells, original editorial illustration and typed music/sprite DATA groups; 23 local uncertainties retained |
 | R19 — 미로II | Passed | Actual 75–77; 70 identical files, 83 sparse BASIC units, 112 table cells, literal hex and coordinate DATA groups, and original screenshot relationships; eight local uncertainties retained |
 | R20 — 아기펭귄 opening segment a | Passed; whole article partial | Actual 78–83; 133 identical files, 142 table cells, nine nested branches, 88 monitor rows/700 byte fields, 234 BASIC units and 61 scan-linked custom-glyph runs; 3240 continues on 84 |
+| R21 — 아기펭귄 continuation segment b | Passed; assembly pending | Actual 84–85; 25 identical files, 280 physical rows, incoming 3240 fragment plus 222 printed statements, 48 maze fields and 90 graphic/run occurrences; original 5460 END retained |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -961,3 +962,64 @@ assemble and independently rebuild the complete eight-page article. Verify
 assembly support for this same-unit continuation and sparse BASIC numbering
 before use. Continue all remaining November identities, covers/source accounting
 and the checked whole-issue native export/rebuild.
+
+## R21 completed — 2026-11-15
+
+Restored actual 84–85 as continuation segment b of 아기펭귄. All eight observed
+article pages, 78–85, now have source restoration in two immutable segments.
+The article stays partial until whole-article assembly and its independent
+native rebuild pass. Actual 86 opens the separate 컨닝 article.
+
+The opening `, 3420` remains a numberless physical fragment of source 3240
+ON CH GOTO from the previous segment. Its contextual logical identity, exact
+previous-package manifest and preceding literal are preserved; no 3240 prefix
+is inserted into this segment text. The next printed number is 3250. The
+continuation retains 280 physical rows, one visual blank separator and 222
+printed numbered statements, plus the incoming source fragment. Ten split
+source tokens retain their physical fragments, including RETURN, GOSUB, MOD,
+X0, IF, ELSE and the wrapped closing-message word. The original ending is
+5460 END.
+
+Ten maze DATA rows retain 48 unquoted graphic fields in original comma-field
+order: nine five-field rows followed by a three-field row. Selected visual
+heart/outline-block patterns have source links and no encoded character
+assignments; the final row is neither padded nor reshaped. Eight GAME OVER
+DATA groups retain sixteen physical graphic-string fragments, 32 numeric
+parameters and their original shared loader across both 85 panels. Relationships
+to the opening segment's title DATA, seventeen explanation rows and four
+function-key dispatch targets are explicit. Ten original function-key
+assignments retain their source expressions.
+
+Ninety distinct custom-glyph/run occurrences retain editorial markers, pinned
+scans and null original bytes/counts. Across both segments there are 151 such
+occurrences. These markers are not literal original code or evidence of byte
+equality. Eighteen local uncertainties retain quoted whitespace and O/zero
+readings. The clearly printed R = II OR I at 4060 and FS = 3 at 5030 remain
+literal source discrepancies; program behavior did not determine their readings.
+No program, glyph, maze, music or bitmap output was executed or generated.
+
+All 25 native files match a separate-process rebuild byte for byte. All four
+source crops match decoded-master pixels; 25 invalid structural cases reject.
+Both exports and verification passed on their first attempts. Four OCR tasks
+completed without engine failure or retry. No map refinement or later geometry
+change was needed. All nineteen earlier packages and their private evidence,
+classifications, masters, implementation and shared plans remain exact. Rehashed
+unchanged pins and frozen R16 logs support reuse of the 232-test baseline;
+those regressions were not rerun for this data-only segment. Cleanup ran in
+preview mode only. The batch freezes 89 private evidence files.
+
+November counts remain ten complete articles, one partial article, six non-owning
+headings and 23 unclassified identities. The ledger now records both 아기펭귄
+segments with no pending source folios and an explicit pending 3240 assembly
+join. Original encoding/typesetting, source correctness, execution and human
+acceptance remain unverified.
+
+See the [아기펭귄 continuation result](metadata/catalog/scan-restoration/1984-11-baby-penguin-b.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R22**, assemble and independently rebuild the complete eight-page
+article. Preserve all original segment bytes/OCR provenance, combine only the
+shared 3240 source unit, and retain sparse numbering, all source indexes,
+continued cells, artwork placement and relationships. Validate or add narrowly
+scoped assembly support with meaningful compatibility and negative tests before
+use. Continue every remaining November identity, covers/source accounting and
+the checked whole-issue native export/rebuild.

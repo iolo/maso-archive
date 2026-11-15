@@ -269,14 +269,19 @@ restored JSON/assets and faithful source evidence first.
 | R18 — 3차원 우주전쟁 | Actual 70–74; complete native article package | 70 identical native files; 418 physical rows/403 logical units, 118 DATA positions including eight blanks, 22 sprite-data groups and thirty explanatory cells; original editorial illustration retained |
 | R19 — 미로II | Actual 75–77; complete native article package | 70 identical native files; 142 physical rows/83 sparse logical units, 112 explanatory cells, literal 109/46-character hex strings and five coordinate DATA groups; original screenshot relationships and eight local uncertainties retained |
 | R20 — 아기펭귄 opening segment a | Actual 78–83; whole article remains partial | 133 identical native files; 28 variable definitions, 43 explanations, nine nested branches, two continued cells, three listing contexts and 61 scan-linked custom-glyph runs; 3240 remains open onto 84 |
+| R21 — 아기펭귄 continuation segment b | Actual 84–85; all source pages restored, assembly pending | 25 identical native files; 280 physical rows, 222 printed statements plus incoming 3240 fragment, 48 maze fields, eight GAME OVER groups, ten key assignments and 90 graphic/run occurrences; original 5460 END retained |
 
-Immediate next action: **R21**, restore actual 84–85 of 아기펭귄,
-`maso-1984-11-toc-0007`, as an explicit continuation segment. The whole observed
-extent is 78–85; 86 opens 컨닝. The top of 84 continues the same 3240 ON CH GOTO
-unit with `, 3420` before the next numbered 3250 statement. Preserve this physical
-join and restore the remaining custom glyph/data relationships before a separate
-whole-article assembly and independent native rebuild. Check assembly support for
-the same-unit continuation and sparse BASIC numbers before first use.
+Immediate next action: **R22**, assemble complete 아기펭귄,
+`maso-1984-11-toc-0007`, from the two immutable source segments on actual 78–85.
+The top of 84 continues source 3240 ON CH GOTO with `, 3420` before numbered
+3250. Combine only these two physical fragments into one logical unit, preserving
+all 456 distinct BASIC source units, 592 physical rows and sparse numbering.
+Keep both independent monitor contexts, 151 graphic/run occurrences with unknown
+bytes/counts, original source images, continued tables, nested branches and
+data/loader/key/example relationships. Validate or add a narrowly opt-in assembly
+projection for this same-unit split before use, with compatibility/negative tests
+and a fresh independent whole-package rebuild. Original segment exports, frozen
+evidence and OCR map/settings bindings must remain exact.
 November now has ten complete article packages, one partial article, six non-owning
 headings and 23 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
