@@ -409,6 +409,26 @@ in reviewed content order join, with no inserted bytes. Unresolved program
 boundaries reject. Existing structured-region and PDF modes keep their original
 projection behavior.
 
+An explicit `logical_join` on a program link handles two physical fragments of
+the same BASIC statement. It supplies `left_source_unit_id`,
+`right_source_unit_id`, an empty `separator`, and the exact `joined_reading`.
+The link's two boundary numbers are the same contextual printed number. The
+source outgoing record must mark that unit incomplete; the incoming record must
+declare a numberless fragment, the preceding literal, the joined reading and
+the next actually printed number. Native segment validation, previous-manifest
+and folio checks still apply. Both logical readings must match their physical
+source rows and character/byte coordinates. This option never inserts a printed
+number or changes physical listing bytes. Its sparse numbering is checked
+against each segment's explicit `observed_printed_rows`, rather than a computed
+step size. The joined logical unit retains both projected source occurrences;
+every nonblank physical row has one logical owner. Existing program links keep
+their consecutive-number contract.
+
+This source-unit join is qualified separately from any article's complete
+metadata projection. In particular, qualifying the November 아기펭귄 3240
+boundary does not certify its tables, graphic-marker indexes or cross-segment
+relationships, or mark the whole article complete.
+
 Joined programs have one code block, listing group and complete listing range.
 Physical/logical row identities retain their segment scope; source field values,
 blank slots and listing bytes remain exact. Physical-row numbers are continuous

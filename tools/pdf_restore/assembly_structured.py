@@ -104,6 +104,7 @@ class Context:
         self.groups = {g['listing_id']: g for g in correction.get('listing_groups', [])}
         self.assets = {r['region_id']: r['asset'] for r in source['region_assets']}
         self.program_mode = False
+        self.logical_aliases = {}
         self.listing_ids = {id: self.name + '-' + id for id in self.groups}
         self.positions = {self.name + '-' + id: (self.name + '-' + id, 0) for id in self.blocks}
         self.article, self.listing = text_bytes(source)
@@ -151,7 +152,8 @@ class Context:
             elif self.program_mode and key == 'group_id':
                 result[key] = self.name + ':' + item
             elif key in LOCAL_KEYS:
-                result[key] = self.name + ':' + item
+                result[key] = (self.logical_aliases.get(item, self.name + ':' + item)
+                               if key in ('line_id', 'source_unit_id') else self.name + ':' + item)
             elif key == 'physical_line_ids':
                 result[key] = [self.name + ':' + v for v in item]
             elif key == 'scan':
@@ -212,6 +214,7 @@ def project_structured(recipe, originals):
             raise ValueError('Structured JPEG mode requires explicit image-source packages')
         context=Context(spec,source,correction,offset);contexts.append(context);offset+=len(context.listing)
     programs = recipe['index_mode'] == 'structured-programs-v1'
+    fragments = programs and any('logical_join' in r for r in recipe['program_links'])
     for context in contexts:context.program_mode = programs
     first=contexts[0].source;package=deepcopy(first)
     for key in ('pages','regions','excluded_regions','blocks','figures','content_order','raw_ocr','region_assets'):
@@ -336,6 +339,9 @@ def project_structured(recipe, originals):
                     row['block_start_byte']+=within;row['block_end_byte']+=within
                     for field in row.get('fields',[]):
                         field['block_start_byte']+=within;field['block_end_byte']+=within
+                if fragments and key=='logical_listing_line_index':
+                    within=context.positions[context.identity(original['block_id'],context.blocks)][1]
+                    for part in row.get('source_parts',[]):part['physical_start_byte']+=within
                 correction[key].append(row)
     # The new separator has an active occurrence as well as original segment joins.
     for row in resolved:

@@ -1023,3 +1023,35 @@ continued cells, artwork placement and relationships. Validate or add narrowly
 scoped assembly support with meaningful compatibility and negative tests before
 use. Continue every remaining November identity, covers/source accounting and
 the checked whole-issue native export/rebuild.
+
+## R22 in progress — 2026-11-15
+
+Qualified an explicit same-source-unit program join for the 83/84 boundary of
+아기펭귄. A `logical_join` recipe declaration now validates the two original
+source-unit identities, the incomplete outgoing unit, the numberless incoming
+fragment, exact selected literals, the next printed number, source folios and
+the previous manifest. Logical character coordinates and physical byte positions
+are checked separately. The combined listing retains both physical lines;
+only the logical source identity is joined. Sparse numbering is checked against
+the segments' explicit observed numbers, and every nonblank physical row has one
+logical owner. Original program links keep their consecutive-number contract.
+
+Four new regression tests cover byte-identical synthetic native rebuilds,
+seventeen invalid fragment/source cases, wrapped multibyte character coordinates
+and rehashed outer logical-text tampering. All 214 PDF regressions and 22 JPEG,
+recognition-map and assembly tests pass. Both actual source segments validate,
+and the selected 3240 boundary qualifies with the expected 592 physical BASIC
+rows and 456 distinct logical units across the article. This source-unit gate
+does not certify the whole article projection.
+
+The prospective checkpoint, original ledger snapshot, source/plan pins, regression
+logs and boundary qualification are saved under
+`archive/scans/1984-11/restoration/batch-22/`. An initial source-probe command
+lacked the repository's required `PYTHONPATH=src:.`; it failed at import before
+reading or writing source packages and passed after that environment correction.
+Whole article export remains pending. The text/glyph indexes, continued table
+cell spans, artwork placement and cross-segment data/loader/key relationships
+still require explicit projection and independent verification. No complete
+article package has been selected, and November counts remain ten complete,
+one partial, six non-owning headings and 23 unclassified identities. Shared OCR
+and PDF plans and original native packages remain unchanged.

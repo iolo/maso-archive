@@ -17,7 +17,7 @@ def validate_extensions(recipe, names):
         if len(ids) != len(recipe[key]) or any(not isinstance(i, str) or not i for i in ids) or len(set(ids)) != len(ids):
             raise ValueError('Program links require unique nonblank identities')
     for link in recipe['program_links']:
-        if set(link) != {'id', 'left', 'right'}:
+        if set(link) not in ({'id', 'left', 'right'}, {'id', 'left', 'right', 'logical_join'}):
             raise ValueError('Invalid program link fields')
         for side, boundary in [('left', 'last_printed_row'), ('right', 'first_printed_row')]:
             r = link[side]
@@ -27,7 +27,10 @@ def validate_extensions(recipe, names):
                 raise ValueError('Invalid source program boundary')
         if names.index(link['right']['segment']) != names.index(link['left']['segment']) + 1:
             raise ValueError('Program join requires consecutive segments')
-        if link['right']['first_printed_row'] != link['left']['last_printed_row'] + 1:
+        if 'logical_join' in link:
+            from .assembly_fragments import validate_join
+            validate_join(link)
+        elif link['right']['first_printed_row'] != link['left']['last_printed_row'] + 1:
             raise ValueError('Program source row boundary is not consecutive')
     for link in recipe['group_links']:
         if set(link) != {'id', 'program_id', 'left', 'right'} or link['program_id'] not in {r['id'] for r in recipe['program_links']}:
@@ -82,12 +85,16 @@ def join_programs(recipe, package, contexts, positions):
         aa = [r for r in a.correction['logical_listing_line_index'] if r['listing_id'] == left['listing_id']]
         bb = [r for r in b.correction['logical_listing_line_index'] if r['listing_id'] == right['listing_id']]
         if (not aa or not bb or aa[-1]['printed_line'] != n or bb[0]['printed_line'] != m or
-                (out.get('last_printed_row'), out.get('next_printed_row'), inc.get('previous_last_printed_row'), inc.get('first_printed_row')) != (n, m, n, m) or
                 str(out.get('next_folio')) != str(folio(b, inc['source_region_id'])) or
                 str(inc.get('previous_folio')) != str(folio(a, out['source_region_id'])) or
                 any(inc.get('previous_package', {}).get('manifest', {}).get(k) != a.spec['manifest'][k] for k in ('sha256', 'bytes'))):
             raise ValueError('Program rows, folios or previous manifest differ from source')
-        if out.get('open_source_label') != inc.get('open_source_label'):
+        if 'logical_join' in link:
+            from .assembly_fragments import check_boundary
+            check_boundary(link, a, b, out, inc, aa, bb)
+        elif (out.get('last_printed_row'), out.get('next_printed_row'), inc.get('previous_last_printed_row'), inc.get('first_printed_row')) != (n, m, n, m):
+            raise ValueError('Program source row declarations differ')
+        elif out.get('open_source_label') != inc.get('open_source_label'):
             raise ValueError('Open source program label differs across boundary')
         ids = [positions[c.identity(c.code_block(part['listing_id']), c.blocks)][0] for c, part in [(a, left), (b, right)]]
         blocks = {r['id']: r for r in package['blocks']}
@@ -106,7 +113,9 @@ def join_programs(recipe, package, contexts, positions):
         target_listing = a.listing_ids[left['listing_id']];old_listing = b.listing_ids[right['listing_id']]
         for context in contexts:
             context.listing_ids = {k: target_listing if v == old_listing else v for k, v in context.listing_ids.items()}
-        records.append(dict(id=link['id'],listing_id=target_listing,block_id=ids[0],left=deepcopy(left),right=deepcopy(right),right_block_offset=offset,source_text_preserved=True,execute_verified=False,source_occurrences=[a.source_ref('content_associations',left['association']),b.source_ref('content_associations',right['association'])]))
+        record=dict(id=link['id'],listing_id=target_listing,block_id=ids[0],left=deepcopy(left),right=deepcopy(right),right_block_offset=offset,source_text_preserved=True,execute_verified=False,source_occurrences=[a.source_ref('content_associations',left['association']),b.source_ref('content_associations',right['association'])])
+        if 'logical_join' in link:record['logical_join']=deepcopy(link['logical_join'])
+        records.append(record)
     expected = {(c.name, i) for c in contexts for i, r in enumerate(c.correction.get('content_associations', [])) if r.get('kind') in ('listing-continuation', 'incoming-listing-continuation')}
     if used != expected:
         raise ValueError('Unresolved or repeated source program continuation')
@@ -157,6 +166,8 @@ def project_figure(context, source, row):
 
 def finish_programs(recipe, package, c, contexts, records):
     by_name = {x.name:x for x in contexts};blocks={r['id']:r for r in package['blocks']}
+    from .assembly_fragments import finish_fragments
+    fragment_listings = finish_fragments(c, records)
     # Preserve every projected source group/index as a constituent of its one unified program.
     for key in ('listing_groups','listing_index'):
         combined=[];by_id={}
@@ -177,10 +188,13 @@ def finish_programs(recipe, package, c, contexts, records):
         if len(group['source_parts'])>1:
             for n,row in enumerate(physical,1):row['source_physical_line']=row['physical_line'];row['physical_line']=n
             numbers=[r['printed_line'] for r in c['logical_listing_line_index'] if r['listing_id']==id]
-            if any(type(n) is not int for n in numbers) or numbers!=list(range(numbers[0],numbers[-1]+1)):raise ValueError('Unified program has duplicate/missing numbered units')
+            if id in fragment_listings:
+                from .assembly_fragments import check_partition
+                check_partition(group, physical, c['logical_listing_line_index'])
+            elif any(type(n) is not int for n in numbers) or numbers!=list(range(numbers[0],numbers[-1]+1)):raise ValueError('Unified program has duplicate/missing numbered units')
             units=[r for r in c['logical_listing_line_index'] if r['listing_id']==id]
             owned=Counter(n for r in units for n in r['physical_line_ids'])
-            if owned!=Counter(r['line_id'] for r in physical if r.get('printed_line') is not None):raise ValueError('Unified logical units do not partition numbered source rows')
+            if id not in fragment_listings and owned!=Counter(r['line_id'] for r in physical if r.get('printed_line') is not None):raise ValueError('Unified logical units do not partition numbered source rows')
         if ''.join(r['text'] for r in physical)!=blocks[group['block_ids'][0]]['text']:raise ValueError('Unified program rows differ from complete code block')
     for record in records:
         for side in ('left','right'):

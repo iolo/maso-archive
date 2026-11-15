@@ -282,6 +282,12 @@ data/loader/key/example relationships. Validate or add a narrowly opt-in assembl
 projection for this same-unit split before use, with compatibility/negative tests
 and a fresh independent whole-package rebuild. Original segment exports, frozen
 evidence and OCR map/settings bindings must remain exact.
+R22 is in progress: the explicit same-unit join has been qualified against both
+original segments and synthetic offline rebuilds. The assembler preserves the
+numberless incoming fragment and checks sparse numbers against observed source
+rows. Complete article projection is still pending: add checked handling for
+the text/glyph indexes, continued cell spans and the cross-segment relationships,
+then perform the full independent native rebuild before changing article status.
 November now has ten complete article packages, one partial article, six non-owning
 headings and 23 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
