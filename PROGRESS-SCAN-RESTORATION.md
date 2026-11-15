@@ -4,9 +4,9 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R31 checkpoints complete: sixteen November 1984 articles have complete
+**R00–R32 checkpoints complete: sixteen November 1984 articles have complete
 reproducible JSON/assets packages. 리스즈트 has verified segments covering
-actual 140–151; its remaining 152–153 and assembly are pending, so it stays partial.
+all actual 140–153; whole-article assembly is pending, so it stays partial.
 The latest complete article is 수학을 통한 논리학습 on actual 110–115. Both features and the assembled game
 articles retain their immutable original segments. Six section headings have
 source-backed non-owning classifications.**
@@ -59,6 +59,7 @@ labels and the preserved exports retain their existing values.
 | R29 — 수학을 통한 논리학습 | Passed | Actual 110–115; 211 identical native files, 76 mathematical trees, forty exercise items and four source programs |
 | R30 — 리스즈트 opening segment a | Passed; whole article partial | Actual 140–145; 216 identical files, two formatted listing contexts, original memory-layout / flowchart structures; 146–153 and assembly pending |
 | R31 — 리스즈트 middle segment b | Passed; whole article partial | Actual 146–151; 153 identical files, 102 LISZTER groups / 480 physical rows, nine bracketed continuations and 107 DATA strings; 111 continuation, 152–153 and assembly pending |
+| R32 — 리스즈트 final source segment c | Passed; assembly pending | Actual 152–153; 47 identical files, 59 groups / 96 physical rows, thirty variable definitions, three loop pairs and three uncertain control-display occurrences; all source pages covered |
 | November 1984 issue closeout | Not started | Seventeen identities and one partial article remain; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
@@ -1656,3 +1657,53 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R32**, restore final actual 152–153, including the incoming group 111
 remark, final listing/report and original illustration. Then qualify and verify
 the complete 140–153 native assembly without changing either frozen segment.
+
+## R32 completed — 2026-11-15
+
+Restored final actual 152–153 of 리스즈트 as immutable segment c. The complete
+observed 140–153 source extent is now covered by three segments; whole-article
+assembly remains pending and the canonical identity stays partial.
+
+The native source listing retains 59 logical groups, including the incoming
+`[111]` remark fragment, from 96 physical rows / 155 physical fields. It preserves
+564 source tokens, 103 literal records, three formatter headers/pages and the
+original CONTINUED notices. Thirty variable definitions have source-owned
+identifier/description fragments; numbered qualifiers 137 and 154 remain separate
+comments associated with DF and QF. Six asterisk-only remarks and absent printed
+numbers 126–129 / 158 are explicit, without inferring missing statements/pages.
+Original `SPILT` and `PROCEDING` spellings remain unchanged.
+
+The nested-loop example retains J/K/L FOR/NEXT pairs, the branch to 170 and the
+original parenthesized matrix assignment with its underscore wrap. Three distinct
+control-display runs retain separate source coordinates, bar/bang alternatives
+and an original overlapping image crop. The adjacent CONTROL-I/CONTROL-G comment
+remains a source claim; original encoded bytes and glyph counts are unknown.
+The final report preserves 10034 bytes, 170 line numbers, 271 non-REM statements
+and 114 remarks without execution verification. Its separate END is not a
+numbered program directive. The original listing-paper illustration has no
+invented caption; the advertisement remains separately excluded.
+
+All **47 native files** reproduce byte for byte in an independent build, all
+**11 crops** match master-derived pixels, and **49 deliberately invalid structural
+cases** are rejected. All thirty earlier selected packages and frozen evidence
+remain exact and valid. The unchanged R27 baseline of 242 passing shared tests
+was rehashed and reused, not freshly rerun. Shared implementation, PLAN-OCR.md
+and PLAN-PDF.md are unchanged. Fifteen local uncertainty records remain explicit;
+artifact reproduction does not certify historical execution or full proofreading.
+
+Both original page OCR processes finished with exit 0: nine successful tasks,
+no failure/retry/repeated recognition and no empty draft. One map refinement
+widened notice bottoms before OCR. The first independent structural preflight
+expected the wrong advertisement identity; correcting that checker to the actual
+mapped identity passed the second preflight without changing source or package.
+The first native preparation/export/rebuild and full audit passed. Preview-only
+cleanup and all attempts are retained in 134 frozen private evidence files.
+
+November remains at **sixteen complete packages, one partial article, six
+non-owning headings and seventeen identities awaiting disposition**. See the
+[R32 result](metadata/catalog/scan-restoration/1984-11-liszt-c.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next is **R33**: qualify formatted multi-block assembly, join the same logical
+111 group, preserve the independent MAKE LISZT/LISZTER contexts and every source
+structure, and prove the whole 140–153 package reproducible. The assembly handoff
+records the concrete requirements; whole-issue restoration remains active.

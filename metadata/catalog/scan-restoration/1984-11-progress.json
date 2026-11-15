@@ -5438,11 +5438,11 @@
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-31/scope.json",
-          "sha256": "cf9215758de3248d77102f2482235877ba57e9505d000b759c83641e1b4cef16",
-          "bytes": 1900
+          "path": "archive/scans/1984-11/restoration/batch-32/scope.json",
+          "sha256": "c70ec51a4cc7fc705cca6b4ccd4d407368ec763b027434235a5e2c8189aa2c4d",
+          "bytes": 1110
         },
-        "status": "Observed 140-153 extent located; source 140-151 restored in immutable segments a/b. Group 111 continues on 152; 152-153 and whole assembly pending."
+        "status": "Observed 140-153 source extent covered by three immutable segments; whole-article assembly and same-group 111 join pending."
       },
       "segments": [
         {
@@ -5752,12 +5752,75 @@
               "bytes": 56018
             }
           ]
+        },
+        {
+          "segment_id": "c",
+          "printed_folios": [
+            "152",
+            "153"
+          ],
+          "source_views": [
+            {
+              "source_index": 155,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-152.jpg",
+                "sha256": "644a12092e7e6cb85fcc50fd48c655ffc6b558084d9bdef33709cbc24bbc11f9",
+                "bytes": 8071472
+              },
+              "width_px": 4754,
+              "height_px": 6913,
+              "reading_order": 154,
+              "source_filename_number": 152,
+              "printed_page": "152",
+              "image_to_upright_normalized": [
+                0.00021034917963819942,
+                0,
+                0,
+                0.00014465499783017504,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 156,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-153.jpg",
+                "sha256": "027a4028769ab48b59d5a548bad65cab9c4351af458a68945f33133337f3f3b1",
+                "bytes": 9771564
+              },
+              "width_px": 4748,
+              "height_px": 6901,
+              "reading_order": 155,
+              "source_filename_number": 153,
+              "printed_page": "153",
+              "image_to_upright_normalized": [
+                0.00021061499578770007,
+                0,
+                0,
+                0.00014490653528474135,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/liszt-c-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/liszt-c-r01/manifest.json",
+              "sha256": "336794368dd0c81d09f4721fb3e14e2d9a5fa4ba0a7e705b137f9f932d465226",
+              "bytes": 7788
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-32/validation.json",
+              "sha256": "36593d2af31dd8034d86101eed6ec5535467836c42b3ac37bf0d99371dbdd21e",
+              "bytes": 28624
+            }
+          ]
         }
       ],
-      "continuation_pending": [
-        152,
-        153
-      ],
+      "continuation_pending": [],
       "assembly_pending": true,
       "pending_listing_continuation": {
         "listing_id": "liszter",
@@ -5765,14 +5828,14 @@
         "logical_unit_complete": false,
         "next_folio": 152,
         "next_printed_marker": "[111]",
-        "selected_tail_directive": "RETURN",
-        "source_form": "Original formatted BASIC group remains open because its source remark continues."
+        "source_form": "Original group 111 exists in both source segments b/c and must be joined during complete-article assembly.",
+        "all_source_fragments_restored": true
       },
       "limitations": [
-        "Middle source segment 146-151 only; 152-153 and whole 140-153 assembly remain pending.",
-        "Original formatter group 111 is incomplete at the boundary despite printed RETURN; its remark continues on 152.",
-        "Quoted blanks, display indentation and I/1 printer-control alternatives remain source-linked; no executable reconstruction, original encoded-byte or source-correctness claim.",
-        "Source reports/comments, including 80-column/LL=46 disagreement and printed comparison direction, remain literal. Historical execution and human acceptance remain unverified."
+        "Final source segment 152-153 only. All observed source pages 140-153 are covered by three segments; whole-article assembly remains pending.",
+        "Incoming [111] is the final remark fragment of group 111 on 151; join that same group during whole-article assembly.",
+        "Selected control-display enclosures, quoted spacing and printed indentation are visual readings; original control bytes and encoded whitespace remain unverified.",
+        "Number gaps, blank remarks, SPILT/PROCEDING, original parenthesized assignment and report statistics/END retained without source repair or execution. Historical correctness and human acceptance remain unverified."
       ]
     },
     {
@@ -6221,6 +6284,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R32: restore actual 152-153 of 리스즈트 (maso-1984-11-toc-0018) as the original final LISZTER formatted-listing segment. Source 151 has group 111 PRINT/RETURN, but the same group continues under [111] with its original remark on 152. Preserve the final source groups, variable-description comments, nested-loop example, original control-character display/uncertainties, report statistics/END, final original illustration and advertisement exclusion. Do not infer original control bytes, executable REM/colon tokens or program correctness from formatting. Preserve immutable segments a (140-145) and b (146-151). Then qualify assembly and independently rebuild the complete observed 140-153 native article, including same-group 111, nine bracketed internal joins, physical DATA fragments, original diagrams and every source relationship. Continue all remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R33: qualify opt-in formatted BASIC assembly and independently rebuild the complete observed 140-153 리스즈트 (maso-1984-11-toc-0018) article from immutable segments a/b/c. Preserve independent MAKE LISZT and LISZTER identities; join the original same-group [111] remark without adding a program number. Preserve all physical rows, nine internal bracket continuations, 107 DATA display strings, original diagrams/prose/source relationships, thirty variable definitions and separate qualifiers, nested loops, numbering gaps, blank remarks, three control-display alternatives and both source reports. Do not infer executable REM/colon tokens, encoded blanks/control bytes, execution or source correctness. Follow the source-backed assembly-handoff specification; qualify projection and run shared PDF/JPEG regressions if implementation changes. Then continue the remaining November identities and whole-issue source accounting/export/rebuild.",
   "group_headings": 6
 }

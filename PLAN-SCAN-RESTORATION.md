@@ -280,15 +280,22 @@ restored JSON/assets and faithful source evidence first.
 | R29 — 수학을 통한 논리학습 | Actual 110–115; complete native article package | 211 identical native files; 76 mathematical trees, forty exercise items, four independent listings / 240 logical units / 245 physical rows, 96 explanation cells and two original area diagrams; 37 invalid structural cases rejected |
 | R30 — 리스즈트 opening segment a | Actual 140–145; whole article remains partial | 216 identical native files; five usage steps, nine properties, 27 numbered formatter groups / 67 physical rows, original memory layout / eight slots and flowchart / seventeen nodes / 27 connectors; 146–153 and assembly pending |
 | R31 — 리스즈트 middle segment b | Actual 146–151; whole article remains partial | 153 identical native files; 102 LISZTER groups / 480 physical rows, nine bracketed continuations, 107 DATA strings, twelve report pages and typed source relationships; group 111, 152–153 and assembly pending |
+| R32 — 리스즈트 final source segment c | Actual 152–153; all source pages covered, assembly pending | 47 identical native files; 59 groups / 96 physical rows, thirty variable definitions with two qualifiers, three loop pairs, original control-display alternatives/report/illustration; 49 invalid cases rejected |
 
-Immediate next action: **R32**, restore final actual 152–153 of 리스즈트,
-`maso-1984-11-toc-0018`. Preserve immutable segments a on 140–145 and b on
-146–151. Group 111 has PRINT/RETURN on 151 but its remark continues under
-`[111]` on 152; retain that same-group boundary explicitly. Verify all final
-groups, variable-description comments, nested-loop example, original control-glyph
-display, report statistics/END, original illustration and advertisement exclusion.
-Then qualify assembly and independently rebuild the complete observed 140–153
-article with all source relationships and both prior segments unchanged.
+Immediate next action: **R33**, qualify assembly and independently rebuild the
+complete observed 140–153 리스즈트 article, `maso-1984-11-toc-0018`, from immutable
+segments a/b/c. All source pages are now restored. Join group 111's PRINT/RETURN
+on 151 with its `[111]` remark on 152 without adding a program number. Keep
+MAKE LISZT and LISZTER distinct and preserve every physical formatter row,
+source DATA fragment, definition/qualifier, diagram, reference and uncertainty.
+The current logical-fragment join requires `basic-numbered`, while source program
+projection assumes one code block per context; qualify an opt-in extension for
+the formatted multi-block contexts and new references before using it. Expected
+source observations are 187 logical groups and 643 physical rows across the two
+programs; these counts do not certify execution or recovered original bytes.
+Follow the [R32 assembly handoff](archive/scans/1984-11/restoration/batch-32/review/assembly-handoff.json),
+add meaningful projection/boundary regressions, run shared PDF/JPEG checks if
+implementation changes, and prove exact assembly rebuild and prior preservation.
 Preserve source formatter output without inventing control bytes or executable REM/colon
 tokens or normalizing printed anomalies. Preserve complete 수학을 통한 논리학습 on actual 110–115,
 including fraction/root grouping, long-division notation, repeated exercise terms,
