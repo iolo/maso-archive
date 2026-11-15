@@ -4,18 +4,18 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R39 checkpoints complete: twenty-one November 1984 articles have complete
+**R00–R40 checkpoints complete: twenty-two November 1984 articles have complete
 reproducible JSON/assets packages, with no partial articles. The latest is
-ISAM on actual 174–179: two printed listing contexts, their source-declared
-replacement relationship, typed linked-record and memory/disk diagrams,
-original assets, source references and local alternatives are preserved.
+비지캘크 한계의 극복 on actual 180–184: typed worksheet grids, blanks/formulas,
+command sequences, aggregation/block-transfer relationships, original assets and
+source discrepancies are preserved. ISAM remains complete on actual 174–179.
 어음 거래 관리 and the assembled 의료보험 수가계산 also remain complete.
 Complete 리스즈트 retains its independent program contexts
 and immutable segments. Both features and the assembled game
 articles also retain their original segments. Six section headings have
 source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Thirteen canonical identities await disposition. The 24 cleaned source sets
+Twelve canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -71,7 +71,8 @@ labels and the preserved exports retain their existing values.
 | R37 — complete 의료보험 수가계산 assembly | Passed | Actual 160–168; 122 identical native files; both immutable segments and all source relationships retained |
 | R38 — 어음 거래 관리 | Passed | Actual 169–173; 148 identical native files, four independent programs, 55 reference rows and 97 local alternatives |
 | R39 — ISAM | Passed | Actual 174–179; 178 identical native files, two source listings, typed diagrams/blank slots/graphs, 53 invalid cases rejected |
-| November 1984 issue closeout | Not started | Thirteen identities remain; source-image accounting and whole-issue native export/rebuild remain |
+| R40 — 비지캘크 한계의 극복 | Passed | Actual 180–184; 212 identical files, eighteen grids / 615 source cells, eleven command sequences, typed formula/state/transfer relationships; 58 invalid cases rejected |
+| November 1984 issue closeout | Not started | Twelve identities remain; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -2134,3 +2135,68 @@ non-owning headings and thirteen identities awaiting disposition**. See the
 Next: **R40**, establish the complete extent and source structures of
 **비지캘크 한계의 극복**, whose observed opener is 180. All remaining identities
 and whole-issue covers/source accounting/export/rebuild remain in scope.
+
+## R40 completed — 2026-11-15
+
+Restored complete **비지캘크 한계의 극복**, **연재 1회**, on actual **180–184**
+as `visicalc-r02`. Its decks are **공포의 Visisum** and **User Friendly
+Visitransfer**. No author credit was observed in the complete source extent.
+Actual 184 ends the DIF-compatibility conclusion and closing emblem; actual 185
+opens the separate **텍스트 화일이란?** article.
+
+The native package retains **eighteen source grids / 123 data rows / 615 cells**:
+540 numeric displays, **45 observed blanks** and **thirty formula cells** with
+explicit cell-reference relationships. Printed A–E/row labels remain distinct
+from editorial locators for the six input tables. Fourteen dashed/equals separator
+bands, six boxed input values and six block-range rectangles keep their source
+roles; separators create no invented data cells or original glyph-count claims.
+All **sixteen original assets** remain, including the three-panel Figure 8 group,
+input/formula schematic, title/receipt/bird imagery and closing emblem.
+
+**Eleven command sequences / 29 command rows / 94 tokens** preserve save/load,
+clear, formula-entry and replication operations. Circled **Ⓡ** and plain **R**
+retain separate occurrences/counts; a missing filename return is not supplied.
+Six input-file bindings, three aggregation states and two block-transfer
+transitions retain source order, saved ranges and destination ranges. The input
+diagram keeps its two zones, five dashed text bands and two-arrowhead formula
+bracket. These are source relationships without an execution or replay claim.
+
+Original prose **373**, **TEST2 A2=90**, **Visi-um** and the circled **①** in a
+block-position instruction remain selected beside their conflicting examples.
+The final aggregate's **E5=218**, difference-grid values and later transfer
+states' **C18/D18=32/52** are not recomputed. Five local alternatives retain worn
+80/60 and 88/86 readings, 218/216, a selected 5 versus 8, and the circled-a/@
+function glyph. Enlarged source crops support the selected readings. Exact
+encoding/spacing, formula/command execution and full human proofreading remain
+unverified.
+
+All **212 native files reproduce byte for byte** in a fresh independent build.
+All **63 master-derived crops** pass, **58 deliberately damaged structures**
+are rejected, and all **38 earlier selected packages and frozen evidence** remain
+exact and valid. Shared implementation is unchanged; the existing **249-test
+baseline** and logs are rehashed and reused, **not freshly rerun**. PLAN-OCR.md
+and PLAN-PDF.md remain unchanged.
+
+Both map preflights passed; prose margins and table borders were expanded before
+recognition, retaining the initial map/script/scope and mapped overviews. All five
+OCR jobs succeeded with **47 nonempty drafts**, no retry, engine switch or repeat
+on unchanged successful input. One source/native preparation, one export, one
+fresh rebuild, structural preflight and full audit passed without failed runs.
+Final review then caught an assistant-authored arithmetic-note error: the selected
+**218** agrees with **41+20+48+41+20+48**, so it is not an arithmetic discrepancy.
+The first package and **476-file evidence bundle** remain frozen. A separately
+scoped review revision removes the false claim and keeps 216 only as a local
+glyph candidate. All **615 cells, article text, commands, formulas and labels**
+are identical to the first candidate; only four native metadata/review files
+change. The revised export/rebuild and final 58-case audit pass, preserving the
+38 earlier selected packages/evidence and frozen first candidate. No OCR was
+repeated. A **300-file revision evidence bundle** is frozen; cleanup was preview-only.
+
+November now has **twenty-two complete articles, no partial articles, six
+non-owning headings and twelve identities awaiting disposition**. See the
+[R40 result](metadata/catalog/scan-restoration/1984-11-visicalc.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R41**, establish the full extent and structures of **텍스트 파일이란**,
+whose observed source title is **텍스트 화일이란?** and opener is 185. Segment
+and later assemble if it exceeds six mapped views. All remaining identities and
+whole-issue covers/source accounting/export/rebuild remain in scope.

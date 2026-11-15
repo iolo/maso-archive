@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R39 are complete; the active goal is to restore all November 1984 articles.
+R00–R40 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -288,11 +288,27 @@ restored JSON/assets and faithful source evidence first.
 | R37 — complete 의료보험 수가계산 assembly | Actual 160–168; complete native article package | 122 identical files; 272 logical units / 383 physical rows, 52 retrospective entries, 120 report cells, explicit 21010/21520 boundary and all source relationships/alternatives; 44 invalid cases rejected and 248 fresh regressions |
 | R38 — 어음 거래 관리 | Actual 169–173; complete native article package | 148 identical files; four independent programs, 303 logical units / 628 physical rows, 55 reference rows / 110 cells and 97 local alternatives; 53 invalid cases rejected and 249 fresh regressions |
 | R39 — ISAM | Actual 174–179; complete native article package | 178 identical files; two printed listing contexts, 116 logical units / 132 physical rows, typed linked-record/memory-disk structures, 149 cells / 15 blanks and eleven connectors; 53 invalid cases rejected; unchanged 249-test baseline reused |
+| R40 — 비지캘크 한계의 극복 | Actual 180–184; complete native article package | 212 identical files; eighteen grids / 615 cells / 45 blanks / thirty formulas, eleven command sequences and typed aggregation/transfer relationships; 63 pixel checks and 58 invalid cases; unchanged 249-test baseline reused |
 
-Immediate next action: **R40**, locate and restore 비지캘크 한계의 극복,
-`maso-1984-11-toc-0023`, with contents start candidate and observed opener **180**.
+Immediate next action: **R41**, locate and restore 텍스트 파일이란,
+`maso-1984-11-toc-0024`, with contents start candidate and observed opener **185**;
+the observed source title is **텍스트 화일이란?**.
 Establish the actual title/byline, ending, body ownership and source structures
-before mapping at most two identities/six source views. Preserve complete ISAM
+before mapping at most two identities/six source views. Segment and assemble if
+the complete article exceeds that bound. Preserve complete 비지캘크 한계의 극복
+on actual 180–184: eighteen grids, 615 source cells including 45 blanks and thirty
+formulas, printed labels, separator bands, six boxed inputs, six block-range
+rectangles, eleven command sequences and their formula/file/state relationships.
+Keep source373/A2/Visi-um/circled1 discrepancies, difference values, final
+C18/D18=32/52 and local glyph candidates. Circled return marks and plain R remain
+distinct source displays; no missing filename return, recomputation or replay.
+The selected r02 corrects an assistant review-note error: E5=218 agrees with the
+printed inputs. All 615 source cells and article text are unchanged from r01;
+the first package and evidence remain frozen. All 212 native files reproduce
+exactly; 63 pixel checks, 58 negative cases, 38 earlier selected packages/evidence
+and frozen r01 preservation pass. Shared implementation and operating
+plans remain unchanged; the 249-test baseline/logs are rehashed and reused.
+Preserve complete ISAM
 on actual 174–179, its two separate printed listing contexts and exact source
 1~630 replacement relationship, original diagram records/header groups/blank
 slots/ellipsis bands/link paths, five operations/fifteen steps, seven variable
@@ -351,8 +367,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-one complete article packages, no partial articles, six non-owning
-headings and 13 unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty-two complete article packages, no partial articles, six non-owning
+headings and 12 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

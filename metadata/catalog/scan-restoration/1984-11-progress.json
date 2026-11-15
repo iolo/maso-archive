@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 21,
+  "readable_articles": 22,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 13,
+  "identitiesAwaitingDisposition": 12,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -7247,10 +7247,166 @@
       "page_candidates": [
         180
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "비지캘크 한계의 극복",
+      "observed_installment": "연재 1회",
+      "observed_decks": [
+        "공포의 Visisum",
+        "User Friendly Visitransfer"
+      ],
+      "observed_byline": null,
+      "byline_status": "No author credit observed in the complete source extent.",
+      "observed_whole_extent": [
+        180,
+        184
+      ],
+      "source_views": [
+        {
+          "source_index": 183,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-180.jpg",
+            "sha256": "f12125f97f8e4c69a866c0d1f004594d618b82429897c671c91337319d8fb36b",
+            "bytes": 9239475
+          },
+          "width_px": 4752,
+          "height_px": 6927,
+          "reading_order": 182,
+          "source_filename_number": 180,
+          "printed_page": "180",
+          "image_to_upright_normalized": [
+            0.00021043771043771043,
+            0,
+            0,
+            0.00014436263894903998,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 184,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-181.jpg",
+            "sha256": "bdb61d8e42e6b846f9e88282dfa8cfcec6a6df6d0f828f17e9387d5596b7f628",
+            "bytes": 9404453
+          },
+          "width_px": 4736,
+          "height_px": 6930,
+          "reading_order": 183,
+          "source_filename_number": 181,
+          "printed_page": "181",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.0001443001443001443,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 185,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-182.jpg",
+            "sha256": "0904e28bff8b2f9cca32b6e51300efda0b792d90af8d4ee794386eb985057194",
+            "bytes": 7924122
+          },
+          "width_px": 4752,
+          "height_px": 6934,
+          "reading_order": 184,
+          "source_filename_number": 182,
+          "printed_page": "182",
+          "image_to_upright_normalized": [
+            0.00021043771043771043,
+            0,
+            0,
+            0.00014421690222094028,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 186,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-183.jpg",
+            "sha256": "9bba8e0acdd83a77afb0cd5de698c866701c4fc02730598570c7763c213ffb39",
+            "bytes": 8211413
+          },
+          "width_px": 4727,
+          "height_px": 6921,
+          "reading_order": 185,
+          "source_filename_number": 183,
+          "printed_page": "183",
+          "image_to_upright_normalized": [
+            0.0002115506663845991,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 187,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-184.jpg",
+            "sha256": "b33c7c3bd7d87a4d09c034d61a332394d64cabd97b38bfb62724a83d0de009dc",
+            "bytes": 8145793
+          },
+          "width_px": 4750,
+          "height_px": 6927,
+          "reading_order": 186,
+          "source_filename_number": 184,
+          "printed_page": "184",
+          "image_to_upright_normalized": [
+            0.0002105263157894737,
+            0,
+            0,
+            0.00014436263894903998,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/visicalc-r02",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/visicalc-r02/manifest.json",
+          "sha256": "46874a4566476b9989593a52e5875f97bd67cb363b0f7423f720d9dfea0085ba",
+          "bytes": 35746
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-40-review-02/validation.json",
+          "sha256": "224f07a3269c2a6994accc194225e08b5847fbc2d82d2a1a3e80c907126080be",
+          "bytes": 77646
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-40/scope.json",
+          "sha256": "73d712fe5c5207c1bbdb1b4a1ab3e6d9ec3275f97aca1e63947827bea3055e1e",
+          "bytes": 2151
+        },
+        "status": "Observed180 opener,184 DIF-compatibility conclusion/closing emblem and185 separate text-file article opener. Complete180–184 source extent restored in one reproducible native package."
+      },
+      "limitations": [
+        "Original encoded bytes, exact printed whitespace/return glyph encodings, full human proofreading and program/command/formula execution remain unverified.",
+        "Grid | separators, cell IDs and row/column locators are editorial structures. Original printed header/row labels, blank slots, separator bands/highlights and source-local cells remain explicit; source crops retain exact geometry.",
+        "Printed prose totals/cell references, difference/transfer results, source name spellings and local glyph candidates remain unchanged; no spreadsheet recomputation or algorithm repair.",
+        "Receipt/title/bird imagery is retained as original editorial assets; incidental receipt handwriting is not asserted as article worksheet data."
+      ],
+      "review_note_correction": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-40-review-02/review-revision-proof.json",
+          "sha256": "31988efc640e08fbc4dc57ac0dececfb428b4b006adf1ddf1e72536b3d656931",
+          "bytes": 648
+        },
+        "note": "E5=218 is correct; remove first-candidate assistant arithmetic-disagreement claim without changing source cells or article text."
+      }
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0024",
@@ -7638,6 +7794,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R40: establish full extent, observed title/byline, body ownership and source structures of 비지캘크 한계의 극복 (maso-1984-11-toc-0023, contents start180 and observed opener180), then restore at most two identities/six mapped views. Preserve complete ISAM174–179, its two distinct printed listing contexts and exact1~630 replacement relationship, original memory/disk cells/blank slots/graphs and source discrepancies/alternatives, plus every earlier selected package and frozen evidence. Continue all thirteen remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild. Keep shared OCR/PDF operating plans unchanged.",
+  "next": "R41: establish complete source extent, observed title/byline, body ownership and source structures of 텍스트 파일이란 (maso-1984-11-toc-0024, contents start185; observed source opener185 텍스트 화일이란?). Restore at most two identities/six mapped source views; segment and later assemble if the article exceeds that bound. Preserve complete VisiCalc180–184 with18 grids/615 source cells,blank/formula/header/separator/highlight structures,eleven source-command sequences,original numeric/glyph/wording discrepancies and every earlier selected package/frozen evidence. Continue all twelve remaining November identities,covers/source-image accounting and checked whole-issue native export/rebuild. Keep shared OCR/PDF operating plans unchanged.",
   "group_headings": 6
 }
