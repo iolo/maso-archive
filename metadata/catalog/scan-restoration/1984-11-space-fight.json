@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R18",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0005",
+  "title": "3차원 우주전쟁",
+  "observed_title": "3차원 우주전쟁",
+  "observed_byline": "편집부",
+  "observed_platform": "MSX",
+  "outcome": "Complete reproducible presentation-independent article package with one original BASIC program, physical/logical wraps and jump-target fragments, source DATA slots and character pairs, source sprite/music groups, explanation table and original editorial illustration; local uncertainty retained.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/space-fight-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/space-fight-r01/manifest.json",
+    "sha256": "8f1a7427140bc25c312bb1ac9325945bfce45e452b83b069ca67818e1f72fc1a",
+    "bytes": 11734
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-18/validation.json",
+    "sha256": "d1b01e72e0729d54616f76d707f4a0d25572c26654ba8d05154e8735fca5cd02",
+    "bytes": 27730
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-18/evidence-manifest.json",
+    "sha256": "a6a8ad20b677fe3e7af1c6533370a95dbabdaa5602cb0db30a256b5f0d2cc56e",
+    "bytes": 44451
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-070.jpg",
+      "sha256": "18a2869070142774d2bee98339a0a52e31d02c7e513aafef670b6990e4640a80",
+      "bytes": 8537562
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-071.jpg",
+      "sha256": "0b8e1ef327b2bfcea786d476a26d454efc9f429ad193241262fd9a9f1f4e88bd",
+      "bytes": 8207524
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-072.jpg",
+      "sha256": "b7638b59d0d1374671b2786ef7970d7975e82f414ba37f91d86ff80ee480b579",
+      "bytes": 7466543
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-073.jpg",
+      "sha256": "15424e39c9d3b3b6dd24ba793e4c8689c15b98aec3d352d47f1a541a1654a5a6",
+      "bytes": 7824795
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-074.jpg",
+      "sha256": "9c11ce6c76509590e568586f389bbd1fc7a46d9dbd87f24a4a2c6527269db4e4",
+      "bytes": 8501439
+    }
+  ],
+  "printed_folios": [
+    "70",
+    "71",
+    "72",
+    "73",
+    "74"
+  ],
+  "observed_whole_extent": [
+    70,
+    74
+  ],
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-18/review/article-boundaries.json",
+    "sha256": "986b1b57c2187a7eb8965f54a0a7f9465bcd65b88ee0454df259524e9c7c085a",
+    "bytes": 2337
+  },
+  "summary": {
+    "blocks": 6,
+    "regions": 16,
+    "joins": 9,
+    "tables": 1,
+    "tableRows": 15,
+    "tablePositions": 30,
+    "codeContexts": 1,
+    "physicalRows": 418,
+    "numberedUnits": 403,
+    "physicalFields": 821,
+    "dataLogicalTokens": 118,
+    "emptyDataSlots": 8,
+    "musicDataSlots": 24,
+    "sourceHexCharacterPairs": 712,
+    "wrappedLogicalTokens": 3,
+    "quotedLogicalStrings": 18,
+    "basicPhysicalTokens": 3212,
+    "inlineFields": 10,
+    "figures": 1,
+    "figureLabels": 0,
+    "sourceParagraphs": 3,
+    "programRangeExplanations": 15,
+    "spriteDataGroups": 22,
+    "uncertainties": 23,
+    "sourceImages": 5,
+    "outsideLookupViews": 2,
+    "ocrTasks": 15,
+    "ocrSeconds": 13.071216066000488,
+    "packageFiles": 70,
+    "negativeCases": 19
+  },
+  "previousCheckpointCommit": "5da1b256",
+  "inputIntegrationCommit": "f74c4884",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "dbbd2e25fb0de1969917604ab1bbf41ab22cbf3afbb79ea00a27acb5375d1a3d",
+      "bytes": 208327
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "2cddde54495dccaa7c2ef0d0d27a3b017baa306da196223c7ee1ea729811949e",
+      "bytes": 16884
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "8b7fa958c36e2054e482dbd6a8f3e69fbc2c001e86ce0e23c4cd57802c562a48",
+      "bytes": 31340
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 18,
+    "total": 232,
+    "reason": "R16 implementation/schema/test pins and frozen regression logs rehashed unchanged. Data-only source restoration."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 0,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "nativeInputFailures": 0,
+    "preExportStructureRefinements": 1,
+    "exportFailures": 0,
+    "verificationPreflightRepairs": 1,
+    "originalDetailTargetingAdjustments": 1
+  },
+  "limitations": [
+    "Complete observed article extent 70-74; fifteen OCR regions source-compared, with local glyph/spacing uncertainty retained.",
+    "Music O/0 readings, source word spacing, two small ink-versus-punctuation marks, an overprinted coordinate glyph and status-string spacing remain explicitly uncertain.",
+    "Original encoded bytes/typesetting, source correctness, generated sprites/music, historical execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-18/recipe.json --output archive/scans/1984-11/packages/space-fight-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-18/recipe.json --output work/validation/scans-1984-11-space-fight-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-18/verify-review.py"
+  ],
+  "next": "R19: locate and restore 미로II (maso-1984-11-toc-0006, catalog page candidate 75) in a bounded batch of at most six new mapped source views. Check its actual title, ownership and ending before assuming an extent from neighboring TOC references. Preserve all earlier packages and frozen evidence. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild."
+}

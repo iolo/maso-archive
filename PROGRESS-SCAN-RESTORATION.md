@@ -4,12 +4,13 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R17 complete: eight November 1984 articles have complete reproducible
-JSON/assets packages, including Feature I on actual 18–39, Feature II on 40–58
-and 개구리 on 66–69. Both features retain their immutable original segments.
+**R00–R18 complete: nine November 1984 articles have complete reproducible
+JSON/assets packages, including Feature I on actual 18–39, Feature II on 40–58,
+개구리 on 66–69 and 3차원 우주전쟁 on 70–74. Both features retain their
+immutable original segments.
 Six section headings have source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Twenty-six canonical identities await disposition. The 24 cleaned source sets
+Twenty-five canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -45,6 +46,7 @@ labels and the preserved exports retain their existing values.
 | R15 — Feature II final source segment d | Passed; assembly pending at this checkpoint | Actual 58; 17 identical files, 116 numbered rows, 812 fields and fourteen routine groups |
 | R16 — complete Feature II assembly | Passed | Actual 40–58; 435 identical files, unified programs/groups and typed diagram relationships; 232 shared tests pass |
 | R17 — 개구리 | Passed | Actual 66–69; 78 identical files, one 284-unit BASIC program, 68 table cells and original screenshot relationships; twelve local uncertainties retained |
+| R18 — 3차원 우주전쟁 | Passed | Actual 70–74; 70 identical files, one 403-unit BASIC program, thirty table cells, original editorial illustration and typed music/sprite DATA groups; 23 local uncertainties retained |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -780,3 +782,52 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R18**, locate and restore 3차원 우주전쟁 (catalog page candidate 70),
 verifying actual boundaries in a bounded batch. Continue all remaining November
 identities, source-image/covers accounting and whole-issue native export/rebuild.
+
+## R18 completed — 2026-11-15
+
+Restored complete 3차원 우주전쟁, credited to 편집부 for MSX, on actual 70–74.
+One original BASIC program runs from 1000 through final 5020 DATA above a separate
+advertisement. No terminal END or RETURN is invented. Actual 75 opens 미로II.
+The original frog artwork remains an editorial illustration where printed;
+it is neither reassigned to the preceding article nor presented as a game screen.
+
+The native package retains 418 physical rows and 403 logical numbered units
+across ten panels. Split 20/70 and 197/0 jump targets and T/HEN keyword fragments
+retain their source ranges; the music string at 3760 retains its physical wrap.
+There are 118 DATA positions, including eight empty music slots, and 712 literal
+source character pairs. Twenty-two four-row sprite DATA groups retain their
+printed apostrophe separators and loader-source relationships. Groups 4320–4350
+and 4770–4800 remain unified across page/panel boundaries. No sprites, music or
+object bytes were generated.
+
+Three prose paragraphs, fifteen program-range explanations with thirty cells,
+the MSX/editorial credit and closing emblem retain source relationships. The
+second range row's trailing ~, 2190's printed 117, 3040's = < symbol order and
+both 2280/2290 SOUND 8, 0 occurrences remain literal. Twenty-three local
+uncertainties retain music O/0 glyphs, source word spacing, two dot-like ink
+marks, an overprinted coordinate glyph and status-string spacing.
+
+All seventy native files match a separate-process rebuild byte for byte. All
+sixteen original-to-crop pixel comparisons pass, and nineteen invalid structural
+cases reject. One failed verifier attempt showed that text comparison alone
+could not reject a displaced empty-slot anchor. The repaired gate requires its
+exact source position; the successful native package and source readings did
+not change. Both exports passed on their first attempts. Fifteen OCR tasks
+completed without engine failures or retries, with no map refinement.
+
+All sixteen earlier packages and their private evidence, classifications,
+masters and shared plans remain exact. Rehashed unchanged implementation/schema/
+test pins and frozen R16 logs support reuse of the 232-test baseline; those
+regressions were not rerun for this data-only batch. Cleanup ran in preview mode
+only. The batch freezes 210 private evidence files, including the failed gate
+and an adjusted original-detail crop attempt.
+
+November now has nine complete packages, no partial article, six non-owning
+headings and 25 unclassified identities. Original encoding/typesetting, source
+correctness, execution and human acceptance remain unverified.
+
+See the [3차원 우주전쟁 result](metadata/catalog/scan-restoration/1984-11-space-fight.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R19**, locate and restore 미로II (catalog page candidate 75), checking
+actual boundaries before mapping. Continue every remaining November identity,
+source-image/covers accounting and checked whole-issue native export/rebuild.

@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 8,
+  "readable_articles": 9,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 26,
+  "identitiesAwaitingDisposition": 25,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -2632,10 +2632,149 @@
       "page_candidates": [
         70
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "3차원 우주전쟁",
+      "observed_byline": "편집부",
+      "observed_platform": "MSX",
+      "observed_whole_extent": [
+        70,
+        74
+      ],
+      "source_views": [
+        {
+          "source_index": 73,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-070.jpg",
+            "sha256": "18a2869070142774d2bee98339a0a52e31d02c7e513aafef670b6990e4640a80",
+            "bytes": 8537562
+          },
+          "width_px": 4742,
+          "height_px": 6919,
+          "reading_order": 72,
+          "source_filename_number": 70,
+          "printed_page": "70",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 74,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-071.jpg",
+            "sha256": "0b8e1ef327b2bfcea786d476a26d454efc9f429ad193241262fd9a9f1f4e88bd",
+            "bytes": 8207524
+          },
+          "width_px": 4739,
+          "height_px": 6915,
+          "reading_order": 73,
+          "source_filename_number": 71,
+          "printed_page": "71",
+          "image_to_upright_normalized": [
+            0.00021101498206372652,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 75,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-072.jpg",
+            "sha256": "b7638b59d0d1374671b2786ef7970d7975e82f414ba37f91d86ff80ee480b579",
+            "bytes": 7466543
+          },
+          "width_px": 4759,
+          "height_px": 6921,
+          "reading_order": 74,
+          "source_filename_number": 72,
+          "printed_page": "72",
+          "image_to_upright_normalized": [
+            0.0002101281781886951,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 76,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-073.jpg",
+            "sha256": "15424e39c9d3b3b6dd24ba793e4c8689c15b98aec3d352d47f1a541a1654a5a6",
+            "bytes": 7824795
+          },
+          "width_px": 4756,
+          "height_px": 6917,
+          "reading_order": 75,
+          "source_filename_number": 73,
+          "printed_page": "73",
+          "image_to_upright_normalized": [
+            0.00021026072329688813,
+            0,
+            0,
+            0.00014457134595923088,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 77,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-074.jpg",
+            "sha256": "9c11ce6c76509590e568586f389bbd1fc7a46d9dbd87f24a4a2c6527269db4e4",
+            "bytes": 8501439
+          },
+          "width_px": 4737,
+          "height_px": 6921,
+          "reading_order": 76,
+          "source_filename_number": 74,
+          "printed_page": "74",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/space-fight-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/space-fight-r01/manifest.json",
+          "sha256": "8f1a7427140bc25c312bb1ac9325945bfce45e452b83b069ca67818e1f72fc1a",
+          "bytes": 11734
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-18/validation.json",
+          "sha256": "d1b01e72e0729d54616f76d707f4a0d25572c26654ba8d05154e8735fca5cd02",
+          "bytes": 27730
+        },
+        {
+          "path": "archive/scans/1984-11/restoration/batch-18/review/article-boundaries.json",
+          "sha256": "986b1b57c2187a7eb8965f54a0a7f9465bcd65b88ee0454df259524e9c7c085a",
+          "bytes": 2337
+        }
+      ],
+      "limitations": [
+        "Complete observed article extent 70-74; fifteen OCR regions source-compared, with local glyph/spacing uncertainty retained.",
+        "Music O/0 readings, source word spacing, two small ink-versus-punctuation marks, an overprinted coordinate glyph and status-string spacing remain explicitly uncertain.",
+        "Original encoded bytes/typesetting, source correctness, generated sprites/music, historical execution and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0006",
@@ -3543,6 +3682,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R18: locate and restore 3차원 우주전쟁 (maso-1984-11-toc-0005, catalog page candidate 70) in a bounded batch of at most six new mapped source views. Check the actual title, ownership and ending before assuming an extent from neighboring TOC references. Preserve all earlier packages and frozen evidence, including complete features and 개구리. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild.",
+  "next": "R19: locate and restore 미로II (maso-1984-11-toc-0006, catalog page candidate 75) in a bounded batch of at most six new mapped source views. Check its actual title, ownership and ending before assuming an extent from neighboring TOC references. Preserve all earlier packages and frozen evidence. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }
