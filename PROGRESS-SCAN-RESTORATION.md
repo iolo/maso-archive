@@ -1159,3 +1159,60 @@ Next: **R24**, locate and restore 배고픈 거미 from TOC starting-page candid
 90. Verify the actual extent and source structures before mapping. Continue
 every remaining November identity, covers/source accounting and the checked
 whole-issue native export/rebuild.
+
+## R24 completed — 2026-11-15
+
+Restored complete 배고픈 거미, actual 90–92, as a presentation-independent
+source package. The observed title is 배 고픈 거미; platform/byline are
+MSX / 편집부. Actual 89 ends 컨닝 and actual 93 opens 로즈런너.
+Six original prose paragraphs, five boxed-arrow occurrences and eighteen
+selective program explanations retain their source relationships. The printed
+2470 explanation names only that statement; 1290 and 2480–2680 remain retained
+program units without inferred explanation ranges.
+
+One original BASIC context contains 226 numbered units and 253 physical rows.
+The numberless opening of 91 belongs to source 1270 from 90; no replacement
+line number was inserted. All six sprite DATA groups retain their 32 separate
+hex fields, including repeated D8 occurrences. The later assignment loop reuses
+S$ for indices 6–9; no additional DATA or sprite image was invented. Numeric
+source groups retain 22 web-coordinate pairs and nine fruit-position/colour
+triples, with the original loop's index-4 skip explicitly linked. Original
+loaders, dispatch targets, score expression and conditional replay/END retain
+typed identities.
+
+Numbers 185, 158, 177 and 115, branch targets 1990/2050, and DRAW tokens G2
+and NM245 retain their physical fragments and complete logical readings. Five
+DRAW and six PLAY strings remain literal source occurrences. The selected
+`D12R2` reading retains a local 2/Z alternative, and printed `UU3` remains
+unchanged. Twenty-one local uncertainties cover hex glyphs, DRAW/MML/identifier
+readings, faint ink and quoted spaces. The original screenshot, observed
+SCORE/100 labels, closing emblem and source-example relationships survive.
+No program, sprite, macro rendering, music or generated bitmap was executed.
+
+All 59 native files match a separate-process rebuild byte for byte. All fourteen
+crops match decoded-master pixels, and thirty invalid structural cases reject.
+Twenty-two earlier native packages and their frozen evidence, classifications,
+masters and shared plans retain exact pins. Rehashed R22 implementation/test
+pins and frozen logs support reuse of the 239-test baseline; those regressions
+were not rerun for this data-only restoration.
+
+One pre-OCR geometry refinement adjusted three regions. Twelve OCR tasks
+completed without engine failure or retry; no post-OCR geometry change was
+needed. Both native exports passed on their first attempts. One structure
+preflight used A$ instead of the source S$ in an expected assertion and assumed
+different exclusion identifiers; those audit constants were corrected. The
+first full audit used unpadded OCR-directory names; it was corrected to match
+the original `ocr-090` naming, and the next audit passed. No source data was
+changed for these audit repairs. Cleanup ran in preview mode only. The batch
+freezes 171 private evidence files.
+
+November now has thirteen complete article packages, no partial article, six
+non-owning headings and 21 unclassified identities. Original encoding/typesetting,
+source correctness, execution and human acceptance remain unverified.
+
+See the [배고픈 거미 result](metadata/catalog/scan-restoration/1984-11-hungry-spider.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R25**, locate and restore 로즈런너 from TOC starting-page candidate 93.
+Verify actual ownership, extent and source structures before mapping. Continue
+every remaining November identity, covers/source-image accounting and the checked
+whole-issue native export/rebuild.

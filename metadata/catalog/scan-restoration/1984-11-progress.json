@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 12,
+  "readable_articles": 13,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 22,
+  "identitiesAwaitingDisposition": 21,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -4089,10 +4089,111 @@
       "page_candidates": [
         90
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "배 고픈 거미",
+      "observed_byline": "편집부",
+      "observed_platform": "MSX",
+      "observed_whole_extent": [
+        90,
+        92
+      ],
+      "source_views": [
+        {
+          "source_index": 93,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-090.jpg",
+            "sha256": "401c95cb8632eac69a871574364ec725364805070dbe2a05e39221a62636b69e",
+            "bytes": 8622237
+          },
+          "width_px": 4733,
+          "height_px": 6914,
+          "reading_order": 92,
+          "source_filename_number": 90,
+          "printed_page": "90",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 94,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-091.jpg",
+            "sha256": "505461180e76609f117e60c0541fc68ba6f8c5a54684d3f4a0e8c2bcf1f7eb5b",
+            "bytes": 8703557
+          },
+          "width_px": 4729,
+          "height_px": 6919,
+          "reading_order": 93,
+          "source_filename_number": 91,
+          "printed_page": "91",
+          "image_to_upright_normalized": [
+            0.00021146119687037428,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 95,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-092.jpg",
+            "sha256": "a7c33640f0b4d7fdb5eec965820cbf52f0b72a8ddf652da72e0e07ee9ffb2bdc",
+            "bytes": 7692306
+          },
+          "width_px": 4740,
+          "height_px": 6929,
+          "reading_order": 94,
+          "source_filename_number": 92,
+          "printed_page": "92",
+          "image_to_upright_normalized": [
+            0.0002109704641350211,
+            0,
+            0,
+            0.0001443209698369173,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/hungry-spider-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/hungry-spider-r01/manifest.json",
+          "sha256": "c8b50784dc254a922036b3147c40e3ebb129b5a293434b08e6c4f86b429b5120",
+          "bytes": 9841
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-24/validation.json",
+          "sha256": "8bede77ced17883065a84668c954ae1ce25bf1927300c7315efd6013ee72af9a",
+          "bytes": 26730
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-24/validation.json",
+          "sha256": "8bede77ced17883065a84668c954ae1ce25bf1927300c7315efd6013ee72af9a",
+          "bytes": 26730
+        },
+        "finding_key": "structure",
+        "status": "Observed original 90-92 extent, cross-page 1270 DATA and final 3250 GOTO 3210; source 3240 has conditional END. Adjacent 89/93 boundaries retained."
+      },
+      "limitations": [
+        "Complete observed source extent 90-92, with explicit physical/logical structure and source uncertainty.",
+        "Hex/DRAW/MML/identifier glyph alternatives, faint ink marks and quoted whitespace retain original scans; no source bytes, sprite rasters, macro rendering or execution certified.",
+        "Original encoding/typesetting, source correctness and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0010",
@@ -4952,6 +5053,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R24: locate and restore 배고픈 거미 (maso-1984-11-toc-0009, TOC starting-page candidate 90). Verify actual source title, ownership, ending and typed structures before mapping a bounded batch of at most six new views. Preserve all completed November packages and source evidence. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R25: locate and restore 로즈런너 (maso-1984-11-toc-0010, TOC starting-page candidate 93). Verify actual source title, ownership, ending and typed structures before mapping a bounded batch of at most six new views. Preserve all completed November packages and source evidence. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }
