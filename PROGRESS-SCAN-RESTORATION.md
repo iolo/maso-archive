@@ -2346,3 +2346,56 @@ Next: **R44**, establish the full extent and source structures of the EPROM
 programmer article opening on **198**, then restore a bounded native segment.
 All eleven remaining identities, covers/source-image accounting and checked
 whole-issue export/rebuild remain in scope; the issue goal remains active.
+
+## R44 completed; paused after this batch — 2026-11-16
+
+Restored native opening **198–201** of **애플 EPROM 프로그래머의 제작** as
+`eprom-a-r03`. The observed opener is **애플용 EPROM 프로그래머의 제작**, with
+bylines **이 우 빈/서울대학교 전자공학과 2년** and
+**이 용 훈/서울대학교 제어계측공학과 2년**. Adjacent source review establishes
+the full extent **198–205**, ending before MAX-PRINT on 206. This article remains
+**partial** until 202–205 and checked whole-article assembly are complete.
+
+The package preserves **29 blocks, 40 regions and seven original assets**.
+Native structures retain **28 unnumbered pin terminals**, their sides/physical
+rows and three overbars; **177 cells/fields** across three register tables and
+the timing grid; hierarchical/merged headers, register bit groups, one spanning
+A-port field and bracketed B bits 3/4. The cross-section retains seven nodes and
+five label pointers. The block diagram retains six nodes, two port subareas and
+eight connections, with its dashed partition separate from signals. Two timing
+sequences retain twelve rows / 96 data bit cells and fourteen central, bracket
+and loop connectors. The printed POKE example has its own code download and four
+source token bindings.
+
+Both source **그림 3** captions, **RGM**, prose **CS** beside pinout **CE**, original
+wording and nineteen local uncertainties remain explicit. Reference **그림 4, 5**
+awaits continuation review. The 201 prose ends **더**, continuing on 204 after the
+202 flowcharts and 203 circuit diagram; this is not a missing-source claim.
+Original encoded bytes, exact spacing, technical correctness, device operation
+and full human proofreading remain unverified.
+
+All **152 native files reproduce byte for byte** in an independent build.
+All **40 master-derived crop checks** pass, and **69 deliberately damaged
+structures** are rejected. The **42 earlier selected packages**, frozen evidence,
+early artifact arrays and six headings' evidence pins remain exact and valid.
+Shared implementation is unchanged; the **253-test baseline** from R43 and its
+logs are rehashed and reused, **not freshly rerun**. PLAN-OCR.md and PLAN-PDF.md
+remain unchanged.
+
+All **33 original OCR tasks** succeeded without engine switching or repeated
+successful recognition. A preliminary source-index selection error ran no tasks.
+One figure-only crop repair restores table 3's bottom border without changing
+text-region bounds. Review added the timing header label/leader and corrected
+two assistant readings to **바꿔주면** and **여태까지** after enlargement; earlier
+inputs and candidates remain preserved. The first preservation audit assumed a
+newer catalog field; the final audit handles the older artifact arrays as well.
+Cleanup was preview-only; **355 private evidence files** are frozen.
+
+November now has **twenty-three complete articles, one partial article, six
+non-owning headings and ten unclassified entries**. See the
+[R44 result](metadata/catalog/scan-restoration/1984-11-eprom-a.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+The owner requested a pause after this batch. **R45 has not started**; on resume,
+restore **202–205**, then assemble the complete EPROM article separately. The
+remaining identities, covers/source-image accounting and whole-issue native
+export/rebuild remain part of the unchanged goal.

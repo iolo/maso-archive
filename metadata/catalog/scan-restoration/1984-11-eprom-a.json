@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R44",
+  "completedOn": "2026-11-16",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0026",
+  "title": "애플 EPROM 프로그래머의 제작",
+  "observed_title": "애플용 EPROM 프로그래머의 제작",
+  "observed_byline": [
+    "이 우 빈/서울대학교 전자공학과 2년",
+    "이 용 훈/서울대학교 제어계측공학과 2년"
+  ],
+  "observed_running_title": "애플용 EPROM 프로그래머의 설계",
+  "observed_whole_extent": [
+    198,
+    205
+  ],
+  "selected_extent": [
+    198,
+    201
+  ],
+  "outcome": "Complete native opening segment198–201;whole article partial pending202–205 and checked assembly. Explicit pinout,register/cross-section/block/timing structures and source command retained with provenance and uncertainty.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/eprom-a-r03",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/eprom-a-r03/manifest.json",
+    "sha256": "2b36fe8fb7ae572071e6a36c6d66317a6b1ba8162d3ab44f08c5a3dd7abd2ed5",
+    "bytes": 25786
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-44/validation.json",
+    "sha256": "bc3ffc39ad3fe018a5541339f083ae17f6db849dad1bca5d2e53031377d27187",
+    "bytes": 77802
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-44/evidence-manifest.json",
+    "sha256": "112c930887037bcf16b88d57f01c0df1f9891e78c8a38d42560f273da58918ca",
+    "bytes": 75661
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-11/restoration/batch-44/recipe.json",
+    "sha256": "ff55336b41b31a834c5db8f40c5e954358b97d8dcfdfd41f641db4f47160a471",
+    "bytes": 10272
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-44/review/boundary-review.json",
+    "sha256": "2830501bb9ef346a69de941e4b8341c0e5e84fad0287868d1eb03cc1aa320879",
+    "bytes": 2496
+  },
+  "source_review": {
+    "path": "archive/scans/1984-11/restoration/batch-44/review/source-review-completion.json",
+    "sha256": "4f92266d577d5c64b688a0ef78c8a9745818acc0f505135a4fd00a02fd7e447e",
+    "bytes": 2225
+  },
+  "early_artifact_and_heading_preservation": {
+    "path": "archive/scans/1984-11/restoration/batch-44/review/early-artifact-and-heading-preservation.json",
+    "sha256": "6e3bea89abf7cdf5e184e9e2c77813975da7f7a2b4e6e4df8430cdac08f86d4b",
+    "bytes": 2936
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-198.jpg",
+      "sha256": "8e00f12305ec5af705008b7cd435b22fdb2d7c3d0a0ebf2fc0c930d8835b39e3",
+      "bytes": 8148541
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-199.jpg",
+      "sha256": "2390d5286bea646bac144ee04a260d7ffc59d2a24eadb22aa3a4962939238400",
+      "bytes": 8494979
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-200.jpg",
+      "sha256": "b319e604d62f77e8cdbc7e1d8b606d587bf3fb4589384ad9ad26c16685b3ef0a",
+      "bytes": 8346986
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-201.jpg",
+      "sha256": "abd07ef4fb2dc5f6dc5ab3c3c2bec9fd6b262d91f05eb15d13ac81cc99e8a6b5",
+      "bytes": 7905150
+    }
+  ],
+  "printed_folios": [
+    "198",
+    "199",
+    "200",
+    "201"
+  ],
+  "summary": {
+    "sourceImages": 4,
+    "regions": 40,
+    "ocrTasks": 33,
+    "figureAssets": 7,
+    "blocks": 29,
+    "tables": 4,
+    "tableRows": 33,
+    "tableCells": 177,
+    "tableCellsById": {
+      "register-selection": 36,
+      "control-register": 18,
+      "port-functions": 19,
+      "timing-bit-grid": 104
+    },
+    "pinTerminals": 28,
+    "crossSectionNodes": 7,
+    "crossSectionPointers": 5,
+    "blockNodes": 6,
+    "blockPortSubareas": 2,
+    "blockConnections": 8,
+    "timingSequences": 2,
+    "timingRows": 12,
+    "timingBitCells": 96,
+    "timingConnectors": 14,
+    "commandTokens": 4,
+    "localUncertainties": 19,
+    "nativeFiles": 152,
+    "negativeCases": 69,
+    "ocrSeconds": 26.071009982959367
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p198-title",
+      "source_index": 201,
+      "pixel_bounds": [
+        925,
+        372,
+        3161,
+        1140
+      ],
+      "scan": {
+        "path": "ocr-198/p198-title.png",
+        "sha256": "22c815e5c54bd6994ffc4ebb0907d52e54cdc16ee19449f079d242ab5b9baacd",
+        "bytes": 2719334
+      }
+    },
+    {
+      "region_id": "p198-byline",
+      "source_index": 201,
+      "pixel_bounds": [
+        2234,
+        1452,
+        3741,
+        1710
+      ],
+      "scan": {
+        "path": "ocr-198/p198-byline.png",
+        "sha256": "34590cacaf61134508f6773e249045cb3035a255722618280350aa15d5bd4fa1",
+        "bytes": 503618
+      }
+    },
+    {
+      "region_id": "p198-introduction",
+      "source_index": 201,
+      "pixel_bounds": [
+        251,
+        1836,
+        1992,
+        3918
+      ],
+      "scan": {
+        "path": "ocr-198/p198-introduction.png",
+        "sha256": "5377ea7461aa793e7f62a0188c3fd19bc579070d766baa398e74c07310d0e84f",
+        "bytes": 5032091
+      }
+    },
+    {
+      "region_id": "p198-principle-heading",
+      "source_index": 201,
+      "pixel_bounds": [
+        329,
+        4044,
+        873,
+        4260
+      ],
+      "scan": {
+        "path": "ocr-198/p198-principle-heading.png",
+        "sha256": "995a3e62307fa8424d02fd6da2e2ddeb687fae506ae47c2a4bd2e59d0f2f3bf1",
+        "bytes": 157061
+      }
+    },
+    {
+      "region_id": "p198-principle-left",
+      "source_index": 201,
+      "pixel_bounds": [
+        251,
+        4296,
+        1996,
+        5574
+      ],
+      "scan": {
+        "path": "ocr-198/p198-principle-left.png",
+        "sha256": "c0419b92ead254cdffc44aacd860657c85d5584336c4c9b491ce932d86a9f547",
+        "bytes": 3007813
+      }
+    },
+    {
+      "region_id": "p198-principle-top-right",
+      "source_index": 201,
+      "pixel_bounds": [
+        2073,
+        1830,
+        3832,
+        2166
+      ],
+      "scan": {
+        "path": "ocr-198/p198-principle-top-right.png",
+        "sha256": "3a5592b8c7dde8924ef1317e6604c7b30877bcb3fa545ecd19d751da96bbdedf",
+        "bytes": 754751
+      }
+    },
+    {
+      "region_id": "p198-figure1-original",
+      "source_index": 201,
+      "pixel_bounds": [
+        2123,
+        2238,
+        3790,
+        3564
+      ],
+      "scan": {
+        "path": "ocr-198/p198-figure1-original.png",
+        "sha256": "0e214f3d91f9f9e59831cd3f17aac003ca66303771a430912c479effc35a038b",
+        "bytes": 2750217
+      }
+    },
+    {
+      "region_id": "p198-figure1-text",
+      "source_index": 201,
+      "pixel_bounds": [
+        2123,
+        2238,
+        3790,
+        3564
+      ],
+      "scan": {
+        "path": "ocr-198/p198-figure1-text.png",
+        "sha256": "0e214f3d91f9f9e59831cd3f17aac003ca66303771a430912c479effc35a038b",
+        "bytes": 2750217
+      }
+    },
+    {
+      "region_id": "p198-caption1",
+      "source_index": 201,
+      "pixel_bounds": [
+        2518,
+        3660,
+        3350,
+        3768
+      ],
+      "scan": {
+        "path": "ocr-198/p198-caption1.png",
+        "sha256": "f06797b3938d17857faf8bd5a296f17312c14719ab6a9130c7d38c45f743e4ab",
+        "bytes": 117701
+      }
+    },
+    {
+      "region_id": "p198-principle-right",
+      "source_index": 201,
+      "pixel_bounds": [
+        2073,
+        3882,
+        3836,
+        5562
+      ],
+      "scan": {
+        "path": "ocr-198/p198-principle-right.png",
+        "sha256": "e74367bbc1a41f4203ab0361f9600c68a637bb1bd841823f8eeb46868c606d8b",
+        "bytes": 3837148
+      }
+    },
+    {
+      "region_id": "p199-principle-top",
+      "source_index": 202,
+      "pixel_bounds": [
+        250,
+        708,
+        1989,
+        948
+      ],
+      "scan": {
+        "path": "ocr-199/p199-principle-top.png",
+        "sha256": "25cbb9873757b614cbdc47e361e493c41e5fd89b22b3db5ca53530e9d3f9727f",
+        "bytes": 529133
+      }
+    },
+    {
+      "region_id": "p199-figure2-original",
+      "source_index": 202,
+      "pixel_bounds": [
+        602,
+        996,
+        1633,
+        2142
+      ],
+      "scan": {
+        "path": "ocr-199/p199-figure2-original.png",
+        "sha256": "17983fb380055cb9d14a3a72cfab8fad435e997691904e05fd9b31645408570e",
+        "bytes": 1407103
+      }
+    },
+    {
+      "region_id": "p199-figure2-text",
+      "source_index": 202,
+      "pixel_bounds": [
+        602,
+        996,
+        1633,
+        2142
+      ],
+      "scan": {
+        "path": "ocr-199/p199-figure2-text.png",
+        "sha256": "17983fb380055cb9d14a3a72cfab8fad435e997691904e05fd9b31645408570e",
+        "bytes": 1407103
+      }
+    },
+    {
+      "region_id": "p199-caption2",
+      "source_index": 202,
+      "pixel_bounds": [
+        779,
+        2172,
+        1440,
+        2268
+      ],
+      "scan": {
+        "path": "ocr-199/p199-caption2.png",
+        "sha256": "23aeaaac45829141b1ff05b7c28eb7553bdc04071763b11619c9c9a43248a9fb",
+        "bytes": 90693
+      }
+    },
+    {
+      "region_id": "p199-principle-body",
+      "source_index": 202,
+      "pixel_bounds": [
+        254,
+        2352,
+        1989,
+        4974
+      ],
+      "scan": {
+        "path": "ocr-199/p199-principle-body.png",
+        "sha256": "380af325bc31e778a46443fdbaaa091b81d7cc6bfe0e917237f42a48e36e8db5",
+        "bytes": 6150822
+      }
+    },
+    {
+      "region_id": "p199-pia-heading",
+      "source_index": 202,
+      "pixel_bounds": [
+        323,
+        5076,
+        1415,
+        5286
+      ],
+      "scan": {
+        "path": "ocr-199/p199-pia-heading.png",
+        "sha256": "9b5995d1f4bfd4f79290313c5fabf0bf2b0982f213ff5b654ed9f8e98ca29294",
+        "bytes": 299133
+      }
+    },
+    {
+      "region_id": "p199-pia-left",
+      "source_index": 202,
+      "pixel_bounds": [
+        266,
+        5334,
+        1994,
+        5568
+      ],
+      "scan": {
+        "path": "ocr-199/p199-pia-left.png",
+        "sha256": "c57e06a0bdf2bab2a36274ed20ce2b8d5a9041638bcf9dcdea7af0620bd4a471",
+        "bytes": 541278
+      }
+    },
+    {
+      "region_id": "p199-pia-right",
+      "source_index": 202,
+      "pixel_bounds": [
+        2071,
+        708,
+        3819,
+        4656
+      ],
+      "scan": {
+        "path": "ocr-199/p199-pia-right.png",
+        "sha256": "84ae3546ab2be814367b49b8d5bc4591d060a600942e002df3a160eeaed90421",
+        "bytes": 9378227
+      }
+    },
+    {
+      "region_id": "p199-table1-original",
+      "source_index": 202,
+      "pixel_bounds": [
+        2103,
+        4728,
+        3802,
+        5370
+      ],
+      "scan": {
+        "path": "ocr-199/p199-table1-original.png",
+        "sha256": "f4799577fc6995e400d79393d5870d61a251c968a4ff073941b7382f9fe83946",
+        "bytes": 1492190
+      }
+    },
+    {
+      "region_id": "p199-table1-text",
+      "source_index": 202,
+      "pixel_bounds": [
+        2103,
+        4728,
+        3802,
+        5370
+      ],
+      "scan": {
+        "path": "ocr-199/p199-table1-text.png",
+        "sha256": "f4799577fc6995e400d79393d5870d61a251c968a4ff073941b7382f9fe83946",
+        "bytes": 1492190
+      }
+    },
+    {
+      "region_id": "p199-caption-table1",
+      "source_index": 202,
+      "pixel_bounds": [
+        2583,
+        5412,
+        3171,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-199/p199-caption-table1.png",
+        "sha256": "f2e63aded2c99c819b0241dc258980dd36d1378a9f257b14149b4072ffb7323b",
+        "bytes": 77347
+      }
+    },
+    {
+      "region_id": "p200-table2-original",
+      "source_index": 203,
+      "pixel_bounds": [
+        349,
+        762,
+        1922,
+        1182
+      ],
+      "scan": {
+        "path": "ocr-200/p200-table2-original.png",
+        "sha256": "6a1c84373dd632056c5ad1505e2f629c17f4491c5a8b4ddc544fa8b5c68d46b1",
+        "bytes": 898330
+      }
+    },
+    {
+      "region_id": "p200-table2-text",
+      "source_index": 203,
+      "pixel_bounds": [
+        349,
+        762,
+        1922,
+        1182
+      ],
+      "scan": {
+        "path": "ocr-200/p200-table2-text.png",
+        "sha256": "6a1c84373dd632056c5ad1505e2f629c17f4491c5a8b4ddc544fa8b5c68d46b1",
+        "bytes": 898330
+      }
+    },
+    {
+      "region_id": "p200-caption-table2",
+      "source_index": 203,
+      "pixel_bounds": [
+        855,
+        1266,
+        1433,
+        1356
+      ],
+      "scan": {
+        "path": "ocr-200/p200-caption-table2.png",
+        "sha256": "f8f28984fb63dc85c12aee6cf51507c123dbd8d3a97d31e5f3baf40b2b57c385",
+        "bytes": 71616
+      }
+    },
+    {
+      "region_id": "p200-pia-left",
+      "source_index": 203,
+      "pixel_bounds": [
+        263,
+        1482,
+        2017,
+        3762
+      ],
+      "scan": {
+        "path": "ocr-200/p200-pia-left.png",
+        "sha256": "a629e56aa43948f140cf2c234293c39cfff809d572487dfd7cb667dd464442d9",
+        "bytes": 5507185
+      }
+    },
+    {
+      "region_id": "p200-figure3-block-original",
+      "source_index": 203,
+      "pixel_bounds": [
+        267,
+        3960,
+        2000,
+        5352
+      ],
+      "scan": {
+        "path": "ocr-200/p200-figure3-block-original.png",
+        "sha256": "84066458bf30d134a988e71ab78a6fb1e9dd62da41dddfb3cbabaa659877a61c",
+        "bytes": 2802468
+      }
+    },
+    {
+      "region_id": "p200-figure3-block-text",
+      "source_index": 203,
+      "pixel_bounds": [
+        267,
+        3960,
+        2000,
+        5352
+      ],
+      "scan": {
+        "path": "ocr-200/p200-figure3-block-text.png",
+        "sha256": "84066458bf30d134a988e71ab78a6fb1e9dd62da41dddfb3cbabaa659877a61c",
+        "bytes": 2802468
+      }
+    },
+    {
+      "region_id": "p200-caption3-block",
+      "source_index": 203,
+      "pixel_bounds": [
+        798,
+        5400,
+        1457,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-200/p200-caption3-block.png",
+        "sha256": "e80ace9311973f2994efa0bf5886380d6cffe8271a897d6da054d458e3181558",
+        "bytes": 96457
+      }
+    },
+    {
+      "region_id": "p200-pia-right",
+      "source_index": 203,
+      "pixel_bounds": [
+        2069,
+        762,
+        3844,
+        4614
+      ],
+      "scan": {
+        "path": "ocr-200/p200-pia-right.png",
+        "sha256": "7cd404317ffc7de52da7908eec5474235da15e1f214465e5a46085b537cc3b5d",
+        "bytes": 8906091
+      }
+    },
+    {
+      "region_id": "p200-table3-original",
+      "source_index": 203,
+      "pixel_bounds": [
+        2110,
+        4680,
+        3782,
+        5406
+      ],
+      "scan": {
+        "path": "assets-200/p200-table3-original.png",
+        "sha256": "ea5730eeab51a5db1779fe489a90c891717d841f3a567e490e6e11943fefed20",
+        "bytes": 1466157
+      }
+    },
+    {
+      "region_id": "p200-table3-text",
+      "source_index": 203,
+      "pixel_bounds": [
+        2110,
+        4680,
+        3782,
+        5370
+      ],
+      "scan": {
+        "path": "ocr-200/p200-table3-text.png",
+        "sha256": "5e422248c41ed2adb2713fbc46ac2b68e998105df756cf06632d98490576e67a",
+        "bytes": 1392434
+      }
+    },
+    {
+      "region_id": "p200-caption-table3",
+      "source_index": 203,
+      "pixel_bounds": [
+        2168,
+        5406,
+        2844,
+        5514
+      ],
+      "scan": {
+        "path": "ocr-200/p200-caption-table3.png",
+        "sha256": "e8802c9ed1c446efd38d81c28cb65066e04056bd53931481df02325d91454da1",
+        "bytes": 96676
+      }
+    },
+    {
+      "region_id": "p201-software-heading",
+      "source_index": 204,
+      "pixel_bounds": [
+        389,
+        708,
+        1192,
+        870
+      ],
+      "scan": {
+        "path": "ocr-201/p201-software-heading.png",
+        "sha256": "9522ec79be0bb046dc926c64f269e33ae5526e9e58145020c82916aa2c74d864",
+        "bytes": 171936
+      }
+    },
+    {
+      "region_id": "p201-software-left",
+      "source_index": 204,
+      "pixel_bounds": [
+        311,
+        930,
+        2053,
+        2166
+      ],
+      "scan": {
+        "path": "ocr-201/p201-software-left.png",
+        "sha256": "4f3fce7f5fa20278c01b55ca520274c16891f75abdbe1559965212b5386e9eb1",
+        "bytes": 2921142
+      }
+    },
+    {
+      "region_id": "p201-poke-format",
+      "source_index": 204,
+      "pixel_bounds": [
+        389,
+        2154,
+        967,
+        2286
+      ],
+      "scan": {
+        "path": "ocr-201/p201-poke-format.png",
+        "sha256": "1666aa8b0b971983b93a707f054c16ecf31a935004cc357c8ea268efc5dcc859",
+        "bytes": 100006
+      }
+    },
+    {
+      "region_id": "p201-software-after",
+      "source_index": 204,
+      "pixel_bounds": [
+        389,
+        2250,
+        2053,
+        2490
+      ],
+      "scan": {
+        "path": "ocr-201/p201-software-after.png",
+        "sha256": "60796e7903419b9e082b7edcee4aa04958008784f55dbfb8d1c82079e7589f39",
+        "bytes": 504510
+      }
+    },
+    {
+      "region_id": "p201-software-right",
+      "source_index": 204,
+      "pixel_bounds": [
+        2142,
+        714,
+        3871,
+        2490
+      ],
+      "scan": {
+        "path": "ocr-201/p201-software-right.png",
+        "sha256": "7c87e7723f67570c869531f5b4587f1255d7c4eb72ba5994bcc355fbb95f80b2",
+        "bytes": 4197931
+      }
+    },
+    {
+      "region_id": "p201-figure3-timing-original",
+      "source_index": 204,
+      "pixel_bounds": [
+        737,
+        2796,
+        3052,
+        4770
+      ],
+      "scan": {
+        "path": "ocr-201/p201-figure3-timing-original.png",
+        "sha256": "cad2a1fa0475a6bed097a9b64a8889baf241dc391180a0c216afda83d8a4e107",
+        "bytes": 5646943
+      }
+    },
+    {
+      "region_id": "p201-figure3-timing-text",
+      "source_index": 204,
+      "pixel_bounds": [
+        737,
+        2796,
+        3052,
+        4770
+      ],
+      "scan": {
+        "path": "ocr-201/p201-figure3-timing-text.png",
+        "sha256": "cad2a1fa0475a6bed097a9b64a8889baf241dc391180a0c216afda83d8a4e107",
+        "bytes": 5646943
+      }
+    },
+    {
+      "region_id": "p201-caption3-timing",
+      "source_index": 204,
+      "pixel_bounds": [
+        1789,
+        5046,
+        1999,
+        5154
+      ],
+      "scan": {
+        "path": "ocr-201/p201-caption3-timing.png",
+        "sha256": "72a0dabc303a7e128648f92cf60d640f4929b934aa3dba287e44a0fb70cd38da",
+        "bytes": 30801
+      }
+    }
+  ],
+  "previousCheckpointCommit": "31a4f32067533c4ec9641dc57f559446903acc9c",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "3a0ad4835b5b4be5d1fc6e8a427332263f1bfdc3d10b8a0f067cc435903ae482",
+      "bytes": 219790
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_numbered_assemble.py",
+      "sha256": "d6d877b8207adfd616878bc639682abc661aba81909d2934402d98c6636dc3e8",
+      "bytes": 13404
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_image_source_structures.py",
+      "sha256": "93b82ab3f26c7a976e2a8e25b4aa2abd2bb33141cdf73bcfdd7e6c6da189e9a1",
+      "bytes": 12579
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "9b9c74c831f35d3a1a71fdbec215206745ab56749a7d65791f7095dad1f94493",
+      "bytes": 17278
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "46d2f4ad8c8b2be5fefeaf9f89cc0e317c0342d42e6751a32a2398a5eb0e7ed8",
+      "bytes": 28021
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_numbered.py",
+      "sha256": "a123c2d5dc6f0d365399a8cf29f795426e93b0ee8d001c3fd544617fa23ccced",
+      "bytes": 10533
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a05173be8ac6367356583f3ec497b47fe382f7753bd3155c7e8b665384ab4890",
+      "bytes": 20501
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "81f3456ffa97802de13435491309320d351493ef5b924b846c75705b253213e2",
+      "bytes": 24032
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_structures.py",
+      "sha256": "82a51f9a7f24ab783183ca4e661f266ba7a0ff3ae0336b39f7bdc504d127a1f6",
+      "bytes": 21330
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "30768e1f76e6affb154d71967f20c4bada7d2fd6ea730a52d2946cb3d98157db",
+      "bytes": 39954
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "49f8b030a4ad2549a889481f45ffbb1238fd7baf2b351bc2fc49b00b35448f43",
+      "bytes": 21558
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 39,
+    "total": 253
+  },
+  "regressionLogs": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-43/pdf-final-regressions-03.log",
+      "sha256": "21776dd73930d5ae848826a02f7145a54dd42fd165a77de89b5509ced346d731",
+      "bytes": 36395
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-43/jpeg-final-regressions-03.log",
+      "sha256": "1b202b0ffc8e070da73eaf3221d4eaf1350f5d3aeed03cbd7424ceb99937f52f",
+      "bytes": 7780
+    }
+  ],
+  "regressionsFresh": false,
+  "regressionBaseline": {
+    "path": "metadata/catalog/scan-restoration/1984-11-text-file.json",
+    "sha256": "5a5ea4f95c34ee93b6e7f214c19b736f51ee92bf9fa593ef97d4feff2b3e6e77",
+    "bytes": 59597
+  },
+  "supersededCandidates": [
+    {
+      "package": "archive/scans/1984-11/packages/eprom-a-r01",
+      "manifest": {
+        "path": "manifest.json",
+        "sha256": "4fb63b7ee8b2f9814c714e2e7b62d29c702e835a5fbfde5b492c031974f1c209",
+        "bytes": 25786
+      },
+      "status": "Preserved earlier review candidate;not selected."
+    },
+    {
+      "package": "archive/scans/1984-11/packages/eprom-a-r02",
+      "manifest": {
+        "path": "manifest.json",
+        "sha256": "1ecd4b2531c4ba535a83d29aceb8760c7087bb060cb85cacd7cc67e37790f0a1",
+        "bytes": 25786
+      },
+      "status": "Preserved earlier review candidate;not selected."
+    }
+  ],
+  "attempts": {
+    "mappedViews": 4,
+    "outsideLookupViews": 7,
+    "initialPageOcrJobs": 4,
+    "initialPageExitCodes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "preRecognitionSelectionErrors": 1,
+    "preRecognitionErrorTasks": 0,
+    "selectedOcrTasks": 33,
+    "successfulOcrTasksIncludingSuperseded": 33,
+    "figureOnlyRepairJobs": 1,
+    "figureOnlyRepairOcrTasks": 0,
+    "successfulSameInputRecognitionRepeated": 0,
+    "engineSwitches": 0,
+    "mapPreparationRuns": 1,
+    "nativePreparationRuns": 3,
+    "nativeCandidateBuilds": 3,
+    "independentCandidateRebuilds": 2,
+    "verificationRuns": 2,
+    "verificationFailures": 1,
+    "verificationFailureReason": "Initial preservation loop assumed all earlier catalogs had evidence_manifest;earlyR01/R02 use artifacts arrays. Final audit handles both;their artifact arrays and six heading evidence pins also independently rehashed.",
+    "sharedImplementationChanges": 0,
+    "regressionTestsFresh": false,
+    "cleanupApplied": false
+  },
+  "reviewCorrections": [
+    "Original-table3 asset bottom border extended without changing any OCR text-region bounds or rerunning successful tasks.",
+    "r02adds source timingheaderlabel비 트/dashedleader role omitted from initial transcription.",
+    "Enlarged source review selects바꿔주면 and여태까지 over assistant initial misreadings바꾸주면/여태가지;previous inputs/candidates retained."
+  ],
+  "limitations": [
+    "Opening source segment198–201 only;202–205 and checked whole-article assembly remain pending.",
+    "Original bytes,exact whitespace,technical correctness,device operation and full human proofreading unverified.",
+    "Duplicate figure3 captions,reference4/5,printedRGM/CS/wording and local alternatives retained without expected-circuit repair."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-44/recipe.json --output archive/scans/1984-11/packages/eprom-a-r03",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-44/recipe.json --output work/validation/scans-1984-11-eprom-a-r03",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-44/verify-review.py"
+  ],
+  "pauseRequestedAfterCurrentBatch": true,
+  "next": "On user resume,R45: restore EPROM programmer continuation202–205 (maso-1984-11-toc-0026) from preserved sources.202contains full-page flowcharts;203circuit;204continues201prose after더 with욱 좋은... and contains program listing;205construction/operation/expansion and bibliography end beforeMAX-PRINT206. Establish source rotation/geometry,all figure/circuit/bit/label structures,listing context and caption-number discrepancies;at most six new mapped source views/two identities. Preserve immutable eprom-a-r03 on198–201 and later assemble complete198–205 separately with native source/structure/coordinate/pixel/negative/preservation and independent byte-rebuild gates. Do not rerun successful OCR or frozen checkpoint scripts. User requested pause afterR44;do not startR45 until resumed. Ten unclassified identities,covers/source-image accounting and whole-issue export/rebuild remain. Keep PLAN-OCR.md and PLAN-PDF.md unchanged."
+}

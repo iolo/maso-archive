@@ -1,7 +1,8 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R43 are complete; the active goal is to restore all November 1984 articles.
+R00–R44 are complete. The whole-November restoration goal is paused after R44
+at the owner's request; resume from R45 when requested.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -292,12 +293,27 @@ restored JSON/assets and faithful source evidence first.
 | R41 — 텍스트 화일이란? opening | Actual 185–190 of observed 185–195; complete native opening segment | 286 identical files; four typed diagrams, 49 record-strip slots, six blank hierarchy slots, eight connectors, eleven command-format groups / 23 logical commands; 74 pixel checks and 49 invalid cases; unchanged 249-test baseline reused |
 | R42 — 텍스트 화일이란? final segment | Actual 191–195; complete native final segment, article assembly pending | 161 identical files; comparison table / 54 cells, paired record diagrams, one program / 227 numbered units / 281 physical rows / fourteen source sections, three DATA strings, eight printed map rows / 64 hex tokens and six logical command formats; 41 pixel checks and 68 invalid cases; unchanged 249-test baseline reused |
 | R43 — complete 텍스트 화일이란? assembly | Actual 185–195; complete native article package | 456 identical files including 447 exact embedded segment files; source graphs, commands, mixed coordinate owners and fifteen reviewed prose/listing references; 115 pixel checks, 55 invalid cases and 253 fresh regressions |
+| R44 — EPROM programmer opening segment a | Actual 198–201 of observed 198–205; whole article remains partial | 152 identical native files; 28 unnumbered pin terminals, 177 table/grid cells, seven cross-section nodes, eight block connections, twelve timing rows / fourteen connectors and source POKE example; 40 pixel checks and 69 invalid cases; unchanged 253-test baseline reused |
 
-Immediate next action: **R44**, establish the complete source extent, observed
-title/byline, body ownership and source structures of **애플 EPROM 프로그래머의 제작**,
-`maso-1984-11-toc-0026`, beginning at observed opener **198**. Use at most six
-new mapped source views and two identities; restore a bounded segment if the
-article needs more, then assemble it in a later checkpoint.
+Next on resume: **R45**, restore **202–205** of **애플 EPROM 프로그래머의 제작**,
+`maso-1984-11-toc-0026`, then assemble complete **198–205** in a separate
+checkpoint. Do not start R45 while the owner's pause is in effect. Page 202 has
+full-page flowcharts, 203 a circuit diagram, 204 the prose continuation and program
+listing, and 205 construction/operation/expansion and bibliography. Establish
+rotation, source geometry, circuit/flow relationships, listing context and
+caption-number discrepancies within the usual two-identity/six-view bound.
+Preserve immutable `eprom-a-r03` on **198–201**, observed title
+**애플용 EPROM 프로그래머의 제작**, with bylines **이 우 빈** and **이 용 훈**.
+Its 152 native files reproduce exactly. Keep the 28 unnumbered terminal labels
+with three overbars and physical sides/rows, register header hierarchy and bit
+groups, spanning A-port field and bracketed B bits 3/4, cross-section pointers,
+block graph and timing arrows/loop. The two source **그림 3** captions, **RGM**,
+prose **CS** beside pinout **CE**, original wording and nineteen local uncertainties
+remain explicit. The 201 prose ends **더** and continues on 204 after the two
+full-page diagrams; do not infer missing text from that layout. Reference
+**그림 4, 5** remains unresolved pending continuation review. No original device
+operation, exact encoded bytes or full human proofreading is claimed.
+
 Preserve complete **텍스트 화일이란?**, `maso-1984-11-toc-0024`, on **185–195**,
 credited to **편 집 부** under **애플 컴패티블**, as `text-file-r03` and its
 immutable `text-file-a-r02` and `text-file-b-r02` segments. All 456 native files
@@ -395,8 +411,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-three complete article packages, no partial articles, six non-owning
-headings and 11 unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty-three complete article packages, one partial article, six non-owning
+headings and ten unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

@@ -2,12 +2,12 @@
   "schema_version": 1,
   "issue_id": "maso-1984-11",
   "status": "in-progress",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
   "readable_articles": 23,
-  "partial_articles": 0,
-  "identitiesAwaitingDisposition": 11,
+  "partial_articles": 1,
+  "identitiesAwaitingDisposition": 10,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -8058,10 +8058,157 @@
       "page_candidates": [
         198
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "observed_title": "애플용 EPROM 프로그래머의 제작",
+      "observed_byline": [
+        "이 우 빈/서울대학교 전자공학과 2년",
+        "이 용 훈/서울대학교 제어계측공학과 2년"
+      ],
+      "observed_whole_extent": [
+        198,
+        205
+      ],
+      "restored_folios": [
+        198,
+        199,
+        200,
+        201
+      ],
+      "pending_folios": [
+        202,
+        203,
+        204,
+        205
+      ],
+      "assembly_required": true,
+      "segments": [
+        {
+          "segment_id": "a",
+          "printed_folios": [
+            "198",
+            "199",
+            "200",
+            "201"
+          ],
+          "source_views": [
+            {
+              "source_index": 201,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-198.jpg",
+                "sha256": "8e00f12305ec5af705008b7cd435b22fdb2d7c3d0a0ebf2fc0c930d8835b39e3",
+                "bytes": 8148541
+              },
+              "width_px": 4749,
+              "height_px": 6925,
+              "reading_order": 200,
+              "source_filename_number": 198,
+              "printed_page": "198",
+              "image_to_upright_normalized": [
+                0.0002105706464518846,
+                0,
+                0,
+                0.0001444043321299639,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 202,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-199.jpg",
+                "sha256": "2390d5286bea646bac144ee04a260d7ffc59d2a24eadb22aa3a4962939238400",
+                "bytes": 8494979
+              },
+              "width_px": 4728,
+              "height_px": 6918,
+              "reading_order": 201,
+              "source_filename_number": 199,
+              "printed_page": "199",
+              "image_to_upright_normalized": [
+                0.00021150592216582064,
+                0,
+                0,
+                0.00014455044810638914,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 203,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-200.jpg",
+                "sha256": "b319e604d62f77e8cdbc7e1d8b606d587bf3fb4589384ad9ad26c16685b3ef0a",
+                "bytes": 8346986
+              },
+              "width_px": 4753,
+              "height_px": 6931,
+              "reading_order": 202,
+              "source_filename_number": 200,
+              "printed_page": "200",
+              "image_to_upright_normalized": [
+                0.00021039343572480537,
+                0,
+                0,
+                0.00014427932477276007,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 204,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-201.jpg",
+                "sha256": "abd07ef4fb2dc5f6dc5ab3c3c2bec9fd6b262d91f05eb15d13ac81cc99e8a6b5",
+                "bytes": 7905150
+              },
+              "width_px": 4730,
+              "height_px": 6928,
+              "reading_order": 203,
+              "source_filename_number": 201,
+              "printed_page": "201",
+              "image_to_upright_normalized": [
+                0.00021141649048625792,
+                0,
+                0,
+                0.0001443418013856813,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/eprom-a-r03",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/eprom-a-r03/manifest.json",
+              "sha256": "2b36fe8fb7ae572071e6a36c6d66317a6b1ba8162d3ab44f08c5a3dd7abd2ed5",
+              "bytes": 25786
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-44/validation.json",
+              "sha256": "bc3ffc39ad3fe018a5541339f083ae17f6db849dad1bca5d2e53031377d27187",
+              "bytes": 77802
+            }
+          ]
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-44/review/boundary-review.json",
+          "sha256": "2830501bb9ef346a69de941e4b8341c0e5e84fad0287868d1eb03cc1aa320879",
+          "bytes": 2496
+        },
+        "status": "Observed198–205 body;opening198–201 restored;202–205 and checked whole-article assembly pending.197divider and206MAX-PRINT opener distinct."
+      },
+      "limitations": [
+        "Opening source segment198–201 only;202–205 and checked whole-article assembly remain pending.",
+        "Original bytes,exact whitespace,technical correctness,device operation and full human proofreading unverified.",
+        "Duplicate figure3 captions,reference4/5,printedRGM/CS/wording and local alternatives retained without expected-circuit repair."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0027",
@@ -8392,6 +8539,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R44: establish complete source extent,observed title/byline,body ownership and source structures of 애플 EPROM 프로그래머의 제작 (maso-1984-11-toc-0026,contents/observed opener198). Preserve complete native text-file185–195 and both immutable segments,all source diagrams/slots/commands/program fragments and reviewed3190–3220 reference context. Restore at most two identities/six new mapped source views;segment and later assemble if needed. Continue all eleven unclassified November identities,covers/source-image accounting and checked whole-issue native export/rebuild. Keep PLAN-OCR.md and PLAN-PDF.md unchanged.",
+  "next": "On user resume,R45: restore EPROM programmer continuation202–205 (maso-1984-11-toc-0026) from preserved sources.202contains full-page flowcharts;203circuit;204continues201prose after더 with욱 좋은... and contains program listing;205construction/operation/expansion and bibliography end beforeMAX-PRINT206. Establish source rotation/geometry,all figure/circuit/bit/label structures,listing context and caption-number discrepancies;at most six new mapped source views/two identities. Preserve immutable eprom-a-r03 on198–201 and later assemble complete198–205 separately with native source/structure/coordinate/pixel/negative/preservation and independent byte-rebuild gates. Do not rerun successful OCR or frozen checkpoint scripts. User requested pause afterR44;do not startR45 until resumed. Ten unclassified identities,covers/source-image accounting and whole-issue export/rebuild remain. Keep PLAN-OCR.md and PLAN-PDF.md unchanged.",
   "group_headings": 6
 }
