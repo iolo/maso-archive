@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 9,
+  "readable_articles": 10,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 25,
+  "identitiesAwaitingDisposition": 24,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -2783,10 +2783,108 @@
       "page_candidates": [
         75
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "미로Ⅱ",
+      "observed_byline": "김명준",
+      "observed_affiliation": "배재고2",
+      "observed_platform": "애플 컴패티블",
+      "observed_whole_extent": [
+        75,
+        77
+      ],
+      "source_views": [
+        {
+          "source_index": 78,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-075.jpg",
+            "sha256": "09bd7d3e32087f470c39204a065f36861a5ffdb42312610c63ba1afcec265952",
+            "bytes": 9877465
+          },
+          "width_px": 4736,
+          "height_px": 6912,
+          "reading_order": 77,
+          "source_filename_number": 75,
+          "printed_page": "75",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 79,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-076.jpg",
+            "sha256": "2260aae649f00b667c624d385c910927630fd2d9869f05d711fdfbf7f6554681",
+            "bytes": 7444860
+          },
+          "width_px": 4735,
+          "height_px": 6918,
+          "reading_order": 78,
+          "source_filename_number": 76,
+          "printed_page": "76",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 80,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-077.jpg",
+            "sha256": "5e2b00cf132fc1e5fb0d2ad8f99c5f8fd31750a0fc079da71299902757be74ef",
+            "bytes": 7857549
+          },
+          "width_px": 4723,
+          "height_px": 6912,
+          "reading_order": 79,
+          "source_filename_number": 77,
+          "printed_page": "77",
+          "image_to_upright_normalized": [
+            0.00021172983273343214,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/maze-ii-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/maze-ii-r01/manifest.json",
+          "sha256": "c47e4ca1943554fd1a1bef93954f7a11f548ee84dfb5a9f8cf4ef3f2a6b11fce",
+          "bytes": 11761
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-19/validation.json",
+          "sha256": "1ab28b14a5c5ec0dcb5571c76823d3a823219e4c7f44e6e864392f5ece9008e3",
+          "bytes": 28409
+        },
+        {
+          "path": "archive/scans/1984-11/restoration/batch-19/review/article-boundaries.json",
+          "sha256": "0479d46dd87e6b0ab2350768655e50e5c90a64912311059979033b9fd3162e5b",
+          "bytes": 1990
+        }
+      ],
+      "limitations": [
+        "Complete observed article extent 75-77; source-compared selected readings and explicit local uncertainty retained.",
+        "Quoted-string whitespace, three O/0 identifier readings and faint marks after row 440 remain locally uncertain. The first quoted hex reading retains its observed odd 109-character length.",
+        "Original encoded bytes/typesetting, source correctness, shape rendering, historical execution and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0007",
@@ -3682,6 +3780,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R19: locate and restore 미로II (maso-1984-11-toc-0006, catalog page candidate 75) in a bounded batch of at most six new mapped source views. Check its actual title, ownership and ending before assuming an extent from neighboring TOC references. Preserve all earlier packages and frozen evidence. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild.",
+  "next": "R20: locate and restore 아기펭귄 (maso-1984-11-toc-0007, catalog page candidate 78) in a bounded batch of at most six new mapped source views. Check its actual title, ownership and ending; retain explicit continuation if the article exceeds one batch. Preserve all earlier packages and frozen evidence. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }

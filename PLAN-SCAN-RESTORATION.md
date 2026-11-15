@@ -267,12 +267,14 @@ restored JSON/assets and faithful source evidence first.
 | R16 — complete Feature II assembly | Actual 40–58; complete native article package | 435 identical native files; three program joins, TW/SOUND2 group joins, 1,143 physical rows, 7,747 fields and six original typed diagrams; 232 regression tests pass |
 | R17 — 개구리 | Actual 66–69; complete native article package | 78 identical native files; 314 physical rows/284 logical units, 473 DATA tokens, 68 explanatory table cells and original screenshot relationships; twelve local uncertainties retained |
 | R18 — 3차원 우주전쟁 | Actual 70–74; complete native article package | 70 identical native files; 418 physical rows/403 logical units, 118 DATA positions including eight blanks, 22 sprite-data groups and thirty explanatory cells; original editorial illustration retained |
+| R19 — 미로II | Actual 75–77; complete native article package | 70 identical native files; 142 physical rows/83 sparse logical units, 112 explanatory cells, literal 109/46-character hex strings and five coordinate DATA groups; original screenshot relationships and eight local uncertainties retained |
 
-Immediate next action: **R19**, locate and restore 미로II,
-`maso-1984-11-toc-0006`, with catalog page candidate 75. Check the actual title,
-body ownership and ending before mapping at most six new source views; neighboring
-TOC references do not establish its extent. November now has nine complete
-article packages, no partial article, six non-owning headings and 25 unclassified
+Immediate next action: **R20**, locate and restore 아기펭귄,
+`maso-1984-11-toc-0007`, with catalog page candidate 78. Check the actual title,
+body ownership and ending before mapping at most six new source views; retain
+explicit continuation if the article exceeds one batch. Neighboring TOC references
+do not establish its extent. November now has ten complete
+article packages, no partial article, six non-owning headings and 24 unclassified
 entries. Complete Feature II on 40–58 retains three unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

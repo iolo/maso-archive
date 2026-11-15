@@ -4,13 +4,13 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R18 complete: nine November 1984 articles have complete reproducible
+**R00–R19 complete: ten November 1984 articles have complete reproducible
 JSON/assets packages, including Feature I on actual 18–39, Feature II on 40–58,
-개구리 on 66–69 and 3차원 우주전쟁 on 70–74. Both features retain their
+개구리 on 66–69, 3차원 우주전쟁 on 70–74 and 미로II on 75–77. Both features retain their
 immutable original segments.
 Six section headings have source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Twenty-five canonical identities await disposition. The 24 cleaned source sets
+Twenty-four canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -47,6 +47,7 @@ labels and the preserved exports retain their existing values.
 | R16 — complete Feature II assembly | Passed | Actual 40–58; 435 identical files, unified programs/groups and typed diagram relationships; 232 shared tests pass |
 | R17 — 개구리 | Passed | Actual 66–69; 78 identical files, one 284-unit BASIC program, 68 table cells and original screenshot relationships; twelve local uncertainties retained |
 | R18 — 3차원 우주전쟁 | Passed | Actual 70–74; 70 identical files, one 403-unit BASIC program, thirty table cells, original editorial illustration and typed music/sprite DATA groups; 23 local uncertainties retained |
+| R19 — 미로II | Passed | Actual 75–77; 70 identical files, 83 sparse BASIC units, 112 table cells, literal hex and coordinate DATA groups, and original screenshot relationships; eight local uncertainties retained |
 | November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
 
 ## Planning checkpoint — 2026-11-14
@@ -831,3 +832,55 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R19**, locate and restore 미로II (catalog page candidate 75), checking
 actual boundaries before mapping. Continue every remaining November identity,
 source-image/covers accounting and checked whole-issue native export/rebuild.
+
+## R19 completed — 2026-11-15
+
+Restored complete 미로II on actual 75–77, credited to 김명준, 배재고2, for
+애플 컴패티블. The observed title is represented as 미로Ⅱ while the canonical
+contents identity remains unchanged. Actual 78 opens the separate 아기펭귄 article.
+
+One original BASIC program retains 142 physical rows and 83 sparse numbered
+units, from 5 through final 1200 DATA, across three panels. Two visual blank
+separators remain physical rows. Continuations beginning with 38 and 4 belong to
+555 and 580; neither becomes an invented numbered unit. The split INPUT variable
+EE and physical source fragments retain exact ranges. No terminal END is added.
+
+Two continued tables preserve nineteen independent variable definitions and
+thirty-seven selective program explanations, with 112 cells. Array M and scalar
+M retain separate definition identities; the explanation table does not acquire
+invented descriptions for unmentioned source units. Nine source paragraphs,
+the split CTRL-I reference, direction examples and the original screenshot's
+seven labels retain typed relationships independently of presentation.
+
+The two quoted hex readings retain 109 and 46 characters, including one final
+unpaired source character in the first. Direct comparison with the original
+scan supports retaining that odd length without padding, deletion or decoding.
+Five coordinate DATA groups retain 170 numeric occurrences, 85 pairs, the
+source-declared 5,0 endings and their explanation, loader and figure-label links.
+Printed equality at 620 and < = symbol order at 690 remain literal. Eight local
+uncertainties retain quoted whitespace, three O/0 identifier readings and faint
+marks after 440. No program, shape rendering or screenshot reproduction ran.
+
+All seventy native files match a separate-process rebuild byte for byte. All
+sixteen source crops match original decoded-master pixels, and twenty-two
+invalid structural cases reject. One pre-OCR map refinement enlarged four tight
+edges; initial and refined evidence is retained. Fifteen OCR tasks completed
+without engine failure or retry, with no later geometry change. Both exports
+and the independent verification passed on their first attempts.
+
+All seventeen earlier packages and private evidence, contents classifications,
+source masters and shared plans remain exact. Rehashed unchanged implementation,
+schema and test pins plus frozen R16 logs support reuse of the 232-test baseline;
+those regressions were not rerun for this data-only batch. Cleanup ran in preview
+mode only. The batch freezes 193 private evidence files.
+
+November now has ten complete article packages, no partial article, six non-owning
+headings and 24 unclassified identities. Original encoding/typesetting, source
+correctness, execution and human acceptance remain unverified.
+
+See the [미로II result](metadata/catalog/scan-restoration/1984-11-maze-ii.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R20**, locate and restore 아기펭귄 (catalog page candidate 78), checking
+actual boundaries and retaining explicit continuation if more than six new source
+views are needed. Continue every remaining November identity, source-image/covers
+accounting and checked whole-issue native export/rebuild.

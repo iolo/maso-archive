@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R19",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0006",
+  "title": "미로II",
+  "observed_title": "미로Ⅱ",
+  "observed_byline": "김명준",
+  "observed_affiliation": "배재고2",
+  "observed_platform": "애플 컴패티블",
+  "outcome": "Complete reproducible presentation-independent article package with nine source paragraphs, two continued explanatory tables, one sparse-numbered original BASIC program, literal quoted hex/source character groups, coordinate DATA groups and original screenshot relationships; source discrepancies and local uncertainty retained.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "selected_package": "archive/scans/1984-11/packages/maze-ii-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/maze-ii-r01/manifest.json",
+    "sha256": "c47e4ca1943554fd1a1bef93954f7a11f548ee84dfb5a9f8cf4ef3f2a6b11fce",
+    "bytes": 11761
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-19/validation.json",
+    "sha256": "1ab28b14a5c5ec0dcb5571c76823d3a823219e4c7f44e6e864392f5ece9008e3",
+    "bytes": 28409
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-19/evidence-manifest.json",
+    "sha256": "1e8a56156e1163e6cae4e26d1d7ce87d4f2cd692db3d917dd0bbc25deaaf9c2f",
+    "bytes": 41177
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-075.jpg",
+      "sha256": "09bd7d3e32087f470c39204a065f36861a5ffdb42312610c63ba1afcec265952",
+      "bytes": 9877465
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-076.jpg",
+      "sha256": "2260aae649f00b667c624d385c910927630fd2d9869f05d711fdfbf7f6554681",
+      "bytes": 7444860
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-077.jpg",
+      "sha256": "5e2b00cf132fc1e5fb0d2ad8f99c5f8fd31750a0fc079da71299902757be74ef",
+      "bytes": 7857549
+    }
+  ],
+  "printed_folios": [
+    "75",
+    "76",
+    "77"
+  ],
+  "observed_whole_extent": [
+    75,
+    77
+  ],
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-19/review/article-boundaries.json",
+    "sha256": "0479d46dd87e6b0ab2350768655e50e5c90a64912311059979033b9fd3162e5b",
+    "bytes": 1990
+  },
+  "summary": {
+    "blocks": 10,
+    "regions": 16,
+    "joins": 5,
+    "tables": 2,
+    "tableRows": 56,
+    "tablePositions": 112,
+    "codeContexts": 1,
+    "physicalRows": 142,
+    "visualBlankRows": 2,
+    "numberedUnits": 83,
+    "physicalFields": 225,
+    "numericDataTokens": 170,
+    "quotedHexStrings": 2,
+    "quotedHexCharacterCounts": [
+      109,
+      46
+    ],
+    "hexSourceCharacterGroups": 78,
+    "incompleteHexSourcePairs": 1,
+    "coordinateGroups": 5,
+    "coordinatePairs": 85,
+    "quotedLogicalStrings": 10,
+    "basicPhysicalTokens": 1839,
+    "inlineFields": 15,
+    "figures": 1,
+    "figureLabels": 7,
+    "sourceParagraphs": 9,
+    "programRangeExplanations": 37,
+    "variableDefinitions": 19,
+    "uncertainties": 8,
+    "sourceImages": 3,
+    "outsideLookupViews": 2,
+    "ocrTasks": 15,
+    "ocrSeconds": 12.003301286000351,
+    "packageFiles": 70,
+    "negativeCases": 22
+  },
+  "previousCheckpointCommit": "c56f0afd",
+  "inputIntegrationCommit": "f74c4884",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "dbbd2e25fb0de1969917604ab1bbf41ab22cbf3afbb79ea00a27acb5375d1a3d",
+      "bytes": 208327
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "2cddde54495dccaa7c2ef0d0d27a3b017baa306da196223c7ee1ea729811949e",
+      "bytes": 16884
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "8b7fa958c36e2054e482dbd6a8f3e69fbc2c001e86ce0e23c4cd57802c562a48",
+      "bytes": 31340
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTestsReused": {
+    "pdf": 214,
+    "jpegAndRecognitionAndAssembly": 18,
+    "total": 232,
+    "reason": "R16 implementation/schema/test pins and frozen regression logs rehashed unchanged. Data-only source restoration."
+  },
+  "attempts": {
+    "preOcrMapRefinements": 1,
+    "postOcrGeometryChanges": 0,
+    "ocrEngineFailures": 0,
+    "ocrRetries": 0,
+    "nativeInputFailures": 0,
+    "preExportStructureRefinements": 0,
+    "exportFailures": 0,
+    "verificationPreflightRepairs": 0,
+    "originalDetailTargetingAdjustments": 0
+  },
+  "limitations": [
+    "Complete observed article extent 75-77; source-compared selected readings and explicit local uncertainty retained.",
+    "Quoted-string whitespace, three O/0 identifier readings and faint marks after row 440 remain locally uncertain. The first quoted hex reading retains its observed odd 109-character length.",
+    "Original encoded bytes/typesetting, source correctness, shape rendering, historical execution and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-19/recipe.json --output archive/scans/1984-11/packages/maze-ii-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-19/recipe.json --output work/validation/scans-1984-11-maze-ii-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-19/verify-review.py"
+  ],
+  "next": "R20: locate and restore 아기펭귄 (maso-1984-11-toc-0007, catalog page candidate 78) in a bounded batch of at most six new mapped source views. Check its actual title, ownership and ending; retain explicit continuation if the article exceeds one batch. Preserve all earlier packages and frozen evidence. Continue every remaining November identity, source-image/covers accounting and checked whole-issue native export/rebuild."
+}
