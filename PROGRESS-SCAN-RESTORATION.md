@@ -4,16 +4,19 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R34 checkpoints complete: eighteen November 1984 articles have complete
-reproducible JSON/assets packages, with no partial article currently open.
-The latest is 전산개발 시스템 연구 on actual 154–159, retaining the original
+**R00–R35 checkpoints complete: eighteen November 1984 articles have complete
+reproducible JSON/assets packages. 의료보험 수가계산 is now partial, with its
+opening 160–165 restored and listing 166–168 / whole-article assembly pending.
+Its native data retains the retrospective hierarchy, report cells, original
+illustration and physical/logical program structure. The latest complete article
+is 전산개발 시스템 연구 on actual 154–159, retaining the original
 record forms, seven-column I/O grids, flow graphs, report/screen examples and
 evaluation report. Complete 리스즈트 retains its independent program contexts
 and immutable segments. Both features and the assembled game
 articles also retain their original segments. Six section headings have
 source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Sixteen canonical identities await disposition. The 24 cleaned source sets
+Fifteen canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -64,6 +67,7 @@ labels and the preserved exports retain their existing values.
 | R32 — 리스즈트 final source segment c | Passed; assembly pending | Actual 152–153; 47 identical files, 59 groups / 96 physical rows, thirty variable definitions, three loop pairs and three uncertain control-display occurrences; all source pages covered |
 | R33 — complete 리스즈트 assembly | Passed | Actual 140–153; 425 identical files, 187 logical groups / 643 physical rows, all source structures and uncertainties; 246 fresh shared regressions |
 | R34 — 전산개발 시스템 연구 | Passed | Actual 154–159; 212 identical files, five layouts / 52 fields, 111 table cells / 59 blanks, two flow graphs and nineteen screen fields; 54 invalid cases rejected |
+| R35 — 의료보험 수가계산 opening segment a | Passed for this segment | Actual 160–165; 92 identical files, 52 retrospective entries, 120 report cells and 131 logical / 194 physical program rows; 166–168 and assembly pending |
 | November 1984 issue closeout | Not started | Sixteen identities remain; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
@@ -1840,3 +1844,65 @@ and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
 Next: **R35**, establish 의료보험 수가계산's full source extent from start candidate
 160, then restore a bounded segment if necessary. Every remaining identity and
 whole-issue source accounting/export/rebuild remain in scope.
+
+## R35 completed — 2026-11-15
+
+Established 의료보험 수가계산's actual full extent as **160–168**, a final
+installment credited to 애플 컴패티블 / (주) 컴퓨텍, with the original telephone
+credit retained. Source 159 ends the separate system-development article; 169
+opens 어음거래관리. Restored opening segment **160–165** as the independent
+presentation-independent package `medical-fee-a-r02`. The canonical identity,
+title and parent remain unchanged. The whole article remains partial, with
+listing 166–168 and complete assembly pending.
+
+Fourteen native blocks preserve 22 prose paragraphs and six explicit column/page
+joins. The retrospective contents has **52 source entries under seven main
+sections**, including section IV's continuation across columns and all original
+issue references. These are article structure, not additional canonical bodies.
+The original medical illustration, prose-ending emblem and report sample remain
+three separate assets, with actual caption associations and no invented captions.
+
+The report retains five metadata lines, four column headings, **29 numbered
+body rows / 120 cells**, and six original separator groups. Source `.04` stays
+under 회수, with `0` and `12` in the next columns. Original `김이비인후과의`,
+`1984 년 07 월분`, designation and record range remain literal. All 125 report
+label occurrences have their own source/UTF-8 ranges; repeated zeroes link to
+their actual cells.
+
+One program context retains **131 logical units / 194 physical rows**, 325
+physical fields, 4,038 source tokens and 153 literal records, including **29
+DATA strings**. Source credit `DAE SUNG,LEE`, `MES-4-3`, physical identifier/
+number wraps, 56 explanation-row occurrences and six printed anomalies remain
+explicit. The colon after `CHR$`, absent semicolon, apparent dot in `DG$.DG`,
+isolated terminal semicolon and original `709999` are preserved without syntax
+or behavior repairs. Repeated prose references to 22530 and original 22535 remain
+pending direct comparison with the final source segment. Thirteen local
+uncertainties preserve zero/O, zero-run count, quoted spacing, arrow-like marks,
+dot/colon and printer-glyph alternatives. Original bytes, exact typesetting,
+program execution and human acceptance remain unverified.
+
+All **92 native files reproduce exactly** in an independent build. All **23
+master-derived crops** pass pixel comparison; **53 deliberately damaged source
+structures** are rejected. All **33 earlier selected packages and frozen
+evidence** remain exact and valid. Shared implementation/tests/schemas and
+PLAN-OCR.md / PLAN-PDF.md are unchanged. The unchanged **246-test R33 baseline**
+and its passing logs were rehashed and reused, not freshly rerun.
+
+All six OCR page jobs exited 0: twenty tasks, seventeen Korean/English and three
+English listing tasks. The report's lost cells, Korean listing strings, omitted
+DATA 15020 and final prose sentence were restored directly from the scans while
+retaining the raw drafts. No engine switch, same-input repeat or crop retry was
+needed. The first structural preflight failed on a checker tuple/list comparison.
+Review also found first-match locators pointing to intact FR$/NW$ occurrences;
+fresh selected r02 locates their physical splits. Original r01 export/rebuild
+files remain pinned as superseded evidence. The second preflight and complete
+audit passed. Cleanup was preview-only; **275 private evidence files** are frozen.
+
+November now has **eighteen complete articles, one partial article, six non-owning
+headings and fifteen identities awaiting disposition**. See the
+[R35 result](metadata/catalog/scan-restoration/1984-11-medical-fee-a.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R36**, restore actual 166–168, preserving the source boundary
+21010/21520 without inventing missing rows. Then qualify any required explicit
+printed-number boundary support and assemble/rebuild complete 160–168. Every
+remaining identity and whole-issue source accounting/export/rebuild remain in scope.

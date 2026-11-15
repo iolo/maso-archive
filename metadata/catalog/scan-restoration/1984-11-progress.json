@@ -6,8 +6,8 @@
   "source_type": "jpeg-set",
   "canonical_identities": 40,
   "readable_articles": 18,
-  "partial_articles": 0,
-  "identitiesAwaitingDisposition": 16,
+  "partial_articles": 1,
+  "identitiesAwaitingDisposition": 15,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -6371,10 +6371,335 @@
       "page_candidates": [
         160
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "observed_title": "의료보험수가계산",
+      "observed_installment": "마지막회",
+      "observed_byline": "애플 컴패티블 / (주) 컴퓨텍 453–5363",
+      "observed_whole_extent": [
+        160,
+        168
+      ],
+      "source_views": [
+        {
+          "source_index": 163,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-160.jpg",
+            "sha256": "d1151c49e2eb9cabc899cca08a933770cdecd3b39e6fd1d85a787561681754bd",
+            "bytes": 9283694
+          },
+          "width_px": 4750,
+          "height_px": 6921,
+          "reading_order": 162,
+          "source_filename_number": 160,
+          "printed_page": "160",
+          "image_to_upright_normalized": [
+            0.0002105263157894737,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 164,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-161.jpg",
+            "sha256": "cae08dab01e67cc59f1de1b154676f4f1f3d4205cd5a7937a76c79fce3e14f7a",
+            "bytes": 10511639
+          },
+          "width_px": 4729,
+          "height_px": 6916,
+          "reading_order": 163,
+          "source_filename_number": 161,
+          "printed_page": "161",
+          "image_to_upright_normalized": [
+            0.00021146119687037428,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 165,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-162.jpg",
+            "sha256": "ba6da7fcdbe95c1cef73240c963d57ecced1800ff6f8f9edfd067465d59184ac",
+            "bytes": 7901771
+          },
+          "width_px": 4727,
+          "height_px": 6920,
+          "reading_order": 164,
+          "source_filename_number": 162,
+          "printed_page": "162",
+          "image_to_upright_normalized": [
+            0.0002115506663845991,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 166,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-163.jpg",
+            "sha256": "460885e60a14f42553c214e5fa62abc6942705a0461ab60f8ca232ac4ede6dda",
+            "bytes": 8953689
+          },
+          "width_px": 4733,
+          "height_px": 6925,
+          "reading_order": 165,
+          "source_filename_number": 163,
+          "printed_page": "163",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 167,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-164.jpg",
+            "sha256": "0331f16944027b573ce2a1507aca2ad741162372a42c00cff610a0ee3a926caa",
+            "bytes": 7885905
+          },
+          "width_px": 4726,
+          "height_px": 6925,
+          "reading_order": 166,
+          "source_filename_number": 164,
+          "printed_page": "164",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 168,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-165.jpg",
+            "sha256": "8254229430ad5cbfd7d5921df7b80fd83a599c669be6b54fe5b93d690f693a4b",
+            "bytes": 8102896
+          },
+          "width_px": 4731,
+          "height_px": 6928,
+          "reading_order": 167,
+          "source_filename_number": 165,
+          "printed_page": "165",
+          "image_to_upright_normalized": [
+            0.0002113718030014796,
+            0,
+            0,
+            0.0001443418013856813,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/medical-fee-a-r02",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/medical-fee-a-r02/manifest.json",
+          "sha256": "43171222904049e1fa9d03ceeffb30e04b0b800bc91acca5614b4297941319b0",
+          "bytes": 15324
+        }
+      },
+      "segments": [
+        {
+          "segment_id": "a",
+          "printed_folios": [
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165"
+          ],
+          "source_views": [
+            {
+              "source_index": 163,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-160.jpg",
+                "sha256": "d1151c49e2eb9cabc899cca08a933770cdecd3b39e6fd1d85a787561681754bd",
+                "bytes": 9283694
+              },
+              "width_px": 4750,
+              "height_px": 6921,
+              "reading_order": 162,
+              "source_filename_number": 160,
+              "printed_page": "160",
+              "image_to_upright_normalized": [
+                0.0002105263157894737,
+                0,
+                0,
+                0.00014448779078167894,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 164,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-161.jpg",
+                "sha256": "cae08dab01e67cc59f1de1b154676f4f1f3d4205cd5a7937a76c79fce3e14f7a",
+                "bytes": 10511639
+              },
+              "width_px": 4729,
+              "height_px": 6916,
+              "reading_order": 163,
+              "source_filename_number": 161,
+              "printed_page": "161",
+              "image_to_upright_normalized": [
+                0.00021146119687037428,
+                0,
+                0,
+                0.00014459224985540774,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 165,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-162.jpg",
+                "sha256": "ba6da7fcdbe95c1cef73240c963d57ecced1800ff6f8f9edfd067465d59184ac",
+                "bytes": 7901771
+              },
+              "width_px": 4727,
+              "height_px": 6920,
+              "reading_order": 164,
+              "source_filename_number": 162,
+              "printed_page": "162",
+              "image_to_upright_normalized": [
+                0.0002115506663845991,
+                0,
+                0,
+                0.00014450867052023122,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 166,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-163.jpg",
+                "sha256": "460885e60a14f42553c214e5fa62abc6942705a0461ab60f8ca232ac4ede6dda",
+                "bytes": 8953689
+              },
+              "width_px": 4733,
+              "height_px": 6925,
+              "reading_order": 165,
+              "source_filename_number": 163,
+              "printed_page": "163",
+              "image_to_upright_normalized": [
+                0.00021128248468201986,
+                0,
+                0,
+                0.0001444043321299639,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 167,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-164.jpg",
+                "sha256": "0331f16944027b573ce2a1507aca2ad741162372a42c00cff610a0ee3a926caa",
+                "bytes": 7885905
+              },
+              "width_px": 4726,
+              "height_px": 6925,
+              "reading_order": 166,
+              "source_filename_number": 164,
+              "printed_page": "164",
+              "image_to_upright_normalized": [
+                0.00021159542953872197,
+                0,
+                0,
+                0.0001444043321299639,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 168,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-165.jpg",
+                "sha256": "8254229430ad5cbfd7d5921df7b80fd83a599c669be6b54fe5b93d690f693a4b",
+                "bytes": 8102896
+              },
+              "width_px": 4731,
+              "height_px": 6928,
+              "reading_order": 167,
+              "source_filename_number": 165,
+              "printed_page": "165",
+              "image_to_upright_normalized": [
+                0.0002113718030014796,
+                0,
+                0,
+                0.0001443418013856813,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/medical-fee-a-r02",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/medical-fee-a-r02/manifest.json",
+              "sha256": "43171222904049e1fa9d03ceeffb30e04b0b800bc91acca5614b4297941319b0",
+              "bytes": 15324
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-35/validation.json",
+              "sha256": "a30846d97b63f261cf7cf6b3dd8960cb1729ffe8c0053098887f4f1c5a18c3bd",
+              "bytes": 41664
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-35/validation.json",
+          "sha256": "a30846d97b63f261cf7cf6b3dd8960cb1729ffe8c0053098887f4f1c5a18c3bd",
+          "bytes": 41664
+        }
+      ],
+      "assembly_pending": true,
+      "continuation_pending": [
+        166,
+        167,
+        168
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-35/scope.json",
+          "sha256": "985bce203decd32ca77ddc078a9467eb7e8edd14cf30ea307e4e72a38836b02c",
+          "bytes": 2246
+        },
+        "status": "Observed final installment160–168, with separate neighboring bodies159/169. Opening160–165 restored; final listing166–168 and whole-article assembly pending."
+      },
+      "limitations": [
+        "Opening source segment160–165 only; listing166–168 and whole-article assembly remain pending.",
+        "Original medical/financial/program claims, source spelling/reference anomalies and local printer-glyph alternatives retained without behavioral correction.",
+        "Original encoded bytes, exact typesetting/quoted space counts, program execution and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0021",
@@ -6798,6 +7123,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R35: locate and restore 의료보험 수가계산 (maso-1984-11-toc-0020, contents start candidate 160). Verify actual title/byline, full source extent/ending, ownership and typed structures before choosing at most two identities and six mapped views. Segment and retain explicit continuation/assembly state if the article exceeds six views. Preserve complete November packages and frozen evidence, including all original system-development forms, blank cells/rulers, seven-column I/O grids, flow topology, screenshots, evaluation report and uncertainties. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild, with shared OCR/PDF plans unchanged.",
+  "next": "R36: restore final medical-fee program segment on actual166–168 (maso-1984-11-toc-0020), starting21520 and ending40410. Preserve immutable opening segment160–165, all original report cells/metadata,52 retrospective entries, physical wraps and local alternatives. Verify source rows and the21010/21520 boundary explicitly; skipped printed numbers are not evidence of missing scans or instructions. Then assemble complete160–168 with checked program identity/source-coordinate projection and an independent native rebuild; qualify any required declared-number-boundary extension separately without changing existing assembly semantics. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild. Keep shared OCR/PDF plans unchanged.",
   "group_headings": 6
 }
