@@ -2200,3 +2200,53 @@ Next: **R41**, establish the full extent and structures of **텍스트 파일이
 whose observed source title is **텍스트 화일이란?** and opener is 185. Segment
 and later assemble if it exceeds six mapped views. All remaining identities and
 whole-issue covers/source accounting/export/rebuild remain in scope.
+
+## R41 completed — 2026-11-15
+
+Restored the native opening segment **185–190** of **텍스트 화일이란?** as
+`text-file-a-r02`. The observed credit is **편 집 부**, under **애플 컴패티블**.
+Full source inspection establishes the article's extent as **185–195**; 196 is
+a separate advertisement, 197 a section divider and 198 the EPROM article opener.
+The remaining prose and printed menu/example BASIC listing on 191–195 still
+need restoration, followed by whole-article assembly.
+
+The original slanted opener is retained alongside native series/title/byline/lead
+text. Four diagrams retain **49 sequential/random record-strip slots**, including
+**six stacked C-over-R labels** and **15 literal zero-like glyphs**; six blank
+hierarchy boxes with second-slot hatching; and **eight connectors** across the
+hierarchy and correspondence/cabinet analogy. Slot IDs and pipe/slash projections
+are editorial locators, without recovered-byte, byte-offset or NUL-value claims.
+The original photograph stays uncaptioned. The two record-diagram captions retain
+their triangle locator directions separately from their text.
+
+**Eleven command-format groups** preserve **26 physical rows / 23 logical
+commands / 153 tokens**, wrapped commands, alternative branches, command-section
+relationships and pending listing references. Printed **FILEANAME**, **TEXT.SEQ**,
+**POSIT-TION**, **처리하여 하는**, the missing record-label parenthesis and original
+R0/byte/control explanations remain unchanged. Twenty local uncertainties retain
+zero/O, handwriting, quote-encoding and trailing short-stroke alternatives. Exact
+encoding/spacing, execution and full human proofreading remain unverified.
+
+All **286 native files reproduce byte for byte** in a fresh independent build.
+All **74 master-derived crop checks** pass, and **49 deliberately damaged
+structures** are rejected. The **39 earlier selected packages and frozen
+evidence** remain exact and valid. Shared implementation is unchanged; the existing
+**249-test baseline** and logs are rehashed and reused, **not freshly rerun**.
+PLAN-OCR.md and PLAN-PDF.md remain unchanged.
+
+All six original OCR jobs succeeded across **68 tasks**, with no retry, engine
+switch or repetition of unchanged successful input. Slanted/diagram drafts were
+corrected by source comparison. Two tight left edges were widened before OCR;
+the earlier valid map and affected crops remain preserved. The initial map's
+invalid suffixed canonical ID and the first native writer's content-order key
+failure are retained. Candidate r02 adds explicit command sections, example-record
+links and caption markers; r01 and both independent rebuilds remain preserved.
+Cleanup was preview-only; **616 private evidence files** are frozen.
+
+November now has **twenty-two complete articles, one partial article, six
+non-owning headings and eleven unclassified entries**. See the
+[R41 result](metadata/catalog/scan-restoration/1984-11-text-file-a.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R42**, restore text-file continuation **191–195**, then assemble the
+complete article in a separate checkpoint. All remaining identities and
+whole-issue covers/source accounting/export/rebuild remain in scope.

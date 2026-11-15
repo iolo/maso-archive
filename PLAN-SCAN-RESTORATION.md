@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R40 are complete; the active goal is to restore all November 1984 articles.
+R00–R41 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -289,13 +289,23 @@ restored JSON/assets and faithful source evidence first.
 | R38 — 어음 거래 관리 | Actual 169–173; complete native article package | 148 identical files; four independent programs, 303 logical units / 628 physical rows, 55 reference rows / 110 cells and 97 local alternatives; 53 invalid cases rejected and 249 fresh regressions |
 | R39 — ISAM | Actual 174–179; complete native article package | 178 identical files; two printed listing contexts, 116 logical units / 132 physical rows, typed linked-record/memory-disk structures, 149 cells / 15 blanks and eleven connectors; 53 invalid cases rejected; unchanged 249-test baseline reused |
 | R40 — 비지캘크 한계의 극복 | Actual 180–184; complete native article package | 212 identical files; eighteen grids / 615 cells / 45 blanks / thirty formulas, eleven command sequences and typed aggregation/transfer relationships; 63 pixel checks and 58 invalid cases; unchanged 249-test baseline reused |
+| R41 — 텍스트 화일이란? opening | Actual 185–190 of observed 185–195; complete native opening segment | 286 identical files; four typed diagrams, 49 record-strip slots, six blank hierarchy slots, eight connectors, eleven command-format groups / 23 logical commands; 74 pixel checks and 49 invalid cases; unchanged 249-test baseline reused |
 
-Immediate next action: **R41**, locate and restore 텍스트 파일이란,
-`maso-1984-11-toc-0024`, with contents start candidate and observed opener **185**;
-the observed source title is **텍스트 화일이란?**.
-Establish the actual title/byline, ending, body ownership and source structures
-before mapping at most two identities/six source views. Segment and assemble if
-the complete article exceeds that bound. Preserve complete 비지캘크 한계의 극복
+Immediate next action: **R42**, restore the **191–195** continuation of
+**텍스트 화일이란?**, `maso-1984-11-toc-0024`, beginning with random WRITE.
+The whole source extent is **185–195**, credited to **편 집 부** under
+**애플 컴패티블**. Source-check the printed menu/example BASIC listing on
+193–195 through its final 14999 row. Then assemble the immutable segments in a
+separate bounded checkpoint with source/structure/coordinate checks and an
+independent native rebuild. Preserve opening `text-file-a-r02` on 185–190:
+the original slanted opener/photo/four diagrams, hierarchy/analogy arrows,
+six blank file slots with second-slot hatching, 49 visual record slots with
+stacked C-over-R labels and literal zero-like glyphs, eleven source command
+formats and their physical wraps/alternative branches. Keep FILEANAME,
+TEXT.SEQ, POSIT-TION, incomplete punctuation, original technical wording and
+local glyph/handwriting alternatives. These are source structures without
+recovered-byte or execution claims. The whole article remains partial.
+Preserve complete 비지캘크 한계의 극복
 on actual 180–184: eighteen grids, 615 source cells including 45 blanks and thirty
 formulas, printed labels, separator bands, six boxed inputs, six block-range
 rectangles, eleven command sequences and their formula/file/state relationships.
@@ -367,8 +377,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-two complete article packages, no partial articles, six non-owning
-headings and 12 unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty-two complete article packages, one partial article, six non-owning
+headings and 11 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
