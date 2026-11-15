@@ -5,8 +5,8 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 10,
-  "partial_articles": 1,
+  "readable_articles": 11,
+  "partial_articles": 0,
   "identitiesAwaitingDisposition": 23,
   "entries": [
     {
@@ -2895,7 +2895,7 @@
       ],
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "observed_title": "아기 펭귄",
       "observed_byline": "원성욱/김경헌",
@@ -2906,11 +2906,12 @@
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-20/review/article-boundaries.json",
-          "sha256": "0e144fde2348a5d1bb7a356b1efae7b576f4d5a9d9f9cef940e6f1b3c6f2a127",
-          "bytes": 3049
+          "path": "archive/scans/1984-11/restoration/batch-22/validation.json",
+          "sha256": "37467102e51cfc2dc6fbd8593c348e43f692cb5aa2677b315ba1920e257afa73",
+          "bytes": 42931
         },
-        "status": "Full observed 78-85 extent restored in two source segments; whole article assembly pending."
+        "finding_key": "summary",
+        "status": "Observed complete 78-85 source extent assembled and independently rebuilt; original opening/ending and source structures retained."
       },
       "segments": [
         {
@@ -3135,12 +3136,22 @@
         }
       ],
       "continuation_pending": [],
-      "assembly_pending": true,
+      "assembly_pending": false,
       "limitations": [
-        "Segment b covers actual 84-85 only. Preceding actual 78-83 are preserved in segment a; whole eight-page assembly and rebuild remain pending.",
-        "The incoming , 3420 is the remainder of source 3240, whose number and preceding text occur only in segment a; the source text here does not invent its printed number.",
-        "Ninety editorial custom-glyph/run markers preserve original scans and selected visual pattern observations with null original bytes/counts; these are not literal original code.",
-        "Original encoding/typesetting, quoted whitespace, O/zero readings, source correctness, execution and human acceptance remain unverified."
+        "Original encoding/typesetting, custom-glyph bytes/counts, quoted whitespace, source correctness, execution and human acceptance remain unverified.",
+        "[a] Original custom glyphs, quoted spaces, byte fields and explanatory-table continuations require literal source review; do not infer bytes from expected execution.",
+        "[a] Original encoded bytes/typesetting, execution, source correctness and human acceptance remain unverified.",
+        "[a] Sixty-one editorial custom-glyph run markers retain original scan links with unknown bytes and counts. These markers are not literal original code and do not certify executable text.",
+        "[a] Local faint byte glyphs, punctuation, stylized tagline, screenshot labels and quoted whitespace retain explicit uncertainty. Independent prose/table/code forms remain literal.",
+        "[a] Original encoded bytes/typesetting, source correctness, program/music/shape execution and human acceptance remain unverified.",
+        "[a] Reading representation; original bytes/typesetting and execution unverified.",
+        "[b] Opening 3240 is a source fragment whose printed number occurs in the previous immutable segment; do not insert 3240 into this segment text.",
+        "[b] Custom glyph bytes/counts, quoted whitespace, O/zero glyphs and source correctness remain unverified.",
+        "[b] The incoming , 3420 is the remainder of source 3240, whose number and preceding text occur only in segment a; the source text here does not invent its printed number.",
+        "[b] Ninety editorial custom-glyph/run markers preserve original scans and selected visual pattern observations with null original bytes/counts; these are not literal original code.",
+        "[b] Original encoding/typesetting, quoted whitespace, O/zero readings, source correctness, execution and human acceptance remain unverified.",
+        "[b] Opening comma fragment belongs to 3240 from the previous segment; no printed number is invented.",
+        "[b] Editorial glyph/run markers are not literal original code. Bytes/counts, quoted whitespace and source correctness remain unverified."
       ],
       "all_source_folios_restored": [
         78,
@@ -3152,16 +3163,789 @@
         84,
         85
       ],
-      "pending_listing_join": {
-        "listing_id": "penguin-basic",
-        "source_unit": 3240,
-        "left_segment": "a",
-        "right_segment": "b",
-        "left_literal": "3240 ON CH GOTO 3250, 3300, 3360",
-        "right_literal": ", 3420",
-        "separator": "",
-        "status": "Both physical source parts restored; logical join and whole-article assembly pending."
-      }
+      "previous_location_evidence": [
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-20/review/article-boundaries.json",
+            "sha256": "0e144fde2348a5d1bb7a356b1efae7b576f4d5a9d9f9cef940e6f1b3c6f2a127",
+            "bytes": 3049
+          },
+          "status": "Full observed 78-85 extent restored in two source segments; whole article assembly pending."
+        }
+      ],
+      "source_views": [
+        {
+          "source_index": 81,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-078.jpg",
+            "sha256": "8bc288aea23ac5d997ffb7f04f61c565844e995d80ef901e5713ec8d7be71b42",
+            "bytes": 8347257
+          },
+          "width_px": 4736,
+          "height_px": 6916,
+          "reading_order": 80,
+          "source_filename_number": 78,
+          "printed_page": "78",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 82,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-079.jpg",
+            "sha256": "c00b23a1be983589870a169c6f572a98487fd0ef03d62aff3d139b0d16322fb8",
+            "bytes": 8368746
+          },
+          "width_px": 4735,
+          "height_px": 6902,
+          "reading_order": 81,
+          "source_filename_number": 79,
+          "printed_page": "79",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.0001448855404230658,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 83,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-080.jpg",
+            "sha256": "261fa7f4d198004fc0870bcd90a2bd0d4fa2a6496d3f2d20fdf103bb6bc6844e",
+            "bytes": 8616702
+          },
+          "width_px": 4737,
+          "height_px": 6902,
+          "reading_order": 82,
+          "source_filename_number": 80,
+          "printed_page": "80",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.0001448855404230658,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 84,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-081.jpg",
+            "sha256": "d17c3bb34d1b6841724984b8f5216939ba167c15543df1369822d9649e66b225",
+            "bytes": 9253508
+          },
+          "width_px": 4733,
+          "height_px": 6902,
+          "reading_order": 83,
+          "source_filename_number": 81,
+          "printed_page": "81",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001448855404230658,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 85,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-082.jpg",
+            "sha256": "0e11cba90be3d0d5b539dfc0536c43d4af5c8709659c0176a11f4112233a7579",
+            "bytes": 8092849
+          },
+          "width_px": 4730,
+          "height_px": 6903,
+          "reading_order": 84,
+          "source_filename_number": 82,
+          "printed_page": "82",
+          "image_to_upright_normalized": [
+            0.00021141649048625792,
+            0,
+            0,
+            0.00014486455164421265,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 86,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-083.jpg",
+            "sha256": "55e67ba73dac7ac8354d0a81d2a3d4ab4fdaceeb2cef288cb50ab40145aacbfb",
+            "bytes": 8782330
+          },
+          "width_px": 4739,
+          "height_px": 6900,
+          "reading_order": 85,
+          "source_filename_number": 83,
+          "printed_page": "83",
+          "image_to_upright_normalized": [
+            0.00021101498206372652,
+            0,
+            0,
+            0.00014492753623188405,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 87,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-084.jpg",
+            "sha256": "9ba586e1ed7916009940fa61ab82e36aeb34444b8fdc55fd4583cd55b96a1564",
+            "bytes": 7694552
+          },
+          "width_px": 4728,
+          "height_px": 6910,
+          "reading_order": 86,
+          "source_filename_number": 84,
+          "printed_page": "84",
+          "image_to_upright_normalized": [
+            0.00021150592216582064,
+            0,
+            0,
+            0.0001447178002894356,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 88,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-085.jpg",
+            "sha256": "7094761d0aa4a09db6f0fe7400033cf03caa0a546f36e1f844f92c23f7533f67",
+            "bytes": 8203802
+          },
+          "width_px": 4742,
+          "height_px": 6900,
+          "reading_order": 87,
+          "source_filename_number": 85,
+          "printed_page": "85",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014492753623188405,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/baby-penguin-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/baby-penguin-r01/manifest.json",
+          "sha256": "92ae78f78154925bab7b5e232653dbf8553f486ab10d3b612fc61a76e4205f37",
+          "bytes": 29498
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-22/validation.json",
+          "sha256": "37467102e51cfc2dc6fbd8593c348e43f692cb5aa2677b315ba1920e257afa73",
+          "bytes": 42931
+        }
+      ],
+      "resolved_programs": [
+        {
+          "id": "penguin-basic-whole",
+          "listing_id": "a-penguin-basic",
+          "block_id": "a-penguin-basic",
+          "left": {
+            "segment": "a",
+            "listing_id": "penguin-basic",
+            "last_printed_row": 3240,
+            "association": 107
+          },
+          "right": {
+            "segment": "b",
+            "listing_id": "penguin-basic",
+            "first_printed_row": 3240,
+            "association": 0
+          },
+          "right_block_offset": 7150,
+          "source_text_preserved": true,
+          "execute_verified": false,
+          "source_occurrences": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/107"
+            },
+            {
+              "corrections": {
+                "path": "segments/b/corrections.json",
+                "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+                "bytes": 2348013
+              },
+              "pointer": "/content_associations/0"
+            }
+          ],
+          "logical_join": {
+            "left_source_unit_id": "penguin-basic:n3240",
+            "right_source_unit_id": "penguin-basic:n3240",
+            "separator": "",
+            "joined_reading": "3240 ON CH GOTO 3250, 3300, 3360, 3420"
+          }
+        }
+      ],
+      "resolved_source_relationships": [
+        {
+          "kind": "source-prior-title-data-loader",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/10"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/82"
+            },
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/83"
+            },
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/84"
+            },
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/85"
+            },
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/86"
+            },
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/87"
+            },
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/88"
+            },
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/89"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/11"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/56"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/12"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/57"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/13"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/58"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/14"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/59"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/15"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/60"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/16"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/61"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/17"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/62"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/18"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/63"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/19"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/64"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/20"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/65"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/21"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/66"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/22"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/67"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/23"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/68"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/24"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/69"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/25"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/70"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/26"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/71"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-program-explanation",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/27"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/72"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-key-dispatch-target",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/28"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/78"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-key-dispatch-target",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/29"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/79"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-key-dispatch-target",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/30"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/80"
+            }
+          ],
+          "source_values_changed": false
+        },
+        {
+          "kind": "source-prior-key-dispatch-target",
+          "source": {
+            "corrections": {
+              "path": "segments/b/corrections.json",
+              "sha256": "f8b3b8422dd14bbb4f6ff69ddbd5296aa8c94615a5ebf52494c0e945c3685738",
+              "bytes": 2348013
+            },
+            "pointer": "/content_associations/31"
+          },
+          "targets": [
+            {
+              "corrections": {
+                "path": "segments/a/corrections.json",
+                "sha256": "6e45b2052f9eabb1a729c5f791e7b94a5ed45ba9752e59bb08fc9f884c662ce1",
+                "bytes": 2983162
+              },
+              "pointer": "/content_associations/81"
+            }
+          ],
+          "source_values_changed": false
+        }
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0008",
@@ -4045,6 +4829,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R22: assemble complete 아기펭귄 (maso-1984-11-toc-0007, actual 78-85) from immutable segments a and b, preserving source 3240 as one logical unit with both physical parts and sparse BASIC numbering. Preserve all original OCR bindings, 151 glyph/run occurrences with unknown bytes/counts, continued tables, data/loader/key relationships and artwork placement. Validate or add a narrowly opt-in assembly projection with meaningful compatibility/negative tests and a fresh independent whole-package rebuild before marking the article complete. Continue every remaining November identity, source-image/covers accounting and checked whole-issue export.",
+  "next": "R23: locate and restore 컨닝 (maso-1984-11-toc-0008, TOC starting-page candidate 86). Verify actual source title, ownership, ending and typed structures before selecting a bounded batch of at most six new mapped views. Preserve all complete November packages and immutable source segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }

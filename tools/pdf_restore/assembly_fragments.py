@@ -128,7 +128,7 @@ def check_partition(group, physical, all_units):
     expected = [n for part in group['source_parts'] for n in part['observed_printed_rows']]
     need(numbers == expected == sorted(set(numbers)), 'Unified sparse numbers differ from original source occurrences')
     owned = Counter(id for row in units for id in row['physical_line_ids'])
-    need(owned == Counter(r['line_id'] for r in physical if r['text'].strip()),
-         'Logical units do not partition every nonblank physical source row')
+    need(owned == Counter(r['line_id'] for r in physical),
+         'Logical units do not partition physical source rows, including visual blanks')
     group.update(first_printed_row=numbers[0],last_printed_row=numbers[-1],observed_printed_rows=numbers)
     group.pop('open_final_source_unit_id', None)

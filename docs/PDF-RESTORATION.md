@@ -421,13 +421,34 @@ source rows and character/byte coordinates. This option never inserts a printed
 number or changes physical listing bytes. Its sparse numbering is checked
 against each segment's explicit `observed_printed_rows`, rather than a computed
 step size. The joined logical unit retains both projected source occurrences;
-every nonblank physical row has one logical owner. Existing program links keep
+every physical row, including source visual blanks, has one logical owner. Existing program links keep
 their consecutive-number contract.
 
 This source-unit join is qualified separately from any article's complete
 metadata projection. In particular, qualifying the November 아기펭귄 3240
 boundary does not certify its tables, graphic-marker indexes or cross-segment
 relationships, or mark the whole article complete.
+
+Set `source_index_mode: regional-literals-v1` on a structured-program recipe
+when the source segments also carry complete `text_index`, `unresolved_graphics`
+and `unresolved_text` indexes. This separate opt-in projects all original block
+ranges, continued table cell parts, nested literal spans, uncertainty anchors,
+graphic occurrences and artwork source coordinates. Mirrored graphic records
+must cover every editorial marker exactly once, with explicit null original
+bytes/counts and false encoding verification. Their scans, physical rows and
+logical owners must agree. No glyph byte, character count or rendering is inferred.
+
+The extension also checks declared prior-segment explanation, title-data/loader
+and key-target relationships against the exact previous manifest and original
+source occurrences. Explanation ranges must retain all their source units;
+loaders and key targets must match the printed declarations. Unresolved pending
+relationships reject. Active identities and spans address assembled structures,
+with the original records retained under pinned segment corrections. The complete
+November 아기펭귄 package is the first checked use: 167 identical native files
+in an independent rebuild, 456 logical BASIC units, 151 uncertain graphic/run
+occurrences and 22 resolved cross-segment relationships. Both original monitor
+contexts, 142 table cells, overlapping illustration parts and all 51 local
+uncertainties remain separate source structures.
 
 Joined programs have one code block, listing group and complete listing range.
 Physical/logical row identities retain their segment scope; source field values,

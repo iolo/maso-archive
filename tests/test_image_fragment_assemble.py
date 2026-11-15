@@ -9,7 +9,7 @@ from tests import test_image_program_assemble as program_tests
 from tools.pdf_restore.assemble import assemble, project, read_segment
 from tools.pdf_restore.build import build, check_export
 from tools.pdf_restore.inventory import pin, write_json
-from tools.pdf_restore.assembly_fragments import boundary_reading
+from tools.pdf_restore.assembly_fragments import boundary_reading,check_partition
 
 S, E = 'utf8_byte_start', 'utf8_byte_end_exclusive'
 
@@ -155,6 +155,15 @@ class ImageFragmentAssemblyTests(unittest.TestCase):
             manifest['files']=[pin(out,r['path']) for r in manifest['files']]
             write_json(out/'manifest.json',manifest)
             with self.assertRaisesRegex(ValueError,'correction projection'):check_export(out)
+
+    def test_visual_blank_keeps_its_original_logical_owner(self):
+        group=dict(listing_id='code',source_parts=[dict(observed_printed_rows=[10]),dict(observed_printed_rows=[1000])])
+        rows=[dict(line_id='one',text='10 PRINT\n'),dict(line_id='blank',text='\n'),dict(line_id='two',text='1000 END\n')]
+        units=[dict(listing_id='code',printed_line=10,physical_line_ids=['one','blank']),
+               dict(listing_id='code',printed_line=1000,physical_line_ids=['two'])]
+        check_partition(group,rows,units)
+        units[0]['physical_line_ids'].remove('blank')
+        with self.assertRaises(ValueError):check_partition(group,rows,units)
 
 
 if __name__=='__main__':unittest.main()

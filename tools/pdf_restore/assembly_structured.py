@@ -33,6 +33,10 @@ def validate_recipe(recipe):
     programs = recipe.get('index_mode') == 'structured-programs-v1'
     if programs:
         required |= {'program_links', 'group_links', 'example_links'}
+    if 'source_index_mode' in recipe:
+        if not programs or recipe['source_index_mode'] != 'regional-literals-v1':
+            raise ValueError('Unsupported structured source index extension')
+        required.add('source_index_mode')
     if set(recipe) != required:
         raise ValueError('Unknown or missing structured assembly recipe field')
     if not isinstance(recipe['segments'], list) or not 2 <= len(recipe['segments']) <= 12:
@@ -94,7 +98,7 @@ def checked_span(data, start, end, literal=None):
 
 
 class Context:
-    def __init__(self, spec, source, correction, offset):
+    def __init__(self, spec, source, correction, offset, *, source_indexes=False):
         self.spec, self.source, self.correction, self.offset = spec, source, correction, offset
         self.name, self.prefix = spec['name'], 'segments/' + spec['name']
         self.regions = {r['id'] for r in source['regions'] + source['excluded_regions']}
@@ -104,11 +108,15 @@ class Context:
         self.groups = {g['listing_id']: g for g in correction.get('listing_groups', [])}
         self.assets = {r['region_id']: r['asset'] for r in source['region_assets']}
         self.program_mode = False
+        self.source_indexes = source_indexes
         self.logical_aliases = {}
         self.listing_ids = {id: self.name + '-' + id for id in self.groups}
         self.positions = {self.name + '-' + id: (self.name + '-' + id, 0) for id in self.blocks}
         self.article, self.listing = text_bytes(source)
-        if set(correction) - set(INDEXES) - METADATA:
+        if source_indexes:self.ranges=block_ranges(source)
+        indexes = INDEXES + ('text_index', 'unresolved_graphics', 'unresolved_text') if source_indexes else INDEXES
+        metadata = METADATA | {'previous_package_manifest'} if source_indexes else METADATA
+        if set(correction) - set(indexes) - metadata:
             raise ValueError('Unrecognized structured correction index; add an explicit projection')
 
     def identity(self, value, allowed):
@@ -126,6 +134,12 @@ class Context:
             return deepcopy(value)
         result = {}
         for key, item in value.items():
+            if self.source_indexes:
+                from .assembly_source_indexes import reference
+                handled, result_value = reference(self, key, item)
+                if handled:
+                    if result_value is not NotImplemented:result[key] = result_value
+                    continue
             # Derived review views remain in their original correction context.
             # Every active occurrence still names its exported source-region scan.
             if key in ('review_crop', 'source_context') or key == 'evidence' and isinstance(item, dict):
@@ -208,11 +222,13 @@ class Context:
 
 def project_structured(recipe, originals):
     validate_recipe(recipe)
+    source_indexes = recipe.get('source_index_mode') == 'regional-literals-v1'
+    indexes = INDEXES + ('text_index', 'unresolved_graphics', 'unresolved_text') if source_indexes else INDEXES
     contexts=[];offset=0
     for spec,(source,correction) in zip(recipe['segments'],originals,strict=True):
         if source['schema_version'] != 2:
             raise ValueError('Structured JPEG mode requires explicit image-source packages')
-        context=Context(spec,source,correction,offset);contexts.append(context);offset+=len(context.listing)
+        context=Context(spec,source,correction,offset,source_indexes=source_indexes);contexts.append(context);offset+=len(context.listing)
     programs = recipe['index_mode'] == 'structured-programs-v1'
     fragments = programs and any('logical_join' in r for r in recipe['program_links'])
     for context in contexts:context.program_mode = programs
@@ -260,9 +276,10 @@ def project_structured(recipe, originals):
     package['mapping']=dict(status='mapped',evidence=recipe['evidence'],uncertainties=[])
     package['availability']='readable'
     package['verification']=dict(status='sample-reviewed',reviewed_region_ids=[r['id'] for r in package['regions']],evidence=recipe['evidence'],uncertainties=package['gaps'])
-    correction=dict(article_id=package['id'],index_mode=recipe['index_mode'],policy='Projection of immutable structured JPEG segments. No OCR, source-byte inference or execution repair.',records=[],blocks=package['blocks'],segments=[],resolved_notes=deepcopy(recipe['resolved_notes']),resolved_continuations=resolved,identity_map=[],resolved_relationships=[],coverage=dict(article_source_indices=indices,included_source_indices=indices,included_printed_pages=[p['printed_page'] for p in package['pages']],complete_article=True,assembly_pending=False,source_pages_missing=False),character_perfect_code=False,**{k:[] for k in INDEXES})
+    correction=dict(article_id=package['id'],index_mode=recipe['index_mode'],policy='Projection of immutable structured JPEG segments. No OCR, source-byte inference or execution repair.',records=[],blocks=package['blocks'],segments=[],resolved_notes=deepcopy(recipe['resolved_notes']),resolved_continuations=resolved,identity_map=[],resolved_relationships=[],coverage=dict(article_source_indices=indices,included_source_indices=indices,included_printed_pages=[p['printed_page'] for p in package['pages']],complete_article=True,assembly_pending=False,source_pages_missing=False),character_perfect_code=False,**{k:[] for k in indexes})
+    if source_indexes:correction['source_index_mode']=recipe['source_index_mode']
     for context in contexts:
-        correction['segments'].append(dict(name=context.name,directory=context.prefix,manifest=rebase({**context.spec['manifest'],'path':'manifest.json'},context.prefix),original_corrections=rebase(context.source['corrections'][0],context.prefix),original_metadata={k:deepcopy(v) for k,v in context.correction.items() if k not in INDEXES and k not in {'records','blocks','map'}}))
+        correction['segments'].append(dict(name=context.name,directory=context.prefix,manifest=rebase({**context.spec['manifest'],'path':'manifest.json'},context.prefix),original_corrections=rebase(context.source['corrections'][0],context.prefix),original_metadata={k:deepcopy(v) for k,v in context.correction.items() if k not in indexes and k not in {'records','blocks','map'}}))
         for kind,allowed in [('region',context.regions),('block',context.blocks),('figure',context.figures)]:
             for id in sorted(allowed):
                 target,within=positions[context.identity(id,allowed)] if kind=='block' else (context.identity(id,allowed),0)
@@ -313,12 +330,15 @@ def project_structured(recipe, originals):
                 raise ValueError('Source field refers to an unknown logical unit')
         for row in context.correction.get('source_ellipsis_groups',[]):
             if any(id not in physical_by_id for id in row['physical_line_ids']):raise ValueError('Ellipsis refers to an unknown physical row')
-        for key in INDEXES:
+        if source_indexes:
+            from .assembly_source_indexes import validate_source_indexes
+            validate_source_indexes(context)
+        for key in indexes:
             for i,original in enumerate(context.correction.get(key,[])):
                 if key=='content_associations' and original.get('kind') in ('pending-source-example','cross-segment-source-example'):
                     continue  # Explicitly resolved below; every occurrence must match one link.
                 row=context.row(key,i)
-                if programs and key=='figure_structures':
+                if programs and key=='figure_structures' and not (source_indexes and 'figure_region_id' not in original):
                     from .assembly_programs import project_figure
                     row=project_figure(context, original, row)
                 if key=='tables':
@@ -329,7 +349,8 @@ def project_structured(recipe, originals):
                         rows.append(target_row)
                     row['rows']=rows
                 elif key=='listing_caption_associations':
-                    context.block_span(original,row,ranges,owner=original['caption_block_id'],literal=original['literal'])
+                    literal=original.get('caption_literal') if source_indexes and 'caption_literal' in original else original['literal']
+                    context.block_span(original,row,ranges,owner=original['caption_block_id'],literal=literal)
                 elif 'start_byte' in original and 'end_byte' in original:
                     literal=original.get('marker',original.get('literal',original.get('text',original.get('separator'))))
                     context.block_span(original,row,ranges,literal=literal)
@@ -342,6 +363,9 @@ def project_structured(recipe, originals):
                 if fragments and key=='logical_listing_line_index':
                     within=context.positions[context.identity(original['block_id'],context.blocks)][1]
                     for part in row.get('source_parts',[]):part['physical_start_byte']+=within
+                if source_indexes:
+                    from .assembly_source_indexes import project_index
+                    project_index(context,key,original,row,ranges)
                 correction[key].append(row)
     # The new separator has an active occurrence as well as original segment joins.
     for row in resolved:
@@ -351,6 +375,9 @@ def project_structured(recipe, originals):
     if programs:
         from .assembly_programs import finish_programs
         finish_programs(recipe, package, correction, contexts, program_records)
+    if source_indexes:
+        from .assembly_source_indexes import finish_indexes
+        finish_indexes(package,correction,contexts)
     validate_references(package, correction)
     validate_package(package)
     return package,correction
@@ -377,6 +404,17 @@ def validate_references(package,correction):
              'figure_id':figures,'table_id':tables,'listing_id':listings,
              'source_unit_id':logical,'from_node':nodes,'to_node':nodes}
     multiples={**{k:blocks for k in BLOCK_LISTS},'region_ids':regions,'figure_ids':figures,'physical_line_ids':physical}
+    indexes = INDEXES
+    if correction.get('source_index_mode') == 'regional-literals-v1':
+        from .assembly_source_indexes import UNIT_KEYS, UNIT_LISTS, REGION_LISTS, BLOCK_EXTRA, LOCAL_EXTRA
+        singles.update({k:logical for k in UNIT_KEYS})
+        singles.update(physical_line_id=physical,table_row_id={r['row_id'] for t in correction['tables'] for r in t['rows']})
+        singles.update({k:blocks for k in BLOCK_EXTRA})
+        singles.update({k:{r['label_id'] for r in correction['figure_label_index']} for k in LOCAL_EXTRA})
+        multiples.update({k:logical for k in UNIT_LISTS})
+        multiples.update({k:regions for k in REGION_LISTS})
+        multiples.update(table_ids=tables,group_ids={r['group_id'] for r in correction['content_associations'] if 'group_id' in r})
+        indexes += ('text_index','unresolved_graphics','unresolved_text')
     def walk(value):
         if isinstance(value,list):
             for row in value:walk(row)
@@ -390,7 +428,7 @@ def validate_references(package,correction):
                 if key in multiples and not set(item)<=multiples[key]:
                     raise ValueError('Dangling structured reference list: '+key)
                 walk(item)
-    for key in INDEXES:walk(correction[key])
+    for key in indexes:walk(correction[key])
 
 
 def validate_pending_joins(recipe,contexts):

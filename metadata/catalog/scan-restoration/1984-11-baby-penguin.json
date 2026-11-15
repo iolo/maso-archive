@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R22",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0007",
+  "title": "아기펭귄",
+  "observed_title": "아기 펭귄",
+  "observed_byline": "원성욱/김경헌",
+  "observed_platform": "SPC-1000",
+  "outcome": "Complete reproducible presentation-independent 아기펭귄 package, with the two physical 3240 fragments joined as one logical source unit, original sparse numbering, continued table cells, uncertain graphic runs, source-coordinate artwork and evidenced cross-segment relationships.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/baby-penguin-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/baby-penguin-r01/manifest.json",
+    "sha256": "92ae78f78154925bab7b5e232653dbf8553f486ab10d3b612fc61a76e4205f37",
+    "bytes": 29498
+  },
+  "assembly_record": {
+    "path": "archive/scans/1984-11/packages/baby-penguin-r01/assembly.json",
+    "sha256": "9bc46dbf02c031cf2c47792cfda12f5a827faa363a117cf5a2253081430260f5",
+    "bytes": 1342
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-22/validation.json",
+    "sha256": "37467102e51cfc2dc6fbd8593c348e43f692cb5aa2677b315ba1920e257afa73",
+    "bytes": 42931
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-22/evidence-manifest.json",
+    "sha256": "b62bdee37b8cc7c284fc58088a15961e198cf9a83608909eff64cfab8d539524",
+    "bytes": 8959
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-078.jpg",
+      "sha256": "8bc288aea23ac5d997ffb7f04f61c565844e995d80ef901e5713ec8d7be71b42",
+      "bytes": 8347257
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-079.jpg",
+      "sha256": "c00b23a1be983589870a169c6f572a98487fd0ef03d62aff3d139b0d16322fb8",
+      "bytes": 8368746
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-080.jpg",
+      "sha256": "261fa7f4d198004fc0870bcd90a2bd0d4fa2a6496d3f2d20fdf103bb6bc6844e",
+      "bytes": 8616702
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-081.jpg",
+      "sha256": "d17c3bb34d1b6841724984b8f5216939ba167c15543df1369822d9649e66b225",
+      "bytes": 9253508
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-082.jpg",
+      "sha256": "0e11cba90be3d0d5b539dfc0536c43d4af5c8709659c0176a11f4112233a7579",
+      "bytes": 8092849
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-083.jpg",
+      "sha256": "55e67ba73dac7ac8354d0a81d2a3d4ab4fdaceeb2cef288cb50ab40145aacbfb",
+      "bytes": 8782330
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-084.jpg",
+      "sha256": "9ba586e1ed7916009940fa61ab82e36aeb34444b8fdc55fd4583cd55b96a1564",
+      "bytes": 7694552
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-085.jpg",
+      "sha256": "7094761d0aa4a09db6f0fe7400033cf03caa0a546f36e1f844f92c23f7533f67",
+      "bytes": 8203802
+    }
+  ],
+  "printed_folios": [
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85"
+  ],
+  "observed_whole_extent": [
+    78,
+    85
+  ],
+  "immutable_segments": [
+    {
+      "segment_id": "a",
+      "printed_folios": [
+        "78",
+        "79",
+        "80",
+        "81",
+        "82",
+        "83"
+      ],
+      "source_views": [
+        {
+          "source_index": 81,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-078.jpg",
+            "sha256": "8bc288aea23ac5d997ffb7f04f61c565844e995d80ef901e5713ec8d7be71b42",
+            "bytes": 8347257
+          },
+          "width_px": 4736,
+          "height_px": 6916,
+          "reading_order": 80,
+          "source_filename_number": 78,
+          "printed_page": "78",
+          "image_to_upright_normalized": [
+            0.00021114864864864866,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 82,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-079.jpg",
+            "sha256": "c00b23a1be983589870a169c6f572a98487fd0ef03d62aff3d139b0d16322fb8",
+            "bytes": 8368746
+          },
+          "width_px": 4735,
+          "height_px": 6902,
+          "reading_order": 81,
+          "source_filename_number": 79,
+          "printed_page": "79",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.0001448855404230658,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 83,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-080.jpg",
+            "sha256": "261fa7f4d198004fc0870bcd90a2bd0d4fa2a6496d3f2d20fdf103bb6bc6844e",
+            "bytes": 8616702
+          },
+          "width_px": 4737,
+          "height_px": 6902,
+          "reading_order": 82,
+          "source_filename_number": 80,
+          "printed_page": "80",
+          "image_to_upright_normalized": [
+            0.00021110407430863416,
+            0,
+            0,
+            0.0001448855404230658,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 84,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-081.jpg",
+            "sha256": "d17c3bb34d1b6841724984b8f5216939ba167c15543df1369822d9649e66b225",
+            "bytes": 9253508
+          },
+          "width_px": 4733,
+          "height_px": 6902,
+          "reading_order": 83,
+          "source_filename_number": 81,
+          "printed_page": "81",
+          "image_to_upright_normalized": [
+            0.00021128248468201986,
+            0,
+            0,
+            0.0001448855404230658,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 85,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-082.jpg",
+            "sha256": "0e11cba90be3d0d5b539dfc0536c43d4af5c8709659c0176a11f4112233a7579",
+            "bytes": 8092849
+          },
+          "width_px": 4730,
+          "height_px": 6903,
+          "reading_order": 84,
+          "source_filename_number": 82,
+          "printed_page": "82",
+          "image_to_upright_normalized": [
+            0.00021141649048625792,
+            0,
+            0,
+            0.00014486455164421265,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 86,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-083.jpg",
+            "sha256": "55e67ba73dac7ac8354d0a81d2a3d4ab4fdaceeb2cef288cb50ab40145aacbfb",
+            "bytes": 8782330
+          },
+          "width_px": 4739,
+          "height_px": 6900,
+          "reading_order": 85,
+          "source_filename_number": 83,
+          "printed_page": "83",
+          "image_to_upright_normalized": [
+            0.00021101498206372652,
+            0,
+            0,
+            0.00014492753623188405,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/baby-penguin-a-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/baby-penguin-a-r01/manifest.json",
+          "sha256": "18fc1e7652040e5457a50fa3eb9b343c0459179583e5dc621b416031716ee6e5",
+          "bytes": 22421
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-20/validation.json",
+          "sha256": "ceeff7c99f65f372696e6500e2e90809afdb0b3135816f0b836e40a364f3f780",
+          "bytes": 46223
+        }
+      ]
+    },
+    {
+      "segment_id": "b",
+      "printed_folios": [
+        "84",
+        "85"
+      ],
+      "source_views": [
+        {
+          "source_index": 87,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-084.jpg",
+            "sha256": "9ba586e1ed7916009940fa61ab82e36aeb34444b8fdc55fd4583cd55b96a1564",
+            "bytes": 7694552
+          },
+          "width_px": 4728,
+          "height_px": 6910,
+          "reading_order": 86,
+          "source_filename_number": 84,
+          "printed_page": "84",
+          "image_to_upright_normalized": [
+            0.00021150592216582064,
+            0,
+            0,
+            0.0001447178002894356,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 88,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-085.jpg",
+            "sha256": "7094761d0aa4a09db6f0fe7400033cf03caa0a546f36e1f844f92c23f7533f67",
+            "bytes": 8203802
+          },
+          "width_px": 4742,
+          "height_px": 6900,
+          "reading_order": 87,
+          "source_filename_number": 85,
+          "printed_page": "85",
+          "image_to_upright_normalized": [
+            0.00021088148460565162,
+            0,
+            0,
+            0.00014492753623188405,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/baby-penguin-b-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/baby-penguin-b-r01/manifest.json",
+          "sha256": "3e5f0566ca4994b37d12aefa3730f325c5ffd514800a0dea0f3bd99e8b29bc27",
+          "bytes": 4083
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-21/validation.json",
+          "sha256": "f2a845e9e54bb4bf1e4f3c2d551f2ff4f794ce5b02a20305f52179ec2be917a9",
+          "bytes": 17439
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "sourceViews": 8,
+    "regions": 38,
+    "blocks": 20,
+    "figures": 3,
+    "listingContexts": 3,
+    "physicalRows": 680,
+    "physicalBasicRows": 592,
+    "logicalBasicUnits": 456,
+    "visualBlankRows": 4,
+    "tableRows": 71,
+    "tableCells": 142,
+    "continuedCells": [
+      {
+        "table": "a-program-explanation",
+        "row": "a:program-explanation:r20",
+        "regions": [
+          "a-p079-explanation-first",
+          "a-p080-explanation-left"
+        ]
+      },
+      {
+        "table": "a-program-explanation",
+        "row": "a:program-explanation:r30",
+        "regions": [
+          "a-p080-explanation-left",
+          "a-p080-explanation-right"
+        ]
+      }
+    ],
+    "graphicRuns": 151,
+    "localUncertainties": 51,
+    "explanationRelationships": 43,
+    "keyBranches": 9,
+    "titleDataGroups": 8,
+    "gameOverDataGroups": 8,
+    "mazeGraphicFields": 48,
+    "functionKeyAssignments": 10,
+    "resolvedSourceRelationships": 22,
+    "nativeFiles": 167,
+    "newSourceViews": 0,
+    "newOcrTasks": 0,
+    "negativeActualSourceCases": 10
+  },
+  "source_crop_proof": "Original native source crops and original pinned masters are unchanged; frozen source-pixel checks are inherited through their exact hashes.",
+  "source_crop_evidence": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-20/validation.json",
+      "sha256": "ceeff7c99f65f372696e6500e2e90809afdb0b3135816f0b836e40a364f3f780",
+      "bytes": 46223
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-21/validation.json",
+      "sha256": "f2a845e9e54bb4bf1e4f3c2d551f2ff4f794ce5b02a20305f52179ec2be917a9",
+      "bytes": 17439
+    }
+  ],
+  "previousCheckpointCommit": "ffa2442258fa434aeac196f104178602563348d4",
+  "fragmentSupportCommit": "9fe4ee60",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "91f7fe959cd1e246dd49e7d74d42bd3a1cd76e8de6464dbc62d5739214d74fb0",
+      "bytes": 211140
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "f7443fce3f52398466ad735ecc48ab7923e1e84dd7f6adb0e8b430b51821b2ef",
+      "bytes": 14200
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a61732ba4af3ad2527b5bc4893dd29fce54631420aed4145c0a08b4f0b8b1eb8",
+      "bytes": 17713
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "5cb0e0c82d4b6e8623db1106241d1b0bfcac398ffcc1f217f21f24f59f69e422",
+      "bytes": 16537
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "5a3325c59f06129cd3f296f3bcb77cb49d0baae95e7f1cb846cde0bfa5433287",
+      "bytes": 34557
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [
+    "tools/pdf_restore/assembly_programs.py",
+    "tools/pdf_restore/assembly_structured.py",
+    "tools/pdf_restore/assembly_fragments.py",
+    "tools/pdf_restore/assembly_source_indexes.py",
+    "tests/test_image_fragment_assemble.py",
+    "tests/test_image_source_indexes.py",
+    "docs/PDF-RESTORATION.md"
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 25,
+    "total": 239
+  },
+  "attempts": {
+    "sourceProbeImportEnvironmentFailures": 1,
+    "projectionPreflightFailures": 4,
+    "inventoryPathExportFailures": 1,
+    "sourceIndexTestAssertionRepairs": 1,
+    "completeAuditFailures": 0,
+    "independentRebuildFailures": 0,
+    "newOcrTasks": 0
+  },
+  "limitations": [
+    "Original encoding/typesetting, custom-glyph bytes/counts, quoted whitespace, source correctness, execution and human acceptance remain unverified.",
+    "[a] Original custom glyphs, quoted spaces, byte fields and explanatory-table continuations require literal source review; do not infer bytes from expected execution.",
+    "[a] Original encoded bytes/typesetting, execution, source correctness and human acceptance remain unverified.",
+    "[a] Sixty-one editorial custom-glyph run markers retain original scan links with unknown bytes and counts. These markers are not literal original code and do not certify executable text.",
+    "[a] Local faint byte glyphs, punctuation, stylized tagline, screenshot labels and quoted whitespace retain explicit uncertainty. Independent prose/table/code forms remain literal.",
+    "[a] Original encoded bytes/typesetting, source correctness, program/music/shape execution and human acceptance remain unverified.",
+    "[a] Reading representation; original bytes/typesetting and execution unverified.",
+    "[b] Opening 3240 is a source fragment whose printed number occurs in the previous immutable segment; do not insert 3240 into this segment text.",
+    "[b] Custom glyph bytes/counts, quoted whitespace, O/zero glyphs and source correctness remain unverified.",
+    "[b] The incoming , 3420 is the remainder of source 3240, whose number and preceding text occur only in segment a; the source text here does not invent its printed number.",
+    "[b] Ninety editorial custom-glyph/run markers preserve original scans and selected visual pattern observations with null original bytes/counts; these are not literal original code.",
+    "[b] Original encoding/typesetting, quoted whitespace, O/zero readings, source correctness, execution and human acceptance remain unverified.",
+    "[b] Opening comma fragment belongs to 3240 from the previous segment; no printed number is invented.",
+    "[b] Editorial glyph/run markers are not literal original code. Bytes/counts, quoted whitespace and source correctness remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-22/assembly-recipe.json --output archive/scans/1984-11/packages/baby-penguin-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.assemble --recipe archive/scans/1984-11/restoration/batch-22/assembly-recipe.json --output work/validation/scan-baby-penguin-r22-rebuild-01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-22/verify-assembly.py",
+    "env PYTHONPATH=src:. python3 -m unittest discover -s tests -p 'test_pdf_*.py' -v",
+    "env PYTHONPATH=src:. python3 -m unittest -v tests.test_image_source tests.test_recognition_map tests.test_image_assemble tests.test_image_program_assemble tests.test_image_fragment_assemble tests.test_image_source_indexes"
+  ],
+  "next": "R23: locate and restore 컨닝 (maso-1984-11-toc-0008, TOC starting-page candidate 86). Verify actual source title, ownership, ending and typed structures before selecting a bounded batch of at most six new mapped views. Preserve all complete November packages and immutable source segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild."
+}

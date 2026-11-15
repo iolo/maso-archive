@@ -1055,3 +1055,54 @@ still require explicit projection and independent verification. No complete
 article package has been selected, and November counts remain ten complete,
 one partial, six non-owning headings and 23 unclassified identities. Shared OCR
 and PDF plans and original native packages remain unchanged.
+
+## R22 completed — 2026-11-15
+
+Assembled complete 아기펭귄, actual 78–85, from both immutable source segments.
+All 167 native files match a separate-process rebuild byte for byte. The source
+3240 statement has one logical identity and retains both physical fragments,
+including the numberless incoming `, 3420`. The complete BASIC context has 456
+logical units and 592 physical rows, including four visual blank rows with their
+original logical owners. Both independent monitor contexts remain separate;
+the full article retains 680 physical code rows and the printed 5460 END.
+
+The new opt-in regional literal projection retains all 151 graphic/run records
+with unknown bytes/counts, all 51 local uncertainties, 142 table cells and both
+continued description cells. The penguin illustration remains one figure with
+two overlapping source-coordinate parts. Original screen labels, listing
+captions, byline and other artwork relationships survive. Twenty-two declared
+cross-segment relationships resolve seventeen explanation ranges, four key
+targets and the shared loader for all eight opening title DATA groups. All nine
+key branches, eight GAME OVER groups, 48 maze fields and ten function-key
+assignments remain source-linked. No historical program or generated glyph,
+maze, music or bitmap output was executed.
+
+All 239 regressions pass: 214 PDF and 25 JPEG, recognition-map and assembly tests.
+Ten additional invalid actual-source projections reject. The independent audit
+checks complete block indexes, nested literal spans, table parts, artwork
+placement, physical/logical ownership, all resolved relationships and every
+original segment file. Eight masters and twenty earlier native packages retain
+their exact pins. Original crop-pixel proofs are inherited through unchanged
+master/crop bytes and frozen R20/R21 validation records. Shared OCR/PDF plans
+remain exact. Cleanup ran in preview mode only.
+
+Four projection preflights exposed missing metadata scope, a missing original
+block-range lookup, the source caption-literal field and the visual-blank
+ownership rule; all were corrected before publication. One new test initially
+compared distinct source-record pointers as if they were identical marker data;
+the assertion now compares marker content while preserving both pointers. The
+first native export attempt rejected segment-relative inventory paths; explicit
+root-relative pins with identical hashes fixed the recipe. The next export,
+first independent rebuild and first complete audit passed. Failure logs and
+repairs remain in the frozen R22 evidence.
+
+November now has eleven complete article packages, no partial article, six
+non-owning headings and 23 unclassified identities. Original encoding/typesetting,
+source correctness, execution and human acceptance remain unverified.
+
+See the [complete 아기펭귄 result](metadata/catalog/scan-restoration/1984-11-baby-penguin.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R23**, locate and restore 컨닝 from TOC starting-page candidate 86;
+verify the actual extent and source structures before mapping. Continue every
+remaining November identity, covers/source accounting and the checked whole-issue
+native export/rebuild.

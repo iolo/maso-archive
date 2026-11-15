@@ -270,25 +270,16 @@ restored JSON/assets and faithful source evidence first.
 | R19 — 미로II | Actual 75–77; complete native article package | 70 identical native files; 142 physical rows/83 sparse logical units, 112 explanatory cells, literal 109/46-character hex strings and five coordinate DATA groups; original screenshot relationships and eight local uncertainties retained |
 | R20 — 아기펭귄 opening segment a | Actual 78–83; whole article remains partial | 133 identical native files; 28 variable definitions, 43 explanations, nine nested branches, two continued cells, three listing contexts and 61 scan-linked custom-glyph runs; 3240 remains open onto 84 |
 | R21 — 아기펭귄 continuation segment b | Actual 84–85; all source pages restored, assembly pending | 25 identical native files; 280 physical rows, 222 printed statements plus incoming 3240 fragment, 48 maze fields, eight GAME OVER groups, ten key assignments and 90 graphic/run occurrences; original 5460 END retained |
+| R22 — complete 아기펭귄 assembly | Actual 78–85; complete native article package | 167 identical native files; 456 logical BASIC units from 592 physical rows, both monitor contexts, 142 table cells, 151 graphic/run records, overlapping artwork placement and 22 resolved source relationships; 239 regression tests pass |
 
-Immediate next action: **R22**, assemble complete 아기펭귄,
-`maso-1984-11-toc-0007`, from the two immutable source segments on actual 78–85.
-The top of 84 continues source 3240 ON CH GOTO with `, 3420` before numbered
-3250. Combine only these two physical fragments into one logical unit, preserving
-all 456 distinct BASIC source units, 592 physical rows and sparse numbering.
-Keep both independent monitor contexts, 151 graphic/run occurrences with unknown
-bytes/counts, original source images, continued tables, nested branches and
-data/loader/key/example relationships. Validate or add a narrowly opt-in assembly
-projection for this same-unit split before use, with compatibility/negative tests
-and a fresh independent whole-package rebuild. Original segment exports, frozen
-evidence and OCR map/settings bindings must remain exact.
-R22 is in progress: the explicit same-unit join has been qualified against both
-original segments and synthetic offline rebuilds. The assembler preserves the
-numberless incoming fragment and checks sparse numbers against observed source
-rows. Complete article projection is still pending: add checked handling for
-the text/glyph indexes, continued cell spans and the cross-segment relationships,
-then perform the full independent native rebuild before changing article status.
-November now has ten complete article packages, one partial article, six non-owning
+Immediate next action: **R23**, locate and restore 컨닝,
+`maso-1984-11-toc-0008`, TOC starting-page candidate 86. Verify its actual title,
+ownership and ending from the source images before selecting a bounded batch
+of at most six new mapped views. Preserve complete 아기펭귄 on actual 78–85
+and both immutable segments, including the same-unit 3240 join, all uncertain
+graphic runs, continued cells and original source relationships. Original segment
+exports, frozen evidence and OCR map/settings bindings must remain exact.
+November now has eleven complete article packages, no partial article, six non-owning
 headings and 23 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
