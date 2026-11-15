@@ -4,15 +4,13 @@ Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R21 checkpoints complete: ten November 1984 articles have complete reproducible
-JSON/assets packages, including Feature I on actual 18–39, Feature II on 40–58,
-개구리 on 66–69, 3차원 우주전쟁 on 70–74 and 미로II on 75–77. Both features retain their
-immutable original segments.
-아기펭귄 has two verified source segments covering all actual 78–85;
-whole-article assembly remains pending, so this article stays partial.
-Six section headings have source-backed non-owning classifications.**
+**R00–R29 checkpoints complete: sixteen November 1984 articles have complete
+reproducible JSON/assets packages, with no partial articles. The latest is
+수학을 통한 논리학습 on actual 110–115. Both features and the assembled game
+articles retain their immutable original segments. Six section headings have
+source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Twenty-three canonical identities await disposition. The 24 cleaned source sets
+Eighteen canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -52,7 +50,13 @@ labels and the preserved exports retain their existing values.
 | R19 — 미로II | Passed | Actual 75–77; 70 identical files, 83 sparse BASIC units, 112 table cells, literal hex and coordinate DATA groups, and original screenshot relationships; eight local uncertainties retained |
 | R20 — 아기펭귄 opening segment a | Passed; whole article partial | Actual 78–83; 133 identical files, 142 table cells, nine nested branches, 88 monitor rows/700 byte fields, 234 BASIC units and 61 scan-linked custom-glyph runs; 3240 continues on 84 |
 | R21 — 아기펭귄 continuation segment b | Passed; assembly pending | Actual 84–85; 25 identical files, 280 physical rows, incoming 3240 fragment plus 222 printed statements, 48 maze fields and 90 graphic/run occurrences; original 5460 END retained |
-| November 1984 issue closeout | Not started | All forty canonical TOC identities accounted for, with checked JSON/assets |
+| R22 — complete 아기펭귄 assembly | Passed | Actual 78–85; 167 identical native files and both immutable segments retained |
+| R23 — 컨닝 | Passed | Actual 86–89; 75 identical native files |
+| R24 — 배고픈 거미 | Passed | Actual 90–92; 59 identical native files |
+| R25–R27 — 로즈런너 segments and assembly | Passed | Actual 93–101; 143 identical assembled files, three source contexts and 242 passing shared regressions |
+| R28 — 깡통이 통-통-통 | Passed | Actual 102–104; 72 identical native files, source grids and DATA relationships retained |
+| R29 — 수학을 통한 논리학습 | Passed | Actual 110–115; 211 identical native files, 76 mathematical trees, forty exercise items and four source programs |
+| November 1984 issue closeout | Not started | Eighteen identities still await disposition; source-image accounting and whole-issue native export/rebuild remain |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -1458,3 +1462,54 @@ Next: **R29**, verify 수학을 통한 논리학습 from contents page candidate
 including its actual installment/extent and observed mathematical structures,
 before selecting at most six mapped views. Continue every remaining November
 identity, covers/source-image accounting and checked whole-issue native export.
+
+## R29 completed — 2026-11-15
+
+Restored complete 수학을 통한 논리학습, installment 4, credited to 편집부 for
+MSX, on actual 110–115. Its native schema preserves 76 text mathematical trees,
+seven exercise sets with forty items, four worked derivations, 32 explanation
+rows / 96 cells, and two original area diagrams with fifteen labels, six area
+cells and two equation trees. Fractions, radicals, powers, subscripts, original
+parentheses, point pairs and long-division brackets/overbars retain their source
+scope. Linear text uses editorial grouping where needed; those characters are
+not claimed as additional printed glyphs. Repeated terms and the exercise-5
+cross-column continuation remain literal, without solving or simplifying them.
+
+Four independent source listings retain 240 logical units from 245 physical
+rows, including five function continuations, 86 numeric DATA fields, thirteen
+functions, nineteen control targets and four original captions. Repeated line
+numbers belong to their own program identities. Earlier END statements and the
+original terminal REM rules remain distinct. The selected FNPA operator was
+corrected to the enlarged source reading before export; its local alternative
+remains recorded. Forty-five local uncertainties preserve quoted spacing,
+decorative rule counts, source word candidates and glyph/operator alternatives.
+Two component-count probes did not resolve all rule lengths and did not promote
+estimated counts to source certainty. Historical programs were not executed.
+
+The independent rebuild reproduces all 211 native files exactly. All 52 crops
+match the original scan pixels, and 37 invalid structural cases are rejected.
+All 27 earlier packages remain valid with exact package/evidence bytes. The
+unchanged 242-test baseline was rehashed and reused, not freshly rerun. Shared
+implementation, PLAN-OCR.md and PLAN-PDF.md remain unchanged. Reproducible output
+does not establish source correctness or replace full human proofreading.
+
+One pre-OCR map refinement widened tight edges. Source 114's first process
+terminated with exit 143 during image preparation, before any recognition
+result; the cause remains unknown. Its partial files and terminal/liveness
+evidence are retained. One recovery using the unchanged map completed its three
+regions; no successful recognition was repeated. All fifty final mapped OCR
+tasks completed with no engine failures or empty drafts. The first full audit
+passed but carried a copied R28 checkpoint label; that result was preserved,
+the label corrected, and the second full audit passed as R29. Cleanup ran in
+preview mode only. The batch freezes 573 evidence files.
+
+November now has **sixteen complete article packages, no partial articles, six
+non-owning headings and eighteen identities awaiting disposition**. The full
+November objective remains active, including covers/source-image accounting and
+a checked whole-issue native export/rebuild.
+
+See the [R29 result](metadata/catalog/scan-restoration/1984-11-math-logic.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R30**, locate canonical 리스즈트, contents starting-page candidate 140;
+verify its actual source title, ownership, extent and structures before mapping
+a bounded batch. Retain the received title separately from any observed variant.

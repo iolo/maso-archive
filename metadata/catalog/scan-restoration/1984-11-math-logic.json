@@ -1,0 +1,1067 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R29",
+  "completedOn": "2026-11-15",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0013",
+  "title": "수학을 통한 논리학습",
+  "observed_title": "수학을 통한 논리학습",
+  "observed_installment": "연재 4회",
+  "observed_byline": "편집부",
+  "observed_platform": "MSX",
+  "outcome": "Complete reproducible presentation-independent 수학을 통한 논리학습 installment 4, actual 110-115. Native source structures retain explicit fractions/radicals/powers/subscripts and long division, seven exercise sets, worked derivations, two original partitioned-area diagrams, explanatory cells/captions and four independently identified source programs.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/math-logic-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/math-logic-r01/manifest.json",
+    "sha256": "aa50b762f1203cae213b5e063ae076ad4482b665caddfbac84a8125bb555f409",
+    "bytes": 35294
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-29/validation.json",
+    "sha256": "71ba55d8e98d679a2eaa4ee152c48bbb25bc73d1c622dcd92dc41e2dce73f711",
+    "bytes": 69921
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-29/evidence-manifest.json",
+    "sha256": "bb3b34df6215dc71f1842efbb6ad57dc251ace798c89a9de4b7ab72d8dbac173",
+    "bytes": 120733
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-110.jpg",
+      "sha256": "2eb95ace1e4456a29e81d99a5380acea02f21fbed9aad73909fa6ce4ea4d5637",
+      "bytes": 8211054
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-111.jpg",
+      "sha256": "6ba942227f7d76f6473b1cd0fefd69ea6572354db5ef3a44bd947f86a33450e8",
+      "bytes": 7029696
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-112.jpg",
+      "sha256": "18ed535b2b38d9bc0f7f7fcb0af70a981756b5de5ec51a4f16be0a4894035ab6",
+      "bytes": 7999402
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-113.jpg",
+      "sha256": "dcb1eb91b3ae8b7087a411acf5dfec4cb7a725a3a424d0065cbf71f1158676af",
+      "bytes": 8077601
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-114.jpg",
+      "sha256": "7dc1454a737d79d256ee8c1ab8ec5c53b34ca6b02e0591953c58fcbb2c05a071",
+      "bytes": 8313018
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-115.jpg",
+      "sha256": "eac500959b4ed8a3ba40dcec1f59740d522d962a1020258bf3bcb77fd6adbaea",
+      "bytes": 8440512
+    }
+  ],
+  "printed_folios": [
+    "110",
+    "111",
+    "112",
+    "113",
+    "114",
+    "115"
+  ],
+  "observed_whole_extent": [
+    110,
+    115
+  ],
+  "summary": {
+    "sourceImages": 6,
+    "regions": 52,
+    "blocks": 44,
+    "figures": 2,
+    "ocrTasks": 50,
+    "listingContexts": 4,
+    "logicalUnits": 240,
+    "physicalRows": 245,
+    "physicalWraps": 5,
+    "physicalFields": 485,
+    "basicPhysicalTokens": 2245,
+    "mathOccurrences": 76,
+    "exerciseSets": 7,
+    "exerciseItems": 40,
+    "workedDerivations": 4,
+    "explanationRows": 32,
+    "tableCells": 96,
+    "numericDataFields": 86,
+    "sourceFunctions": 13,
+    "controlTargets": 19,
+    "figureLabels": 15,
+    "listingCaptions": 4,
+    "diagramCaptions": 2,
+    "diagramCells": 6,
+    "localUncertainties": 45,
+    "nativeFiles": 211,
+    "negativeCases": 37,
+    "ocrSeconds": 23.193644804981886
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p110-installment",
+      "source_index": 113,
+      "pixel_bounds": [
+        1655,
+        857,
+        2427,
+        1092
+      ],
+      "scan": {
+        "path": "ocr-110/p110-installment.png",
+        "sha256": "6bbcc32fafb5a1f4c54c9e265dd598394a61e99df356a79307623afe4beefc1d",
+        "bytes": 262904
+      }
+    },
+    {
+      "region_id": "p110-title",
+      "source_index": 113,
+      "pixel_bounds": [
+        782,
+        1374,
+        3267,
+        1806
+      ],
+      "scan": {
+        "path": "ocr-110/p110-title.png",
+        "sha256": "66b91ffba74161db0e41d235dd3c488038d12c0c3b4d9a4981e50f6bdabfdf01",
+        "bytes": 1432683
+      }
+    },
+    {
+      "region_id": "p110-lead",
+      "source_index": 113,
+      "pixel_bounds": [
+        873,
+        2016,
+        3218,
+        2538
+      ],
+      "scan": {
+        "path": "ocr-110/p110-lead.png",
+        "sha256": "caa6164f3ba1672213603f6d06a6337f7c080b91623561028ef309be7ae6a588",
+        "bytes": 1768679
+      }
+    },
+    {
+      "region_id": "p110-platform",
+      "source_index": 113,
+      "pixel_bounds": [
+        3139,
+        2862,
+        3386,
+        2976
+      ],
+      "scan": {
+        "path": "ocr-110/p110-platform.png",
+        "sha256": "fef8651562ea7279e3bdbc5dd349bc491eadf10f08089bb83ba0c3099c8e6ea2",
+        "bytes": 38909
+      }
+    },
+    {
+      "region_id": "p110-byline",
+      "source_index": 113,
+      "pixel_bounds": [
+        3082,
+        3054,
+        3505,
+        3156
+      ],
+      "scan": {
+        "path": "ocr-110/p110-byline.png",
+        "sha256": "05efcf1defefae0ac3f4f214ed1c96d4a1db8bfad64cd9ca268742bb4285a301",
+        "bytes": 55980
+      }
+    },
+    {
+      "region_id": "p110-intro",
+      "source_index": 113,
+      "pixel_bounds": [
+        286,
+        3234,
+        1984,
+        3540
+      ],
+      "scan": {
+        "path": "ocr-110/p110-intro.png",
+        "sha256": "c6956df97e0608f2bca0ba9d2c13c62699ae1d54cb3610870520bca1550c3013",
+        "bytes": 696824
+      }
+    },
+    {
+      "region_id": "p110-heading1",
+      "source_index": 113,
+      "pixel_bounds": [
+        282,
+        3600,
+        1976,
+        3798
+      ],
+      "scan": {
+        "path": "ocr-110/p110-heading1.png",
+        "sha256": "4e9926c85a50625f5be71ef145486eea42ffae518bd861835e2b1ed814210e36",
+        "bytes": 494286
+      }
+    },
+    {
+      "region_id": "p110-body1-left",
+      "source_index": 113,
+      "pixel_bounds": [
+        282,
+        3852,
+        1984,
+        5562
+      ],
+      "scan": {
+        "path": "ocr-110/p110-body1-left.png",
+        "sha256": "9e6ca90b5bf5c4d5aba0fa963b586c2cb7844f2e53871bb12fd129a1f5f6902a",
+        "bytes": 3932594
+      }
+    },
+    {
+      "region_id": "p110-body1-right",
+      "source_index": 113,
+      "pixel_bounds": [
+        2123,
+        3240,
+        3821,
+        4680
+      ],
+      "scan": {
+        "path": "ocr-110/p110-body1-right.png",
+        "sha256": "0b63823f901a683bf952f06c559db6bb6c65635377186c05328a17f9d3737161",
+        "bytes": 3037230
+      }
+    },
+    {
+      "region_id": "p110-exercise1",
+      "source_index": 113,
+      "pixel_bounds": [
+        2131,
+        4794,
+        3821,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-110/p110-exercise1.png",
+        "sha256": "3bb355bc1f35ac5d7b669c84d10d67bf8c91101d28047e690cb3ff0da487cdf0",
+        "bytes": 1430597
+      }
+    },
+    {
+      "region_id": "p111-exercise2",
+      "source_index": 114,
+      "pixel_bounds": [
+        319,
+        714,
+        2000,
+        1422
+      ],
+      "scan": {
+        "path": "ocr-111/p111-exercise2.png",
+        "sha256": "58cdf979cbc7f0afba2db8731b0a314efa17358d456551d2b142ae1cb2e75c36",
+        "bytes": 1475955
+      }
+    },
+    {
+      "region_id": "p111-table1-heading",
+      "source_index": 114,
+      "pixel_bounds": [
+        409,
+        1530,
+        1107,
+        1639
+      ],
+      "scan": {
+        "path": "ocr-111/p111-table1-heading.png",
+        "sha256": "a713c6bcd5cb43abc480d8f54fc623e5659afb2aa3d8b24298a569a15ef215a8",
+        "bytes": 110174
+      }
+    },
+    {
+      "region_id": "p111-table1-left",
+      "source_index": 114,
+      "pixel_bounds": [
+        323,
+        1752,
+        1976,
+        1956
+      ],
+      "scan": {
+        "path": "ocr-111/p111-table1-left.png",
+        "sha256": "939e0d8f3ff730e26bde4a258bbda50fb1d592e263a4f3bdb11ea5e6e682f581",
+        "bytes": 453709
+      }
+    },
+    {
+      "region_id": "p111-table1-right",
+      "source_index": 114,
+      "pixel_bounds": [
+        2155,
+        696,
+        3861,
+        1932
+      ],
+      "scan": {
+        "path": "ocr-111/p111-table1-right.png",
+        "sha256": "f8f509ad3961c481f14b7a5cf9a1cff1bf318c211c92dc3b9dfa72d18913599c",
+        "bytes": 2789246
+      }
+    },
+    {
+      "region_id": "p111-caption1",
+      "source_index": 114,
+      "pixel_bounds": [
+        577,
+        2214,
+        845,
+        2292
+      ],
+      "scan": {
+        "path": "ocr-111/p111-caption1.png",
+        "sha256": "ff4f50b3315ff9b96a5d8b46f44e157969a9b2a5699c13e5a830fceba7d34a21",
+        "bytes": 44703
+      }
+    },
+    {
+      "region_id": "p111-listing1-left",
+      "source_index": 114,
+      "pixel_bounds": [
+        557,
+        2400,
+        2009,
+        5472
+      ],
+      "scan": {
+        "path": "ocr-111/p111-listing1-left.png",
+        "sha256": "e99e7f36e6ab32312a1dfadf5e5ccd465ecac534565691f51e491d028027b9af",
+        "bytes": 5796800
+      }
+    },
+    {
+      "region_id": "p111-listing1-right",
+      "source_index": 114,
+      "pixel_bounds": [
+        2327,
+        2400,
+        3607,
+        5478
+      ],
+      "scan": {
+        "path": "ocr-111/p111-listing1-right.png",
+        "sha256": "dbc60f1fc012ebeee4bfc78389f20fe9a88e88f21ff290bd19dcec82573f8bf8",
+        "bytes": 5035683
+      }
+    },
+    {
+      "region_id": "p112-heading2",
+      "source_index": 115,
+      "pixel_bounds": [
+        372,
+        720,
+        933,
+        858
+      ],
+      "scan": {
+        "path": "ocr-112/p112-heading2.png",
+        "sha256": "d27a8914958581ae3dce9248a931cefd130ddc3d6d915b0cc383b5962c8a3098",
+        "bytes": 113937
+      }
+    },
+    {
+      "region_id": "p112-body2",
+      "source_index": 115,
+      "pixel_bounds": [
+        282,
+        948,
+        1980,
+        2592
+      ],
+      "scan": {
+        "path": "ocr-112/p112-body2.png",
+        "sha256": "a01c6b34ec078961cc627df9e794c789615e77a7358260dfb6e7637f15e85014",
+        "bytes": 3767297
+      }
+    },
+    {
+      "region_id": "p112-worked20",
+      "source_index": 115,
+      "pixel_bounds": [
+        376,
+        2586,
+        1322,
+        3210
+      ],
+      "scan": {
+        "path": "ocr-112/p112-worked20.png",
+        "sha256": "85fc40c0f76c0b468eff588c373b4e56b5d7561af7acf7b286c18af6874932f2",
+        "bytes": 716260
+      }
+    },
+    {
+      "region_id": "p112-exercise3",
+      "source_index": 115,
+      "pixel_bounds": [
+        319,
+        3210,
+        1988,
+        4057
+      ],
+      "scan": {
+        "path": "ocr-112/p112-exercise3.png",
+        "sha256": "9f3beb445122cdac023e324bdc3071b4295a96a715c774e5bf67c54e1a0958d2",
+        "bytes": 1671401
+      }
+    },
+    {
+      "region_id": "p112-worked252",
+      "source_index": 115,
+      "pixel_bounds": [
+        265,
+        4098,
+        2005,
+        5208
+      ],
+      "scan": {
+        "path": "ocr-112/p112-worked252.png",
+        "sha256": "aae09d8a69d22d0d31a21f1b00cc5c614cb8e782b51b34b1b59e0f91bb59029a",
+        "bytes": 2265201
+      }
+    },
+    {
+      "region_id": "p112-table2-heading",
+      "source_index": 115,
+      "pixel_bounds": [
+        339,
+        5244,
+        1101,
+        5346
+      ],
+      "scan": {
+        "path": "ocr-112/p112-table2-heading.png",
+        "sha256": "3d0636b70e95a4e886c3e87717132dabd83fc51e23b0b50d2068d27f5d2fc696",
+        "bytes": 108465
+      }
+    },
+    {
+      "region_id": "p112-table2-left",
+      "source_index": 115,
+      "pixel_bounds": [
+        282,
+        5358,
+        1972,
+        5586
+      ],
+      "scan": {
+        "path": "ocr-112/p112-table2-left.png",
+        "sha256": "34635f89d71e7dc94bda998283a35c2da3f5ccb326dd0463f76a062d1d87a7d9",
+        "bytes": 485795
+      }
+    },
+    {
+      "region_id": "p112-table2-right",
+      "source_index": 115,
+      "pixel_bounds": [
+        2114,
+        738,
+        3837,
+        1657
+      ],
+      "scan": {
+        "path": "ocr-112/p112-table2-right.png",
+        "sha256": "4d762000484930a141149e11877a39c1f589d63cf40f0462c28a3daa39b4bfe4",
+        "bytes": 1921657
+      }
+    },
+    {
+      "region_id": "p112-caption2",
+      "source_index": 115,
+      "pixel_bounds": [
+        2343,
+        1776,
+        2610,
+        1860
+      ],
+      "scan": {
+        "path": "ocr-112/p112-caption2.png",
+        "sha256": "a4844a937ba8fc4cf5c22ee5e6d815fd311eefc6145e174697e940389a43e41c",
+        "bytes": 45006
+      }
+    },
+    {
+      "region_id": "p112-listing2",
+      "source_index": 115,
+      "pixel_bounds": [
+        2368,
+        1944,
+        3587,
+        5496
+      ],
+      "scan": {
+        "path": "ocr-112/p112-listing2.png",
+        "sha256": "9316c8906e412e069f050b3f7579d1662b30f3d705d127cf96d62cf688f68bb1",
+        "bytes": 5267268
+      }
+    },
+    {
+      "region_id": "p113-heading3",
+      "source_index": 116,
+      "pixel_bounds": [
+        356,
+        696,
+        1294,
+        876
+      ],
+      "scan": {
+        "path": "ocr-113/p113-heading3.png",
+        "sha256": "4070fef194f90341afba7aa74a17a86961ed0f5e54916f0fb84619d5ddc9e3c4",
+        "bytes": 246450
+      }
+    },
+    {
+      "region_id": "p113-body3",
+      "source_index": 116,
+      "pixel_bounds": [
+        257,
+        918,
+        2007,
+        3198
+      ],
+      "scan": {
+        "path": "ocr-113/p113-body3.png",
+        "sha256": "5eaefbc284fb188d4111ea2eb504a9a4948d8210c5278b7c0ef14573ef649988",
+        "bytes": 4947085
+      }
+    },
+    {
+      "region_id": "p113-exercise4",
+      "source_index": 116,
+      "pixel_bounds": [
+        319,
+        3270,
+        1949,
+        4686
+      ],
+      "scan": {
+        "path": "ocr-113/p113-exercise4.png",
+        "sha256": "40903a67a4486ed7fecae31a779248ee33b6928b0a49560e7cbcdcee7681ef5f",
+        "bytes": 2590969
+      }
+    },
+    {
+      "region_id": "p113-exercise5-left",
+      "source_index": 116,
+      "pixel_bounds": [
+        323,
+        4812,
+        1974,
+        5550
+      ],
+      "scan": {
+        "path": "ocr-113/p113-exercise5-left.png",
+        "sha256": "27b6f2096a5104819aeb0d140f06845f3eab96fefd329bab1f5dae3cb9eb0b39",
+        "bytes": 1428237
+      }
+    },
+    {
+      "region_id": "p113-exercise5-right",
+      "source_index": 116,
+      "pixel_bounds": [
+        2161,
+        690,
+        2805,
+        930
+      ],
+      "scan": {
+        "path": "ocr-113/p113-exercise5-right.png",
+        "sha256": "847cdcc55403c2cb8c0341417925515c74a04c2d4b62bd6c63a8a9d69c528f69",
+        "bytes": 197527
+      }
+    },
+    {
+      "region_id": "p113-worked4",
+      "source_index": 116,
+      "pixel_bounds": [
+        2137,
+        1020,
+        3837,
+        2041
+      ],
+      "scan": {
+        "path": "ocr-113/p113-worked4.png",
+        "sha256": "c2a9c59c0450fc9e9f5d5934b48d174f17c335858d7d2cda513fae8b7846865d",
+        "bytes": 2168805
+      }
+    },
+    {
+      "region_id": "p113-exercise6",
+      "source_index": 116,
+      "pixel_bounds": [
+        2169,
+        2112,
+        3837,
+        3900
+      ],
+      "scan": {
+        "path": "ocr-113/p113-exercise6.png",
+        "sha256": "c90d35e408dec2c61c5d5ec5a98a85f3c4bb4cc51780c35219e4fb8f469a9eb9",
+        "bytes": 3451190
+      }
+    },
+    {
+      "region_id": "p113-table3-heading",
+      "source_index": 116,
+      "pixel_bounds": [
+        2165,
+        4002,
+        2920,
+        4128
+      ],
+      "scan": {
+        "path": "ocr-113/p113-table3-heading.png",
+        "sha256": "83166c901660ed9898a2a3ba839fc7a7307e225eb5e44d428a4291cd1de1384b",
+        "bytes": 134260
+      }
+    },
+    {
+      "region_id": "p113-table3",
+      "source_index": 116,
+      "pixel_bounds": [
+        2128,
+        4104,
+        3869,
+        5580
+      ],
+      "scan": {
+        "path": "ocr-113/p113-table3.png",
+        "sha256": "63de47000bb468162c99b7228b51d0497bb74ae848ee1f0eb9d3331a578b7923",
+        "bytes": 3352785
+      }
+    },
+    {
+      "region_id": "p114-caption3",
+      "source_index": 117,
+      "pixel_bounds": [
+        540,
+        756,
+        803,
+        846
+      ],
+      "scan": {
+        "path": "ocr-114/p114-caption3.png",
+        "sha256": "38562407da3b1b0b49a17ad50fd6e8af8bf6cdb3bfc162704331958d4f0f7bf2",
+        "bytes": 50066
+      }
+    },
+    {
+      "region_id": "p114-listing3-left",
+      "source_index": 117,
+      "pixel_bounds": [
+        561,
+        966,
+        1901,
+        5400
+      ],
+      "scan": {
+        "path": "ocr-114/p114-listing3-left.png",
+        "sha256": "2425559479d25f0aa0d6e8cb4b1ab0b0b6b0f52c78498a2c48511b65153d2ed3",
+        "bytes": 7881090
+      }
+    },
+    {
+      "region_id": "p114-listing3-right",
+      "source_index": 117,
+      "pixel_bounds": [
+        2252,
+        966,
+        3551,
+        5340
+      ],
+      "scan": {
+        "path": "ocr-114/p114-listing3-right.png",
+        "sha256": "67e34e1f590c9fc811f8ffe58255499e8238a850542e67b0729a9f3b01ed66ef",
+        "bytes": 6990489
+      }
+    },
+    {
+      "region_id": "p115-heading4",
+      "source_index": 118,
+      "pixel_bounds": [
+        389,
+        732,
+        1037,
+        870
+      ],
+      "scan": {
+        "path": "ocr-115/p115-heading4.png",
+        "sha256": "41e5d6171b068432fd64689b7c45ac0f3e5c77ce61c0df8a5dfe6e56366ac048",
+        "bytes": 138592
+      }
+    },
+    {
+      "region_id": "p115-body4",
+      "source_index": 118,
+      "pixel_bounds": [
+        290,
+        984,
+        1958,
+        1602
+      ],
+      "scan": {
+        "path": "ocr-115/p115-body4.png",
+        "sha256": "7186dde355759a17d6fd5d9a7232f7c2801e5cd70e4558a91330fed80df154be",
+        "bytes": 1350534
+      }
+    },
+    {
+      "region_id": "p115-diagram1",
+      "source_index": 118,
+      "pixel_bounds": [
+        323,
+        1733,
+        926,
+        2838
+      ],
+      "scan": {
+        "path": "ocr-115/p115-diagram1.png",
+        "sha256": "f9febc32e4f1353a0263e91e8d686774fef8668b8763b424e575170174234206",
+        "bytes": 780380
+      }
+    },
+    {
+      "region_id": "p115-diagram2",
+      "source_index": 118,
+      "pixel_bounds": [
+        1158,
+        1733,
+        1917,
+        2838
+      ],
+      "scan": {
+        "path": "ocr-115/p115-diagram2.png",
+        "sha256": "f8430d51c53c2180c67defe46624a48c56791b20cf894b761084ff64649391ef",
+        "bytes": 1022307
+      }
+    },
+    {
+      "region_id": "p115-diagram-caption1",
+      "source_index": 118,
+      "pixel_bounds": [
+        487,
+        2910,
+        791,
+        3012
+      ],
+      "scan": {
+        "path": "ocr-115/p115-diagram-caption1.png",
+        "sha256": "2c6106f1c9f7a00099190826d2e5fa4f209a64f6bb7bebe69e3dd0b4403a0fa4",
+        "bytes": 39793
+      }
+    },
+    {
+      "region_id": "p115-diagram-caption2",
+      "source_index": 118,
+      "pixel_bounds": [
+        1412,
+        2910,
+        1720,
+        3012
+      ],
+      "scan": {
+        "path": "ocr-115/p115-diagram-caption2.png",
+        "sha256": "8ab2a96251f541f5220e14f92a98f048a92f7231e3792c4c5b3e0ec13c41e414",
+        "bytes": 42495
+      }
+    },
+    {
+      "region_id": "p115-exercise7",
+      "source_index": 118,
+      "pixel_bounds": [
+        327,
+        3222,
+        1954,
+        4039
+      ],
+      "scan": {
+        "path": "ocr-115/p115-exercise7.png",
+        "sha256": "15d842a13246bf566facca1139afe3c95dd163965111ea76fb10ff8548971442",
+        "bytes": 1634866
+      }
+    },
+    {
+      "region_id": "p115-power-note",
+      "source_index": 118,
+      "pixel_bounds": [
+        274,
+        4086,
+        1962,
+        4368
+      ],
+      "scan": {
+        "path": "ocr-115/p115-power-note.png",
+        "sha256": "1d07ec08aaa0dba79d025f14bd26438d29ec072a59887ffbe0ea3214768f4993",
+        "bytes": 641579
+      }
+    },
+    {
+      "region_id": "p115-table4-heading",
+      "source_index": 118,
+      "pixel_bounds": [
+        335,
+        4500,
+        1090,
+        4626
+      ],
+      "scan": {
+        "path": "ocr-115/p115-table4-heading.png",
+        "sha256": "bae69e7d07a92109c74952d34139cfd9bb022a1c979b78562c69f11fc53da356",
+        "bytes": 131744
+      }
+    },
+    {
+      "region_id": "p115-table4",
+      "source_index": 118,
+      "pixel_bounds": [
+        274,
+        4716,
+        1954,
+        5352
+      ],
+      "scan": {
+        "path": "ocr-115/p115-table4.png",
+        "sha256": "07507a3819c8ee646b4a1156f7347a0b00bd84ce1c1279de4fc2ced3669db969",
+        "bytes": 1393432
+      }
+    },
+    {
+      "region_id": "p115-caption4",
+      "source_index": 118,
+      "pixel_bounds": [
+        2358,
+        756,
+        2621,
+        846
+      ],
+      "scan": {
+        "path": "ocr-115/p115-caption4.png",
+        "sha256": "36ed5cd8bfb00a5953d8c258b80e7e62ad56f14ed99337233c33c5567b1f1e22",
+        "bytes": 54416
+      }
+    },
+    {
+      "region_id": "p115-listing4",
+      "source_index": 118,
+      "pixel_bounds": [
+        2313,
+        1020,
+        3584,
+        3894
+      ],
+      "scan": {
+        "path": "ocr-115/p115-listing4.png",
+        "sha256": "df0acea89978cd52d9ef1989938bc5f75d2df2731f896e023a811dc4a14911b3",
+        "bytes": 4782435
+      }
+    },
+    {
+      "region_id": "p115-closing",
+      "source_index": 118,
+      "pixel_bounds": [
+        2117,
+        4092,
+        3842,
+        4890
+      ],
+      "scan": {
+        "path": "ocr-115/p115-closing.png",
+        "sha256": "d3edcd7d2a7538463f3d0c043ff98d4ff31106e43acd8d0137db127701229742",
+        "bytes": 1895188
+      }
+    }
+  ],
+  "previousCheckpointCommit": "3c13bc7a4ded9132fd967625886493324d33f847",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "0ab58e312ea3ddc012c8ccd756323621b4952761f6cde4002dd634e116f3e10a",
+      "bytes": 213135
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "13f6820a2cbb14c78966283e44ccd4a8974aab94eaa4f25a34f39dd7742113ef",
+      "bytes": 14652
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "e0027c63722c57c20c5f349863a0acff817503742f06a55f6bd5bbd773691a04",
+      "bytes": 27913
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "4879f926b7c30e67066809d0bf042f324374c8e1c1e8c5280139ce864671b7ed",
+      "bytes": 19774
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "ebbe91142e36073a0210e6987a17de537c8dfa82660dea5e915c7bdfc91e9ed5",
+      "bytes": 23259
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "7366545d7eb3eb7e9774185702a94ec2e1aa2ca9c55fff3937ca8aeff57c2b16",
+      "bytes": 37022
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "a53c2f6de97b354d03d683a86ce9b485dfb6c67e0786407f5217ddbf98596df6",
+      "bytes": 19919
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionBaseline": {
+    "checkpoint": "R27",
+    "regressionTests": {
+      "pdf": 214,
+      "jpegRecognitionAndAssembly": 28,
+      "total": 242
+    },
+    "logs": [
+      {
+        "path": "archive/scans/1984-11/restoration/batch-27/pdf-final-regressions-05.log",
+        "sha256": "a5a9d670e480f990a9cb3ec3b82b3e6669b34111cd766d2ac3a44e6a50db3e0d",
+        "bytes": 36395
+      },
+      {
+        "path": "archive/scans/1984-11/restoration/batch-27/jpeg-final-regressions-04.log",
+        "sha256": "b0920747fe1af82a370f9233396464366f9162eb050c3dd70861ef3c103d62ea",
+        "bytes": 5426
+      }
+    ],
+    "reused": true,
+    "reason": "Data-only article restoration; every shared implementation/test/schema pin and frozen passing test log rehashed unchanged. No regression rerun claimed."
+  },
+  "attempts": {
+    "successfulOcrTasks": 50,
+    "ocrEngineFailures": 0,
+    "interruptedImagePreparationPages": [
+      114
+    ],
+    "interruptedProcessExitCode": 143,
+    "successfulRecognitionTasksInInterruptedAttempt": 0,
+    "recoveryRuns": 1,
+    "successfulRecognitionRepeated": 0,
+    "emptyDraftRegions": [],
+    "preOcrMapRefinements": 1,
+    "postOcrMapChanges": 0,
+    "mathReadingVersions": 2,
+    "codeReadingVersions": 2,
+    "commentComponentProbes": 2,
+    "nativePreparationRuns": 2,
+    "nativeExportRuns": 1,
+    "independentRebuildRuns": 1,
+    "structurePreflightFailures": 0,
+    "fullSourceAuditFailures": 0,
+    "auditMetadataRepairs": 1,
+    "note": "One pre-OCR crop refinement widened tight listing/function and text edges. The original 114 process terminated with exit 143 during image/crop writing, before any recognition result; liveness was checked and all partial files retained. One unchanged-input recovery completed its three regions without repeating successful OCR. Source comparison corrected the selected FNPA operator before the native export. Exercise-5 continuation serialization and inline equality indexes were refined before export. Two image-component probes could not establish all decorative-rule counts; those counts remain source-linked uncertainties. The first passing audit result had a copied R28 checkpoint label; it was preserved and corrected to R29 before a second passing full audit."
+  },
+  "limitations": [
+    "Complete observed six-page installment 110-115 restored with explicit mathematical grouping, source exercises, diagrams, captions, explanatory cells and four independent code contexts.",
+    "Fraction/root grouping parentheses in article.txt are declared serialization aids. Original bars, brackets, powers, subscripts and source grouping live in mathematical trees and retained scans.",
+    "Quoted spacing, comment-rule counts, word/identifier/operator alternatives remain explicit. Original encoded bytes/typesetting, mathematical and program correctness, execution, historical claims and human acceptance remain unverified."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-29/recipe.json --output archive/scans/1984-11/packages/math-logic-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-29/recipe.json --output work/validation/scans-1984-11-math-logic-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-29/verify-review.py"
+  ],
+  "next": "R30: locate the article for canonical 리스즈트 (maso-1984-11-toc-0018, contents starting-page candidate 140). Verify actual source title, ownership, start/end and observed structures before mapping a bounded batch of at most six source views. Retain the canonical received title separately from any observed source-title difference. Preserve all completed packages and immutable segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild."
+}

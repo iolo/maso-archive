@@ -5,9 +5,9 @@
   "updated": "2026-11-15",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 15,
+  "readable_articles": 16,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 19,
+  "identitiesAwaitingDisposition": 18,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -4918,10 +4918,177 @@
       "page_candidates": [
         110
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "수학을 통한 논리학습",
+      "observed_installment": "연재 4회",
+      "observed_byline": "편집부",
+      "observed_platform": "MSX",
+      "observed_whole_extent": [
+        110,
+        115
+      ],
+      "source_views": [
+        {
+          "source_index": 113,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-110.jpg",
+            "sha256": "2eb95ace1e4456a29e81d99a5380acea02f21fbed9aad73909fa6ce4ea4d5637",
+            "bytes": 8211054
+          },
+          "width_px": 4732,
+          "height_px": 6927,
+          "reading_order": 112,
+          "source_filename_number": 110,
+          "printed_page": "110",
+          "image_to_upright_normalized": [
+            0.00021132713440405747,
+            0,
+            0,
+            0.00014436263894903998,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 114,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-111.jpg",
+            "sha256": "6ba942227f7d76f6473b1cd0fefd69ea6572354db5ef3a44bd947f86a33450e8",
+            "bytes": 7029696
+          },
+          "width_px": 4720,
+          "height_px": 6910,
+          "reading_order": 113,
+          "source_filename_number": 111,
+          "printed_page": "111",
+          "image_to_upright_normalized": [
+            0.000211864406779661,
+            0,
+            0,
+            0.0001447178002894356,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 115,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-112.jpg",
+            "sha256": "18ed535b2b38d9bc0f7f7fcb0af70a981756b5de5ec51a4f16be0a4894035ab6",
+            "bytes": 7999402
+          },
+          "width_px": 4724,
+          "height_px": 6930,
+          "reading_order": 114,
+          "source_filename_number": 112,
+          "printed_page": "112",
+          "image_to_upright_normalized": [
+            0.00021168501270110075,
+            0,
+            0,
+            0.0001443001443001443,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 116,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-113.jpg",
+            "sha256": "dcb1eb91b3ae8b7087a411acf5dfec4cb7a725a3a424d0065cbf71f1158676af",
+            "bytes": 8077601
+          },
+          "width_px": 4720,
+          "height_px": 6917,
+          "reading_order": 115,
+          "source_filename_number": 113,
+          "printed_page": "113",
+          "image_to_upright_normalized": [
+            0.000211864406779661,
+            0,
+            0,
+            0.00014457134595923088,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 117,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-114.jpg",
+            "sha256": "7dc1454a737d79d256ee8c1ab8ec5c53b34ca6b02e0591953c58fcbb2c05a071",
+            "bytes": 8313018
+          },
+          "width_px": 4726,
+          "height_px": 6924,
+          "reading_order": 116,
+          "source_filename_number": 114,
+          "printed_page": "114",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 118,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-115.jpg",
+            "sha256": "eac500959b4ed8a3ba40dcec1f59740d522d962a1020258bf3bcb77fd6adbaea",
+            "bytes": 8440512
+          },
+          "width_px": 4721,
+          "height_px": 6917,
+          "reading_order": 117,
+          "source_filename_number": 115,
+          "printed_page": "115",
+          "image_to_upright_normalized": [
+            0.00021181952976064393,
+            0,
+            0,
+            0.00014457134595923088,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/math-logic-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/math-logic-r01/manifest.json",
+          "sha256": "aa50b762f1203cae213b5e063ae076ad4482b665caddfbac84a8125bb555f409",
+          "bytes": 35294
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-29/validation.json",
+          "sha256": "71ba55d8e98d679a2eaa4ee152c48bbb25bc73d1c622dcd92dc41e2dce73f711",
+          "bytes": 69921
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-29/validation.json",
+          "sha256": "71ba55d8e98d679a2eaa4ee152c48bbb25bc73d1c622dcd92dc41e2dce73f711",
+          "bytes": 69921
+        },
+        "finding_key": "summary",
+        "status": "Complete observed 110-115 installment: original title/opening and next-installment ending verified against adjacent independent source bodies; every native file independently reproduced."
+      },
+      "assembly_pending": false,
+      "continuation_pending": [],
+      "limitations": [
+        "Complete observed six-page installment 110-115 restored with explicit mathematical grouping, source exercises, diagrams, captions, explanatory cells and four independent code contexts.",
+        "Fraction/root grouping parentheses in article.txt are declared serialization aids. Original bars, brackets, powers, subscripts and source grouping live in mathematical trees and retained scans.",
+        "Quoted spacing, comment-rule counts, word/identifier/operator alternatives remain explicit. Original encoded bytes/typesetting, mathematical and program correctness, execution, historical claims and human acceptance remain unverified."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0014",
@@ -5710,6 +5877,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R29: locate and restore 수학을 통한 논리학습 (maso-1984-11-toc-0013, contents starting-page candidate 110). Verify actual title, installment, extent, ownership, equations, diagrams/tables and original listings before mapping a bounded batch of at most six source views. Preserve every completed package and immutable segment. Continue all remaining November identities, covers/source-image accounting and checked whole-issue native export/rebuild.",
+  "next": "R30: locate the article for canonical 리스즈트 (maso-1984-11-toc-0018, contents starting-page candidate 140). Verify actual source title, ownership, start/end and observed structures before mapping a bounded batch of at most six source views. Retain the canonical received title separately from any observed source-title difference. Preserve all completed packages and immutable segments. Continue every remaining November identity, covers/source-image accounting and checked whole-issue native export/rebuild.",
   "group_headings": 6
 }

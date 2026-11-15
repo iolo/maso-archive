@@ -1,7 +1,7 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R28 are complete; the active goal is to restore all November 1984 articles.
+R00–R29 are complete; the active goal is to restore all November 1984 articles.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -277,11 +277,15 @@ restored JSON/assets and faithful source evidence first.
 | R26 — 로즈런너 continuation segment b | Actual 99–101; all source pages restored, assembly pending | 33 identical native files; 324 monitor rows, 721 byte fields, 95 blank operands, fourteen repeated BRK/??? runs, original INA/E8 and final 0F33 FF ??? retained; four local glyph alternatives |
 | R27 — complete 로즈런너 assembly | Actual 93–101; complete native article package | 143 identical native files; three contexts, 831 physical rows / 810 logical units, 820 monitor byte fields, source alternatives and prior-address relationship; 242 shared regressions pass |
 | R28 — 깡통이 통-통-통 | Actual 102–104; complete native article package | 72 identical native files; 119 BASIC rows, 75 table cells including a continued definition, eight paired grids / 1,536 observed cells, sixteen DATA groups / 192 fields, original illustration/screen/emblem and explicit prose/listing mismatch; four local uncertainties |
+| R29 — 수학을 통한 논리학습 | Actual 110–115; complete native article package | 211 identical native files; 76 mathematical trees, forty exercise items, four independent listings / 240 logical units / 245 physical rows, 96 explanation cells and two original area diagrams; 37 invalid structural cases rejected |
 
-Immediate next action: **R29**, locate and restore 수학을 통한 논리학습,
-`maso-1984-11-toc-0013`, contents starting-page candidate 110. Verify the actual
-title, installment, extent, ownership and all observed equations, figures/tables
-and listings before mapping at most six source views. Preserve complete
+Immediate next action: **R30**, locate the article for canonical 리스즈트,
+`maso-1984-11-toc-0018`, contents starting-page candidate 140. Verify its actual
+source title, ownership, extent and observed structures before mapping at most
+six source views. Retain the received canonical title separately from any observed
+title difference. Preserve complete 수학을 통한 논리학습 on actual 110–115,
+including fraction/root grouping, long-division notation, repeated exercise terms,
+four independent source programs and local uncertainty. Preserve complete
 깡통이 통-통-통 on actual 102–104, including the cross-column explanation cell,
 independent paired-grid observations, all DATA occurrences and original prose/
 listing mismatch. Preserve complete 로즈런너 on actual 93–101, its three source
@@ -294,8 +298,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has fifteen complete article packages, no partial articles, six non-owning
-headings and 19 unclassified entries. Complete Feature II on 40–58 retains three
+November now has sixteen complete article packages, no partial articles, six non-owning
+headings and 18 unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
