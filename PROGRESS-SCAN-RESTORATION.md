@@ -5165,21 +5165,42 @@ The outgoing **105/106 소스(so-/urce)** word boundary remains explicit; the
 selected reflow omits the discretionary hyphen. The source editorial note
 about deferred micro-assembler coverage remains independent prose.
 
-The first **two technical figures** have source-compared literal readings:
-the 8-bit load, 16-bit load and arithmetic tables retain **133 physical cells**
-with source row/column spans, plus the original low/high memory layout. A targeted
+The first **two technical figures** initially recorded 133 cell observations
+for the 8-bit load, 16-bit load and arithmetic tables, plus the original low/high
+memory layout. The subsequent full figure review corrects the arithmetic
+operation column to four physical merged cells containing sixteen unchanged
+operation lines. Those three tables now retain **121 physical cells**. A targeted
 header view confirms that the arithmetic table prints **메모리** and **상수**
 inside the same ruled header cell and leaves the next header cell blank. Keep
 that physical placement. Small raised circular marks beside A remain qualified
-Unicode approximations. These readings do not establish native geometry or a
-selected article package.
+Unicode approximations. Both literal-reading attempts remain preserved.
 
-**M30 remains in progress.** Thirteen figure regions still require enlarged
-field comparison; all fifteen require native geometry/encoding and package
-validation. The next pass must retain table spans, blank/dash cells, labels,
-bit/nibble positions, carry and rotation paths, source code/prose relationships
-and literal printed errors. No native opening export has been selected.
-Cleanup was previewed without deletion and all launched jobs are terminal.
+All **fifteen original figure regions** now have enlarged source comparison
+and checked contextual native geometry: **thirteen tables/302 physical cells,
+371 fields, 103 labels, 285 source paths, 107 row contexts and 32 bit positions**.
+The original three photographic/artwork groups remain intact. Seven blank
+bit-setting slots remain empty; only bit 6 contains a printed 1. The source
+BCD errors, printed RD mnemonic, merged command cells, mixed OUT/OT spellings,
+six language-processing arrows and blank machine-language processor area remain
+literal observations. No instruction or arithmetic was evaluated.
+
+All eleven table overlays were source-compared. Eight drawing-bearing contexts
+were compared separately, with the unlabelled original illustration retained
+intact. The first drawing attempt exposed a clipped nn+1 label context, an
+invented bottom closure on the open memory drawing and six omitted short nibble
+bracket returns. The refined contexts preserve all printed values and retain
+the RRCA/RRC carry-adjacent segment's two visible arrowheads without semantic
+repair. The original attempt and all refined details remain preserved.
+
+The separate geometry audit checks all source pins, literal cells, physical
+partitions, references and bounds. Six damaged-data cases reject. All **32 frozen
+M29 evidence files** and **51 shared implementation pins** remain exact, so its
+fresh **291-test** baseline remains reusable. No shared code changed.
+
+**M30 remains in progress.** Native prose, instruction and caption relationships,
+two opening exports and package acceptance remain required. No native opening
+export has been selected. Cleanup was previewed without deletion and all
+launched jobs are terminal.
 Whole March remains active at **sixteen complete articles, no partial native
 articles, 22 pending article candidates and 173 pending full-page dispositions**.
 See [the saved work state](metadata/catalog/scan-restoration/1984-03-systems-opening-work.json).

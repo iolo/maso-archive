@@ -115,10 +115,13 @@ images still awaiting full-page disposition. Continue with M30, the bounded
 opening 100–105 of 마이크로 컴퓨터 시스템 입문; verify its complete candidate
 extent 100–108 and following article on 109 before continuing the whole issue.
 M30 source work now confirms that extent, completes all 44 initial mapped OCR
-tasks and compares all opening prose against enlarged JPEG contexts. The first
-two technical figures retain three source tables/133 cells in comparison
-evidence; remaining figure structures, native geometry, export and acceptance
-are pending. This work does not advance article-completion counts. See
+tasks and compares all opening prose and all fifteen original figure regions
+against enlarged JPEG contexts. The selected figure geometry retains thirteen
+tables/302 physical cells, 371 fields, 103 labels, 285 paths and 32 bit positions.
+Source comparison corrects the first draft's arithmetic operation-cell spans
+without changing its printed operation lines. Native prose relationships,
+export and article acceptance are pending. This work does not advance
+article-completion counts. See
 [the working checkpoint](metadata/catalog/scan-restoration/1984-03-systems-opening-work.json).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

@@ -3,7 +3,7 @@
   "checkpoint": "M30-in-progress",
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0018",
-  "status": "source-compared-prose-and-first-figure-readings;native-opening-not-yet-selected",
+  "status": "all-prose-and-figure-source-comparison-and-geometry-complete;native-opening-not-yet-selected",
   "canonical_received_title": "마이크로 컴퓨터 시스템 입문",
   "observed_source_title": "마이크로컴퓨터 시스템 입문",
   "source_extent_verified": true,
@@ -33,11 +33,11 @@
   "recognition_retries": 0,
   "source_compared_text_regions": 44,
   "historical_draft_text_changes": 0,
-  "source_compared_technical_figures": 2,
+  "source_compared_technical_figures": 12,
   "source_compared_first_tables": 3,
-  "source_compared_first_cells": 133,
-  "remaining_figure_regions": 13,
-  "native_geometry_pending": true,
+  "source_compared_first_cells": 121,
+  "remaining_figure_regions": 0,
+  "native_geometry_pending": false,
   "native_package_selected": false,
   "complete_whole_scan_articles": 16,
   "partial_whole_scan_articles": 0,
@@ -47,8 +47,8 @@
   "whole_issue_complete": false,
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-26/resume.json",
-    "sha256": "99dd7de3d65b69fa4f57104797642a90c03cc71b1924eb727ffd4bb40accb349",
-    "bytes": 3781
+    "sha256": "4381d94f776012b20373fa07cc96df2e219cce55f68c5ab0bbc08171026787ff",
+    "bytes": 5478
   },
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/map.json",
@@ -80,5 +80,29 @@
     "sha256": "6ac0d3bf23a3388b93f86513b1e3f297c8c71cd4b9938c6c8a0859a10e21d327",
     "bytes": 1738
   },
-  "next": "Continue enlarged source comparison of remaining13figure regions,then encode all source table spans,physical cells,drawing labels,bit/nibble positions,rules/arrows and exact prose relationships. First2technical figures contain3tables/133physical cells and source low/high layout;their geometry remains pending. Export bounded100–105native opening twice,audit/accept M30. Final106–108andwhole-article assembly remain required."
+  "next": "Encode the39source reading blocks,five local prose joins,44regional ranges,all15original figures and nine caption associations. Bind all physical table cells,diagram fields/labels/paths/bits,source instruction examples and prose claims to the native opening with exact source/range relationships. The commonFigure6caption owns transfer/search/IOcomponents across103–104. Retain explicit outgoing105/106 so-/urce continuation. Export selected100–105opening twice to fresh directories,then independently audit and acceptM30. Final106–108andwhole-article assembly remain required. Never rerun or modify frozen earlier evidence/helpers.",
+  "source_compared_figure_regions": 15,
+  "initial_first_figure_cell_observations": 133,
+  "source_compared_tables": 13,
+  "source_compared_physical_cells": 302,
+  "native_geometry_source_compared": true,
+  "native_figure_fields": 371,
+  "native_figure_labels": 103,
+  "native_figure_paths": 285,
+  "native_bit_positions": 32,
+  "all_figure_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/review/source-compared-physical-figure-readings.json",
+    "sha256": "7bd40585ff0f2a7c6cf7794d2cc56fce1e3f3572c3cb40345e509a70bc69e5b0",
+    "bytes": 110138
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/review/native-figure-geometry.json",
+    "sha256": "bdb1985c59b4edc8b64da2d2d2bcbb7e1d43cac956b4119ea525b3694343e0aa",
+    "bytes": 777209
+  },
+  "native_geometry_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/review/native-geometry-final-review.json",
+    "sha256": "3a0860fb986df5d51a2eb5476def01104f1feb6e3af5af5af37902215d5fc890",
+    "bytes": 2175
+  }
 }
