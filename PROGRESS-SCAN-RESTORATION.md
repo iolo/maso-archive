@@ -5006,3 +5006,59 @@ All 273 scans remain in the ledger; **173** await full-page disposition. Continu
 with **M28**, final **98–99** of **컴퓨터와 수**, followed by complete native
 article assembly and independent validation. See [the opening result](metadata/catalog/scan-restoration/1984-03-numbers-opening.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M28 — March numbers article ending, actual 98–99
+
+Restored the final two pages of **컴퓨터와 수**, canonical
+**maso-1984-03-toc-0017**, as
+`archive/scans/1984-03/packages/numbers-ending-jpeg-r01/`. All **88 native files**
+match a separate fresh rebuild. Together with immutable M27, the selected
+segments now cover the observed article extent **92–99**. Whole-article native
+assembly and its independent validation remain required before article completion.
+The source 97/98 sentence continuation and closing star remain explicit.
+
+All 29 selected source contexts were compared. Seventeen initial mapped
+Tesseract tasks at scale 6000 completed without retries; their original evidence
+is retained. Historical regional draft text required no changes after JPEG
+comparison. The native text preserves fifteen reading blocks, two local joins,
+35 regional reading rows, 26 paragraph fragments and 135 inline fields.
+The signed-decimal table retains all eight rows and sixteen cells, with no
+invented header or evaluation. Four inline binary expressions retain 32 indexed
+bit positions and exact selected-text byte ranges.
+
+All **twelve original figures** remain intact. Ten arithmetic drawings preserve
+**twenty phases, 58 numeric rows, 122 literal fields and 395 glyph slots**.
+Across the drawings, printed complement annotations and two signed-byte strips,
+**333 bit positions, fifteen labels and 38 connectors** retain source contexts.
+The byte strips preserve both eight-bit rows, sign/LSB roles, panel markers,
+vertical printed values and their literal caption. The captionless numeral
+photograph remains an image without an invented numerical sequence.
+
+Fourteen source claims, three printed ranges, ten arithmetic/prose associations
+and two byte-panel associations remain searchable native records. Eight local
+qualifications preserve printed errors: the complement calculation and label,
+five-number claim versus eight table rows, contradictory sign prose, two
+subtraction prompts that disagree with their drawings, a context overlap and
+the uncaptioned photograph. No arithmetic is recomputed or repaired.
+
+One pre-recognition map refinement widened clipped contexts. The initial native
+geometry review found binary signs outside their row contexts and byte columns
+ending before the final bit. Wider contexts, corrected cell edges and traced
+rule bounds were compared in a revised overlay; source values were unchanged.
+Both versions remain preserved. The first native audit failed because its
+fixture omitted a source space before **01111111₂**; the corrected fixture
+matches the already source-compared text, without rebuilding or altering it.
+
+The accepted audit passes **29 original-master crop checks, seventeen OCR
+bindings, 81 raw ZIP members and 34 damaged-data cases**. All **995 frozen M27
+evidence files** and shared implementation pins remain exact; the unchanged
+**286-test fresh M13 baseline** is rehashed and reused. M28 freezes **400 evidence
+files**. Cleanup was previewed without deletion. Original encoded bytes,
+mathematical correctness, execution and full human proofreading remain unverified.
+
+Whole March remains active with **fifteen complete articles, one partial article,
+22 pending article candidates, two completed headings and four pending headings**.
+All 273 scans remain in the ledger; **173** await full-page disposition. Continue
+with **M29**, assembling and independently validating the complete **92–99**
+article. See [the ending result](metadata/catalog/scan-restoration/1984-03-numbers-ending.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

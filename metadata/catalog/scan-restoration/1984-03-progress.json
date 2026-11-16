@@ -2798,17 +2798,32 @@
               "sha256": "84b9733d2d3a0ec6c0a28c2f2dabd8cac89e4717cbd60f776f25109523d87bfe",
               "bytes": 3431
             }
+          },
+          {
+            "checkpoint": "M28",
+            "directory": "archive/scans/1984-03/packages/numbers-ending-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/numbers-ending-jpeg-r01/manifest.json",
+              "sha256": "33a15b18339cc55fd688553eeb472dfe4c490a176210adfbd38241b66a97a0c6",
+              "bytes": 14819
+            },
+            "actual_folios": [
+              98,
+              99
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-24/validation.json",
+              "sha256": "eb0b7da7862123fab087112b9b8d09c06dd04f8197ac4b1cbdfe59e46ae827b5",
+              "bytes": 3736
+            }
           }
         ],
         "observed_source_title": "컴퓨터와 수",
         "observed_opening_folio": 92,
         "observed_ending_folio": 99,
         "source_extent_verified": true,
-        "source_extent_covered": false,
-        "continuation_pending": [
-          98,
-          99
-        ],
+        "source_extent_covered": true,
+        "continuation_pending": [],
         "assembly_pending": true
       },
       "historical_printed_extent_candidate": [
@@ -5528,12 +5543,12 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-23/source-ledger.json",
-    "sha256": "ab1dce5a5b082840b40837e88124d5f76e1859f5447e9722e009851465087947",
-    "bytes": 251528
+    "path": "archive/scans/1984-03/restoration/whole-issue-24/source-ledger.json",
+    "sha256": "1f8a3b9ff3ddeec78e52583abbb0e2fb852518f88589bf4652d169c12d0ebc8d",
+    "bytes": 251888
   },
-  "current_checkpoint": "M27-complete",
-  "next": "M28: restore final 98–99 of 컴퓨터와 수, maso-1984-03-toc-0017. Preserve the incoming 97/98 sentence and source ending; then assemble and independently validate the complete 92–99 article. Whole March remains active.",
+  "current_checkpoint": "M28-complete",
+  "next": "M29: assemble and independently validate the complete 92–99 컴퓨터와 수, maso-1984-03-toc-0017, preserving both immutable segments and the 97/98 sentence continuation. Whole March remains active.",
   "pending_article_candidates": 22,
   "pending_heading_candidates": 4,
   "partial_whole_scan_articles": 1,

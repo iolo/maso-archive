@@ -99,12 +99,16 @@ All 42 original-master crops and the separate source/native audit pass. M27
 restores 컴퓨터와 수 on 92–97 as a partial native opening: 248 exact files,
 68 table cells, sixteen division rows, twenty grouped-conversion alignments,
 seventeen arithmetic examples and all 24 original figures. All 78 original-master
-crops and the separate source/native audit pass. Its complete extent is 92–99;
-99 ends with a closing star and 100 opens the next article. The whole issue
+crops and the separate source/native audit pass. M28 restores final 98–99 in
+88 exact native files: twelve original figures, twenty arithmetic phases,
+58 numeric rows, sixteen signed-decimal table cells and the closing star.
+All 29 original-master crops and the separate source/native audit pass. The
+complete source extent is 92–99; 100 opens the next article. The whole issue
 remains active: fifteen complete articles, one partial article, 22 pending article
 candidates, two completed headings and four pending headings. There are 173 source
-images still awaiting full-page disposition. Continue with M28, final 98–99 of
-컴퓨터와 수, then assemble and independently validate the complete 92–99 article.
+images still awaiting full-page disposition. Continue with M29, assembling and
+independently validating the complete 92–99 컴퓨터와 수 article from both
+immutable native segments and its explicit 97/98 sentence continuation.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

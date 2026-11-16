@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M28",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0017",
+  "status": "complete-native-final-segment",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    98,
+    99
+  ],
+  "article_actual_folios": [
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "selected_package": "archive/scans/1984-03/packages/numbers-ending-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/numbers-ending-jpeg-r01/manifest.json",
+    "sha256": "33a15b18339cc55fd688553eeb472dfe4c490a176210adfbd38241b66a97a0c6",
+    "bytes": 14819
+  },
+  "exact_files": 88,
+  "native_structure": {
+    "source_images": 2,
+    "mapped_regions": 29,
+    "initial_text_ocr_tasks": 17,
+    "recognition_retries": 0,
+    "blocks": 15,
+    "joins": 2,
+    "original_figures": 12,
+    "arithmetic_figures": 10,
+    "arithmetic_phases": 20,
+    "arithmetic_rows": 58,
+    "arithmetic_fields": 122,
+    "arithmetic_glyphs": 395,
+    "figure_bit_positions": 333,
+    "byte_strip_rows": 2,
+    "byte_strip_bits": 16,
+    "figure_labels": 15,
+    "figure_connectors": 38,
+    "table_rows": 8,
+    "table_cells": 16,
+    "inline_bit_expressions": 4,
+    "inline_bit_positions": 32,
+    "source_claims": 14,
+    "source_range_claims": 3,
+    "source_figure_context_links": 10,
+    "caption_associations": 1,
+    "byte_panel_associations": 2,
+    "closing_marks": 1,
+    "regional_reading_rows": 35,
+    "regional_paragraph_fragments": 26,
+    "inline_fields": 135,
+    "source_qualifications": 8,
+    "whole_article_complete": false,
+    "whole_issue_complete": false
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-24/validation.json",
+    "sha256": "eb0b7da7862123fab087112b9b8d09c06dd04f8197ac4b1cbdfe59e46ae827b5",
+    "bytes": 3736
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-24/numbers/recipe.json",
+    "sha256": "4954828b6d4422c4633bae6dffbf8a927537d0f9169849ce8848eb9cffcd2403",
+    "bytes": 9800
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-24/source-ledger.json",
+    "sha256": "1f8a3b9ff3ddeec78e52583abbb0e2fb852518f88589bf4652d169c12d0ebc8d",
+    "bytes": 251888
+  },
+  "source_dispositions_pending": 173,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-24/whole-progress-m28.json",
+    "sha256": "54d4e781158d276fdedb54cd33cbf61a8e905374b06535a875e79389d7577ef3",
+    "bytes": 175637
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-24/evidence-manifest.json",
+    "sha256": "e2da6a40e027575db31720d8baa07ecb09380ca291b7f9f3c1aed79825828ccd",
+    "bytes": 71541
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M29: assemble and independently validate the complete 92–99 컴퓨터와 수, maso-1984-03-toc-0017, preserving both immutable segments and the 97/98 sentence continuation. Whole March remains active."
+}
