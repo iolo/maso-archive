@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 12,
+  "complete_whole_scan_articles": 13,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -2163,8 +2163,8 @@
       "title": "불꽃 놀이",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0013",
         "title": "불꽃 놀이",
@@ -2207,7 +2207,33 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M23",
+        "directory": "archive/scans/1984-03/packages/fireworks-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/fireworks-jpeg-r01/manifest.json",
+          "sha256": "b972d7d06ff5b8c7f48de9251d21c91368370c5ba6d5bf7ce4c9e799f183c2c9",
+          "bytes": 5074
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-19/validation.json",
+          "sha256": "efbb51fa09ddd383f5b8b32da68f53281d6a4fc8caf5fac0a2cb298d6af3c041",
+          "bytes": 3492
+        },
+        "observed_source_title": "불꽃놀이",
+        "observed_platform": "트라이젬",
+        "observed_opening_folio": 79,
+        "observed_ending_folio": 79,
+        "actual_folios": [
+          79
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         79
       ],
@@ -2219,7 +2245,12 @@
           "sha256": "5166b8a021d29c9de556b6f10455ade3e6ee869f692fc89791418eb003c230e0",
           "bytes": 712931
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/fireworks-jpeg-r01/manifest.json",
+          "sha256": "b972d7d06ff5b8c7f48de9251d21c91368370c5ba6d5bf7ce4c9e799f183c2c9",
+          "bytes": 5074
+        }
       }
     },
     {
@@ -5298,13 +5329,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-18/source-ledger.json",
-    "sha256": "2eab395f25926bff21d478834a8df77523a34ee2b1f43f38e5d7406e50e62073",
-    "bytes": 227343
+    "path": "archive/scans/1984-03/restoration/whole-issue-19/source-ledger.json",
+    "sha256": "2b339acd7d5b0d122feb3348de3414e2f7c46d5771ad08deb16671322a1cbe9f",
+    "bytes": 228609
   },
-  "current_checkpoint": "M22-complete",
-  "next": "M23: restore 불꽃 놀이, maso-1984-03-toc-0013, candidate79; verify complete extent and following boundary against80. Whole March remains active.",
-  "pending_article_candidates": 26,
+  "current_checkpoint": "M23-complete",
+  "next": "M24: source-check 교육입문, maso-1984-03-toc-0014, candidate heading81, and locate following BASIC opening82 before article restoration. Whole March remains active.",
+  "pending_article_candidates": 25,
   "pending_heading_candidates": 5,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1

@@ -82,11 +82,14 @@ original sixteen-cell screen. Four screen glyph identities remain unresolved.
 All twelve original-master crops and the separate native audit pass. M22 completes
 당신도 암산왕 on 77–78: 62 exact native files, 64 physical BASIC rows / 63 numbered
 units, five variable definitions, nine routine ranges and the original photograph.
-All fourteen source crops and the separate native audit pass. The whole issue
-remains active: twelve complete articles, no partial articles, 26 pending article
-candidates, one completed heading and five pending headings. There are 194 source
-images still awaiting full-page disposition. Continue with M23, 불꽃 놀이,
-candidate 79,
+All fourteen source crops and the separate native audit pass. M23 completes
+received 불꽃 놀이 on 79: 31 exact native files, 33 physical BASIC rows / 21 numbered
+units, five HPLOT commands, two original photographs and two source pen marks.
+All seven source crops and the separate native audit pass. The whole issue
+remains active: thirteen complete articles, no partial articles, 25 pending article
+candidates, one completed heading and five pending headings. There are 193 source
+images still awaiting full-page disposition. Continue with M24, 교육입문,
+candidate heading 81 and following BASIC opening 82,
 verifying its extent and following
 boundary in a bounded checkpoint.
 Track execution in

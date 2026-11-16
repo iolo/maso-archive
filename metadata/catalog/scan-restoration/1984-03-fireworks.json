@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M23",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0013",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    79
+  ],
+  "selected_package": "archive/scans/1984-03/packages/fireworks-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/fireworks-jpeg-r01/manifest.json",
+    "sha256": "b972d7d06ff5b8c7f48de9251d21c91368370c5ba6d5bf7ce4c9e799f183c2c9",
+    "bytes": 5074
+  },
+  "exact_files": 31,
+  "native_structure": {
+    "source_images": 1,
+    "mapped_regions": 7,
+    "initial_text_ocr_tasks": 5,
+    "recognition_retries": 0,
+    "blocks": 5,
+    "original_figures": 2,
+    "prose_paragraphs": 3,
+    "independent_listing_contexts": 1,
+    "physical_rows": 33,
+    "logical_units": 21,
+    "physical_fields": 132,
+    "basic_source_fields": 395,
+    "numeric_literal_occurrences": 50,
+    "physical_continuation_rows": 12,
+    "source_qualifications": 7,
+    "source_jump_references": 2,
+    "hplot_commands": 5,
+    "coordinate_expression_fields": 12,
+    "color_expressions": 3,
+    "random_constructors": 11,
+    "source_loop_pairs": 3,
+    "source_identifier_joins": 1,
+    "source_conditions": 2,
+    "signed_memory_accesses": 1,
+    "source_prose_program_references": 6,
+    "source_prose_ranges": 2,
+    "header_comment_lines": 2,
+    "source_pen_marks": 2,
+    "joins": 0,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-19/validation.json",
+    "sha256": "efbb51fa09ddd383f5b8b32da68f53281d6a4fc8caf5fac0a2cb298d6af3c041",
+    "bytes": 3492
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-19/fireworks/recipe.json",
+    "sha256": "4bd7c0ceedd82de35d10adb3a64db5deb80c19a2bb7e6fb9d7d137d6f94650a0",
+    "bytes": 4373
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-19/source-ledger.json",
+    "sha256": "2b339acd7d5b0d122feb3348de3414e2f7c46d5771ad08deb16671322a1cbe9f",
+    "bytes": 228609
+  },
+  "source_dispositions_pending": 193,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-19/whole-progress-m23.json",
+    "sha256": "037b3e006ca658fe926b9170dfdf31552baef9ee6629ad09f3adfc908b8cc0d7",
+    "bytes": 167275
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-19/evidence-manifest.json",
+    "sha256": "c871e45de49188960b986954e03fba5ae6bd0c64183f55190cd0d7b919603b0c",
+    "bytes": 17659
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M24: source-check 교육입문, maso-1984-03-toc-0014, candidate heading81, and locate following BASIC opening82 before article restoration. Whole March remains active."
+}

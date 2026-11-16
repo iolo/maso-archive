@@ -49,10 +49,13 @@ Four screen glyph identities remain unresolved. All twelve source crops and the
 separate native audit pass. M22 completes 당신도 암산왕 on 77–78: 62 exact native
 files, 64 physical BASIC rows / 63 numbered units, five variable definitions, nine
 routine ranges and the original photograph. All fourteen source crops and the
-separate native audit pass. Current totals are twelve complete articles, no partial
-articles, 26 pending article candidates, one completed heading, five pending headings
-and 194 source images awaiting full-page disposition. Continue with M23,
-불꽃 놀이, candidate 79, in bounded checkpoints.
+separate native audit pass. M23 completes received 불꽃 놀이 on 79: 31 exact native
+files, 33 physical BASIC rows / 21 numbered units, five HPLOT commands, two original
+photographs and two source pen marks. All seven original-master crops and the
+separate native audit pass. Current totals are thirteen complete articles, no partial
+articles, 25 pending article candidates, one completed heading, five pending headings
+and 193 source images awaiting full-page disposition. Continue with M24,
+교육입문, candidate heading 81 and following BASIC opening 82, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4731,4 +4734,54 @@ Whole March remains active with **twelve complete articles, no partial articles,
 All 273 scans remain in the ledger; **194** await full-page disposition. Continue
 with **M23**, **불꽃 놀이**, candidate 79, verifying its full extent and following
 boundary against 80. See [the mental-arithmetic result](metadata/catalog/scan-restoration/1984-03-mental.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M23 — March complete fireworks article, actual 79
+
+Completed received **불꽃 놀이**, canonical **maso-1984-03-toc-0013**, as
+`archive/scans/1984-03/packages/fireworks-jpeg-r01/`. All **31 native files** match
+an independent fresh rebuild. Original page 79 ends with **170 RETURN**; full
+source 80 is a separate 정보시대 publisher book promotion. No printed folio is
+invented for that advertisement. The source title **불꽃놀이** retains its spacing
+independently of the received title.
+
+The package preserves all three prose paragraphs, platform **트라이젬**, provider
+and telephone number. Six typed program references and two prose ranges retain
+their original occurrences, endpoints and source-unit memberships. The complete
+listing has **33 physical rows, 21 numbered units, twelve physical continuations,
+132 physical fields, 395 lexical fields and 50 numeric occurrences**. The two
+unnumbered header lines **FIREWORKS** and **BY SAMBO COMPUTER** remain source
+comments within unit 5. Original paper blank spacing is not interpreted as BASIC
+bytes. Review-strip positions for those two lines were corrected from original
+ink bands; the first geometry and strips remain preserved.
+
+All **five HPLOT commands and twelve coordinate-expression fields**, three color
+expressions, eleven RND(1) calls, three FOR/NEXT pairs and two jump targets retain
+typed source spans. The signed **PEEK(-16384)** argument, split **1/27** condition,
+split **Y/OLD** identifier and original spaced **< =** comparator remain literal.
+No coordinates, colors or random values are evaluated; no hardware meaning,
+execution or technical correctness is asserted. Seven local source qualifications
+remain explicit.
+
+Both complete original photographs remain captionless and unlabelled, with no
+program-rendering equivalence claim. Visible pen strokes overlapping the printed
+15 label and the oval around **60 NEXT** have independent native source records,
+visually checked bounds and typed unit associations. Their intent, authorship,
+replacement text and encoded bytes remain unset.
+
+Five initial mapped Tesseract tasks at scale 6000 completed without retries.
+All **seven original-master crops, five OCR bindings, 23 raw ZIP members and
+39 damaged-data cases** pass. Both audit attempts are retained: a validator local
+variable shadowed its package parameter; renaming the parameter fixed the audit
+without changing the selected export. All **175 frozen M22 evidence files** and
+shared implementation pins remain unchanged; the unchanged **286-test fresh M13
+baseline** is reused. M23 freezes **103 evidence files**. Cleanup was previewed
+without deletion. Exact source string spacing, original encoded bytes and full
+human character-perfect proofreading remain unverified.
+
+Whole March remains active with **thirteen complete articles, no partial articles,
+25 pending article candidates, one completed heading and five pending headings**.
+All 273 scans remain in the ledger; **193** await full-page disposition. Continue
+with **M24**, source-checking **교육입문**, candidate heading 81, and locating the
+following BASIC opening on 82. See [the fireworks result](metadata/catalog/scan-restoration/1984-03-fireworks.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
