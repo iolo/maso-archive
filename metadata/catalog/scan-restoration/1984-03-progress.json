@@ -442,18 +442,34 @@
               "sha256": "c82c66e04cc5e9e5d4ec45955fa5dee15d275a7f38bfcb2e863aa4c3d004b719",
               "bytes": 2285
             }
+          },
+          {
+            "checkpoint": "M08",
+            "directory": "archive/scans/1984-03/packages/feature-jpeg-c-r02",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/feature-jpeg-c-r02/manifest.json",
+              "sha256": "5beec3a5664af21827e89ba9987f3b3b8c83b315c3f8c0ba2bcc37e753c923c7",
+              "bytes": 27367
+            },
+            "actual_folios": [
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-04/validation.json",
+              "sha256": "fcde9867c968cf7251b3193eaae399e1f9df5ebd8c4608f341b217ac5dac4442",
+              "bytes": 1916
+            }
           }
         ],
         "observed_opening_folio": 14,
         "observed_ending_folio": 37,
         "intermediate_extent_fully_reviewed": false,
         "continuation_pending": [
-          26,
-          27,
-          28,
-          29,
-          30,
-          31,
           32,
           33,
           34,
@@ -474,7 +490,13 @@
           22,
           23,
           24,
-          25
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
         ]
       },
       "historical_printed_extent_candidate": [
@@ -4687,12 +4709,12 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-03/source-ledger.json",
-    "sha256": "8ead922583729ce43ac23b9516e16fe20f37a8c2baab0ad762e675fd3058ba9b",
-    "bytes": 152136
+    "path": "archive/scans/1984-03/restoration/whole-issue-04/source-ledger.json",
+    "sha256": "2d2a2eb5fee6338cca862457efcf758f440a12da888bbc0b77aeb60fb05776a0",
+    "bytes": 156432
   },
-  "current_checkpoint": "M07-complete",
-  "next": "M08: restore feature continuation on actual26–31, including duplicated figure15 numbering, encoding/decoding structures and source programs. Actual32–37 and final feature assembly follow.",
+  "current_checkpoint": "M08-complete",
+  "next": "M09: restore actual32–37 as the final feature segment, then audit immutable whole-feature assembly. Whole issue remains active.",
   "pending_article_candidates": 36,
   "pending_heading_candidates": 6,
   "partial_whole_scan_articles": 1

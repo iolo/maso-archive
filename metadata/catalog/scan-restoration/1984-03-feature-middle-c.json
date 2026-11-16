@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M08",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0001",
+  "status": "complete-native-segment",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "selected_package": "archive/scans/1984-03/packages/feature-jpeg-c-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/feature-jpeg-c-r02/manifest.json",
+    "sha256": "5beec3a5664af21827e89ba9987f3b3b8c83b315c3f8c0ba2bcc37e753c923c7",
+    "bytes": 27367
+  },
+  "exact_files": 162,
+  "structure": {
+    "source_images": 6,
+    "source_regions": 42,
+    "initial_text_ocr_tasks": 35,
+    "recognition_retries": 1,
+    "blocks": 21,
+    "original_figures": 7,
+    "tables": 3,
+    "table_cells": 196,
+    "component_slots": 84,
+    "physical_listing_rows": 500,
+    "logical_listing_units": 498,
+    "listing_fields": 2500,
+    "printed_dump_bytes": 256,
+    "flow_graphs": 4,
+    "flow_nodes": 88,
+    "flow_edges": 103,
+    "figure_labels": 201,
+    "paragraphs": 15,
+    "prose_joins": 16,
+    "source_qualifications": 18,
+    "whole_article_complete": false
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-04/validation.json",
+    "sha256": "fcde9867c968cf7251b3193eaae399e1f9df5ebd8c4608f341b217ac5dac4442",
+    "bytes": 1916
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-04/feature-c/recipe.json",
+    "sha256": "168d7391e3b51d46dcc14407c3914f2e0b75ddc6f7e93cbedc12d85d0043fcdc",
+    "bytes": 10822
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-04/source-ledger.json",
+    "sha256": "2d2a2eb5fee6338cca862457efcf758f440a12da888bbc0b77aeb60fb05776a0",
+    "bytes": 156432
+  },
+  "source_dispositions_pending": 237,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-04/whole-progress-m08.json",
+    "sha256": "866f87367c24b7059b3d674f153264a48b58111fd2511b2c73230ac569a2e5cf",
+    "bytes": 143946
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-04/evidence-manifest.json",
+    "sha256": "4be4a6bf6c47ae5f8f733c8be0f94bc1bcb8fccc161a403b5272261fc84620a1",
+    "bytes": 70722
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 282,
+  "next": "M09: restore actual32–37 as the final feature segment, then audit immutable whole-feature assembly. Whole issue remains active."
+}

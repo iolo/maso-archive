@@ -20,9 +20,11 @@ completes the editorial on actual 13. M06 restores the feature's opening on
 actual 14–19: 159 exact native files, 210 physical code rows and three original
 diagrams with native structures. M07 adds actual 20–25: 146 exact native files,
 435 physical code rows, seven typed tables, the 512-slot glyph grid and two
-native flow graphs. There are one complete article, one partial feature,
-36 pending article candidates, six pending headings and 243 source images
-awaiting full-page disposition. Continue with actual 26–31.
+native flow graphs. M08 adds actual 26–31: 162 exact native files, 500 physical
+code rows, 196 table cells, 84 component slots and four native flow graphs.
+There are one complete article, one partial feature, 36 pending article
+candidates, six pending headings and 237 source images awaiting full-page
+disposition. Continue with actual 32–37 and whole-feature assembly.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -92,6 +94,7 @@ labels and the preserved exports retain their existing values.
 | March 1984 whole-issue restart — M05 | Passed; whole issue active | All 44 canonical identities and 273 scans in scope; complete JPEG editorial on actual 13 |
 | March 1984 feature opening — M06 | Passed; whole article partial | Actual 14–19; 159 exact native files, 210 physical code rows, 1,260 fields, three original diagrams; 20–37 and assembly pending |
 | March 1984 feature continuation — M07 | Passed; whole article partial | Actual 20–25; 146 exact native files, 435 physical code rows, 333 table cells, 512 glyph slots, two source graphs; 26–37 and assembly pending |
+| March 1984 feature continuation — M08 | Passed; whole article partial | Actual 26–31; 162 exact native files, 500 physical code rows, 256 dump bytes, 196 table cells, 84 component slots and four source graphs; 32–37 and assembly pending |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -3884,3 +3887,53 @@ Whole March remains active: **one complete article, one partial feature,
 identities remain in the ledger; **243** await full-page disposition. Continue
 with **M08**, actual **26–31**. See [the segment result](metadata/catalog/scan-restoration/1984-03-feature-middle-b.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M08 — March feature continuation, actual 26–31
+
+Restored six more original JPEG views as **feature-jpeg-c-r02**. All **162
+native files** match the independent fresh rebuild. The **42 mapped regions**
+retain 21 logical blocks, fifteen paragraphs and seven original figure rasters.
+The source joins **소 / 문자**, **먼 / 저**, **제 / 어모드**, **여 / 러**,
+**그 / 림** and **테 / 두리** retain exact regional fragments. Actual 31 ends
+with **00H**; outside lookup 32 continues **로 구분된다는**. Actual **32–37**
+and whole-feature assembly remain pending.
+
+Four code contexts retain **500 physical rows / 498 logical units**, **2,500
+fields** and every one of the **256 printed dump bytes**. Two annotation wraps
+belong to source row 3250. Printed **TWO BIT CODE**, the blank 6250 occurrence,
+sparse numbering, **RET'**, independent **GPADDR** and the source dump command
+**DUMP,8C00,8100** remain literal. Enlarged JPEG inspection selects **E6** at
+8C10 slot 7; the older PDF **66** draft remains preserved. Enlarged prose
+inspection resolves **어**, correcting an initial low-resolution **여** reading.
+Original execution, encoded bytes and technical claims remain unverified.
+
+Three typed tables retain **196 cells**, including blank slots and independent
+keyboard/CHTBL1 occurrences. All **84 component slots** retain their row,
+printed hexadecimal header, visual reading and original raster extent. The
+nonuniform source columns required a second native candidate with corrected
+inspection extents. Both overlays, the first native package and its exact
+recipe/corrections remain preserved; 158 earlier files are unchanged. The final
+1C component remains unresolved, without substitution from an expected Hangul
+alphabet. Unicode equivalence and source font bytes remain unverified.
+
+Four source flow graphs retain **88 nodes / 103 edges** and 201 native figure
+labels overall. Preserve the two printed **예** branches at the encoding chart's
+last decision, omitted decoding labels, incomplete **키보드 코드로** wording,
+two successive lower-case conversion boxes and separate RET occurrences. These
+are source structures, not reconstructed program behavior.
+
+All **42 master-derived crops**, **35 selected recognition bindings**, **148
+raw ZIP members**, native source owners and byte ranges pass. The 35 initial
+mapped Tesseract tasks ran once; one targeted crop repair restored clipped
+**+200H** operands on 2830 and 3030. All initial evidence remains intact, with
+no unrelated recognition repeated. Preserve all eighteen source qualifications.
+No shared implementation changed; the exact M06 implementation pins and its
+282-test evidence are checked and reused. M07's frozen evidence remains exact.
+Cleanup was previewed without deletion.
+
+Whole March remains active: **one complete article, one partial feature,
+36 pending article candidates and six pending headings**. All 273 source
+identities remain in the ledger; **237** await full-page disposition. Continue
+with **M09**, actual **32–37**, then whole-feature assembly. See [the segment
+result](metadata/catalog/scan-restoration/1984-03-feature-middle-c.json) and
+[active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
