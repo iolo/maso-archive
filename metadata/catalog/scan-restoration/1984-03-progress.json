@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 5,
+  "complete_whole_scan_articles": 6,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -1173,8 +1173,8 @@
       "title": "맛있는 사과가 들어 있어요",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0006",
         "title": "맛있는 사과가 들어 있어요",
@@ -1221,7 +1221,34 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M16",
+        "directory": "archive/scans/1984-03/packages/apples-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/apples-jpeg-r01/manifest.json",
+          "sha256": "47499791027c015708a33d7f43f023ff278ae8de3c75ce6beb94458e7f0e4aee",
+          "bytes": 8261
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-12/validation.json",
+          "sha256": "904bf9278d8aa54406efa33856f6452ce3a62b0b7774b58929fd7f494c8139f8",
+          "bytes": 2904
+        },
+        "observed_source_title": "맛있는 사과가 들어 있어요!",
+        "observed_subtitle": "사과 개수 맞히기 게임",
+        "observed_opening_folio": 54,
+        "observed_ending_folio": 55,
+        "actual_folios": [
+          54,
+          55
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         54,
         55
@@ -1235,7 +1262,12 @@
           "sha256": "3d66999f0366a8e2e43929ac5827ef9e522d7cf969cbd5aae3668fef1fce0769",
           "bytes": 492239
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/apples-jpeg-r01/manifest.json",
+          "sha256": "47499791027c015708a33d7f43f023ff278ae8de3c75ce6beb94458e7f0e4aee",
+          "bytes": 8261
+        }
       }
     },
     {
@@ -1310,7 +1342,18 @@
         58,
         59,
         60
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 56,
+        "observed_title": "홀 인 원",
+        "canonical_received_title": "올 인원",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-12/review/full-056.jpg",
+          "sha256": "3775546a0c55fdf16f470f6d1eb3d04a746a8637164d49a37787b8138ddeec37",
+          "bytes": 452331
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0008",
@@ -4991,13 +5034,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-11/source-ledger.json",
-    "sha256": "6791f4841199dadd9979a4846b2c73d8ca843d339988dfd5fca342e22d54176f",
-    "bytes": 197792
+    "path": "archive/scans/1984-03/restoration/whole-issue-12/source-ledger.json",
+    "sha256": "a686b5172983272f6811a6b4d2943aa6a12e1157ce6dfded5e6e682c287b0869",
+    "bytes": 200660
   },
-  "current_checkpoint": "M15-complete",
-  "next": "M16: restore 맛있는 사과가 들어 있어요, canonical maso-1984-03-toc-0006, candidate54–55; verify the extent and boundary against56. Whole March remains active.",
-  "pending_article_candidates": 33,
+  "current_checkpoint": "M16-complete",
+  "next": "M17: restore canonical 올 인원 (observed 홀 인 원), maso-1984-03-toc-0007, candidate56–60; verify the source extent and boundary against61. Whole March remains active.",
+  "pending_article_candidates": 32,
   "pending_heading_candidates": 5,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1

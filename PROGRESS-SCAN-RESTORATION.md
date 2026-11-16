@@ -4318,3 +4318,61 @@ Whole March remains active with **five complete articles, no partial articles,
 Continue with **M16**, **맛있는 사과가 들어 있어요**, candidate 54–55,
 verifying the full extent and boundary against 56. See [the paddles result](metadata/catalog/scan-restoration/1984-03-paddles.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M16 — March complete apple-count game, actual 54–55
+
+Completed **맛있는 사과가 들어 있어요**, printed **맛있는 사과가 들어 있어요!**
+with subtitle **사과 개수 맞히기 게임**, as **apples-jpeg-r01**. All
+**50 native files** match an independent fresh rebuild. The whole 54–55 extent
+is source-verified: the prose closes with a star on 54, the FC-30 listing ends
+at **1130 RETURN** on 55, and 56 opens the separate **홀 인 원** article.
+The canonical received title of that next entry is **올 인원**; retain the
+observed/received difference. The lower 55 **대한컴퓨터랜드학원 /
+(주)대한컴퓨터랜드** advertisement stays intact in the source set with an
+explicit exclusion and non-body disposition.
+
+The complete source program retains **80 physical rows / 80 numbered units**,
+320 physical fields, 440 BASIC source lexemes and 38 numeric occurrences.
+The 420/450 column boundary joins complete original source rows without an
+inserted statement. Preserve inserted labels 105/115/225, double-comma PRINT
+separators, original ITS / WANT PLAY wording, the 830 D reference, cumulative B,
+840 **INT ((Q/B)*1000)** and 1110 **INT(RND*101)**. No missing initialization,
+reset, grammar change or formula repair is supplied. A local comma-like mark
+after 640 INPUT P remains qualified with both reading candidates and the original
+raster. Keep all **19 source qualifications**, including source prose 010,
+ENTER instruction and the probability/game-count descriptions. Execution,
+original encoded bytes, exact screen columns, technical correctness and full
+human proofreading remain unverified.
+
+Two native tables retain **12 source rows / 29 cells**: seven variable definitions
+and five program-range explanations. Typed links associate every defined symbol
+with its actual code occurrences and every printed range with its existing source
+units, including inserted numbered rows. Code-only H, R$ and Y gain no invented
+prose definitions. All three introductory paragraphs, platform/provider/phone,
+sixteen prose command/value occurrences and the original ending star remain
+source-bound. The captionless hand-held apple photograph retains its original
+halftone raster; it is not represented as a program screen or counted apple output.
+
+Both page overlays passed first review with no map refinement. All **ten mapped Tesseract
+tasks** ran once at the planned 6000 scale, with no recognition retry. Retained
+TSV geometry locates all forty physical rows in each column; every enlarged
+row and complete text region was compared with the JPEG. Independent checks
+pass for **11 original-master crops**, ten recognition bindings, 42 raw ZIP
+members and every native row, field, cell, range and typed source association.
+All **26 damaged-data cases** reject missing/repaired source content, bad ranges,
+wrong table/program owners, invented definitions/initialization, lost candidates,
+unsupported execution claims and advertisement ownership. The first audit's
+negative-case handler raised an unclassified StopIteration when its only candidate
+was deliberately removed; an explicit cardinality check fixed the audit, and the
+second run passes. Both audit versions and logs remain preserved; selected article
+bytes did not change. All **386 frozen M15 evidence files** and shared implementation
+retain their exact pins; the unchanged **286-test** regression baseline is reused.
+Cleanup was previewed without deletion.
+
+All 273 sources remain in the ledger. Newly reviewed 55 and the next-article lookup
+56 reduce pending full-page dispositions to **217**; 54 was already located.
+Whole March remains active with **six complete articles, no partial articles,
+32 pending article candidates, one completed heading and five pending headings**.
+Continue with **M17**, canonical **올 인원**, printed **홀 인 원**, candidate
+56–60, verifying its complete extent and boundary against 61. See [the apple-count result](metadata/catalog/scan-restoration/1984-03-apples.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M16",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0006",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    54,
+    55
+  ],
+  "selected_package": "archive/scans/1984-03/packages/apples-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/apples-jpeg-r01/manifest.json",
+    "sha256": "47499791027c015708a33d7f43f023ff278ae8de3c75ce6beb94458e7f0e4aee",
+    "bytes": 8261
+  },
+  "exact_files": 50,
+  "native_structure": {
+    "source_images": 2,
+    "mapped_regions": 11,
+    "initial_text_ocr_tasks": 10,
+    "recognition_retries": 0,
+    "blocks": 9,
+    "original_figures": 1,
+    "paragraphs": 3,
+    "independent_listing_contexts": 1,
+    "physical_rows": 80,
+    "logical_units": 80,
+    "physical_fields": 320,
+    "basic_source_fields": 440,
+    "numeric_literal_occurrences": 38,
+    "physical_continuation_rows": 0,
+    "source_qualifications": 19,
+    "prose_literal_occurrences": 16,
+    "native_tables": 2,
+    "table_rows": 12,
+    "table_cells": 29,
+    "variable_definitions": 7,
+    "printed_program_ranges": 5,
+    "code_only_symbols": [
+      "H",
+      "R$",
+      "Y"
+    ],
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-12/validation.json",
+    "sha256": "904bf9278d8aa54406efa33856f6452ce3a62b0b7774b58929fd7f494c8139f8",
+    "bytes": 2904
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-12/apples/recipe.json",
+    "sha256": "80ee0862cbcb35737248ece2b4b65383635954a1bba60e02ae4c1811b7e1b638",
+    "bytes": 4669
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-12/source-ledger.json",
+    "sha256": "a686b5172983272f6811a6b4d2943aa6a12e1157ce6dfded5e6e682c287b0869",
+    "bytes": 200660
+  },
+  "source_dispositions_pending": 217,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-12/whole-progress-m16.json",
+    "sha256": "137fd481cb5db995f076b39235d7df156a79e92a02fe106866fd0e9d19a442b3",
+    "bytes": 155880
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-12/evidence-manifest.json",
+    "sha256": "f4226cfc62a57e880b03b045a7cd2042217fd86b6fdc418931ea79008bd8769b",
+    "bytes": 25010
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M17: restore canonical 올 인원 (observed 홀 인 원), maso-1984-03-toc-0007, candidate56–60; verify the source extent and boundary against61. Whole March remains active."
+}

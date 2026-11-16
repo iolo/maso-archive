@@ -58,11 +58,14 @@ the original illustration. All 18 source crops pass separate pixel checks.
 M15 completes 기초 공작실 게임패들의 제작 on 51–53: 100 exact native files,
 all eight captioned drawings, 102 drawing labels, 16 socket-pin rows, two circuit
 panels and 12 source dimensions. All 29 original-master crops and the separate
-source/native audit pass. The whole issue remains active: five complete articles,
-no partial articles, 33 pending article candidates, one completed heading and
-five pending headings. There are 219 source images still awaiting full-page
-disposition. Continue with M16, 맛있는 사과가 들어 있어요, candidate 54–55,
-verifying its extent and following boundary in a bounded checkpoint.
+source/native audit pass. M16 completes 맛있는 사과가 들어 있어요 on 54–55:
+50 exact native files, all 80 source BASIC units, seven variable definitions,
+five source range descriptions and the original photograph. All 11 source crops
+and the separate native audit pass. The whole issue remains active: six complete
+articles, no partial articles, 32 pending article candidates, one completed heading
+and five pending headings. There are 217 source images still awaiting full-page
+disposition. Continue with M17, canonical 올 인원 (printed 홀 인 원), candidate
+56–60, verifying its extent and following boundary in a bounded checkpoint.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
