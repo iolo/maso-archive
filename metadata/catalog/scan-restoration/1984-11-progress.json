@@ -5,8 +5,8 @@
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 28,
-  "partial_articles": 1,
+  "readable_articles": 29,
+  "partial_articles": 0,
   "identitiesAwaitingDisposition": 5,
   "entries": [
     {
@@ -9669,13 +9669,14 @@
       ],
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "observed_title": "정보 레이다",
       "observed_subtitle": "누가, 무엇을, 어떻게…",
       "observed_category": [
         "나라안 소식",
-        "사옥이전"
+        "사옥이전",
+        "나라밖 소식"
       ],
       "observed_byline": null,
       "byline_status": "No article-wide personal byline observed; company/organization labels belong to individual news items.",
@@ -9697,7 +9698,7 @@
         137
       ],
       "pending_folios": [],
-      "assembly_required": true,
+      "assembly_required": false,
       "source_views": [
         {
           "source_index": 130,
@@ -9932,11 +9933,11 @@
         }
       ],
       "package": {
-        "path": "archive/scans/1984-11/packages/information-a-r01",
+        "path": "archive/scans/1984-11/packages/information-r01",
         "manifest": {
-          "path": "archive/scans/1984-11/packages/information-a-r01/manifest.json",
-          "sha256": "afa672ba7a766d9b6a05b799b9ac98a29a8bb1b5028f6167b6f1ab75b68628e1",
-          "bytes": 55493
+          "path": "archive/scans/1984-11/packages/information-r01/manifest.json",
+          "sha256": "20dea28639dbe848b96c08ef991e3f79b19a8278e100d9d511c3dabc1110ebf3",
+          "bytes": 111366
         }
       },
       "segments": [
@@ -10237,23 +10238,48 @@
           "path": "archive/scans/1984-11/restoration/batch-54/validation.json",
           "sha256": "4674d3c0967f6e4eec440c5d2c20c69c01898ec02fda9dd64619cc366076a808",
           "bytes": 116602
+        },
+        {
+          "path": "archive/scans/1984-11/restoration/batch-55/validation.json",
+          "sha256": "369800adb5175366b2030948586f08f09cc0b911aa839a82a691b2da8618a7ab",
+          "bytes": 214741
         }
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-54/review/source-findings.json",
-          "sha256": "8e3c14972a666ac8bbe89a2e7c780f426432c21f8878331326b6e1cc16ade958",
-          "bytes": 3921
+          "path": "archive/scans/1984-11/restoration/batch-55/source-review-completion.json",
+          "sha256": "474b7475f818dff79a795a216c48080b759e2deb01be34a756253adc8b314a84",
+          "bytes": 6722
         },
-        "status": "All127–137sourcefolios restored as two native segments. Domestic/foreign is a new category boundary;137endingemblem and separate138advertisement confirmed. Checked whole-article assembly remains pending."
+        "status": "Observed whole127–137article assembled from exact domestic/foreign native segments.25newsitems,115paragraphs,six tables/815cells,source relationships,manual chart basis and137closing emblem checked. No category-boundary paragraph join."
       },
       "limitations": [
-        "All127–137sourcefolios are covered in immutable domestic/foreign segments;checked whole-article assembly remains pending.",
-        "Historical names,product specifications,prices,forecasts,reported experimental performance,corporate/market/geopolitical statements and quoted attributions remain unverified source claims.",
-        "Original source unit/model/word variants and unclosed quote delimiters are retained; no calendar correction,unit conversion,formula reordering or expected technical repair is applied.",
-        "Prose reflow,Unicode symbol choices and spacing are editorial representations; original encoded bytes and exact typography remain unverified.",
-        "Original closing emblem retained without invented lettering,caption or vector replacement.",
-        "Assistant source comparison is distinct from full human proofreading and acceptance."
+        "Original encoded bytes,exact spacing,technical/historical claims,full human proofreading and acceptance remain unverified.",
+        "[a] Original output bytes, exact typography/spacing, tiny panel glyphs, exact chart X counts and original printer modes are unverified.",
+        "[a] Output panels marked CONTINUED are printed samples; unseen report rows are not invented or recovered.",
+        "[a] Original source wording, name/count discrepancies, historical contacts/specifications and planned announcements remain unverified source claims.",
+        "[a] Printed ditto fields, blank ranks/roles/cells and the repeated overall winner remain distinct source occurrences; no implicit fill or deduplication.",
+        "[a] Original photos/illustrations remain raster evidence without invented captions or lettering.",
+        "[a] Assistant source comparison is distinct from full human proofreading and acceptance.",
+        "[a] Historical products,prices,dates,specifications,claims,addresses,telephone numbers and identities are source claims,not externally corrected facts.",
+        "[a] No original encoded bytes,exact spacing,photograph subject identities,program execution or full human proofreading is verified.",
+        "[b] Historical names,product specifications,prices,forecasts,reported experimental performance,corporate/market/geopolitical statements and quoted attributions remain unverified source claims.",
+        "[b] Original source unit/model/word variants and unclosed quote delimiters are retained; no calendar correction,unit conversion,formula reordering or expected technical repair is applied.",
+        "[b] Prose reflow,Unicode symbol choices and spacing are editorial representations; original encoded bytes and exact typography remain unverified.",
+        "[b] Original closing emblem retained without invented lettering,caption or vector replacement.",
+        "[b] Assistant source comparison is distinct from full human proofreading and acceptance.",
+        "[b] Historical names,technical claims,dates,prices,forecasts,compatibility and geopolitical labels are original source statements,not independently verified facts.",
+        "[b] Original encoded bytes,exact typographic spacing,source-unit interpretation and full human proofreading remain unverified."
+      ],
+      "previous_location_evidence": [
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-54/review/source-findings.json",
+            "sha256": "8e3c14972a666ac8bbe89a2e7c780f426432c21f8878331326b6e1cc16ade958",
+            "bytes": 3921
+          },
+          "status": "All127–137sourcefolios restored as two native segments. Domestic/foreign is a new category boundary;137endingemblem and separate138advertisement confirmed. Checked whole-article assembly remains pending."
+        }
       ]
     },
     {
@@ -10317,6 +10343,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R55: assemble checked whole 127–137 information radar (maso-1984-11-toc-0035) from immutable information-a-r01 and information-b-r01. Preserve all 602 embedded segment files and their source/OCR/evidence exactly. Domestic/foreign is a new category boundary,not an open paragraph; retain 25 news items,115 prose paragraphs,119 source blocks,eight original figures,143 raw OCR records and151 region crops. Domestic six tables/815 cells,42 award occurrences,three ASOCIO officers,four distinct print specimens,source blanks/ditto/rank scope and MIC physical130/131/130 joins must project with typed ownership and native ranges. Foreign 11 subsections,22 specification groups,two circled sequences/seven items,translation roles/directions,ADPCM stages/ratio endpoints,10 attributions,source disputes,unit/model/word variants,two unclosed delimiters and closing emblem must remain explicit. Extend only the restoration assembly contract as necessary for news/table structures;existing PDF/JPEG modes remain unchanged and require relevant fresh regressions if shared code changes. The existing survey-only assembly mode rejects tables,so do not omit or flatten domestic tables to fit it. Bind the resource bar observations to their explicit manual-review coordinate basis (1958x1371 review crop),distinct from the 6000-scale native OCR asset;retain approximate extents and unknown exact X counts. Check every active source range/owner,all151master-derived crops,actual damaged-source cases,original602embedded files and independent exact whole-article rebuild before selecting complete outcome. No new OCR or frozen checkpoint scripts. Preserve all four saved readers;do no reader implementation or build work. Five other unresolved identities,covers/source accounting and whole-issue native export/rebuild remain required. Leave PLAN-OCR.md and PLAN-PDF.md unchanged and keep the whole-November goal active.",
+  "next": "R56: establish actual source extent,title/byline and native structures of 메아리 (maso-1984-11-toc-0036,catalog opener222),with adjacent material before mapping. 디버깅 룸 (0037,catalog opener225) may join the batch only if the two-identity/six-new-mapped-view/twenty-outside-lookup limits fit;do not infer either extent from TOC alone. Preserve complete information radar127–137,its two exact original segments and all source scopes/tables/qualifications. Five unclassified identities (0036–0040),covers/source-image accounting and checked whole-issue native export/rebuild remain required. Use mapped pinnedTesseract,reuse successful unchangedOCR and never run frozen checkpoint scripts. Preserve all four saved readers;no reading-room implementation/build work. LeavePLAN-OCR.md andPLAN-PDF.md unchanged;the whole-November goal stays active.",
   "group_headings": 6
 }

@@ -329,6 +329,9 @@ def check_assembly(folder, package, *, preview=False):
     recipe = json.loads((folder / 'assembly-recipe.json').read_bytes())
     validate_recipe(recipe)
     segments = [read_segment(safe_path(folder, 'segments/' + row['name']), row['manifest']) for row in recipe['segments']]
+    if recipe.get('source_index_mode') == 'regional-news-v1':
+        from .assembly_image_news import check_assets
+        check_assets(folder, recipe)
     for row in recipe['segments']:
         validate_inventory_binding(recipe, safe_path(folder, 'segments/' + row['name']))
     expected, corrections = project(recipe, segments)
@@ -386,6 +389,9 @@ def assemble(recipe_path, output, root=ROOT, *, preview=False):
             for record in manifest['files'] + [pin(folder, 'manifest.json')]:
                 copy_pin(folder, stage, record, prefix + '/' + record['path'])
         copy_pin(recipe_path.parent, stage, recipe_pin, 'assembly-recipe.json')
+        if recipe.get('source_index_mode') == 'regional-news-v1':
+            from .assembly_image_news import copy_assets
+            copy_assets(root, stage, recipe)
         write_json(stage / 'map.json', map_projection(package))
         corrections['map'] = pin(stage, 'map.json')
         write_json(stage / 'corrections.json', corrections)

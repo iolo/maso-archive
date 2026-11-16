@@ -28,6 +28,9 @@ LOCAL_KEYS = {'line_id', 'source_unit_id', 'label_id', 'occurrence_id', 'row_id'
 
 
 def validate_recipe(recipe):
+    if recipe.get('source_index_mode') == 'regional-news-v1':
+        from .assembly_image_news import validate_recipe as validate_news
+        return validate_news(recipe)
     if recipe.get('source_index_mode') == 'regional-survey-v1':
         from .assembly_survey import validate_recipe as validate_survey
         return validate_survey(recipe)
@@ -286,6 +289,9 @@ class Context:
 
 
 def project_structured(recipe, originals):
+    if recipe.get('source_index_mode') == 'regional-news-v1':
+        from .assembly_image_news import project_news
+        return project_news(recipe, originals)
     if recipe.get('source_index_mode') == 'regional-survey-v1':
         from .assembly_survey import project_survey
         return project_survey(recipe, originals)

@@ -3776,3 +3776,30 @@ coverage. November's EPROM article uses v4 for the 198–205 source graphs and t
 201/204 paragraph continuation across the intervening diagrams. Source caption 4
 is observed; reference 5 and the uncaptioned circuit remain qualified separately.
 Existing v1–v3/PDF behavior and both shared operating plans remain unchanged.
+
+
+### Source-owned news assembly (`regional-news-v1`)
+
+The opt-in news extension of `structured-regions-v1` preserves immutable prose
+blocks and projects news items, nested categories, subsections, paragraph ranges,
+specification groups, numbered sequences, source claims, tables and original
+figures. It retains printed blanks, ditto and rank scopes, repeated award
+occurrences and physically displaced continuations. Each active record points
+back to its exact embedded correction record; typed identities are segment
+scoped, and nested regional/block/article UTF-8 coordinates are checked before
+projection. Unsupported listing structures and unknown semantic kinds or
+identity fields fail closed. Assembly establishes no historical verification,
+normalization, execution or original byte recovery.
+
+`news_links` explicitly closes every category boundary and the final ending.
+Domestic/foreign categories remain separate blocks, without an invented
+paragraph join. Historical partial-assembly declarations remain in the embedded
+segments; active declarations state their reviewed whole-article resolution.
+
+`coordinate_assets` binds manually observed graph rectangles to an additional
+pinned raster under `assembly-assets/`, with dimensions and a page thumbnail /
+source-region crop transform. This coordinate asset is checked during export and
+offline package validation. It remains distinct from the regional OCR scan.
+Approximate bar extents retain unknown exact glyph counts. Existing assembly
+modes and both shared operating plans are unchanged. No reading-room changes
+are needed for this restoration contract.

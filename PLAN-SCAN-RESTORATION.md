@@ -1,10 +1,12 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R54 are complete. The whole-November restoration goal is active.
-Both immutable information-radar segments now cover actual **127–137**:
-`information-a-r01` on 127–132 and `information-b-r01` on 133–137. **R55** must
-assemble and check the whole native article before selecting complete status.
+R00–R55 are complete. The whole-November restoration goal is active.
+Information radar is complete on actual **127–137** as `information-r01`, with
+both original segments embedded exactly. November has **29 complete articles,
+no partial articles, six non-owning headings and five unclassified identities**.
+**R56** starts with source extent and structure checks for **메아리**, catalog
+opener 222; 디버깅 룸, catalog opener 225, may join the bounded batch if it fits.
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
 Track execution in
@@ -306,32 +308,36 @@ restored JSON/assets and faithful source evidence first.
 | R50 — 통합 소프트웨어 opening segment a | Actual 232–237 of observed 232–239; whole article remains partial | 207 identical files; 74 paragraphs, 12 section records, five product profiles, five attributed quotations, six Lisa components, eleven named commands and three original illustrations; 52 pixel checks, 116 invalid cases; unchanged 258-test baseline reused |
 | R51 — 통합 소프트웨어 final segment b | Actual 238–239; all source folios covered, whole assembly pending | 73 identical files; 30 paragraphs, three section records, 33 source claims, one cross-column quotation, anticipated hardware requirements, alternative OEM packaging and original closing emblem; 17 pixel checks, 121 invalid cases; unchanged 258-test baseline reused |
 | R52 — complete 통합 소프트웨어 assembly | Actual 232–239; complete native article package | 288 identical files including 280 exact embedded segment files; 104 paragraphs, 15 sections, 206 literal fields, nine quoted literals and 448 scoped identities; explicit paragraph/caption/product resolutions, 69 pixel checks, 96 invalid cases and 260 fresh regressions |
-
 | R53 — information radar domestic opening a | Actual 127–132 of observed 127–137; whole article remains partial | 325 identical files; 15 news items, 55 paragraphs, six tables / 815 cells, 42 award occurrences, four distinct print specimens and seven figures; explicit MIC 130/131/130 continuation, 83 pixel checks and 104 invalid cases; unchanged 260-test baseline reused |
-
 | R54 — information radar foreign final b | Actual 133–137; all source folios covered, whole assembly pending | 277 identical files; ten reports, eleven subsections, sixty paragraphs, 356 literal fields, two numbered sequences, translation roles, ADPCM ratio/stages, ten attributions and closing emblem; 68 pixel checks, 107 invalid cases; unchanged 260-test baseline reused |
+| R55 — complete information radar | Actual 127–137; both immutable native segments retained | 611 identical files, including 602 embedded originals; 25 items, 115 paragraphs, six tables / 815 cells and eight figures; explicit manual chart raster, 151 pixel checks, 98 damage cases and 262 fresh PDF/JPEG regressions |
 
-Immediate next action: **R55**, checked whole **127–137** assembly of
-**정보 레이다**, canonical identity `maso-1984-11-toc-0035`, from both immutable
-segments. Preserve all **602 embedded segment files**, 25 report owners,
-115 prose paragraphs, 119 source blocks, eight original figures, 143 raw OCR
-records and 151 region crops. Domestic/foreign is a new category boundary,
-not a continued paragraph. The article stays partial until all source/structure/
-range/asset checks and an independent exact whole-article rebuild pass.
+Immediate next action: **R56**, establish actual source extent, title/byline and
+native structures of **메아리**, canonical identity `maso-1984-11-toc-0036`,
+catalog opener 222, using full pages and adjacent material before mapping.
+**디버깅 룸** (`0037`, catalog opener 225) may join only if the two-identity,
+six-new-mapped-view and twenty-outside-lookup limits fit. TOC pointers alone do
+not establish either extent. The other unresolved identities are **복덕방**
+(226), **Q&A** (229) and **광고색인** (240). Covers/source-image accounting and
+checked whole-issue native export/rebuild remain required.
 
-The existing survey-only assembly mode rejects tables. Extend the restoration
-assembly contract explicitly where needed; never remove or flatten the domestic
-six tables / 815 cells to fit it. Preserve all blank/rank/ditto/roster/specimen
-ownership and both MIC joins. Bind resource-bar observations to their explicit
-1958×1371 manual-review crop coordinates, separately from the 6000-scale OCR
-asset; retain approximate extents and unknown exact X counts. Keep foreign
-report/subsection/claim/sequence/ratio/translation/attribution/qualification scopes
-and the original closing emblem. Check all 151 master-derived crops and actual
-source damage cases. If shared restoration code changes, run the relevant fresh
-PDF/JPEG regressions while preserving older modes. No new OCR or frozen
-checkpoint scripts are needed. No reading-room work is included; preserve all
-four saved snapshots. Five other unresolved identities, covers/source accounting
-and whole-issue native export/rebuild remain required.
+Preserve complete **정보 레이다**, actual **127–137**, as `information-r01`:
+**611 exact native files**, including **602 embedded segment files**, 25 report
+owners, 115 paragraphs, 119 source blocks, eight original figures, 143 raw OCR
+records and 151 region crops. The opt-in `regional-news-v1` restoration adapter
+retains six tables / 815 cells, blanks/rank/ditto/roster/specimen ownership and
+both MIC joins. Resource-bar observations bind the exact **1958×1371** review
+raster and page-to-crop transform, separately from the native OCR scan; extents
+remain approximate and exact X counts unknown. Foreign subsections, source
+claims, sequences, ratio/translation/attribution scopes, qualifications and the
+closing emblem remain explicit. Domestic/foreign is a new category, with no
+paragraph join. All **151 pixel checks, 98 damage cases and 262 fresh PDF/JPEG
+regressions** pass. The PDF helper filename collision caught by the first
+regression run was corrected by restoring the existing helper exactly and using
+a separate JPEG adapter; failed attempts remain recorded. All 53 prior catalog
+packages/evidence, six heading classifications, four saved readers and shared
+plans remain intact. Never rerun frozen checkpoint helpers. No new OCR or reader
+implementation/build work was done.
 
 Preserve final **133–137** as `information-b-r01`: **277 exact native files**,
 ten reports, eleven subsections, sixty paragraphs, 356 numeric/Latin fields,
@@ -600,7 +606,7 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-eight complete article packages, one partial article, six non-owning
+November now has twenty-nine complete article packages, no partial articles, six non-owning
 headings and five unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.

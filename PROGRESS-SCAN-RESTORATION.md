@@ -1,21 +1,17 @@
 # Donated scan restoration progress
 
-Updated 2026-11-15. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
+Updated 2026-11-16. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R40 checkpoints complete: twenty-two November 1984 articles have complete
+**R00–R55 checkpoints complete: twenty-nine November 1984 articles have complete
 reproducible JSON/assets packages, with no partial articles. The latest is
-비지캘크 한계의 극복 on actual 180–184: typed worksheet grids, blanks/formulas,
-command sequences, aggregation/block-transfer relationships, original assets and
-source discrepancies are preserved. ISAM remains complete on actual 174–179.
-어음 거래 관리 and the assembled 의료보험 수가계산 also remain complete.
-Complete 리스즈트 retains its independent program contexts
-and immutable segments. Both features and the assembled game
-articles also retain their original segments. Six section headings have
-source-backed non-owning classifications.**
+정보 레이다 on actual 127–137: 25 news items, 115 paragraphs, six tables / 815
+cells, eight original figures and qualified chart coordinates retain their source
+ownership. All 611 native files reproduce exactly, including both immutable
+segments. Six section headings have source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Twelve canonical identities await disposition. The 24 cleaned source sets
+Five canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -3215,3 +3211,49 @@ specimens, award/role scope and qualified chart coordinate basis alongside these
 foreign-news structures. Five other identities, covers/source accounting and
 whole-issue native export/rebuild remain required. **The November goal remains
 active.**
+
+
+## R55 — complete information radar, actual 127–137
+
+**정보 레이다** (`maso-1984-11-toc-0035`) now has a checked whole native package,
+`information-r01`. It embeds all **602 original segment files** exactly and
+retains **25 news items, 115 paragraphs, 119 source blocks and eight figures**.
+The domestic/foreign boundary is a new category, with no paragraph join.
+Historical partial-segment declarations remain in the originals; active records
+resolve whole-article coverage and the final closing emblem.
+
+The opt-in `regional-news-v1` restoration adapter retains all **six tables / 815
+cells**, 42 award occurrences, three ASOCIO officers, blank/rank/ditto scopes,
+four distinct HANIT specimens and the MIC physical **130/131/130** continuation.
+Foreign subsections, numbered sequences, claims, translation roles/directions,
+ADPCM stages/ratio endpoints, attributions, source disagreements and unclosed
+delimiters retain typed identities and exact source ranges. The resource chart
+binds its exact **1958×1371 manual-review raster** and page-to-crop transform;
+the native OCR scan keeps its separate coordinate basis. Bar extents remain
+approximate and exact X counts unknown.
+
+The selected export and independent rebuild contain **611 identical files**.
+All **151 master-derived crops, 143 original OCR bindings, 594 ZIP members and
+98 damaged native/source cases** pass. No new mapping or OCR was needed.
+Fresh regressions pass **214 PDF tests and 48 JPEG/recognition tests**.
+The first PDF run caught a helper filename collision; the existing PDF helper
+was restored byte-for-byte and the new JPEG adapter moved to a separate module.
+Three initial projection failures corrected award-category scoping, nested
+relocation membership and null scope references. Independent checks also caught
+a figure-key expectation and a relative-path cache comparison; those checker
+fixes changed no native source data. Failed attempts and logs remain retained.
+
+All **53 earlier selected catalog packages and frozen evidence**, six heading
+classifications, four saved readers, both shared operating plans, source inputs
+and ten runtime files remain intact. Cleanup was preview-only. **34 private
+R55 evidence files** are frozen. Reading-room implementation and builds were
+untouched; the reader remains a one-time human visual sanity check.
+
+See the [R55 result](metadata/catalog/scan-restoration/1984-11-information.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+November now has **29 complete articles, no partial articles, six non-owning
+headings and five unclassified identities**. Next is **R56**, source extent and
+structure checks for **메아리**, catalog opener 222; **디버깅 룸**, opener 225,
+may join only within the bounded batch limits. Covers/source accounting and
+checked whole-issue native export/rebuild remain required. **The November goal
+remains active.**
