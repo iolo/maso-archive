@@ -27,14 +27,15 @@ M09 completes feature source coverage on actual 32–37: 122 exact files,
 and all four bibliography entries. M10 completes the whole feature on actual
 14–37: 598 exact native files, all original segment indexes retained, two
 source-compared split-word joins and 282 fresh passing restoration tests. There
-are now two complete articles, one partial article, 35 pending article candidates,
+are now three complete articles, no partial articles, 35 pending article candidates,
 one completed heading, five pending headings and 226 source images awaiting
 full-page disposition.
 M11 restores 추리력 테스트 게임 on actual40–45 as a checked 91-file opening
 segment. M12 adds the final Apple listing on46 as 17 exact native files and
 classifies the non-owning heading39 with eleven child entries in six exact files.
-Continue with M13 whole-article assembly, then 모래시계 on47–50, in bounded
-checkpoints.
+M13 completes the whole reasoning-game article on 40–46: 117 exact files, four
+independent programs, one explicit Apple continuation and 286 fresh passing tests.
+Continue with M14, 모래시계 on 47–50, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -109,6 +110,7 @@ labels and the preserved exports retain their existing values.
 | March 1984 whole-feature assembly — M10 | Passed; whole issue active | Actual 14–37; 598 exact native files, all 589 embedded segment files unchanged, 19,065 native index records, two split-word joins and 282 fresh passing regressions |
 | March 1984 reasoning-game opening — M11 | Passed; whole article partial | Actual 40–45; 91 exact native files, four source versions, 391 physical rows / 356 logical units, 66 table cells, 42 qualified graphic runs and the complete source flowchart; 46 and assembly pending |
 | March 1984 reasoning-game final segment and hobby heading — M12 | Passed; whole article assembly pending | Actual46: 17 exact files, 144 physical rows / 110 numbered statements; non-owning heading39: six exact files and eleven child entries; five exact source crops and fifteen damaged cases checked |
+| March 1984 whole reasoning-game assembly — M13 | Passed; whole issue active | Actual 40–46: 117 exact files, all 108 embedded segment files unchanged, four independent programs / five original fragments, explicit Apple 1390/1400 continuation, 24 source crops and 286 fresh regressions |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -4167,3 +4169,54 @@ article, 35 pending article candidates, one completed heading and five pending
 headings**. Continue with **M13**, complete40–46 article assembly, then
 **모래시계** on47–50. See [the final-segment result](metadata/catalog/scan-restoration/1984-03-reasoning-final.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M13 — March complete reasoning-game article, actual 40–46
+
+Completed **추리력 테스트 게임**, canonical **추리력테스트**, as
+**reasoning-jpeg-assembly-r01**. All **117 native files** match an independent
+fresh rebuild, including every one of the **108 original segment files**.
+The seven-page article retains **535 physical rows / 466 logical units**,
+2,140 physical fields, 3,468 BASIC source lexemes, 414 numeric occurrences and
+69 physical continuation rows. Both native tables retain all 66 cells, and the
+source photograph and complete flowchart remain bound to their original regions.
+
+An opt-in `program_links` extension to scoped native assembly binds every
+original listing group exactly once. **PET, SPC-1000, FC-30 and Apple** remain
+four independent source versions. The Apple program retains its two original
+fragments as one program: **190 physical rows / 150 numbered units**, 1000–2490.
+The **1390 HOME / 1400 PRINT** boundary was compared in full-page context;
+both immutable incoming/outgoing declarations agree. All source code bytes
+remain equal to the concatenated original downloads. This contract covers
+complete numbered units; it does not reconstruct a split statement.
+
+All **5,067 native index records** retain their original values, IDs and
+coordinates inside source envelopes. New program records supply explicit source
+correction pointers, typed listing/physical/logical identities, active block
+owners and download ranges. Earlier recipes without `program_links` retain
+their exact projection. The selected M10 feature validates with the updated
+implementation. Only four exact stale extent/review-status notes are superseded;
+all 33 local source qualifications, 42 unresolved graphic runs, 51 figure labels,
+seven source paragraphs and the original prose-ending star remain preserved.
+The original flowchart keeps 21 nodes / 25 drawn connectors and its qualified open
+endpoints, blank display and historical wording. Original encoded bytes,
+execution, technical accuracy, exact screen columns and full human proofreading
+remain unverified.
+
+Independent checks pass for **24 original-master crops**, 22 recognition bindings,
+25,935 typed references, 16,576 native ranges and 98 raw ZIP members. Fifteen damaged
+actual-program cases reject lost or duplicated fragments, source-unit omissions,
+wrong pointers/ranges/versions/boundaries, missing continuity and inferred
+execution/bytes. All M05–M12 frozen evidence remains exact. Four new test methods
+cover source-preserving rebuilds, invalid boundary declarations, independent
+versions and rehashed projection tampering. Fresh required regressions pass:
+**214 PDF, 60 image, nine recognition-map and three issue-supplement tests; 286 total**.
+No new mapping or OCR ran. Cleanup was previewed without deletion.
+
+All 273 sources remain in the ledger; 40–46 now have complete native article-source
+dispositions. **226 images** still await full-page disposition. Whole March
+remains active with **three complete articles, no partial articles, 35 pending
+article candidates, one completed heading and five pending headings**. Continue
+with **M14**, **모래시계**, actual 47–50, checking its boundary against 51.
+See [the whole-article result](metadata/catalog/scan-restoration/1984-03-reasoning-assembly.json),
+[native continuity contract](docs/PDF-RESTORATION.md) and
+[active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M13",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0003",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "selected_package": "archive/scans/1984-03/packages/reasoning-jpeg-assembly-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/reasoning-jpeg-assembly-r01/manifest.json",
+    "sha256": "39f8094b57dceca4254c461d07bd6324fd3104e9054ebd00a9ccbcfa6e60513b",
+    "bytes": 20568
+  },
+  "exact_files": 117,
+  "exact_embedded_segment_files": 108,
+  "native_structure": {
+    "source_views": 7,
+    "mapped_regions": 24,
+    "active_blocks": 17,
+    "original_figures": 2,
+    "independent_programs": 4,
+    "original_listing_fragments": 5,
+    "program_continuations": 1,
+    "physical_rows": 535,
+    "logical_units": 466,
+    "physical_fields": 2140,
+    "basic_source_fields": 3468,
+    "numeric_literal_occurrences": 414,
+    "physical_continuation_rows": 69,
+    "tables": 2,
+    "table_cells": 66,
+    "source_uncertainties": 33,
+    "unresolved_graphic_runs": 42,
+    "figure_labels": 51,
+    "flow_nodes": 21,
+    "flow_connectors": 25,
+    "paragraphs": 7
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-09/validation.json",
+    "sha256": "c2937c9d12ae7f42c700a55db2808118f7ed26e80032c5d391d0a20d8947e4fd",
+    "bytes": 2209
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-09/assembly-recipe-r01.json",
+    "sha256": "084f4a7b0f059a8355b893cedc3d8207f37318c87dfa59367b088a0f7c9230d2",
+    "bytes": 4319
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-09/source-ledger.json",
+    "sha256": "d7918e1b48b1531551cae85163253a678d8211728c87ea447f2f943baf695766",
+    "bytes": 189679
+  },
+  "source_dispositions_pending": 226,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-09/whole-progress-m13.json",
+    "sha256": "1df7c51e747ec724981b89dc83ec7f1b8c3cda2e9096b995cdf677527ee2ea38",
+    "bytes": 150647
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-09/evidence-manifest.json",
+    "sha256": "51c15ae7ce0f69e2fedcfd9bcbfe77ad00c772cfa247184f76ce1a52f5488892",
+    "bytes": 4905
+  },
+  "shared_implementation_changed": true,
+  "fresh_regressions": 286,
+  "next": "M14: restore 모래시계, canonical maso-1984-03-toc-0004, actual47–50; verify its following boundary against51. Whole March remains active."
+}

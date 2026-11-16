@@ -48,13 +48,14 @@ files, four independent source versions, 391 physical BASIC rows, 66 table cells
 and the complete source flowchart. M12 adds the final Apple listing on actual46:
 17 exact native files, 144 physical rows and 110 numbered statements. It also
 classifies heading39 as non-owning, retaining eleven child entries and the
-original printed navigation references in six reproducible files. All40–46
-source folios are now covered in separate segments; whole-article assembly
-remains pending. The whole issue remains active: two complete articles, one
-partial article, 35 pending article candidates, one completed heading and five
-pending headings. There are 226 source images still awaiting full-page
-disposition. Continue with M13 whole-article assembly, then 모래시계 on47–50,
-in bounded checkpoints.
+original printed navigation references in six reproducible files. M13 completes
+the reasoning-game article on 40–46: 117 exact native files, all 108 original
+segment files retained, four independent source programs and an explicit Apple
+1390/1400 continuation. All 24 source crops, every native source value and 286 fresh
+restoration tests pass. The whole issue remains active: three complete articles,
+no partial articles, 35 pending article candidates, one completed heading and
+five pending headings. There are 226 source images still awaiting full-page
+disposition. Continue with M14, 모래시계 on 47–50, in bounded checkpoints.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

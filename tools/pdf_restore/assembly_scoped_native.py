@@ -44,16 +44,19 @@ def validate_recipe(recipe):
     required = {'index_mode', 'source_index_mode', 'segments', 'expected_source_indices',
         'inventory', 'evidence', 'uncertainties', 'resolved_notes', 'prose_joins',
         'paragraph_links', 'logical_aliases'}
-    if (set(recipe) != required or recipe['source_index_mode'] != MODE or
+    if (set(recipe) not in (required, required | {'program_links'}) or recipe['source_index_mode'] != MODE or
             recipe['index_mode'] != 'structured-programs-v1'):
         raise ValueError('Invalid scoped native recipe fields or mode')
     # Reuse the common strict inventory, segment, note and prose-join contract.
     from .assembly_structured import validate_recipe as validate_common
     common = {k: v for k, v in recipe.items()
-              if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases'}}
+              if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases', 'program_links'}}
     common.update(relationship_links=[], program_links=[], group_links=[], example_links=[])
     validate_common(common)
     names = [r['name'] for r in recipe['segments']]
+    if 'program_links' in recipe:
+        from .assembly_scoped_programs import validate_links
+        validate_links(recipe['program_links'], names)
     aliases = set()
     for row in recipe['logical_aliases']:
         if (set(row) != {'segment', 'index', 'source_unit_id'} or row['segment'] not in names or
@@ -477,5 +480,8 @@ def project(recipe, originals):
         resolved_continuations=joined, paragraph_continuations=continuations,
         coverage=dict(article_source_indices=indices, complete_article=True, assembly_pending=False,
             source_pages_missing=False), character_perfect_code=False)
+    if 'program_links' in recipe:
+        from .assembly_scoped_programs import project_programs
+        correction['programs'] = project_programs(recipe['program_links'], contexts, listing)
     validate_package(package)
     return package, correction

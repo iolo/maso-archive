@@ -3847,6 +3847,25 @@ listing/session contexts and all source-local uncertainties. Assembly asserts
 neither execution nor recovery of original encoded bytes. Existing modes and
 historical exports retain their original contracts.
 
+An optional `program_links` array adds complete numbered-unit program continuity
+within this mode. Omitting it preserves the historical projection exactly.
+Each link names the left/right source segment and listing, the observed last/
+first printed numbers, `source_unit_complete: true` and source-review evidence.
+Both immutable incoming/outgoing declarations must agree with these numbers,
+source folios and version. The original code ranges must be adjacent, each
+source fragment must have complete native row coverage, and the final fragment
+must declare the observed ending. Split statements require a different contract.
+
+With this option, `programs` binds every original listing group exactly once.
+It records each source fragment's correction pointer, typed listing identity,
+active blocks, physical/logical identities and listing-download range. Complete
+independent versions remain separate; explicitly linked fragments form one
+program with ordered source occurrences. Original `native_indexes` values and
+all embedded files remain unchanged. This establishes source continuity without
+asserting execution or recovered encoded bytes. The March reasoning-game assembly
+uses it to retain PET, SPC-1000 and FC-30 independently and join the two Apple
+fragments across the source1390/1400 boundary.
+
 ### Source-owned news assembly (`regional-news-v1`)
 
 The opt-in news extension of `structured-regions-v1` preserves immutable prose

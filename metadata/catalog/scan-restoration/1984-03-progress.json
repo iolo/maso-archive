@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 2,
+  "complete_whole_scan_articles": 3,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -671,8 +671,8 @@
       "title": "추리력테스트",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0003",
         "title": "추리력테스트",
@@ -846,7 +846,7 @@
         }
       },
       "new_selected_restoration": {
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "observed_source_title": "추리력 테스트 게임",
         "observed_opening_folio": 40,
@@ -862,7 +862,7 @@
           46
         ],
         "continuation_pending": [],
-        "assembly_pending": true,
+        "assembly_pending": false,
         "segments": [
           {
             "checkpoint": "M11",
@@ -904,7 +904,29 @@
             }
           }
         ],
-        "all_source_folios_covered": true
+        "all_source_folios_covered": true,
+        "checkpoint": "M13",
+        "directory": "archive/scans/1984-03/packages/reasoning-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/reasoning-jpeg-assembly-r01/manifest.json",
+          "sha256": "39f8094b57dceca4254c461d07bd6324fd3104e9054ebd00a9ccbcfa6e60513b",
+          "bytes": 20568
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-09/validation.json",
+          "sha256": "c2937c9d12ae7f42c700a55db2808118f7ed26e80032c5d391d0a20d8947e4fd",
+          "bytes": 2209
+        },
+        "actual_folios": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "source_extent_covered": true
       },
       "historical_printed_extent_candidate": [
         40,
@@ -4881,14 +4903,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-08/source-ledger.json",
-    "sha256": "7902be420175118f255c128a961d53b29d97d377fc936e0efae51c7be1b705ec",
-    "bytes": 184696
+    "path": "archive/scans/1984-03/restoration/whole-issue-09/source-ledger.json",
+    "sha256": "d7918e1b48b1531551cae85163253a678d8211728c87ea447f2f943baf695766",
+    "bytes": 189679
   },
-  "current_checkpoint": "M12-complete",
-  "next": "M13: assemble the complete40–46reasoning-game article from both preserved JPEG segments, retaining four independent versions and one Apple continuation. Then restore 모래시계 on47–50. Whole March remains active.",
+  "current_checkpoint": "M13-complete",
+  "next": "M14: restore 모래시계, canonical maso-1984-03-toc-0004, actual47–50; verify its following boundary against51. Whole March remains active.",
   "pending_article_candidates": 35,
   "pending_heading_candidates": 5,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1
 }
