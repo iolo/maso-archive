@@ -1,7 +1,8 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R60 are complete. The whole-November restoration goal is active.
+R00–R61 are complete. The November restoration campaign is complete within its
+documented native-structure, source-accounting and reproducibility scope.
 All **40 canonical identities** now have evidenced outcomes: **34 complete
 article packages, no partial articles, six non-owning headings and no
 unclassified identities**. The latest is **광고색인**, the lower index on actual
@@ -12,8 +13,11 @@ covers and 37 visually classified other scans, with **no pending dispositions**.
 The other scans retain advertisements, contents/credits/colophon, notices,
 non-owning section dividers and intact wide forms; this is not a claim of full
 transcription of every printed region. **R61** qualifies whole-issue native
-export/standalone checking and fresh selected-article/issue rebuilds before the
-final completion audit.
+export/standalone checking: all 34 selected articles freshly reproduce **6,237
+native files**, and two independent issue exports reproduce **6,306 files**.
+The full completion audit and **275 fresh tests** pass. Preserve the original
+161 gap/limitation notes in 18 articles; complete does not mean local unknowns
+are resolved. See the [reproduction handoff](docs/SCAN-RESTORATION-1984-11.md).
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
 Track execution in
@@ -77,7 +81,8 @@ indices and PDF geometry. Connect the cleaned JPEGs at that input boundary,
 replacing PDF rendering with image loading where needed. Direct JPEG integration
 for mapped Tesseract and native article export passed R00. Structured JPEG
 segment assembly passed R11 with complete Feature I and unchanged PDF behavior.
-Whole-issue export remains to be integrated before its first JPEG use. Existing
+Whole-issue JPEG export and standalone checking passed R61 with an exact fresh
+issue rebuild and separate fresh rebuilds of all selected articles. Existing
 PDF commands remain valid for PDF inputs.
 
 Keep this input change small. Reuse the pinned OCR runtime, reviewed region maps,
@@ -322,15 +327,14 @@ restored JSON/assets and faithful source evidence first.
 | R57 — 복덕방 and Q&A | Actual 226–228 and 229–231 | 62 + 124 exact native files; 54 notices with unresolved contact scopes, six exchanges, 40 catalog rows / 120 cells and original menu controls; 47 pixel checks, 94 damage cases; unchanged 262-test baseline reused |
 | R58 — 광고색인 | Lower index on observed 240; upper advertisement separate | 21 exact native files; 25 advertiser rows / 50 cells, 28 reference tokens including three cover-face codes, original tree; four pixel checks, 48 damage cases; unchanged 262-test baseline reused |
 | R59 — covers and partial source accounting | Four cover faces; 20 outside source scans | 11 exact cover-set files, four unchanged original rasters, 32 selected labels / eight teaser groups; 246 master hashes verified, 17 visual dispositions pending; 25 cover/disposition + seven accounting damage cases; 269 fresh regressions |
+| R60 — complete source accounting | Final 17 outside source scans | All 246 images disposed; 205 article-source images, four covers and 37 other scans; 17 exact derived review views, 19 damaged accounting cases; unchanged 269-test baseline reused |
+| R61 — whole-issue export and completion audit | All 40 canonical outcomes and 246 source images | 34 fresh article rebuilds / 6,237 exact files; two whole-issue exports / 6,306 exact files; 24 damaged actual issue cases; 161 original gap/limitation notes preserved; 275 fresh regressions |
 
-Immediate next action: **R60**, visually classify the **17 remaining ordinary
-scans**: filename numbers **63–65, 105–109, 125–126, 138–139, 196–197, 209,
-241–242**. Use their actual contents; do not infer roles or printed folios from
-filenames. Keep the twenty-outside-lookup bound. Reconcile all 246 source images
-with selected articles, covers and unlisted material. Then qualify whole-issue
-JPEG native export and standalone checking, retain native packages and unlisted
-source material with explicit provenance, compare a fresh exact rebuild and audit
-every completion requirement. No reading-room work is included.
+November has no remaining campaign work. Preserve `issue-r01`, its selected
+native components, complete source accounting and frozen completion evidence.
+The [handoff](docs/SCAN-RESTORATION-1984-11.md) explains the standalone check and
+fresh reproduction commands. A later source correction or another issue is a
+new scoped campaign. No further reading-room work is scheduled.
 
 Preserve **`covers-r02`**, a separate issue-level cover set with **11 exact native
 files**. Four full original JPEGs retain all supplied pixels, wear, stains,
@@ -343,12 +347,13 @@ text-transcription claim. Source review corrected the inner-back spelling to
 the diagonal anniversary annotation. Both earlier r01 export/rebuild directories
 remain pinned.
 
-The partial source ledger records **205 selected article-source images, four
+At R59, the partial source ledger recorded **205 selected article-source images, four
 covers, 16 advertisements/publisher sales notices, one TOC/credits/colophon
 image, three unlisted contest notices and 17 pending images**. All 246 master
 hashes and unique identities pass. Three two-image advertisement spreads remain
 explicit; printed folios and canonical body ownership were not invented.
-Seventeen pending images prevent a final source-accounting claim. The actual
+Those seventeen pending images prevented a final source-accounting claim until
+R60 disposed them. The R59 actual
 cover/disposition and accounting audits reject **25 + seven damaged cases**.
 All 59 earlier catalog packages/evidence, six headings, global covers and four
 saved readers are preserved. **63 private evidence files** are frozen. Fresh
@@ -709,9 +714,9 @@ unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
 JPEG assembly is now integrated and checked; use the same source/structure and
-fresh native rebuild gates for later long articles. Whole-issue export remains
-to be checked before first use.
-Then continue the remaining articles in bounded batches through issue closeout.
+fresh native rebuild gates for later long articles. Whole-issue export and the
+final November completion audit passed R61; all earlier bounded batches remain
+historical evidence.
 R01 delivered the editorial; R02 Bit
 Pattern; R03 the complete four-page Apple FORTRAN installment with separate
 compiler/output/symbol contexts and an original plotted figure; R04 the two-page
@@ -752,6 +757,7 @@ rebuild exactly, all 32 source crops pass pixel checks, all 25 earlier packages
 still validate with exact bytes/evidence, and 242 shared regressions pass.
 At R27, November had 14 complete articles, no partial articles, six non-owning
 headings and 20 identities awaiting disposition. R28 then completed 깡통이 통-통-통
-on actual 102–104; current counts and next work are listed above. The remaining issue scope includes every
-unresolved identity, covers/source-image accounting and a checked whole-issue
-native export/rebuild; the reading room remains a sample presentation.
+on actual 102–104; final counts and handoff are listed above. All canonical
+outcomes, covers/source accounting and whole-issue export/rebuild are now
+complete within the documented scope; the reading room remains a sample
+presentation.

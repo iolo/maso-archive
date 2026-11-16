@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maso-archive.invalid/schemas/image-issue.schema.json",
+  "title": "Complete source-accounted native JPEG issue",
+  "$defs": {
+    "pin": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "kind": {
+      "const": "jpeg-issue"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+    },
+    "issue_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+    },
+    "availability": {
+      "const": "complete"
+    },
+    "verification": {
+      "const": "sample-reviewed"
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "canonical_identities": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "article_packages": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "group_headings": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_images": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "selected_article_source_images": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "cover_faces": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "other_source_images": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_classifications": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      },
+      "required": [
+        "canonical_identities",
+        "article_packages",
+        "group_headings",
+        "source_images",
+        "selected_article_source_images",
+        "cover_faces",
+        "other_source_images",
+        "source_classifications"
+      ],
+      "additionalProperties": false
+    },
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "toc_entry_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+          },
+          "article_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "original_manifest": {
+            "$ref": "#/$defs/pin"
+          }
+        },
+        "required": [
+          "toc_entry_id",
+          "article_id",
+          "path",
+          "original_manifest"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "headings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "toc_entry_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+          },
+          "body_owner": {
+            "const": false
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "validation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "original_evidence": {
+            "$ref": "#/$defs/pin"
+          },
+          "original_validation": {
+            "$ref": "#/$defs/pin"
+          }
+        },
+        "required": [
+          "toc_entry_id",
+          "body_owner",
+          "evidence",
+          "validation",
+          "original_evidence",
+          "original_validation"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "covers": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "const": "covers/cover-set.json"
+        },
+        "original_manifest": {
+          "$ref": "#/$defs/pin"
+        }
+      },
+      "required": [
+        "path",
+        "original_manifest"
+      ],
+      "additionalProperties": false
+    },
+    "other_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "classification": {
+            "enum": [
+              "advertisement",
+              "table-of-contents",
+              "unlisted-notice",
+              "section-divider",
+              "unlisted-form"
+            ]
+          },
+          "original": {
+            "$ref": "#/$defs/pin"
+          },
+          "asset": {
+            "$ref": "#/$defs/pin"
+          }
+        },
+        "required": [
+          "source_index",
+          "classification",
+          "original",
+          "asset"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "id",
+    "issue_id",
+    "availability",
+    "verification",
+    "counts",
+    "articles",
+    "headings",
+    "covers",
+    "other_sources",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

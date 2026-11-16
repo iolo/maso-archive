@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1984-11",
-  "status": "in-progress",
+  "status": "complete",
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
@@ -10810,7 +10810,7 @@
       ]
     }
   ],
-  "next": "R61: qualify data-only whole-issue JPEG export and standalone checking,including the34 selected native articles,six non-owning canonical headings,four original cover faces and37 other retained original source scans. Use the complete R60 246-image source accounting and pinned canonical TOC;preserve all unlisted classifications,source groups,qualified folios,explicit limitations and package/evidence pins. Freshly rebuild the34 selected native articles from their saved recipes without OCR or frozen helper execution,check all outputs exactly,then build a fresh independent whole-issue export and compare every file. Run relevant fresh PDF/JPEG/cover/issue regressions if implementation changes. Audit every canonical identity,ownership,continuity,asset and source range plus known gaps and reproduction handoff before marking the November goal complete. Preserve earlier packages/frozen evidence,global cover selection,four saved readers and both shared plans. No reading-room implementation/build work. The whole-November goal remains active.",
+  "next": "November1984 restoration is complete within the documented native-structure/source/reproducibility scope. Preserve all selected articles,the complete cover set,246-image source accounting,6306-file whole-issue export and frozen evidence. Retain the161gap/limitation notes in18articles and all local glyph/association/source-elision qualifications;do not infer recovered encoded bytes,execution,full human proofreading or complete physical-source supply. Reproduction is documented in docs/SCAN-RESTORATION-1984-11.md. The four saved reader snapshots remain the earlier one-time visual sample;no new reader implementation/build work is scheduled. Further source-level correction or another issue requires a new explicitly scoped campaign.",
   "group_headings": 6,
   "cover_set": {
     "path": "archive/scans/1984-11/packages/covers-r02",
@@ -10855,5 +10855,33 @@
     "cover_faces": 4,
     "other_visually_disposed_images": 37,
     "pending_visual_dispositions": 0
-  }
+  },
+  "whole_issue": {
+    "path": "archive/scans/1984-11/packages/issue-r01",
+    "manifest": {
+      "path": "archive/scans/1984-11/packages/issue-r01/manifest.json",
+      "sha256": "c0c3fb99689947a628a5104be1487c9da84da5a49c781cade76aae5a13553bf1",
+      "bytes": 1291976
+    },
+    "availability": "complete",
+    "verification": "sample-reviewed",
+    "native_files": 6306,
+    "evidence": {
+      "path": "archive/scans/1984-11/restoration/batch-61/evidence-manifest.json",
+      "sha256": "71315979b627f5122a5fee73a44b1dc91437daa268bbecc89d48dab0bd199c85",
+      "bytes": 6623
+    },
+    "completion_audit": {
+      "path": "archive/scans/1984-11/restoration/batch-61/completion-audit.json",
+      "sha256": "4e20b39fee3b38334511cadf1dd2b1b20422270ac975f7a1ad685577f6219dc1",
+      "bytes": 185080
+    },
+    "reproduction_handoff": {
+      "path": "docs/SCAN-RESTORATION-1984-11.md",
+      "sha256": "c261918c21d636013de4dd7b3e86e8198fcf995e0c5b443c8c01edcc301bb9c4",
+      "bytes": 4071
+    }
+  },
+  "retained_gap_and_limitation_notes": 161,
+  "articles_with_retained_gap_and_limitation_notes": 18
 }

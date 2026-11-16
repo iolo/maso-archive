@@ -3831,3 +3831,46 @@ offline package validation. It remains distinct from the regional OCR scan.
 Approximate bar extents retain unknown exact glyph counts. Existing assembly
 modes and both shared operating plans are unchanged. No reading-room changes
 are needed for this restoration contract.
+
+## Complete JPEG issue packages
+
+`tools.pdf_restore.image_issue` exports a data-only issue after canonical article
+and source-image accounting is complete. It preserves each selected native
+article directory and its manifest exactly, keeps the four-face native cover set
+separate, and copies every other classified source JPEG byte-for-byte. Canonical
+non-owning headings retain their original classification evidence and child
+context. The issue schema is `schemas/image-issue.schema.json`.
+
+A saved issue recipe pins the JPEG source descriptor, canonical TOC JSONL,
+restoration ledger and complete source-accounting report, using repository-relative
+paths. The source descriptor must pin that same TOC input. Every source master is
+hash-checked during export. Article/cover packages are checked before copying;
+source geometry, actual mapped-region ownership, all canonical identities,
+non-owning headings, source groups and disposition counts must agree.
+
+```sh
+env PYTHONPATH=src:. python3 -m tools.pdf_restore.image_issue \
+  --recipe archive/scans/1984-11/restoration/batch-61/issue-recipe.json \
+  --output work/validation/november-issue-fresh
+
+env PYTHONPATH=src:. python3 -m tools.pdf_restore.image_issue \
+  --check --output work/validation/november-issue-fresh
+```
+
+Use a fresh output outside component inputs. The standalone checker needs the
+exported directory and the repository's checker/runtime, but does not read the
+original workspace inputs. It verifies exact file inventory, retained input and
+recipe bindings, native subpackages, heading outcomes, source-image dispositions,
+original unlisted rasters and their dimensions, and the schema projection. A
+separate fresh export must reproduce every output file exactly. Rebuild selected
+articles from their saved recipes as a separate gate; copying checked packages
+into an issue is not an article rebuild.
+
+`complete` means complete structural article/source accounting with reproducible
+native artifacts. It does not claim character-perfect proofreading, human
+acceptance, recovered original encoded bytes, execution, full transcription of
+advertisements/forms/notices, or that every physical page was supplied. Individual
+article gaps and glyph alternatives remain intact. External evidence and rebuild
+input pins remain provenance references; the exported issue is not a copy of the
+entire working archive. No OCR, reader implementation, reader build, global cover
+replacement or HTML rendering occurs. Existing PDF issue commands are unchanged.

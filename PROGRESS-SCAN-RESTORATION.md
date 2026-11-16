@@ -3521,3 +3521,54 @@ non-owning headings and no unclassified identities**. Source disposition is
 complete; **R61** still needs checked whole-issue native export, fresh exact
 selected-article/issue rebuilds, the final audit and reproduction handoff.
 **The November goal remains active.**
+
+## R61 — reproducible native issue and full completion audit
+
+November now has a complete **presentation-independent native issue** at
+`archive/scans/1984-11/packages/issue-r01/`: **6,306 exact files**, independently
+rebuilt byte-for-byte. It retains 34 unchanged article packages, six non-owning
+heading outcomes, the four-face original cover set, and 37 other original
+source rasters. All 40 canonical identities and all 246 retained JPEGs have
+explicit outcomes. The standalone checker works with original workspace inputs
+unavailable; external reconstruction/evidence pins remain explicit references.
+
+Separately, all **34 selected articles** were freshly rebuilt through the public
+native build/assembly entry points from their original pinned recipes:
+**6,237 exact files**. No OCR, frozen helper execution or optional preview
+rendering occurred. Copying articles into the issue was not counted as rebuilding
+them. The dedicated issue schema/exporter checks canonical hierarchy, ownership,
+source geometry, cover roles, unlisted classifications/groups, exact inventory,
+retained input bindings and original raster identities. Existing PDF commands
+remain unchanged.
+
+The initial full audit incorrectly assumed completed packages have empty `gaps`
+fields. Source review confirms **161 original gap/limitation notes in 18
+articles**. These preserve uncertain glyph/count readings, unproved local
+associations/contact scopes, source example elisions and verification limits;
+immutable segment boundary notes remain scoped to their segments, with final
+assembly joins evidenced separately. The audit and handoff were corrected;
+selected article data stayed unchanged. Completion means native structural
+restoration and reproducible artifacts, with these unknowns retained. It does
+not claim recovered encoded bytes, execution, historical correctness, full
+human proofreading or complete physical-source supply.
+
+The corrected full audit passes all canonical/source outcomes and **24 damaged
+actual issue cases**. All **60 earlier catalog-selected components and frozen
+evidence**, R60 source accounting, six heading outcomes, four saved readers,
+global cover selection, both shared plans and runtime/source inputs are intact.
+All master JPEG hashes match. The three original ZIPs also match their recorded
+hashes: **4,276,236,733 bytes**. Cleanup was preview-only.
+
+Fresh regressions pass **214 PDF, 48 JPEG/recognition/assembly, seven cover and
+six issue tests: 275 total**. Three earlier issue-test failures were fixture
+setup/output-name corrections; all logs remain retained. The 39-file
+implementation baseline adds the separate issue exporter/schema/tests and
+updates restoration command documentation. No reader implementation, build,
+server or deployment was touched.
+
+See the [whole-issue result](metadata/catalog/scan-restoration/1984-11-issue.json),
+[final issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json), and
+[reproduction handoff](docs/SCAN-RESTORATION-1984-11.md). The handoff records
+fresh export/check commands, selected-article recipes and practical limits.
+**The November restoration campaign is complete within this documented scope.**
+No further reader work or another issue is scheduled by this closeout.
