@@ -45,11 +45,16 @@ Its explicit source-scoped native indexes preserve every original record,
 typed reference and byte range; the two split-word joins are source-compared.
 M11 restores the opening of 추리력 테스트 게임 on actual40–45: 91 exact native
 files, four independent source versions, 391 physical BASIC rows, 66 table cells
-and the complete source flowchart. Actual46 and whole-article assembly remain
-pending. The whole issue remains active: two complete articles, one partial
-article, 35 pending article candidates and six pending headings. There are 226
-source images still awaiting full-page disposition. Continue with actual46 and
-the heading39 disposition, then whole-article assembly, in bounded checkpoints.
+and the complete source flowchart. M12 adds the final Apple listing on actual46:
+17 exact native files, 144 physical rows and 110 numbered statements. It also
+classifies heading39 as non-owning, retaining eleven child entries and the
+original printed navigation references in six reproducible files. All40–46
+source folios are now covered in separate segments; whole-article assembly
+remains pending. The whole issue remains active: two complete articles, one
+partial article, 35 pending article candidates, one completed heading and five
+pending headings. There are 226 source images still awaiting full-page
+disposition. Continue with M13 whole-article assembly, then 모래시계 on47–50,
+in bounded checkpoints.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

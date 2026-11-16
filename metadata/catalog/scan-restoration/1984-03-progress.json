@@ -591,8 +591,8 @@
       "title": "취미생활",
       "parent_id": null,
       "classification_candidate": "group-heading",
-      "whole_scan_status": "pending-source-backed-heading-disposition",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-source-backed-group-heading",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0002",
         "title": "취미생활",
@@ -621,7 +621,49 @@
           "sha256": "85e5865038613ee20058595b86cc312c26324ec34bd444257c4a176cad7d5673",
           "bytes": 530518
         },
-        "classification_pending": true
+        "classification_pending": false,
+        "selected_source_classification": {
+          "path": "archive/scans/1984-03/classifications/hobby-jpeg-r02/group-0002.json",
+          "sha256": "a470026ebe9781fd97fd380aff139918e5a17ec382d5f26ae10d07b345bd1a0a",
+          "bytes": 6914
+        }
+      },
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "availability": "not-applicable",
+      "child_toc_entry_ids": [
+        "maso-1984-03-toc-0003",
+        "maso-1984-03-toc-0004",
+        "maso-1984-03-toc-0005",
+        "maso-1984-03-toc-0006",
+        "maso-1984-03-toc-0007",
+        "maso-1984-03-toc-0008",
+        "maso-1984-03-toc-0009",
+        "maso-1984-03-toc-0010",
+        "maso-1984-03-toc-0011",
+        "maso-1984-03-toc-0012",
+        "maso-1984-03-toc-0013"
+      ],
+      "new_selected_classification": {
+        "checkpoint": "M12",
+        "directory": "archive/scans/1984-03/classifications/hobby-jpeg-r02",
+        "manifest": {
+          "path": "archive/scans/1984-03/classifications/hobby-jpeg-r02/manifest.json",
+          "sha256": "b95225afddf72c5a1c2dbd9ba0face05c71c05a7ae2966aeae75e4dc0f8264f6",
+          "bytes": 866
+        },
+        "record": {
+          "path": "archive/scans/1984-03/classifications/hobby-jpeg-r02/group-0002.json",
+          "sha256": "a470026ebe9781fd97fd380aff139918e5a17ec382d5f26ae10d07b345bd1a0a",
+          "bytes": 6914
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-08/validation.json",
+          "sha256": "5aba37fb04bdee8ea036958d075f261b16d15110df16a8b38628b7c1999586c6",
+          "bytes": 2525
+        },
+        "owns_standalone_body": false
       }
     },
     {
@@ -816,11 +858,10 @@
           42,
           43,
           44,
-          45
-        ],
-        "continuation_pending": [
+          45,
           46
         ],
+        "continuation_pending": [],
         "assembly_pending": true,
         "segments": [
           {
@@ -844,8 +885,26 @@
               "sha256": "f6df0553ab5b734108cf8bfb1c40bfc3f01efb16618aa2f26856f2781310668c",
               "bytes": 2076
             }
+          },
+          {
+            "checkpoint": "M12",
+            "directory": "archive/scans/1984-03/packages/reasoning-jpeg-b-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/reasoning-jpeg-b-r01/manifest.json",
+              "sha256": "069eb5223890fc5ff0e15bcb1b6e8c541031f13ccae57a76c8d0e9f076c04372",
+              "bytes": 2761
+            },
+            "actual_folios": [
+              46
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-08/validation.json",
+              "sha256": "5aba37fb04bdee8ea036958d075f261b16d15110df16a8b38628b7c1999586c6",
+              "bytes": 2525
+            }
           }
-        ]
+        ],
+        "all_source_folios_covered": true
       },
       "historical_printed_extent_candidate": [
         40,
@@ -4822,13 +4881,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-07/source-ledger.json",
-    "sha256": "105064798b9ed8bd2a7a869af86e5b39952ad260fc972b6fd1ff7d08f6903ea2",
-    "bytes": 184264
+    "path": "archive/scans/1984-03/restoration/whole-issue-08/source-ledger.json",
+    "sha256": "7902be420175118f255c128a961d53b29d97d377fc936e0efae51c7be1b705ec",
+    "bytes": 184696
   },
-  "current_checkpoint": "M11-complete",
-  "next": "M12: restore actual46as the final Apple listing segment and finish the heading39disposition, then assemble the complete40–46article. Whole March remains active.",
+  "current_checkpoint": "M12-complete",
+  "next": "M13: assemble the complete40–46reasoning-game article from both preserved JPEG segments, retaining four independent versions and one Apple continuation. Then restore 모래시계 on47–50. Whole March remains active.",
   "pending_article_candidates": 35,
-  "pending_heading_candidates": 6,
-  "partial_whole_scan_articles": 1
+  "pending_heading_candidates": 5,
+  "partial_whole_scan_articles": 1,
+  "complete_whole_scan_headings": 1
 }

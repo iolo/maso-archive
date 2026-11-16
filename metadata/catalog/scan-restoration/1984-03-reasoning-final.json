@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M12",
+  "issue_id": "maso-1984-03",
+  "toc_entry_ids": [
+    "maso-1984-03-toc-0002",
+    "maso-1984-03-toc-0003"
+  ],
+  "status": "complete-final-native-segment-and-heading",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "selected_actual_folios": [
+    39,
+    46
+  ],
+  "article_actual_extent": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "selected_package": "archive/scans/1984-03/packages/reasoning-jpeg-b-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/reasoning-jpeg-b-r01/manifest.json",
+    "sha256": "069eb5223890fc5ff0e15bcb1b6e8c541031f13ccae57a76c8d0e9f076c04372",
+    "bytes": 2761
+  },
+  "exact_files": 17,
+  "native_structure": {
+    "source_images": 1,
+    "mapped_regions": 2,
+    "initial_text_ocr_tasks": 2,
+    "recognition_retries": 0,
+    "blocks": 1,
+    "original_figures": 0,
+    "independent_listing_contexts": 1,
+    "physical_rows": 144,
+    "logical_units": 110,
+    "physical_fields": 576,
+    "basic_source_fields": 858,
+    "numeric_literal_occurrences": 77,
+    "physical_continuation_rows": 34,
+    "source_qualifications": 10,
+    "source_quote_open_units": 26,
+    "first_printed_line": 1400,
+    "last_printed_line": 2490,
+    "whole_article_complete": false
+  },
+  "heading_manifest": {
+    "path": "archive/scans/1984-03/classifications/hobby-jpeg-r02/manifest.json",
+    "sha256": "b95225afddf72c5a1c2dbd9ba0face05c71c05a7ae2966aeae75e4dc0f8264f6",
+    "bytes": 866
+  },
+  "heading_record": {
+    "path": "archive/scans/1984-03/classifications/hobby-jpeg-r02/group-0002.json",
+    "sha256": "a470026ebe9781fd97fd380aff139918e5a17ec382d5f26ae10d07b345bd1a0a",
+    "bytes": 6914
+  },
+  "heading_exact_files": 6,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-08/validation.json",
+    "sha256": "5aba37fb04bdee8ea036958d075f261b16d15110df16a8b38628b7c1999586c6",
+    "bytes": 2525
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-08/reasoning-b/recipe.json",
+    "sha256": "14b7c05876395ea44ff1e5b993e8fa3627b1e51a4afce6f1e2dde70113fcbe58",
+    "bytes": 2508
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-08/source-ledger.json",
+    "sha256": "7902be420175118f255c128a961d53b29d97d377fc936e0efae51c7be1b705ec",
+    "bytes": 184696
+  },
+  "source_dispositions_pending": 226,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-08/whole-progress-m12.json",
+    "sha256": "880fd5045ad26dd9f54b1fd2143c5dcfb36bf3c3a18aedece3619a81c05e4533",
+    "bytes": 149962
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-08/evidence-manifest.json",
+    "sha256": "38baf3d0341822475b15e96da3dd43053c73903f48089b9db0badbe43b62cb4b",
+    "bytes": 17305
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 282,
+  "next": "M13: assemble the complete40–46reasoning-game article from both preserved JPEG segments, retaining four independent versions and one Apple continuation. Then restore 모래시계 on47–50. Whole March remains active."
+}

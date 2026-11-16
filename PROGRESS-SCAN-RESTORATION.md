@@ -28,10 +28,13 @@ and all four bibliography entries. M10 completes the whole feature on actual
 14–37: 598 exact native files, all original segment indexes retained, two
 source-compared split-word joins and 282 fresh passing restoration tests. There
 are now two complete articles, one partial article, 35 pending article candidates,
-six pending headings and 226 source images awaiting full-page disposition.
+one completed heading, five pending headings and 226 source images awaiting
+full-page disposition.
 M11 restores 추리력 테스트 게임 on actual40–45 as a checked 91-file opening
-segment. Continue with actual46 and the heading39 disposition, then whole-article
-assembly, in bounded checkpoints.
+segment. M12 adds the final Apple listing on46 as 17 exact native files and
+classifies the non-owning heading39 with eleven child entries in six exact files.
+Continue with M13 whole-article assembly, then 모래시계 on47–50, in bounded
+checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -105,6 +108,7 @@ labels and the preserved exports retain their existing values.
 | March 1984 feature final source — M09 | Passed; whole article assembly pending | Actual 32–37; 122 exact native files, 899 physical code/session rows, 12,288 dump fields, 81 command-table cells and four bibliography entries; all source pages covered |
 | March 1984 whole-feature assembly — M10 | Passed; whole issue active | Actual 14–37; 598 exact native files, all 589 embedded segment files unchanged, 19,065 native index records, two split-word joins and 282 fresh passing regressions |
 | March 1984 reasoning-game opening — M11 | Passed; whole article partial | Actual 40–45; 91 exact native files, four source versions, 391 physical rows / 356 logical units, 66 table cells, 42 qualified graphic runs and the complete source flowchart; 46 and assembly pending |
+| March 1984 reasoning-game final segment and hobby heading — M12 | Passed; whole article assembly pending | Actual46: 17 exact files, 144 physical rows / 110 numbered statements; non-owning heading39: six exact files and eleven child entries; five exact source crops and fifteen damaged cases checked |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -4111,4 +4115,55 @@ Whole March remains active with **two complete articles, one partial article,
 35 pending article candidates and six pending headings**. Continue with
 **M12**, the final Apple source on46 and heading39 disposition, then complete
 article assembly. See [the opening result](metadata/catalog/scan-restoration/1984-03-reasoning-opening.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M12 — March final Apple listing and hobby heading, actual 46 and 39
+
+Restored the final source segment of **추리력 테스트 게임** as
+**reasoning-jpeg-b-r01**. All **17 native files** match a fresh independent
+rebuild. Its two source columns retain **144 physical rows / 110 numbered
+statements**, **576 physical fields**, **858 BASIC source lexemes**, 77 numeric
+occurrences and all 34 continuation rows. The Apple version continues from
+1390 HOME on45 through **1400–2490** on46. The following source starts the
+separate 모래시계 article. All source folios40–46 are now restored in two
+immutable segments; the complete article still requires assembly and its own
+audit.
+
+Every physical row was compared with the original JPEG. Keep **A.T / HREE**,
+**YOU I SHALL**, **.BAGLES**, **YOU ARE GOT.IT !!!**, physical word wraps and
+the 26 numbered units with open source quotes. Ten source qualifications retain
+the dense **((C / (C** candidates, the blank band after1940, the diagonal source
+mark and the small mark before PRINT at2460. These marks remain image-linked;
+their status as program characters is unverified. Exact encoded bytes, screen
+columns, execution, technical accuracy and full human proofreading remain
+unverified.
+
+Classified **취미생활**, canonical **maso-1984-03-toc-0002**, as a non-owning
+group heading. Its six-file native classification reproduces exactly, retaining
+the original diagonal heading, photograph and navigation crops, all eleven
+child identities and their printed titles/references. The divider's observed
+folio39 does not invent a canonical heading page reference. The printed **79**
+beside 영어 단어 퍼즐 게임 remains a qualified source claim, separate from the
+canonical70 reference. No duplicate article body is created.
+
+Both mapped Tesseract regions ran once at the prospectively selected scale6000;
+there was no recognition retry. The initial projection found an extra right-column
+band; selected geometry uses the retained TSV positions transformed to master
+pixels. Checks pass for **five original-master crops**, both recognition bindings,
+nine raw ZIP members, every source field/range and fifteen damaged-data cases.
+The first heading helper stopped before file output on a progress-schema lookup;
+the corrected helper reads the pinned canonical queue and writes a fresh output.
+The first audit incorrectly assumed identical final text-download separators;
+the corrected audit checks the established article block separator. All attempts
+remain preserved. Shared implementation and frozen M10/M11 evidence are exact;
+the unchanged **282-test** baseline is checked and reused. Cleanup was previewed
+without deletion.
+
+All 273 sources remain in the ledger. Page46 moves from located continuation to
+restored segment source; page39 gains its native heading evidence. Neither was
+an unreviewed source before M12, so **226 images** still await full-page
+disposition. Whole March remains active: **two complete articles, one partial
+article, 35 pending article candidates, one completed heading and five pending
+headings**. Continue with **M13**, complete40–46 article assembly, then
+**모래시계** on47–50. See [the final-segment result](metadata/catalog/scan-restoration/1984-03-reasoning-final.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
