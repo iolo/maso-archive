@@ -3912,3 +3912,12 @@ rehashed changes to active source indexes, content or geometry. External masters
 are required for export, while checking a retained revision requires no original
 workspace inputs. OCR, HTML and reader integration are separate operations.
 Existing PDF and JPEG article formats and commands retain their contracts.
+
+The issue exporter accepts optional native `supplements` in a new ledger:
+a pinned `cover_set` directory/manifest and a pinned `source_selection` JSON.
+It retains them under `supplements/` and checks selection ownership against
+actual JPEG source views in version-3 articles and the original cover faces.
+A `mixed-source-issue-reference` retains the existing canonical accounting
+contract. Historical PDF-only exports keep their format and behavior.
+See the [March handoff](SCAN-RESTORATION-1984-03.md) for the checked public commands
+and the explicit limits of supplementary-source selection.

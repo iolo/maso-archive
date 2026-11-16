@@ -9,11 +9,14 @@ non-owning headings, all 40 canonical identities and all 246 source images
 accounted for. Its checked native issue reproduces 6,306 files. See the
 [November handoff](docs/SCAN-RESTORATION-1984-11.md).
 
-**March 1984 is active. M01–M02 recover the missing printed 250–251 and complete
-the word-processor article as a native PDF/JPEG revision:** 136 exact files,
-748 physical code rows and 316 numbered source units. Issue export and handoff
-remain required. The original PDF package and its historical partial outcome
-are preserved. All completed records are assistant
+**March 1984's targeted supplementary campaign is complete through M04:**
+38 complete article packages, six non-owning headings and a checked native issue
+of 7,016 exact files. Actual 250–251 complete the word-processor article through
+a native PDF/JPEG revision. Four original cover faces and all 273 JPEG selection
+outcomes are retained; 262 unselected page images have not been freshly aligned
+or classified at full resolution. The original PDF package and its historical
+partial outcome are preserved. See the [March handoff](docs/SCAN-RESTORATION-1984-03.md).
+All completed records are assistant
 sample-reviewed. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
@@ -74,6 +77,8 @@ labels and the preserved exports retain their existing values.
 | November 1984 issue closeout — R61 | Passed | 34 complete articles, six headings, complete source accounting and 6,306 exact issue files |
 | March 1984 supplement — M01 | Passed; assembly pending | Actual 250–251 restored as an immutable two-page supplement; 28 exact files |
 | March 1984 source revision — M02 | Passed | Complete word-processor article, actual 244–251; 136 exact files; original components retained |
+| March 1984 covers/source selection — M03 | Passed | Four original faces, 11 exact native files; all 273 JPEG selection outcomes explicit |
+| March 1984 supplemented issue — M04 | Passed | All 44 identities accounted; 38 complete articles, six headings; 7,016 exact issue files |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -3685,3 +3690,41 @@ shared implementation, reader or deployment changed. **M04 issue export, final
 canonical/preservation checks and reproduction handoff remain required.**
 
 See the [M03 result](metadata/catalog/scan-restoration/1984-03-covers-and-source-selection.json).
+
+## M04 — complete March supplemented native issue and handoff
+
+March's new native issue at `archive/scans/1984-03/reference/issue-r01/` contains
+**7,016 exact files / 1,845,627,186 bytes**, independently rebuilt byte-for-byte.
+All **44 canonical identities** have evidenced outcomes: **38 complete article
+packages, six non-owning headings, no partial articles and no unresolved
+eligibility**. All articles retain assistant `sample-reviewed` status.
+
+The word-processor article now selects the complete actual **244–251** PDF/JPEG
+revision. The other **37 PDF article packages / 6,862 files** remain unchanged;
+their checks/copies are not counted as new native rebuilds. The original PDF
+word-processor partial, original PDF issue export and original ledger remain
+unchanged. Native source-revision, original PDF-native and JPEG-supplement
+rebuilds were checked separately in M01–M02.
+
+The issue retains the **four-face original cover set** and **273-image
+supplementary-source selection ledger** as checked native companions. Source
+selection is validated against the exact JPEG views in the selected article and
+cover components. The 262 unselected page images retain their cleanup review
+and explicitly unverified PDF correspondence/full-resolution classification;
+this targeted campaign does not claim a second whole-JPEG transcription pass.
+
+The actual whole-issue standalone check passes with original workspace inputs
+outside the issue and shared schemas denied to restoration file readers. The
+canonical/source-companion audit rejects **13 damaged actual cases**. All 7,061
+initial preservation pins and M01–M03 frozen evidence remain unchanged. Fresh
+checks pass **214 PDF, 52 image, four source-revision and three issue-supplement
+tests**. One initial issue export rejected historical compatibility symlinks;
+the new ledger uses byte-identical physical archive paths, with the original
+paths and outcome retained separately. Cleanup was preview-only. No OCR,
+reader build, browser work, global cover replacement or deployment occurred.
+
+See the [final result](metadata/catalog/scan-restoration/1984-03-issue.json),
+[final ledger](metadata/catalog/scan-restoration/1984-03-progress.json), and
+[reproduction handoff](docs/SCAN-RESTORATION-1984-03.md). **March's canonical issue
+and the plan's supplementary-source campaign are complete within this documented
+scope.** The next full new scan issue is December 1983; no work on it was started.

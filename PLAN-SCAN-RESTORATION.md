@@ -20,6 +20,17 @@ The full completion audit and **275 fresh tests** pass. Preserve the original
 are resolved. See the [reproduction handoff](docs/SCAN-RESTORATION-1984-11.md).
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
+
+**March 1984's supplementary-source campaign is also complete (M01–M04).**
+Actual printed 250–251 are present in the donated JPEGs and now complete the
+word-processor article through an explicit PDF/JPEG source join. The new native
+issue reproduces **7,016 files**: **38 complete article packages and six
+non-owning headings**, with the original PDF partial preserved separately.
+Four original cover faces form a checked native cover set. All 273 JPEGs have
+explicit selection outcomes; 262 unselected page images retain their cleanup
+review and unverified full-resolution classification/PDF correspondence. This
+was the targeted supplement below, not a new transcription of the entire JPEG
+issue. See the [March handoff](docs/SCAN-RESTORATION-1984-03.md).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -198,12 +209,13 @@ Complete November 1984's issue accounting and checked export before starting
 another issue's article restoration. Passing the pilot establishes the workflow;
 it does not mean the whole pilot issue is already restored.
 
-Next, do a small **supplementary-source check for March 1984**. Its existing
-word-processor article is partial because printed **250–251** are absent from
-the supplied PDF. Inspect whether those actual folios are present and legible in
-the donated JPEGs. Matching filenames are insufficient. If usable, restore a new
-source-linked supplement and assemble a new revision, preserving the original
-PDF package and its historical missing-source outcome. Otherwise retain the gap.
+The **supplementary-source check for March 1984** is complete through M01–M04.
+Its historical PDF word-processor package was partial because printed
+**250–251** are absent from that source. Full-page source comparison verified
+both actual folios in the donated JPEGs. A checked new source-linked supplement
+and a mixed-source native revision now supply them, preserving the original PDF
+package and its historical missing-source outcome. Matching filenames alone
+were not used as folio evidence.
 February 1984 likewise needs targeted source comparison only where there is a
 documented gap or improvement worth making.
 

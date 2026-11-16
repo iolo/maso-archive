@@ -103,6 +103,86 @@ def inventory(folder):
             for p in sorted(folder.rglob('*')) if p.is_file() and p != folder / 'manifest.json']
 
 
+def check_supplements(output, records, ledger, packages):
+    """Check retained cover/source companions for a targeted scan supplement."""
+    from .image_covers import check_export as check_covers
+    if not ledger.get('supplements'):
+        if records is not None:
+            raise ValueError('Undeclared issue supplements')
+        return
+    declared = ledger['supplements']
+    if set(declared) != {'cover_set', 'source_selection'} or set(records or {}) != set(declared):
+        raise ValueError('Issue supplement membership differs')
+    cover = records['cover_set']
+    if (cover['path'] != 'supplements/covers/cover-set.json' or
+            cover['manifest']['path'] != 'supplements/covers/manifest.json' or
+            any(cover['manifest'][k] != declared['cover_set']['manifest'][k] for k in ('sha256','bytes'))):
+        raise ValueError('Issue cover companion differs')
+    checked(output, cover['manifest'])
+    covers = check_covers(output / 'supplements/covers')
+    if covers['issue_id'] != ledger['issue_id']:
+        raise ValueError('Issue cover companion has wrong issue identity')
+    selection_pin = records['source_selection']
+    if (selection_pin['path'] != 'supplements/source-selection.json' or
+            any(selection_pin[k] != declared['source_selection'][k] for k in ('sha256','bytes'))):
+        raise ValueError('Issue source-selection companion differs')
+    selection = read(safe(output, selection_pin['path']))
+    checked(output, selection_pin)
+    source = read(output / 'supplements/covers/source.json')
+    if (selection['kind'] != 'supplementary-source-selection' or selection['issue_id'] != ledger['issue_id'] or
+            selection['source'] != covers['source'] or selection['cleanup'] != source['cleanup']):
+        raise ValueError('Supplementary source identity/cleanup differs')
+    pages = {p['source_index']:p for p in source['pages']}
+    rows = selection['records']
+    if (selection['total_images'] != len(pages) or len(rows) != len(pages) or
+            {v['source_index'] for v in rows} != set(pages)):
+        raise ValueError('Supplementary source inventory differs')
+    selected, faces, counts = set(), set(), {}
+    allowed = {'selected-article-supplement','selected-cover-face','retained-alternative',
+               'retained-insert','retained-other-supplementary-source'}
+    for row in rows:
+        p = pages[row['source_index']]
+        if (row['disposition'] not in allowed or row['source_image'] != p['image'] or
+                any(row[k] != p[k] for k in ('reading_order','source_filename_number','printed_page')) or
+                row['cross_source_equivalence_verified'] is not False):
+            raise ValueError('Supplementary source geometry, selection or qualification differs')
+        counts[row['disposition']] = counts.get(row['disposition'],0)+1
+        if row['disposition'] == 'selected-article-supplement':
+            selected.add((row['body_owner_toc_entry_id'],row['source_index']))
+        elif row['body_owner_toc_entry_id'] is not None:
+            raise ValueError('Unselected supplementary source has invented body ownership')
+        if row['disposition'] == 'selected-cover-face':
+            faces.add(row['source_index'])
+    actual = {(p['toc_entry_id'],v['original_page']['source_index'])
+              for p in packages.values() if p['schema_version'] == 3
+              for v in p['pages'] if v['source_kind'] == 'jpeg' and
+              next(c for c in p['components'] if c['name'] == v['component'])['source'] == selection['source']}
+    if (counts != selection['counts'] or selected != actual or
+            faces != {f['source_index'] for f in covers['faces']}):
+        raise ValueError('Supplementary source outcomes differ from selected articles/covers')
+
+
+def copy_supplements(staged, ledger, packages, root):
+    if not ledger.get('supplements'):
+        return None
+    declared = ledger['supplements']
+    if set(declared) != {'cover_set','source_selection'}:
+        raise ValueError('Unknown issue supplement')
+    cover = declared['cover_set']
+    directory = safe(root, cover['directory'])
+    if safe(root, cover['manifest']['path']) != directory / 'manifest.json':
+        raise ValueError('Cover companion manifest/directory differs')
+    checked(root,cover['manifest'])
+    shutil.copytree(directory,staged/'supplements/covers')
+    source = declared['source_selection']
+    (staged/'supplements/source-selection.json').write_bytes(checked(root,source))
+    records = dict(cover_set=dict(path='supplements/covers/cover-set.json',
+                    manifest=pin(staged,'supplements/covers/manifest.json')),
+                   source_selection=pin(staged,'supplements/source-selection.json'))
+    check_supplements(staged,records,ledger,packages)
+    return records
+
+
 def render_issue(staged, report, issue, packages, base):
     """Legacy HTML delivery, requested explicitly and outside data acceptance."""
     owners = [r for r in report['entries'] if r['bodyOwner']]
@@ -155,6 +235,9 @@ def render_issue(staged, report, issue, packages, base):
 def export(ledger_path, base, output, root=ROOT, *, preview=False):
     output = Path(output).resolve()
     report, issue, packages, directories = load_inputs(ledger_path, base, root)
+    mixed = any(p['schema_version'] == 3 for p in packages.values())
+    if preview and mixed:
+        raise ValueError('Mixed-source issue revisions currently deliver native JSON/assets only')
     if output.exists() or any(output.is_relative_to(d) or d.is_relative_to(output) for d in directories.values()):
         raise ValueError('Use a fresh issue output outside inputs')
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -182,12 +265,16 @@ def export(ledger_path, base, output, root=ROOT, *, preview=False):
             cover_pin = pin(staged, name)
         shutil.copyfile(ledger_path, staged / 'ledger.json')
         write(staged, 'toc.json', issue['toc'])
-        write(staged, 'issue.json', dict(issueId=report['issueId'], label=issue['issue']['label'],
-              cover=cover_pin, accounting=pin(staged, 'accounting.json'), articles=articles))
+        issue_index = dict(issueId=report['issueId'], label=issue['issue']['label'],
+              cover=cover_pin, accounting=pin(staged, 'accounting.json'), articles=articles)
+        supplements = copy_supplements(staged,read(ledger_path),packages,root)
+        if supplements is not None:
+            issue_index['supplements'] = supplements
+        write(staged, 'issue.json', issue_index)
         if preview:
             render_issue(staged, report, issue, packages, base)
         counts = report['counts']
-        manifest = dict(kind='pdf-issue-reference', issueId=report['issueId'], counts=counts,
+        manifest = dict(kind='mixed-source-issue-reference' if mixed else 'pdf-issue-reference', issueId=report['issueId'], counts=counts,
                         ledgerSha256=digest(ledger_path), files=inventory(staged))
         write(staged, 'manifest.json', manifest)
         check_export(staged)
@@ -222,6 +309,10 @@ def check_export(output):
             raise ValueError('Duplicate or inconsistent issue article identity')
         packages[row['tocEntryId']] = package
     ledger = read(output / 'ledger.json')
+    check_supplements(output,index.get('supplements'),ledger,packages)
+    expected_kind = 'mixed-source-issue-reference' if any(p['schema_version'] == 3 for p in packages.values()) else 'pdf-issue-reference'
+    if manifest['kind'] != expected_kind:
+        raise ValueError('Issue source kind differs from retained articles')
     if (accounting(ledger, read(output / 'toc.json'), packages) != report or
             index['issueId'] != report['issueId'] or manifest['issueId'] != report['issueId'] or
             manifest['counts'] != report['counts'] or manifest['ledgerSha256'] != digest(output / 'ledger.json')):

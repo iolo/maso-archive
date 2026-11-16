@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M04",
+  "issue_id": "maso-1984-03",
+  "status": "complete",
+  "scope": "Complete canonical Marchissue with targetedJPEGsupplement and four nativecoverfaces;not a fresh whole-JPEGarticle restoration,full humanproofreading or program execution certification.",
+  "counts": {
+    "toc_entries": 44,
+    "classified_articles": 38,
+    "group_headings": 6,
+    "section_references": 0,
+    "unresolved_eligibility": 0,
+    "restoration_availability": {
+      "readable": 38,
+      "partial": 0,
+      "image-only": 0,
+      "failed": 0,
+      "unresolved": 0
+    },
+    "verification": {
+      "unreviewed": 0,
+      "sample-reviewed": 38,
+      "fully-reviewed": 0
+    }
+  },
+  "selected_issue": "archive/scans/1984-03/reference/issue-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/reference/issue-r01/manifest.json",
+    "sha256": "498ef0cdc4f719903b57e6acc89f778aabf30261a963c9419ff90ff075dd6d4f",
+    "bytes": 1220424
+  },
+  "exact_files": 7016,
+  "bytes": 1845627186,
+  "unchanged_other_articles": 37,
+  "unchanged_other_article_files": 6862,
+  "original_pdf_partial_preserved": true,
+  "cover_faces": 4,
+  "jpeg_images_accounted": 273,
+  "source_selection_counts": {
+    "retained-alternative": 1,
+    "retained-insert": 4,
+    "retained-other-supplementary-source": 262,
+    "selected-article-supplement": 2,
+    "selected-cover-face": 4
+  },
+  "unselected_page_images_freshly_classified": false,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/closeout-01/validation.json",
+    "sha256": "bb253ed7ca30d1f88cc167e11f3295958245c9496550efb2a1db6f5b8488b338",
+    "bytes": 15066
+  },
+  "completion_audit": {
+    "path": "archive/scans/1984-03/restoration/closeout-01/completion-audit.json",
+    "sha256": "832c6a6444e334693ed949c8ba3cee877c649e2d0457791c1e3999f487a3ba71",
+    "bytes": 1846
+  },
+  "ledger": {
+    "path": "archive/scans/1984-03/restoration/closeout-01/issue-ledger.json",
+    "sha256": "ba116721feca7906e29ea969dfc9572c297f085b9dedc2b7297669454743382e",
+    "bytes": 112368
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/closeout-01/evidence-manifest.json",
+    "sha256": "2afb2910b601256afe4312a0d3702ce8a76902b4da06eca85face95aad4b49a0",
+    "bytes": 2771
+  },
+  "handoff": {
+    "path": "docs/SCAN-RESTORATION-1984-03.md",
+    "sha256": "99a90da216a65b69ef00c75adc4cfc8c5c8222a8e29854978dbb6d84afc699ea",
+    "bytes": 8497
+  },
+  "tests": {
+    "pdf": 214,
+    "image": 52,
+    "source_revision": 4,
+    "issue_supplements": 3
+  },
+  "implementation": [
+    {
+      "path": "tools/pdf_restore/issue.py",
+      "sha256": "b99257cf3789f2b1eb28aeb3ab1b2e55eaa66e6ae6dd00a484acc717c21bcf6e",
+      "bytes": 19812
+    },
+    {
+      "path": "tests/test_issue_supplements.py",
+      "sha256": "1e046fa76144d7101c1d5bd5d5578a7dcf2cecea927ce92b3ec3b4e59338ea4e",
+      "bytes": 5028
+    }
+  ],
+  "next_full_new_issue": "1983-12"
+}

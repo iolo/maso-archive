@@ -1,0 +1,3892 @@
+{
+  "schema_version": 1,
+  "issue_id": "maso-1984-03",
+  "status": "complete",
+  "scope": "Canonical native issue with targeted JPEG continuation and original cover faces;262unselected JPEGpageimages retain unverified content classification and PDFcorrespondence.",
+  "checkpoints": [
+    "M01",
+    "M02",
+    "M03",
+    "M04"
+  ],
+  "counts": {
+    "toc_entries": 44,
+    "classified_articles": 38,
+    "group_headings": 6,
+    "section_references": 0,
+    "unresolved_eligibility": 0,
+    "restoration_availability": {
+      "readable": 38,
+      "partial": 0,
+      "image-only": 0,
+      "failed": 0,
+      "unresolved": 0
+    },
+    "verification": {
+      "unreviewed": 0,
+      "sample-reviewed": 38,
+      "fully-reviewed": 0
+    }
+  },
+  "entries": [
+    {
+      "toc_entry_id": "maso-1984-03-toc-0001",
+      "title": "특집 : 한글 명령 컴퓨터의 설계",
+      "parent_id": null,
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-feature-assembly",
+        "article_id": "scan-maso-1984-03-toc-0001",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-feature",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-feature/manifest.json",
+          "sha256": "2803526f78db1270b8d64848cc0213670b1da7c6a77cb6ef053920d471815308",
+          "bytes": 106397
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-01",
+            "article_id": "scan-maso-1984-03-toc-0001",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-01/feature",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-01/feature/manifest.json",
+              "sha256": "dff593f60303ce0dd0fc1a55725827714f9f5072ff996af5fb4617557761f421",
+              "bytes": 10292
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": false,
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                14,
+                15
+              ],
+              "included_printed_pages": [
+                14,
+                15
+              ],
+              "next_pdf_page": 16,
+              "next_printed_page": 16,
+              "deferred_pdf_pages": [
+                16
+              ],
+              "remaining_extent": "Continues beyond this segment; full end not yet mapped.",
+              "assembly_required": true
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-02",
+            "article_id": "scan-maso-1984-03-toc-0001",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-02/feature",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-02/feature/manifest.json",
+              "sha256": "acea38af19d1d6ef521b9017f2b0522c43fea3c34436d7ec5a0dac113bb4a984",
+              "bytes": 21735
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": false,
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "included_printed_pages": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "next_pdf_page": 22,
+              "next_printed_page": 22,
+              "deferred_pdf_pages": [
+                22
+              ],
+              "remaining_extent": "Continues at section4 on page22; full ending not yet mapped.",
+              "assembly_required": true
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-03",
+            "article_id": "scan-maso-1984-03-toc-0001",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-03/feature",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-03/feature/manifest.json",
+              "sha256": "523913b9ae6bcabb55f15238a0c2bf278311d666a0b8b4eb998ebaeb6673cafe",
+              "bytes": 23643
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": false,
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27
+              ],
+              "included_printed_pages": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27
+              ],
+              "next_pdf_page": 28,
+              "next_printed_page": 28,
+              "deferred_pdf_pages": [
+                28
+              ],
+              "remaining_extent": "Section6 prose continues at28; complete feature ending not yet mapped.",
+              "assembly_required": true
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-04",
+            "article_id": "scan-maso-1984-03-toc-0001",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-04/feature",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-04/feature/manifest.json",
+              "sha256": "c4b8b08f2707f4e2d3bba12c12511aada7ead38f9edc45b6ff2f005d6d4e6edd",
+              "bytes": 23192
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": false,
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "included_printed_pages": [
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "next_pdf_page": 34,
+              "next_printed_page": 34,
+              "deferred_pdf_pages": [
+                34
+              ],
+              "remaining_extent": "Complete interpreter and support-routine machine-code dump continues on34; full ending not yet mapped.",
+              "assembly_required": true
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-05",
+            "article_id": "scan-maso-1984-03-toc-0001",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-05/feature",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-05/feature/manifest.json",
+              "sha256": "fc50a6bb0d5b299994670cc6f3e64c5ba646486d8509ec7ddb0ee04884fb527b",
+              "bytes": 12224
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "article_printed_pages": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                34,
+                35,
+                36,
+                37
+              ],
+              "included_printed_pages": [
+                34,
+                35,
+                36,
+                37
+              ],
+              "next_pdf_page": null,
+              "next_printed_page": null,
+              "deferred_pdf_pages": [],
+              "remaining_extent": "Feature ending verified37; all14–37 are now restored across five segments, requiring assembly.",
+              "assembly_required": true
+            }
+          }
+        ],
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "included_printed_pages": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "assembly_required": false
+        },
+        "aggregate_progress": {
+          "included_pdf_pages": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "included_printed_pages": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "assembly_required": false,
+          "note": "All five source segments retained; directory/manifest now refer to full feature assembly."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0002",
+      "title": "취미생활",
+      "parent_id": null,
+      "provisional_kind": "section",
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "classification_evidence": {
+        "pdf_page": 39,
+        "visible_folio": 39,
+        "review": {
+          "path": "private/pdf-restoration/12-1984-03-batch-06/classification-review.json",
+          "sha256": "6af085d40bd8f8b817cec8c29fae778d937d8014d8d22aeb2240608f93fb9291",
+          "bytes": 806
+        },
+        "note": "Source section divider without independent article body."
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0003",
+      "title": "추리력테스트",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-07-assembly",
+        "article_id": "scan-maso-1984-03-toc-0003",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-reasoning",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-reasoning/manifest.json",
+          "sha256": "004d093ee4cb88ec0e0835bd4a72178fe7ad92adba01220a7f181d742f12d3a1",
+          "bytes": 20143
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-06",
+            "article_id": "scan-maso-1984-03-toc-0003",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-06/reasoning",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-06/reasoning/manifest.json",
+              "sha256": "d0ec7c379b565b128ab4f77067276e109db47ccd2151867bc183a51037753436",
+              "bytes": 14423
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "article_printed_pages": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+              ],
+              "included_printed_pages": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+              ],
+              "next_pdf_page": 46,
+              "next_printed_page": 46,
+              "deferred_pdf_pages": [
+                46
+              ],
+              "remaining_extent": "Final Apple continuation1400–2490 on46; then assemble40–46.",
+              "assembly_required": true
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-07",
+            "article_id": "scan-maso-1984-03-toc-0003",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-07/reasoning",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-07/reasoning/manifest.json",
+              "sha256": "91c6601f2a39c534c38df40e4d235724eb84bd7b4ee12e1f0f6577d8b5d0b207",
+              "bytes": 2646
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "article_printed_pages": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                46
+              ],
+              "included_printed_pages": [
+                46
+              ],
+              "next_pdf_page": null,
+              "next_printed_page": null,
+              "deferred_pdf_pages": [],
+              "assembly_required": true,
+              "remaining_extent": "Final page restored; assemble40–46 with preserved opening segment."
+            }
+          }
+        ],
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "included_printed_pages": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "assembly_required": false
+        },
+        "aggregate_progress": {
+          "included_pdf_pages": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "included_printed_pages": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "assembly_required": false,
+          "note": "Full game assembled; original two segments unchanged,535physicalrows,42PETmarkers."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0004",
+      "title": "모래시계",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-07",
+        "article_id": "scan-maso-1984-03-toc-0004",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-07/hourglass",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-07/hourglass/manifest.json",
+          "sha256": "c6c85cf084f660be1f32579b7ebd0049dc459e47498cb152a909ce67c7447e89",
+          "bytes": 12353
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "article_printed_pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "included_printed_pages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete47–50; next article51."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0005",
+      "title": "기초 공작실 게임패들의 제작",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-08",
+        "article_id": "scan-maso-1984-03-toc-0005",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-08/paddles",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-08/paddles/manifest.json",
+          "sha256": "51f3e870f237b24f16f0f9953a7646d0e47a63c806d0cd4000156bfc7c8bb33b",
+          "bytes": 15816
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            51,
+            52,
+            53
+          ],
+          "article_printed_pages": [
+            51,
+            52,
+            53
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            51,
+            52,
+            53
+          ],
+          "included_printed_pages": [
+            51,
+            52,
+            53
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete source article; next page starts a distinct article."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0006",
+      "title": "맛있는 사과가 들어 있어요",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-08",
+        "article_id": "scan-maso-1984-03-toc-0006",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-08/apples",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-08/apples/manifest.json",
+          "sha256": "70b30fc474e98ea31506b950e11d5e02a995615c2e36e545df70a74689561a05",
+          "bytes": 7889
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            54,
+            55
+          ],
+          "article_printed_pages": [
+            54,
+            55
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            54,
+            55
+          ],
+          "included_printed_pages": [
+            54,
+            55
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete source article; next page starts a distinct article."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0007",
+      "title": "올 인원",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-09",
+        "article_id": "scan-maso-1984-03-toc-0007",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-09/golf",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-09/golf/manifest.json",
+          "sha256": "46d5dba58cfd22990a0feacb114a4eab4f90b2f25a0de7b1f74f4f11222d0c05",
+          "bytes": 11893
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "article_printed_pages": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "included_printed_pages": [
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete source article56–60;61 starts 팽이 놀이."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0008",
+      "title": "팽이 놀이",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-10",
+        "article_id": "scan-maso-1984-03-toc-0008",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-10/dreidel",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-10/dreidel/manifest.json",
+          "sha256": "efd23a117d8b48f460d8c11e46eee3a91e843d1e0c78c012c982f12f6931de9c",
+          "bytes": 7900
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            61,
+            62,
+            63
+          ],
+          "article_printed_pages": [
+            61,
+            62,
+            63
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            61,
+            62,
+            63
+          ],
+          "included_printed_pages": [
+            61,
+            62,
+            63
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete source article."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0009",
+      "title": "사냥게임",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-11",
+        "article_id": "scan-maso-1984-03-toc-0009",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-hunting",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-hunting/manifest.json",
+          "sha256": "228cf7f3af456edabb72276b65bce4ceaaeafae5cba08852a73550d74ee3f9be",
+          "bytes": 34901
+        },
+        "coverage": {
+          "article_pdf_pages": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "included_pdf_pages": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "included_printed_pages": [
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69"
+          ],
+          "deferred_pdf_pages": [],
+          "complete_article": true,
+          "assembly_pending": false,
+          "source_pages_missing": false
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-10",
+            "article_id": "scan-maso-1984-03-toc-0009",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-10/hunting",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-10/hunting/manifest.json",
+              "sha256": "65f6d6b04ca97b82df9ebf556b4c43b00a1eaa874b6c02b6bef47928b312c9f3",
+              "bytes": 23942
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "article_printed_pages": [
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                64,
+                65,
+                66
+              ],
+              "included_printed_pages": [
+                64,
+                65,
+                66
+              ],
+              "next_pdf_page": 67,
+              "next_printed_page": 67,
+              "deferred_pdf_pages": [
+                67,
+                68,
+                69
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Program explanation67–68 and full BASIC listing68–69 remain to be restored; then assemble64–69."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-11",
+            "article_id": "scan-maso-1984-03-toc-0009",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-11/hunting",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-11/hunting/manifest.json",
+              "sha256": "0e46f9dfb63635022dd4a2827e8ed72e9a13129d2917752db32eb7801badc419",
+              "bytes": 6483
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "article_printed_pages": [
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                67,
+                68,
+                69
+              ],
+              "included_printed_pages": [
+                67,
+                68,
+                69
+              ],
+              "next_pdf_page": null,
+              "next_printed_page": null,
+              "deferred_pdf_pages": [
+                64,
+                65,
+                66
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Earlier opening64–66 is restored separately; assemble with this ending."
+            }
+          }
+        ],
+        "aggregate_progress": {
+          "included_pdf_pages": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "included_printed_pages": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "assembly_required": false,
+          "next_pdf_page": null,
+          "note": "Complete hunting article64–69 assembled from two immutable source segments."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0010",
+      "title": "영어 단어 퍼즐 게임",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-12",
+        "article_id": "scan-maso-1984-03-toc-0010",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-puzzle",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-puzzle/manifest.json",
+          "sha256": "d2991feda7063649afacb3510bd3d185c2588140408d1c057be89211ecab9703",
+          "bytes": 12377
+        },
+        "coverage": {
+          "article_pdf_pages": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "included_pdf_pages": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "included_printed_pages": [
+            "70",
+            "71",
+            "72",
+            "73"
+          ],
+          "deferred_pdf_pages": [],
+          "complete_article": true,
+          "assembly_pending": false,
+          "source_pages_missing": false
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-11",
+            "article_id": "scan-maso-1984-03-toc-0010",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-11/puzzle",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-11/puzzle/manifest.json",
+              "sha256": "3ae339f9eb11e5b5d1c1577bdf1b073ab464bc3aa927a79699ff869c52937e0e",
+              "bytes": 8048
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                70,
+                71,
+                72,
+                73
+              ],
+              "article_printed_pages": [
+                70,
+                71,
+                72,
+                73
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                70,
+                71,
+                72
+              ],
+              "included_printed_pages": [
+                70,
+                71,
+                72
+              ],
+              "next_pdf_page": 73,
+              "next_printed_page": 73,
+              "deferred_pdf_pages": [
+                73
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Final program page73 remains; then assemble70–73."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-12",
+            "article_id": "scan-maso-1984-03-toc-0010",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-12/puzzle",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-12/puzzle/manifest.json",
+              "sha256": "cc93afce096ea32cd619aeab55a875676a26864103052aba139538fcf14ab0c4",
+              "bytes": 2004
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                70,
+                71,
+                72,
+                73
+              ],
+              "article_printed_pages": [
+                70,
+                71,
+                72,
+                73
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                73
+              ],
+              "included_printed_pages": [
+                73
+              ],
+              "next_pdf_page": null,
+              "next_printed_page": null,
+              "deferred_pdf_pages": [
+                70,
+                71,
+                72
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Opening70–72 already restored separately; assemble with this ending."
+            }
+          }
+        ],
+        "aggregate_progress": {
+          "included_pdf_pages": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "included_printed_pages": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "assembly_required": false,
+          "next_pdf_page": null,
+          "note": "Complete word-puzzle article70–73 assembled from two immutable source segments."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0011",
+      "title": "매직 스퀘어",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-12",
+        "article_id": "scan-maso-1984-03-toc-0011",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-12/magic",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-12/magic/manifest.json",
+          "sha256": "d975c3e00cd445e49d01bde9e32eb6f58200ec6dff79000e3019b003517ce66e",
+          "bytes": 8536
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            74,
+            75,
+            76
+          ],
+          "article_printed_pages": [
+            74,
+            75,
+            76
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            74,
+            75,
+            76
+          ],
+          "included_printed_pages": [
+            74,
+            75,
+            76
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete source article."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0012",
+      "title": "당신도 암산왕",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-13",
+        "article_id": "scan-maso-1984-03-toc-0012",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-13/mental",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-13/mental/manifest.json",
+          "sha256": "01c3f80edc6158ebed7550a6435ed296c2bfee864209ca9ba2af760ab81a5add",
+          "bytes": 9795
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            77,
+            78
+          ],
+          "article_printed_pages": [
+            77,
+            78
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            77,
+            78
+          ],
+          "included_printed_pages": [
+            77,
+            78
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete source article."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0013",
+      "title": "불꽃 놀이",
+      "parent_id": "maso-1984-03-toc-0002",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-13",
+        "article_id": "scan-maso-1984-03-toc-0013",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-13/fireworks",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-13/fireworks/manifest.json",
+          "sha256": "a6c4e5bdf0698ef640034524b122a2d70c9f13a86bf44ed3bd70390798b22811",
+          "bytes": 4855
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            79
+          ],
+          "article_printed_pages": [
+            79
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            79
+          ],
+          "included_printed_pages": [
+            79
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete source article."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0014",
+      "title": "교육입문",
+      "parent_id": null,
+      "provisional_kind": "section",
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "classification_evidence": {
+        "pdf_page": 81,
+        "visible_folio": 81,
+        "review": {
+          "path": "private/pdf-restoration/12-1984-03-batch-13/classification-review.json",
+          "sha256": "0658226b4936ecf67d4ec75df2126b60ce66ef5e4c1c66b272bd7a3c23f0d8ef",
+          "bytes": 1268
+        },
+        "note": "Source section divider without independent article body."
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0015",
+      "title": "베이직 강좌",
+      "parent_id": "maso-1984-03-toc-0014",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-14",
+        "article_id": "scan-maso-1984-03-toc-0015",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-14/basic",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-14/basic/manifest.json",
+          "sha256": "8cd30f6901d5a6c390dba0adec3bc276e4bfabde308bae700b67de554e196ccd",
+          "bytes": 25102
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "article_printed_pages": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "included_printed_pages": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete six-page source article; subsequent article starts88."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0016",
+      "title": "소프트웨어 복사 방지 기술",
+      "parent_id": "maso-1984-03-toc-0014",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-15",
+        "article_id": "scan-maso-1984-03-toc-0016",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-15/protection",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-15/protection/manifest.json",
+          "sha256": "58b1cb0911b0619ecc00b4d567366a1720687a29f66afcfc23273c440bff08ad",
+          "bytes": 25095
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            88,
+            89,
+            90,
+            91
+          ],
+          "article_printed_pages": [
+            88,
+            89,
+            90,
+            91
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            88,
+            89,
+            90,
+            91
+          ],
+          "included_printed_pages": [
+            88,
+            89,
+            90,
+            91
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete source article."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0017",
+      "title": "컴퓨터와 수",
+      "parent_id": "maso-1984-03-toc-0014",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-16",
+        "article_id": "scan-maso-1984-03-toc-0017",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-numbers",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-numbers/manifest.json",
+          "sha256": "0e245dd5b9e0480df0e91c75e2ed1e92003f4790582506aac4bba037604df892",
+          "bytes": 59799
+        },
+        "coverage": {
+          "article_pdf_pages": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "included_pdf_pages": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "included_printed_pages": [
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99"
+          ],
+          "deferred_pdf_pages": [],
+          "complete_article": true,
+          "assembly_pending": false,
+          "source_pages_missing": false
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-15",
+            "article_id": "scan-maso-1984-03-toc-0017",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-15/numbers",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-15/numbers/manifest.json",
+              "sha256": "9ff527d112e38bca1d4a64fb8ef14ff0f5f52f5094abc4f6651ee7b13c54ea7d",
+              "bytes": 11722
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "article_printed_pages": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                92,
+                93
+              ],
+              "included_printed_pages": [
+                92,
+                93
+              ],
+              "next_pdf_page": 94,
+              "next_printed_page": 94,
+              "deferred_pdf_pages": [
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Pages94–99 remain; then assemble the complete92–99 article."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-16",
+            "article_id": "scan-maso-1984-03-toc-0017",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-16/numbers",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-16/numbers/manifest.json",
+              "sha256": "77cb39b90e50d631b0d473f83cc31799df70a6d7af11b20fa4ec7bb8afc3dc18",
+              "bytes": 41520
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "article_printed_pages": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "included_printed_pages": [
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+              ],
+              "next_pdf_page": null,
+              "next_printed_page": null,
+              "deferred_pdf_pages": [
+                92,
+                93
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Opening92–93 already restored; assemble with this complete94–99 ending."
+            }
+          }
+        ],
+        "aggregate_progress": {
+          "included_pdf_pages": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "included_printed_pages": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "assembly_required": false,
+          "next_pdf_page": null,
+          "note": "Complete number-systems article92–99 from two immutable source segments."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0018",
+      "title": "마이크로 컴퓨터 시스템 입문",
+      "parent_id": "maso-1984-03-toc-0014",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-18",
+        "article_id": "scan-maso-1984-03-toc-0018",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-systems",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-systems/manifest.json",
+          "sha256": "8b54fb8f987c6c272d6ebc42ea30c653976b0edf5d076d0dbb827323c4fcf2f4",
+          "bytes": 63593
+        },
+        "coverage": {
+          "article_pdf_pages": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "included_pdf_pages": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "included_printed_pages": [
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108"
+          ],
+          "deferred_pdf_pages": [],
+          "complete_article": true,
+          "assembly_pending": false,
+          "source_pages_missing": false
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-17",
+            "article_id": "scan-maso-1984-03-toc-0018",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-17/systems",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-17/systems/manifest.json",
+              "sha256": "3866923dbeb2b6e0912ec950f68ae0663757ece05133b65f5e39b8c7cb476e21",
+              "bytes": 31745
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108
+              ],
+              "article_printed_pages": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105
+              ],
+              "included_printed_pages": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105
+              ],
+              "next_pdf_page": 106,
+              "next_printed_page": 106,
+              "deferred_pdf_pages": [
+                106,
+                107,
+                108
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Restore106–108,then assemble with this100–105 opening."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-18",
+            "article_id": "scan-maso-1984-03-toc-0018",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-18/systems",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-18/systems/manifest.json",
+              "sha256": "cbc865bcd42a4640827125afac3beaa0a4709d0f57c9765b4a817367a48498dd",
+              "bytes": 24733
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108
+              ],
+              "article_printed_pages": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                106,
+                107,
+                108
+              ],
+              "included_printed_pages": [
+                106,
+                107,
+                108
+              ],
+              "next_pdf_page": null,
+              "next_printed_page": null,
+              "deferred_pdf_pages": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Opening100–105 already restored; assemble with this complete106–108 ending."
+            }
+          }
+        ],
+        "aggregate_progress": {
+          "included_pdf_pages": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "included_printed_pages": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "assembly_required": false,
+          "next_pdf_page": null,
+          "note": "Complete systems100–108 from two immutable segments."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0019",
+      "title": "자동실행 테이프의 전모",
+      "parent_id": "maso-1984-03-toc-0014",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-19",
+        "article_id": "scan-maso-1984-03-toc-0019",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-tape",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-tape/manifest.json",
+          "sha256": "ddb5f3450e8c4bd53bd36ac4b39d89a91eaccf104de40ebdb0203d546cd106bb",
+          "bytes": 47921
+        },
+        "coverage": {
+          "article_pdf_pages": [
+            109,
+            110,
+            111,
+            112
+          ],
+          "included_pdf_pages": [
+            109,
+            110,
+            111,
+            112
+          ],
+          "included_printed_pages": [
+            "109",
+            "110",
+            "111",
+            "112"
+          ],
+          "deferred_pdf_pages": [],
+          "complete_article": true,
+          "assembly_pending": false,
+          "source_pages_missing": false
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-18",
+            "article_id": "scan-maso-1984-03-toc-0019",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-18/tape",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-18/tape/manifest.json",
+              "sha256": "b59eeaa005f965172fddb2a5edeae6b491b2bddf6cb82f3a88bf37b22ebd3950",
+              "bytes": 30799
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                109,
+                110,
+                111,
+                112
+              ],
+              "article_printed_pages": [
+                109,
+                110,
+                111,
+                112
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                109,
+                110,
+                111
+              ],
+              "included_printed_pages": [
+                109,
+                110,
+                111
+              ],
+              "next_pdf_page": 112,
+              "next_printed_page": 112,
+              "deferred_pdf_pages": [
+                112
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Restore112 then assemble109–112."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-19",
+            "article_id": "scan-maso-1984-03-toc-0019",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-19/tape",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-19/tape/manifest.json",
+              "sha256": "0fee835bc15284a4a5d596d2b9a5f95ac47aa6e7bc98176e5c42e79486374048",
+              "bytes": 11438
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                109,
+                110,
+                111,
+                112
+              ],
+              "article_printed_pages": [
+                109,
+                110,
+                111,
+                112
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                112
+              ],
+              "included_printed_pages": [
+                112
+              ],
+              "next_pdf_page": null,
+              "next_printed_page": null,
+              "deferred_pdf_pages": [
+                109,
+                110,
+                111
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Assemble with restored109–111 opening."
+            }
+          }
+        ],
+        "aggregate_progress": {
+          "included_pdf_pages": [
+            109,
+            110,
+            111,
+            112
+          ],
+          "included_printed_pages": [
+            109,
+            110,
+            111,
+            112
+          ],
+          "assembly_required": false,
+          "next_pdf_page": null,
+          "note": "Complete tape109–112 from two immutable segments."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0020",
+      "title": "자료 구조",
+      "parent_id": "maso-1984-03-toc-0014",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-19",
+        "article_id": "scan-maso-1984-03-toc-0020",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-19/data",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-19/data/manifest.json",
+          "sha256": "ead0fbac903a4baa143ed23c6cf65a46438aa084f4311ca4ca455fc65a07ce3d",
+          "bytes": 26994
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            113,
+            114,
+            115,
+            116,
+            117
+          ],
+          "article_printed_pages": [
+            113,
+            114,
+            115,
+            116,
+            117
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            113,
+            114,
+            115,
+            116,
+            117
+          ],
+          "included_printed_pages": [
+            113,
+            114,
+            115,
+            116,
+            117
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0021",
+      "title": "기계어 강좌",
+      "parent_id": "maso-1984-03-toc-0014",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-20",
+        "article_id": "scan-maso-1984-03-toc-0021",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-20/z80",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-20/z80/manifest.json",
+          "sha256": "4c0bdbb2691475fa90bd1f0cc55894dd755efdaa5ceea07a6e925e2b4bb02c4c",
+          "bytes": 24762
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            118,
+            119,
+            120,
+            121,
+            122,
+            123
+          ],
+          "article_printed_pages": [
+            118,
+            119,
+            120,
+            121,
+            122,
+            123
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            118,
+            119,
+            120,
+            121,
+            122,
+            123
+          ],
+          "included_printed_pages": [
+            118,
+            119,
+            120,
+            121,
+            122,
+            123
+          ],
+          "next_pdf_page": null,
+          "next_printed_page": null,
+          "deferred_pdf_pages": [],
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0022",
+      "title": "비지니스",
+      "parent_id": null,
+      "provisional_kind": "section",
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "classification_evidence": {
+        "pdf_page": 133,
+        "visible_folio": 133,
+        "review": {
+          "path": "private/pdf-restoration/12-1984-03-batch-21/classification-review.json",
+          "sha256": "ff6229f4a203a03cb37bc0e98d192c51f099edca8976ecea1b6ccf0b7c2a26ee",
+          "bytes": 4271
+        },
+        "note": "Source section divider without independent article body."
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0023",
+      "title": "심층적 회귀분석",
+      "parent_id": "maso-1984-03-toc-0022",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-24",
+        "article_id": "scan-maso-1984-03-toc-0023",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-regression",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-regression/manifest.json",
+          "sha256": "f5ce17655d77293821e9407388122d3dd3e8a6f9b0d9c0e2ddb0ce2c2b1bb7cd",
+          "bytes": 117443
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-21",
+            "article_id": "scan-maso-1984-03-toc-0023",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-21/regression",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-21/regression/manifest.json",
+              "sha256": "3b41d78872632401ca9d04b66ba80a1eb2dfa755fbf3c88600ef82dcd17db354",
+              "bytes": 42048
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "article_printed_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139
+              ],
+              "included_printed_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139
+              ],
+              "next_pdf_page": 140,
+              "next_printed_page": 140,
+              "deferred_pdf_pages": [
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Detailed mapping and restoration140–154,then immutable full134–154 assembly."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-22",
+            "article_id": "scan-maso-1984-03-toc-0023",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-22/regression",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-22/regression/manifest.json",
+              "sha256": "16256b350aa8525fad8ed2431e4d4ffe74177a1b30efbfb450d62a9a46137787",
+              "bytes": 40432
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "article_printed_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                140,
+                141,
+                142,
+                143,
+                144,
+                145
+              ],
+              "included_printed_pages": [
+                140,
+                141,
+                142,
+                143,
+                144,
+                145
+              ],
+              "next_pdf_page": 146,
+              "next_printed_page": 146,
+              "deferred_pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Opening134–139 already restored;final146–154 remains;assemble all134–154 segments."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-23",
+            "article_id": "scan-maso-1984-03-toc-0023",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-23/regression",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-23/regression/manifest.json",
+              "sha256": "c583e4a077a70fdb3c2817ed326af391e1462741fe07f2866965fdf120f2a0e7",
+              "bytes": 15812
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "article_printed_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                146,
+                147,
+                148,
+                149,
+                150,
+                151
+              ],
+              "included_printed_pages": [
+                146,
+                147,
+                148,
+                149,
+                150,
+                151
+              ],
+              "next_pdf_page": 152,
+              "next_printed_page": 152,
+              "deferred_pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                152,
+                153,
+                154
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Opening134–145 already restored;final152–154 remains;assemble all134–154 segments."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-24",
+            "article_id": "scan-maso-1984-03-toc-0023",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-24/regression",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-24/regression/manifest.json",
+              "sha256": "9235d30eb9fd57c055d13709fa93e720f4228dbb7be4e8005265068a8d0624ff",
+              "bytes": 5875
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "article_printed_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                152,
+                153,
+                154
+              ],
+              "included_printed_pages": [
+                152,
+                153,
+                154
+              ],
+              "next_pdf_page": 155,
+              "next_printed_page": 155,
+              "deferred_pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Opening134–151 already restored;assemble all134–154 segments."
+            }
+          }
+        ],
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ],
+          "included_printed_pages": [
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "next_pdf_page": 155
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0024",
+      "title": "Visicalc의 활용",
+      "parent_id": "maso-1984-03-toc-0022",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-26",
+        "article_id": "scan-maso-1984-03-toc-0024",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-visicalc",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-visicalc/manifest.json",
+          "sha256": "80403b2dff993dfdbca0db433aa811c5176bc968273800df91f6a840624e2b09",
+          "bytes": 57219
+        },
+        "segments": [
+          {
+            "checkpoint": "12-1984-03-batch-25",
+            "article_id": "scan-maso-1984-03-toc-0024",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-25/visicalc",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-25/visicalc/manifest.json",
+              "sha256": "f29a2efeb0ce321cf8467e66a94ea0d0712afa1b9f44098a010d56c895f867e5",
+              "bytes": 34234
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164
+              ],
+              "article_printed_pages": [
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                155,
+                156,
+                157,
+                158,
+                159,
+                160
+              ],
+              "included_printed_pages": [
+                155,
+                156,
+                157,
+                158,
+                159,
+                160
+              ],
+              "next_pdf_page": 161,
+              "next_printed_page": 161,
+              "deferred_pdf_pages": [
+                161,
+                162,
+                163,
+                164
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Final161–164remain;assemble complete155–164article."
+            }
+          },
+          {
+            "checkpoint": "12-1984-03-batch-26",
+            "article_id": "scan-maso-1984-03-toc-0024",
+            "availability": "partial",
+            "verification": "sample-reviewed",
+            "directory": "build/pdf-restoration/12-1984-03-batch-26/visicalc",
+            "manifest": {
+              "path": "build/pdf-restoration/12-1984-03-batch-26/visicalc/manifest.json",
+              "sha256": "fe831f78a3bf538aa3608418abc604951b2c19dafd3c2d85a18614526e87edc3",
+              "bytes": 16559
+            },
+            "coverage": {
+              "complete_article": false,
+              "article_extent_verified": true,
+              "article_pdf_pages": [
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164
+              ],
+              "article_printed_pages": [
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164
+              ],
+              "source_pages_missing": false,
+              "included_pdf_pages": [
+                161,
+                162,
+                163,
+                164
+              ],
+              "included_printed_pages": [
+                161,
+                162,
+                163,
+                164
+              ],
+              "next_pdf_page": 165,
+              "next_printed_page": 165,
+              "deferred_pdf_pages": [
+                155,
+                156,
+                157,
+                158,
+                159,
+                160
+              ],
+              "assembly_required": true,
+              "remaining_extent": "Opening155–160preserved separately; assemble complete155–164article."
+            }
+          }
+        ],
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164
+          ],
+          "included_printed_pages": [
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "next_pdf_page": 165
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0025",
+      "title": "서북 편란법",
+      "parent_id": "maso-1984-03-toc-0022",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-28",
+        "article_id": "scan-maso-1984-03-toc-0025",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-northwest",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-northwest/manifest.json",
+          "sha256": "a1295b0e84abdef62cd2e48c836d1aeb19ee7542feb1e38e9423f5f4ec028549",
+          "bytes": 32253
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173
+          ],
+          "article_printed_pages": [
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173
+          ],
+          "included_pdf_pages": [
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173
+          ],
+          "included_printed_pages": [
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0026",
+      "title": "데이터 베이스 패키지",
+      "parent_id": "maso-1984-03-toc-0022",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-29",
+        "article_id": "scan-maso-1984-03-toc-0026",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-database",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-database/manifest.json",
+          "sha256": "45f15cb828b0f5ea2a904bb63120a2a7dcc0637517c17229b3d72a4f5f3f523c",
+          "bytes": 22578
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "article_printed_pages": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "included_pdf_pages": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "included_printed_pages": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0027",
+      "title": "의료보험수가 계산 프로그램",
+      "parent_id": "maso-1984-03-toc-0022",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-30",
+        "article_id": "scan-maso-1984-03-toc-0027",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-medical",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-medical/manifest.json",
+          "sha256": "d2f20185cbe161e73f0e989d8967067c37e85a148536b380741c381b0215fcd7",
+          "bytes": 40275
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "article_printed_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "included_pdf_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "included_printed_pages": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0028",
+      "title": "UP DATE 프로그램의 작성",
+      "parent_id": "maso-1984-03-toc-0022",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-31",
+        "article_id": "scan-maso-1984-03-toc-0028",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-update",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-update/manifest.json",
+          "sha256": "a64b881194b6a6331a1e1cd6c752fb5422bb8a25c3c4f3e5617296c95bf7f6ef",
+          "bytes": 22677
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            186,
+            187,
+            188,
+            189
+          ],
+          "article_printed_pages": [
+            186,
+            187,
+            188,
+            189
+          ],
+          "included_pdf_pages": [
+            186,
+            187,
+            188,
+            189
+          ],
+          "included_printed_pages": [
+            186,
+            187,
+            188,
+            189
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0029",
+      "title": "테크니컬",
+      "parent_id": null,
+      "provisional_kind": "section",
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "classification_evidence": {
+        "pdf_page": 205,
+        "visible_folio": 205,
+        "review": {
+          "path": "private/pdf-restoration/12-1984-03-batch-33/classification-review.json",
+          "sha256": "b77f9eefcecc4359b0e9be73cc4b48c6b1854624c79693f97c3f2625a71f8ddc",
+          "bytes": 2083
+        },
+        "note": "Source section divider without independent articlebody."
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0030",
+      "title": "기계어 테크닉",
+      "parent_id": "maso-1984-03-toc-0029",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-34",
+        "article_id": "scan-maso-1984-03-toc-0030",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-machine",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-machine/manifest.json",
+          "sha256": "5bbe098a5e5980e5c1d39ca9c125abb3cf91124ae74133e050ed2c2862e1d3fc",
+          "bytes": 25312
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            206,
+            207,
+            208,
+            209
+          ],
+          "article_printed_pages": [
+            206,
+            207,
+            208,
+            209
+          ],
+          "included_pdf_pages": [
+            206,
+            207,
+            208,
+            209
+          ],
+          "included_printed_pages": [
+            206,
+            207,
+            208,
+            209
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0031",
+      "title": "컴퓨터의 마담 뚜 인터페이스",
+      "parent_id": "maso-1984-03-toc-0029",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-35",
+        "article_id": "scan-maso-1984-03-toc-0031",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-interface",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-interface/manifest.json",
+          "sha256": "d917b453ded93e831f3e413cf81da5b99b36363c9b7a6b66f44182291bfd8bc3",
+          "bytes": 38435
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217
+          ],
+          "article_printed_pages": [
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217
+          ],
+          "included_pdf_pages": [
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217
+          ],
+          "included_printed_pages": [
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0032",
+      "title": "도형정의표의 정복",
+      "parent_id": "maso-1984-03-toc-0029",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-37",
+        "article_id": "scan-maso-1984-03-toc-0032",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-shape",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-shape/manifest.json",
+          "sha256": "1ec1e28602a0002323b286cf078b95682063041236c11f2c8f3b304176faea57",
+          "bytes": 56198
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227
+          ],
+          "article_printed_pages": [
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227
+          ],
+          "included_pdf_pages": [
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227
+          ],
+          "included_printed_pages": [
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0033",
+      "title": "A/D, D/A의 이론과 실제",
+      "parent_id": "maso-1984-03-toc-0029",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-39",
+        "article_id": "scan-maso-1984-03-toc-0033",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-ad",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-ad/manifest.json",
+          "sha256": "060ffdb9de6b9ce5e62a275942dd044959b513846747a1565f22e735a09bb124",
+          "bytes": 69725
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241
+          ],
+          "article_printed_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241
+          ],
+          "included_pdf_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241
+          ],
+          "included_printed_pages": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0034",
+      "title": "공모입선작",
+      "parent_id": null,
+      "provisional_kind": "section",
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "classification_evidence": {
+        "pdf_pages": [
+          244,
+          250
+        ],
+        "printed_pages": [
+          244,
+          252
+        ],
+        "review": {
+          "path": "private/pdf-restoration/12-1984-03-batch-40/classification-review.json",
+          "sha256": "0e8e7371d96ce8a4c00efae744653b242f2b2f3d3a45c6b6cf427369471dda05",
+          "bytes": 6491
+        },
+        "note": "Canonical section owns two awarded articles; source244최우수상 andPDF250/printed252우수상 banners support grouping. No separate body or divider invented."
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0035",
+      "title": "한글 워드 프로세서 프로그램",
+      "parent_id": "maso-1984-03-toc-0034",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "M02",
+        "article_id": "scan-maso-1984-03-toc-0035",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/scans/1984-03/packages/word-complete-r02",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/word-complete-r02/manifest.json",
+          "sha256": "4d7332537674b75ae4640807523c568afb0c142d0cf1167f0cda4a3db79c7a52",
+          "bytes": 23553
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_printed_pages": [
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251
+          ],
+          "included_pdf_pages": [
+            244,
+            245,
+            246,
+            247,
+            248,
+            249
+          ],
+          "included_jpeg_source_indices": [
+            256,
+            257
+          ],
+          "source_pages_missing": false,
+          "missing_printed_pages": [],
+          "assembly_required": false,
+          "source_specific_geometry_retained": true,
+          "historical_pdf_outcome": {
+            "path": "archive/scans/1984-03/restoration/closeout-01/historical-word-outcome.json",
+            "sha256": "3502473dc11271cef3aeec05c470dc21036203bd3606c8a145b5a4d4bf8d3292",
+            "bytes": 1872
+          },
+          "remaining_extent": "Complete actual244–251;PDF244–249plusJPEG250–251,explicit3190join and final4150."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0036",
+      "title": "터널 통과 게임",
+      "parent_id": "maso-1984-03-toc-0034",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-41",
+        "article_id": "scan-maso-1984-03-toc-0036",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-41/tunnel",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-41/tunnel/manifest.json",
+          "sha256": "417868a402a88fab4810ea7348914d8e77ef7481657f0a47464e1bded568b688",
+          "bytes": 8744
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            250,
+            251,
+            252
+          ],
+          "article_printed_pages": [
+            252,
+            253,
+            254
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            250,
+            251,
+            252
+          ],
+          "included_printed_pages": [
+            252,
+            253,
+            254
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete three-page articlePDF250–252/printed252–254; ends5140RETURN,nextPDF253/printed255debuggingroom."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0037",
+      "title": "심층취재 : 살아서 움직이는 현장 세운상가",
+      "parent_id": null,
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-33",
+        "article_id": "scan-maso-1984-03-toc-0037",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-sewoon",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-sewoon/manifest.json",
+          "sha256": "f9d4aaf24892520db630d53bcb73b722985fe414f7ebd8cac329c2c7a744448e",
+          "bytes": 71168
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204
+          ],
+          "article_printed_pages": [
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204
+          ],
+          "included_pdf_pages": [
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204
+          ],
+          "included_printed_pages": [
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0038",
+      "title": "정보모음",
+      "parent_id": null,
+      "provisional_kind": "section",
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "classification_evidence": {
+        "review": {
+          "path": "private/pdf-restoration/12-1984-03-batch-44/classification-review.json",
+          "sha256": "4a952618679d57b5e06669960da299c63b4119ee1bb9f9272cfe4055127ab66f",
+          "bytes": 3342
+        },
+        "note": "Canonical non-owning parent groups six separately identified bodies:editorial13,news124–131,debugPDF253/printed255,Q&Aprinted256–259,index204 andresults243. No independent body or divider is evidenced or invented. TOCorder differs fromphysicalorder."
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0039",
+      "title": "편집자 노트",
+      "parent_id": "maso-1984-03-toc-0038",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-01",
+        "article_id": "scan-maso-1984-03-toc-0039",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-01/editorial",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-01/editorial/manifest.json",
+          "sha256": "3e691fb8465e2e145d6fd7f06c5f55f910853f29f1e2e730aadd943216c5d185",
+          "bytes": 6320
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            13
+          ],
+          "included_printed_pages": [
+            13
+          ],
+          "article_pdf_pages": [
+            13
+          ],
+          "article_printed_pages": [
+            13
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_required": false
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0040",
+      "title": "정보 레이다",
+      "parent_id": "maso-1984-03-toc-0038",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-44",
+        "article_id": "scan-maso-1984-03-toc-0040",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-news",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-news/manifest.json",
+          "sha256": "b625c5b89ecc664800a6d46b16e10d6b53ecfe67933c2bcc5ea39977df191a8d",
+          "bytes": 46613
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "article_printed_pages": [
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "included_pdf_pages": [
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "included_printed_pages": [
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "source_pages_missing": false,
+          "assembly_required": false,
+          "deferred_pdf_pages": []
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0041",
+      "title": "디버깅 룸",
+      "parent_id": "maso-1984-03-toc-0038",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-41",
+        "article_id": "scan-maso-1984-03-toc-0041",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-41/debug",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-41/debug/manifest.json",
+          "sha256": "3fb6763a57fcbb0291d7620af44198b94d2431c1951c7f7fddf6b04bf7834478",
+          "bytes": 8085
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            253
+          ],
+          "article_printed_pages": [
+            255
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            253
+          ],
+          "included_printed_pages": [
+            255
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete single-page errataarticlePDF253/printed255;endingasterisk,nextPDF254/printed256Q&A."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0042",
+      "title": "Q&A",
+      "parent_id": "maso-1984-03-toc-0038",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-42",
+        "article_id": "scan-maso-1984-03-toc-0042",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-42/qa",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-42/qa/manifest.json",
+          "sha256": "59af1f70e3448423b670e81066edf5c7df957ac4323d0d9199a5a8ba23998e59",
+          "bytes": 23021
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            254,
+            255,
+            256,
+            257
+          ],
+          "article_printed_pages": [
+            256,
+            257,
+            258,
+            259
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            254,
+            255,
+            256,
+            257
+          ],
+          "included_printed_pages": [
+            256,
+            257,
+            258,
+            259
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "CompleteQ&A PDF254–257/printed256–259;finalresponseasteriskandtwo tables,nextPDF258/printed260promotionalmaterialexcluded."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0043",
+      "title": "광고색인",
+      "parent_id": "maso-1984-03-toc-0038",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-42",
+        "article_id": "scan-maso-1984-03-toc-0043",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-42/ads",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-42/ads/manifest.json",
+          "sha256": "0382ddc40aa0211e42e28c6674812e10daa79884c40150204b2a8316c19c66e3",
+          "bytes": 3295
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            204
+          ],
+          "article_printed_pages": [
+            204
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            204
+          ],
+          "included_printed_pages": [
+            204
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete lower204advertisingindex;upper204sewoondirectory separately restored,next205technicalsectiondivider."
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0044",
+      "title": "공모결과 발표",
+      "parent_id": "maso-1984-03-toc-0038",
+      "provisional_kind": "article",
+      "classification": "article",
+      "body_owner": true,
+      "restoration": {
+        "checkpoint": "12-1984-03-batch-39",
+        "article_id": "scan-maso-1984-03-toc-0044",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "directory": "archive/pdf/1984-03/packages/12-1984-03-batch-39/contest",
+        "manifest": {
+          "path": "archive/pdf/1984-03/packages/12-1984-03-batch-39/contest/manifest.json",
+          "sha256": "34f54139bcbdbd91a1de230e94e8e6fb3045c5678e9c6d42eb2ec1933f188e92",
+          "bytes": 5068
+        },
+        "coverage": {
+          "complete_article": true,
+          "article_extent_verified": true,
+          "article_pdf_pages": [
+            243
+          ],
+          "article_printed_pages": [
+            243
+          ],
+          "source_pages_missing": false,
+          "included_pdf_pages": [
+            243
+          ],
+          "included_printed_pages": [
+            243
+          ],
+          "deferred_pdf_pages": [],
+          "assembly_required": false,
+          "remaining_extent": "Complete single-page article243;next244wordprocessor."
+        }
+      }
+    }
+  ],
+  "selected_issue_manifest": {
+    "path": "archive/scans/1984-03/reference/issue-r01/manifest.json",
+    "sha256": "498ef0cdc4f719903b57e6acc89f778aabf30261a963c9419ff90ff075dd6d4f",
+    "bytes": 1220424
+  },
+  "source_selection_counts": {
+    "retained-alternative": 1,
+    "retained-insert": 4,
+    "retained-other-supplementary-source": 262,
+    "selected-article-supplement": 2,
+    "selected-cover-face": 4
+  },
+  "historical_pdf_ledger": {
+    "path": "private/pdf-restoration/12-1984-03/issue-progress.json",
+    "sha256": "9250f7ade480943b4d9496f4033162dc51ecc247b638b90d42922c7c5e1c54ee",
+    "bytes": 112099
+  },
+  "handoff": "docs/SCAN-RESTORATION-1984-03.md"
+}
