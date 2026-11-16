@@ -181,6 +181,16 @@ def check(root, require_thumbnails=False):
             validate_issue(root, issue_doc, read(path))
     if not frozen_ids <= accounted_issues:
         raise ValueError('Frozen issue has no accounting report')
+    pilot_records = manifest.get('pilotIssues', [])
+    pilot_ids = [r['issueId'] for r in pilot_records]
+    jpeg_issues = {a['issue_id'] for a in articles.values() if a.get('scanSourceKind') == 'jpeg-set'}
+    if (len(set(pilot_ids)) != len(pilot_ids) or set(pilot_ids) & accounted_issues or
+            not jpeg_issues <= set(pilot_ids) | accounted_issues or
+            set(pilot_ids) != {id for id in issues if read(root / f'issues/{id.removeprefix("maso-")}.json').get('scanPilot')}):
+        raise ValueError('Pilot issue accounting coverage differs')
+    for record in pilot_records:
+        from .scan_pilot import validate_pilot
+        validate_pilot(root, record)
     search = read(root / 'search.json')['items']
     for source in scan_issues:
         for row in read(safe(root, source['path']))['entries']:

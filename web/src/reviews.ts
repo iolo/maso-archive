@@ -10,7 +10,7 @@ export type ReviewNote = {
 }
 export type ReviewFile = { schemaVersion: 1; kind: 'maso-volunteer-reviews'; notes: ReviewNote[] }
 export const reviewKey = (articleId: string, regionId: string | null) => JSON.stringify([articleId, regionId])
-export const articleSource = (a: ArticleSummary) => a.sourceKind === 'scan' ? 'PDF' : (a.disc || 'cd1').toUpperCase()
+export const articleSource = (a: ArticleSummary) => a.sourceKind === 'scan' ? (a.scanSourceKind === 'jpeg-set' ? 'JPEG scans' : 'PDF') : (a.disc || 'cd1').toUpperCase()
 export const noteRoute = (articleId: string, regionId: string | null) => articlePath(articleId) + (regionId ? `?region=${encodeURIComponent(regionId)}` : '')
 
 export function parseReviews(text: string): ReviewFile {

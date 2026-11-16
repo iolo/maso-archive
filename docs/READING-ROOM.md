@@ -2,6 +2,60 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
+## November 1984 donated-scan pilot — November 16, 2026
+
+The local pilot reader is `dist/reading-room-scans-1984-11/`. Open
+<http://127.0.0.1:4191/#/issues/maso-1984-11> for its contents or
+<http://127.0.0.1:4191/#/review?issue=maso-1984-11> for the review queue.
+It contains **24 selected native articles**, all **40 canonical TOC identities**,
+six non-owning headings and ten explicitly unclassified entries. The pilot is
+separate from the full volunteer collection. Restoration remains paused after
+R46; R47/MAX-PRINT has not started. Covers/source accounting and whole-issue
+closeout remain pending.
+
+Articles retain exact native packages, correction records, original regional OCR,
+scan crops, figures and UTF-8 downloads. JPEG source indexes identify pages;
+neither PDF indexes nor filename numbers are substituted for printed folios.
+The reading room is a sample presentation of the native restoration schema.
+“Complete” describes the selected article's source coverage and reproducible
+native package; sample review is distinct from full proofreading or acceptance.
+
+Use the source-comparison link to move between regions, compare corrected text
+with the scan, and inspect the original OCR. **검토 메모** saves a note locally;
+**내 검토 기록 내려받기** exports notes as JSON. Notes belong to the exact browser
+and origin, including port. Export them before changing browsers or origins.
+
+To restart the existing build:
+
+```sh
+python3 -m http.server 4191 --bind 127.0.0.1 --directory dist/reading-room-scans-1984-11
+```
+
+To rebuild into a fresh directory (about 8.3 GB of native data):
+
+```sh
+PYTHONPATH=src:. python3 -m tools.reading_room.scan_pilot \
+  --ledger metadata/catalog/scan-restoration/1984-11-progress.json \
+  --output dist/reading-room-scans-1984-11-rebuild/data
+cd web
+READING_ROOM_OUTPUT=dist/reading-room-scans-1984-11-rebuild READING_ROOM_BASE=./ npm run build
+cd ..
+PYTHONPATH=src:. python3 -m tools.reading_room.check \
+  --data dist/reading-room-scans-1984-11-rebuild/data
+```
+
+The exporter refuses existing outputs, verifies selection pins and native
+packages, retains the ledger and canonical issue/TOC records, and validates
+unfinished ownership separately from completed issue accounting. It does not run
+OCR, restoration adapters or frozen checkpoint scripts. The dated receipt is
+`metadata/catalog/scan-restoration/1984-11-reading-room-pilot.json`; private build
+evidence is under `archive/scans/1984-11/evidence/reading-room-pilot-2026-11-16/`.
+Validation passed 81 reader tests (84 run, three existing skips), nine PDF reader/
+issue tests, 29 frontend tests, TypeScript and production compilation. Browser
+checks opened all 24 articles, checked EPROM source pages 198/202/204/205, original
+OCR, 360px layout, the pending MAX-PRINT entry and regional note persistence/export.
+The temporary test note was removed; the browser console reported no errors or warnings.
+
 ## Volunteer reader — November 8, 2026
 
 The current selection includes **all 21 completed PDF issues** and **all three

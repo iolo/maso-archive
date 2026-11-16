@@ -28,7 +28,9 @@ def project(package, toc, *, prefix=None):
                           resource=f'{id}-{figure["id"]}', status='available',
                           asset_name=Path(asset['path']).name, original_sha256=asset['sha256'],
                           originalPath=f'{prefix}/{asset["path"]}', previewPath=f'{prefix}/{asset["path"]}',
-                          conversion_note='Scan-region crop; original PDF identity remains in scan provenance.'))
+                          conversion_note=('Scan-region crop; original JPEG identity remains in scan provenance.'
+                                           if package['source'].get('kind') == 'jpeg-set' else
+                                           'Scan-region crop; original PDF identity remains in scan provenance.')))
     blocks, paragraphs = [], []
     offset = 0
     for index, item in enumerate(package['content_order']):
@@ -69,6 +71,8 @@ def project(package, toc, *, prefix=None):
                    text=f'{prefix}/article.txt' if text else None, text_sha256=text['sha256'] if text else None,
                    paragraphs=len(paragraphs), listings=len(listings), image_occurrences=len(figures),
                    resources=[m['resource'] for m in media])
+    if package['source'].get('kind') == 'jpeg-set':
+        summary['scanSourceKind'] = 'jpeg-set'
     assets = {a['region_id']: path_pin(a['asset']) for a in package['region_assets']}
     scan = dict(packagePath=f'{prefix}/article.json', source=package['source'],
                 coordinates=package['coordinates'], pages=package['pages'],

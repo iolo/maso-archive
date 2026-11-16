@@ -6,9 +6,9 @@ export type Cover = { path: string; width: number; height: number; sha256: strin
 export type TocImage = { sequence: number; printedPage?: number; preview: Cover & { bytes: number }; readable: Cover & { bytes: number } }
 export type TocGallery = { schemaVersion: StaticVersion; sets: { date: string; pages: TocImage[]; note?: string }[] }
 export type IssueSummary = { id: string; year: number; month: number; label: string; articleCount: number; textCount: number; tocCount: number; cover: Cover | null; disc?: string; nativeGroup?: boolean }
-export type ArticleSummary = { reference: string; article_id: string; issue_id: string; title: string; byline: string | null; page: number | null; status: Status; path: string; text: string | null; paragraphs: number; listings: number; image_occurrences: number; resources: string[]; text_sha256: string | null; disc?: string; nativeReference?: string; referencePath?: string; paragraphsPath?: string; sourceKind?: 'scan'; tocEntryId?: string; availability?: Availability; verification?: VerificationStatus }
-export type TocEntry = { id: string; parentId: string | null; depth: number; title: string; byline: string | null; page: number | null; kind: string; articleIds: string[]; restorationKind?: 'article' | 'group-heading' | 'section-reference' | 'unresolved'; restorationEligibility?: string; sectionRef?: { articleId: string; blockId: string } }
-export type IssueDoc = { schemaVersion: StaticVersion; issue: IssueSummary; toc: TocEntry[]; articles: ArticleSummary[]; tocImages?: TocImage[]; scanRestoration?: { counts: { classified_articles: number; group_headings: number; section_references: number; unresolved_eligibility: number; unresolved_body_locations?: number; restoration_availability: Record<Availability, number>; verification: Record<VerificationStatus, number> } } }
+export type ArticleSummary = { reference: string; article_id: string; issue_id: string; title: string; byline: string | null; page: number | null; status: Status; path: string; text: string | null; paragraphs: number; listings: number; image_occurrences: number; resources: string[]; text_sha256: string | null; disc?: string; nativeReference?: string; referencePath?: string; paragraphsPath?: string; sourceKind?: 'scan'; scanSourceKind?: 'jpeg-set'; tocEntryId?: string; availability?: Availability; verification?: VerificationStatus }
+export type TocEntry = { id: string; parentId: string | null; depth: number; title: string; byline: string | null; page: number | null; kind: string; articleIds: string[]; restorationKind?: 'article' | 'group-heading' | 'section-reference' | 'unresolved' | 'unclassified'; restorationEligibility?: string; sectionRef?: { articleId: string; blockId: string } }
+export type IssueDoc = { schemaVersion: StaticVersion; issue: IssueSummary; toc: TocEntry[]; articles: ArticleSummary[]; tocImages?: TocImage[]; scanPilot?: { note: string; counts: { articles: number; complete: number; partial: number; group_headings: number; unclassified: number } }; scanRestoration?: { counts: { classified_articles: number; group_headings: number; section_references: number; unresolved_eligibility: number; unresolved_body_locations?: number; restoration_availability: Record<Availability, number>; verification: Record<VerificationStatus, number> } } }
 export type Catalog = { schemaVersion: StaticVersion; issues: IssueSummary[]; articles: ArticleSummary[]; tocGallery?: string; sources?: { disc: string; referencePath?: string }[] }
 export type Media = { issue: string; resource: string; status: 'available' | 'available_with_caveat' | 'deferred' | 'missing'; asset_name: string | null; original_sha256: string; conversion_note: string | null; originalPath?: string | null; previewPath?: string | null }
 export type MediaDoc = { schemaVersion: StaticVersion; issueId: string; items: Media[] }
@@ -58,12 +58,16 @@ export function search(items: SearchItem[], query: string, issueId = ''): Search
 
 // Version 3 scan fields supplement the existing static reader contract.
 // Asset/download pins are relative to data/source/. Figure pins retain package
-// scope; source.path identifies the repository PDF input, not a download.
+// scope; source.path identifies the repository source input, not a download.
 export type FilePin = { path: string; sha256: string; bytes: number }
-export type ScanPage = { pdf_index: number; pdf_page: number; printed_page: string | null; width_pt: number; height_pt: number; rotation: number; MediaBox: number[]; CropBox: number[]; pdf_to_upright_normalized: number[] }
-export type ScanRegion = { id: string; pdf_index: number; kind: string; bbox: number[]; notes: string; asset: FilePin | null }
+export type ScanPage = { pdf_index: number; pdf_page: number; printed_page: string | null; width_pt: number; height_pt: number; rotation: number; MediaBox: number[]; CropBox: number[]; pdf_to_upright_normalized: number[] } |
+  { source_index: number; image: FilePin; printed_page: string | null; width_px: number; height_px: number; reading_order: number; source_filename_number: number; image_to_upright_normalized: number[]; orientation_correction?: { clockwise_degrees: number; evidence: string } }
+export type ScanRegion = { id: string; pdf_index?: number; source_index?: number; kind: string; bbox: number[]; notes: string; asset: FilePin | null }
+export const pageForRegion = (pages: ScanPage[], region?: ScanRegion) => !region ? undefined : pages.find(p =>
+  'source_index' in p ? region.source_index !== undefined && p.source_index === region.source_index : region.pdf_index !== undefined && p.pdf_index === region.pdf_index)
+export const sourcePageLabel = (page?: ScanPage) => !page ? 'Source page unknown' : 'source_index' in page ? `JPEG image ${page.source_filename_number}` : `PDF ${page.pdf_page}쪽`
 export type ScanData = {
-  packagePath: string; packageSha256: string; source: FilePin & { id: string }
+  packagePath: string; packageSha256: string; source: FilePin & { id: string; kind?: 'jpeg-set' }
   coordinates: 'upright-normalized-top-left'; pages: ScanPage[]; regions: ScanRegion[]
   excludedRegions: Omit<ScanRegion, 'asset'>[]
   contentOrder: { type: 'block' | 'figure'; id: string }[]

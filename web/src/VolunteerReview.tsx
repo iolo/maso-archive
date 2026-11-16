@@ -79,13 +79,13 @@ export function ReviewQueue({ catalog }: { catalog: Catalog }) {
   const scanIssues = new Set(scanArticles.map(a => a.issue_id)).size
   const names = new Map(catalog.issues.map(i => [i.id, i.label]))
   return <div className="page-content review-queue"><div className="page-heading"><p className="eyebrow">월간 마이크로소프트웨어 · 자원봉사 검토</p><h1>자원봉사 검토</h1>
-    <p>PDF 복원 {scanIssues}개 호 · {scanArticles.length.toLocaleString()}편 / CD1·CD2·CD3 {(catalog.articles.length - scanArticles.length).toLocaleString()}편</p></div>
-    <div className="review-intro"><p>글을 열어 원문과 대조하고, <strong>검토 메모</strong>에 수정할 곳을 기록하세요. PDF는 쪽·영역별 스캔을, CD는 복원 본문과 첨부 자료를 제공합니다.</p>
+    <p>Scan restoration {scanIssues}개 호 · {scanArticles.length.toLocaleString()}편 / CD1·CD2·CD3 {(catalog.articles.length - scanArticles.length).toLocaleString()}편</p></div>
+    <div className="review-intro"><p>글을 열어 원문과 대조하고, <strong>검토 메모</strong>에 수정할 곳을 기록하세요. Scans include page/region comparisons; CD records include restored text and attachments.</p>
       <p>메모는 이 브라우저에만 보관됩니다. 작업 후 JSON을 내려받아 담당자에게 전달하세요. ‘대조 완료’는 개인 기록이며 공식 승인이 아닙니다.</p>
       <div className="review-actions"><Button variant="outline" disabled={!file.notes.length || !!error} onClick={() => downloadReviews(file.notes)}>내 검토 기록 {file.notes.length}건 내려받기</Button><Link to="/">표지로 호 찾기 →</Link></div></div>
     {error && <p role="alert">{error}</p>}
     {!!file.notes.length && <details className="saved-review-notes"><summary>내 검토 메모 {file.notes.length}건 · 이어서 보기</summary><ul>{[...file.notes].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)).map(n => <li key={reviewKey(n.articleId, n.regionId)}><Link to={n.route}>{n.title} · {n.regionId ? `영역 ${n.regionId}` : '글 전체'}</Link><small>{reviewLabels[n.status]} · {n.reviewer || '이름 없음'} · {new Date(n.updatedAt).toLocaleDateString('ko-KR')}</small></li>)}</ul></details>}
-    <div className="review-filters"><label>자료<select value={filters.source} onChange={e => update('source', e.target.value)}><option value="">PDF + 모든 CD</option>{['PDF', 'CD1', 'CD2', 'CD3'].map(s => <option key={s}>{s}</option>)}</select></label>
+    <div className="review-filters"><label>자료<select value={filters.source} onChange={e => update('source', e.target.value)}><option value="">Scans + all CDs</option>{['JPEG scans', 'PDF', 'CD1', 'CD2', 'CD3'].map(s => <option key={s}>{s}</option>)}</select></label>
       <label>호 / 날짜 묶음<select value={filters.issue} onChange={e => update('issue', e.target.value)}><option value="">모든 호</option>{issues.map(i => <option key={i.id} value={i.id}>{i.label}{i.nativeGroup ? ` · ${i.disc?.toUpperCase()}` : ''}</option>)}</select></label>
       <label>내 검토 상태<select value={filters.status} onChange={e => update('status', e.target.value)}><option value="">모든 상태</option><option value="pending">시작 전</option>{Object.entries(reviewLabels).map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select></label>
       <label>제목·글쓴이<input type="search" value={filters.query} onChange={e => update('q', e.target.value)} placeholder="검색어" /></label></div>

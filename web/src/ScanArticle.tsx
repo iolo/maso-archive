@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useSearchParams, useNavigate } from 'react-router-dom'
 import { ScanRegionReview, ScanText } from './ScanRegionReview'
-import { type ArticleDoc, type Availability, type Block, type ScanData, type VerificationStatus, articlePath, dateOf, issuePath, sourceUrl, tocPath } from './data'
+import { type ArticleDoc, type Availability, type Block, type ScanData, type VerificationStatus, articlePath, dateOf, issuePath, sourceUrl, tocPath, pageForRegion, sourcePageLabel } from './data'
 
 export const availabilityLabel = (state: Availability) => ({ readable: '읽기 가능', partial: '일부 복원', 'image-only': '스캔만 있음', failed: '복원 시도 실패', unresolved: '복원 상태 미확인' })[state]
 export const verificationLabel = (state: VerificationStatus) => ({ unreviewed: '미검토', 'sample-reviewed': '범위를 정해 검토', 'fully-reviewed': '전체 검토' })[state]
@@ -56,17 +56,17 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
   }, [regionId, sectionId, section])
   const regionLinks = (ids: string[]) => <p className="scan-links">{ids.map(id => <Link key={id} to={regionPath(article.article_id, id)}>원문 스캔 {id}</Link>)}</p>
   if (regionId) {
-    const page = scan.pages.find(p => p.pdf_index === region?.pdf_index)
+    const page = pageForRegion(scan.pages, region)
     return <section className="page-content scan-evidence" tabIndex={-1} ref={focus}>
       <Link to={articlePath(article.article_id)}>← {article.title} 본문</Link>
-      <h1>{region ? `${page?.printed_page || page?.pdf_page || ''}쪽 원문 대조` : '스캔 영역을 찾을 수 없습니다'}</h1>
+      <h1>{region ? `${page?.printed_page || (page && 'pdf_page' in page ? page.pdf_page : '')}쪽 원문 대조` : '스캔 영역을 찾을 수 없습니다'}</h1>
       {region && <>
         <nav className="region-navigation" aria-label="스캔 검토 이동">
           {scan.regions.indexOf(region) > 0 && <Link to={regionPath(article.article_id, scan.regions[scan.regions.indexOf(region) - 1].id)}>← 이전 영역</Link>}
-          <label>쪽 / 영역 <select value={region.id} onChange={e => navigate(regionPath(article.article_id, e.target.value))}>{scan.regions.map((r, i) => <option key={r.id} value={r.id}>{scan.pages.find(p => p.pdf_index === r.pdf_index)?.printed_page || '?'}쪽 · {i + 1}/{scan.regions.length} · {regionKindLabel(r.kind)}</option>)}</select></label>
+          <label>쪽 / 영역 <select value={region.id} onChange={e => navigate(regionPath(article.article_id, e.target.value))}>{scan.regions.map((r, i) => <option key={r.id} value={r.id}>{pageForRegion(scan.pages, r)?.printed_page || '?'}쪽 · {i + 1}/{scan.regions.length} · {regionKindLabel(r.kind)}</option>)}</select></label>
           {scan.regions.indexOf(region) < scan.regions.length - 1 && <Link to={regionPath(article.article_id, scan.regions[scan.regions.indexOf(region) + 1].id)}>다음 영역 →</Link>}
         </nav>
-        <p>PDF {page?.pdf_page}쪽 · 인쇄 {page?.printed_page || '미상'}쪽 · {verificationLabel(scan.verification.status)}</p>
+        <p>{sourcePageLabel(page)} · 인쇄 {page?.printed_page || '미상'}쪽 · {verificationLabel(scan.verification.status)}</p>
         <div className="region-comparison"><section aria-label="원문 스캔">
           <h2>원문 스캔</h2>
           {region.asset ? <><p className="region-image-actions"><button type="button" aria-pressed={zoomed} onClick={() => setZoomed(v => !v)}>{zoomed ? '화면에 맞추기' : '확대해서 보기'}</button> <a href={sourceUrl(region.asset.path)} target="_blank" rel="noreferrer">원본 크기로 열기</a> · <a href={sourceUrl(region.asset.path)} download>스캔 내려받기</a></p>
@@ -109,8 +109,8 @@ export function ScanArticle({ doc }: { doc: ArticleDoc }) {
     })}</div>}
     <section id="scan-regions" className="scan-region-list"><h2>원문 스캔 영역</h2>
       <p>영역을 선택하면 해당 스캔을 불러옵니다. 인쇄 쪽수와 PDF 쪽수는 다를 수 있습니다.</p>
-      {scan.regions.length ? <ul>{scan.regions.map(r => { const p = scan.pages.find(p => p.pdf_index === r.pdf_index); return <li key={r.id}>
-        <Link to={regionPath(article.article_id, r.id)}>{r.id} · 인쇄 {p?.printed_page || '미상'}쪽 / PDF {p?.pdf_page}쪽</Link>{!r.asset && ' · 이미지 없음'}
+      {scan.regions.length ? <ul>{scan.regions.map(r => { const p = pageForRegion(scan.pages, r); return <li key={r.id}>
+        <Link to={regionPath(article.article_id, r.id)}>{r.id} · 인쇄 {p?.printed_page || '미상'}쪽 / {sourcePageLabel(p)}</Link>{!r.asset && ' · 이미지 없음'}
       </li> })}</ul> : <p>확인된 스캔 영역이 없습니다.</p>}
     </section>
     <details className="source-note"><summary>출처 기록</summary><p>스캔을 바탕으로 복원한 글입니다. 교정 전 OCR와 교정 내용은 별도로 보존합니다.</p>

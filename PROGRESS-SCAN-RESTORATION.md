@@ -2500,3 +2500,38 @@ establish MAX-PRINT from its observed opener **206**, including its full extent,
 title/byline and structures before bounded mapping. The ten remaining identities,
 covers/source-image accounting and checked whole-issue native export/rebuild
 remain in scope. The whole-November goal is paused, not complete.
+
+## November pilot reading room built — 2026-11-16
+
+At the owner's request, built a separate local review reader from the selected
+R46 ledger at `dist/reading-room-scans-1984-11/`. It presents **24 reproducible
+native articles**, all **40 canonical identities**, six non-owning headings and
+ten explicitly unclassified entries. This is an unfinished-issue preview, with
+its own retained ledger/TOC accounting; it does not claim issue closeout or change
+any restoration outcome. The full volunteer collection is unchanged.
+
+The standalone exporter copies selected native packages exactly and checks reader
+projections, downloads, inventories, ownership and pending identities. The existing
+reader now matches JPEG regions to their actual source indexes and distinguishes
+JPEG review notes from PDF notes. Sample presentation preserves source crops,
+figures, corrections, original regional OCR and UTF-8 text/listing downloads;
+native schema packages remain available through source-record links.
+The final seal verifies **4,548 copied native files / 8,250,924,816 bytes** against
+the original selections. R46's 34 frozen evidence files, 28 implementation pins,
+both shared plans and the 44 prior package/catalog pins remain exact.
+
+Validation passed **81 reader tests** (84 run, three existing skips), **nine PDF
+reader/issue tests**, **29 frontend tests**, TypeScript and production compilation.
+Additional focused checks reject removal of pilot accounting and changes to
+canonical issue identity. Browser review opened all 24 article routes, checked
+EPROM's 198/202/204/205 page labels and upright diagram, original OCR, 360px layout,
+the 24-record JPEG queue, regional note save/reload/JSON export and pending
+MAX-PRINT. The temporary note was removed; no console errors or warnings occurred.
+
+Open <http://127.0.0.1:4191/#/issues/maso-1984-11> or its
+[review queue](http://127.0.0.1:4191/#/review?issue=maso-1984-11).
+See [build/review instructions](docs/READING-ROOM.md) and the
+[pilot receipt](metadata/catalog/scan-restoration/1984-11-reading-room-pilot.json).
+No OCR or restoration work was resumed. **The November restoration goal remains
+paused after R46, with R47/MAX-PRINT unstarted.** PLAN-OCR.md and PLAN-PDF.md are
+unchanged.

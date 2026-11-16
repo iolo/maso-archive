@@ -116,9 +116,13 @@ function Bookshelf({ catalog }: { catalog: Catalog }) {
   </div>
 }
 
-function IssueOverview({ issue }: { issue: IssueDoc }) {
+export function IssueOverview({ issue }: { issue: IssueDoc }) {
   return <div className="page-content"><div className="page-heading"><p className="eyebrow">{issue.issue.label} · 월간 마이크로소프트웨어</p><h1>{issue.issue.nativeGroup ? issue.issue.label : `${issue.issue.year}년 ${issue.issue.month}월호`}</h1><p>차례 {issue.issue.tocCount}항목 · 읽기 자료 {issue.issue.textCount}편</p></div>
     {issue.issue.nativeGroup && <p className="notice">CD의 날짜 표기로 묶었습니다. 발행호 확인 전이며 도서관 차례 연결은 없습니다.</p>}
+    {issue.scanPilot && <section className="notice" aria-label="Pilot review status"><h2>Restoration pilot · review preview</h2>
+      <p>{issue.scanPilot.counts.complete} complete native articles · {issue.scanPilot.counts.partial} partial · {issue.scanPilot.counts.group_headings} group headings · {issue.scanPilot.counts.unclassified} unclassified entries</p>
+      <p>{issue.scanPilot.note}</p>
+    </section>}
     <IssueCover issue={issue.issue} />
     <TocImages key={issue.issue.id} pages={issue.tocImages} label={issue.issue.label} />
     {issue.scanRestoration && <section aria-label="호 복원 및 검토 상태"><h2>호 복원 기록</h2>
@@ -137,6 +141,7 @@ export function TocDetail({ issue, id }: { issue: IssueDoc; id: string }) {
   const entry = issue.toc.find(e => e.id === id)
   if (!entry) return <NotFound />
   return <div className="page-content"><p className="eyebrow">{issue.issue.label} · 차례 항목</p><h1>{entry.title}</h1><p className="metadata">{entry.page !== null && `${entry.page}쪽`}{entry.byline && ` · ${entry.byline}`}</p>
+    {entry.restorationKind === 'unclassified' && <p className="notice">Restoration pending: this identity has not been classified or restored. This does not mean its source pages are missing.</p>}
     {entry.restorationKind === 'unresolved' && <p className="notice">{entry.restorationEligibility === 'eligible-canonical-toc-leaf' ? 'PDF 복원 대상이지만 본문 위치를 확인하지 못했습니다.' : 'PDF 복원의 분류 또는 본문 위치가 미해결입니다.'}</p>}
     {entry.sectionRef ? <><p>이 항목은 아래 글 안의 절입니다.</p><Link to={sectionPath(entry.sectionRef.articleId, entry.sectionRef.blockId)}>{entry.title} 본문으로 <ArrowRight size={16} /></Link></> : entry.restorationKind === 'group-heading' ? <><p>여러 글을 묶는 차례 제목입니다.</p><ul>{issue.toc.filter(t => t.parentId === entry.id).map(t => <li key={t.id}><Link to={tocPath(issue.issue.id, t.id)}>{t.title}</Link></li>)}</ul></> : entry.articleIds.length ? <><h2>연결된 읽기 자료</h2><ul>{entry.articleIds.map(id => { const article = issue.articles.find(a => a.article_id === id); return article && <li key={id}><Link to={articlePath(id)}>{article.title} <ArrowRight size={16} /></Link></li> })}</ul></> : <p className="notice">이 차례 항목에 확인된 읽기 자료 연결이 없습니다. 차례만으로 원문 부재를 단정할 수 없습니다.</p>}
     <p className="source-note">자료마다 출처와 검토 범위가 다릅니다. 연결된 글에서 확인 상태를 확인하세요.</p></div>
