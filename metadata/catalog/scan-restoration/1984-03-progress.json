@@ -464,19 +464,34 @@
               "sha256": "fcde9867c968cf7251b3193eaae399e1f9df5ebd8c4608f341b217ac5dac4442",
               "bytes": 1916
             }
+          },
+          {
+            "checkpoint": "M09",
+            "directory": "archive/scans/1984-03/packages/feature-jpeg-d-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/feature-jpeg-d-r01/manifest.json",
+              "sha256": "77e5e2d6fcdf7f5d53f4a7315579025ff574e046909e94b65e9a0b5659bec8e2",
+              "bytes": 21267
+            },
+            "actual_folios": [
+              32,
+              33,
+              34,
+              35,
+              36,
+              37
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-05/validation.json",
+              "sha256": "66347dd02903dd80b0e58092ab19616622e854355382b74214c802af6a2be7c1",
+              "bytes": 1596
+            }
           }
         ],
         "observed_opening_folio": 14,
         "observed_ending_folio": 37,
-        "intermediate_extent_fully_reviewed": false,
-        "continuation_pending": [
-          32,
-          33,
-          34,
-          35,
-          36,
-          37
-        ],
+        "intermediate_extent_fully_reviewed": true,
+        "continuation_pending": [],
         "assembly_pending": true,
         "included_actual_folios": [
           14,
@@ -496,8 +511,15 @@
           28,
           29,
           30,
-          31
-        ]
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "source_extent_covered": true
       },
       "historical_printed_extent_candidate": [
         14,
@@ -4709,12 +4731,12 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-04/source-ledger.json",
-    "sha256": "2d2a2eb5fee6338cca862457efcf758f440a12da888bbc0b77aeb60fb05776a0",
-    "bytes": 156432
+    "path": "archive/scans/1984-03/restoration/whole-issue-05/source-ledger.json",
+    "sha256": "13f006ab6796ab8b8445de859899713522233204de7f3b5579368666ad9e1c8b",
+    "bytes": 160250
   },
-  "current_checkpoint": "M08-complete",
-  "next": "M09: restore actual32–37 as the final feature segment, then audit immutable whole-feature assembly. Whole issue remains active.",
+  "current_checkpoint": "M09-complete",
+  "next": "M10: assemble and audit all four immutable feature segments14–37. Whole March issue remains active.",
   "pending_article_candidates": 36,
   "pending_heading_candidates": 6,
   "partial_whole_scan_articles": 1

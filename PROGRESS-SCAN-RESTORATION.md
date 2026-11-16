@@ -22,9 +22,11 @@ diagrams with native structures. M07 adds actual 20–25: 146 exact native files
 435 physical code rows, seven typed tables, the 512-slot glyph grid and two
 native flow graphs. M08 adds actual 26–31: 162 exact native files, 500 physical
 code rows, 196 table cells, 84 component slots and four native flow graphs.
-There are one complete article, one partial feature, 36 pending article
-candidates, six pending headings and 237 source images awaiting full-page
-disposition. Continue with actual 32–37 and whole-feature assembly.
+M09 completes feature source coverage on actual 32–37: 122 exact files,
+899 physical code/session rows, 12,288 dump byte fields, the native command table
+and all four bibliography entries. There are one complete article, one partial
+feature, 36 pending article candidates, six pending headings and 233 source
+images awaiting full-page disposition. Continue with whole-feature assembly.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -95,6 +97,7 @@ labels and the preserved exports retain their existing values.
 | March 1984 feature opening — M06 | Passed; whole article partial | Actual 14–19; 159 exact native files, 210 physical code rows, 1,260 fields, three original diagrams; 20–37 and assembly pending |
 | March 1984 feature continuation — M07 | Passed; whole article partial | Actual 20–25; 146 exact native files, 435 physical code rows, 333 table cells, 512 glyph slots, two source graphs; 26–37 and assembly pending |
 | March 1984 feature continuation — M08 | Passed; whole article partial | Actual 26–31; 162 exact native files, 500 physical code rows, 256 dump bytes, 196 table cells, 84 component slots and four source graphs; 32–37 and assembly pending |
+| March 1984 feature final source — M09 | Passed; whole article assembly pending | Actual 32–37; 122 exact native files, 899 physical code/session rows, 12,288 dump fields, 81 command-table cells and four bibliography entries; all source pages covered |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -3936,4 +3939,54 @@ Whole March remains active: **one complete article, one partial feature,
 identities remain in the ledger; **237** await full-page disposition. Continue
 with **M09**, actual **32–37**, then whole-feature assembly. See [the segment
 result](metadata/catalog/scan-restoration/1984-03-feature-middle-c.json) and
+[active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M09 — March feature final source, actual 32–37
+
+Restored the final six JPEG views as **feature-jpeg-d-r01**. All **122 native
+files** reproduce exactly in an independent fresh build. The 29 mapped regions
+retain sixteen logical blocks, seven paragraphs, four original table/example
+rasters and five code/session contexts. All feature source folios **14–37** are
+now covered across four immutable segments. The feature remains partial until
+whole-article assembly and its source/index audit pass.
+
+The native retains **899 physical rows / 896 logical units**, **4,495 fields**,
+**768 dump rows / 12,288 printed byte fields**, forty interpreter-modification
+byte occurrences and a 27-row command table with **81 cells / 190 values**.
+Two initializer comment wraps and the unaddressed continuation of patch 191D
+remain attached to their source units. Packed **A1A1**, the 1ED0 semicolon,
+printed equals signs and sparse original row labels remain literal. The initial
+dump OCR lost or merged fields; each of the nine failed regions received one
+mapped retry at scale 6000. All 28 initial tasks and nine targeted retries remain
+preserved; other regions were not repeated. No further recognition ran.
+
+Full dump panels and enlarged original-row views support **53 selected byte
+changes** from the older PDF draft. Preserve **359 local byte qualifications**
+and 745 source-linked raw-disagreement rows. Alternatives include faint 8/B,
+0/O and related glyphs; selected reading text does not certify recovered bytes.
+Repeated FF/00 fields and separately printed terminal FF values retain their
+independent rows without pattern filling. Original execution and technical
+claims remain unverified. The failed threshold-based row-view helper is retained;
+selected review plates use the original retry TSV to locate master-image rows.
+
+The source command table retains **CONTIUUE** with its CONTINUE candidate,
+DATA's missing equals marker, blank English names for 변경 and 넣기, and the
+four visible DEF values without an invented terminator or pointer. The example
+retains nineteen numbered program units, prompts, response text, ten repeated
+output rows, relative indentation and three original printed views. Apostrophe/
+slash-like punctuation, exact screen columns and Unicode glyph equivalence remain
+qualified. The conclusion retains its acknowledgement and star. All **four
+bibliography entries** are restored, including the Digital Equipment reference
+omitted from the older PDF draft; the first title's missing closing quote and
+physical VERSI/ON and M-/anual wraps remain explicit.
+
+All **29 selected master-derived crops**, **28 recognition bindings**, **114
+raw ZIP members**, typed source owners and all download/block/regional ranges
+pass. M08's frozen evidence remains exact. Shared implementation is unchanged;
+its pinned M06 implementation and 282-test evidence are checked and reused.
+Cleanup was previewed without deletion. All 273 source identities remain in the
+ledger; **233** await full-page disposition. Whole March remains active with one
+complete article, one partial feature, 36 pending article candidates and six
+pending headings. Continue with **M10**, whole-feature assembly. See [the final
+source result](metadata/catalog/scan-restoration/1984-03-feature-final-d.json) and
 [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

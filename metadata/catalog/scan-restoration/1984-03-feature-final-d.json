@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M09",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0001",
+  "status": "complete-native-final-source-segment",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "selected_package": "archive/scans/1984-03/packages/feature-jpeg-d-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/feature-jpeg-d-r01/manifest.json",
+    "sha256": "77e5e2d6fcdf7f5d53f4a7315579025ff574e046909e94b65e9a0b5659bec8e2",
+    "bytes": 21267
+  },
+  "exact_files": 122,
+  "structure": {
+    "source_images": 6,
+    "source_regions": 29,
+    "initial_text_ocr_tasks": 28,
+    "targeted_dump_retries": 9,
+    "blocks": 16,
+    "original_figures": 4,
+    "tables": 1,
+    "table_rows": 27,
+    "table_cells": 81,
+    "table_hex_values": 190,
+    "physical_listing_rows": 899,
+    "logical_listing_units": 896,
+    "listing_fields": 4495,
+    "dump_physical_rows": 768,
+    "printed_dump_bytes": 12288,
+    "modification_bytes": 40,
+    "selected_JPEG_byte_changes": 53,
+    "byte_qualifications": 359,
+    "recognition_disagreement_rows": 745,
+    "example_program_units": 19,
+    "example_repeated_output_rows": 10,
+    "bibliography_entries": 4,
+    "paragraphs": 7,
+    "source_qualifications": 10,
+    "whole_article_complete": false,
+    "whole_feature_source_extent_covered": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-05/validation.json",
+    "sha256": "66347dd02903dd80b0e58092ab19616622e854355382b74214c802af6a2be7c1",
+    "bytes": 1596
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-05/feature-d/recipe.json",
+    "sha256": "4585d43e5a7ae8c27aa12dab754609b6e5e1211a1dbb352df45ce793e0442857",
+    "bytes": 8346
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-05/source-ledger.json",
+    "sha256": "13f006ab6796ab8b8445de859899713522233204de7f3b5579368666ad9e1c8b",
+    "bytes": 160250
+  },
+  "source_dispositions_pending": 233,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-05/whole-progress-m09.json",
+    "sha256": "cb84d1a28c433a3427d201033954173f15151c6b390c435019f1e927d240ca58",
+    "bytes": 144740
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-05/evidence-manifest.json",
+    "sha256": "9ceb137a3078b669f2ab83b2fb2500b0b77ce8472f71ea67f55f78ea9fcc598f",
+    "bytes": 76503
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 282,
+  "next": "M10: assemble and audit all four immutable feature segments14–37. Whole March issue remains active."
+}

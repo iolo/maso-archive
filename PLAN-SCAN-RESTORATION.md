@@ -36,11 +36,13 @@ feature's opening on actual 14–19 as a checked native segment. M07 adds actual
 20–25: 146 exact files, 435 physical code rows, seven typed tables, the
 512-slot source glyph grid and two native flow graphs. M08 adds actual 26–31:
 162 exact files, 500 physical code rows, 196 typed table cells, 84 component
-slots and four native flow graphs. These segments remain partial until actual
-32–37 and whole-feature assembly pass.
+slots and four native flow graphs. M09 completes source coverage on actual
+32–37: 122 exact files, 899 physical code/session rows, 12,288 dump byte fields,
+the native command table and all four bibliography entries. All four segments
+remain partial until whole-feature assembly passes.
 The whole issue remains active: one complete article, one partial feature,
-36 pending article candidates and six pending headings. There are 237 source
-images still awaiting full-page disposition. Continue with actual 32–37.
+36 pending article candidates and six pending headings. There are 233 source
+images still awaiting full-page disposition. Continue with whole-feature assembly.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
