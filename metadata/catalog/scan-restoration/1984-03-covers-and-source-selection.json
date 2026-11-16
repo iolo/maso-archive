@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M03",
+  "issue_id": "maso-1984-03",
+  "status": "passed",
+  "scope": "Four native cover faces and complete supplementary-source selection;not whole-JPEG text restoration.",
+  "cover_manifest": {
+    "path": "archive/scans/1984-03/packages/covers-r01/manifest.json",
+    "sha256": "ed6e698675a81a6bc2fa54d67425a38de0ab357279e985509a4a204265e073a8",
+    "bytes": 1653
+  },
+  "exact_cover_files": 11,
+  "source_images": 273,
+  "source_selection_counts": {
+    "retained-alternative": 1,
+    "retained-insert": 4,
+    "retained-other-supplementary-source": 262,
+    "selected-article-supplement": 2,
+    "selected-cover-face": 4
+  },
+  "source_selection": {
+    "path": "archive/scans/1984-03/restoration/covers-01/source-selection.json",
+    "sha256": "b2f872ab16cfd8335bcebccf721077b5fb02c2648876282d8cff98bc821dd7c8",
+    "bytes": 278671
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/covers-01/validation.json",
+    "sha256": "e31fbe8830833642c81b6b6c69bf121e8f903633ec78575f85f4ab8f4cf03bdd",
+    "bytes": 1526
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/covers-01/cover-recipe.json",
+    "sha256": "ea86da8a725b3d9026e7b8ad2565953c3920ec6afb96e93cb95ec310c01d0eb0",
+    "bytes": 440
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/covers-01/evidence-manifest.json",
+    "sha256": "591bfc227537953c72852beffb2dfb40f9cb451cd6dd0d433cf2b156469b1147",
+    "bytes": 3716
+  },
+  "next": "M04:checked March issue export/rebuild,canonical and preservation audit,retained cover/source-selection companions and reproduction handoff."
+}

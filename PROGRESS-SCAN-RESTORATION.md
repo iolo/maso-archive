@@ -3651,3 +3651,37 @@ retained; r02 adds active figure/caption and qualification associations.
 this revision, verify all 44 canonical outcomes and the 37 unchanged other PDF
 articles, then write the issue-level reproduction and supplementary-source
 handoff. The March goal remains active.
+
+## M03 — March original covers and supplementary-source selection
+
+All four donated cover faces now form a checked native **`covers-r01`** set:
+**11 exact files**, independently rebuilt. The front visibly identifies March
+1984; the outer faces retain the dated spine, original artwork and visible edge
+loss, creases, wear and stains. Inner faces retain the distinct 금성사 and
+스포트라이트 advertisements, with 큐닉스 on the outer back. Nine selected labels
+were checked against master-derived crops. Original JPEG bytes remain unchanged;
+this does not claim complete cover-advertisement or front-teaser transcription.
+
+A source-selection ledger accounts for all **273 donated JPEGs**: **two selected
+article-supplement images, four selected cover faces, four retained subscription/
+payment-form inserts, one separate spine alternative and 262 other retained
+supplementary-source images**. Every master hash was freshly checked. The four
+form scans remain intact in their supplied orientations, with no invented folios
+or recto/verso certainty. The separate spine is retained without replacement.
+
+March follows the plan's targeted supplementary-source scope: the completed PDF
+restoration supplies the existing article bodies, and only the missing word-
+processor continuation required new JPEG transcription. The 262 unselected page
+images retain their cleanup review and explicitly unverified full-resolution
+classification and PDF correspondence. Selection accounting is not a new claim
+that every JPEG has been transcribed, physically collated or aligned to the PDF.
+The known filename gap 11–12 and uncertain late-page ordering remain unchanged.
+
+Eleven damaged actual cover/selection cases are rejected. The first cover-export
+attempt rejected omitted explicit no-transcription/no-cosmetic flags and an
+unsupported observation kind; the review record was corrected to the existing
+schema, with the initial record and failed log retained. No source pixel, OCR,
+shared implementation, reader or deployment changed. **M04 issue export, final
+canonical/preservation checks and reproduction handoff remain required.**
+
+See the [M03 result](metadata/catalog/scan-restoration/1984-03-covers-and-source-selection.json).
