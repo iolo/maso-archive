@@ -27,15 +27,17 @@ M09 completes feature source coverage on actual 32–37: 122 exact files,
 and all four bibliography entries. M10 completes the whole feature on actual
 14–37: 598 exact native files, all original segment indexes retained, two
 source-compared split-word joins and 282 fresh passing restoration tests. There
-are now three complete articles, no partial articles, 35 pending article candidates,
-one completed heading, five pending headings and 226 source images awaiting
+are now four complete articles, no partial articles, 34 pending article candidates,
+one completed heading, five pending headings and 222 source images awaiting
 full-page disposition.
 M11 restores 추리력 테스트 게임 on actual40–45 as a checked 91-file opening
 segment. M12 adds the final Apple listing on46 as 17 exact native files and
 classifies the non-owning heading39 with eleven child entries in six exact files.
 M13 completes the whole reasoning-game article on 40–46: 117 exact files, four
 independent programs, one explicit Apple continuation and 286 fresh passing tests.
-Continue with M14, 모래시계 on 47–50, in bounded checkpoints.
+M14 completes 모래시계 on 47–50: 78 exact native files, five independent
+listings, 376 physical rows / 372 numbered units and the original illustration.
+Continue with M15, 기초 공작실 게임패들의 제작 on 51–53, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -111,6 +113,7 @@ labels and the preserved exports retain their existing values.
 | March 1984 reasoning-game opening — M11 | Passed; whole article partial | Actual 40–45; 91 exact native files, four source versions, 391 physical rows / 356 logical units, 66 table cells, 42 qualified graphic runs and the complete source flowchart; 46 and assembly pending |
 | March 1984 reasoning-game final segment and hobby heading — M12 | Passed; whole article assembly pending | Actual46: 17 exact files, 144 physical rows / 110 numbered statements; non-owning heading39: six exact files and eleven child entries; five exact source crops and fifteen damaged cases checked |
 | March 1984 whole reasoning-game assembly — M13 | Passed; whole issue active | Actual 40–46: 117 exact files, all 108 embedded segment files unchanged, four independent programs / five original fragments, explicit Apple 1390/1400 continuation, 24 source crops and 286 fresh regressions |
+| March 1984 complete hourglass article — M14 | Passed; whole issue active | Actual 47–50: 78 exact files, five independent listings, 376 physical rows / 372 numbered units, all four wraps, native DATA literal, original illustration, 18 source crops and fifteen damaged-data cases checked |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -4220,3 +4223,50 @@ with **M14**, **모래시계**, actual 47–50, checking its boundary against 51
 See [the whole-article result](metadata/catalog/scan-restoration/1984-03-reasoning-assembly.json),
 [native continuity contract](docs/PDF-RESTORATION.md) and
 [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+
+## M14 — March complete hourglass article, actual 47–50
+
+Completed **모래시계** as **hourglass-jpeg-r01**. All **78 native files**
+match an independent fresh rebuild. Original JPEG layouts verify the full
+47–50 extent; 51 starts the separate **게임 패들 제작** article under
+**기초 공작실**. The lower portion of 49 contains a **서울 마이컴 학원** advertisement retained in the
+source set with an explicit non-body disposition and exclusion rectangle.
+
+Five independently captioned source versions retain **376 physical rows /
+372 numbered units**, **1,504 physical fields**, 1,990 BASIC source lexemes and
+285 numeric/hex occurrences, including ten printed hex literals. Spotlight II,
+FC-100, SPC-1000, Apple SCRN and Apple logic remain distinct. Spotlight skips 170;
+no row is supplied. FC inserted 495/535/765/855 and its unclosed prompt remain
+literal. The Apple SCRN target 730 belongs to the 490 continuation, and the 520/
+630 conditional wraps stay attached to their source units. Apple logic retains
+the 690 string wrap. The SPC source DATA 255, READ/RESTORE/OUT order and I/O
+endpoints remain source fields, without an inferred binary patch or device state.
+
+The native preserves four introductory paragraphs, provider/phone, five version
+headings, fourteen prose command/value occurrences and the original prose-ending
+star. The captionless hourglass illustration retains its original raster and
+source associations; no exact pixel grid or animation is reconstructed. Keep
+all **27 source qualifications**, including omitted THEN tokens, punctuation
+and marginal marks, source 0가 wording and historical command/timing claims.
+Original execution, technical accuracy, encoded bytes, display columns and full
+human proofreading remain unverified.
+
+One map refinement widened six clipped final-row/slanted-label edges before
+recognition; both maps and all first views remain preserved. All **17 mapped
+Tesseract tasks** ran once at the planned 6000 scale, with no recognition retry.
+Selected row geometry uses retained TSV positions transformed to original-master
+coordinates; the first projection with an extra 47 band remains separate evidence.
+Every physical row and complete prose region was compared against its JPEG.
+Independent checks pass for **18 master-derived crops**, 17 recognition bindings,
+70 raw ZIP members, every native field/range and fifteen damaged-data cases.
+Shared implementation and frozen M13 evidence remain exact; its unchanged
+**286-test** baseline is pinned and reused. Cleanup was previewed without deletion.
+
+All 273 sources remain in the ledger. The three newly reviewed selected pages
+48–50 and the next-article lookup 51 reduce pending full-page dispositions to
+**222**; 47 was already located. Whole March remains active with **four complete
+articles, no partial articles, 34 pending article candidates, one completed heading
+and five pending headings**. Continue with **M15**, **기초 공작실 게임패들의 제작**,
+actual 51–53, checking its following boundary against 54. See [the hourglass result](metadata/catalog/scan-restoration/1984-03-hourglass.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

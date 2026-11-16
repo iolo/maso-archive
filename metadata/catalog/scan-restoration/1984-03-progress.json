@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 3,
+  "complete_whole_scan_articles": 4,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -953,8 +953,8 @@
       "title": "모래시계",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0004",
         "title": "모래시계",
@@ -1009,7 +1009,35 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M14",
+        "directory": "archive/scans/1984-03/packages/hourglass-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/hourglass-jpeg-r01/manifest.json",
+          "sha256": "6b56c1426470106ffbbb99f515337ce2e7a38988aab01d7d18ae5bce82dfc990",
+          "bytes": 13277
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-10/validation.json",
+          "sha256": "c9469a2f41de276afd8d6f58807ea34602b469ada58bf6b36e8c374550327e8c",
+          "bytes": 2104
+        },
+        "observed_source_title": "모래시계",
+        "observed_opening_folio": 47,
+        "observed_ending_folio": 50,
+        "actual_folios": [
+          47,
+          48,
+          49,
+          50
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         47,
         48,
@@ -1024,7 +1052,12 @@
           "sha256": "f657626449640a7f586eb11f54492849c284f8a04616745fb3e681c90ae28e06",
           "bytes": 426229
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/hourglass-jpeg-r01/manifest.json",
+          "sha256": "6b56c1426470106ffbbb99f515337ce2e7a38988aab01d7d18ae5bce82dfc990",
+          "bytes": 13277
+        }
       }
     },
     {
@@ -1089,7 +1122,18 @@
         51,
         52,
         53
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 51,
+        "observed_title": "게임 패들 제작",
+        "observed_section": "기초 공작실",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-10/review/full-051.jpg",
+          "sha256": "d0dad3eb94fceaaa3c55fa9a8ac9cf944d701f127eae44b51cddd649bc02cfa9",
+          "bytes": 389575
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0006",
@@ -4903,13 +4947,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-09/source-ledger.json",
-    "sha256": "d7918e1b48b1531551cae85163253a678d8211728c87ea447f2f943baf695766",
-    "bytes": 189679
+    "path": "archive/scans/1984-03/restoration/whole-issue-10/source-ledger.json",
+    "sha256": "d2dc6fa600d1b6cd56d7f93c261eff014da987544207c83ad7b022ac68fccc7a",
+    "bytes": 194609
   },
-  "current_checkpoint": "M13-complete",
-  "next": "M14: restore 모래시계, canonical maso-1984-03-toc-0004, actual47–50; verify its following boundary against51. Whole March remains active.",
-  "pending_article_candidates": 35,
+  "current_checkpoint": "M14-complete",
+  "next": "M15: restore 기초 공작실 게임패들의 제작, canonical maso-1984-03-toc-0005, actual51–53; verify the boundary against54. Whole March remains active.",
+  "pending_article_candidates": 34,
   "pending_heading_candidates": 5,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1

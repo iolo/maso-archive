@@ -52,10 +52,13 @@ original printed navigation references in six reproducible files. M13 completes
 the reasoning-game article on 40–46: 117 exact native files, all 108 original
 segment files retained, four independent source programs and an explicit Apple
 1390/1400 continuation. All 24 source crops, every native source value and 286 fresh
-restoration tests pass. The whole issue remains active: three complete articles,
-no partial articles, 35 pending article candidates, one completed heading and
-five pending headings. There are 226 source images still awaiting full-page
-disposition. Continue with M14, 모래시계 on 47–50, in bounded checkpoints.
+restoration tests pass. M14 completes 모래시계 on 47–50: 78 exact native files,
+five independent source listings, 376 physical rows / 372 numbered units and
+the original illustration. All 18 source crops pass separate pixel checks.
+The whole issue remains active: four complete articles, no partial articles,
+34 pending article candidates, one completed heading and five pending headings.
+There are 222 source images still awaiting full-page disposition. Continue with
+M15, 기초 공작실 게임패들의 제작 on 51–53, in bounded checkpoints.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

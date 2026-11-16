@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M14",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0004",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    47,
+    48,
+    49,
+    50
+  ],
+  "selected_package": "archive/scans/1984-03/packages/hourglass-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/hourglass-jpeg-r01/manifest.json",
+    "sha256": "6b56c1426470106ffbbb99f515337ce2e7a38988aab01d7d18ae5bce82dfc990",
+    "bytes": 13277
+  },
+  "exact_files": 78,
+  "native_structure": {
+    "source_images": 4,
+    "mapped_regions": 18,
+    "initial_text_ocr_tasks": 17,
+    "recognition_retries": 0,
+    "blocks": 13,
+    "original_figures": 1,
+    "paragraphs": 4,
+    "independent_listing_contexts": 5,
+    "physical_rows": 376,
+    "logical_units": 372,
+    "physical_fields": 1504,
+    "basic_source_fields": 1990,
+    "numeric_literal_occurrences": 285,
+    "hex_literal_occurrences": 10,
+    "physical_continuation_rows": 4,
+    "source_qualifications": 27,
+    "prose_literal_occurrences": 14,
+    "native_data_statements": 1,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-10/validation.json",
+    "sha256": "c9469a2f41de276afd8d6f58807ea34602b469ada58bf6b36e8c374550327e8c",
+    "bytes": 2104
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-10/hourglass/recipe.json",
+    "sha256": "239d75be7cc912b60afa8ec00f2164462d4e169bb2ba5f44fb183d936b69b408",
+    "bytes": 4937
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-10/source-ledger.json",
+    "sha256": "d2dc6fa600d1b6cd56d7f93c261eff014da987544207c83ad7b022ac68fccc7a",
+    "bytes": 194609
+  },
+  "source_dispositions_pending": 222,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-10/whole-progress-m14.json",
+    "sha256": "43d41100b5db8291424ec7a7b620432ecbc2a8a20ff3366260b03c2da216c390",
+    "bytes": 152359
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-10/evidence-manifest.json",
+    "sha256": "4ba3067659524307cd157ccffd2967c397fb01f5bf782f78e3a1606145a306ed",
+    "bytes": 70377
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M15: restore 기초 공작실 게임패들의 제작, canonical maso-1984-03-toc-0005, actual51–53; verify the boundary against54. Whole March remains active."
+}
