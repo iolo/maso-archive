@@ -1,8 +1,8 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R46 are complete. The owner requested a pause after the current batch.
-On resume, R47 begins with MAX-PRINT, observed opening on 206; it has not started.
+R00–R47 are complete. The owner resumed the whole-November restoration goal.
+R48 is next: establish SPC-CLOCK from its catalog opener 212 and source evidence.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -296,13 +296,30 @@ restored JSON/assets and faithful source evidence first.
 | R44 — EPROM programmer opening segment a | Actual 198–201 of observed 198–205; whole article remains partial | 152 identical native files; 28 unnumbered pin terminals, 177 table/grid cells, seven cross-section nodes, eight block connections, twelve timing rows / fourteen connectors and source POKE example; 40 pixel checks and 69 invalid cases; unchanged 253-test baseline reused |
 | R45 — EPROM programmer final segment b | Actual 202–205; all source folios restored, article assembly pending | 119 identical native files; three flowcharts / 30 nodes / 30 edges, circuit / 243 printed fields / 65 wire groups, one program / 43 units / 46 physical rows and five bibliography entries; 28 pixel checks and 81 invalid cases; unchanged 253-test baseline reused |
 | R46 — complete EPROM programmer assembly | Actual 198–205; complete native article package | 280 identical files including 271 exact embedded segment files; scoped flow/circuit structures, separate command/program contexts, source-owned paragraph continuation and caption qualification; 68 pixel checks, 89 invalid cases and 258 fresh regressions |
+| R47 — MAX-PRINT | Actual 206–208; complete native article package | 87 identical files; one Z80 listing / 212 source rows / 278 printed object bytes, two captioned BASIC examples plus an unassigned panel / 36 rows, ten table cells and typed byte/color diagram; 21 pixel checks, 84 invalid cases; unchanged 258-test baseline reused |
 
-Paused after **R46**. On resume, **R47** will establish **MAX-PRINT**,
-`maso-1984-11-toc-0027`, from its observed opener **206** and neighboring source
-pages. Confirm its full extent, observed title/byline, body ownership and source
-listing/table/figure structures before mapping. Keep the checkpoint bounded to
-at most two identities, six new mapped source views and twenty outside lookup
-views; restore a segment if needed and assemble separately. Do not guess its end.
+Immediate next action: **R48**, establish **SPC-CLOCK**,
+`maso-1984-11-toc-0030`, from its catalog opener **212** and adjacent source
+material. Confirm actual full extent, observed title/byline, body ownership and
+program/table/figure structures before mapping. Keep at most two identities,
+six new mapped source views and twenty outside lookup views; segment if needed
+and assemble separately. Do not infer its end from the next catalog entry.
+
+Preserve complete **MAX-PRINT**, `maso-1984-11-toc-0027`, on **206–208** as
+`max-print-r01`, observed subtitle **텍스트화면과 그래픽화면의 장점만 보완** and
+byline **SPC-1000 / 황 건 순**. All **87 native files** reproduce byte for byte.
+Its one Z80 listing retains **212 physical rows**, repeated comment addresses,
+**1,272 assembler fields**, **278 independently printed object bytes** and nineteen
+source-symbol bindings. Keep the two captioned BASIC examples and uncaptioned
+middle **250–300** panel as three distinct contexts, totaling **36 rows**. The
+middle panel's owner remains unset; do not join it by row-number or syntax
+plausibility. Three printed listing captions keep their actual frame owners.
+The color table retains ten cells. The source byte/color diagram retains its
+hatching, blank slots, horizontal/vertical elisions, four two-bit cells and legend;
+printed **191** remains unchanged. All **21 pixel checks** and **84 damage cases**
+pass. The unchanged **258-test R46 baseline** is rehashed and reused, not freshly
+rerun. Keep all twelve local uncertainties, including source address/byte glyph
+candidates, and the original wording; no execution or encoded-byte claim is made.
 
 Preserve complete **198–205** of **애플 EPROM 프로그래머의 제작** as `eprom-r01`,
 with immutable `eprom-a-r03` and `eprom-b-r02`. All **280 native files** reproduce
@@ -436,8 +453,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-four complete article packages, no partial articles, six non-owning
-headings and ten unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty-five complete article packages, no partial articles, six non-owning
+headings and nine unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

@@ -2535,3 +2535,65 @@ See [build/review instructions](docs/READING-ROOM.md) and the
 No OCR or restoration work was resumed. **The November restoration goal remains
 paused after R46, with R47/MAX-PRINT unstarted.** PLAN-OCR.md and PLAN-PDF.md are
 unchanged.
+
+## R47 completed; November goal resumed — 2026-11-16
+
+The owner resumed the November restoration goal after the pilot reader delivery.
+Restored complete **MAX-PRINT**, `maso-1984-11-toc-0027`, on actual **206–208** as
+`max-print-r01`. The observed subtitle is **텍스트화면과 그래픽화면의 장점만 보완**,
+with source credit **SPC-1000 / 황 건 순**. Page 205 ends EPROM; 209 is a separate
+software-contest notice and 210 opens the already restored contest commentary.
+Three mapped source views and three outside lookup views establish this extent.
+
+The native package preserves **15 blocks, 21 regions and two original figures**.
+One continuous Z80 listing retains **212 source rows**, **1,272 assembler fields**,
+**278 printed object bytes**, blank source columns, repeated comment addresses
+and **nineteen exact symbolic target bindings**. Address, byte and mnemonic/
+operand readings remain independent source fields. Two captioned BASIC examples
+and the uncaptioned middle panel retain **36 physical/logical rows** across three
+separate contexts, including one quoted PLAY string. All three listing captions
+keep their actual source frames. The middle **250–300** panel has no source-proven
+owner: both candidate example relationships remain explicit and neither is
+selected. Row succession and plausible program logic do not justify a join.
+
+The color table retains **ten cells**, including both headers. The byte/color
+diagram retains hatching, visible blank slots, horizontal dashed and vertical
+wavy elisions, four two-bit cells / eight bit fields, legend and brackets. Its
+printed **191** label remains distinct from the prose's 192-pixel height; omitted
+cells are not invented. Source spelling/technical wording and **twelve local
+uncertainties** remain explicit, including rounded B/8-like byte/operand glyphs,
+O/0-like label, dot-matrix X/Y-like example title and trailing address mark.
+Original encoded bytes, exact spacing, program execution and full human
+proofreading remain unverified. Availability is `readable`, verification is
+`sample-reviewed`; the result is a reproducible native schema package.
+
+All **87 files reproduce byte for byte** in the independent build. All **21
+master-derived crop checks**, nineteen original OCR outcomes/settings and 79 OCR
+ZIP members pass. **Eighty-four deliberately damaged actual-source/native cases**
+are rejected, including wrong repeated occurrences, borrowed coordinates,
+caption/diagram bindings, logical source parts, altered bit cells, missing glyph
+candidates and inferred middle-panel ownership. All **45 earlier selected
+packages**, frozen evidence, early artifact arrays, six headings and the dated
+pilot reader receipt/data/site/evidence pins remain exact and valid. Shared native
+implementation is unchanged; the **258-test R46 baseline** and logs are rehashed
+and reused, **not freshly rerun**. PLAN-OCR.md and PLAN-PDF.md are unchanged.
+
+All **nineteen initial OCR tasks succeeded** without retries, engine changes or
+repeated successful recognition. Pre-OCR mapping review widened listing crops
+before recognition. Evidence retains the initial exclusion-overlap rejection,
+first map, an initial assistant CURY reading corrected to printed CURX at F05D,
+a preparation call-signature error and failed export/rebuild recipes missing a
+figure-region key. The corrected recipe preserves all OCR/source readings. The
+first source preflight found no output after that prerequisite failure; later
+checks pass. Both full audits passed; the final audit strengthens binding and
+qualification checks without changing native data. Cleanup was preview-only;
+**221 private evidence files** are frozen.
+
+November now has **twenty-five complete native articles, no partial articles,
+six non-owning headings and nine unclassified entries**. See the
+[R47 result](metadata/catalog/scan-restoration/1984-11-max-print.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next: **R48**, establish SPC-CLOCK from its catalog opener **212**, with actual
+extent, observed title/byline and source structures checked before mapping. All
+nine remaining identities, covers/source-image accounting and checked whole-issue
+native export/rebuild remain in scope. **The whole-November goal remains active.**

@@ -5,9 +5,9 @@
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 24,
+  "readable_articles": 25,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 10,
+  "identitiesAwaitingDisposition": 9,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -8551,10 +8551,112 @@
       "page_candidates": [
         206
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "MAX-PRINT",
+      "observed_subtitle": "텍스트화면과 그래픽화면의 장점만 보완",
+      "observed_byline": "SPC-1000 / 황 건 순",
+      "byline_status": "Observed SPC-1000 platform credit and named author on206.",
+      "observed_whole_extent": [
+        206,
+        208
+      ],
+      "source_views": [
+        {
+          "source_index": 209,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-206.jpg",
+            "sha256": "8bc447a4a4bd1e9fd14ad88ef3d7c0c9a6f57b647f8dde95912d15ff13467709",
+            "bytes": 7673968
+          },
+          "width_px": 4723,
+          "height_px": 6934,
+          "reading_order": 208,
+          "source_filename_number": 206,
+          "printed_page": "206",
+          "image_to_upright_normalized": [
+            0.00021172983273343214,
+            0,
+            0,
+            0.00014421690222094028,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 210,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-207.jpg",
+            "sha256": "95c74ecacab980e71bd04b0f009cf146506fc20f31716046ca88f8d1ab72b2d8",
+            "bytes": 7783250
+          },
+          "width_px": 4729,
+          "height_px": 6908,
+          "reading_order": 209,
+          "source_filename_number": 207,
+          "printed_page": "207",
+          "image_to_upright_normalized": [
+            0.00021146119687037428,
+            0,
+            0,
+            0.00014475969889982628,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 211,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-208.jpg",
+            "sha256": "82872014c1cabe32e3bd27d0ae9c8268038402869035920554d49c775b288648",
+            "bytes": 7573280
+          },
+          "width_px": 4726,
+          "height_px": 6912,
+          "reading_order": 210,
+          "source_filename_number": 208,
+          "printed_page": "208",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.00014467592592592592,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/max-print-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/max-print-r01/manifest.json",
+          "sha256": "bc425d62624f28ad0e6bbb95d489d0d11a0a5bed9d62964528bd394d2bd1010e",
+          "bytes": 14439
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-47/validation.json",
+          "sha256": "73d446af8c0ace655e9a7b9e9e2afdad1e3e16b324de1557b80a6e01f0f258ab",
+          "bytes": 56288
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-47/review/source-findings.json",
+          "sha256": "d8a15aa0d45df7dcdba49cc500a6e90ae9e9fb0ba9c1976634e9db10659d5e3f",
+          "bytes": 1613
+        },
+        "status": "Observed206 title/prose/listing opener,208 printedEND and BASIC panels,209 separate software-contest notice. All206–208 source content represented;middle BASIC panel ownership remains unresolved."
+      },
+      "limitations": [
+        "Source byte/operand/address fields are independent transcriptions; no reassembly,emulation or original encoded-byte/spacing proof.",
+        "Uncaptioned BASIC250–300 panel remains separate;captioned examples stop at240 in the available source;no logical ownership join is proved.",
+        "Diagram elisions and blank areas remain original source structures,not a completed256×192 raster reconstruction.",
+        "Assistant sample review is not full human proofreading or acceptance."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0028",
@@ -8873,6 +8975,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "Paused after R46 at the owner's request. R47 has not started. On resume, establish MAX-PRINT (maso-1984-11-toc-0027) from its observed opener 206 and neighboring source pages. Confirm the complete extent, observed title/byline, body ownership and source listing/table/figure structures before mapping; use at most two identities and six new mapped source views, with at most twenty outside lookup views. Restore a bounded native segment if needed, then assemble separately. Preserve complete EPROM 198–205, both immutable source segments, scoped flow/circuit structures, separate source command/program contexts, the 201/204 logical paragraph continuation and explicit figure-number/crossing uncertainty. Continue all ten unclassified identities, covers/source-image accounting and checked whole-issue native export/rebuild. Leave PLAN-OCR.md and PLAN-PDF.md unchanged; resume the full November goal from this checkpoint.",
+  "next": "R48: establish SPC-CLOCK (maso-1984-11-toc-0030), catalog opener212, from source pages and adjacent material. Confirm actual full extent,observed title/byline,body ownership and source program/table/figure structures before mapping. Keep at most two identities,six new mapped source views and twenty outside lookup views; segment if needed and assemble separately. Preserve complete MAX-PRINT206–208,its one Z80 listing,two captioned BASIC examples and unassigned middle250–300 panel without an inferred owner or executable-code claim. Preserve all earlier native packages,evidence and the24-article pilot reader. Continue all nine unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild. Leave PLAN-OCR.md and PLAN-PDF.md unchanged; keep the November goal active.",
   "group_headings": 6
 }

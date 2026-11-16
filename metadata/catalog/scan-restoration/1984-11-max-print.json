@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R47",
+  "completedOn": "2026-11-16",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0027",
+  "title": "MAX-PRINT",
+  "observed_title": "MAX-PRINT",
+  "observed_subtitle": "텍스트화면과 그래픽화면의 장점만 보완",
+  "observed_byline": "SPC-1000 / 황 건 순",
+  "observed_whole_extent": [
+    206,
+    208
+  ],
+  "outcome": "Complete reproducible native article206–208;all printed source panels preserved,with uncaptioned BASIC250–300 ownership unresolved in a distinct native context.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/max-print-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/max-print-r01/manifest.json",
+    "sha256": "bc425d62624f28ad0e6bbb95d489d0d11a0a5bed9d62964528bd394d2bd1010e",
+    "bytes": 14439
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-47/validation.json",
+    "sha256": "73d446af8c0ace655e9a7b9e9e2afdad1e3e16b324de1557b80a6e01f0f258ab",
+    "bytes": 56288
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-47/evidence-manifest.json",
+    "sha256": "809b1d2174a8099f2fee7c675940d8f0d5aefef408afebc59c6dec86d63673ba",
+    "bytes": 46435
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-11/restoration/batch-47/recipe.json",
+    "sha256": "bbc538c5e42a713fd6baee7bed4783954cba6e512e989e2ce9023464dac37873",
+    "bytes": 5016
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-47/review/source-findings.json",
+    "sha256": "d8a15aa0d45df7dcdba49cc500a6e90ae9e9fb0ba9c1976634e9db10659d5e3f",
+    "bytes": 1613
+  },
+  "source_review": {
+    "path": "archive/scans/1984-11/restoration/batch-47/review/source-review-completion.json",
+    "sha256": "483dd6532d34caad6d12ed7c540e607debecf4fd94300fca75b07ab679a128a5",
+    "bytes": 3754
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-206.jpg",
+      "sha256": "8bc447a4a4bd1e9fd14ad88ef3d7c0c9a6f57b647f8dde95912d15ff13467709",
+      "bytes": 7673968
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-207.jpg",
+      "sha256": "95c74ecacab980e71bd04b0f009cf146506fc20f31716046ca88f8d1ab72b2d8",
+      "bytes": 7783250
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-208.jpg",
+      "sha256": "82872014c1cabe32e3bd27d0ae9c8268038402869035920554d49c775b288648",
+      "bytes": 7573280
+    }
+  ],
+  "printed_folios": [
+    206,
+    207,
+    208
+  ],
+  "summary": {
+    "blocks": 15,
+    "regions": 21,
+    "figures": 2,
+    "physicalRows": 248,
+    "logicalUnits": 248,
+    "assemblerRows": 212,
+    "basicRows": 36,
+    "codeContexts": 4,
+    "sourceFields": 1344,
+    "literalFields": 967,
+    "hexBytes": 278,
+    "tableCells": 10,
+    "figureLabels": 15,
+    "branchBindings": 19,
+    "sourceUncertainties": 12,
+    "selectedOwnerForMiddlePanel": null,
+    "nativeFiles": 87,
+    "pixelChecks": 21,
+    "negativeCases": 84,
+    "ocrTasks": 19,
+    "reusedRegressionTests": 258
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p206-title",
+      "source_index": 209,
+      "pixel_bounds": [
+        1201,
+        431,
+        2980,
+        726
+      ],
+      "scan": {
+        "path": "ocr-206/p206-title.png",
+        "sha256": "135bfa455a952e25ca90080fbec7903e43c8f0a0f3fa94de0ff9f41e85b09745",
+        "bytes": 698464
+      }
+    },
+    {
+      "region_id": "p206-subtitle",
+      "source_index": 209,
+      "pixel_bounds": [
+        870,
+        816,
+        3209,
+        996
+      ],
+      "scan": {
+        "path": "ocr-206/p206-subtitle.png",
+        "sha256": "112a778797617807e4802b7590af302e9e2e25193a2e7a59cefe9ccf6279adcc",
+        "bytes": 572569
+      }
+    },
+    {
+      "region_id": "p206-byline",
+      "source_index": 209,
+      "pixel_bounds": [
+        2701,
+        1116,
+        3662,
+        1218
+      ],
+      "scan": {
+        "path": "ocr-206/p206-byline.png",
+        "sha256": "15559fd2c42497006e3ff6cde648724c7485102735f82c223336e3a0c8c96a82",
+        "bytes": 133813
+      }
+    },
+    {
+      "region_id": "p206-body-upper",
+      "source_index": 209,
+      "pixel_bounds": [
+        273,
+        1374,
+        1946,
+        3295
+      ],
+      "scan": {
+        "path": "ocr-206/p206-body-upper.png",
+        "sha256": "5e6fbfcd9a6ca0d0227cfffc0b81231e97e24a42727862c96c392a4a16cddbb9",
+        "bytes": 4317632
+      }
+    },
+    {
+      "region_id": "p206-bitmap-original",
+      "source_index": 209,
+      "pixel_bounds": [
+        392,
+        3330,
+        1762,
+        4590
+      ],
+      "scan": {
+        "path": "ocr-206/p206-bitmap-original.png",
+        "sha256": "ccadf2731464c074209cf0a9a64dac420b7604aaf2d961291d2a859753aa42ec",
+        "bytes": 2017404
+      }
+    },
+    {
+      "region_id": "p206-bitmap-labels",
+      "source_index": 209,
+      "pixel_bounds": [
+        392,
+        3330,
+        1762,
+        4590
+      ],
+      "scan": {
+        "path": "ocr-206/p206-bitmap-labels.png",
+        "sha256": "ccadf2731464c074209cf0a9a64dac420b7604aaf2d961291d2a859753aa42ec",
+        "bytes": 2017404
+      }
+    },
+    {
+      "region_id": "p206-body-lower",
+      "source_index": 209,
+      "pixel_bounds": [
+        273,
+        4644,
+        1958,
+        5538
+      ],
+      "scan": {
+        "path": "ocr-206/p206-body-lower.png",
+        "sha256": "828e6945ce84bba4793830bd4d29f2d320e141b51fb0169779eea674446a8f93",
+        "bytes": 1999935
+      }
+    },
+    {
+      "region_id": "p206-color-table-original",
+      "source_index": 209,
+      "pixel_bounds": [
+        2129,
+        1368,
+        3801,
+        1776
+      ],
+      "scan": {
+        "path": "ocr-206/p206-color-table-original.png",
+        "sha256": "3b986b505fa728c91e8f75256446c5e1f9fef79628cee45866883e306c3b61dd",
+        "bytes": 816706
+      }
+    },
+    {
+      "region_id": "p206-color-table",
+      "source_index": 209,
+      "pixel_bounds": [
+        2129,
+        1368,
+        3801,
+        1776
+      ],
+      "scan": {
+        "path": "ocr-206/p206-color-table.png",
+        "sha256": "3b986b505fa728c91e8f75256446c5e1f9fef79628cee45866883e306c3b61dd",
+        "bytes": 816706
+      }
+    },
+    {
+      "region_id": "p206-body-closing",
+      "source_index": 209,
+      "pixel_bounds": [
+        2125,
+        1890,
+        3805,
+        2280
+      ],
+      "scan": {
+        "path": "ocr-206/p206-body-closing.png",
+        "sha256": "3cdd96706743f769bfb67d493788430f5386b14cd1f48a15fea708413205219e",
+        "bytes": 880721
+      }
+    },
+    {
+      "region_id": "p206-caption-1",
+      "source_index": 209,
+      "pixel_bounds": [
+        2166,
+        2376,
+        3201,
+        2448
+      ],
+      "scan": {
+        "path": "ocr-206/p206-caption-1.png",
+        "sha256": "af6e85da3279e0ba8c82068496d0efcbaa4c707c1a8f80a7ea966e0b4ef4c6d8",
+        "bytes": 103412
+      }
+    },
+    {
+      "region_id": "p206-asm",
+      "source_index": 209,
+      "pixel_bounds": [
+        2178,
+        2514,
+        3810,
+        5508
+      ],
+      "scan": {
+        "path": "ocr-206/p206-asm.png",
+        "sha256": "fd811a9e2ab6fc8d71f3fa67d7140264e877d9a24b7d25f0389b9a9722486d3a",
+        "bytes": 5732105
+      }
+    },
+    {
+      "region_id": "p207-asm-left",
+      "source_index": 210,
+      "pixel_bounds": [
+        410,
+        792,
+        1828,
+        5514
+      ],
+      "scan": {
+        "path": "ocr-207/p207-asm-left.png",
+        "sha256": "8423914c6ad819c077914cfe9ab6de4bec6ad1c11337d03c8697da169770e766",
+        "bytes": 8640251
+      }
+    },
+    {
+      "region_id": "p207-asm-right",
+      "source_index": 210,
+      "pixel_bounds": [
+        2250,
+        786,
+        3717,
+        5514
+      ],
+      "scan": {
+        "path": "ocr-207/p207-asm-right.png",
+        "sha256": "429e61b479f607ce09aa13eb740b52c1664a2076ec6e0a443780fe9c72ede42b",
+        "bytes": 8722833
+      }
+    },
+    {
+      "region_id": "p208-asm-left",
+      "source_index": 211,
+      "pixel_bounds": [
+        340,
+        780,
+        1855,
+        3876
+      ],
+      "scan": {
+        "path": "ocr-208/p208-asm-left.png",
+        "sha256": "c705a000dcf115a68b7a46a174da47e39050efa54e2b7b8c6d5ca4d5b579e2ed",
+        "bytes": 5824846
+      }
+    },
+    {
+      "region_id": "p208-asm-right",
+      "source_index": 211,
+      "pixel_bounds": [
+        2190,
+        780,
+        3536,
+        3876
+      ],
+      "scan": {
+        "path": "ocr-208/p208-asm-right.png",
+        "sha256": "5e05df23d84ba24a0b41bff1d45858d93bd02c9957b28d8185d0f3b6d94bf2f7",
+        "bytes": 5182396
+      }
+    },
+    {
+      "region_id": "p208-caption-2",
+      "source_index": 211,
+      "pixel_bounds": [
+        299,
+        3972,
+        1088,
+        4104
+      ],
+      "scan": {
+        "path": "ocr-208/p208-caption-2.png",
+        "sha256": "43f58572f92b09c72ce9b6ea784c975a4f063722e6cfb1ba429e07fb53fb7e0d",
+        "bytes": 132603
+      }
+    },
+    {
+      "region_id": "p208-basic-1",
+      "source_index": 211,
+      "pixel_bounds": [
+        324,
+        4140,
+        1280,
+        5496
+      ],
+      "scan": {
+        "path": "ocr-208/p208-basic-1.png",
+        "sha256": "1ea49430d97eca49d6b46d9c5e68cbbd29871875cbee1d547bc31a9cfc4fb167",
+        "bytes": 1697187
+      }
+    },
+    {
+      "region_id": "p208-basic-unassigned",
+      "source_index": 211,
+      "pixel_bounds": [
+        1554,
+        4140,
+        2445,
+        4710
+      ],
+      "scan": {
+        "path": "ocr-208/p208-basic-unassigned.png",
+        "sha256": "37e2a8b3df701d39aed9c9c632b5083a65309a554f04e0c8c6d8a1cec3e2d90f",
+        "bytes": 635926
+      }
+    },
+    {
+      "region_id": "p208-caption-3",
+      "source_index": 211,
+      "pixel_bounds": [
+        2752,
+        3978,
+        3495,
+        4122
+      ],
+      "scan": {
+        "path": "ocr-208/p208-caption-3.png",
+        "sha256": "5366211d7869e13a16dff0185a0f97701214e6a8f8fa4e745180435ba4d6cd20",
+        "bytes": 133999
+      }
+    },
+    {
+      "region_id": "p208-basic-2",
+      "source_index": 211,
+      "pixel_bounds": [
+        2781,
+        4176,
+        3770,
+        5526
+      ],
+      "scan": {
+        "path": "ocr-208/p208-basic-2.png",
+        "sha256": "985040bbec6fd02eb7e04bff8dccc20655b5f4b4e75c8c0f606775fc1d0f41b7",
+        "bytes": 1655180
+      }
+    }
+  ],
+  "previousCheckpointCommit": "9250cde9802b2243ad43aeae73c1f45c3215ab0a",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "df69f89f39be5a85b3f1c96481306f6cb407180d69b936d775e44d62f307aaf1",
+      "bytes": 222125
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_numbered_assemble.py",
+      "sha256": "d6d877b8207adfd616878bc639682abc661aba81909d2934402d98c6636dc3e8",
+      "bytes": 13404
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_graphs.py",
+      "sha256": "e27beb44a75c3ef3c7cddc783f1f3c08b0569553d280397bb08bc68d19fac735",
+      "bytes": 16164
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_image_source_structures.py",
+      "sha256": "93b82ab3f26c7a976e2a8e25b4aa2abd2bb33141cdf73bcfdd7e6c6da189e9a1",
+      "bytes": 12579
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "9b9c74c831f35d3a1a71fdbec215206745ab56749a7d65791f7095dad1f94493",
+      "bytes": 17278
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "46d2f4ad8c8b2be5fefeaf9f89cc0e317c0342d42e6751a32a2398a5eb0e7ed8",
+      "bytes": 28021
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_numbered.py",
+      "sha256": "a123c2d5dc6f0d365399a8cf29f795426e93b0ee8d001c3fd544617fa23ccced",
+      "bytes": 10533
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a05173be8ac6367356583f3ec497b47fe382f7753bd3155c7e8b665384ab4890",
+      "bytes": 20501
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_graphs.py",
+      "sha256": "c0f155c960c6807fb2a5e110347c88989d9e87849acc5bc0cead26099aa1e378",
+      "bytes": 33714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "81f3456ffa97802de13435491309320d351493ef5b924b846c75705b253213e2",
+      "bytes": 24032
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_structures.py",
+      "sha256": "82a51f9a7f24ab783183ca4e661f266ba7a0ff3ae0336b39f7bdc504d127a1f6",
+      "bytes": 21330
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "90d375492dce57daf6646f9eea4a3c905c246591fdf6974e071289199aeb8d91",
+      "bytes": 41527
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "49f8b030a4ad2549a889481f45ffbb1238fd7baf2b351bc2fc49b00b35448f43",
+      "bytes": 21558
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 44,
+    "total": 258
+  },
+  "regressionLogs": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-46/pdf-final-regressions-01.log",
+      "sha256": "45d1a3e37e73772364f3471041f7323b2023130b3b912f9e78543d060515ef18",
+      "bytes": 36395
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-46/jpeg-final-regressions-01.log",
+      "sha256": "2a3ac1afba57a3631130e9e4dc28fecff562c3393624137bb23441004331eb22",
+      "bytes": 8737
+    }
+  ],
+  "regressionsFresh": false,
+  "regressionBaseline": "R46; native implementation unchanged",
+  "supersededCandidates": [],
+  "attempts": {
+    "mappedSourceViews": 3,
+    "outsideLookupViews": 3,
+    "newOcrTasks": 19,
+    "ocrFailures": 0,
+    "ocrRetries": 0,
+    "successfulUnchangedOcrRepeated": 0,
+    "mapPreparationRuns": 3,
+    "mapPreparationFailures": 1,
+    "preOcrCoverageRefinements": 1,
+    "sourceReadingRefinements": 1,
+    "nativePreparationRuns": 3,
+    "nativePreparationFailures": 1,
+    "nativeExportRuns": 2,
+    "nativeExportFailures": 1,
+    "independentRebuildRuns": 2,
+    "independentRebuildFailures": 1,
+    "structurePreflights": 3,
+    "structurePreflightFailures": 1,
+    "actualAuditRuns": 2,
+    "actualAuditFailures": 0,
+    "finalNegativeCases": 84,
+    "regressionBaselineReused": "R46 unchanged258-test native implementation",
+    "cleanupApplied": false,
+    "notes": [
+      "Initial map rejected overlap between a prose crop and decorative endmark exclusion; retained failed helper/log before removing that exclusion.",
+      "Before OCR,coverage review widened listing crops to preserve full comments and final rows; no successful recognition was repeated.",
+      "Source enlargement corrected an initial assistant CURY reading to printed CURX at F05D; initial candidate retained.",
+      "Native preparation first used a wrong block_ranges call signature; corrected before package export.",
+      "First native export and independent rebuild rejected a missing recipe figure-region key; no output package was published. Corrected recipe retained all source readings/OCR.",
+      "The first structure preflight found no package because the export prerequisite had failed; subsequent source checks pass.",
+      "Both actual audits passed. The second audit adds14negative cases for logical-source parts,diagram/legend/caption bindings,context extents and glyph candidates without changing native data."
+    ]
+  },
+  "limitations": [
+    "Source byte/operand/address fields are independent transcriptions; no reassembly,emulation or original encoded-byte/spacing proof.",
+    "Uncaptioned BASIC250–300 panel remains separate;captioned examples stop at240 in the available source;no logical ownership join is proved.",
+    "Diagram elisions and blank areas remain original source structures,not a completed256×192 raster reconstruction.",
+    "Assistant sample review is not full human proofreading or acceptance."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-47/recipe.json --output archive/scans/1984-11/packages/max-print-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-47/recipe.json --output work/validation/scans-1984-11-max-print-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-47/verify-review.py"
+  ],
+  "next": "R48: establish SPC-CLOCK (maso-1984-11-toc-0030), catalog opener212, from source pages and adjacent material. Confirm actual full extent,observed title/byline,body ownership and source program/table/figure structures before mapping. Keep at most two identities,six new mapped source views and twenty outside lookup views; segment if needed and assemble separately. Preserve complete MAX-PRINT206–208,its one Z80 listing,two captioned BASIC examples and unassigned middle250–300 panel without an inferred owner or executable-code claim. Preserve all earlier native packages,evidence and the24-article pilot reader. Continue all nine unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild. Leave PLAN-OCR.md and PLAN-PDF.md unchanged; keep the November goal active."
+}
