@@ -5,9 +5,9 @@
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 25,
+  "readable_articles": 26,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 9,
+  "identitiesAwaitingDisposition": 8,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -8780,10 +8780,178 @@
       "page_candidates": [
         212
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "SPC-CLOCK",
+      "observed_award": "프로그램공모 최우수상",
+      "observed_subtitle": "오차가 거의 없고 알람기능까지 갖춘 아날로그 시계",
+      "observed_platform": "SPC-1000",
+      "observed_byline": "정 지 윤",
+      "byline_status": "Observed SPC-1000 platform and 정 지 윤 author credit on212.",
+      "observed_whole_extent": [
+        212,
+        217
+      ],
+      "source_views": [
+        {
+          "source_index": 215,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-212.jpg",
+            "sha256": "683febe9501d23614f3d191b7755563b22d35df13c99699b5490d6d095005a11",
+            "bytes": 7423751
+          },
+          "width_px": 4758,
+          "height_px": 6914,
+          "reading_order": 214,
+          "source_filename_number": 212,
+          "printed_page": "212",
+          "image_to_upright_normalized": [
+            0.0002101723413198823,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 216,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-213.jpg",
+            "sha256": "ccdea7eccc07744fb2eaaaeedef1519ee2da35a1072b6165e6542c0efeb7cc0e",
+            "bytes": 7681116
+          },
+          "width_px": 4728,
+          "height_px": 6914,
+          "reading_order": 215,
+          "source_filename_number": 213,
+          "printed_page": "213",
+          "image_to_upright_normalized": [
+            0.00021150592216582064,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 217,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-214.jpg",
+            "sha256": "ca727e38919d72df6a3f6936b9fd4596d873c8b1f502f6ed030a8faa2945d8e7",
+            "bytes": 8307158
+          },
+          "width_px": 4726,
+          "height_px": 6914,
+          "reading_order": 216,
+          "source_filename_number": 214,
+          "printed_page": "214",
+          "image_to_upright_normalized": [
+            0.00021159542953872197,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 218,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-215.jpg",
+            "sha256": "d97140cd893ad8f00aa0f5f4178831a039cfb3296f9d0747819299b214ce1b71",
+            "bytes": 8732629
+          },
+          "width_px": 4725,
+          "height_px": 6913,
+          "reading_order": 217,
+          "source_filename_number": 215,
+          "printed_page": "215",
+          "image_to_upright_normalized": [
+            0.00021164021164021165,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 219,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-216.jpg",
+            "sha256": "9408a6f2929623db3a2622c5bee89b4e2f9950511d712d6aa79bf5031c594510",
+            "bytes": 8029149
+          },
+          "width_px": 4751,
+          "height_px": 6919,
+          "reading_order": 218,
+          "source_filename_number": 216,
+          "printed_page": "216",
+          "image_to_upright_normalized": [
+            0.00021048200378867606,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 220,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-217.jpg",
+            "sha256": "a0de3131c11e04ab118580b2ba812c3d279f82fe73ba81f4ca3431d4d46738a5",
+            "bytes": 8475708
+          },
+          "width_px": 4722,
+          "height_px": 6922,
+          "reading_order": 219,
+          "source_filename_number": 217,
+          "printed_page": "217",
+          "image_to_upright_normalized": [
+            0.00021177467174925878,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/spc-clock-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/spc-clock-r01/manifest.json",
+          "sha256": "8294f5bfd32a49ad1a8f993ce8d983a8f89b7d9eca287263f3331a8b7955788f",
+          "bytes": 28180
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-48/validation.json",
+          "sha256": "b0461bcf2c4668ee3a03ad700ef927beb45471702c9c3a08b5c7c7e01a8ba86d",
+          "bytes": 82511
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-48/review/source-findings.json",
+          "sha256": "306a3e4cdf70f074bacc6649ed729ed3473a26fbb06730380e0ca77fec948eb6",
+          "bytes": 2007
+        },
+        "status": "Observed212award/title/byline opener;217listingEND,symbol table and final1490RETURN;211separate contest commentary and218separate SoundKeyboard opener. All212–217source content represented."
+      },
+      "limitations": [
+        "Original source encodings and exact spacing remain unverified;assembler columns/REM interior spaces use explicit editorial display projections.",
+        "Program execution,clock accuracy and source technical/address claims are not verified or repaired using expected software behavior.",
+        "Source address/indicator/dash glyph candidates,padded strings and margin mark remain explicitly qualified.",
+        "The original screenshot/flowchart/monitor panel are preserved;source snapshot observations do not certify a regenerated clock or executable tape.",
+        "Assistant sample review is distinct from full human proofreading and acceptance."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0031",
@@ -8975,6 +9143,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R48: establish SPC-CLOCK (maso-1984-11-toc-0030), catalog opener212, from source pages and adjacent material. Confirm actual full extent,observed title/byline,body ownership and source program/table/figure structures before mapping. Keep at most two identities,six new mapped source views and twenty outside lookup views; segment if needed and assemble separately. Preserve complete MAX-PRINT206–208,its one Z80 listing,two captioned BASIC examples and unassigned middle250–300 panel without an inferred owner or executable-code claim. Preserve all earlier native packages,evidence and the24-article pilot reader. Continue all nine unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild. Leave PLAN-OCR.md and PLAN-PDF.md unchanged; keep the November goal active.",
+  "next": "R49: establish 사운드 키보드 (maso-1984-11-toc-0031), catalog opener218, from source pages and adjacent material. Confirm actual full extent, observed title/byline, body ownership and program/table/figure structures before mapping. Keep at most two identities, six new mapped source views and twenty outside lookup views; segment if needed and assemble separately. Do not infer the end from a later catalog entry. Preserve complete SPC-CLOCK212–217, its four distinct source contexts, physical object/BASIC continuations,35symbol bindings, source flowchart and local glyph/spacing/encoding/timing qualifications without repair or execution claims. Keep MAX-PRINT middle-panel ownership unresolved. Preserve all earlier packages/evidence and both dated review previews. Continue all eight unclassified identities, covers/source-image accounting and checked whole-issue native export/rebuild. Leave PLAN-OCR.md and PLAN-PDF.md unchanged; keep the November goal active.",
   "group_headings": 6
 }

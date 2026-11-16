@@ -1,8 +1,8 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R47 are complete. The owner resumed the whole-November restoration goal.
-R48 is next: establish SPC-CLOCK from its catalog opener 212 and source evidence.
+R00–R48 are complete. The owner resumed the whole-November restoration goal.
+R49 is next: establish 사운드 키보드 from its catalog opener 218 and source evidence.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -297,13 +297,35 @@ restored JSON/assets and faithful source evidence first.
 | R45 — EPROM programmer final segment b | Actual 202–205; all source folios restored, article assembly pending | 119 identical native files; three flowcharts / 30 nodes / 30 edges, circuit / 243 printed fields / 65 wire groups, one program / 43 units / 46 physical rows and five bibliography entries; 28 pixel checks and 81 invalid cases; unchanged 253-test baseline reused |
 | R46 — complete EPROM programmer assembly | Actual 198–205; complete native article package | 280 identical files including 271 exact embedded segment files; scoped flow/circuit structures, separate command/program contexts, source-owned paragraph continuation and caption qualification; 68 pixel checks, 89 invalid cases and 258 fresh regressions |
 | R47 — MAX-PRINT | Actual 206–208; complete native article package | 87 identical files; one Z80 listing / 212 source rows / 278 printed object bytes, two captioned BASIC examples plus an unassigned panel / 36 rows, ten table cells and typed byte/color diagram; 21 pixel checks, 84 invalid cases; unchanged 258-test baseline reused |
+| R48 — SPC-CLOCK | Actual 212–217; complete native article package | 168 identical files; four code contexts / 383 physical rows / 354 logical units, 615 printed bytes, 35 symbol bindings, 144 table cells, source screenshot and interrupt flow / 13 nodes / 14 edges; 42 pixel checks, 117 invalid cases; unchanged 258-test baseline reused |
 
-Immediate next action: **R48**, establish **SPC-CLOCK**,
-`maso-1984-11-toc-0030`, from its catalog opener **212** and adjacent source
+Immediate next action: **R49**, establish **사운드 키보드**,
+`maso-1984-11-toc-0031`, from its catalog opener **218** and adjacent source
 material. Confirm actual full extent, observed title/byline, body ownership and
 program/table/figure structures before mapping. Keep at most two identities,
 six new mapped source views and twenty outside lookup views; segment if needed
 and assemble separately. Do not infer its end from the next catalog entry.
+
+Preserve complete **SPC-CLOCK**, `maso-1984-11-toc-0030`, on **212–217** as
+`spc-clock-r01`, with observed award **프로그램공모 최우수상**, subtitle
+**오차가 거의 없고 알람기능까지 갖춘 아날로그 시계**, platform **SPC-1000** and
+byline **정 지 윤**. All **168 native files** reproduce byte for byte. Its four
+contexts retain the monitor patch, Z80 listing, autoload BASIC and analog-clock
+BASIC separately: **383 physical rows / 354 logical units**, including **305
+assembler rows / 288 numbered units / 17 object continuations**, **70 BASIC
+rows / 58 numbered units** and **eight monitor rows**. Preserve **551 assembler
+object bytes**, **64 monitor bytes**, **35 symbol/address bindings**, **144 table
+cells**, eight split BASIC tokens and all original source qualifications. The
+flowchart retains **13 nodes / 14 edges**, distinct RETURN occurrences, two
+junctions and six printed edge labels; do not add a YES label to the unlabelled
+36H=60 downward branch. The raster clock retains its three hands and text labels
+without invented tick counts, vector reconstruction or measured accuracy.
+All **42 crop checks**, **117 damage cases** and independent exported-pixel
+recount of **305 assembler rows** pass. The unchanged **258-test R46 baseline**
+is rehashed and reused, not freshly rerun. Keep twelve source uncertainties,
+including the autoload **&H69A0 / &H680C** glyph candidates, independent source
+addresses and unverified encoded padding. Both dated review previews remain
+unchanged; they continue to reflect their R46 and R47 selections.
 
 Preserve complete **MAX-PRINT**, `maso-1984-11-toc-0027`, on **206–208** as
 `max-print-r01`, observed subtitle **텍스트화면과 그래픽화면의 장점만 보완** and
@@ -453,8 +475,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-five complete article packages, no partial articles, six non-owning
-headings and nine unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty-six complete article packages, no partial articles, six non-owning
+headings and eight unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

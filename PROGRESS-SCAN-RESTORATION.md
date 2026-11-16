@@ -2629,3 +2629,79 @@ See [reader instructions](docs/READING-ROOM.md) and the
 Private build and validation evidence is under
 `archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/`.
 This review build does not advance the restoration ledger or issue closeout.
+
+## November 16, 2026 — R48 complete SPC-CLOCK, actual 212–217
+
+Restored the complete **SPC-CLOCK** article as
+`archive/scans/1984-11/packages/spc-clock-r01/`, with a separate fresh-process
+rebuild at `work/validation/scans-1984-11-spc-clock-r01/`. Source 212 retains
+**프로그램공모 최우수상**, subtitle **오차가 거의 없고 알람기능까지 갖춘 아날로그 시계**,
+platform **SPC-1000** and byline **정 지 윤**. Boundaries are source-proven:
+211 ends the separate contest commentary; 217 contains the listing END, symbol
+table and final BASIC 1490 RETURN; 218 opens 사운드 키보드. This checkpoint uses
+six mapped source views and two outside lookups, within the existing bounds.
+
+The native model retains **30 blocks, 42 regions, three original figures and
+four distinct code contexts**: monitor entry, numbered Z80, autoload BASIC and
+analog-clock BASIC. There are **383 physical rows / 354 logical units**:
+305 assembler rows (288 numbered units and 17 object continuations), 70 BASIC
+rows (58 numbered units) and eight monitor rows. All **2,335 source fields**,
+**1,654 literal fields**, **748 BASIC tokens**, **551 printed assembler object
+bytes**, **64 monitor bytes**, **25 quoted literals** and **eight split tokens**
+retain their source owners and coordinates. Object continuations keep their
+printed addresses/bytes and internal newlines. BASIC wraps preserve the physical
+fragments of PRINT, two hex tokens, POKE, END, A$ and two RAD occurrences, with
+no inserted characters in the logical projection. The printed pre-ORG D000,
+CIRCLE 129 and DH formula's SM remain source readings rather than repairs.
+
+The eight-by-eight monitor grid and 18-row symbol table retain **144 cells**,
+including the final two empty symbol slots. **Thirty-five symbol/address pairs**
+bind to their separately printed definitions; forty symbolic branch references
+retain their actual targets without decoded-object or execution claims.
+Five command forms, two ERR/ERROR rename mappings, three printed program
+sections, figure/caption references, configuration occurrences and the stated
+list3-to-list1 dependency are explicit. Prose retains both the 212 column join
+after **‘ERROR’ → ‘ERR’** and the 213/214 physical word join **없는상 / 태에서**.
+
+The photographed clock, interrupt flowchart and monitor panel remain original
+rasters. The flow model retains **13 nodes / 14 edges**, eleven textual nodes,
+two source junctions, distinct RETURN occurrences and six printed edge labels.
+The 36H=60 downward branch has no printed YES label; none is invented. The
+clock records three visible hands, shared center and source text labels; exact
+tick/dot counts, vector regeneration and measured time remain unverified.
+Twelve source uncertainties retain command-dash/O/0/indicator glyph candidates,
+independent prose addresses, the margin mark and 13-position quoted padding.
+Autoload **&H69A0** and **&H680C** keep their explicit candidates rather than
+being replaced from expected memory maps. Original encoded bytes, exact spacing,
+execution, accuracy and full human proofreading remain unverified.
+
+All **168 native files reproduce byte for byte**. All **42 master-derived crop
+checks**, 39 original OCR outcomes/settings and 160 OCR ZIP members pass.
+An independent exported-pixel projection recounts all **305 assembler rows**.
+**117 deliberately damaged actual-source/native cases** are rejected, including
+wrong repeated occurrences, physical/logical coordinates, object continuation
+owners, split token fragments, symbol targets, blank cells, flow branches,
+caption bindings, formula normalization and lost qualification/candidate records.
+All **46 earlier selected packages**, frozen evidence, early artifact arrays and
+six headings remain exact and valid. Both dated reader receipts/data/site/
+evidence pins remain exact. Ten pinned runtime files and 28 native implementation
+files are unchanged; the **258-test R46 baseline** and logs are rehashed and
+reused, **not freshly rerun**. PLAN-OCR.md and PLAN-PDF.md remain unchanged.
+
+All **39 initial OCR tasks succeeded** without retry, engine change or repeated
+successful recognition. Two pre-OCR map refinements preserved command/caption
+edges and the initial assembler row; earlier maps/helpers remain in evidence.
+An initial uniform 24-plus projection was refined to the printed 23/24 counts
+by occurrence; the earlier reading and incomplete detector remain preserved.
+The two source preflights and full independent audit pass. The separate R47
+reader build was committed as `411691f8` before checkpoint recording. Cleanup
+was preview-only; **404 private evidence files** are frozen.
+
+November now has **26 complete native articles, no partial articles, six
+non-owning headings and eight unclassified entries**. See the
+[R48 result](metadata/catalog/scan-restoration/1984-11-spc-clock.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next is **R49**, establish 사운드 키보드 from catalog opener **218** and actual
+source extent/structures before mapping. All eight remaining identities,
+covers/source-image accounting and checked whole-issue native export/rebuild
+remain in scope. **The whole-November goal remains active.**
