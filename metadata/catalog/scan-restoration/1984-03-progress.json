@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 14,
+  "complete_whole_scan_articles": 15,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -2458,8 +2458,8 @@
       "title": "소프트웨어 복사 방지 기술",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0016",
         "title": "소프트웨어 복사 방지 기술",
@@ -2514,7 +2514,35 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M26",
+        "directory": "archive/scans/1984-03/packages/protection-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/protection-jpeg-r01/manifest.json",
+          "sha256": "fa1000425b9e3f87161d43c288f143ba527180922d575a45a3ad72cab9bb7f7f",
+          "bytes": 26636
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-22/validation.json",
+          "sha256": "d0127e86651ed32f0ae86b79099aa72d2f1b1d366a6a5ff3e1cd7544755b531d",
+          "bytes": 3813
+        },
+        "observed_source_title": "소프트웨어 복사방지기술 Ⅰ",
+        "observed_opening_folio": 88,
+        "observed_ending_folio": 91,
+        "actual_folios": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         88,
         89,
@@ -2529,7 +2557,12 @@
           "sha256": "0fa9173c48296e6e50fdd1babd3b200f6dc5ff23418ffdb26c9c4ad6963f418c",
           "bytes": 759002
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/protection-jpeg-r01/manifest.json",
+          "sha256": "fa1000425b9e3f87161d43c288f143ba527180922d575a45a3ad72cab9bb7f7f",
+          "bytes": 26636
+        }
       }
     },
     {
@@ -2750,7 +2783,17 @@
         "97",
         "98",
         "99"
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 92,
+        "observed_title": "컴퓨터와 수",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-22/review/full-092.jpg",
+          "sha256": "d0a78cc14388c18eb81b09e1bc53cdc7f6418464359c2dcce12bcb15433ca355",
+          "bytes": 1376367
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0018",
@@ -5432,13 +5475,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-21/source-ledger.json",
-    "sha256": "2edf2c8e233e8784099926abeb8de0377b992f2c0cc4fd2c6431a77b43464e7f",
-    "bytes": 237625
+    "path": "archive/scans/1984-03/restoration/whole-issue-22/source-ledger.json",
+    "sha256": "6f24a714138fc648e6ec9721e641dd4866881f772f5cd545f3f54af981d5d6fe",
+    "bytes": 242664
   },
-  "current_checkpoint": "M25-complete",
-  "next": "M26: restore 소프트웨어 복사 방지 기술, maso-1984-03-toc-0016, candidate88–91; compare all source pages and following92before mapping. Whole March remains active.",
-  "pending_article_candidates": 24,
+  "current_checkpoint": "M26-complete",
+  "next": "M27: restore the bounded opening on 92–97 of 컴퓨터와 수, maso-1984-03-toc-0017; verify the full candidate extent 92–99 and following article on 100. Final 98–99 and whole-article assembly remain required. Whole March remains active.",
+  "pending_article_candidates": 23,
   "pending_heading_candidates": 4,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 2

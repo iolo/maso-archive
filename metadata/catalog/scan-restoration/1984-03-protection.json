@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M26",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0016",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    88,
+    89,
+    90,
+    91
+  ],
+  "selected_package": "archive/scans/1984-03/packages/protection-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/protection-jpeg-r01/manifest.json",
+    "sha256": "fa1000425b9e3f87161d43c288f143ba527180922d575a45a3ad72cab9bb7f7f",
+    "bytes": 26636
+  },
+  "exact_files": 158,
+  "native_structure": {
+    "source_images": 4,
+    "mapped_regions": 42,
+    "initial_text_ocr_tasks": 36,
+    "recognition_retries": 0,
+    "blocks": 27,
+    "original_figures": 6,
+    "original_photographs": 2,
+    "original_diagrams": 4,
+    "source_sections": 2,
+    "regional_reading_lines": 92,
+    "regional_paragraph_fragments": 55,
+    "inline_fields": 391,
+    "inline_bit_expressions": 10,
+    "inline_bit_slots": 82,
+    "readability_rows": 3,
+    "vtoc_guide_items": 5,
+    "workarea_guide_items": 4,
+    "guide_fields": 26,
+    "monitor_contexts": 1,
+    "monitor_physical_rows": 5,
+    "monitor_fields": 20,
+    "source_byte_mapping_claims": 4,
+    "source_range_claims": 3,
+    "bitmap_replacement_fields": 4,
+    "bitmap_states": 2,
+    "radix_claims": 2,
+    "bitmap_offset_claims": 4,
+    "bibliography_entries": 4,
+    "ordered_field_layouts": 4,
+    "ordered_figure_fields": 21,
+    "diagram_labels": 57,
+    "diagram_marker_tokens": 12,
+    "diagram_bit_slots": 24,
+    "diagram_connectors": 5,
+    "source_bit_symbols": 8,
+    "source_figure_associations": 4,
+    "source_prose_claims": 17,
+    "source_qualifications": 14,
+    "source_spelling_corrections": 2,
+    "joins": 9,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-22/validation.json",
+    "sha256": "d0127e86651ed32f0ae86b79099aa72d2f1b1d366a6a5ff3e1cd7544755b531d",
+    "bytes": 3813
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-22/protection/recipe.json",
+    "sha256": "7bef98fbf8290a7d455f1bcecd85a51f02a80f32ff0aaa6b88ed731f76ac21f6",
+    "bytes": 9686
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-22/source-ledger.json",
+    "sha256": "6f24a714138fc648e6ec9721e641dd4866881f772f5cd545f3f54af981d5d6fe",
+    "bytes": 242664
+  },
+  "source_dispositions_pending": 181,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-22/whole-progress-m26.json",
+    "sha256": "5a22877453cc73c8a6b447272d34e2b36f40e4bcb647e7f72ced87663a47380c",
+    "bytes": 173064
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-22/evidence-manifest.json",
+    "sha256": "4141aea588d99b40d8a68117a85eb9800ef60c74cbd83f99ee2c12e44cd4a8df",
+    "bytes": 87113
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M27: restore the bounded opening on 92–97 of 컴퓨터와 수, maso-1984-03-toc-0017; verify the full candidate extent 92–99 and following article on 100. Final 98–99 and whole-article assembly remain required. Whole March remains active."
+}

@@ -57,10 +57,14 @@ in six exact native files, retaining seven navigation rows and three source crop
 M25 completes 베이직 강좌 on 82–87: 158 exact native files, eighteen independent
 source program contexts, 107 physical code rows, 118 table cells, 249 diagram cells
 and five original figures. All 41 source crops and the separate native audit pass.
-Current totals are fourteen complete articles, no partial articles, 24 pending
-article candidates, two completed headings, four pending headings and 185 source
-images awaiting full-page disposition. Continue with M26, 소프트웨어 복사 방지 기술,
-candidate 88–91, verifying the following boundary against 92.
+M26 completes 소프트웨어 복사 방지 기술 on 88–91: 158 exact native files,
+21 ordered diagram fields, 106 printed bit positions, five monitor commands and
+all six original figures. All 42 source crops and the separate native audit pass.
+Current totals are fifteen complete articles, no partial articles, 23 pending
+article candidates, two completed headings, four pending headings and 181 source
+images awaiting full-page disposition. Continue with M27, the bounded opening
+92–97 of 컴퓨터와 수, verifying its complete candidate extent 92–99 and the next
+article on 100; final 98–99 and whole-article assembly remain required.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4874,4 +4878,66 @@ Whole March remains active with **fourteen complete articles, no partial article
 All 273 scans remain in the ledger; **185** await full-page disposition. Continue
 with **M26**, **소프트웨어 복사 방지 기술**, candidate 88–91, verifying its complete
 extent and following boundary against 92. See [the BASIC result](metadata/catalog/scan-restoration/1984-03-basic.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M26 — March complete copy-protection installment, actual 88–91
+
+Completed received **소프트웨어 복사 방지 기술**, canonical
+**maso-1984-03-toc-0016**, as
+`archive/scans/1984-03/packages/protection-jpeg-r01/`. All **158 native files**
+match an independent fresh rebuild. The original title retains **Ⅰ**, with
+the received identity kept separately. Four references and the closing star end
+91; source 92 opens **컴퓨터와 수**. All original full-page contexts and 42
+enlarged mapped regions were compared.
+
+The article preserves 27 reading blocks, nine continuation joins, two numbered
+sections, 55 regional paragraph fragments and 391 indexed inline forms. Five VTOC
+topics and four workarea descriptions retain **26 source fields**, their printed
+numbering, addresses and default-value occurrences. Item 4 has no invented
+separate explanation. All four original bibliography entries retain their
+numbering and text.
+
+Four ordered diagram rows preserve **21 fields and 57 labels**, including all
+**twelve marker tokens**, with five brackets, arrows and result-rule connectors.
+The native AND diagram retains **24 bit positions**. Ten inline expressions
+retain another **82 bit positions**, including three readability examples,
+the ten-bit autosync row, input and encoded byte forms, both six-bit prefixes
+and the printed rejected-byte pattern. Eight D-subscript symbol associations
+link matching source labels without assigning machine bits.
+
+All **five physical monitor commands and twenty fields** retain exact selected-
+text spans and source row geometry. The final **9DBFG** row keeps its blank
+argument and the printed return-to-BASIC explanation. Four byte-mapping claims,
+three ranges, four bitmap-replacement fields, two bitmap states, two radix claims
+and four bitmap-offset claims remain literal source records. No command or disk
+change is executed. Four diagram/prose associations and both original photographs
+remain source-linked; faint cuff stamp marks are unresolved, without an invented
+reading, caption or brand.
+
+JPEG comparison corrects two historical **프로로그** readings to **프롤로그**.
+The marker diagram prints **2바이트** above its checksum field and no separate
+count above the address epilogue; the historical note assigning that count to
+the epilogue is not adopted. The source diagram's **초과화한** remains literal,
+independently of prose **초기화**. Original 18-byte groups, BB00/BC56/BB56
+addresses, DOS **3,3**, track references and bitmap expressions remain unrepaired.
+Fourteen local qualifications preserve these source limits.
+
+Thirty-six initial mapped Tesseract tasks at scale 6000 completed without retries.
+The first map, crops and overlays remain preserved after thirteen column bounds
+were widened before recognition. The initial recognition audit expected a full
+map pin where the pinned settings contain its SHA; the corrected validator checks
+that exact SHA and all original master bindings without rerunning OCR. The first
+native audit passes **42 original-master crop checks, 36 OCR bindings, 151 raw ZIP
+members and 34 damaged-data cases**. All **512 frozen M25 evidence files** and
+shared implementation pins remain exact; the unchanged **286-test fresh M13
+baseline** is reused. M26 freezes **484 evidence files**. Cleanup was previewed
+without deletion. Original encoded bytes, technical correctness, execution and
+full human proofreading remain unverified.
+
+Whole March remains active with **fifteen complete articles, no partial articles,
+23 pending article candidates, two completed headings and four pending headings**.
+All 273 scans remain in the ledger; **181** await full-page disposition. Continue
+with **M27**, the bounded opening 92–97 of **컴퓨터와 수**, verifying its complete
+candidate extent 92–99 and following article on 100. Final 98–99 and whole-article
+assembly remain required. See [the copy-protection result](metadata/catalog/scan-restoration/1984-03-protection.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

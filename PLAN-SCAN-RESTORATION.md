@@ -92,11 +92,16 @@ M25 completes 베이직 강좌 on 82–87: 158 exact native files, the complete 
 and seventeen independent inline examples, 107 physical code rows, 118 table cells,
 249 diagram cells and all five original figures. All 41 original-master crops and
 the separate source/native audit pass. Printed errors and local qualifications
-remain explicit. The whole issue remains active: fourteen complete articles, no
-partial articles, 24 pending article candidates, two completed headings and four
-pending headings. There are 185 source images still awaiting full-page disposition.
-Continue with M26, 소프트웨어 복사 방지 기술, candidate 88–91, verifying its
-extent and following boundary against 92 in a bounded checkpoint.
+remain explicit. M26 completes 소프트웨어 복사 방지 기술 on 88–91: 158 exact
+native files, 21 ordered diagram fields, 57 labels including twelve marker tokens,
+106 printed bit positions, five monitor commands and all six original figures.
+All 42 original-master crops and the separate source/native audit pass. The whole
+issue remains active: fifteen complete articles, no partial articles, 23 pending
+article candidates, two completed headings and four pending headings. There are
+181 source images still awaiting full-page disposition. Continue with M27, the
+bounded opening 92–97 of 컴퓨터와 수, verifying its full candidate extent 92–99
+and following boundary against 100. Final 98–99 and whole-article assembly remain
+required before article completion.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
