@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 11,
+  "complete_whole_scan_articles": 12,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -2062,8 +2062,8 @@
       "title": "당신도 암산왕",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0012",
         "title": "당신도 암산왕",
@@ -2110,7 +2110,34 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M22",
+        "directory": "archive/scans/1984-03/packages/mental-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/mental-jpeg-r01/manifest.json",
+          "sha256": "21104927a3883bbf1b5cd0a5bfd7a3d290d6451cbb2144caa8867ca255ba3fb4",
+          "bytes": 10365
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-18/validation.json",
+          "sha256": "de67b9a73ae80e56aea4d5174bac7e2ff24356d7bb85596bc72bb76a24f6ba89",
+          "bytes": 3390
+        },
+        "observed_source_title": "당신도 암산왕",
+        "observed_platform": "FC-30",
+        "observed_opening_folio": 77,
+        "observed_ending_folio": 78,
+        "actual_folios": [
+          77,
+          78
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         77,
         78
@@ -2123,7 +2150,12 @@
           "sha256": "74eb4843720b5133df1861004dd33e4affa9860e35461fb9e0c935d78cc29a29",
           "bytes": 521570
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/mental-jpeg-r01/manifest.json",
+          "sha256": "21104927a3883bbf1b5cd0a5bfd7a3d290d6451cbb2144caa8867ca255ba3fb4",
+          "bytes": 10365
+        }
       }
     },
     {
@@ -2178,7 +2210,17 @@
       "new_selected_restoration": null,
       "historical_printed_extent_candidate": [
         79
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 79,
+        "observed_title": "불꽃놀이",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-18/review/full-079.jpg",
+          "sha256": "5166b8a021d29c9de556b6f10455ade3e6ee869f692fc89791418eb003c230e0",
+          "bytes": 712931
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0014",
@@ -5256,13 +5298,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-17/source-ledger.json",
-    "sha256": "4a7f8100a367619e6e4e8d35c5f305c52601d857130c2578d1679c6733a97c88",
-    "bytes": 224944
+    "path": "archive/scans/1984-03/restoration/whole-issue-18/source-ledger.json",
+    "sha256": "2eab395f25926bff21d478834a8df77523a34ee2b1f43f38e5d7406e50e62073",
+    "bytes": 227343
   },
-  "current_checkpoint": "M21-complete",
-  "next": "M22: restore 당신도 암산왕, maso-1984-03-toc-0012, candidate77–78; verify complete extent and following boundary against79. Whole March remains active.",
-  "pending_article_candidates": 27,
+  "current_checkpoint": "M22-complete",
+  "next": "M23: restore 불꽃 놀이, maso-1984-03-toc-0013, candidate79; verify complete extent and following boundary against80. Whole March remains active.",
+  "pending_article_candidates": 26,
   "pending_heading_candidates": 5,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M22",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0012",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    77,
+    78
+  ],
+  "selected_package": "archive/scans/1984-03/packages/mental-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/mental-jpeg-r01/manifest.json",
+    "sha256": "21104927a3883bbf1b5cd0a5bfd7a3d290d6451cbb2144caa8867ca255ba3fb4",
+    "bytes": 10365
+  },
+  "exact_files": 62,
+  "native_structure": {
+    "source_images": 2,
+    "mapped_regions": 14,
+    "initial_text_ocr_tasks": 13,
+    "recognition_retries": 0,
+    "blocks": 11,
+    "original_figures": 1,
+    "prose_paragraphs": 5,
+    "independent_listing_contexts": 1,
+    "physical_rows": 64,
+    "logical_units": 63,
+    "physical_fields": 256,
+    "basic_source_fields": 486,
+    "numeric_literal_occurrences": 49,
+    "physical_continuation_rows": 1,
+    "source_qualifications": 13,
+    "native_tables": 2,
+    "table_rows": 14,
+    "table_cells": 28,
+    "variable_groups": 5,
+    "routine_ranges": 9,
+    "source_jump_references": 30,
+    "memory_accesses": 4,
+    "literal_timer_expressions": 1,
+    "source_key_branches": 3,
+    "source_prose_claims": 2,
+    "photograph_labels": 1,
+    "joins": 2,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-18/validation.json",
+    "sha256": "de67b9a73ae80e56aea4d5174bac7e2ff24356d7bb85596bc72bb76a24f6ba89",
+    "bytes": 3390
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-18/mental/recipe.json",
+    "sha256": "8c4d625a121ef9d472091a249aeb221067f9b7cff223eea910b93559ca00395d",
+    "bytes": 4814
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-18/source-ledger.json",
+    "sha256": "2eab395f25926bff21d478834a8df77523a34ee2b1f43f38e5d7406e50e62073",
+    "bytes": 227343
+  },
+  "source_dispositions_pending": 194,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-18/whole-progress-m22.json",
+    "sha256": "7c0ccb645ed0f19e18f2c1c7c0a778549a724c58b742057a4a1ccff367e1767a",
+    "bytes": 166007
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-18/evidence-manifest.json",
+    "sha256": "c507c16c8b336c2efaa04f920ca9e2e6386c69abe8aad30da3e594beb6a38670",
+    "bytes": 30105
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M23: restore 불꽃 놀이, maso-1984-03-toc-0013, candidate79; verify complete extent and following boundary against80. Whole March remains active."
+}

@@ -46,10 +46,13 @@ separate native audit pass. M21 completes 매직 스퀘어 on 74–76: 54 exact 
 files, 182 physical BASIC rows / 86 numbered units, eight signed DATA fields,
 fifteen drawing routines / 63 commands and the original sixteen-cell screen.
 Four screen glyph identities remain unresolved. All twelve source crops and the
-separate native audit pass. Current totals are eleven complete articles, no
-partial articles, 27 pending article candidates, one completed heading, five pending
-headings and 196 source images awaiting full-page disposition. Continue with M22,
-당신도 암산왕, candidate 77–78, in bounded checkpoints.
+separate native audit pass. M22 completes 당신도 암산왕 on 77–78: 62 exact native
+files, 64 physical BASIC rows / 63 numbered units, five variable definitions, nine
+routine ranges and the original photograph. All fourteen source crops and the
+separate native audit pass. Current totals are twelve complete articles, no partial
+articles, 26 pending article candidates, one completed heading, five pending headings
+and 194 source images awaiting full-page disposition. Continue with M23,
+불꽃 놀이, candidate 79, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4676,4 +4679,56 @@ Whole March remains active with **eleven complete articles, no partial articles,
 All 273 scans remain in the ledger; **196** await full-page disposition. Continue
 with **M22**, **당신도 암산왕**, candidate 77–78, verifying its full extent and
 boundary against 79. See [the Magic Square result](metadata/catalog/scan-restoration/1984-03-magic.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M22 — March complete mental-arithmetic article, actual 77–78
+
+Completed **당신도 암산왕**, canonical **maso-1984-03-toc-0012**, as
+`archive/scans/1984-03/packages/mental-jpeg-r01/`. All **62 native files** match an
+independent fresh rebuild. Original full pages 77–79 establish the complete
+extent: **590 RETURN** closes the listing on 78 and 79 opens printed **불꽃놀이**,
+received **불꽃 놀이**. The separate lower advertisement on 78 is excluded.
+
+The native article retains five introductory paragraphs, the original deck,
+title, subtitle, **FC-30** platform, provider and telephone number. Its two typed
+tables preserve **five variable definitions and nine routine descriptions**, with
+fourteen rows and **28 cells**. All variable code memberships, routine endpoints
+and interval memberships retain source pointers. The guide continues between
+the two columns on 77, independently of the listing's column join on 78.
+
+The complete program has **64 physical rows, 63 numbered units, 256 physical
+fields, 486 lexical fields and 49 numeric source occurrences**. The one physical
+continuation belongs to the quoted prompt at 541. Original source row geometry,
+blank fields, quote state and UTF-8 byte ranges remain explicit. Thirty jump
+references, four POKE/PEEK accesses, three key branches and the literal timer
+expression have typed source links. No hardware meaning, key bytes or evaluated
+timer value is invented. The source Y branch at 542 targets 50 literally.
+
+JPEG comparison selects the **plus sign at 180**, replacing the historical draft
+asterisk, and **two commas at 540**, replacing its three commas. The source lacks
+the opening quote before YOU TOOK; this remains unrepaired. Original RND+99+1,
+the repeated A+B expressions and timer arithmetic also remain literal. Thirteen
+local program qualifications preserve these limits. The introductory **문제가.**
+period corrects the old draft comma. Source loading-display **010** and ten-question
+claims remain separate from assertions about program behavior.
+
+The complete original helmet photograph retains its reflected road and stylized
+W-like emblem. The emblem has a source label and visually checked approximate
+bounds; no brand, program relationship, encoded glyph byte or caption is inferred.
+
+Thirteen initial mapped Tesseract tasks at scale 6000 completed without retries.
+All **fourteen original-master crops, thirteen OCR bindings, 54 raw ZIP members
+and 37 damaged-data cases** pass. All three audit attempts are preserved: the
+validator's inherited context count and an `endswith` typo were corrected without
+changing the selected export. All **184 frozen M21 evidence files** and shared
+implementation pins remain unchanged. The unchanged **286-test fresh M13
+baseline** is reused. M22 freezes **175 evidence files**. Cleanup was previewed
+without deletion; execution, exact source string spacing and full human
+character-perfect proofreading remain unverified.
+
+Whole March remains active with **twelve complete articles, no partial articles,
+26 pending article candidates, one completed heading and five pending headings**.
+All 273 scans remain in the ledger; **194** await full-page disposition. Continue
+with **M23**, **불꽃 놀이**, candidate 79, verifying its full extent and following
+boundary against 80. See [the mental-arithmetic result](metadata/catalog/scan-restoration/1984-03-mental.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
