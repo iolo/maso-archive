@@ -10810,7 +10810,7 @@
       ]
     }
   ],
-  "next": "R60: visually classify the17 remaining ordinary scans(63–65,105–109,125–126,138–139,196–197,209,241–242) from their actual source contents,within the twenty-outside-lookup bound. Do not infer roles or printed folios from filenames. Preserve unlisted notices/forms/advertisements explicitly and reconcile all246 source images with the34 complete selected articles,six non-owning headings and complete four-face cover set. Then qualify data-only whole-issue JPEG export/standalone checking,include the selected native packages and retained unlisted source material with explicit provenance,build a fresh independent issue export and compare every file exactly. Audit ownership,continuity,assets,source ranges,all canonical identities/source images,known gaps and reproduction handoff before marking the November goal complete. Preserve all earlier native packages/frozen evidence,global cover selection,four saved readers and both shared plans. Reuse successful OCR;no reading-room implementation/build work. Never execute frozen checkpoint helpers. Keep the whole-November goal active.",
+  "next": "R61: qualify data-only whole-issue JPEG export and standalone checking,including the34 selected native articles,six non-owning canonical headings,four original cover faces and37 other retained original source scans. Use the complete R60 246-image source accounting and pinned canonical TOC;preserve all unlisted classifications,source groups,qualified folios,explicit limitations and package/evidence pins. Freshly rebuild the34 selected native articles from their saved recipes without OCR or frozen helper execution,check all outputs exactly,then build a fresh independent whole-issue export and compare every file. Run relevant fresh PDF/JPEG/cover/issue regressions if implementation changes. Audit every canonical identity,ownership,continuity,asset and source range plus known gaps and reproduction handoff before marking the November goal complete. Preserve earlier packages/frozen evidence,global cover selection,four saved readers and both shared plans. No reading-room implementation/build work. The whole-November goal remains active.",
   "group_headings": 6,
   "cover_set": {
     "path": "archive/scans/1984-11/packages/covers-r02",
@@ -10834,21 +10834,26 @@
     }
   },
   "source_accounting": {
-    "status": "partial",
+    "status": "complete",
     "accounting": {
-      "path": "archive/scans/1984-11/restoration/batch-59/source-accounting.json",
-      "sha256": "dfa017e0a3cc0aec7bd4b0055b445855294a90cd104d562de790bdf18a085712",
-      "bytes": 298024
+      "path": "archive/scans/1984-11/restoration/batch-60/source-accounting.json",
+      "sha256": "6c22bd4e2d8bda1a11f57d6ce25650d8af5a3898caf789cad2e1090c867e6456",
+      "bytes": 331633
     },
     "validation": {
-      "path": "archive/scans/1984-11/restoration/batch-59/accounting-validation.json",
-      "sha256": "388405cedbdc15cccce7ca156cbe603ad83ecc0117686a03afbea2dccfc1a1b2",
-      "bytes": 739
+      "path": "archive/scans/1984-11/restoration/batch-60/accounting-validation.json",
+      "sha256": "2223b8e76d977c6ea1cf24ed59cf13790c9eb512e7848867c62cf5dd14f2a3d6",
+      "bytes": 10805
+    },
+    "evidence": {
+      "path": "archive/scans/1984-11/restoration/batch-60/evidence-manifest.json",
+      "sha256": "fc9a67cc637f71113297f973cb17e2594013c87327d9822dee17fdd38c4ee942",
+      "bytes": 6688
     },
     "total_source_images": 246,
     "selected_article_source_images": 205,
     "cover_faces": 4,
-    "other_visually_disposed_images": 20,
-    "pending_visual_dispositions": 17
+    "other_visually_disposed_images": 37,
+    "pending_visual_dispositions": 0
   }
 }

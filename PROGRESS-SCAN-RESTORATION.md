@@ -3485,3 +3485,39 @@ remaining 17 source images, complete source accounting and qualify whole-issue
 native export/standalone checking with a fresh exact rebuild. Final completion
 requires the full audit and reproduction handoff. **The November goal remains
 active.**
+
+## R60 — complete source-image accounting
+
+The final **17 outside scans** are visually disposed: nine advertisements,
+four illustrated section dividers, two publisher notices and two wide
+subscription/reply-form scans. The dividers link five existing non-owning
+headings without duplicating article bodies. The blank contest entry form at
+source filename 63 extends the invitation/conditions/prizes group at 60–62;
+the monthly software invitation at 209 remains distinct. Both wide form scans
+remain intact, in their original orientations; their physical recto/verso
+identity is unverified. Filenames were not promoted to observed folios.
+
+The complete **246-image source ledger** now records **205 selected
+article-source images, four cover faces and 37 other visually classified
+images**, with **zero pending dispositions**. Those 37 comprise 25
+advertisements, one contents/credits/colophon page, five notices, four section
+dividers and two forms. Original rasters and cross-image relationships remain
+explicit. The report preserves R59's partial evidence and explicitly projects
+its local review paths to repository-relative pins. Classification and selected
+labels do not claim complete unlisted-text transcription.
+
+Every master hash and unique source identity matches. All **17 review images**
+reproduce byte-for-byte from the masters; **19 damaged actual accounting cases**
+are rejected. All **60 earlier catalog-selected components and frozen evidence**,
+six heading outcomes, four saved readers, 36 implementation files, global cover
+selection, both shared plans and runtime/source pins remain intact. The
+**269-test R59 baseline** and logs were rehashed and reused, **not freshly rerun**.
+No OCR or reading-room work occurred. Cleanup was preview-only.
+
+See the [source-accounting result](metadata/catalog/scan-restoration/1984-11-source-accounting.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Canonical status stays **34 complete articles, no partial articles, six
+non-owning headings and no unclassified identities**. Source disposition is
+complete; **R61** still needs checked whole-issue native export, fresh exact
+selected-article/issue rebuilds, the final audit and reproduction handoff.
+**The November goal remains active.**

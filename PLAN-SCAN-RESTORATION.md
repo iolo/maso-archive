@@ -1,16 +1,19 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R59 are complete. The whole-November restoration goal is active.
+R00–R60 are complete. The whole-November restoration goal is active.
 All **40 canonical identities** now have evidenced outcomes: **34 complete
 article packages, no partial articles, six non-owning headings and no
 unclassified identities**. The latest is **광고색인**, the lower index on actual
 **240**: 25 advertiser rows, 50 cells, 28 printed references and an original tree.
 The four original cover faces now form a separate checked native cover set.
-Partial source accounting records 205 selected article-source images, four
-covers, 20 visually classified unlisted scans and **17 pending scans**.
-**R60** finishes those visual dispositions, then qualifies whole-issue native
-export/rebuild before the final completion audit.
+Complete source accounting records 205 selected article-source images, four
+covers and 37 visually classified other scans, with **no pending dispositions**.
+The other scans retain advertisements, contents/credits/colophon, notices,
+non-owning section dividers and intact wide forms; this is not a claim of full
+transcription of every printed region. **R61** qualifies whole-issue native
+export/standalone checking and fresh selected-article/issue rebuilds before the
+final completion audit.
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
 Track execution in

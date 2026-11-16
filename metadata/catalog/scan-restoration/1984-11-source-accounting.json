@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R60",
+  "issue_id": "maso-1984-11",
+  "completedOn": "2026-11-16",
+  "outcome": "Complete visual/source accounting for all246 retained JPEGs;whole-issue native export and final completion audit remain pending.",
+  "source_accounting": {
+    "path": "archive/scans/1984-11/restoration/batch-60/source-accounting.json",
+    "sha256": "6c22bd4e2d8bda1a11f57d6ce25650d8af5a3898caf789cad2e1090c867e6456",
+    "bytes": 331633
+  },
+  "source_accounting_validation": {
+    "path": "archive/scans/1984-11/restoration/batch-60/accounting-validation.json",
+    "sha256": "2223b8e76d977c6ea1cf24ed59cf13790c9eb512e7848867c62cf5dd14f2a3d6",
+    "bytes": 10805
+  },
+  "source_dispositions": {
+    "path": "archive/scans/1984-11/restoration/batch-60/source-dispositions.json",
+    "sha256": "5a7da6da19f2f94063290ad0412bd822e63d4fa0c89999ae527ceed1d0c809c4",
+    "bytes": 20456
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-60/validation.json",
+    "sha256": "bbaaefe5cf97699d0193c836530fda50720999ab1db358e34cf2c0204487e0c0",
+    "bytes": 44960
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-60/evidence-manifest.json",
+    "sha256": "fc9a67cc637f71113297f973cb17e2594013c87327d9822dee17fdd38c4ee942",
+    "bytes": 6688
+  },
+  "sourceImages": 246,
+  "newVisualDispositions": 17,
+  "unlistedVisualDispositions": 37,
+  "remainingVisualDispositions": 0,
+  "counts": {
+    "cover": 4,
+    "advertisement": 25,
+    "table-of-contents": 1,
+    "selected-article-source": 205,
+    "unlisted-notice": 5,
+    "section-divider": 4,
+    "unlisted-form": 2
+  },
+  "actualAccountingDamageCases": 19,
+  "exactPreviewDerivations": 17,
+  "previousComponentsPreserved": 60,
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "1e44b2e43a160291759b5d7ed89f8863a05b6fe2c3c598eebd6678b2da967da3",
+      "bytes": 227642
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/image-cover-set.schema.json",
+      "sha256": "4fc29fd7ee1bab773e175f4db410b6f7c58e60a14c3c5c709c0de3e3849740ee",
+      "bytes": 6712
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_covers.py",
+      "sha256": "b3fe714ccc3306d9a6b9d549842d89ee7f31141f5ef211fbc385e3ff549af26f",
+      "bytes": 7595
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_news_assemble.py",
+      "sha256": "c71e21120cefa9e2f68f0893dfc74fd04c8a9ac9032bd4ccfd0fc9fb668947c3",
+      "bytes": 9732
+    },
+    {
+      "path": "tests/test_image_numbered_assemble.py",
+      "sha256": "d6d877b8207adfd616878bc639682abc661aba81909d2934402d98c6636dc3e8",
+      "bytes": 13404
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_graphs.py",
+      "sha256": "e27beb44a75c3ef3c7cddc783f1f3c08b0569553d280397bb08bc68d19fac735",
+      "bytes": 16164
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_image_source_structures.py",
+      "sha256": "93b82ab3f26c7a976e2a8e25b4aa2abd2bb33141cdf73bcfdd7e6c6da189e9a1",
+      "bytes": 12579
+    },
+    {
+      "path": "tests/test_image_survey_assemble.py",
+      "sha256": "94c154f857b26e993fe6344503c86a26be2cdc2f24870cbbad95a5e8a4d61e78",
+      "bytes": 15587
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "9b9c74c831f35d3a1a71fdbec215206745ab56749a7d65791f7095dad1f94493",
+      "bytes": 17278
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "a15b8f7f9ac77421da56483d68c66ee271bbba7175bf6acebe5dfc00bc773785",
+      "bytes": 28342
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_image_news.py",
+      "sha256": "3207d3548420c833c1a693bc6ba599c9f59b0d69f050ff39165e1ff570e146af",
+      "bytes": 26748
+    },
+    {
+      "path": "tools/pdf_restore/assembly_news.py",
+      "sha256": "95cdd5cd72aadd402c01d0337e65c0ac35a1ca0ab8ad9fbdc14338f31b201f6b",
+      "bytes": 8475
+    },
+    {
+      "path": "tools/pdf_restore/assembly_numbered.py",
+      "sha256": "a123c2d5dc6f0d365399a8cf29f795426e93b0ee8d001c3fd544617fa23ccced",
+      "bytes": 10533
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a05173be8ac6367356583f3ec497b47fe382f7753bd3155c7e8b665384ab4890",
+      "bytes": 20501
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_graphs.py",
+      "sha256": "c0f155c960c6807fb2a5e110347c88989d9e87849acc5bc0cead26099aa1e378",
+      "bytes": 33714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "81f3456ffa97802de13435491309320d351493ef5b924b846c75705b253213e2",
+      "bytes": 24032
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_structures.py",
+      "sha256": "82a51f9a7f24ab783183ca4e661f266ba7a0ff3ae0336b39f7bdc504d127a1f6",
+      "bytes": 21330
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "8676b168f37b1ec387c8ae04603e271a67546b1026daea15b9b9d7562c5ba7d7",
+      "bytes": 42203
+    },
+    {
+      "path": "tools/pdf_restore/assembly_survey.py",
+      "sha256": "245e8707a0d6931ddafb2f678e2775a0fcfb556ca9d7afb1a4f74428fc4f295e",
+      "bytes": 25272
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "49f8b030a4ad2549a889481f45ffbb1238fd7baf2b351bc2fc49b00b35448f43",
+      "bytes": 21558
+    },
+    {
+      "path": "tools/pdf_restore/image_covers.py",
+      "sha256": "2ef16d943a43891c3456a3a2597419aa87efb42c160a02557860e24c4c379354",
+      "bytes": 9789
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanged": false,
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 48,
+    "jpegCovers": 7,
+    "total": 269
+  },
+  "regressionLogs": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-59/pdf-regressions-01.log",
+      "sha256": "ec1124ecbc049607daaeee9ab08f0085560b62b674b241dffa4533daca65e6f5",
+      "bytes": 36395
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-59/jpeg-regressions-01.log",
+      "sha256": "4cea9e127a88a9594e6c5c6f4c13442cb1f7f9aa4bafdbb6ec1cc1775d9ae538",
+      "bytes": 9351
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-59/cover-regressions-01.log",
+      "sha256": "c8bb4e8792d2895fac2e2733dcfd99afab0fd078bf41709c8377f0b94aee3fbe",
+      "bytes": 1153
+    }
+  ],
+  "regressionsFresh": false,
+  "regressionBaseline": {
+    "path": "archive/scans/1984-11/restoration/batch-59/validation.json",
+    "sha256": "b41301d81b6304245df86a443c77197f408f0f8b8de3251c61103eed32be6eb2",
+    "bytes": 49318
+  },
+  "readingRoomsPreserved": [
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot.json",
+        "sha256": "d20d01e225d2bf31095210bcc7fbedc38ce5005566282a2875eebbbab11bf79e",
+        "bytes": 14479
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11/data/manifest.json",
+        "sha256": "1d3537384b24f07923f3827c782f0e38ff03a49a0a84b424b74a0852a78e25c8",
+        "bytes": 822112
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11/assets/index-D4Z0nqFt.js",
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+          "bytes": 350064
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11/assets/index-DO4ky1Ds.css",
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+          "bytes": 30171
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11/index.html",
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+          "bytes": 603
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-2026-11-16/evidence-manifest.json",
+        "sha256": "f0d66664926b9bf6bb7bdb8fbcc47e38998c5e720c2a9d699dbb60ea66a2cd71",
+        "bytes": 5070
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r47.json",
+        "sha256": "e5ad06ed17088004629339e70c9e395bbf993979c34ab66291c8edd26d68fa44",
+        "bytes": 13632
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r47/data/manifest.json",
+        "bytes": 837353,
+        "sha256": "a6de8917ef9d3a3410646a0c50c762207be93fdda179e501353fb1f08985b4d8"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/assets/index-D4Z0nqFt.js",
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+          "bytes": 350064
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/assets/index-DO4ky1Ds.css",
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+          "bytes": 30171
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/index.html",
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+          "bytes": 603
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/evidence-manifest.json",
+        "sha256": "d1c8eb92325a58075c580e6497fa8bab0c5c4fd4c8028ec7bfff32603116997e",
+        "bytes": 4984
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r50.json",
+        "sha256": "68cc31f7d23b49fc5755a2dc80a8ea61348fcc3c9345d5f5326c787df79e32ef",
+        "bytes": 16583
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r50/data/manifest.json",
+        "bytes": 924994,
+        "sha256": "4d8ce1b42955fec592f778af1948329cbb2dcf0f3021f61d37df9d067154cfef"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/assets/index-D4Z0nqFt.js",
+          "bytes": 350064,
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/assets/index-DO4ky1Ds.css",
+          "bytes": 30171,
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/index.html",
+          "bytes": 603,
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530"
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r50-2026-11-16/evidence-manifest.json",
+        "bytes": 5446,
+        "sha256": "9d91f85549b2f01c7fff6ed9974eaabd687f21527c09ccefb252db1f9a97b1a7"
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r52.json",
+        "sha256": "d21dafbe92d3967f11b02c37d247faeb958c5c91fdce108a088af7db12dab4af",
+        "bytes": 17884
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r52/data/manifest.json",
+        "bytes": 942171,
+        "sha256": "53f8bc22cf89d42d19aa5b6e2e3f553a80f22b340f74e4637d69ae3269cc7e34"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/assets/index-D4Z0nqFt.js",
+          "bytes": 350064,
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/assets/index-DO4ky1Ds.css",
+          "bytes": 30171,
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/index.html",
+          "bytes": 603,
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530"
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r52-2026-11-16/evidence-manifest.json",
+        "bytes": 6554,
+        "sha256": "4a29756db2447faa378070cddc6d1b468bdc0b1152f2e1e183710f13e3184432"
+      }
+    }
+  ],
+  "previousCheckpointCommit": "cc706a93",
+  "attempts": {
+    "newMappedSourceViews": 0,
+    "newOutsideLookupViews": 17,
+    "newOcrTasks": 0,
+    "successfulUnchangedOcrRepeated": 0,
+    "actualAuditRuns": 1,
+    "actualAuditFailures": 0,
+    "regressionsFresh": false,
+    "cleanupApplied": false,
+    "notes": [
+      "Reviewed all17 remaining source images directly:9advertisements,4section dividers,2notices and2wide form scans.",
+      "Complete source accounting covers246 original rasters:205selected article-source images,4cover faces and37other visually disposed source images. All master hashes and source identities match.",
+      "Four dividers link five existing non-owning headings without inventing article bodies. The blank contest form63 extends the60–62 notice group;monthly invitation209 remains distinct. The two wide subscription/reply-form scans remain intact with physical recto/verso identity unverified.",
+      "R59 partial accounting and local review pins are preserved. The complete report explicitly projects those review paths to repository-relative pins and retains links to original disposition evidence.",
+      "Seventeen review images reproduce exactly from masters with BICUBIC thumbnail/JPEGquality96. Nineteen damaged actual accounting cases reject loss,duplication,wrong ownership/geometry/roles,full-transcription claims and invented physical form sides.",
+      "All60 earlier catalog-selected components/frozen evidence,six heading outcomes,four saved readers,36implementation files,global covers,both shared plans and runtime/source inputs remain intact. The269-test R59 baseline/logs were rehashed/reused,not freshly rerun.",
+      "Whole-issue export qualification and fresh all-selected-article rebuilds form a separate R61 bounded checkpoint after this completed visual-disposition batch. No reader work or OCR occurred."
+    ]
+  },
+  "next": "R61: qualify data-only whole-issue JPEG export and standalone checking,including the34 selected native articles,six non-owning canonical headings,four original cover faces and37 other retained original source scans. Use the complete R60 246-image source accounting and pinned canonical TOC;preserve all unlisted classifications,source groups,qualified folios,explicit limitations and package/evidence pins. Freshly rebuild the34 selected native articles from their saved recipes without OCR or frozen helper execution,check all outputs exactly,then build a fresh independent whole-issue export and compare every file. Run relevant fresh PDF/JPEG/cover/issue regressions if implementation changes. Audit every canonical identity,ownership,continuity,asset and source range plus known gaps and reproduction handoff before marking the November goal complete. Preserve earlier packages/frozen evidence,global cover selection,four saved readers and both shared plans. No reading-room implementation/build work. The whole-November goal remains active."
+}
