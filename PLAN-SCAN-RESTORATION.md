@@ -32,11 +32,13 @@ JPEG-backed content, structure, continuity and reproduction evidence before
 whole-issue closeout. Preserve the
 [supplement handoff](docs/SCAN-RESTORATION-1984-03.md) as historical evidence.
 M05 starts the whole-issue queue and completes the editorial. M06 restores the
-feature's opening on actual 14–19 as a checked native segment: 159 exact files,
-210 physical code rows and three original diagrams with native structures.
+feature's opening on actual 14–19 as a checked native segment. M07 adds actual
+20–25: 146 exact files, 435 physical code rows, seven typed tables, the
+512-slot source glyph grid and two native flow graphs. Both segments remain
+partial until actual 26–37 and whole-feature assembly pass.
 The whole issue remains active: one complete article, one partial feature,
-36 pending article candidates and six pending headings. There are 249 source
-images still awaiting full-page disposition. Continue with actual 20–25.
+36 pending article candidates and six pending headings. There are 243 source
+images still awaiting full-page disposition. Continue with actual 26–31.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

@@ -420,18 +420,34 @@
               "sha256": "371e8471c17a64928f0f1493dade605c4536d6957b2602e80d5b64f984e200d9",
               "bytes": 3041
             }
+          },
+          {
+            "checkpoint": "M07",
+            "directory": "archive/scans/1984-03/packages/feature-jpeg-b-r03",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/feature-jpeg-b-r03/manifest.json",
+              "sha256": "9ce3896b16b9b4e758335b6dc1f532a01a20803e8c21b8896399e54dee8bd804",
+              "bytes": 24952
+            },
+            "actual_folios": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-03/validation.json",
+              "sha256": "c82c66e04cc5e9e5d4ec45955fa5dee15d275a7f38bfcb2e863aa4c3d004b719",
+              "bytes": 2285
+            }
           }
         ],
         "observed_opening_folio": 14,
         "observed_ending_folio": 37,
         "intermediate_extent_fully_reviewed": false,
         "continuation_pending": [
-          20,
-          21,
-          22,
-          23,
-          24,
-          25,
           26,
           27,
           28,
@@ -445,7 +461,21 @@
           36,
           37
         ],
-        "assembly_pending": true
+        "assembly_pending": true,
+        "included_actual_folios": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
       },
       "historical_printed_extent_candidate": [
         14,
@@ -4657,12 +4687,12 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-02/source-ledger.json",
-    "sha256": "778c528443497e03f28922f4be2784c3aef11cf906ad21eaa868db30c9720e8d",
-    "bytes": 147861
+    "path": "archive/scans/1984-03/restoration/whole-issue-03/source-ledger.json",
+    "sha256": "8ead922583729ce43ac23b9516e16fe20f37a8c2baab0ad762e675fd3058ba9b",
+    "bytes": 152136
   },
-  "current_checkpoint": "M06-complete",
-  "next": "M07: restore feature continuation on actual 20–25, including the 19/20 within-word prose join and native character/screen/keyboard structures.",
+  "current_checkpoint": "M07-complete",
+  "next": "M08: restore feature continuation on actual26–31, including duplicated figure15 numbering, encoding/decoding structures and source programs. Actual32–37 and final feature assembly follow.",
   "pending_article_candidates": 36,
   "pending_heading_candidates": 6,
   "partial_whole_scan_articles": 1
