@@ -61,11 +61,15 @@ panels and 12 source dimensions. All 29 original-master crops and the separate
 source/native audit pass. M16 completes 맛있는 사과가 들어 있어요 on 54–55:
 50 exact native files, all 80 source BASIC units, seven variable definitions,
 five source range descriptions and the original photograph. All 11 source crops
-and the separate native audit pass. The whole issue remains active: six complete
-articles, no partial articles, 32 pending article candidates, one completed heading
-and five pending headings. There are 217 source images still awaiting full-page
-disposition. Continue with M17, canonical 올 인원 (printed 홀 인 원), candidate
-56–60, verifying its extent and following boundary in a bounded checkpoint.
+and the separate native audit pass. M17 completes canonical 올 인원 (printed 홀 인 원)
+on 56–60: 75 exact native files, 360 physical code rows / 113 numbered units,
+109 table cells, twelve paragraphs and both original figures. All 18 source crops
+and the separate native audit pass; the printed 1770 range endpoint remains
+explicitly unresolved. The whole issue remains active: seven complete articles,
+no partial articles, 31 pending article candidates, one completed heading and five
+pending headings. There are 212 source images still awaiting full-page disposition.
+Continue with M18, 팽이 놀이, candidate 61–63, verifying its extent and following
+boundary in a bounded checkpoint.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

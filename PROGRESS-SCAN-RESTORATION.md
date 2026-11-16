@@ -4376,3 +4376,62 @@ Whole March remains active with **six complete articles, no partial articles,
 Continue with **M17**, canonical **올 인원**, printed **홀 인 원**, candidate
 56–60, verifying its complete extent and boundary against 61. See [the apple-count result](metadata/catalog/scan-restoration/1984-03-apples.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M17 — March complete mini-golf article, actual 56–60
+
+Completed canonical **올 인원**, printed **홀 인 원**, as **golf-jpeg-r01**.
+All **75 native files** match an independent fresh rebuild. Original full-page
+comparison establishes the complete 56–60 extent: final **1220 HOME** on 60,
+then the separate **팽이 놀이** opening on 61. The received title and observed
+source title stay separate. Both captionless original figures remain intact:
+the rounded mini-golf screen photograph and the tall golfer photograph reaching
+the original left JPEG edge. Screen status labels **HOLE #4 / PAR 3** and
+**DFGKL'S TURN** retain source geometry; the leading player-name glyph has a
+local D/O qualification. Two unlabelled interior marks gain no inferred gameplay
+identity, and the golfer gains no invented personal identity.
+
+The complete Apple-compatible program retains **360 physical rows, 113 numbered
+units and 247 continuation rows**, 1,440 physical fields, 5,796 source lexemes and
+685 physical number-run occurrences. Wrapped values and identifiers remain
+physical fragments: 4/9200, G/OLF, N/P, 2/10, dispatch targets and +1/1 remain
+source-bound without silently rewriting the download. All four region boundaries
+are explicit. Unit **860** spans three rows on 59 and three on 60; **1040** spans
+one left-column row and six right-column rows on 60. Literal **PRINT CS,AP**,
+**650 -.M2**, source comparisons, coordinates and restart code remain qualified
+historical readings. Enlarged JPEG evidence clearly selects **1150 P = 4** over
+the older PDF draft's F; the historical draft remains preserved. The semicolon
+followed by colon at 160 is confirmed from a direct source detail.
+
+Two native tables preserve **45 rows / 109 cells**, including the three printed
+header cells: eighteen source program-range descriptions and twenty-six variable
+definitions. All existing endpoints and complete physical identifier occurrences
+have typed source links. The printed range **1130–1770** retains 1770 with an
+explicit unresolved endpoint and no invented interval membership or repaired
+1170 cell. All nine prose course-modification references point to existing
+numbered units. Six opening paragraphs, five continuation paragraphs and the
+independent callout retain their source order. The variable-list ending star,
+missing from the older PDF draft, is restored and indexed separately. Preserve
+all **28 prose/code qualifications**. Execution, original encoded bytes, exact
+source character columns, semantic correctness and full human proofreading
+remain unverified.
+
+One refinement before recognition expands three map edges; the first map remains
+preserved. All **sixteen mapped Tesseract tasks** ran once at the planned 6000
+scale, with no recognition retry. Original margin ink locates all 113 numbered
+starts, and every physical row was compared with the source. Initial narrow
+review strips clipped slanted baselines; retained wider bounds include the full
+rows and can overlap neighboring ink. The last three row boards were re-viewed
+separately after a tool output truncation. Independent checks pass for all
+**18 original-master crops**, sixteen recognition bindings, **67 raw ZIP members**,
+every source/native range and **34 damaged-data cases**. All **147 frozen M16
+evidence files** and shared implementation retain their exact pins; the unchanged
+**286-test** regression baseline is reused. Cleanup was previewed without deletion.
+The checkpoint freezes **369 evidence files**.
+
+All 273 sources remain in the ledger. Newly reviewed 57–60 and the next-article
+lookup 61 reduce pending full-page dispositions to **212**; 56 was already located.
+Whole March remains active with **seven complete articles, no partial articles,
+31 pending article candidates, one completed heading and five pending headings**.
+Continue with **M18**, **팽이 놀이**, candidate 61–63, verifying its full extent
+and boundary against 64. See [the mini-golf result](metadata/catalog/scan-restoration/1984-03-golf.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

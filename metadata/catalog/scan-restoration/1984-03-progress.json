@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 6,
+  "complete_whole_scan_articles": 7,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -1275,8 +1275,8 @@
       "title": "올 인원",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0007",
         "title": "올 인원",
@@ -1335,7 +1335,38 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M17",
+        "directory": "archive/scans/1984-03/packages/golf-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/golf-jpeg-r01/manifest.json",
+          "sha256": "3a6dc0106cee952da94398793abc4068e0d796d17aee283da0a09c7a579e3b88",
+          "bytes": 12499
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-13/validation.json",
+          "sha256": "f94fb5c2e1325fdcd6b51a417ae3e344d84c466c1a2643efd33f7be5af355c20",
+          "bytes": 3212
+        },
+        "observed_source_title": "홀 인 원",
+        "canonical_received_title": "올 인원",
+        "observed_platform": "애플 컴패티블",
+        "observed_opening_folio": 56,
+        "observed_ending_folio": 60,
+        "actual_folios": [
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         56,
         57,
@@ -1352,7 +1383,12 @@
           "sha256": "3775546a0c55fdf16f470f6d1eb3d04a746a8637164d49a37787b8138ddeec37",
           "bytes": 452331
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/golf-jpeg-r01/manifest.json",
+          "sha256": "3a6dc0106cee952da94398793abc4068e0d796d17aee283da0a09c7a579e3b88",
+          "bytes": 12499
+        }
       }
     },
     {
@@ -1417,7 +1453,17 @@
         61,
         62,
         63
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 61,
+        "observed_title": "팽이 놀이",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-13/review/full-061.jpg",
+          "sha256": "adeaa7416a46f242996c1342a17c6a5322839c9b4776a1cd3275df6317dc2d37",
+          "bytes": 489312
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0009",
@@ -5034,13 +5080,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-12/source-ledger.json",
-    "sha256": "a686b5172983272f6811a6b4d2943aa6a12e1157ce6dfded5e6e682c287b0869",
-    "bytes": 200660
+    "path": "archive/scans/1984-03/restoration/whole-issue-13/source-ledger.json",
+    "sha256": "837effbbf444dc040aa13f16babe0f0bd9a741aa1eafccc6f103e15c7aa4697f",
+    "bytes": 206201
   },
-  "current_checkpoint": "M16-complete",
-  "next": "M17: restore canonical 올 인원 (observed 홀 인 원), maso-1984-03-toc-0007, candidate56–60; verify the source extent and boundary against61. Whole March remains active.",
-  "pending_article_candidates": 32,
+  "current_checkpoint": "M17-complete",
+  "next": "M18: restore 팽이 놀이, maso-1984-03-toc-0008, candidate61–63; verify the complete source extent and boundary against64. Whole March remains active.",
+  "pending_article_candidates": 31,
   "pending_heading_candidates": 5,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1

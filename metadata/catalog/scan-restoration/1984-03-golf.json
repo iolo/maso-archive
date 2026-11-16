@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M17",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0007",
+  "canonical_received_title": "올 인원",
+  "observed_source_title": "홀 인 원",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "selected_package": "archive/scans/1984-03/packages/golf-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/golf-jpeg-r01/manifest.json",
+    "sha256": "3a6dc0106cee952da94398793abc4068e0d796d17aee283da0a09c7a579e3b88",
+    "bytes": 12499
+  },
+  "exact_files": 75,
+  "native_structure": {
+    "source_images": 5,
+    "mapped_regions": 18,
+    "initial_text_ocr_tasks": 16,
+    "recognition_retries": 0,
+    "blocks": 12,
+    "original_figures": 2,
+    "paragraphs": 12,
+    "independent_listing_contexts": 1,
+    "physical_rows": 360,
+    "logical_units": 113,
+    "physical_fields": 1440,
+    "basic_source_fields": 5796,
+    "numeric_literal_occurrences": 685,
+    "physical_continuation_rows": 247,
+    "source_qualifications": 28,
+    "prose_literal_occurrences": 88,
+    "native_tables": 2,
+    "table_rows": 45,
+    "table_cells": 109,
+    "variable_definitions": 26,
+    "printed_program_ranges": 18,
+    "unresolved_program_range_endpoints": 1,
+    "course_modification_references": 9,
+    "cross_region_source_units": 2,
+    "source_status_labels": 2,
+    "unlabelled_screen_marks": 2,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-13/validation.json",
+    "sha256": "f94fb5c2e1325fdcd6b51a417ae3e344d84c466c1a2643efd33f7be5af355c20",
+    "bytes": 3212
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-13/golf/recipe.json",
+    "sha256": "743f592752fc61df3a36e505ef18e2e26cf0bf17c10fbb97b93827cbeb3784a6",
+    "bytes": 7535
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-13/source-ledger.json",
+    "sha256": "837effbbf444dc040aa13f16babe0f0bd9a741aa1eafccc6f103e15c7aa4697f",
+    "bytes": 206201
+  },
+  "source_dispositions_pending": 212,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-13/whole-progress-m17.json",
+    "sha256": "4878471ddde3baa789489a18d70fd9ccea84839ffcce0a758b67c06707fa48c3",
+    "bytes": 157599
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-13/evidence-manifest.json",
+    "sha256": "d1451e4e00b170ba200c66fb7f2a5fe1d0fa721c09f1c91e4258f1d37e4f84ff",
+    "bytes": 63750
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M18: restore 팽이 놀이, maso-1984-03-toc-0008, candidate61–63; verify the complete source extent and boundary against64. Whole March remains active."
+}
