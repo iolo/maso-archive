@@ -1,8 +1,8 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R48 are complete. The owner resumed the whole-November restoration goal.
-R49 is next: establish 사운드 키보드 from its catalog opener 218 and source evidence.
+R00–R49 are complete. The owner resumed the whole-November restoration goal.
+R50 is next: establish 읽을거리 : 통합 소프트웨어 from catalog opener 232 and source evidence.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -298,13 +298,35 @@ restored JSON/assets and faithful source evidence first.
 | R46 — complete EPROM programmer assembly | Actual 198–205; complete native article package | 280 identical files including 271 exact embedded segment files; scoped flow/circuit structures, separate command/program contexts, source-owned paragraph continuation and caption qualification; 68 pixel checks, 89 invalid cases and 258 fresh regressions |
 | R47 — MAX-PRINT | Actual 206–208; complete native article package | 87 identical files; one Z80 listing / 212 source rows / 278 printed object bytes, two captioned BASIC examples plus an unassigned panel / 36 rows, ten table cells and typed byte/color diagram; 21 pixel checks, 84 invalid cases; unchanged 258-test baseline reused |
 | R48 — SPC-CLOCK | Actual 212–217; complete native article package | 168 identical files; four code contexts / 383 physical rows / 354 logical units, 615 printed bytes, 35 symbol bindings, 144 table cells, source screenshot and interrupt flow / 13 nodes / 14 edges; 42 pixel checks, 117 invalid cases; unchanged 258-test baseline reused |
+| R49 — 사운드 키보드 | Actual 218–221; complete native article package | 124 identical files; four 6502 variants / 138 rows / 302 printed bytes, two source flowcharts / 18 nodes / 18 edges / 43 labels, explicit displaced prose line and source references; 31 pixel checks, 114 invalid cases; unchanged 258-test baseline reused |
 
-Immediate next action: **R49**, establish **사운드 키보드**,
-`maso-1984-11-toc-0031`, from its catalog opener **218** and adjacent source
+Immediate next action: **R50**, establish **읽을거리 : 통합 소프트웨어**,
+`maso-1984-11-toc-0032`, from its catalog opener **232** and adjacent source
 material. Confirm actual full extent, observed title/byline, body ownership and
 program/table/figure structures before mapping. Keep at most two identities,
 six new mapped source views and twenty outside lookup views; segment if needed
 and assemble separately. Do not infer its end from the next catalog entry.
+
+Preserve complete **사운드 키보드**, `maso-1984-11-toc-0031`, on **218–221** as
+`sound-keyboard-r02`, with award **프로그램공모 우수상**, platform **애플 컴패티블**,
+byline **김 성 환** and affiliation **영도중학교 재학**. All **124 native files**
+reproduce byte for byte. The four source 6502 variants remain separate despite
+repeated 0300 addresses: **138 physical/logical rows**, **552 source fields**,
+**543 nonblank literal fields** and **302 printed object bytes**. Listing 2's
+two 17-row panels keep one context. Both source flowcharts retain **18 nodes /
+18 edges**, four printed branch labels, 23 side annotations and **43 literal
+labels**. Four prose figure references, seventeen listing references, eleven
+command occurrences and the stated variant-4 combination retain native source
+bindings. Keep the 219 displaced line's original position and explicit selected
+logical order; its compositor cause is unknown. The unrelated 219 advertisement
+is excluded from article ownership. Preserve seven qualifications, including
+flow **FD18 / FD1B**, the damaged final listing-4 operand, independent prose
+**9E91–9E93**, punctuation and unverified original encodings/execution. All **31
+crop checks**, **114 damage cases** and independent 138-row pixel recount pass.
+The first passing candidate remains preserved; r02 adds native references while
+keeping 120 other files and all text/listing/asset/OCR bytes exact. The unchanged
+258-test R46 baseline is rehashed and reused, not freshly rerun. Both dated
+review previews remain at their existing R46/R47 snapshots.
 
 Preserve complete **SPC-CLOCK**, `maso-1984-11-toc-0030`, on **212–217** as
 `spc-clock-r01`, with observed award **프로그램공모 최우수상**, subtitle
@@ -475,8 +497,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-six complete article packages, no partial articles, six non-owning
-headings and eight unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty-seven complete article packages, no partial articles, six non-owning
+headings and seven unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

@@ -5,9 +5,9 @@
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 26,
+  "readable_articles": 27,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 8,
+  "identitiesAwaitingDisposition": 7,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -8960,10 +8960,137 @@
       "page_candidates": [
         218
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "사운드 키보드",
+      "observed_award": "프로그램공모 우수상",
+      "observed_subtitle": "화면을 보지 않고도 프로그램이나 데이터를 입력할 수 있는",
+      "observed_platform": "애플 컴패티블",
+      "observed_byline": "김 성 환",
+      "observed_affiliation": "영도중학교 재학",
+      "byline_status": "Observed김성환and영도중학교재학crediton218.",
+      "observed_whole_extent": [
+        218,
+        221
+      ],
+      "source_views": [
+        {
+          "source_index": 221,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-218.jpg",
+            "sha256": "c625898c28ffd95f5dac2fe7653f4a3c175cc3afc0626ef46c0a956a88adfcfe",
+            "bytes": 8456560
+          },
+          "width_px": 4763,
+          "height_px": 6924,
+          "reading_order": 220,
+          "source_filename_number": 218,
+          "printed_page": "218",
+          "image_to_upright_normalized": [
+            0.0002099517111064455,
+            0,
+            0,
+            0.00014442518775274407,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 222,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-219.jpg",
+            "sha256": "196ffe07d0c72308a3b8b89e96f4865419ecde344526b03058832d97750298f0",
+            "bytes": 11614033
+          },
+          "width_px": 4727,
+          "height_px": 6914,
+          "reading_order": 221,
+          "source_filename_number": 219,
+          "printed_page": "219",
+          "image_to_upright_normalized": [
+            0.0002115506663845991,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 223,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-220.jpg",
+            "sha256": "3502dc014adfd13ab93dfd2639e91866acbabc3f7045e5648f16f4b9a85e0a76",
+            "bytes": 7468131
+          },
+          "width_px": 4735,
+          "height_px": 6917,
+          "reading_order": 222,
+          "source_filename_number": 220,
+          "printed_page": "220",
+          "image_to_upright_normalized": [
+            0.00021119324181626187,
+            0,
+            0,
+            0.00014457134595923088,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 224,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-221.jpg",
+            "sha256": "a6faaaebce1ce3c75e62ff8516d5402c7934b49edcf2398e327ebe819aaf9317",
+            "bytes": 8552814
+          },
+          "width_px": 4755,
+          "height_px": 6916,
+          "reading_order": 223,
+          "source_filename_number": 221,
+          "printed_page": "221",
+          "image_to_upright_normalized": [
+            0.0002103049421661409,
+            0,
+            0,
+            0.00014459224985540774,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/sound-keyboard-r02",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/sound-keyboard-r02/manifest.json",
+          "sha256": "d21e5165c085fceebccebe4d01e8ed8b65711c6c1bf76f69a91eeb9c4cb97e2b",
+          "bytes": 20909
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-49/validation.json",
+          "sha256": "c271a638f659bb3cf0aa68217ed9fd945ff7531bbcde6553b2abc7adf339a8cb",
+          "bytes": 70756
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-49/review/source-findings.json",
+          "sha256": "5a8d5c29ba5ff6d8475da09fe4de1874c817b4bc03f3f2bd647a359c79341e3a",
+          "bytes": 2606
+        },
+        "status": "Observed218award/title/byline opener,220closingprose/flowcharts and221four complete listing frames;222separate메아리.219right-handadvertisementexcluded;physicaldisplacedlineandselectedreadingorderexplicit."
+      },
+      "limitations": [
+        "Original source encodings and exact spacing remain unverified;tabs/byte-pair spaces and selected punctuation displays are editorial projections.",
+        "Program execution,source technical/memory claims and sound behavior remain unverified;source addresses/bytes/mnemonics are preserved independently.",
+        "Page219has an explicitly selected displaced-line reading order with original placement preserved;its compositor cause is unverified.",
+        "Local punctuation/flow8-B/damaged finaloperand candidates remain explicit;the original flowcharts/emblem and master scans are preserved.",
+        "Assistant sample review is distinct from full human proofreading and acceptance."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0032",
@@ -9143,6 +9270,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R49: establish 사운드 키보드 (maso-1984-11-toc-0031), catalog opener218, from source pages and adjacent material. Confirm actual full extent, observed title/byline, body ownership and program/table/figure structures before mapping. Keep at most two identities, six new mapped source views and twenty outside lookup views; segment if needed and assemble separately. Do not infer the end from a later catalog entry. Preserve complete SPC-CLOCK212–217, its four distinct source contexts, physical object/BASIC continuations,35symbol bindings, source flowchart and local glyph/spacing/encoding/timing qualifications without repair or execution claims. Keep MAX-PRINT middle-panel ownership unresolved. Preserve all earlier packages/evidence and both dated review previews. Continue all eight unclassified identities, covers/source-image accounting and checked whole-issue native export/rebuild. Leave PLAN-OCR.md and PLAN-PDF.md unchanged; keep the November goal active.",
+  "next": "R50: establish 읽을거리 : 통합 소프트웨어 (maso-1984-11-toc-0032), catalog opener232, from actual source and adjacent material. Confirm observed title/byline,full extent,body ownership and source structures before mapping. Keep at most two identities,six new mapped source views and twenty outside lookup views;segment if needed and assemble separately. Preserve complete SoundKeyboard218–221,four separate6502variants,138source rows/302printed bytes,two source flowcharts,43labels and all source prose/command/caption/reference relationships. Keep219physical displacement and chosen reading order explicit;retain the original ad exclusion,flowFD18candidate,damaged finaloperand,punctuation/encoding/sourceclaim qualifications. Preserve all prior packages/evidence and both dated review previews. Continue all seven unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild. Leave PLAN-OCR.md and PLAN-PDF.md unchanged;keep the November goal active.",
   "group_headings": 6
 }

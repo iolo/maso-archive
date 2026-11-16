@@ -2705,3 +2705,84 @@ Next is **R49**, establish 사운드 키보드 from catalog opener **218** and a
 source extent/structures before mapping. All eight remaining identities,
 covers/source-image accounting and checked whole-issue native export/rebuild
 remain in scope. **The whole-November goal remains active.**
+
+## November 16, 2026 — R49 complete 사운드 키보드, actual 218–221
+
+Restored the complete **사운드 키보드** article as
+`archive/scans/1984-11/packages/sound-keyboard-r02/`, with an independent
+fresh-process rebuild at `work/validation/scans-1984-11-sound-keyboard-r02/`.
+Source 218 retains award **프로그램공모 우수상**, subtitle **화면을 보지 않고도 프로그램이나
+데이터를 입력할 수 있는**, platform **애플 컴패티블**, author **김 성 환** and
+affiliation **영도중학교 재학**. Actual coverage is 218–221: the closing prose,
+emblem and two flowcharts are on 220; all four captioned listings are on 221.
+Page 222 opens the separate 메아리/한글소트 item. Four mapped source views and
+two counted boundary lookups stay within the existing bound; the 217 boundary
+reuses frozen R48 evidence, while 222 is the new outside lookup.
+
+The native schema retains **22 blocks, 31 regions, three original figures and
+four separate 6502 program contexts**, including listing 2's lower-left to
+upper-middle panel continuation. **138 physical/logical rows**, **552 source
+fields**, **543 nonblank literal fields** and **302 printed object bytes** retain
+their owners, field-local/block/listing/article coordinates and source scans.
+An independent address-column ink projection confirms 31/17/17/32/41 rows in
+the five physical panels. Repeated 0300 addresses never merge program variants.
+Twenty-five printed address targets retain their scoped ownership: nine bind
+to actual same-context printed rows; external targets remain unverified.
+Bytes, mnemonics and operands are source fields, not a reassembled program.
+
+Both original flowcharts retain **18 nodes / 18 edges**, four printed branch
+labels, 23 side annotations and **43 literal labels**. Duplicate Y=0 and branch
+labels keep their own occurrences; the loop and two junctions remain explicit.
+Captions retain their actual flow/listing owners, including the source ranges
+300–323 and 324–342. The native model links four prose figure references,
+seventeen listing references, eleven command occurrences, four variant
+descriptions and the source statement that variant 4 combines variants 2/3.
+These are source claims and relationships, not execution verification.
+
+Page 219's physically lower **트 1의 흐름도인 그림 1과 2를 보라.** is explicitly
+joined to the earlier unfinished **리스** fragment. The original physical order,
+selected logical order and source spans are all retained; the compositor cause
+is unverified. The middle paragraph's final **$333** separately continues
+**으로** on 220. Source 218's **어 / 느** and 218/219's **A / 의** joins retain
+their fragments too. The right-hand 219 알파서림 advertisement is excluded from
+article ownership while the master image remains intact.
+
+Seven qualifications preserve the selected punctuation/ellipsis/circled-R
+display, source flow **FD18** with **FD1B** candidate, prose **9E91–9E93** range,
+the damaged final listing-4 operand and the displaced-line selection. The
+selected **$9E84** last operand keeps its **$9E8?** alternative rather than
+certifying a missing stroke from object bytes. Exact source encodings/spacing,
+execution, technical claims and full human proofreading remain unverified.
+
+All **124 files reproduce byte for byte**. All **31 master-derived crop checks**,
+28 original OCR outcomes/settings and 116 OCR ZIP members pass. The exported
+pixels independently reproduce all **138 address-row bands**. **114 deliberately
+damaged actual-source/native cases** are rejected, including wrong same-address
+owners, lost continuation panels, borrowed literal occurrences, blank operands,
+graph paths/labels/annotations, caption/prose targets, variant claims, physical
+displacement and lost glyph candidates. All **47 earlier selected packages**,
+frozen evidence, early artifact arrays, six headings and both dated reader
+receipts/data/site/evidence remain exact. Ten runtime files and 28 native
+implementation files are unchanged. The **258-test R46 baseline** and logs are
+rehashed and reused, **not freshly rerun**. PLAN-OCR.md and PLAN-PDF.md are unchanged.
+
+All **28 initial OCR tasks succeeded**, without retry, engine change or repeated
+successful recognition. A pre-OCR map refinement preserved lower source rows
+and operand edges. Initial native preparation wrongly expected variant 4 to
+begin a new sentence; the corrected extraction retains the shared source
+sentence, failed helper and log. The first candidate passed 106 damage cases;
+r02 adds explicit prose references/combination records and passes 114. Only
+article/corrections/manifest/provenance metadata changes between candidates;
+**120 other files**, all text/listing/asset/OCR bytes and the first candidate
+remain preserved. An initial comparison omitted provenance from the expected
+metadata list; corrected expectations pass and the failed expectation is recorded.
+Cleanup was preview-only; **310 private evidence files** are frozen.
+
+November now has **27 complete native articles, no partial articles, six
+non-owning headings and seven unclassified entries**. See the
+[R49 result](metadata/catalog/scan-restoration/1984-11-sound-keyboard.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next is **R50**, establish 읽을거리 : 통합 소프트웨어 from catalog opener **232**
+and actual source extent/structures before mapping. All seven remaining
+identities, covers/source-image accounting and checked whole-issue native
+export/rebuild remain in scope. **The whole-November goal remains active.**
