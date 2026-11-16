@@ -42,10 +42,13 @@ on 54–55; M17 completes canonical 올 인원 on 56–60; M18 completes 팽이 
 M19 completes 사냥게임 on 64–69 with 189 exact native files, the complete main
 listing and independent examples, 267 DATA values, two tables, annotated explanations
 and the original photograph and flowchart. All 45 original-master crops and the
-separate native audit pass. Current totals are nine complete articles, no partial
-articles, 29 pending article candidates, one completed heading, five pending headings
-and 203 source images awaiting full-page disposition. Continue with M20, received
-영어 단어 퍼즐 게임, candidate 70–73, in bounded checkpoints.
+separate native audit pass. M20 completes received 영어 단어 퍼즐 게임 on 70–73:
+55 exact native files, 133 source BASIC units, 76 table cells, all 289 photographed
+screen-grid cells and five outlined word runs. All thirteen source crops and the
+separate native audit pass. Current totals are ten complete articles, no partial
+articles, 28 pending article candidates, one completed heading, five pending headings
+and 199 source images awaiting full-page disposition. Continue with M21,
+매직 스퀘어, candidate 74–76, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4557,4 +4560,66 @@ Whole March remains active with **nine complete articles, no partial articles,
 29 pending article candidates, one completed heading and five pending headings**.
 Continue with **M20**, received **영어 단어 퍼즐 게임**, candidate 70–73, verifying
 its full extent and boundary against 74. See [the hunting result](metadata/catalog/scan-restoration/1984-03-hunting.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M20 — March complete English word-puzzle article, actual 70–73
+
+Completed received **영어 단어 퍼즐 게임**, printed **영어단어 퍼즐게임**, as
+**puzzle-jpeg-r03**. All **55 native files** match an independent fresh rebuild.
+Full original-page comparison establishes the complete 70–73 extent: final
+**9580 P=1:RETURN** on 73, then **매직 스퀘어** opens on 74. The received and
+printed titles retain independent spacing. Deck, **스포트라이트 Ⅱ** platform,
+provider/telephone, four introductory paragraphs, two boxed controls and the
+table-ending star retain source occurrences. The separate lower VIC-20
+advertisement on 71 is excluded from article ownership.
+
+The complete program preserves **133 physical rows / 133 numbered units**, all
+**532 physical fields**, **2,406 source lexemes** and **198 numeric occurrences**.
+Every source row and five enlarged comparison details were checked. The JPEGs
+select **PRINT@395** at 1010 and **NEXT I** at 6000, correcting the older PDF draft's
+595 and NEXT T. The printed **FOR T / NEXT I** difference remains literal.
+Faint assignment punctuation at 3070, **않/안** bitmap lettering at 5020 and
+rounded **0/O** glyphs remain locally qualified. Source string spaces, original
+encoded bytes, execution, technical correctness and full human proofreading
+remain unverified. The 3325/3330 page boundary joins two complete source units.
+
+Two native tables preserve **38 rows / 76 cells**: nineteen variable groups and
+nineteen routine descriptions. Exact source symbols, including typographic
+**H₁/V₁** and array placeholders, have typed code-occurrence links. Printed range
+endpoints **3185** and **9050** have explicit unresolved references and no invented
+interval membership. Preserve **3340–3465**, including its overlap with the
+preceding range; no repair to 3400. All **63 source jump occurrences** and the
+six targets of the original ON K dispatch retain scoped pointers. The literal
+**35-character** weighted alphabet and three CHR$ arguments **32/14/30** retain
+source ranges without inferred encoded bytes. Keep all **eleven code/range
+qualifications**.
+
+Both captionless photographs remain intact. The original oblique letter-board
+photograph reaches the right JPEG edge and preserves the held **A / 1** tile;
+no identity, game brand or scoring interpretation is inferred. The rounded screen
+has a complete native **17×17 grid / 289 cells**, nine source labels and **five
+visible outlined word runs / forty ordered cell references**. All grid glyphs were
+compared with four enlarged row-strip boards. Eleven first readings were refined;
+fourteen local photographic glyph alternatives and rounded O/0 remain explicit.
+The eight listed words do not establish additional printed highlight rectangles.
+The source overlay verifies every grid row, highlight, label and tile bound.
+It also exposed incomplete lower control-frame bounds; both were extended before
+the final audit. A final metadata revision retires the earlier geometry-pending
+flag without changing article text or geometry. All three export candidates,
+their fresh rebuilds and earlier geometry evidence remain preserved.
+
+One map refinement widens the routine guide before recognition. All **eleven
+mapped Tesseract tasks** ran once at 6000, with **no recognition retry**. The
+separate audit passes for **thirteen original-master crops**, eleven OCR bindings,
+**47 raw ZIP members**, every native source range and **forty damaged-data cases**.
+All **581 frozen M19 evidence files** and shared implementation retain exact pins;
+the unchanged **286-test** fresh regression baseline is reused. Cleanup was
+previewed without deletion. The checkpoint freezes **216 evidence files**.
+
+All 273 sources remain in the ledger. Newly reviewed 71–73 and the next-article
+lookup 74 reduce pending full-page dispositions to **199**; 70 was already located.
+Whole March remains active with **ten complete articles, no partial articles,
+28 pending article candidates, one completed heading and five pending headings**.
+Continue with **M21**, **매직 스퀘어**, candidate 74–76, verifying its full extent
+and boundary against 77. See [the word-puzzle result](metadata/catalog/scan-restoration/1984-03-puzzle.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

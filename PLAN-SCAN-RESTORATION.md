@@ -72,11 +72,14 @@ source crops and the separate native audit pass. M19 completes 사냥게임 on 6
 189 exact native files, the complete 189-row main listing, four independent examples,
 267 DATA values, two tables, mixed annotated explanations and both original figures.
 Its native flowchart retains sixteen nodes, nineteen routes and 39 labels.
-All 45 original-master crops and the separate native audit pass. The whole issue
-remains active: nine complete articles, no partial articles, 29 pending article
-candidates, one completed heading and five pending headings. There are 203 source
-images still awaiting full-page disposition. Continue with M20, received
-영어 단어 퍼즐 게임, candidate 70–73,
+All 45 original-master crops and the separate native audit pass. M20 completes
+received 영어 단어 퍼즐 게임 on 70–73: 55 exact native files, 133 source BASIC units,
+76 table cells, all 289 photographed screen-grid cells and five outlined word runs.
+All thirteen source crops and the separate native audit pass. The whole issue
+remains active: ten complete articles, no partial articles, 28 pending article
+candidates, one completed heading and five pending headings. There are 199 source
+images still awaiting full-page disposition. Continue with M21, 매직 스퀘어,
+candidate 74–76,
 verifying its extent and following
 boundary in a bounded checkpoint.
 Track execution in

@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 9,
+  "complete_whole_scan_articles": 10,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -1743,8 +1743,8 @@
       "title": "영어 단어 퍼즐 게임",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0010",
         "title": "영어 단어 퍼즐 게임",
@@ -1898,7 +1898,36 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M20",
+        "directory": "archive/scans/1984-03/packages/puzzle-jpeg-r03",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/puzzle-jpeg-r03/manifest.json",
+          "sha256": "c439c22f04069770f9b9a7a9a060a5ac178704d26222be7001a8af9fc32c29ff",
+          "bytes": 9172
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-16/validation.json",
+          "sha256": "14073d3ddacfc16cbb05bb2a82c477773ae768b4adca2eb71aa1a261d054f7b4",
+          "bytes": 3672
+        },
+        "observed_source_title": "영어단어 퍼즐게임",
+        "observed_platform": "스포트라이트 Ⅱ",
+        "observed_opening_folio": 70,
+        "observed_ending_folio": 73,
+        "actual_folios": [
+          70,
+          71,
+          72,
+          73
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         "70",
         "71",
@@ -1913,7 +1942,12 @@
           "sha256": "d24304b44b6a3a48ad1c0a34d142feda8dc7c82fb6e527dee0c201dc976fad02",
           "bytes": 524662
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/puzzle-jpeg-r03/manifest.json",
+          "sha256": "c439c22f04069770f9b9a7a9a060a5ac178704d26222be7001a8af9fc32c29ff",
+          "bytes": 9172
+        }
       }
     },
     {
@@ -1978,7 +2012,17 @@
         74,
         75,
         76
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 74,
+        "observed_title": "매직 스퀘어",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-16/review/full-074.jpg",
+          "sha256": "30caf25fa8a1240910f051868ee815f43a5458eb9401dbbbdd3d48ecc899c95f",
+          "bytes": 658112
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0012",
@@ -5169,13 +5213,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-15/source-ledger.json",
-    "sha256": "b62d894304837c3e5a08a9e935cc4b42240196dc4732ca5743b68aedbd6420cc",
-    "bytes": 216745
+    "path": "archive/scans/1984-03/restoration/whole-issue-16/source-ledger.json",
+    "sha256": "8375229947dc8782fc68b6bcc253f87e5865991ef88c2c65a4a3857e797befa2",
+    "bytes": 221384
   },
-  "current_checkpoint": "M19-complete",
-  "next": "M20: restore received 영어 단어 퍼즐 게임, maso-1984-03-toc-0010, candidate70–73; verify full extent and boundary against74. Whole March remains active.",
-  "pending_article_candidates": 29,
+  "current_checkpoint": "M20-complete",
+  "next": "M21: restore 매직 스퀘어, maso-1984-03-toc-0011, candidate74–76; verify complete extent and following boundary against77. Whole March remains active.",
+  "pending_article_candidates": 28,
   "pending_heading_candidates": 5,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1

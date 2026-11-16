@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M20",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0010",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    70,
+    71,
+    72,
+    73
+  ],
+  "selected_package": "archive/scans/1984-03/packages/puzzle-jpeg-r03",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/puzzle-jpeg-r03/manifest.json",
+    "sha256": "c439c22f04069770f9b9a7a9a060a5ac178704d26222be7001a8af9fc32c29ff",
+    "bytes": 9172
+  },
+  "exact_files": 55,
+  "native_structure": {
+    "source_images": 4,
+    "mapped_regions": 13,
+    "initial_text_ocr_tasks": 11,
+    "recognition_retries": 0,
+    "blocks": 9,
+    "original_figures": 2,
+    "prose_paragraphs": 4,
+    "independent_listing_contexts": 1,
+    "physical_rows": 133,
+    "logical_units": 133,
+    "physical_fields": 532,
+    "basic_source_fields": 2406,
+    "numeric_literal_occurrences": 198,
+    "physical_continuation_rows": 0,
+    "source_qualifications": 11,
+    "native_tables": 2,
+    "table_rows": 38,
+    "table_cells": 76,
+    "variable_groups": 19,
+    "routine_ranges": 19,
+    "unresolved_range_endpoints": 2,
+    "source_jump_references": 63,
+    "source_dispatches": 1,
+    "source_dispatch_targets": 6,
+    "source_constructors": 4,
+    "weighted_alphabet_characters": 35,
+    "screen_grid_rows": 17,
+    "screen_grid_columns": 17,
+    "screen_grid_cells": 289,
+    "screen_labels": 9,
+    "screen_highlights": 5,
+    "screen_highlight_cell_references": 40,
+    "screen_local_qualifications": 14,
+    "source_boxed_controls": 2,
+    "joins": 2,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-16/validation.json",
+    "sha256": "14073d3ddacfc16cbb05bb2a82c477773ae768b4adca2eb71aa1a261d054f7b4",
+    "bytes": 3672
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-16/puzzle/recipe.json",
+    "sha256": "1b730944e19df17e714ce7ed58995df0f5f1c8219b5d2298c2ff056a9c032b47",
+    "bytes": 6055
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-16/source-ledger.json",
+    "sha256": "8375229947dc8782fc68b6bcc253f87e5865991ef88c2c65a4a3857e797befa2",
+    "bytes": 221384
+  },
+  "source_dispositions_pending": 199,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-16/whole-progress-m20.json",
+    "sha256": "a1ed63e024513e5a5ce74a2091780a56cb311faa6bd4c6d497dc414465d0d1dd",
+    "bytes": 162701
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-16/evidence-manifest.json",
+    "sha256": "3f64906100cf4e4e706ce31884c90d3c6945506e343d1313c022cbb57379a375",
+    "bytes": 37250
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M21: restore 매직 스퀘어, maso-1984-03-toc-0011, candidate74–76; verify complete extent and following boundary against77. Whole March remains active."
+}
