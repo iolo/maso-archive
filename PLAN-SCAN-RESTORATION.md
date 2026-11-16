@@ -65,10 +65,14 @@ and the separate native audit pass. M17 completes canonical 올 인원 (printed 
 on 56–60: 75 exact native files, 360 physical code rows / 113 numbered units,
 109 table cells, twelve paragraphs and both original figures. All 18 source crops
 and the separate native audit pass; the printed 1770 range endpoint remains
-explicitly unresolved. The whole issue remains active: seven complete articles,
-no partial articles, 31 pending article candidates, one completed heading and five
-pending headings. There are 212 source images still awaiting full-page disposition.
-Continue with M18, 팽이 놀이, candidate 61–63, verifying its extent and following
+explicitly unresolved. M18 completes 팽이 놀이 on 61–63: 50 exact native files,
+117 physical rows / 116 numbered units, four source rule definitions, eight CHR$
+constructors, nine composite strings and the original screen. All 11 original
+source crops and the separate native audit pass. The whole issue remains active:
+eight complete articles, no partial articles, 30 pending article candidates, one
+completed heading and five pending headings. There are 209 source images still
+awaiting full-page disposition. Continue with M19, 사냥게임, candidate 64–69,
+verifying its extent and following
 boundary in a bounded checkpoint.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

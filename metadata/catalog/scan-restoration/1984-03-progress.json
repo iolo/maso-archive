@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 7,
+  "complete_whole_scan_articles": 8,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -1396,8 +1396,8 @@
       "title": "팽이 놀이",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0008",
         "title": "팽이 놀이",
@@ -1448,7 +1448,35 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M18",
+        "directory": "archive/scans/1984-03/packages/dreidel-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/dreidel-jpeg-r01/manifest.json",
+          "sha256": "80e2d10d92e8c5f18e1a1ff23f01edc3a9eb137acd4358b84b295cae9d1d7ab3",
+          "bytes": 8200
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-14/validation.json",
+          "sha256": "1bc860c5f00defcde321e5fa4540d9ae254cc2d9b939349754e609cfa2500a69",
+          "bytes": 3119
+        },
+        "observed_source_title": "팽이 놀이",
+        "observed_platform": "스포트라이트 Ⅱ",
+        "observed_opening_folio": 61,
+        "observed_ending_folio": 63,
+        "actual_folios": [
+          61,
+          62,
+          63
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         61,
         62,
@@ -1462,7 +1490,12 @@
           "sha256": "adeaa7416a46f242996c1342a17c6a5322839c9b4776a1cd3275df6317dc2d37",
           "bytes": 489312
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/dreidel-jpeg-r01/manifest.json",
+          "sha256": "80e2d10d92e8c5f18e1a1ff23f01edc3a9eb137acd4358b84b295cae9d1d7ab3",
+          "bytes": 8200
+        }
       }
     },
     {
@@ -1657,7 +1690,17 @@
         "67",
         "68",
         "69"
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 64,
+        "observed_title": "사냥게임",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-14/review/full-064.jpg",
+          "sha256": "fb2831ed0bc0808be58e01e91578432c46586ae35e690e2cfb6e01f0f6a0424a",
+          "bytes": 535359
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0010",
@@ -5080,13 +5123,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-13/source-ledger.json",
-    "sha256": "837effbbf444dc040aa13f16babe0f0bd9a741aa1eafccc6f103e15c7aa4697f",
-    "bytes": 206201
+    "path": "archive/scans/1984-03/restoration/whole-issue-14/source-ledger.json",
+    "sha256": "ae15b9a0edfc11934c41159cbf9f022a51b79a101acb887d676251425e86efb7",
+    "bytes": 209696
   },
-  "current_checkpoint": "M17-complete",
-  "next": "M18: restore 팽이 놀이, maso-1984-03-toc-0008, candidate61–63; verify the complete source extent and boundary against64. Whole March remains active.",
-  "pending_article_candidates": 31,
+  "current_checkpoint": "M18-complete",
+  "next": "M19: restore 사냥게임, maso-1984-03-toc-0009, candidate64–69; verify complete source extent and boundary against70. Whole March remains active.",
+  "pending_article_candidates": 30,
   "pending_heading_candidates": 5,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1

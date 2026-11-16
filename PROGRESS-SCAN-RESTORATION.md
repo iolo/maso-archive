@@ -4435,3 +4435,56 @@ Whole March remains active with **seven complete articles, no partial articles,
 Continue with **M18**, **팽이 놀이**, candidate 61–63, verifying its full extent
 and boundary against 64. See [the mini-golf result](metadata/catalog/scan-restoration/1984-03-golf.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M18 — March complete dreidel article, actual 61–63
+
+Completed **팽이 놀이**, **스포트라이트 Ⅱ**, as **dreidel-jpeg-r01**.
+All **50 native files** match an independent fresh rebuild. Full original-page
+comparison establishes the complete 61–63 extent: **1230 END** closes the
+listing on 63; 64 opens **사냥게임**. Six introduction paragraphs, two usage
+paragraphs, deck, platform, provider/telephone and the prose-ending star remain
+source-bound. The captionless rounded screen photograph preserves all eight
+labels, four score panes including the blank rightmost pane, and three visible
+graphic groups. The small user-score reading **89** retains an **88** candidate;
+no arithmetic repair or invented glyph codepoint is supplied.
+
+The complete source listing preserves **117 physical rows / 116 numbered units**,
+468 physical fields, 1,151 source lexemes and 124 numeric occurrences. Labels
+60–100 and 1200–1210 remain absent as printed. The sole physical wrap at **660**
+retains its separate continuation; 150/160 and 680/690 are explicit page joins
+between complete units. Keep **DRIEDEL**, the conditional GOTO forms, compact
+**FORMM**, the extra **A$** before A$(U) at 800, historical Korean spellings and
+literal scoring equations. First-five-line quote-like prefixes and decorative
+star counts remain qualified source approximations, without comment-syntax
+repair. Exact string spaces, original encoded bytes, execution, source technical
+correctness and full human proofreading remain unverified.
+
+A native four-row table retains all **eight rule cells** and links each source
+label to its printed U-case, message and scoring units. The SHIN narrative's
+**상대에게** wording and the program's C/G subtraction with D addition stay
+independent. Source 5-point prose and 5-won program wording remain literal.
+Eight source **CHR$** constructors preserve arguments 128, 131, 171, 179, 181,
+186, 187 and 191, with every complete glyph-variable occurrence. Nine composite
+string expressions and all **sixteen explicit source jumps** retain typed source
+links. These numeric constructors do not establish encoded glyph bytes or identify
+the three photographed graphic groups. Keep all **22 prose/code qualifications**.
+
+One refinement before recognition extends the 61/62 listing lower edges; the
+first map and crops remain preserved. All **ten mapped Tesseract tasks** ran once
+at 6000 with no recognition retry. Source margin ink locates every physical row,
+and all 117 enlarged row readings were compared with the JPEGs. Separate checks
+pass for **11 original-master crops**, ten OCR bindings, **42 raw ZIP members**,
+every native source field and **32 damaged-data cases**. Both audit runs pass;
+the second only corrects the next received title's spacing to exact 사냥게임.
+The before-helper, first log and before-validation remain preserved, with no
+article-byte change. All **369 frozen M17 evidence files** and shared implementation
+retain exact pins; the unchanged **286-test** regression baseline is reused.
+Cleanup was previewed without deletion; **168 M18 evidence files** are frozen.
+
+All 273 sources remain in the ledger. Newly reviewed 62–63 and the next-article
+lookup 64 reduce pending full-page dispositions to **209**; 61 was already located.
+Whole March remains active with **eight complete articles, no partial articles,
+30 pending article candidates, one completed heading and five pending headings**.
+Continue with **M19**, **사냥게임**, candidate 64–69, verifying the complete extent
+and boundary against 70. See [the dreidel result](metadata/catalog/scan-restoration/1984-03-dreidel.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

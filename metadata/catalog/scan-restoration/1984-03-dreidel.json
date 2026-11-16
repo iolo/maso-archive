@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M18",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0008",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    61,
+    62,
+    63
+  ],
+  "selected_package": "archive/scans/1984-03/packages/dreidel-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/dreidel-jpeg-r01/manifest.json",
+    "sha256": "80e2d10d92e8c5f18e1a1ff23f01edc3a9eb137acd4358b84b295cae9d1d7ab3",
+    "bytes": 8200
+  },
+  "exact_files": 50,
+  "native_structure": {
+    "source_images": 3,
+    "mapped_regions": 11,
+    "initial_text_ocr_tasks": 10,
+    "recognition_retries": 0,
+    "blocks": 8,
+    "original_figures": 1,
+    "paragraphs": 8,
+    "independent_listing_contexts": 1,
+    "physical_rows": 117,
+    "logical_units": 116,
+    "physical_fields": 468,
+    "basic_source_fields": 1151,
+    "numeric_literal_occurrences": 124,
+    "physical_continuation_rows": 1,
+    "source_qualifications": 22,
+    "prose_literal_occurrences": 12,
+    "native_tables": 1,
+    "table_rows": 4,
+    "table_cells": 8,
+    "rule_case_associations": 4,
+    "source_CHR_constructors": 8,
+    "source_composite_constructors": 9,
+    "source_jump_references": 16,
+    "screen_labels": 8,
+    "screen_score_panels": 4,
+    "screen_blank_panels": 1,
+    "unresolved_screen_graphic_groups": 3,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-14/validation.json",
+    "sha256": "1bc860c5f00defcde321e5fa4540d9ae254cc2d9b939349754e609cfa2500a69",
+    "bytes": 3119
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-14/dreidel/recipe.json",
+    "sha256": "6e97f35c536eb82e8753176843fa0dc136ca3927181d247832ef13553e9385be",
+    "bytes": 6706
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-14/source-ledger.json",
+    "sha256": "ae15b9a0edfc11934c41159cbf9f022a51b79a101acb887d676251425e86efb7",
+    "bytes": 209696
+  },
+  "source_dispositions_pending": 209,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-14/whole-progress-m18.json",
+    "sha256": "a8d462f2ed5c80326f47be6bc5d2e1e9461e036f5534a7d2586fa6b7493ff752",
+    "bytes": 159267
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-14/evidence-manifest.json",
+    "sha256": "e3c962d5227e4c392833eeaada91c16d28eb86e8851330b46829ddac741dca12",
+    "bytes": 28598
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M19: restore 사냥게임, maso-1984-03-toc-0009, candidate64–69; verify complete source extent and boundary against70. Whole March remains active."
+}
