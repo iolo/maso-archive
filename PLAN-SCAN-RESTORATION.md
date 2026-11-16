@@ -114,6 +114,12 @@ candidates, two completed headings and four pending headings. There are 173 sour
 images still awaiting full-page disposition. Continue with M30, the bounded
 opening 100–105 of 마이크로 컴퓨터 시스템 입문; verify its complete candidate
 extent 100–108 and following article on 109 before continuing the whole issue.
+M30 source work now confirms that extent, completes all 44 initial mapped OCR
+tasks and compares all opening prose against enlarged JPEG contexts. The first
+two technical figures retain three source tables/133 cells in comparison
+evidence; remaining figure structures, native geometry, export and acceptance
+are pending. This work does not advance article-completion counts. See
+[the working checkpoint](metadata/catalog/scan-restoration/1984-03-systems-opening-work.json).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

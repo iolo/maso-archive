@@ -5128,3 +5128,58 @@ disposition. Continue with **M30**, the bounded opening **100–105** of
 complete candidate extent **100–108** and following article on **109**.
 See [the complete numbers result](metadata/catalog/scan-restoration/1984-03-numbers.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M30 in progress — March systems article opening, actual 100–105
+
+Started the bounded opening of **마이크로 컴퓨터 시스템 입문**, canonical
+**maso-1984-03-toc-0018**. Full original JPEG pages **100–109** confirm the complete
+article extent **100–108**: page 108 ends with four references and a closing star,
+and page 109 opens the separate tape article. Preceding 99 reuses the pinned M27
+boundary review. The selected scope remains six pages, **100–105**, with five
+outside-map lookup pages including that reused boundary. Final 106–108 and a
+separate whole-article native assembly remain required.
+
+The fresh JPEG map contains **59 regions: 44 text tasks and fifteen original
+figure groups**. Initial full-page overlays exposed glyph edges touching some
+text bounds. One recorded pre-recognition refinement widens all text contexts;
+the initial maps, all source contexts and six original overlays remain preserved.
+All six revised overlays were compared before recognition. The opening photo
+and separate series label deliberately overlap to retain the original design.
+Figure 6 retains its transfer, search and I/O components across 103–104, with
+one common printed caption.
+
+All **44 initial mapped Tesseract tasks at scale 6000** completed with nonempty
+drafts, without retries. All six OCR process handles were observed terminal
+with exit zero. The separate binding audit verifies every final map/master,
+crop and text/TSV/settings pin. All **32 frozen M29 evidence files** and its
+shared implementation pins remain exact. The unchanged 291-test M29 baseline
+is checked for reuse; no fresh shared-code regression run was needed.
+
+All **44 opening text regions** were then compared in six enlarged final-map
+JPEG boards. The historical regional drafts required no source-text changes.
+The selected prose preserves source spelling, printed instruction/address
+examples and all nine literal figure captions. Five local joins retain the
+100 column continuation, 101/102 sentence, split **BCD**, split **주소** and
+the 104/105 sentence.
+The outgoing **105/106 소스(so-/urce)** word boundary remains explicit; the
+selected reflow omits the discretionary hyphen. The source editorial note
+about deferred micro-assembler coverage remains independent prose.
+
+The first **two technical figures** have source-compared literal readings:
+the 8-bit load, 16-bit load and arithmetic tables retain **133 physical cells**
+with source row/column spans, plus the original low/high memory layout. A targeted
+header view confirms that the arithmetic table prints **메모리** and **상수**
+inside the same ruled header cell and leaves the next header cell blank. Keep
+that physical placement. Small raised circular marks beside A remain qualified
+Unicode approximations. These readings do not establish native geometry or a
+selected article package.
+
+**M30 remains in progress.** Thirteen figure regions still require enlarged
+field comparison; all fifteen require native geometry/encoding and package
+validation. The next pass must retain table spans, blank/dash cells, labels,
+bit/nibble positions, carry and rotation paths, source code/prose relationships
+and literal printed errors. No native opening export has been selected.
+Cleanup was previewed without deletion and all launched jobs are terminal.
+Whole March remains active at **sixteen complete articles, no partial native
+articles, 22 pending article candidates and 173 pending full-page dispositions**.
+See [the saved work state](metadata/catalog/scan-restoration/1984-03-systems-opening-work.json).

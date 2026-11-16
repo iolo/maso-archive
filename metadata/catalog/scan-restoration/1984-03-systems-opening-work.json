@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M30-in-progress",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0018",
+  "status": "source-compared-prose-and-first-figure-readings;native-opening-not-yet-selected",
+  "canonical_received_title": "마이크로 컴퓨터 시스템 입문",
+  "observed_source_title": "마이크로컴퓨터 시스템 입문",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "selected_work_folios": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "following_article_folio": 109,
+  "source_kind": "jpeg-set",
+  "mapped_regions": 59,
+  "initial_text_tasks": 44,
+  "recognition_retries": 0,
+  "source_compared_text_regions": 44,
+  "historical_draft_text_changes": 0,
+  "source_compared_technical_figures": 2,
+  "source_compared_first_tables": 3,
+  "source_compared_first_cells": 133,
+  "remaining_figure_regions": 13,
+  "native_geometry_pending": true,
+  "native_package_selected": false,
+  "complete_whole_scan_articles": 16,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 22,
+  "source_dispositions_pending": 173,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/resume.json",
+    "sha256": "99dd7de3d65b69fa4f57104797642a90c03cc71b1924eb727ffd4bb40accb349",
+    "bytes": 3781
+  },
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/map.json",
+    "sha256": "8f11e41bd33c250ae9ff280e99f1f397a26dd344cb30df11d67eb5e29c6129bb",
+    "bytes": 28717
+  },
+  "map_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/map-review.json",
+    "sha256": "4befba790b34a0bd8d900202ddac3fc1f7771ca3d640a92c74da3951da544d8a",
+    "bytes": 3062
+  },
+  "recognition_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/source-recognition-audit.json",
+    "sha256": "248126a6404596107ca74ea0ca8093cdd0d0420ccf468cd0322dbec43decb414",
+    "bytes": 649
+  },
+  "prose_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/review/source-compared-prose.json",
+    "sha256": "31eaee80fe3ad0e9a97cffd1b5c7ed7152b9e40571cf6aa7ad71260a0ce54400",
+    "bytes": 17330
+  },
+  "first_figure_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/review/source-compared-first-figure-readings.json",
+    "sha256": "0cab99005b69d5aacdef234786ec01f3b7003c7661fb550f4116981a85dc0f98",
+    "bytes": 41825
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/transition.json",
+    "sha256": "6ac0d3bf23a3388b93f86513b1e3f297c8c71cd4b9938c6c8a0859a10e21d327",
+    "bytes": 1738
+  },
+  "next": "Continue enlarged source comparison of remaining13figure regions,then encode all source table spans,physical cells,drawing labels,bit/nibble positions,rules/arrows and exact prose relationships. First2technical figures contain3tables/133physical cells and source low/high layout;their geometry remains pending. Export bounded100–105native opening twice,audit/accept M30. Final106–108andwhole-article assembly remain required."
+}
