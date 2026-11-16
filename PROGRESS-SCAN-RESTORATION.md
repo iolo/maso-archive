@@ -60,11 +60,14 @@ and five original figures. All 41 source crops and the separate native audit pas
 M26 completes 소프트웨어 복사 방지 기술 on 88–91: 158 exact native files,
 21 ordered diagram fields, 106 printed bit positions, five monitor commands and
 all six original figures. All 42 source crops and the separate native audit pass.
-Current totals are fifteen complete articles, no partial articles, 23 pending
-article candidates, two completed headings, four pending headings and 181 source
-images awaiting full-page disposition. Continue with M27, the bounded opening
-92–97 of 컴퓨터와 수, verifying its complete candidate extent 92–99 and the next
-article on 100; final 98–99 and whole-article assembly remain required.
+M27 restores the opening of 컴퓨터와 수 on 92–97 in 248 exact native files:
+68 table cells, sixteen division rows, twenty conversion alignments, seventeen
+arithmetic examples and all 24 original figures. All 78 source crops and the
+separate source/native audit pass. Current totals are fifteen complete articles,
+one partial article, 22 pending article candidates, two completed headings, four
+pending headings and 173 source images awaiting full-page disposition. Continue
+with M28, final 98–99 of 컴퓨터와 수, then assemble and independently validate
+the complete 92–99 article.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4940,4 +4943,66 @@ All 273 scans remain in the ledger; **181** await full-page disposition. Continu
 with **M27**, the bounded opening 92–97 of **컴퓨터와 수**, verifying its complete
 candidate extent 92–99 and following article on 100. Final 98–99 and whole-article
 assembly remain required. See [the copy-protection result](metadata/catalog/scan-restoration/1984-03-protection.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M27 — March numbers article opening, actual 92–97
+
+Restored the bounded opening of **컴퓨터와 수**, canonical
+**maso-1984-03-toc-0017**, as
+`archive/scans/1984-03/packages/numbers-opening-jpeg-r01/`. All **248 native
+files** match a separate fresh rebuild. Full original pages 92–100 confirm the
+article's extent: 92 opens it, 99 ends with a closing star, and 100 opens
+**마이크로 컴퓨터 시스템 입문**. This checkpoint selects only 92–97; final
+98–99 and whole-article assembly remain required. All 78 mapped regions were
+compared through full pages, individual enlarged contexts and six review boards.
+
+The native opening preserves **40 reading blocks, fourteen continuation joins,
+124 regional reading rows, 73 paragraph fragments and 949 indexed inline forms**.
+The 93–94 sentence is joined explicitly. The final prose on 97 retains its
+incoming continuation onto 98 as a pending relationship. Four printed section
+headings, three literal caption associations and three separately searchable
+illustration-text associations retain their source ownership.
+
+The conversion table retains all **68 header/data cells**, including repeated
+and invalid printed base values. Four repeated-division examples preserve
+**sixteen rows and 144 fields**, with blank remainder labels kept blank. Four
+grouped conversions retain **forty source groups, twenty column alignments and
+68 printed binary positions**, each linked to exact selected-text byte ranges.
+
+All **24 original figures** remain intact. Seventeen arithmetic examples preserve
+**67 rows and 273 numeral/parenthesis slots**; three place-value strips preserve
+fourteen ordered columns. Across the arithmetic, strips and table, **355 literal
+fields, 53 labels and 61 connectors** retain source contexts, carry/borrow arrows,
+crossed-out digits, result rules, cell outlines and the table border. Three
+original illustrations retain their text owners; decorative digits 0–9 in the
+opening artwork remain separate source labels. Geometry bounds are contextual,
+and connector paths approximate source centerlines.
+
+Printed mistakes remain literal: the octal strip's **2048'S** under **8⁴**, the
+table's repeated **1100**, the expanded hexadecimal expressions, the prose's
+**53/23** versus the drawing's **53/24**, the displayed **5778**, and the
+complement prose/diagram width discrepancy. Fifteen local qualifications retain
+these limits. There is no arithmetic recomputation, execution or original-byte
+claim. Full human proofreading remains unverified.
+
+All **54 initial mapped Tesseract tasks** at scale 6000 completed without retries.
+The empty byline draft was recovered directly as **편집부** from its JPEG crop.
+Initial maps and views remain preserved after the pre-recognition bounds
+refinement. The first reading-save helper failed on relative/absolute path
+comparison before writing a selection; resolving that path fixed the helper
+without changing source text or OCR. Native context bands and operator bounds
+were refined in two recorded steps, with no source-value changes. Initial and
+revised overlays were compared before export.
+
+The first native audit passes **78 original-master crop checks, 54 recognition
+bindings, 241 raw ZIP members and 31 damaged-data cases**. All **484 frozen M26
+evidence files** and shared implementation pins remain exact; the unchanged
+**286-test fresh M13 baseline** is reused. M27 freezes **995 evidence files**.
+Cleanup was previewed without deletion.
+
+Whole March remains active with **fifteen complete articles, one partial article,
+22 pending article candidates, two completed headings and four pending headings**.
+All 273 scans remain in the ledger; **173** await full-page disposition. Continue
+with **M28**, final **98–99** of **컴퓨터와 수**, followed by complete native
+article assembly and independent validation. See [the opening result](metadata/catalog/scan-restoration/1984-03-numbers-opening.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

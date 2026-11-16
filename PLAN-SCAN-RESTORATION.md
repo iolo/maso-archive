@@ -95,13 +95,16 @@ the separate source/native audit pass. Printed errors and local qualifications
 remain explicit. M26 completes 소프트웨어 복사 방지 기술 on 88–91: 158 exact
 native files, 21 ordered diagram fields, 57 labels including twelve marker tokens,
 106 printed bit positions, five monitor commands and all six original figures.
-All 42 original-master crops and the separate source/native audit pass. The whole
-issue remains active: fifteen complete articles, no partial articles, 23 pending
-article candidates, two completed headings and four pending headings. There are
-181 source images still awaiting full-page disposition. Continue with M27, the
-bounded opening 92–97 of 컴퓨터와 수, verifying its full candidate extent 92–99
-and following boundary against 100. Final 98–99 and whole-article assembly remain
-required before article completion.
+All 42 original-master crops and the separate source/native audit pass. M27
+restores 컴퓨터와 수 on 92–97 as a partial native opening: 248 exact files,
+68 table cells, sixteen division rows, twenty grouped-conversion alignments,
+seventeen arithmetic examples and all 24 original figures. All 78 original-master
+crops and the separate source/native audit pass. Its complete extent is 92–99;
+99 ends with a closing star and 100 opens the next article. The whole issue
+remains active: fifteen complete articles, one partial article, 22 pending article
+candidates, two completed headings and four pending headings. There are 173 source
+images still awaiting full-page disposition. Continue with M28, final 98–99 of
+컴퓨터와 수, then assemble and independently validate the complete 92–99 article.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

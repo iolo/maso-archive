@@ -2570,7 +2570,7 @@
       "title": "컴퓨터와 수",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0017",
@@ -2773,7 +2773,44 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "segments": [
+          {
+            "checkpoint": "M27",
+            "directory": "archive/scans/1984-03/packages/numbers-opening-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/numbers-opening-jpeg-r01/manifest.json",
+              "sha256": "5d7253b799822a5282b740c10a0bc7e5dab3f4a5f2ef9ad1666af4a19e06c351",
+              "bytes": 42014
+            },
+            "actual_folios": [
+              92,
+              93,
+              94,
+              95,
+              96,
+              97
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-23/validation.json",
+              "sha256": "84b9733d2d3a0ec6c0a28c2f2dabd8cac89e4717cbd60f776f25109523d87bfe",
+              "bytes": 3431
+            }
+          }
+        ],
+        "observed_source_title": "컴퓨터와 수",
+        "observed_opening_folio": 92,
+        "observed_ending_folio": 99,
+        "source_extent_verified": true,
+        "source_extent_covered": false,
+        "continuation_pending": [
+          98,
+          99
+        ],
+        "assembly_pending": true
+      },
       "historical_printed_extent_candidate": [
         "92",
         "93",
@@ -2792,7 +2829,13 @@
           "sha256": "d0a78cc14388c18eb81b09e1bc53cdc7f6418464359c2dcce12bcb15433ca355",
           "bytes": 1376367
         },
-        "restoration_pending": true
+        "restoration_pending": true,
+        "partial_native_selected": true,
+        "transition_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-23/transition.json",
+          "sha256": "34434c67633d2de4ea7fd3ea705ccb4355af61e53bd492940984dd3394f39196",
+          "bytes": 929
+        }
       }
     },
     {
@@ -3026,7 +3069,17 @@
         "106",
         "107",
         "108"
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 100,
+        "observed_title": "마이크로 컴퓨터 시스템 입문",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-23/review/full-100.jpg",
+          "sha256": "ce90a3edf74536af417e6c1487086196715af4dab1d07a0432e69f75cd31397f",
+          "bytes": 1195631
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0019",
@@ -5475,14 +5528,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-22/source-ledger.json",
-    "sha256": "6f24a714138fc648e6ec9721e641dd4866881f772f5cd545f3f54af981d5d6fe",
-    "bytes": 242664
+    "path": "archive/scans/1984-03/restoration/whole-issue-23/source-ledger.json",
+    "sha256": "ab1dce5a5b082840b40837e88124d5f76e1859f5447e9722e009851465087947",
+    "bytes": 251528
   },
-  "current_checkpoint": "M26-complete",
-  "next": "M27: restore the bounded opening on 92–97 of 컴퓨터와 수, maso-1984-03-toc-0017; verify the full candidate extent 92–99 and following article on 100. Final 98–99 and whole-article assembly remain required. Whole March remains active.",
-  "pending_article_candidates": 23,
+  "current_checkpoint": "M27-complete",
+  "next": "M28: restore final 98–99 of 컴퓨터와 수, maso-1984-03-toc-0017. Preserve the incoming 97/98 sentence and source ending; then assemble and independently validate the complete 92–99 article. Whole March remains active.",
+  "pending_article_candidates": 22,
   "pending_heading_candidates": 4,
-  "partial_whole_scan_articles": 0,
+  "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 2
 }
