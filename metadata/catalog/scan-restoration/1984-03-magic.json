@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M21",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0011",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    74,
+    75,
+    76
+  ],
+  "selected_package": "archive/scans/1984-03/packages/magic-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/magic-jpeg-r01/manifest.json",
+    "sha256": "c32470dbd0ed75d6c90ab6ef999ca17dc3519e3f18dd405ff32a7d22ec4c18d2",
+    "bytes": 8989
+  },
+  "exact_files": 54,
+  "native_structure": {
+    "source_images": 3,
+    "mapped_regions": 12,
+    "initial_text_ocr_tasks": 11,
+    "recognition_retries": 0,
+    "blocks": 6,
+    "original_figures": 1,
+    "prose_paragraphs": 6,
+    "independent_listing_contexts": 1,
+    "physical_rows": 182,
+    "logical_units": 86,
+    "physical_fields": 728,
+    "basic_source_fields": 2240,
+    "numeric_literal_occurrences": 233,
+    "physical_continuation_rows": 96,
+    "source_qualifications": 15,
+    "source_jump_references": 32,
+    "source_dispatches": 1,
+    "source_dispatch_targets": 16,
+    "direction_DATA_fields": 8,
+    "direction_DATA_commas": 7,
+    "direction_pairs": 4,
+    "source_letter_routines": 15,
+    "source_draw_commands": 63,
+    "coordinate_expression_fields": 171,
+    "identifier_joins": 3,
+    "source_CHR_constructors": 2,
+    "source_prose_program_references": 12,
+    "source_proposals": 3,
+    "screen_grid_cells": 16,
+    "screen_selected_glyphs": 11,
+    "screen_blank_cells": 1,
+    "screen_unresolved_glyphs": 4,
+    "screen_labels": 1,
+    "screen_unlabelled_marks": 1,
+    "joins": 5,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-17/validation.json",
+    "sha256": "0b5754a800a1107b37e13306cc1cf711f13b9ffb0be1ed46fd23f4c1485fd72b",
+    "bytes": 4015
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-17/magic/recipe.json",
+    "sha256": "a7fd41cc5d113ad4bdca47564a8d12898315bb26b0f21f7ca41949293b40cc87",
+    "bytes": 5385
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-17/source-ledger.json",
+    "sha256": "4a7f8100a367619e6e4e8d35c5f305c52601d857130c2578d1679c6733a97c88",
+    "bytes": 224944
+  },
+  "source_dispositions_pending": 196,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-17/whole-progress-m21.json",
+    "sha256": "d80df1e925336f8bea1e42beaf2e4845af68baa95ba3d809c223ae8b32ee1b26",
+    "bytes": 164371
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-17/evidence-manifest.json",
+    "sha256": "539555cc2bfa8168e3858e5f422491baace1eb05d91f5a9cdf5b35fd0882c494",
+    "bytes": 31524
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M22: restore 당신도 암산왕, maso-1984-03-toc-0012, candidate77–78; verify complete extent and following boundary against79. Whole March remains active."
+}

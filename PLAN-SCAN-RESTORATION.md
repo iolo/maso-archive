@@ -75,11 +75,15 @@ Its native flowchart retains sixteen nodes, nineteen routes and 39 labels.
 All 45 original-master crops and the separate native audit pass. M20 completes
 received 영어 단어 퍼즐 게임 on 70–73: 55 exact native files, 133 source BASIC units,
 76 table cells, all 289 photographed screen-grid cells and five outlined word runs.
-All thirteen source crops and the separate native audit pass. The whole issue
-remains active: ten complete articles, no partial articles, 28 pending article
-candidates, one completed heading and five pending headings. There are 199 source
-images still awaiting full-page disposition. Continue with M21, 매직 스퀘어,
-candidate 74–76,
+All thirteen source crops and the separate native audit pass. M21 completes
+매직 스퀘어 on 74–76: 54 exact native files, 182 physical BASIC rows / 86 numbered
+units, eight signed DATA fields, fifteen drawing routines / 63 commands and the
+original sixteen-cell screen. Four screen glyph identities remain unresolved.
+All twelve original-master crops and the separate native audit pass. The whole
+issue remains active: eleven complete articles, no partial articles, 27 pending
+article candidates, one completed heading and five pending headings. There are
+196 source images still awaiting full-page disposition. Continue with M22,
+당신도 암산왕, candidate 77–78,
 verifying its extent and following
 boundary in a bounded checkpoint.
 Track execution in

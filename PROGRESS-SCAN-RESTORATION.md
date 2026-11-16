@@ -26,10 +26,7 @@ M09 completes feature source coverage on actual 32–37: 122 exact files,
 899 physical code/session rows, 12,288 dump byte fields, the native command table
 and all four bibliography entries. M10 completes the whole feature on actual
 14–37: 598 exact native files, all original segment indexes retained, two
-source-compared split-word joins and 282 fresh passing restoration tests. There
-are now four complete articles, no partial articles, 34 pending article candidates,
-one completed heading, five pending headings and 222 source images awaiting
-full-page disposition.
+source-compared split-word joins and 282 fresh passing restoration tests.
 M11 restores 추리력 테스트 게임 on actual40–45 as a checked 91-file opening
 segment. M12 adds the final Apple listing on46 as 17 exact native files and
 classifies the non-owning heading39 with eleven child entries in six exact files.
@@ -45,10 +42,14 @@ and the original photograph and flowchart. All 45 original-master crops and the
 separate native audit pass. M20 completes received 영어 단어 퍼즐 게임 on 70–73:
 55 exact native files, 133 source BASIC units, 76 table cells, all 289 photographed
 screen-grid cells and five outlined word runs. All thirteen source crops and the
-separate native audit pass. Current totals are ten complete articles, no partial
-articles, 28 pending article candidates, one completed heading, five pending headings
-and 199 source images awaiting full-page disposition. Continue with M21,
-매직 스퀘어, candidate 74–76, in bounded checkpoints.
+separate native audit pass. M21 completes 매직 스퀘어 on 74–76: 54 exact native
+files, 182 physical BASIC rows / 86 numbered units, eight signed DATA fields,
+fifteen drawing routines / 63 commands and the original sixteen-cell screen.
+Four screen glyph identities remain unresolved. All twelve source crops and the
+separate native audit pass. Current totals are eleven complete articles, no
+partial articles, 27 pending article candidates, one completed heading, five pending
+headings and 196 source images awaiting full-page disposition. Continue with M22,
+당신도 암산왕, candidate 77–78, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4622,4 +4623,57 @@ Whole March remains active with **ten complete articles, no partial articles,
 28 pending article candidates, one completed heading and five pending headings**.
 Continue with **M21**, **매직 스퀘어**, candidate 74–76, verifying its full extent
 and boundary against 77. See [the word-puzzle result](metadata/catalog/scan-restoration/1984-03-puzzle.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M21 — March complete Magic Square article, actual 74–76
+
+Completed **매직 스퀘어**, canonical **maso-1984-03-toc-0011**, as the JPEG-backed
+native article `archive/scans/1984-03/packages/magic-jpeg-r01/`. All **54 native
+files** match an independent fresh rebuild. Original full pages 74–77 establish
+the complete extent: the listing ends with **4990 RETURN** on 76 and 77 opens
+**당신도 암산왕**. The lower bookshop advertisement on 76 remains excluded.
+
+The package preserves all six prose paragraphs, source title, platform **트라이젬**,
+provider and telephone number. Two prose joins retain **진/다** inside one word
+and **그리는 / 부분이다** across pages; the original repeated **A를 를** remains
+literal. The proposed **2225 STOP** experiment and A/O replacements with 1/15 are
+typed as proposals, separately from the original main program.
+
+The one complete program has **182 physical rows, 86 numbered units, 96 physical
+continuations, 728 physical fields, 2,240 lexical fields and 233 numeric source
+occurrences**. Original row geometry, blank fields, UTF-8 byte ranges and all
+source memberships are explicit. Unit 3015 crosses the two columns on 76 in
+three physical rows. Three split identifiers retain **AN/S$**, **DI/R** and
+**AN/S$** as source fragments. All 32 jump references and sixteen ON-dispatch
+targets retain original spans, including split targets 2221 and 2232.
+
+Eight signed DATA fields, seven commas and four ordered pairs remain typed
+source records. Fifteen letter routines retain **63 drawing commands and 171
+literal coordinate-expression fields** without expression evaluation or invented
+glyph bytes. The original **DI** versus **DIR**, doubled plus signs and
+**YOUWILL** remain unchanged. JPEG comparison selects **RAMBLED**, correcting a
+missing B in the historical PDF draft. Fifteen local code/prose qualifications
+remain explicit; execution and technical correctness are unverified.
+
+The original artwork remains intact. Its photographed four-by-four screen has
+sixteen native cells: eleven selected glyphs, the blank at row 3 / column 3 and
+**four unresolved glyphs with candidates**. Neither the code nor a permutation
+constraint supplies missing screen identities. The source prompt reads
+**MOVE WHICH PIECE** without a colon; the solid white block remains an unlabelled
+mark. All cell, prompt and mark bounds were compared against the source overlay.
+
+Eleven initial mapped Tesseract tasks at scale 6000 completed without retries.
+All **twelve original-master crop checks, eleven OCR bindings, 46 raw ZIP members
+and 46 damaged-data cases** pass. Both audit attempts are preserved: the first
+validator wrongly required printed labels on continuation rows; the corrected
+validator checks their absent labels. The selected export did not change.
+All **216 frozen M20 evidence files** and shared implementation pins remain
+unchanged. The unchanged **286-test fresh M13 baseline** is reused. M21 freezes
+**184 evidence files**. `make clean-session` ran in preview mode only.
+
+Whole March remains active with **eleven complete articles, no partial articles,
+27 pending article candidates, one completed heading and five pending headings**.
+All 273 scans remain in the ledger; **196** await full-page disposition. Continue
+with **M22**, **당신도 암산왕**, candidate 77–78, verifying its full extent and
+boundary against 79. See [the Magic Square result](metadata/catalog/scan-restoration/1984-03-magic.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

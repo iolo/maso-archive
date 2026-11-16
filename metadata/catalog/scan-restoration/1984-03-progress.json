@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 10,
+  "complete_whole_scan_articles": 11,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -1955,8 +1955,8 @@
       "title": "매직 스퀘어",
       "parent_id": "maso-1984-03-toc-0002",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0011",
         "title": "매직 스퀘어",
@@ -2007,7 +2007,35 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M21",
+        "directory": "archive/scans/1984-03/packages/magic-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/magic-jpeg-r01/manifest.json",
+          "sha256": "c32470dbd0ed75d6c90ab6ef999ca17dc3519e3f18dd405ff32a7d22ec4c18d2",
+          "bytes": 8989
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-17/validation.json",
+          "sha256": "0b5754a800a1107b37e13306cc1cf711f13b9ffb0be1ed46fd23f4c1485fd72b",
+          "bytes": 4015
+        },
+        "observed_source_title": "매직 스퀘어",
+        "observed_platform": "트라이젬",
+        "observed_opening_folio": 74,
+        "observed_ending_folio": 76,
+        "actual_folios": [
+          74,
+          75,
+          76
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         74,
         75,
@@ -2021,7 +2049,12 @@
           "sha256": "30caf25fa8a1240910f051868ee815f43a5458eb9401dbbbdd3d48ecc899c95f",
           "bytes": 658112
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/magic-jpeg-r01/manifest.json",
+          "sha256": "c32470dbd0ed75d6c90ab6ef999ca17dc3519e3f18dd405ff32a7d22ec4c18d2",
+          "bytes": 8989
+        }
       }
     },
     {
@@ -2081,7 +2114,17 @@
       "historical_printed_extent_candidate": [
         77,
         78
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 77,
+        "observed_title": "당신도 암산왕",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-17/review/full-077.jpg",
+          "sha256": "74eb4843720b5133df1861004dd33e4affa9860e35461fb9e0c935d78cc29a29",
+          "bytes": 521570
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0013",
@@ -5213,13 +5256,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-16/source-ledger.json",
-    "sha256": "8375229947dc8782fc68b6bcc253f87e5865991ef88c2c65a4a3857e797befa2",
-    "bytes": 221384
+    "path": "archive/scans/1984-03/restoration/whole-issue-17/source-ledger.json",
+    "sha256": "4a7f8100a367619e6e4e8d35c5f305c52601d857130c2578d1679c6733a97c88",
+    "bytes": 224944
   },
-  "current_checkpoint": "M20-complete",
-  "next": "M21: restore 매직 스퀘어, maso-1984-03-toc-0011, candidate74–76; verify complete extent and following boundary against77. Whole March remains active.",
-  "pending_article_candidates": 28,
+  "current_checkpoint": "M21-complete",
+  "next": "M22: restore 당신도 암산왕, maso-1984-03-toc-0012, candidate77–78; verify complete extent and following boundary against79. Whole March remains active.",
+  "pending_article_candidates": 27,
   "pending_heading_candidates": 5,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 1
