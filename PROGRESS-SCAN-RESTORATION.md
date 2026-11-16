@@ -5062,3 +5062,69 @@ All 273 scans remain in the ledger; **173** await full-page disposition. Continu
 with **M29**, assembling and independently validating the complete **92–99**
 article. See [the ending result](metadata/catalog/scan-restoration/1984-03-numbers-ending.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M29 — March complete numbers article, actual 92–99
+
+Completed **컴퓨터와 수**, canonical **maso-1984-03-toc-0017**, as
+`archive/scans/1984-03/packages/numbers-jpeg-assembly-r01/`. All **344 native
+files** match a separate fresh rebuild, including all **336 unchanged files**
+from immutable M27 and M28. The complete source extent is **92–99**; 99 closes
+with its original star and 100 opens the next article. No new OCR was run.
+
+The source **97/98** sentence, **10010111과 01101010 사이의 차를 구해 보자.**,
+was compared directly in both original contexts. Its explicit join preserves
+the original illustration and independently indexed overprinted text that
+interrupt the segment reading order. The complete sentence precedes those
+intact source items in logical reading order; both original segment orders
+and every original byte remain embedded unchanged.
+
+The opt-in **scoped-observations-v1** assembly contract preserves heterogeneous
+native indexes in explicit source scopes. Typed identities close all source
+references, including the incoming reference to the preceding native segment.
+Original values, source geometry and source-local coordinates are unchanged;
+checked envelopes supply assembled download ranges and source-image bindings.
+Unknown arrays/identity fields, invented computed/encoded values, uncovered
+source extents and unresolved source continuations reject. The original
+**scoped-native-v1** contract and historical exports retain their behavior.
+
+The complete article preserves **54 reading blocks, 107 source regions and
+36 original figures**, with **3,759 native index records**. These include
+159 regional reading rows, 99 paragraph fragments, 1,084 inline fields,
+84 table cells, sixteen division rows/144 fields, forty conversion groups,
+twenty alignments, twenty final arithmetic phases, **125 arithmetic rows**
+across both segments, **477 arithmetic/figure fields**, **668 glyph slots**,
+68 figure labels and 99 connectors. Four source captions, three original
+illustration-text associations, 28 source claims, three printed ranges,
+four inline binary expressions/32 positions and all 23 local qualifications
+remain preserved. The grouped-conversion and ending figure bit indexes retain
+68 and 333 literal positions respectively; these are source observations,
+without numerical evaluation or recovered-byte claims.
+
+The first projection scaffold expected an identity for the captionless
+photograph; the explicit contract now preserves that source shape without
+inventing an ID. The next scaffold exposed the interrupted sentence join,
+which now names the exact intervening illustration and its original prose
+association. The first independent audit then found that a byte-cell outline
+could be removed without breaking a one-way reference. The observation
+contract now requires every displayed byte position to own exactly one
+matching cell outline; missing, duplicate, shifted and wrong-end roles reject.
+The original drafts, first audit and all test attempts remain preserved.
+
+The accepted audit passes **107 original-master crop checks, 71 original OCR
+bindings, 328 raw ZIP members and 29 damaged-data cases**. It independently
+checks **11,664 typed references, 5,456 source/active byte spans and 3,676 source
+asset bindings**. All **26 earlier selected native package/classification
+directories** still validate with exact pinned files. All **995 frozen M27**
+and **400 frozen M28 evidence files** remain exact. Fresh regressions pass:
+**214 PDF tests, 65 image tests and twelve supplement/recognition tests**,
+**291 total**. M29 freezes **32 evidence files**. Cleanup was previewed without
+deletion. `PLAN-OCR.md`, `PLAN-PDF.md`, reader code and deployment are unchanged.
+
+Whole March remains active with **sixteen complete articles, no partial
+articles, 22 pending article candidates, two completed headings and four pending
+headings**. All 273 scans remain in the ledger; **173** await full-page
+disposition. Continue with **M30**, the bounded opening **100–105** of
+**마이크로 컴퓨터 시스템 입문**, canonical **maso-1984-03-toc-0018**. Verify its
+complete candidate extent **100–108** and following article on **109**.
+See [the complete numbers result](metadata/catalog/scan-restoration/1984-03-numbers.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

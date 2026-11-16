@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 15,
+  "complete_whole_scan_articles": 16,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -2570,8 +2570,8 @@
       "title": "컴퓨터와 수",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0017",
         "title": "컴퓨터와 수",
@@ -2774,7 +2774,7 @@
         }
       },
       "new_selected_restoration": {
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "segments": [
           {
@@ -2824,7 +2824,39 @@
         "source_extent_verified": true,
         "source_extent_covered": true,
         "continuation_pending": [],
-        "assembly_pending": true
+        "assembly_pending": false,
+        "checkpoint": "M29",
+        "directory": "archive/scans/1984-03/packages/numbers-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/numbers-jpeg-assembly-r01/manifest.json",
+          "sha256": "335436be1ce632a63e26ca8c2b98261795ff511b9eeeca55bebded2475162be6",
+          "bytes": 61639
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-25/validation.json",
+          "sha256": "484220a168cb9f5beb8c712c8a098866e9db5dade64ef0455f48de82114ac1cb",
+          "bytes": 10253
+        },
+        "actual_folios": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ],
+        "included_actual_folios": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ]
       },
       "historical_printed_extent_candidate": [
         "92",
@@ -2844,12 +2876,18 @@
           "sha256": "d0a78cc14388c18eb81b09e1bc53cdc7f6418464359c2dcce12bcb15433ca355",
           "bytes": 1376367
         },
-        "restoration_pending": true,
-        "partial_native_selected": true,
+        "restoration_pending": false,
+        "partial_native_selected": false,
         "transition_review": {
           "path": "archive/scans/1984-03/restoration/whole-issue-23/transition.json",
           "sha256": "34434c67633d2de4ea7fd3ea705ccb4355af61e53bd492940984dd3394f39196",
           "bytes": 929
+        },
+        "complete_native_selected": true,
+        "assembly_validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-25/validation.json",
+          "sha256": "484220a168cb9f5beb8c712c8a098866e9db5dade64ef0455f48de82114ac1cb",
+          "bytes": 10253
         }
       }
     },
@@ -5543,14 +5581,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-24/source-ledger.json",
-    "sha256": "1f8a3b9ff3ddeec78e52583abbb0e2fb852518f88589bf4652d169c12d0ebc8d",
-    "bytes": 251888
+    "path": "archive/scans/1984-03/restoration/whole-issue-25/source-ledger.json",
+    "sha256": "93998849fa89b6a22317f1f04408a59e649cff178efb267baf9c9e5275d7a911",
+    "bytes": 250236
   },
-  "current_checkpoint": "M28-complete",
-  "next": "M29: assemble and independently validate the complete 92–99 컴퓨터와 수, maso-1984-03-toc-0017, preserving both immutable segments and the 97/98 sentence continuation. Whole March remains active.",
+  "current_checkpoint": "M29-complete",
+  "next": "M30: restore the bounded opening 100–105 of 마이크로 컴퓨터 시스템 입문, maso-1984-03-toc-0018;verify complete candidate extent100–108and following109. Continue every remaining March article,heading and source disposition before whole-issue export/audit.",
   "pending_article_candidates": 22,
   "pending_heading_candidates": 4,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 2
 }

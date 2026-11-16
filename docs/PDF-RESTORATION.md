@@ -3847,6 +3847,28 @@ listing/session contexts and all source-local uncertainties. Assembly asserts
 neither execution nor recovery of original encoded bytes. Existing modes and
 historical exports retain their original contracts.
 
+The opt-in **`scoped-observations-v1`** mode adds explicit source observation
+indexes for prose reading rows/paragraphs, sections, table cells, repeated
+division, grouped conversions, arithmetic phases/rows/fields/glyphs, binary
+positions, figure labels/connectors, captions, source claims and closing marks.
+Original index values and all segment files remain unchanged. Typed source
+scopes close every identity reference and project all declared article byte
+ranges; geometry stays relative to the original source region. Unknown arrays
+and identity fields fail closed. Computed values and inferred encodings are
+rejected. Captured source errors remain literal observations.
+
+This mode checks each segment's original source extent against the complete,
+ordered assembled folios. Deferred and incoming prose declarations must agree
+with one explicit join, exact boundary text, separator, source regions and the
+preceding native manifest. Every declared continuation requires a disposition.
+Joins include an explicit `intervening` array, even when empty. An interrupted
+join may preserve an original figure and its independently indexed overprinted
+text; that prose must match its exact original illustration-text association.
+The logical sentence joins without dropping or rewriting the intervening items.
+Use this mode for the March numbers article on actual92–99. It neither changes
+the original `scoped-native-v1` contract nor establishes technical correctness,
+execution, original encoded bytes or character-perfect proofreading.
+
 An optional `program_links` array adds complete numbered-unit program continuity
 within this mode. Omitting it preserves the historical projection exactly.
 Each link names the left/right source segment and listing, the observed last/

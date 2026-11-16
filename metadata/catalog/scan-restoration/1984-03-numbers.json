@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M29",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0017",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "selected_package": "archive/scans/1984-03/packages/numbers-jpeg-assembly-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/numbers-jpeg-assembly-r01/manifest.json",
+    "sha256": "335436be1ce632a63e26ca8c2b98261795ff511b9eeeca55bebded2475162be6",
+    "bytes": 61639
+  },
+  "exact_files": 344,
+  "retained_original_segment_files": 336,
+  "native_index_records": 3759,
+  "native_index_counts": {
+    "regional_text_ranges": 71,
+    "prose_joins": 16,
+    "source_uncertainties": 23,
+    "inline_source_fields": 1084,
+    "source_section_index": 4,
+    "source_regional_line_index": 159,
+    "source_paragraph_index": 99,
+    "source_table_cell_index": 84,
+    "source_table_row_index": 8,
+    "source_division_example_index": 4,
+    "source_division_row_index": 16,
+    "source_division_field_index": 144,
+    "source_grouped_conversion_index": 4,
+    "source_conversion_group_field_index": 40,
+    "source_group_alignment_index": 20,
+    "source_conversion_bit_index": 68,
+    "source_figure_structure_index": 36,
+    "source_figure_row_index": 67,
+    "source_figure_field_index": 355,
+    "source_figure_label_index": 68,
+    "source_figure_connector_index": 99,
+    "source_arithmetic_phase_index": 20,
+    "source_arithmetic_row_index": 58,
+    "source_arithmetic_field_index": 122,
+    "source_arithmetic_glyph_index": 668,
+    "source_caption_association_index": 4,
+    "source_illustration_text_association_index": 3,
+    "source_prose_claim_index": 28,
+    "source_inline_bit_expression_index": 4,
+    "source_inline_bit_index": 32,
+    "source_range_claim_index": 3,
+    "source_figure_context_index": 10,
+    "source_byte_panel_association_index": 2,
+    "source_figure_bit_index": 333,
+    "source_closing_mark_index": 1,
+    "segment_continuations": 2
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-25/validation.json",
+    "sha256": "484220a168cb9f5beb8c712c8a098866e9db5dade64ef0455f48de82114ac1cb",
+    "bytes": 10253
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-25/assembly-recipe-r01.json",
+    "sha256": "90181ad7b17e050f3526e961f4472d9f90e824e6665dda433144637fd4e7bed4",
+    "bytes": 4537
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-25/source-ledger.json",
+    "sha256": "93998849fa89b6a22317f1f04408a59e649cff178efb267baf9c9e5275d7a911",
+    "bytes": 250236
+  },
+  "source_dispositions_pending": 173,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-25/whole-progress-m29.json",
+    "sha256": "6b9560e430ae5fbb5395103867bfc0a8ab05f1e78443fbe7fb44c1abac740f76",
+    "bytes": 176883
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-25/evidence-manifest.json",
+    "sha256": "6eed1db6eb34bed97b5eb3ff0e679a7ab5f22fdd609bceb9f48c45a1a5acfd7f",
+    "bytes": 5110
+  },
+  "shared_implementation_changed": true,
+  "source_index_mode": "scoped-observations-v1",
+  "fresh_regressions": 291,
+  "next": "M30: restore the bounded opening 100–105 of 마이크로 컴퓨터 시스템 입문, maso-1984-03-toc-0018;verify complete candidate extent100–108and following109. Continue every remaining March article,heading and source disposition before whole-issue export/audit."
+}

@@ -44,13 +44,18 @@ def validate_recipe(recipe):
     required = {'index_mode', 'source_index_mode', 'segments', 'expected_source_indices',
         'inventory', 'evidence', 'uncertainties', 'resolved_notes', 'prose_joins',
         'paragraph_links', 'logical_aliases'}
-    if (set(recipe) not in (required, required | {'program_links'}) or recipe['source_index_mode'] != MODE or
+    if (set(recipe) not in (required, required | {'program_links'}) or recipe['source_index_mode'] not in (MODE, 'scoped-observations-v1') or
             recipe['index_mode'] != 'structured-programs-v1'):
         raise ValueError('Invalid scoped native recipe fields or mode')
     # Reuse the common strict inventory, segment, note and prose-join contract.
     from .assembly_structured import validate_recipe as validate_common
     common = {k: v for k, v in recipe.items()
               if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases', 'program_links'}}
+    if recipe['source_index_mode'] == 'scoped-observations-v1':
+        from .assembly_examples import validate_joins
+        validate_joins(recipe['prose_joins'], regional=True)
+        common['prose_joins'] = [{k: v for k, v in row.items() if k != 'intervening'}
+                                 for row in recipe['prose_joins']]
     common.update(relationship_links=[], program_links=[], group_links=[], example_links=[])
     validate_common(common)
     names = [r['name'] for r in recipe['segments']]
@@ -91,6 +96,11 @@ def walk(value, pointer=''):
 
 
 class Scope:
+    native_indexes = NATIVE_INDEXES
+    source_metadata = SOURCE_METADATA
+    refs = REFS
+    ref_lists = REF_LISTS
+
     def __init__(self, spec, package, correction, listing_offset, aliases):
         self.name, self.prefix = spec['name'], 'segments/' + spec['name']
         self.package, self.correction = package, correction
@@ -105,9 +115,9 @@ class Scope:
         self.ranges = block_ranges(package)
         self.definitions = {}
         self.used_aliases = []
-        if set(correction) - set(NATIVE_INDEXES) - SOURCE_METADATA:
+        if set(correction) - set(self.native_indexes) - self.source_metadata:
             raise ValueError('Unknown scoped native index; add an explicit contract')
-        for field in NATIVE_INDEXES:
+        for field in self.native_indexes:
             if field in correction and not isinstance(correction[field], list):
                 raise ValueError('Native index must be an explicit array')
         for kind, field in [('block', 'blocks'), ('figure', 'figures'), ('region', 'regions')]:
@@ -145,7 +155,15 @@ class Scope:
                                   ('slot_id', 'slot'), ('row_id', 'row')]:
                     if key in row:
                         self.define(kind, row[key], pointer, scope=scope)
+        self.define_additional()
         self.validate_text()
+
+    def define_additional(self):
+        """An opted-in subclass may declare additional typed source identities."""
+
+    def reference_list(self, kind, items, pointer, figure):
+        return [dict(pointer=pointer + '/' + str(i), id=self.reference(kind, id, figure))
+                for i, id in enumerate(items)]
 
     def define(self, kind, id, pointer, *, scope='', active=None):
         if not isinstance(id, str) or not id:
@@ -265,12 +283,11 @@ class Scope:
                     raise ValueError('Assembly cannot establish execution or original encoded bytes')
                 if item is None:
                     continue
-                if key in REFS:
+                if key in self.refs:
                     refs.append(dict(pointer=pointer + '/' + key,
-                        id=self.reference(REFS[key], item, figure)))
-                elif key in REF_LISTS:
-                    refs.extend(dict(pointer=pointer + '/' + key + '/' + str(i),
-                        id=self.reference(REF_LISTS[key], id, figure)) for i, id in enumerate(item))
+                        id=self.reference(self.refs[key], item, figure)))
+                elif key in self.ref_lists:
+                    refs.extend(self.reference_list(self.ref_lists[key], item, pointer + '/' + key, figure))
                 elif key == 'target_id':
                     kind = value.get('target_type')
                     if kind is None and value.get('kind') == 'source-figure-reference':
@@ -342,15 +359,22 @@ class Scope:
 
 def project(recipe, originals):
     validate_recipe(recipe)
+    scope_type = Scope
+    if recipe['source_index_mode'] == 'scoped-observations-v1':
+        from .assembly_scoped_observations import ObservationScope, validate_continuations
+        scope_type = ObservationScope
     contexts, offset = [], 0
     for spec, (source, correction) in zip(recipe['segments'], originals, strict=True):
         if source['schema_version'] != 2:
             raise ValueError('Scoped native assembly requires JPEG packages')
-        context = Scope(spec, source, correction, offset, recipe['logical_aliases'])
+        context = scope_type(spec, source, correction, offset, recipe['logical_aliases'])
+        context.spec = spec
         contexts.append(context)
         offset += len(context.listing)
     if [r for c in contexts for r in c.used_aliases] != recipe['logical_aliases']:
         raise ValueError('Unused or reordered logical identity alias')
+    if recipe['source_index_mode'] == 'scoped-observations-v1':
+        validate_continuations(recipe, contexts)
     first = contexts[0].package
     package = deepcopy(first)
     for key in ('pages', 'regions', 'excluded_regions', 'blocks', 'figures',
@@ -420,7 +444,7 @@ def project(recipe, originals):
                     rows[0]['separator'] != outgoing['separator'] or
                     str(contexts[i + 1].package['pages'][0]['printed_page']) != str(outgoing['next_folio'])):
                 raise ValueError('Native prose join differs from original outgoing declaration')
-    positions, joined = join_blocks(recipe, package, [SimpleNamespace(name=c.name) for c in contexts])
+    positions, joined = join_blocks(recipe, package, contexts)
     for c in contexts:
         for (kind, _, id), binding in c.definitions.items():
             if kind == 'block':
@@ -430,9 +454,9 @@ def project(recipe, originals):
     article, listing = text_bytes(package)
     if listing != b''.join(c.listing for c in contexts):
         raise ValueError('Native assembly changed independent source code bytes')
-    native = {field: [] for field in NATIVE_INDEXES}
+    native = {field: [] for field in scope_type.native_indexes}
     for c in contexts:
-        for field in NATIVE_INDEXES:
+        for field in scope_type.native_indexes:
             native[field].extend(c.envelope(field, i, positions, ranges, article, listing)
                                  for i in range(len(c.correction.get(field, []))))
     continuations = []
@@ -467,11 +491,11 @@ def project(recipe, originals):
     package['availability'] = 'readable'
     package['verification'] = dict(status='sample-reviewed', reviewed_region_ids=[r['id'] for r in package['regions']],
         evidence=recipe['evidence'], uncertainties=package['gaps'])
-    correction = dict(article_id=package['id'], index_mode=recipe['index_mode'], source_index_mode=MODE,
+    correction = dict(article_id=package['id'], index_mode=recipe['index_mode'], source_index_mode=recipe['source_index_mode'],
         policy='Native index values retain source-local identities and coordinates. Envelopes provide typed closed references and active download ranges. No OCR, encoded-byte inference or execution claim.',
         records=records, blocks=package['blocks'], native_indexes=native,
         scopes=[dict(name=c.name, original_corrections=rebase(c.package['corrections'][0], c.prefix),
-            original_metadata={k: deepcopy(v) for k, v in c.correction.items() if k in SOURCE_METADATA - {'blocks', 'records', 'map'}},
+            original_metadata={k: deepcopy(v) for k, v in c.correction.items() if k in c.source_metadata - {'blocks', 'records', 'map'}},
             identities=list(c.definitions.values()),
             block_bindings=[dict(source_id=id, block_id=positions[c.name + '-' + id][0],
                 offset_in_block=positions[c.name + '-' + id][1]) for id in c.blocks],

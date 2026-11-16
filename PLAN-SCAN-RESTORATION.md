@@ -102,13 +102,18 @@ seventeen arithmetic examples and all 24 original figures. All 78 original-maste
 crops and the separate source/native audit pass. M28 restores final 98–99 in
 88 exact native files: twelve original figures, twenty arithmetic phases,
 58 numeric rows, sixteen signed-decimal table cells and the closing star.
-All 29 original-master crops and the separate source/native audit pass. The
-complete source extent is 92–99; 100 opens the next article. The whole issue
-remains active: fifteen complete articles, one partial article, 22 pending article
+All 29 original-master crops and the separate source/native audit pass. M29
+completes the 92–99 article assembly: 344 exact files retain all 336 original
+segment files, 3,759 native index records and the explicit 97/98 sentence join.
+The original intervening illustration and overprinted text remain intact.
+All 107 master crops, 71 OCR bindings and 291 fresh restoration tests pass;
+the opt-in observation contract preserves literal arithmetic and typed source
+references without changing historical modes. The whole issue
+remains active: sixteen complete articles, no partial articles, 22 pending article
 candidates, two completed headings and four pending headings. There are 173 source
-images still awaiting full-page disposition. Continue with M29, assembling and
-independently validating the complete 92–99 컴퓨터와 수 article from both
-immutable native segments and its explicit 97/98 sentence continuation.
+images still awaiting full-page disposition. Continue with M30, the bounded
+opening 100–105 of 마이크로 컴퓨터 시스템 입문; verify its complete candidate
+extent 100–108 and following article on 109 before continuing the whole issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
