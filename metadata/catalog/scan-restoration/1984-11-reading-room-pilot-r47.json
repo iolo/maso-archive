@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "kind": "donated-scan-reading-room-pilot",
+  "builtOn": "2026-11-16",
+  "issue_id": "maso-1984-11",
+  "restorationCheckpoint": "R47",
+  "restorationCommit": "f762a37b",
+  "output": "dist/reading-room-scans-1984-11-r47",
+  "base": "./",
+  "urls": {
+    "contents": "http://127.0.0.1:4192/#/issues/maso-1984-11",
+    "review": "http://127.0.0.1:4192/#/review?issue=maso-1984-11",
+    "maxPrint": "http://127.0.0.1:4192/#/articles/scan-maso-1984-11-toc-0027"
+  },
+  "inputLedger": {
+    "path": "metadata/catalog/scan-restoration/1984-11-progress.json",
+    "bytes": 306311,
+    "sha256": "849a45dcc50e365b23c8ab5782c74037e079a5c6833313ff33a86f374a50834b"
+  },
+  "selectedPackages": [
+    {
+      "tocEntryId": "maso-1984-11-toc-0001",
+      "articleId": "scan-maso-1984-11-toc-0001",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/apple-machine-language-r01/manifest.json",
+        "bytes": 116178,
+        "sha256": "654c5b0f3a2ce0ea4b4e79274caa5ad6b6c28094a4fea66532896a851b2dda6b"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0002",
+      "articleId": "scan-maso-1984-11-toc-0002",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/machine-music-r01/manifest.json",
+        "bytes": 77674,
+        "sha256": "750db509745f1f8eaa4b4c6f5abfe88ce581c4140baae1e66694ec9be2ff358f"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0004",
+      "articleId": "scan-maso-1984-11-toc-0004",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/frog-r02/manifest.json",
+        "bytes": 13118,
+        "sha256": "9814234b3749a3499141da1952d0f285def8f626c8c6f19e5ae65350d069d415"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0005",
+      "articleId": "scan-maso-1984-11-toc-0005",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/space-fight-r01/manifest.json",
+        "bytes": 11734,
+        "sha256": "8f1a7427140bc25c312bb1ac9325945bfce45e452b83b069ca67818e1f72fc1a"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0006",
+      "articleId": "scan-maso-1984-11-toc-0006",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/maze-ii-r01/manifest.json",
+        "bytes": 11761,
+        "sha256": "c47e4ca1943554fd1a1bef93954f7a11f548ee84dfb5a9f8cf4ef3f2a6b11fce"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0007",
+      "articleId": "scan-maso-1984-11-toc-0007",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/baby-penguin-r01/manifest.json",
+        "bytes": 29498,
+        "sha256": "92ae78f78154925bab7b5e232653dbf8553f486ab10d3b612fc61a76e4205f37"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0008",
+      "articleId": "scan-maso-1984-11-toc-0008",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/cunning-r01/manifest.json",
+        "bytes": 12514,
+        "sha256": "2ce8999c1d7951751d2d05f8b93fe94e7b42d52ac129e5b344a148c738f72d89"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0009",
+      "articleId": "scan-maso-1984-11-toc-0009",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/hungry-spider-r01/manifest.json",
+        "bytes": 9841,
+        "sha256": "c8b50784dc254a922036b3147c40e3ebb129b5a293434b08e6c4f86b429b5120"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0010",
+      "articleId": "scan-maso-1984-11-toc-0010",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/lores-runner-r01/manifest.json",
+        "bytes": 25152,
+        "sha256": "685d54991c8e489b6ee2803069170f7a650302811fbc7969e4295d94b144879a"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0011",
+      "articleId": "scan-maso-1984-11-toc-0011",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/kang-tong-r01/manifest.json",
+        "bytes": 11894,
+        "sha256": "02cdabc7ef87b3b7ed327532b93b5b591f8256e96f0f94df41e552c698390db9"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0013",
+      "articleId": "scan-maso-1984-11-toc-0013",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/math-logic-r01/manifest.json",
+        "bytes": 35294,
+        "sha256": "aa50b762f1203cae213b5e063ae076ad4482b665caddfbac84a8125bb555f409"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0014",
+      "articleId": "scan-maso-1984-11-toc-0014",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/bit-pattern-r01/manifest.json",
+        "bytes": 9914,
+        "sha256": "c67a559486692bb041edb19a2dff7d909756ed0c7121b2f7f9a9fcfc5c520bcc"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0015",
+      "articleId": "scan-maso-1984-11-toc-0015",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/apple-fortran-r02/manifest.json",
+        "bytes": 39403,
+        "sha256": "ad07bd25659391b55ffd4bf9dbd6db64f4e2d02135d11e2379f6df886fc9d77f"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0016",
+      "articleId": "scan-maso-1984-11-toc-0016",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/basic-techniques-r01/manifest.json",
+        "bytes": 19034,
+        "sha256": "c76d980cfea1d20b02a378af3c6cf30f09ca7bc886fadb6ddbc8ebd46941df60"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0018",
+      "articleId": "scan-maso-1984-11-toc-0018",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/liszt-r02/manifest.json",
+        "bytes": 76311,
+        "sha256": "6c0293fb5825a22740e75c25f4e66a8bf24ee31c9d1ee90992e29b5cc87a6f56"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0019",
+      "articleId": "scan-maso-1984-11-toc-0019",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/system-development-r01/manifest.json",
+        "bytes": 35676,
+        "sha256": "0169801a3f094e0bc4e6cb5b5685f92ef84b2e3a4e38d1bb8d905670da482166"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0020",
+      "articleId": "scan-maso-1984-11-toc-0020",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/medical-fee-r02/manifest.json",
+        "bytes": 21213,
+        "sha256": "7fa6ec8edd918cb06bd8cc1eb94cc5f97312b63a110c2ca9137ec5ff256113fe"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0021",
+      "articleId": "scan-maso-1984-11-toc-0021",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/bill-management-r01/manifest.json",
+        "bytes": 24830,
+        "sha256": "baf77ec15f043672085e1b57bee6c8194a9a68b7d52eb641627a3d02ac932a4c"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0022",
+      "articleId": "scan-maso-1984-11-toc-0022",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/isam-r03/manifest.json",
+        "bytes": 29987,
+        "sha256": "b69c9c19a8e62294f5395a4905c526ee743bbd8b900ec8829af2832d6be1d1c6"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0023",
+      "articleId": "scan-maso-1984-11-toc-0023",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/visicalc-r02/manifest.json",
+        "bytes": 35746,
+        "sha256": "46874a4566476b9989593a52e5875f97bd67cb363b0f7423f720d9dfea0085ba"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0024",
+      "articleId": "scan-maso-1984-11-toc-0024",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/text-file-r03/manifest.json",
+        "bytes": 82299,
+        "sha256": "b484b930204ff12d4599b3994e1421774469a39c75deca33b5d78b3ef9a9db72"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0026",
+      "articleId": "scan-maso-1984-11-toc-0026",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/eprom-r01/manifest.json",
+        "bytes": 50336,
+        "sha256": "a54433c6dd7118f9e68ede062fc259ebb510a70d3ac3a06e17c4e584e275e9e5"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0027",
+      "articleId": "scan-maso-1984-11-toc-0027",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/max-print-r01/manifest.json",
+        "bytes": 14439,
+        "sha256": "bc425d62624f28ad0e6bbb95d489d0d11a0a5bed9d62964528bd394d2bd1010e"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0029",
+      "articleId": "scan-maso-1984-11-toc-0029",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/contest-review-r01/manifest.json",
+        "bytes": 7332,
+        "sha256": "50be52be32ad325ff738efd1dff2b7348b4cba06c53ba8609d4e75b019180ec6"
+      }
+    },
+    {
+      "tocEntryId": "maso-1984-11-toc-0034",
+      "articleId": "scan-maso-1984-11-toc-0034",
+      "manifest": {
+        "path": "archive/scans/1984-11/packages/editorial-r01/manifest.json",
+        "bytes": 4461,
+        "sha256": "ad3be05afc74a5651dc201a4fd0b5d38ad5f92cd9d275890e5c6f478c2504b04"
+      }
+    }
+  ],
+  "exactNativeFiles": 4635,
+  "exactNativeBytes": 8358623057,
+  "priorPreview": {
+    "receipt": {
+      "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot.json",
+      "bytes": 14479,
+      "sha256": "d20d01e225d2bf31095210bcc7fbedc38ce5005566282a2875eebbbab11bf79e"
+    },
+    "checkedFiles": [
+      {
+        "path": "dist/reading-room-scans-1984-11/data/manifest.json",
+        "sha256": "1d3537384b24f07923f3827c782f0e38ff03a49a0a84b424b74a0852a78e25c8",
+        "bytes": 822112
+      },
+      {
+        "path": "dist/reading-room-scans-1984-11/assets/index-D4Z0nqFt.js",
+        "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+        "bytes": 350064
+      },
+      {
+        "path": "dist/reading-room-scans-1984-11/assets/index-DO4ky1Ds.css",
+        "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+        "bytes": 30171
+      },
+      {
+        "path": "dist/reading-room-scans-1984-11/index.html",
+        "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+        "bytes": 603
+      },
+      {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-2026-11-16/evidence-manifest.json",
+        "sha256": "f0d66664926b9bf6bb7bdb8fbcc47e38998c5e720c2a9d699dbb60ea66a2cd71",
+        "bytes": 5070
+      }
+    ],
+    "frozenEvidenceFiles": 23
+  },
+  "dataManifest": {
+    "path": "dist/reading-room-scans-1984-11-r47/data/manifest.json",
+    "bytes": 837353,
+    "sha256": "a6de8917ef9d3a3410646a0c50c762207be93fdda179e501353fb1f08985b4d8"
+  },
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "bytes": 862901,
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb"
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "bytes": 1007575,
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06"
+    }
+  ],
+  "counts": {
+    "tocEntries": 40,
+    "mediaRecords": 131,
+    "texts": 25,
+    "listings": 21,
+    "articles": 25,
+    "issues": 1
+  },
+  "pilotCounts": {
+    "toc_entries": 40,
+    "articles": 25,
+    "group_headings": 6,
+    "unclassified": 9,
+    "complete": 25,
+    "partial": 0
+  },
+  "browser": {
+    "articles": {
+      "articleRoutes": 25,
+      "pageErrors": []
+    },
+    "regions": {
+      "regions": 21,
+      "printedPages": [
+        "206",
+        "207",
+        "208"
+      ],
+      "originalOcrViewed": true,
+      "mobileWidth": 360,
+      "mobileOverflow": false
+    },
+    "notes": {
+      "regionalNoteSaved": true,
+      "persistedAfterReload": true,
+      "noteExport": "output/playwright/nov84-r47/review-note.json",
+      "reviewQueue": 25,
+      "pendingIdentity": "SPC-CLOCK",
+      "testNoteRemoved": true
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0
+  },
+  "siteFiles": [
+    {
+      "path": "dist/reading-room-scans-1984-11-r47/assets/index-D4Z0nqFt.js",
+      "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+      "bytes": 350064
+    },
+    {
+      "path": "dist/reading-room-scans-1984-11-r47/assets/index-DO4ky1Ds.css",
+      "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+      "bytes": 30171
+    },
+    {
+      "path": "dist/reading-room-scans-1984-11-r47/index.html",
+      "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+      "bytes": 603
+    }
+  ],
+  "validation": {
+    "path": "archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/validation.json",
+    "sha256": "cb369e2227f02c41d211c74b673f45798109b911cf1b6e720d647a313602b475",
+    "bytes": 2796
+  },
+  "evidenceManifest": {
+    "path": "archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/evidence-manifest.json",
+    "sha256": "d1c8eb92325a58075c580e6497fa8bab0c5c4fd4c8028ec7bfff32603116997e",
+    "bytes": 4984
+  },
+  "productionBuild": "passed",
+  "integrityCheck": "passed",
+  "unitTests": "not rerun; reader implementation unchanged",
+  "ocrTasks": 0,
+  "documentation": [
+    {
+      "path": "docs/READING-ROOM.md",
+      "sha256": "60c0140c6a3104c407c94de4fff922109b91221580ba8586abf5e95f1be197e2",
+      "bytes": 45194
+    },
+    {
+      "path": "PROGRESS-SCAN-RESTORATION.md",
+      "sha256": "2f1c927127d783ff143593993ca02eb102fd9be78591ee50ad2fe6e73a2f1b29",
+      "bytes": 173475
+    }
+  ],
+  "serveCommand": "python3 -m http.server 4192 --bind 127.0.0.1 --directory dist/reading-room-scans-1984-11-r47",
+  "limits": [
+    "Nine unclassified identities remain pending.",
+    "Covers/source-image accounting and whole-issue closeout remain pending.",
+    "This is a sample presentation of reproducible native packages; sample review is distinct from full proofreading or human acceptance.",
+    "Review notes belong to the exact browser and origin; export before moving hosts or ports."
+  ]
+}

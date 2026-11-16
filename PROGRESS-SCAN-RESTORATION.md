@@ -2597,3 +2597,35 @@ Next: **R48**, establish SPC-CLOCK from its catalog opener **212**, with actual
 extent, observed title/byline and source structures checked before mapping. All
 nine remaining identities, covers/source-image accounting and checked whole-issue
 native export/rebuild remain in scope. **The whole-November goal remains active.**
+
+## November 16, 2026 — R47 reading-room review preview
+
+Built a separate local November preview at
+`dist/reading-room-scans-1984-11-r47/`, served at
+<http://127.0.0.1:4192/#/issues/maso-1984-11>. It projects the committed R47
+ledger: **25 native articles, all 40 canonical identities, six non-owning
+headings and nine unclassified entries**, with 21 listing downloads. Unfinished
+drafts are excluded. Native schema, original OCR, scan crops, corrections,
+figures and download bytes remain available alongside the sample presentation.
+
+Fresh production compilation and full reader integrity checks pass. Independent
+comparison verifies all **4,635 native files / 8,358,623,057 bytes** against their
+selected source packages. Browser checks opened all 25 articles, all 21
+MAX-PRINT regions on printed pages 206–208, original OCR, a 360px layout and the
+25-entry JPEG review queue. Regional note persistence/export and the pending
+SPC-CLOCK identity pass; the temporary note was removed. Browser console:
+zero errors and warnings. Reader implementation is unchanged; no historical
+unit-test run is presented as fresh validation.
+
+The earlier R46 reader, receipt, data/site pins and 23 frozen evidence files are
+unchanged. PLAN-OCR.md and PLAN-PDF.md retain their exact hashes. No OCR,
+restoration or frozen checkpoint scripts were run. The independent copy checker
+first used an incorrect base for root-relative evidence paths; the corrected
+check passes, with the failed log retained. Chromium required the host's
+explicit browser executable and sandbox configuration for browser verification.
+
+See [reader instructions](docs/READING-ROOM.md) and the
+[R47 preview receipt](metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r47.json).
+Private build and validation evidence is under
+`archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/`.
+This review build does not advance the restoration ledger or issue closeout.

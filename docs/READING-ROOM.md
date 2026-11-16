@@ -2,7 +2,50 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
-## November 1984 donated-scan pilot — November 16, 2026
+## November 1984 review preview through R47 — November 16, 2026
+
+The latest local preview is `dist/reading-room-scans-1984-11-r47/`:
+
+- [Issue contents](http://127.0.0.1:4192/#/issues/maso-1984-11)
+- [Review queue](http://127.0.0.1:4192/#/review?issue=maso-1984-11)
+- [MAX-PRINT](http://127.0.0.1:4192/#/articles/scan-maso-1984-11-toc-0027)
+
+It contains **25 selected native articles**, all **40 canonical contents
+identities**, six non-owning headings and nine unclassified entries. This adds
+the completed R47 MAX-PRINT package to the earlier R46 preview. Selection comes
+from the committed issue ledger; unfinished restoration drafts are excluded.
+The original R46 preview and its receipt remain intact.
+
+Use **원문과 나란히 검토하기** in an article to compare the correction with its
+source region and original OCR. **복원 기록** opens the native article schema;
+UTF-8 text, listings and original OCR/crop downloads remain available. The schema
+package is the restoration artifact; this reader is one sample presentation.
+Review notes are local to the browser and origin. Export them before moving
+between this preview and the older port 4191 reader.
+
+To restart this preview:
+
+```sh
+python3 -m http.server 4192 --bind 127.0.0.1 --directory dist/reading-room-scans-1984-11-r47
+```
+
+Build/validation evidence is kept separately under
+`archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/`.
+The corresponding receipt is
+`metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r47.json`.
+No OCR or restoration checkpoint scripts run during reader export. Covers,
+source-image accounting and whole-issue closeout remain pending.
+
+The production build and full reader integrity check pass. All **4,635 copied
+native files / 8,358,623,057 bytes** match their selected source packages.
+Browser checks opened all 25 articles, all 21 MAX-PRINT regions on printed pages
+206–208, original OCR, a 360px layout, the pending SPC-CLOCK identity and the
+25-entry JPEG review queue. Regional notes survived reload and exported with
+the correct source identity; the temporary note was removed. No browser errors
+or warnings were reported. Reader code is unchanged; earlier unit-test results
+are historical, while these export, integrity and browser checks ran afresh.
+
+## Earlier November 1984 preview through R46 — November 16, 2026
 
 The local pilot reader is `dist/reading-room-scans-1984-11/`. Open
 <http://127.0.0.1:4191/#/issues/maso-1984-11> for its contents or
