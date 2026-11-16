@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M06",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0001",
+  "status": "complete-native-segment",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "selected_package": "archive/scans/1984-03/packages/feature-jpeg-a-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/feature-jpeg-a-r02/manifest.json",
+    "sha256": "2b3d754a2834e1646cafd65b08377fbe6b91c89edf4ea4101e7c839968b3c552",
+    "bytes": 27000
+  },
+  "exact_files": 159,
+  "structure": {
+    "mapped_source_images": 6,
+    "actual_folios": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "regions": 38,
+    "text_regions": 35,
+    "blocks": 24,
+    "code_contexts": 4,
+    "physical_listing_rows": 210,
+    "listing_fields": 1260,
+    "original_figures": 3,
+    "figure_labels": 61,
+    "flow_nodes": 16,
+    "flow_edges": 20,
+    "internal_contents_entries": 8,
+    "paragraphs": 33,
+    "prose_joins": 11,
+    "source_qualifications": 24,
+    "whole_article_complete": false,
+    "successful_initial_text_ocr_tasks": 35,
+    "text_ocr_retries": 0,
+    "figure_crop_repairs": 2
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-02/validation.json",
+    "sha256": "371e8471c17a64928f0f1493dade605c4536d6957b2602e80d5b64f984e200d9",
+    "bytes": 3041
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-02/feature-a/recipe.json",
+    "sha256": "2a691affd19a43203b08d00a423e6ff8ca0f4402fdd7b027de6ffd970110012c",
+    "bytes": 17633
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-02/source-ledger.json",
+    "sha256": "778c528443497e03f28922f4be2784c3aef11cf906ad21eaa868db30c9720e8d",
+    "bytes": 147861
+  },
+  "source_dispositions_pending": 249,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-02/whole-progress-m06.json",
+    "sha256": "124356ce87eb4c23301f32fdabb28ac2ce5cdb032f2fdd8fa4b1c19b5a8406b0",
+    "bytes": 142247
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-02/evidence-manifest.json",
+    "sha256": "bdd3d5fad34072484b733cf0058eeb4f9cee37975be095cde4572795a6ca9d9a",
+    "bytes": 64586
+  },
+  "shared_change": {
+    "path": "tools/pdf_restore/assemble.py",
+    "description": "Forward exact unselected-note dispositions when reading immutable segments, matching the exporter contract.",
+    "pdf_tests": 214,
+    "image_tests": 52,
+    "recognition_tests": 9,
+    "supplement_tests": 7
+  },
+  "next": "M07: restore feature continuation on actual 20–25, including the 19/20 within-word prose join and native character/screen/keyboard structures."
+}

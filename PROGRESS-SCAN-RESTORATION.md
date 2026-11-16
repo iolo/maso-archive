@@ -16,7 +16,12 @@ other 37 PDF packages. Their 7,016-file supplement export is preserved as
 historical evidence, not accepted as whole-scan restoration. Every eligible
 article needs JPEG-backed content/structure review and all 273 scans need
 evidenced dispositions before closeout. M05 establishes the corrected queue and
-starts the complete editorial on actual 13. Prior PDF and supplement outputs
+completes the editorial on actual 13. M06 restores the feature's opening on
+actual 14–19: 159 exact native files, 210 physical code rows and three original
+diagrams with native structures. There are one complete article, one partial
+feature, 36 pending article candidates, six pending headings and 249 source
+images awaiting full-page disposition. Continue with actual 20–25.
+Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
 sample-reviewed. The 24 cleaned source sets
@@ -82,7 +87,8 @@ labels and the preserved exports retain their existing values.
 | March 1984 source revision — M02 | Passed | Complete word-processor article, actual 244–251; 136 exact files; original components retained |
 | March 1984 covers/source selection — M03 | Passed | Four original faces, 11 exact native files; all 273 JPEG selection outcomes explicit |
 | March 1984 supplemented issue — M04 | Historical supplement only | Reused 37 PDF articles; does not establish whole-scan completion |
-| March 1984 whole-issue restart — M05 | Active | All 44 canonical identities and 273 scans in scope; editorial on actual 13 first |
+| March 1984 whole-issue restart — M05 | Passed; whole issue active | All 44 canonical identities and 273 scans in scope; complete JPEG editorial on actual 13 |
+| March 1984 feature opening — M06 | Passed; whole article partial | Actual 14–19; 159 exact native files, 210 physical code rows, 1,260 fields, three original diagrams; 20–37 and assembly pending |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -3779,3 +3785,49 @@ complete until all whole-issue gates pass.
 
 See the [scope correction](metadata/catalog/scan-restoration/1984-03-scope-correction.json)
 and [M05 editorial result](metadata/catalog/scan-restoration/1984-03-editorial.json).
+
+## M06 — March whole-issue feature opening
+
+Restored actual **14–19** of **한글 명령 컴퓨터의 설계** from six donated
+JPEG masters. The title/bylines and eight-part internal contents establish the
+opening. Outside lookups locate the conclusion, acknowledgement, bibliography
+and closing star on **37**, publisher book promotion on **38**, the non-owning
+**취미생활** divider on **39**, and the next article opening on **40**. These
+boundaries do not substitute for later review of the intervening feature pages.
+Actual **20–37** and whole-article assembly remain pending.
+
+The selected **feature-jpeg-a-r02** independently reproduces **159 native files**.
+Its **38 regions**, **24 blocks**, **33 paragraphs**, eight internal contents
+entries and eleven source joins retain exact regional occurrences. Four code
+contexts preserve **210 physical rows / 1,260 typed fields**: two small format
+examples and separate command/function assembly tables. The three original
+rasters retain **61 labels**, memory bands and blank slots, I/O elisions, and a
+**16-node / 20-edge** flow graph. All five captions retain their proper raster
+or listing owners. The outgoing **화 / 면과** word continuation onto 20 remains
+explicitly pending. Preserve all **24 source qualifications**, including printed
+address/byte/punctuation anomalies, the circled 1, S/dollar candidates and
+independent source claims; no program execution or original-byte recovery claim.
+
+All **38 master-derived crops**, **35 original OCR bindings**, **144 raw ZIP
+members** and the independent pixel-assisted listing recount pass. The two
+clipped figure crops each received one targeted repair; no text recognition was
+repeated. Preserve the initial maps, both original figure attempts and the first
+native candidate. Selected r02 corrects its typed format-label/operand metadata
+and adds source-table adjacency; all **155 other text/OCR/raster/runtime/map
+files** remain exact. All **26 damaged-data cases** reject.
+
+An actual segment-read failure exposed an omitted exporter argument: immutable
+segment reading did not forward the exact unselected-note dispositions already
+validated during export. The small shared fix now honors that existing contract.
+The added PDF/JPEG segment-read assertions reproduce both failures before the
+fix and pass afterward. Fresh regressions pass: **214 PDF, 52 JPEG, nine
+recognition and seven source-revision/issue-supplement tests**. Prior M01–M05
+frozen evidence and historical native packages remain unchanged. Both shared
+OCR/PDF plans are unchanged. Cleanup was previewed without deletion.
+
+Whole March remains active with **one complete article, one partial feature,
+36 pending article candidates and six pending headings**. All **273 source
+identities** remain in the ledger; **249** await full-page disposition. The next
+bounded checkpoint is **M07**, feature continuation on actual **20–25**.
+See [the opening result](metadata/catalog/scan-restoration/1984-03-feature-opening.json)
+and [active whole-issue progress](metadata/catalog/scan-restoration/1984-03-progress.json).

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "issue_id": "maso-1984-03",
   "status": "active",
-  "scope": "Whole donated-scan issue restoration,including every eligible article and native structure,all source-image dispositions and independent native article/issue rebuilds.",
-  "scope_correction": "Owner explicitly requested the whole issue. M01–M04supplement-only work does not satisfy that request.",
+  "scope": "Whole donated-scan issue restoration, including every eligible article and native structure, all source-image dispositions and independent native article/issue rebuilds.",
+  "scope_correction": "Owner explicitly requested the whole issue. M01–M04 supplement-only work does not satisfy that request.",
   "historical_supplement_progress": {
     "path": "archive/scans/1984-03/restoration/whole-issue-01/supplement-progress-before-correction.json",
     "sha256": "ad30ca1aa64e6c52373c59ba2b2cbb4ef9115b283744f6206f2b6bcd87725996",
@@ -19,7 +19,7 @@
       "title": "특집 : 한글 명령 컴퓨터의 설계",
       "parent_id": null,
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0001",
@@ -395,7 +395,58 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "segments": [
+          {
+            "checkpoint": "M06",
+            "directory": "archive/scans/1984-03/packages/feature-jpeg-a-r02",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/feature-jpeg-a-r02/manifest.json",
+              "sha256": "2b3d754a2834e1646cafd65b08377fbe6b91c89edf4ea4101e7c839968b3c552",
+              "bytes": 27000
+            },
+            "actual_folios": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-02/validation.json",
+              "sha256": "371e8471c17a64928f0f1493dade605c4536d6957b2602e80d5b64f984e200d9",
+              "bytes": 3041
+            }
+          }
+        ],
+        "observed_opening_folio": 14,
+        "observed_ending_folio": 37,
+        "intermediate_extent_fully_reviewed": false,
+        "continuation_pending": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "assembly_pending": true
+      },
       "historical_printed_extent_candidate": [
         14,
         15,
@@ -449,7 +500,17 @@
           "note": "Source section divider without independent article body."
         }
       },
-      "new_selected_restoration": null
+      "new_selected_restoration": null,
+      "located_source_evidence": {
+        "actual_folio": 39,
+        "observed_heading": "취미생활",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-02/review/full-039.jpg",
+          "sha256": "85e5865038613ee20058595b86cc312c26324ec34bd444257c4a176cad7d5673",
+          "bytes": 530518
+        },
+        "classification_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0003",
@@ -639,7 +700,17 @@
         44,
         45,
         46
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 40,
+        "observed_title": "추리력 테스트 게임",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-02/review/full-040.jpg",
+          "sha256": "c89aae0be51012a6e6a1026ab7190d8d282fc7aac72dd2aa756a3f420380e006",
+          "bytes": 632766
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0004",
@@ -4586,12 +4657,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-01/source-ledger.json",
-    "sha256": "24ec0d58875f9f0d4f518a9cfcc858cc85eaa97d14b09dbc9772c0f41f12ce15",
-    "bytes": 140959
+    "path": "archive/scans/1984-03/restoration/whole-issue-02/source-ledger.json",
+    "sha256": "778c528443497e03f28922f4be2784c3aef11cf906ad21eaa868db30c9720e8d",
+    "bytes": 147861
   },
-  "current_checkpoint": "M05-complete",
-  "next": "M06: locate the full JPEG extent and structures of the feature 한글 명령 컴퓨터의 설계,then restore its opening in a bounded segment. All other article and source dispositions remain in the active whole-issue queue.",
-  "pending_article_candidates": 37,
-  "pending_heading_candidates": 6
+  "current_checkpoint": "M06-complete",
+  "next": "M07: restore feature continuation on actual 20–25, including the 19/20 within-word prose join and native character/screen/keyboard structures.",
+  "pending_article_candidates": 36,
+  "pending_heading_candidates": 6,
+  "partial_whole_scan_articles": 1
 }

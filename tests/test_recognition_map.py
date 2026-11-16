@@ -10,6 +10,7 @@ from unittest.mock import patch
 from PIL import Image
 
 from tools.pdf_restore.build import build, check_export, validate_recognition_map
+from tools.pdf_restore.assemble import read_segment
 from tools.pdf_restore.inventory import pin, write_json
 from tools.pdf_restore.ocr import page_ocr
 from tests import test_image_source, test_pdf_build
@@ -89,6 +90,9 @@ class RecognitionMapTests(unittest.TestCase):
                 for output in outputs:
                     package = build(path, output, root)
                     self.assertEqual(check_export(output), package)
+                    # The immutable segment reader must accept the same scoped
+                    # note dispositions as export, for both PDF and JPEG input.
+                    self.assertEqual(read_segment(output, pin(output, 'manifest.json'))[0], package)
                     self.assertEqual(len(package['raw_ocr']), 2)
                     self.assertEqual(len(package['region_assets']), 3)
                     self.assertEqual((output/'ocr/r1.settings.json').read_bytes(),

@@ -31,7 +31,12 @@ source-backed review and disposition, and every eligible article requires
 JPEG-backed content, structure, continuity and reproduction evidence before
 whole-issue closeout. Preserve the
 [supplement handoff](docs/SCAN-RESTORATION-1984-03.md) as historical evidence.
-M05 starts the whole-issue queue and editorial.
+M05 starts the whole-issue queue and completes the editorial. M06 restores the
+feature's opening on actual 14–19 as a checked native segment: 159 exact files,
+210 physical code rows and three original diagrams with native structures.
+The whole issue remains active: one complete article, one partial feature,
+36 pending article candidates and six pending headings. There are 249 source
+images still awaiting full-page disposition. Continue with actual 20–25.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
