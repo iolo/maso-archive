@@ -85,11 +85,14 @@ units, five variable definitions, nine routine ranges and the original photograp
 All fourteen source crops and the separate native audit pass. M23 completes
 received 불꽃 놀이 on 79: 31 exact native files, 33 physical BASIC rows / 21 numbered
 units, five HPLOT commands, two original photographs and two source pen marks.
-All seven source crops and the separate native audit pass. The whole issue
+All seven source crops and the separate native audit pass. M24 classifies
+교육입문 on 81 as a non-owning divider: six exact native files, seven navigation
+rows and three original crops, with the separate BASIC article opening on 82.
+The whole issue
 remains active: thirteen complete articles, no partial articles, 25 pending article
-candidates, one completed heading and five pending headings. There are 193 source
-images still awaiting full-page disposition. Continue with M24, 교육입문,
-candidate heading 81 and following BASIC opening 82,
+candidates, two completed headings and four pending headings. There are 191 source
+images still awaiting full-page disposition. Continue with M25, 베이직 강좌,
+candidate 82–87,
 verifying its extent and following
 boundary in a bounded checkpoint.
 Track execution in

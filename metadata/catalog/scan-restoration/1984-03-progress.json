@@ -2258,8 +2258,8 @@
       "title": "교육입문",
       "parent_id": null,
       "classification_candidate": "group-heading",
-      "whole_scan_status": "pending-source-backed-heading-disposition",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-source-backed-group-heading",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0014",
         "title": "교육입문",
@@ -2279,7 +2279,55 @@
           "note": "Source section divider without independent article body."
         }
       },
-      "new_selected_restoration": null
+      "new_selected_restoration": null,
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "availability": "not-applicable",
+      "child_toc_entry_ids": [
+        "maso-1984-03-toc-0015",
+        "maso-1984-03-toc-0016",
+        "maso-1984-03-toc-0017",
+        "maso-1984-03-toc-0018",
+        "maso-1984-03-toc-0019",
+        "maso-1984-03-toc-0020",
+        "maso-1984-03-toc-0021"
+      ],
+      "located_source_evidence": {
+        "actual_folio": 81,
+        "observed_heading": "교육입문",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-20/review/full-081.jpg",
+          "sha256": "b12a75b3e1ff1323fec9cc0732aa64ff281d8a04a1333810df52b60e0fd1b961",
+          "bytes": 630538
+        },
+        "classification_pending": false,
+        "selected_source_classification": {
+          "path": "archive/scans/1984-03/classifications/education-jpeg-r01/group-0014.json",
+          "sha256": "910dc8c2dd1b86e4e33ad53eb06861c24284ca135ad7b33b290f6d60ff278d8b",
+          "bytes": 6112
+        }
+      },
+      "new_selected_classification": {
+        "checkpoint": "M24",
+        "directory": "archive/scans/1984-03/classifications/education-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/classifications/education-jpeg-r01/manifest.json",
+          "sha256": "c69f88674c4ec7f2aec9080f580e94173ee0c98a994bf0263b787ef61f615138",
+          "bytes": 866
+        },
+        "record": {
+          "path": "archive/scans/1984-03/classifications/education-jpeg-r01/group-0014.json",
+          "sha256": "910dc8c2dd1b86e4e33ad53eb06861c24284ca135ad7b33b290f6d60ff278d8b",
+          "bytes": 6112
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-20/validation.json",
+          "sha256": "a3214e6b230e98581e2235663386961aa2093d16707475e61f64736277edb78a",
+          "bytes": 2272
+        },
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0015",
@@ -2358,7 +2406,17 @@
         85,
         86,
         87
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 82,
+        "observed_title": "베이직 강좌",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-20/review/full-082.jpg",
+          "sha256": "b7abce028f1db0adf45f29fdb313bdd93f4f1ea8a2aafd3e39eeb37e9a3ab7a7",
+          "bytes": 681198
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0016",
@@ -5329,14 +5387,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-19/source-ledger.json",
-    "sha256": "2b339acd7d5b0d122feb3348de3414e2f7c46d5771ad08deb16671322a1cbe9f",
-    "bytes": 228609
+    "path": "archive/scans/1984-03/restoration/whole-issue-20/source-ledger.json",
+    "sha256": "1c700c7a7cdf0b658ca1e314946f0594f2c69dc4bdc36198a529aa185d6f2be1",
+    "bytes": 230366
   },
-  "current_checkpoint": "M23-complete",
-  "next": "M24: source-check 교육입문, maso-1984-03-toc-0014, candidate heading81, and locate following BASIC opening82 before article restoration. Whole March remains active.",
+  "current_checkpoint": "M24-complete",
+  "next": "M25: restore 베이직 강좌, maso-1984-03-toc-0015, candidate82–87; verify complete extent and following boundary against88. Whole March remains active.",
   "pending_article_candidates": 25,
-  "pending_heading_candidates": 5,
+  "pending_heading_candidates": 4,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 1
+  "complete_whole_scan_headings": 2
 }

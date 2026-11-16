@@ -52,10 +52,12 @@ routine ranges and the original photograph. All fourteen source crops and the
 separate native audit pass. M23 completes received 불꽃 놀이 on 79: 31 exact native
 files, 33 physical BASIC rows / 21 numbered units, five HPLOT commands, two original
 photographs and two source pen marks. All seven original-master crops and the
-separate native audit pass. Current totals are thirteen complete articles, no partial
-articles, 25 pending article candidates, one completed heading, five pending headings
-and 193 source images awaiting full-page disposition. Continue with M24,
-교육입문, candidate heading 81 and following BASIC opening 82, in bounded checkpoints.
+separate native audit pass. M24 classifies 교육입문 on 81 as a non-owning divider
+in six exact native files, retaining seven navigation rows and three source crops.
+The following BASIC article opens on 82. Current totals are thirteen complete
+articles, no partial articles, 25 pending article candidates, two completed headings,
+four pending headings and 191 source images awaiting full-page disposition.
+Continue with M25, 베이직 강좌, candidate 82–87, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4784,4 +4786,34 @@ Whole March remains active with **thirteen complete articles, no partial article
 All 273 scans remain in the ledger; **193** await full-page disposition. Continue
 with **M24**, source-checking **교육입문**, candidate heading 81, and locating the
 following BASIC opening on 82. See [the fireworks result](metadata/catalog/scan-restoration/1984-03-fireworks.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M24 — March non-owning education divider, actual 81
+
+Classified **교육입문**, canonical **maso-1984-03-toc-0014**, as a non-owning
+section divider. The package at
+`archive/scans/1984-03/classifications/education-jpeg-r01/` reproduces **six exact
+files**, including three original crops for the diagonal heading, navigation list
+and intact graduation-cap/floppy-disk illustration. Both original heading
+occurrences and all **seven navigation rows** were compared with the JPEG.
+
+The printed references **82, 88, 92, 100, 109, 113 and 118** retain their seven
+canonical child associations. They remain navigation claims, without establishing
+article extents or completion. Observed folio **81** remains separate from the
+canonical heading's absent page reference. No standalone article body, OCR work,
+caption, brand or additional illustration label is invented. Full source **82**
+separately opens **베이직 강좌**, marked **연재 1회**; its restoration is pending.
+
+An independent fresh rebuild, **three original-master pixel checks and 26 damaged
+classification cases** pass. All **103 frozen M23 evidence files** and shared
+implementation pins remain unchanged; the unchanged **286-test fresh M13
+baseline** is reused. M24 freezes **twenty evidence files**. Cleanup was previewed
+without deletion. Assistant source comparison remains distinct from full human
+acceptance.
+
+Whole March remains active with **thirteen complete articles, no partial articles,
+25 pending article candidates, two completed headings and four pending headings**.
+All 273 scans remain in the ledger; **191** await full-page disposition. Continue
+with **M25**, **베이직 강좌**, candidate 82–87, verifying its complete extent and
+following boundary against 88. See [the education-divider result](metadata/catalog/scan-restoration/1984-03-education-heading.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

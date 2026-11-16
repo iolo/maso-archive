@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M24",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0014",
+  "status": "complete-source-backed-group-heading",
+  "whole_heading_complete": true,
+  "whole_issue_complete": false,
+  "body_owner": false,
+  "restoration": null,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    81
+  ],
+  "selected_classification": "archive/scans/1984-03/classifications/education-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/classifications/education-jpeg-r01/manifest.json",
+    "sha256": "c69f88674c4ec7f2aec9080f580e94173ee0c98a994bf0263b787ef61f615138",
+    "bytes": 866
+  },
+  "record": {
+    "path": "archive/scans/1984-03/classifications/education-jpeg-r01/group-0014.json",
+    "sha256": "910dc8c2dd1b86e4e33ad53eb06861c24284ca135ad7b33b290f6d60ff278d8b",
+    "bytes": 6112
+  },
+  "exact_files": 6,
+  "master_crops": 3,
+  "navigation_rows": 7,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-20/validation.json",
+    "sha256": "a3214e6b230e98581e2235663386961aa2093d16707475e61f64736277edb78a",
+    "bytes": 2272
+  },
+  "builder": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-20/build-heading.py",
+    "sha256": "6751a841818c93e8e78f1e50cb3b6edef49cfc59ddd1a563e9a1fe36b355d36e",
+    "bytes": 4488
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-20/source-ledger.json",
+    "sha256": "1c700c7a7cdf0b658ca1e314946f0594f2c69dc4bdc36198a529aa185d6f2be1",
+    "bytes": 230366
+  },
+  "source_dispositions_pending": 191,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-20/whole-progress-m24.json",
+    "sha256": "c945e98d4a6f91537cb5a985f2e8eb155ea5cab809bb09e37e3be5d9c025094b",
+    "bytes": 169619
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-20/evidence-manifest.json",
+    "sha256": "e4094d85c2b368e3a4d718eb571a6348687597aa7b10bb2265fff3ce15d9b57f",
+    "bytes": 3123
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M25: restore 베이직 강좌, maso-1984-03-toc-0015, candidate82–87; verify complete extent and following boundary against88. Whole March remains active."
+}
