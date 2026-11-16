@@ -1,10 +1,10 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R50 are complete. Restoration is paused for the owner's pilot review;
-the separate R50 reading-room build does not resume restoration.
-On resume, R51 is next: restore the final 238–239 segment of 읽을거리 : 통합 소프트웨어;
-its observed whole extent is 232–239. Checked whole-article assembly remains separate.
+R00–R51 are complete. The owner resumed the whole-November restoration goal
+after the separate R50 reading-room review build.
+R52 is next: check the whole 232–239 assembly of 읽을거리 : 통합 소프트웨어
+from its preserved opening and final segments.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -302,15 +302,32 @@ restored JSON/assets and faithful source evidence first.
 | R48 — SPC-CLOCK | Actual 212–217; complete native article package | 168 identical files; four code contexts / 383 physical rows / 354 logical units, 615 printed bytes, 35 symbol bindings, 144 table cells, source screenshot and interrupt flow / 13 nodes / 14 edges; 42 pixel checks, 117 invalid cases; unchanged 258-test baseline reused |
 | R49 — 사운드 키보드 | Actual 218–221; complete native article package | 124 identical files; four 6502 variants / 138 rows / 302 printed bytes, two source flowcharts / 18 nodes / 18 edges / 43 labels, explicit displaced prose line and source references; 31 pixel checks, 114 invalid cases; unchanged 258-test baseline reused |
 | R50 — 통합 소프트웨어 opening segment a | Actual 232–237 of observed 232–239; whole article remains partial | 207 identical files; 74 paragraphs, 12 section records, five product profiles, five attributed quotations, six Lisa components, eleven named commands and three original illustrations; 52 pixel checks, 116 invalid cases; unchanged 258-test baseline reused |
+| R51 — 통합 소프트웨어 final segment b | Actual 238–239; all source folios covered, whole assembly pending | 73 identical files; 30 paragraphs, three section records, 33 source claims, one cross-column quotation, anticipated hardware requirements, alternative OEM packaging and original closing emblem; 17 pixel checks, 121 invalid cases; unchanged 258-test baseline reused |
 
-Immediate next action: **R51**, restore **238–239** of **읽을거리 : 통합 소프트웨어**,
-`maso-1984-11-toc-0032`. Page 238 continues Starburst in a new paragraph after
-**단 dBASE II와 슈퍼캘크는 예외이다.**, then opens **4. 인터페이스 매니저**.
-Page 239 contains the compatibility discussion and article closing emblem.
-Confirm all paragraph, quotation, product/command/compatibility and figure
-structures before mapping. Keep at most two identities, six new mapped source
-views and twenty outside lookups. Keep the whole article partial until a
-separate checked **232–239** native assembly, planned **R52**.
+Immediate next action: **R52**, assemble **232–239** of **읽을거리 : 통합 소프트웨어**,
+`maso-1984-11-toc-0032`, from immutable `integrated-a-r01` and `integrated-b-r01`.
+Keep every original segment file exact. Join Starburst's 237/238 boundary as a
+new paragraph after **단 dBASE II와 슈퍼캘크는 예외이다.**; retain section 3,
+its conclusion, section 4 and compatibility hierarchy. Reconcile the 237 caption's
+**메니저** with the 238 heading's **매니저**, preserving both spellings and
+their actual owners. Check all source/text ranges, claims, quotations, assets,
+captions and whole-article ownership, all **69 original crop proofs**, damage
+rejection and an independent exact rebuild. No fresh OCR is needed. The whole
+article remains partial until that separate assembly passes. Preserve all three
+reader snapshots, including R50; do not rerun frozen checkpoint scripts.
+
+Preserve final **238–239** as `integrated-b-r01`: **73 native files**, **30 prose
+paragraphs**, three section records, **33 source claims**, three feature groups,
+three anticipated requirements, two program examples, three attributed claims,
+one cross-column quotation, two Mailmerge occurrences, two record-transfer
+stages and two alternative OEM packaging routes followed by delivery. The
+packaging routes are alternatives, not jointly required sequential stages.
+The source's **195/595 dollars**, **4 lines**, **two floppy drives** and **192K**
+remain historical claims. Preserve separate **어시노 / 어지노** occurrences,
+the duplicated **인터페이스는 매니저는**, **고유용**, local program-name candidates
+and all nine qualifications. Retain the original closing emblem without
+invented lettering or caption. All **17 pixel checks** and **121 damage cases**
+pass. All source folios are now covered; checked assembly remains pending.
 
 Preserve opening **통합 소프트웨어**, **232–237**, as `integrated-a-r01`.
 Observed metadata is **읽을거리**, **마지막 회**, title **통합 소프트웨어** and

@@ -9118,12 +9118,11 @@
         234,
         235,
         236,
-        237
-      ],
-      "pending_folios": [
+        237,
         238,
         239
       ],
+      "pending_folios": [],
       "assembly_required": true,
       "source_views": [
         {
@@ -9248,6 +9247,48 @@
             0,
             0,
             0.0001446340757882557,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 241,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-238.jpg",
+            "sha256": "344b60855b6c6a1701b208eacdc69b4394f185afbc14af6958d74c3f33b8d851",
+            "bytes": 8182304
+          },
+          "width_px": 4754,
+          "height_px": 6913,
+          "reading_order": 240,
+          "source_filename_number": 238,
+          "printed_page": "238",
+          "image_to_upright_normalized": [
+            0.00021034917963819942,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 242,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-239.jpg",
+            "sha256": "60304dd8f74021274352a66f345ff772fbd0e8d1dad7052e92fffa483154f6ef",
+            "bytes": 8936089
+          },
+          "width_px": 4769,
+          "height_px": 6919,
+          "reading_order": 241,
+          "source_filename_number": 239,
+          "printed_page": "239",
+          "image_to_upright_normalized": [
+            0.00020968756552736424,
+            0,
+            0,
+            0.00014452955629426219,
             0,
             0
           ]
@@ -9415,6 +9456,72 @@
               "bytes": 93284
             }
           ]
+        },
+        {
+          "segment_id": "b",
+          "printed_folios": [
+            238,
+            239
+          ],
+          "source_views": [
+            {
+              "source_index": 241,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-238.jpg",
+                "sha256": "344b60855b6c6a1701b208eacdc69b4394f185afbc14af6958d74c3f33b8d851",
+                "bytes": 8182304
+              },
+              "width_px": 4754,
+              "height_px": 6913,
+              "reading_order": 240,
+              "source_filename_number": 238,
+              "printed_page": "238",
+              "image_to_upright_normalized": [
+                0.00021034917963819942,
+                0,
+                0,
+                0.00014465499783017504,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 242,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-239.jpg",
+                "sha256": "60304dd8f74021274352a66f345ff772fbd0e8d1dad7052e92fffa483154f6ef",
+                "bytes": 8936089
+              },
+              "width_px": 4769,
+              "height_px": 6919,
+              "reading_order": 241,
+              "source_filename_number": 239,
+              "printed_page": "239",
+              "image_to_upright_normalized": [
+                0.00020968756552736424,
+                0,
+                0,
+                0.00014452955629426219,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/integrated-b-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/integrated-b-r01/manifest.json",
+              "sha256": "ea34f3338d9b6b6de136e5188d31b7ab492b89932d168992730705d53a53af32",
+              "bytes": 12611
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-51/validation.json",
+              "sha256": "59749ed3f53aab74c01896c8eb8248a3227f7672b61e283d1ad7773032b5c9e0",
+              "bytes": 60239
+            }
+          ]
         }
       ],
       "evidence": [
@@ -9422,21 +9529,26 @@
           "path": "archive/scans/1984-11/restoration/batch-50/validation.json",
           "sha256": "5acf6c1e67af2d80d9d7e909b2c14a2ef4477ec743ebab07e6fea89edb1a1b2d",
           "bytes": 93284
+        },
+        {
+          "path": "archive/scans/1984-11/restoration/batch-51/validation.json",
+          "sha256": "59749ed3f53aab74c01896c8eb8248a3227f7672b61e283d1ad7773032b5c9e0",
+          "bytes": 60239
         }
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-50/review/source-findings.json",
-          "sha256": "409b26b0712896ffd621bcbd49b747dee56be29574542704afe17ebe9cd2afbb",
-          "bytes": 1940
+          "path": "archive/scans/1984-11/restoration/batch-51/review/source-findings.json",
+          "sha256": "f768fee9a190cd6e6debd3f32e98be65000ed173509c395eece27c71c3f4847a",
+          "bytes": 1089
         },
-        "status": "Observed232–239body;opening232–237restored,238–239andnativeassemblypending.231Q&Aand240advertisement/indexseparate;237captionhasforwardInterfaceManagerreference."
+        "status": "Observed232–239body fully restored as two native segments;checkedwholeassemblypending.237/238newparagraph,section4and239endingexplicit;240advertisement/indexseparate."
       },
       "limitations": [
-        "Opening source segment232–237only;238–239and checked whole-article native assembly remain pending.",
-        "Historical dates,prices,specifications,performance/planned features,comparisons and attributions remain source claims without external correction or behavioral verification.",
-        "Source word/name/product/caption variants and local proper-name glyph candidates remain occurrence-owned rather than normalized.",
-        "Three original editorial illustrations/captions are retained without invented functional graphs,interior text or exact vector reconstruction.",
+        "All232–239sourcefoliosarecoveredinimmutableopeningandfinalsegments;checkedwholearticleassemblyremainspending.",
+        "Historical dates,prices,specifications,performance/planned features,comparisons and attributions remain unverified source claims.",
+        "Source wording and independent proper-name/product variants are retained with occurrence-owned qualifications.",
+        "Original closing emblem retained as raster without invented caption,lettering or functional diagram.",
         "Original encoded bytes and exact spacing remain unverified;prose line wrapping/paragraph spacing is an explicit editorial projection.",
         "Assistant source sample review is distinct from full human proofreading and acceptance."
       ]
@@ -9607,6 +9719,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R51: restore the final source segment238–239 of 읽을거리:통합소프트웨어 (maso-1984-11-toc-0032), observed whole extent232–239. Preserve immutable openingintegrated-a-r01 on232–237.238continuesStarburst in a new paragraph after 단dBASEII와슈퍼캘크는예외이다.;then section4인터페이스매니저begins.239containscompatibilitydiscussionandarticleclosingemblem. Establish all source paragraphs/headings,quoted claims,product/command/compatibility relationships and glyph qualifications before mapping. Reconcile the237captionnamed메니저forwardreference to the238sectionheading매니저 explicitly. At most two identities,six new mapped source views and twenty outside lookups;reuse successfulOCR and do not run frozen checkpoint scripts. Keep the whole article partial until a separate checked232–239native assembly,plannedR52. Preserve all prior packages/evidence,both dated reader previews and shared plans. Six other unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild remain in scope;keep the November goal active.",
+  "next": "R52: assemble checked whole232–239읽을거리:통합소프트웨어 (maso-1984-11-toc-0032) from immutableintegrated-a-r01 andintegrated-b-r01. Preserve every embedded segment byte and its original source/OCR/qualification records. Join Starburst as a new paragraph at237/238,not an open sentence;retain section3,its conclusion,and section4InterfaceManager/compatibility hierarchy. Reconcile237메니저caption to238매니저heading explicitly without assigning it toStarburst or normalizing spelling. Preserve cross-column quotation with independent어시노/어지노attributions;33final claims,conditionalfeatures,anticipatedrequirements,OEMalternativepackaging and closingemblem. Check all content/source ranges,captions,assets,article ownership,69pixel crops,negative gates and independent exact wholearticle rebuild before selecting complete outcome. No freshOCR or frozen checkpoint scripts. Preserve all three reader snapshots. Six other identities,covers/source accounting and wholeissueexport/rebuildremain pending;keep Novembergoalactive.",
   "group_headings": 6
 }

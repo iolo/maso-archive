@@ -2904,3 +2904,70 @@ Build and browser evidence is separate under
 to pause after the current batch. On resume, R51 restores integrated software's
 final 238–239 segment before separate whole-article assembly. The November goal
 is paused and incomplete; this review build does not resume it.
+
+## November 16, 2026 — R51 통합 소프트웨어 final segment, actual 238–239
+
+The owner resumed the whole-November goal after the pilot review build. Committed
+R50 and its reading-room receipt as **156636b9**, then prospectively bounded R51
+to two selected source views and two boundary lookups. Canonical identity
+`maso-1984-11-toc-0032`, the observed 232–239 extent, title, final-installment
+metadata and editorial credit stay unchanged.
+
+Selected `integrated-b-r01` restores **238–239** in **73 reproducible native files**.
+It preserves Starburst's final discussion, the conclusion to section 3, numbered
+**4. 인터페이스 매니저**, its deck and body, the **호환성** subsection and original
+closing emblem. Its **eight blocks, 30 prose paragraphs, three section records
+and eight explicit column/page joins** express logical structure independently
+of the three-column page layout. No code listing or table was invented.
+
+Native source records retain **34 numeric/Latin literal occurrences**, **33
+technical and historical claims**, three feature groups, three anticipated
+hardware requirements, two program examples, three attributed claims and one
+long attributed quotation crossing the 239 middle/right columns. The source's
+base/bundled **195/595-dollar** prices, **four display lines**, **two floppy
+drives**, **192K RAM**, operating-system support and planned compatibility remain
+source claims without external correction or behavioral verification.
+
+Mailmerge's two occurrences retain distinct invocation and denied-transfer roles.
+The two-stage record extraction/insertion example remains prose, without an
+invented printed flowchart. OEM distribution retains **two packaging alternatives**
+(computer installation or a separate hardware product), followed by user delivery;
+the alternatives are not flattened into a sequence requiring both. Conditional
+features, remaining compatibility limitations and proposed standards remain
+separate source assertions.
+
+The final segment explicitly refers back to Starburst's immutable opening and
+the 237 illustration caption, whose **메니저** refers to the 238 **매니저** heading;
+it is not assigned to adjacent Starburst text. The 237/238 Starburst boundary is
+a **new paragraph**, not an open sentence. Closing text/emblem on 239 and the
+separate advertisement/index on 240 establish the ending. Nine occurrence-owned
+qualifications retain **어시노 / 어지노**, local program-name glyph candidates,
+**인터페이스는 매니저는**, **고유용** and source company/product spacing. Original
+bytes/spacing, historical claims, full proofreading and human acceptance remain
+unverified. The closing emblem is retained without invented lettering or caption.
+
+All **16 initial mapped Tesseract tasks succeeded once**: no retry, engine change
+or repeated successful recognition. Source readings were refined before export
+to retain the distinct name occurrences and the 238 peripheral-control paragraph
+break. Native export and independent rebuild each passed on their first run.
+The first independent structure helper had an indentation error in its expected
+block-order calculation; its preflight failed. The corrected helper passed
+without changing the native package, and the failed helper/log are preserved.
+
+The full audit passes **73 identical files**, **17 master-derived pixel crops**,
+sixteen original OCR/settings records, **66 ZIP members** and **121 damaged
+actual-source/native cases**. All **49 earlier selected catalog packages and
+frozen evidence**, six heading classifications, three reader receipts/data/site/
+evidence sets, 28 implementation pins, both shared plans, input inventory/source
+descriptor and ten runtime files remain exact. The unchanged **258-test R46
+baseline** and logs were rehashed and reused; tests were not freshly rerun.
+Cleanup was preview-only. **174 private evidence files** are frozen.
+
+See the [R51 result](metadata/catalog/scan-restoration/1984-11-integrated-b.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+November remains **27 complete articles, one partial, six non-owning headings
+and six unclassified entries**. All 232–239 source pages are restored in two
+immutable segments; the opening package pointer stays selected until **R52's
+separate checked whole-article assembly**. The R50 review reader remains at its
+saved snapshot. Six other identities, covers/source accounting and whole-issue
+native export/rebuild remain in scope. **The November goal remains active.**
