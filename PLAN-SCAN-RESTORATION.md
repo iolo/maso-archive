@@ -1,11 +1,12 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R52 are complete. The owner resumed the whole-November restoration goal
-after the separate R50 reading-room review build.
-R53 is next: establish 정보 레이다 from its catalog opener 127 and adjacent
-source material before mapping. The complete 232–239 integrated-software article
-is selected as `integrated-r01`.
+R00–R53 are complete. The whole-November restoration goal is active.
+R53 selected the domestic opening of **정보 레이다**, actual **127–132** of
+observed **127–137**, as `information-a-r01`. **R54** restores foreign news on
+133–137; a separate checked whole-article assembly remains required. The reading
+room was built only for the owner's one-time human visual sanity check. Do not
+change its implementation or schedule further reader work during restoration.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -306,12 +307,33 @@ restored JSON/assets and faithful source evidence first.
 | R51 — 통합 소프트웨어 final segment b | Actual 238–239; all source folios covered, whole assembly pending | 73 identical files; 30 paragraphs, three section records, 33 source claims, one cross-column quotation, anticipated hardware requirements, alternative OEM packaging and original closing emblem; 17 pixel checks, 121 invalid cases; unchanged 258-test baseline reused |
 | R52 — complete 통합 소프트웨어 assembly | Actual 232–239; complete native article package | 288 identical files including 280 exact embedded segment files; 104 paragraphs, 15 sections, 206 literal fields, nine quoted literals and 448 scoped identities; explicit paragraph/caption/product resolutions, 69 pixel checks, 96 invalid cases and 260 fresh regressions |
 
-Immediate next action: **R53**, establish **정보 레이다**, canonical identity
-`maso-1984-11-toc-0035`, from catalog opener **127** and adjacent source pages.
-Confirm its actual body ownership, extent, observed title/byline and structures
-before mapping. Keep at most two identities, six new mapped source views and
-twenty outside lookups; segment if needed. Six unclassified identities,
-covers/source-image accounting and whole-issue native export/rebuild remain.
+| R53 — information radar domestic opening a | Actual 127–132 of observed 127–137; whole article remains partial | 325 identical files; 15 news items, 55 paragraphs, six tables / 815 cells, 42 award occurrences, four distinct print specimens and seven figures; explicit MIC 130/131/130 continuation, 83 pixel checks and 104 invalid cases; unchanged 260-test baseline reused |
+
+Immediate next action: **R54**, the final **133–137** foreign-news source
+segment of **정보 레이다**, canonical identity `maso-1984-11-toc-0035`.
+Establish each item, heading, claim, table/figure and source uncertainty before
+mapping. Keep at most two identities, six new mapped views and twenty outside
+lookups. Preserve the immutable domestic opening and leave the article partial
+until separate checked **127–137** assembly, provisionally R55. Five other
+unclassified identities, covers/source-image accounting and whole-issue native
+export/rebuild remain required. No reading-room implementation or build work is
+included; the four existing reader snapshots stay preserved.
+
+Preserve domestic **127–132** as `information-a-r01`, including **15 news items,
+55 prose paragraphs, seven original figures, six tables / 815 cells**, the
+three-officer ASOCIO roster, **42 award occurrences**, all category/rank/ditto
+relationships and four separate HANIT print specimens. **405호 / 406호 / RM405**
+remain distinct occurrences. The four DWCPM output panels keep metadata, header
+groups, 77 data rows / 596 cells / 29 blanks, totals, twenty bar observations
+and source continuation notices. Do not invent continued sample rows, exact
+output bytes, X counts or printer-mode identities. Preserve the MIC source order
+**130/131/130** and both **PROCESSOR-32** joins, with the stale original map cue
+explicitly qualified. Retain original **4KB**, **그바이트**, **10말**, historical
+contacts and source count/name disagreements. All **325 files** reproduce;
+**83 pixel checks** and **104 damaged-source cases** pass. All thirty shared
+implementation pins are unchanged; the R52 **260-test baseline** was rehashed
+and reused, not freshly rerun. The 718-file R53 evidence set is frozen; never
+rerun its checkpoint helpers.
 
 Preserve complete **232–239** of **읽을거리 : 통합 소프트웨어** as `integrated-r01`,
 with immutable `integrated-a-r01` and `integrated-b-r01`. All **288 native files**
@@ -551,8 +573,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-eight complete article packages, no partial articles, six non-owning
-headings and six unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty-eight complete article packages, one partial article, six non-owning
+headings and five unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

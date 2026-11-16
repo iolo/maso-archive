@@ -6,8 +6,8 @@
   "source_type": "jpeg-set",
   "canonical_identities": 40,
   "readable_articles": 28,
-  "partial_articles": 0,
-  "identitiesAwaitingDisposition": 6,
+  "partial_articles": 1,
+  "identitiesAwaitingDisposition": 5,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -9667,10 +9667,354 @@
       "page_candidates": [
         127
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "observed_title": "정보 레이다",
+      "observed_subtitle": "누가, 무엇을, 어떻게…",
+      "observed_category": [
+        "나라안 소식",
+        "사옥이전"
+      ],
+      "observed_byline": null,
+      "byline_status": "No article-wide personal byline observed; company/organization labels belong to individual news items.",
+      "observed_whole_extent": [
+        127,
+        137
+      ],
+      "restored_folios": [
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ],
+      "pending_folios": [
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "assembly_required": true,
+      "source_views": [
+        {
+          "source_index": 130,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-127.jpg",
+            "sha256": "cd5bdc2aaed35efdbe62909a677e91db8431d3d9ef3262a8e1c138fdd27c7321",
+            "bytes": 9729572
+          },
+          "width_px": 4747,
+          "height_px": 6920,
+          "reading_order": 129,
+          "source_filename_number": 127,
+          "printed_page": "127",
+          "image_to_upright_normalized": [
+            0.0002106593638087213,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 131,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-128.jpg",
+            "sha256": "56367afde9ec75553d5e96a3d8eda0b8111154234b5b819c90568c9f747a9894",
+            "bytes": 8772917
+          },
+          "width_px": 4754,
+          "height_px": 6926,
+          "reading_order": 130,
+          "source_filename_number": 128,
+          "printed_page": "128",
+          "image_to_upright_normalized": [
+            0.00021034917963819942,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 132,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-129.jpg",
+            "sha256": "306bbf4d521b6dcb34f98075fcdb7dcbba4f5690ce2a9c20946cb00e85890799",
+            "bytes": 8822818
+          },
+          "width_px": 4730,
+          "height_px": 6923,
+          "reading_order": 131,
+          "source_filename_number": 129,
+          "printed_page": "129",
+          "image_to_upright_normalized": [
+            0.00021141649048625792,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 133,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-130.jpg",
+            "sha256": "370adb40245c910f9f1d12108b288acbea81c44f3cea6c7b25a2e8f23967e171",
+            "bytes": 8171253
+          },
+          "width_px": 4751,
+          "height_px": 6923,
+          "reading_order": 132,
+          "source_filename_number": 130,
+          "printed_page": "130",
+          "image_to_upright_normalized": [
+            0.00021048200378867606,
+            0,
+            0,
+            0.0001444460494005489,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 134,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-131.jpg",
+            "sha256": "5960fc28ca9111d7fa1cb17e30d7afc3ea29b789e8184710c870578881778797",
+            "bytes": 9330876
+          },
+          "width_px": 4730,
+          "height_px": 6921,
+          "reading_order": 133,
+          "source_filename_number": 131,
+          "printed_page": "131",
+          "image_to_upright_normalized": [
+            0.00021141649048625792,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 135,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-132.jpg",
+            "sha256": "07eccff00492aac3c6fa5b31e2006fa4632aeb358bade059fbea2e6e893f9d87",
+            "bytes": 8607618
+          },
+          "width_px": 4744,
+          "height_px": 6925,
+          "reading_order": 134,
+          "source_filename_number": 132,
+          "printed_page": "132",
+          "image_to_upright_normalized": [
+            0.00021079258010118043,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/information-a-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/information-a-r01/manifest.json",
+          "sha256": "afa672ba7a766d9b6a05b799b9ac98a29a8bb1b5028f6167b6f1ab75b68628e1",
+          "bytes": 55493
+        }
+      },
+      "segments": [
+        {
+          "segment_id": "a",
+          "printed_folios": [
+            127,
+            128,
+            129,
+            130,
+            131,
+            132
+          ],
+          "source_views": [
+            {
+              "source_index": 130,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-127.jpg",
+                "sha256": "cd5bdc2aaed35efdbe62909a677e91db8431d3d9ef3262a8e1c138fdd27c7321",
+                "bytes": 9729572
+              },
+              "width_px": 4747,
+              "height_px": 6920,
+              "reading_order": 129,
+              "source_filename_number": 127,
+              "printed_page": "127",
+              "image_to_upright_normalized": [
+                0.0002106593638087213,
+                0,
+                0,
+                0.00014450867052023122,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 131,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-128.jpg",
+                "sha256": "56367afde9ec75553d5e96a3d8eda0b8111154234b5b819c90568c9f747a9894",
+                "bytes": 8772917
+              },
+              "width_px": 4754,
+              "height_px": 6926,
+              "reading_order": 130,
+              "source_filename_number": 128,
+              "printed_page": "128",
+              "image_to_upright_normalized": [
+                0.00021034917963819942,
+                0,
+                0,
+                0.00014438348252959862,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 132,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-129.jpg",
+                "sha256": "306bbf4d521b6dcb34f98075fcdb7dcbba4f5690ce2a9c20946cb00e85890799",
+                "bytes": 8822818
+              },
+              "width_px": 4730,
+              "height_px": 6923,
+              "reading_order": 131,
+              "source_filename_number": 129,
+              "printed_page": "129",
+              "image_to_upright_normalized": [
+                0.00021141649048625792,
+                0,
+                0,
+                0.0001444460494005489,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 133,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-130.jpg",
+                "sha256": "370adb40245c910f9f1d12108b288acbea81c44f3cea6c7b25a2e8f23967e171",
+                "bytes": 8171253
+              },
+              "width_px": 4751,
+              "height_px": 6923,
+              "reading_order": 132,
+              "source_filename_number": 130,
+              "printed_page": "130",
+              "image_to_upright_normalized": [
+                0.00021048200378867606,
+                0,
+                0,
+                0.0001444460494005489,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 134,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-131.jpg",
+                "sha256": "5960fc28ca9111d7fa1cb17e30d7afc3ea29b789e8184710c870578881778797",
+                "bytes": 9330876
+              },
+              "width_px": 4730,
+              "height_px": 6921,
+              "reading_order": 133,
+              "source_filename_number": 131,
+              "printed_page": "131",
+              "image_to_upright_normalized": [
+                0.00021141649048625792,
+                0,
+                0,
+                0.00014448779078167894,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 135,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-132.jpg",
+                "sha256": "07eccff00492aac3c6fa5b31e2006fa4632aeb358bade059fbea2e6e893f9d87",
+                "bytes": 8607618
+              },
+              "width_px": 4744,
+              "height_px": 6925,
+              "reading_order": 134,
+              "source_filename_number": 132,
+              "printed_page": "132",
+              "image_to_upright_normalized": [
+                0.00021079258010118043,
+                0,
+                0,
+                0.0001444043321299639,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/information-a-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/information-a-r01/manifest.json",
+              "sha256": "afa672ba7a766d9b6a05b799b9ac98a29a8bb1b5028f6167b6f1ab75b68628e1",
+              "bytes": 55493
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-53/validation.json",
+              "sha256": "151c676f4576056c39474360760fa7bc7c583372cad10a62c4fc695d81776ca0",
+              "bytes": 128745
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-53/validation.json",
+          "sha256": "151c676f4576056c39474360760fa7bc7c583372cad10a62c4fc695d81776ca0",
+          "bytes": 128745
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-53/review/source-findings.json",
+          "sha256": "6c1c5a4fc2df2c205de512bbbbe7f5dff65af891fc52c747cd8168bae77641c1",
+          "bytes": 3845
+        },
+        "status": "Observed whole news article 127–137. Domestic 127–132 restored; foreign 133–137 and checked native assembly pending. Neighboring 126/138 advertisements and 139 business divider remain separate."
+      },
+      "limitations": [
+        "Only the domestic opening, printed 127–132, is selected. Foreign news on 133–137 and a checked whole-article assembly remain required.",
+        "Original output bytes, exact typography/spacing, tiny panel glyphs, exact chart X counts and original printer modes are unverified.",
+        "Output panels marked CONTINUED are printed samples; unseen report rows are not invented or recovered.",
+        "Original source wording, name/count discrepancies, historical contacts/specifications and planned announcements remain unverified source claims.",
+        "Printed ditto fields, blank ranks/roles/cells and the repeated overall winner remain distinct source occurrences; no implicit fill or deduplication.",
+        "Original photos/illustrations remain raster evidence without invented captions or lettering.",
+        "Assistant source comparison is distinct from full human proofreading and acceptance."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0036",
@@ -9733,6 +10077,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R53: establish actual body/extent/observed title/byline and structures of 정보 레이다 (maso-1984-11-toc-0035),catalog opener127,using fullpage source and adjacent material before mapping. Keep at most two identities,six new mapped source views and twenty outside lookups;segment if needed. Preserve complete 통합소프트웨어232–239,all native semantic scopes/claims/quotations/qualifications,originals integrated-a-r01/integrated-b-r01,three reader snapshots and all earlier packages/evidence. Use mapped pinnedTesseract,reuse unchanged successfulOCR and never run frozen checkpoint scripts. Six unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild remain in scope. LeavePLAN-OCR.md andPLAN-PDF.md unchanged;keep the full November goal active.",
+  "next": "R54: restore the foreign-news final source segment, actual 133–137, of information radar (maso-1984-11-toc-0035), observed whole extent 127–137. Preserve immutable information-a-r01 on 127–132, including 15 domestic items, original word/count/name variants, 815 table cells, 42 award occurrences, distinct 405/406 print specimens and MIC physical 130/131/130 continuation. Source 133 begins 나라밖 소식; 137 closes before the separate 138 MS-DOS/MS-BASIC advertisement and 139 business divider. Establish every foreign item, hierarchy, table/figure/claim and uncertainty from the actual sources before mapping. Use at most two identities, six new mapped views and twenty outside lookups. Reuse successful mapped pinned Tesseract outcomes; never rerun frozen helpers. Keep the article partial until a separate checked 127–137 native assembly, provisionally R55; table and output structures must project with explicit source ownership. Preserve all earlier packages/evidence and four saved readers. Do no further reading-room implementation or builds: its requested purpose was a one-time human visual sanity check. Leave PLAN-OCR.md and PLAN-PDF.md unchanged. Five other unclassified identities, covers/source accounting and checked whole-issue native export/rebuild remain required; keep the full November goal active.",
   "group_headings": 6
 }

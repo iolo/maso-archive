@@ -3081,3 +3081,73 @@ This snapshot records the R52 review pause. The user subsequently resumed the
 whole-November restoration goal, which remains active; this export does not
 complete the remaining identities, covers/source accounting or whole-issue
 export/rebuild. Next restoration checkpoint remains R53/information radar.
+
+## November 16, 2026 — R53 information radar domestic news, actual 127–132
+
+Selected **`information-a-r01`** for canonical identity
+`maso-1984-11-toc-0035`. Full-source review establishes **정보 레이다** on
+printed **127–137**, with subtitle **누가, 무엇을, 어떻게…** and no observed
+article-wide personal byline. The bounded opening **127–132** covers **나라안
+소식**, including the **사옥이전** subgroup. Foreign news begins **나라밖 소식**
+on 133; 137 closes before the separate 138 advertisement and 139 business
+divider. The article remains **partial**, with 133–137 and checked whole-article
+assembly required.
+
+The native opening retains **15 news items, 55 prose paragraphs, 60 blocks,
+seven original figures, six tables, 127 table rows and 815 cells**. The four
+printed DWCPM output panels contain 77 data rows and 596 data cells, including
+29 actual blanks. The calendar, resource report, activity-cost report and
+schedule retain their metadata, column/header groups, independent totals and
+ending/continuation notices. Twenty source-linked bar extents remain qualified
+observations; exact X repetition counts, output bytes and generation behavior
+are unverified. Unseen continued report rows are not invented.
+
+The ASOCIO roster retains its three officers, affiliations and blank role cell
+with explicit role scope. The competition list preserves **42 award occurrences**,
+all category/rank relationships, two school ditto marks, blank rank/grade fields
+and the repeated overall winner. Its two printed school forms remain distinct.
+The four HANIT print specimens retain their languages, relative weight and
+separate text occurrences: the first Korean specimen prints **405호**, the
+second **406호**, and the English specimens **RM405**. No address normalization
+or unprinted font-mode assignment is applied.
+
+MIC's logical body preserves its displaced physical **130/131/130** continuation.
+The two observed fragments **PROCESS / OR-32** and **PROCESSOR / -32** both
+join to **PROCESSOR-32**. The original map's earlier abbreviated planning cue
+remains immutable provenance, with an explicit native qualification. No
+compositor cause or program behavior is inferred. The printer's **4KB**, MIC's
+**그바이트**, the IQ report's **10말**, exhibition name/count discrepancies,
+source contacts and planned technical/commercial claims remain source-owned.
+The package carries 1,187 numeric/Latin fields, two quoted literals and
+39 local or panel qualifications. Original encoding, exact typography, tiny
+report glyphs, historical accuracy and full human proofreading remain unverified.
+
+All **76 initial mapped Tesseract tasks succeeded once**. One clipped MIC crop
+was changed and recognized in a single targeted repair; the other 75 selected
+text outcomes were reused. All original outcomes remain preserved. Before any
+recognition, the first map preflight rejected an unsupported table region kind;
+the corrected prose regions carry native table semantics. Six 8000-pixel launch
+preflights rejected the unsupported scale before starting any engine task. Actual
+recognition used the supported 6000-pixel ceiling; manual-review crops retain
+native resolution. No engine switch or unchanged successful OCR repeat occurred.
+
+Native export and independent rebuild both succeeded on their first run, with
+**325 identical files**. The actual-source audit passes **83 master-derived
+pixel crops, 76 selected original OCR/settings bindings, 312 ZIP members and
+104 damaged-source/native cases**. Both source-structure preflights passed; the
+second strengthened OCR/owner/category/caption checks. All **51 earlier selected
+catalog packages and frozen evidence**, six heading classifications, four saved
+reader snapshots, 30 implementation pins, both shared plans, input inventory/
+source descriptor and ten runtime files remain exact. The unchanged R52
+**260-test baseline** and logs were rehashed and reused, not freshly rerun.
+Cleanup was preview-only. **718 private evidence files** are frozen.
+
+See the [R53 result](metadata/catalog/scan-restoration/1984-11-information-a.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+November now has **28 complete articles, one partial, six non-owning headings
+and five unclassified entries**. Next is **R54**, the final foreign-news source
+segment on 133–137, then a separate checked whole-article assembly. The owner
+clarified that the reader build was a one-time human visual sanity check;
+reading-room implementation remains unchanged and no further reader work is
+planned. Covers/source accounting and whole-issue native export/rebuild remain
+required. **The whole-November restoration goal remains active.**
