@@ -55,10 +55,14 @@ segment files retained, four independent source programs and an explicit Apple
 restoration tests pass. M14 completes 모래시계 on 47–50: 78 exact native files,
 five independent source listings, 376 physical rows / 372 numbered units and
 the original illustration. All 18 source crops pass separate pixel checks.
-The whole issue remains active: four complete articles, no partial articles,
-34 pending article candidates, one completed heading and five pending headings.
-There are 222 source images still awaiting full-page disposition. Continue with
-M15, 기초 공작실 게임패들의 제작 on 51–53, in bounded checkpoints.
+M15 completes 기초 공작실 게임패들의 제작 on 51–53: 100 exact native files,
+all eight captioned drawings, 102 drawing labels, 16 socket-pin rows, two circuit
+panels and 12 source dimensions. All 29 original-master crops and the separate
+source/native audit pass. The whole issue remains active: five complete articles,
+no partial articles, 33 pending article candidates, one completed heading and
+five pending headings. There are 219 source images still awaiting full-page
+disposition. Continue with M16, 맛있는 사과가 들어 있어요, candidate 54–55,
+verifying its extent and following boundary in a bounded checkpoint.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

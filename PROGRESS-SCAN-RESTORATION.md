@@ -4270,3 +4270,51 @@ articles, no partial articles, 34 pending article candidates, one completed head
 and five pending headings**. Continue with **M15**, **기초 공작실 게임패들의 제작**,
 actual 51–53, checking its following boundary against 54. See [the hourglass result](metadata/catalog/scan-restoration/1984-03-hourglass.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M15 — March complete paddle-construction article, actual 51–53
+
+Completed canonical **기초 공작실 게임패들의 제작**, printed main title
+**게임 패들 제작** under **기초 공작실**, as **paddles-jpeg-r01**.
+All **100 native files** match an independent fresh rebuild. Full-page review
+establishes the complete 51–53 extent and ending star; 54 opens the separate
+**맛있는 사과가 들어 있어요!** article. All prose, seven material-list rows,
+eight captions and three complete-word column/page joins were compared with
+the donated JPEGs. Preserve the eight local figure references and the two
+external references to the source's cited hardware manual as separate claims.
+
+All eight original drawings retain source-bound native structures: **102 labels,
+138 nodes, 50 drawn wire edges and 12 printed dimensions**. The socket pinout
+retains all sixteen numbered names, including its phi-shaped glyph alternatives.
+The two circuit panels retain their separate wire nets and open pot terminals.
+The pictorial wiring retains its wire-jump and thin left/middle terminal bridge;
+the interior wiring has its own middle/right A bridge. Terminal identities are
+not equated across different drawing orientations. Four mechanical panels retain
+the case dimensions, holes and exploded mounting relationships. The unwired
+interior view stays unwired. The ribbon diagram preserves all eight labelled
+conductors, sixteen end labels and its rotated **케이블 번호** brace label.
+The connector drawing keeps four solder dots and four loose cable ends; geometric
+contact positions do not acquire invented printed pin numbers. Keep all
+**21 local qualifications** and original rasters. Electrical operation,
+construction, hardware accuracy, original encoding and full human proofreading
+remain unverified.
+
+One map refinement widened four clipped drawing edges before recognition.
+All **21 mapped Tesseract tasks** ran once at the planned 6000 scale, with no
+recognition retry. One native geometry review corrected the mechanical panel's
+vertical denominator before export; first maps, native records and overlays
+remain preserved. All selected drawing overlays were checked. Independent
+checks pass for **29 original-master crops**, 21 recognition bindings, 93 raw ZIP
+members, every native prose range and all source drawing records. Twenty-eight
+damaged-data cases reject lost content, bad ranges, wrong owners, inferred wires,
+altered labels/dimensions, invented pin numbers and unsupported electrical claims.
+All **387 frozen M14 evidence files** and the shared implementation retain their
+exact pins. The unchanged **286-test** regression baseline is pinned and reused.
+Cleanup was previewed without deletion; **386 M15 evidence files** are frozen.
+
+All 273 sources remain in the ledger. Newly reviewed 52–53 and the next-article
+lookup 54 reduce pending full-page dispositions to **219**; 51 was already located.
+Whole March remains active with **five complete articles, no partial articles,
+33 pending article candidates, one completed heading and five pending headings**.
+Continue with **M16**, **맛있는 사과가 들어 있어요**, candidate 54–55,
+verifying the full extent and boundary against 56. See [the paddles result](metadata/catalog/scan-restoration/1984-03-paddles.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

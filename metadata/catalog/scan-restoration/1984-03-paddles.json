@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M15",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0005",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    51,
+    52,
+    53
+  ],
+  "selected_package": "archive/scans/1984-03/packages/paddles-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/paddles-jpeg-r01/manifest.json",
+    "sha256": "9698040f18f933f3bf1cc8cfafde08d3578a01f6bdb8c288c384343d69388a3e",
+    "bytes": 16685
+  },
+  "exact_files": 100,
+  "native_structure": {
+    "source_images": 3,
+    "mapped_regions": 29,
+    "initial_text_ocr_tasks": 21,
+    "recognition_retries": 0,
+    "blocks": 18,
+    "original_figures": 8,
+    "source_paragraph_or_material_list_contexts": 18,
+    "material_rows": 7,
+    "material_fields": 14,
+    "prose_boundary_joins": 3,
+    "figure_caption_associations": 8,
+    "local_figure_references": 8,
+    "external_manual_figure_references": 2,
+    "prose_numeric_occurrences": 68,
+    "source_claims": 8,
+    "figure_labels": 102,
+    "figure_nodes": 138,
+    "drawn_wire_edges": 50,
+    "source_dimensions": 12,
+    "socket_pin_rows": 16,
+    "schematic_panels": 2,
+    "mechanical_panels": 4,
+    "source_qualifications": 21,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-11/validation.json",
+    "sha256": "de31b61454e9f80cc59cc2aad5018cced8379ca9fdb8c6f3d50735119eb96d85",
+    "bytes": 2988
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-11/paddles/recipe.json",
+    "sha256": "51bc0093015442b6bf730dad4d4bbd88a856c31b693175155a4b54ceb19b4a6f",
+    "bytes": 8630
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-11/source-ledger.json",
+    "sha256": "6791f4841199dadd9979a4846b2c73d8ca843d339988dfd5fca342e22d54176f",
+    "bytes": 197792
+  },
+  "source_dispositions_pending": 219,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-11/whole-progress-m15.json",
+    "sha256": "e309e220a1cf09fc9125cd9e618122006de5562dc4f242ec256d6dea99d6c30a",
+    "bytes": 154139
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-11/evidence-manifest.json",
+    "sha256": "eb31f08c0631a66369ab43392a6ab2f79c0eb058cba9536bc301ba479518451b",
+    "bytes": 67466
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M16: restore 맛있는 사과가 들어 있어요, canonical maso-1984-03-toc-0006, candidate54–55; verify the extent and boundary against56. Whole March remains active."
+}
