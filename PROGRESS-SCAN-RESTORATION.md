@@ -3039,3 +3039,45 @@ catalog opener **127**, with actual extent/body/structure review before mapping.
 Covers/source accounting and checked whole-issue native export/rebuild remain
 required. The R50 review reader stays at its saved snapshot; this assembly does
 not rebuild or deploy it. **The whole-November goal remains active.**
+
+## November 16, 2026 — R52 review reading-room snapshot
+
+Built a separate pilot preview at `dist/reading-room-scans-1984-11-r52/`, served
+locally at **http://127.0.0.1:4194/#/issues/maso-1984-11**. The review queue is
+**http://127.0.0.1:4194/#/review?issue=maso-1984-11**. The snapshot selects the
+committed R52 ledger: **28 complete native articles, no partials, all 40 canonical
+identities, six non-owning headings and six unclassified entries**. Integrated
+software now includes its checked 232–239 whole-article package. Unselected
+restoration drafts are excluded. The three earlier preview snapshots remain exact.
+
+Production compilation and the complete reader integrity check pass. All **5,215
+copied native files / 9,208,785,258 bytes** match their selected packages exactly.
+Native schema, structure, source relationships, raw OCR, figures/crops and
+downloads are retained. The reader is one sample presentation of reproducible
+restoration packages. Both shared OCR/PDF plans and all 26 frozen R52 evidence
+files remain unchanged. No OCR, restoration adapter or frozen checkpoint runs
+were needed. Reader code is unchanged; prior unit results were not rerun or
+reported as fresh.
+
+Fresh browser checks pass all 28 article routes and all 69 integrated-software
+regions across printed pages 232–239, original OCR, complete status and a 360px
+comparison layout without horizontal overflow. The JPEG review queue contains
+28 entries, and information radar remains explicitly pending. Regional notes
+survive reload and export with the selected native/text pins. The temporary note
+was removed; browser errors and warnings are zero. Notes are browser/origin-local;
+export them before switching hosts, ports or browsers.
+
+One Playwright launcher lookup failed with sandbox DNS before browser checks;
+the approved outside-sandbox retry then found that the prior browser session
+had ended during the user interruption. The local server/browser were reopened
+before successful checks. Failed attempt logs remain in the fresh evidence set.
+No product change or repeated restoration recognition was involved.
+
+See [reader instructions](docs/READING-ROOM.md) and the
+[R52 reader receipt](metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r52.json).
+Evidence is preserved under
+`archive/scans/1984-11/evidence/reading-room-pilot-r52-2026-11-16/`.
+This snapshot records the R52 review pause. The user subsequently resumed the
+whole-November restoration goal, which remains active; this export does not
+complete the remaining identities, covers/source accounting or whole-issue
+export/rebuild. Next restoration checkpoint remains R53/information radar.

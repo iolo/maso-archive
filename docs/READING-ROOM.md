@@ -2,9 +2,72 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
-## November 1984 review preview through R50 — November 16, 2026
+## November 1984 review preview through R52 — November 16, 2026
 
-The latest local preview is `dist/reading-room-scans-1984-11-r50/`:
+The latest local preview is `dist/reading-room-scans-1984-11-r52/`:
+
+- [Issue contents](http://127.0.0.1:4194/#/issues/maso-1984-11)
+- [Review queue](http://127.0.0.1:4194/#/review?issue=maso-1984-11)
+- [Integrated software, complete 232–239](http://127.0.0.1:4194/#/articles/scan-maso-1984-11-toc-0032)
+
+This snapshot contains **28 complete native articles**, all **40 canonical
+contents identities**, six non-owning headings and six unclassified entries.
+It selects R52's complete integrated-software assembly instead of R50's opening
+segment. Unselected restoration drafts are excluded. Earlier reader snapshots
+remain intact. This snapshot records the R52 review pause; the restoration goal
+has since resumed. Later checkpoints do not update this saved preview. Remaining
+entries, covers/source accounting and whole-issue export/rebuild are still pending.
+
+Use **원문과 나란히 검토하기** to compare corrected content with a source
+region and **교정 전 OCR 보기** for original OCR. **복원 기록** opens the
+preserved native schema, including its structure and source relationships.
+UTF-8 text, listings and source downloads remain available. The native package
+is the reproducible restoration artifact; this reader is a sample presentation.
+Sample review does not imply full proofreading or human acceptance.
+
+**검토 메모** saves local review notes. Export them before changing browsers,
+hosts or ports: storage belongs to the exact browser and origin. The R52 preview
+uses port **4194**, separate from R50's port 4193.
+
+To restart this preview:
+
+```sh
+python3 -m http.server 4194 --bind 127.0.0.1 --directory dist/reading-room-scans-1984-11-r52
+```
+
+To rebuild from the selected ledger, use a fresh output directory:
+
+```sh
+PYTHONPATH=src:. python3 -m tools.reading_room.scan_pilot \
+  --ledger metadata/catalog/scan-restoration/1984-11-progress.json \
+  --output dist/reading-room-scans-1984-11-r52-rebuild/data
+cd web
+READING_ROOM_OUTPUT=dist/reading-room-scans-1984-11-r52-rebuild READING_ROOM_BASE=./ npm run build
+cd ..
+PYTHONPATH=src:. python3 -m tools.reading_room.check \
+  --data dist/reading-room-scans-1984-11-r52-rebuild/data
+```
+
+Production compilation and the full reader integrity check pass. All **5,215
+copied native files / 9,208,785,258 bytes** exactly match their selected source
+packages. The three prior readers and frozen R52 restoration evidence were
+checked unchanged, as were both shared OCR/PDF plans. Export runs no OCR or
+restoration checkpoint scripts. Reader code is unchanged.
+
+Fresh browser checks opened all 28 article routes and all 69 integrated-software
+source regions on printed pages 232–239. They verified the complete status,
+original OCR, a 360px comparison layout, the 28-entry JPEG review queue, the
+pending information-radar identity and regional note save/reload/JSON export.
+The temporary note was removed. Browser console errors and warnings were zero.
+Reader unit tests were not rerun because the reader implementation is unchanged.
+
+Build and browser evidence is retained under
+`archive/scans/1984-11/evidence/reading-room-pilot-r52-2026-11-16/`; the receipt is
+`metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r52.json`.
+
+## Earlier November 1984 review preview through R50 — November 16, 2026
+
+The earlier local preview is `dist/reading-room-scans-1984-11-r50/`:
 
 - [Issue contents](http://127.0.0.1:4193/#/issues/maso-1984-11)
 - [Review queue](http://127.0.0.1:4193/#/review?issue=maso-1984-11)
