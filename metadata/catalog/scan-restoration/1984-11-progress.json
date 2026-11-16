@@ -6,8 +6,8 @@
   "source_type": "jpeg-set",
   "canonical_identities": 40,
   "readable_articles": 27,
-  "partial_articles": 0,
-  "identitiesAwaitingDisposition": 7,
+  "partial_articles": 1,
+  "identitiesAwaitingDisposition": 6,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -9099,10 +9099,347 @@
       "page_candidates": [
         232
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "partial",
+      "verification": "sample-reviewed",
+      "observed_title": "통합 소프트웨어",
+      "observed_category": "읽을거리",
+      "observed_installment": "마지막 회",
+      "observed_byline": "편 집 부",
+      "byline_status": "Observed editorial credit 편 집 부 on232.",
+      "observed_whole_extent": [
+        232,
+        239
+      ],
+      "restored_folios": [
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "pending_folios": [
+        238,
+        239
+      ],
+      "assembly_required": true,
+      "source_views": [
+        {
+          "source_index": 235,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-232.jpg",
+            "sha256": "6f9b77cb4933fff3233c748fcb3e3570f26f3e8240018a0ca2b1fec37c284e88",
+            "bytes": 8120306
+          },
+          "width_px": 4771,
+          "height_px": 6920,
+          "reading_order": 234,
+          "source_filename_number": 232,
+          "printed_page": "232",
+          "image_to_upright_normalized": [
+            0.00020959966464053657,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 236,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-233.jpg",
+            "sha256": "67d4f0a0408699eb26d2d17a39013b580d729f7c9b9ccdcb21646335738cf406",
+            "bytes": 8847565
+          },
+          "width_px": 4766,
+          "height_px": 6908,
+          "reading_order": 235,
+          "source_filename_number": 233,
+          "printed_page": "233",
+          "image_to_upright_normalized": [
+            0.000209819555182543,
+            0,
+            0,
+            0.00014475969889982628,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 237,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-234.jpg",
+            "sha256": "306a54b56758d1138ea9e10d2448f43c18e232e45026c47c707f6c958afc10fc",
+            "bytes": 8619741
+          },
+          "width_px": 4758,
+          "height_px": 6909,
+          "reading_order": 236,
+          "source_filename_number": 234,
+          "printed_page": "234",
+          "image_to_upright_normalized": [
+            0.0002101723413198823,
+            0,
+            0,
+            0.00014473874656245476,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 238,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-235.jpg",
+            "sha256": "41a2b97958c43fb47d02982928de4787fadabfbdadfce919af9a7de33418960c",
+            "bytes": 9006151
+          },
+          "width_px": 4730,
+          "height_px": 6913,
+          "reading_order": 237,
+          "source_filename_number": 235,
+          "printed_page": "235",
+          "image_to_upright_normalized": [
+            0.00021141649048625792,
+            0,
+            0,
+            0.00014465499783017504,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 239,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-236.jpg",
+            "sha256": "80eeeca4a06a55bdf3ac5dd5233178a02b2e57152bfd7e65ecf6f03222346214",
+            "bytes": 8913091
+          },
+          "width_px": 4731,
+          "height_px": 6914,
+          "reading_order": 238,
+          "source_filename_number": 236,
+          "printed_page": "236",
+          "image_to_upright_normalized": [
+            0.0002113718030014796,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 240,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-237.jpg",
+            "sha256": "75ee0d9c577422f3fc4e58361d2f0ef20e418c8e3fd75b68d96c7bf2018307fa",
+            "bytes": 9523605
+          },
+          "width_px": 4760,
+          "height_px": 6914,
+          "reading_order": 239,
+          "source_filename_number": 237,
+          "printed_page": "237",
+          "image_to_upright_normalized": [
+            0.0002100840336134454,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/integrated-a-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/integrated-a-r01/manifest.json",
+          "sha256": "d218888f5608b05befe5295f6a01b17c9af36a30fda68f4aa461f147cf5a6a27",
+          "bytes": 35193
+        }
+      },
+      "segments": [
+        {
+          "segment_id": "a",
+          "printed_folios": [
+            232,
+            233,
+            234,
+            235,
+            236,
+            237
+          ],
+          "source_views": [
+            {
+              "source_index": 235,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-232.jpg",
+                "sha256": "6f9b77cb4933fff3233c748fcb3e3570f26f3e8240018a0ca2b1fec37c284e88",
+                "bytes": 8120306
+              },
+              "width_px": 4771,
+              "height_px": 6920,
+              "reading_order": 234,
+              "source_filename_number": 232,
+              "printed_page": "232",
+              "image_to_upright_normalized": [
+                0.00020959966464053657,
+                0,
+                0,
+                0.00014450867052023122,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 236,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-233.jpg",
+                "sha256": "67d4f0a0408699eb26d2d17a39013b580d729f7c9b9ccdcb21646335738cf406",
+                "bytes": 8847565
+              },
+              "width_px": 4766,
+              "height_px": 6908,
+              "reading_order": 235,
+              "source_filename_number": 233,
+              "printed_page": "233",
+              "image_to_upright_normalized": [
+                0.000209819555182543,
+                0,
+                0,
+                0.00014475969889982628,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 237,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-234.jpg",
+                "sha256": "306a54b56758d1138ea9e10d2448f43c18e232e45026c47c707f6c958afc10fc",
+                "bytes": 8619741
+              },
+              "width_px": 4758,
+              "height_px": 6909,
+              "reading_order": 236,
+              "source_filename_number": 234,
+              "printed_page": "234",
+              "image_to_upright_normalized": [
+                0.0002101723413198823,
+                0,
+                0,
+                0.00014473874656245476,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 238,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-235.jpg",
+                "sha256": "41a2b97958c43fb47d02982928de4787fadabfbdadfce919af9a7de33418960c",
+                "bytes": 9006151
+              },
+              "width_px": 4730,
+              "height_px": 6913,
+              "reading_order": 237,
+              "source_filename_number": 235,
+              "printed_page": "235",
+              "image_to_upright_normalized": [
+                0.00021141649048625792,
+                0,
+                0,
+                0.00014465499783017504,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 239,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-236.jpg",
+                "sha256": "80eeeca4a06a55bdf3ac5dd5233178a02b2e57152bfd7e65ecf6f03222346214",
+                "bytes": 8913091
+              },
+              "width_px": 4731,
+              "height_px": 6914,
+              "reading_order": 238,
+              "source_filename_number": 236,
+              "printed_page": "236",
+              "image_to_upright_normalized": [
+                0.0002113718030014796,
+                0,
+                0,
+                0.0001446340757882557,
+                0,
+                0
+              ]
+            },
+            {
+              "source_index": 240,
+              "image": {
+                "path": "archive/scans/1984-11/pages/page-237.jpg",
+                "sha256": "75ee0d9c577422f3fc4e58361d2f0ef20e418c8e3fd75b68d96c7bf2018307fa",
+                "bytes": 9523605
+              },
+              "width_px": 4760,
+              "height_px": 6914,
+              "reading_order": 239,
+              "source_filename_number": 237,
+              "printed_page": "237",
+              "image_to_upright_normalized": [
+                0.0002100840336134454,
+                0,
+                0,
+                0.0001446340757882557,
+                0,
+                0
+              ]
+            }
+          ],
+          "package": {
+            "path": "archive/scans/1984-11/packages/integrated-a-r01",
+            "manifest": {
+              "path": "archive/scans/1984-11/packages/integrated-a-r01/manifest.json",
+              "sha256": "d218888f5608b05befe5295f6a01b17c9af36a30fda68f4aa461f147cf5a6a27",
+              "bytes": 35193
+            }
+          },
+          "evidence": [
+            {
+              "path": "archive/scans/1984-11/restoration/batch-50/validation.json",
+              "sha256": "5acf6c1e67af2d80d9d7e909b2c14a2ef4477ec743ebab07e6fea89edb1a1b2d",
+              "bytes": 93284
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-50/validation.json",
+          "sha256": "5acf6c1e67af2d80d9d7e909b2c14a2ef4477ec743ebab07e6fea89edb1a1b2d",
+          "bytes": 93284
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-50/review/source-findings.json",
+          "sha256": "409b26b0712896ffd621bcbd49b747dee56be29574542704afe17ebe9cd2afbb",
+          "bytes": 1940
+        },
+        "status": "Observed232–239body;opening232–237restored,238–239andnativeassemblypending.231Q&Aand240advertisement/indexseparate;237captionhasforwardInterfaceManagerreference."
+      },
+      "limitations": [
+        "Opening source segment232–237only;238–239and checked whole-article native assembly remain pending.",
+        "Historical dates,prices,specifications,performance/planned features,comparisons and attributions remain source claims without external correction or behavioral verification.",
+        "Source word/name/product/caption variants and local proper-name glyph candidates remain occurrence-owned rather than normalized.",
+        "Three original editorial illustrations/captions are retained without invented functional graphs,interior text or exact vector reconstruction.",
+        "Original encoded bytes and exact spacing remain unverified;prose line wrapping/paragraph spacing is an explicit editorial projection.",
+        "Assistant source sample review is distinct from full human proofreading and acceptance."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0033",
@@ -9270,6 +9607,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R50: establish 읽을거리 : 통합 소프트웨어 (maso-1984-11-toc-0032), catalog opener232, from actual source and adjacent material. Confirm observed title/byline,full extent,body ownership and source structures before mapping. Keep at most two identities,six new mapped source views and twenty outside lookup views;segment if needed and assemble separately. Preserve complete SoundKeyboard218–221,four separate6502variants,138source rows/302printed bytes,two source flowcharts,43labels and all source prose/command/caption/reference relationships. Keep219physical displacement and chosen reading order explicit;retain the original ad exclusion,flowFD18candidate,damaged finaloperand,punctuation/encoding/sourceclaim qualifications. Preserve all prior packages/evidence and both dated review previews. Continue all seven unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild. Leave PLAN-OCR.md and PLAN-PDF.md unchanged;keep the November goal active.",
+  "next": "R51: restore the final source segment238–239 of 읽을거리:통합소프트웨어 (maso-1984-11-toc-0032), observed whole extent232–239. Preserve immutable openingintegrated-a-r01 on232–237.238continuesStarburst in a new paragraph after 단dBASEII와슈퍼캘크는예외이다.;then section4인터페이스매니저begins.239containscompatibilitydiscussionandarticleclosingemblem. Establish all source paragraphs/headings,quoted claims,product/command/compatibility relationships and glyph qualifications before mapping. Reconcile the237captionnamed메니저forwardreference to the238sectionheading매니저 explicitly. At most two identities,six new mapped source views and twenty outside lookups;reuse successfulOCR and do not run frozen checkpoint scripts. Keep the whole article partial until a separate checked232–239native assembly,plannedR52. Preserve all prior packages/evidence,both dated reader previews and shared plans. Six other unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild remain in scope;keep the November goal active.",
   "group_headings": 6
 }

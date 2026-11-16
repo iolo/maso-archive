@@ -1,8 +1,10 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R49 are complete. The owner resumed the whole-November restoration goal.
-R50 is next: establish 읽을거리 : 통합 소프트웨어 from catalog opener 232 and source evidence.
+R00–R50 are complete. Restoration is paused for the owner's pilot review;
+the separate R50 reading-room build does not resume restoration.
+On resume, R51 is next: restore the final 238–239 segment of 읽을거리 : 통합 소프트웨어;
+its observed whole extent is 232–239. Checked whole-article assembly remains separate.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -299,13 +301,34 @@ restored JSON/assets and faithful source evidence first.
 | R47 — MAX-PRINT | Actual 206–208; complete native article package | 87 identical files; one Z80 listing / 212 source rows / 278 printed object bytes, two captioned BASIC examples plus an unassigned panel / 36 rows, ten table cells and typed byte/color diagram; 21 pixel checks, 84 invalid cases; unchanged 258-test baseline reused |
 | R48 — SPC-CLOCK | Actual 212–217; complete native article package | 168 identical files; four code contexts / 383 physical rows / 354 logical units, 615 printed bytes, 35 symbol bindings, 144 table cells, source screenshot and interrupt flow / 13 nodes / 14 edges; 42 pixel checks, 117 invalid cases; unchanged 258-test baseline reused |
 | R49 — 사운드 키보드 | Actual 218–221; complete native article package | 124 identical files; four 6502 variants / 138 rows / 302 printed bytes, two source flowcharts / 18 nodes / 18 edges / 43 labels, explicit displaced prose line and source references; 31 pixel checks, 114 invalid cases; unchanged 258-test baseline reused |
+| R50 — 통합 소프트웨어 opening segment a | Actual 232–237 of observed 232–239; whole article remains partial | 207 identical files; 74 paragraphs, 12 section records, five product profiles, five attributed quotations, six Lisa components, eleven named commands and three original illustrations; 52 pixel checks, 116 invalid cases; unchanged 258-test baseline reused |
 
-Immediate next action: **R50**, establish **읽을거리 : 통합 소프트웨어**,
-`maso-1984-11-toc-0032`, from its catalog opener **232** and adjacent source
-material. Confirm actual full extent, observed title/byline, body ownership and
-program/table/figure structures before mapping. Keep at most two identities,
-six new mapped source views and twenty outside lookup views; segment if needed
-and assemble separately. Do not infer its end from the next catalog entry.
+Immediate next action: **R51**, restore **238–239** of **읽을거리 : 통합 소프트웨어**,
+`maso-1984-11-toc-0032`. Page 238 continues Starburst in a new paragraph after
+**단 dBASE II와 슈퍼캘크는 예외이다.**, then opens **4. 인터페이스 매니저**.
+Page 239 contains the compatibility discussion and article closing emblem.
+Confirm all paragraph, quotation, product/command/compatibility and figure
+structures before mapping. Keep at most two identities, six new mapped source
+views and twenty outside lookups. Keep the whole article partial until a
+separate checked **232–239** native assembly, planned **R52**.
+
+Preserve opening **통합 소프트웨어**, **232–237**, as `integrated-a-r01`.
+Observed metadata is **읽을거리**, **마지막 회**, title **통합 소프트웨어** and
+editorial credit **편 집 부**. The source starts with numbered section **3**;
+do not invent or renumber earlier sections. All **207 native files** reproduce
+byte for byte. Native records retain **33 blocks, 74 paragraphs, 12 sections,
+five product profiles, 172 numeric/Latin literals, eight delimited literals,
+five attributed quotations, six Lisa components, eleven named commands,
+27 measurement claims, three conditional transfer claims, four prose workflow
+stages and seven comparisons**. The three original illustrations keep their
+captions without invented functional diagrams or exact vector replacements.
+The 237 caption's **메니저** names the Interface Manager section on 238; keep
+this forward reference and the distinct **매니저** heading spelling explicit.
+All **52 crop checks** and **116 damage cases** pass. Ten source qualifications
+retain historical spellings/wording and proper-name candidates; dates, prices,
+specifications and behaviors remain source claims. Preserve immutable sources,
+OCR and both dated reader previews. The unchanged 258-test R46 baseline is
+rehashed and reused, not freshly rerun.
 
 Preserve complete **사운드 키보드**, `maso-1984-11-toc-0031`, on **218–221** as
 `sound-keyboard-r02`, with award **프로그램공모 우수상**, platform **애플 컴패티블**,
@@ -497,8 +520,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-seven complete article packages, no partial articles, six non-owning
-headings and seven unclassified entries. Complete Feature II on 40–58 retains three
+November now has twenty-seven complete article packages, one partial article, six non-owning
+headings and six unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

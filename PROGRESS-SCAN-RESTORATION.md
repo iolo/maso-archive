@@ -2786,3 +2786,121 @@ Next is **R50**, establish 읽을거리 : 통합 소프트웨어 from catalog op
 and actual source extent/structures before mapping. All seven remaining
 identities, covers/source-image accounting and checked whole-issue native
 export/rebuild remain in scope. **The whole-November goal remains active.**
+
+## November 16, 2026 — R50 통합 소프트웨어 opening segment, actual 232–237
+
+Established the actual **232–239** extent of **읽을거리 : 통합 소프트웨어** and
+restored its six-page opening as
+`archive/scans/1984-11/packages/integrated-a-r01/`, with an independent
+fresh-process rebuild at `work/validation/scans-1984-11-integrated-a-r01/`.
+Source 232 retains category **읽을거리**, installment **마지막 회**, observed title
+**통합 소프트웨어**, editorial credit **편 집 부** and **3. 통합 조작 환경**.
+The source's numbering is preserved; earlier sections are not invented.
+Page 231 ends Q&A, 238 continues Starburst and opens section 4, 239 contains
+the article ending, and 240 is a separate advertisement/index. This checkpoint
+uses six mapped source views and four outside lookups. **The whole article
+remains partial**, pending 238–239 and checked native assembly.
+
+The native schema retains **33 blocks, 52 regions, 74 source paragraphs,
+12 section records, five criteria and five product profiles**. Sixteen source
+joins retain column/page continuity, including **개발 / 업계** and **가지 / 나**.
+**172 numeric/Latin literals** (41 numeric and 131 Latin), eight delimited
+literals, five attributed quotations, six Lisa component/role bindings and
+eleven named commands keep their exact occurrences, source owners and UTF-8
+ranges. Stop has no invented explanation. The source's nine Visi On commands
+remain distinct from the two named Starburst commands out of its claimed 24;
+unnamed commands are not reconstructed.
+
+**27 measurement claims**, three conditional data-transfer claims, four stages
+of a prose workflow and seven product comparisons retain their paragraph
+context and source qualifiers. Spreadsheet formula transfer and transfer to a
+word processor keep different source conditions; DesQ's result-only claim is
+separate. The customer-data/accounting/report/distribution workflow remains a
+source prose example, with no claim of a printed diagram or executed program.
+Dates, prices, capacities, performance plans, compatibility and attributed
+statements remain historical source claims, without external correction.
+
+Three original editorial illustrations retain their actual unnumbered captions.
+Their visible cube/grid/layered-paper motifs are observations, without invented
+functional data-flow graphs, interior text or exact vector reconstruction.
+The page 237 caption names **인터페이스 메니저** and has an explicit forward
+reference to **4. 인터페이스 매니저** on 238; it is not assigned to the adjacent
+Starburst prose. The next source paragraph begins **또 스타버스트는 비지캘크의 DIF**
+on 238, after the complete paragraph ending **단 dBASE II와 슈퍼캘크는 예외이다.**
+Source and continuation identities, pending folios and assembly requirement are
+recorded independently of the sample reader.
+
+Ten occurrence-owned qualifications retain **IBM PC C**, **Ele ctronic Desktop**,
+**Vision / Visi On**, **프로프로그램**, **워프 / 위프**, **OP/M」**, a proper-name
+glyph candidate, **Starbust / Starburst** and **메니저 / 매니저**. Original encoded
+bytes and exact spacing remain unverified; prose wrapping/paragraph whitespace
+is an explicit editorial projection. Assistant source sample review remains
+distinct from full human proofreading and acceptance.
+
+All **207 files reproduce byte for byte**. All **52 master-derived crop checks**,
+49 original OCR outcomes/settings and 200 OCR ZIP members pass. **116 deliberately
+damaged actual-source/native cases** are rejected, including false complete
+coverage, wrong hierarchy/quotation/measurement owners, borrowed literal ranges,
+invented command explanations, flattened transfer conditions, workflow order,
+caption targets, pending seams and lost source qualifications. All **48 earlier
+selected packages**, frozen evidence, early artifact arrays, six headings and
+both dated reader receipts/data/site/evidence remain exact. All ten original
+source/view pairs, ten runtime files and 28 native implementation files are
+verified. The **258-test R46 baseline** and logs are rehashed and reused,
+**not freshly rerun**. PLAN-OCR.md and PLAN-PDF.md remain unchanged.
+
+All **49 initial OCR tasks succeeded**, without retry, engine change or repeated
+successful recognition. A pre-OCR map refinement preserved headings, column
+edges and the Concurrent CP/M opening line. The first audit correctly stopped
+at a no-op damage fixture: its proposed measurement owner was already the
+existing owner. The corrected fixture actually borrows a Visi On paragraph and
+is rejected; the failed helper/log remain preserved. Native data and OCR are
+unchanged. Cleanup was preview-only; **476 private evidence files** are frozen.
+
+November now has **27 complete native articles, one partial article, six
+non-owning headings and six unclassified entries**. See the
+[R50 result](metadata/catalog/scan-restoration/1984-11-integrated-a.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+Next is **R51**, restore the final **238–239** segment, followed by separate
+checked **232–239** assembly, planned R52. The six other unresolved identities,
+covers/source-image accounting and checked whole-issue native export/rebuild
+remain in scope. **The whole-November goal remains active.**
+
+## November 16, 2026 — R50 pilot reading room for owner review
+
+At the owner's request, built a fresh standalone preview at
+`dist/reading-room-scans-1984-11-r50/`, served at
+<http://127.0.0.1:4193/#/issues/maso-1984-11> with its
+[review queue](http://127.0.0.1:4193/#/review?issue=maso-1984-11).
+This projects **27 complete native articles and one partial article**, all
+**40 canonical identities**, six non-owning headings and six unclassified entries.
+Integrated software includes only its selected 232–237 opening; 238–239 and
+checked whole-article assembly stay pending. Its partial status is visible.
+
+The production build and full static reader check pass. All **5,134 copied native
+files / 8,975,590,630 bytes** match their selected packages. Both earlier reader
+receipts, data manifests, site files and frozen evidence remain exact, as do
+R50's **476 frozen evidence files** and both shared OCR/PDF plans. No OCR or
+restoration checkpoint script ran. Source masters and restoration packages were
+read without modification; the reader remains a sample presentation of the
+presentation-independent native restoration.
+
+Fresh browser checks opened all 28 article routes, confirmed the partial article
+notice, decoded all 52 integrated-software region crops on printed pages 232–237,
+checked original OCR and a 360px comparison layout without horizontal overflow,
+and verified the 28-entry JPEG review queue and pending information-radar identity.
+A regional JPEG note survived reload and exported as JSON with the selected
+package/text hashes and source-region identity. The temporary note was removed.
+Reader implementation is unchanged; earlier unit-test results were not rerun.
+The first browser assertion used an incorrect expected Korean partial-status
+phrase; correcting that assertion passed without a product change. A stale
+browser control reference was refreshed before comparison was opened.
+
+See [review instructions](docs/READING-ROOM.md) and the
+[R50 preview receipt](metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r50.json).
+Build and browser evidence is separate under
+`archive/scans/1984-11/evidence/reading-room-pilot-r50-2026-11-16/`.
+**Restoration is paused after R50 for the owner's review**, honoring the request
+to pause after the current batch. On resume, R51 restores integrated software's
+final 238–239 segment before separate whole-article assembly. The November goal
+is paused and incomplete; this review build does not resume it.

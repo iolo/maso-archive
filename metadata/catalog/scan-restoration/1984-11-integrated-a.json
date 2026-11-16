@@ -1,0 +1,1214 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R50",
+  "completedOn": "2026-11-16",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0032",
+  "title": "읽을거리 : 통합 소프트웨어",
+  "observed_title": "통합 소프트웨어",
+  "observed_category": "읽을거리",
+  "observed_installment": "마지막 회",
+  "observed_byline": "편 집 부",
+  "observed_whole_extent": [
+    232,
+    239
+  ],
+  "selected_extent": [
+    232,
+    237
+  ],
+  "segment_id": "a",
+  "outcome": "Complete reproducible native opening segment232–237;whole232–239article remains partial pending238–239and checked assembly. Source hierarchy,paragraphs,quotes,components,commands/claims/conditional transfers/prose workflow and three originalillustrations/captions retained.",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/integrated-a-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/integrated-a-r01/manifest.json",
+    "sha256": "d218888f5608b05befe5295f6a01b17c9af36a30fda68f4aa461f147cf5a6a27",
+    "bytes": 35193
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-50/validation.json",
+    "sha256": "5acf6c1e67af2d80d9d7e909b2c14a2ef4477ec743ebab07e6fea89edb1a1b2d",
+    "bytes": 93284
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-50/evidence-manifest.json",
+    "sha256": "7b39588177737f330c890780b7229454a1c06979ce6cd0788104f4818ab7bb00",
+    "bytes": 101349
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-11/restoration/batch-50/recipe.json",
+    "sha256": "838f4adf155ae9f6d51e75a50a917afd7dba5943d09b3686c369681b3a1f3639",
+    "bytes": 8966
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-50/review/source-findings.json",
+    "sha256": "409b26b0712896ffd621bcbd49b747dee56be29574542704afe17ebe9cd2afbb",
+    "bytes": 1940
+  },
+  "source_review": {
+    "path": "archive/scans/1984-11/restoration/batch-50/review/source-review-completion.json",
+    "sha256": "c895ce19eb366f3e84acace816c45ef676618c62b16127e214ae326eed2a833f",
+    "bytes": 5924
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-232.jpg",
+      "sha256": "6f9b77cb4933fff3233c748fcb3e3570f26f3e8240018a0ca2b1fec37c284e88",
+      "bytes": 8120306
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-233.jpg",
+      "sha256": "67d4f0a0408699eb26d2d17a39013b580d729f7c9b9ccdcb21646335738cf406",
+      "bytes": 8847565
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-234.jpg",
+      "sha256": "306a54b56758d1138ea9e10d2448f43c18e232e45026c47c707f6c958afc10fc",
+      "bytes": 8619741
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-235.jpg",
+      "sha256": "41a2b97958c43fb47d02982928de4787fadabfbdadfce919af9a7de33418960c",
+      "bytes": 9006151
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-236.jpg",
+      "sha256": "80eeeca4a06a55bdf3ac5dd5233178a02b2e57152bfd7e65ecf6f03222346214",
+      "bytes": 8913091
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-237.jpg",
+      "sha256": "75ee0d9c577422f3fc4e58361d2f0ef20e418c8e3fd75b68d96c7bf2018307fa",
+      "bytes": 9523605
+    }
+  ],
+  "printed_folios": [
+    232,
+    233,
+    234,
+    235,
+    236,
+    237
+  ],
+  "summary": {
+    "blocks": 33,
+    "regions": 52,
+    "figures": 3,
+    "sourceSections": 12,
+    "criteria": 5,
+    "productProfiles": 5,
+    "sourceParagraphs": 74,
+    "literalFields": 172,
+    "numericFields": 41,
+    "latinFields": 131,
+    "sourceQuotedLiterals": 8,
+    "attributedQuotations": 5,
+    "lisaComponents": 6,
+    "namedCommands": 11,
+    "sourceCommandSets": 2,
+    "measurementClaims": 27,
+    "conditionalTransferClaims": 3,
+    "workflowStages": 4,
+    "productComparisons": 7,
+    "sourceQualifications": 10,
+    "sourceJoins": 16,
+    "captionForwardReferences": 1,
+    "pendingFolios": [
+      238,
+      239
+    ],
+    "nativeFiles": 207,
+    "pixelChecks": 52,
+    "negativeCases": 116,
+    "ocrTasks": 49,
+    "reusedRegressionTests": 258
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p232-category",
+      "source_index": 235,
+      "pixel_bounds": [
+        302,
+        431,
+        944,
+        690
+      ],
+      "scan": {
+        "path": "ocr-232/p232-category.png",
+        "sha256": "2011707ba6bfdff193920a921132e28e96f56e0df0d2c8f1cbc2b637472c98e0",
+        "bytes": 242421
+      }
+    },
+    {
+      "region_id": "p232-installment",
+      "source_index": 235,
+      "pixel_bounds": [
+        3317,
+        486,
+        3835,
+        642
+      ],
+      "scan": {
+        "path": "ocr-232/p232-installment.png",
+        "sha256": "5fd793c4cee521fe65245887106aa7343e1b9bbb507f2c42f75192b9116e2ea9",
+        "bytes": 104988
+      }
+    },
+    {
+      "region_id": "p232-title",
+      "source_index": 235,
+      "pixel_bounds": [
+        897,
+        756,
+        3223,
+        1206
+      ],
+      "scan": {
+        "path": "ocr-232/p232-title.png",
+        "sha256": "19999b12f5a152c4ee7d6c3a0a405bbae17faf7442405cf1248dfda3a4e2af01",
+        "bytes": 1385557
+      }
+    },
+    {
+      "region_id": "p232-byline",
+      "source_index": 235,
+      "pixel_bounds": [
+        3226,
+        1440,
+        3637,
+        1548
+      ],
+      "scan": {
+        "path": "ocr-232/p232-byline.png",
+        "sha256": "a0ff1f3e2a3869aa0ca62f79b8b736c85dbee92cd10b038084bec4e87a97b01a",
+        "bytes": 55784
+      }
+    },
+    {
+      "region_id": "p232-section-3",
+      "source_index": 235,
+      "pixel_bounds": [
+        1505,
+        1739,
+        2590,
+        1950
+      ],
+      "scan": {
+        "path": "ocr-232/p232-section-3.png",
+        "sha256": "d94e5c58b0e01db24127c59e796a788e1bd6b44b226b9b00dfcbcabe77f80dae",
+        "bytes": 296313
+      }
+    },
+    {
+      "region_id": "p232-deck",
+      "source_index": 235,
+      "pixel_bounds": [
+        897,
+        2046,
+        3269,
+        2262
+      ],
+      "scan": {
+        "path": "ocr-232/p232-deck.png",
+        "sha256": "5a336ba6809a1421fe204811ae1a8b473f21bb85730a253d5f03f8e4656f6779",
+        "bytes": 713015
+      }
+    },
+    {
+      "region_id": "p232-intro-left",
+      "source_index": 235,
+      "pixel_bounds": [
+        252,
+        2556,
+        1312,
+        5550
+      ],
+      "scan": {
+        "path": "ocr-232/p232-intro-left.png",
+        "sha256": "f78f0ca17ebd05bedeb33f7b60d0976290410931c2eba94499a93ea84de4b617",
+        "bytes": 4208468
+      }
+    },
+    {
+      "region_id": "p232-intro-middle",
+      "source_index": 235,
+      "pixel_bounds": [
+        1497,
+        2562,
+        2553,
+        5550
+      ],
+      "scan": {
+        "path": "ocr-232/p232-intro-middle.png",
+        "sha256": "dde99436c2decd0db0aab55317d340dc194d90ce9d5095e0060003db1d23ed9f",
+        "bytes": 4017887
+      }
+    },
+    {
+      "region_id": "p232-intro-right",
+      "source_index": 235,
+      "pixel_bounds": [
+        2701,
+        2580,
+        3877,
+        5556
+      ],
+      "scan": {
+        "path": "ocr-232/p232-intro-right.png",
+        "sha256": "9252f1e46660ba0b37ba1c8a37b7ecd06f47e87263ea8cedcc35f72f2309def5",
+        "bytes": 4437902
+      }
+    },
+    {
+      "region_id": "p233-cube-original",
+      "source_index": 236,
+      "pixel_bounds": [
+        703,
+        666,
+        2456,
+        2424
+      ],
+      "scan": {
+        "path": "ocr-233/p233-cube-original.png",
+        "sha256": "fcb4b5b2a584956a0e629efbf0cd1c822271d101d547f8b99bc04ee8b9b88223",
+        "bytes": 4904223
+      }
+    },
+    {
+      "region_id": "p233-cube-caption",
+      "source_index": 236,
+      "pixel_bounds": [
+        745,
+        2496,
+        2323,
+        2610
+      ],
+      "scan": {
+        "path": "ocr-233/p233-cube-caption.png",
+        "sha256": "97a2c05090632c0b7641232a1b4b71b8747b681cf14af3f696d0c1f6cc4330d6",
+        "bytes": 243178
+      }
+    },
+    {
+      "region_id": "p233-intro-final",
+      "source_index": 236,
+      "pixel_bounds": [
+        360,
+        2796,
+        1425,
+        2994
+      ],
+      "scan": {
+        "path": "ocr-233/p233-intro-final.png",
+        "sha256": "33f75292aa903f863a1d51ba045c8a1ea3f976aa6f82d349e285ae94b0209d3b",
+        "bytes": 269457
+      }
+    },
+    {
+      "region_id": "p233-standards-heading",
+      "source_index": 236,
+      "pixel_bounds": [
+        426,
+        3096,
+        1363,
+        3414
+      ],
+      "scan": {
+        "path": "ocr-233/p233-standards-heading.png",
+        "sha256": "ea9a998cce1504dad317fb81c2021a2a9004d0e4525d0b463225d9079e6b7203",
+        "bytes": 411837
+      }
+    },
+    {
+      "region_id": "p233-standards-intro",
+      "source_index": 236,
+      "pixel_bounds": [
+        356,
+        3516,
+        1425,
+        4122
+      ],
+      "scan": {
+        "path": "ocr-233/p233-standards-intro.png",
+        "sha256": "d195c45fff70e67fb9aad4052dfe0e5d19a120dc1e8f47c45a792791d7775912",
+        "bytes": 866099
+      }
+    },
+    {
+      "region_id": "p233-windows-heading",
+      "source_index": 236,
+      "pixel_bounds": [
+        426,
+        4218,
+        882,
+        4326
+      ],
+      "scan": {
+        "path": "ocr-233/p233-windows-heading.png",
+        "sha256": "a7bdf8dc890a4c8ded8d39c6bae61919fbec669a681b60adec902d0d956e50db",
+        "bytes": 66618
+      }
+    },
+    {
+      "region_id": "p233-windows-body",
+      "source_index": 236,
+      "pixel_bounds": [
+        356,
+        4410,
+        1425,
+        4812
+      ],
+      "scan": {
+        "path": "ocr-233/p233-windows-body.png",
+        "sha256": "48047e9f6e432db9469ecf0aa8e44359b4c89abd493a4968b7d717124c55f17b",
+        "bytes": 562961
+      }
+    },
+    {
+      "region_id": "p233-mouse-heading",
+      "source_index": 236,
+      "pixel_bounds": [
+        426,
+        4878,
+        998,
+        4998
+      ],
+      "scan": {
+        "path": "ocr-233/p233-mouse-heading.png",
+        "sha256": "e810f5a6ddd72b41378c231304f860edca167207b6234847e2d0444bcdca3a21",
+        "bytes": 88771
+      }
+    },
+    {
+      "region_id": "p233-mouse-opening",
+      "source_index": 236,
+      "pixel_bounds": [
+        356,
+        5040,
+        1429,
+        5538
+      ],
+      "scan": {
+        "path": "ocr-233/p233-mouse-opening.png",
+        "sha256": "47e6a82e8d09cff99e6b403a63f5ea356d5e55fed1ded1589d82315bfab08bef",
+        "bytes": 699225
+      }
+    },
+    {
+      "region_id": "p233-mouse-final",
+      "source_index": 236,
+      "pixel_bounds": [
+        1577,
+        2796,
+        2625,
+        4332
+      ],
+      "scan": {
+        "path": "ocr-233/p233-mouse-final.png",
+        "sha256": "80f624b93c2d1c1f840e50a8d1f7afdf2db2ef5d389d75b5f6831e419d43fd0d",
+        "bytes": 2166189
+      }
+    },
+    {
+      "region_id": "p233-icon-heading",
+      "source_index": 236,
+      "pixel_bounds": [
+        1643,
+        4380,
+        2166,
+        4488
+      ],
+      "scan": {
+        "path": "ocr-233/p233-icon-heading.png",
+        "sha256": "db5ae6440a859a8aa675e9a28a59ca71a52919b8da6d5d755e4e9d66d1146cfa",
+        "bytes": 76483
+      }
+    },
+    {
+      "region_id": "p233-icon-body",
+      "source_index": 236,
+      "pixel_bounds": [
+        1577,
+        4524,
+        2625,
+        5466
+      ],
+      "scan": {
+        "path": "ocr-233/p233-icon-body.png",
+        "sha256": "53c947c6d1d89311eccb40315bf18ab290846d25d378609a148b6ee58d6231e8",
+        "bytes": 1298346
+      }
+    },
+    {
+      "region_id": "p233-bitmap-heading",
+      "source_index": 236,
+      "pixel_bounds": [
+        2852,
+        708,
+        3826,
+        900
+      ],
+      "scan": {
+        "path": "ocr-233/p233-bitmap-heading.png",
+        "sha256": "8cdd0b63099be66fe9dc410c4a15db1c9cccdc232203250cbe7857afa67abddf",
+        "bytes": 256473
+      }
+    },
+    {
+      "region_id": "p233-bitmap-body",
+      "source_index": 236,
+      "pixel_bounds": [
+        2798,
+        948,
+        3884,
+        1242
+      ],
+      "scan": {
+        "path": "ocr-233/p233-bitmap-body.png",
+        "sha256": "5b6a64a6bccf63fdf18ad550e8a9138a3cf0e8ee36687262dacbaf36f282b421",
+        "bytes": 434924
+      }
+    },
+    {
+      "region_id": "p233-transfer-heading",
+      "source_index": 236,
+      "pixel_bounds": [
+        2852,
+        1290,
+        3242,
+        1392
+      ],
+      "scan": {
+        "path": "ocr-233/p233-transfer-heading.png",
+        "sha256": "6d537f376a66da8a00f64acb13725c6edb322e494ecd1868e6d7c788d63fb50a",
+        "bytes": 56413
+      }
+    },
+    {
+      "region_id": "p233-transfer-body",
+      "source_index": 236,
+      "pixel_bounds": [
+        2798,
+        1440,
+        3884,
+        3510
+      ],
+      "scan": {
+        "path": "ocr-233/p233-transfer-body.png",
+        "sha256": "40efe71ad12d8650bbc9e19ccd3a2b932c4fdc3197f7ffa10221ead68cd847d1",
+        "bytes": 3050062
+      }
+    },
+    {
+      "region_id": "p233-survey-transition",
+      "source_index": 236,
+      "pixel_bounds": [
+        2798,
+        3630,
+        3884,
+        4338
+      ],
+      "scan": {
+        "path": "ocr-233/p233-survey-transition.png",
+        "sha256": "bc92ff3b6de91810365d0bffb100892e50b036dda638b0a27ca88fec65f0a658",
+        "bytes": 1039683
+      }
+    },
+    {
+      "region_id": "p233-lisa-heading",
+      "source_index": 236,
+      "pixel_bounds": [
+        2860,
+        4380,
+        3089,
+        4488
+      ],
+      "scan": {
+        "path": "ocr-233/p233-lisa-heading.png",
+        "sha256": "b8ce3b9d8303ce29eb27988b669bd13112a98346aac3890686ac57e419a46343",
+        "bytes": 34874
+      }
+    },
+    {
+      "region_id": "p233-lisa-opening",
+      "source_index": 236,
+      "pixel_bounds": [
+        2798,
+        4524,
+        3884,
+        5544
+      ],
+      "scan": {
+        "path": "ocr-233/p233-lisa-opening.png",
+        "sha256": "33f58763a6dd35d9f8bb9f5e8e4f0465b355d268d49ca9928a78cd4ef3586d59",
+        "bytes": 1493834
+      }
+    },
+    {
+      "region_id": "p234-lisa-left",
+      "source_index": 237,
+      "pixel_bounds": [
+        256,
+        690,
+        1360,
+        5562
+      ],
+      "scan": {
+        "path": "ocr-234/p234-lisa-left.png",
+        "sha256": "b4b2730736d0183a865c2c54deee48768924ddfee05e7dbd7ab38539cbc80d62",
+        "bytes": 7275248
+      }
+    },
+    {
+      "region_id": "p234-lisa-middle",
+      "source_index": 237,
+      "pixel_bounds": [
+        1483,
+        696,
+        2604,
+        5562
+      ],
+      "scan": {
+        "path": "ocr-234/p234-lisa-middle.png",
+        "sha256": "1323a0751753258c4d831e1e7ca7de78034db56a078d24bc3c4622c56e41987d",
+        "bytes": 7117799
+      }
+    },
+    {
+      "region_id": "p234-lisa-right",
+      "source_index": 237,
+      "pixel_bounds": [
+        2698,
+        696,
+        3880,
+        5562
+      ],
+      "scan": {
+        "path": "ocr-234/p234-lisa-right.png",
+        "sha256": "ee375d67f2e5554a608bbe421d51f939c2210f5da9f3bbfdc4f11121218864ef",
+        "bytes": 7464184
+      }
+    },
+    {
+      "region_id": "p235-communication-original",
+      "source_index": 238,
+      "pixel_bounds": [
+        336,
+        696,
+        3970,
+        2064
+      ],
+      "scan": {
+        "path": "ocr-235/p235-communication-original.png",
+        "sha256": "ac166c7acaf13022412069deeb2c397621427cceaa62ebcbd2d58fc0a522a5bd",
+        "bytes": 7702620
+      }
+    },
+    {
+      "region_id": "p235-communication-caption",
+      "source_index": 238,
+      "pixel_bounds": [
+        1580,
+        2148,
+        2652,
+        2256
+      ],
+      "scan": {
+        "path": "ocr-235/p235-communication-caption.png",
+        "sha256": "051d270c7569c6e4020e44f68ff94445cf90d7b9fa971f3ecfec0cc32444a99f",
+        "bytes": 162799
+      }
+    },
+    {
+      "region_id": "p235-lisa-final",
+      "source_index": 238,
+      "pixel_bounds": [
+        324,
+        2382,
+        1425,
+        3444
+      ],
+      "scan": {
+        "path": "ocr-235/p235-lisa-final.png",
+        "sha256": "26c1080a607441fccbc15b8921452691e72672e952dd38e4e779401d7c6a1fd6",
+        "bytes": 1552292
+      }
+    },
+    {
+      "region_id": "p235-visi-heading",
+      "source_index": 238,
+      "pixel_bounds": [
+        406,
+        3443,
+        842,
+        3600
+      ],
+      "scan": {
+        "path": "ocr-235/p235-visi-heading.png",
+        "sha256": "d0ecd5412c6b6aea72fe700b2c424a9c68bdc10172f381b88ff429ec4e74e46b",
+        "bytes": 86321
+      }
+    },
+    {
+      "region_id": "p235-visi-left",
+      "source_index": 238,
+      "pixel_bounds": [
+        324,
+        3624,
+        1425,
+        5568
+      ],
+      "scan": {
+        "path": "ocr-235/p235-visi-left.png",
+        "sha256": "03249ca8db77379db7ce4a691ec0dd535e23b43c60ffb7a5a2643318ad7d8e52",
+        "bytes": 2842653
+      }
+    },
+    {
+      "region_id": "p235-visi-middle",
+      "source_index": 238,
+      "pixel_bounds": [
+        1555,
+        2382,
+        2669,
+        5574
+      ],
+      "scan": {
+        "path": "ocr-235/p235-visi-middle.png",
+        "sha256": "5e4e939c4857784c89592fc441cb94b8691a769d566c75d6100be1ce8177ef9a",
+        "bytes": 4815935
+      }
+    },
+    {
+      "region_id": "p235-visi-right",
+      "source_index": 238,
+      "pixel_bounds": [
+        2779,
+        2382,
+        3851,
+        5574
+      ],
+      "scan": {
+        "path": "ocr-235/p235-visi-right.png",
+        "sha256": "1f381f233fc4d4ab81003293636c41c66ad63036941aceaec4af3cc0d9bc6f68",
+        "bytes": 4548551
+      }
+    },
+    {
+      "region_id": "p236-visi-left",
+      "source_index": 239,
+      "pixel_bounds": [
+        238,
+        696,
+        1351,
+        5550
+      ],
+      "scan": {
+        "path": "ocr-236/p236-visi-left.png",
+        "sha256": "daf1270b34eabd803ac1e9759b811d9052037bdd6596ad41e99e21fda3debeb8",
+        "bytes": 7451375
+      }
+    },
+    {
+      "region_id": "p236-visi-final",
+      "source_index": 239,
+      "pixel_bounds": [
+        1498,
+        738,
+        2600,
+        1645
+      ],
+      "scan": {
+        "path": "ocr-236/p236-visi-final.png",
+        "sha256": "df6d80f76d4520066d927f100258dcb4102908f49788571b5d306e277f3495ba",
+        "bytes": 1396073
+      }
+    },
+    {
+      "region_id": "p236-desq-heading",
+      "source_index": 239,
+      "pixel_bounds": [
+        1556,
+        1668,
+        1824,
+        1770
+      ],
+      "scan": {
+        "path": "ocr-236/p236-desq-heading.png",
+        "sha256": "587a7a8ead3a0648f38723e372d3104d2933a46c656dcabdcd35280a8fcdfb0f",
+        "bytes": 40670
+      }
+    },
+    {
+      "region_id": "p236-desq-middle",
+      "source_index": 239,
+      "pixel_bounds": [
+        1453,
+        1818,
+        2632,
+        5562
+      ],
+      "scan": {
+        "path": "ocr-236/p236-desq-middle.png",
+        "sha256": "eb6fcd24717fc384c7a3521b88ab645851092dd46f45804095178dfc9e865548",
+        "bytes": 5831147
+      }
+    },
+    {
+      "region_id": "p236-desq-right",
+      "source_index": 239,
+      "pixel_bounds": [
+        2681,
+        726,
+        3856,
+        4938
+      ],
+      "scan": {
+        "path": "ocr-236/p236-desq-right.png",
+        "sha256": "05e3b6b38151ae52d86e488c6338c95ce0e03bfd45e8800e90ed4efbe56df00f",
+        "bytes": 6568055
+      }
+    },
+    {
+      "region_id": "p236-concurrent-heading",
+      "source_index": 239,
+      "pixel_bounds": [
+        2742,
+        5004,
+        3273,
+        5112
+      ],
+      "scan": {
+        "path": "ocr-236/p236-concurrent-heading.png",
+        "sha256": "21a6e752d4ebdabec0b5b2c439890d9bb7e68e826134a1519ae1464e5700bd15",
+        "bytes": 77493
+      }
+    },
+    {
+      "region_id": "p236-concurrent-opening",
+      "source_index": 239,
+      "pixel_bounds": [
+        2681,
+        5142,
+        3856,
+        5556
+      ],
+      "scan": {
+        "path": "ocr-236/p236-concurrent-opening.png",
+        "sha256": "78ca7d6d6f9727375b99273a235f6756222099ea2b080d80099cd5302ecdb1de",
+        "bytes": 628119
+      }
+    },
+    {
+      "region_id": "p237-concurrent-final",
+      "source_index": 240,
+      "pixel_bounds": [
+        338,
+        720,
+        1442,
+        5232
+      ],
+      "scan": {
+        "path": "ocr-237/p237-concurrent-final.png",
+        "sha256": "ecd724e0ccb4bdcd479bb0606fe409731a9284b94048fe8af77a31642ca847b5",
+        "bytes": 6769919
+      }
+    },
+    {
+      "region_id": "p237-starburst-heading",
+      "source_index": 240,
+      "pixel_bounds": [
+        425,
+        5250,
+        847,
+        5370
+      ],
+      "scan": {
+        "path": "ocr-237/p237-starburst-heading.png",
+        "sha256": "35e174967adddb26d05b50accde72fb5f1e63e9138036751b05bd2ca84d04b89",
+        "bytes": 71332
+      }
+    },
+    {
+      "region_id": "p237-starburst-opening",
+      "source_index": 240,
+      "pixel_bounds": [
+        338,
+        5370,
+        1442,
+        5568
+      ],
+      "scan": {
+        "path": "ocr-237/p237-starburst-opening.png",
+        "sha256": "247377fe45063afc543e663bc1c1358657be241ce7c505279600fe20f63ba5f9",
+        "bytes": 291002
+      }
+    },
+    {
+      "region_id": "p237-manager-original",
+      "source_index": 240,
+      "pixel_bounds": [
+        1710,
+        660,
+        3487,
+        2436
+      ],
+      "scan": {
+        "path": "ocr-237/p237-manager-original.png",
+        "sha256": "e1723d98dd76a34191bec4fd6fed422f1de3aa370000e4c7435975cd22e530e7",
+        "bytes": 5618576
+      }
+    },
+    {
+      "region_id": "p237-manager-caption",
+      "source_index": 240,
+      "pixel_bounds": [
+        1830,
+        2478,
+        3545,
+        2592
+      ],
+      "scan": {
+        "path": "ocr-237/p237-manager-caption.png",
+        "sha256": "72fe26661485568003237e7e682778acc66ab2c3b7c63ca041c9c6132268cb29",
+        "bytes": 271277
+      }
+    },
+    {
+      "region_id": "p237-starburst-middle",
+      "source_index": 240,
+      "pixel_bounds": [
+        1586,
+        2778,
+        2686,
+        5550
+      ],
+      "scan": {
+        "path": "ocr-237/p237-starburst-middle.png",
+        "sha256": "93b7d729a7bda87772f8c045c7e3bf034e8f124c507be631f0996d2bb5c92ce7",
+        "bytes": 4187963
+      }
+    },
+    {
+      "region_id": "p237-starburst-right",
+      "source_index": 240,
+      "pixel_bounds": [
+        2796,
+        2778,
+        3875,
+        5568
+      ],
+      "scan": {
+        "path": "ocr-237/p237-starburst-right.png",
+        "sha256": "c902cf1edbccf13e7750a4762592b45ed6d6651f4d3a934d36049f3cb4457fa4",
+        "bytes": 4156052
+      }
+    }
+  ],
+  "previousCheckpointCommit": "7a8a3502",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "df69f89f39be5a85b3f1c96481306f6cb407180d69b936d775e44d62f307aaf1",
+      "bytes": 222125
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_numbered_assemble.py",
+      "sha256": "d6d877b8207adfd616878bc639682abc661aba81909d2934402d98c6636dc3e8",
+      "bytes": 13404
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_graphs.py",
+      "sha256": "e27beb44a75c3ef3c7cddc783f1f3c08b0569553d280397bb08bc68d19fac735",
+      "bytes": 16164
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_image_source_structures.py",
+      "sha256": "93b82ab3f26c7a976e2a8e25b4aa2abd2bb33141cdf73bcfdd7e6c6da189e9a1",
+      "bytes": 12579
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "9b9c74c831f35d3a1a71fdbec215206745ab56749a7d65791f7095dad1f94493",
+      "bytes": 17278
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "46d2f4ad8c8b2be5fefeaf9f89cc0e317c0342d42e6751a32a2398a5eb0e7ed8",
+      "bytes": 28021
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_numbered.py",
+      "sha256": "a123c2d5dc6f0d365399a8cf29f795426e93b0ee8d001c3fd544617fa23ccced",
+      "bytes": 10533
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a05173be8ac6367356583f3ec497b47fe382f7753bd3155c7e8b665384ab4890",
+      "bytes": 20501
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_graphs.py",
+      "sha256": "c0f155c960c6807fb2a5e110347c88989d9e87849acc5bc0cead26099aa1e378",
+      "bytes": 33714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "81f3456ffa97802de13435491309320d351493ef5b924b846c75705b253213e2",
+      "bytes": 24032
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_structures.py",
+      "sha256": "82a51f9a7f24ab783183ca4e661f266ba7a0ff3ae0336b39f7bdc504d127a1f6",
+      "bytes": 21330
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "90d375492dce57daf6646f9eea4a3c905c246591fdf6974e071289199aeb8d91",
+      "bytes": 41527
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "49f8b030a4ad2549a889481f45ffbb1238fd7baf2b351bc2fc49b00b35448f43",
+      "bytes": 21558
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 44,
+    "total": 258
+  },
+  "regressionLogs": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-46/pdf-final-regressions-01.log",
+      "sha256": "45d1a3e37e73772364f3471041f7323b2023130b3b912f9e78543d060515ef18",
+      "bytes": 36395
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-46/jpeg-final-regressions-01.log",
+      "sha256": "2a3ac1afba57a3631130e9e4dc28fecff562c3393624137bb23441004331eb22",
+      "bytes": 8737
+    }
+  ],
+  "regressionsFresh": false,
+  "regressionBaseline": "R46; native implementation unchanged",
+  "readingRoomsPreserved": [
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot.json",
+        "sha256": "d20d01e225d2bf31095210bcc7fbedc38ce5005566282a2875eebbbab11bf79e",
+        "bytes": 14479
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11/data/manifest.json",
+        "sha256": "1d3537384b24f07923f3827c782f0e38ff03a49a0a84b424b74a0852a78e25c8",
+        "bytes": 822112
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11/assets/index-D4Z0nqFt.js",
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+          "bytes": 350064
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11/assets/index-DO4ky1Ds.css",
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+          "bytes": 30171
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11/index.html",
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+          "bytes": 603
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-2026-11-16/evidence-manifest.json",
+        "sha256": "f0d66664926b9bf6bb7bdb8fbcc47e38998c5e720c2a9d699dbb60ea66a2cd71",
+        "bytes": 5070
+      },
+      "frozenEvidenceFiles": 23
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r47.json",
+        "sha256": "e5ad06ed17088004629339e70c9e395bbf993979c34ab66291c8edd26d68fa44",
+        "bytes": 13632
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r47/data/manifest.json",
+        "bytes": 837353,
+        "sha256": "a6de8917ef9d3a3410646a0c50c762207be93fdda179e501353fb1f08985b4d8"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/assets/index-D4Z0nqFt.js",
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+          "bytes": 350064
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/assets/index-DO4ky1Ds.css",
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+          "bytes": 30171
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/index.html",
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+          "bytes": 603
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/evidence-manifest.json",
+        "sha256": "d1c8eb92325a58075c580e6497fa8bab0c5c4fd4c8028ec7bfff32603116997e",
+        "bytes": 4984
+      },
+      "frozenEvidenceFiles": 22
+    }
+  ],
+  "supersededCandidates": [],
+  "attempts": {
+    "mappedSourceViews": 6,
+    "outsideLookupViews": 4,
+    "newOcrTasks": 49,
+    "ocrFailures": 0,
+    "ocrRetries": 0,
+    "successfulUnchangedOcrRepeated": 0,
+    "mapPreparationRuns": 2,
+    "mapPreparationFailures": 0,
+    "preOcrCoverageRefinements": 1,
+    "nativePreparationRuns": 1,
+    "nativePreparationFailures": 0,
+    "nativeExportRuns": 1,
+    "nativeExportFailures": 0,
+    "independentRebuildRuns": 1,
+    "independentRebuildFailures": 0,
+    "structurePreflights": 1,
+    "structurePreflightFailures": 0,
+    "actualAuditRuns": 2,
+    "actualAuditFailures": 1,
+    "finalNegativeCases": 116,
+    "cleanupApplied": false,
+    "regressionBaselineReused": "R46 unchanged258-test native implementation",
+    "notes": [
+      "Initial extent review proved232–239wholearticle,231Q&Aendingand240separateadvertisement/index. Selectedsix-pageopening232–237withinbound.",
+      "BeforeOCR,the map widened heading/column edges and recovered ConcurrentCP/Mopeningline. Prior map/helper retained.",
+      "All49initial OCR tasks succeeded without retry,engine switch or repeated successfulrecognition.",
+      "Source49regional readings preserve source spellings/duplicated text and source claims;ten occurrence-owned qualifications remain explicit.",
+      "Native237illustration caption has an explicit forward topic reference to InterfaceManageron238,rather than assignment to adjacentStarburstprose.",
+      "First full audit caught a no-op damage fixture:the selected measurement already belonged tolisa:p1. Corrected the intended wrong-owner fixture tovisi:p1;failed helper/log retained. Native data andOCR unchanged.",
+      "Final audit rejects116actual damage cases;all48earlier selectedpackages/frozen evidence and both readers exact.",
+      "Ten runtime files,28native implementationfiles and sharedplans exact;258-testbaseline/log hashes reused,notfreshlyrerun."
+    ]
+  },
+  "limitations": [
+    "Opening source segment232–237only;238–239and checked whole-article native assembly remain pending.",
+    "Historical dates,prices,specifications,performance/planned features,comparisons and attributions remain source claims without external correction or behavioral verification.",
+    "Source word/name/product/caption variants and local proper-name glyph candidates remain occurrence-owned rather than normalized.",
+    "Three original editorial illustrations/captions are retained without invented functional graphs,interior text or exact vector reconstruction.",
+    "Original encoded bytes and exact spacing remain unverified;prose line wrapping/paragraph spacing is an explicit editorial projection.",
+    "Assistant source sample review is distinct from full human proofreading and acceptance."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-50/recipe.json --output archive/scans/1984-11/packages/integrated-a-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-50/recipe.json --output work/validation/scans-1984-11-integrated-a-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-50/verify-review.py"
+  ],
+  "next": "R51: restore the final source segment238–239 of 읽을거리:통합소프트웨어 (maso-1984-11-toc-0032), observed whole extent232–239. Preserve immutable openingintegrated-a-r01 on232–237.238continuesStarburst in a new paragraph after 단dBASEII와슈퍼캘크는예외이다.;then section4인터페이스매니저begins.239containscompatibilitydiscussionandarticleclosingemblem. Establish all source paragraphs/headings,quoted claims,product/command/compatibility relationships and glyph qualifications before mapping. Reconcile the237captionnamed메니저forwardreference to the238sectionheading매니저 explicitly. At most two identities,six new mapped source views and twenty outside lookups;reuse successfulOCR and do not run frozen checkpoint scripts. Keep the whole article partial until a separate checked232–239native assembly,plannedR52. Preserve all prior packages/evidence,both dated reader previews and shared plans. Six other unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild remain in scope;keep the November goal active."
+}

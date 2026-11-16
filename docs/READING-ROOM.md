@@ -2,9 +2,51 @@
 
 Storage: [what to preserve and where new work belongs](STORAGE.md). Historical paths remain available through compatibility links.
 
-## November 1984 review preview through R47 — November 16, 2026
+## November 1984 review preview through R50 — November 16, 2026
 
-The latest local preview is `dist/reading-room-scans-1984-11-r47/`:
+The latest local preview is `dist/reading-room-scans-1984-11-r50/`:
+
+- [Issue contents](http://127.0.0.1:4193/#/issues/maso-1984-11)
+- [Review queue](http://127.0.0.1:4193/#/review?issue=maso-1984-11)
+- [Integrated software, partial](http://127.0.0.1:4193/#/articles/scan-maso-1984-11-toc-0032)
+
+This snapshot contains **27 complete native articles and one partial article**,
+all **40 canonical contents identities**, six non-owning headings and six
+unclassified entries. It adds SPC-CLOCK, Sound Keyboard and the integrated-software
+opening to R47. Integrated software covers printed pages 232–237; pages 238–239
+and checked whole-article assembly remain pending. The article retains its partial
+status and uncertainty records. Earlier readers remain separate snapshots.
+
+Use **원문과 나란히 검토하기** to compare corrected text with a source region,
+and **교정 전 OCR 보기** for its original OCR. **복원 기록** opens the native
+schema; text, listings and source downloads are available. The reproducible native
+package is the restoration artifact, and this reader is a sample presentation.
+**검토 메모** saves local notes. Export notes before changing browsers or ports;
+each browser and origin has its own storage.
+
+To restart this preview:
+
+```sh
+python3 -m http.server 4193 --bind 127.0.0.1 --directory dist/reading-room-scans-1984-11-r50
+```
+
+The production build and full reader integrity check pass. All **5,134 copied
+native files / 8,975,590,630 bytes** match their selected source packages.
+Build and browser evidence is kept under
+`archive/scans/1984-11/evidence/reading-room-pilot-r50-2026-11-16/`; the receipt is
+`metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r50.json`.
+No OCR or restoration checkpoint scripts run during export. Restoration remains
+paused for review. Covers, source accounting and whole-issue closeout are pending.
+
+Fresh browser checks opened all 28 article routes and all 52 integrated-software
+regions on printed pages 232–237, confirmed its partial notice, original OCR,
+360px comparison layout and 28-entry JPEG review queue, and exercised regional
+note save, reload and JSON export. The temporary note was removed. Reader code
+is unchanged; earlier unit-test results remain historical.
+
+## Earlier November 1984 review preview through R47 — November 16, 2026
+
+The earlier local preview is `dist/reading-room-scans-1984-11-r47/`:
 
 - [Issue contents](http://127.0.0.1:4192/#/issues/maso-1984-11)
 - [Review queue](http://127.0.0.1:4192/#/review?issue=maso-1984-11)
