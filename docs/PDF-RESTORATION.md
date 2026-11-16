@@ -3811,6 +3811,42 @@ is observed; reference 5 and the uncaptioned circuit remain qualified separately
 Existing v1–v3/PDF behavior and both shared operating plans remain unchanged.
 
 
+### Source-scoped native assembly (`scoped-native-v1`)
+
+The opt-in extension of `structured-programs-v1` assembles reviewed JPEG
+segments whose native correction indexes have different historical shapes.
+It preserves every index record as an unchanged `value` inside a
+`native_indexes` envelope. Each envelope includes its source scope, exact
+embedded correction pin and JSON pointer, typed reference bindings, checked
+assembled article/listing ranges, and exported source-image bindings. The
+original IDs and byte coordinates inside `value` always belong to that source
+scope; consumers use the envelope bindings for assembled coordinates. This is
+an explicit scoped representation, not a flattened correction format.
+
+`scopes` declares typed identities, original metadata, source downloads and
+block-fragment bindings. Node, edge and glyph-slot identities include their
+figure scope, so repeated terminal names in different graphs remain distinct.
+All references close against these definitions. Unknown indexes and identity
+fields fail closed. Numeric inspection transforms remain unchanged structures;
+review-only crop pins retain their original correction context. The mode
+preserves command-table literal fields, byte qualifications, raw recognition
+disagreements and bibliography entries alongside the earlier native indexes.
+
+Older logical units lacking `line_id` require an exact `logical_aliases` recipe
+entry naming the segment, record index and existing `source_unit_id`. The
+original unit is never rewritten. Physical rows, logical units, independent
+listing contexts, source regions and all supported byte-coordinate systems are
+checked before export. Combined listing bytes equal the concatenated original
+listing downloads. Two-part prose joins require exact boundary text, and
+original pending/outgoing declarations must match. Explicit paragraph links
+retain source fragments and their logical display after the physical join.
+
+The March feature assembly uses this mode for actual14–37. Its four immutable
+segments retain 2,044 physical rows, 2,038 logical units, seventeen independent
+listing/session contexts and all source-local uncertainties. Assembly asserts
+neither execution nor recovery of original encoded bytes. Existing modes and
+historical exports retain their original contracts.
+
 ### Source-owned news assembly (`regional-news-v1`)
 
 The opt-in news extension of `structured-regions-v1` preserves immutable prose

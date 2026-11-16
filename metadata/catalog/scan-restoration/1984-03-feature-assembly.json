@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M10",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0001",
+  "status": "complete-native-whole-feature",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "selected_package": "archive/scans/1984-03/packages/feature-jpeg-assembly-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/feature-jpeg-assembly-r01/manifest.json",
+    "sha256": "bd1dedc028b8b430162f6e3135aa7b04813d20c1c9f4f8536e5b4befa0b04422",
+    "bytes": 108252
+  },
+  "exact_files": 598,
+  "exact_embedded_segment_files": 589,
+  "native_structure": {
+    "source_views": 24,
+    "mapped_regions": 150,
+    "original_blocks": 86,
+    "active_blocks": 84,
+    "original_figures": 23,
+    "independent_listing_contexts": 17,
+    "physical_rows": 2044,
+    "logical_units": 2038,
+    "tables": 11,
+    "table_cells": 610,
+    "listing_literals": 12664,
+    "command_table_literals": 190,
+    "byte_qualifications": 359,
+    "recognition_disagreements": 745,
+    "bibliography_entries": 4,
+    "source_uncertainties": 74,
+    "figure_labels": 473,
+    "flow_graphs": 7,
+    "flow_nodes": 172,
+    "flow_edges": 197,
+    "glyph_component_slots": 596,
+    "original_paragraph_fragments": 75,
+    "explicit_logical_aliases": 210
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-06/validation.json",
+    "sha256": "30f0549d1d99e4dc3cc1f2ede3ed9f43498c6a81a36c5adc672d7f0cdfd45c4f",
+    "bytes": 1726
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-06/assembly-recipe-r01.json",
+    "sha256": "99f2ad34ba1d60247ba57b0e979a5041fae94aef74bb60664cab3af39c304185",
+    "bytes": 28233
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-06/source-ledger.json",
+    "sha256": "9c3467f8cd7347558326932606fa340545c9a54a779c5a0c6c39e0b3a15533f6",
+    "bytes": 178772
+  },
+  "source_dispositions_pending": 233,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-06/whole-progress-m10.json",
+    "sha256": "ed8752f1ae21784a5dec845c0fc83fed0bee80ccf074d684c377c5242b7f29b3",
+    "bytes": 145738
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-06/evidence-manifest.json",
+    "sha256": "1156605a0b2490d6b40e86c20f91052ccec536751962fcc619c7def6a61ace05",
+    "bytes": 4123
+  },
+  "shared_implementation_changed": true,
+  "fresh_regressions": 282,
+  "next": "M11: review heading39 and restore the next article, 추리력 테스트 게임, actual40–46 in bounded segments. Whole March remains active."
+}

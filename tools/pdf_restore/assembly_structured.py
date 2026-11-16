@@ -28,6 +28,9 @@ LOCAL_KEYS = {'line_id', 'source_unit_id', 'label_id', 'occurrence_id', 'row_id'
 
 
 def validate_recipe(recipe):
+    if recipe.get('source_index_mode') == 'scoped-native-v1':
+        from .assembly_scoped_native import validate_recipe as validate_native
+        return validate_native(recipe)
     if recipe.get('source_index_mode') == 'regional-news-v1':
         from .assembly_image_news import validate_recipe as validate_news
         return validate_news(recipe)
@@ -289,6 +292,9 @@ class Context:
 
 
 def project_structured(recipe, originals):
+    if recipe.get('source_index_mode') == 'scoped-native-v1':
+        from .assembly_scoped_native import project as project_native
+        return project_native(recipe, originals)
     if recipe.get('source_index_mode') == 'regional-news-v1':
         from .assembly_image_news import project_news
         return project_news(recipe, originals)

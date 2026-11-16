@@ -26,8 +26,8 @@ the requested scope is the whole March issue, not the M01–M04 supplement-only
 campaign. Those checkpoints preserve useful work on actual 250–251, a mixed
 PDF/JPEG article revision and four original cover faces. Their 7,016-file export
 reused the other 37 PDF article packages; it does not establish restoration of
-the whole donated-scan issue. The 262 unselected page images still require
-source-backed review and disposition, and every eligible article requires
+the whole donated-scan issue. At that checkpoint, 262 page images still required
+source-backed review and disposition. Every eligible article requires
 JPEG-backed content, structure, continuity and reproduction evidence before
 whole-issue closeout. Preserve the
 [supplement handoff](docs/SCAN-RESTORATION-1984-03.md) as historical evidence.
@@ -38,11 +38,15 @@ feature's opening on actual 14–19 as a checked native segment. M07 adds actual
 162 exact files, 500 physical code rows, 196 typed table cells, 84 component
 slots and four native flow graphs. M09 completes source coverage on actual
 32–37: 122 exact files, 899 physical code/session rows, 12,288 dump byte fields,
-the native command table and all four bibliography entries. All four segments
-remain partial until whole-feature assembly passes.
-The whole issue remains active: one complete article, one partial feature,
+the native command table and all four bibliography entries. M10 completes the
+whole-feature assembly: 598 exact native files, including all 589 original
+segment files, 150 exact source crops and 282 fresh passing restoration tests.
+Its explicit source-scoped native indexes preserve every original record,
+typed reference and byte range; the two split-word joins are source-compared.
+The whole issue remains active: two complete articles, no partial articles,
 36 pending article candidates and six pending headings. There are 233 source
-images still awaiting full-page disposition. Continue with whole-feature assembly.
+images still awaiting full-page disposition. Continue with heading39 and
+추리력 테스트 게임, actual40–46, in bounded checkpoints.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

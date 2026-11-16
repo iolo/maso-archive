@@ -24,9 +24,12 @@ native flow graphs. M08 adds actual 26–31: 162 exact native files, 500 physica
 code rows, 196 table cells, 84 component slots and four native flow graphs.
 M09 completes feature source coverage on actual 32–37: 122 exact files,
 899 physical code/session rows, 12,288 dump byte fields, the native command table
-and all four bibliography entries. There are one complete article, one partial
-feature, 36 pending article candidates, six pending headings and 233 source
-images awaiting full-page disposition. Continue with whole-feature assembly.
+and all four bibliography entries. M10 completes the whole feature on actual
+14–37: 598 exact native files, all original segment indexes retained, two
+source-compared split-word joins and 282 fresh passing restoration tests. There
+are two complete articles, no partial articles, 36 pending article candidates,
+six pending headings and 233 source images awaiting full-page disposition.
+Continue with heading39 and 추리력 테스트 게임, actual40–46, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -98,6 +101,7 @@ labels and the preserved exports retain their existing values.
 | March 1984 feature continuation — M07 | Passed; whole article partial | Actual 20–25; 146 exact native files, 435 physical code rows, 333 table cells, 512 glyph slots, two source graphs; 26–37 and assembly pending |
 | March 1984 feature continuation — M08 | Passed; whole article partial | Actual 26–31; 162 exact native files, 500 physical code rows, 256 dump bytes, 196 table cells, 84 component slots and four source graphs; 32–37 and assembly pending |
 | March 1984 feature final source — M09 | Passed; whole article assembly pending | Actual 32–37; 122 exact native files, 899 physical code/session rows, 12,288 dump fields, 81 command-table cells and four bibliography entries; all source pages covered |
+| March 1984 whole-feature assembly — M10 | Passed; whole issue active | Actual 14–37; 598 exact native files, all 589 embedded segment files unchanged, 19,065 native index records, two split-word joins and 282 fresh passing regressions |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -3989,4 +3993,53 @@ ledger; **233** await full-page disposition. Whole March remains active with one
 complete article, one partial feature, 36 pending article candidates and six
 pending headings. Continue with **M10**, whole-feature assembly. See [the final
 source result](metadata/catalog/scan-restoration/1984-03-feature-final-d.json) and
+[active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M10 — March whole-feature assembly, actual 14–37
+
+Assembled **한글 명령 컴퓨터의 설계** from all four immutable JPEG segments.
+All **598 native files** match an independent fresh rebuild, including every
+one of the **589 original segment files**. The two physical prose joins retain
+the source's **CRT 화 / 면과** and **00H / 로 구분된다는** continuations without
+inserting spaces. Exact paragraph occurrences and their logical joined displays
+remain indexed. The encoding explanation on25/26 stays in separate paragraphs;
+both original figure15 occurrences remain independent.
+
+The opt-in **scoped-native-v1** assembly contract preserves **19,065 original
+native index records** in source-owned envelopes. Each unchanged value retains
+its source identities and coordinate systems, with a pinned correction pointer,
+typed active references, checked combined-download ranges and source-image
+bindings. Numeric inspection transforms and review-only provenance remain
+intact. The first segment's **210 logical units** lacking `line_id` receive
+explicit checked source-unit aliases without rewriting the original records.
+Figure-scoped identities keep repeated graph terminals distinct. Unknown indexes
+and identity fields fail closed; historical assembly modes retain their contracts.
+
+The complete native contains **2,044 physical rows / 2,038 logical units** in
+seventeen independent listing/session contexts, eleven tables with 610 cells,
+23 original figures, seven flow graphs with 172 nodes and 197 edges, and 596
+glyph/component slots. It retains 12,664 listing literals, 190 command-table values,
+359 byte qualifications, 745 recognition-disagreement rows, 74 local uncertainty
+records, 473 figure labels, 75 original paragraph fragments and all four bibliography
+entries. Code downloads equal the concatenated original listing bytes. Original
+encoded bytes, execution, technical accuracy and full human proofreading remain
+unverified. Only exact stale extent/assembly/review-status notes are superseded;
+their original wording and substantive source qualifications remain preserved.
+
+Independent checks pass for **150 master-derived crops**, 130 original recognition
+bindings, 95,214 typed references, 68,141 native ranges and 569 raw ZIP members.
+M05–M09 frozen evidence and all four source packages remain exact. The first
+audit was stopped because it repeatedly hashed an invariant correction pin;
+the preserved second attempt caches those pins and passes the same checks.
+Fresh regression groups pass: **214 PDF, 56 image, nine recognition-map and three
+issue-supplement tests; 282 total**. Four new test methods cover exact rebuild/source preservation,
+invalid data, figure-scoped identities/label ownership and rehashed tampering.
+Cleanup was previewed without deletion. No new mapping or OCR ran.
+
+Whole March remains active: **two complete articles, no partial articles,
+36 pending article candidates, six pending headings and 233 source images awaiting
+full-page disposition**. Continue with **M11**, heading39 and
+**추리력 테스트 게임**, actual40–46, in bounded segments. See [the assembly
+result](metadata/catalog/scan-restoration/1984-03-feature-assembly.json),
+[native index contract](docs/PDF-RESTORATION.md) and
 [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
