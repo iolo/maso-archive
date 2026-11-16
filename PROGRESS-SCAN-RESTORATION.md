@@ -9,13 +9,15 @@ non-owning headings, all 40 canonical identities and all 246 source images
 accounted for. Its checked native issue reproduces 6,306 files. See the
 [November handoff](docs/SCAN-RESTORATION-1984-11.md).
 
-**March 1984's targeted supplementary campaign is complete through M04:**
-38 complete article packages, six non-owning headings and a checked native issue
-of 7,016 exact files. Actual 250–251 complete the word-processor article through
-a native PDF/JPEG revision. Four original cover faces and all 273 JPEG selection
-outcomes are retained; 262 unselected page images have not been freshly aligned
-or classified at full resolution. The original PDF package and its historical
-partial outcome are preserved. See the [March handoff](docs/SCAN-RESTORATION-1984-03.md).
+**March 1984 whole-issue scan restoration is active.** The owner clarified the
+whole-issue scope after M04. The assistant's previous goal-completion claim was
+incorrect: M01–M04 added one article continuation and covers, then reused the
+other 37 PDF packages. Their 7,016-file supplement export is preserved as
+historical evidence, not accepted as whole-scan restoration. Every eligible
+article needs JPEG-backed content/structure review and all 273 scans need
+evidenced dispositions before closeout. M05 establishes the corrected queue and
+starts the complete editorial on actual 13. Prior PDF and supplement outputs
+remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
 sample-reviewed. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
@@ -23,7 +25,8 @@ inputs, not restored articles.
 
 The checked current TOC snapshot supplies 1,119 identities and 919 provisional
 article candidates across these dates. Twenty-two dates add coverage beyond the
-supplied PDFs; February and March 1984 are supplementary-source cases. Final
+supplied PDFs; February remains a supplementary-source case, while March now has
+an explicit owner request for whole-issue scan restoration. Final
 body counts and per-article availability remain undetermined.
 
 The restoration target is presentation-independent structured data, with source
@@ -78,7 +81,8 @@ labels and the preserved exports retain their existing values.
 | March 1984 supplement — M01 | Passed; assembly pending | Actual 250–251 restored as an immutable two-page supplement; 28 exact files |
 | March 1984 source revision — M02 | Passed | Complete word-processor article, actual 244–251; 136 exact files; original components retained |
 | March 1984 covers/source selection — M03 | Passed | Four original faces, 11 exact native files; all 273 JPEG selection outcomes explicit |
-| March 1984 supplemented issue — M04 | Passed | All 44 identities accounted; 38 complete articles, six headings; 7,016 exact issue files |
+| March 1984 supplemented issue — M04 | Historical supplement only | Reused 37 PDF articles; does not establish whole-scan completion |
+| March 1984 whole-issue restart — M05 | Active | All 44 canonical identities and 273 scans in scope; editorial on actual 13 first |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -3728,3 +3732,50 @@ See the [final result](metadata/catalog/scan-restoration/1984-03-issue.json),
 [reproduction handoff](docs/SCAN-RESTORATION-1984-03.md). **March's canonical issue
 and the plan's supplementary-source campaign are complete within this documented
 scope.** The next full new scan issue is December 1983; no work on it was started.
+
+## M05 — owner scope correction and whole-scan editorial
+
+The owner clarified that the task is the **whole March 1984 issue**. The
+assistant had incorrectly reduced that request to the plan's targeted supplement
+and marked the goal complete after M04. That goal-completion claim is withdrawn.
+The prior 38-article total reused 37 historical PDF packages and did not establish
+whole-JPEG restoration. The plan, active ledger and M04 catalog status now make
+that distinction explicit. Original PDF, M01–M04 packages and frozen evidence
+remain preserved; their earlier progress/result records were snapshotted before
+correcting the active status.
+
+The whole-issue queue covers **44 canonical identities and all 273 scans**.
+Every eligible article requires JPEG-backed content/structure, source continuity
+and rebuild evidence. Historical PDF extents and outcomes are comparison inputs,
+not automatically accepted whole-scan outcomes. Four covers, four forms, the
+spine and the two-page continuation retain their checked evidence. Original
+contents/credits/colophon and the 13/14 boundary have now been viewed in the new
+checkpoint; **259 source images still await full-page disposition**.
+
+The first complete whole-scan article is **편집자 노트**, actual **13**, as
+`editorial-jpeg-r01`: **44 exact files** in an independent rebuild. The original
+JPEG, nine mapped text/end-mark regions, fresh raw recognition and correction
+bindings establish the new source package. The prior PDF reading was compared
+against every JPEG region, not used as automatic scan-completion evidence.
+Its **13 paragraphs, three logical sections, two announced reader notices,
+two within-word column joins and one closing star** retain native source ranges
+and ownership. Historical wording, the printed Imsi designation and technical
+claims remain qualified. The star also appears in the body crop but occurs only
+once in the native text.
+
+All nine master-derived crops, nine original OCR bindings, 37 raw ZIP members
+and **12 damaged actual native cases** pass. Nine initial recognition tasks ran
+once, with no crop repairs or engine switch. One command selected the wrong
+source index and was rejected before recognition; its log remains retained.
+No shared implementation or reader changed. Existing shared-test evidence was
+reused with unchanged implementation pins; no fresh regression-suite claim is
+made for this data-only checkpoint.
+
+**Whole March remains active:** one JPEG-backed article is complete, 37 article
+candidates and six heading dispositions remain pending. **M06** must establish
+the complete JPEG extent/structures of **한글 명령 컴퓨터의 설계**, then restore its
+opening in a bounded segment. Do not move to another issue or describe March as
+complete until all whole-issue gates pass.
+
+See the [scope correction](metadata/catalog/scan-restoration/1984-03-scope-correction.json)
+and [M05 editorial result](metadata/catalog/scan-restoration/1984-03-editorial.json).

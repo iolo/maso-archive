@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "issue_id": "maso-1984-03",
+  "whole_scan_status": "active",
+  "whole_scan_complete": false,
+  "reason": "The owner requested restoration of the whole March issue. The assistant incorrectly limited the work to a word-processor supplement and covers,then reused37PDFarticlepackages and marked the goal complete.",
+  "historical_supplement_result": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-01/supplement-issue-result-before-correction.json",
+    "sha256": "3fe9e9d17a6f65121b00358851136faf81e2bc398fd108d57094594d65564b8d",
+    "bytes": 2939
+  },
+  "historical_supplement_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-01/supplement-progress-before-correction.json",
+    "sha256": "ad30ca1aa64e6c52373c59ba2b2cbb4ef9115b283744f6206f2b6bcd87725996",
+    "bytes": 111330
+  },
+  "accepted_scope": "Review and account for all273donated scans;restore every eligible article and native structure with JPEG-backed evidence in bounded checkpoints;verify all canonical ownership,continuity,assets,ranges and reproducible selected article/whole-issue packages. Preserve original PDF and M01–M04 outputs. Existing PDF text and packages are comparison inputs,not automatic whole-scan completion.",
+  "whole_issue_closeout_required": true
+}

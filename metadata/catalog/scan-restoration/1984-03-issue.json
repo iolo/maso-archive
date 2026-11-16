@@ -2,8 +2,8 @@
   "schema_version": 1,
   "checkpoint": "M04",
   "issue_id": "maso-1984-03",
-  "status": "complete",
-  "scope": "Complete canonical Marchissue with targetedJPEGsupplement and four nativecoverfaces;not a fresh whole-JPEGarticle restoration,full humanproofreading or program execution certification.",
+  "status": "historical-supplement-complete",
+  "scope": "Historical M01–M04 supplement export:one restored continuation,original covers and37reusedPDFarticlepackages. This does not establish whole donated-scan restoration.",
   "counts": {
     "toc_entries": 44,
     "classified_articles": 38,
@@ -87,5 +87,17 @@
       "bytes": 5028
     }
   ],
-  "next_full_new_issue": "1983-12"
+  "next_full_new_issue": "1983-12",
+  "whole_scan_complete": false,
+  "superseded_for_whole_issue_completion": true,
+  "scope_correction": {
+    "path": "metadata/catalog/scan-restoration/1984-03-scope-correction.json",
+    "sha256": "82f9467546347fd56355fcc240c1de1a0b8855b8791afba49f3a153106f606b6",
+    "bytes": 1324
+  },
+  "original_result": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-01/supplement-issue-result-before-correction.json",
+    "sha256": "3fe9e9d17a6f65121b00358851136faf81e2bc398fd108d57094594d65564b8d",
+    "bytes": 2939
+  }
 }

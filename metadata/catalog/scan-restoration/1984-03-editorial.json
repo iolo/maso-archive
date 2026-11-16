@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M05",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0039",
+  "status": "complete-native-article",
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    13
+  ],
+  "selected_package": "archive/scans/1984-03/packages/editorial-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/editorial-jpeg-r01/manifest.json",
+    "sha256": "958521f45f342ecb413ce0314740319247bb7a05c0f7795e8027a2c7c10e0564",
+    "bytes": 7356
+  },
+  "exact_files": 44,
+  "paragraphs": 13,
+  "logical_sections": 3,
+  "announced_notices": 2,
+  "source_regions": 9,
+  "word_fragment_joins": 2,
+  "source_qualifications": 4,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-01/validation.json",
+    "sha256": "7d30ac066a4558c4593e965c48ec3fae97eea735f0a745aa41301a75bf4b80e0",
+    "bytes": 1366
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-01/editorial/recipe.json",
+    "sha256": "6ab34d14494a00d233e3ea8252c32e733dfa91d515b9d47918f4904e7d6277d0",
+    "bytes": 2944
+  },
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-01/whole-progress-m05.json",
+    "sha256": "38cb73c7fd013bc829cf77249014ae0e5224709615a4d0df75a4469d80eca5a0",
+    "bytes": 140133
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-01/evidence-manifest.json",
+    "sha256": "3b9dbceb668e2dc7ef3d4ae9bc81c4ff1c439acbed44f8957cc11fa91cf7a0a7",
+    "bytes": 17254
+  },
+  "next": "M06: locate the full JPEG extent and structures of the feature 한글 명령 컴퓨터의 설계,then restore its opening in a bounded segment. All other article and source dispositions remain in the active whole-issue queue."
+}

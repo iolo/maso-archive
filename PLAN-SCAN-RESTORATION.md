@@ -21,16 +21,17 @@ are resolved. See the [reproduction handoff](docs/SCAN-RESTORATION-1984-11.md).
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
 
-**March 1984's supplementary-source campaign is also complete (M01–M04).**
-Actual printed 250–251 are present in the donated JPEGs and now complete the
-word-processor article through an explicit PDF/JPEG source join. The new native
-issue reproduces **7,016 files**: **38 complete article packages and six
-non-owning headings**, with the original PDF partial preserved separately.
-Four original cover faces form a checked native cover set. All 273 JPEGs have
-explicit selection outcomes; 262 unselected page images retain their cleanup
-review and unverified full-resolution classification/PDF correspondence. This
-was the targeted supplement below, not a new transcription of the entire JPEG
-issue. See the [March handoff](docs/SCAN-RESTORATION-1984-03.md).
+**March 1984 whole-issue scan restoration is active.** The owner clarified that
+the requested scope is the whole March issue, not the M01–M04 supplement-only
+campaign. Those checkpoints preserve useful work on actual 250–251, a mixed
+PDF/JPEG article revision and four original cover faces. Their 7,016-file export
+reused the other 37 PDF article packages; it does not establish restoration of
+the whole donated-scan issue. The 262 unselected page images still require
+source-backed review and disposition, and every eligible article requires
+JPEG-backed content, structure, continuity and reproduction evidence before
+whole-issue closeout. Preserve the
+[supplement handoff](docs/SCAN-RESTORATION-1984-03.md) as historical evidence.
+M05 starts the whole-issue queue and editorial.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -78,8 +79,11 @@ handoff remains separate; this plan adds a new source type and new issue coverag
   These are planning counts, not 919 proven article bodies. Group headings,
   shared bodies, unlocated entries and other outcomes still need classification.
 - **22 issue dates have no supplied PDF.** February and March 1984 already have
-  completed PDF restoration passes; treat their JPEGs as supplementary sources,
-  rather than automatically transcribing both issues again.
+  PDF restoration passes. March now has an explicit owner request for whole-issue
+  scan restoration: prior PDF work is comparison evidence, not automatic scan
+  completion. Retain its original packages and validate any reuse against the
+  JPEG content and native-structure requirements. February remains a targeted
+  supplementary-source case unless separately requested.
 
 Keep `PLAN-SCANS.md` as the cleanup record and `PLAN-PDF.md` as the PDF campaign
 record. This short plan owns the scan-specific work.
@@ -209,13 +213,18 @@ Complete November 1984's issue accounting and checked export before starting
 another issue's article restoration. Passing the pilot establishes the workflow;
 it does not mean the whole pilot issue is already restored.
 
-The **supplementary-source check for March 1984** is complete through M01–M04.
+The limited **supplementary-source check for March 1984** passed M01–M04.
 Its historical PDF word-processor package was partial because printed
 **250–251** are absent from that source. Full-page source comparison verified
 both actual folios in the donated JPEGs. A checked new source-linked supplement
 and a mixed-source native revision now supply them, preserving the original PDF
 package and its historical missing-source outcome. Matching filenames alone
-were not used as folio evidence.
+were not used as folio evidence. The owner subsequently clarified that the task
+is **whole March issue restoration**. Continue through every eligible article,
+all source-image dispositions, native structural checks and independent rebuilds;
+the limited supplement export does not close that task. Preserve existing useful
+work and original PDF outcomes. Do not advance to another issue until the whole
+March issue meets the closeout gates.
 February 1984 likewise needs targeted source comparison only where there is a
 documented gap or improvement worth making.
 
