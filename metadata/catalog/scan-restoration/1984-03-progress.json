@@ -2896,7 +2896,7 @@
       "title": "마이크로 컴퓨터 시스템 입문",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0018",
@@ -3111,7 +3111,45 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "segments": [
+          {
+            "checkpoint": "M30",
+            "directory": "archive/scans/1984-03/packages/systems-opening-jpeg-r02",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/systems-opening-jpeg-r02/manifest.json",
+              "sha256": "f5ff018f53358015e116e199dc463e74c9d174eaf9ad79dc7ca7a08974ad8bb6",
+              "bytes": 33582
+            },
+            "actual_folios": [
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-26/validation.json",
+              "sha256": "ebff1dc9cc8d475ebc9a3d826588d87b81c0a8446cd447fbac59f7bca706dc8f",
+              "bytes": 10451
+            }
+          }
+        ],
+        "observed_source_title": "마이크로컴퓨터 시스템 입문",
+        "observed_opening_folio": 100,
+        "observed_ending_folio": 108,
+        "source_extent_verified": true,
+        "source_extent_covered": false,
+        "continuation_pending": [
+          106,
+          107,
+          108
+        ],
+        "assembly_pending": true
+      },
       "historical_printed_extent_candidate": [
         "100",
         "101",
@@ -3125,13 +3163,19 @@
       ],
       "located_source_evidence": {
         "actual_folio": 100,
-        "observed_title": "마이크로 컴퓨터 시스템 입문",
+        "observed_title": "마이크로컴퓨터 시스템 입문",
         "source_review": {
           "path": "archive/scans/1984-03/restoration/whole-issue-23/review/full-100.jpg",
           "sha256": "ce90a3edf74536af417e6c1487086196715af4dab1d07a0432e69f75cd31397f",
           "bytes": 1195631
         },
-        "restoration_pending": true
+        "restoration_pending": true,
+        "partial_native_selected": true,
+        "transition_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-26/transition.json",
+          "sha256": "6ac0d3bf23a3388b93f86513b1e3f297c8c71cd4b9938c6c8a0859a10e21d327",
+          "bytes": 1738
+        }
       }
     },
     {
@@ -3300,7 +3344,17 @@
         "110",
         "111",
         "112"
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 109,
+        "observed_title": "자동 실행 테이프의 전모",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-26/review/full-109.jpg",
+          "sha256": "61a2b0e4aaec7f58eabc7dd43648e8ebb1a032431be9c47f3fa05b6f49784746",
+          "bytes": 1095498
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0020",
@@ -5581,14 +5635,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-25/source-ledger.json",
-    "sha256": "93998849fa89b6a22317f1f04408a59e649cff178efb267baf9c9e5275d7a911",
-    "bytes": 250236
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/source-ledger.json",
+    "sha256": "b36b49e331f91539c48fb305c1592dc771ab685d8b126f31d42bd4faabc8f735",
+    "bytes": 259436
   },
-  "current_checkpoint": "M29-complete",
-  "next": "M30: restore the bounded opening 100–105 of 마이크로 컴퓨터 시스템 입문, maso-1984-03-toc-0018;verify complete candidate extent100–108and following109. Continue every remaining March article,heading and source disposition before whole-issue export/audit.",
-  "pending_article_candidates": 22,
+  "current_checkpoint": "M30-complete",
+  "next": "M31: restore final106–108of 마이크로 컴퓨터 시스템 입문,maso-1984-03-toc-0018,from the donated JPEGs. Preserve the selected M30opening and explicit105/106so-/urce continuation. Then M32must assemble and independently validate the complete100–108article. Continue every remaining March article,heading and source disposition before whole-issue export/audit.",
+  "pending_article_candidates": 21,
   "pending_heading_candidates": 4,
-  "partial_whole_scan_articles": 0,
+  "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 2
 }

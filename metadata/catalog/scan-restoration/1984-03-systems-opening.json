@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M30",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0018",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "마이크로 컴퓨터 시스템 입문",
+  "observed_source_title": "마이크로컴퓨터 시스템 입문",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "article_actual_folios": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "selected_package": "archive/scans/1984-03/packages/systems-opening-jpeg-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/systems-opening-jpeg-r02/manifest.json",
+    "sha256": "f5ff018f53358015e116e199dc463e74c9d174eaf9ad79dc7ca7a08974ad8bb6",
+    "bytes": 33582
+  },
+  "exact_files": 199,
+  "native_structure": {
+    "source_images": 6,
+    "mapped_regions": 59,
+    "initial_text_ocr_tasks": 44,
+    "recognition_retries": 0,
+    "blocks": 39,
+    "regional_texts": 44,
+    "prose_joins": 5,
+    "original_figures": 15,
+    "source_tables": 13,
+    "table_cells": 302,
+    "figure_structures": 30,
+    "figure_fields": 371,
+    "figure_rows": 107,
+    "figure_labels": 103,
+    "figure_connectors": 285,
+    "diagram_bit_positions": 32,
+    "caption_associations": 9,
+    "illustration_text_associations": 1,
+    "source_figure_contexts": 11,
+    "regional_reading_lines": 76,
+    "regional_paragraph_fragments": 54,
+    "inline_fields": 255,
+    "source_prose_claims": 44,
+    "embedded_assembly_examples": 5,
+    "inline_binary_expressions": 1,
+    "inline_binary_positions": 8,
+    "source_qualifications": 24,
+    "whole_article_complete": false,
+    "whole_issue_complete": false
+  },
+  "native_index_records": 1779,
+  "typed_references": 8883,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/validation.json",
+    "sha256": "ebff1dc9cc8d475ebc9a3d826588d87b81c0a8446cd447fbac59f7bca706dc8f",
+    "bytes": 10451
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/recipe-r01.json",
+    "sha256": "e64a6f45514e8969e00abdbe9480969595e9691224efa078993129e0fd0b03fa",
+    "bytes": 14830
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/source-ledger.json",
+    "sha256": "b36b49e331f91539c48fb305c1592dc771ab685d8b126f31d42bd4faabc8f735",
+    "bytes": 259436
+  },
+  "source_dispositions_pending": 164,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/whole-progress-m30.json",
+    "sha256": "83b25107c5ed8dc2dd7295a5fb8b01f416b0b702f5633781c096ff485dca0a74",
+    "bytes": 178949
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-26/evidence-manifest.json",
+    "sha256": "864ab39d5183e48f1e40790e0ca28150024845dcbd783298f2cf771143df409c",
+    "bytes": 145427
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 291,
+  "next": "M31: restore final106–108of 마이크로 컴퓨터 시스템 입문,maso-1984-03-toc-0018,from the donated JPEGs. Preserve the selected M30opening and explicit105/106so-/urce continuation. Then M32must assemble and independently validate the complete100–108article. Continue every remaining March article,heading and source disposition before whole-issue export/audit."
+}

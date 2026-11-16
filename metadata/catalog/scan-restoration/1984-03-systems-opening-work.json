@@ -3,7 +3,7 @@
   "checkpoint": "M30-in-progress",
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0018",
-  "status": "all-prose-and-figure-source-comparison-and-geometry-complete;native-opening-not-yet-selected",
+  "status": "accepted-native-opening-segment;whole-article-pending",
   "canonical_received_title": "마이크로 컴퓨터 시스템 입문",
   "observed_source_title": "마이크로컴퓨터 시스템 입문",
   "source_extent_verified": true,
@@ -38,17 +38,17 @@
   "source_compared_first_cells": 121,
   "remaining_figure_regions": 0,
   "native_geometry_pending": false,
-  "native_package_selected": false,
+  "native_package_selected": true,
   "complete_whole_scan_articles": 16,
-  "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 22,
-  "source_dispositions_pending": 173,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 21,
+  "source_dispositions_pending": 164,
   "whole_article_complete": false,
   "whole_issue_complete": false,
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-26/resume.json",
-    "sha256": "4381d94f776012b20373fa07cc96df2e219cce55f68c5ab0bbc08171026787ff",
-    "bytes": 5478
+    "sha256": "f04a6c95cdcb6214d2e1b7dee152d5d3b1fe6977a04a19b1805dcf2166b904fd",
+    "bytes": 2070
   },
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/map.json",
@@ -80,7 +80,7 @@
     "sha256": "6ac0d3bf23a3388b93f86513b1e3f297c8c71cd4b9938c6c8a0859a10e21d327",
     "bytes": 1738
   },
-  "next": "Encode the39source reading blocks,five local prose joins,44regional ranges,all15original figures and nine caption associations. Bind all physical table cells,diagram fields/labels/paths/bits,source instruction examples and prose claims to the native opening with exact source/range relationships. The commonFigure6caption owns transfer/search/IOcomponents across103–104. Retain explicit outgoing105/106 so-/urce continuation. Export selected100–105opening twice to fresh directories,then independently audit and acceptM30. Final106–108andwhole-article assembly remain required. Never rerun or modify frozen earlier evidence/helpers.",
+  "next": "M31: restore final106–108of 마이크로 컴퓨터 시스템 입문,maso-1984-03-toc-0018,from the donated JPEGs. Preserve the selected M30opening and explicit105/106so-/urce continuation. Then M32must assemble and independently validate the complete100–108article. Continue every remaining March article,heading and source disposition before whole-issue export/audit.",
   "source_compared_figure_regions": 15,
   "initial_first_figure_cell_observations": 133,
   "source_compared_tables": 13,
@@ -104,5 +104,15 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-26/systems/review/native-geometry-final-review.json",
     "sha256": "3a0860fb986df5d51a2eb5476def01104f1feb6e3af5af5af37902215d5fc890",
     "bytes": 2175
+  },
+  "accepted_result": {
+    "path": "metadata/catalog/scan-restoration/1984-03-systems-opening.json",
+    "sha256": "da353a9edefb7cf9849416c9de7b8dc3ec7de76004d45f6345ba0b37d47a0c43",
+    "bytes": 3436
+  },
+  "selected_manifest": {
+    "path": "archive/scans/1984-03/packages/systems-opening-jpeg-r02/manifest.json",
+    "sha256": "f5ff018f53358015e116e199dc463e74c9d174eaf9ad79dc7ca7a08974ad8bb6",
+    "bytes": 33582
   }
 }

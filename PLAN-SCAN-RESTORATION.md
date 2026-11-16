@@ -109,20 +109,21 @@ The original intervening illustration and overprinted text remain intact.
 All 107 master crops, 71 OCR bindings and 291 fresh restoration tests pass;
 the opt-in observation contract preserves literal arithmetic and typed source
 references without changing historical modes. The whole issue
-remains active: sixteen complete articles, no partial articles, 22 pending article
-candidates, two completed headings and four pending headings. There are 173 source
-images still awaiting full-page disposition. Continue with M30, the bounded
-opening 100–105 of 마이크로 컴퓨터 시스템 입문; verify its complete candidate
-extent 100–108 and following article on 109 before continuing the whole issue.
-M30 source work now confirms that extent, completes all 44 initial mapped OCR
-tasks and compares all opening prose and all fifteen original figure regions
-against enlarged JPEG contexts. The selected figure geometry retains thirteen
-tables/302 physical cells, 371 fields, 103 labels, 285 paths and 32 bit positions.
-Source comparison corrects the first draft's arithmetic operation-cell spans
-without changing its printed operation lines. Native prose relationships,
-export and article acceptance are pending. This work does not advance
-article-completion counts. See
-[the working checkpoint](metadata/catalog/scan-restoration/1984-03-systems-opening-work.json).
+remains active: sixteen complete articles, one partial article, 21 pending article
+candidates, two completed headings and four pending headings. There are 164 source
+images still awaiting full-page disposition. M30 restores the bounded opening
+100–105 of 마이크로 컴퓨터 시스템 입문 in 199 exact native files; the complete
+source extent is 100–108, followed by the separate tape article on 109. All 44
+mapped OCR tasks, 59 original-master crops and 1,779 native observations pass.
+The opening retains thirteen tables/302 physical cells, 371 fields, 103 labels,
+285 paths, 32 drawing bit positions and five embedded assembly examples. The
+single Figure 6 caption owns all three original components. Source comparison
+corrects the draft's operation-cell spans without changing its printed lines;
+the standalone DAA instruction has its own exact range. All 36 damaged-data
+checks reject, and the unchanged 291-test baseline remains qualified. Continue
+with M31, final 106–108 and the explicit so-/urce continuation, then assemble and
+validate the complete article before continuing the whole issue. See
+[the accepted opening](metadata/catalog/scan-restoration/1984-03-systems-opening.json).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

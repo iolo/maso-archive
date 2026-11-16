@@ -5129,7 +5129,7 @@ complete candidate extent **100–108** and following article on **109**.
 See [the complete numbers result](metadata/catalog/scan-restoration/1984-03-numbers.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
 
-## M30 in progress — March systems article opening, actual 100–105
+## M30 source review — March systems article opening, actual 100–105
 
 Started the bounded opening of **마이크로 컴퓨터 시스템 입문**, canonical
 **maso-1984-03-toc-0018**. Full original JPEG pages **100–109** confirm the complete
@@ -5197,10 +5197,62 @@ partitions, references and bounds. Six damaged-data cases reject. All **32 froze
 M29 evidence files** and **51 shared implementation pins** remain exact, so its
 fresh **291-test** baseline remains reusable. No shared code changed.
 
-**M30 remains in progress.** Native prose, instruction and caption relationships,
-two opening exports and package acceptance remain required. No native opening
-export has been selected. Cleanup was previewed without deletion and all
-launched jobs are terminal.
-Whole March remains active at **sixteen complete articles, no partial native
-articles, 22 pending article candidates and 173 pending full-page dispositions**.
-See [the saved work state](metadata/catalog/scan-restoration/1984-03-systems-opening-work.json).
+At that intermediate save, native prose, instruction and caption relationships,
+two opening exports and package acceptance remained pending. Counts stayed at
+sixteen complete articles, no partial articles, 22 pending article candidates
+and 173 pending full-page dispositions. The acceptance below completes those
+opening-segment obligations; the complete article remains pending.
+
+## M30 complete — checked native systems opening, actual 100–105
+
+Accepted **마이크로 컴퓨터 시스템 입문**, canonical
+**maso-1984-03-toc-0018**, as a **partial native article** covering original
+**100–105** of verified **100–108**. Printed **마이크로컴퓨터 시스템 입문** remains
+distinct from the received title. Two separate exports reproduce **199 exact
+native files**. The opening contains **39 reading blocks, 44 regional texts,
+five local joins and all fifteen original figures**, including the three
+original photographic/artwork groups. All nine source captions remain literal;
+the single Figure 6 caption associates its transfer, search and I/O components
+across 103–104 without duplicated display captions.
+
+The native observations retain **thirteen source tables/302 physical cells,
+371 figure fields, 103 labels, 285 paths, 107 row contexts and 32 drawing bit
+positions**. Five embedded source assembly examples retain exact occurrences
+and operand fields. The standalone **DAA** instruction after **ADD A, B** has
+its own source range; the historical earlier prose annotation is not reused.
+An additional **0001 0111** prose expression retains all eight bit positions.
+The package preserves 54 paragraph fragments, 255 inline source fields, 44
+technical paragraph observations, eleven figure contexts and all 24 local
+qualifications. Printed errors and unfilled slots remain observations without
+instruction execution, encoded-byte recovery or arithmetic correction.
+
+The first native draft used the historical `annotated_examples` index name,
+which the scoped native contract correctly rejected. Its five complete records
+now use the existing `source_literal_index`; every example, field, source crop
+and byte range is unchanged. Both first exports and the rejected probe remain
+preserved. The first probe also exposed an invocation-type mistake before any
+artifact mutation. The first independent audit then exposed two audit-fixture
+mistakes: counting a mapping's values instead of its keys, and expecting thirteen
+section headings instead of eleven. Fixing those fixtures changed no selected
+native file. All attempts remain preserved.
+
+The accepted audit passes **59 original-master pixel comparisons, 44 OCR
+bindings, 192 raw ZIP members and 36 damaged-data cases**. It checks **1,779
+native index records, 8,883 typed references, 1,549 source/active byte spans and
+1,779 source asset bindings**. All **27 earlier selected native directories**,
+**32 frozen M29 evidence files** and **51 shared implementation pins** remain
+exact. The unchanged fresh **291-test** baseline remains qualified; no shared
+code changed. M30 freezes **821 evidence files**, excluding disposable bytecode
+caches only. Cleanup was previewed without deletion; all launched processes were
+observed terminal. `PLAN-OCR.md`, `PLAN-PDF.md`, reader code and deployment remain
+unchanged.
+
+The source ledger retains all **273 scans** and now has **164 pending full-page
+dispositions**. Selected 100–105 are restored partial-article sources;
+106–108 are located deferred body sources, and 109 opens the separate tape
+article. Whole March remains active with **sixteen complete articles, one
+partial article, 21 pending article candidates, two completed headings and four
+pending headings**. Continue **M31** on final **106–108**, preserving the explicit
+**105/106 소스(so-/urce)** boundary, then **M32** for whole-article assembly and
+independent validation. See [the accepted opening](metadata/catalog/scan-restoration/1984-03-systems-opening.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
