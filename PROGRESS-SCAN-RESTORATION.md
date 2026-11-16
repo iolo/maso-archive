@@ -27,9 +27,11 @@ M09 completes feature source coverage on actual 32–37: 122 exact files,
 and all four bibliography entries. M10 completes the whole feature on actual
 14–37: 598 exact native files, all original segment indexes retained, two
 source-compared split-word joins and 282 fresh passing restoration tests. There
-are two complete articles, no partial articles, 36 pending article candidates,
-six pending headings and 233 source images awaiting full-page disposition.
-Continue with heading39 and 추리력 테스트 게임, actual40–46, in bounded checkpoints.
+are now two complete articles, one partial article, 35 pending article candidates,
+six pending headings and 226 source images awaiting full-page disposition.
+M11 restores 추리력 테스트 게임 on actual40–45 as a checked 91-file opening
+segment. Continue with actual46 and the heading39 disposition, then whole-article
+assembly, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -102,6 +104,7 @@ labels and the preserved exports retain their existing values.
 | March 1984 feature continuation — M08 | Passed; whole article partial | Actual 26–31; 162 exact native files, 500 physical code rows, 256 dump bytes, 196 table cells, 84 component slots and four source graphs; 32–37 and assembly pending |
 | March 1984 feature final source — M09 | Passed; whole article assembly pending | Actual 32–37; 122 exact native files, 899 physical code/session rows, 12,288 dump fields, 81 command-table cells and four bibliography entries; all source pages covered |
 | March 1984 whole-feature assembly — M10 | Passed; whole issue active | Actual 14–37; 598 exact native files, all 589 embedded segment files unchanged, 19,065 native index records, two split-word joins and 282 fresh passing regressions |
+| March 1984 reasoning-game opening — M11 | Passed; whole article partial | Actual 40–45; 91 exact native files, four source versions, 391 physical rows / 356 logical units, 66 table cells, 42 qualified graphic runs and the complete source flowchart; 46 and assembly pending |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -4043,3 +4046,69 @@ full-page disposition**. Continue with **M11**, heading39 and
 result](metadata/catalog/scan-restoration/1984-03-feature-assembly.json),
 [native index contract](docs/PDF-RESTORATION.md) and
 [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M11 — March reasoning-game opening, actual 40–45
+
+Restored the opening of **추리력 테스트 게임**, canonical **추리력테스트**, as
+**reasoning-jpeg-a-r01**. All **91 native files** match an independent fresh
+rebuild. Full-page source review confirms the extent on actual **40–46**:
+the Apple listing continues on46, and47 starts the separate 모래시계 article.
+Only 40–45 are mapped here. Heading39 is an outside-scope divider lookup; its
+canonical heading disposition remains pending.
+
+The native preserves seven introductory paragraphs, the provider/phone,
+original photograph, six variable definitions and sixteen program-explanation
+rows. Both tables retain their source colons as cells: **66 cells** in total.
+The explanation's **B, C** disagreement with the counter definitions remains
+literal. The new JPEG selects **맞은 수** and the period after **체크.** where
+the older PDF draft differed. The prose closes with its original star; this
+does not imply that the following listings end on40.
+
+Four independent versions retain **391 physical rows / 356 logical units**,
+**1,564 physical fields**, **2,610 BASIC source lexemes** and 337 numeric occurrences.
+The PET and SPC-1000 versions are complete in this segment, as is the FC-30
+version across 44–45. The Apple version stops at1390 HOME. All **35 physical
+continuation rows** remain attached to their numbered units, including the
+unnumbered 123 continuation. Repeated PET590 labels remain independent; no580
+is inserted. A locally qualified 98 reading replaces the older99 draft.
+Missing closing quotes, POSTIO/N, LESS THEN, YOU ARE GOT IT, Apple PLESE,
+the five-letter B A G L E title and four Apple stars remain source observations.
+Marginal ink near FC2100 and Apple1220 is qualified separately from BASIC syntax.
+
+All **42 PET control/graphic or mixed-symbol runs** remain source-linked
+occurrences with descriptive markers and original rasters. Encoded values,
+character counts and Unicode/font equivalence remain unresolved. The complete
+flowchart retains **21 nodes, 25 drawn connectors and 51 label occurrences**,
+including its blank right display, reversed 450–405 range and printed FERM
+annotation. The two open column endpoints and repeated 시작 connector receive
+qualified layout relationships; no cross-column physical wire or missing branch
+label is invented. Its drawn paths are preserved independently of expected
+game behavior.
+
+One map-edge refinement preceded recognition; both the first map and all first
+review views remain preserved. All **20 mapped Tesseract tasks** ran once.
+Small code used scale6000 on the first pass; prose/caption used3000. The first
+row-projection helper included a border or missed short continuation rows.
+Selected review geometry uses retained TSV positions transformed to original
+JPEG pixels, plus the complete PET42 ink bands where raw OCR omitted row55.
+Every physical row was compared against its original source view; failed helper
+geometry remains separate evidence.
+
+Checks pass for all **22 master-derived crops**, **20 recognition bindings**,
+**83 raw ZIP members**, typed owners and regional/block/download ranges.
+Fifteen damaged-data cases reject missing rows/cells/fields, invented glyph
+bytes, repaired diagram text, inferred wires, renumbering and premature
+completion. The first audit had an incorrect regional-key lookup and stopped;
+the preserved corrected audit passes. Shared implementation and M10's frozen
+evidence remain exact; its **282-test** regression evidence is checked and
+reused. Cleanup was previewed without deletion. Original execution, technical
+accuracy, exact screen columns and full human proofreading remain unverified.
+
+All 273 source identities remain in the ledger. Source ownership/disposition is
+now recorded for40–47;46–47 are located material awaiting native restoration,
+not completed articles. **226 images** still await full-page disposition.
+Whole March remains active with **two complete articles, one partial article,
+35 pending article candidates and six pending headings**. Continue with
+**M12**, the final Apple source on46 and heading39 disposition, then complete
+article assembly. See [the opening result](metadata/catalog/scan-restoration/1984-03-reasoning-opening.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

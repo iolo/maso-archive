@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M11",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0003",
+  "status": "complete-native-opening-segment",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "article_actual_extent": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "selected_package": "archive/scans/1984-03/packages/reasoning-jpeg-a-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/reasoning-jpeg-a-r01/manifest.json",
+    "sha256": "8972d53339334be8285a79411f7c34a6ce6a56a74d0f11cbdb1c0102a08eeb42",
+    "bytes": 15363
+  },
+  "exact_files": 91,
+  "native_structure": {
+    "source_images": 6,
+    "mapped_regions": 22,
+    "initial_text_ocr_tasks": 20,
+    "recognition_retries": 0,
+    "blocks": 16,
+    "original_figures": 2,
+    "tables": 2,
+    "table_cells": 66,
+    "paragraphs": 7,
+    "independent_listing_contexts": 4,
+    "physical_rows": 391,
+    "logical_units": 356,
+    "physical_fields": 1564,
+    "basic_source_fields": 2610,
+    "numeric_literal_occurrences": 337,
+    "unresolved_graphic_runs": 42,
+    "physical_continuation_rows": 35,
+    "flow_nodes": 21,
+    "flow_connectors": 25,
+    "figure_labels": 51,
+    "source_qualifications": 23,
+    "whole_article_complete": false
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-07/validation.json",
+    "sha256": "f6df0553ab5b734108cf8bfb1c40bfc3f01efb16618aa2f26856f2781310668c",
+    "bytes": 2076
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-07/reasoning-a/recipe.json",
+    "sha256": "001ee4fb4e5c6656bd9433acf88fcaa96af18ff87f7b7f4911d1b5e545c33a60",
+    "bytes": 5940
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-07/source-ledger.json",
+    "sha256": "105064798b9ed8bd2a7a869af86e5b39952ad260fc972b6fd1ff7d08f6903ea2",
+    "bytes": 184264
+  },
+  "source_dispositions_pending": 226,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-07/whole-progress-m11.json",
+    "sha256": "967049ca75aa4c031bb307ea382bdea5fc9efae3045556eca7bade7884c0702d",
+    "bytes": 147449
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-07/evidence-manifest.json",
+    "sha256": "68b651f23a2e799214a7cf4d8925351265550992f031a9bbbfc9b90defb2dd34",
+    "bytes": 81420
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 282,
+  "next": "M12: restore actual46as the final Apple listing segment and finish the heading39disposition, then assemble the complete40–46article. Whole March remains active."
+}

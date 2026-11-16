@@ -43,10 +43,13 @@ whole-feature assembly: 598 exact native files, including all 589 original
 segment files, 150 exact source crops and 282 fresh passing restoration tests.
 Its explicit source-scoped native indexes preserve every original record,
 typed reference and byte range; the two split-word joins are source-compared.
-The whole issue remains active: two complete articles, no partial articles,
-36 pending article candidates and six pending headings. There are 233 source
-images still awaiting full-page disposition. Continue with heading39 and
-추리력 테스트 게임, actual40–46, in bounded checkpoints.
+M11 restores the opening of 추리력 테스트 게임 on actual40–45: 91 exact native
+files, four independent source versions, 391 physical BASIC rows, 66 table cells
+and the complete source flowchart. Actual46 and whole-article assembly remain
+pending. The whole issue remains active: two complete articles, one partial
+article, 35 pending article candidates and six pending headings. There are 226
+source images still awaiting full-page disposition. Continue with actual46 and
+the heading39 disposition, then whole-article assembly, in bounded checkpoints.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
