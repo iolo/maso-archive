@@ -3151,3 +3151,67 @@ clarified that the reader build was a one-time human visual sanity check;
 reading-room implementation remains unchanged and no further reader work is
 planned. Covers/source accounting and whole-issue native export/rebuild remain
 required. **The whole-November restoration goal remains active.**
+
+## November 16, 2026 — R54 information radar foreign news, actual 133–137
+
+Registered immutable **`information-b-r01`** for canonical identity
+`maso-1984-11-toc-0035`. The final source segment preserves **나라밖 소식**,
+with **ten reports, eleven subsections, sixty prose paragraphs, 59 blocks** and
+the original closing emblem on 137. The two segments now cover every observed
+article folio **127–137**. The article remains **partial** until separate checked
+whole-article assembly; its selected opening pointer stays unchanged.
+
+Native records retain the semiconductor report, European industry developments,
+NEC ADPCM, Hitachi translation, IBM speech recognition, Siemens, Philips MSX,
+Hitachi BiCMOS, conductive-rubber keyboards and FMB word processing. Company
+and topic labels, headlines, decks, subsections and body ownership remain distinct;
+the IBM speech report has no invented company label or personal byline.
+The European sequence's four circled developments retain their printed order;
+Siemens' three circled measures are a separate sequence. Both are preserved with
+source ranges, alongside **356 numeric/Latin fields, four delimited literals,
+22 specification groups, ten attributed claims and 33 local qualifications**.
+
+The translation report retains two language directions, its four semantic roles,
+source/target representations, implementation claims and planned demonstration.
+ADPCM's four prose processing stages retain their order without an invented
+diagram or executable codec. The printed **1/2~1/2.7** endpoints and fraction
+components are source-bound and are not numerically reordered. BiCMOS cell/load
+roles, performance and process quantities remain reported claims. The keyboard
+report retains its critics and supporters as a disagreement, its attributed price
+claim and the original **도전용량보다** occurrence. FMB's headline **1만단어**
+and body **1만이상의 한자** remain different units. Two unclosed corner quotes
+remain unclosed. Original KB/bit forms, model/name/word variants, forecasts,
+attributions, exact encoded bytes and full human proofreading are unverified.
+
+All **67 initial mapped Tesseract tasks completed once**, with no engine failure,
+retry, switch or unchanged successful recognition repeat. The gray Hitachi label
+produced empty raw OCR and was restored by direct scan comparison. Before OCR,
+two map refinements recovered clipped column/heading edges, removed neighboring
+deck fragments and split the last FMB prose line from the closing emblem.
+The final Korean **실험 / 실과의** fragments join as printed, with both source
+regions retained. No new region mapping or OCR was needed after recognition.
+
+Native export and independent rebuild both succeeded on their first run:
+**277 identical files**. The audit passes **68 master-derived crop comparisons,
+67 original OCR/settings bindings, 270 ZIP members and 107 damaged actual-source/
+native cases**. The first structure preflight rejected a checker expectation that
+compared tuples with JSON lists; correcting that expectation changed no native
+source data. Its failed helper/log remain preserved. The final structure check
+also verifies exact ratio occurrence positions, quote extents and report ownership.
+
+All **52 earlier selected catalog packages and frozen evidence**, six heading
+classifications, four saved readers, thirty implementation pins, both shared
+plans, input inventory/source descriptor and ten runtime files remain exact.
+The unchanged **R52 260-test baseline** and logs were rehashed and reused;
+regressions were not freshly rerun. Cleanup was preview-only. **591 private
+evidence files** are frozen. Reading-room implementation and builds were untouched.
+
+See the [R54 result](metadata/catalog/scan-restoration/1984-11-information-b.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+November remains **28 complete articles, one partial, six non-owning headings
+and five unclassified entries**. Next is **R55**, checked **127–137** assembly
+from both immutable segments. It must preserve the domestic tables, print
+specimens, award/role scope and qualified chart coordinate basis alongside these
+foreign-news structures. Five other identities, covers/source accounting and
+whole-issue native export/rebuild remain required. **The November goal remains
+active.**

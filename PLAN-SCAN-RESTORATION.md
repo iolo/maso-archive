@@ -1,12 +1,12 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R53 are complete. The whole-November restoration goal is active.
-R53 selected the domestic opening of **정보 레이다**, actual **127–132** of
-observed **127–137**, as `information-a-r01`. **R54** restores foreign news on
-133–137; a separate checked whole-article assembly remains required. The reading
-room was built only for the owner's one-time human visual sanity check. Do not
-change its implementation or schedule further reader work during restoration.
+R00–R54 are complete. The whole-November restoration goal is active.
+Both immutable information-radar segments now cover actual **127–137**:
+`information-a-r01` on 127–132 and `information-b-r01` on 133–137. **R55** must
+assemble and check the whole native article before selecting complete status.
+The reading room was a one-time human visual sanity check. Do not change its
+implementation or schedule further reader work during restoration.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -309,15 +309,42 @@ restored JSON/assets and faithful source evidence first.
 
 | R53 — information radar domestic opening a | Actual 127–132 of observed 127–137; whole article remains partial | 325 identical files; 15 news items, 55 paragraphs, six tables / 815 cells, 42 award occurrences, four distinct print specimens and seven figures; explicit MIC 130/131/130 continuation, 83 pixel checks and 104 invalid cases; unchanged 260-test baseline reused |
 
-Immediate next action: **R54**, the final **133–137** foreign-news source
-segment of **정보 레이다**, canonical identity `maso-1984-11-toc-0035`.
-Establish each item, heading, claim, table/figure and source uncertainty before
-mapping. Keep at most two identities, six new mapped views and twenty outside
-lookups. Preserve the immutable domestic opening and leave the article partial
-until separate checked **127–137** assembly, provisionally R55. Five other
-unclassified identities, covers/source-image accounting and whole-issue native
-export/rebuild remain required. No reading-room implementation or build work is
-included; the four existing reader snapshots stay preserved.
+| R54 — information radar foreign final b | Actual 133–137; all source folios covered, whole assembly pending | 277 identical files; ten reports, eleven subsections, sixty paragraphs, 356 literal fields, two numbered sequences, translation roles, ADPCM ratio/stages, ten attributions and closing emblem; 68 pixel checks, 107 invalid cases; unchanged 260-test baseline reused |
+
+Immediate next action: **R55**, checked whole **127–137** assembly of
+**정보 레이다**, canonical identity `maso-1984-11-toc-0035`, from both immutable
+segments. Preserve all **602 embedded segment files**, 25 report owners,
+115 prose paragraphs, 119 source blocks, eight original figures, 143 raw OCR
+records and 151 region crops. Domestic/foreign is a new category boundary,
+not a continued paragraph. The article stays partial until all source/structure/
+range/asset checks and an independent exact whole-article rebuild pass.
+
+The existing survey-only assembly mode rejects tables. Extend the restoration
+assembly contract explicitly where needed; never remove or flatten the domestic
+six tables / 815 cells to fit it. Preserve all blank/rank/ditto/roster/specimen
+ownership and both MIC joins. Bind resource-bar observations to their explicit
+1958×1371 manual-review crop coordinates, separately from the 6000-scale OCR
+asset; retain approximate extents and unknown exact X counts. Keep foreign
+report/subsection/claim/sequence/ratio/translation/attribution/qualification scopes
+and the original closing emblem. Check all 151 master-derived crops and actual
+source damage cases. If shared restoration code changes, run the relevant fresh
+PDF/JPEG regressions while preserving older modes. No new OCR or frozen
+checkpoint scripts are needed. No reading-room work is included; preserve all
+four saved snapshots. Five other unresolved identities, covers/source accounting
+and whole-issue native export/rebuild remain required.
+
+Preserve final **133–137** as `information-b-r01`: **277 exact native files**,
+ten reports, eleven subsections, sixty paragraphs, 356 numeric/Latin fields,
+four delimited literals, 22 specification groups, ten attributed claims and
+33 occurrence qualifications. The four European developments and three Siemens
+measures are independent source sequences. Retain translation roles/directions,
+ADPCM stages and literal **1/2~1/2.7** endpoint order, BiCMOS load/performance
+claims, keyboard dispute and FMB word/character units. Preserve both unclosed
+quote delimiters and original unit/model/name/word variants. The original closing
+emblem has no invented caption or lettering. All **68 pixel checks** and
+**107 damaged-source cases** pass. All thirty implementation pins are unchanged;
+the R52 **260-test baseline** was rehashed and reused, not freshly rerun.
+The 591-file R54 evidence set is frozen; never rerun its checkpoint helpers.
 
 Preserve domestic **127–132** as `information-a-r01`, including **15 news items,
 55 prose paragraphs, seven original figures, six tables / 815 cells**, the
