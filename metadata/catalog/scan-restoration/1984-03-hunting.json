@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M19",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0009",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "selected_package": "archive/scans/1984-03/packages/hunting-jpeg-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/hunting-jpeg-r02/manifest.json",
+    "sha256": "8d27830301bd26563f4721004088d6089e77e6114f81890caaff1b5396e457b6",
+    "bytes": 32009
+  },
+  "exact_files": 189,
+  "native_structure": {
+    "source_images": 6,
+    "mapped_regions": 45,
+    "initial_text_ocr_tasks": 43,
+    "recognition_retries": 1,
+    "total_ocr_attempts": 44,
+    "selected_text_tasks": 43,
+    "blocks": 38,
+    "original_figures": 2,
+    "independent_listing_contexts": 5,
+    "complete_main_programs": 1,
+    "main_physical_rows": 189,
+    "main_numbered_units": 131,
+    "example_physical_rows": 6,
+    "example_logical_units": 5,
+    "physical_rows": 195,
+    "logical_units": 136,
+    "physical_fields": 780,
+    "basic_source_fields": 2159,
+    "numeric_literal_occurrences": 507,
+    "physical_continuation_rows": 59,
+    "source_qualifications": 22,
+    "native_tables": 2,
+    "table_rows": 16,
+    "table_cells": 32,
+    "variable_groups": 11,
+    "shape_identifiers": 5,
+    "source_jump_references": 23,
+    "data_groups": 10,
+    "data_fields": 267,
+    "data_commas": 257,
+    "annotation_rows": 104,
+    "annotation_code_rows": 61,
+    "annotation_units": 58,
+    "annotation_fields": 815,
+    "prose_program_references": 17,
+    "inline_numbers": 430,
+    "flow_nodes": 16,
+    "flow_edges": 19,
+    "flow_labels": 39,
+    "flow_program_annotations": 14,
+    "joins": 5,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-15/validation.json",
+    "sha256": "8031d5f71f8bb10005f2473b3342f1c7a869c01d3f88c7d553d3ae399e31d9fb",
+    "bytes": 3722
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-15/hunting/recipe.json",
+    "sha256": "444087e1c561c79df7afc7ff3cdd1313154fe581fb3539a0433167cbe8326352",
+    "bytes": 13387
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-15/source-ledger.json",
+    "sha256": "b62d894304837c3e5a08a9e935cc4b42240196dc4732ca5743b68aedbd6420cc",
+    "bytes": 216745
+  },
+  "source_dispositions_pending": 203,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-15/whole-progress-m19.json",
+    "sha256": "c550b81c26c83602b5cbaf613f8103359fbe0d7aa1d930917f3af8e784265cfe",
+    "bytes": 161006
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-15/evidence-manifest.json",
+    "sha256": "b14e6ad589049b1b3f8dc60f248b23485102dfbe299e3b46a49c223c06abd5c3",
+    "bytes": 102720
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M20: restore received 영어 단어 퍼즐 게임, maso-1984-03-toc-0010, candidate70–73; verify full extent and boundary against74. Whole March remains active."
+}

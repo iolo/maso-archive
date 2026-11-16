@@ -37,7 +37,15 @@ M13 completes the whole reasoning-game article on 40–46: 117 exact files, four
 independent programs, one explicit Apple continuation and 286 fresh passing tests.
 M14 completes 모래시계 on 47–50: 78 exact native files, five independent
 listings, 376 physical rows / 372 numbered units and the original illustration.
-Continue with M15, 기초 공작실 게임패들의 제작 on 51–53, in bounded checkpoints.
+M15 completes 기초 공작실 게임패들의 제작 on 51–53; M16 completes 맛있는 사과가 들어 있어요
+on 54–55; M17 completes canonical 올 인원 on 56–60; M18 completes 팽이 놀이 on 61–63.
+M19 completes 사냥게임 on 64–69 with 189 exact native files, the complete main
+listing and independent examples, 267 DATA values, two tables, annotated explanations
+and the original photograph and flowchart. All 45 original-master crops and the
+separate native audit pass. Current totals are nine complete articles, no partial
+articles, 29 pending article candidates, one completed heading, five pending headings
+and 203 source images awaiting full-page disposition. Continue with M20, received
+영어 단어 퍼즐 게임, candidate 70–73, in bounded checkpoints.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4487,4 +4495,66 @@ Whole March remains active with **eight complete articles, no partial articles,
 30 pending article candidates, one completed heading and five pending headings**.
 Continue with **M19**, **사냥게임**, candidate 64–69, verifying the complete extent
 and boundary against 70. See [the dreidel result](metadata/catalog/scan-restoration/1984-03-dreidel.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M19 — March complete hunting article, actual 64–69
+
+Completed **사냥게임**, **애플 컴패티블**, as **hunting-jpeg-r02**.
+All **189 native files** match an independent fresh rebuild. Full original-page
+comparison establishes the complete six-page extent: final **20110 DATA 0,300**
+on 69, followed by the separate article opening on 70. Its received title remains
+**영어 단어 퍼즐 게임**, independently of printed **영어단어 퍼즐게임**.
+The original captionless hunting photograph and flowchart remain intact.
+
+The complete main program preserves **189 physical rows / 131 numbered units**.
+Four independent examples add six physical rows / five logical units. All **780
+physical fields**, **2,159 source lexemes** and **507 numeric occurrences** retain
+source ranges. Unit **450** crosses 68/69 explicitly; main **1200** retains the
+split **150/0** target with two typed source spans. Ten DATA statements preserve
+all **267 values and 257 commas**, original labels, wraps and final terminators.
+All **23 source jumps** have scoped target records. The source's empty-looking
+PRINT strings remain empty; the prose's CTRL-G instruction does not establish a
+scanned control byte. Exact original encoding, execution and technical correctness
+remain unverified.
+
+Two native tables preserve **sixteen rows / 32 cells**: eleven variable groups
+with typed main-program occurrences and five source shape identifiers **1/2/3/5/6**.
+No missing shape 4 is inferred. The mixed explanation columns retain **104 ordered
+code/prose records**, including 61 physical code rows, 58 labelled annotation units
+and 815 source fields. Printed **1300** and **1310** share one physical row with
+no inserted delimiter. Keep the annotated **ROT** omission, **ORAW**, **250/260**
+coordinate difference, missing parenthesis, **THEN 150**, leading colon, compact
+**DRAW1** and **SCOR-/E=** string wrap independently of the main program.
+Three prose joins preserve **프로+그램**, **총+알의** and the sentence across 65/66.
+Source SCALE=1 repetition, empty DRAW placeholder and CO/C0 ambiguity remain
+qualified. All **22 local qualifications** remain explicit.
+
+The native flowchart preserves **sixteen nodes, nineteen routes and 39 labels**,
+including fourteen printed program annotations and eight branch labels. Shared
+right-side merge paths and both left return routes remain distinct. Visible
+arrowheads are described separately from directions inferred from layout.
+The source overlay exposed a displaced middle-drop box; the selected geometry
+and both connector endpoints were corrected before the final audit. Both export
+candidates and the first overlay remain preserved. The first glance at main
+**1670** suggested 1570; enlarged same-column comparison resolves **1670** and
+agrees with the older PDF draft. No selected source text changed for that label.
+
+Recognition used **43 initial mapped Tesseract tasks** at 6000 and **one targeted
+retry** after the DRAW example's top boundary touched capital strokes. All 44
+attempts remain preserved; the selected package uses 42 initial results plus the
+retry with explicit mixed recognition-map provenance. An earlier prefix glob
+misplaced two derived heading review views; fresh reconstructions from original
+JPEGs and the first map are separately identified. Original masters, maps and raw
+OCR remained intact. All **45 original-master crops**, **43 selected OCR bindings**,
+**175 raw ZIP members** and **39 damaged-data cases** pass the separate audit.
+All **168 frozen M18 evidence files** and shared implementation retain exact pins;
+the unchanged **286-test** regression baseline is reused. Cleanup was previewed
+without deletion. The checkpoint freezes **581 evidence files**.
+
+All 273 sources remain in the ledger. Newly reviewed 65–69 and the next-article
+lookup 70 reduce pending full-page dispositions to **203**; 64 was already located.
+Whole March remains active with **nine complete articles, no partial articles,
+29 pending article candidates, one completed heading and five pending headings**.
+Continue with **M20**, received **영어 단어 퍼즐 게임**, candidate 70–73, verifying
+its full extent and boundary against 74. See [the hunting result](metadata/catalog/scan-restoration/1984-03-hunting.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

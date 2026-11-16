@@ -68,10 +68,15 @@ and the separate native audit pass; the printed 1770 range endpoint remains
 explicitly unresolved. M18 completes 팽이 놀이 on 61–63: 50 exact native files,
 117 physical rows / 116 numbered units, four source rule definitions, eight CHR$
 constructors, nine composite strings and the original screen. All 11 original
-source crops and the separate native audit pass. The whole issue remains active:
-eight complete articles, no partial articles, 30 pending article candidates, one
-completed heading and five pending headings. There are 209 source images still
-awaiting full-page disposition. Continue with M19, 사냥게임, candidate 64–69,
+source crops and the separate native audit pass. M19 completes 사냥게임 on 64–69:
+189 exact native files, the complete 189-row main listing, four independent examples,
+267 DATA values, two tables, mixed annotated explanations and both original figures.
+Its native flowchart retains sixteen nodes, nineteen routes and 39 labels.
+All 45 original-master crops and the separate native audit pass. The whole issue
+remains active: nine complete articles, no partial articles, 29 pending article
+candidates, one completed heading and five pending headings. There are 203 source
+images still awaiting full-page disposition. Continue with M20, received
+영어 단어 퍼즐 게임, candidate 70–73,
 verifying its extent and following
 boundary in a bounded checkpoint.
 Track execution in
