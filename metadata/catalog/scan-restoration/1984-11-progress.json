@@ -5,9 +5,9 @@
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 29,
+  "readable_articles": 31,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 5,
+  "identitiesAwaitingDisposition": 3,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -10289,10 +10289,144 @@
       "page_candidates": [
         222
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "메아리",
+      "observed_byline": null,
+      "byline_status": "No collection-wide personal byline;two contribution bylines preserved independently.",
+      "observed_whole_extent": [
+        222,
+        224
+      ],
+      "restored_folios": [
+        222,
+        223,
+        224
+      ],
+      "pending_folios": [],
+      "assembly_required": false,
+      "source_views": [
+        {
+          "source_index": 225,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-222.jpg",
+            "sha256": "5f95a8599013cbf17b94c5b67bcb22350ab47c8e8cf07cb67b887cab24bb71e0",
+            "bytes": 8464698
+          },
+          "width_px": 4723,
+          "height_px": 6920,
+          "reading_order": 224,
+          "source_filename_number": 222,
+          "printed_page": "222",
+          "image_to_upright_normalized": [
+            0.00021172983273343214,
+            0,
+            0,
+            0.00014450867052023122,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 226,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-223.jpg",
+            "sha256": "beaace36c4e06abb4c2cee45fdc0caf5653fa662db434e22a11201dcfb28f918",
+            "bytes": 8865535
+          },
+          "width_px": 4722,
+          "height_px": 6922,
+          "reading_order": 225,
+          "source_filename_number": 223,
+          "printed_page": "223",
+          "image_to_upright_normalized": [
+            0.00021177467174925878,
+            0,
+            0,
+            0.0001444669170759896,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 227,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-224.jpg",
+            "sha256": "f4bf1312680da3080dd9842a80f01ec67a0620702ea43769005fa2ced98bc53d",
+            "bytes": 8320515
+          },
+          "width_px": 4725,
+          "height_px": 6931,
+          "reading_order": 226,
+          "source_filename_number": 224,
+          "printed_page": "224",
+          "image_to_upright_normalized": [
+            0.00021164021164021165,
+            0,
+            0,
+            0.00014427932477276007,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/echoes-r02",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/echoes-r02/manifest.json",
+          "sha256": "ad8cb636b8c5aae2050d2e6ea22f26e025629afd2b65fda2a5eb2ab4343c5922",
+          "bytes": 22118
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-56/validation.json",
+          "sha256": "6053af678b8e28dede38882d509d80f8ed2592bc41c662f715abcc623cd14ccb",
+          "bytes": 105780
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-56/echoes/review/source-findings.json",
+          "sha256": "341eb73841b6387865686148f17bc2559ff3cd734063fc0dfae212f748573c28",
+          "bytes": 7786
+        },
+        "status": "Actual222–224contributed collection:two distinct signed contributions and three independent program contexts;adjacent221/225material separate."
+      },
+      "limitations": [
+        "Original encoded bytes,exact spacing,punctuation and glyph display remain unverified. Source scans/OCR are retained;assistant sample review is distinct from full human proofreading and acceptance.",
+        "Programs,technical claims,commands and source-reported compatibility were not executed or externally verified. Source defects/candidates remain explicit;no behavior-based repairs.",
+        "Preserve two signed contributions under the canonical collection. In the second contribution,independent contexts follow printed list numbers1then2;the source places example2above machine1 on224. Original source geometry remains retained."
+      ],
+      "source_contributions": [
+        {
+          "id": "hangul-sort",
+          "title": "한글 소트",
+          "byline": "백 성 아",
+          "folios": [
+            222,
+            223
+          ],
+          "contexts": [
+            "hangul-sort"
+          ]
+        },
+        {
+          "id": "fc100-graphics",
+          "title": "환상적인 그래픽 서브루틴",
+          "subtitle": "FC-100용",
+          "byline": "김 대 원",
+          "folios": [
+            224
+          ],
+          "contexts": [
+            "graphics-machine",
+            "graphics-example"
+          ]
+        }
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0037",
@@ -10301,10 +10435,75 @@
       "page_candidates": [
         225
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "디버깅 룸",
+      "observed_byline": "편 집 부",
+      "byline_status": "Printed editorial staff byline;not a named personal author.",
+      "observed_whole_extent": [
+        225,
+        225
+      ],
+      "restored_folios": [
+        225
+      ],
+      "pending_folios": [],
+      "assembly_required": false,
+      "source_views": [
+        {
+          "source_index": 228,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-225.jpg",
+            "sha256": "bd34513fc5122cbebcd7cd9877c1e25bb25ca2ef852ae10984c9c61292d54c65",
+            "bytes": 9372293
+          },
+          "width_px": 4753,
+          "height_px": 6914,
+          "reading_order": 227,
+          "source_filename_number": 225,
+          "printed_page": "225",
+          "image_to_upright_normalized": [
+            0.00021039343572480537,
+            0,
+            0,
+            0.0001446340757882557,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/debugging-r03",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/debugging-r03/manifest.json",
+          "sha256": "9756869ef2ee1a859135d8ac1e1d96b215167a5ba7bf2a3f773f0daba0342e94",
+          "bytes": 13075
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-56/validation.json",
+          "sha256": "6053af678b8e28dede38882d509d80f8ed2592bc41c662f715abcc623cd14ccb",
+          "bytes": 105780
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-56/debugging/review/source-findings.json",
+          "sha256": "79373da9045e216c780c74583cb0bc3e9049c1a81ad401dfad167814d3c3f6ce",
+          "bytes": 4128
+        },
+        "status": "The printed numeral225 is not legible in this scan. Assigned folio225 follows the selected224/226neighbors,source index228 and the independent new section boundaries. It is a source-collation assignment,not a transcribed numeral. Separate right-side relocation advertisement excluded."
+      },
+      "limitations": [
+        "Original encoded bytes,exact spacing,punctuation and glyph display remain unverified. Source scans/OCR are retained;assistant sample review is distinct from full human proofreading and acceptance.",
+        "Programs,technical claims,commands and source-reported compatibility were not executed or externally verified. Source defects/candidates remain explicit;no behavior-based repairs.",
+        "Printed old/replacement variants remain separate directed errata;no correction is applied to an earlier article. Right-side advertisement is separate material.",
+        "The printed numeral225 is not legible in this scan. Assigned folio225 follows the selected224/226neighbors,source index228 and the independent new section boundaries. It is a source-collation assignment,not a transcribed numeral."
+      ],
+      "folio_qualification": "The printed numeral225 is not legible in this scan. Assigned folio225 follows the selected224/226neighbors,source index228 and the independent new section boundaries. It is a source-collation assignment,not a transcribed numeral."
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0038",
@@ -10343,6 +10542,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R56: establish actual source extent,title/byline and native structures of 메아리 (maso-1984-11-toc-0036,catalog opener222),with adjacent material before mapping. 디버깅 룸 (0037,catalog opener225) may join the batch only if the two-identity/six-new-mapped-view/twenty-outside-lookup limits fit;do not infer either extent from TOC alone. Preserve complete information radar127–137,its two exact original segments and all source scopes/tables/qualifications. Five unclassified identities (0036–0040),covers/source-image accounting and checked whole-issue native export/rebuild remain required. Use mapped pinnedTesseract,reuse successful unchangedOCR and never run frozen checkpoint scripts. Preserve all four saved readers;no reading-room implementation/build work. LeavePLAN-OCR.md andPLAN-PDF.md unchanged;the whole-November goal stays active.",
+  "next": "R57: establish actual source extent,title/ownership and native structures for 복덕방 (maso-1984-11-toc-0038,catalog opener226) and Q&A (0039,opener229),using full source pages and adjacent material before mapping. Keep at most two canonical identities,six new mapped source views and twenty outside lookups;segment if either actual extent requires it. Preserve separate classified notices/contact/price fields and any Q&A question/answer/code contexts without guessing from TOC or modernizing historical source data. Three unclassified identities0038–0040,covers/source-image accounting and checked whole-issue native export/rebuild remain required. Preserve all selected native packages,frozen evidence,four saved readers and both shared operating plans. Reuse successful unchanged OCR;never execute frozen checkpoint helpers. No reading-room implementation or builds. Keep the whole-November restoration goal active.",
   "group_headings": 6
 }

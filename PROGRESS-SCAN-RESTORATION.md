@@ -4,14 +4,14 @@ Updated 2026-11-16. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R55 checkpoints complete: twenty-nine November 1984 articles have complete
-reproducible JSON/assets packages, with no partial articles. The latest is
-정보 레이다 on actual 127–137: 25 news items, 115 paragraphs, six tables / 815
-cells, eight original figures and qualified chart coordinates retain their source
-ownership. All 611 native files reproduce exactly, including both immutable
-segments. Six section headings have source-backed non-owning classifications.**
+**R00–R56 checkpoints complete: thirty-one November 1984 articles have complete
+reproducible JSON/assets packages, with no partial articles. The latest are
+메아리 on actual 222–224 and 디버깅 룸 on assigned 225. Two contribution owners,
+three independent program contexts, six directed errata and four disk-use
+notices retain their native source structures. All 204 selected files reproduce
+exactly. Six section headings have source-backed non-owning classifications.**
 All completed records are assistant sample-reviewed.
-Five canonical identities await disposition. The 24 cleaned source sets
+Three canonical identities await disposition. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -3255,5 +3255,70 @@ November now has **29 complete articles, no partial articles, six non-owning
 headings and five unclassified identities**. Next is **R56**, source extent and
 structure checks for **메아리**, catalog opener 222; **디버깅 룸**, opener 225,
 may join only within the bounded batch limits. Covers/source accounting and
+checked whole-issue native export/rebuild remain required. **The November goal
+remains active.**
+
+
+## R56 — 메아리 and 디버깅 룸
+
+**메아리** (`maso-1984-11-toc-0036`) is complete on actual **222–224** as
+`echoes-r02`: **126 exact native files**. It is a contributed collection:
+**한글 소트**, by **백 성 아**, occupies 222–223; **환상적인 그래픽 서브루틴 /
+FC-100용**, by **김 대 원**, occupies 224. Their titles, bylines, prose and program
+contexts remain distinct under the one canonical collection identity.
+
+The Hangul-sort listing retains **119 physical rows / 99 logical units**,
+including intraword/number wraps and six separate DATA groups. Both printed
+slash-separated phoneme examples remain native glyph groups; **ㅎㅗㅏ** is not
+collapsed into one compound-vowel glyph. The prose's repeated **2140 2140** and
+reversed **2910~2210** references remain independent of the listing. The uncertain
+**3000 &**, A$/B$ reading, DATA name token and percent-like suffixes retain
+source candidates. The second contribution keeps independent machine and BASIC
+contexts: **forty hex rows / 320 printed bytes** and **sixteen BASIC units**,
+with two caption owners, nine source entry references, screen/adaptation claims,
+monitor/tape commands and the printed **D13D** save endpoint versus dump through
+**D13F**. Earlier-issue references are explicit; no canonical target is guessed.
+No program was executed or repaired from expected behavior.
+
+**디버깅 룸** (`0037`) is complete on the left side of assigned **225** as
+`debugging-r03`: **78 exact native files**. Six directed source errata preserve
+old/replacement variants, physical wraps, bracket direction, printed **3090**,
+both PLAY forms and parenthesis changes. The four numbered disk-use notices
+retain launcher dependencies, support-file roles, the literal middle of the
+boxed-control-key sequence and the RAM requirement/exception. Boxed **K / A**
+are explicitly represented as source control-key roles; editorial square
+brackets are not inferred literal keystrokes. The right relocation advertisement
+is separate material. The printed folio is illegible: **225** is explicitly a
+source-collation assignment between the 224 and 226 scans. The correction target
+year is likewise marked as inferred from the current issue, separately from the
+printed **지난 10월호** wording.
+
+All **45 initial OCR tasks** completed once. Before OCR, crop refinements retained
+wrapped/code-panel tails, correction brackets and final prose lines separately
+from closing emblems. Review then found one graphics-example crop clipping
+comment tails; one widened-crop repair retained **ROTATE / SCREEN INVERSE**.
+All other successful results were reused with their recognition-map pins.
+No engine switch or unchanged successful recognition repeat occurred.
+
+The selected exports and independent rebuilds reproduce all **204 files**.
+All **48 master-derived crops, 45 selected original OCR/settings bindings,
+185 ZIP members and 80 damaged native/source cases** pass. The first independent
+structure preflight had an adjacent-row zip-length error; the checker was fixed
+without changing source data. Its failed helper/log remain retained. Three
+unselected native exports are pinned through final provenance/reference
+refinements. All **54 earlier catalog packages and frozen evidence**, six heading
+classifications, four saved readers, 33 implementation files, both shared plans,
+source inputs and ten runtime files remain intact. The **R55 262-test baseline**
+and logs were rehashed and reused, not freshly rerun. Cleanup was preview-only.
+**552 private evidence files** are frozen. Reading-room implementation and builds
+were untouched.
+
+See the [collection result](metadata/catalog/scan-restoration/1984-11-echoes.json),
+[debugging-room result](metadata/catalog/scan-restoration/1984-11-debugging-room.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+November now has **31 complete article packages, no partial articles, six
+non-owning headings and three unclassified identities**. Next is **R57**,
+source extent and structure checks for **복덕방** (catalog opener 226) and
+**Q&A** (229) within the batch limits. **광고색인**, covers/source accounting and
 checked whole-issue native export/rebuild remain required. **The November goal
 remains active.**

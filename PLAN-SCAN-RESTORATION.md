@@ -1,12 +1,14 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R55 are complete. The whole-November restoration goal is active.
-Information radar is complete on actual **127–137** as `information-r01`, with
-both original segments embedded exactly. November has **29 complete articles,
-no partial articles, six non-owning headings and five unclassified identities**.
-**R56** starts with source extent and structure checks for **메아리**, catalog
-opener 222; 디버깅 룸, catalog opener 225, may join the bounded batch if it fits.
+R00–R56 are complete. The whole-November restoration goal is active.
+November has **31 complete articles, no partial articles, six non-owning headings
+and three unclassified identities**. The latest are **메아리**, actual 222–224,
+and **디버깅 룸**, the left column on assigned folio 225. The collection preserves
+two signed contributions; the debugging page has an explicit source-collation
+qualification because its printed folio is illegible.
+**R57** establishes the actual extents and native structures of **복덕방**
+(catalog opener 226) and **Q&A** (229) within the bounded batch limits.
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
 Track execution in
@@ -311,15 +313,42 @@ restored JSON/assets and faithful source evidence first.
 | R53 — information radar domestic opening a | Actual 127–132 of observed 127–137; whole article remains partial | 325 identical files; 15 news items, 55 paragraphs, six tables / 815 cells, 42 award occurrences, four distinct print specimens and seven figures; explicit MIC 130/131/130 continuation, 83 pixel checks and 104 invalid cases; unchanged 260-test baseline reused |
 | R54 — information radar foreign final b | Actual 133–137; all source folios covered, whole assembly pending | 277 identical files; ten reports, eleven subsections, sixty paragraphs, 356 literal fields, two numbered sequences, translation roles, ADPCM ratio/stages, ten attributions and closing emblem; 68 pixel checks, 107 invalid cases; unchanged 260-test baseline reused |
 | R55 — complete information radar | Actual 127–137; both immutable native segments retained | 611 identical files, including 602 embedded originals; 25 items, 115 paragraphs, six tables / 815 cells and eight figures; explicit manual chart raster, 151 pixel checks, 98 damage cases and 262 fresh PDF/JPEG regressions |
+| R56 — 메아리 and 디버깅 룸 | Actual 222–224; separate left column on assigned 225 | 126 + 78 exact native files; two signed contributions, three program contexts, six directed errata and four disk notices; 48 pixel checks, 80 damage cases; unchanged 262-test baseline reused |
 
-Immediate next action: **R56**, establish actual source extent, title/byline and
-native structures of **메아리**, canonical identity `maso-1984-11-toc-0036`,
-catalog opener 222, using full pages and adjacent material before mapping.
-**디버깅 룸** (`0037`, catalog opener 225) may join only if the two-identity,
-six-new-mapped-view and twenty-outside-lookup limits fit. TOC pointers alone do
-not establish either extent. The other unresolved identities are **복덕방**
-(226), **Q&A** (229) and **광고색인** (240). Covers/source-image accounting and
-checked whole-issue native export/rebuild remain required.
+Immediate next action: **R57**, establish actual source extent, titles/ownership
+and native structures of **복덕방** (`maso-1984-11-toc-0038`, catalog opener 226)
+and **Q&A** (`0039`, opener 229) from full pages and adjacent material before
+mapping. Keep at most two canonical identities, six newly mapped views and
+twenty outside lookups; segment if either actual extent requires it. Preserve
+classified notice/contact/price fields and separate Q&A question/answer/program
+contexts without modernizing historical source data. **광고색인** (`0040`, 240)
+also remains unclassified. Covers/source accounting and a checked whole-issue
+native export/rebuild remain required. No reading-room work is included.
+
+Preserve complete **메아리**, actual **222–224**, as `echoes-r02`: **126 exact
+native files**, two signed contributions and three independent program contexts.
+Keep 119 Hangul-sort physical rows / 99 logical units, forty hex rows / 320 bytes,
+sixteen FC-100 BASIC units, glyph candidates, both grouped phoneme examples,
+six DATA groups, printed cross-issue references, adaptation/usage claims and
+save/dump endpoint disagreement. Printed repeated 2140, reversed 2910~2210,
+ampersand-like 3000 and uncertain source bytes remain explicit.
+
+Preserve complete **디버깅 룸**, assigned **225**, as `debugging-r03`: **78 exact
+native files**, six directed old/replacement errata, four numbered disk-use
+notices, launcher dependencies, boxed control keys, support-file roles and the
+RAM requirement/exception. Retain printed replacement **3090**, both PLAY forms,
+source bracket direction and the separate right-side advertisement exclusion.
+The illegible folio and inferred correction-target year remain qualified.
+
+Together these packages pass **204-file exact rebuilds, 48 pixel checks and
+80 damaged native/source cases**. All 45 initial OCR tasks completed once; one
+changed-crop repair widened clipped graphics comments, with original results
+and recognition-map pins retained. No unchanged successful OCR was repeated.
+Three earlier unselected native exports remain pinned through source-provenance
+and reference refinements. All 54 prior catalog packages/evidence, six heading
+classifications, four readers, 33 implementation files and shared plans remain
+intact. The unchanged **R55 262-test baseline** was rehashed and reused, not
+freshly rerun. Never execute frozen checkpoint helpers.
 
 Preserve complete **정보 레이다**, actual **127–137**, as `information-r01`:
 **611 exact native files**, including **602 embedded segment files**, 25 report
@@ -606,8 +635,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-nine complete article packages, no partial articles, six non-owning
-headings and five unclassified entries. Complete Feature II on 40–58 retains three
+November now has thirty-one complete article packages, no partial articles, six non-owning
+headings and three unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.
