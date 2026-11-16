@@ -3425,3 +3425,63 @@ queue finds 205 distinct images used by selected articles and 41 outside them
 (four covers and 37 other scans); it is not evidence of visual disposition.
 Complete 246-image accounting and a checked whole-issue native export/rebuild
 remain required before the final audit. **The November goal remains active.**
+
+
+## R59 — four cover faces and partial source accounting
+
+All four supplied cover faces are represented by **`covers-r02`**, a separate
+issue-level native cover set: **11 exact files**. The front visibly identifies
+November 1984. Inner faces retain distinct advertisements and complementary
+binding-edge damage; the outer back retains the matching dated spine. All four
+original JPEGs are byte-identical copies, preserving every supplied pixel,
+stain, crease and worn edge. No cosmetic reconstruction or global cover
+replacement was performed.
+
+The dedicated `image-cover-set` schema and `tools.pdf_restore.image_covers`
+exporter keep cover roles separate from canonical article identities. They retain
+source indices, original geometry, conditions, **32 selected printed labels** and
+**eight front teaser groups**, with explicit candidates and no inferred article
+targets. Missing cover faces require recorded reasons and a partial outcome.
+The exporter performs no OCR or reading-room work. Selected labels are not full
+advertisement transcriptions or original encoded-byte recovery.
+
+Label-crop comparison widened a clipped diagonal anniversary annotation and
+corrected the inner-back company label to **고려시스템산업(주)**. The index's
+independent **고려씨스템산업** spelling remains unchanged. Both earlier r01
+export/rebuild directories and their review evidence are retained. The selected
+r02 package and independent rebuild reproduce all 11 files exactly.
+
+Twenty outside source images were inspected and classified: **16 advertisements
+or publisher sales notices, one contents page with credits/colophon, and three
+unlisted contest notices**. The commercial spreads at source filename numbers
+2–3, 4–5 and 8–9 retain their relationships. The contest invitation, conditions
+and prize pages at 60–62 remain unlisted source material, separate from the
+restored TOC-listed contest commentary. Their possible continuation is not
+assumed. Printed folios were not inferred from filenames, and no canonical
+article ownership or complete unlisted-text transcription was invented.
+
+A partial **246-image source ledger** verifies every master hash and unique
+identity. It records **205 selected article-source images, four cover faces,
+20 visually classified unlisted images and 17 explicitly pending images**.
+Selected source-image totals do not count mapped panels or claim complete
+transcription of every printed region. The pending images prevent an issue
+closeout claim. The actual audit rejects **25 damaged cover/disposition cases**
+and **seven damaged source-accounting cases**.
+
+Fresh regressions pass **214 PDF, 48 JPEG/recognition/assembly and seven cover
+tests**: **269 total**. The 36-file implementation baseline adds the cover
+schema/exporter/tests and updates restoration command documentation; the other
+earlier implementation files are unchanged. All **59 earlier catalog packages
+and frozen evidence**, six heading classifications, four saved readers, global
+cover selections, both shared plans, source inputs and runtime pins remain
+intact. Cleanup was preview-only. **63 private evidence files** are frozen.
+Reading-room implementation and builds were untouched.
+
+See the [cover/source result](metadata/catalog/scan-restoration/1984-11-covers-and-source-accounting.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+The canonical status remains **34 complete articles, no partial articles, six
+non-owning headings and no unclassified identities**. **R60** must inspect the
+remaining 17 source images, complete source accounting and qualify whole-issue
+native export/standalone checking with a fresh exact rebuild. Final completion
+requires the full audit and reproduction handoff. **The November goal remains
+active.**

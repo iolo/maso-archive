@@ -1,14 +1,16 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R58 are complete. The whole-November restoration goal is active.
+R00–R59 are complete. The whole-November restoration goal is active.
 All **40 canonical identities** now have evidenced outcomes: **34 complete
 article packages, no partial articles, six non-owning headings and no
 unclassified identities**. The latest is **광고색인**, the lower index on actual
 **240**: 25 advertiser rows, 50 cells, 28 printed references and an original tree.
-**R59** handles the four cover faces and begins bounded source-image accounting.
-Covers, complete source accounting and checked whole-issue export/rebuild remain
-required before the final completion audit.
+The four original cover faces now form a separate checked native cover set.
+Partial source accounting records 205 selected article-source images, four
+covers, 20 visually classified unlisted scans and **17 pending scans**.
+**R60** finishes those visual dispositions, then qualifies whole-issue native
+export/rebuild before the final completion audit.
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
 Track execution in
@@ -316,17 +318,40 @@ restored JSON/assets and faithful source evidence first.
 | R56 — 메아리 and 디버깅 룸 | Actual 222–224; separate left column on assigned 225 | 126 + 78 exact native files; two signed contributions, three program contexts, six directed errata and four disk notices; 48 pixel checks, 80 damage cases; unchanged 262-test baseline reused |
 | R57 — 복덕방 and Q&A | Actual 226–228 and 229–231 | 62 + 124 exact native files; 54 notices with unresolved contact scopes, six exchanges, 40 catalog rows / 120 cells and original menu controls; 47 pixel checks, 94 damage cases; unchanged 262-test baseline reused |
 | R58 — 광고색인 | Lower index on observed 240; upper advertisement separate | 21 exact native files; 25 advertiser rows / 50 cells, 28 reference tokens including three cover-face codes, original tree; four pixel checks, 48 damage cases; unchanged 262-test baseline reused |
+| R59 — covers and partial source accounting | Four cover faces; 20 outside source scans | 11 exact cover-set files, four unchanged original rasters, 32 selected labels / eight teaser groups; 246 master hashes verified, 17 visual dispositions pending; 25 cover/disposition + seven accounting damage cases; 269 fresh regressions |
 
-Immediate next action: **R59**, represent the four cover faces from original
-source evidence and begin source-image accounting. A metadata-only queue finds
-**205 distinct images used by selected articles and 41 outside them**: four
-cover faces and 37 other scans. These counts are not visual dispositions. Inspect
-the actual covers and remaining images in bounded batches, with at most six
-newly mapped views and twenty outside lookups per batch. Preserve unlisted
-advertisements, forms, TOC and other material explicitly without inventing
-article ownership. Then qualify whole-issue JPEG native export, compare a fresh
-exact rebuild and audit every completion requirement. No reading-room work is
-included.
+Immediate next action: **R60**, visually classify the **17 remaining ordinary
+scans**: filename numbers **63–65, 105–109, 125–126, 138–139, 196–197, 209,
+241–242**. Use their actual contents; do not infer roles or printed folios from
+filenames. Keep the twenty-outside-lookup bound. Reconcile all 246 source images
+with selected articles, covers and unlisted material. Then qualify whole-issue
+JPEG native export and standalone checking, retain native packages and unlisted
+source material with explicit provenance, compare a fresh exact rebuild and audit
+every completion requirement. No reading-room work is included.
+
+Preserve **`covers-r02`**, a separate issue-level cover set with **11 exact native
+files**. Four full original JPEGs retain all supplied pixels, wear, stains,
+binding-edge loss and spine strips. The dedicated cover schema/exporter creates
+no TOC article identities and changes no global donated/PDF cover selection.
+Its 32 selected labels and eight front teaser groups have source rectangles and
+glyph qualifications; advertisements are retained as rasters, with no complete
+text-transcription claim. Source review corrected the inner-back spelling to
+**고려시스템산업(주)** independently of the index's **고려씨스템산업** and widened
+the diagonal anniversary annotation. Both earlier r01 export/rebuild directories
+remain pinned.
+
+The partial source ledger records **205 selected article-source images, four
+covers, 16 advertisements/publisher sales notices, one TOC/credits/colophon
+image, three unlisted contest notices and 17 pending images**. All 246 master
+hashes and unique identities pass. Three two-image advertisement spreads remain
+explicit; printed folios and canonical body ownership were not invented.
+Seventeen pending images prevent a final source-accounting claim. The actual
+cover/disposition and accounting audits reject **25 + seven damaged cases**.
+All 59 earlier catalog packages/evidence, six headings, global covers and four
+saved readers are preserved. **63 private evidence files** are frozen. Fresh
+**214 PDF, 48 JPEG/recognition/assembly and seven cover tests** pass: **269** total.
+The new 36-file implementation baseline adds the cover contract/exporter/tests
+and updates restoration command documentation. Both shared plans stay unchanged.
 
 Preserve complete **광고색인**, actual **240**, as `advertisement-index-r01`:
 **21 exact native files**. Its two source columns contain 25 advertiser rows /

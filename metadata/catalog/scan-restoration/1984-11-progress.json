@@ -10810,6 +10810,45 @@
       ]
     }
   ],
-  "next": "R59: restore/represent the four cleaned cover faces from source evidence and begin bounded source-image accounting. All40 canonical identities now have outcomes:34 complete native article packages,six non-owning headings,no partial or unclassified entries. The metadata-only queue finds205 distinct images used by selected articles and41 outside them:four cover faces and37 other images. This is not a visual disposition. Inspect actual covers and unassigned scans in bounded batches,retaining unlisted advertisements/forms/TOC/other material without silently inventing article ownership. Keep at most two canonical identities,six newly mapped source views and twenty outside lookups per batch. Finish complete246-image accounting,qualify whole-issue JPEG native export and fresh exact rebuild,then audit every completion requirement before marking the November goal complete. Preserve all earlier native packages,frozen evidence,four saved readers and both shared operating plans. Reuse successful unchanged OCR;never execute frozen checkpoint helpers. No reading-room implementation or builds. Keep the whole-November goal active.",
-  "group_headings": 6
+  "next": "R60: visually classify the17 remaining ordinary scans(63–65,105–109,125–126,138–139,196–197,209,241–242) from their actual source contents,within the twenty-outside-lookup bound. Do not infer roles or printed folios from filenames. Preserve unlisted notices/forms/advertisements explicitly and reconcile all246 source images with the34 complete selected articles,six non-owning headings and complete four-face cover set. Then qualify data-only whole-issue JPEG export/standalone checking,include the selected native packages and retained unlisted source material with explicit provenance,build a fresh independent issue export and compare every file exactly. Audit ownership,continuity,assets,source ranges,all canonical identities/source images,known gaps and reproduction handoff before marking the November goal complete. Preserve all earlier native packages/frozen evidence,global cover selection,four saved readers and both shared plans. Reuse successful OCR;no reading-room implementation/build work. Never execute frozen checkpoint helpers. Keep the whole-November goal active.",
+  "group_headings": 6,
+  "cover_set": {
+    "path": "archive/scans/1984-11/packages/covers-r02",
+    "manifest": {
+      "path": "archive/scans/1984-11/packages/covers-r02/manifest.json",
+      "sha256": "22ab79d41caf6101a08b905d41fc60d22fc1d49c3720029d93d1234e84221e06",
+      "bytes": 1655
+    },
+    "availability": "complete",
+    "verification": "sample-reviewed",
+    "faces": [
+      "front",
+      "inside-front",
+      "inside-back",
+      "back"
+    ],
+    "evidence": {
+      "path": "archive/scans/1984-11/restoration/batch-59/evidence-manifest.json",
+      "sha256": "fd1ea80ced087c306aa3f4f6b2c2f1cd6b0be67fa142d109d27f8cb36ed2194c",
+      "bytes": 13327
+    }
+  },
+  "source_accounting": {
+    "status": "partial",
+    "accounting": {
+      "path": "archive/scans/1984-11/restoration/batch-59/source-accounting.json",
+      "sha256": "dfa017e0a3cc0aec7bd4b0055b445855294a90cd104d562de790bdf18a085712",
+      "bytes": 298024
+    },
+    "validation": {
+      "path": "archive/scans/1984-11/restoration/batch-59/accounting-validation.json",
+      "sha256": "388405cedbdc15cccce7ca156cbe603ad83ecc0117686a03afbea2dccfc1a1b2",
+      "bytes": 739
+    },
+    "total_source_images": 246,
+    "selected_article_source_images": 205,
+    "cover_faces": 4,
+    "other_visually_disposed_images": 20,
+    "pending_visual_dispositions": 17
+  }
 }

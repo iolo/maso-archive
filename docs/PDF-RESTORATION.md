@@ -142,6 +142,34 @@ are unchanged. The private `data-only-checkpoint/` evidence contains a synthetic
 JSON-only issue, its identical rebuild and preservation results for the 72
 completed real articles.
 
+## JPEG cover sets
+
+`tools.pdf_restore.image_covers` exports a separate issue-level cover set under
+`schemas/image-cover-set.schema.json`. Cover faces have no invented canonical
+TOC article IDs. A pinned recipe identifies the JPEG source descriptor and a
+review file containing ordered `front`, `inside-front`, `inside-back` and `back`
+roles, or explicit reasons for missing faces. Each supplied face retains its
+original JPEG bytes, source index, pixel dimensions, coordinate transform and
+reviewed physical condition. Selected printed labels have source rectangles,
+glyph candidates and explicit groups; full advertisement transcription and
+original encoded-byte recovery are separate claims.
+
+```sh
+PYTHONPATH=src:. python3 -m tools.pdf_restore.image_covers --recipe archive/scans/YYYY-MM/restoration/batch-NN/cover-recipe.json --output archive/scans/YYYY-MM/packages/covers-r01
+PYTHONPATH=src:. python3 -m tools.pdf_restore.image_covers --check --output archive/scans/YYYY-MM/packages/covers-r01
+```
+
+Use a fresh output outside the inputs. The portable set includes `cover-set.json`,
+all supplied face rasters, the exact source/review/recipe/schema inputs,
+provenance and a complete hash manifest. Its checker verifies face coverage and
+order, unique source identities, original raster hashes/dimensions, annotation
+bounds and group references. Missing faces force a partial outcome. Rebuild from
+the same pinned recipe into a second directory and compare every file exactly.
+This path does no OCR, cosmetic reconstruction, global cover installation,
+thumbnail selection, HTML generation or reading-room work. Original rasters
+belong to the private restoration package; a later presentation must apply its
+own derivative policy.
+
 ## Step 1: source inventory
 
 Requires Python 3.11+ and Poppler `pdfinfo` / `pdftotext` on PATH. This checkpoint

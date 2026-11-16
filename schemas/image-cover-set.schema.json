@@ -1,0 +1,322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/maso/image-cover-set.schema.json",
+  "title": "Source-preserving JPEG magazine cover set",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "kind": {
+      "const": "jpeg-cover-set"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "issue_id": {
+      "type": "string",
+      "pattern": "^maso-[0-9]{4}-[0-9]{2}$"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "kind": {
+          "const": "jpeg-set"
+        },
+        "path": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "additionalProperties": false
+    },
+    "faces": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/face"
+      },
+      "minItems": 1,
+      "maxItems": 4
+    },
+    "missing_faces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "enum": [
+              "front",
+              "inside-front",
+              "inside-back",
+              "back"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "role",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 3
+    },
+    "availability": {
+      "enum": [
+        "complete",
+        "partial"
+      ]
+    },
+    "verification": {
+      "const": "sample-reviewed"
+    },
+    "coordinates": {
+      "const": "upright-normalized-top-left"
+    },
+    "scope": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "id",
+    "issue_id",
+    "source",
+    "faces",
+    "missing_faces",
+    "availability",
+    "verification",
+    "coordinates",
+    "scope",
+    "limitations"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "pin": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "additionalProperties": false
+    },
+    "observation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "kind": {
+          "enum": [
+            "masthead",
+            "issue-label",
+            "price",
+            "publisher",
+            "slogan",
+            "teaser-category",
+            "teaser-item",
+            "anniversary-notice",
+            "supplement-notice",
+            "spine-label",
+            "advertiser",
+            "advertised-product"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "qualifier": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "original_encoding_verified": {
+          "const": false
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "text",
+        "bbox",
+        "candidates",
+        "qualifier",
+        "original_encoding_verified"
+      ],
+      "additionalProperties": false
+    },
+    "group": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "role": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "member_observation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "canonical_article_targets_inferred": {
+          "const": false
+        }
+      },
+      "required": [
+        "id",
+        "role",
+        "member_observation_ids",
+        "canonical_article_targets_inferred"
+      ],
+      "additionalProperties": false
+    },
+    "face": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "enum": [
+            "front",
+            "inside-front",
+            "inside-back",
+            "back"
+          ]
+        },
+        "source_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "material_kind": {
+          "enum": [
+            "cover-artwork",
+            "advertisement"
+          ]
+        },
+        "role_basis": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "condition": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "minItems": 1
+        },
+        "observations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/observation"
+          }
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/group"
+          }
+        },
+        "full_text_transcription": {
+          "const": false
+        },
+        "cosmetic_reconstruction_applied": {
+          "const": false
+        },
+        "source_page": {
+          "type": "object"
+        },
+        "asset": {
+          "$ref": "#/$defs/pin"
+        }
+      },
+      "required": [
+        "role",
+        "source_index",
+        "material_kind",
+        "role_basis",
+        "condition",
+        "observations",
+        "groups",
+        "full_text_transcription",
+        "cosmetic_reconstruction_applied",
+        "source_page",
+        "asset"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
