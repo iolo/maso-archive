@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 13,
+  "complete_whole_scan_articles": 14,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -2334,8 +2334,8 @@
       "title": "베이직 강좌",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0015",
         "title": "베이직 강좌",
@@ -2398,7 +2398,37 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M25",
+        "directory": "archive/scans/1984-03/packages/basic-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/basic-jpeg-r01/manifest.json",
+          "sha256": "39d0087eff1944a1b0ad2a5f4a5c2f51d86e75f0fe12d1975c397bcbe8b8d33f",
+          "bytes": 26682
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-21/validation.json",
+          "sha256": "03a1f3c63b08445dccc282ed19405b6517ae3d3557cea1bc66fb39bfefdef7f8",
+          "bytes": 3510
+        },
+        "observed_source_title": "베이직 강좌",
+        "observed_opening_folio": 82,
+        "observed_ending_folio": 87,
+        "actual_folios": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         82,
         83,
@@ -2415,7 +2445,12 @@
           "sha256": "b7abce028f1db0adf45f29fdb313bdd93f4f1ea8a2aafd3e39eeb37e9a3ab7a7",
           "bytes": 681198
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "selected_manifest": {
+          "path": "archive/scans/1984-03/packages/basic-jpeg-r01/manifest.json",
+          "sha256": "39d0087eff1944a1b0ad2a5f4a5c2f51d86e75f0fe12d1975c397bcbe8b8d33f",
+          "bytes": 26682
+        }
       }
     },
     {
@@ -2485,7 +2520,17 @@
         89,
         90,
         91
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 88,
+        "observed_title": "소프트웨어 복사방지 기술 I",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-21/review/full-088.jpg",
+          "sha256": "0fa9173c48296e6e50fdd1babd3b200f6dc5ff23418ffdb26c9c4ad6963f418c",
+          "bytes": 759002
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0017",
@@ -5387,13 +5432,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-20/source-ledger.json",
-    "sha256": "1c700c7a7cdf0b658ca1e314946f0594f2c69dc4bdc36198a529aa185d6f2be1",
-    "bytes": 230366
+    "path": "archive/scans/1984-03/restoration/whole-issue-21/source-ledger.json",
+    "sha256": "2edf2c8e233e8784099926abeb8de0377b992f2c0cc4fd2c6431a77b43464e7f",
+    "bytes": 237625
   },
-  "current_checkpoint": "M24-complete",
-  "next": "M25: restore 베이직 강좌, maso-1984-03-toc-0015, candidate82–87; verify complete extent and following boundary against88. Whole March remains active.",
-  "pending_article_candidates": 25,
+  "current_checkpoint": "M25-complete",
+  "next": "M26: restore 소프트웨어 복사 방지 기술, maso-1984-03-toc-0016, candidate88–91; compare all source pages and following92before mapping. Whole March remains active.",
+  "pending_article_candidates": 24,
   "pending_heading_candidates": 4,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 2

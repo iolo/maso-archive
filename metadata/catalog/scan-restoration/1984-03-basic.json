@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M25",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0015",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+  ],
+  "selected_package": "archive/scans/1984-03/packages/basic-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/basic-jpeg-r01/manifest.json",
+    "sha256": "39d0087eff1944a1b0ad2a5f4a5c2f51d86e75f0fe12d1975c397bcbe8b8d33f",
+    "bytes": 26682
+  },
+  "exact_files": 158,
+  "native_structure": {
+    "source_images": 6,
+    "mapped_regions": 41,
+    "initial_text_ocr_tasks": 36,
+    "recognition_retries": 0,
+    "blocks": 24,
+    "original_figures": 5,
+    "independent_source_program_contexts": 18,
+    "main_physical_rows": 40,
+    "main_numbered_units": 23,
+    "inline_example_contexts": 17,
+    "inline_physical_rows": 67,
+    "all_physical_rows": 107,
+    "all_source_units": 57,
+    "physical_fields": 428,
+    "compact_lexemes": 658,
+    "numeric_literal_occurrences": 108,
+    "source_fragment_joins": 8,
+    "source_constructors": 28,
+    "source_jump_targets": 8,
+    "DATA_units": 2,
+    "DATA_value_runs": 19,
+    "DATA_commas": 16,
+    "memory_expressions": 6,
+    "loop_expressions": 10,
+    "regional_reading_lines": 165,
+    "inline_fields": 740,
+    "source_references": 13,
+    "source_prose_claims": 13,
+    "source_program_references": 2,
+    "native_tables": 3,
+    "table_rows": 38,
+    "table_cells": 118,
+    "grid_cells": 249,
+    "bit_order_labels": 8,
+    "arrows": 8,
+    "caption_links": 4,
+    "joins": 12,
+    "qualifications": 16,
+    "whole_article_complete": true
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-21/validation.json",
+    "sha256": "03a1f3c63b08445dccc282ed19405b6517ae3d3557cea1bc66fb39bfefdef7f8",
+    "bytes": 3510
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-21/basic/recipe.json",
+    "sha256": "88b9c3491f0b7a68b6ac9abfece63d18248c37d082f31aa6efb6fffc36e4597d",
+    "bytes": 9139
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-21/source-ledger.json",
+    "sha256": "2edf2c8e233e8784099926abeb8de0377b992f2c0cc4fd2c6431a77b43464e7f",
+    "bytes": 237625
+  },
+  "source_dispositions_pending": 185,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-21/whole-progress-m25.json",
+    "sha256": "8427f5aece26c1373673d285afb742f055e86c96cc06621127bd05ef157b4298",
+    "bytes": 171322
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-21/evidence-manifest.json",
+    "sha256": "e53240e1a5256402183c33daed807e0debd4ff66ccd57318ec10da2a2847411d",
+    "bytes": 89630
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 286,
+  "next": "M26: restore 소프트웨어 복사 방지 기술, maso-1984-03-toc-0016, candidate88–91; compare all source pages and following92before mapping. Whole March remains active."
+}

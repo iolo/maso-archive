@@ -54,10 +54,13 @@ files, 33 physical BASIC rows / 21 numbered units, five HPLOT commands, two orig
 photographs and two source pen marks. All seven original-master crops and the
 separate native audit pass. M24 classifies 교육입문 on 81 as a non-owning divider
 in six exact native files, retaining seven navigation rows and three source crops.
-The following BASIC article opens on 82. Current totals are thirteen complete
-articles, no partial articles, 25 pending article candidates, two completed headings,
-four pending headings and 191 source images awaiting full-page disposition.
-Continue with M25, 베이직 강좌, candidate 82–87, in bounded checkpoints.
+M25 completes 베이직 강좌 on 82–87: 158 exact native files, eighteen independent
+source program contexts, 107 physical code rows, 118 table cells, 249 diagram cells
+and five original figures. All 41 source crops and the separate native audit pass.
+Current totals are fourteen complete articles, no partial articles, 24 pending
+article candidates, two completed headings, four pending headings and 185 source
+images awaiting full-page disposition. Continue with M26, 소프트웨어 복사 방지 기술,
+candidate 88–91, verifying the following boundary against 92.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -4816,4 +4819,59 @@ Whole March remains active with **thirteen complete articles, no partial article
 All 273 scans remain in the ledger; **191** await full-page disposition. Continue
 with **M25**, **베이직 강좌**, candidate 82–87, verifying its complete extent and
 following boundary against 88. See [the education-divider result](metadata/catalog/scan-restoration/1984-03-education-heading.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M25 — March complete BASIC lesson, actual 82–87
+
+Completed **베이직 강좌**, canonical **maso-1984-03-toc-0015**, as
+`archive/scans/1984-03/packages/basic-jpeg-r01/`. All **158 native files** match an
+independent fresh rebuild. The original six-page article ends with the closing
+star on 87; source 88 separately opens printed **소프트웨어 복사방지 기술 I**,
+received **소프트웨어 복사 방지 기술**. The preceding education divider remains
+separate. All original full pages and 41 mapped contexts were compared.
+
+The complete conversion program retains **40 physical rows and 23 numbered
+units** in its own download. Seventeen inline examples retain **67 physical
+rows** in article reading order, with independent program identities and original
+cross-column/page continuations. Together the eighteen contexts preserve **107
+physical rows, 57 source units, 428 physical fields, 658 lexical fields and 108
+numeric occurrences**. All source fields, eight wrapped lexical fragments, 28
+CHR$ expressions, eight jump targets, both DATA units, six memory expressions and
+ten loop expressions retain original source parts and UTF-8 byte spans. Compact
+forms serve source-fragment indexing; they do not establish executable code or
+encoded string spacing.
+
+Three typed tables retain **38 rows and 118 cells**, including all original
+headers. The four bit-pattern diagrams preserve **249 individual cells**, source
+hatching, all eight MSB/LSB labels and eight arrow associations. Every cell and
+label was compared against an overlay on the original figure. All four captions
+remain attached to their source figures. The complete opening artwork preserves
+its INPUT/OUTPUT labels and deliberate quotation overlap.
+
+Printed errors remain literal: sixteen binary ones versus **FFF**; the prompt's
+**YOU-/R** hyphen; **11264($2000)**; prose/FOR **14366** versus table **14336**;
+eleven CHR$ calls versus the prose's twelve-byte claim; the FC DATA missing comma
+and doubled ampersand; and **DEF STR$** versus CHR$. The source's figure references
+remain independent claims. An unobserved table 2 is not invented. The beep glyph
+selects qualified **삐** with historical **삑** retained as an alternate. Figure 4's
+visible A-gap retains unresolved encoded spaces and string length. Sixteen local
+qualifications preserve these limits.
+
+Thirty-six initial mapped Tesseract tasks at scale 6000 completed without retries.
+The first map and crops remain preserved after one pre-recognition refinement.
+The first native-generation assertion rejected missing physical newlines in the
+historical main draft; the selected source-compared rows preserve the 150/160
+column boundary before export. The first independent audit passes **41 original-
+master crop checks, 36 OCR bindings, 150 raw ZIP members and 31 damaged-data cases**.
+All **twenty frozen M24 evidence files** and shared implementation pins remain
+unchanged; the unchanged **286-test fresh M13 baseline** is reused. M25 freezes
+**512 evidence files**. Cleanup was previewed without deletion. Original encoded
+bytes, execution, technical correctness and full human proofreading remain
+unverified.
+
+Whole March remains active with **fourteen complete articles, no partial articles,
+24 pending article candidates, two completed headings and four pending headings**.
+All 273 scans remain in the ledger; **185** await full-page disposition. Continue
+with **M26**, **소프트웨어 복사 방지 기술**, candidate 88–91, verifying its complete
+extent and following boundary against 92. See [the BASIC result](metadata/catalog/scan-restoration/1984-03-basic.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

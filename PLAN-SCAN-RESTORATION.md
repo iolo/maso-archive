@@ -88,13 +88,15 @@ units, five HPLOT commands, two original photographs and two source pen marks.
 All seven source crops and the separate native audit pass. M24 classifies
 교육입문 on 81 as a non-owning divider: six exact native files, seven navigation
 rows and three original crops, with the separate BASIC article opening on 82.
-The whole issue
-remains active: thirteen complete articles, no partial articles, 25 pending article
-candidates, two completed headings and four pending headings. There are 191 source
-images still awaiting full-page disposition. Continue with M25, 베이직 강좌,
-candidate 82–87,
-verifying its extent and following
-boundary in a bounded checkpoint.
+M25 completes 베이직 강좌 on 82–87: 158 exact native files, the complete converter
+and seventeen independent inline examples, 107 physical code rows, 118 table cells,
+249 diagram cells and all five original figures. All 41 original-master crops and
+the separate source/native audit pass. Printed errors and local qualifications
+remain explicit. The whole issue remains active: fourteen complete articles, no
+partial articles, 24 pending article candidates, two completed headings and four
+pending headings. There are 185 source images still awaiting full-page disposition.
+Continue with M26, 소프트웨어 복사 방지 기술, candidate 88–91, verifying its
+extent and following boundary against 92 in a bounded checkpoint.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
