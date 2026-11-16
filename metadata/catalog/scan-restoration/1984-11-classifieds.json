@@ -1,0 +1,736 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R57",
+  "completedOn": "2026-11-16",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0038",
+  "title": "복덕방",
+  "observed_title": "복 덕 방",
+  "observed_byline": null,
+  "observed_whole_extent": "Complete classified section on printed226–228;the CEZANNE DESIGN SCHOOL advertisement below the section on228 is separate material.",
+  "outcome": "Complete reproducible classified section226–228:54 notices,source category order,price/contact ownership and explicit unresolved contact scopes.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/classifieds-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/classifieds-r01/manifest.json",
+    "sha256": "19c781f9cc88d7b163b6a32d16980d6712f639284d95f5c725e0bfa6bb9f9cb1",
+    "bytes": 10389
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-57/validation.json",
+    "sha256": "beceab39c13e82f29388f76fca20200ac50617fda80b934cb4136173510e483c",
+    "bytes": 102007
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-57/evidence-manifest.json",
+    "sha256": "cbda36d3f22e75f64f9dd6a55be2da0081d90522e3d02dca45cc87975fb326c7",
+    "bytes": 113006
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-11/restoration/batch-57/classifieds/recipe.json",
+    "sha256": "ff079f22b0450075485bf9d1ad8ece1b19365a55cf60fa4d62d38cf37890f21c",
+    "bytes": 4780
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-57/classifieds/review/source-findings.json",
+    "sha256": "8f1797e69ddb183f776e272b7dba652d13e5aff6f34a0a5f059767377768bf9c",
+    "bytes": 2640
+  },
+  "source_review": {
+    "path": "archive/scans/1984-11/restoration/batch-57/source-review-completion.json",
+    "sha256": "4a933c8630f9ff13ec03baa796435d8bc319a6a76dc670e940647602332db1de",
+    "bytes": 5064
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-226.jpg",
+      "sha256": "d24c6420f06470a471615691dae58bee5504e8d958fd226ba3101d6f862eab5b",
+      "bytes": 10608481
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-227.jpg",
+      "sha256": "d7a094c199da0229f8917a28a7bbe1385461d4dd7accf5cfe7d17287a37bfa80",
+      "bytes": 8156545
+    },
+    {
+      "path": "archive/scans/1984-11/pages/page-228.jpg",
+      "sha256": "d2488a94aeff7d36fb30b437c1486d5ccaf9045fff369a55370b5cfbfc22017b",
+      "bytes": 8680801
+    }
+  ],
+  "printed_folios": [
+    226,
+    227,
+    228
+  ],
+  "summary": {
+    "blocks": 7,
+    "regions": 15,
+    "rawOcrTasks": 13,
+    "figures": 2,
+    "literalFields": 423,
+    "qualifications": 28,
+    "relations": 58,
+    "classifiedNotices": 54,
+    "buyNotices": 2,
+    "exchangeNotices": 22,
+    "handDownNotices": 30,
+    "missingContactScopes": 3,
+    "groupedNotices": 3,
+    "printedPhoneOccurrences": 51,
+    "printedPriceFields": 52,
+    "questionAnswerExchanges": 0,
+    "tables": 0,
+    "catalogRows": 0,
+    "catalogCells": 0,
+    "codeExecutionVerified": false,
+    "nativeFiles": 62,
+    "pixelChecks": 15,
+    "negativeCases": 45,
+    "rawZipMembers": 55
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p226-header-photo",
+      "source_index": 229,
+      "pixel_bounds": [
+        8,
+        12,
+        4054,
+        2982
+      ],
+      "scan": {
+        "path": "ocr-226/p226-header-photo.png",
+        "sha256": "7926c4f774934c6d2d9656149180a6b3dd12525f87c4be439aeb782013d77d7c",
+        "bytes": 21717438
+      }
+    },
+    {
+      "region_id": "p226-title",
+      "source_index": 229,
+      "pixel_bounds": [
+        403,
+        636,
+        1734,
+        948
+      ],
+      "scan": {
+        "path": "ocr-226/p226-title.png",
+        "sha256": "fda167be415b56cf6fc3bd67ed32618dc80cc64d2c9ff61e512341411a4ed11e",
+        "bytes": 711936
+      }
+    },
+    {
+      "region_id": "p226-buy-heading",
+      "source_index": 229,
+      "pixel_bounds": [
+        301,
+        3276,
+        771,
+        3468
+      ],
+      "scan": {
+        "path": "ocr-226/p226-buy-heading.png",
+        "sha256": "618ba285aec92c789354963b2a6316327842cba981d2688cca54b5804825b4a7",
+        "bytes": 142964
+      }
+    },
+    {
+      "region_id": "p226-buy-body",
+      "source_index": 229,
+      "pixel_bounds": [
+        220,
+        3552,
+        1986,
+        3978
+      ],
+      "scan": {
+        "path": "ocr-226/p226-buy-body.png",
+        "sha256": "dfbd443e9a8549e33422611f446ad10e83431a7365a98186cb49c9aacd3e4f0b",
+        "bytes": 894586
+      }
+    },
+    {
+      "region_id": "p226-exchange-heading",
+      "source_index": 229,
+      "pixel_bounds": [
+        289,
+        4098,
+        779,
+        4272
+      ],
+      "scan": {
+        "path": "ocr-226/p226-exchange-heading.png",
+        "sha256": "25f7cf15e702d09249bec84f190541aeedbb82040f3bc9b974b0bbf9795766d5",
+        "bytes": 138927
+      }
+    },
+    {
+      "region_id": "p226-exchange-left",
+      "source_index": 229,
+      "pixel_bounds": [
+        220,
+        4362,
+        1991,
+        5604
+      ],
+      "scan": {
+        "path": "ocr-226/p226-exchange-left.png",
+        "sha256": "d5ba7103a36d2d8658897f644c402e235bd722f79fada2f948836b09749e4382",
+        "bytes": 2637113
+      }
+    },
+    {
+      "region_id": "p226-exchange-right",
+      "source_index": 229,
+      "pixel_bounds": [
+        2055,
+        3138,
+        3830,
+        5604
+      ],
+      "scan": {
+        "path": "ocr-226/p226-exchange-right.png",
+        "sha256": "ce08d4d75e83c47c9087147665298aa74061569cf7970b6e7bb1337e23deb204",
+        "bytes": 5359552
+      }
+    },
+    {
+      "region_id": "p227-exchange-left",
+      "source_index": 230,
+      "pixel_bounds": [
+        280,
+        845,
+        2033,
+        5604
+      ],
+      "scan": {
+        "path": "ocr-227/p227-exchange-left.png",
+        "sha256": "a588e1bfe97071b8f2588b9d536876d8127da14da433360866424c298e12c862",
+        "bytes": 10349193
+      }
+    },
+    {
+      "region_id": "p227-exchange-right",
+      "source_index": 230,
+      "pixel_bounds": [
+        2143,
+        845,
+        3880,
+        1692
+      ],
+      "scan": {
+        "path": "ocr-227/p227-exchange-right.png",
+        "sha256": "1bf87588ea0260fbc1b40cdde3a7fce039669a043135feb3ba8c7cd4f3847381",
+        "bytes": 1845963
+      }
+    },
+    {
+      "region_id": "p227-sell-heading",
+      "source_index": 230,
+      "pixel_bounds": [
+        2181,
+        1794,
+        2775,
+        1998
+      ],
+      "scan": {
+        "path": "ocr-227/p227-sell-heading.png",
+        "sha256": "501c37016cb5b83ccd918861b6e9ea489d10f92908d1fa40ab8e6c52e16969f6",
+        "bytes": 198255
+      }
+    },
+    {
+      "region_id": "p227-sell-right",
+      "source_index": 230,
+      "pixel_bounds": [
+        2148,
+        2082,
+        3880,
+        5604
+      ],
+      "scan": {
+        "path": "ocr-227/p227-sell-right.png",
+        "sha256": "75c0653d75a76d6aba45c148111d4fcf092f79b7d344c7c76ed08a3cfc08024d",
+        "bytes": 7594976
+      }
+    },
+    {
+      "region_id": "p228-sell-left",
+      "source_index": 231,
+      "pixel_bounds": [
+        301,
+        845,
+        2034,
+        4200
+      ],
+      "scan": {
+        "path": "ocr-228/p228-sell-left.png",
+        "sha256": "9475f5b86d1801f4a57271bab1b9cd2faf7be3d9c0299ee57231f29cba04b216",
+        "bytes": 7226424
+      }
+    },
+    {
+      "region_id": "p228-sell-right",
+      "source_index": 231,
+      "pixel_bounds": [
+        2144,
+        845,
+        3889,
+        3864
+      ],
+      "scan": {
+        "path": "ocr-228/p228-sell-right.png",
+        "sha256": "6f9d3b6d180fb8a748d8c15af54cb285971d2720e590fa2d8f1b1123852f2b0f",
+        "bytes": 6651843
+      }
+    },
+    {
+      "region_id": "p228-sell-ending",
+      "source_index": 231,
+      "pixel_bounds": [
+        2185,
+        3858,
+        3671,
+        4134
+      ],
+      "scan": {
+        "path": "ocr-228/p228-sell-ending.png",
+        "sha256": "311a83242f64d292b96ab3b6bde3c2d7d76c6f54c6babaa0e6c49a921c27dbd1",
+        "bytes": 488618
+      }
+    },
+    {
+      "region_id": "p228-closing-emblem",
+      "source_index": 231,
+      "pixel_bounds": [
+        3728,
+        3900,
+        3823,
+        4027
+      ],
+      "scan": {
+        "path": "ocr-228/p228-closing-emblem.png",
+        "sha256": "a82299e73e5756fdd86ad6294f4c1d27036d6e1125c4c1c9900ff4c0ba7d345c",
+        "bytes": 18589
+      }
+    }
+  ],
+  "previousCheckpointCommit": "892afa9a",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "e1530656c903af4c074767a10ef495c8d0ac87c0ea92112be32fae4575a9e00f",
+      "bytes": 225908
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_numbered_assemble.py",
+      "sha256": "d6d877b8207adfd616878bc639682abc661aba81909d2934402d98c6636dc3e8",
+      "bytes": 13404
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_graphs.py",
+      "sha256": "e27beb44a75c3ef3c7cddc783f1f3c08b0569553d280397bb08bc68d19fac735",
+      "bytes": 16164
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_image_source_structures.py",
+      "sha256": "93b82ab3f26c7a976e2a8e25b4aa2abd2bb33141cdf73bcfdd7e6c6da189e9a1",
+      "bytes": 12579
+    },
+    {
+      "path": "tests/test_image_survey_assemble.py",
+      "sha256": "94c154f857b26e993fe6344503c86a26be2cdc2f24870cbbad95a5e8a4d61e78",
+      "bytes": 15587
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "9b9c74c831f35d3a1a71fdbec215206745ab56749a7d65791f7095dad1f94493",
+      "bytes": 17278
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "a15b8f7f9ac77421da56483d68c66ee271bbba7175bf6acebe5dfc00bc773785",
+      "bytes": 28342
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_numbered.py",
+      "sha256": "a123c2d5dc6f0d365399a8cf29f795426e93b0ee8d001c3fd544617fa23ccced",
+      "bytes": 10533
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a05173be8ac6367356583f3ec497b47fe382f7753bd3155c7e8b665384ab4890",
+      "bytes": 20501
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_graphs.py",
+      "sha256": "c0f155c960c6807fb2a5e110347c88989d9e87849acc5bc0cead26099aa1e378",
+      "bytes": 33714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "81f3456ffa97802de13435491309320d351493ef5b924b846c75705b253213e2",
+      "bytes": 24032
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_structures.py",
+      "sha256": "82a51f9a7f24ab783183ca4e661f266ba7a0ff3ae0336b39f7bdc504d127a1f6",
+      "bytes": 21330
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "8676b168f37b1ec387c8ae04603e271a67546b1026daea15b9b9d7562c5ba7d7",
+      "bytes": 42203
+    },
+    {
+      "path": "tools/pdf_restore/assembly_survey.py",
+      "sha256": "245e8707a0d6931ddafb2f678e2775a0fcfb556ca9d7afb1a4f74428fc4f295e",
+      "bytes": 25272
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "49f8b030a4ad2549a889481f45ffbb1238fd7baf2b351bc2fc49b00b35448f43",
+      "bytes": 21558
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    },
+    {
+      "path": "tools/pdf_restore/assembly_image_news.py",
+      "sha256": "3207d3548420c833c1a693bc6ba599c9f59b0d69f050ff39165e1ff570e146af",
+      "bytes": 26748
+    },
+    {
+      "path": "tests/test_image_news_assemble.py",
+      "sha256": "c71e21120cefa9e2f68f0893dfc74fd04c8a9ac9032bd4ccfd0fc9fb668947c3",
+      "bytes": 9732
+    },
+    {
+      "path": "tools/pdf_restore/assembly_news.py",
+      "sha256": "95cdd5cd72aadd402c01d0337e65c0ac35a1ca0ab8ad9fbdc14338f31b201f6b",
+      "bytes": 8475
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 48,
+    "total": 262
+  },
+  "regressionLogs": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-55/pdf-regressions-02.log",
+      "sha256": "1915db81dd9a061a67fa9d3747dea3d571a08df02298a07e071c02f874e2299a",
+      "bytes": 36395
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-55/jpeg-regressions-02.log",
+      "sha256": "de1ca7a2b63284a77cd4106eb8b045fe54b209b8152bcd449596a655e637ff81",
+      "bytes": 9351
+    }
+  ],
+  "regressionsFresh": false,
+  "regressionBaseline": "R55;all33implementationfiles unchanged",
+  "readingRoomsPreserved": [
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot.json",
+        "sha256": "d20d01e225d2bf31095210bcc7fbedc38ce5005566282a2875eebbbab11bf79e",
+        "bytes": 14479
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11/data/manifest.json",
+        "sha256": "1d3537384b24f07923f3827c782f0e38ff03a49a0a84b424b74a0852a78e25c8",
+        "bytes": 822112
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11/assets/index-D4Z0nqFt.js",
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+          "bytes": 350064
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11/assets/index-DO4ky1Ds.css",
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+          "bytes": 30171
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11/index.html",
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+          "bytes": 603
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-2026-11-16/evidence-manifest.json",
+        "sha256": "f0d66664926b9bf6bb7bdb8fbcc47e38998c5e720c2a9d699dbb60ea66a2cd71",
+        "bytes": 5070
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r47.json",
+        "sha256": "e5ad06ed17088004629339e70c9e395bbf993979c34ab66291c8edd26d68fa44",
+        "bytes": 13632
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r47/data/manifest.json",
+        "bytes": 837353,
+        "sha256": "a6de8917ef9d3a3410646a0c50c762207be93fdda179e501353fb1f08985b4d8"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/assets/index-D4Z0nqFt.js",
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+          "bytes": 350064
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/assets/index-DO4ky1Ds.css",
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+          "bytes": 30171
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/index.html",
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+          "bytes": 603
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/evidence-manifest.json",
+        "sha256": "d1c8eb92325a58075c580e6497fa8bab0c5c4fd4c8028ec7bfff32603116997e",
+        "bytes": 4984
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r50.json",
+        "sha256": "68cc31f7d23b49fc5755a2dc80a8ea61348fcc3c9345d5f5326c787df79e32ef",
+        "bytes": 16583
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r50/data/manifest.json",
+        "bytes": 924994,
+        "sha256": "4d8ce1b42955fec592f778af1948329cbb2dcf0f3021f61d37df9d067154cfef"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/assets/index-D4Z0nqFt.js",
+          "bytes": 350064,
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/assets/index-DO4ky1Ds.css",
+          "bytes": 30171,
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/index.html",
+          "bytes": 603,
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530"
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r50-2026-11-16/evidence-manifest.json",
+        "bytes": 5446,
+        "sha256": "9d91f85549b2f01c7fff6ed9974eaabd687f21527c09ccefb252db1f9a97b1a7"
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r52.json",
+        "sha256": "d21dafbe92d3967f11b02c37d247faeb958c5c91fdce108a088af7db12dab4af",
+        "bytes": 17884
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r52/data/manifest.json",
+        "bytes": 942171,
+        "sha256": "53f8bc22cf89d42d19aa5b6e2e3f553a80f22b340f74e4637d69ae3269cc7e34"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/assets/index-D4Z0nqFt.js",
+          "bytes": 350064,
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/assets/index-DO4ky1Ds.css",
+          "bytes": 30171,
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/index.html",
+          "bytes": 603,
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530"
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r52-2026-11-16/evidence-manifest.json",
+        "bytes": 6554,
+        "sha256": "4a29756db2447faa378070cddc6d1b468bdc0b1152f2e1e183710f13e3184432"
+      }
+    }
+  ],
+  "attempts": {
+    "newMappedSourceViews": 6,
+    "newOutsideLookupViews": 2,
+    "fullpageViews": [
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232
+    ],
+    "mapPreparationRuns": 2,
+    "mapPreparationFailures": 1,
+    "preOcrCoverageRefinements": 2,
+    "initialOcrTasks": 41,
+    "newOcrTasks": 41,
+    "selectedRawOcrTasks": 41,
+    "changedCropRepairRegions": [],
+    "engineFailures": 0,
+    "emptyOcrRegions": [
+      "p226-title",
+      "p226-exchange-heading",
+      "p227-sell-heading"
+    ],
+    "emptyOcrResolution": "Stylized source title/headings manually transcribed and compared;empty original OCR outcomes retained without extra recognition.",
+    "engineChanges": 0,
+    "successfulUnchangedOcrRepeated": 0,
+    "nativePreparationRuns": 3,
+    "nativeExports": 3,
+    "nativeExportFailures": 1,
+    "selectedNativeExports": 2,
+    "independentRebuilds": 2,
+    "independentRebuildFailures": 0,
+    "sourceStructurePreflights": 3,
+    "sourceStructureFailures": 1,
+    "actualAuditRuns": 1,
+    "actualAuditFailures": 0,
+    "regressionsFresh": false,
+    "reusedRegressionCheckpoint": "R55:262 tests;all33 implementation files unchanged",
+    "cleanupApplied": false,
+    "notes": [
+      "Full source comparison establishes 복덕방226–228 and Q&A229–231. Adjacent225/232 material and the228 lower advertisement are separate. All six mapped folios are visible;two outside lookups stay within batch limits.",
+      "The first map preparation failed before map output because the226 photograph overlapped a margin exclusion. The corrected map retains the full photograph;failed helper/log preserved. Q&A crop edges were widened before OCR to retain reader/answer ascenders and the final answer line. Earlier maps/views retained.",
+      "All41 initial mapped OCR tasks completed once. Three stylized classified title/headings produced empty text;their raw outcomes remain retained beside source-compared transcriptions. No successful unchanged OCR was repeated;no repair recognition or engine switch was needed.",
+      "Classifieds retain54 logical notices in2buy/22exchange/30hand-down order,51 printed phone occurrences,52 printed price fields,three independently priced grouped notices and four column/page continuations. Three following-contact scopes remain unresolved;no filling,deduplication,area-code modernization or net-price calculation.",
+      "Q&A retains six question/answer exchanges and reader-sender roles,40 printed catalog rows/120cells,original catalog/menu rasters,captions,inverse glyph candidates and original prompt/filename forms. Greedy example quantities,fractions and printed totals remain typed source claims;no invented printed table,program execution or source-defect repair.",
+      "The first structure preflight had a checker count error:five technical-specification sequences,not six. The first native export rejected an unsupported heading block type. Corrected private restoration records to existing title/section-label/caption types without changing schema or shared implementation. Failed scripts/logs retained.",
+      "Both selected native exports reproduce all186 files independently. All47 master-derived crops,41 original OCR/settings bindings,172ZIPmembers and94 damaged native/source cases pass. All56 earlier selected catalog packages and frozen evidence,six heading classifications,four saved readers,33 implementation files,both shared plans and10 runtime files remain intact.",
+      "The unchanged R55 262-test baseline/logs were rehashed and reused,not freshly rerun. Cleanup was preview-only;reading-room implementation and builds were untouched."
+    ]
+  },
+  "limitations": [
+    "Original encoded bytes,exact spacing,punctuation and inverse/graphic glyph display remain unverified;original scans/OCR and explicit candidates retained. Assistant source comparison is distinct from full human proofreading and acceptance.",
+    "Historical technical/compatibility claims,commands,prices and contact details are transcribed source records;no execution,external factual verification or source-defect repair is claimed.",
+    "Three source categories in order;54 bullet notices,not columns,are logical units. Four continuations cross columns/pages. Repeated model/name/contact values remain distinct occurrences;three contact scopes are unresolved."
+  ],
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-57/classifieds/recipe.json --output archive/scans/1984-11/packages/classifieds-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-57/classifieds/recipe.json --output work/validation/scans-1984-11-classifieds-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-57/verify-review.py"
+  ],
+  "next": "R58: establish actual source extent and native structures for 광고색인 (maso-1984-11-toc-0040,catalog opener240) using full pages and adjacent material before mapping. Preserve advertiser names,category/column order and printed page references without normalizing or guessing targets. Keep at most two canonical identities,six newly mapped source views and twenty outside lookups;segment if required. After the final identity disposition,complete covers/source-image accounting and checked whole-issue native export/rebuild before auditing the entire November goal. Preserve all earlier selected packages,frozen evidence,four saved readers and both shared operating plans. Reuse successful unchanged OCR;never execute frozen checkpoint helpers. No reading-room implementation or builds. Keep the whole-November restoration goal active.",
+  "separate_material": {
+    "folio": 228,
+    "role": "separate advertisement",
+    "literal": "CEZANNE DESIGN SCHOOL",
+    "included_in_article": false
+  }
+}

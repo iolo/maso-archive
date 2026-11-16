@@ -3322,3 +3322,64 @@ source extent and structure checks for **복덕방** (catalog opener 226) and
 **Q&A** (229) within the batch limits. **광고색인**, covers/source accounting and
 checked whole-issue native export/rebuild remain required. **The November goal
 remains active.**
+
+
+## R57 — 복덕방 and Q&A
+
+**복덕방** (`maso-1984-11-toc-0038`) is complete on actual **226–228** as
+`classifieds-r01`: **62 exact native files**. Its 54 logical notices retain
+the three source categories: **구하기** (2), **바꾸기** (22) and **물려주기** (30).
+Native source ranges preserve 51 printed phone occurrences, 52 price fields,
+conditional handover prices, exchange add-on money and three grouped notices
+with separately priced offers. Four notices cross columns or pages. Three
+notices lack an independently printed contact before the next bullet; possible
+following-contact ownership remains explicit and unresolved. Repeated names,
+models and telephone numbers remain separate occurrences. No contact filling,
+deduplication, area-code modernization or net-price calculation was applied.
+The separate advertisement below the section on 228 is excluded.
+
+**Q&A** (`0039`) is complete on actual **229–231** as `qa-r01`: **124 exact native
+files**. Six exchanges retain question, reader-sender and answer ownership;
+question senders are not assigned as answer authors. The GraFORTH catalog keeps
+**40 printed rows / 120 cells**, including three divider-like displayed
+filenames, leading zeros and exact row order. The catalog and menu each retain
+their original raster, source caption and deliberate textual projection.
+Four parameter groups, seven menu controls, image-origin choices and the
+original cursor remain distinguished. Faint inverse keys and divider stars
+have explicit candidates.
+
+Native relationships retain the cross-page answer/question continuations,
+manual citation, earlier-issue references, source command sequences, byte/address
+claims and WIDTH screen limits. Printed **Domonstration**, both Pascal filename
+forms and the greedy example's quantities, fractions and reported totals remain
+source records. The optimization example is prose, with no invented printed
+table. Commands, programs and historical technical claims were not executed,
+externally verified or repaired from expected behavior.
+
+All **41 initial OCR tasks** completed once. Three stylized classified
+title/headings produced empty text; their original results remain retained
+alongside manually compared transcriptions. Before OCR, Q&A crops were widened
+to retain reader/answer ascenders and the final answer line. No extra recognition,
+unchanged successful repeat or engine switch occurred. The first map preparation
+failed on a photograph/margin overlap. The first source preflight had a checker
+count error, and the first export rejected an unsupported block type. These
+private records/checks were corrected using the existing schema; failed helpers
+and logs are retained. Shared implementation was unchanged.
+
+The two selected packages and independent rebuilds reproduce **186 exact files**.
+All **47 master-derived crops, 41 original OCR/settings bindings, 172 ZIP members
+and 94 damaged native/source cases** pass. All **56 earlier catalog packages and
+frozen evidence**, six heading classifications, four saved readers, 33 shared
+implementation files, both shared plans, source inputs and ten runtime files
+remain intact. The **R55 262-test baseline** and logs were rehashed and reused,
+not freshly rerun. Cleanup was preview-only. **517 private evidence files** are
+frozen. Reading-room implementation and builds were untouched.
+
+See the [classifieds result](metadata/catalog/scan-restoration/1984-11-classifieds.json),
+[Q&A result](metadata/catalog/scan-restoration/1984-11-qa.json) and
+[issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+November now has **33 complete article packages, no partial articles, six
+non-owning headings and one unclassified identity**. Next is **R58**,
+source extent and native structures for **광고색인** (catalog opener 240).
+Covers/source accounting and checked whole-issue native export/rebuild remain
+required. **The November goal remains active.**

@@ -5,9 +5,9 @@
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 31,
+  "readable_articles": 33,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 3,
+  "identitiesAwaitingDisposition": 1,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -10512,10 +10512,114 @@
       "page_candidates": [
         226
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "복 덕 방",
+      "observed_byline": null,
+      "byline_status": "No article-wide personal byline observed;notice contacts remain notice-owned.",
+      "observed_whole_extent": "Complete classified section on printed226–228;the CEZANNE DESIGN SCHOOL advertisement below the section on228 is separate material.",
+      "restored_folios": [
+        226,
+        227,
+        228
+      ],
+      "pending_folios": [],
+      "assembly_required": false,
+      "source_views": [
+        {
+          "source_index": 229,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-226.jpg",
+            "sha256": "d24c6420f06470a471615691dae58bee5504e8d958fd226ba3101d6f862eab5b",
+            "bytes": 10608481
+          },
+          "width_px": 4702,
+          "height_px": 6918,
+          "reading_order": 228,
+          "source_filename_number": 226,
+          "printed_page": "226",
+          "image_to_upright_normalized": [
+            0.0002126754572522331,
+            0,
+            0,
+            0.00014455044810638914,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 230,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-227.jpg",
+            "sha256": "d7a094c199da0229f8917a28a7bbe1385461d4dd7accf5cfe7d17287a37bfa80",
+            "bytes": 8156545
+          },
+          "width_px": 4754,
+          "height_px": 6919,
+          "reading_order": 229,
+          "source_filename_number": 227,
+          "printed_page": "227",
+          "image_to_upright_normalized": [
+            0.00021034917963819942,
+            0,
+            0,
+            0.00014452955629426219,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 231,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-228.jpg",
+            "sha256": "d2488a94aeff7d36fb30b437c1486d5ccaf9045fff369a55370b5cfbfc22017b",
+            "bytes": 8680801
+          },
+          "width_px": 4760,
+          "height_px": 6926,
+          "reading_order": 230,
+          "source_filename_number": 228,
+          "printed_page": "228",
+          "image_to_upright_normalized": [
+            0.0002100840336134454,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/classifieds-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/classifieds-r01/manifest.json",
+          "sha256": "19c781f9cc88d7b163b6a32d16980d6712f639284d95f5c725e0bfa6bb9f9cb1",
+          "bytes": 10389
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-57/validation.json",
+          "sha256": "beceab39c13e82f29388f76fca20200ac50617fda80b934cb4136173510e483c",
+          "bytes": 102007
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-57/classifieds/review/source-findings.json",
+          "sha256": "8f1797e69ddb183f776e272b7dba652d13e5aff6f34a0a5f059767377768bf9c",
+          "bytes": 2640
+        },
+        "status": "Complete classified section on printed226–228;the CEZANNE DESIGN SCHOOL advertisement below the section on228 is separate material."
+      },
+      "limitations": [
+        "Original encoded bytes,exact spacing,punctuation and inverse/graphic glyph display remain unverified;original scans/OCR and explicit candidates retained. Assistant source comparison is distinct from full human proofreading and acceptance.",
+        "Historical technical/compatibility claims,commands,prices and contact details are transcribed source records;no execution,external factual verification or source-defect repair is claimed.",
+        "Three source categories in order;54 bullet notices,not columns,are logical units. Four continuations cross columns/pages. Repeated model/name/contact values remain distinct occurrences;three contact scopes are unresolved."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0039",
@@ -10524,10 +10628,114 @@
       "page_candidates": [
         229
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "Q. A",
+      "observed_byline": null,
+      "byline_status": "No article-wide personal byline observed;question senders are not answer authors.",
+      "observed_whole_extent": "Six complete question/answer exchanges229–231,including the GraFORTH catalog/menu figures230 and explicit reader senders;no article-wide personal author observed.",
+      "restored_folios": [
+        229,
+        230,
+        231
+      ],
+      "pending_folios": [],
+      "assembly_required": false,
+      "source_views": [
+        {
+          "source_index": 232,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-229.jpg",
+            "sha256": "f255882108b9971cd397ef319d5d452334757d0333f7129b54464aeb817e5f23",
+            "bytes": 9083576
+          },
+          "width_px": 4734,
+          "height_px": 6921,
+          "reading_order": 231,
+          "source_filename_number": 229,
+          "printed_page": "229",
+          "image_to_upright_normalized": [
+            0.00021123785382340515,
+            0,
+            0,
+            0.00014448779078167894,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 233,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-230.jpg",
+            "sha256": "989b36c7bdd70428e4b830fe35d2fcb5d6c8b9cbe6e644418b5c43ad5f8f10d5",
+            "bytes": 7956760
+          },
+          "width_px": 4754,
+          "height_px": 6926,
+          "reading_order": 232,
+          "source_filename_number": 230,
+          "printed_page": "230",
+          "image_to_upright_normalized": [
+            0.00021034917963819942,
+            0,
+            0,
+            0.00014438348252959862,
+            0,
+            0
+          ]
+        },
+        {
+          "source_index": 234,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-231.jpg",
+            "sha256": "0623bd8affe9e60377e4b21b5dd7c82601092c06359fdba535e2b06f3a10e6d3",
+            "bytes": 8786760
+          },
+          "width_px": 4763,
+          "height_px": 6915,
+          "reading_order": 233,
+          "source_filename_number": 231,
+          "printed_page": "231",
+          "image_to_upright_normalized": [
+            0.0002099517111064455,
+            0,
+            0,
+            0.00014461315979754158,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/qa-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/qa-r01/manifest.json",
+          "sha256": "0357d089848008949ed2c975a8c60eecbc869685af417bceb67c189fa97240ce",
+          "bytes": 21008
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-57/validation.json",
+          "sha256": "beceab39c13e82f29388f76fca20200ac50617fda80b934cb4136173510e483c",
+          "bytes": 102007
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-57/qa/review/source-findings.json",
+          "sha256": "47205f650bf342c711a8822cd85854bc9a195f47b2b132552bd65247f0af6c34",
+          "bytes": 5794
+        },
+        "status": "Six complete question/answer exchanges229–231,including the GraFORTH catalog/menu figures230 and explicit reader senders;no article-wide personal author observed."
+      },
+      "limitations": [
+        "Original encoded bytes,exact spacing,punctuation and inverse/graphic glyph display remain unverified;original scans/OCR and explicit candidates retained. Assistant source comparison is distinct from full human proofreading and acceptance.",
+        "Historical technical/compatibility claims,commands,prices and contact details are transcribed source records;no execution,external factual verification or source-defect repair is claimed.",
+        "Six question/answer exchanges own reader-sender lines and technical examples. Q1 answer crosses229/230;Q3 question crosses230/231;Q6 last line is separate source region. The source catalog/menu have both original raster and deliberate textual projection of shared geometry;no program or disk reconstructed/executed."
+      ]
     },
     {
       "toc_entry_id": "maso-1984-11-toc-0040",
@@ -10542,6 +10750,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R57: establish actual source extent,title/ownership and native structures for 복덕방 (maso-1984-11-toc-0038,catalog opener226) and Q&A (0039,opener229),using full source pages and adjacent material before mapping. Keep at most two canonical identities,six new mapped source views and twenty outside lookups;segment if either actual extent requires it. Preserve separate classified notices/contact/price fields and any Q&A question/answer/code contexts without guessing from TOC or modernizing historical source data. Three unclassified identities0038–0040,covers/source-image accounting and checked whole-issue native export/rebuild remain required. Preserve all selected native packages,frozen evidence,four saved readers and both shared operating plans. Reuse successful unchanged OCR;never execute frozen checkpoint helpers. No reading-room implementation or builds. Keep the whole-November restoration goal active.",
+  "next": "R58: establish actual source extent and native structures for 광고색인 (maso-1984-11-toc-0040,catalog opener240) using full pages and adjacent material before mapping. Preserve advertiser names,category/column order and printed page references without normalizing or guessing targets. Keep at most two canonical identities,six newly mapped source views and twenty outside lookups;segment if required. After the final identity disposition,complete covers/source-image accounting and checked whole-issue native export/rebuild before auditing the entire November goal. Preserve all earlier selected packages,frozen evidence,four saved readers and both shared operating plans. Reuse successful unchanged OCR;never execute frozen checkpoint helpers. No reading-room implementation or builds. Keep the whole-November restoration goal active.",
   "group_headings": 6
 }
