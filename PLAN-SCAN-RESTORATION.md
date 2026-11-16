@@ -1,14 +1,14 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R57 are complete. The whole-November restoration goal is active.
-November has **33 complete articles, no partial articles, six non-owning headings
-and one unclassified identity**. The latest are **복덕방**, actual **226–228**,
-and **Q&A**, actual **229–231**. Their native structures retain 54 classified
-notices, six question/answer exchanges, a 40-row disk catalog and original menu
-controls, with explicit contact and glyph uncertainty.
-**R58** establishes the actual extent and native structures of **광고색인**
-(catalog opener 240), before covers/source accounting and whole-issue closeout.
+R00–R58 are complete. The whole-November restoration goal is active.
+All **40 canonical identities** now have evidenced outcomes: **34 complete
+article packages, no partial articles, six non-owning headings and no
+unclassified identities**. The latest is **광고색인**, the lower index on actual
+**240**: 25 advertiser rows, 50 cells, 28 printed references and an original tree.
+**R59** handles the four cover faces and begins bounded source-image accounting.
+Covers, complete source accounting and checked whole-issue export/rebuild remain
+required before the final completion audit.
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
 Track execution in
@@ -315,15 +315,31 @@ restored JSON/assets and faithful source evidence first.
 | R55 — complete information radar | Actual 127–137; both immutable native segments retained | 611 identical files, including 602 embedded originals; 25 items, 115 paragraphs, six tables / 815 cells and eight figures; explicit manual chart raster, 151 pixel checks, 98 damage cases and 262 fresh PDF/JPEG regressions |
 | R56 — 메아리 and 디버깅 룸 | Actual 222–224; separate left column on assigned 225 | 126 + 78 exact native files; two signed contributions, three program contexts, six directed errata and four disk notices; 48 pixel checks, 80 damage cases; unchanged 262-test baseline reused |
 | R57 — 복덕방 and Q&A | Actual 226–228 and 229–231 | 62 + 124 exact native files; 54 notices with unresolved contact scopes, six exchanges, 40 catalog rows / 120 cells and original menu controls; 47 pixel checks, 94 damage cases; unchanged 262-test baseline reused |
+| R58 — 광고색인 | Lower index on observed 240; upper advertisement separate | 21 exact native files; 25 advertiser rows / 50 cells, 28 reference tokens including three cover-face codes, original tree; four pixel checks, 48 damage cases; unchanged 262-test baseline reused |
 
-Immediate next action: **R58**, establish actual source extent and native
-structures of **광고색인** (`maso-1984-11-toc-0040`, catalog opener 240) from full
-pages and adjacent material before mapping. Preserve advertiser names, source
-category/order and printed page references without guessing targets. Keep at
-most two canonical identities, six newly mapped views and twenty outside
-lookups; segment if required. Covers/source accounting and a checked whole-issue
-native export/rebuild remain required before auditing the entire November goal.
-No reading-room work is included.
+Immediate next action: **R59**, represent the four cover faces from original
+source evidence and begin source-image accounting. A metadata-only queue finds
+**205 distinct images used by selected articles and 41 outside them**: four
+cover faces and 37 other scans. These counts are not visual dispositions. Inspect
+the actual covers and remaining images in bounded batches, with at most six
+newly mapped views and twenty outside lookups per batch. Preserve unlisted
+advertisements, forms, TOC and other material explicitly without inventing
+article ownership. Then qualify whole-issue JPEG native export, compare a fresh
+exact rebuild and audit every completion requirement. No reading-room work is
+included.
+
+Preserve complete **광고색인**, actual **240**, as `advertisement-index-r01`:
+**21 exact native files**. Its two source columns contain 25 advertiser rows /
+50 cells and 28 reference tokens: 25 numeric folios and three cover-face codes.
+Three entries retain two comma-separated folios. Advertiser/reference ownership,
+source column/row provenance, the original tree and the separate upper
+advertisement exclusion remain explicit. Native tabs are an editorial projection
+of dotted leaders; exact dot counts, target accuracy and external company
+identities are unverified. Do not modernize historical names or infer targets.
+All three original OCR outcomes, four pixel checks, 14 ZIP members and 48 damaged
+native/source cases pass. **68 private evidence files** are frozen; all 58 earlier
+selected packages/evidence and four saved readers remain intact. Shared code
+and plans are unchanged; the R55 262-test baseline was rehashed and reused.
 
 Preserve complete **복덕방**, actual **226–228**, as `classifieds-r01`: **62 exact
 native files**, 54 logical notices in the source's three categories. Keep 51
@@ -659,8 +675,8 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has thirty-three complete article packages, no partial articles, six non-owning
-headings and one unclassified entry. Complete Feature II on 40–58 retains three
+November now has thirty-four complete article packages, no partial articles, six non-owning
+headings and no unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.
 Preserve complete Feature I on 18–39 and its four original segments.

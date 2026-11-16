@@ -3383,3 +3383,45 @@ non-owning headings and one unclassified identity**. Next is **R58**,
 source extent and native structures for **광고색인** (catalog opener 240).
 Covers/source accounting and checked whole-issue native export/rebuild remain
 required. **The November goal remains active.**
+
+
+## R58 — 광고색인
+
+**광고색인** (`maso-1984-11-toc-0040`) is complete in the lower portion of
+observed **240** as `advertisement-index-r01`: **21 exact native files**.
+Full-page and adjacent 239/241 comparison separates the upper 컴퓨터비전
+subscription advertisement and next-scan form from the index. Its original
+tree illustration remains linked to the index without an invented caption.
+
+The two source columns retain **25 advertiser rows / 50 cells**, with **28
+printed reference tokens**: 25 numeric folios and three cover-face codes.
+금성통신, 이행전기 and 컴퓨터라이프(주) each retain two comma-separated references.
+Each advertiser owns its exact reference display and individual tokens, with
+source column/row provenance. Cover codes **표2 / 표3 / 표4** remain distinct
+from numeric folios. Targets, reference accuracy and external company identities
+are unverified. Historical spellings remain unchanged; the local 벤엘/벨엘 reading
+is qualified. Native tabs are an explicit textual projection of dotted leaders;
+the original column rasters retain the leaders, without claiming exact dot counts.
+
+All **three initial OCR tasks** completed once. No repair, engine switch or
+unchanged successful repeat occurred. Source preparation, native structure
+preflight, export, independent rebuild and actual audit passed first time.
+All **21 files** reproduce exactly; **four master-derived crops, three original
+OCR/settings bindings, 14 ZIP members and 48 damaged native/source cases** pass.
+All **58 earlier catalog packages and frozen evidence**, six heading
+classifications, four saved readers, 33 shared implementation files, both shared
+plans, source inputs and ten runtime files remain intact. The **R55 262-test
+baseline** and logs were rehashed and reused, not freshly rerun. Cleanup was
+preview-only. **68 private evidence files** are frozen. Reading-room
+implementation and builds were untouched.
+
+See the [index result](metadata/catalog/scan-restoration/1984-11-advertisement-index.json)
+and [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+All **40 canonical identities** now have evidenced outcomes: **34 complete
+article packages, no partial articles, six non-owning headings and no
+unclassified identities**. This does not close the issue: **R59** must represent
+the four cover faces and begin bounded source-image accounting. A metadata-only
+queue finds 205 distinct images used by selected articles and 41 outside them
+(four covers and 37 other scans); it is not evidence of visual disposition.
+Complete 246-image accounting and a checked whole-issue native export/rebuild
+remain required before the final audit. **The November goal remains active.**

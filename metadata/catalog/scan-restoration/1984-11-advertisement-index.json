@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "checkpoint": "R58",
+  "completedOn": "2026-11-16",
+  "issue_id": "maso-1984-11",
+  "toc_entry_id": "maso-1984-11-toc-0040",
+  "title": "광고색인",
+  "observed_title": "광고색인",
+  "observed_byline": null,
+  "observed_whole_extent": "Complete lower index on observed folio240;25 advertiser rows in two columns and one decorative tree. Separate upper 컴퓨터비전 subscription advertisement and next-scan form excluded.",
+  "outcome": "Complete reproducible advertisement index240:25 advertiser rows,50 cells,28 printed reference tokens with explicit ownership,source-column provenance and original tree;upper advertisement excluded.",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "character_perfect_code": false,
+  "selected_package": "archive/scans/1984-11/packages/advertisement-index-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-11/packages/advertisement-index-r01/manifest.json",
+    "sha256": "040ec571e73974b6ed270faccc8fa2d3c238af8b774fe4813232062a83e68eea",
+    "bytes": 3383
+  },
+  "validation": {
+    "path": "archive/scans/1984-11/restoration/batch-58/validation.json",
+    "sha256": "3e35360920ea5b8140aafd65c2f68309f60953d31094174b9c6c4e08706e7a4e",
+    "bytes": 50552
+  },
+  "evidence_manifest": {
+    "path": "archive/scans/1984-11/restoration/batch-58/evidence-manifest.json",
+    "sha256": "099c07cba852a65eda2e5754bddd86d18607dac6c7b5cb1f835ddbb62bb06ae6",
+    "bytes": 15225
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-11/restoration/batch-58/advertisement-index/recipe.json",
+    "sha256": "467bdd0512a92f472b6fab1f6d240a5ed97639f050b336d7f299cefe4588bb6b",
+    "bytes": 3736
+  },
+  "boundary_evidence": {
+    "path": "archive/scans/1984-11/restoration/batch-58/advertisement-index/review/source-findings.json",
+    "sha256": "fa1ac9d53dafbe21e0c8b5551484b9dcd98b126fbeeeb6342dd485c5486e66e3",
+    "bytes": 1588
+  },
+  "source_review": {
+    "path": "archive/scans/1984-11/restoration/batch-58/source-review-completion.json",
+    "sha256": "1840a4da033723c10d5c9780420412048f7b7f594e50aaef160d600e595ee6de",
+    "bytes": 3116
+  },
+  "source": {
+    "id": "jpeg-1984-11",
+    "kind": "jpeg-set",
+    "path": "archive/scans/1984-11/restoration/input-01/inventory-r02/source-set.json",
+    "sha256": "1c3e933330bfeb3fbfe689f7716181a0437ec0eab23e36cf7fce45d675d753f9",
+    "bytes": 132206
+  },
+  "source_images": [
+    {
+      "path": "archive/scans/1984-11/pages/page-240.jpg",
+      "sha256": "682069f6400fe957e2bb25cce98af1c477e5aff1c101bed75f04aa1a87321d97",
+      "bytes": 8537217
+    }
+  ],
+  "printed_folios": [
+    240
+  ],
+  "summary": {
+    "blocks": 2,
+    "regions": 4,
+    "rawOcrTasks": 3,
+    "figures": 1,
+    "literalFields": 30,
+    "qualifications": 3,
+    "relations": 27,
+    "tables": 1,
+    "indexRows": 25,
+    "indexCells": 50,
+    "referenceTokens": 28,
+    "coverFaceReferences": 3,
+    "numericFolioReferences": 25,
+    "multiReferenceEntries": 3,
+    "targetResolutionVerified": false,
+    "nativeFiles": 21,
+    "pixelChecks": 4,
+    "negativeCases": 48,
+    "rawZipMembers": 14
+  },
+  "source_crop_proof": [
+    {
+      "region_id": "p240-title",
+      "source_index": 243,
+      "pixel_bounds": [
+        1393,
+        3996,
+        3801,
+        4170
+      ],
+      "scan": {
+        "path": "ocr-240/p240-title.png",
+        "sha256": "8a3b8b27fa5e8c53b4db19e4222aa214fd634caa85dc65978456e79137169962",
+        "bytes": 604326
+      }
+    },
+    {
+      "region_id": "p240-index-left",
+      "source_index": 243,
+      "pixel_bounds": [
+        1381,
+        4224,
+        2495,
+        5364
+      ],
+      "scan": {
+        "path": "ocr-240/p240-index-left.png",
+        "sha256": "e50705751fba575340d1b0c3c22679731851d2b670f914db801ab0372f7fbb58",
+        "bytes": 1609016
+      }
+    },
+    {
+      "region_id": "p240-index-right",
+      "source_index": 243,
+      "pixel_bounds": [
+        2680,
+        4236,
+        3806,
+        5280
+      ],
+      "scan": {
+        "path": "ocr-240/p240-index-right.png",
+        "sha256": "317690cc1aacf2b7b59784aa43d225b66a7dffcbf9cff7d937b3ded0ebb555b9",
+        "bytes": 1480919
+      }
+    },
+    {
+      "region_id": "p240-tree",
+      "source_index": 243,
+      "pixel_bounds": [
+        90,
+        4068,
+        1320,
+        5472
+      ],
+      "scan": {
+        "path": "ocr-240/p240-tree.png",
+        "sha256": "ae23fc341ba75d71af0b52d5333a8d13c3e41068c217f59b82f8d52928addd18",
+        "bytes": 2705003
+      }
+    }
+  ],
+  "previousCheckpointCommit": "846b701b",
+  "implementation": [
+    {
+      "path": "docs/PDF-RESTORATION.md",
+      "sha256": "e1530656c903af4c074767a10ef495c8d0ac87c0ea92112be32fae4575a9e00f",
+      "bytes": 225908
+    },
+    {
+      "path": "schemas/image-article.schema.json",
+      "sha256": "083a34ae25b909eaf109785d82745338bc57e86b9354b6881c68d87c7ed03a3f",
+      "bytes": 7763
+    },
+    {
+      "path": "schemas/pdf-article.schema.json",
+      "sha256": "01debc3897bf48d7e493062ac082b29035b84352920befe0d27a1637e318f20e",
+      "bytes": 15968
+    },
+    {
+      "path": "tests/test_image_address_assemble.py",
+      "sha256": "0fd768f9fbc7048d899e0f21a4b8a7571458c9b029a99c1b81176383474462c2",
+      "bytes": 12456
+    },
+    {
+      "path": "tests/test_image_assemble.py",
+      "sha256": "a5ee4dd94f7de2da3f58d1d79f10770c4189f217c3aa1d06b04487b86f457a77",
+      "bytes": 15899
+    },
+    {
+      "path": "tests/test_image_formatted_assemble.py",
+      "sha256": "a315e38c5e41fb5c28e74d62b7bf511bb6c85aa51f80c08a5e9b10b5e91ba06c",
+      "bytes": 14802
+    },
+    {
+      "path": "tests/test_image_fragment_assemble.py",
+      "sha256": "82b55f1e04e97cfbb422d3d2d75eda4fa7cd0af8f2b7a697e8b303a6ad942c1e",
+      "bytes": 13102
+    },
+    {
+      "path": "tests/test_image_numbered_assemble.py",
+      "sha256": "d6d877b8207adfd616878bc639682abc661aba81909d2934402d98c6636dc3e8",
+      "bytes": 13404
+    },
+    {
+      "path": "tests/test_image_program_assemble.py",
+      "sha256": "a575c2c1b96d6c113c16983aa741b8b7fc84eb97f981fe56deb6aaad79068ee5",
+      "bytes": 10259
+    },
+    {
+      "path": "tests/test_image_source.py",
+      "sha256": "f1e28e4c121e858db46c7339395e05e64a98bf698c12a88b02e21154d409d2bc",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_image_source_graphs.py",
+      "sha256": "e27beb44a75c3ef3c7cddc783f1f3c08b0569553d280397bb08bc68d19fac735",
+      "bytes": 16164
+    },
+    {
+      "path": "tests/test_image_source_indexes.py",
+      "sha256": "915ce32afd15561aa93921b6d6b4b1e02772f7258f3a4196a50a8ffb2c338710",
+      "bytes": 17044
+    },
+    {
+      "path": "tests/test_image_source_structures.py",
+      "sha256": "93b82ab3f26c7a976e2a8e25b4aa2abd2bb33141cdf73bcfdd7e6c6da189e9a1",
+      "bytes": 12579
+    },
+    {
+      "path": "tests/test_image_survey_assemble.py",
+      "sha256": "94c154f857b26e993fe6344503c86a26be2cdc2f24870cbbad95a5e8a4d61e78",
+      "bytes": 15587
+    },
+    {
+      "path": "tests/test_recognition_map.py",
+      "sha256": "9b9c74c831f35d3a1a71fdbec215206745ab56749a7d65791f7095dad1f94493",
+      "bytes": 17278
+    },
+    {
+      "path": "tools/pdf_restore/assemble.py",
+      "sha256": "a15b8f7f9ac77421da56483d68c66ee271bbba7175bf6acebe5dfc00bc773785",
+      "bytes": 28342
+    },
+    {
+      "path": "tools/pdf_restore/assembly_addresses.py",
+      "sha256": "d7412000b2e7e00e17590e55f52af6fc14d9c09cdb6d7e96b322b71078002a91",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pdf_restore/assembly_formatted.py",
+      "sha256": "ccc94bf95c361334e76ef50e87fba1e31dbaee30f0f8a5d5971500c9d9dcc7cc",
+      "bytes": 19019
+    },
+    {
+      "path": "tools/pdf_restore/assembly_fragments.py",
+      "sha256": "9172b5312591e6112cbf4a9d45d974de0ef652457a2d0ce2d46afd7afcfc5807",
+      "bytes": 7714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_numbered.py",
+      "sha256": "a123c2d5dc6f0d365399a8cf29f795426e93b0ee8d001c3fd544617fa23ccced",
+      "bytes": 10533
+    },
+    {
+      "path": "tools/pdf_restore/assembly_programs.py",
+      "sha256": "a05173be8ac6367356583f3ec497b47fe382f7753bd3155c7e8b665384ab4890",
+      "bytes": 20501
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_graphs.py",
+      "sha256": "c0f155c960c6807fb2a5e110347c88989d9e87849acc5bc0cead26099aa1e378",
+      "bytes": 33714
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_indexes.py",
+      "sha256": "81f3456ffa97802de13435491309320d351493ef5b924b846c75705b253213e2",
+      "bytes": 24032
+    },
+    {
+      "path": "tools/pdf_restore/assembly_source_structures.py",
+      "sha256": "82a51f9a7f24ab783183ca4e661f266ba7a0ff3ae0336b39f7bdc504d127a1f6",
+      "bytes": 21330
+    },
+    {
+      "path": "tools/pdf_restore/assembly_structured.py",
+      "sha256": "8676b168f37b1ec387c8ae04603e271a67546b1026daea15b9b9d7562c5ba7d7",
+      "bytes": 42203
+    },
+    {
+      "path": "tools/pdf_restore/assembly_survey.py",
+      "sha256": "245e8707a0d6931ddafb2f678e2775a0fcfb556ca9d7afb1a4f74428fc4f295e",
+      "bytes": 25272
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "49f8b030a4ad2549a889481f45ffbb1238fd7baf2b351bc2fc49b00b35448f43",
+      "bytes": 21558
+    },
+    {
+      "path": "tools/pdf_restore/image_source.py",
+      "sha256": "190c231a545686d50d2ab3f0f24e0ad3f4c479d75fd6ebefbe38ebc7898869e2",
+      "bytes": 7742
+    },
+    {
+      "path": "tools/pdf_restore/ocr.py",
+      "sha256": "d8117131bb1ccb2077c8a9ec022850358e478948c87dfa25027b3d93c525fd3e",
+      "bytes": 12775
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "490c6f82192becf9e70b7a8f9d44fefca517ad81772e45a16998870285ac93da",
+      "bytes": 8300
+    },
+    {
+      "path": "tools/pdf_restore/assembly_image_news.py",
+      "sha256": "3207d3548420c833c1a693bc6ba599c9f59b0d69f050ff39165e1ff570e146af",
+      "bytes": 26748
+    },
+    {
+      "path": "tests/test_image_news_assemble.py",
+      "sha256": "c71e21120cefa9e2f68f0893dfc74fd04c8a9ac9032bd4ccfd0fc9fb668947c3",
+      "bytes": 9732
+    },
+    {
+      "path": "tools/pdf_restore/assembly_news.py",
+      "sha256": "95cdd5cd72aadd402c01d0337e65c0ac35a1ca0ab8ad9fbdc14338f31b201f6b",
+      "bytes": 8475
+    }
+  ],
+  "implementationChanges": [],
+  "sharedPlansUnchanged": [
+    {
+      "path": "PLAN-OCR.md",
+      "sha256": "861fc6bf5fc2e4d9632ffccb46a27148f3b432992e786a2b25f1cf8b1aecd0cb",
+      "bytes": 862901
+    },
+    {
+      "path": "PLAN-PDF.md",
+      "sha256": "ce4df3a89919d8ae89db28b5bfc5d4b54d6728ea78f9606c69460f3b82299d06",
+      "bytes": 1007575
+    }
+  ],
+  "regressionTests": {
+    "pdf": 214,
+    "jpegRecognitionAndAssembly": 48,
+    "total": 262
+  },
+  "regressionLogs": [
+    {
+      "path": "archive/scans/1984-11/restoration/batch-55/pdf-regressions-02.log",
+      "sha256": "1915db81dd9a061a67fa9d3747dea3d571a08df02298a07e071c02f874e2299a",
+      "bytes": 36395
+    },
+    {
+      "path": "archive/scans/1984-11/restoration/batch-55/jpeg-regressions-02.log",
+      "sha256": "de1ca7a2b63284a77cd4106eb8b045fe54b209b8152bcd449596a655e637ff81",
+      "bytes": 9351
+    }
+  ],
+  "regressionsFresh": false,
+  "regressionBaseline": "R55;all33implementationfiles unchanged",
+  "readingRoomsPreserved": [
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot.json",
+        "sha256": "d20d01e225d2bf31095210bcc7fbedc38ce5005566282a2875eebbbab11bf79e",
+        "bytes": 14479
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11/data/manifest.json",
+        "sha256": "1d3537384b24f07923f3827c782f0e38ff03a49a0a84b424b74a0852a78e25c8",
+        "bytes": 822112
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11/assets/index-D4Z0nqFt.js",
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+          "bytes": 350064
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11/assets/index-DO4ky1Ds.css",
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+          "bytes": 30171
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11/index.html",
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+          "bytes": 603
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-2026-11-16/evidence-manifest.json",
+        "sha256": "f0d66664926b9bf6bb7bdb8fbcc47e38998c5e720c2a9d699dbb60ea66a2cd71",
+        "bytes": 5070
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r47.json",
+        "sha256": "e5ad06ed17088004629339e70c9e395bbf993979c34ab66291c8edd26d68fa44",
+        "bytes": 13632
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r47/data/manifest.json",
+        "bytes": 837353,
+        "sha256": "a6de8917ef9d3a3410646a0c50c762207be93fdda179e501353fb1f08985b4d8"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/assets/index-D4Z0nqFt.js",
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb",
+          "bytes": 350064
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/assets/index-DO4ky1Ds.css",
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1",
+          "bytes": 30171
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r47/index.html",
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530",
+          "bytes": 603
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r47-2026-11-16/evidence-manifest.json",
+        "sha256": "d1c8eb92325a58075c580e6497fa8bab0c5c4fd4c8028ec7bfff32603116997e",
+        "bytes": 4984
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r50.json",
+        "sha256": "68cc31f7d23b49fc5755a2dc80a8ea61348fcc3c9345d5f5326c787df79e32ef",
+        "bytes": 16583
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r50/data/manifest.json",
+        "bytes": 924994,
+        "sha256": "4d8ce1b42955fec592f778af1948329cbb2dcf0f3021f61d37df9d067154cfef"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/assets/index-D4Z0nqFt.js",
+          "bytes": 350064,
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/assets/index-DO4ky1Ds.css",
+          "bytes": 30171,
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r50/index.html",
+          "bytes": 603,
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530"
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r50-2026-11-16/evidence-manifest.json",
+        "bytes": 5446,
+        "sha256": "9d91f85549b2f01c7fff6ed9974eaabd687f21527c09ccefb252db1f9a97b1a7"
+      }
+    },
+    {
+      "receipt": {
+        "path": "metadata/catalog/scan-restoration/1984-11-reading-room-pilot-r52.json",
+        "sha256": "d21dafbe92d3967f11b02c37d247faeb958c5c91fdce108a088af7db12dab4af",
+        "bytes": 17884
+      },
+      "dataManifest": {
+        "path": "dist/reading-room-scans-1984-11-r52/data/manifest.json",
+        "bytes": 942171,
+        "sha256": "53f8bc22cf89d42d19aa5b6e2e3f553a80f22b340f74e4637d69ae3269cc7e34"
+      },
+      "siteFiles": [
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/assets/index-D4Z0nqFt.js",
+          "bytes": 350064,
+          "sha256": "d7593c8f3e0169fa2e01caf6f4379acc6a5d61b09a75e9c49632e86dab5b15cb"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/assets/index-DO4ky1Ds.css",
+          "bytes": 30171,
+          "sha256": "91c66402abb5f827882b2db95996b6e35dc8939fbbc138a35a3775b05ed848e1"
+        },
+        {
+          "path": "dist/reading-room-scans-1984-11-r52/index.html",
+          "bytes": 603,
+          "sha256": "388f5f991a57597330993815e90ea321e7a30a40ae9b6f23faad9dee769ed530"
+        }
+      ],
+      "evidenceManifest": {
+        "path": "archive/scans/1984-11/evidence/reading-room-pilot-r52-2026-11-16/evidence-manifest.json",
+        "bytes": 6554,
+        "sha256": "4a29756db2447faa378070cddc6d1b468bdc0b1152f2e1e183710f13e3184432"
+      }
+    }
+  ],
+  "attempts": {
+    "newMappedSourceViews": 1,
+    "newOutsideLookupViews": 2,
+    "fullpageViews": [
+      239,
+      240,
+      241
+    ],
+    "mapPreparationRuns": 1,
+    "mapPreparationFailures": 0,
+    "initialOcrTasks": 3,
+    "newOcrTasks": 3,
+    "selectedRawOcrTasks": 3,
+    "changedCropRepairRegions": [],
+    "engineFailures": 0,
+    "emptyOcrRegions": [
+      "p240-title"
+    ],
+    "engineChanges": 0,
+    "successfulUnchangedOcrRepeated": 0,
+    "nativePreparationRuns": 1,
+    "nativeExports": 1,
+    "nativeExportFailures": 0,
+    "selectedNativeExports": 1,
+    "independentRebuilds": 1,
+    "independentRebuildFailures": 0,
+    "sourceStructurePreflights": 1,
+    "sourceStructureFailures": 0,
+    "actualAuditRuns": 1,
+    "actualAuditFailures": 0,
+    "regressionsFresh": false,
+    "reusedRegressionCheckpoint": "R55:262tests;all33implementationfiles unchanged",
+    "cleanupApplied": false,
+    "notes": [
+      "Full240 and adjacent239/241 comparison establishes the lower index as25 advertiser rows in two source columns,with original tree. The framed upper subscription advertisement and next-scan form are separate material.",
+      "Native source records preserve50 cells and28 reference tokens:25numeric folios and three cover-face codes. Three entries have two comma-separated folios. Each reference belongs to its printed advertiser;no guessed target identities,reference corrections or name normalization.",
+      "Tabs are an explicitly editorial textual projection of dotted leaders. Original column rasters preserve the leaders;exact dot counts and original encoded bytes are unverified. The source-local 벤엘/벨엘 reading remains qualified.",
+      "All three original OCR tasks completed once;no repair,engine switch or unchanged-successful repeat. Native preparation,source preflight,export,independent rebuild and actual audit all passed first time.",
+      "All21 native files reproduce exactly;four master-derived crops,three original OCR/settings bindings,14ZIPmembers and48 damaged native/source cases pass. All58 earlier selected catalog packages/frozen evidence,six heading classifications,four saved readers,33implementationfiles,both sharedplans and10runtimefiles preserved.",
+      "The R55 262-test baseline/logs were rehashed/reused,not freshly rerun. Cleanup was preview-only. No reading-room implementation or build work. Metadata-only source accounting preview is a queue,not evidence of visual disposition;covers and whole-issue closeout remain."
+    ]
+  },
+  "limitations": [
+    "Original encoded bytes,exact spacing,punctuation and dotted-leader counts remain unverified;original scans/OCR and explicit candidates retained. Assistant source comparison is distinct from full human proofreading and acceptance.",
+    "Advertiser identities and printed page/cover references are source claims;targets and accuracy are not inferred or externally verified. No source spelling/reference repair is claimed.",
+    "Left column13 rows then right column12 rows is the editorial native reading order,with original column/row provenance retained. Each advertiser owns its literal one-or-many printed references;cover-face codes are not guessed numeric folios or resolved targets. Tabs replace dotted leaders only in the textual projection;original rasters preserve their appearance."
+  ],
+  "separate_material": {
+    "folio": 240,
+    "role": "separate advertisement",
+    "literal": "컴퓨터비전",
+    "included_in_article": false
+  },
+  "validationCommands": [
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-58/advertisement-index/recipe.json --output archive/scans/1984-11/packages/advertisement-index-r01",
+    "env PYTHONPATH=src:. python3 -m tools.pdf_restore.build --recipe archive/scans/1984-11/restoration/batch-58/advertisement-index/recipe.json --output work/validation/scans-1984-11-advertisement-index-r01",
+    "env PYTHONPATH=src:. python3 archive/scans/1984-11/restoration/batch-58/verify-review.py"
+  ],
+  "next": "R59: restore/represent the four cleaned cover faces from source evidence and begin bounded source-image accounting. All40 canonical identities now have outcomes:34 complete native article packages,six non-owning headings,no partial or unclassified entries. The metadata-only queue finds205 distinct images used by selected articles and41 outside them:four cover faces and37 other images. This is not a visual disposition. Inspect actual covers and unassigned scans in bounded batches,retaining unlisted advertisements/forms/TOC/other material without silently inventing article ownership. Keep at most two canonical identities,six newly mapped source views and twenty outside lookups per batch. Finish complete246-image accounting,qualify whole-issue JPEG native export and fresh exact rebuild,then audit every completion requirement before marking the November goal complete. Preserve all earlier native packages,frozen evidence,four saved readers and both shared operating plans. Reuse successful unchanged OCR;never execute frozen checkpoint helpers. No reading-room implementation or builds. Keep the whole-November goal active."
+}

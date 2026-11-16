@@ -5,9 +5,9 @@
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 33,
+  "readable_articles": 34,
   "partial_articles": 0,
-  "identitiesAwaitingDisposition": 1,
+  "identitiesAwaitingDisposition": 0,
   "entries": [
     {
       "toc_entry_id": "maso-1984-11-toc-0001",
@@ -10744,12 +10744,72 @@
       "page_candidates": [
         240
       ],
-      "classification": "unclassified",
-      "body_owner": null,
-      "availability": "unresolved",
-      "verification": "unreviewed"
+      "classification": "article",
+      "body_owner": true,
+      "availability": "readable",
+      "verification": "sample-reviewed",
+      "observed_title": "광고색인",
+      "observed_byline": null,
+      "byline_status": "No personal byline observed;advertiser names are index entries,not authors.",
+      "observed_whole_extent": "Complete lower index on observed folio240;25 advertiser rows in two columns and one decorative tree. Separate upper 컴퓨터비전 subscription advertisement and next-scan form excluded.",
+      "restored_folios": [
+        240
+      ],
+      "pending_folios": [],
+      "assembly_required": false,
+      "source_views": [
+        {
+          "source_index": 243,
+          "image": {
+            "path": "archive/scans/1984-11/pages/page-240.jpg",
+            "sha256": "682069f6400fe957e2bb25cce98af1c477e5aff1c101bed75f04aa1a87321d97",
+            "bytes": 8537217
+          },
+          "width_px": 4774,
+          "height_px": 6925,
+          "reading_order": 242,
+          "source_filename_number": 240,
+          "printed_page": "240",
+          "image_to_upright_normalized": [
+            0.00020946795140343527,
+            0,
+            0,
+            0.0001444043321299639,
+            0,
+            0
+          ]
+        }
+      ],
+      "package": {
+        "path": "archive/scans/1984-11/packages/advertisement-index-r01",
+        "manifest": {
+          "path": "archive/scans/1984-11/packages/advertisement-index-r01/manifest.json",
+          "sha256": "040ec571e73974b6ed270faccc8fa2d3c238af8b774fe4813232062a83e68eea",
+          "bytes": 3383
+        }
+      },
+      "evidence": [
+        {
+          "path": "archive/scans/1984-11/restoration/batch-58/validation.json",
+          "sha256": "3e35360920ea5b8140aafd65c2f68309f60953d31094174b9c6c4e08706e7a4e",
+          "bytes": 50552
+        }
+      ],
+      "location_evidence": {
+        "evidence": {
+          "path": "archive/scans/1984-11/restoration/batch-58/advertisement-index/review/source-findings.json",
+          "sha256": "fa1ac9d53dafbe21e0c8b5551484b9dcd98b126fbeeeb6342dd485c5486e66e3",
+          "bytes": 1588
+        },
+        "status": "Complete lower index on observed folio240;25 advertiser rows in two columns and one decorative tree. Separate upper 컴퓨터비전 subscription advertisement and next-scan form excluded."
+      },
+      "limitations": [
+        "Original encoded bytes,exact spacing,punctuation and dotted-leader counts remain unverified;original scans/OCR and explicit candidates retained. Assistant source comparison is distinct from full human proofreading and acceptance.",
+        "Advertiser identities and printed page/cover references are source claims;targets and accuracy are not inferred or externally verified. No source spelling/reference repair is claimed.",
+        "Left column13 rows then right column12 rows is the editorial native reading order,with original column/row provenance retained. Each advertiser owns its literal one-or-many printed references;cover-face codes are not guessed numeric folios or resolved targets. Tabs replace dotted leaders only in the textual projection;original rasters preserve their appearance."
+      ]
     }
   ],
-  "next": "R58: establish actual source extent and native structures for 광고색인 (maso-1984-11-toc-0040,catalog opener240) using full pages and adjacent material before mapping. Preserve advertiser names,category/column order and printed page references without normalizing or guessing targets. Keep at most two canonical identities,six newly mapped source views and twenty outside lookups;segment if required. After the final identity disposition,complete covers/source-image accounting and checked whole-issue native export/rebuild before auditing the entire November goal. Preserve all earlier selected packages,frozen evidence,four saved readers and both shared operating plans. Reuse successful unchanged OCR;never execute frozen checkpoint helpers. No reading-room implementation or builds. Keep the whole-November restoration goal active.",
+  "next": "R59: restore/represent the four cleaned cover faces from source evidence and begin bounded source-image accounting. All40 canonical identities now have outcomes:34 complete native article packages,six non-owning headings,no partial or unclassified entries. The metadata-only queue finds205 distinct images used by selected articles and41 outside them:four cover faces and37 other images. This is not a visual disposition. Inspect actual covers and unassigned scans in bounded batches,retaining unlisted advertisements/forms/TOC/other material without silently inventing article ownership. Keep at most two canonical identities,six newly mapped source views and twenty outside lookups per batch. Finish complete246-image accounting,qualify whole-issue JPEG native export and fresh exact rebuild,then audit every completion requirement before marking the November goal complete. Preserve all earlier native packages,frozen evidence,four saved readers and both shared operating plans. Reuse successful unchanged OCR;never execute frozen checkpoint helpers. No reading-room implementation or builds. Keep the whole-November goal active.",
   "group_headings": 6
 }
