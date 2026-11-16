@@ -5,8 +5,8 @@
   "updated": "2026-11-16",
   "source_type": "jpeg-set",
   "canonical_identities": 40,
-  "readable_articles": 27,
-  "partial_articles": 1,
+  "readable_articles": 28,
+  "partial_articles": 0,
   "identitiesAwaitingDisposition": 6,
   "entries": [
     {
@@ -9101,7 +9101,7 @@
       ],
       "classification": "article",
       "body_owner": true,
-      "availability": "partial",
+      "availability": "readable",
       "verification": "sample-reviewed",
       "observed_title": "통합 소프트웨어",
       "observed_category": "읽을거리",
@@ -9123,7 +9123,7 @@
         239
       ],
       "pending_folios": [],
-      "assembly_required": true,
+      "assembly_required": false,
       "source_views": [
         {
           "source_index": 235,
@@ -9295,11 +9295,11 @@
         }
       ],
       "package": {
-        "path": "archive/scans/1984-11/packages/integrated-a-r01",
+        "path": "archive/scans/1984-11/packages/integrated-r01",
         "manifest": {
-          "path": "archive/scans/1984-11/packages/integrated-a-r01/manifest.json",
-          "sha256": "d218888f5608b05befe5295f6a01b17c9af36a30fda68f4aa461f147cf5a6a27",
-          "bytes": 35193
+          "path": "archive/scans/1984-11/packages/integrated-r01/manifest.json",
+          "sha256": "188561c09275521afe980f2d2a586900558909d677d642b47d5fd85a03ec30af",
+          "bytes": 51993
         }
       },
       "segments": [
@@ -9526,31 +9526,45 @@
       ],
       "evidence": [
         {
-          "path": "archive/scans/1984-11/restoration/batch-50/validation.json",
-          "sha256": "5acf6c1e67af2d80d9d7e909b2c14a2ef4477ec743ebab07e6fea89edb1a1b2d",
-          "bytes": 93284
-        },
-        {
-          "path": "archive/scans/1984-11/restoration/batch-51/validation.json",
-          "sha256": "59749ed3f53aab74c01896c8eb8248a3227f7672b61e283d1ad7773032b5c9e0",
-          "bytes": 60239
+          "path": "archive/scans/1984-11/restoration/batch-52/validation.json",
+          "sha256": "82fb010f84fc41f102fb170e812917fdce9790061f231b1398ee4c6f8bc80905",
+          "bytes": 121219
         }
       ],
       "location_evidence": {
         "evidence": {
-          "path": "archive/scans/1984-11/restoration/batch-51/review/source-findings.json",
-          "sha256": "f768fee9a190cd6e6debd3f32e98be65000ed173509c395eece27c71c3f4847a",
-          "bytes": 1089
+          "path": "archive/scans/1984-11/restoration/batch-52/review/source-review-completion.json",
+          "sha256": "3314e3b14e69d4641336b150b616f1331befbf75155245c8e6e4a14108470899",
+          "bytes": 1702
         },
-        "status": "Observed232–239body fully restored as two native segments;checkedwholeassemblypending.237/238newparagraph,section4and239endingexplicit;240advertisement/indexseparate."
+        "status": "Observed whole232–239article assembled from two immutable native segments;source paragraph/section/product/claim scopes,237caption/238heading topic and239closing emblem checked."
       },
       "limitations": [
-        "All232–239sourcefoliosarecoveredinimmutableopeningandfinalsegments;checkedwholearticleassemblyremainspending.",
-        "Historical dates,prices,specifications,performance/planned features,comparisons and attributions remain unverified source claims.",
-        "Source wording and independent proper-name/product variants are retained with occurrence-owned qualifications.",
-        "Original closing emblem retained as raster without invented caption,lettering or functional diagram.",
-        "Original encoded bytes and exact spacing remain unverified;prose line wrapping/paragraph spacing is an explicit editorial projection.",
-        "Assistant source sample review is distinct from full human proofreading and acceptance."
+        "Original encoded bytes,exact spacing,technical/historical claims,full human proofreading and acceptance remain unverified.",
+        "[a] Historical dates,prices,specifications,performance/planned features,comparisons and attributions remain source claims without external correction or behavioral verification.",
+        "[a] Source word/name/product/caption variants and local proper-name glyph candidates remain occurrence-owned rather than normalized.",
+        "[a] Three original editorial illustrations/captions are retained without invented functional graphs,interior text or exact vector reconstruction.",
+        "[a] Original encoded bytes and exact spacing remain unverified;prose line wrapping/paragraph spacing is an explicit editorial projection.",
+        "[a] Assistant source sample review is distinct from full human proofreading and acceptance.",
+        "[a] Source spellings,dates,prices,specifications and technical/product comparisons are historical source claims,not externally corrected facts.",
+        "[a] Original spacing/encoding,illustration exact vector geometry and full human proofreading remain unverified.",
+        "[b] Historical dates,prices,specifications,performance/planned features,comparisons and attributions remain unverified source claims.",
+        "[b] Source wording and independent proper-name/product variants are retained with occurrence-owned qualifications.",
+        "[b] Original closing emblem retained as raster without invented caption,lettering or functional diagram.",
+        "[b] Original encoded bytes and exact spacing remain unverified;prose line wrapping/paragraph spacing is an explicit editorial projection.",
+        "[b] Assistant source sample review is distinct from full human proofreading and acceptance.",
+        "[b] Historical prices/specifications/compatibility/attributions remain source claims.",
+        "[b] Original bytes/spacing,closing-emblem lettering and full human proofreading are unverified."
+      ],
+      "previous_location_evidence": [
+        {
+          "evidence": {
+            "path": "archive/scans/1984-11/restoration/batch-51/review/source-findings.json",
+            "sha256": "f768fee9a190cd6e6debd3f32e98be65000ed173509c395eece27c71c3f4847a",
+            "bytes": 1089
+          },
+          "status": "Observed232–239body fully restored as two native segments;checkedwholeassemblypending.237/238newparagraph,section4and239endingexplicit;240advertisement/indexseparate."
+        }
       ]
     },
     {
@@ -9719,6 +9733,6 @@
       "verification": "unreviewed"
     }
   ],
-  "next": "R52: assemble checked whole232–239읽을거리:통합소프트웨어 (maso-1984-11-toc-0032) from immutableintegrated-a-r01 andintegrated-b-r01. Preserve every embedded segment byte and its original source/OCR/qualification records. Join Starburst as a new paragraph at237/238,not an open sentence;retain section3,its conclusion,and section4InterfaceManager/compatibility hierarchy. Reconcile237메니저caption to238매니저heading explicitly without assigning it toStarburst or normalizing spelling. Preserve cross-column quotation with independent어시노/어지노attributions;33final claims,conditionalfeatures,anticipatedrequirements,OEMalternativepackaging and closingemblem. Check all content/source ranges,captions,assets,article ownership,69pixel crops,negative gates and independent exact wholearticle rebuild before selecting complete outcome. No freshOCR or frozen checkpoint scripts. Preserve all three reader snapshots. Six other identities,covers/source accounting and wholeissueexport/rebuildremain pending;keep Novembergoalactive.",
+  "next": "R53: establish actual body/extent/observed title/byline and structures of 정보 레이다 (maso-1984-11-toc-0035),catalog opener127,using fullpage source and adjacent material before mapping. Keep at most two identities,six new mapped source views and twenty outside lookups;segment if needed. Preserve complete 통합소프트웨어232–239,all native semantic scopes/claims/quotations/qualifications,originals integrated-a-r01/integrated-b-r01,three reader snapshots and all earlier packages/evidence. Use mapped pinnedTesseract,reuse unchanged successfulOCR and never run frozen checkpoint scripts. Six unclassified identities,covers/source-image accounting and checked whole-issue native export/rebuild remain in scope. LeavePLAN-OCR.md andPLAN-PDF.md unchanged;keep the full November goal active.",
   "group_headings": 6
 }

@@ -1,10 +1,11 @@
 # Restore articles from the donated scans
 
 Created 2026-11-14. This is the next campaign after [scan cleanup](PLAN-SCANS.md).
-R00–R51 are complete. The owner resumed the whole-November restoration goal
+R00–R52 are complete. The owner resumed the whole-November restoration goal
 after the separate R50 reading-room review build.
-R52 is next: check the whole 232–239 assembly of 읽을거리 : 통합 소프트웨어
-from its preserved opening and final segments.
+R53 is next: establish 정보 레이다 from its catalog opener 127 and adjacent
+source material before mapping. The complete 232–239 integrated-software article
+is selected as `integrated-r01`.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
@@ -303,18 +304,30 @@ restored JSON/assets and faithful source evidence first.
 | R49 — 사운드 키보드 | Actual 218–221; complete native article package | 124 identical files; four 6502 variants / 138 rows / 302 printed bytes, two source flowcharts / 18 nodes / 18 edges / 43 labels, explicit displaced prose line and source references; 31 pixel checks, 114 invalid cases; unchanged 258-test baseline reused |
 | R50 — 통합 소프트웨어 opening segment a | Actual 232–237 of observed 232–239; whole article remains partial | 207 identical files; 74 paragraphs, 12 section records, five product profiles, five attributed quotations, six Lisa components, eleven named commands and three original illustrations; 52 pixel checks, 116 invalid cases; unchanged 258-test baseline reused |
 | R51 — 통합 소프트웨어 final segment b | Actual 238–239; all source folios covered, whole assembly pending | 73 identical files; 30 paragraphs, three section records, 33 source claims, one cross-column quotation, anticipated hardware requirements, alternative OEM packaging and original closing emblem; 17 pixel checks, 121 invalid cases; unchanged 258-test baseline reused |
+| R52 — complete 통합 소프트웨어 assembly | Actual 232–239; complete native article package | 288 identical files including 280 exact embedded segment files; 104 paragraphs, 15 sections, 206 literal fields, nine quoted literals and 448 scoped identities; explicit paragraph/caption/product resolutions, 69 pixel checks, 96 invalid cases and 260 fresh regressions |
 
-Immediate next action: **R52**, assemble **232–239** of **읽을거리 : 통합 소프트웨어**,
-`maso-1984-11-toc-0032`, from immutable `integrated-a-r01` and `integrated-b-r01`.
-Keep every original segment file exact. Join Starburst's 237/238 boundary as a
-new paragraph after **단 dBASE II와 슈퍼캘크는 예외이다.**; retain section 3,
-its conclusion, section 4 and compatibility hierarchy. Reconcile the 237 caption's
-**메니저** with the 238 heading's **매니저**, preserving both spellings and
-their actual owners. Check all source/text ranges, claims, quotations, assets,
-captions and whole-article ownership, all **69 original crop proofs**, damage
-rejection and an independent exact rebuild. No fresh OCR is needed. The whole
-article remains partial until that separate assembly passes. Preserve all three
-reader snapshots, including R50; do not rerun frozen checkpoint scripts.
+Immediate next action: **R53**, establish **정보 레이다**, canonical identity
+`maso-1984-11-toc-0035`, from catalog opener **127** and adjacent source pages.
+Confirm its actual body ownership, extent, observed title/byline and structures
+before mapping. Keep at most two identities, six new mapped source views and
+twenty outside lookups; segment if needed. Six unclassified identities,
+covers/source-image accounting and whole-issue native export/rebuild remain.
+
+Preserve complete **232–239** of **읽을거리 : 통합 소프트웨어** as `integrated-r01`,
+with immutable `integrated-a-r01` and `integrated-b-r01`. All **288 native files**
+reproduce exactly, including **280 embedded segment files**. The opt-in
+`regional-survey-v1` assembly contract retains **104 paragraphs, 15 sections,
+five product profiles, 206 numeric/Latin fields, nine quoted literals, nineteen
+qualifications, six attributed quotations and 448 typed identities**. The
+Starburst profile contains ten source paragraphs across its preserved bodies;
+the 237/238 boundary is a new paragraph after **단 dBASE II와 슈퍼캘크는 예외이다.**
+The 237 caption's **메니저** explicitly targets the 238 heading's **매니저**;
+neither spelling nor caption ownership is normalized. All 33 final source claims,
+conditional features, anticipated requirements, OEM packaging alternatives and
+original illustrations/closing emblem remain intact. All **69 pixel checks**,
+**96 damage cases** and **260 fresh PDF/JPEG regressions** pass. Shared plans
+and all three reader snapshots are unchanged. Do not rerun frozen checkpoint
+scripts; no reader rebuild or new OCR is included in this assembly.
 
 Preserve final **238–239** as `integrated-b-r01`: **73 native files**, **30 prose
 paragraphs**, three section records, **33 source claims**, three feature groups,
@@ -327,7 +340,8 @@ remain historical claims. Preserve separate **어시노 / 어지노** occurrence
 the duplicated **인터페이스는 매니저는**, **고유용**, local program-name candidates
 and all nine qualifications. Retain the original closing emblem without
 invented lettering or caption. All **17 pixel checks** and **121 damage cases**
-pass. All source folios are now covered; checked assembly remains pending.
+pass. The immutable final segment stays partial in isolation; R52 selects the
+checked whole article separately.
 
 Preserve opening **통합 소프트웨어**, **232–237**, as `integrated-a-r01`.
 Observed metadata is **읽을거리**, **마지막 회**, title **통합 소프트웨어** and
@@ -537,7 +551,7 @@ Preserve complete 컨닝 on actual 86–89,
 complete 아기펭귄 on 78–85 and both immutable segments, including the same-unit
 3240 join, all uncertain graphic runs, continued cells and original source relationships. Original segment
 exports, frozen evidence and OCR map/settings bindings must remain exact.
-November now has twenty-seven complete article packages, one partial article, six non-owning
+November now has twenty-eight complete article packages, no partial articles, six non-owning
 headings and six unclassified entries. Complete Feature II on 40–58 retains three
 unified program identities,
 both split source groups and all original diagram relationships.

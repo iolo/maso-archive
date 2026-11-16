@@ -2971,3 +2971,71 @@ immutable segments; the opening package pointer stays selected until **R52's
 separate checked whole-article assembly**. The R50 review reader remains at its
 saved snapshot. Six other identities, covers/source accounting and whole-issue
 native export/rebuild remain in scope. **The November goal remains active.**
+
+## November 16, 2026 — R52 complete 통합 소프트웨어, actual 232–239
+
+Selected **`integrated-r01`** for canonical identity `maso-1984-11-toc-0032`,
+preserving the observed category **읽을거리**, title **통합 소프트웨어**,
+installment **마지막 회** and editorial credit **편 집 부**. The complete
+232–239 native article reproduces in **288 identical files**, including all
+**280 unchanged embedded files** from `integrated-a-r01` and `integrated-b-r01`.
+No new source mapping, outside lookup or OCR was needed.
+
+The assembly retains **41 source blocks, 104 prose paragraphs, 15 section records,
+five product profiles, 206 numeric/Latin fields, nine quoted literals, nineteen
+occurrence-owned qualifications, six attributed quotations and four original
+illustrations/emblems**. It carries all 27 opening measurement claims, 33 final
+technical/source claims, six Lisa components, named commands, conditional
+features and transfer limits, anticipated requirements and OEM packaging
+alternatives. Source dates, prices, specifications, compatibility, attribution,
+original bytes/spacing and program behavior remain unverified historical claims.
+
+Three explicit native resolutions join the article's source relationships.
+Starburst continues across 237/238 in a **new paragraph**, with ten source
+paragraphs across its unchanged bodies. The 237 illustration caption's
+**메니저** targets the numbered 238 **매니저** heading, preserving both actual
+spellings and the caption's illustration owner. Its topic is not assigned to
+adjacent Starburst prose. Section 3, its conclusion, section 4 and compatibility
+retain their hierarchy. The long quoted compatibility claim retains both source
+columns and distinct **어시노 / 어지노** occurrences. Closing text and the
+original emblem establish the ending before the separate 240 advertisement/index.
+
+Added an opt-in **`regional-survey-v1`** assembly extension to the existing
+structured adapter. It uses ordinary page/text/asset coverage and explicitly
+projects survey semantic indexes, **448 scoped identities**, nested source-region
+and assembled UTF-8 ranges, and references to the exact embedded prior package.
+Entity bindings close the external section/product declarations. Active pending
+declarations gain checked outcomes while their original values remain under
+explicit immutable-source scope. Unknown indexes, dangling or repeated identities,
+wrong spans/owners, omitted dispositions and inferred verification/normalization
+are rejected. Existing PDF and older JPEG modes keep their prior contracts.
+
+The first pure projection incorrectly passed a survey-owned metadata key into
+the baseline adapter, which rejected it. The corrected preparation keeps that
+field in the survey wrapper; the failed module snapshot/error are retained.
+Later pure projections, the native export, independent rebuild, two independent
+source-structure preflights and the full actual-source audit passed. Three
+focused runs retained their logs; the first also discovered four imported
+baseline tests, so the import was changed to avoid duplicate discovery. The final
+focused suite has two survey tests and **32 damaged-source/link subcases**.
+
+Fresh regressions passed **214 PDF tests and 46 JPEG/recognition/assembly tests**,
+including the new survey tests: **260 total**. The independent audit verifies
+every active domain record against its original source occurrence, all **69
+master-derived crop images**, **65 original OCR/settings bindings**, **272 ZIP
+members**, all 280 embedded source files and **96 damaged whole-article cases**.
+All **50 earlier selected catalog packages and frozen evidence**, six heading
+classifications and all three reader receipts/data/site/evidence sets remain
+exact. Twenty-six prior implementation files remain unchanged; only the scoped
+adapter dispatch, new survey adapter/tests and documentation change. Both shared
+plans, input inventory/descriptor and ten OCR runtime files remain exact.
+Cleanup was preview-only. **26 private evidence files** are frozen.
+
+See [R52 result](metadata/catalog/scan-restoration/1984-11-integrated.json) and
+the [issue ledger](metadata/catalog/scan-restoration/1984-11-progress.json).
+November now has **28 complete native articles, no partials, six non-owning
+headings and six unclassified entries**. Next is **R53**, establish **정보 레이다**,
+catalog opener **127**, with actual extent/body/structure review before mapping.
+Covers/source accounting and checked whole-issue native export/rebuild remain
+required. The R50 review reader stays at its saved snapshot; this assembly does
+not rebuild or deploy it. **The whole-November goal remains active.**

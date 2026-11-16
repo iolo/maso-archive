@@ -89,6 +89,38 @@ modes and their immutable outputs retain their established behavior.
 
 ## Current data-only commands
 
+JPEG prose surveys may opt into `index_mode: structured-regions-v1` with
+`source_index_mode: regional-survey-v1`. This projects native paragraph, section,
+product, claim, quotation and anticipated-requirement indexes from immutable
+segments. It reuses the ordinary structured adapter for page/text/asset coverage,
+retains source blocks and embedded packages exactly, and does not run OCR.
+
+The recipe's `survey_links` explicitly disposes of `entities`, `boundaries`,
+`captions`, `products` and `endings`. External section/product IDs require a
+same-kind binding to a declared entity. Local IDs receive segment and type scopes;
+claim subject labels stay explicit scoped designations rather than inferred
+real-world identities. Each nested source span retains its original block and
+regional coordinates and gains the assembled article's UTF-8 range. Prior native
+package references point to the exact embedded segment files.
+
+Boundary declarations preserve new paragraphs without rewriting source blocks.
+Caption topics must agree with the actual original illustration's caption owner
+and the target section heading; source spelling differences remain unchanged.
+Product continuation combines paragraph membership while retaining both bodies.
+The final source text and original closing emblem establish the article ending.
+Historical pending declarations remain under explicitly scoped
+`original_declaration` records; active relationships state their checked assembly
+outcome. Unknown indexes, unresolved/duplicate identities, wrong source spans or
+owners, omitted dispositions and inferred verification/normalization are rejected.
+This opt-in mode accepts prose and original illustrations; existing listing,
+table, PDF and older JPEG assembly modes retain their previous contracts.
+
+`tests/test_image_survey_assemble.py` exercises scoped identity closure, Unicode
+source ranges, immutable inputs and damaged source/link rejection. The November
+1984 R52 checkpoint additionally checks the real 232–239 native export and an
+independent exact rebuild, original embedded bytes, all source crops and semantic
+records, alongside fresh existing PDF/JPEG regressions.
+
 ```sh
 make build-pdf-article PDF_RECIPE=private/path/package-recipe.json PDF_OUTPUT=build/pdf-restoration/new-article
 make check-pdf-article PDF_OUTPUT=build/pdf-restoration/new-article
