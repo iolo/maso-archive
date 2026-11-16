@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/maso/source-revision.schema.json",
+  "title": "Native article revision retaining distinct PDF and JPEG sources",
+  "type": "object",
+  "properties": {
+    "id": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/id"
+    },
+    "issue_id": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/issue_id"
+    },
+    "toc_entry_id": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/toc_entry_id"
+    },
+    "title": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/title"
+    },
+    "coordinates": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/coordinates"
+    },
+    "mapping": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/mapping"
+    },
+    "blocks": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/blocks"
+    },
+    "figures": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/figures"
+    },
+    "content_order": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/content_order"
+    },
+    "raw_ocr": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/raw_ocr"
+    },
+    "region_assets": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/region_assets"
+    },
+    "downloads": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/downloads"
+    },
+    "corrections": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/corrections"
+    },
+    "review_records": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/review_records"
+    },
+    "availability": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/availability"
+    },
+    "verification": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/verification"
+    },
+    "relationships": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/relationships"
+    },
+    "gaps": {
+      "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/gaps"
+    },
+    "schema_version": {
+      "const": 3
+    },
+    "kind": {
+      "const": "mixed-source-article"
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_kind": {
+            "enum": [
+              "pdf",
+              "jpeg"
+            ]
+          },
+          "source": {
+            "type": "object"
+          },
+          "toc_pin": {
+            "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/toc_pin"
+          },
+          "original_manifest": {
+            "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/toc_pin"
+          },
+          "original_availability": {
+            "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/availability"
+          },
+          "original_verification": {
+            "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/verification"
+          }
+        },
+        "required": [
+          "name",
+          "source_kind",
+          "source",
+          "toc_pin",
+          "original_manifest",
+          "original_availability",
+          "original_verification"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "view_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "component": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_kind": {
+            "enum": [
+              "pdf",
+              "jpeg"
+            ]
+          },
+          "original_page": {
+            "oneOf": [
+              {
+                "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/pages/items"
+              },
+              {
+                "$ref": "https://example.invalid/maso/image-article.schema.json#/properties/pages/items"
+              }
+            ]
+          }
+        },
+        "required": [
+          "view_id",
+          "component",
+          "source_kind",
+          "original_page"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "view_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_region_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/regions/items/properties/kind"
+          },
+          "bbox": {
+            "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/regions/items/properties/bbox"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "view_id",
+          "source_region_id",
+          "kind",
+          "bbox",
+          "notes"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "excluded_regions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "view_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_region_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/regions/items/properties/kind"
+          },
+          "bbox": {
+            "$ref": "https://example.invalid/maso/pdf-article.schema.json#/properties/regions/items/properties/bbox"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "view_id",
+          "source_region_id",
+          "kind",
+          "bbox",
+          "notes"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "id",
+    "issue_id",
+    "toc_entry_id",
+    "title",
+    "coordinates",
+    "mapping",
+    "blocks",
+    "figures",
+    "content_order",
+    "raw_ocr",
+    "region_assets",
+    "downloads",
+    "corrections",
+    "review_records",
+    "availability",
+    "verification",
+    "relationships",
+    "gaps",
+    "schema_version",
+    "kind",
+    "components",
+    "pages",
+    "regions",
+    "excluded_regions"
+  ],
+  "additionalProperties": false
+}

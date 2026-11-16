@@ -9,11 +9,11 @@ non-owning headings, all 40 canonical identities and all 246 source images
 accounted for. Its checked native issue reproduces 6,306 files. See the
 [November handoff](docs/SCAN-RESTORATION-1984-11.md).
 
-**March 1984 is active. M01 restores the missing printed 250–251 as a checked
-JPEG supplement:** 28 exact files, 295 physical code rows, 96 visible statement
-labels and an incoming fragment of statement 3190. A new mixed PDF/JPEG article
-revision and issue handoff remain required. The original PDF package and its
-historical partial outcome are preserved. All completed records are assistant
+**March 1984 is active. M01–M02 recover the missing printed 250–251 and complete
+the word-processor article as a native PDF/JPEG revision:** 136 exact files,
+748 physical code rows and 316 numbered source units. Issue export and handoff
+remain required. The original PDF package and its historical partial outcome
+are preserved. All completed records are assistant
 sample-reviewed. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
@@ -73,6 +73,7 @@ labels and the preserved exports retain their existing values.
 | R40 — 비지캘크 한계의 극복 | Passed | Actual 180–184; 212 identical files, eighteen grids / 615 source cells, eleven command sequences, typed formula/state/transfer relationships; 58 invalid cases rejected |
 | November 1984 issue closeout — R61 | Passed | 34 complete articles, six headings, complete source accounting and 6,306 exact issue files |
 | March 1984 supplement — M01 | Passed; assembly pending | Actual 250–251 restored as an immutable two-page supplement; 28 exact files |
+| March 1984 source revision — M02 | Passed | Complete word-processor article, actual 244–251; 136 exact files; original components retained |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -3614,3 +3615,39 @@ uncertainties, then update March's issue-level outcome and reproduction handoff.
 The March goal remains active.
 
 See the [M01 result](metadata/catalog/scan-restoration/1984-03-word-supplement.json).
+
+## M02 — complete March word-processor native revision, actual 244–251
+
+**한글 워드 프로세서 프로그램** now has a complete source-supplemented native
+revision, **`word-complete-r02`**. Its eight views retain **six original PDF pages
+(244–249)** and **two JPEG images (actual 250–251)** with distinct original source
+geometry. The canonical article identity is unchanged. Both original partial
+components remain byte-preserved; their historical statuses and local review
+qualifications remain scoped to those source packages.
+
+The new opt-in source-revision schema/exporter joins the observed **3190** across
+the source boundary. One ordered program retains **748 physical rows, 316
+numbered source units (1000–4150), 7,240 source tokens, 25 regional text spans and
+13 occurrence-level source qualifications**. Three internal supplement joins,
+the final 4150 statement, both original images and the literal flowchart caption
+retain their source relationships. The existing diagram/listing overlap remains
+explicit in the original native evidence. No execution, encoded-byte recovery,
+full human proofreading or cosmetic reconstruction is claimed.
+
+The selected revision reproduces **136 files exactly** in an independent fresh
+process. The original PDF native also freshly reproduces **95 exact files** using
+its historical TOC in an isolated input root; M01 already rebuilt the 28-file
+JPEG supplement. The actual-data audit checks all source occurrences and **21
+damaged recipe/source cases**, unchanged original component copies and all
+7,061 prior preservation pins. M01's frozen evidence remains unchanged.
+
+Fresh regressions pass **214 PDF tests, 52 image tests and four source-revision
+tests**. Two initial exporter failures (legacy regional-reading lookup and a
+physical-row cursor) were corrected with attempts retained; no source text,
+original package or OCR outcome changed. The initial successful r01 revision is
+retained; r02 adds active figure/caption and qualification associations.
+
+**M03 remains required:** export and independently rebuild March's issue with
+this revision, verify all 44 canonical outcomes and the 37 unchanged other PDF
+articles, then write the issue-level reproduction and supplementary-source
+handoff. The March goal remains active.

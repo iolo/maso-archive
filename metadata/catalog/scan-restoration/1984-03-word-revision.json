@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M02",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0035",
+  "status": "passed",
+  "availability": "readable",
+  "verification": "sample-reviewed",
+  "complete_article": true,
+  "selected_package": "archive/scans/1984-03/packages/word-complete-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/word-complete-r02/manifest.json",
+    "sha256": "4d7332537674b75ae4640807523c568afb0c142d0cf1167f0cda4a3db79c7a52",
+    "bytes": 23553
+  },
+  "exact_files": 136,
+  "source_views": 8,
+  "pdf_pages": 6,
+  "jpeg_images": 2,
+  "physical_listing_rows": 748,
+  "source_units": 316,
+  "source_tokens": 7240,
+  "source_qualifications": 13,
+  "original_pdf_native_fresh_rebuild_files": 95,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/revision-01/validation.json",
+    "sha256": "23737a5709972a99ff2dcb837a714d5a921c288b4684532bebfa9c080fa56ce6",
+    "bytes": 2569
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/revision-01/recipe.json",
+    "sha256": "3f5a5bf3822f340269850af80da8e56bc014c2a4400ae16e88fe11bcf447b480",
+    "bytes": 7094
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/revision-01/evidence-manifest.json",
+    "sha256": "3ec4112cb1754e6b053c146ba115830c659604304cde083a4887653740730c11",
+    "bytes": 2878
+  },
+  "tests": {
+    "pdf": 214,
+    "image": 52,
+    "source_revision": 4
+  },
+  "implementation": [
+    {
+      "path": "tools/pdf_restore/source_revision.py",
+      "sha256": "3f45cb8c75c8396402834a1375b94e4911b9cb628c4eee81446934b42b5c8000",
+      "bytes": 33251
+    },
+    {
+      "path": "tools/pdf_restore/package.py",
+      "sha256": "12b3b4d55504699908c267d173002fdd20adf783efc1e897d2b28cc462458f58",
+      "bytes": 8438
+    },
+    {
+      "path": "tools/pdf_restore/build.py",
+      "sha256": "1883b8a6abd2378817e89c8cd9314f0ae9b2b4beb59a09886678d4ec35b9d75b",
+      "bytes": 21798
+    },
+    {
+      "path": "schemas/source-revision.schema.json",
+      "sha256": "3b4bd6e89021aecf24f9bd4bb3bb961d0a0a553179c6a1d934d48c2cc58140cd",
+      "bytes": 7078
+    },
+    {
+      "path": "tests/test_source_revision.py",
+      "sha256": "a753e00ffcaf9c3e4efbf3ac85077828a5f60f58191f7ec78e58c46882e5b703",
+      "bytes": 10545
+    }
+  ],
+  "next": "M03: export and independently rebuild the March issue with the new article revision,verify all44canonical outcomes and unchanged37otherPDFarticles,and write the issue reproduction/supplementary-source handoff."
+}

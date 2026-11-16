@@ -112,6 +112,11 @@ class Links(HTMLParser):
 
 def check_export(output, *, preview=False):
     package = validate_package(json.loads((output / 'article.json').read_bytes()))
+    if package['schema_version'] == 3:
+        if preview:
+            raise ValueError('Source revisions currently deliver native JSON/assets only')
+        from .source_revision import check_revision
+        return check_revision(output)
     for record in package_pins(package):
         checked(output, record)
     if preview:

@@ -74,6 +74,9 @@ def overlaps(a, b):
 
 
 def validate_package(package):
+    if package.get('schema_version') == 3:
+        from .source_revision import validate_article
+        return validate_article(package)
     base = json.loads(SCHEMA.read_bytes())
     if package.get('schema_version') == 2:
         registry = Registry().with_resource(base['$id'], Resource.from_contents(base))

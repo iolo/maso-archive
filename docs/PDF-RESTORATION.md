@@ -3589,6 +3589,11 @@ exports remain private/ignored. March1984 was the next issue at that historical 
 
 ## March 1984 data-only closeout
 
+The historical PDF-only outcome below is preserved. The November 2026 scan
+campaign recovered actual printed 250–251 from the donated JPEGs; see the
+[March scan progress](../PROGRESS-SCAN-RESTORATION.md#m01--march-1984-word-processor-supplement-actual-250251).
+The original PDF package and its missing-source result remain unchanged.
+
 March is complete under the current JSON/assets scope. All 44 canonical entries
 are accounted for: 38 articles and six section headings. All 38 articles are
 sample-reviewed; 37 are readable. 한글 워드 프로세서 프로그램 retains a terminal
@@ -3874,3 +3879,36 @@ article gaps and glyph alternatives remain intact. External evidence and rebuild
 input pins remain provenance references; the exported issue is not a copy of the
 entire working archive. No OCR, reader implementation, reader build, global cover
 replacement or HTML rendering occurs. Existing PDF issue commands are unchanged.
+
+## Native revisions combining PDF and JPEG sources
+
+`tools.pdf_restore.source_revision` provides an opt-in native article revision
+for a reviewed PDF opening and a reviewed JPEG continuation. Schema version 3
+retains source components, original geometry and observed folios separately.
+It never assigns PDF indices to JPEGs. Both original native packages remain
+byte-preserved under `components/`; historical TOC snapshots and inventories
+remain under `inputs/`.
+
+The recipe names exact components, expected source views, the observed program
+boundary and scoped dispositions of historical gap notes. Its active reading
+order joins the same printed program while retaining physical wraps, regional
+ranges, source units, source tokens, figure/caption associations and original
+qualification occurrences. Original review metadata stays in each component.
+Resolving a source-supply gap does not resolve glyph, whitespace or execution
+uncertainties.
+
+```sh
+PYTHONPATH=src:. python3 -m tools.pdf_restore.source_revision \
+  --recipe archive/scans/1984-03/restoration/revision-01/recipe.json \
+  --output work/validation/march-word-new-revision
+PYTHONPATH=src:. python3 -m tools.pdf_restore.source_revision \
+  --check --output work/validation/march-word-new-revision
+```
+
+Use a fresh directory. The ordinary native article checker also recognizes this
+format. Its standalone check recomputes every active projection from the retained
+native components and recipe, verifies retained input bindings and rejects
+rehashed changes to active source indexes, content or geometry. External masters
+are required for export, while checking a retained revision requires no original
+workspace inputs. OCR, HTML and reader integration are separate operations.
+Existing PDF and JPEG article formats and commands retain their contracts.
