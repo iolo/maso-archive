@@ -4,14 +4,17 @@ Updated 2026-11-16. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
 ## Current status
 
-**R00–R56 checkpoints complete: thirty-one November 1984 articles have complete
-reproducible JSON/assets packages, with no partial articles. The latest are
-메아리 on actual 222–224 and 디버깅 룸 on assigned 225. Two contribution owners,
-three independent program contexts, six directed errata and four disk-use
-notices retain their native source structures. All 204 selected files reproduce
-exactly. Six section headings have source-backed non-owning classifications.**
-All completed records are assistant sample-reviewed.
-Three canonical identities await disposition. The 24 cleaned source sets
+**November 1984 is complete through R61:** 34 complete article packages, six
+non-owning headings, all 40 canonical identities and all 246 source images
+accounted for. Its checked native issue reproduces 6,306 files. See the
+[November handoff](docs/SCAN-RESTORATION-1984-11.md).
+
+**March 1984 is active. M01 restores the missing printed 250–251 as a checked
+JPEG supplement:** 28 exact files, 295 physical code rows, 96 visible statement
+labels and an incoming fragment of statement 3190. A new mixed PDF/JPEG article
+revision and issue handoff remain required. The original PDF package and its
+historical partial outcome are preserved. All completed records are assistant
+sample-reviewed. The 24 cleaned source sets
 are complete under [PROGRESS-SCANS.md](PROGRESS-SCANS.md). Their 6,070 JPEGs are
 inputs, not restored articles.
 
@@ -68,7 +71,8 @@ labels and the preserved exports retain their existing values.
 | R38 — 어음 거래 관리 | Passed | Actual 169–173; 148 identical native files, four independent programs, 55 reference rows and 97 local alternatives |
 | R39 — ISAM | Passed | Actual 174–179; 178 identical native files, two source listings, typed diagrams/blank slots/graphs, 53 invalid cases rejected |
 | R40 — 비지캘크 한계의 극복 | Passed | Actual 180–184; 212 identical files, eighteen grids / 615 source cells, eleven command sequences, typed formula/state/transfer relationships; 58 invalid cases rejected |
-| November 1984 issue closeout | Not started | Twelve identities remain; source-image accounting and whole-issue native export/rebuild remain |
+| November 1984 issue closeout — R61 | Passed | 34 complete articles, six headings, complete source accounting and 6,306 exact issue files |
+| March 1984 supplement — M01 | Passed; assembly pending | Actual 250–251 restored as an immutable two-page supplement; 28 exact files |
 
 ## Planning checkpoint — 2026-11-14
 
@@ -3572,3 +3576,41 @@ See the [whole-issue result](metadata/catalog/scan-restoration/1984-11-issue.jso
 fresh export/check commands, selected-article recipes and practical limits.
 **The November restoration campaign is complete within this documented scope.**
 No further reader work or another issue is scheduled by this closeout.
+
+## M01 — March 1984 word-processor supplement, actual 250–251
+
+The donated JPEGs contain both actual printed **250 and 251**, with the running
+한글워드프로세서 프로그램 header and legible listing columns. Source comparison
+with 244, 245, 249 and 252 confirms the article identity, incoming statement
+**3190**, the final **4150 GOTO 1330**, and the separate 터널 통과 게임 opener on
+252. No printed folio was inferred from a filename or a PDF offset.
+
+The immutable `word-supplement-r01` native package restores four columns as
+**295 physical rows**, **96 visible statement labels (3200–4150)**, one incoming
+3190 fragment, three internal column/page continuations and **3,341 source
+literal tokens**. Separate load, save and printer contexts retain split tokens,
+negative POKE operands, quoted DOS commands and physical wraps. Three local
+qualifications preserve punctuation near 3490, a small mark near 3320, and the
+observed repeated coordinate in 3960; no program repair or execution is claimed.
+
+Four initial mapped Tesseract tasks ran once. Enlarged source review found
+clipped right edges in three regions. Each received one targeted crop repair;
+all initial maps, raw outcomes and review images remain preserved. The selected
+outcomes keep their original recognition-map bindings. There was no engine
+switch or unchanged successful OCR repeat.
+
+The selected supplement and independent fresh-process rebuild reproduce **28
+files exactly**. All four master-derived crops, four original OCR/settings
+bindings, 17 raw ZIP members and **19 damaged actual-data cases** pass. All
+**7,061 pinned prior files**, including the original PDF word-processor package,
+March PDF issue export and both shared plans, remain unchanged. No shared
+implementation, reader build or deployment changed.
+
+The original PDF restoration remains 37 readable articles and one historical
+missing-source partial. The supplement is also marked partial because it is a
+continuation segment. **M02 must assemble a new mixed PDF/JPEG native revision**
+with an evidenced 249/250 join, retain both original packages and their scoped
+uncertainties, then update March's issue-level outcome and reproduction handoff.
+The March goal remains active.
+
+See the [M01 result](metadata/catalog/scan-restoration/1984-03-word-supplement.json).

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M01",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0035",
+  "status": "passed",
+  "availability": "partial",
+  "verification": "sample-reviewed",
+  "complete_article": false,
+  "printed_folios": [
+    250,
+    251
+  ],
+  "selected_package": "archive/scans/1984-03/packages/word-supplement-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/word-supplement-r01/manifest.json",
+    "sha256": "00e445279ce671f402a1304ab8269e44d764424226264cf41cd48252fede2c84",
+    "bytes": 4612
+  },
+  "summary": {
+    "regions": 4,
+    "physical_rows": 295,
+    "visible_statement_labels": 96,
+    "source_units": 97,
+    "source_tokens": 3341,
+    "qualifications": 3
+  },
+  "exact_rebuild_files": 28,
+  "initial_ocr_tasks": 4,
+  "targeted_crop_repairs": 3,
+  "engine_switches": 0,
+  "prior_files_unchanged": 7061,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/supplement-01/validation.json",
+    "sha256": "828663ccaaf21054aba2c982b180224c284917253e75d4ba9e8924870145eeb3",
+    "bytes": 1535
+  },
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/supplement-01/scope.json",
+    "sha256": "d650f0db4e8991de935861076c713b0a4b3de4764fb85866fa60de9b964a27ca",
+    "bytes": 1085
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/supplement-01/source-review.json",
+    "sha256": "b054cc0a3840ed7c9edd66ffd4f7d0b79687bad6f2d7e84d67ff260dac444963",
+    "bytes": 3117
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/supplement-01/word/recipe.json",
+    "sha256": "03ef224a94bb8dd30ac70b91700fee704144d2d05b9f6297afcb59053d0651ee",
+    "bytes": 4105
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/supplement-01/evidence-manifest.json",
+    "sha256": "958fe572d435862eb7a8ac66c9e8c3dd3fb4dee77e6f72d7f0e038245dddb18f",
+    "bytes": 19622
+  },
+  "next": "M02: qualify a new mixed PDF/JPEG native revision retaining both immutable source packages and the observed249/250join;then update issue-level accounting and handoff."
+}
