@@ -2,6 +2,17 @@
 
 Updated 2026-11-18. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
+**M59 source work passes on final 224–227 of 도형정의표의 정복.** All 33 original
+crops and 22 first-attempt recognition bindings pass; every reading has enlarged
+source comparison. The complete main listing retains 377 physical rows / 160
+numbered units, independently of the correction patch and four printed-session
+contexts. All three code boundary splits and 27 source qualifications remain
+explicit. **Native ending encoding/export/audit remains pending**, followed by
+complete 218–227 article assembly and every remaining March task. The accepted
+totals below are unchanged. M59 evidence is unfrozen; reuse successful OCR and
+preserve frozen predecessors. See the
+[M59 work handoff](docs/SCAN-RESTORATION-1984-03-M59-WORK.md).
+
 Latest accepted March checkpoint: **M58 complete**, the **218–223 native opening**
 of **도형정의표의 정복**, whose complete extent is **218–227**. Two independent
 **263-file exports** match. All 72 crops, 61 recognition bindings, 3,953 native

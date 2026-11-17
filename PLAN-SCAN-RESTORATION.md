@@ -677,6 +677,28 @@ audit the complete **218–227** article, followed by every remaining March task
 through whole-issue export and completion audit. See the
 [M58 native handoff](docs/SCAN-RESTORATION-1984-03-M58.md).
 
+**M59 source work now covers final actual 224–227.** All **33 original crops**
+and **22 first-attempt recognition bindings** pass the separate source-work audit;
+all text/code/session readings have enlarged comparison. Twenty-one code strips
+retain **377 physical main-listing rows / 160 numbered units**, independently of
+the two-statement correction patch and four printed-session contexts. Preserve
+all three code boundary splits, including the newly recorded 48020 split across
+the frames on 227, and all **27 source qualifications**. Literal `아내의`, missing
+operators, identifier variants, source punctuation and the tiny Figure 5 cluster
+remain explicit. Eleven original raster contexts retain both figures, all frames,
+the 225-cell grid, external plus and four lower samples.
+
+This is source work, **not native ending acceptance**. Encode and compare all
+native structures, build/audit the ending twice, then assemble and audit the full
+218–227 article before continuing every remaining March task. Accepted totals
+remain **28 complete articles, one partial article, nine pending articles,
+five complete headings, one pending heading and 64 pending dispositions / 273
+scans**. All 53 implementation pins, 1,085 frozen M58 files and 263 opening files
+remain exact; the unchanged M57 303-test baseline applies. No OCR retries occurred;
+all jobs are terminal and cleanup was preview-only at 58.1 GiB with no deletion.
+M59 evidence is unfrozen. Never execute or modify frozen M58/predecessor helpers.
+See the [M59 work handoff](docs/SCAN-RESTORATION-1984-03-M59-WORK.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

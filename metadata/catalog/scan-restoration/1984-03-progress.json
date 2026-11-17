@@ -6168,6 +6168,11 @@
         "path": "metadata/catalog/scan-restoration/1984-03-shape-opening-work.json",
         "sha256": "e3b7cfdeb0d9bae43d871c16dee66f2fa33b52ca59e31a751a083c0ebe6e6735",
         "bytes": 9268
+      },
+      "ending_source_work_evidence": {
+        "path": "metadata/catalog/scan-restoration/1984-03-shape-ending-work.json",
+        "sha256": "f47a6ade51a5f9c055761d2ec6a79a177e956e5ef9747638dfe9a8980405fdc3",
+        "bytes": 7748
       }
     },
     {
@@ -7107,8 +7112,8 @@
     "sha256": "703bd78f57207fab8a39c9d7fa50e31a5d672f111eccfda5d6126c2e4d3674d0",
     "bytes": 400579
   },
-  "current_checkpoint": "M58-complete",
-  "next": "M59: restore final original 224–227 of 도형정의표의 정복 (maso-1984-03-toc-0032), preserving accepted M58 native opening 218–223 and the verified complete 218–227 extent. Keep the 223 도형의 번호를 / 224 묻는다. continuation with one word space. Restore all final prose, figures 4/5, the independent correction listing and prose closing star on 224, then the integral main BASIC listing on 225–227, all physical code wraps including split 21065/26010 rows, and every printed session/grid/sample mark on 227. The prose star is not the whole-article ending. Produce two final-segment exports and an independent source/native audit, then assemble and audit the complete 218–227 article. Continue the A/D,D/A article from located 228 and every remaining March article, information-group heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M58/M57/predecessor helpers or evidence. Shared implementation remains the qualified M57 implementation-after.json baseline with 303 tests.",
+  "current_checkpoint": "M59-source-work",
+  "next": "Continue M59 native restoration of final 224–227 of 도형정의표의 정복 (maso-1984-03-toc-0032). Reuse all 22 successful recognition bindings and 33 source-compared crops. Encode the 377 physical main-listing rows / 160 numbered units, all selected source wraps and three explicit 21065/26010/48020 boundary splits. Keep the two-statement correction patch and four printed interaction contexts independent. Encode all final prose, headings, range claims, references, two captions, three prose continuations, Figures 4/5, six enclosing frames, 225 grid cells, external plus and four lower samples. Preserve all 27 source qualifications and the unresolved Figure 5 cluster. Compare native overlays, build the ending twice and independently audit before M59 acceptance/freeze. Then assemble/audit the complete 218–227 article and continue every remaining March article, heading and all 273 source dispositions through whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M58/predecessor helpers or evidence. Shared implementation retains the qualified M57 303-test baseline.",
   "pending_article_candidates": 9,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
