@@ -2,24 +2,26 @@
 
 Updated 2026-11-18. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Latest accepted March checkpoint: **M51 complete**, complete medical article on
-178–185, with two matching 363-file native exports. Accepted totals are
-**25 complete articles, no partial articles, thirteen pending articles, three
-complete headings, three pending headings and 94 pending full-page dispositions
-across all 273 scans**. Continue **M52**, completing the full UPDATE article on
-verified actual 186–189. March remains active.
-See the [M51 handoff](docs/SCAN-RESTORATION-1984-03-M51.md).
+Latest accepted March checkpoint: **M52 complete**, complete UPDATE article on
+186–189, with two matching 143-file native exports. Accepted totals are
+**26 complete articles, no partial articles, twelve pending articles, three
+complete headings, three pending headings and 89 pending full-page dispositions
+across all 273 scans**. Continue **M53**, verifying/classifying the technical
+heading on candidate 205 and neighboring 204/206 before the next technical
+article. March remains active.
+See the [M52 handoff](docs/SCAN-RESTORATION-1984-03-M52.md).
 
 **M52 has complete source and native geometry comparison for UPDATE, 186–189.**
 All 32 readings, 38 original crops and initial recognition bindings pass. Three
 diagrams, 128 table cells, the 52-row/51-unit program and both listing frames
 retain 80 diagram node contexts, 362 fields and 260 paths. Eleven compared native
 overlays plus one byte-identical reuse support 959 native component records;
-38 damaged component cases reject. Full article integration, two independent
-exports and the complete source/native acceptance audit remain pending.
-Twenty-nine source qualifications include three unresolved glyph/ink limits.
-Accepted totals remain unchanged. See the
-[M52 working handoff](docs/SCAN-RESTORATION-1984-03-M52-WORK.md).
+38 damaged component cases reject. Full article integration and the independent
+audit now accept 1,987 native records in two exact 143-file exports. All 38
+original crops, 32 recognition bindings and 38 damaged complete-article cases
+pass. Forty source/native qualifications retain three unresolved glyph/ink
+limits. M52 freezes 509 evidence files; never execute its helpers. See the
+[M52 handoff](docs/SCAN-RESTORATION-1984-03-M52.md).
 
 **M51 accepts the complete 178–185 native assembly.** All 355 original segment
 files, 108 source crops and 3,961 native records remain exact. The complete
@@ -27,8 +29,8 @@ article retains 1,114 fields, 276 empty contexts, 403 paths, twelve hierarchies,
 ten source continuities, 29 caption associations and all 73 qualifications.
 Thirty-one damaged cases reject. M51 freezes 758 evidence files; never execute
 its helpers. M50 has 95 total files including its manifest; its frozen audit
-counts 94 payload files. Continue UPDATE from located 186 and every remaining
-March task through whole-issue completion.
+counts 94 payload files. UPDATE is now accepted in M52; every remaining March
+task and whole-issue completion audit remains required.
 
 ## Current status
 

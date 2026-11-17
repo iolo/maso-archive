@@ -449,7 +449,7 @@ then every remaining March task through whole-issue export/completion audit.
 See the [complete medical article](metadata/catalog/scan-restoration/1984-03-medical.json)
 and [M51 handoff](docs/SCAN-RESTORATION-1984-03-M51.md).
 
-**M52 is active on the complete UPDATE article, actual 186–189.** All four
+**M52 completes the whole UPDATE article, actual 186–189.** All four
 selected and three outside full pages establish its extent and separate
 neighboring material. The selected map has 38 regions, 32 text owners, three
 diagrams and three tables. All 32 initial OCR tasks completed once without
@@ -464,10 +464,22 @@ interiors. Eleven native overlays and one byte-identical reuse support 362 field
 and 260 paths. Component closure verifies 959 native records; all 38 damaged
 component cases reject. Missing NAM/HOB assignment return routes, original gaps,
 unheaded lines and repeated named connectors stay source-bound. Full article
-integration, two complete exports and the separate source/native acceptance
-audit remain required. Accepted issue totals and M51 ledger remain unchanged; whole
-March stays active. M52 is not frozen. See the
-[M52 working handoff](docs/SCAN-RESTORATION-1984-03-M52-WORK.md).
+integration preserves both prose joins, the original line 190 wrap, all captions
+and the 187 closing-star continuation through 188–189. Two independent **143-file
+exports** match, including all 142 payload members and the manifest. The separate
+source/native audit verifies **1,987 native records**, all 38 original crops and
+32 recognition bindings; all 38 damaged complete-article cases reject. All 40 source
+and geometry qualifications remain explicit, including three unresolved local
+glyph/ink limits. Shared implementation and its qualified 300-test baseline stay
+unchanged. M52 freezes **509 evidence files**; never execute its helpers.
+Whole March remains active with **26 complete articles, no partial articles,
+twelve pending articles, three complete headings, three pending headings and
+89 pending full-page dispositions across all 273 scans**. The separate Seun feature
+on 190–191 is located only; its canonical identity and complete extent remain a
+later task. Continue **M53: verify/classify 테크니컬**, canonical heading 0029,
+candidate 205 and neighboring 204/206, then verify and restore **기계어 테크닉**,
+candidate 206–209. Finish every remaining March task and whole-issue export/audit.
+See the [M52 handoff](docs/SCAN-RESTORATION-1984-03-M52.md).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

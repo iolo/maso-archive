@@ -1,5 +1,11 @@
 # March 1984 M52 UPDATE source and native geometry work
 
+This is the historical working handoff before article acceptance. **M52 is now
+complete and frozen**; the [accepted M52 handoff](SCAN-RESTORATION-1984-03-M52.md)
+and [article result](../metadata/catalog/scan-restoration/1984-03-update.json)
+supersede its pending-work statements and earlier issue totals below. Never
+execute or modify the frozen `whole-issue-48` helpers or evidence.
+
 M52 is active for **UP DATE 프로그램의 작성** (`maso-1984-03-toc-0028`).
 Original JPEG comparison establishes the complete extent **186–189**. The
 opening title reads UPDATE 프로그램의 작성; the final running title reads

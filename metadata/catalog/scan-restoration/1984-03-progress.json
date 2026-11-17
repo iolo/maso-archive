@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 25,
+  "complete_whole_scan_articles": 26,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -5401,8 +5401,8 @@
       "title": "UP DATE 프로그램의 작성",
       "parent_id": "maso-1984-03-toc-0022",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0028",
         "title": "UP DATE 프로그램의 작성",
@@ -5453,7 +5453,44 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M52",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/update-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/update-jpeg-r01/manifest.json",
+          "sha256": "58dd3c8b6494b558a37887b5958c1b4ef70d5f2e1a8f60df8f1797b20d791ff1",
+          "bytes": 24596
+        },
+        "covered_actual_folios": [
+          186,
+          187,
+          188,
+          189
+        ],
+        "article_actual_folios": [
+          186,
+          187,
+          188,
+          189
+        ],
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": [],
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-48/update/recipe-native-01.json",
+          "sha256": "9f58bac0dcaae46a6e717fadb14d3c5a6e0e1f684840afc951e323d0d3ce4456",
+          "bytes": 8188
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-48/validation.json",
+          "sha256": "fb8b0b4e086dd5112656eaff530a5e78bd6f8fc0c6cece435dbe6a725489cb46",
+          "bytes": 9068
+        },
+        "note": "Complete186–189article passes both143-file exports,38original crops,32OCR bindings,1987native records and38damaged-article checks. All40source/native qualifications remain,including three unresolved glyph/ink limits."
+      },
       "historical_printed_extent_candidate": [
         186,
         187,
@@ -5473,12 +5510,22 @@
           "sha256": "fed7e55d306ff89c6088002698d36bfd52189fdcdc1ced4baf35d4db88e91019",
           "bytes": 2066
         },
-        "restoration_pending": true
-      },
-      "current_work": {
-        "path": "metadata/catalog/scan-restoration/1984-03-update-work.json",
-        "sha256": "9c004e25d48e8409335050aa6c79e0fe0d23783a249c9ebaeaf5fbc35bd3827b",
-        "bytes": 9961
+        "restoration_pending": false,
+        "observed_running_title": "UP TO DATE 프로그램의 작성",
+        "actual_folios": [
+          186,
+          187,
+          188,
+          189
+        ],
+        "source_extent_verified": true,
+        "source_extent_native_segments_complete": true,
+        "whole_article_assembly_pending": false,
+        "current_boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-48/transition.json",
+          "sha256": "8b52f04fa61831b4720a56aacabba15d9c60540d1f30f38b3dbbcf4100ebf41f",
+          "bytes": 1567
+        }
       }
     },
     {
@@ -6157,7 +6204,28 @@
         202,
         203,
         204
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folios": [
+          190,
+          191
+        ],
+        "observed_title_candidate": "살아서 숨쉬는 현장 / 한국판 아끼하바라를 파헤쳐 본다 / 세운상가",
+        "canonical_identity_verified": false,
+        "source_extent_verified": false,
+        "restoration_pending": true,
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-48/full-page-review.json",
+          "sha256": "f3dc8b8d0ae26b9062ae51661ae5ba42aa6e5c7b77d14c706d80a280caa14c12",
+          "bytes": 6725
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-48/transition.json",
+          "sha256": "8b52f04fa61831b4720a56aacabba15d9c60540d1f30f38b3dbbcf4100ebf41f",
+          "bytes": 1567
+        },
+        "note": "Located outside lookup only. Verify canonical identity and complete article extent at its later queue position; do not jump the technical heading/articles."
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0038",
@@ -6579,19 +6647,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-47/source-ledger.json",
-    "sha256": "c4c7e47401018392865837fe0da67c0bbd288f3d35410ad13f8c5f5bdd02f05e",
-    "bytes": 349560
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/source-ledger.json",
+    "sha256": "7c50049b6a5315c933000fbbe39cc55e6a2b09dbba8ee54a8f82d3a22fc70438",
+    "bytes": 357692
   },
-  "current_checkpoint": "M52-working",
-  "next": "Continue M52 full native article integration for UPDATE actual186–189. Reuse all32 source-compared readings, the qualified complete native geometry and all successful original OCR; no recognition retry is needed. All128table cells, nine transaction zeros,52physical program rows/51numbered units,original190wrap,both listing frames and all80diagram node contexts are encoded and source-overlay-compared. Integrate cross-column prose,ordered conditions,headings,all six figure/title associations, literal field occurrences and the187closing-star continuation through188–189. Preserve all29source qualifications plus native geometry qualifications,including three unresolved glyph/ink limits,NMA$,trailing0AND,missing punctuation,printed result discrepancies, empty media and absent NAM/HOB assignment return lines. Build the complete article twice and run its separate source/native audit before selection and source-ledger updates. Then continue every remaining March article,heading and all273scan dispositions through reproducible whole-issue export and completion audit. M52 remains unfrozen. Never execute frozen M49–M51 helpers; shared implementation remains M47 implementation-after.json.",
-  "pending_article_candidates": 13,
+  "current_checkpoint": "M52-complete",
+  "next": "M53: verify and classify canonical heading 테크니컬 (maso-1984-03-toc-0029), candidate actual205, against the original JPEG and neighboring204/206before creating its non-owning native outcome. Then restore canonical 기계어 테크닉 (toc-0030), candidate206–209, after source extent verification. Preserve the newly located separate Seun feature190–191for its later canonical task; identity and complete extent remain unverified. Continue every remaining March article,heading and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M52 helpers; shared implementation remains M47 implementation-after.json.",
+  "pending_article_candidates": 12,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3,
-  "current_work": {
-    "path": "metadata/catalog/scan-restoration/1984-03-update-work.json",
-    "sha256": "9c004e25d48e8409335050aa6c79e0fe0d23783a249c9ebaeaf5fbc35bd3827b",
-    "bytes": 9961
-  }
+  "complete_whole_scan_headings": 3
 }
