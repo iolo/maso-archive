@@ -2,15 +2,15 @@
 
 Updated 2026-11-18. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Latest accepted March checkpoint: **M54 complete**, the whole 기계어 테크닉
-article on original **206–209**, in two matching **164-file native exports**.
-Accepted totals are **27 complete articles, no partial articles, eleven pending
-articles, five complete headings, one pending heading and 82 pending full-page
-dispositions across all 273 scans**. Continue **M55: verify the interface
-article**, candidate 210–217, before restoring its bounded opening and final
-assembly. March remains active through every remaining article and the final
+Latest accepted March checkpoint: **M56 complete**, the interface ending on
+original **216–217**, in two matching **78-file native exports**. Accepted M55
+and M56 segments cover **210–217**, with complete article assembly/audit next.
+Totals are **27 complete articles, one partial article, ten pending articles,
+five complete headings, one pending heading and 74 pending full-page dispositions
+across all 273 scans**. Continue **M57 full interface assembly**, then
+**도형정의표의 정복** from located 218 and every remaining March task through
 whole-issue export/completion audit. See the
-[M54 handoff](docs/SCAN-RESTORATION-1984-03-M54.md).
+[M56 handoff](docs/SCAN-RESTORATION-1984-03-M56.md).
 
 **M54 accepts all source and native article structures.** All 38 readings,
 41 original crops, 38 initial recognition bindings and 1,835 native records
@@ -6789,3 +6789,32 @@ square. Preserve the empty-separator 벗/어나지만 join, then assemble/audit 
 full article and finish every remaining March task through whole-issue closeout.
 See the [M55 native handoff](docs/SCAN-RESTORATION-1984-03-M55.md) and
 [accepted opening](metadata/catalog/scan-restoration/1984-03-interface-opening.json).
+
+## M56 complete — native interface ending, actual 216–217
+
+Two independent **78-file exports** reproduce the final interface segment.
+The independent audit verifies **19 pixel-exact crops, 17 initial recognition
+bindings, 630 native records, 2,148 typed references, 1,666 byte spans and
+630 asset bindings**. All **24 damaged cases** reject. Both original diagrams,
+their captions and label owners, three headings, eighteen paragraphs, five
+internal joins and the independent closing hollow square remain explicit.
+Three source-compared structures retain **26 fields and 24 paths**, including
+the original cable crossing occlusion and separate device/shadow contexts.
+All **18 source/native qualifications** preserve literal technical claims and
+source spelling. No recognition retry or new native-stage OCR was needed.
+
+All **28 preceding selected packages / 5,566 files**, **626 frozen M55 files**
+and **53 implementation pins** remain exact. The unchanged M47 300-test baseline
+applies. M56 freezes **200 evidence files**, plus its manifest; never execute or
+modify its helpers/evidence. All processing is terminal. Cleanup was preview-only
+at 57.3 GiB, with no deletion.
+
+M55/M56 now cover the verified **210–217** article extent; **M57 complete article
+assembly/audit remains required**, including the empty **벗/어나지만** join.
+Whole March stays active with **27 complete articles, one partial article, ten
+pending articles, five complete headings, one pending heading and 74 pending
+full-page dispositions across all 273 scans**. Then verify and restore
+**도형정의표의 정복** from located 218, followed by every remaining March task
+through whole-issue export/completion audit. See the
+[M56 handoff](docs/SCAN-RESTORATION-1984-03-M56.md) and
+[accepted ending](metadata/catalog/scan-restoration/1984-03-interface-ending.json).

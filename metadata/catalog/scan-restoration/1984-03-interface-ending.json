@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M56",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0031",
+  "status": "complete-native-ending-segment",
+  "canonical_received_title": "컴퓨터의 마담 뚜 인터페이스",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    216,
+    217
+  ],
+  "article_actual_folios": [
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217
+  ],
+  "prior_native_actual_folios": [
+    210,
+    211,
+    212,
+    213,
+    214,
+    215
+  ],
+  "complete_segment_source_coverage": true,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/interface-jpeg-b-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/interface-jpeg-b-r01/manifest.json",
+    "sha256": "24e6251dff2172af0f1cb5648e662b46cebcc3d281da22e38d9f9e2f591725e6",
+    "bytes": 13337
+  },
+  "exact_files": 78,
+  "manifest_payload_files": 77,
+  "master_crops": 19,
+  "recognition_bindings": 17,
+  "recognition_retries": 0,
+  "raw_archive_members": 71,
+  "native_index_records": 630,
+  "typed_references": 2148,
+  "source_and_active_byte_spans": 1666,
+  "source_asset_bindings": 630,
+  "native_structure": {
+    "native_structures": 3,
+    "source_fields": 26,
+    "source_paths": 24,
+    "original_figures": 2,
+    "sections": 3,
+    "paragraphs": 18,
+    "source_comparison_lines": 250,
+    "prose_joins": 5,
+    "caption_associations": 2,
+    "illustration_text_associations": 2,
+    "closing_markers": 1
+  },
+  "source_qualifications": 18,
+  "personally_compared_native_overlays": 3,
+  "rejected_damaged_cases": 24,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/validation.json",
+    "sha256": "54698f255ba660ededcc8f3163b04321fc2e098f99097b76bdeaebb8939400f7",
+    "bytes": 5969
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/interface-b/recipe-native-01.json",
+    "sha256": "7ce43188dfd7427106407c731b00bafe279363f1498c7289238dfed882f88584",
+    "bytes": 5165
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/interface-b/source-compared-readings-01.json",
+    "sha256": "e4a4157fc84cf411ebd4c9655b6aecef94c92e5128a0c43091f7a532ee6cbc59",
+    "bytes": 49112
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/interface-b/native-geometry-review.json",
+    "sha256": "a656c4b9f727837f594f31542354a4611e5642b19a791d4398325219179986e6",
+    "bytes": 4105
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/source-ledger.json",
+    "sha256": "0cc37de2672715d86de2bb413056867ba6c9d3240cb4a503d63d794f57bc0e87",
+    "bytes": 381972
+  },
+  "source_dispositions_pending": 74,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/whole-progress-m56.json",
+    "sha256": "5b973817a11ef37aac5763aabf05c1da1760452282fb7690ffecf7009315f92a",
+    "bytes": 228692
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/resume.json",
+    "sha256": "98e46b853335afbc57fb8a047e7b5dff3b296f56b260c8be94371a936e4c66b5",
+    "bytes": 1803
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/evidence-manifest.json",
+    "sha256": "503eea32b1efb2c5d79a8f257b0a068ec2611d9b9df32eb09510a017d2866adf",
+    "bytes": 35896
+  },
+  "frozen_evidence_files": 200,
+  "complete_whole_scan_articles": 27,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 10,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 300,
+  "fresh_regression_tests": 0,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M57: assemble and independently audit complete210–217 컴퓨터의 마담 뚜 인터페이스 from immutable M55/M56 native packages. Preserve all segment files/native indexes,all source qualifications and the215 벗/216 어나지만 join with empty separator. Then verify full extent and restore 도형정의표의 정복 from located218. Continue every remaining March article,information-group heading and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute or modify frozen M56/M55/predecessor helpers. Shared implementation remains qualified M47 implementation-after.json."
+}

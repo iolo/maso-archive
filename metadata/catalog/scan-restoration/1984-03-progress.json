@@ -5826,14 +5826,13 @@
           212,
           213,
           214,
-          215
-        ],
-        "source_extent_covered": false,
-        "assembly_pending": true,
-        "continuation_pending": [
+          215,
           216,
           217
         ],
+        "source_extent_covered": true,
+        "assembly_pending": true,
+        "continuation_pending": [],
         "recipe": {
           "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/recipe-native-01.json",
           "sha256": "82e1b5e163dca3ff6f3fc8bfc6fcc6c060e0ea629a4f5530b23ccdaa6596776e",
@@ -5866,8 +5865,37 @@
               "sha256": "e0a21f65d2521b5055d35a333a2a41a380db5f60f92104da682dabc2c37d0335",
               "bytes": 5994
             }
+          },
+          {
+            "checkpoint": "M56",
+            "directory": "archive/scans/1984-03/packages/interface-jpeg-b-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/interface-jpeg-b-r01/manifest.json",
+              "sha256": "24e6251dff2172af0f1cb5648e662b46cebcc3d281da22e38d9f9e2f591725e6",
+              "bytes": 13337
+            },
+            "actual_folios": [
+              216,
+              217
+            ],
+            "recipe": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-52/interface-b/recipe-native-01.json",
+              "sha256": "7ce43188dfd7427106407c731b00bafe279363f1498c7289238dfed882f88584",
+              "bytes": 5165
+            },
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-52/validation.json",
+              "sha256": "54698f255ba660ededcc8f3163b04321fc2e098f99097b76bdeaebb8939400f7",
+              "bytes": 5969
+            }
           }
-        ]
+        ],
+        "assembly_join_pending": {
+          "left": "벗",
+          "right": "어나지만",
+          "separator": ""
+        },
+        "ending_checkpoint": "M56"
       },
       "historical_printed_extent_candidate": [
         210,
@@ -5904,12 +5932,37 @@
           "bytes": 1601
         },
         "restoration_pending": true,
-        "partial_native_selected": true
+        "partial_native_selected": true,
+        "complete_segment_source_coverage": true,
+        "assembly_pending": true
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-interface-opening-work.json",
         "sha256": "1f74b5fced3ff660a17e3668e0399fe2c3a5acbf5e55a487c23e4ae16a626d82",
         "bytes": 7976
+      },
+      "native_ending_evidence": {
+        "checkpoint": "M56",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/interface-jpeg-b-r01/manifest.json",
+          "sha256": "24e6251dff2172af0f1cb5648e662b46cebcc3d281da22e38d9f9e2f591725e6",
+          "bytes": 13337
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-52/validation.json",
+          "sha256": "54698f255ba660ededcc8f3163b04321fc2e098f99097b76bdeaebb8939400f7",
+          "bytes": 5969
+        },
+        "source_readings": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-52/interface-b/source-compared-readings-01.json",
+          "sha256": "e4a4157fc84cf411ebd4c9655b6aecef94c92e5128a0c43091f7a532ee6cbc59",
+          "bytes": 49112
+        },
+        "resume": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-52/resume.json",
+          "sha256": "98e46b853335afbc57fb8a047e7b5dff3b296f56b260c8be94371a936e4c66b5",
+          "bytes": 1803
+        }
       }
     },
     {
@@ -6940,12 +6993,12 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-51/source-ledger.json",
-    "sha256": "322cf6f5e62eecf347432c7022f81fed914e1160d46859766cbf79c749f3170f",
-    "bytes": 380320
+    "path": "archive/scans/1984-03/restoration/whole-issue-52/source-ledger.json",
+    "sha256": "0cc37de2672715d86de2bb413056867ba6c9d3240cb4a503d63d794f57bc0e87",
+    "bytes": 381972
   },
-  "current_checkpoint": "M55-complete",
-  "next": "M56: restore final216–217 of canonical 컴퓨터의 마담 뚜 인터페이스 from the original JPEGs,preserving accepted M55 native opening210–215 and verified full extent210–217. Retain figure5 three-wire DTE/DCE diagram,figure6 crossed modem-cable diagram,all remaining prose/sections/captions and217 closing hollow square. Join215 벗 to216 어나지만 with empty separator during complete article assembly. Then assemble and independently audit the full210–217 article before restoring 도형정의표의 정복 from located218. Continue every remaining March article,information-group heading and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute or modify frozen M55/predecessor helpers. Shared implementation remains qualified M47 implementation-after.json.",
+  "current_checkpoint": "M56-complete",
+  "next": "M57: assemble and independently audit complete210–217 컴퓨터의 마담 뚜 인터페이스 from immutable M55/M56 native packages. Preserve all segment files/native indexes,all source qualifications and the215 벗/216 어나지만 join with empty separator. Then verify full extent and restore 도형정의표의 정복 from located218. Continue every remaining March article,information-group heading and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute or modify frozen M56/M55/predecessor helpers. Shared implementation remains qualified M47 implementation-after.json.",
   "pending_article_candidates": 10,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,

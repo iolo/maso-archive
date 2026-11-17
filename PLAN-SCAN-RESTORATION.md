@@ -570,6 +570,27 @@ export/completion audit remain required. See the
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
+**M56 accepts the native interface ending, actual 216–217**, in **78 exact files**
+from two independent exports. All **19 original-master crops, 17 original OCR
+bindings, 630 native records, 2,148 typed references, 1,666 byte spans and 630 asset
+bindings** pass the independent source/native audit; all **24 damaged cases**
+reject. Three source-compared native structures retain **26 fields and 24 paths**:
+the three-wire DTE/DCE bands, crossed DB-25 cable and final hollow square. Three
+headings, eighteen paragraphs, 250 comparison lines, five prose joins, two
+captions and both figure/text associations remain explicit. All **18 source/native
+qualifications** preserve ASCII16/18, repeated 송신, literal CD20, protocol wording,
+source shading and crossing occlusion without technical repair. Recognition ran
+once with no retries. All 28 prior selected packages/5,566 files, 626 frozen M55
+files and 53 implementation pins remain exact; the unchanged M47 300-test baseline
+applies. M56 evidence is frozen; never execute or modify its helpers/evidence.
+Whole March remains active with **27 complete articles, one partial article, ten
+pending articles, five complete headings, one pending heading and 74 pending
+full-page dispositions across all 273 scans**. Continue **M57 complete 210–217
+assembly/audit**, including the empty **벗/어나지만** join, then verify and restore
+**도형정의표의 정복** from located 218 and every remaining March task through
+whole-issue export/completion audit. See the
+[accepted ending](metadata/catalog/scan-restoration/1984-03-interface-ending.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
