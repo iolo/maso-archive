@@ -2,21 +2,22 @@
 
 Updated 2026-11-17. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Latest accepted March checkpoint: **M50 complete**, medical-article ending 184–185 of
-verified 178–185, with two matching 94-file native exports. Accepted totals are
-**24 complete articles, one partial article, thirteen pending articles, three
+Latest accepted March checkpoint: **M51 complete**, complete medical article on
+178–185, with two matching 363-file native exports. Accepted totals are
+**25 complete articles, no partial articles, thirteen pending articles, three
 complete headings, three pending headings and 94 pending full-page dispositions
-across all 273 scans**. Continue **M51**, complete medical article assembly/audit
-from the immutable M49/M50 segments. March remains active. See the
-[M50 handoff](docs/SCAN-RESTORATION-1984-03-M50.md).
+across all 273 scans**. Continue **M52**, verify the complete UPDATE article
+extent from located 186 and restore its bounded opening. March remains active.
+See the [M51 handoff](docs/SCAN-RESTORATION-1984-03-M51.md).
 
-**M50 accepts all final 184–185 native structures.** Eight menus/forms and three
-diagrams retain 432 fields, 122 blank contexts and 144 source paths. All thirty
-original crops, nineteen text owners, three hierarchies, four physical wraps
-and eleven caption associations pass the separate source/native audit. Thirty-one
-qualifications remain. M50 freezes 456 evidence files; never execute its helpers.
-The complete 178–185 assembly/audit follows, then UPDATE from located 186 and
-every remaining March task through whole-issue completion.
+**M51 accepts the complete 178–185 native assembly.** All 355 original segment
+files, 108 source crops and 3,961 native records remain exact. The complete
+article retains 1,114 fields, 276 empty contexts, 403 paths, twelve hierarchies,
+ten source continuities, 29 caption associations and all 73 qualifications.
+Thirty-one damaged cases reject. M51 freezes 758 evidence files; never execute
+its helpers. M50 has 95 total files including its manifest; its frozen audit
+counts 94 payload files. Continue UPDATE from located 186 and every remaining
+March task through whole-issue completion.
 
 ## Current status
 

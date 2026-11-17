@@ -29,7 +29,9 @@
     "sha256": "b4b77248fc9c4ccfbf2f3115593594775a37fa6915fc14f1776f45ad222ab336",
     "bytes": 16456
   },
-  "exact_files": 94,
+  "exact_files": 95,
+  "manifest_listed_payload_files": 94,
+  "file_count_note": "The frozen M50 audit reports 94 manifest-listed payload files; the total export includes manifest.json and therefore has 95 files.",
   "native_index_records": 1314,
   "typed_references": 7769,
   "byte_spans": 2197,

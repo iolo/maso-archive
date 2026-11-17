@@ -414,7 +414,7 @@ located 186 and every remaining March task through whole-issue export/audit.
 See the [accepted opening](metadata/catalog/scan-restoration/1984-03-medical-opening.json)
 and [M49 handoff](docs/SCAN-RESTORATION-1984-03-M49.md).
 
-**M50 accepts final actual 184–185 in two matching 94-file exports.** All thirty
+**M50 accepts final actual 184–185 in two matching 95-file exports.** All thirty
 original-master crops, nineteen text owners and eleven figures pass the
 independent source/native audit. Eight menus/forms and three diagrams retain
 432 fields, 122 empty contexts, 144 original paths, three ordered hierarchies,
@@ -428,6 +428,26 @@ M50 freezes 456 evidence files; never execute its helpers again. Accepted issue
 totals remain unchanged. Continue **M51: complete 178–185 assembly/audit**, then
 UPDATE from located 186 and every remaining March task through whole-issue
 export/completion audit. See the [M50 handoff](docs/SCAN-RESTORATION-1984-03-M50.md).
+
+**M51 completes the medical article, actual 178–185, in two matching 363-file
+exports.** All 355 original M49/M50 segment files remain byte exact. The separate
+audit checks eight ordered pages, 108 original-master crops, 77 original
+recognition bindings and all 3,961 native records. The complete article retains
+32 native contexts, 1,114 fields including 276 empty contexts, 403 original paths,
+twelve hierarchies, ten source continuities and 29 caption associations. All 73
+source/native qualifications remain explicit. Original 183/184 comparison
+confirms no cross-segment sentence join; the prose star on 185 retains the lower
+feeding diagram and report labels. Thirty-one damaged cases reject. Shared
+implementation and frozen M49/M50 evidence remain unchanged. M51 freezes 758
+evidence files; never execute its helpers. M50's corrected total is 95 files,
+including its manifest; the frozen audit's 94 refers to payload files only.
+Whole March remains active with **25 complete articles, no partial articles,
+thirteen pending articles, three complete headings, three pending headings and
+94 pending full-page dispositions across all 273 scans**. Continue **M52: verify
+the full UPDATE article extent from located 186 and restore its bounded opening**,
+then every remaining March task through whole-issue export/completion audit.
+See the [complete medical article](metadata/catalog/scan-restoration/1984-03-medical.json)
+and [M51 handoff](docs/SCAN-RESTORATION-1984-03-M51.md).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

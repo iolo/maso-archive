@@ -1,7 +1,7 @@
 # March 1984 M50 medical article final pages
 
 **Historical working handoff. M50 is now accepted.** The selected ending has
-two matching 94-file exports, all eleven native figures and the independent
+two matching 95-file exports, all eleven native figures and the independent
 source/native audit. See the [M50 acceptance handoff](SCAN-RESTORATION-1984-03-M50.md).
 The source-only counts and pending steps below describe the earlier work state;
 the selected reading now has 26 source qualifications plus five geometry

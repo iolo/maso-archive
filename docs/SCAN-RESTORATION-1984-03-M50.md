@@ -2,7 +2,8 @@
 
 M50 accepts the complete native ending on actual **184–185** of the verified
 **178–185** medical article, canonical 의료보험수가 계산 프로그램
-(`maso-1984-03-toc-0027`). Two independent exports reproduce **94 files**.
+(`maso-1984-03-toc-0027`). Two independent exports reproduce **95 files**
+(94 manifest-listed payload files plus the manifest itself).
 M49's opening on 178–183 remains immutable. Complete article assembly and its
 independent audit are the next checkpoint, M51.
 

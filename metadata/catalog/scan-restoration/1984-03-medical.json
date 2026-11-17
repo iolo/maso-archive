@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M51",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0027",
+  "status": "complete-native-article",
+  "canonical_received_title": "의료보험수가 계산 프로그램",
+  "observed_source_title": "의료보험 수가계산 프로그램",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/medical-jpeg-assembly-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/medical-jpeg-assembly-r01/manifest.json",
+    "sha256": "0060714ee95d958f8066eda4c29bb5b9027c3968e5dcb334a5d05be2374b202c",
+    "bytes": 66687
+  },
+  "exact_files": 363,
+  "retained_segment_files": 355,
+  "master_crops": 108,
+  "recognition_bindings": 77,
+  "new_recognition_tasks": 0,
+  "native_index_records": 3961,
+  "source_qualifications": 73,
+  "native_structure": {
+    "original_figures": 31,
+    "native_contexts": 32,
+    "fields": 1114,
+    "blank_contexts": 276,
+    "paths": 403,
+    "ordered_hierarchies": 12,
+    "source_continuities": 10,
+    "caption_associations": 29
+  },
+  "typed_references": 21614,
+  "source_and_active_byte_spans": 7395,
+  "source_asset_bindings": 4128,
+  "rejected_damaged_cases": 31,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-47/validation.json",
+    "sha256": "d26dca0f19dcc90142f82496e4d1d6d4dca8401445fc55757094961b77f36911",
+    "bytes": 3959
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-47/assembly-recipe-r02.json",
+    "sha256": "ef80a78c4e3b5d31362eb96ba711acbecfad2823060390b17be840d0e2340d5e",
+    "bytes": 4123
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-47/source-ledger.json",
+    "sha256": "c4c7e47401018392865837fe0da67c0bbd288f3d35410ad13f8c5f5bdd02f05e",
+    "bytes": 349560
+  },
+  "source_dispositions_pending": 94,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-47/whole-progress-m51.json",
+    "sha256": "f3dae0c2b4f14f6d548eb052444cd6156449b6203b27b02653bc8e552ae24a66",
+    "bytes": 211840
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-47/evidence-manifest.json",
+    "sha256": "d40776709592a788eda95489e034729d331b6de59d997a02e3bc6b04de80519f",
+    "bytes": 145955
+  },
+  "frozen_evidence_files": 758,
+  "file_count_qualification": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-47/file-count-qualification.json",
+    "sha256": "460c578b642b86f2ec3b289e8a04069a81ad53f5dc441253293a002237535df6",
+    "bytes": 1132
+  },
+  "shared_implementation_changed": false,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-47/implementation-before.json",
+    "sha256": "886adef90d4fa5c4764baed63d40b75b75154969bbff190f381f7f99852eb359",
+    "bytes": 9173
+  },
+  "qualified_regression_tests": 300,
+  "fresh_regression_tests": 0,
+  "next": "M52: verify the complete source extent of canonical UP DATE 프로그램의 작성 (maso-1984-03-toc-0028) from its located original 186 opener and neighboring scans. Restore at most six opening pages in a bounded native checkpoint, preserving all source prose, listings, tables, diagrams and continuities; establish the ending from source evidence rather than catalog references. Then complete and audit the article and continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Never execute or modify frozen M49–M51 helpers/evidence. Shared implementation remains the qualified M47 implementation-after.json baseline."
+}
