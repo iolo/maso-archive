@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M61",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0033",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "A/D, D/A의 이론과 실제",
+  "observed_source_title": "A/D,D/A의 이론과 실제",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233
+  ],
+  "article_actual_folios": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241
+  ],
+  "deferred_actual_folios": [
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241
+  ],
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/ad-jpeg-opening-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/ad-jpeg-opening-r01/manifest.json",
+    "sha256": "bc5312a08ec930b09025d71c2d6e3db24e1a877eed3d3431fda345ead461d20d",
+    "bytes": 35907
+  },
+  "exact_files": 207,
+  "manifest_payload_files": 206,
+  "master_crops": 58,
+  "recognition_bindings": 47,
+  "recognition_tasks": 47,
+  "recognition_retries": 0,
+  "new_native_stage_recognition_calls": 0,
+  "raw_archive_members": 200,
+  "native_index_records": 2124,
+  "typed_references": 8865,
+  "source_and_active_byte_spans": 3956,
+  "source_asset_bindings": 2075,
+  "source_qualifications": 32,
+  "source_native_qualifications": 80,
+  "unresolved_local_readings": 1,
+  "native_structure": {
+    "structures": 13,
+    "fields": 308,
+    "empty_contexts": 20,
+    "paths": 378,
+    "source_sections": 8,
+    "paragraphs": 19,
+    "source_comparison_lines": 298,
+    "internal_prose_joins": 9,
+    "captions": 8,
+    "illustration_text_associations": 11,
+    "source_reference_occurrences": 14,
+    "displayed_mathematical_contexts": 3,
+    "original_raster_contexts": 11,
+    "numbered_figures": 8
+  },
+  "personally_compared_selected_native_views": 16,
+  "rejected_damaged_cases": 32,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/validation.json",
+    "sha256": "28bf17a0df8f4437f81234d069631c5bdbd6d820a563c579e792cc6bc9d4a5d3",
+    "bytes": 5384
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/recipe-native-01.json",
+    "sha256": "a550ae8da3f9402750c90d8c90962d8ec8db6920450c722e0edba2405b108df9",
+    "bytes": 12425
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-readings-01.json",
+    "sha256": "17c0db3d3c37950ed2df6418b0b1718d6f3ed6f280a702458f947963354f2e06",
+    "bytes": 111042
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/native-geometry-review-01.json",
+    "sha256": "1e03815b07f2c33facad5a5278ea86cc71056da8af0dcb7414dc918876891764",
+    "bytes": 116746
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/source-ledger.json",
+    "sha256": "56296781f4df1638842ac977f122c2d97ffba932e7b52efd4e6b566044010af4",
+    "bytes": 429751
+  },
+  "source_dispositions_pending": 50,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/whole-progress-m61.json",
+    "sha256": "e3532dc1dca904dcc87395094a5145b0f38e12e08b5183ed6b8908e98822aabe",
+    "bytes": 238760
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/resume.json",
+    "sha256": "df98e089abbf579833f972f02e37b145deea4e18a44c2f6bf391f1d112755b39",
+    "bytes": 2728
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/evidence-manifest.json",
+    "sha256": "6886db0615bc88f659f2e17ce7951304417e03ace90cdd6d8646d2eac8c18fec",
+    "bytes": 163934
+  },
+  "frozen_evidence_files": 901,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/implementation-after.json",
+    "sha256": "767b8f1f90311be265d74a49ae0f813192d8aff7a29de2004241fc5360f745ac",
+    "bytes": 9286
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 303,
+  "fresh_regression_tests": 0,
+  "complete_whole_scan_articles": 29,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 8,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M62: restore the next bounded segment, original 234–239, of A/D, D/A의 이론과 실제 (maso-1984-03-toc-0033). Preserve accepted M61 opening 228–233 and verified complete extent 228–241. Keep the empty 233 같아질때까 / 234 지 계속 증가한다. join and its source folios. Map no more than six source views before recognition; retain Figures 20–30, every circuit, waveform, equation, Table 3, Figure 28 flowchart and 8080 listing with its clock-count column, the 239 photograph and all prose/captions. Then restore final 240–241, including Figures 31–35 and the concluding star, and assemble/audit the complete article. Finish every remaining March article, 정보모음 heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M61/M60/predecessor helpers or evidence. Shared implementation retains the qualified M57 baseline of 303 tests; reuse successful recognition only when its inputs match."
+}

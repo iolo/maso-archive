@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0033",
   "canonical_received_title": "A/D, D/A의 이론과 실제",
   "observed_source_title": "A/D,D/A의 이론과 실제",
-  "status": "all47-source-readings-audited;four-native-graphics-compared;opening-incomplete",
+  "status": "accepted-native-opening-segment;whole-article-pending",
   "native_article_accepted": false,
   "whole_article_complete": false,
   "whole_issue_complete": false,
@@ -65,8 +65,8 @@
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/resume.json",
-    "sha256": "306dcbe382dc10a71c90bc1fa78aa00df85ddd7bb376c334c674866a5f6ef5f0",
-    "bytes": 6187
+    "sha256": "df98e089abbf579833f972f02e37b145deea4e18a44c2f6bf391f1d112755b39",
+    "bytes": 2728
   },
   "implementation": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/implementation-before.json",
@@ -80,15 +80,15 @@
   },
   "accepted_counts": {
     "complete_articles": 29,
-    "partial_articles": 0,
-    "pending_articles": 9,
+    "partial_articles": 1,
+    "pending_articles": 8,
     "complete_headings": 5,
     "pending_headings": 1,
-    "pending_dispositions": 64,
+    "pending_dispositions": 50,
     "source_images": 273
   },
   "review_level": "assistant-personally-source-compared;not-human-acceptance",
-  "next": "Continue unfrozen M61 opening 228–233 of A/D, D/A의 이론과 실제. Reuse all 47 original successful OCR tasks, all 47 audited source readings and checked native Figures 12, 13, 14 and 18 (85 fields / 137 paths). Finish Figures 15, 16, 17 and 19, complete prose/title/caption/baseline and mathematical encoding, and all source continuations. Preserve the separate 아 drop cap, visible b and Latin W, original ungrouped inequality, comparator disagreement, nine timing S labels, unmarked comparator stub and partially unreadable whiteboard. Keep printed folios and logical prose flow 228 → 231 → 230 → 232, with the empty outgoing 233 같아질때까 / 234 지 계속 증가한다. join. Build the opening twice and independently audit before native acceptance. Then restore 234–241, assemble/audit the complete 228–241 article, and finish every remaining March article, heading, all 273 scan dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains the qualified M57 baseline of 303 tests.",
+  "next": "M62: restore the next bounded segment, original 234–239, of A/D, D/A의 이론과 실제 (maso-1984-03-toc-0033). Preserve accepted M61 opening 228–233 and verified complete extent 228–241. Keep the empty 233 같아질때까 / 234 지 계속 증가한다. join and its source folios. Map no more than six source views before recognition; retain Figures 20–30, every circuit, waveform, equation, Table 3, Figure 28 flowchart and 8080 listing with its clock-count column, the 239 photograph and all prose/captions. Then restore final 240–241, including Figures 31–35 and the concluding star, and assemble/audit the complete article. Finish every remaining March article, 정보모음 heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M61/M60/predecessor helpers or evidence. Shared implementation retains the qualified M57 baseline of 303 tests; reuse successful recognition only when its inputs match.",
   "updated_at": "2026-11-17T21:29:51.754971+00:00",
   "mapped_regions": 58,
   "master_crops": 58,
@@ -102,7 +102,7 @@
   "source_readings_compared": 47,
   "source_readings_pending": 0,
   "source_qualifications_recorded": 32,
-  "native_geometry_complete": false,
+  "native_geometry_complete": true,
   "selected_map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/map-r03.json",
     "sha256": "3a215754ee721a823003a861cae0653e54d03443d35c5f255e3f9d1bc4f8230f",
@@ -161,7 +161,7 @@
     }
   ],
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-57/cleanup-preview-work-01.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/cleanup-preview-final.log",
     "sha256": "4f32d87948b72da95b7d22cd07dab61ec9d2ecb5db31727406798cdae79711e4",
     "bytes": 233
   },
@@ -186,15 +186,69 @@
     "bytes": 12658
   },
   "native_graphics_work_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/native-geometry-review-01.json",
+    "sha256": "1e03815b07f2c33facad5a5278ea86cc71056da8af0dcb7414dc918876891764",
+    "bytes": 116746
+  },
+  "numbered_graphics_compared": 8,
+  "numbered_graphics_pending": 0,
+  "native_structures_encoded": 13,
+  "native_fields_encoded": 308,
+  "native_paths_encoded": 378,
+  "native_recipe_created": true,
+  "native_package_selected": true,
+  "native_opening_package_selected": true,
+  "native_opening_accepted": true,
+  "full_native_opening_complete": true,
+  "selected_package": "archive/scans/1984-03/packages/ad-jpeg-opening-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/ad-jpeg-opening-r01/manifest.json",
+    "sha256": "bc5312a08ec930b09025d71c2d6e3db24e1a877eed3d3431fda345ead461d20d",
+    "bytes": 35907
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/recipe-native-01.json",
+    "sha256": "a550ae8da3f9402750c90d8c90962d8ec8db6920450c722e0edba2405b108df9",
+    "bytes": 12425
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/validation.json",
+    "sha256": "28bf17a0df8f4437f81234d069631c5bdbd6d820a563c579e792cc6bc9d4a5d3",
+    "bytes": 5384
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/native-geometry-review-01.json",
+    "sha256": "1e03815b07f2c33facad5a5278ea86cc71056da8af0dcb7414dc918876891764",
+    "bytes": 116746
+  },
+  "native_structures": 13,
+  "native_fields": 308,
+  "native_paths": 378,
+  "native_empty_contexts": 20,
+  "source_native_qualifications": 80,
+  "unresolved_local_readings": 1,
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/source-ledger.json",
+    "sha256": "56296781f4df1638842ac977f122c2d97ffba932e7b52efd4e6b566044010af4",
+    "bytes": 429751
+  },
+  "source_dispositions_pending": 50,
+  "evidence_frozen": true,
+  "frozen_evidence_path": "archive/scans/1984-03/restoration/whole-issue-57/evidence-manifest.json",
+  "accepted_result_path": "metadata/catalog/scan-restoration/1984-03-ad-opening.json",
+  "historical_source_work_resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/resume-before-native-acceptance.json",
+    "sha256": "306dcbe382dc10a71c90bc1fa78aa00df85ddd7bb376c334c674866a5f6ef5f0",
+    "bytes": 6187
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/process-outcomes-final.json",
+    "sha256": "768ddc558272e49c3434e54843cba37e785fc74b6d0598d265abf570a56d2df8",
+    "bytes": 3051
+  },
+  "historical_native_graphics_work_validation": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/native-graphics-work-validation-01.json",
     "sha256": "6632ea4dc9abee1dbbeae91aadbf82b13d01e5f57944d0afa878ac7f925e81b3",
     "bytes": 31880
-  },
-  "numbered_graphics_compared": 4,
-  "numbered_graphics_pending": 4,
-  "native_structures_encoded": 4,
-  "native_fields_encoded": 85,
-  "native_paths_encoded": 137,
-  "native_recipe_created": false,
-  "native_package_selected": false
+  }
 }

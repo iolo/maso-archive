@@ -1,5 +1,11 @@
 # March M61 source extent work
 
+This is the historical source-work handoff. **M61's native opening is now accepted
+and frozen; never execute its helpers.** Use the
+[accepted native handoff](SCAN-RESTORATION-1984-03-M61.md) for current state and
+the next segment on 234–239. The work-stage descriptions below retain their
+original scope and acceptance limits.
+
 The complete source extent of **A/D, D/A의 이론과 실제**,
 `maso-1984-03-toc-0033`, is now verified as original **228–241**. Personal
 comparison covered all fourteen article pages and following scan 242; the

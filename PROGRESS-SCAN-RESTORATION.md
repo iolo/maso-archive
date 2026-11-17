@@ -6872,3 +6872,38 @@ native restoration. Then finish every remaining March task through whole-issue
 export/completion audit. See the
 [M57 handoff](docs/SCAN-RESTORATION-1984-03-M57.md) and
 [complete interface article](metadata/catalog/scan-restoration/1984-03-interface.json).
+
+## M61 — March A/D, D/A native opening, actual 228–233
+
+After M58–M60 completed **도형정의표의 정복**, M61 verifies the next article,
+**A/D, D/A의 이론과 실제**, as original **228–241**, and accepts its bounded
+opening **228–233**. Two fresh native exports reproduce **207 files exactly**.
+The independent source/native audit passes all **58 original crops, 47 original
+OCR bindings, 2,124 native records and 32 damaged cases**. Native reconstruction
+runs no recognition and changes no shared implementation.
+
+All eight numbered Figures **12–19** retain **thirteen structures, 308 fields,
+twenty empty/unresolved contexts and 378 paths**. Eight captions, eleven original
+rasters, eight title/section contexts, nineteen paragraphs, fourteen references
+and nine internal prose joins remain explicit. Sixteen selected native views
+have personal comparison. Preserve all eighty source/native qualifications and
+the partially unreadable whiteboard context. The drop cap, physical baselines,
+graphic/math search order and photographic phrases retain separate ownership.
+The original mathematical anomalies, comparator disagreement, repeated binary
+labels, nine timing `S` occurrences and unmarked comparator stub remain unchanged.
+
+Original folios remain fixed while logical prose follows **228 → 231 → 230 →
+232**. The outgoing **233 `같아질때까` / 234 `지 계속 증가한다.`** continuation has
+an empty separator. All 29 preceding selected packages / 6,032 files, thirty
+frozen M60 files and 53 shared implementation pins remain exact. The qualified
+303-test baseline applies without fresh broad tests. Cleanup is preview-only
+at 59.1 GiB; no deletion. M61 freezes **901 evidence files**, plus its manifest;
+never execute or modify its helpers/evidence.
+
+Whole March remains active with **29 complete articles, one partial article,
+eight pending articles, five complete headings, one pending heading and 50 pending
+full-page dispositions across 273 scans**. Continue **M62 on 234–239**, then
+240–241 and complete-article assembly/audit. Finish every remaining March article,
+heading and source disposition through reproducible whole-issue export and
+completion audit. See the [M61 handoff](docs/SCAN-RESTORATION-1984-03-M61.md) and
+[accepted opening](metadata/catalog/scan-restoration/1984-03-ad-opening.json).

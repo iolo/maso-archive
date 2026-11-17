@@ -774,6 +774,38 @@ dispositions / 273 scans**. Whole March remains active through every remaining
 article, heading, disposition and reproducible issue export/completion audit.
 See the [M61 work handoff](docs/SCAN-RESTORATION-1984-03-M61-WORK.md).
 
+**M61 accepts the complete native A/D, D/A opening on original 228–233**, of the
+verified **228–241** article. Two independent **207-file exports** match. The
+separate audit passes **58 original-master crops, 47 original OCR bindings,
+2,124 native records and all 32 damaged cases**. Thirteen structures retain
+**308 fields, twenty empty/unresolved contexts and 378 paths**, including all
+eight numbered Figures 12–19. All eight captions, eleven original rasters, eight
+title/section contexts, nineteen paragraphs, fourteen references and nine internal
+prose joins remain explicit. The 298 comparison lines distinguish physical
+baselines from graphic/math search order and discontinuous photographic readings.
+
+Sixteen selected native views have personal comparison; original-ink proximity
+checks support every approximate path. Preserve all **eighty qualifications** and
+the partly unreadable whiteboard context, separately owned `아` drop cap, visible
+`b`/Latin `W`, ungrouped inequality and original comparator disagreement. The
+source reading sequence **228 → 231 → 230 → 232** retains printed identities;
+the outgoing **233 `같아질때까` / 234 `지 계속 증가한다.`** join has no separator.
+No native-stage OCR or shared implementation change occurred. All 29 preceding
+selected packages / 6,032 files, thirty frozen M60 files and 53 implementation
+pins remain exact; the qualified M57 **303-test baseline** applies. Cleanup was
+preview-only at 59.1 GiB, with no deletion. M61 freezes **901 evidence files**,
+plus its manifest; never execute or modify its helpers/evidence.
+
+Whole March stays active with **29 complete articles, one partial article, eight
+pending articles, five complete headings, one pending heading and 50 pending
+full-page dispositions across all 273 scans**. Located 234–241 remains native
+restoration work; the separate notice at source filename 242 has no asserted
+printed folio. Continue **M62 on 234–239**, preserving Figures 20–30, Table 3,
+Figure 28's flowchart/8080 listing and clock-count column, photograph, equations
+and captions. Then restore 240–241, assemble/audit the full article and finish
+every remaining March task through reproducible whole-issue export/completion
+audit. See the [M61 native handoff](docs/SCAN-RESTORATION-1984-03-M61.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

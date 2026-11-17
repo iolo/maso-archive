@@ -6237,7 +6237,7 @@
       "title": "A/D, D/A의 이론과 실제",
       "parent_id": "maso-1984-03-toc-0029",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0033",
@@ -6329,7 +6329,89 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M61",
+        "article_id": "scan-maso-1984-03-toc-0033",
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/ad-jpeg-opening-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/ad-jpeg-opening-r01/manifest.json",
+          "sha256": "bc5312a08ec930b09025d71c2d6e3db24e1a877eed3d3431fda345ead461d20d",
+          "bytes": 35907
+        },
+        "article_actual_folios": [
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241
+        ],
+        "covered_actual_folios": [
+          228,
+          229,
+          230,
+          231,
+          232,
+          233
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241
+        ],
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/recipe-native-01.json",
+          "sha256": "a550ae8da3f9402750c90d8c90962d8ec8db6920450c722e0edba2405b108df9",
+          "bytes": 12425
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-57/validation.json",
+          "sha256": "28bf17a0df8f4437f81234d069631c5bdbd6d820a563c579e792cc6bc9d4a5d3",
+          "bytes": 5384
+        },
+        "segments": [
+          {
+            "checkpoint": "M61",
+            "directory": "archive/scans/1984-03/packages/ad-jpeg-opening-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/ad-jpeg-opening-r01/manifest.json",
+              "sha256": "bc5312a08ec930b09025d71c2d6e3db24e1a877eed3d3431fda345ead461d20d",
+              "bytes": 35907
+            },
+            "actual_folios": [
+              228,
+              229,
+              230,
+              231,
+              232,
+              233
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-57/validation.json",
+              "sha256": "28bf17a0df8f4437f81234d069631c5bdbd6d820a563c579e792cc6bc9d4a5d3",
+              "bytes": 5384
+            }
+          }
+        ]
+      },
       "historical_printed_extent_candidate": [
         228,
         229,
@@ -6350,17 +6432,10 @@
         "actual_folio": 228,
         "observed_title": "A/D,D/A의 이론과 실제",
         "source_review": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-54/review/full-228.jpg",
-          "sha256": "4ae3358a0cd5c451b86d223baf350788d78686d5c49154504f6b2fa952041681",
-          "bytes": 2034968
+          "path": "archive/scans/1984-03/restoration/whole-issue-57/review/full-228.jpg",
+          "sha256": "a3cb094e2f8882fcaa377dcabff20a7ba673e73aa493e21e8eff12010afcec66",
+          "bytes": 1772549
         },
-        "boundary_evidence": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-54/transition.json",
-          "sha256": "df76287f59b8ad50f9ba958ab59961d65fae7e947f50ebe934cd6051219bb1ca",
-          "bytes": 1586
-        },
-        "source_extent_verified": true,
-        "restoration_pending": true,
         "article_actual_folios": [
           228,
           229,
@@ -6377,19 +6452,19 @@
           240,
           241
         ],
+        "source_extent_verified": true,
         "extent_evidence": {
           "path": "archive/scans/1984-03/restoration/whole-issue-57/transition.json",
           "sha256": "896e6894391fd190664ec1981c3ce364b51f697e1399d6a8ca5daf9c3ed3a6a8",
           "bytes": 15689
         },
-        "last_article_folio": 241,
-        "following_source_filename_number": 242,
-        "following_printed_folio": null
+        "restoration_pending": true,
+        "partial_native_selected": true
       },
-      "active_source_work": {
+      "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-ad-work.json",
-        "sha256": "f14657252074e7b73d81f40f2313f7d78c8e7d2a5b88a4880176639a65f47bec",
-        "bytes": 8164
+        "sha256": "a248d8f02f5db061673b363716f1140c0054aad77519246a5fe4271b540428df",
+        "bytes": 10425
       }
     },
     {
@@ -7194,14 +7269,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-56/source-ledger.json",
-    "sha256": "b36f8c965ca7f605f8ddb3e53dcbb74c07b047047825c15a1c7d10da9d2f08e2",
-    "bytes": 411043
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/source-ledger.json",
+    "sha256": "56296781f4df1638842ac977f122c2d97ffba932e7b52efd4e6b566044010af4",
+    "bytes": 429751
   },
-  "current_checkpoint": "M61-work",
-  "next": "Continue unfrozen M61 opening 228–233 of A/D, D/A의 이론과 실제. Reuse all 47 original successful OCR tasks, all 47 audited source readings and checked native Figures 12, 13, 14 and 18 (85 fields / 137 paths). Finish Figures 15, 16, 17 and 19, complete prose/title/caption/baseline and mathematical encoding, and all source continuations. Preserve the separate 아 drop cap, visible b and Latin W, original ungrouped inequality, comparator disagreement, nine timing S labels, unmarked comparator stub and partially unreadable whiteboard. Keep printed folios and logical prose flow 228 → 231 → 230 → 232, with the empty outgoing 233 같아질때까 / 234 지 계속 증가한다. join. Build the opening twice and independently audit before native acceptance. Then restore 234–241, assemble/audit the complete 228–241 article, and finish every remaining March article, heading, all 273 scan dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains the qualified M57 baseline of 303 tests.",
-  "pending_article_candidates": 9,
+  "current_checkpoint": "M61-complete",
+  "next": "M62: restore the next bounded segment, original 234–239, of A/D, D/A의 이론과 실제 (maso-1984-03-toc-0033). Preserve accepted M61 opening 228–233 and verified complete extent 228–241. Keep the empty 233 같아질때까 / 234 지 계속 증가한다. join and its source folios. Map no more than six source views before recognition; retain Figures 20–30, every circuit, waveform, equation, Table 3, Figure 28 flowchart and 8080 listing with its clock-count column, the 239 photograph and all prose/captions. Then restore final 240–241, including Figures 31–35 and the concluding star, and assemble/audit the complete article. Finish every remaining March article, 정보모음 heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M61/M60/predecessor helpers or evidence. Shared implementation retains the qualified M57 baseline of 303 tests; reuse successful recognition only when its inputs match.",
+  "pending_article_candidates": 8,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 0,
+  "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5
 }
