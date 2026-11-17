@@ -6465,6 +6465,23 @@
         "path": "metadata/catalog/scan-restoration/1984-03-ad-work.json",
         "sha256": "a248d8f02f5db061673b363716f1140c0054aad77519246a5fe4271b540428df",
         "bytes": 10425
+      },
+      "continuation_work": {
+        "checkpoint": "M62-work",
+        "selected_actual_folios": [
+          234,
+          235,
+          236,
+          237,
+          238,
+          239
+        ],
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-ad-continuation-work.json",
+          "sha256": "16bbe54532449518bb75f93f1c135298a80b11db81c1245764d8e9c1951ce19e",
+          "bytes": 6347
+        },
+        "native_accepted": false
       }
     },
     {
@@ -7273,10 +7290,19 @@
     "sha256": "56296781f4df1638842ac977f122c2d97ffba932e7b52efd4e6b566044010af4",
     "bytes": 429751
   },
-  "current_checkpoint": "M61-complete",
-  "next": "M62: restore the next bounded segment, original 234–239, of A/D, D/A의 이론과 실제 (maso-1984-03-toc-0033). Preserve accepted M61 opening 228–233 and verified complete extent 228–241. Keep the empty 233 같아질때까 / 234 지 계속 증가한다. join and its source folios. Map no more than six source views before recognition; retain Figures 20–30, every circuit, waveform, equation, Table 3, Figure 28 flowchart and 8080 listing with its clock-count column, the 239 photograph and all prose/captions. Then restore final 240–241, including Figures 31–35 and the concluding star, and assemble/audit the complete article. Finish every remaining March article, 정보모음 heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M61/M60/predecessor helpers or evidence. Shared implementation retains the qualified M57 baseline of 303 tests; reuse successful recognition only when its inputs match.",
+  "current_checkpoint": "M62-work",
+  "next": "Continue M62 source comparison on original 236–239: 45 text owners remain. Reuse all 64 successful first-attempt OCR tasks and the 19 compared owners on 234–235. Complete native Figures 20–30, Table 3, Figure 28 flowchart and one 8080 program with comments/clock column, equations, prose, captions and photograph; then independently build and audit the continuation. Preserve accepted M61 228–233, the empty 233/234 join and deferred Figure 31 reference from 239 to 240. Restore final 240–241 and assemble/audit the complete 228–241 article. Finish every remaining March article, heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M61 or predecessor helpers/evidence. Whole March remains active.",
   "pending_article_candidates": 8,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 5
+  "complete_whole_scan_headings": 5,
+  "current_work": {
+    "checkpoint": "M62-work",
+    "record": {
+      "path": "metadata/catalog/scan-restoration/1984-03-ad-continuation-work.json",
+      "sha256": "16bbe54532449518bb75f93f1c135298a80b11db81c1245764d8e9c1951ce19e",
+      "bytes": 6347
+    },
+    "accepted": false
+  }
 }

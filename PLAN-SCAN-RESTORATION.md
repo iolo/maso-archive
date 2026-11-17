@@ -806,6 +806,21 @@ and captions. Then restore 240–241, assemble/audit the full article and finish
 every remaining March task through reproducible whole-issue export/completion
 audit. See the [M61 native handoff](docs/SCAN-RESTORATION-1984-03-M61.md).
 
+**M62 source work is in progress on original 234–239.** All six revised maps
+have personal comparison; **77 original pixel crops and all 64 first-attempt
+OCR bindings** pass independent checks, with no retries. The nineteen text
+owners on 234–235 have enlarged source comparison and eleven qualifications;
+**45 owners on 236–239 and all native continuation structures remain pending**.
+Preserve the printed formula dot, integral/overbar/exponent layout, repeated
+graphic fields, source polarities and explicit continuations. No continuation
+package or article completion is accepted. All 901 frozen M61 files and 53
+implementation pins remain exact; the 303-test baseline applies. Whole March
+remains active with **29 complete articles, one partial, eight pending and 50
+pending source dispositions / 273 scans**. Continue M62, final 240–241, complete
+article assembly and every remaining March task through reproducible issue
+export/completion audit. See the
+[M62 work handoff](docs/SCAN-RESTORATION-1984-03-M62-WORK.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

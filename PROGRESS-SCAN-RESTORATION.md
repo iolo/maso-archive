@@ -6907,3 +6907,28 @@ full-page dispositions across 273 scans**. Continue **M62 on 234–239**, then
 heading and source disposition through reproducible whole-issue export and
 completion audit. See the [M61 handoff](docs/SCAN-RESTORATION-1984-03-M61.md) and
 [accepted opening](metadata/catalog/scan-restoration/1984-03-ad-opening.json).
+
+## M62 work — March A/D, D/A continuation, actual 234–239
+
+Whole March restoration continues. All six initial and revised page maps have
+personal comparison. The independent audit verifies **77 original pixel crops
+and 64 first-attempt OCR bindings** with no retries. The map retains Figures
+20–30, Table 3, the integral and ratio equations, Figure 28's flowchart and one
+8080 program with comments/clock column, and the original 239 photograph.
+
+All raw drafts were read before the source pass. The **nineteen owners on
+234–235** now have enlarged comparison and **eleven qualifications**. Preserve
+printed mathematical anomalies, repeated graphic fields, source polarities and
+explicit column/page joins. **Forty-five owners on 236–239 and all native
+continuation structures, integration, exports and acceptance checks remain
+pending.** This checkpoint remains unfrozen; no new continuation package is
+selected. All 901 frozen M61 files and 53 implementation pins remain exact.
+The unchanged 303-test baseline applies. All processing is terminal; cleanup was
+preview-only at 59.1 GiB, with no deletion.
+
+Accepted totals remain **29 complete articles, one partial, eight pending
+articles, five complete headings, one pending heading and 50 pending full-page
+dispositions across 273 scans**. Continue M62, final 240–241, complete article
+assembly and every remaining March task through whole-issue export and completion
+audit. See the [M62 work handoff](docs/SCAN-RESTORATION-1984-03-M62-WORK.md) and
+[source-work record](metadata/catalog/scan-restoration/1984-03-ad-continuation-work.json).
