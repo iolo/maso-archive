@@ -6359,8 +6359,37 @@
           "sha256": "df76287f59b8ad50f9ba958ab59961d65fae7e947f50ebe934cd6051219bb1ca",
           "bytes": 1586
         },
-        "source_extent_verified": false,
-        "restoration_pending": true
+        "source_extent_verified": true,
+        "restoration_pending": true,
+        "article_actual_folios": [
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241
+        ],
+        "extent_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-57/transition.json",
+          "sha256": "896e6894391fd190664ec1981c3ce364b51f697e1399d6a8ca5daf9c3ed3a6a8",
+          "bytes": 15689
+        },
+        "last_article_folio": 241,
+        "following_source_filename_number": 242,
+        "following_printed_folio": null
+      },
+      "active_source_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-ad-work.json",
+        "sha256": "06782c8bac7abef42153aa089795b85db70434ad5ba4befa80eb35ea436114e1",
+        "bytes": 3332
       }
     },
     {
@@ -7169,8 +7198,8 @@
     "sha256": "b36f8c965ca7f605f8ddb3e53dcbb74c07b047047825c15a1c7d10da9d2f08e2",
     "bytes": 411043
   },
-  "current_checkpoint": "M60-complete",
-  "next": "M61: verify the full original JPEG extent of canonical A/D,D/A의 이론과 실제 (maso-1984-03-toc-0033), from located opener 228 and neighboring pages. Historical candidate 228–241 is not yet verified. Record bounded scope before recognition, restore at most six selected source views per segment, preserve every circuit, waveform, table, equation, listing, caption and source qualification, then assemble and independently audit the full article. Continue every remaining March article, the information heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M60/M59/M58/predecessor helpers or evidence. Shared implementation remains qualified M57 baseline with 303 tests; reuse successful recognition when inputs match.",
+  "current_checkpoint": "M61-work",
+  "next": "Continue unfrozen M61: map and personally compare opening 228–233 of A/D, D/A의 이론과 실제 before pinned recognition. Complete extent is source-verified 228–241. Preserve the non-numerical prose flow 228 → 231 → 230 → 232, every circuit, waveform, equation, photo and caption, and outgoing 233 같아질때까 / 234 지 계속 증가한다. with no separator. Restore at most six selected source views per segment; produce two fresh native opening exports and independent audit. Then restore 234–241, assemble/audit the full article and finish every remaining March article, information heading, all 273 source dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains qualified M57 baseline, 303 tests.",
   "pending_article_candidates": 9,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,

@@ -745,6 +745,20 @@ full extent of **A/D,D/A의 이론과 실제** from located 228; historical cand
 reproducible whole-issue export/completion audit. See the
 [M60 handoff](docs/SCAN-RESTORATION-1984-03-M60.md).
 
+**M61 source extent work verifies A/D, D/A의 이론과 실제 on original 228–241**,
+ending with its conclusion and star. All fourteen article pages and following
+scan 242 were personally compared; 242 is a separate software-contest notice.
+The bounded opening is **228–233**, with ten outside lookups. Source prose has
+an unusual **228 → 231 → 230 → 232** sequence; preserve the original folios and
+explicit logical continuations. Figures **12–35**, all photos, equations,
+Table 3 and Figure 28's 8080 flowchart/listing remain required. No OCR or native
+acceptance has occurred. M61 remains **unfrozen**, with mapping next and no
+active jobs. Accepted totals remain **29 complete articles, nine pending
+articles, five complete headings, one pending heading and 64 pending source
+dispositions / 273 scans**. Whole March remains active through every remaining
+article, heading, disposition and reproducible issue export/completion audit.
+See the [M61 work handoff](docs/SCAN-RESTORATION-1984-03-M61-WORK.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

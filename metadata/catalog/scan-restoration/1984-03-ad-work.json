@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M61-work",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0033",
+  "canonical_received_title": "A/D, D/A의 이론과 실제",
+  "observed_source_title": "A/D,D/A의 이론과 실제",
+  "status": "source-extent-verified-opening-map-pending",
+  "native_article_accepted": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "article_actual_folios": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241
+  ],
+  "selected_source_folios": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233
+  ],
+  "deferred_source_folios": [
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241
+  ],
+  "selected_source_views": 6,
+  "outside_lookup_views": 10,
+  "reused_preceding_native_context": 1,
+  "personally_compared_full_page_views": 15,
+  "recognition_tasks": 0,
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/scope.json",
+    "sha256": "abdcbb2e618b3e27973ee9bcb2ffee38905bcc8973b1bf7cb8e737b643b2d3e9",
+    "bytes": 2406
+  },
+  "source_views": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/source-views.json",
+    "sha256": "e9d31a092343f1d3ef56433f0fac684b04cc8efc7ca6dda95da72bef40a70d1a",
+    "bytes": 14249
+  },
+  "extent_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/transition.json",
+    "sha256": "896e6894391fd190664ec1981c3ce364b51f697e1399d6a8ca5daf9c3ed3a6a8",
+    "bytes": 15689
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/resume.json",
+    "sha256": "6fb529c37d38cc35c13c0d930712819d279477ca84ffa159eee0c545342954f9",
+    "bytes": 1407
+  },
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/implementation-before.json",
+    "sha256": "767b8f1f90311be265d74a49ae0f813192d8aff7a29de2004241fc5360f745ac",
+    "bytes": 9286
+  },
+  "prior_accepted_article": {
+    "path": "metadata/catalog/scan-restoration/1984-03-shape.json",
+    "sha256": "14072fbb82a0a6c9365a6cb16054bb84214426c92a65cf11c0d695105086bf63",
+    "bytes": 5012
+  },
+  "accepted_counts": {
+    "complete_articles": 29,
+    "partial_articles": 0,
+    "pending_articles": 9,
+    "complete_headings": 5,
+    "pending_headings": 1,
+    "pending_dispositions": 64,
+    "source_images": 273
+  },
+  "review_level": "assistant-personally-source-compared;not-human-acceptance",
+  "next": "Continue unfrozen M61: map and personally compare opening 228–233 of A/D, D/A의 이론과 실제 before pinned recognition. Complete extent is source-verified 228–241. Preserve the non-numerical prose flow 228 → 231 → 230 → 232, every circuit, waveform, equation, photo and caption, and outgoing 233 같아질때까 / 234 지 계속 증가한다. with no separator. Restore at most six selected source views per segment; produce two fresh native opening exports and independent audit. Then restore 234–241, assemble/audit the full article and finish every remaining March article, information heading, all 273 source dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains qualified M57 baseline, 303 tests."
+}
