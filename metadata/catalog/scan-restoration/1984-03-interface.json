@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M57",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0031",
+  "status": "complete-native-article",
+  "canonical_received_title": "컴퓨터의 마담 뚜 인터페이스",
+  "observed_source_title": "컴퓨터의 마담 뚜 : 인터페이스",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/interface-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/interface-jpeg-r01/manifest.json",
+    "sha256": "3a2ae8aea36ca9d749fae8678ed516e96df138a92e2b736d97e17b47cf94a50f",
+    "bytes": 49809
+  },
+  "exact_files": 272,
+  "retained_segment_files": 264,
+  "master_crops": 71,
+  "recognition_bindings": 59,
+  "recognition_tasks": 0,
+  "recognition_retries": 0,
+  "raw_archive_members": 256,
+  "native_index_records": 2742,
+  "typed_references": 11289,
+  "source_and_active_byte_spans": 6381,
+  "source_asset_bindings": 2751,
+  "native_structure": {
+    "native_structures": 21,
+    "source_fields": 270,
+    "empty_contexts": 5,
+    "source_paths": 189,
+    "source_pin_rows": 61,
+    "original_figures": 12,
+    "original_numbered_diagrams": 6,
+    "sections": 8,
+    "source_paragraph_records": 62,
+    "source_comparison_lines": 866,
+    "internal_prose_joins": 19,
+    "assembly_prose_joins": 1,
+    "intervening_content_owners": 11,
+    "caption_associations": 6,
+    "illustration_text_associations": 17,
+    "closing_markers": 1
+  },
+  "source_qualifications": 53,
+  "unresolved_local_glyph_contexts": 4,
+  "rejected_damaged_cases": 31,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/validation.json",
+    "sha256": "019ce224d2b5e144c90246c4aa9b5c551e15fe14d8a478a95cf44393fee753cd",
+    "bytes": 6794
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/assembly-recipe-r01.json",
+    "sha256": "be588a1952f593d5347427aa74240d0a3f7c6300ff57f7fd0a3db903ab5b26e3",
+    "bytes": 5095
+  },
+  "boundary_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/boundary-review.json",
+    "sha256": "3f9799fa3e7a65e2d689b86b9d1e7308f39512604703c53917a2982d5067fd14",
+    "bytes": 1627
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/source-ledger.json",
+    "sha256": "4899ce50ba07a4568253c0c716a76d1eed4746629d3584cb35179ec06e998397",
+    "bytes": 385336
+  },
+  "source_dispositions_pending": 74,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/whole-progress-m57.json",
+    "sha256": "4379ddc7939bd95289c7c5b3e7edef4f4cc5dafea91ca029760867d80c16c797",
+    "bytes": 229112
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/resume.json",
+    "sha256": "27d46db1da262831daaeca3983e5edde90d5e1f24fda9318bff6216e13b2d2f6",
+    "bytes": 1953
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/evidence-manifest.json",
+    "sha256": "f7edd5aaa838c9c5a07ff7e93d469f0aac0dded77141eb0823af1a72a0eb800f",
+    "bytes": 6752
+  },
+  "frozen_evidence_files": 41,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/implementation-after.json",
+    "sha256": "a4c41a0c4b1a02fe00fdaecdc487df90466171e703f728bd73091d5f9462b9e5",
+    "bytes": 9358
+  },
+  "shared_implementation_changed": true,
+  "fresh_regression_tests": 303,
+  "complete_whole_scan_articles": 28,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 10,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M58: verify complete source extent of canonical 도형정의표의 정복 (maso-1984-03-toc-0032),candidate original218–227,from the original JPEGs and neighboring217/228 before bounded restoration. Restore at most six opening views,then the remaining ending and complete article assembly/audit. Preserve every source listing,table,diagram,caption,prose join and local uncertainty. Continue all remaining March articles,the information-group heading and all273scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M57/M56/M55/predecessor helpers/evidence. Use the qualified M57 implementation-after.json baseline,303passing tests."
+}

@@ -53,7 +53,34 @@ class ObservationAssemblyTests(unittest.TestCase):
             with self.subTest(fault=fault), self.assertRaises(ValueError):
                 check_intervening(ordered, observed, [scope])
 
-    def fixture(self, root):
+    def test_multiple_original_label_owners_require_same_figure_and_exact_region_text(self):
+        from tools.pdf_restore.assembly_scoped_observations import check_intervening
+        items = [dict(segment='a', type='figure', id='picture'),
+                 dict(segment='a', type='block', id='left'),
+                 dict(segment='a', type='block', id='right')]
+        actual = [dict(type=v['type'], id='a-' + v['id']) for v in items]
+        context = SimpleNamespace(name='a',
+            blocks={n: dict(kind='prose', text=t, region_ids=[n + '-region'])
+                    for n, t in [('left', '왼쪽'), ('right', '오른쪽')]},
+            records={n + '-region': dict(corrected_text=t)
+                     for n, t in [('left', '왼쪽'), ('right', '오른쪽')]},
+            package={'figures': [dict(id='picture', region_ids=['figure-region'])]},
+            correction={'source_illustration_text_association_index': [
+                dict(block_id=n, text_region_id=n + '-region',
+                     figure_id='picture', figure_region_id='figure-region') for n in ('left', 'right')]},
+            reference=lambda kind, id: self.assertEqual((kind, id), ('figure', 'picture')))
+        check_intervening(items, actual, [context])
+        for fault in ('record-text', 'text-owner', 'figure-owner', 'association', 'intervening-caption'):
+            c = deepcopy(context)
+            if fault == 'record-text':c.records['right-region']['corrected_text'] = '다름'
+            elif fault == 'text-owner':c.blocks['right']['region_ids'] = ['left-region']
+            elif fault == 'figure-owner':c.package['figures'][0]['region_ids'] = ['other-region']
+            elif fault == 'association':c.correction['source_illustration_text_association_index'].pop()
+            else:c.blocks['left']['kind'] = 'caption'
+            with self.subTest(fault=fault), self.assertRaises(ValueError):
+                check_intervening(items, actual, [c])
+
+    def fixture(self, root, pinned_names=False):
         path = native_tests.ScopedNativeTests().fixture(root)
         recipe = json.loads(path.read_bytes())
         recipe['source_index_mode'] = 'scoped-observations-v1'
@@ -76,6 +103,17 @@ class ObservationAssemblyTests(unittest.TestCase):
                 prior_region_id='body-region', prior_text_end='split', from_source_folio='K',
                 to_region_id='body-region', to_block_id='body', first_source_text='word',
                 separator=' ', assembly_required=True)]
+            if pinned_names:
+                boundary = c['segment_continuations'][0]
+                if i == 0:
+                    boundary['region_id'] = boundary.pop('from_region')
+                    boundary['next_actual_folio'] = boundary.pop('next_source_folio')
+                    boundary.pop('final_source_folios_required')
+                    boundary['source_occurrence'] = dict(block_id='body', literal='split')
+                else:
+                    boundary['kind'] = 'incoming-pinned-source-prose-continuation'
+                    boundary['prior_region_name'] = boundary.pop('prior_region_id')
+                    boundary['source_occurrence'] = dict(block_id='body', literal='word')
             scan = next(v['scan'] for v in c['records'] if v['id'] == 'figure-region')
             source = dict(region_id='figure-region', scan=scan, source_bbox_in_region=[0, 0, 1, 1])
             c['source_arithmetic_phase_index'] = [dict(phase_id='phase', row_ids=['row'])]
@@ -110,6 +148,50 @@ class ObservationAssemblyTests(unittest.TestCase):
         write_json(path, recipe)
         segments = [read_segment((root / s['manifest']['path']).parent, s['manifest']) for s in specs]
         return path, recipe, segments
+
+    def test_compact_pinned_boundary_rebuild_preserves_both_original_declarations(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            path, recipe, segments = self.fixture(root, pinned_names=True)
+            before = deepcopy(segments)
+            outputs = [root / 'work/one', root / 'work/two']
+            for output in outputs:
+                p = assemble(path, output, root)
+                self.assertEqual(check_export(output), p)
+                self.assertEqual(next(b['text'] for b in p['blocks'] if b['id'] == 'a-body'),
+                                 'An opening split word follows.')
+                c = json.loads((output / 'corrections.json').read_bytes())
+                boundaries = c['native_indexes']['segment_continuations']
+                self.assertEqual([b['value'] for b in boundaries],
+                                 [s[1]['segment_continuations'][0] for s in segments])
+                self.assertIn(dict(pointer='/prior_region_name', id='a-body-region'),
+                              boundaries[1]['references'])
+            files = lambda folder: {p.relative_to(folder).as_posix(): p.read_bytes()
+                                    for p in folder.rglob('*') if p.is_file()}
+            self.assertEqual(files(outputs[0]), files(outputs[1]))
+            self.assertEqual(segments, before)
+
+    def test_compact_pinned_boundary_rejects_ambiguous_unbound_or_changed_source(self):
+        with tempfile.TemporaryDirectory() as temp:
+            _, recipe, sources = self.fixture(Path(temp), pinned_names=True)
+            cases = {
+                'ambiguous outgoing region': lambda r, s: s[0][1]['segment_continuations'][0].update(from_region='body-region'),
+                'ambiguous outgoing folio': lambda r, s: s[0][1]['segment_continuations'][0].update(next_source_folio='L'),
+                'missing deferred extent': lambda r, s: s[0][1]['coverage'].update(deferred_actual_folios=[]),
+                'wrong outgoing occurrence': lambda r, s: s[0][1]['segment_continuations'][0]['source_occurrence'].update(literal='wrong'),
+                'wrong next folio': lambda r, s: s[0][1]['segment_continuations'][0].update(next_actual_folio='M'),
+                'ambiguous incoming region': lambda r, s: s[1][1]['segment_continuations'][0].update(prior_region_id='body-region'),
+                'wrong prior owner': lambda r, s: s[1][1]['segment_continuations'][0].update(prior_region_name='table-region'),
+                'wrong incoming occurrence': lambda r, s: s[1][1]['segment_continuations'][0]['source_occurrence'].update(block_id='other'),
+                'wrong manifest': lambda r, s: s[1][1]['segment_continuations'][0]['prior_native_manifest'].update(sha256='0' * 64),
+                'changed word separator': lambda r, s: s[1][1]['segment_continuations'][0].update(separator=''),
+                'missing explicit join': lambda r, s: r['prose_joins'].clear(),
+            }
+            for label, mutate in cases.items():
+                r, s = deepcopy(recipe), deepcopy(sources)
+                mutate(r, s)
+                with self.subTest(case=label), self.assertRaises((ValueError, KeyError)):
+                    project(r, s)
 
     def test_complete_rebuild_preserves_observations_and_binds_cross_scope_region(self):
         with tempfile.TemporaryDirectory() as temp:

@@ -2,15 +2,15 @@
 
 Updated 2026-11-18. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Latest accepted March checkpoint: **M56 complete**, the interface ending on
-original **216–217**, in two matching **78-file native exports**. Accepted M55
-and M56 segments cover **210–217**, with complete article assembly/audit next.
-Totals are **27 complete articles, one partial article, ten pending articles,
+Latest accepted March checkpoint: **M57 complete**, the whole interface article
+on original **210–217**, in two matching **272-file native exports** retaining
+all **264 original segment files**. All 303 applicable regression tests pass.
+Totals are **28 complete articles, no partial articles, ten pending articles,
 five complete headings, one pending heading and 74 pending full-page dispositions
-across all 273 scans**. Continue **M57 full interface assembly**, then
-**도형정의표의 정복** from located 218 and every remaining March task through
+across all 273 scans**. Continue **M58: verify 도형정의표의 정복**, candidate
+218–227, before bounded native restoration and every remaining March task through
 whole-issue export/completion audit. See the
-[M56 handoff](docs/SCAN-RESTORATION-1984-03-M56.md).
+[M57 handoff](docs/SCAN-RESTORATION-1984-03-M57.md).
 
 **M54 accepts all source and native article structures.** All 38 readings,
 41 original crops, 38 initial recognition bindings and 1,835 native records
@@ -6818,3 +6818,38 @@ full-page dispositions across all 273 scans**. Then verify and restore
 through whole-issue export/completion audit. See the
 [M56 handoff](docs/SCAN-RESTORATION-1984-03-M56.md) and
 [accepted ending](metadata/catalog/scan-restoration/1984-03-interface-ending.json).
+
+## M57 complete — whole native interface article, actual 210–217
+
+Two independent **272-file exports** retain all **264 original M55/M56 segment
+files** exactly. The independent audit verifies **71 pixel-exact master crops,
+59 original recognition bindings, 2,742 native records, 11,289 typed references,
+6,381 byte spans and 2,751 source asset bindings**. All **31 damaged-data cases**
+reject and all **303 applicable regression tests** pass. Three real legacy
+assemblies still pass standalone checking. Assembly ran no OCR.
+
+The complete article retains **21 structures, 270 fields, five empty directions,
+189 paths, 61 pin rows, twelve original figures, eight headings and the closing
+hollow square**. All **53 source/native qualifications and four unresolved glyph
+contexts** remain. Personal original 215/216 comparison verifies the empty
+**벗/어나지만** join; eleven intervening figure/label/caption owners remain
+explicit. Shared continuation/illustration validation accepts the original
+compact/pinned declarations and consecutive source label owners without
+rewriting either immutable segment.
+
+The initial scope-figure lookup and audit's optional checkpoint lookup failures
+remain as source/log evidence; corrected projection and independent audit pass.
+All **28 prior selected packages / 5,566 files**, **626 frozen M55 files and
+200 frozen M56 files** remain exact. M57 freezes **41 evidence files**, plus
+its manifest; never execute or modify its helpers/evidence. All processing is
+terminal. Cleanup was preview-only at 57.8 GiB, with no deletion. The new shared
+baseline is **M57 implementation-after.json**, 53 pins and 303 fresh tests.
+
+Whole March stays active with **28 complete articles, no partial articles, ten
+pending articles, five complete headings, one pending heading and 74 pending
+full-page dispositions across all 273 scans**. Continue **M58: verify
+도형정의표의 정복**, candidate **218–227**, and its neighbors before bounded
+native restoration. Then finish every remaining March task through whole-issue
+export/completion audit. See the
+[M57 handoff](docs/SCAN-RESTORATION-1984-03-M57.md) and
+[complete interface article](metadata/catalog/scan-restoration/1984-03-interface.json).

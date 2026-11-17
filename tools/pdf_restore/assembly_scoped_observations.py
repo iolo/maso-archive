@@ -56,7 +56,8 @@ class ObservationScope(Scope):
     source_metadata = SOURCE_METADATA | {'coverage'}
     refs = {**REFS, 'from_block': 'block', 'to_block_id': 'block',
         'from_region': 'region', 'to_region': 'region', 'to_region_id': 'region',
-        'prior_region_id': 'prior-region', 'text_region_id': 'region',
+        'prior_region_id': 'prior-region', 'prior_region_name': 'prior-region',
+        'text_region_id': 'region',
         'separate_text_region_id': 'region', 'section_id': 'section',
         'field_id': 'field', 'figure_field_id': 'field', 'upper_field_id': 'field',
         'lower_field_id': 'field', 'power_field_id': 'field', 'group_field_id': 'field',
@@ -145,11 +146,28 @@ def validate_continuations(recipe, contexts):
                 'Observation coverage retains unrepresented source pages')
         for j, outgoing in enumerate(c.correction.get('segment_continuations', [])):
             kind = outgoing.get('kind')
-            if kind == 'incoming-source-prose-continuation':
+            if kind in ('incoming-source-prose-continuation',
+                        'incoming-pinned-source-prose-continuation'):
                 continue
             require(kind == 'deferred-source-prose-continuation' and i + 1 < len(contexts),
                     'Unknown or unrepresented observation continuation')
             following = contexts[i + 1]
+            if 'next_actual_folio' in outgoing:
+                # Preserve the original compact declaration used by later scan
+                # segments. Its deferred extent belongs to the pinned coverage.
+                require(not {'next_source_folio', 'from_region',
+                             'final_source_folios_required'} & outgoing.keys() and
+                        coverage.get('deferred_actual_folios') and
+                        outgoing.get('source_occurrence', {}).get('block_id') == outgoing['from_block'] and
+                        outgoing['source_occurrence'].get('literal') == outgoing['last_source_text'],
+                        'Ambiguous or unbound compact observation continuation')
+                next_folio = outgoing['next_actual_folio']
+                final_folios = coverage['deferred_actual_folios']
+                from_region = outgoing['region_id']
+            else:
+                next_folio = outgoing['next_source_folio']
+                final_folios = outgoing['final_source_folios_required']
+                from_region = outgoing['from_region']
             rows = [r for r in recipe['prose_joins'] if r['left']['segment'] == c.name and
                     r['left']['block_id'] == outgoing['from_block']]
             require(len(rows) == 1, 'Deferred observation requires one explicit prose join')
@@ -158,24 +176,33 @@ def validate_continuations(recipe, contexts):
                     join['right']['segment'] == following.name and
                     join['right']['opening'] == outgoing['next_source_text'] and
                     join['separator'] == outgoing['separator'] and
-                    str(following.package['pages'][0]['printed_page']) == str(outgoing['next_source_folio']) and
-                    set(folios(outgoing['final_source_folios_required'])) <= set(later),
+                    str(following.package['pages'][0]['printed_page']) == str(next_folio) and
+                    set(folios(final_folios)) <= set(later),
                     'Observation prose join differs from deferred source declaration')
-            require(outgoing['from_region'] in c.blocks[outgoing['from_block']]['region_ids'],
+            require(from_region in c.blocks[outgoing['from_block']]['region_ids'],
                     'Deferred observation names the wrong source region')
             incoming = [(k, v) for k, v in enumerate(following.correction.get('segment_continuations', []))
-                        if v.get('kind') == 'incoming-source-prose-continuation' and
+                        if v.get('kind') in ('incoming-source-prose-continuation',
+                                            'incoming-pinned-source-prose-continuation') and
                         v.get('to_block_id') == join['right']['block_id']]
             require(len(incoming) == 1, 'Deferred observation lacks its unique incoming declaration')
             k, inc = incoming[0]
+            if inc['kind'] == 'incoming-pinned-source-prose-continuation':
+                require('prior_region_id' not in inc and
+                        inc.get('source_occurrence', {}).get('block_id') == inc['to_block_id'] and
+                        inc['source_occurrence'].get('literal') == inc['first_source_text'],
+                        'Ambiguous or unbound pinned incoming observation')
+                prior_region = inc['prior_region_name']
+            else:
+                prior_region = inc['prior_region_id']
             require((i + 1, k) not in used and inc['prior_native_manifest'] == c.spec['manifest'] and
-                    inc['prior_region_id'] == outgoing['from_region'] and
+                    prior_region == from_region and
                     inc['prior_text_end'] == outgoing['last_source_text'] and
                     inc['first_source_text'] == outgoing['next_source_text'] and
                     inc['separator'] == outgoing['separator'] and
                     str(inc['from_source_folio']) == own[-1] and
                     inc['to_region_id'] in following.blocks[inc['to_block_id']]['region_ids'] and
-                    c.records[outgoing['from_region']]['corrected_text'].endswith(inc['prior_text_end']) and
+                    c.records[from_region]['corrected_text'].endswith(inc['prior_text_end']) and
                     following.records[inc['to_region_id']]['corrected_text'].startswith(inc['first_source_text']),
                     'Incoming observation differs from pinned preceding source declaration')
             following.prior = c
@@ -190,20 +217,31 @@ def check_intervening(items, actual, contexts):
     require(actual == [dict(type=v['type'], id=v['segment'] + '-' + v['id']) for v in items],
             'Observation interruption differs from explicit reviewed content order')
     sources = {c.name: c for c in contexts}
+    active_figure = None
     for i, item in enumerate(items):
         require(item['segment'] in sources, 'Unknown observation interruption scope')
         c = sources[item['segment']]
         if item['type'] == 'figure':
             c.reference('figure', item['id'])
+            active_figure = item
             continue
         require(item['id'] in c.blocks, 'Unknown observation interruption block')
         block = c.blocks[item['id']]
         if block['kind'] == 'caption':
+            active_figure = None
             continue
-        preceding = items[i - 1] if i else {}
+        def original_label(row):
+            if row.get('literal') is not None:
+                return row['literal'] == block['text']
+            text_region = row.get('text_region_id')
+            figure_region = row.get('figure_region_id')
+            return (block.get('region_ids') == [text_region] and
+                    c.records.get(text_region, {}).get('corrected_text') == block['text'] and
+                    any(f['id'] == row.get('figure_id') and figure_region in f['region_ids']
+                        for f in c.package['figures']))
         associations = [v for v in c.correction.get('source_illustration_text_association_index', [])
-                        if v.get('block_id') == item['id'] and v.get('literal') == block['text'] and
-                        preceding == dict(segment=c.name, type='figure', id=v.get('figure_id'))]
+                        if v.get('block_id') == item['id'] and original_label(v) and
+                        active_figure == dict(segment=c.name, type='figure', id=v.get('figure_id'))]
         require(block['kind'] == 'prose' and len(associations) == 1,
                 'Observation interruption requires its exact original illustration-text association')
 

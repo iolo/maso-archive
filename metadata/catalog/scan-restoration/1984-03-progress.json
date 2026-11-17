@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 27,
+  "complete_whole_scan_articles": 28,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -5730,8 +5730,8 @@
       "title": "컴퓨터의 마담 뚜 인터페이스",
       "parent_id": "maso-1984-03-toc-0029",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0031",
         "title": "컴퓨터의 마담 뚜 인터페이스",
@@ -5799,16 +5799,16 @@
         }
       },
       "new_selected_restoration": {
-        "checkpoint": "M55",
+        "checkpoint": "M57",
         "article_id": "scan-maso-1984-03-toc-0031",
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "source_kind": "jpeg-set",
-        "directory": "archive/scans/1984-03/packages/interface-jpeg-a-r01",
+        "directory": "archive/scans/1984-03/packages/interface-jpeg-r01",
         "manifest": {
-          "path": "archive/scans/1984-03/packages/interface-jpeg-a-r01/manifest.json",
-          "sha256": "db0a8abe2743a8f93fcfbe25e85411a76295a5d5fbffcf12a5caedd2b96feae7",
-          "bytes": 32459
+          "path": "archive/scans/1984-03/packages/interface-jpeg-r01/manifest.json",
+          "sha256": "3a2ae8aea36ca9d749fae8678ed516e96df138a92e2b736d97e17b47cf94a50f",
+          "bytes": 49809
         },
         "article_actual_folios": [
           210,
@@ -5831,17 +5831,17 @@
           217
         ],
         "source_extent_covered": true,
-        "assembly_pending": true,
+        "assembly_pending": false,
         "continuation_pending": [],
         "recipe": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/recipe-native-01.json",
-          "sha256": "82e1b5e163dca3ff6f3fc8bfc6fcc6c060e0ea629a4f5530b23ccdaa6596776e",
-          "bytes": 10784
+          "path": "archive/scans/1984-03/restoration/whole-issue-53/assembly-recipe-r01.json",
+          "sha256": "be588a1952f593d5347427aa74240d0a3f7c6300ff57f7fd0a3db903ab5b26e3",
+          "bytes": 5095
         },
         "validation": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-51/validation.json",
-          "sha256": "e0a21f65d2521b5055d35a333a2a41a380db5f60f92104da682dabc2c37d0335",
-          "bytes": 5994
+          "path": "archive/scans/1984-03/restoration/whole-issue-53/validation.json",
+          "sha256": "019ce224d2b5e144c90246c4aa9b5c551e15fe14d8a478a95cf44393fee753cd",
+          "bytes": 6794
         },
         "segments": [
           {
@@ -5890,12 +5890,13 @@
             }
           }
         ],
-        "assembly_join_pending": {
-          "left": "벗",
-          "right": "어나지만",
-          "separator": ""
+        "ending_checkpoint": "M56",
+        "implementation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-53/implementation-after.json",
+          "sha256": "a4c41a0c4b1a02fe00fdaecdc487df90466171e703f728bd73091d5f9462b9e5",
+          "bytes": 9358
         },
-        "ending_checkpoint": "M56"
+        "note": "Complete210–217 native article;two exact272-file exports retain all264 original segment files and2742native observations. All53source/native qualifications remain;whole March is active."
       },
       "historical_printed_extent_candidate": [
         210,
@@ -5931,10 +5932,11 @@
           "sha256": "5f5d35f72ad9fb5f928efe8ded212c28a445b3e194035b178fda0694f5a0a655",
           "bytes": 1601
         },
-        "restoration_pending": true,
-        "partial_native_selected": true,
+        "restoration_pending": false,
+        "partial_native_selected": false,
         "complete_segment_source_coverage": true,
-        "assembly_pending": true
+        "assembly_pending": false,
+        "whole_article_assembly_pending": false
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-interface-opening-work.json",
@@ -6993,14 +6995,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-52/source-ledger.json",
-    "sha256": "0cc37de2672715d86de2bb413056867ba6c9d3240cb4a503d63d794f57bc0e87",
-    "bytes": 381972
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/source-ledger.json",
+    "sha256": "4899ce50ba07a4568253c0c716a76d1eed4746629d3584cb35179ec06e998397",
+    "bytes": 385336
   },
-  "current_checkpoint": "M56-complete",
-  "next": "M57: assemble and independently audit complete210–217 컴퓨터의 마담 뚜 인터페이스 from immutable M55/M56 native packages. Preserve all segment files/native indexes,all source qualifications and the215 벗/216 어나지만 join with empty separator. Then verify full extent and restore 도형정의표의 정복 from located218. Continue every remaining March article,information-group heading and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute or modify frozen M56/M55/predecessor helpers. Shared implementation remains qualified M47 implementation-after.json.",
+  "current_checkpoint": "M57-complete",
+  "next": "M58: verify complete source extent of canonical 도형정의표의 정복 (maso-1984-03-toc-0032),candidate original218–227,from the original JPEGs and neighboring217/228 before bounded restoration. Restore at most six opening views,then the remaining ending and complete article assembly/audit. Preserve every source listing,table,diagram,caption,prose join and local uncertainty. Continue all remaining March articles,the information-group heading and all273scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M57/M56/M55/predecessor helpers/evidence. Use the qualified M57 implementation-after.json baseline,303passing tests.",
   "pending_article_candidates": 10,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5
 }
