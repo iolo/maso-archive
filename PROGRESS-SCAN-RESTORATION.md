@@ -63,11 +63,16 @@ all six original figures. All 42 source crops and the separate native audit pass
 M27 restores the opening of 컴퓨터와 수 on 92–97 in 248 exact native files:
 68 table cells, sixteen division rows, twenty conversion alignments, seventeen
 arithmetic examples and all 24 original figures. All 78 source crops and the
-separate source/native audit pass. Current totals are fifteen complete articles,
-one partial article, 22 pending article candidates, two completed headings, four
-pending headings and 173 source images awaiting full-page disposition. Continue
-with M28, final 98–99 of 컴퓨터와 수, then assemble and independently validate
-the complete 92–99 article.
+separate source/native audit pass. M28 adds final 98–99, and M29 completes the
+whole 92–99 article. M30/M31 restore systems 100–108 in two checked segments;
+M32 completes their native assembly in 363 exact files. M33 completes
+**자동실행 테이프의 전모**, actual **109–112**, in **280 exact files** after
+enlarged source comparison and independent native audit. Current totals are
+**eighteen complete articles, no partial articles, twenty pending article
+candidates, two completed headings, four pending headings and 160 source images
+awaiting full-page disposition**. Continue M34 with **자료 구조**, candidate
+actual **113–117**, then all remaining articles, source dispositions and the
+reproducible whole-issue export/audit.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -5435,3 +5440,58 @@ articles, 21 pending article candidates and 164 accepted pending full-page
 dispositions**. This working checkpoint does not select a tape article package
 or change article-completion counts. See
 [the saved tape work state](metadata/catalog/scan-restoration/1984-03-tape-work.json).
+
+## M33 complete — whole tape article, actual 109–112
+
+Completed canonical **자동실행 테이프의 전모**, **maso-1984-03-toc-0019**,
+across all verified **109–112**. The printed title remains **애플용 자동 실행
+테이프의 전모**. Two independent builds reproduce **280 exact native files**.
+The package owns all **73 mapped regions** in **63 reading blocks and seven
+original figure groups**, including six separately searchable annotated figures.
+All **53 prose/title/caption contexts and thirteen code/display contexts** have
+enlarged original-source comparison.
+
+Twenty native structures retain **617 fields, 87 row contexts, 85 table cells
+and 43 original outline/return paths**. The keyboard/screen table preserves both
+blank slots, its circled lowercase a-like glyph, the printed forward slash and
+midline dash. Its source has only three ruled paths; native row/column contexts
+do not invent an internal printed grid. Thirteen independent display examples
+retain **60 display/listing rows, ten right-hand legend rows and 515 lexical
+fields**. Sixteen inline prose placeholder boxes and a downward return mark have
+their own exact text occurrences and source geometry. Five captions, both table
+references, the embedded BASIC example and the closing star remain explicit.
+
+The source comparison retains the dump's single `1`, the input's colon-like
+mark in `1: C9`, the actual C9/DB physical wrap, all nine trailing zero fields,
+wrapped address placeholders, raised figure markers and distinct legend sets.
+It preserves printed address/hardware claims without correction or execution.
+The **109/110** and **111/112** prose joins use one space; the **112** column
+split joins **로-/드된다** without a space. All **24 local source qualifications**
+remain explicit, including Unicode approximations and unverified encoded bytes.
+
+The independent audit passes **73 master-pixel crop comparisons, 66 recognition
+bindings, 272 raw ZIP members and thirty damaged-data cases**. It verifies
+**2,147 native records, 10,757 typed references, 4,969 source/active byte spans
+and 2,032 source asset bindings**. All 35 frozen M32 files and 51 shared
+implementation pins remain exact; the unchanged 291-test baseline stays
+qualified. The initial code geometry review refined field bounds before all
+thirteen revised overlays passed. Six inline overlays and the table overlay
+also passed source comparison.
+
+The first code-reading save expected 69 physical rows; the correct count is
+70 including ten legends. The first native audit looked for a table-reference
+region at the top level; the existing occurrence binds it inside
+`source_segments`. Both fixture corrections preserve all source readings and
+selected export files. Every attempt remains in **795 frozen evidence files**,
+excluding disposable bytecode caches only. Cleanup was previewed without
+deletion, and all launched processes were observed terminal.
+
+Whole March remains active with **eighteen complete articles, no partial
+articles, twenty pending article candidates, two completed headings, four pending
+headings and 160 pending full-page dispositions**, across all **273 scans**.
+Three newly accepted source dispositions cover 110–112; 109 had already been
+located. The viewed following 113 is now located as the separate **자료 구조**
+opening, with native restoration still pending. Continue **M34**, candidate
+**113–117**, and the remaining whole-issue queue. See
+[the complete tape result](metadata/catalog/scan-restoration/1984-03-tape.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

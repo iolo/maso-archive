@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 17,
+  "complete_whole_scan_articles": 18,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -3238,8 +3238,8 @@
       "title": "자동실행 테이프의 전모",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0019",
         "title": "자동실행 테이프의 전모",
@@ -3393,7 +3393,38 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M33",
+        "directory": "archive/scans/1984-03/packages/tape-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/tape-jpeg-r01/manifest.json",
+          "sha256": "6db6fa949e188d757742247d4c8f35b40d4a879b2c27c52e57cbc3bc696b5ee9",
+          "bytes": 47564
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-29/validation.json",
+          "sha256": "10a82a21a5261d77bd29813ad224883b60dfff69b936fc07b2404d26c2c9593b",
+          "bytes": 3094
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "actual_folios": [
+          109,
+          110,
+          111,
+          112
+        ],
+        "included_actual_folios": [
+          109,
+          110,
+          111,
+          112
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         "109",
         "110",
@@ -3408,7 +3439,25 @@
           "sha256": "61a2b0e4aaec7f58eabc7dd43648e8ebb1a032431be9c47f3fa05b6f49784746",
           "bytes": 1095498
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "actual_folios": [
+          109,
+          110,
+          111,
+          112
+        ],
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-29/transition.json",
+          "sha256": "35ca354856957972bf3bc87f9b204a39064369b2244846b24370b67ed4323448",
+          "bytes": 751
+        },
+        "complete_native_selected": true,
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-29/validation.json",
+          "sha256": "10a82a21a5261d77bd29813ad224883b60dfff69b936fc07b2404d26c2c9593b",
+          "bytes": 3094
+        }
       }
     },
     {
@@ -3482,7 +3531,17 @@
         115,
         116,
         117
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 113,
+        "observed_title": "자료 구조",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-29/review/full-113.jpg",
+          "sha256": "5ff70e66e308b8b4c0c49f5fa8f81c32c95036b3e8ca2529a4ee21dc99588bf1",
+          "bytes": 1626700
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0021",
@@ -5690,13 +5749,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-28/source-ledger.json",
-    "sha256": "f50d07ccf81d9a77ef5b95b1dbb97084511ffb6b7a4cfff373b4b5696be3ce88",
-    "bytes": 258776
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/source-ledger.json",
+    "sha256": "5dcbf001bca7d83d22252afa7da8e1d146a02269202968eb01d457bbfbad30cb",
+    "bytes": 262493
   },
-  "current_checkpoint": "M32-complete",
-  "next": "M33: restore 자동 실행 테이프의 전모,maso-1984-03-toc-0019,from donated JPEGs. Candidate source109–112requires full-page extent/boundary review before mapping. Continue every remaining March article,heading and all273source dispositions before whole-issue export/audit.",
-  "pending_article_candidates": 21,
+  "current_checkpoint": "M33-complete",
+  "next": "M34: restore 자료 구조,maso-1984-03-toc-0020,from donated JPEGs. Candidate113–117requires full-page extent and neighboring-material review before mapping. Continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active.",
+  "pending_article_candidates": 20,
   "pending_heading_candidates": 4,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 2

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M33",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0019",
+  "canonical_received_title": "자동실행 테이프의 전모",
+  "observed_source_title": "애플용 자동 실행 테이프의 전모",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    109,
+    110,
+    111,
+    112
+  ],
+  "selected_package": "archive/scans/1984-03/packages/tape-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/tape-jpeg-r01/manifest.json",
+    "sha256": "6db6fa949e188d757742247d4c8f35b40d4a879b2c27c52e57cbc3bc696b5ee9",
+    "bytes": 47564
+  },
+  "exact_files": 280,
+  "native_structure": {
+    "blocks": 63,
+    "regional_texts": 66,
+    "prose_joins": 3,
+    "original_figures": 7,
+    "structures": 20,
+    "fields": 617,
+    "source_rows": 87,
+    "table_cells": 85,
+    "connectors": 43,
+    "listing_rows": 60,
+    "legend_rows": 10,
+    "physical_source_text_rows": 70,
+    "listing_fields": 515,
+    "caption_associations": 5,
+    "independent_display_contexts": 13,
+    "source_qualifications": 24
+  },
+  "native_index_records": 2147,
+  "typed_references": 10757,
+  "source_and_active_byte_spans": 4969,
+  "source_asset_bindings": 2032,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/validation.json",
+    "sha256": "10a82a21a5261d77bd29813ad224883b60dfff69b936fc07b2404d26c2c9593b",
+    "bytes": 3094
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/tape/recipe.json",
+    "sha256": "6944c5cea6326733cc092a80ca072e25bc8224455edf67bc05c3c47a4ad07e50",
+    "bytes": 14706
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/source-ledger.json",
+    "sha256": "5dcbf001bca7d83d22252afa7da8e1d146a02269202968eb01d457bbfbad30cb",
+    "bytes": 262493
+  },
+  "source_dispositions_pending": 160,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/whole-progress-m33.json",
+    "sha256": "74f79abbf431496d6c34730f966454aab9eefa7a2d2c9bd66ff13c92b39f8c15",
+    "bytes": 182834
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/evidence-manifest.json",
+    "sha256": "e13f592abd49a48e31b78eca86bb3a338ca3b953f67f7945c8272b264ce721f4",
+    "bytes": 140070
+  },
+  "shared_implementation_changed": false,
+  "source_index_mode": "scoped-observations-v1",
+  "reused_fresh_regressions": 291,
+  "next": "M34: restore 자료 구조,maso-1984-03-toc-0020,from donated JPEGs. Candidate113–117requires full-page extent and neighboring-material review before mapping. Continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active."
+}

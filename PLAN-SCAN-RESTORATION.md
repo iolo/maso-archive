@@ -143,16 +143,22 @@ damaged-data checks pass. All 34 local source qualifications remain explicit.
 The unchanged 291-test baseline remains qualified. Continue M33 with
 자동실행 테이프의 전모, candidate actual 109–112, and the remaining whole-issue
 queue. See [the complete systems article](metadata/catalog/scan-restoration/1984-03-systems.json).
-M33 verifies that tape article's full 109–112 extent against preceding 108 and
-following 자료 구조 on 113. All four initial and revised mapping overlays have
-source comparison. The selected map retains 73 regions, seven original figure
-groups and six separately searchable figure/text overlaps. All 66 initial
-mapped OCR tasks finish without empty regions or retries; 73 source crops and
-eight page renders pass independent pixel checks. Enlarged comparison of the
-53 prose/title/caption contexts and thirteen code contexts, all native
-structures and final exports remain pending. Counts stay at seventeen complete
-articles and 21 pending candidates. See
-[the tape work state](metadata/catalog/scan-restoration/1984-03-tape-work.json).
+M33 completes **자동실행 테이프의 전모**, verified actual **109–112**, in
+**280 exact native files**. All 53 prose/title/caption contexts, thirteen
+independent code/display contexts and seven original figure groups have enlarged
+source comparison. Native observations retain all 85 table slots, 515 code
+fields, sixteen inline placeholder boxes, original legends/return marks, five
+captions, three source joins and the closing star. Two independent builds,
+73 original-master crops, 66 OCR bindings, 2,147 native records and thirty
+damaged-data checks pass. All 24 local source qualifications remain explicit;
+no instruction execution or encoded-byte reconstruction is claimed. M33 freezes
+795 evidence files and leaves shared implementation unchanged. Whole March
+remains active: **eighteen complete articles, twenty pending article candidates,
+two completed headings, four pending headings and 160 pending full-page
+dispositions**. Following 113 is visually located as the separate **자료 구조**
+opening; its native restoration remains pending. Continue M34 with its candidate
+113–117 extent and the remaining whole issue. See
+[the complete tape result](metadata/catalog/scan-restoration/1984-03-tape.json).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
