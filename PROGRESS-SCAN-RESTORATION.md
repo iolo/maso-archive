@@ -6924,18 +6924,29 @@ pixel crops and sixteen corrupted source contracts. Selected native **Table 3
 R02** retains **24 fields/cells, six row contexts and nine original rule segments**,
 with personal overlay and independent source-value/ink checks. Two superscripts
 remain unresolved; printed dash values and missing body row rules are preserved.
-Eight source-compared native work contexts now include Table 3, both equations,
-Figures 20–22 and Figure 28's flowchart/single 21-row program: **332 fields, 27
-empty contexts and 293 paths**. Independent source/row/ink checks pass, with 26
-native qualifications and seventeen rejected damaged cases. The source program's
+Fifteen source-compared native work contexts now include Table 3, both equations
+and all eleven Figures 20–30, including Figure 28's flowchart/single 21-row
+program: **526 fields, 44 empty contexts and 724 paths**. Independent
+source/row/ink checks pass, with 47 native qualifications and 32 rejected damaged
+cases. The source program's
 blank contexts, clock values, printed 104 total, case and operand spacing remain
 literal. Both flowchart return routes and its broken rule remain explicit.
 Figure 21 preserves its independently drawn ramp/pulse boundaries. Figure 22
 retains seven comparators, eight resistors, six distinct repeated R occurrences,
 crossings without junction dots and the different terminal fills. Its selected
 R02 refines only eight resistor paths; all other geometry exactly reuses R01.
-**Figures 23–27 and 29–30, prose and inline structures, integration, exports and
-acceptance checks remain pending.** This checkpoint remains unfrozen; no new continuation package is
+Figure 23 retains its polarity disagreement and original ADC-outline gaps.
+Figure 24 preserves twelve ADC lines/eight external bus lines, ten unprinted bit
+labels and nineteen filled terminal/tap occurrences. Figures 25/26 retain three
+continuation dots each; Figure 27 has none and prints literal `R_M`. Figure 26's
+lower resistor remains unlabelled. Figure 29 keeps the separate dashed load
+context unjoined. Figure 30 keeps two unmarked circuits, four unlabelled
+amplifiers, two unlabelled capacitors, six grounds and the source's opposite
+upper/lower amplifier polarity orders. All different terminal fills remain
+explicit. The first Figure 23 encoder failed a duplicate-identifier guard before
+output; its fresh repair changes two identifiers without source/recognition changes.
+**Prose, physical baselines, inline structures, captions/references, joins,
+integration, exports and acceptance checks remain pending.** This checkpoint remains unfrozen; no new continuation package is
 selected. All 901 frozen M61 files and 53 implementation pins remain exact.
 The unchanged 303-test baseline applies. All processing is terminal; cleanup was
 preview-only at 59.1 GiB, with no deletion.

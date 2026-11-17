@@ -58,11 +58,12 @@ checks pass. The SAC remark remains three physical lines in one cell; both dashe
 remain printed values, both ring-shaped exponents remain unresolved, and no
 horizontal body row dividers are invented.
 
-Eight selected native work contexts now retain **332 fields, 27 empty contexts
-and 293 paths**: Table 3, the displayed integral and ratio, Figures 20–22,
-Figure 28's ten-node flowchart and its single 21-row 8080 program.
+Fifteen selected native work contexts now retain **526 fields, 44 empty contexts
+and 724 paths**: Table 3, the displayed integral and ratio, all eleven numbered
+Figures 20–30, including Figure 28's ten-node flowchart and its single 21-row
+8080 program.
 Personal source/overlay comparison and independent field/row/original-ink checks
-pass, with 26 native qualifications and seventeen rejected damaged cases.
+pass, with 47 native qualifications and 32 rejected damaged cases.
 The program retains fifteen unprinted labels, two unprinted final comments,
 seven unprinted initial clock positions, all fourteen printed clock values and
 the printed total 104. R02 only widens five legend-key contexts; its other
@@ -82,8 +83,32 @@ zigzags; R02 refines only those eight paths against original dark ink. All other
 fields, paths and relationships exactly reuse R01. The overlapping caption
 still has only its separately selected text owner.
 
-**Figures 23–27 and 29–30, all prose and inline structures, integration, two
-independent exports and acceptance audit remain pending.** No new continuation
+Figure 23 retains the amplifier polarity disagreement, four grounds, four
+switch-label occurrences and the gaps in its ADC outline. Its first local
+encoder failed the path-identifier uniqueness guard before writing a candidate;
+the fresh repair only distinguishes two outline identifiers from ground-stroke
+identifiers. Figure 24 retains twelve ADC lines, eight external bus lines,
+two data-buffer sections, the separate status buffer and nineteen filled
+terminal/tap occurrences. Only endpoint labels `a_1` and `a_12` are printed;
+ten intermediate label contexts remain empty. Fitted source/overlay views retain
+an explicit transform to the original master dimensions.
+
+Figures 25–27 preserve distinct original channel arrangements. Figures 25 and
+26 each have three vertical continuation dots; Figure 27 has none. Figure 26
+leaves its lower resistor unlabelled and prints filled lower switch contacts.
+Figure 27 prints `R_M`, two separate ADCs and the digital multiplexer. No labels,
+dots or switches are copied between the figures. Figure 29 retains its sixteen
+separate dashed load strokes and four open terminals; no unprinted connection
+joins the load context to the main hold circuit. Figure 30 retains two unmarked
+circuits, four unlabelled amplifiers, two unlabelled capacitors, six grounds,
+eleven open terminals/contacts and six filled occurrences. Both upper amplifiers
+print plus above minus; both lower amplifiers print minus above plus. Device
+names, panel markers and capacitor labels are not supplied from surrounding
+prose. Original rule gaps and different output terminal fills remain explicit.
+
+**All prose, physical baselines, inline structures, caption/reference encoding,
+joins, integration, two independent exports and acceptance audit remain pending.**
+No new continuation
 package is selected. Reuse every successful OCR
 task and compared reading. This checkpoint is unfrozen; no processing jobs remain
 active. All **901 frozen M61 files** and **53 implementation pins** remain exact.
