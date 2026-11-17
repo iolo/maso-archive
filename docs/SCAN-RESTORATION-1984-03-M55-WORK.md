@@ -1,5 +1,10 @@
 # March 1984 M55: interface opening source work
 
+Historical source-work milestone: the opening is now accepted; see
+[the M55 native result](SCAN-RESTORATION-1984-03-M55.md). Selected reading
+revision 02 corrects the initial pin 10 ACK overbar observation. The original
+readings, qualification and OCR remain preserved as evidence.
+
 The whole March issue remains the task. M55 verifies canonical
 **컴퓨터의 마담 뚜 인터페이스** (`maso-1984-03-toc-0031`) across actual
 **210–217**. Original 209 is the preceding machine-language ending; 218 opens
@@ -29,7 +34,8 @@ not cut by a generic footer mask. Its two annotation triangles remain separate.
 
 Thirty source qualifications preserve literal spellings, physical wraps and
 independent occurrences. Printer **CMPHENOL** and cable **AMPHENOL** remain
-different. Pin 10 ACK has no visible bar; pin 28 ACK does. The stroke between
+different. Full-size native comparison corrected the initial no-bar observation:
+both pin 10 and pin 28 ACK have printed bars. The stroke between
 30 INIT and 31 INIT retains its own context. Both RETURN occurrences remain.
 The prose's repeated ACK-low claim, **Carrage Return**, voltage/rate claims,
 **TRANSMIT DATA** versus the figure's **TRANSMITTED DATA**, caption
@@ -42,17 +48,18 @@ The native plan records four caption associations, fourteen prose continuations,
 all 25 RS-232 pin rows and five empty direction contexts. Native work must retain
 the Centronics assignments/brace/contacts, both timing charts with original
 waveforms, guides, heads and hatching, the complete DB-25 connector and the
-stacked mixed number **1½**. Native geometry, recipe, two exports and independent
-native audit are **pending**. No opening package or complete article is accepted.
+stacked mixed number **1½**. At this source milestone, native geometry, recipe,
+two exports and independent native audit were pending. The later native opening
+is accepted; complete-article restoration remains pending.
 
 All **53 implementation pins** match the qualified **M47 implementation-after**
 baseline; its 300-test result applies without a fresh broad test run. All **595
 frozen M54 evidence files** and exact membership remain unchanged. Never execute
-or modify frozen predecessor helpers. M55 work in
-`archive/scans/1984-03/restoration/whole-issue-51/` remains **unfrozen**.
+or modify frozen predecessor helpers. The later M55 acceptance freezes
+`archive/scans/1984-03/restoration/whole-issue-51/`; never execute its helpers again.
 All processing jobs are terminal. Cleanup was preview-only at 56.9 GiB; no deletion.
 
-Accepted March totals remain **27 complete articles, no partial articles,
+At the source-work milestone, accepted March totals were **27 complete articles, no partial articles,
 eleven pending articles, five complete headings, one pending heading and
 82 pending full-page dispositions across all 273 scans**. The accepted source
 ledger remains M54's. Continue M55 native encoding and validation, then restore

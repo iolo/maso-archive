@@ -6745,3 +6745,47 @@ whole-issue export/completion audit remain required. All jobs are terminal;
 cleanup was preview-only at 56.9 GiB, with no deletion. M55 evidence is unfrozen.
 See the [M55 work handoff](docs/SCAN-RESTORATION-1984-03-M55-WORK.md) and
 [working record](metadata/catalog/scan-restoration/1984-03-interface-opening-work.json).
+
+## M55 complete — native interface opening, actual 210–215
+
+Accepted the six-page native opening of **컴퓨터의 마담 뚜 인터페이스**,
+**maso-1984-03-toc-0031**, whose full original extent is **210–217**. Two
+independent **186-file exports** match. The audit checks all **52 source crops,
+42 OCR bindings, 2,112 native records, 9,140 typed references, 4,715 byte spans
+and 2,121 asset bindings**. All 179 raw ZIP members stay exact; all 24 damaged
+cases reject. Native work ran no additional OCR or retries.
+
+Eighteen structures retain **244 fields, five empty directions, 165 paths and
+61 pin rows**. Both connectors preserve source assignments, physical name
+fragments, contacts and bodies. Both timing drawings retain original waveforms,
+hatching, guides and headed dimensions; the three 1μs labels share four observed
+heads. Ten inline overbars, two annotation triangles, stacked 1½ and voltage
+components remain. Original title art, two photographs and three road panels
+stay intact. Five headings, 44 paragraphs, 616 prose/label comparison lines,
+fourteen prose joins, three illustration interruptions, four captions and fifteen
+illustration/text associations pass. Seventeen native overlays have comparison,
+with two exact overlay reuses and five unchanged raster contexts.
+
+Thirty-five qualifications retain printed errors and four glyph contexts.
+Full-size native review corrects the earlier pin 10 ACK no-bar observation;
+revision 02 preserves every search text and OCR byte. The first inline helper's
+rejected four-pixel title-margin bound and its repair remain archived. Final
+metadata checks corrected a retained source-work resume pointer through a separate
+receipt, preserving frozen evidence/package bytes. Original bytes, electrical
+correctness and execution stay unverified; assistant review is not human acceptance.
+
+All **27 preceding packages / 5,380 files**, **53 implementation pins** and
+**595 frozen M54 files** remain exact. The qualified M47 300-test baseline
+applies without a fresh broad test run. M55 freezes **626 pinned evidence files**,
+plus its manifest; never execute or modify its helpers/evidence. All jobs are
+terminal; cleanup was preview-only with no deletion.
+
+March stays active with **27 complete articles, one partial article, ten pending
+articles, five complete headings, one pending heading and 74 pending full-page
+dispositions across all 273 scans**. Ending pages 216–217 and next opener 218
+are located, with native restoration still required. Continue **M56 on 216–217**,
+including figures 5/6, all remaining prose/sections/captions and the closing hollow
+square. Preserve the empty-separator 벗/어나지만 join, then assemble/audit the
+full article and finish every remaining March task through whole-issue closeout.
+See the [M55 native handoff](docs/SCAN-RESTORATION-1984-03-M55.md) and
+[accepted opening](metadata/catalog/scan-restoration/1984-03-interface-opening.json).

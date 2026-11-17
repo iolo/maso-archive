@@ -5730,7 +5730,7 @@
       "title": "컴퓨터의 마담 뚜 인터페이스",
       "parent_id": "maso-1984-03-toc-0029",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0031",
@@ -5798,7 +5798,77 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M55",
+        "article_id": "scan-maso-1984-03-toc-0031",
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/interface-jpeg-a-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/interface-jpeg-a-r01/manifest.json",
+          "sha256": "db0a8abe2743a8f93fcfbe25e85411a76295a5d5fbffcf12a5caedd2b96feae7",
+          "bytes": 32459
+        },
+        "article_actual_folios": [
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217
+        ],
+        "covered_actual_folios": [
+          210,
+          211,
+          212,
+          213,
+          214,
+          215
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
+          216,
+          217
+        ],
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/recipe-native-01.json",
+          "sha256": "82e1b5e163dca3ff6f3fc8bfc6fcc6c060e0ea629a4f5530b23ccdaa6596776e",
+          "bytes": 10784
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-51/validation.json",
+          "sha256": "e0a21f65d2521b5055d35a333a2a41a380db5f60f92104da682dabc2c37d0335",
+          "bytes": 5994
+        },
+        "segments": [
+          {
+            "checkpoint": "M55",
+            "directory": "archive/scans/1984-03/packages/interface-jpeg-a-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/interface-jpeg-a-r01/manifest.json",
+              "sha256": "db0a8abe2743a8f93fcfbe25e85411a76295a5d5fbffcf12a5caedd2b96feae7",
+              "bytes": 32459
+            },
+            "actual_folios": [
+              210,
+              211,
+              212,
+              213,
+              214,
+              215
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-51/validation.json",
+              "sha256": "e0a21f65d2521b5055d35a333a2a41a380db5f60f92104da682dabc2c37d0335",
+              "bytes": 5994
+            }
+          }
+        ]
+      },
       "historical_printed_extent_candidate": [
         210,
         211,
@@ -5813,24 +5883,9 @@
         "actual_folio": 210,
         "observed_title": "컴퓨터의 마담 뚜 : 인터페이스",
         "source_review": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-50/review/full-210.jpg",
-          "sha256": "7dc0adc3788628f94ffc172381c2be9bd9eb861dceeb97df846430d12a01843f",
-          "bytes": 2124532
-        },
-        "boundary_evidence": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-50/transition.json",
-          "sha256": "96cc8f86bb27ea6836b73fe6e2dcd91fe331709ef0f21fc35b01e2997c311f5f",
-          "bytes": 1588
-        },
-        "source_extent_verified": false,
-        "restoration_pending": true
-      },
-      "active_source_work": {
-        "checkpoint": "M55",
-        "record": {
-          "path": "metadata/catalog/scan-restoration/1984-03-interface-opening-work.json",
-          "sha256": "e96d7131479691273c7219b8d7663a4c48a6c5d66ea0a802064b55c732c16edc",
-          "bytes": 5529
+          "path": "archive/scans/1984-03/restoration/whole-issue-51/review/full-210.jpg",
+          "sha256": "e01084297aaca50dd74db642b22e7950d13333a1e66c25cb9e31074d27c0f719",
+          "bytes": 2358670
         },
         "article_actual_folios": [
           210,
@@ -5842,16 +5897,19 @@
           216,
           217
         ],
-        "selected_opening_folios": [
-          210,
-          211,
-          212,
-          213,
-          214,
-          215
-        ],
-        "source_compared_text_regions": 42,
-        "native_acceptance_pending": true
+        "source_extent_verified": true,
+        "extent_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-51/transition.json",
+          "sha256": "5f5d35f72ad9fb5f928efe8ded212c28a445b3e194035b178fda0694f5a0a655",
+          "bytes": 1601
+        },
+        "restoration_pending": true,
+        "partial_native_selected": true
+      },
+      "source_work_evidence": {
+        "path": "metadata/catalog/scan-restoration/1984-03-interface-opening-work.json",
+        "sha256": "1f74b5fced3ff660a17e3668e0399fe2c3a5acbf5e55a487c23e4ae16a626d82",
+        "bytes": 7976
       }
     },
     {
@@ -5947,7 +6005,23 @@
         225,
         226,
         227
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 218,
+        "observed_title": "도형정의표(Shape Table)의 정복",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-51/review/full-218.jpg",
+          "sha256": "1097bb95f0664edbd219f01e46bfa55a02784665b06f777252cf82c39a6a7f96",
+          "bytes": 1819924
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-51/transition.json",
+          "sha256": "5f5d35f72ad9fb5f928efe8ded212c28a445b3e194035b178fda0694f5a0a655",
+          "bytes": 1601
+        },
+        "source_extent_verified": false,
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0033",
@@ -6866,14 +6940,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-50/source-ledger.json",
-    "sha256": "23165aa2b9f796a1bb26a0de8ee9e90c034b5b167409731548d333883ad1910d",
-    "bytes": 368123
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/source-ledger.json",
+    "sha256": "322cf6f5e62eecf347432c7022f81fed914e1160d46859766cbf79c749f3170f",
+    "bytes": 380320
   },
-  "current_checkpoint": "M55-source-work",
-  "next": "M55: encode and personally compare all native structures and prose relationships for the source-compared interface opening210–215. Create its recipe,two independent exports and complete native audit before accepting the opening. Then restore216–217 with figures5/6 and closing square,and assemble/audit the whole210–217 article. Continue every remaining March article,information-group classification and all273scan dispositions through reproducible whole-issue export and completion audit. Reuse the42 original OCR outcomes;no retries were run. M55 evidence remains unfrozen;never execute or modify frozen M54/predecessor helpers. Shared implementation remains the qualified M47 implementation-after.json.",
-  "pending_article_candidates": 11,
+  "current_checkpoint": "M55-complete",
+  "next": "M56: restore final216–217 of canonical 컴퓨터의 마담 뚜 인터페이스 from the original JPEGs,preserving accepted M55 native opening210–215 and verified full extent210–217. Retain figure5 three-wire DTE/DCE diagram,figure6 crossed modem-cable diagram,all remaining prose/sections/captions and217 closing hollow square. Join215 벗 to216 어나지만 with empty separator during complete article assembly. Then assemble and independently audit the full210–217 article before restoring 도형정의표의 정복 from located218. Continue every remaining March article,information-group heading and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute or modify frozen M55/predecessor helpers. Shared implementation remains qualified M47 implementation-after.json.",
+  "pending_article_candidates": 10,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 0,
+  "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5
 }

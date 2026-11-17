@@ -546,6 +546,27 @@ dispositions across all 273 scans**. Continue M55 native work, then restore
 whole-issue export/completion audit remain required. See the
 [M55 work handoff](docs/SCAN-RESTORATION-1984-03-M55-WORK.md).
 
+**M55 accepts the native interface opening, actual 210–215**, of the verified
+**210–217** article. Two **186-file exports** match; the independent audit checks
+all 52 source crops, 42 recognition bindings and **2,112 native records**.
+Eighteen structures retain **244 fields, five empty directions, 165 paths and
+61 pin rows**, including both connectors, both timing drawings, ten inline
+overbars and stacked 1½. Ten original rasters, five headings, 44 paragraphs,
+fourteen prose joins, four captions and three illustration interruptions remain.
+Seventeen native overlays have source comparison; all **24 damaged cases**
+reject. Full-size review corrects the initial pin 10 ACK no-bar observation while
+preserving earlier readings and every OCR byte. All 35 qualifications and four
+glyph contexts remain explicit. All 27 preceding packages / 5,380 files,
+53 implementation pins and 595 frozen M54 files remain exact. M55 freezes
+**626 pinned evidence files**, plus its manifest; never execute its helpers.
+March stays active with **27 complete articles, one partial article, ten pending
+articles, five complete headings, one pending heading and 74 pending full-page
+dispositions across all 273 scans**. Continue **M56 on 216–217**, retaining
+figures 5/6, every remaining section and the closing hollow square, then
+assemble/audit the complete article. Every remaining March task and whole-issue
+export/completion audit remain required. See the
+[M55 native handoff](docs/SCAN-RESTORATION-1984-03-M55.md).
+
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0031",
   "canonical_received_title": "컴퓨터의 마담 뚜 인터페이스",
   "observed_source_title": "컴퓨터의 마담 뚜 : 인터페이스",
-  "status": "source-text-work-audit-passed;native-acceptance-pending",
+  "status": "accepted-native-opening-segment;whole-article-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -51,27 +51,27 @@
   "planned_RS232_pin_rows": 25,
   "planned_RS232_empty_direction_contexts": 5,
   "planned_caption_associations": 4,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_package_selected": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_package_selected": true,
   "whole_article_complete": false,
   "whole_issue_complete": false,
   "complete_whole_scan_articles": 27,
-  "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 11,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 10,
   "complete_whole_scan_headings": 5,
   "pending_heading_candidates": 1,
   "source_images": 273,
-  "source_dispositions_pending": 82,
-  "source_accounting_note": "Source work only;accepted article/heading totals and M54 ledger remain unchanged. All273scans and every remaining March task stay in scope.",
+  "source_dispositions_pending": 74,
+  "source_accounting_note": "Accepted210–215 opening and located216–218 dispositions reduce pending full-page review to74;native final216–217 remains required. Whole March stays active.",
   "unchanged_implementation_pins": 53,
   "unchanged_frozen_M54_files": 595,
   "qualified_test_baseline": "M47 implementation-after.json;300 tests;unchanged implementation;not freshly rerun",
   "review_status": "assistant-personally-source-compared;not-human-acceptance",
   "cleanup": "preview-only;no deletion",
-  "evidence_frozen": false,
+  "evidence_frozen": true,
   "active_process_handles": [],
-  "next": "M55: encode and personally compare all native structures and prose relationships for the source-compared interface opening210–215. Create its recipe,two independent exports and complete native audit before accepting the opening. Then restore216–217 with figures5/6 and closing square,and assemble/audit the whole210–217 article. Continue every remaining March article,information-group classification and all273scan dispositions through reproducible whole-issue export and completion audit. Reuse the42 original OCR outcomes;no retries were run. M55 evidence remains unfrozen;never execute or modify frozen M54/predecessor helpers. Shared implementation remains the qualified M47 implementation-after.json.",
+  "next": "M56: restore final216–217 of canonical 컴퓨터의 마담 뚜 인터페이스 from the original JPEGs,preserving accepted M55 native opening210–215 and verified full extent210–217. Retain figure5 three-wire DTE/DCE diagram,figure6 crossed modem-cable diagram,all remaining prose/sections/captions and217 closing hollow square. Join215 벗 to216 어나지만 with empty separator during complete article assembly. Then assemble and independently audit the full210–217 article before restoring 도형정의표의 정복 from located218. Continue every remaining March article,information-group heading and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute or modify frozen M55/predecessor helpers. Shared implementation remains qualified M47 implementation-after.json.",
   "scope": {
     "path": "archive/scans/1984-03/restoration/whole-issue-51/scope.json",
     "sha256": "895823feb6024848401d0121a39dfeb7879ae53e0e65e7c7e7331627032c3cfb",
@@ -103,14 +103,14 @@
     "bytes": 4533
   },
   "source_readings": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/source-compared-readings-01.json",
-    "sha256": "f6da5985706f71998b645e2d3b951d0ed5c82ea865a64c6aec7e0353db3b63af",
-    "bytes": 118378
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/source-compared-readings-02.json",
+    "sha256": "adbf1479a8f13704796996e5970beafde125d8aeabe3ae20e24bf37fe908d48c",
+    "bytes": 119075
   },
   "native_structure_plan": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/native-structure-plan-01.json",
-    "sha256": "e9840f59be0100d3c436791ae83abbe65a2a39cd9459d2a55daf0583b93483dd",
-    "bytes": 14008
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/native-structure-plan-02.json",
+    "sha256": "c9ebad1d5a1380c8214a89d4a2fae4320502d73655c2a95930a2bca399567d32",
+    "bytes": 14133
   },
   "source_text_work_audit": {
     "path": "archive/scans/1984-03/restoration/whole-issue-51/source-text-work-audit.json",
@@ -124,12 +124,59 @@
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-51/resume.json",
+    "sha256": "adc7d73f52484e098c542bde2a95148d04054a749511f31124ec88434dc0b650",
+    "bytes": 1967
+  },
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/cleanup-preview-final.log",
+    "sha256": "8edad345b4f1cbcc6d65f04e30e0b656cbe3583d669910528dc21d7590175d81",
+    "bytes": 233
+  },
+  "native_opening_package_selected": true,
+  "full_native_opening_complete": true,
+  "selected_package": "archive/scans/1984-03/packages/interface-jpeg-a-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/interface-jpeg-a-r01/manifest.json",
+    "sha256": "db0a8abe2743a8f93fcfbe25e85411a76295a5d5fbffcf12a5caedd2b96feae7",
+    "bytes": 32459
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/recipe-native-01.json",
+    "sha256": "82e1b5e163dca3ff6f3fc8bfc6fcc6c060e0ea629a4f5530b23ccdaa6596776e",
+    "bytes": 10784
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/validation.json",
+    "sha256": "e0a21f65d2521b5055d35a333a2a41a380db5f60f92104da682dabc2c37d0335",
+    "bytes": 5994
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/native-geometry-review.json",
+    "sha256": "14e1d626cbc25bf55b8eb53ec78b5785cad09d8b8dcf91400d717c73e55bb2eb",
+    "bytes": 27184
+  },
+  "native_structures": 18,
+  "native_fields": 244,
+  "empty_direction_contexts": 5,
+  "native_paths": 165,
+  "native_pin_rows": 61,
+  "source_native_qualifications": 35,
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/source-ledger.json",
+    "sha256": "322cf6f5e62eecf347432c7022f81fed914e1160d46859766cbf79c749f3170f",
+    "bytes": 380320
+  },
+  "frozen_evidence_path": "archive/scans/1984-03/restoration/whole-issue-51/evidence-manifest.json",
+  "accepted_result_path": "metadata/catalog/scan-restoration/1984-03-interface-opening.json",
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/process-outcomes-final.json",
+    "sha256": "c6877d52cc36671fa484c18877e8045449e5a169b04a6e5874f0598a82f278c0",
+    "bytes": 2486
+  },
+  "historical_source_work_resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/resume-before-native-acceptance.json",
     "sha256": "6d9ba9f89854a8f397ba09c58b3cd9987e2677280ceeb6c95b0436019314a69d",
     "bytes": 1741
   },
-  "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-51/cleanup-preview-source-work.log",
-    "sha256": "d17bb4c15a105006fff1674e0cac45706b8bfa72b26bb91aa40351d0063f9fd3",
-    "bytes": 233
-  }
+  "resume_pointer_note": "Final metadata check corrected a retained source-work resume pointer to the accepted frozen resume;original pointer bytes remain in the historical resume snapshot. Frozen M55 evidence and accepted package bytes are unchanged."
 }
