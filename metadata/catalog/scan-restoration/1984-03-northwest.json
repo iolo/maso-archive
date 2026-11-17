@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M47",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0025",
+  "status": "complete-native-article",
+  "canonical_received_title": "서북 편란법",
+  "observed_source_title": "서북 편란법",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/northwest-jpeg-assembly-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/northwest-jpeg-assembly-r01/manifest.json",
+    "sha256": "594deb5d066eebd2dbec2b58859d33377f91d1636372b8334dd2a6734555bc41",
+    "bytes": 40555
+  },
+  "exact_files": 229,
+  "retained_segment_files": 220,
+  "master_crops": 58,
+  "recognition_bindings": 48,
+  "recognition_retries": 0,
+  "native_index_records": 6529,
+  "source_qualifications": 70,
+  "physical_program_rows": 275,
+  "logical_program_units": 256,
+  "physical_wraps": 19,
+  "opaque_drawing_runs": 11,
+  "native_structure": {
+    "original_figures": 10,
+    "native_figure_contexts": 11,
+    "cells": 176,
+    "fields": 301,
+    "paths": 155,
+    "flow_shapes": 36,
+    "flow_routes": 39,
+    "narrative_joins": 6,
+    "original_variable_entries": 9,
+    "independent_range_claims": 18,
+    "formula_contexts": 37,
+    "captions": 8
+  },
+  "typed_references": 39149,
+  "source_and_active_byte_spans": 19178,
+  "source_asset_bindings": 9651,
+  "rejected_damaged_cases": 55,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-43/validation.json",
+    "sha256": "b75640db1d6b026bbc725039c8c877909c7bbe865b27756f7fad41e5eca29330",
+    "bytes": 7492
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-43/assembly-recipe-r01.json",
+    "sha256": "d2770255387031e3b1cc73fb1df82cd6cf459a3c792958682ee3887b0dc096db",
+    "bytes": 11303
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-43/source-ledger.json",
+    "sha256": "888329204516a1072ba43af164824a81a25a858ba4fdf67eec16fdc20c140bf9",
+    "bytes": 326275
+  },
+  "source_dispositions_pending": 106,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-43/whole-progress-m47.json",
+    "sha256": "aa85eb97c9fdbfa56f359ca9121d018898e383b9a846c110ba36b5bd909f8791",
+    "bytes": 204585
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-43/evidence-manifest.json",
+    "sha256": "aeeee0815bd9d66031752028c278654e2703e303574d3c61d7cdf4c1538bff2b",
+    "bytes": 6367
+  },
+  "frozen_evidence_files": 39,
+  "shared_implementation_changed": true,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-43/implementation-after.json",
+    "sha256": "11538b4ee4119a79cf624372736980883feaa90cff49bc1035ee7abc4258bfcc",
+    "bytes": 9298
+  },
+  "fresh_regression_tests": 300,
+  "next": "M48: restore 데이터 베이스 패키지 from located174after verifying its complete extent and neighbors. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Preserve frozen M45–M47evidence; use M47implementation-after.json as the current implementation baseline."
+}

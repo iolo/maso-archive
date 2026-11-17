@@ -112,7 +112,50 @@ class ObservedProgramTests(unittest.TestCase):
         self.assertEqual(program['physical_rows'],5);self.assertEqual(program['logical_units'],4)
         self.assertEqual(len(program['source_fragments'][1]['physical_line_references']),2)
 
-    def export_fixture(self,root):
+    def indexed_row_fixture(self):
+        specs, contexts, listing = self.source_fixture()
+        specs[0]['source_layout'] = 'indexed-physical-rows-v1'
+        for context in contexts:
+            group = context.correction['listing_groups'][0]
+            group.pop(S); group.pop(E); group['complete_in_segment'] = True
+            by_id = {r['line_id']: r for r in context.correction['listing_line_index']}
+            for unit in context.correction['logical_listing_line_index']:
+                unit.pop('physical_reading')
+                unit['segments'] = []
+                for id in unit['physical_line_ids']:
+                    row = by_id[id]
+                    row.update(source_unit_id=unit['line_id'], scan=dict(path=context.name+'.png', sha256='0'*64, bytes=1))
+                    unit['segments'].append(dict(region_id=row['region_id'], scan=deepcopy(row['scan']),
+                                                 **{S:row[S], E:row[E]}))
+        return specs, contexts, listing
+
+    def test_indexed_rows_preserve_immutable_sources_without_duplicate_readings(self):
+        specs, contexts, listing = self.indexed_row_fixture()
+        before = deepcopy([c.correction for c in contexts])
+        program = project_observations(specs, contexts, listing)[0]
+        self.assertEqual(program['source_layout'], 'indexed-physical-rows-v1')
+        self.assertEqual(program['physical_reading'], contexts[0].listing.decode()+'\n'+contexts[1].listing.decode())
+        self.assertEqual([c.correction for c in contexts], before)
+        self.assertFalse(program['original_encoded_bytes_verified'])
+
+    def test_indexed_row_contract_rejects_lost_source_binding_and_contradictions(self):
+        cases = {
+            'missing opt-in': lambda s,c:s[0].pop('source_layout'),
+            'unknown layout': lambda s,c:s[0].update(source_layout='anything'),
+            'partial bounds': lambda s,c:c[0].correction['listing_groups'][0].update({S:0}),
+            'contradictory bounds': lambda s,c:c[0].correction['listing_groups'][0].update({S:0,E:1}),
+            'contradictory reading': lambda s,c:c[0].correction['logical_listing_line_index'][0].update(physical_reading='different'),
+            'missing source segments': lambda s,c:c[0].correction['logical_listing_line_index'][0].pop('segments'),
+            'changed source scan': lambda s,c:c[0].correction['logical_listing_line_index'][0]['segments'][0]['scan'].update(path='foreign.png'),
+            'wrong row unit': lambda s,c:c[0].correction['listing_line_index'][0].update(source_unit_id='wrong'),
+            'incomplete fragment': lambda s,c:c[0].correction['listing_groups'][0].update(complete_in_segment=False),
+        }
+        for fault, change in cases.items():
+            specs, contexts, listing = self.indexed_row_fixture(); change(specs, contexts)
+            with self.subTest(fault=fault), self.assertRaises(ValueError):
+                project_observations(specs, contexts, listing)
+
+    def export_fixture(self,root, *, indexed_rows=False):
         path=native_base.ScopedNativeTests().fixture(root);recipe=json.loads(path.read_bytes())
         recipe['source_index_mode']='scoped-observations-v1'
         for join in recipe['prose_joins']:join['intervening']=[]
@@ -125,13 +168,38 @@ class ObservedProgramTests(unittest.TestCase):
             group=c['listing_groups'][0];group.update(complete_in_segment=False,physical_rows=1,logical_units=1,original_encoded_bytes_verified=False,source_version=name,download='listing.txt')
             group.update({S:c['listing_line_index'][0][S],E:c['listing_line_index'][-1][E]})
             unit=c['logical_listing_line_index'][0];unit['physical_reading']=c['listing_line_index'][0]['text']
+            if indexed_rows:
+                group.pop(S); group.pop(E); group['complete_in_segment'] = True
+                unit.pop('physical_reading')
+                own = [r for r in c['listing_line_index'] if r['line_id'] in unit['physical_line_ids']]
+                for row in own:
+                    row['source_unit_id'] = unit.get('line_id', unit.get('source_unit_id'))
+                unit['segments'] = [dict(region_id=row['region_id'], scan=deepcopy(row['scan']),
+                                         **{S:row[S], E:row[E]}) for row in own]
             write_json(folder/'observed-corrections.json',c);r['corrections']=pin(folder,'observed-corrections.json');write_json(folder/'observed-recipe.json',r)
             output=root/'archive/observed-segments'/name;build(folder/'observed-recipe.json',output,root)
             spec=dict(name=name,manifest=pin(root,output.relative_to(root).as_posix()+'/manifest.json'));specs.append(spec);sources.append(read_segment(output,spec['manifest']))
         recipe['segments']=specs;order=[dict(segment=n,**v) for n,(p,c) in zip(('a','b'),sources) for v in p['content_order']]
         a=order.index(dict(segment='a',type='block',id='code'));z=order.index(dict(segment='b',type='block',id='code'))
         recipe['observed_programs']=[dict(program_id='main',fragments=[dict(segment=n,listing_id='code',first_source_unit_id=c['logical_listing_line_index'][0].get('line_id',c['logical_listing_line_index'][0].get('source_unit_id')),last_source_unit_id=c['logical_listing_line_index'][0].get('line_id',c['logical_listing_line_index'][0].get('source_unit_id'))) for n,(p,c) in zip(('a','b'),sources)],boundaries=[dict(left_printed_label='10',right_printed_label='10',separator='',source_unit_complete=True,intervening=order[a+1:z],evidence='Synthetic original complete source rows with existing newline.')],ending=dict(source_unit_id=sources[1][1]['logical_listing_line_index'][0]['line_id'],printed_label='10',source_unit_complete=True,evidence='Synthetic source ending.'),source_extent_complete=True,evidence='Observed source versions differ; original native scopes stay unchanged.')]
+        if indexed_rows:
+            recipe['observed_programs'][0]['source_layout'] = 'indexed-physical-rows-v1'
         write_json(path,recipe);return path,recipe,sources
+
+    def test_indexed_rows_export_rebuild_and_standalone_check(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);path,recipe,sources=self.export_fixture(root,indexed_rows=True)
+            before=deepcopy(sources);outputs=[]
+            for name in ('one','two'):
+                out=root/'work'/name;outputs.append(out);package=assemble(path,out,root)
+                self.assertEqual(check_export(out),package)
+                correction=json.loads((out/'corrections.json').read_bytes())
+                self.assertEqual(correction['observed_programs'][0]['source_layout'],'indexed-physical-rows-v1')
+                for field,records in correction['native_indexes'].items():
+                    self.assertEqual([(v['scope'],v['value']) for v in records],
+                                     [(n,v) for n,(p,c) in zip(('a','b'),sources) for v in c.get(field,[])])
+            files=lambda p:{f.relative_to(p).as_posix():f.read_bytes() for f in p.rglob('*') if f.is_file()}
+            self.assertEqual(files(outputs[0]),files(outputs[1]));self.assertEqual(sources,before)
 
     def test_independent_exports_and_original_native_scopes_stay_exact(self):
         with tempfile.TemporaryDirectory() as temp:

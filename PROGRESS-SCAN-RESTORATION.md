@@ -145,10 +145,20 @@ Current whole-March totals are **22 complete articles, one partial article,
 lexical fields. Both independent exports, all three pixel-exact crops, three
 initial OCR bindings and 23 damaged-data rejections pass. All 27 qualifications
 remain. M46 freezes 129 evidence files; shared implementation is unchanged.
-All 165–173 source pages now have accepted native segments. Continue **M47
-whole-article assembly/audit**, then every remaining March article, heading,
-source disposition and reproducible issue export/audit. Totals remain unchanged
-until the whole article passes. See
+**M47 now completes the whole 165–173 article in 229 exact native files**,
+retaining all 220 original segment files and 6,529 native records. Both whole
+exports, both fresh segment rebuilds, all 58 source crops, 48 OCR bindings,
+55 damaged cases and 300 fresh regressions pass. The complete program retains
+275 physical rows, 256 numbered units, nineteen wraps and eleven opaque drawing
+runs. Its explicit 10680/10690 boundary preserves the original intervening grid.
+All 70 source qualifications remain. M47 freezes 39 evidence files.
+Current totals are **23 complete articles, no partial articles, 15 pending
+articles, three complete headings, three pending headings and 106 pending
+full-page dispositions across all 273 scans**. Continue **M48 with 데이터 베이스
+패키지**, located opening 174, verifying candidate 174–177 and its neighbors.
+Every remaining March article, heading, source disposition and reproducible
+whole-issue export/audit remains required. See
+[the complete article](metadata/catalog/scan-restoration/1984-03-northwest.json),
 [the accepted ending](metadata/catalog/scan-restoration/1984-03-northwest-ending.json) and
 [the accepted opening](metadata/catalog/scan-restoration/1984-03-northwest-opening.json).
 March remains the current issue.

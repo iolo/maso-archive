@@ -7,6 +7,7 @@ from copy import deepcopy
 import re
 
 S, E = 'utf8_byte_start', 'utf8_byte_end_exclusive'
+ROW_LAYOUT = 'indexed-physical-rows-v1'
 
 
 def require(value, message):
@@ -22,9 +23,11 @@ def validate_observations(specs, names):
     require(isinstance(specs, list) and specs, 'Observed programs require an explicit nonempty array')
     ids, used = set(), set()
     for spec in specs:
-        require(isinstance(spec, dict) and set(spec) == {
-            'program_id', 'fragments', 'boundaries', 'ending', 'source_extent_complete', 'evidence'},
+        fields = {'program_id', 'fragments', 'boundaries', 'ending', 'source_extent_complete', 'evidence'}
+        require(isinstance(spec, dict) and set(spec) in (fields, fields | {'source_layout'}),
             'Invalid observed program declaration')
+        require('source_layout' not in spec or spec['source_layout'] == ROW_LAYOUT,
+                'Unknown observed program source layout')
         id = spec['program_id']
         require(isinstance(id, str) and re.fullmatch(r'[a-z][a-z0-9-]*', id) and id not in ids,
                 'Invalid or duplicate observed program identity')
@@ -86,6 +89,7 @@ def project_observations(specs, contexts, listing):
     order = [dict(segment=c.name, **item) for c in contexts for item in c.package['content_order']]
     results = []
     for spec in specs:
+        indexed_rows = spec.get('source_layout') == ROW_LAYOUT
         fragments, sources = [], []
         for part in spec['fragments']:
             c = by_name[part['segment']]
@@ -116,9 +120,12 @@ def project_observations(specs, contexts, listing):
                         'Observed physical source byte partition is not contiguous')
                 cursor = row[E]
             data = ''.join(r['text'] for r in rows).encode()
+            bounds = (group.get(S), group.get(E))
+            if indexed_rows and S not in group and E not in group:
+                bounds = (start, end)  # Original row partition supplies the bounds.
             require(c.listing[start:end] == data and
                     listing[start+c.listing_offset:end+c.listing_offset] == data and
-                    (group.get(S), group.get(E)) == (start, end),
+                    bounds == (start, end),
                     'Observed program fragment differs from original listing bytes')
             require(all(c.blocks[b]['kind'] == 'code' for b in group['block_ids']) and
                     ''.join(c.blocks[b]['text'] for b in group['block_ids']).encode() == data,
@@ -126,7 +133,24 @@ def project_observations(specs, contexts, listing):
             damaged = []
             for unit in units:
                 members = [by_id[id] for id in unit['physical_line_ids']]
-                require(unit.get('physical_reading') == ''.join(r['text'] for r in members) and
+                reading = ''.join(r['text'] for r in members)
+                original_reading = unit.get('physical_reading')
+                if indexed_rows:
+                    require(group.get('complete_in_segment') is True,
+                            'Indexed rows require a complete original source fragment')
+                    expected = []
+                    for i, row in enumerate(members):
+                        require(nonblank(row.get('region_id')) and isinstance(row.get('scan'), dict) and
+                                row.get('source_unit_id') == source_unit_id(unit) and
+                                (i == 0 or row.get('printed_line') is None),
+                                'Indexed row has wrong source, unit or continuation ownership')
+                        expected.append(dict(region_id=row['region_id'], scan=row['scan'],
+                                             **{S: row[S], E: row[E]}))
+                    require(unit.get('segments') == expected,
+                            'Indexed unit segments differ from exact physical source rows')
+                    if 'physical_reading' not in unit:
+                        original_reading = reading
+                require(original_reading == reading and
                         (unit[S], unit[E]) == (members[0][S], members[-1][E]) and
                         unit['printed_line'] == members[0]['printed_line'],
                         'Observed unit differs from its original physical source members')
@@ -185,11 +209,14 @@ def project_observations(specs, contexts, listing):
         require(ending['source_unit_id'] == source_unit_id(units[-1]) and
                 ending['printed_label'] == printed_label(units[-1]) and type(units[-1]['printed_line']) is int,
                 'Observed ending differs from the final original source unit')
-        results.append(dict(program_id=spec['program_id'],source_fragments=fragments,
+        result = dict(program_id=spec['program_id'],source_fragments=fragments,
             boundaries=boundaries,ending=dict(declaration=deepcopy(ending),
                 source_unit_reference=c.reference('logical', source_unit_id(units[-1]))),
             physical_reading=reading,physical_rows=sum(v['physical_rows'] for v in fragments),
             logical_units=sum(v['logical_units'] for v in fragments),
             source_extent_complete=True,original_listing_download_unchanged=True,
-            execute_verified=False,original_encoded_bytes_verified=False,evidence=spec['evidence']))
+            execute_verified=False,original_encoded_bytes_verified=False,evidence=spec['evidence'])
+        if indexed_rows:
+            result['source_layout'] = ROW_LAYOUT
+        results.append(result)
     return results

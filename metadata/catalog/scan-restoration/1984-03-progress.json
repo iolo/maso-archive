@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 22,
+  "complete_whole_scan_articles": 23,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -4862,8 +4862,8 @@
       "title": "서북 편란법",
       "parent_id": "maso-1984-03-toc-0022",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0025",
         "title": "서북 편란법",
@@ -4935,15 +4935,15 @@
         }
       },
       "new_selected_restoration": {
-        "checkpoint": "M45",
+        "checkpoint": "M47",
         "article_id": "scan-maso-1984-03-toc-0025",
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
-        "directory": "archive/scans/1984-03/packages/northwest-a-jpeg-r01",
+        "directory": "archive/scans/1984-03/packages/northwest-jpeg-assembly-r01",
         "manifest": {
-          "path": "archive/scans/1984-03/packages/northwest-a-jpeg-r01/manifest.json",
-          "sha256": "9365f9c6ca4b466c8e1046673d3105fbc74e2648035d5e0e3d25ba580e256c1f",
-          "bytes": 33512
+          "path": "archive/scans/1984-03/packages/northwest-jpeg-assembly-r01/manifest.json",
+          "sha256": "594deb5d066eebd2dbec2b58859d33377f91d1636372b8334dd2a6734555bc41",
+          "bytes": 40555
         },
         "article_actual_folios": [
           165,
@@ -4968,7 +4968,7 @@
           173
         ],
         "source_extent_covered": true,
-        "assembly_pending": true,
+        "assembly_pending": false,
         "continuation_pending": [],
         "segments": [
           {
@@ -5013,7 +5013,12 @@
             }
           }
         ],
-        "note": "All original165–173source pages now have accepted native segments; selected whole-article assembly remains pending."
+        "note": "Complete article165–173passes both229-file exports,all58original-master crops,48recognition bindings,all6529native records and the explicit275-row/256-unit source program. Both original native segments remain immutable.",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-43/validation.json",
+          "sha256": "b75640db1d6b026bbc725039c8c877909c7bbe865b27756f7fad41e5eca29330",
+          "bytes": 7492
+        }
       },
       "historical_printed_extent_candidate": [
         165,
@@ -5050,10 +5055,10 @@
           "sha256": "af2061181d5ee9267d238a66687071648c7aa5e34e02f6eee3643f3212346bfe",
           "bytes": 1422
         },
-        "restoration_pending": true,
-        "partial_native_selected": true,
+        "restoration_pending": false,
+        "partial_native_selected": false,
         "source_extent_native_segments_complete": true,
-        "whole_article_assembly_pending": true
+        "whole_article_assembly_pending": false
       }
     },
     {
@@ -6384,14 +6389,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-42/source-ledger.json",
-    "sha256": "793c1d6d51871f565c4ad0e3dd61f1e50d6d7fc4043352efaf845d31e2005342",
-    "bytes": 321784
+    "path": "archive/scans/1984-03/restoration/whole-issue-43/source-ledger.json",
+    "sha256": "888329204516a1072ba43af164824a81a25a858ba4fdf67eec16fdc20c140bf9",
+    "bytes": 326275
   },
-  "current_checkpoint": "M46-complete",
-  "next": "M47: assemble and independently audit the complete 서북 편란법 article165–173from immutable M45/M46native segments. Preserve the complete10680/10690boundary,all275physical program rows/256numbered units,all source qualifications and original segment bytes. Then restore 데이터 베이스 패키지 from located174and every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M45/M46helpers or evidence.",
+  "current_checkpoint": "M47-complete",
+  "next": "M48: restore 데이터 베이스 패키지 from located174after verifying its complete extent and neighbors. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Preserve frozen M45–M47evidence; use M47implementation-after.json as the current implementation baseline.",
   "pending_article_candidates": 15,
   "pending_heading_candidates": 3,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 3
 }

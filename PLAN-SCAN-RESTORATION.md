@@ -353,12 +353,22 @@ contexts. Both independent exports, three pixel-exact original crops, three
 initial OCR bindings and all 23 damaged-data checks pass. All 27 source
 qualifications remain, including the READ punctuation alternative and original
 printed errors. M46 freezes 129 evidence files without changing shared code.
-All 165–173 source pages now have accepted native segments; the complete article
-still requires **M47 assembly and independent audit**. Whole-March totals remain
-22 complete articles, one partial article, 15 pending articles, three completed
-headings, three pending headings and 106 pending dispositions across all 273 scans.
-Then restore the separate database article opening on 174 and every remaining
-March task through reproducible issue export/audit. See
+**M47 completes the whole 165–173 article in 229 exact native files**, retaining
+all 220 original segment files and 6,529 native records. Both independent whole
+exports, both fresh segment rebuilds, all 58 original-master crops and 48 OCR
+bindings pass. The complete observed program retains 275 physical rows, 256
+numbered units, nineteen wraps, eleven opaque drawing runs and the explicit
+10680/10690 boundary with its intervening original grid. All 70 qualifications
+remain. All 55 damaged cases and 300 fresh regressions pass. An explicit indexed
+row layout validates the preserved source records without adding duplicate
+fields to immutable segments; historical contracts and exports still pass.
+M47 freezes 39 evidence files. Whole-March totals are now **23 complete articles,
+no partial articles, 15 pending articles, three completed headings, three pending
+headings and 106 pending dispositions across all 273 scans**. Continue **M48 with
+데이터 베이스 패키지**, located opening 174, verifying candidate 174–177 and its
+neighbors before native restoration. Then complete every remaining March task
+and reproducible issue export/audit. See
+[the complete article](metadata/catalog/scan-restoration/1984-03-northwest.json),
 [the accepted ending](metadata/catalog/scan-restoration/1984-03-northwest-ending.json) and
 [the accepted opening](metadata/catalog/scan-restoration/1984-03-northwest-opening.json).
 March remains the current issue.

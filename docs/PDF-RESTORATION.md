@@ -3888,6 +3888,25 @@ asserting execution or recovered encoded bytes. The March reasoning-game assembl
 uses it to retain PET, SPC-1000 and FC-30 independently and join the two Apple
 fragments across the source1390/1400 boundary.
 
+Alternatively, `observed_programs` records source-reviewed continuity over
+heterogeneous immutable groups, including damaged printed labels. Each program
+declares its ordered fragments, complete boundary units, intervening content
+owners, final source unit and source-review evidence. The observed physical
+reading remains separate from execution and original encoded-byte claims.
+
+An observed program may explicitly select
+`source_layout: "indexed-physical-rows-v1"` when its preserved groups have complete
+physical/logical indexes but omit duplicate group byte bounds or per-unit
+`physical_reading` strings. This layout validates the contiguous original row
+bytes against the listing download and code blocks, complete ordered unit
+ownership, and every unit's exact per-row region/scan/range segments. Missing
+duplicate values are derived from those checked rows; contradictory supplied
+values are rejected. It preserves all original correction records. Omitting
+`source_layout` retains the existing stricter duplicate-field contract. The March
+서북 편란법 assembly uses this option to retain all 275 physical rows, 256
+numbered units and the original intervening PRINT grid without rewriting either
+native segment.
+
 ### Source-owned news assembly (`regional-news-v1`)
 
 The opt-in news extension of `structured-regions-v1` preserves immutable prose
