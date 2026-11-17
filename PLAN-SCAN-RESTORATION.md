@@ -448,6 +448,22 @@ the full UPDATE article extent from located 186 and restore its bounded opening*
 then every remaining March task through whole-issue export/completion audit.
 See the [complete medical article](metadata/catalog/scan-restoration/1984-03-medical.json)
 and [M51 handoff](docs/SCAN-RESTORATION-1984-03-M51.md).
+
+**M52 is active on the complete UPDATE article, actual 186–189.** All four
+selected and three outside full pages establish its extent and separate
+neighboring material. The selected map has 38 regions, 32 text owners, three
+diagrams and three tables. All 32 initial OCR tasks completed once without
+retries; every reading has enlarged JPEG comparison. The independent source
+audit verifies all 38 original-master crops, recognition bindings, unchanged
+implementation pins and frozen M51 evidence. Twenty-nine source qualifications
+retain printed table discrepancies, NMA$, missing punctuation, independent
+diagram/listing expressions and three unresolved glyph/ink limitations. Native
+requirements cover 128 table cells, 51 numbered program units/52 physical rows,
+80 diagram node contexts and six empty media interiors. Native encoding,
+overlay comparison, two complete exports and the separate source/native audit
+remain required. Accepted issue totals and M51 ledger remain unchanged; whole
+March stays active. M52 is not frozen. See the
+[M52 working handoff](docs/SCAN-RESTORATION-1984-03-M52-WORK.md).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

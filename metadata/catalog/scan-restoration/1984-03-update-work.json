@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M52",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0028",
+  "canonical_received_title": "UP DATE 프로그램의 작성",
+  "observed_source_title": "UPDATE 프로그램의 작성",
+  "observed_running_title": "UP TO DATE 프로그램의 작성",
+  "status": "all-source-text-compared;native-structures-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    186,
+    187,
+    188,
+    189
+  ],
+  "selected_work_folios": [
+    186,
+    187,
+    188,
+    189
+  ],
+  "outside_lookup_folios": [
+    185,
+    190,
+    191
+  ],
+  "mapped_regions": 38,
+  "initial_text_tasks": 32,
+  "source_compared_text_regions": 32,
+  "pending_source_text_regions": 0,
+  "recognition_retries": 0,
+  "original_figure_regions": 6,
+  "original_diagrams": 3,
+  "original_tables": 3,
+  "physical_program_rows": 52,
+  "numbered_program_units": 51,
+  "original_table_cells": 128,
+  "printed_transaction_zero_values": 9,
+  "observed_diagram_node_context_requirements": 80,
+  "empty_media_context_requirements": 6,
+  "enlarged_source_plates": 16,
+  "short_source_contacts": 2,
+  "short_source_contact_contexts": 16,
+  "quoted_glyph_contact_views": 1,
+  "total_source_comparison_views": 19,
+  "source_qualifications": 29,
+  "unresolved_local_glyph_or_ink_limitations": 3,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_article_package_selected": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "complete_whole_scan_articles": 25,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 13,
+  "complete_whole_scan_headings": 3,
+  "pending_heading_candidates": 3,
+  "source_images": 273,
+  "source_dispositions_pending": 94,
+  "source_accounting_note": "Accepted M51 ledger remains authoritative and unchanged. M52 has complete source comparison for 186–189, but native structures, independent exports/audit and article acceptance remain required.",
+  "active_process_handles": [],
+  "active_processes": [],
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/update/map-r02.json",
+    "sha256": "d10b42c1b39a9504bac0caf15c80f5ef0f8ca9263644547ad504016a5b107102",
+    "bytes": 21934
+  },
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/scope.json",
+    "sha256": "3f5e0243ecd32be529dae21d9d99632785b7060468c14b75f35b4abff80ce4cf",
+    "bytes": 2171
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/transition.json",
+    "sha256": "8b52f04fa61831b4720a56aacabba15d9c60540d1f30f38b3dbbcf4100ebf41f",
+    "bytes": 1567
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/full-page-review.json",
+    "sha256": "f3dc8b8d0ae26b9062ae51661ae5ba42aa6e5c7b77d14c706d80a280caa14c12",
+    "bytes": 6725
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/overlay-review.json",
+    "sha256": "dcb51dcff6eb5a664790b85e9b63122fd6ef3d0ea2d3857991c7a7f0ebcf66f4",
+    "bytes": 3434
+  },
+  "recognition_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/recognition-plan-r02.json",
+    "sha256": "0245324468b4fcfb8122c0bb20a08cafd09941c2ce8ff7afa884f70b55d9d1a5",
+    "bytes": 747
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/recognition-outcomes.json",
+    "sha256": "8a493dc9a374ad466c4bf5f7398a09d058d8465483af24a924286ad911731274",
+    "bytes": 2187
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/update/source-compared-readings-01.json",
+    "sha256": "b3d83b30a40399fca3d01d96f6232102fdf7c6b683d7c603ef8128da613e2f98",
+    "bytes": 57516
+  },
+  "source_text_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/source-text-work-audit.json",
+    "sha256": "db71663af55da9a90883a63f666fef16687a893cab0626a156612cc08bc4421c",
+    "bytes": 1191
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-structure-plan.json",
+    "sha256": "7cdfc1d9d870bb3dd58451907d5c93ea2d7439feb2bd5b30e6de58851dcbaec6",
+    "bytes": 23420
+  },
+  "working_milestone": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/source-working-milestone.json",
+    "sha256": "21d58d0c35427e9056b1e4be7ce4dfb0cc5942c702604adc5753eb50b7566fac",
+    "bytes": 1789
+  },
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/resume.json",
+    "sha256": "e15746287a7ecb0deecfff2a3df903635de6a9b734780f9bfb7eaa50654f7eae",
+    "bytes": 2975
+  },
+  "terminal_processes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/terminal-processes.json",
+    "sha256": "2e509595db901932e6e1655a359cd5d2dbfe1cb5c6035f4cc21e7fa05e10a0e1",
+    "bytes": 596
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-47/source-ledger.json",
+    "sha256": "c4c7e47401018392865837fe0da67c0bbd288f3d35410ad13f8c5f5bdd02f05e",
+    "bytes": 349560
+  },
+  "cleanup_preview": "56.6 GiB; preview only; no deletion",
+  "cleanup_preview_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/cleanup-preview-01.log",
+    "sha256": "c4300aeb445caf37fa75e81c26771ba3fdda50c722cab6cc6e3b64dd6ebaad1f",
+    "bytes": 233
+  },
+  "shared_implementation_changed": false,
+  "qualified_unchanged_regression_tests": 300,
+  "next": "Continue M52 with native encoding for complete UPDATE actual 186–189. Reuse all 32 source-compared readings and original successful OCR. Encode all 128 original table cells, nine printed transaction zeros, 51 numbered program units/52 physical rows, line190 wrap, both listing frames, two cross-column prose joins and all captions. Restore all three diagrams from the original pixels: 80 observed node contexts, six empty media interiors, original headed/unheaded paths, named connectors, branch labels, literal expressions and visible outline gaps. Preserve all 29 qualifications, including three unresolved glyph/ink limitations, the NMA$ diagram label, displayed result-table discrepancies, missing deletion-instruction comma and source filenames with printed period gaps. Compare native overlays, build the complete article twice and run a separate source/native audit before selection. Then continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M51 helpers; shared implementation remains M47 implementation-after.json."
+}

@@ -5474,6 +5474,11 @@
           "bytes": 2066
         },
         "restoration_pending": true
+      },
+      "current_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-update-work.json",
+        "sha256": "23aa8760425c7ff97ef81068ee0102429a8ffadd4b45e28d8e2f80c43042f6db",
+        "bytes": 6602
       }
     },
     {
@@ -6578,10 +6583,15 @@
     "sha256": "c4c7e47401018392865837fe0da67c0bbd288f3d35410ad13f8c5f5bdd02f05e",
     "bytes": 349560
   },
-  "current_checkpoint": "M51-complete",
-  "next": "M52: verify the complete source extent of canonical UP DATE 프로그램의 작성 (maso-1984-03-toc-0028) from its located original 186 opener and neighboring scans. Restore at most six opening pages in a bounded native checkpoint, preserving all source prose, listings, tables, diagrams and continuities; establish the ending from source evidence rather than catalog references. Then complete and audit the article and continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Never execute or modify frozen M49–M51 helpers/evidence. Shared implementation remains the qualified M47 implementation-after.json baseline.",
+  "current_checkpoint": "M52-working",
+  "next": "Continue M52 with native encoding for complete UPDATE actual 186–189. Reuse all 32 source-compared readings and original successful OCR. Encode all 128 original table cells, nine printed transaction zeros, 51 numbered program units/52 physical rows, line190 wrap, both listing frames, two cross-column prose joins and all captions. Restore all three diagrams from the original pixels: 80 observed node contexts, six empty media interiors, original headed/unheaded paths, named connectors, branch labels, literal expressions and visible outline gaps. Preserve all 29 qualifications, including three unresolved glyph/ink limitations, the NMA$ diagram label, displayed result-table discrepancies, missing deletion-instruction comma and source filenames with printed period gaps. Compare native overlays, build the complete article twice and run a separate source/native audit before selection. Then continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M51 helpers; shared implementation remains M47 implementation-after.json.",
   "pending_article_candidates": 13,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-update-work.json",
+    "sha256": "23aa8760425c7ff97ef81068ee0102429a8ffadd4b45e28d8e2f80c43042f6db",
+    "bytes": 6602
+  }
 }
