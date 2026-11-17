@@ -5298,3 +5298,52 @@ All launched jobs are terminal. Cleanup was previewed without deletion.
 Whole March remains at **sixteen complete articles, one partial article,
 21 pending article candidates and 164 pending full-page dispositions**.
 See [the saved ending work state](metadata/catalog/scan-restoration/1984-03-systems-ending-work.json).
+
+## M31 complete — checked native systems ending, actual 106–108
+
+Accepted final **106–108** of **마이크로 컴퓨터 시스템 입문** as a native
+segment of verified **100–108**. Two fresh exports reproduce **155 exact
+files**. All **35 text contexts** have enlarged source comparison: 33 prose,
+title and caption contexts plus two independent listings. All six complete
+original figures retain their captions. The ending includes 26 reading blocks,
+35 regional texts, nine local joins, four bibliography entries and the closing
+star. The **sym-/bol table** join remains explicit; the incoming **so-/urce**
+join awaits whole-article assembly with M30.
+
+The figures retain **eight structures, 176 fields, twelve labels, 55 paths and
+29 physical listing-row contexts**. Both source listings preserve **146
+explicit fields**, including blank fields, printed object strings, addresses,
+comments and the separate **Errors 0** status row. Output source ordinals bind
+the fourteen source-program rows without regenerating the output. Figure 13c's
+printed upper arrow points upward and remains so. Figure 10's table-bottom
+terminal direction remains locally uncertain. Preserve the original **two
+path** wording, printed **모의 테이블 코드** label and the local **u/c** glyph
+uncertainty in selected **desuription**.
+
+Overlay comparison refined Figure 11's two curved centerlines and a blank
+status-field context. All first overlays remain preserved. The first audit's
+damaged-data checks exposed a missing validation for the last two source
+qualifications. The expanded audit then caught a native indexing omission:
+the prose already contained **STORE : DS 20H**, but its separate directive
+selector expected different spacing. The corrected package adds that exact
+occurrence without changing prose, code or geometry. Both initial exports,
+all three audit attempts and their helpers remain preserved.
+
+The accepted audit passes **41 original-master pixel checks, 35 OCR bindings,
+147 raw ZIP members and 26 damaged-data cases**. It checks **934 native index
+records, 4,006 typed references, 2,082 source/active byte spans and 805 source
+asset bindings**. All **821 frozen M30 evidence files** and **51 shared
+implementation pins** remain exact; the unchanged **291-test** baseline is
+qualified. M31 freezes **372 evidence files**, excluding disposable bytecode
+caches only. Cleanup was previewed without deletion; all launched processes
+were observed terminal.
+
+Whole March remains active: **sixteen complete articles, one partial article,
+21 pending article candidates, two completed headings, four pending headings
+and 164 pending full-page dispositions**, across all **273 scans**. The systems
+article now has native source coverage of all nine pages, but remains partial
+until **M32** assembles and independently validates **100–108**, including the
+intervening Figure 9/caption and the **105/106 so-/urce** boundary. Continue
+afterward with **자동 실행 테이프의 전모**, actual **109–112**, and the rest of
+the issue. See [the accepted ending](metadata/catalog/scan-restoration/1984-03-systems-ending.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

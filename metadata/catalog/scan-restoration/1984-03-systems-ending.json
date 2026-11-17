@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M31",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0018",
+  "canonical_received_title": "마이크로 컴퓨터 시스템 입문",
+  "observed_source_title": "마이크로컴퓨터 시스템 입문",
+  "status": "complete-native-ending-segment",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    106,
+    107,
+    108
+  ],
+  "article_actual_folios": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/systems-ending-jpeg-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/systems-ending-jpeg-r02/manifest.json",
+    "sha256": "b2c7e82cc7d009c2b48527bed9f3db39fbc1b84523dd548e1596187a8478723b",
+    "bytes": 26109
+  },
+  "exact_files": 155,
+  "native_structure": {
+    "blocks": 26,
+    "regional_texts": 35,
+    "prose_joins": 9,
+    "original_figures": 6,
+    "structures": 8,
+    "fields": 176,
+    "labels": 12,
+    "connectors": 55,
+    "listing_rows": 29,
+    "listing_fields": 146,
+    "bibliography_entries": 4,
+    "caption_associations": 6,
+    "independent_listings": 2,
+    "whole_article_complete": false,
+    "whole_issue_complete": false
+  },
+  "native_index_records": 934,
+  "typed_references": 4006,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/validation.json",
+    "sha256": "b9fa596460022025e07ddee43227dadc94e2eb5af37c210c1dc8c387984c0092",
+    "bytes": 2793
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/systems/recipe-r01.json",
+    "sha256": "8529493130fe1e25dff05533e018259b73bd19949e8a14c96e7887c184e432de",
+    "bytes": 9069
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/source-ledger.json",
+    "sha256": "36d4320861d295d8a076447a28d734ed1a3d249dcce386689a179fe52a50d946",
+    "bytes": 259862
+  },
+  "source_dispositions_pending": 164,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/whole-progress-m31.json",
+    "sha256": "6a16e99213ff637934ef559512fec9f3f4b3baea0ebd385be9a4f0632037ea6b",
+    "bytes": 179677
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/evidence-manifest.json",
+    "sha256": "4cbbc936241b55032dfb84725d1f8f5d193792e2b3462ac318510f7396c99c3d",
+    "bytes": 65098
+  },
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 291,
+  "next": "M32: assemble and independently validate complete100–108of 마이크로 컴퓨터 시스템 입문 from the accepted M30/M31native segments. Retain the explicit105/106so-/urce source join and intervening Figure9/caption. Then continue 자동 실행 테이프의 전모,maso-1984-03-toc-0019,on109–112, and every remaining March article,heading and source disposition before whole-issue export/audit."
+}
