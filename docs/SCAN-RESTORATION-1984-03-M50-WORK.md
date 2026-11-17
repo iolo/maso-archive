@@ -1,5 +1,12 @@
 # March 1984 M50 medical article final pages
 
+**Historical working handoff. M50 is now accepted.** The selected ending has
+two matching 94-file exports, all eleven native figures and the independent
+source/native audit. See the [M50 acceptance handoff](SCAN-RESTORATION-1984-03-M50.md).
+The source-only counts and pending steps below describe the earlier work state;
+the selected reading now has 26 source qualifications plus five geometry
+qualifications. M51 assembles and audits the complete 178–185 article.
+
 M50 is active for canonical 의료보험수가 계산 프로그램
 (`maso-1984-03-toc-0027`), final actual **184–185** of verified **178–185**.
 The accepted M49 opening on 178–183 remains immutable. Both selected final

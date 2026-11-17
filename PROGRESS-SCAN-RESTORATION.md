@@ -2,19 +2,21 @@
 
 Updated 2026-11-17. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Latest accepted March checkpoint: **M49 complete**, medical-article opening 178–183 of
-verified 178–185, with two matching 260-file native exports. Accepted totals are
+Latest accepted March checkpoint: **M50 complete**, medical-article ending 184–185 of
+verified 178–185, with two matching 94-file native exports. Accepted totals are
 **24 complete articles, one partial article, thirteen pending articles, three
 complete headings, three pending headings and 94 pending full-page dispositions
-across all 273 scans**. Continue **M50**, final 184–185 and the complete medical
-article assembly/audit. March remains active. See the
-[M49 handoff](docs/SCAN-RESTORATION-1984-03-M49.md).
+across all 273 scans**. Continue **M51**, complete medical article assembly/audit
+from the immutable M49/M50 segments. March remains active. See the
+[M50 handoff](docs/SCAN-RESTORATION-1984-03-M50.md).
 
-**M50 is working on final 184–185.** All nineteen text owners now have enlarged
-source comparison; thirty exact crops and all nineteen initial recognition
-bindings pass. Native structures and independent final-segment exports/audit
-remain pending, followed by the complete 178–185 assembly/audit. See the
-[M50 working handoff](docs/SCAN-RESTORATION-1984-03-M50-WORK.md).
+**M50 accepts all final 184–185 native structures.** Eight menus/forms and three
+diagrams retain 432 fields, 122 blank contexts and 144 source paths. All thirty
+original crops, nineteen text owners, three hierarchies, four physical wraps
+and eleven caption associations pass the separate source/native audit. Thirty-one
+qualifications remain. M50 freezes 456 evidence files; never execute its helpers.
+The complete 178–185 assembly/audit follows, then UPDATE from located 186 and
+every remaining March task through whole-issue completion.
 
 ## Current status
 

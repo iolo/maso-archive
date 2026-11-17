@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M50",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0027",
+  "status": "complete-native-ending-segment",
+  "canonical_received_title": "의료보험수가 계산 프로그램",
+  "observed_source_title": "의료보험 수가계산 프로그램",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    184,
+    185
+  ],
+  "article_actual_folios": [
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/medical-b-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/medical-b-jpeg-r01/manifest.json",
+    "sha256": "b4b77248fc9c4ccfbf2f3115593594775a37fa6915fc14f1776f45ad222ab336",
+    "bytes": 16456
+  },
+  "exact_files": 94,
+  "native_index_records": 1314,
+  "typed_references": 7769,
+  "byte_spans": 2197,
+  "source_asset_bindings": 1332,
+  "master_crops": 30,
+  "recognition_bindings": 19,
+  "recognition_retries": 0,
+  "source_qualifications": 31,
+  "rejected_damaged_cases": 12,
+  "additional_geometry_contract_damaged_cases": 16,
+  "native_structure": {
+    "original_figures": 11,
+    "native_contexts": 11,
+    "forms": 8,
+    "diagrams": 3,
+    "diagram_nodes": 54,
+    "diagram_label_lines": 63,
+    "fields": 432,
+    "blank_contexts": 122,
+    "paths": 144,
+    "ordered_hierarchies": 3,
+    "source_continuities": 4,
+    "caption_associations": 11,
+    "source_field_occurrences": 310
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-46/validation-native-ending.json",
+    "sha256": "53e3bae977c250d3fd4d686c1cf9821bdb32d91a084883354f50cd2a257aa8dc",
+    "bytes": 4128
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-46/medical-b/recipe-native-01.json",
+    "sha256": "1166db1cdd6b0646a689c40a52bba633590aae3f554fd3a3c3cc351c1e90fdb5",
+    "bytes": 8242
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-46/source-ledger.json",
+    "sha256": "deb9b6bb934ec2b02333b047c0e2993bf9c72d6a10159705539e9d8348f95c3b",
+    "bytes": 346008
+  },
+  "source_dispositions_pending": 94,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-46/whole-progress-m50.json",
+    "sha256": "b122059ac478ed97c04f9f4defd19ff26f84a440ea1e7cd9fc35b49b754be5a2",
+    "bytes": 211497
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-46/evidence-manifest.json",
+    "sha256": "ffd661b4f1e80b92bc7480468a23ed9b2b8449ea399fb36397b0cefee3579d01",
+    "bytes": 83891
+  },
+  "frozen_evidence_files": 456,
+  "shared_implementation_changed": false,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-46/implementation-before.json",
+    "sha256": "886adef90d4fa5c4764baed63d40b75b75154969bbff190f381f7f99852eb359",
+    "bytes": 9173
+  },
+  "qualified_regression_tests": 300,
+  "fresh_regression_tests": 0,
+  "next": "M51: assemble and independently audit the complete medical article, actual 178–185, from immutable M49 opening and M50 ending packages. Page 183 ends a complete form context; 184 begins section 5), so no cross-segment sentence join is required. Preserve every native record, source qualification, shared caption, empty context and original path, including the lower feeding diagram after the prose closing star. Then continue UP DATE 프로그램의 작성 from located 186 and every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49/M50 helpers."
+}

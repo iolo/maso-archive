@@ -5293,14 +5293,13 @@
           180,
           181,
           182,
-          183
-        ],
-        "source_extent_covered": false,
-        "assembly_pending": true,
-        "continuation_pending": [
+          183,
           184,
           185
         ],
+        "source_extent_covered": true,
+        "assembly_pending": true,
+        "continuation_pending": [],
         "recipe": {
           "path": "archive/scans/1984-03/restoration/whole-issue-45/medical-a/recipe-native-02.json",
           "sha256": "dcf116f036f13bfc83eccfe4000b78cccd0eabbb7334841f9bd3eb594b000a73",
@@ -5332,6 +5331,24 @@
               "path": "archive/scans/1984-03/restoration/whole-issue-45/validation-native-opening.json",
               "sha256": "0bb36ffd9533370185e7056ae6839d42af2e14945cbb49d8083f5da26e9ed85d",
               "bytes": 5161
+            }
+          },
+          {
+            "checkpoint": "M50",
+            "directory": "archive/scans/1984-03/packages/medical-b-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/medical-b-jpeg-r01/manifest.json",
+              "sha256": "b4b77248fc9c4ccfbf2f3115593594775a37fa6915fc14f1776f45ad222ab336",
+              "bytes": 16456
+            },
+            "actual_folios": [
+              184,
+              185
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-46/validation-native-ending.json",
+              "sha256": "53e3bae977c250d3fd4d686c1cf9821bdb32d91a084883354f50cd2a257aa8dc",
+              "bytes": 4128
             }
           }
         ]
@@ -5371,12 +5388,9 @@
           "bytes": 2066
         },
         "restoration_pending": true,
-        "partial_native_selected": true
-      },
-      "current_work": {
-        "path": "metadata/catalog/scan-restoration/1984-03-medical-ending-work.json",
-        "sha256": "5c5cb13112321c1be9e50d4e380784204a118e2dfef1908ac1cf3c1e5ba2a48b",
-        "bytes": 6245
+        "partial_native_selected": true,
+        "source_extent_covered": true,
+        "assembly_pending": true
       }
     },
     {
@@ -6557,19 +6571,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-45/source-ledger.json",
-    "sha256": "56d2703e480c636193b0f2293f36b832b0a508680c36c000896f09a4abadf5bd",
-    "bytes": 344572
+    "path": "archive/scans/1984-03/restoration/whole-issue-46/source-ledger.json",
+    "sha256": "deb9b6bb934ec2b02333b047c0e2993bf9c72d6a10159705539e9d8348f95c3b",
+    "bytes": 346008
   },
-  "current_checkpoint": "M50-working",
-  "next": "Continue M50 with native geometry for all eight menus/forms and three source diagrams on184–185. Reuse the19 source-compared readings and unchanged OCR. Encode independent printed leaders,dots,blank value contexts,dates,source header groups,document stacks,unlabelled rear contexts,shared buses,opposing arrows,unheaded lines and visible outline gaps. Preserve the JPEG caption③약품 재고 관리 철저,all three function/effect hierarchies,four physical wraps,shared caption associations for the outputA–Dforms,and the prose closing star above the integral lower feeding diagram. Compare native overlays,build the final segment twice and run its independent source/native audit. Then assemble/audit complete178–185from immutable M49/M50segments. Continue UPDATE from located186 and every remaining March article,heading and all273 source dispositions through reproducible whole-issue export/completion audit. Never execute frozen M49 helpers;shared implementation remains M47 implementation-after.json.",
+  "current_checkpoint": "M50-complete",
+  "next": "M51: assemble and independently audit the complete medical article, actual 178–185, from immutable M49 opening and M50 ending packages. Page 183 ends a complete form context; 184 begins section 5), so no cross-segment sentence join is required. Preserve every native record, source qualification, shared caption, empty context and original path, including the lower feeding diagram after the prose closing star. Then continue UP DATE 프로그램의 작성 from located 186 and every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49/M50 helpers.",
   "pending_article_candidates": 13,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 3,
-  "current_work": {
-    "path": "metadata/catalog/scan-restoration/1984-03-medical-ending-work.json",
-    "sha256": "5c5cb13112321c1be9e50d4e380784204a118e2dfef1908ac1cf3c1e5ba2a48b",
-    "bytes": 6245
-  }
+  "complete_whole_scan_headings": 3
 }
