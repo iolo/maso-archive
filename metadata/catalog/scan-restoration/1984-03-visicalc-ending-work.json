@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0024",
   "canonical_received_title": "Visicalc의 활용",
   "observed_source_title": "VISICALC 활용",
-  "status": "M43-working;all61-text-owners-and-eight-figures-source-compared;native-encoding-pending",
+  "status": "M43-working;native-candidate-bound-and-contract-checked;18-revised-chart-contexts-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -51,7 +51,7 @@
   "observed_displayed_spans": 132,
   "observed_blank_spans": 45,
   "native_geometry_complete": false,
-  "native_recipe_created": false,
+  "native_recipe_created": true,
   "native_article_package_selected": false,
   "complete_whole_scan_articles": 21,
   "partial_whole_scan_articles": 1,
@@ -63,7 +63,7 @@
   "active_processes": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "Continue M43 native encoding for the source-compared Visicalc ending on actual 161–164. Encode all original command-chart labels, menus, nodes, boxes, branches/arrows, ink marks and exact occurrences, the four independent worksheet displays, prompt frames and prose relationships. Preserve all 61 compared text owners, eight original figures, 132 displayed spans including 45 blanks, explicit glyph qualifications and six disjoint recognition bundles. Build and independently audit the ending, then assemble/audit the full 155–164 article. Continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Do not execute or alter frozen M42 evidence/helpers.",
+  "next": "Continue M43 by comparing all 18 revised chart contexts in visicalc-b/native-chart-review-04 against original source. All 32 initial chart details, eleven inline contexts, four refined worksheets and three prompts are compared. Retain candidate geometry04, 19 structures, 583 fields, 44 rows/132 displayed spans including45 blanks, 215 source paths and537 exact field occurrences. Revise source geometry where comparison requires it, then select final corrections/recipe, build and independently audit the ending on161–164. Assemble/audit the complete155–164 Visicalc article. Continue every remaining March article, heading and all273source dispositions through reproducible whole-issue export and completion audit. No fresh OCR is needed; retain every original attempt and never execute or alter frozen M42 helpers/evidence.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/map-r04.json",
     "sha256": "9696d91e1c5f409fd6fdc0cf8f03886bb9f969d05b8032c8297853fa67b56d3b",
@@ -126,16 +126,16 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-39/resume.json",
-    "sha256": "c55121015ce3e83a3a47f45378f1d029ecfb3974c49d3484499f7254a81a9008",
-    "bytes": 4285
+    "sha256": "a1d86163118d83ffb53a32003e73885fca04f335538d728d71d4ad9d63c38790",
+    "bytes": 5989
   },
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/cleanup-preview-chart-work.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/cleanup-preview-native-work.log",
     "sha256": "bb3d0ea5dae2f904ac55f4ae3b9c55b78aaeca9c989f63a8f220a9bee01eed89",
     "bytes": 233
   },
   "cleanup_deleted": false,
-  "acceptance_note": "Working source evidence only. All four selected pages and three outside boundary views have been compared. All 61 text owners, including all 32 enlarged command-chart clusters, and all eight original figures are source-compared. Nine source-reviewed margin replacements and one sparse prompt retry retain every initial attempt; each affected region has only one retry. Sixty regions reuse initial recognition, one uses the prior SAVE-heading replacement, and eight use the chart replacement bundle. All 69 selected source crops and 61 OCR bindings pass. Native structures, ending exports/audit and the full 155–164 article assembly remain unfinished. The whole March issue remains active; accepted counters are unchanged.",
+  "acceptance_note": "Working native candidate only. All61original text owners and eight figures remain source-compared. Candidate geometry contains19structures,583fields,44rows/132displayed spans including45blanks,215paths and96menu options. All537nonblank native fields bind exact source occurrences. The candidate contract closes3224native records and14108typed references. Four refined worksheet overlays, three prompt overlays and eleven inline contexts have source/native comparison; all32initial chart details have findings. Eighteen revised chart contexts still require comparison. No ending package is selected, no article assembly is complete, and accepted whole-March counters remain unchanged.",
   "original_recognition_regions_reused": 60,
   "prior_replacement_region_reused": 1,
   "new_chart_replacement_regions": 8,
@@ -150,5 +150,56 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-39/chart-source-review.json",
     "sha256": "6fdb42948f7d9a83f1bbeec06243b2865519d043e63836486e1a67596d03374d",
     "bytes": 1116
+  },
+  "native_recipe_kind": "unselected-candidate",
+  "native_candidate_contract_pass": true,
+  "native_structures": 19,
+  "native_fields": 583,
+  "native_rows": 44,
+  "native_cells": 132,
+  "native_blank_cells": 45,
+  "native_source_paths": 215,
+  "native_exact_field_occurrences": 537,
+  "native_menu_options": 96,
+  "native_records": 3224,
+  "native_typed_references": 14108,
+  "native_byte_spans": 6305,
+  "native_source_asset_bindings": 3134,
+  "native_blocks": 57,
+  "native_prose_joins": 4,
+  "native_caption_associations": 7,
+  "native_figure_text_associations": 39,
+  "reviewed_non_chart_native_contexts": 18,
+  "initial_chart_native_detail_owners_compared": 32,
+  "pending_chart_native_contexts": 18,
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/native-geometry-04.json",
+    "sha256": "622e71d62c5e77ba020f571614a2d74e92846d0e355ccea93b63c975bf74f884",
+    "bytes": 790641
+  },
+  "native_geometry_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/native-geometry-work-review.json",
+    "sha256": "8a0dad4798bf2039214b7262a2d22b8850e6eccaf7869725a088c051aec3ddc5",
+    "bytes": 9363
+  },
+  "native_candidate_preflight": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/native-candidate-preflight.json",
+    "sha256": "877e0b0174f001adfe026c5373bb2f7aea545904266590d667fcc8ae8ec5d7de",
+    "bytes": 977
+  },
+  "native_candidate_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/native-candidate-work-audit.json",
+    "sha256": "ebc8ff9581c045acb78686640502e34d7fb76260e112a41d13129a4b84b46cfc",
+    "bytes": 2100
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/recipe-native-candidate-01.json",
+    "sha256": "31296dfe3f0256e0b1d3956e4303c9a3f12437bf0517ef5fb847546f1ef4f5c6",
+    "bytes": 15298
+  },
+  "native_corrections": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/native-input-01/corrections.json",
+    "sha256": "c503bb29eff0d939e4ac49e280982a1514eb85cbc757ddaabdc04e1bd0abe712",
+    "bytes": 3141616
   }
 }

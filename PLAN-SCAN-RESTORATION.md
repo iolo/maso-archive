@@ -312,6 +312,14 @@ spans and 45 blanks**. Full native structures, ending exports/audit and complete
 article assembly remain pending. Accepted whole-issue counters above are
 unchanged. Continue this checkpoint; see
 [the audited ending work](metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json).
+The native ending candidate now encodes **19 structures, 583 fields, 44 rows /
+132 displayed spans, 45 blanks and 215 source paths**. Its **537 nonblank fields**
+bind exact source occurrences; **3,224 native records and 14,108 typed references**
+pass the candidate contract. Four revised worksheet overlays, three prompts and
+eleven inline contexts are compared, including both physically split RETURN
+keys. All 32 initial chart details are compared; **18 revised chart contexts**
+still require review. The recipe remains an unselected candidate. Ending exports,
+independent audit, whole-article assembly and all remaining March work stay open.
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

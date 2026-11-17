@@ -117,6 +117,9 @@ crops and 61 OCR bindings pass. Native structures, ending exports and complete
 article assembly remain pending.
 Accepted totals above are unchanged. See the
 [audited ending work](metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json).
+The native candidate passes exact occurrence/reference checks for 19 structures,
+583 fields and 215 paths. Eighteen revised chart contexts still need comparison;
+the ending has no selected export or whole-article completion yet.
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -6312,3 +6315,32 @@ files and 53 implementation pins still match. Cleanup remains preview-only at
 52.7 GiB. No native ending or whole-article completion is claimed, and accepted
 whole-March counters above remain unchanged. Continue native encoding, ending
 exports/audit and the full 155–164 assembly before the remaining March queue.
+
+The next M43 native work milestone encodes **19 candidate structures, 583 fields,
+44 rows / 132 displayed spans, 45 blanks and 215 source paths**. All **537
+nonblank fields** bind exact regional text occurrences. The unselected candidate
+contains **57 blocks, 61 text regions, eight figures, four source joins, seven
+caption associations and 39 figure/text-owner relationships**. Its scoped
+contract passes **3,224 native records, 14,108 typed references, 6,305 byte spans
+and 3,134 source asset bindings**. The 96 menu option fields remain independent
+printed occurrences; no command execution or hidden spreadsheet state is claimed.
+
+Source/native comparison covers all four refined worksheets, all three prompts
+and eleven inline contexts. The original initialization prompt has a long upper
+fragment open at the right and a short lower fragment open at the left. The
+inline RETURN keys retain physical **RETU/RN** and **RET/URN** pieces under single
+logical key occurrences. Nested command boxes, the relative/source-range menu
+wraps and the closing mark remain explicit. All 32 initial chart details and
+shared trunks have been compared. Recorded corrections adjust 54 field contexts,
+seven menu option contexts and source paths, including off-center printed leader
+attachments. **Eighteen revised chart contexts still require comparison.**
+
+The independent working audit verifies the candidate's geometry/text bindings,
+all 69 selected source asset bindings, all 61 OCR bindings, the unchanged 1,109
+frozen M42 files and 53 implementation pins. A helper's final summary-print error
+is retained with terminal exit 1; its already-written artifacts pass the separate
+audit. Other current processing handles are terminal, and cleanup was previewed
+at 52.7 GiB without deletion. No native ending is accepted and no whole-article
+completion is claimed. Continue the 18 revised chart comparisons, final native
+selection, independent ending builds/audit and full 155–164 assembly, then every
+remaining March task. Whole-issue acceptance counters remain unchanged.
