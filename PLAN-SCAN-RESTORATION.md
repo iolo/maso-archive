@@ -281,6 +281,16 @@ headings, three pending headings and 125 pending full-page dispositions** across
 full source extent before bounded mapping, then complete every remaining March
 task and the whole-issue export/audit. See
 [the complete regression article](metadata/catalog/scan-restoration/1984-03-regression.json).
+**M42 is working on Visicalc의 활용, verified actual 155–164.** Six opening
+pages, 155–160, and six outside extent views are compared; 165 starts the next
+article. The selected map contains **88 regions**, including **23 original
+figures** and **19 separate searchable panel owners**. All **65 initial OCR
+tasks**, **88 OCR crops** and **88 review-master crops** pass their source audit.
+All **46 original prose/title/caption/key contexts** and the first annotated
+screen are source-compared. **Eighteen panel readings, native structures and
+geometry, opening exports/audits, ending 161–164 and complete article assembly
+remain pending.** No M42 native package is accepted; the whole-issue counters
+above remain unchanged. See [the current work](metadata/catalog/scan-restoration/1984-03-visicalc-opening-work.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

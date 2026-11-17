@@ -6125,10 +6125,15 @@
     "sha256": "29987a21981ea2955c1086db1bd73cef93ccf37cccef805c5187f85037c7270c",
     "bytes": 298110
   },
-  "current_checkpoint": "M41-complete",
-  "next": "M42: restore canonical Visicalc의 활용, located opening on actual 155, from the donated JPEGs. Verify the complete source extent and following article before bounded mapping. Continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M41 helpers or evidence.",
+  "current_checkpoint": "M42-working",
+  "next": "Compare the 18 remaining enlarged searchable panel contexts on 156–160, including each source rule count, cell position, blank, highlight and printed total. Review the remaining original figure/photo assets; encode all native structures and geometry, then export/audit the opening. Restore 161–164 including the command graph, assemble/audit the whole Visicalc article, then complete every remaining whole-March task.",
   "pending_article_candidates": 17,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-visicalc-opening-work.json",
+    "sha256": "11cf5b8b3eec7654114688fbdd684bce824cac74929b92ab8b4d940b6c10a4fc",
+    "bytes": 4770
+  }
 }

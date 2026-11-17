@@ -6151,3 +6151,49 @@ and 125 pending full-page dispositions** across **273 scans**. Continue **M42
 with Visicalc의 활용**, opening on 155, after verifying its complete source extent.
 All remaining March content, source dispositions and reproducible whole-issue
 export/audit remain required.
+
+## M42 working — Visicalc opening, actual 155–160
+
+[The saved work](metadata/catalog/scan-restoration/1984-03-visicalc-opening-work.json)
+verifies the article's complete source extent as **155–164**. Six selected
+opening pages and six outside extent views are compared. Final prose ends on
+163; the sideways command structure chart on 164 belongs to the article, and
+165 opens **서북 편란법**. Native restoration of 161–164 remains deferred.
+
+The source map contains **88 regions**: 46 original text contexts, 23 original
+figures and 19 separate searchable panel owners. Initial validation rejected an
+unsupported table region kind; the retained revision uses existing prose text
+regions, with native tables still to encode. Both sets of six original overlays
+are compared. The selected revision widens close ink margins, restores the
+leftmost **표** in captions 9-3 and 11-2, and includes the GLOBAL star. All initial
+maps, crops, helpers and failure logs remain preserved.
+
+All six OCR jobs finished successfully. The independent recognition audit checks
+**65 text tasks, 88 OCR crops, 88 review-master crops and twelve full-page render
+comparisons** against the selected map, original images and pinned runtime.
+Every TSV is parsed with `QUOTE_NONE`; there are no empty text results and no
+recognition retries. All **56 frozen M41 files** and **53 shared implementation
+pins** remain exact. Shared restoration implementation is unchanged.
+
+All **46 original prose/title/caption/key contexts**, plus the first annotated
+screen, have enlarged source comparison: **47 text contexts**, with **18 panel
+readings still pending**. The original wording **방법을 의해서** replaces the
+historical guide's **익혀서**. Printed **VISICAL**, **FX-8Q** and **PRINTNG** stay
+literal. The local FORMAT menu's **S** and global menu's **$** remain separate
+source occurrences. The first screen retains the qualified dot-font version
+reading and its blank A–D / 1–11 worksheet. Guide-added label prefixes are removed
+from DELETE, RECALC and PRINT callouts; native arrows will carry their observed
+associations. Cross-column and cross-page prose continuities remain explicit.
+
+The partial source-work audit passes. Two panels have descriptive observations;
+their full native structures and all remaining figure reviews are pending.
+No M42 native recipe or package is selected. Next compare every remaining panel,
+including its rule glyphs, cell positions, blanks, highlights and printed totals;
+then encode native structures and geometry and export/audit the opening. Restore
+161–164, including the command graph, and assemble/audit the complete article.
+
+Cleanup was previewed without deletion, and every launched job is terminal.
+Whole March remains active with **21 complete articles, no partial articles,
+17 pending articles, three complete headings, three pending headings and 125
+pending full-page dispositions** across **273 scans**. Every remaining March
+task and the reproducible whole-issue export/audit remain required.
