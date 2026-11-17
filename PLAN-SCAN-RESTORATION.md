@@ -644,6 +644,39 @@ at 57.8 GiB with no deletion. M58 is unfrozen; never execute or modify frozen
 predecessor helpers/evidence. See the
 [M58 work handoff](docs/SCAN-RESTORATION-1984-03-M58-WORK.md).
 
+**M58 now accepts the complete native opening on actual 218–223** in two
+matching **263-file exports**. The independent audit passes **72 exact source
+crops, 61 original recognition bindings, 3,953 native records and all 32 damaged
+cases**. Sixteen structures retain **796 fields, 95 rows, 612 cells, 385 empty
+contexts and 303 paths**, including all **450 grid cells, sixteen vector nodes,
+eight variable definitions and eleven original figures**. All eight captions,
+seven headings, fifty paragraphs, 599 physical comparison lines, fifteen source
+continuations, 32 figure/table references and seven printed range descriptions
+remain exact. Twenty-four native overlays have comparison, with eight exact
+selected reuses. Independent pixel probes support 73 filled/376 unmarked grid
+cells; the remaining tiny mark stays unresolved. Both local unknowns and all
+41 source/native qualifications remain preserved.
+
+Native review removed invented final-row blank contexts and retained the actual
+right-map string arrow, vector-label position, source ellipses, broken rule,
+original exponent, dotted underlines and opening drop cap. Both rejected helper
+attempts and their repairs remain evidence. No native-stage OCR was run. All
+28 preceding selected packages / 5,652 files, 41 frozen M57 files and 53 shared
+implementation pins remain exact. The qualified M57 303-test baseline applies
+without fresh broad testing. All processing is terminal; cleanup was preview-only
+at 58.1 GiB with no deletion. M58 freezes **1,085 evidence files**, plus its
+manifest; never execute or modify its helpers/evidence.
+
+Whole March remains active with **28 complete articles, one partial article,
+nine pending articles, five complete headings, one pending heading and 64 pending
+full-page dispositions across all 273 scans**. Continue **M59 with final 224–227**,
+including all prose/figures, the correction listing and the integral main listing
+and printed sessions after the 224 prose star. Preserve the one-space
+**도형의 번호를 / 묻는다.** continuation and split code rows. Then assemble and
+audit the complete **218–227** article, followed by every remaining March task
+through whole-issue export and completion audit. See the
+[M58 native handoff](docs/SCAN-RESTORATION-1984-03-M58.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M58",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0032",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "도형정의표의 정복",
+  "observed_source_title": "도형정의표 (Shape Table)의 정복",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    218,
+    219,
+    220,
+    221,
+    222,
+    223
+  ],
+  "article_actual_folios": [
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227
+  ],
+  "deferred_actual_folios": [
+    224,
+    225,
+    226,
+    227
+  ],
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/shape-jpeg-a-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/shape-jpeg-a-r01/manifest.json",
+    "sha256": "84e9e3c919b3384b6ec6e6114abf6263389680211af61275106536d7de307455",
+    "bytes": 47174
+  },
+  "exact_files": 263,
+  "manifest_payload_files": 262,
+  "master_crops": 72,
+  "recognition_bindings": 61,
+  "initial_recognition_tasks": 61,
+  "recognition_retries": 2,
+  "total_task_attempts": 63,
+  "new_native_stage_recognition_calls": 0,
+  "raw_archive_members": 256,
+  "native_index_records": 3953,
+  "typed_references": 20793,
+  "source_and_active_byte_spans": 6193,
+  "source_asset_bindings": 3963,
+  "native_structure": {
+    "structures": 16,
+    "fields": 796,
+    "rows": 95,
+    "cells": 612,
+    "empty_contexts": 385,
+    "paths": 303,
+    "grid_cells": 450,
+    "filled_grid_cells": 73,
+    "unmarked_grid_cells": 376,
+    "unresolved_grid_cells": 1,
+    "vector_nodes": 16,
+    "source_sections": 7,
+    "paragraphs": 50,
+    "physical_source_lines": 599,
+    "prose_joins": 15,
+    "captions": 8,
+    "illustration_text_associations": 12,
+    "source_reference_occurrences": 32,
+    "printed_program_range_claims": 7
+  },
+  "variable_definitions": 8,
+  "physical_definition_fragments": 15,
+  "source_qualifications": 34,
+  "source_native_qualifications": 41,
+  "unresolved_local_readings": 2,
+  "personally_compared_native_overlays": 24,
+  "selected_native_contexts": 16,
+  "exact_native_overlay_reuses": 8,
+  "rejected_damaged_cases": 32,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/validation.json",
+    "sha256": "7787ead819521b2cb053ad802c61bb30294f9580f0aac686a2dac7e72caf6323",
+    "bytes": 7174
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/shape-a/recipe-native-01.json",
+    "sha256": "73e3a28a1d8387afa4fb14ba9c912c2a7164a2d1e9a9f796cd8e03b6bc4f87cf",
+    "bytes": 12587
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/shape-a/source-compared-readings-01.json",
+    "sha256": "c5cf1d4b542b828e02d985b18cd97010c92b4850954aef6b7a7a50c56f894f66",
+    "bytes": 140620
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/shape-a/native-geometry-review.json",
+    "sha256": "aaa5ebca7dba7f7f6e8297601e738256d3a141e580a56645143f756b9b4706be",
+    "bytes": 34130
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/source-ledger.json",
+    "sha256": "703bd78f57207fab8a39c9d7fa50e31a5d672f111eccfda5d6126c2e4d3674d0",
+    "bytes": 400579
+  },
+  "source_dispositions_pending": 64,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/whole-progress-m58.json",
+    "sha256": "64e461c8b0fffbb038c10c8ab077e854acc7bd14fc1c69dc3d05a7e2d44efda0",
+    "bytes": 232993
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/evidence-manifest.json",
+    "sha256": "7e5eb81f727ede820e903d9ac11b300e5b41b95a2474d18ee42a234aeb03a1dc",
+    "bytes": 199291
+  },
+  "frozen_evidence_files": 1085,
+  "complete_whole_scan_articles": 28,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 9,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 303,
+  "fresh_regression_tests": 0,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-53/implementation-after.json",
+    "sha256": "a4c41a0c4b1a02fe00fdaecdc487df90466171e703f728bd73091d5f9462b9e5",
+    "bytes": 9358
+  },
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M59: restore final original 224–227 of 도형정의표의 정복 (maso-1984-03-toc-0032), preserving accepted M58 native opening 218–223 and the verified complete 218–227 extent. Keep the 223 도형의 번호를 / 224 묻는다. continuation with one word space. Restore all final prose, figures 4/5, the independent correction listing and prose closing star on 224, then the integral main BASIC listing on 225–227, all physical code wraps including split 21065/26010 rows, and every printed session/grid/sample mark on 227. The prose star is not the whole-article ending. Produce two final-segment exports and an independent source/native audit, then assemble and audit the complete 218–227 article. Continue the A/D,D/A article from located 228 and every remaining March article, information-group heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M58/M57/predecessor helpers or evidence. Shared implementation remains the qualified M57 implementation-after.json baseline with 303 tests."
+}

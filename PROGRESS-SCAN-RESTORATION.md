@@ -2,19 +2,20 @@
 
 Updated 2026-11-18. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Latest accepted March checkpoint: **M57 complete**, the whole interface article
-on original **210–217**, in two matching **272-file native exports** retaining
-all **264 original segment files**. All 303 applicable regression tests pass.
-Totals are **28 complete articles, no partial articles, ten pending articles,
-five complete headings, one pending heading and 74 pending full-page dispositions
-across all 273 scans**. **M58 source work now verifies 도형정의표의 정복,
-218–227**, with enlarged comparison of all 61 opening text contexts on 218–223.
-All 72 crops and 61 recognition bindings pass the independent source audit; native
-opening reconstruction and exports remain pending. Then restore 224–227,
-including integral listings after the prose closing star, assemble the complete
-article and finish every remaining March task through whole-issue export/audit.
-See the [M58 work handoff](docs/SCAN-RESTORATION-1984-03-M58-WORK.md) and
-[M57 handoff](docs/SCAN-RESTORATION-1984-03-M57.md).
+Latest accepted March checkpoint: **M58 complete**, the **218–223 native opening**
+of **도형정의표의 정복**, whose complete extent is **218–227**. Two independent
+**263-file exports** match. All 72 crops, 61 recognition bindings, 3,953 native
+records and 32 damaged cases pass the independent audit. Six tables, all 450
+grid cells, sixteen vector nodes, eight definitions and eleven original figures
+remain. All 41 source/native qualifications and two unresolved local readings
+remain explicit. Shared implementation retains the qualified M57 303-test baseline.
+Totals are **28 complete articles, one partial article, nine pending articles,
+five complete headings, one pending heading and 64 pending full-page dispositions
+across all 273 scans**. Continue **M59 on 224–227**, including the integral
+listings and printed sessions after the prose closing star, then assemble/audit
+the complete article and finish every remaining March task through whole-issue
+export/completion audit. M58 freezes 1,085 evidence files; never execute or modify
+its helpers/evidence. See the [M58 handoff](docs/SCAN-RESTORATION-1984-03-M58.md).
 
 **M54 accepts all source and native article structures.** All 38 readings,
 41 original crops, 38 initial recognition bindings and 1,835 native records

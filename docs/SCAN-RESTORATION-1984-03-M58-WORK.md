@@ -1,5 +1,9 @@
 # March 1984 M58: Shape Table opening source work
 
+Historical source-work milestone: the native opening is now accepted. See
+[the M58 native result](SCAN-RESTORATION-1984-03-M58.md). The remaining article
+ending and whole-issue work stay active.
+
 The whole March issue remains active. M58 verifies **도형정의표의 정복**
 (`maso-1984-03-toc-0032`) across original **218–227**. The source title is
 **도형정의표 (Shape Table)의 정복**, with subtitle
@@ -63,18 +67,22 @@ partial file and all seven immutable manual reading parts. All **53 shared
 implementation pins**, **41 frozen M57 evidence files** and **272 accepted
 interface files** remain exact. Shared code is unchanged; the qualified M57
 303-test baseline applies without a fresh broad test run. Cleanup was preview-only
-with no deletion. M58 evidence remains unfrozen; never execute or modify frozen
-predecessor helpers or evidence.
+with no deletion. Evidence was unfrozen at this source milestone. The later M58
+native acceptance freezes it; never execute or modify M58 or predecessor helpers
+or evidence.
 
-Native geometry, recipe, two independent opening exports and the native audit
-remain required. Then restore **224–227**, including the small correction listing,
+At this source-work milestone, native geometry, recipe, two independent opening
+exports and the native audit were still required. The later M58 acceptance supplies
+them. Then restore **224–227**, including the small correction listing,
 the complete main listing, split code rows and all printed displays, and assemble
 and audit the full **218–227** article. Continue every remaining March article,
 the information-group heading and all source dispositions through whole-issue
-export and completion audit. Accepted totals remain **28 complete articles, no
+export and completion audit. At the source-work milestone, accepted totals were
+**28 complete articles, no
 partial articles, ten pending articles, five complete headings, one pending
 heading and 74 pending full-page dispositions across all 273 scans**; the M57
-source ledger remains authoritative until native acceptance.
+source ledger remained authoritative until native acceptance. The M58 native
+handoff records the later accepted source ledger and current totals.
 
 See the [working record](../metadata/catalog/scan-restoration/1984-03-shape-opening-work.json),
 [source audit](../archive/scans/1984-03/restoration/whole-issue-54/source-text-work-audit.json),

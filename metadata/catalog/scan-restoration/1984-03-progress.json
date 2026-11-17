@@ -5972,7 +5972,7 @@
       "title": "도형정의표의 정복",
       "parent_id": "maso-1984-03-toc-0029",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0032",
@@ -6048,7 +6048,81 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M58",
+        "article_id": "scan-maso-1984-03-toc-0032",
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/shape-jpeg-a-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/shape-jpeg-a-r01/manifest.json",
+          "sha256": "84e9e3c919b3384b6ec6e6114abf6263389680211af61275106536d7de307455",
+          "bytes": 47174
+        },
+        "article_actual_folios": [
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227
+        ],
+        "covered_actual_folios": [
+          218,
+          219,
+          220,
+          221,
+          222,
+          223
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
+          224,
+          225,
+          226,
+          227
+        ],
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-54/shape-a/recipe-native-01.json",
+          "sha256": "73e3a28a1d8387afa4fb14ba9c912c2a7164a2d1e9a9f796cd8e03b6bc4f87cf",
+          "bytes": 12587
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-54/validation.json",
+          "sha256": "7787ead819521b2cb053ad802c61bb30294f9580f0aac686a2dac7e72caf6323",
+          "bytes": 7174
+        },
+        "segments": [
+          {
+            "checkpoint": "M58",
+            "directory": "archive/scans/1984-03/packages/shape-jpeg-a-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/shape-jpeg-a-r01/manifest.json",
+              "sha256": "84e9e3c919b3384b6ec6e6114abf6263389680211af61275106536d7de307455",
+              "bytes": 47174
+            },
+            "actual_folios": [
+              218,
+              219,
+              220,
+              221,
+              222,
+              223
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-54/validation.json",
+              "sha256": "7787ead819521b2cb053ad802c61bb30294f9580f0aac686a2dac7e72caf6323",
+              "bytes": 7174
+            }
+          }
+        ]
+      },
       "historical_printed_extent_candidate": [
         218,
         219,
@@ -6063,26 +6137,11 @@
       ],
       "located_source_evidence": {
         "actual_folio": 218,
-        "observed_title": "도형정의표(Shape Table)의 정복",
+        "observed_title": "도형정의표 (Shape Table)의 정복",
         "source_review": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-51/review/full-218.jpg",
+          "path": "archive/scans/1984-03/restoration/whole-issue-54/review/full-218.jpg",
           "sha256": "1097bb95f0664edbd219f01e46bfa55a02784665b06f777252cf82c39a6a7f96",
           "bytes": 1819924
-        },
-        "boundary_evidence": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-51/transition.json",
-          "sha256": "5f5d35f72ad9fb5f928efe8ded212c28a445b3e194035b178fda0694f5a0a655",
-          "bytes": 1601
-        },
-        "source_extent_verified": false,
-        "restoration_pending": true
-      },
-      "active_source_work": {
-        "checkpoint": "M58",
-        "record": {
-          "path": "metadata/catalog/scan-restoration/1984-03-shape-opening-work.json",
-          "sha256": "51caf7abe8a4909e5f6c0d06858ed9de22c6c735c85c10e3a677b9387125fba1",
-          "bytes": 7437
         },
         "article_actual_folios": [
           218,
@@ -6096,16 +6155,19 @@
           226,
           227
         ],
-        "selected_opening_folios": [
-          218,
-          219,
-          220,
-          221,
-          222,
-          223
-        ],
-        "source_compared_text_regions": 61,
-        "native_acceptance_pending": true
+        "source_extent_verified": true,
+        "extent_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-54/transition.json",
+          "sha256": "df76287f59b8ad50f9ba958ab59961d65fae7e947f50ebe934cd6051219bb1ca",
+          "bytes": 1586
+        },
+        "restoration_pending": true,
+        "partial_native_selected": true
+      },
+      "source_work_evidence": {
+        "path": "metadata/catalog/scan-restoration/1984-03-shape-opening-work.json",
+        "sha256": "e3b7cfdeb0d9bae43d871c16dee66f2fa33b52ca59e31a751a083c0ebe6e6735",
+        "bytes": 9268
       }
     },
     {
@@ -6221,7 +6283,23 @@
         239,
         240,
         241
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 228,
+        "observed_title": "A/D,D/A의 이론과 실제",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-54/review/full-228.jpg",
+          "sha256": "4ae3358a0cd5c451b86d223baf350788d78686d5c49154504f6b2fa952041681",
+          "bytes": 2034968
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-54/transition.json",
+          "sha256": "df76287f59b8ad50f9ba958ab59961d65fae7e947f50ebe934cd6051219bb1ca",
+          "bytes": 1586
+        },
+        "source_extent_verified": false,
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0034",
@@ -7025,14 +7103,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-53/source-ledger.json",
-    "sha256": "4899ce50ba07a4568253c0c716a76d1eed4746629d3584cb35179ec06e998397",
-    "bytes": 385336
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/source-ledger.json",
+    "sha256": "703bd78f57207fab8a39c9d7fa50e31a5d672f111eccfda5d6126c2e4d3674d0",
+    "bytes": 400579
   },
-  "current_checkpoint": "M58-source-work",
-  "next": "M58: encode and personally compare every native structure of the source-compared 도형정의표의 정복 opening218–223 (maso-1984-03-toc-0032). Retain six original tables,the vector-path drawing,both15×15grids/all450cellcontexts,eight variable definitions,eleven original figures,eight captions,fifteen internal source continuations and all34qualifications/two unresolved local readings. Create the recipe,two independent exports and independent native audit before accepting the opening. Reuse all61 selected recognition bindings from recognition-outcomes.json,including fresh completion folders and the assembled219bundle;never rerun successful OCR or use original interrupted folders as selected results. Preserve the outgoing223 도형의 번호를 /224 묻는다. word space. Then restore224–227,including224error-correctionlisting and all225–227mainlisting/printed displays after the prose closing star,and assemble/audit the complete218–227article. Continue every remaining March article,the information-group heading and all273scan dispositions through reproducible whole-issue export/completion audit. Wholeissue remains active. M58 evidence is unfrozen;never execute or modify frozen M57/predecessor helpers/evidence. Shared implementation is qualified M57 implementation-after.json,303tests.",
-  "pending_article_candidates": 10,
+  "current_checkpoint": "M58-complete",
+  "next": "M59: restore final original 224–227 of 도형정의표의 정복 (maso-1984-03-toc-0032), preserving accepted M58 native opening 218–223 and the verified complete 218–227 extent. Keep the 223 도형의 번호를 / 224 묻는다. continuation with one word space. Restore all final prose, figures 4/5, the independent correction listing and prose closing star on 224, then the integral main BASIC listing on 225–227, all physical code wraps including split 21065/26010 rows, and every printed session/grid/sample mark on 227. The prose star is not the whole-article ending. Produce two final-segment exports and an independent source/native audit, then assemble and audit the complete 218–227 article. Continue the A/D,D/A article from located 228 and every remaining March article, information-group heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M58/M57/predecessor helpers or evidence. Shared implementation remains the qualified M57 implementation-after.json baseline with 303 tests.",
+  "pending_article_candidates": 9,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 0,
+  "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5
 }
