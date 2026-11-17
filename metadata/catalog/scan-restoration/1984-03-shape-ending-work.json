@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0032",
   "canonical_received_title": "도형정의표의 정복",
-  "status": "source-text-work-audit-passed;native-ending-acceptance-pending",
+  "status": "accepted-native-ending-segment;whole-article-assembly-pending",
   "source_kind": "jpeg-set",
   "article_actual_folios": [
     218,
@@ -53,9 +53,9 @@
   "caption_associations": 2,
   "prose_continuations": 3,
   "main_code_boundary_splits": 3,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_package_selected": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_package_selected": true,
   "whole_article_complete": false,
   "whole_issue_complete": false,
   "complete_whole_scan_articles": 28,
@@ -74,10 +74,10 @@
   "source_review_elapsed_seconds": 1381.56721,
   "timing_note": "Prospective elapsed source-stage interval and OCRprocessing sum are separate measures;neither is active human effort.",
   "review_status": "assistant-personally-source-compared;not-human-acceptance",
-  "evidence_frozen": false,
+  "evidence_frozen": true,
   "active_process_handles": [],
   "cleanup": "preview-only;no deletion",
-  "next": "Continue M59 native restoration of final 224–227 of 도형정의표의 정복 (maso-1984-03-toc-0032). Reuse all 22 successful recognition bindings and 33 source-compared crops. Encode the 377 physical main-listing rows / 160 numbered units, all selected source wraps and three explicit 21065/26010/48020 boundary splits. Keep the two-statement correction patch and four printed interaction contexts independent. Encode all final prose, headings, range claims, references, two captions, three prose continuations, Figures 4/5, six enclosing frames, 225 grid cells, external plus and four lower samples. Preserve all 27 source qualifications and the unresolved Figure 5 cluster. Compare native overlays, build the ending twice and independently audit before M59 acceptance/freeze. Then assemble/audit the complete 218–227 article and continue every remaining March article, heading and all 273 source dispositions through whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M58/predecessor helpers or evidence. Shared implementation retains the qualified M57 303-test baseline.",
+  "next": "M60: assemble and independently audit complete 218–227 도형정의표의 정복 from immutable M58/M59 native packages. Preserve every original segment file, source/native index, all qualifications and the 223 도형의 번호를 / 224 묻는다. join with one word space. Keep main program, independent correction patch, printed sessions, all figures and 675 grid cells in their correct source ownership; the 224 star closes prose only. Verify references to prior original Figure 2 and all cross-column/page statement fragments. Then verify the full extent and restore A/D,D/A의 이론과 실제 from located 228, followed by every remaining March article, information heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M59/M58/predecessor helpers or evidence. Shared implementation remains qualified M57 baseline, 303 tests.",
   "scope": {
     "path": "archive/scans/1984-03/restoration/whole-issue-55/scope.json",
     "sha256": "238a675452266c0593e8e74da4cc0f71487bdf866df16ba4a85b27e216a637c8",
@@ -144,9 +144,9 @@
     "bytes": 9331
   },
   "resume": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-55/resume-source-work.json",
-    "sha256": "fc132575efa9f5c1ff8ee63b36d2401d5c11aaa167ec24cd4f1c1fcde672e0fc",
-    "bytes": 2498
+    "path": "archive/scans/1984-03/restoration/whole-issue-55/resume.json",
+    "sha256": "8404b1c39c6b206fbecfe217b6ae2c6ca5cfa8f9ccd4db4135404cbe690fb0ee",
+    "bytes": 2148
   },
   "cleanup_preview": {
     "path": "archive/scans/1984-03/restoration/whole-issue-55/cleanup-preview-source-work.log",
@@ -159,13 +159,43 @@
     "bytes": 913
   },
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-54/source-ledger.json",
-    "sha256": "703bd78f57207fab8a39c9d7fa50e31a5d672f111eccfda5d6126c2e4d3674d0",
-    "bytes": 400579
+    "path": "archive/scans/1984-03/restoration/whole-issue-55/source-ledger.json",
+    "sha256": "e95c386c1dc0894f163023077f553e4e6d1c4fae1972c9c17e248c16df34dec7",
+    "bytes": 408815
   },
   "accepted_opening": {
     "path": "metadata/catalog/scan-restoration/1984-03-shape-opening.json",
     "sha256": "fc3a0911fbc1773c3add7e0126db262ce0062f22ae88d09aa7565be4239a5ea1",
     "bytes": 5628
-  }
+  },
+  "selected_package": "archive/scans/1984-03/packages/shape-jpeg-b-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/shape-jpeg-b-r01/manifest.json",
+    "sha256": "fb14201b5d4459bff8fedb05124ab858df3b4a1dd387a800b076fb64eefdaebd",
+    "bytes": 18538
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-55/validation.json",
+    "sha256": "d9f60c96687e22ecf3071c6c01ae843481e9358681d78bbeeb31c938fb83d8d0",
+    "bytes": 7804
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-55/shape-b/recipe-native-01.json",
+    "sha256": "39b4ac62b647172cbe071566fd42c042f31649afd9cbd86a901a80c5f163503c",
+    "bytes": 8358
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-55/shape-b/native-geometry-review.json",
+    "sha256": "2d78e7fe229cfc94cb638af8f48c55cda9dd3e1d91fff0a0d9f20b8fca98fa90",
+    "bytes": 22197
+  },
+  "source_native_qualifications": 42,
+  "native_index_records": 7119,
+  "historical_source_work_resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-55/resume-source-work.json",
+    "sha256": "fc132575efa9f5c1ff8ee63b36d2401d5c11aaa167ec24cd4f1c1fcde672e0fc",
+    "bytes": 2498
+  },
+  "frozen_evidence_path": "archive/scans/1984-03/restoration/whole-issue-55/evidence-manifest.json",
+  "accepted_result_path": "metadata/catalog/scan-restoration/1984-03-shape-ending.json"
 }

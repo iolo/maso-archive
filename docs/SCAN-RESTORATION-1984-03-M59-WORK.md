@@ -1,10 +1,14 @@
 # March M59 final-segment source work
 
+**M59 now accepts the native ending in two matching 108-file exports.** This
+source-stage handoff is retained as historical evidence. See the
+[native acceptance handoff](SCAN-RESTORATION-1984-03-M59.md) for the current result.
+
 The whole March 1984 issue remains the task. This is an in-progress handoff for
 the final **224–227** of **도형정의표의 정복**, canonical
 `maso-1984-03-toc-0032`, whose verified complete extent is **218–227**.
-The accepted M58 opening is preserved. M59 has **not** accepted a native ending
-or completed the article or issue.
+The accepted M58 opening is preserved. At this source-stage milestone, M59 had
+not accepted a native ending or completed the article or issue.
 
 All four selected pages and neighbors 223/228 have full-page comparison.
 Four compared overlays select **33 original crops**. All **22 mapped recognition

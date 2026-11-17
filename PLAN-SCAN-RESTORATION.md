@@ -699,6 +699,34 @@ all jobs are terminal and cleanup was preview-only at 58.1 GiB with no deletion.
 M59 evidence is unfrozen. Never execute or modify frozen M58/predecessor helpers.
 See the [M59 work handoff](docs/SCAN-RESTORATION-1984-03-M59-WORK.md).
 
+**M59 now accepts the complete native ending on 224–227** in two matching
+**108-file exports**. The independent audit passes **33 original crops,
+22 recognition bindings, 7,119 native records and all 36 damaged cases**.
+The full main listing retains **377 physical rows / 160 statements**, separate
+from the correction patch and **34 printed-session rows / 33 utterances**.
+All **217 main search joins, 4,333 lexical fields, six DATA values and 88 literal
+targets** remain source-bound. Eleven graphic structures retain **241 fields,
+225 grid cells and 86 paths**; independent pixel probes confirm 27 filled marks,
+one hollow mark and 197 unmarked cells. All final prose, four headings,
+23 paragraphs, two captions, nine printed range claims and the incoming one-space
+223/224 continuation remain explicit. The 224 star closes prose only.
+
+All **42 source/native qualifications** and the tiny Figure 5 cluster uncertainty
+remain. Thirteen graphic and 26 row overlays have personal comparison, with nine
+exact selected graphic reuses. The rejected merged-row candidate and prior-figure
+lookup attempt are preserved; no native-stage OCR occurred. All 29 prior selected
+packages / 5,915 files, 1,085 frozen M58 files and 53 implementation pins remain
+exact; the qualified M57 303-test baseline applies without fresh broad tests.
+All jobs are terminal; cleanup was preview-only at 58.3 GiB with no deletion.
+M59 freezes **382 evidence files**, plus its manifest. Never execute or modify
+its helpers/evidence.
+
+The accepted segments cover **218–227**, but whole-article assembly/audit remains
+required in **M60**, followed by every remaining March task. Totals remain
+**28 complete articles, one partial article, nine pending articles, five complete
+headings, one pending heading and 64 pending dispositions / 273 scans**. Whole
+March remains active. See the [M59 native handoff](docs/SCAN-RESTORATION-1984-03-M59.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
