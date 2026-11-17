@@ -6014,10 +6014,15 @@
     "sha256": "b2f06eb52d6e051707e29c426a60f9199f3784a03b4132543c9da7e5082ee427",
     "bytes": 298494
   },
-  "current_checkpoint": "M37-complete",
-  "next": "M38: restore actual 140–145 of 심층적 회귀분석 from the donated JPEGs. Preserve the accepted M37 opening, its independent source variants and verified complete extent 134–154. Then restore 146–151 and 152–154 in bounded checkpoints and assemble/audit the complete article. Continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Do not execute or modify frozen M37 helpers/evidence.",
+  "current_checkpoint": "M38-working",
+  "next": "Encode all native structures in bounded 140–145: physical table/display/code rows and fields, matrix blanks, formula occurrences, explicit joins and original plot geometry. Complete the insurance plot paths and source/native audit, export twice and reject damaged cases before accepting M38. Then restore 146–151 and 152–154, assemble/audit complete 134–154, and continue every remaining March article, heading and all 273 scan dispositions before whole-issue closeout.",
   "pending_article_candidates": 17,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-middle-work.json",
+    "sha256": "939f5fe2eddd29cf2418f503821f1f9560817b0b455a785ed671b7249f486301",
+    "bytes": 4325
+  }
 }

@@ -218,6 +218,16 @@ three pending headings and 125 pending full-page dispositions** across all
 restoration is still required. Continue **M38** with actual **140–145**, then
 146–151 and 152–154, followed by complete 134–154 assembly/audit and every remaining
 March task. See [the accepted opening](metadata/catalog/scan-restoration/1984-03-regression-opening.json).
+**M38 is in progress on actual 140–145.** All 59 text contexts and eight
+original figures have enlarged JPEG comparisons recorded; 67 original-master
+crops pass independent pixel checks. The six scatterplots preserve 91 visible
+mark groups without inferring missing observations. Two bounded table retries
+and all source-specific errors and qualifications remain preserved. This is a
+source-review milestone: native indexing, the insurance plot paths, exact ranges,
+independent exports and source/native validation still remain before segment
+acceptance. Accepted whole-issue totals remain unchanged. Continue the complete
+regression article and every remaining March task. See the
+[M38 work record](metadata/catalog/scan-restoration/1984-03-regression-middle-work.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

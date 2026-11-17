@@ -80,7 +80,12 @@ extent **134–154** and completes its bounded **134–139** opening in **263 ex
 native files**. All 63 initial OCR tasks, 65 master crops, native relationships,
 two builds and 38 damaged-data checks pass. Continue **M38** on **140–145**, then
 the rest of the article and all remaining March content, source dispositions and
-the reproducible whole-issue export/audit. March remains the current issue.
+the reproducible whole-issue export/audit. **M38 source review is now recorded:**
+all 59 text contexts and eight original figures on 140–145, 67 pixel-exact master
+crops and two preserved targeted retries. Native encoding and segment acceptance
+remain pending; accepted totals above are unchanged. See the
+[M38 working record](metadata/catalog/scan-restoration/1984-03-regression-middle-work.json).
+March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -5764,3 +5769,40 @@ Then restore 146–151 and 152–154, assemble/audit the complete 134–154 arti
 continue every remaining March identity and source disposition before the final
 reproducible issue export/audit. Never execute or modify frozen M37 helpers or
 evidence.
+
+## M38 working — regression middle, actual 140–145
+
+The complete article remains actual **134–154**. This checkpoint selects six
+original JPEGs, actual **140–145**, with only **139 and 146** as outside
+continuity lookups. The accepted 134–139 opening remains intact.
+
+All **59 text contexts** and **eight original figures** now have enlarged source
+comparisons. Independent work auditing checks all **67 original-master crops**
+against the original pixels, all review pins and both terminal targeted retries.
+The initial recognitions are retained, including two empty table results; each
+received one PSM 11 retry on the unchanged mapped crop. Their poor retry output
+is preserved as evidence, with selected table readings compared directly to the
+scan. No further retries are authorized for those two regions in this batch.
+
+The six source scatterplots retain **91 distinct visible mark groups**, with
+counts **12, 16, 16, 16, 16 and 15**. Every mark overlay has visual comparison;
+no extra point is inferred from the sixteen-row numeric data. Original figure
+clipping, artwork/text overlap, table blanks, literal formula errors, independent
+output values and the split DATA value remain explicit. The work audit also
+checks **838 frozen M37 files** and **51 unchanged shared implementation pins**.
+The first work-audit attempt used the verified-bytes API as a path and failed
+before crop checking; its corrected reader and passing audit are retained.
+
+**No native M38 package is accepted yet.** Encode the tables, matrix blanks,
+formula occurrences, physical listing/display rows and fields, exact byte ranges,
+explicit prose/digit joins and original insurance plot paths. Then perform the
+independent source/native audit, two exact exports and damaged-data checks.
+All launched processes are terminal; the work state explicitly clears stale
+launch handles. The evidence remains open while native work continues.
+
+Accepted whole-March counts remain **20 complete articles, one partial article,
+17 pending articles, three complete headings, three pending headings and 125
+pending scan dispositions** across **273 scans**. After M38 acceptance, continue
+146–151 and 152–154, complete the 134–154 assembly/audit and every remaining March
+identity and source disposition before the whole-issue export and completion
+audit. See the [M38 work record](metadata/catalog/scan-restoration/1984-03-regression-middle-work.json).

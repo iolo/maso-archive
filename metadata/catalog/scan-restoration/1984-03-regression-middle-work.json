@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M38",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0023",
+  "canonical_received_title": "심층적 회귀분석",
+  "status": "source-review-milestone;native-middle-segment-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
+  ],
+  "selected_work_folios": [
+    140,
+    141,
+    142,
+    143,
+    144,
+    145
+  ],
+  "outside_lookup_folios": [
+    139,
+    146
+  ],
+  "mapped_regions": 67,
+  "initial_text_tasks": 59,
+  "recognition_retries": 2,
+  "source_compared_text_regions": 59,
+  "pending_source_text_regions": 0,
+  "descriptive_original_figure_reviews": 8,
+  "scatter_plot_mark_groups": 91,
+  "scatter_plot_mark_counts": [
+    12,
+    16,
+    16,
+    16,
+    16,
+    15
+  ],
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_article_package_selected": false,
+  "complete_whole_scan_articles": 20,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 17,
+  "complete_whole_scan_headings": 3,
+  "pending_heading_candidates": 3,
+  "source_dispositions_pending": 125,
+  "active_process_handles": [],
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "next": "Encode all native structures in bounded 140–145: physical table/display/code rows and fields, matrix blanks, formula occurrences, explicit joins and original plot geometry. Complete the insurance plot paths and source/native audit, export twice and reject damaged cases before accepting M38. Then restore 146–151 and 152–154, assemble/audit complete 134–154, and continue every remaining March article, heading and all 273 scan dispositions before whole-issue closeout.",
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/map-r01.json",
+    "sha256": "45806e8d00135d6c9241dd507a931594ca9df09ce9939c0abf9afb8ef0fe2648",
+    "bytes": 32433
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/transition.json",
+    "sha256": "815541da03164c3eb9b449169953dbb12063eb5a18f8db01efe8d053aa29ae31",
+    "bytes": 1376
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/full-page-review.json",
+    "sha256": "a34fa8eeb1eb39a52a2a91d623c1c7d2c31e319c9d89eb7da2b7eab770f90374",
+    "bytes": 6970
+  },
+  "recognition_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/source-recognition-audit.json",
+    "sha256": "d0cdc02c555c776682990dc8be11c16da6b9f3d2441d659f5950602122faf14c",
+    "bytes": 827
+  },
+  "targeted_retry_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/targeted-retry-outcomes.json",
+    "sha256": "d1f94b82eeffbb52ef12da38c19df5899b897a1ca2af0ff43e2beb77385e3401",
+    "bytes": 883
+  },
+  "source_review_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/source-review-work-audit.json",
+    "sha256": "d9f12180e3bb65668516db8a723b3a3560460d5f007e3c5d5dda6fa12afcd476",
+    "bytes": 1287
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/source-compared-readings.json",
+    "sha256": "dfab4982a213bf69a4bca2ecd462dcac38520c12c01497628ce850070e2883d2",
+    "bytes": 57505
+  },
+  "figure_observations": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/figure-source-observations-r02.json",
+    "sha256": "c4fc085f5cef4f9f4dc104552feb4daf9aa6169945d10d34b6dc95c03b8ac7d6",
+    "bytes": 55256
+  },
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/resume.json",
+    "sha256": "c3f2c87e736275fbfd02f51c99e769342cd97f2c78ece53ec756a50b44033f8f",
+    "bytes": 3186
+  },
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-opening.json",
+    "sha256": "df54f87118b4998323e0a4b16618c9c50b8a2595d9e0a926135c83ea0d687ed1",
+    "bytes": 3711
+  },
+  "acceptance_note": "This record reports completed source review, not an accepted native segment. Accepted article and source-disposition totals remain unchanged. No whole-article or whole-issue completion is claimed."
+}
