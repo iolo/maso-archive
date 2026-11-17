@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M42",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0024",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "Visicalc의 활용",
+  "observed_source_title": "VISICALC 활용",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    155,
+    156,
+    157,
+    158,
+    159,
+    160
+  ],
+  "article_actual_folios": [
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164
+  ],
+  "selected_package": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01/manifest.json",
+    "sha256": "ab85f6c8a53678deabfb77a010ab5fb1251d1affdfebc0abe800249c38fdf736",
+    "bytes": 49320
+  },
+  "exact_files": 291,
+  "native_structure": {
+    "status": "pass-native-input-contract-only;independent-exports-and-audit-pending",
+    "blocks": 58,
+    "text_regions": 65,
+    "figures": 23,
+    "prose_joins": 7,
+    "structures": 36,
+    "fields": 960,
+    "rows": 199,
+    "cells": 617,
+    "blank_cells": 226,
+    "paths": 76,
+    "field_occurrences": 734,
+    "menu_options": 27,
+    "caption_associations": 18,
+    "panel_text_associations": 19,
+    "procedure_display_associations": 17,
+    "native_records": 4589,
+    "typed_references": 23908,
+    "byte_spans": 7758,
+    "source_asset_bindings": 4515,
+    "whole_article_complete": false,
+    "whole_issue_complete": false
+  },
+  "native_index_records": 4589,
+  "typed_references": 23908,
+  "byte_spans": 7758,
+  "master_crops": 88,
+  "recognition_bindings": 65,
+  "rejected_damaged_cases": 33,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-38/validation-native-opening.json",
+    "sha256": "ac248fa3609040b22fb58936c57f4950bc64402b82665b8834d14f4d1365460a",
+    "bytes": 3560
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-38/visicalc-a/recipe-native-02.json",
+    "sha256": "b06098fb8f4e1c4bfd8ce7b456094856df046d9161eeaa7cf8aea0760b39b10e",
+    "bytes": 15696
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-38/source-ledger.json",
+    "sha256": "b6147af633635b0986a95062ddda5632504d91fdeb0c380896df380c66409430",
+    "bytes": 305002
+  },
+  "source_dispositions_pending": 120,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-38/whole-progress-m42.json",
+    "sha256": "8ec30a18b655a50850b16e4273e7b0869d9abcd44026598df332a3249feb6c4e",
+    "bytes": 198220
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-38/evidence-manifest.json",
+    "sha256": "617bdc0dd18841200232873fd2eeb03befe48fc98390a2599472704cdafff3b7",
+    "bytes": 200211
+  },
+  "frozen_evidence_files": 1109,
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 297,
+  "next": "M43: restore actual 161–164 of Visicalc의 활용 from the donated JPEGs, including the integral sideways command graph on164 and the output promised on160. Preserve accepted M42 opening155–160 and verified complete extent155–164. Then assemble/audit the complete article and continue every remaining March article, heading and all273source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M42 helpers/evidence."
+}

@@ -281,16 +281,23 @@ headings, three pending headings and 125 pending full-page dispositions** across
 full source extent before bounded mapping, then complete every remaining March
 task and the whole-issue export/audit. See
 [the complete regression article](metadata/catalog/scan-restoration/1984-03-regression.json).
-**M42 is working on Visicalc의 활용, verified actual 155–164.** Six opening
-pages, 155–160, and six outside extent views are compared; 165 starts the next
-article. The selected map contains **88 regions**, including **23 original
-figures** and **19 separate searchable panel owners**. All **65 initial OCR
-tasks**, **88 OCR crops** and **88 review-master crops** pass their source audit.
-All **46 original prose/title/caption/key contexts** and the first annotated
-screen are source-compared. **Eighteen panel readings, native structures and
-geometry, opening exports/audits, ending 161–164 and complete article assembly
-remain pending.** No M42 native package is accepted; the whole-issue counters
-above remain unchanged. See [the current work](metadata/catalog/scan-restoration/1984-03-visicalc-opening-work.json).
+**M42 accepts the Visicalc의 활용 opening, actual 155–160, in 291 exact files.**
+The complete source extent is **155–164**; the sideways command graph on 164
+belongs to this article, and 165 starts the next article. All **65 text readings**,
+**23 original figures** and **36 native contexts** are source-compared. Native
+structures retain **960 fields, 617 cells including 226 blank contexts, 76 paths,
+27 menu options and 734 exact field occurrences**. All seven regional joins,
+eighteen caption associations and nineteen separate searchable panel owners
+remain explicit. Both exports, **88 pixel-exact master crops**, 65 recognition
+bindings and **33 damaged-data rejections** pass. Source totals, split titles,
+spelling and qualified glyphs remain literal. The unchanged implementation
+retains its qualified **297-test baseline**. M42 freezes **1,109 evidence files**.
+Whole March remains active with **21 complete articles, one partial article,
+16 pending articles, three complete headings, three pending headings and
+120 pending full-page dispositions** across **273 scans**. Continue **M43 with
+actual 161–164**, including the command graph, then assemble/audit the complete
+Visicalc article and finish every remaining March task and whole-issue
+export/audit. See [the accepted opening](metadata/catalog/scan-restoration/1984-03-visicalc-opening.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

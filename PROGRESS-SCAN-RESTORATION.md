@@ -97,11 +97,20 @@ segments are covered. **M41 now completes the whole 134–154 article in 664 exa
 files**, preserving all 655 original segment files and 18,664 native records.
 All 166 crops, 151 OCR bindings, 47 damaged-data cases and 297 fresh regressions
 pass. The observed main program retains 964 physical rows / 613 logical units
-and the damaged `:065` label. Current totals are **21 complete articles, no partial
+and the damaged `:065` label. At M41, totals were **21 complete articles, no partial
 articles, 17 pending articles, three complete headings, three pending headings
 and 125 pending full-page dispositions** across **273 scans**. Continue **M42 with
 Visicalc의 활용**, opening on 155, and every remaining March task. See
 [the complete regression article](metadata/catalog/scan-restoration/1984-03-regression.json).
+**M42 accepts the Visicalc opening on 155–160 in 291 exact files.** All 65 text
+readings, 23 original figures, 617 worksheet-cell observations and 76 source
+paths are preserved. Both exports, 88 pixel-exact master crops and 33 damaged-data
+checks pass. Current totals are **21 complete articles, one partial article,
+16 pending articles, three complete headings, three pending headings and
+120 pending full-page dispositions** across **273 scans**. Continue **M43 on
+161–164**, including the command graph, then complete the Visicalc assembly and
+all remaining March work. See the
+[accepted opening](metadata/catalog/scan-restoration/1984-03-visicalc-opening.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -6152,10 +6161,10 @@ with Visicalc의 활용**, opening on 155, after verifying its complete source e
 All remaining March content, source dispositions and reproducible whole-issue
 export/audit remain required.
 
-## M42 working — Visicalc opening, actual 155–160
+## M42 initial source work — Visicalc opening, actual 155–160
 
 [The saved work](metadata/catalog/scan-restoration/1984-03-visicalc-opening-work.json)
-verifies the article's complete source extent as **155–164**. Six selected
+initially verified the article's complete source extent as **155–164**. Six selected
 opening pages and six outside extent views are compared. Final prose ends on
 163; the sideways command structure chart on 164 belongs to the article, and
 165 opens **서북 편란법**. Native restoration of 161–164 remains deferred.
@@ -6175,9 +6184,9 @@ Every TSV is parsed with `QUOTE_NONE`; there are no empty text results and no
 recognition retries. All **56 frozen M41 files** and **53 shared implementation
 pins** remain exact. Shared restoration implementation is unchanged.
 
-All **46 original prose/title/caption/key contexts**, plus the first annotated
-screen, have enlarged source comparison: **47 text contexts**, with **18 panel
-readings still pending**. The original wording **방법을 의해서** replaces the
+At this intermediate stage, all **46 original prose/title/caption/key contexts**,
+plus the first annotated screen, had enlarged source comparison: **47 text
+contexts**, with **18 panel readings still pending**. The original wording **방법을 의해서** replaces the
 historical guide's **익혀서**. Printed **VISICAL**, **FX-8Q** and **PRINTNG** stay
 literal. The local FORMAT menu's **S** and global menu's **$** remain separate
 source occurrences. The first screen retains the qualified dot-font version
@@ -6185,15 +6194,59 @@ reading and its blank A–D / 1–11 worksheet. Guide-added label prefixes are r
 from DELETE, RECALC and PRINT callouts; native arrows will carry their observed
 associations. Cross-column and cross-page prose continuities remain explicit.
 
-The partial source-work audit passes. Two panels have descriptive observations;
-their full native structures and all remaining figure reviews are pending.
-No M42 native recipe or package is selected. Next compare every remaining panel,
-including its rule glyphs, cell positions, blanks, highlights and printed totals;
-then encode native structures and geometry and export/audit the opening. Restore
-161–164, including the command graph, and assemble/audit the complete article.
+The intermediate source-work audit passed with two descriptive panel reviews.
+Native structures, the remaining panel/figure reviews and exports were still
+pending at that stage. Acceptance of the complete opening is recorded below.
 
 Cleanup was previewed without deletion, and every launched job is terminal.
-Whole March remains active with **21 complete articles, no partial articles,
-17 pending articles, three complete headings, three pending headings and 125
-pending full-page dispositions** across **273 scans**. Every remaining March
-task and the reproducible whole-issue export/audit remain required.
+At this intermediate stage, Whole March had **21 complete articles, no partial
+articles, 17 pending articles, three complete headings, three pending headings
+and 125 pending full-page dispositions** across **273 scans**.
+
+## M42 — Accepted Visicalc opening, actual 155–160
+
+[The accepted opening](metadata/catalog/scan-restoration/1984-03-visicalc-opening.json)
+preserves **65 source-compared text regions and 23 original figures** in two
+independent, identical **291-file native exports**. All **88 master crops** match
+the original JPEG pixels, all **65 initial recognition bindings** pass, and all
+**284 raw ZIP members** retain exact bytes. There were no recognition retries.
+
+All **36 native contexts** were compared. Their **36 structures, 960 fields,
+199 rows, 617 cells and 76 paths** retain every visible worksheet state, including
+**226 blank cell contexts**, original reverse-video highlights, frames, inline
+key boxes and command leaders. The first unruled worksheet uses qualified
+context boxes; these do not claim printed rulings or hidden spreadsheet storage.
+Every **734 nonblank field** has an exact regional and exported text occurrence.
+The **27 menu options**, eighteen captions, nineteen separate panel-text owners
+and seventeen procedure/display relationships remain explicit. Seven original
+cross-column/page joins preserve the source fragments and logical reading.
+
+Printed **5060000** remains the displayed total, without recomputation. The
+column-move example retains **ORT / SALES REP**, its split underline and qualified
+**.13**. The source version glyph, faded rule counts, independent local/global
+FORMAT menus and original spelling remain qualified. Original photographs own
+their decorative glyphs. No commands were executed or terminal bytes inferred.
+
+Review widened clipped row-label boxes, moved menu-option contexts onto their
+printed letters, and bound the original callout paths to those options. A failed
+unscoped `C-` binding caught the substring inside the version string; every first
+screen field now has an explicit source line and character offset. The earlier
+candidate and failure remain preserved. A photo-plate byte-equality assumption
+and an audit ownership-counter fixture were corrected in retained fresh attempts;
+the selected source text and two completed exports were unchanged.
+
+The independent audit rejects **33 damaged cases**, including altered totals,
+filled blanks, shifted columns, lost source records and incorrect occurrence
+bindings. All **56 frozen M41 files**, **53 implementation pins** and **35 selected
+predecessor packages / 5,809 files** remain exact. Shared implementation is
+unchanged; its qualified **297-test baseline** is retained. M42 freezes **1,109
+evidence files**. Cleanup previewed 52.7 GiB without deleting anything; all jobs
+are terminal.
+
+Whole March remains active with **21 complete articles, one partial article,
+16 pending articles, three complete headings, three pending headings and
+120 pending full-page dispositions** across **273 scans**. Next restore **161–164**,
+including the promised output and the integral sideways command graph, then
+assemble/audit the complete **155–164** article. Every remaining March article,
+heading, source disposition and reproducible whole-issue export/audit remains
+required. Frozen M42 helpers and evidence must remain unchanged.

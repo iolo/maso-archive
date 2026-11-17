@@ -4506,7 +4506,7 @@
       "title": "Visicalc의 활용",
       "parent_id": "maso-1984-03-toc-0022",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0024",
@@ -4694,7 +4694,70 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M42",
+        "article_id": "scan-maso-1984-03-toc-0024",
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "directory": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01/manifest.json",
+          "sha256": "ab85f6c8a53678deabfb77a010ab5fb1251d1affdfebc0abe800249c38fdf736",
+          "bytes": 49320
+        },
+        "article_actual_folios": [
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164
+        ],
+        "covered_actual_folios": [
+          155,
+          156,
+          157,
+          158,
+          159,
+          160
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
+          161,
+          162,
+          163,
+          164
+        ],
+        "segments": [
+          {
+            "checkpoint": "M42",
+            "directory": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01/manifest.json",
+              "sha256": "ab85f6c8a53678deabfb77a010ab5fb1251d1affdfebc0abe800249c38fdf736",
+              "bytes": 49320
+            },
+            "actual_folios": [
+              155,
+              156,
+              157,
+              158,
+              159,
+              160
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-38/validation-native-opening.json",
+              "sha256": "ac248fa3609040b22fb58936c57f4950bc64402b82665b8834d14f4d1365460a",
+              "bytes": 3560
+            }
+          }
+        ]
+      },
       "historical_printed_extent_candidate": [
         155,
         156,
@@ -4715,7 +4778,25 @@
           "sha256": "27f9f700eca7474b298fa9bfc0c5134e4ade5d1eebadbaed5505e463782d8974",
           "bytes": 1522859
         },
-        "restoration_pending": true
+        "restoration_pending": true,
+        "partial_native_selected": true,
+        "article_actual_folios": [
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164
+        ],
+        "extent_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-38/transition.json",
+          "sha256": "05632c556e4c374620c2cd0575e5b9089ee1b58e6dc4e835e6b3fde7cb03c300",
+          "bytes": 1671
+        }
       }
     },
     {
@@ -6121,19 +6202,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-37/source-ledger.json",
-    "sha256": "29987a21981ea2955c1086db1bd73cef93ccf37cccef805c5187f85037c7270c",
-    "bytes": 298110
+    "path": "archive/scans/1984-03/restoration/whole-issue-38/source-ledger.json",
+    "sha256": "b6147af633635b0986a95062ddda5632504d91fdeb0c380896df380c66409430",
+    "bytes": 305002
   },
-  "current_checkpoint": "M42-working",
-  "next": "Compare the 18 remaining enlarged searchable panel contexts on 156–160, including each source rule count, cell position, blank, highlight and printed total. Review the remaining original figure/photo assets; encode all native structures and geometry, then export/audit the opening. Restore 161–164 including the command graph, assemble/audit the whole Visicalc article, then complete every remaining whole-March task.",
-  "pending_article_candidates": 17,
+  "current_checkpoint": "M42-complete",
+  "next": "M43: restore actual 161–164 of Visicalc의 활용 from the donated JPEGs, including the integral sideways command graph on164 and the output promised on160. Preserve accepted M42 opening155–160 and verified complete extent155–164. Then assemble/audit the complete article and continue every remaining March article, heading and all273source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M42 helpers/evidence.",
+  "pending_article_candidates": 16,
   "pending_heading_candidates": 3,
-  "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3,
-  "current_work": {
-    "path": "metadata/catalog/scan-restoration/1984-03-visicalc-opening-work.json",
-    "sha256": "11cf5b8b3eec7654114688fbdd684bce824cac74929b92ab8b4d940b6c10a4fc",
-    "bytes": 4770
-  }
+  "partial_whole_scan_articles": 1,
+  "complete_whole_scan_headings": 3
 }

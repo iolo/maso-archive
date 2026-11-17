@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0024",
   "canonical_received_title": "Visicalc의 활용",
   "observed_source_title": "VISICALC 활용",
-  "status": "mapped-recognition-audited;47source-readings-compared;18panels-and-native-encoding-pending",
+  "status": "accepted-native-opening-segment;whole-article-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -39,25 +39,25 @@
   "mapped_regions": 88,
   "initial_text_tasks": 65,
   "recognition_retries": 0,
-  "source_compared_text_regions": 47,
-  "pending_source_text_regions": 18,
+  "source_compared_text_regions": 65,
+  "pending_source_text_regions": 0,
   "original_figure_regions": 23,
   "searchable_panel_regions": 19,
-  "descriptive_panel_reviews": 2,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_article_package_selected": false,
+  "descriptive_panel_reviews": 19,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_article_package_selected": true,
   "complete_whole_scan_articles": 21,
-  "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 17,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 16,
   "complete_whole_scan_headings": 3,
   "pending_heading_candidates": 3,
-  "source_dispositions_pending": 125,
+  "source_dispositions_pending": 120,
   "active_process_handles": [],
   "active_processes": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "Compare the 18 remaining enlarged searchable panel contexts on 156–160, including each source rule count, cell position, blank, highlight and printed total. Review the remaining original figure/photo assets; encode all native structures and geometry, then export/audit the opening. Restore 161–164 including the command graph, assemble/audit the whole Visicalc article, then complete every remaining whole-March task.",
+  "next": "M43: restore actual 161–164 of Visicalc의 활용 from the donated JPEGs, including the integral sideways command graph on164 and the output promised on160. Preserve accepted M42 opening155–160 and verified complete extent155–164. Then assemble/audit the complete article and continue every remaining March article, heading and all273source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M42 helpers/evidence.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-38/visicalc-a/map-r02.json",
     "sha256": "bda064677e95a7c4f80b0e020b767be868ecbb9af5268d397bcf7ab158c77b48",
@@ -90,18 +90,18 @@
   },
   "source_readings": {
     "path": "archive/scans/1984-03/restoration/whole-issue-38/visicalc-a/source-compared-readings.json",
-    "sha256": "344cc5ecbdc99a91a43bc4b3d7f6cfbb1eb21d8dcbe08e1df405b06a3bcd9d01",
-    "bytes": 71956
+    "sha256": "ad35219fe5898164946faf5c29115d16a50713679dff495814e8234e1aa84de7",
+    "bytes": 105267
   },
   "figure_observations": {
     "path": "archive/scans/1984-03/restoration/whole-issue-38/visicalc-a/figure-source-observations.json",
-    "sha256": "7d08278907e287bab7b38fb6dfa592ca18a75b123d1bfd333d543c0aa9e18542",
-    "bytes": 2389
+    "sha256": "865605db54683b5a837a9969f4edb22cf85e56baed320a17ae97034313756d1d",
+    "bytes": 18729
   },
   "source_review_work_audit": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-38/source-review-work-audit.json",
-    "sha256": "0575db26caa48d0fb5b82f83ba5d3bcccd2d4ee513c4ed0801664d247c1260de",
-    "bytes": 1734
+    "path": "archive/scans/1984-03/restoration/whole-issue-38/validation-native-opening.json",
+    "sha256": "ac248fa3609040b22fb58936c57f4950bc64402b82665b8834d14f4d1365460a",
+    "bytes": 3560
   },
   "terminal_logs": {
     "path": "archive/scans/1984-03/restoration/whole-issue-38/terminal-process-log-pins.json",
@@ -110,8 +110,25 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-38/resume.json",
-    "sha256": "a47096dd6328860c4f86a6aab75f8578032a899faecc4d684e5dbe878d6073d7",
-    "bytes": 3416
+    "sha256": "14d6fcf5a8adefd576e41b68bb8b917b4cc7d4138c565c4e2ad99169397493d3",
+    "bytes": 6064
   },
-  "acceptance_note": "Working evidence only. All six selected full pages, six extent lookups and both sets of map overlays are compared. All 65 initial recognitions, 88 OCR crops and 88 review-master crops pass. All 46 original text contexts and annotated panel 1 are source-compared. Eighteen panel readings, the remaining figure reviews, native structures and opening exports/audits remain pending. No new native package is selected; accepted counters are unchanged. The whole Visicalc article, 155–164, and every remaining March task remain required."
+  "acceptance_note": "All65text readings,23original figures and36native contexts source compared. Both291-file exports,88master crops,65recognition bindings,734exact field occurrences and33damaged-data rejections pass. The article remains partial with161–164and whole-article assembly/audit required; all273March scans remain in scope.",
+  "descriptive_original_figure_reviews": 23,
+  "native_package_availability": "partial",
+  "native_geometry_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-38/visicalc-a/native-geometry-review.json",
+    "sha256": "452e99af03456449d62b64ca22800f2d00f0bb1c714c1bf8a385b4d34935bffb",
+    "bytes": 18411
+  },
+  "accepted_result": {
+    "path": "metadata/catalog/scan-restoration/1984-03-visicalc-opening.json",
+    "sha256": "e03f905a1c23540b9072c060fb0c26d222a21a87914937c701a563994d6e5755",
+    "bytes": 3406
+  },
+  "selected_manifest": {
+    "path": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01/manifest.json",
+    "sha256": "ab85f6c8a53678deabfb77a010ab5fb1251d1affdfebc0abe800249c38fdf736",
+    "bytes": 49320
+  }
 }
