@@ -5197,7 +5197,7 @@
       "title": "의료보험수가 계산 프로그램",
       "parent_id": "maso-1984-03-toc-0022",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0027",
@@ -5265,7 +5265,77 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M49",
+        "article_id": "scan-maso-1984-03-toc-0027",
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/medical-a-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/medical-a-jpeg-r01/manifest.json",
+          "sha256": "0cdfca24896fb38bab450e7751e005959a2a4dea7675027840cc3eea030e70d6",
+          "bytes": 45216
+        },
+        "article_actual_folios": [
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185
+        ],
+        "covered_actual_folios": [
+          178,
+          179,
+          180,
+          181,
+          182,
+          183
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
+          184,
+          185
+        ],
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-45/medical-a/recipe-native-02.json",
+          "sha256": "dcf116f036f13bfc83eccfe4000b78cccd0eabbb7334841f9bd3eb594b000a73",
+          "bytes": 15356
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-45/validation-native-opening.json",
+          "sha256": "0bb36ffd9533370185e7056ae6839d42af2e14945cbb49d8083f5da26e9ed85d",
+          "bytes": 5161
+        },
+        "segments": [
+          {
+            "checkpoint": "M49",
+            "directory": "archive/scans/1984-03/packages/medical-a-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/medical-a-jpeg-r01/manifest.json",
+              "sha256": "0cdfca24896fb38bab450e7751e005959a2a4dea7675027840cc3eea030e70d6",
+              "bytes": 45216
+            },
+            "actual_folios": [
+              178,
+              179,
+              180,
+              181,
+              182,
+              183
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-45/validation-native-opening.json",
+              "sha256": "0bb36ffd9533370185e7056ae6839d42af2e14945cbb49d8083f5da26e9ed85d",
+              "bytes": 5161
+            }
+          }
+        ]
+      },
       "historical_printed_extent_candidate": [
         178,
         179,
@@ -5280,21 +5350,28 @@
         "actual_folio": 178,
         "observed_title": "의료보험 수가계산 프로그램",
         "source_review": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-44/review/full-178.jpg",
+          "path": "archive/scans/1984-03/restoration/whole-issue-45/review/full-178.jpg",
           "sha256": "39880a857b808aa05252430ee6895d45190f81c2f231858b6a818c23f9237316",
           "bytes": 1548414
         },
-        "boundary_evidence": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-44/transition.json",
-          "sha256": "6e82ab3bef6f741462610ff2d2223fbb5f3a5ef7061e3202b04b6b239bb1ffbe",
-          "bytes": 1895
+        "article_actual_folios": [
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185
+        ],
+        "source_extent_verified": true,
+        "extent_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-45/transition.json",
+          "sha256": "fed7e55d306ff89c6088002698d36bfd52189fdcdc1ced4baf35d4db88e91019",
+          "bytes": 2066
         },
-        "restoration_pending": true
-      },
-      "current_work": {
-        "path": "metadata/catalog/scan-restoration/1984-03-medical-opening-work.json",
-        "sha256": "459dd46a57383e9f1312471c0fe82e3b9397709dbc712b6b9bc06894c43dab58",
-        "bytes": 7640
+        "restoration_pending": true,
+        "partial_native_selected": true
       }
     },
     {
@@ -5360,7 +5437,22 @@
         187,
         188,
         189
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 186,
+        "observed_title": "UPDATE 프로그램의 작성",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-45/review/full-186.jpg",
+          "sha256": "4f9eb39426f322f8eb35c5e589c6506abd0579bbebe52e57ce262b7a5a710273",
+          "bytes": 1263101
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-45/transition.json",
+          "sha256": "fed7e55d306ff89c6088002698d36bfd52189fdcdc1ced4baf35d4db88e91019",
+          "bytes": 2066
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0029",
@@ -6460,19 +6552,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-44/source-ledger.json",
-    "sha256": "0bca4e364980df7242e1c1f5fd5e58cf73f8b99e6337d8c174ea0a47db98b093",
-    "bytes": 332749
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/source-ledger.json",
+    "sha256": "56d2703e480c636193b0f2293f36b832b0a508680c36c000896f09a4abadf5bd",
+    "bytes": 344572
   },
-  "current_checkpoint": "M49-working",
-  "next": "Continue M49 with the six source diagrams on 179–183: encode labelled and empty nodes, original shared buses, opposing arrows, unheaded or broken ink, document stacks and external labels. Reuse the reviewed native-forms-03.json and native-illustration-contexts-01.json; no form OCR or source text changed. Complete the nine ordered hierarchies, six source continuities, physical word fragments and explicit caption associations, then integrate the full 178–183 native opening, build twice and run the independent source/native audit. After opening acceptance, restore final 184–185 and assemble and audit the complete 178–185 medical article. Continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Preserve frozen M45–M48 evidence; the unchanged implementation baseline remains M47 implementation-after.json.",
-  "pending_article_candidates": 14,
+  "current_checkpoint": "M49-complete",
+  "next": "M50: restore final actual184–185 of canonical 의료보험수가 계산 프로그램 from the donated JPEGs, preserving accepted M49 native opening178–183 and verified full extent178–185. Retain all medical-record output forms, drug-inventory functions/effects and original diagram, feeding/meal-count functions/effects and the complete lower diagram/report labels. The source closing star precedes integral diagrams and does not truncate them. Then assemble and independently audit the complete178–185 article. Continue UP DATE 프로그램의 작성 from located186 and every remaining March article, heading and all273 source dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M49 helpers/evidence. Shared implementation remains the M47 implementation-after.json baseline.",
+  "pending_article_candidates": 13,
   "pending_heading_candidates": 3,
-  "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3,
-  "current_work": {
-    "path": "metadata/catalog/scan-restoration/1984-03-medical-opening-work.json",
-    "sha256": "459dd46a57383e9f1312471c0fe82e3b9397709dbc712b6b9bc06894c43dab58",
-    "bytes": 7640
-  }
+  "partial_whole_scan_articles": 1,
+  "complete_whole_scan_headings": 3
 }

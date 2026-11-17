@@ -392,24 +392,27 @@ March task and reproducible whole-issue export/audit remains required. See the
 [accepted database article](metadata/catalog/scan-restoration/1984-03-database.json)
 and [M48 handoff](docs/SCAN-RESTORATION-1984-03-M48.md).
 
-**M49 is in progress for the medical article, verified actual 178–185.** Its
-bounded opening 178–183 now has all **58 text owners compared against enlarged
-JPEGs across 40 review contacts**, with 39 source qualifications retained.
-All 78 original-master crops and 58 initial OCR bindings pass; no retry was
-needed. Six diagrams, twelve menus/forms, two illustrations, caption
-associations, six source continuities and nine ordered hierarchies are mapped.
-The twelve forms now retain **538 reviewed native fields, 89 named blank contexts,
-52 blank table cells and ten table rows**. All 141 value contexts remain empty;
-397 nonblank fields bind exact regional text, and twelve damaged-data cases
-reject. Both original illustrations and the existing prose drop cap have reviewed
-contexts. The six diagrams, remaining narrative/list structures and full opening
-exports/audit remain pending, followed by final 184–185 and complete article
-assembly/audit. No new OCR was needed for this native work.
-Accepted totals remain **24 complete articles, no partial articles, fourteen
-pending articles, three complete headings, three pending headings and 102
-pending dispositions across all 273 scans**. Continue the native opening;
-whole March remains active. See the
-[M49 work handoff](docs/SCAN-RESTORATION-1984-03-M49-WORK.md).
+**M49 completes the native medical-article opening, actual 178–183 of verified
+178–185**, in two matching **260-file exports**. All 58 source text owners,
+twenty original figures and 78 original-master crops are retained. The native
+opening has **21 contexts, 682 fields, 154 blank contexts, 259 original paths,
+ten table rows, nine ordered hierarchies, six source continuities and eighteen
+caption associations**. Its six diagrams preserve 92 node contexts, 130 printed
+label lines, thirteen empty contexts and 52 independent shaft/head pairs.
+All 528 nonblank native fields bind existing text occurrences. Original shared
+buses, opposing arrows, unheaded lines, broken outlines, document stacks and
+source disconnections remain explicit. Sixteen damaged opening cases and twelve
+earlier form-contract cases reject. Forty-two source/native qualifications remain;
+no shared implementation changed and the qualified M47 300-test baseline is reused.
+M49 freezes **1,422 evidence files**; never execute its helpers again.
+Whole March remains active with **24 complete articles, one partial article,
+thirteen pending articles, three complete headings, three pending headings and
+94 pending full-page dispositions across all 273 scans**. Continue **M50 with
+final 184–185**, including all integral diagrams after the closing prose star,
+then assemble and audit the complete 178–185 article. Continue UPDATE from
+located 186 and every remaining March task through whole-issue export/audit.
+See the [accepted opening](metadata/catalog/scan-restoration/1984-03-medical-opening.json)
+and [M49 handoff](docs/SCAN-RESTORATION-1984-03-M49.md).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

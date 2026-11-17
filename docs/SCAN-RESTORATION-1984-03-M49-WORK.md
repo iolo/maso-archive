@@ -1,6 +1,12 @@
 # March 1984 M49 medical article source comparison
 
-M49 is in progress for canonical 의료보험수가 계산 프로그램
+M49's opening is now accepted in two matching 260-file native exports; the
+complete article and whole March issue remain active. The final result is in
+the [M49 handoff](SCAN-RESTORATION-1984-03-M49.md). The working directory is now
+frozen with 1,422 evidence files; never execute its helpers again. The following
+records describe the preserved component work before integration and acceptance.
+
+The component work covers canonical 의료보험수가 계산 프로그램
 (`maso-1984-03-toc-0027`). The original JPEGs verify the complete article on
 actual 178–185, between the accepted database article ending on 177 and the
 separate UPDATE article opening on 186. The enlarged source title reads
@@ -51,7 +57,7 @@ human figures and retains the available original left edge. No captions or
 labels are invented. The large 19 binds the first two characters of the existing
 1970년대 prose owner; it does not create another searchable occurrence.
 
-Next, encode the **six diagrams**, preserving labelled and empty nodes, shared
+The next component step was to encode the **six diagrams**, preserving labelled and empty nodes, shared
 buses, opposing arrows, unheaded or broken ink, document stacks and external
 labels. Complete the ordered hierarchies, physical fragments, captions and
 source joins, then integrate the full opening, build twice and run its independent
@@ -59,16 +65,16 @@ native/source audit before acceptance. Restore 184–185 afterward and assemble
 and audit the complete eight-page article. The isolated form-contract preflight
 is not a selected opening or article export.
 
-Accepted whole-issue totals remain **24 complete articles, no partial articles,
+At the component-work checkpoint, accepted whole-issue totals were **24 complete articles, no partial articles,
 14 pending articles, three complete headings, three pending headings and 102
 pending source dispositions across all 273 scans**. Text comparison alone does
 not increase those totals. Every remaining March task and the reproducible
 whole-issue export and completion audit remain required.
 
-All known processing jobs are terminal. Session cleanup was preview-only at
-55.0 GiB; no deletion occurred. M49's working directory is
-`archive/scans/1984-03/restoration/whole-issue-45/`; it is not frozen. Never run
-the frozen M48 helpers. The unchanged shared implementation still uses the
+All known processing jobs are terminal. Component-work cleanup was preview-only at
+55.0 GiB; no deletion occurred. M49's directory is
+`archive/scans/1984-03/restoration/whole-issue-45/`; it is now frozen. Never run
+its helpers or the frozen M48 helpers. The unchanged shared implementation still uses the
 M47 `implementation-after.json` baseline and its qualified 300-test result.
 
 See the [working record](../metadata/catalog/scan-restoration/1984-03-medical-opening-work.json)
