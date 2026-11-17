@@ -6916,12 +6916,16 @@ and 64 first-attempt OCR bindings** with no retries. The map retains Figures
 20–30, Table 3, the integral and ratio equations, Figure 28's flowchart and one
 8080 program with comments/clock column, and the original 239 photograph.
 
-All raw drafts were read before the source pass. The **nineteen owners on
-234–235** now have enlarged comparison and **eleven qualifications**. Preserve
+All raw drafts were read before the source pass. All **64 owners on
+234–239** now have enlarged comparison and **36 qualifications**. Preserve
 printed mathematical anomalies, repeated graphic fields, source polarities and
-explicit column/page joins. **Forty-five owners on 236–239 and all native
-continuation structures, integration, exports and acceptance checks remain
-pending.** This checkpoint remains unfrozen; no new continuation package is
+explicit column/page joins. The source audit passes all 64 readings, 77 paired
+pixel crops and sixteen corrupted source contracts. Selected native **Table 3
+R02** retains **24 fields/cells, six row contexts and nine original rule segments**,
+with personal overlay and independent source-value/ink checks. Two superscripts
+remain unresolved; printed dash values and missing body row rules are preserved.
+**Remaining native continuation structures, integration, exports and acceptance
+checks remain pending.** This checkpoint remains unfrozen; no new continuation package is
 selected. All 901 frozen M61 files and 53 implementation pins remain exact.
 The unchanged 303-test baseline applies. All processing is terminal; cleanup was
 preview-only at 59.1 GiB, with no deletion.

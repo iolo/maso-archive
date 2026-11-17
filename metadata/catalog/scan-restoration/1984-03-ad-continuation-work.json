@@ -2,8 +2,8 @@
   "schema_version": 1,
   "issue_id": "1984-03",
   "checkpoint": "M62-work",
-  "updated_at": "2026-11-17T22:31:04.725932+00:00",
-  "status": "source-work-in-progress;native-continuation-not-accepted",
+  "updated_at": "2026-11-17T22:50:15.040207+00:00",
+  "status": "all-source-readings-compared;Table3-work-selected;remaining-native-pending",
   "scope": "Whole March issue; this checkpoint is only the bounded A/D, D/A continuation source-work stage.",
   "toc_entry_id": "maso-1984-03-toc-0033",
   "canonical_received_title": "A/D, D/A의 이론과 실제",
@@ -67,9 +67,9 @@
   "recognition_unattempted_tasks": 0,
   "recognition_processing_seconds": 26.892154762987047,
   "master_crops": 77,
-  "source_readings_compared": 19,
-  "source_readings_pending": 45,
-  "source_qualifications_recorded": 11,
+  "source_readings_compared": 64,
+  "source_readings_pending": 0,
+  "source_qualifications_recorded": 36,
   "native_geometry_complete": false,
   "native_continuation_accepted": false,
   "native_article_accepted": false,
@@ -130,14 +130,14 @@
     "bytes": 1028
   },
   "source_work_validation": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-58/source-work-validation-01.json",
-    "sha256": "a426a4a8f0a5bdf286f79672c14e332d05d0354db1755edd928dec1091aa5e33",
-    "bytes": 1321
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/source-readings-validation-01.json",
+    "sha256": "d9d6b6aaa789d41e3fb06702708252cb7af3c4709023f9120689b040ae0f452c",
+    "bytes": 4380
   },
   "source_pass": {
     "path": "archive/scans/1984-03/restoration/whole-issue-58/source-pass-01.json",
-    "sha256": "ddbf959f7f2f47176dce2d09f16119eb06104b423205e26968df14ae22e944cd",
-    "bytes": 960
+    "sha256": "17172b3cc70b5d45cb4042c0d66ca02d66f7f90ab79e7ac8fdee3c03c47e1453",
+    "bytes": 2219
   },
   "source_compared_records": [
     {
@@ -149,17 +149,37 @@
       "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/source-compared-p235-01.json",
       "sha256": "1e775be5b7ad395ff5540294ec032152a5b6222013e474e83de8c53561106d99",
       "bytes": 31532
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/source-compared-p236-01.json",
+      "sha256": "972cff19f7f7c5800850bce8050ffc2bb02caa99442c765029eba40b847a89c2",
+      "bytes": 31557
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/source-compared-p237-01.json",
+      "sha256": "82f1a91f1b9ae96296559a5e154bd204f7334ec7c37854b8b76beacdb1ebe397",
+      "bytes": 31931
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/source-compared-p238-01.json",
+      "sha256": "3d9b580148475c1bc0d92764a420ac0e43978a4d9f4b5beba149e5b36e146450",
+      "bytes": 36276
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/source-compared-p239-01.json",
+      "sha256": "1c4cb699e75ad450c3260103c74fbdd2b84628b1da6de2ccefabb467d137f5e9",
+      "bytes": 25923
     }
   ],
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-58/resume.json",
-    "sha256": "5f5c56fbed350f2990b90b614a41667f31e1ac41eca80c25f9cbad6455cc967a",
-    "bytes": 3589
+    "sha256": "852dadfc29fa4535c8210ae680d60e7a375d7dbdeffcc5f862f4fb1c7f0b0dbf",
+    "bytes": 5267
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-58/process-outcomes-work-01.json",
-    "sha256": "ed76586dc1a9d90a4a9c35ae81b62ff0e74f2b3565bda8cf9ae4c67d95534a83",
-    "bytes": 703
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/process-outcomes-work-02.json",
+    "sha256": "c8474e9027044d2710774db7478b3bc4abf0710c2b54042474ed489015b00a93",
+    "bytes": 708
   },
   "prior_accepted_opening": {
     "path": "metadata/catalog/scan-restoration/1984-03-ad-opening.json",
@@ -174,5 +194,50 @@
   "cleanup_preview_only": true,
   "cleanup_estimated_allocated_space": "59.1 GiB",
   "deleted_files": 0,
-  "next": "Continue M62 source comparison on original 236–239: 45 text owners remain. Reuse all 64 successful first-attempt OCR tasks and the 19 compared owners on 234–235. Complete native Figures 20–30, Table 3, Figure 28 flowchart and one 8080 program with comments/clock column, equations, prose, captions and photograph; then independently build and audit the continuation. Preserve accepted M61 228–233, the empty 233/234 join and deferred Figure 31 reference from 239 to 240. Restore final 240–241 and assemble/audit the complete 228–241 article. Finish every remaining March article, heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M61 or predecessor helpers/evidence. Whole March remains active."
+  "next": "Continue M62 native restoration on original 234–239. Reuse all 64 successful OCR tasks, all 64 source-compared readings and selected Table 3 R02 (24 cells, nine rule segments). Encode and compare remaining Figures 20–30, circuit/waveform paths, displayed integral/ratio equations, Figure 28 flowchart and one 8080 program with comments/clock column, and all prose, headings, physical baselines, inline typography, captions and references. Preserve two unresolved ring-shaped superscripts, the literal HiGH/HIGH difference, H,2 000 H spacing, unprinted graphic labels, source polarities and all nine internal joins. Integrate and independently build/audit the continuation before acceptance. Then restore 240–241, assemble/audit the complete 228–241 article, and finish every remaining March article, heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M61 or predecessor helpers/evidence. Whole March remains active.",
+  "unresolved_superscript_occurrences": 2,
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/source-compared-readings-01.json",
+    "sha256": "e0b3b8e7db4bda73463307155ba265a61ee49bbe07bfbbf05cf4f6fcf3ded0d0",
+    "bytes": 178601
+  },
+  "historical_source_work_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/source-work-validation-01.json",
+    "sha256": "a426a4a8f0a5bdf286f79672c14e332d05d0354db1755edd928dec1091aa5e33",
+    "bytes": 1321
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-structure-plan-02.json",
+    "sha256": "ddec2f4b5da03101471d9d5268b1ad0e04093f61985eb35ab27dc20fb3013cb4",
+    "bytes": 27516
+  },
+  "native_table3_work": {
+    "validation": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/table3-work-validation-01.json",
+      "sha256": "ad9c2c7bed96f674d5444262bb219f54e02ab5d744ff3b4f292c7b33be50745f",
+      "bytes": 2776
+    },
+    "geometry": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-table3-02.json",
+      "sha256": "7bddbbc44af1335ae9f1f8b9129e3128539949bb8b88137acfc68951bf510ef7",
+      "bytes": 51264
+    },
+    "review": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-table3-review-01.json",
+      "sha256": "285fa43d6514aabe69f22099750800cc70a06f7099b5c811c69b28bc04c871c7",
+      "bytes": 1710
+    },
+    "structures": 1,
+    "fields": 24,
+    "cells": 24,
+    "rows": 6,
+    "paths": 9,
+    "continuation_accepted": false
+  },
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/cleanup-preview-work-02.log",
+    "sha256": "4f32d87948b72da95b7d22cd07dab61ec9d2ecb5db31727406798cdae79711e4",
+    "bytes": 233
+  },
+  "source_contract_damage_rejections": 16
 }

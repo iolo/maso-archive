@@ -808,11 +808,15 @@ audit. See the [M61 native handoff](docs/SCAN-RESTORATION-1984-03-M61.md).
 
 **M62 source work is in progress on original 234–239.** All six revised maps
 have personal comparison; **77 original pixel crops and all 64 first-attempt
-OCR bindings** pass independent checks, with no retries. The nineteen text
-owners on 234–235 have enlarged source comparison and eleven qualifications;
-**45 owners on 236–239 and all native continuation structures remain pending**.
+OCR bindings** pass independent checks, with no retries. All **64 text owners
+on 234–239** now have enlarged source comparison, **36 qualifications** and
+sixteen rejected source-contract damage cases. Selected native Table 3 retains
+**24 cells and nine original rule segments**, with personal source/overlay and
+independent source-value/ink checks. Remaining native continuation structures,
+integration, exports and acceptance remain pending.
 Preserve the printed formula dot, integral/overbar/exponent layout, repeated
-graphic fields, source polarities and explicit continuations. No continuation
+graphic fields, two unresolved ring-shaped superscripts, `HiGH`/`HIGH`, operand
+spacing, source polarities and explicit continuations. No continuation
 package or article completion is accepted. All 901 frozen M61 files and 53
 implementation pins remain exact; the 303-test baseline applies. Whole March
 remains active with **29 complete articles, one partial, eight pending and 50

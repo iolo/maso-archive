@@ -31,14 +31,34 @@ pin helper. The preserved corrected audit selects the declared pin fields and
 changes no source, map or recognition result.
 
 All 64 raw drafts were read before the prospectively timed source pass began.
-The **nineteen owners on 234–235** now have enlarged source comparison and
-**eleven explicit qualifications**. Preserve the extra printed formula dot,
+All **64 owners on 234–239** now have enlarged source comparison and
+**36 explicit qualifications**. Preserve the extra printed formula dot,
 the overbar and integral bounds, raised `n/2` exponent, source-specific subscript
 case, repeated resistor/switch labels and original amplifier polarities. Graphic
 field and mathematical search order is distinct from physical prose baselines.
-Figure 22's overlapping caption has one selected text owner.
+Figure 22's overlapping caption has one selected text owner. The original-resolution
+table detail retains two ring-shaped superscripts whose numeric identities remain
+unresolved. Preserve `27.388mV`, the printed `0.5V`, `HiGH` versus `HIGH`, and
+`H,2 000 H` without technical or grammatical repair. Figure 26's lower resistor
+label is unprinted; Figure 27 prints `R_M` and has no continuation-dot group.
 
-**Forty-five owners on 236–239 remain to be compared. All native continuation
+The independent source audit passes all **64 readings, 77 paired original pixel
+crops, 36 qualifications and sixteen corrupted source contracts**. A native plan
+binds nine internal prose joins, the incoming 233/234 join, eleven numbered
+captions, Table 3's separate caption, one 21-row program and the deferred Figure 31
+reference. The prospective source-pass wall interval includes tool waits and the
+handoff; it is not active review time. Earlier nineteen-owner publication snapshots
+remain preserved.
+
+Selected native **Table 3 R02** now retains **24 fields/cells, six row contexts
+and nine original rule segments**. Personal comparison covers the original and
+both candidate overlays. The second candidate expands the price-header context
+to include its complete initial glyph. Independent source-value and original-ink
+checks pass. The SAC remark remains three physical lines in one cell; both dashes
+remain printed values, both ring-shaped exponents remain unresolved, and no
+horizontal body row dividers are invented.
+
+**Remaining native circuit, waveform, flowchart, program, mathematical and prose
 structures, integration, two independent exports and acceptance audit remain
 pending.** No new continuation package is selected. Reuse every successful OCR
 task and compared reading. This checkpoint is unfrozen; no processing jobs remain
