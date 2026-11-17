@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 16,
+  "complete_whole_scan_articles": 17,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -2896,8 +2896,8 @@
       "title": "마이크로 컴퓨터 시스템 입문",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0018",
         "title": "마이크로 컴퓨터 시스템 입문",
@@ -3112,7 +3112,7 @@
         }
       },
       "new_selected_restoration": {
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "segments": [
           {
@@ -3163,7 +3163,41 @@
         "source_extent_verified": true,
         "source_extent_covered": true,
         "continuation_pending": [],
-        "assembly_pending": true
+        "assembly_pending": false,
+        "checkpoint": "M32",
+        "directory": "archive/scans/1984-03/packages/systems-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/systems-jpeg-assembly-r01/manifest.json",
+          "sha256": "f85695eed5a47e158ee53e6feee61a28c3b40f0f89ce5aa5ecfe2bf0497bd98c",
+          "bytes": 64839
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-28/validation.json",
+          "sha256": "eba20f16142e0fb8d6330fb1628877014f03be1d7bc76a2144b05b2e00548a56",
+          "bytes": 11367
+        },
+        "actual_folios": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108
+        ],
+        "included_actual_folios": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108
+        ]
       },
       "historical_printed_extent_candidate": [
         "100",
@@ -3184,12 +3218,18 @@
           "sha256": "ce90a3edf74536af417e6c1487086196715af4dab1d07a0432e69f75cd31397f",
           "bytes": 1195631
         },
-        "restoration_pending": true,
-        "partial_native_selected": true,
+        "restoration_pending": false,
+        "partial_native_selected": false,
         "transition_review": {
           "path": "archive/scans/1984-03/restoration/whole-issue-26/transition.json",
           "sha256": "6ac0d3bf23a3388b93f86513b1e3f297c8c71cd4b9938c6c8a0859a10e21d327",
           "bytes": 1738
+        },
+        "complete_native_selected": true,
+        "assembly_validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-28/validation.json",
+          "sha256": "eba20f16142e0fb8d6330fb1628877014f03be1d7bc76a2144b05b2e00548a56",
+          "bytes": 11367
         }
       }
     },
@@ -5650,14 +5690,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-27/source-ledger.json",
-    "sha256": "36d4320861d295d8a076447a28d734ed1a3d249dcce386689a179fe52a50d946",
-    "bytes": 259862
+    "path": "archive/scans/1984-03/restoration/whole-issue-28/source-ledger.json",
+    "sha256": "f50d07ccf81d9a77ef5b95b1dbb97084511ffb6b7a4cfff373b4b5696be3ce88",
+    "bytes": 258776
   },
-  "current_checkpoint": "M31-complete",
-  "next": "M32: assemble and independently validate complete100–108of 마이크로 컴퓨터 시스템 입문 from the accepted M30/M31native segments. Retain the explicit105/106so-/urce source join and intervening Figure9/caption. Then continue 자동 실행 테이프의 전모,maso-1984-03-toc-0019,on109–112, and every remaining March article,heading and source disposition before whole-issue export/audit.",
+  "current_checkpoint": "M32-complete",
+  "next": "M33: restore 자동 실행 테이프의 전모,maso-1984-03-toc-0019,from donated JPEGs. Candidate source109–112requires full-page extent/boundary review before mapping. Continue every remaining March article,heading and all273source dispositions before whole-issue export/audit.",
   "pending_article_candidates": 21,
   "pending_heading_candidates": 4,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 2
 }

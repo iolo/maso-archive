@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M32",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0018",
+  "canonical_received_title": "마이크로 컴퓨터 시스템 입문",
+  "observed_source_title": "마이크로컴퓨터 시스템 입문",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "selected_package": "archive/scans/1984-03/packages/systems-jpeg-assembly-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/systems-jpeg-assembly-r01/manifest.json",
+    "sha256": "f85695eed5a47e158ee53e6feee61a28c3b40f0f89ce5aa5ecfe2bf0497bd98c",
+    "bytes": 64839
+  },
+  "exact_files": 363,
+  "retained_original_segment_files": 354,
+  "native_index_records": 2713,
+  "native_index_counts": {
+    "regional_text_ranges": 79,
+    "prose_joins": 14,
+    "listing_groups": 2,
+    "listing_line_index": 29,
+    "logical_listing_line_index": 29,
+    "source_literal_index": 170,
+    "source_uncertainties": 34,
+    "inline_source_fields": 430,
+    "bibliography_entries": 4,
+    "source_section_index": 18,
+    "source_regional_line_index": 154,
+    "source_paragraph_index": 119,
+    "source_table_cell_index": 302,
+    "source_figure_structure_index": 38,
+    "source_figure_row_index": 136,
+    "source_figure_field_index": 547,
+    "source_figure_label_index": 115,
+    "source_figure_connector_index": 340,
+    "source_caption_association_index": 15,
+    "source_illustration_text_association_index": 3,
+    "source_prose_claim_index": 80,
+    "source_inline_bit_expression_index": 1,
+    "source_inline_bit_index": 8,
+    "source_figure_context_index": 11,
+    "source_figure_bit_index": 32,
+    "source_closing_mark_index": 1,
+    "segment_continuations": 2
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-28/validation.json",
+    "sha256": "eba20f16142e0fb8d6330fb1628877014f03be1d7bc76a2144b05b2e00548a56",
+    "bytes": 11367
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-28/assembly-recipe-r01.json",
+    "sha256": "21a8e3d28112435d6653389a3d6edf92c7ea2d87dd64fcf32f67b4dae4521801",
+    "bytes": 5607
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-28/source-ledger.json",
+    "sha256": "f50d07ccf81d9a77ef5b95b1dbb97084511ffb6b7a4cfff373b4b5696be3ce88",
+    "bytes": 258776
+  },
+  "source_dispositions_pending": 164,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-28/whole-progress-m32.json",
+    "sha256": "ea2620d72844de247c39e50a84e4c5341f15229535a39a26400bd6bc299ae2e6",
+    "bytes": 180779
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-28/evidence-manifest.json",
+    "sha256": "a5ba1dcde146020891eefe324af615abcf2d23e5c994931fc8736cdfe88aa907",
+    "bytes": 5604
+  },
+  "shared_implementation_changed": false,
+  "source_index_mode": "scoped-observations-v1",
+  "reused_fresh_regressions": 291,
+  "next": "M33: restore 자동 실행 테이프의 전모,maso-1984-03-toc-0019,from donated JPEGs. Candidate source109–112requires full-page extent/boundary review before mapping. Continue every remaining March article,heading and all273source dispositions before whole-issue export/audit."
+}

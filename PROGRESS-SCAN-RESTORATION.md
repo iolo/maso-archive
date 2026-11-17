@@ -5347,3 +5347,48 @@ intervening Figure 9/caption and the **105/106 so-/urce** boundary. Continue
 afterward with **자동 실행 테이프의 전모**, actual **109–112**, and the rest of
 the issue. See [the accepted ending](metadata/catalog/scan-restoration/1984-03-systems-ending.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M32 complete — whole native systems article, actual 100–108
+
+Completed **마이크로 컴퓨터 시스템 입문**, canonical
+**maso-1984-03-toc-0018**, across all verified original **100–108**. The printed
+title **마이크로컴퓨터 시스템 입문** remains distinct from the received title.
+Two separate exports reproduce **363 exact native files**, retaining every one
+of the **354 original M30/M31 segment files**. The complete article contains
+**64 reading blocks, 79 regional texts and 21 original figures**. All fifteen
+caption associations, both independent printed listings, four bibliography
+entries and the closing star remain intact.
+
+The enlarged original **105/106** contexts verify **소스(so-/urce)**. The reading
+text joins **소스(source)** without a space; the original intervening Figure 9
+and caption remain in content order. All original source blocks remain exact
+fragments of the assembled reading text. The source scopes preserve **2,713
+native records**, including thirteen tables/302 physical cells, 547 figure
+fields, 115 labels, 340 paths, 136 row contexts and 32 drawing bit positions.
+The two independent listings retain 29 physical/logical rows, all 146 explicit
+fields and fourteen printed output/source-ordinal associations. All **34 local
+source qualifications** and printed errors remain unchanged.
+
+The independent audit passes **100 original-master pixel comparisons, 79 OCR
+bindings, 345 combined raw ZIP members and 46 damaged-data cases**. It checks
+**12,889 typed references, 3,631 source/active byte spans and 2,584 source asset
+bindings**. All 29 earlier selected native packages, all 821 frozen M30 files,
+all 372 frozen M31 files and 51 shared implementation pins remain exact. The
+unchanged fresh 291-test baseline remains qualified. No shared code changed.
+
+The first preparation attempt treated validated bytes as a path; preparation
+resumed from its already recorded scope without changing sources. The first
+audit expected the sum of the two segment raw ZIP counts. The combined archive
+also retains each segment's map, corrections and provenance, adding six
+members: the correct count is 345. Fixing the audit fixture changed no selected
+package file. Both attempts and helpers remain preserved. M32 freezes **35
+evidence files**, excluding disposable bytecode caches only. Cleanup was
+previewed without deletion; all launched processes were observed terminal.
+
+Whole March remains active with **seventeen complete articles, no partial
+articles, 21 pending article candidates, two completed headings, four pending
+headings and 164 pending full-page dispositions**, across all **273 scans**.
+Continue **M33** with **자동 실행 테이프의 전모**, candidate actual **109–112**;
+verify the full-page extent and neighboring material before mapping. See
+[the complete systems result](metadata/catalog/scan-restoration/1984-03-systems.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

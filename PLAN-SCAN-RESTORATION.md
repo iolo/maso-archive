@@ -109,7 +109,7 @@ The original intervening illustration and overprinted text remain intact.
 All 107 master crops, 71 OCR bindings and 291 fresh restoration tests pass;
 the opt-in observation contract preserves literal arithmetic and typed source
 references without changing historical modes. The whole issue
-remains active: sixteen complete articles, one partial article, 21 pending article
+remains active: seventeen complete articles, no partial articles, 21 pending article
 candidates, two completed headings and four pending headings. There are 164 source
 images still awaiting full-page disposition. M30 restores the bounded opening
 100–105 of 마이크로 컴퓨터 시스템 입문 in 199 exact native files; the complete
@@ -131,9 +131,18 @@ source comparison. Eight native structures retain 176 fields, twelve labels,
 master crops, 35 OCR bindings, 934 native records and 26 damaged-data checks
 pass; the unchanged 291-test baseline remains qualified. Initial exports and
 the correction that adds the exact `STORE : DS 20H` directive occurrence are
-preserved. The complete 100–108 article still requires M32 assembly and
-independent validation; article-completion counts remain unchanged. See
+preserved. At that checkpoint the complete 100–108 article still required M32
+assembly and independent validation. See
 [the accepted ending](metadata/catalog/scan-restoration/1984-03-systems-ending.json).
+M32 now completes the whole 100–108 article in 363 exact files, retaining all
+354 original segment files and 2,713 native index records. The enlarged
+105/106 source comparison verifies the no-space so-/urce join; the original
+intervening Figure 9 and caption remain intact. All 100 master crops, 79 OCR
+bindings, 12,889 typed references, 3,631 source/active byte spans and 46
+damaged-data checks pass. All 34 local source qualifications remain explicit.
+The unchanged 291-test baseline remains qualified. Continue M33 with
+자동 실행 테이프의 전모, candidate actual 109–112, and the remaining whole-issue
+queue. See [the complete systems article](metadata/catalog/scan-restoration/1984-03-systems.json).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 
