@@ -6,16 +6,19 @@ Latest accepted March checkpoint: **M51 complete**, complete medical article on
 178–185, with two matching 363-file native exports. Accepted totals are
 **25 complete articles, no partial articles, thirteen pending articles, three
 complete headings, three pending headings and 94 pending full-page dispositions
-across all 273 scans**. Continue **M52**, verify the complete UPDATE article
-extent from located 186 and restore its bounded opening. March remains active.
+across all 273 scans**. Continue **M52**, completing the full UPDATE article on
+verified actual 186–189. March remains active.
 See the [M51 handoff](docs/SCAN-RESTORATION-1984-03-M51.md).
 
-**M52 has complete source comparison for UPDATE, actual 186–189.** All 32
-readings, 38 original crops and initial recognition bindings pass. The native
-requirements cover three diagrams, 128 table cells and a 52-row/51-unit program.
-Native structures, overlay comparison, independent exports and the complete
-source/native audit remain pending. Twenty-nine source qualifications include
-three unresolved glyph/ink limits. Accepted totals remain unchanged. See the
+**M52 has complete source and native geometry comparison for UPDATE, 186–189.**
+All 32 readings, 38 original crops and initial recognition bindings pass. Three
+diagrams, 128 table cells, the 52-row/51-unit program and both listing frames
+retain 80 diagram node contexts, 362 fields and 260 paths. Eleven compared native
+overlays plus one byte-identical reuse support 959 native component records;
+38 damaged component cases reject. Full article integration, two independent
+exports and the complete source/native acceptance audit remain pending.
+Twenty-nine source qualifications include three unresolved glyph/ink limits.
+Accepted totals remain unchanged. See the
 [M52 working handoff](docs/SCAN-RESTORATION-1984-03-M52-WORK.md).
 
 **M51 accepts the complete 178–185 native assembly.** All 355 original segment

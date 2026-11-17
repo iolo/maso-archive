@@ -6,7 +6,7 @@
   "canonical_received_title": "UP DATE 프로그램의 작성",
   "observed_source_title": "UPDATE 프로그램의 작성",
   "observed_running_title": "UP TO DATE 프로그램의 작성",
-  "status": "all-source-text-compared;native-structures-pending",
+  "status": "complete-source-and-native-geometry-reviewed;article-integration-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -47,7 +47,7 @@
   "total_source_comparison_views": 19,
   "source_qualifications": 29,
   "unresolved_local_glyph_or_ink_limitations": 3,
-  "native_geometry_complete": false,
+  "native_geometry_complete": true,
   "native_recipe_created": false,
   "native_article_package_selected": false,
   "whole_article_complete": false,
@@ -59,7 +59,7 @@
   "pending_heading_candidates": 3,
   "source_images": 273,
   "source_dispositions_pending": 94,
-  "source_accounting_note": "Accepted M51 ledger remains authoritative and unchanged. M52 has complete source comparison for 186–189, but native structures, independent exports/audit and article acceptance remain required.",
+  "source_accounting_note": "Accepted M51 ledger remains authoritative and unchanged. M52 has complete source comparison and reviewed native geometry for186–189;full article integration,independent exports and source/native acceptance audit remain required.",
   "active_process_handles": [],
   "active_processes": [],
   "map": {
@@ -113,19 +113,19 @@
     "bytes": 23420
   },
   "working_milestone": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-48/source-working-milestone.json",
-    "sha256": "21d58d0c35427e9056b1e4be7ce4dfb0cc5942c702604adc5753eb50b7566fac",
-    "bytes": 1789
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/native-geometry-working-milestone.json",
+    "sha256": "7e4404aef35a17cd4607ad0a362f7617fc3612f758b9b035f6e4688005b90484",
+    "bytes": 3726
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-48/resume.json",
-    "sha256": "e15746287a7ecb0deecfff2a3df903635de6a9b734780f9bfb7eaa50654f7eae",
-    "bytes": 2975
+    "sha256": "5e01f27edde82e1d926d08f0a4589c43821ffc541771e987925e55608c37809a",
+    "bytes": 4469
   },
   "terminal_processes": {
     "path": "archive/scans/1984-03/restoration/whole-issue-48/terminal-processes.json",
-    "sha256": "2e509595db901932e6e1655a359cd5d2dbfe1cb5c6035f4cc21e7fa05e10a0e1",
-    "bytes": 596
+    "sha256": "f15075cf33dc6bd2ab037d68b88a1739855e07022371daad172b314fdbcd2046",
+    "bytes": 734
   },
   "source_ledger": {
     "path": "archive/scans/1984-03/restoration/whole-issue-47/source-ledger.json",
@@ -134,11 +134,88 @@
   },
   "cleanup_preview": "56.6 GiB; preview only; no deletion",
   "cleanup_preview_evidence": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-48/cleanup-preview-01.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/cleanup-preview-02.log",
     "sha256": "c4300aeb445caf37fa75e81c26771ba3fdda50c722cab6cc6e3b64dd6ebaad1f",
     "bytes": 233
   },
   "shared_implementation_changed": false,
   "qualified_unchanged_regression_tests": 300,
-  "next": "Continue M52 with native encoding for complete UPDATE actual 186–189. Reuse all 32 source-compared readings and original successful OCR. Encode all 128 original table cells, nine printed transaction zeros, 51 numbered program units/52 physical rows, line190 wrap, both listing frames, two cross-column prose joins and all captions. Restore all three diagrams from the original pixels: 80 observed node contexts, six empty media interiors, original headed/unheaded paths, named connectors, branch labels, literal expressions and visible outline gaps. Preserve all 29 qualifications, including three unresolved glyph/ink limitations, the NMA$ diagram label, displayed result-table discrepancies, missing deletion-instruction comma and source filenames with printed period gaps. Compare native overlays, build the complete article twice and run a separate source/native audit before selection. Then continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M51 helpers; shared implementation remains M47 implementation-after.json."
+  "next": "Continue M52 full native article integration for UPDATE actual186–189. Reuse all32 source-compared readings, the qualified complete native geometry and all successful original OCR; no recognition retry is needed. All128table cells, nine transaction zeros,52physical program rows/51numbered units,original190wrap,both listing frames and all80diagram node contexts are encoded and source-overlay-compared. Integrate cross-column prose,ordered conditions,headings,all six figure/title associations, literal field occurrences and the187closing-star continuation through188–189. Preserve all29source qualifications plus native geometry qualifications,including three unresolved glyph/ink limits,NMA$,trailing0AND,missing punctuation,printed result discrepancies, empty media and absent NAM/HOB assignment return lines. Build the complete article twice and run its separate source/native audit before selection and source-ledger updates. Then continue every remaining March article,heading and all273scan dispositions through reproducible whole-issue export and completion audit. M52 remains unfrozen. Never execute frozen M49–M51 helpers; shared implementation remains M47 implementation-after.json.",
+  "native_structures": 8,
+  "native_fields": 362,
+  "printed_native_fields": 356,
+  "empty_native_fields": 6,
+  "source_paths": 260,
+  "source_table_rows": 32,
+  "complete_diagram_node_contexts": 80,
+  "complete_diagram_label_lines": 176,
+  "pending_diagram_node_contexts": 0,
+  "personally_compared_native_overlays": 11,
+  "qualified_byte_identical_overlay_reuses": 1,
+  "rejected_damaged_component_cases": 38,
+  "geometry_component_native_records": 959,
+  "source_working_milestone": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/source-working-milestone.json",
+    "sha256": "21d58d0c35427e9056b1e4be7ce4dfb0cc5942c702604adc5753eb50b7566fac",
+    "bytes": 1789
+  },
+  "native_geometry_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/native-complete-geometry-contract-audit.json",
+    "sha256": "c55fb211473bf97954482075cff78daf4aa480364b22c7bd9525303b5a8b3782",
+    "bytes": 3601
+  },
+  "native_geometry_reviews": [
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-table-listing-review.json",
+      "sha256": "79be9e4c9ed95b7a3e15879218f24632082ef78a4e8457eb016b4f2229fe4554",
+      "bytes": 7176
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-work-process-review.json",
+      "sha256": "caa3f2de6e12db76585ea331228e57b7941a46761af318fcb4f7e371b07f683b",
+      "bytes": 1474
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-flowchart-review.json",
+      "sha256": "fadd28ffbbc9b2c1e06129de801b0573da883e490a5aa4dbdfca20c4ed5fa425",
+      "bytes": 3632
+    }
+  ],
+  "selected_native_geometry": [
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-tables-02.json",
+      "sha256": "dad942d5f95df033f07e314f5ccf393ea96979a6bc4fe637044f3985ba30a6e1",
+      "bytes": 270928
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-listing-geometry-03.json",
+      "sha256": "7f77e071df904ff50bade5f5f24bc8c96e9d87a3da034e06a6a9204efbd083b9",
+      "bytes": 52313
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-work-process-01.json",
+      "sha256": "e22b314ab8ebee5a9b6555125f985ea2674da4d4581ad3ec96f4f5a0874f647a",
+      "bytes": 45340
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-standard-chart-01.json",
+      "sha256": "3f8201490c56593497bade065bebb9dceed125f42a7dc26ee74adf64bc92b84d",
+      "bytes": 262774
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-program-chart-01.json",
+      "sha256": "677023e0d8536e7993f1e1c6ef0ccc8bd3dcf36e52bb443086ff3d81f0b6dde5",
+      "bytes": 260681
+    }
+  ],
+  "selected_listing_indexes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/update/native-listing-indexes-02.json",
+    "sha256": "04546466a34dec6d7a546c4e7418cfe3f672cff32aa4c592a8f26787a903eb72",
+    "bytes": 182712
+  },
+  "native_process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-48/native-process-outcomes.json",
+    "sha256": "964fc276af2abb5601b9dd85ba9ae5c98f268cd1f58fc54c813e142fe8105923",
+    "bytes": 5111
+  }
 }

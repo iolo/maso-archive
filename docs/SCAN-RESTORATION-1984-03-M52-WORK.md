@@ -1,4 +1,4 @@
-# March 1984 M52 UPDATE source work
+# March 1984 M52 UPDATE source and native geometry work
 
 M52 is active for **UP DATE 프로그램의 작성** (`maso-1984-03-toc-0028`).
 Original JPEG comparison establishes the complete extent **186–189**. The
@@ -42,14 +42,35 @@ diagram has six empty media interiors; no values or missing connections are
 inferred. The standard chart's rectangular crop includes neighboring table
 context, whose searchable text belongs only to the separate table owners.
 
-The native plan identifies **80 source node contexts** across the three
-diagrams, with original named connectors, branch labels, headed/unheaded routes,
-return paths and outline gaps. These are checked source requirements, **not
-accepted native geometry**. Next encode all diagram structures, table cells,
-listing rows/wraps, cross-column prose joins and captions; compare native
-overlays, build the complete article twice and run its separate source/native
-audit. The prose closing star on 187 does not truncate the integral flowchart
-and listing on 188–189.
+All native geometry now has source comparison: **three diagrams, three tables
+and both listing frames**, with **80 diagram node contexts**, **176 diagram
+label lines**, **128 table cells**, **52 program rows**, **362 fields** (356
+printed and six empty) and **260 original paths**. Eleven native overlays were
+personally compared, with one additional byte-identical overlay reuse. The
+standard chart retains four decision diamonds and nine cylinders; the program
+chart retains eight diamonds and nine cylinders. Repeated named connectors
+remain separate original occurrences. The program chart has no visible return
+routes from the NAM and HOB assignment rectangles; none is supplied. Visible
+outline gaps and unheaded routes stay explicit. Original raster ink remains
+authoritative over approximate native curves and boxes.
+
+The component audits cover **959 native records**, 6,483 typed references,
+864 byte spans and 926 asset bindings. All **38 damaged component cases** reject:
+sixteen table/listing cases, nine work-process cases and thirteen flowchart
+cases. The failed initial listing-band detector and first contract audit are
+retained with their repairs. Fragmented comment numerals required source-based
+physical-row windows; explicit correction/package block equality now rejects
+filename-space changes. No OCR was repeated. Both listing row contexts were
+widened to retain first digits; the right enclosing frame was refined against
+original ink.
+
+This qualifies native components, **not a selected complete article package**.
+Next integrate headings, paragraphs, ordered conditions, two cross-column prose
+joins, the complete program continuation, literal field occurrences and all six
+figure/title associations. Preserve all 29 source qualifications and the native
+geometry qualifications, build the complete article twice and run its separate
+source/native audit before acceptance. The prose closing star on 187 does not
+truncate the integral flowchart and listing on 188–189.
 
 Accepted totals remain **25 complete articles, no partial articles, thirteen
 pending articles, three complete headings, three pending headings and 94 pending
@@ -60,5 +81,6 @@ helpers. Continue every remaining March task through reproducible whole-issue
 export and completion audit.
 
 See the [working record](../metadata/catalog/scan-restoration/1984-03-update-work.json),
-[source audit](../archive/scans/1984-03/restoration/whole-issue-48/source-text-work-audit.json)
+[source audit](../archive/scans/1984-03/restoration/whole-issue-48/source-text-work-audit.json),
+[complete geometry audit](../archive/scans/1984-03/restoration/whole-issue-48/native-complete-geometry-contract-audit.json)
 and [whole-issue progress](../metadata/catalog/scan-restoration/1984-03-progress.json).

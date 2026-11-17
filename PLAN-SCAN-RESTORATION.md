@@ -458,10 +458,14 @@ audit verifies all 38 original-master crops, recognition bindings, unchanged
 implementation pins and frozen M51 evidence. Twenty-nine source qualifications
 retain printed table discrepancies, NMA$, missing punctuation, independent
 diagram/listing expressions and three unresolved glyph/ink limitations. Native
-requirements cover 128 table cells, 51 numbered program units/52 physical rows,
-80 diagram node contexts and six empty media interiors. Native encoding,
-overlay comparison, two complete exports and the separate source/native audit
-remain required. Accepted issue totals and M51 ledger remain unchanged; whole
+geometry now covers all 128 table cells, 51 numbered program units/52 physical
+rows, both original listing frames, 80 diagram node contexts and six empty media
+interiors. Eleven native overlays and one byte-identical reuse support 362 fields
+and 260 paths. Component closure verifies 959 native records; all 38 damaged
+component cases reject. Missing NAM/HOB assignment return routes, original gaps,
+unheaded lines and repeated named connectors stay source-bound. Full article
+integration, two complete exports and the separate source/native acceptance
+audit remain required. Accepted issue totals and M51 ledger remain unchanged; whole
 March stays active. M52 is not frozen. See the
 [M52 working handoff](docs/SCAN-RESTORATION-1984-03-M52-WORK.md).
 Track execution in

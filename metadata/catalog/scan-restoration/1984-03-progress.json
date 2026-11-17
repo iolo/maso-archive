@@ -5477,8 +5477,8 @@
       },
       "current_work": {
         "path": "metadata/catalog/scan-restoration/1984-03-update-work.json",
-        "sha256": "23aa8760425c7ff97ef81068ee0102429a8ffadd4b45e28d8e2f80c43042f6db",
-        "bytes": 6602
+        "sha256": "9c004e25d48e8409335050aa6c79e0fe0d23783a249c9ebaeaf5fbc35bd3827b",
+        "bytes": 9961
       }
     },
     {
@@ -6584,14 +6584,14 @@
     "bytes": 349560
   },
   "current_checkpoint": "M52-working",
-  "next": "Continue M52 with native encoding for complete UPDATE actual 186–189. Reuse all 32 source-compared readings and original successful OCR. Encode all 128 original table cells, nine printed transaction zeros, 51 numbered program units/52 physical rows, line190 wrap, both listing frames, two cross-column prose joins and all captions. Restore all three diagrams from the original pixels: 80 observed node contexts, six empty media interiors, original headed/unheaded paths, named connectors, branch labels, literal expressions and visible outline gaps. Preserve all 29 qualifications, including three unresolved glyph/ink limitations, the NMA$ diagram label, displayed result-table discrepancies, missing deletion-instruction comma and source filenames with printed period gaps. Compare native overlays, build the complete article twice and run a separate source/native audit before selection. Then continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M51 helpers; shared implementation remains M47 implementation-after.json.",
+  "next": "Continue M52 full native article integration for UPDATE actual186–189. Reuse all32 source-compared readings, the qualified complete native geometry and all successful original OCR; no recognition retry is needed. All128table cells, nine transaction zeros,52physical program rows/51numbered units,original190wrap,both listing frames and all80diagram node contexts are encoded and source-overlay-compared. Integrate cross-column prose,ordered conditions,headings,all six figure/title associations, literal field occurrences and the187closing-star continuation through188–189. Preserve all29source qualifications plus native geometry qualifications,including three unresolved glyph/ink limits,NMA$,trailing0AND,missing punctuation,printed result discrepancies, empty media and absent NAM/HOB assignment return lines. Build the complete article twice and run its separate source/native audit before selection and source-ledger updates. Then continue every remaining March article,heading and all273scan dispositions through reproducible whole-issue export and completion audit. M52 remains unfrozen. Never execute frozen M49–M51 helpers; shared implementation remains M47 implementation-after.json.",
   "pending_article_candidates": 13,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 3,
   "current_work": {
     "path": "metadata/catalog/scan-restoration/1984-03-update-work.json",
-    "sha256": "23aa8760425c7ff97ef81068ee0102429a8ffadd4b45e28d8e2f80c43042f6db",
-    "bytes": 6602
+    "sha256": "9c004e25d48e8409335050aa6c79e0fe0d23783a249c9ebaeaf5fbc35bd3827b",
+    "bytes": 9961
   }
 }
