@@ -233,6 +233,14 @@ headings and 125 pending full-page dispositions** across **273 scans**.
 Continue **M39 on 146–151**, then 152–154, the complete 134–154 assembly/audit and
 every remaining March task. See the
 [accepted middle](metadata/catalog/scan-restoration/1984-03-regression-middle.json).
+**M39 is working on actual 146–151.** All six original pages, neighbors 145/152
+and both map revisions have visual comparison. Initial mapped recognition passes
+all **22 text tasks, 25 source crops and 12 page-render checks**, with no empty
+regions or retries. Fifteen text contexts are now source-compared, including
+the **39 printed variable entries** and first main-listing panel. Seven listing
+contexts, detailed flowchart review and native encoding remain pending. Accepted
+whole-issue totals are unchanged. See the
+[M39 work record](metadata/catalog/scan-restoration/1984-03-regression-program-work.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

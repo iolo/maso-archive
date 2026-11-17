@@ -88,6 +88,11 @@ article remains partial, with whole-issue totals unchanged. Continue **M39 on
 146–151**, then 152–154, complete article assembly/audit and all remaining March
 content, dispositions and the reproducible whole-issue export/audit. See the
 [accepted middle](metadata/catalog/scan-restoration/1984-03-regression-middle.json).
+**M39 is now working on 146–151:** 22 initial text tasks and all 25 source crops
+pass independent recognition auditing. Fifteen text contexts are source-compared;
+seven listing contexts, detailed flowchart review and native encoding remain
+pending. Accepted totals are unchanged. See the
+[M39 work record](metadata/catalog/scan-restoration/1984-03-regression-program-work.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -5867,3 +5872,45 @@ now covers **134–145**; **146–154 and complete article assembly remain requi
 Continue **M39 on 146–151**, then 152–154, assemble/audit the full 134–154 article
 and finish every remaining March task before whole-issue export and acceptance.
 Never execute or modify frozen M38 helpers or evidence.
+
+## M39 working — regression program opening, actual 146–151
+
+This checkpoint selects six original pages, **146–151**, with **145/152** as
+its two outside continuity lookups. All eight full pages and both versions of
+the six map overlays have visual comparison. The selected map retains **25
+regions**: **22 text/code contexts**, both original flowchart panels and the
+original two-box DATA panel with its downward association arrow. The listing
+boxes retain their complete original borders.
+
+All six initial OCR processes are terminal. Independent recognition auditing
+checks all **25 original-master crops**, twelve page renders, every task setting
+and **3,670 TSV word rows** with unquoted TSV parsing. There are **no empty text
+regions and no retries**. All **1,015 frozen M38 evidence files** and 51 shared
+implementation pins remain exact.
+
+The first source-review milestone compares **15 text contexts**: all thirteen
+on 146, the continued variable list on 148 and the first main-listing panel,
+printed 10–25. Preserve the independent tire/equation DATA examples, printed
+numerical errors, open-ended 8000 range and **11000–119000** endpoint. The
+handwritten summation upper limit has a selected **NO** reading with **ND/N0**
+alternatives explicitly unresolved; its handwritten lower index is lowercase
+`k=1`. The printed **검정부분** corrects three historical-guide readings.
+
+The variable list has **39 printed entries numbered through 38**, including
+two separate 22 entries. Its `WS: L*3=H`, case distinctions and prose closing
+star remain literal. That star closes the explanation; the main program follows.
+The first listing panel has **24 physical rows and twelve numbered statements**.
+Its first rule has **22/17 printed equals glyphs**, replacing the historical
+guide's 24/19 counts after enlarged source comparison. Preserve physical wraps
+and qualify linear whitespace as an approximation of the original typography.
+The first save helper had a wrong 23-row assertion; its failed source/log remain
+preserved and the 24-row correction changes only that assertion and review note.
+
+The partial source-work audit passes. **No M39 native package is selected.**
+Continue with listing 26–81 on 148, both columns of 149–151 and enlarged review
+of every flowchart label, printed target/range and route. Encode the nineteen
+program ranges, variable definitions, literal formulas, DATA joins, physical and
+logical listing units, panel/flowchart geometry and source relationships before
+two independent exports and native validation. Then restore 152–154 and assemble
+the complete 134–154 article. All remaining March articles, headings and 273
+source dispositions stay in scope; accepted whole-issue counters are unchanged.
