@@ -173,6 +173,17 @@ headings, four pending headings and 155 pending full-page dispositions**.
 Continue M35 with canonical **기계어 강좌**, candidate actual **118–123**, printed
 **Z80 기계어 강좌**, then the remaining whole-issue queue and final export/audit.
 See [the complete data-structure result](metadata/catalog/scan-restoration/1984-03-data.json).
+M35 is in progress: full-page and neighboring-material review verifies **118–123**.
+All **37 text contexts and six original figures** now have enlarged JPEG
+comparison; **43 master crops**, twelve page renders and the initial OCR settings
+pass. One empty dot-matrix recognition has one preserved targeted retry.
+The **25 physical code rows**, forty pinout slots, forty pin-usage connections and
+22 register cells have saved literal source observations. Native geometry,
+structured indexes, two exports and the independent article audit remain pending.
+No article or source-disposition completion count changes. Continue M35 from
+[its working record](metadata/catalog/scan-restoration/1984-03-z80-work.json),
+then every remaining March article, heading and source disposition before issue
+closeout. March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

@@ -71,9 +71,11 @@ M34 completes **자료 구조**, actual **113–117**, in **169 exact files** af
 enlarged source comparison and independent native audit. Current totals are
 **nineteen complete articles, no partial articles, nineteen pending article
 candidates, two completed headings, four pending headings and 155 source images
-awaiting full-page disposition**. Continue M35 with canonical **기계어 강좌**,
-candidate actual **118–123**, then all remaining articles, source dispositions
-and the reproducible whole-issue export/audit.
+awaiting full-page disposition**. M35 is in progress on canonical **기계어 강좌**,
+verified actual **118–123**. All 37 text contexts and six figures have enlarged
+JPEG comparison; native encoding, export and independent validation remain
+pending. Continue M35, then all remaining articles, source dispositions and the
+reproducible whole-issue export/audit. March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -5554,3 +5556,38 @@ canonical **기계어 강좌**, candidate **118–123**, then the remaining queu
 whole-issue export/audit. See
 [the complete data-structure result](metadata/catalog/scan-restoration/1984-03-data.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M35 in progress — whole Z80 tutorial, actual 118–123
+
+The complete six-page extent of canonical **기계어 강좌**, printed
+**Z80 기계어 강좌**, is now source-verified. Preceding 117 closes 자료 구조;
+following 124 opens the separate 정보 레이다. All six initial and six refined
+mapping overlays were viewed before the **37 initial mapped OCR tasks at 6000**.
+The recognition audit passes **43 original-master crops, twelve page renders
+and 4,394 TSV word rows** with `QUOTE_NONE`. The dot-matrix byte dump alone
+returned empty; its single targeted pinned-runtime `eng`/PSM 11 retry is retained
+alongside the initial attempt. No further recognition retry is permitted there.
+
+All **32 prose/title/caption contexts, five code contexts and six original
+figures** have enlarged JPEG comparison. The code preserves **25 physical rows**
+across the assembly listing, independent three-row/24-field dump, five-row BASIC
+loader and two annotated-template rows. The donated scan selects `8011'` on the
+DEC A row, replacing the historical PDF guide's `0011'`. The source's `CA` machine
+column and separate `C5` dump field remain different; no opcode repair or
+execution is claimed.
+
+Saved figure observations cover all **forty pinout slots, forty grouped pin
+connections, 22 register cells and six CPU components**. Two pin labels are
+blank. The pin-30 subscript and data-pin-14 Γ-like mark remain unresolved;
+source-specific control spellings, overbars, arrowheads and the absent lower bus
+width remain explicit. The original artwork and annotated syntax are retained.
+
+**Native geometry, code-column relationships, structured text/list indexes,
+source joins, two exports and independent article validation are still pending.**
+This working state accepts no new article package or source disposition. Counts
+remain nineteen complete articles, nineteen pending article candidates, two
+completed headings, four pending headings and 155 pending full-page
+dispositions across all **273 scans**. All 494 frozen M34 files and 51 shared
+implementation pins remain exact. Cleanup was previewed without deletion.
+Continue M35 from [the working record](metadata/catalog/scan-restoration/1984-03-z80-work.json),
+then the remaining whole March queue and final issue export/audit.

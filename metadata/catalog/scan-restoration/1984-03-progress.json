@@ -3681,6 +3681,11 @@
           "bytes": 1370741
         },
         "restoration_pending": true
+      },
+      "whole_scan_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-z80-work.json",
+        "sha256": "09e306606b58257f610a6bc56e6ed62ae2de841735522253c8c519552127db66",
+        "bytes": 4108
       }
     },
     {
@@ -5815,8 +5820,8 @@
     "sha256": "97001e2c5b52375afb578c71186cf27c0ae61d078334cbbd92cd1d6bde4876d6",
     "bytes": 267118
   },
-  "current_checkpoint": "M34-complete",
-  "next": "M35: restore 기계어 강좌,maso-1984-03-toc-0021,from donated JPEGs. Candidate118–123requires full-page extent and neighboring-material review before mapping. Preserve printed Z80title separately. Continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active.",
+  "current_checkpoint": "M35-in-progress",
+  "next": "Continue M35: encode and source-compare native geometry for all40pinout slots,40pin-usage lines,22register cells,six CPUcomponents,the annotated syntax and original artwork. Retain unresolved pin30subscript,pin14Gamma-like mark,diagram-specific MREO/IORO/BUSRO,source overbars/blanks/arrowheads and missing bottom bus width. Index all25physical code rows,24printed dump fields,assembly address/machine/label/opcode/operand/comment columns,four BASICnumbered statements,all source prose/lists/claims,12prose joins,four captions and closing star. Export complete118–123twice and independently audit source/structure/ranges/pixels before accepting the article or changing completion/disposition counts. Then continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M34helpers/evidence.",
   "pending_article_candidates": 19,
   "pending_heading_candidates": 4,
   "partial_whole_scan_articles": 0,
