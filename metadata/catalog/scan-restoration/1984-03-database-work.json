@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0026",
   "canonical_received_title": "데이터 베이스 패키지",
   "observed_source_title": "데이터베이스 패키지",
-  "status": "source-comparison-complete;native-article-pending",
+  "status": "accepted-complete-native-article;whole-issue-active",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -29,26 +29,26 @@
   "source_compared_text_regions": 25,
   "pending_source_text_regions": 0,
   "enlarged_source_review_views": 27,
-  "source_qualifications": 44,
+  "source_qualifications": 48,
   "original_figure_regions": 6,
   "recognition_retries": 0,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_article_package_selected": false,
-  "whole_article_complete": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_article_package_selected": true,
+  "whole_article_complete": true,
   "whole_issue_complete": false,
-  "complete_whole_scan_articles": 23,
+  "complete_whole_scan_articles": 24,
   "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 15,
+  "pending_article_candidates": 14,
   "complete_whole_scan_headings": 3,
   "pending_heading_candidates": 3,
   "source_images": 273,
-  "source_dispositions_pending": 106,
+  "source_dispositions_pending": 102,
   "active_process_handles": [],
   "active_processes": [],
-  "source_accounting_note": "The accepted M47 ledger remains unchanged until native acceptance. Working review verifies complete174–177and separate178opener; source comparison does not establish an accepted native article.",
-  "cleanup_preview": "54.8 GiB;preview only;no deletion",
-  "next": "Finish M48 native structures for the complete174–177database article: six original figures, title-card labels, eight-field specification, CREATE response rows and eleven stars/legend, eight blank record values, forty guest-table cells and physical fragments, structure display metadata and fifty cells/blank DEC values, five control-key definitions, five operators, both independent query outputs, command placeholders, explicit narrative joins and closing star. Build twice and independently audit source pixels, raw bindings and all native records before article acceptance. Then continue the medical-insurance article opening178and every remaining March article, heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M47evidence; use M47implementation-after.json.",
+  "source_accounting_note": "Accepted M48 ledger classifies174–177as complete native article sources and178as a located next opening only. All273sources and every remaining March task remain in scope.",
+  "cleanup_preview": "55.0 GiB;preview only;no deletion",
+  "next": "M49: restore canonical 의료보험수가 계산 프로그램 from located178. Verify candidate complete178–185and neighbors before bounded opening178–183mapping; then restore final184–185and assemble/audit the complete article. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M48evidence; use M47implementation-after.json as the current implementation baseline.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-44/database/map-r02.json",
     "sha256": "72df41c31db1d0db5e87481b9afd1c1b5dfb22a78deccb895cea494590e62762",
@@ -96,12 +96,59 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-44/resume.json",
-    "sha256": "dc91f0e5296c82ddfa5ea4150d11edde9a894aa3d6d8741f0e80e90e618353ec",
-    "bytes": 1890
+    "sha256": "262bbaaeeb9fa99f70e46da70451effcfb5d8bcc8c6d713c591158c8c3753d80",
+    "bytes": 2359
   },
   "unrelated_invocation_recovery": {
     "path": "archive/scans/1984-03/restoration/whole-issue-44/unrelated-invocation-recovery.json",
     "sha256": "787764319c80e4ea5ff03d1e94810c210a48d418d96c68d313fad1bbc021304e",
     "bytes": 1401
+  },
+  "source_text_qualifications": 44,
+  "native_fields": 236,
+  "native_cells": 186,
+  "blank_cells": 23,
+  "native_paths": 13,
+  "physical_display_rows": 29,
+  "narrative_joins": 7,
+  "selected_manifest": {
+    "path": "archive/scans/1984-03/packages/database-jpeg-r01/manifest.json",
+    "sha256": "08c2fccb89307733031dcd94b92b5386f8d181779b00a1204f6ebab78fa56680",
+    "bytes": 19219
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/database/recipe-native-01.json",
+    "sha256": "cfb3a7651a76a2928e03114706f73df6abfb15ab839fb0566f46c9f0d98c6b6c",
+    "bytes": 7225
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/database/native-geometry-03.json",
+    "sha256": "525b85100407d4ada485b64f2807eb66ed285f40fc88bd8a16f2ff617eb41eab",
+    "bytes": 382578
+  },
+  "native_geometry_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/database/native-geometry-review.json",
+    "sha256": "9b4f7f0f4b02507a08ee264341df0004fa5ba8181fbe8f74da5a82ce71afbdae",
+    "bytes": 6666
+  },
+  "figure_observations": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/database/figure-source-observations.json",
+    "sha256": "4a233781d40a8cafbad4211374489a81d69633fc3cf8268979b6a2a9acd3875a",
+    "bytes": 6597
+  },
+  "narrative_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/database/narrative-source-review.json",
+    "sha256": "6530623480f75b7071c034f24e7904d9aed5094c23597efbc1c8510243b67930",
+    "bytes": 11498
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/validation.json",
+    "sha256": "5c33b36cb918dfab2c60056b343a6b40f3596181ec023ff4c860a4335bba5e93",
+    "bytes": 5343
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/source-ledger.json",
+    "sha256": "0bca4e364980df7242e1c1f5fd5e58cf73f8b99e6337d8c174ea0a47db98b093",
+    "bytes": 332749
   }
 }

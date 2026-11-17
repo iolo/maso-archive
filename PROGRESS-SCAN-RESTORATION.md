@@ -2,11 +2,11 @@
 
 Updated 2026-11-17. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Current March checkpoint: **M48 working**, complete database article 174–177.
-All 25 text owners are source-compared; native structures and article validation
-remain pending. Accepted totals are **23 complete articles, 15 pending articles,
-three complete headings, three pending headings and 106 pending dispositions
-across all 273 scans**. March remains active. See the
+Current March checkpoint: **M48 complete**, database article 174–177, with two
+matching 115-file native exports. Accepted totals are **24 complete articles,
+14 pending articles, three complete headings, three pending headings and 102
+pending dispositions across all 273 scans**. Continue **M49**, the
+medical-insurance program beginning on 178. March remains active. See the
 [M48 handoff](docs/SCAN-RESTORATION-1984-03-M48.md) and
 [accepted M47 result](docs/SCAN-RESTORATION-1984-03-M47.md).
 
@@ -6526,3 +6526,55 @@ and every remaining March task through reproducible whole-issue completion.
 
 See the [work record](metadata/catalog/scan-restoration/1984-03-database-work.json)
 and [handoff](docs/SCAN-RESTORATION-1984-03-M48.md).
+
+## M48 complete — database article, actual 174–177
+
+[The accepted complete article](metadata/catalog/scan-restoration/1984-03-database.json)
+reproduces in **115 exact native files**. All four source pages, six figures,
+25 text owners, seven native contexts and seven narrative boundaries have
+source comparison. The independent audit verifies all 31 original-master crops,
+25 initial recognition bindings and 107 original raw ZIP members. No retry or
+new recognition was needed for native reconstruction.
+
+The native content retains **186 cells, 23 blank contexts, 236 fields, thirteen
+original ink paths and eighteen physical cell fragments**. All 197 searchable
+field occurrences have exact text/geometry bindings. The title artwork retains
+sixteen letter/score labels; the specification and CREATE display retain their
+independent eight-field descriptions. All eleven response stars bind the separate
+Korean legend. Eight entry values, four ETC values, eight DEC values and three
+total values remain blank. The original guest-table rule gap is preserved.
+
+Two original display contexts retain 29 physical rows, partitioned into exact
+source fields. Their ordinals are not program line numbers. Five control-key
+definitions, five relational operators, seven literal command templates and
+five independent printed query-result records retain twelve physical fragments
+and 35 value fields. NEME, 00040, 00077, DISPAY, printed hyphens, independent
+case/spelling differences and the incomplete DELETE angle remain unrepaired.
+Six word joins use no separator; the seventh retains the source word space.
+The structure display stays between its introducing and following prose, and
+the closing star is distinct from earlier deletion-marker stars.
+
+The separate source/native audit passes **2,011 records, 9,828 typed references,
+5,026 source and active byte spans and 2,296 asset bindings**. All **49 damaged
+cases** reject. All 48 source/native qualifications remain explicit. The first
+audit used dictionary values instead of region names in its ownership counter;
+its helper/log are retained. Correcting the checker and its encoded-byte fixture
+changed no source, native input or export. The review-only cell-fragment count
+was corrected from 22 to 18; all eighteen records were already present.
+
+All 41 preceding selected packages / 7,372 manifest files remain exact, as do
+643 frozen M45 files, 129 frozen M46 files, 39 frozen M47 files and 53 current
+implementation pins. Shared code is unchanged; the qualified 300-test M47
+baseline remains valid. All known processing handles are terminal. Cleanup was
+previewed at 55.0 GiB with no deletion. M48 freezes **2,255 evidence files**;
+never execute or modify its helpers or evidence. The unrelated failed helper
+clone and verified recovery remain retained with that evidence.
+
+The source ledger now marks 174–177 as accepted complete native article sources
+and 178 as the located next opener only. Whole March stays active with **24
+complete articles, no partial articles, 14 pending articles, three complete
+headings, three pending headings and 102 pending source dispositions across all
+273 scans**. Continue **M49 with 의료보험수가 계산 프로그램**: verify candidate
+178–185 and neighboring sources before opening 178–183 mapping, then restore
+184–185 and assemble/audit the whole article. Finish every remaining March task
+and reproducible whole-issue export/completion audit.

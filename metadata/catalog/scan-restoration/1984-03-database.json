@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M48",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0026",
+  "status": "complete-native-article",
+  "canonical_received_title": "데이터 베이스 패키지",
+  "observed_source_title": "데이터베이스 패키지",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    174,
+    175,
+    176,
+    177
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/database-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/database-jpeg-r01/manifest.json",
+    "sha256": "08c2fccb89307733031dcd94b92b5386f8d181779b00a1204f6ebab78fa56680",
+    "bytes": 19219
+  },
+  "exact_files": 115,
+  "master_crops": 31,
+  "recognition_bindings": 25,
+  "recognition_retries": 0,
+  "native_index_records": 2011,
+  "source_qualifications": 48,
+  "native_structure": {
+    "original_figures": 6,
+    "native_contexts": 7,
+    "cells": 186,
+    "blank_cells": 23,
+    "fields": 236,
+    "paths": 13,
+    "physical_display_rows": 29,
+    "physical_cell_fragments": 18,
+    "narrative_joins": 7,
+    "response_markers": 11,
+    "control_key_definitions": 5,
+    "relational_operators": 5,
+    "independent_query_output_records": 5
+  },
+  "typed_references": 9828,
+  "source_and_active_byte_spans": 5026,
+  "source_asset_bindings": 2296,
+  "rejected_damaged_cases": 49,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/validation.json",
+    "sha256": "5c33b36cb918dfab2c60056b343a6b40f3596181ec023ff4c860a4335bba5e93",
+    "bytes": 5343
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/database/recipe-native-01.json",
+    "sha256": "cfb3a7651a76a2928e03114706f73df6abfb15ab839fb0566f46c9f0d98c6b6c",
+    "bytes": 7225
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/source-ledger.json",
+    "sha256": "0bca4e364980df7242e1c1f5fd5e58cf73f8b99e6337d8c174ea0a47db98b093",
+    "bytes": 332749
+  },
+  "source_dispositions_pending": 102,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/whole-progress-m48.json",
+    "sha256": "9ae86f8dc8a587e789389e56dd5fd59ea6a32a0aa6526a768fb814c174c6f203",
+    "bytes": 207350
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/evidence-manifest.json",
+    "sha256": "e2fcbe50605bf12e812230afdb48f3c49344d88d2555321e2252303c7b9e44bc",
+    "bytes": 507736
+  },
+  "frozen_evidence_files": 2255,
+  "shared_implementation_changed": false,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/implementation-before.json",
+    "sha256": "886adef90d4fa5c4764baed63d40b75b75154969bbff190f381f7f99852eb359",
+    "bytes": 9173
+  },
+  "qualified_regression_tests": 300,
+  "fresh_regression_tests": 0,
+  "next": "M49: restore canonical 의료보험수가 계산 프로그램 from located178. Verify candidate complete178–185and neighbors before bounded opening178–183mapping; then restore final184–185and assemble/audit the complete article. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M48evidence; use M47implementation-after.json as the current implementation baseline."
+}

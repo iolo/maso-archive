@@ -2,9 +2,10 @@
 
 This is the historical **M01–M04 supplementary campaign**, not whole-issue
 restoration completion. The active scope is all 273 March scans under
-[PLAN-SCAN-RESTORATION.md](../PLAN-SCAN-RESTORATION.md). Current work is
-[M48, the complete database article](SCAN-RESTORATION-1984-03-M48.md);
-March has 23 accepted complete articles and remains active. Completion and
+[PLAN-SCAN-RESTORATION.md](../PLAN-SCAN-RESTORATION.md). The latest accepted result
+is [M48, the complete database article](SCAN-RESTORATION-1984-03-M48.md).
+March has 24 accepted complete articles and remains active; M49 continues with
+the medical-insurance program on 178. Completion and
 next-issue statements below describe the superseded supplementary scope.
 
 Completed 2026-11-16 through M01–M04 under
