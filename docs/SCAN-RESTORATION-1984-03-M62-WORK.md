@@ -58,11 +58,11 @@ checks pass. The SAC remark remains three physical lines in one cell; both dashe
 remain printed values, both ring-shaped exponents remain unresolved, and no
 horizontal body row dividers are invented.
 
-Six selected native work contexts now retain **258 fields, 25 empty contexts
-and 112 paths**: Table 3, the displayed integral and ratio, Figure 20's circuit
-and ramp, Figure 28's ten-node flowchart and its single 21-row 8080 program.
+Eight selected native work contexts now retain **332 fields, 27 empty contexts
+and 293 paths**: Table 3, the displayed integral and ratio, Figures 20–22,
+Figure 28's ten-node flowchart and its single 21-row 8080 program.
 Personal source/overlay comparison and independent field/row/original-ink checks
-pass, with eighteen native qualifications and twelve rejected damaged cases.
+pass, with 26 native qualifications and seventeen rejected damaged cases.
 The program retains fifteen unprinted labels, two unprinted final comments,
 seven unprinted initial clock positions, all fourteen printed clock values and
 the printed total 104. R02 only widens five legend-key contexts; its other
@@ -72,7 +72,17 @@ The flowchart preserves both return routes, four branch labels and the broken
 ADC-read box rule without an invented return arrowhead. Both equations retain
 their original two-dimensional bounds, fractions, overbar and exponent layout.
 
-**Figures 21–27 and 29–30, all prose and inline structures, integration, two
+Figure 21 retains its circuit/control blocks and three independent timing
+graphs, including unprinted origin/amplitude contexts and the source's different
+ramp/pulse boundaries. Figure 22 retains seven comparators, eight resistors,
+six separate repeated R occurrences, seven crossings without junction dots and
+three output labels. Its lowest output terminal is filled; the other two are
+open. Personal comparison rejected the first candidate's approximate resistor
+zigzags; R02 refines only those eight paths against original dark ink. All other
+fields, paths and relationships exactly reuse R01. The overlapping caption
+still has only its separately selected text owner.
+
+**Figures 23–27 and 29–30, all prose and inline structures, integration, two
 independent exports and acceptance audit remain pending.** No new continuation
 package is selected. Reuse every successful OCR
 task and compared reading. This checkpoint is unfrozen; no processing jobs remain

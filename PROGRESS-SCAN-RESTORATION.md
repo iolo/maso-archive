@@ -6924,13 +6924,17 @@ pixel crops and sixteen corrupted source contracts. Selected native **Table 3
 R02** retains **24 fields/cells, six row contexts and nine original rule segments**,
 with personal overlay and independent source-value/ink checks. Two superscripts
 remain unresolved; printed dash values and missing body row rules are preserved.
-Six source-compared native work contexts now include Table 3, both equations,
-Figure 20 and Figure 28's flowchart/single 21-row program: **258 fields, 25 empty
-contexts and 112 paths**. Independent source/row/ink checks pass, with eighteen
-native qualifications and twelve rejected damaged cases. The source program's
+Eight source-compared native work contexts now include Table 3, both equations,
+Figures 20–22 and Figure 28's flowchart/single 21-row program: **332 fields, 27
+empty contexts and 293 paths**. Independent source/row/ink checks pass, with 26
+native qualifications and seventeen rejected damaged cases. The source program's
 blank contexts, clock values, printed 104 total, case and operand spacing remain
 literal. Both flowchart return routes and its broken rule remain explicit.
-**Figures 21–27 and 29–30, prose and inline structures, integration, exports and
+Figure 21 preserves its independently drawn ramp/pulse boundaries. Figure 22
+retains seven comparators, eight resistors, six distinct repeated R occurrences,
+crossings without junction dots and the different terminal fills. Its selected
+R02 refines only eight resistor paths; all other geometry exactly reuses R01.
+**Figures 23–27 and 29–30, prose and inline structures, integration, exports and
 acceptance checks remain pending.** This checkpoint remains unfrozen; no new continuation package is
 selected. All 901 frozen M61 files and 53 implementation pins remain exact.
 The unchanged 303-test baseline applies. All processing is terminal; cleanup was
