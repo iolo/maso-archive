@@ -751,9 +751,16 @@ scan 242 were personally compared; 242 is a separate software-contest notice.
 The bounded opening is **228–233**, with ten outside lookups. Source prose has
 an unusual **228 → 231 → 230 → 232** sequence; preserve the original folios and
 explicit logical continuations. Figures **12–35**, all photos, equations,
-Table 3 and Figure 28's 8080 flowchart/listing remain required. No OCR or native
-acceptance has occurred. M61 remains **unfrozen**, with mapping next and no
-active jobs. Accepted totals remain **29 complete articles, nine pending
+Table 3 and Figure 28's 8080 flowchart/listing remain required. The opening R03
+map now retains **58 pixel-exact crops**, including 47 text owners and eleven
+raster contexts. All **47 initial OCR tasks completed once**, with no retries;
+independent audit verifies every original source/map/settings/runtime binding.
+Fourteen text owners on 228–229 have source-compared readings and eleven
+qualifications; **33 readings on 230–233 and all native structures remain
+pending**, before two exports and independent native acceptance. Preserve the
+separate drop cap, graph-field search order, unlabelled graphic contexts and
+original prose/diagram discrepancy. Reuse all successful OCR. M61 remains
+**unfrozen**, with no active jobs. Accepted totals remain **29 complete articles, nine pending
 articles, five complete headings, one pending heading and 64 pending source
 dispositions / 273 scans**. Whole March remains active through every remaining
 article, heading, disposition and reproducible issue export/completion audit.

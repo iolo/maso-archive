@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0033",
   "canonical_received_title": "A/D, D/A의 이론과 실제",
   "observed_source_title": "A/D,D/A의 이론과 실제",
-  "status": "source-extent-verified-opening-map-pending",
+  "status": "opening-map-and-original-recognition-audited;partial-source-comparison",
   "native_article_accepted": false,
   "whole_article_complete": false,
   "whole_issue_complete": false,
@@ -47,7 +47,7 @@
   "outside_lookup_views": 10,
   "reused_preceding_native_context": 1,
   "personally_compared_full_page_views": 15,
-  "recognition_tasks": 0,
+  "recognition_tasks": 47,
   "scope": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/scope.json",
     "sha256": "abdcbb2e618b3e27973ee9bcb2ffee38905bcc8973b1bf7cb8e737b643b2d3e9",
@@ -65,8 +65,8 @@
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/resume.json",
-    "sha256": "6fb529c37d38cc35c13c0d930712819d279477ca84ffa159eee0c545342954f9",
-    "bytes": 1407
+    "sha256": "0d1be06dfaeabaaf26f676e6051662a393d4d5ec737086775606370737665b21",
+    "bytes": 4148
   },
   "implementation": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/implementation-before.json",
@@ -88,5 +88,66 @@
     "source_images": 273
   },
   "review_level": "assistant-personally-source-compared;not-human-acceptance",
-  "next": "Continue unfrozen M61: map and personally compare opening 228–233 of A/D, D/A의 이론과 실제 before pinned recognition. Complete extent is source-verified 228–241. Preserve the non-numerical prose flow 228 → 231 → 230 → 232, every circuit, waveform, equation, photo and caption, and outgoing 233 같아질때까 / 234 지 계속 증가한다. with no separator. Restore at most six selected source views per segment; produce two fresh native opening exports and independent audit. Then restore 234–241, assemble/audit the full article and finish every remaining March article, information heading, all 273 source dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains qualified M57 baseline, 303 tests."
+  "next": "Continue unfrozen M61 native opening 228–233 of A/D, D/A의 이론과 실제: reuse all 47 successful original OCR tasks; do not rerun them. Finish source comparison of remaining 33 text owners on 230–233, then encode and personally compare all native graph/circuit fields, paths, equations, captions and prose relationships. Fourteen text owners on 228–229 are already compared in pinned per-page records. Keep the separately owned 아 drop cap and graph-field search order distinct from physical baselines; retain all 11 recorded qualifications. Preserve printed folios and observed prose flow 228 → 231 → 230 → 232, and outgoing 233 같아질때까 / 234 지 계속 증가한다. with no separator. Produce two native opening exports and an independent source/native audit before acceptance. Then restore 234–241, assemble/audit complete 228–241 and finish every remaining March article, heading, all 273 source dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains the qualified M57 baseline, 303 tests.",
+  "updated_at": "2026-11-17T21:06:12.439832+00:00",
+  "mapped_regions": 58,
+  "master_crops": 58,
+  "original_raster_contexts": 11,
+  "numbered_graphic_text_owners": 8,
+  "recognition_bindings": 47,
+  "recognition_retries": 0,
+  "recognition_failed_tasks": 0,
+  "recognition_unattempted_tasks": 0,
+  "recognition_processing_seconds": 20.49683113800711,
+  "source_readings_compared": 14,
+  "source_readings_pending": 33,
+  "source_qualifications_recorded": 11,
+  "native_geometry_complete": false,
+  "selected_map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/map-r03.json",
+    "sha256": "3a215754ee721a823003a861cae0653e54d03443d35c5f255e3f9d1bc4f8230f",
+    "bytes": 33520
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/overlay-review.json",
+    "sha256": "7e0e4ecca425fd717ad8ad1acdbfd64c4584b87b0af84ae564c9c5d5962a717e",
+    "bytes": 4476
+  },
+  "recognition_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/recognition-plan-r03.json",
+    "sha256": "3a34e741df4d076c450ed9d9f22791e327c1e1405c33fd8253a3aa1bda61e7ad",
+    "bytes": 611
+  },
+  "recognition_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/recognition-validation.json",
+    "sha256": "b25f84fdf3f6f4c6b1e7ed08144de03eb2e2911d57138edc7cd01302c1156a41",
+    "bytes": 1352
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/recognition-outcomes.json",
+    "sha256": "c7c4a7465a94293747f0df60cb052e64117a9b4c6472776067ad70f6b3ab1186",
+    "bytes": 2976
+  },
+  "source_compared_readings": [
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-p228-01.json",
+      "sha256": "1eef8d52736908b422f237f8d48c5fda5fa424804037530c5d9bffa8ab247fda",
+      "bytes": 24214
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-p229-01.json",
+      "sha256": "2eb349daa408185f4060d8333c7ded2a5dc34e517525cc0609e00e1df736b704",
+      "bytes": 8629
+    }
+  ],
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/cleanup-preview-work-01.log",
+    "sha256": "4f32d87948b72da95b7d22cd07dab61ec9d2ecb5db31727406798cdae79711e4",
+    "bytes": 233
+  },
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "qualified_regression_tests": 303,
+  "fresh_regression_tests": 0,
+  "shared_implementation_changed": false
 }

@@ -6388,8 +6388,8 @@
       },
       "active_source_work": {
         "path": "metadata/catalog/scan-restoration/1984-03-ad-work.json",
-        "sha256": "06782c8bac7abef42153aa089795b85db70434ad5ba4befa80eb35ea436114e1",
-        "bytes": 3332
+        "sha256": "c29adf7f0a6954522cced73451ce5f775ed5854676fda4bd31a7909ef28baa67",
+        "bytes": 6108
       }
     },
     {
@@ -7199,7 +7199,7 @@
     "bytes": 411043
   },
   "current_checkpoint": "M61-work",
-  "next": "Continue unfrozen M61: map and personally compare opening 228–233 of A/D, D/A의 이론과 실제 before pinned recognition. Complete extent is source-verified 228–241. Preserve the non-numerical prose flow 228 → 231 → 230 → 232, every circuit, waveform, equation, photo and caption, and outgoing 233 같아질때까 / 234 지 계속 증가한다. with no separator. Restore at most six selected source views per segment; produce two fresh native opening exports and independent audit. Then restore 234–241, assemble/audit the full article and finish every remaining March article, information heading, all 273 source dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains qualified M57 baseline, 303 tests.",
+  "next": "Continue unfrozen M61 native opening 228–233 of A/D, D/A의 이론과 실제: reuse all 47 successful original OCR tasks; do not rerun them. Finish source comparison of remaining 33 text owners on 230–233, then encode and personally compare all native graph/circuit fields, paths, equations, captions and prose relationships. Fourteen text owners on 228–229 are already compared in pinned per-page records. Keep the separately owned 아 drop cap and graph-field search order distinct from physical baselines; retain all 11 recorded qualifications. Preserve printed folios and observed prose flow 228 → 231 → 230 → 232, and outgoing 233 같아질때까 / 234 지 계속 증가한다. with no separator. Produce two native opening exports and an independent source/native audit before acceptance. Then restore 234–241, assemble/audit complete 228–241 and finish every remaining March article, heading, all 273 source dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains the qualified M57 baseline, 303 tests.",
   "pending_article_candidates": 9,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
