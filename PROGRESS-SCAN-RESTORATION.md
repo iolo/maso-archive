@@ -107,19 +107,17 @@ readings, 23 original figures, 617 worksheet-cell observations and 76 source
 paths are preserved. Both exports, 88 pixel-exact master crops and 33 damaged-data
 checks pass. Current totals are **21 complete articles, one partial article,
 16 pending articles, three complete headings, three pending headings and
-120 pending full-page dispositions** across **273 scans**. Continue **M43 on
-161–164**, including the command graph, then complete the Visicalc assembly and
-all remaining March work. See the
+116 pending full-page dispositions** across **273 scans**. Continue **M44
+whole-article Visicalc assembly and independent audit**, then all remaining March
+work. See the
 [accepted opening](metadata/catalog/scan-restoration/1984-03-visicalc-opening.json).
-**M43 is working on 161–164:** all 61 text regions, including the 32 command-chart
-clusters, and all eight original figures are source-compared. All 69 selected
-crops and 61 OCR bindings pass. Native structures, ending exports and complete
-article assembly remain pending.
-Accepted totals above are unchanged. See the
-[audited ending work](metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json).
-The native candidate passes exact occurrence/reference checks for 19 structures,
-583 fields and 215 paths. Eighteen revised chart contexts still need comparison;
-the ending has no selected export or whole-article completion yet.
+**M43 completes the native ending on 161–164:** all 61 text regions, eight figures
+and 19 native contexts are source-compared. Both 265-file exports, all 69 original
+crops, 61 OCR bindings and 34 damaged-data checks pass. Native structures retain
+583 fields, 215 paths, 132 displayed spans / 45 blanks and 62 chart menu/route
+associations. The full 155–164 article still requires assembly and independent
+validation. See the
+[accepted ending](metadata/catalog/scan-restoration/1984-03-visicalc-ending.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -6344,3 +6342,45 @@ at 52.7 GiB without deletion. No native ending is accepted and no whole-article
 completion is claimed. Continue the 18 revised chart comparisons, final native
 selection, independent ending builds/audit and full 155–164 assembly, then every
 remaining March task. Whole-issue acceptance counters remain unchanged.
+
+## M43 complete — native Visicalc ending, actual 161–164
+
+[The accepted ending](metadata/catalog/scan-restoration/1984-03-visicalc-ending.json)
+restores all four final original pages in **265 exact native files**. All **61
+text owners, eight original figures and 19 native contexts** have enlarged
+source comparison. Review includes all 32 chart details, 18 refined contexts,
+both final touches and the full final chart overlay. The last corrections center
+the Data Save C option and follow the original Edit return brackets and shared
+leader. The literal text and all source byte occurrences remain unchanged.
+
+The selected structures retain **583 fields, 44 rows, 132 displayed spans,
+45 blanks, 215 source paths and 96 printed menu options**. All **537 nonblank
+fields** bind exact source occurrences. Four source joins, seven captions and
+39 single text-owner relationships remain explicit. The native chart has **62
+menu-choice/ink-route relationships**, its printed `{See /F}` reference and two
+source prose examples. Together with eight procedure/figure associations, these
+form 73 source context relationships. The original shifted leader attachments,
+open frames, split RETURN keys, blanks and source spellings remain literal;
+approximate contexts do not certify execution or hidden spreadsheet state.
+
+Both builds reproduce all 265 files. The independent audit verifies **69
+pixel-exact original-master crops, 61 OCR bindings in six disjoint scopes,
+253 raw ZIP members, 3,298 native records, 14,610 typed references, 6,338 source
+and active byte spans and 3,145 asset bindings**. All **34 damaged cases** reject.
+The initial audit's ineffective fixture wrote zero to an already-zero field
+offset; its failed log is retained, and the corrected fixture changes the offset
+to one. No selected source, geometry or export changed for that correction.
+All 48 source and review-stage qualifications remain explicit.
+
+All 36 selected predecessor packages / 6,099 manifest files, the 1,109 frozen
+M42 files and 53 implementation pins still match. Shared implementation is
+unchanged and the qualified 297-test baseline remains valid. Cleanup was
+previewed at **52.9 GiB**, with no deletion. M43 freezes **1,043 evidence files**;
+never execute or modify its helpers or evidence.
+
+Both Visicalc segments now cover the verified 155–164 article, but the complete
+article assembly remains required. Whole March stays active with **21 complete
+articles, one partial article, 16 pending articles, three complete headings,
+three pending headings and 116 pending full-page dispositions across 273 scans**.
+Continue M44 assembly and independent audit, then every remaining March identity,
+source disposition and reproducible whole-issue export/audit.

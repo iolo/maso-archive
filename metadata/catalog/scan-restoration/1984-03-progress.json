@@ -4723,16 +4723,15 @@
           157,
           158,
           159,
-          160
-        ],
-        "source_extent_covered": false,
-        "assembly_pending": true,
-        "continuation_pending": [
+          160,
           161,
           162,
           163,
           164
         ],
+        "source_extent_covered": true,
+        "assembly_pending": true,
+        "continuation_pending": [],
         "segments": [
           {
             "checkpoint": "M42",
@@ -4755,8 +4754,29 @@
               "sha256": "ac248fa3609040b22fb58936c57f4950bc64402b82665b8834d14f4d1365460a",
               "bytes": 3560
             }
+          },
+          {
+            "checkpoint": "M43",
+            "directory": "archive/scans/1984-03/packages/visicalc-b-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/visicalc-b-jpeg-r01/manifest.json",
+              "sha256": "0a51445491c367875a1d4a63fdfc5a1c777eb85f435435ffd6e21c86f341cb8d",
+              "bytes": 45820
+            },
+            "actual_folios": [
+              161,
+              162,
+              163,
+              164
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-39/validation-native-ending.json",
+              "sha256": "df71476e3c8d960da6a7216e3062a0b4966554bd128efc9032e27beb49cf35f0",
+              "bytes": 3601
+            }
           }
-        ]
+        ],
+        "latest_source_checkpoint": "M43"
       },
       "historical_printed_extent_candidate": [
         155,
@@ -4793,10 +4813,12 @@
           164
         ],
         "extent_evidence": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-38/transition.json",
-          "sha256": "05632c556e4c374620c2cd0575e5b9089ee1b58e6dc4e835e6b3fde7cb03c300",
-          "bytes": 1671
-        }
+          "path": "archive/scans/1984-03/restoration/whole-issue-39/transition.json",
+          "sha256": "0898100d7c927736ad69edaf893dc3328575d9c1e34f5a8ecf79e0bf70f564cc",
+          "bytes": 1613
+        },
+        "source_extent_covered": true,
+        "assembly_pending": true
       }
     },
     {
@@ -6202,19 +6224,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-38/source-ledger.json",
-    "sha256": "b6147af633635b0986a95062ddda5632504d91fdeb0c380896df380c66409430",
-    "bytes": 305002
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/source-ledger.json",
+    "sha256": "ee0b6fc793fd43490d0d436993b3b0d18106095b715fb8c2ddb40cfe03e392ae",
+    "bytes": 309798
   },
-  "current_checkpoint": "M43-working",
-  "next": "Continue M43 by comparing all 18 revised chart contexts in visicalc-b/native-chart-review-04 against original source. All 32 initial chart details, eleven inline contexts, four refined worksheets and three prompts are compared. Retain candidate geometry04, 19 structures, 583 fields, 44 rows/132 displayed spans including45 blanks, 215 source paths and537 exact field occurrences. Revise source geometry where comparison requires it, then select final corrections/recipe, build and independently audit the ending on161–164. Assemble/audit the complete155–164 Visicalc article. Continue every remaining March article, heading and all273source dispositions through reproducible whole-issue export and completion audit. No fresh OCR is needed; retain every original attempt and never execute or alter frozen M42 helpers/evidence.",
+  "current_checkpoint": "M43-complete",
+  "next": "M44: assemble and independently audit complete Visicalc의 활용 on actual155–164 from accepted immutable M42 opening and M43 ending. Review source160/161and the integral chart164/following165boundary, preserve all original records, 62chart menu/route associations, independent displayed states, blanks and local qualifications. Then restore every remaining March article, heading and all273source dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M43 helpers/evidence.",
   "pending_article_candidates": 16,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 3,
-  "current_work": {
-    "path": "metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json",
-    "sha256": "8c5f4ab8ab7cb99f996a5f82da06ff65b7e668e4737ad696fcd02ab16ce89647",
-    "bytes": 9158
-  }
+  "complete_whole_scan_headings": 3
 }
