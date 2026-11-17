@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 20,
+  "complete_whole_scan_articles": 21,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -3824,8 +3824,8 @@
       "title": "심층적 회귀분석",
       "parent_id": "maso-1984-03-toc-0022",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0023",
         "title": "심층적 회귀분석",
@@ -4300,7 +4300,7 @@
         }
       },
       "new_selected_restoration": {
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "segments": [
           {
@@ -4395,7 +4395,65 @@
         "source_extent_verified": true,
         "source_extent_covered": true,
         "continuation_pending": [],
-        "assembly_pending": true
+        "assembly_pending": false,
+        "checkpoint": "M41",
+        "directory": "archive/scans/1984-03/packages/regression-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/regression-jpeg-assembly-r01/manifest.json",
+          "sha256": "0cfffdfc41a6b5539c8abe6ea85e53169aebfa6e2596029d32180492ea207a4f",
+          "bytes": 120495
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-37/validation.json",
+          "sha256": "e898607ecba0674f0cbfa27be74a93ac0de69ae7b45baff43e36825787e9a6c2",
+          "bytes": 14112
+        },
+        "actual_folios": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154
+        ],
+        "included_actual_folios": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154
+        ]
       },
       "historical_printed_extent_candidate": [
         134,
@@ -4428,12 +4486,18 @@
           "sha256": "4885dd9ea5716edd98ababc76299844c852f4d9183a61ec69865f11fb9153f43",
           "bytes": 1950751
         },
-        "restoration_pending": true,
-        "partial_native_selected": true,
+        "restoration_pending": false,
+        "partial_native_selected": false,
         "transition_review": {
           "path": "archive/scans/1984-03/restoration/whole-issue-33/transition.json",
           "sha256": "fa6e45776ac030511e1b81113df0b05ed40cbe6eee94dc81daf1137ebb2fac5c",
           "bytes": 1095
+        },
+        "complete_native_selected": true,
+        "assembly_validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-37/validation.json",
+          "sha256": "e898607ecba0674f0cbfa27be74a93ac0de69ae7b45baff43e36825787e9a6c2",
+          "bytes": 14112
         }
       }
     },
@@ -6057,14 +6121,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-36/source-ledger.json",
-    "sha256": "33e4c39aa2e9456cde25e458196dbc35876c06cdbeeec483fd6b19f8950db17f",
-    "bytes": 301533
+    "path": "archive/scans/1984-03/restoration/whole-issue-37/source-ledger.json",
+    "sha256": "29987a21981ea2955c1086db1bd73cef93ccf37cccef805c5187f85037c7270c",
+    "bytes": 298110
   },
-  "current_checkpoint": "M40-complete",
-  "next": "M41: assemble and independently audit the complete 심층적 회귀분석 article, actual 134–154, from all four accepted M37–M40 JPEG segments. Preserve their exact native source records, independent examples, cross-region statements, source errors and local qualifications. Then restore Visicalc의 활용, opening on 155, and every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M40 helpers or evidence.",
+  "current_checkpoint": "M41-complete",
+  "next": "M42: restore canonical Visicalc의 활용, located opening on actual 155, from the donated JPEGs. Verify the complete source extent and following article before bounded mapping. Continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M41 helpers or evidence.",
   "pending_article_candidates": 17,
   "pending_heading_candidates": 3,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 3
 }

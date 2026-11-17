@@ -93,10 +93,15 @@ reproducible whole-issue export/audit. See the
 exact files**: 427 physical rows, 298 statements, both cross-region continuations,
 29 DATA values and the original open dashed brackets/arrow. Both exports, all
 nine source crops and 34 damaged-data rejections pass. All **134–154** source
-segments are covered. **M41 complete article assembly and independent audit**
-are next; the article remains partial. Then continue Visicalc의 활용 on 155 and
-every remaining March task. See the
-[accepted ending](metadata/catalog/scan-restoration/1984-03-regression-ending.json).
+segments are covered. **M41 now completes the whole 134–154 article in 664 exact
+files**, preserving all 655 original segment files and 18,664 native records.
+All 166 crops, 151 OCR bindings, 47 damaged-data cases and 297 fresh regressions
+pass. The observed main program retains 964 physical rows / 613 logical units
+and the damaged `:065` label. Current totals are **21 complete articles, no partial
+articles, 17 pending articles, three complete headings, three pending headings
+and 125 pending full-page dispositions** across **273 scans**. Continue **M42 with
+Visicalc의 활용**, opening on 155, and every remaining March task. See
+[the complete regression article](metadata/catalog/scan-restoration/1984-03-regression.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -6096,3 +6101,53 @@ Then restore **Visicalc의 활용**, opening on 155, and every remaining March t
 The whole issue stays active with **20 complete articles, one partial article,
 17 pending articles, three complete headings, three pending headings and 125
 pending full-page dispositions** across all **273 scans**.
+
+## M41 complete — whole regression article, actual 134–154
+
+[The complete native regression article](metadata/catalog/scan-restoration/1984-03-regression.json)
+reproduces **664 exact files**, including all **655 original M37–M40 segment
+files**. Every segment freshly rebuilds from its pinned native recipe, and two
+independent complete-article exports match. All **21 original source pages,
+166 master crops, 151 recognition bindings and 635 raw ZIP members** pass the
+independent audit. No new OCR was required.
+
+Source review compares all three segment boundaries. Page 139 ends its variable
+index output; 140 starts usage step 4 and a separate summary output. The final
+145 prose introduces the tire DATA example that opens 146. Original 151 ends
+**4215 YS = 0**, and 152 begins the distinct complete **4220 FOR I = 1 TO ND**
+statement. No prose fragment or source line number is invented at these boundaries.
+
+The opt-in `observed_programs` assembly declaration links the two immutable
+main-program groups while retaining their different source schemas and the
+uncertified **`:065`** label. Its complete physical reading preserves **964
+rows / 613 logical source units** and adds only the reviewed physical newline
+between 4215 and 4220. All independent listing downloads retain their original
+bytes. Both DATA brackets and the Korean label remain in article order. The
+final visible statement stays **19420**, without an inferred 19430 or RETURN.
+The two independent DATA examples and every printed output remain separate.
+
+All **18,664 native records, 81,108 typed references, 62,297 source/active byte
+spans and 19,556 asset bindings** pass. The original **226 structures, 2,540
+fields, 843 table cells, 434 paths and 175 source qualifications** remain intact.
+All **47 damaged-data cases reject**, including altered program boundaries,
+hidden annotations, inferred digits, missing native observations and changed
+program-reading coordinates. Every earlier selected native package remains
+exact: **38 packages**, alongside **2,623 frozen M37–M40 evidence files**.
+
+Shared changes are limited to an explicit assembly dispatch and the new observed
+program module. Existing program-link behavior and all other modes remain
+unchanged. **297 fresh regressions pass**: 214 PDF, 71 scan and twelve supplement/
+recognition tests. The first focused test fixtures omitted existing coverage,
+byte-bound and coordinate-tag requirements; retained revisions supply those
+requirements. Initial suite invocations exposed namespace/direct fixture-import
+paths, which the final invocations handle. No source record or legacy check was
+weakened. All logs remain preserved.
+
+Cleanup was previewed without deletion and every launched job is terminal.
+M41 freezes **56 evidence files**; never execute or modify its frozen helpers or
+evidence. Whole March remains active with **21 complete articles, no partial
+articles, 17 pending articles, three complete headings, three pending headings
+and 125 pending full-page dispositions** across **273 scans**. Continue **M42
+with Visicalc의 활용**, opening on 155, after verifying its complete source extent.
+All remaining March content, source dispositions and reproducible whole-issue
+export/audit remain required.

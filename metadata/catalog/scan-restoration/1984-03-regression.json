@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M41",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0023",
+  "canonical_received_title": "심층적 회귀분석",
+  "observed_source_title": "심층적 회귀분석",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
+  ],
+  "selected_package": "archive/scans/1984-03/packages/regression-jpeg-assembly-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/regression-jpeg-assembly-r01/manifest.json",
+    "sha256": "0cfffdfc41a6b5539c8abe6ea85e53169aebfa6e2596029d32180492ea207a4f",
+    "bytes": 120495
+  },
+  "exact_files": 664,
+  "retained_original_segment_files": 655,
+  "native_index_records": 18664,
+  "native_index_counts": {
+    "regional_text_ranges": 151,
+    "prose_joins": 24,
+    "listing_groups": 23,
+    "listing_line_index": 1256,
+    "logical_listing_line_index": 891,
+    "source_literal_index": 8000,
+    "source_uncertainties": 175,
+    "inline_source_fields": 2656,
+    "source_section_index": 19,
+    "source_regional_line_index": 495,
+    "source_paragraph_index": 356,
+    "source_table_cell_index": 843,
+    "source_table_row_index": 205,
+    "source_figure_structure_index": 226,
+    "source_figure_field_index": 2540,
+    "source_figure_connector_index": 434,
+    "source_caption_association_index": 6,
+    "source_illustration_text_association_index": 10,
+    "source_prose_claim_index": 354
+  },
+  "master_crops": 166,
+  "recognition_bindings": 151,
+  "typed_references": 81108,
+  "byte_spans": 62297,
+  "source_asset_bindings": 19556,
+  "source_qualifications": 175,
+  "observed_main_program": {
+    "physical_rows": 964,
+    "logical_units": 613,
+    "physical_reading_bytes": 23206,
+    "damaged_labels": 1,
+    "explicit_source_boundaries": 1,
+    "source_extent_complete": true,
+    "execute_verified": false,
+    "original_encoded_bytes_verified": false
+  },
+  "rejected_damaged_cases": 47,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-37/validation.json",
+    "sha256": "e898607ecba0674f0cbfa27be74a93ac0de69ae7b45baff43e36825787e9a6c2",
+    "bytes": 14112
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-37/assembly-recipe-r01.json",
+    "sha256": "2fbc9c4cdbcff1bc1c8115712b44d763eb52ccd57bd1305211e44701cf185a78",
+    "bytes": 16609
+  },
+  "fresh_native_segment_reproduction": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-37/segment-reproduction.json",
+    "sha256": "71cfe0b7e2a87191c483a686c63fc918d71da200aaef8b6745409512b4742a68",
+    "bytes": 3807
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-37/source-ledger.json",
+    "sha256": "29987a21981ea2955c1086db1bd73cef93ccf37cccef805c5187f85037c7270c",
+    "bytes": 298110
+  },
+  "source_dispositions_pending": 125,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-37/whole-progress-m41.json",
+    "sha256": "683336f93450fb19302d2c5cf511891577e27b8b687bd174e9b515de3fa56923",
+    "bytes": 195833
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-37/evidence-manifest.json",
+    "sha256": "2f00ab43b4ab3be3485175b3cc3cd2dbde2bf9df02b889133a928c084a596937",
+    "bytes": 9136
+  },
+  "frozen_evidence_files": 56,
+  "shared_implementation_changed": true,
+  "source_index_mode": "scoped-observations-v1",
+  "observed_program_contract": true,
+  "fresh_regressions": 297,
+  "next": "M42: restore canonical Visicalc의 활용, located opening on actual 155, from the donated JPEGs. Verify the complete source extent and following article before bounded mapping. Continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M41 helpers or evidence."
+}

@@ -44,13 +44,13 @@ def validate_recipe(recipe):
     required = {'index_mode', 'source_index_mode', 'segments', 'expected_source_indices',
         'inventory', 'evidence', 'uncertainties', 'resolved_notes', 'prose_joins',
         'paragraph_links', 'logical_aliases'}
-    if (set(recipe) not in (required, required | {'program_links'}) or recipe['source_index_mode'] not in (MODE, 'scoped-observations-v1') or
+    if (set(recipe) not in (required, required | {'program_links'}, required | {'observed_programs'}) or recipe['source_index_mode'] not in (MODE, 'scoped-observations-v1') or
             recipe['index_mode'] != 'structured-programs-v1'):
         raise ValueError('Invalid scoped native recipe fields or mode')
     # Reuse the common strict inventory, segment, note and prose-join contract.
     from .assembly_structured import validate_recipe as validate_common
     common = {k: v for k, v in recipe.items()
-              if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases', 'program_links'}}
+              if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases', 'program_links', 'observed_programs'}}
     if recipe['source_index_mode'] == 'scoped-observations-v1':
         from .assembly_examples import validate_joins
         validate_joins(recipe['prose_joins'], regional=True)
@@ -62,6 +62,11 @@ def validate_recipe(recipe):
     if 'program_links' in recipe:
         from .assembly_scoped_programs import validate_links
         validate_links(recipe['program_links'], names)
+    if 'observed_programs' in recipe:
+        if recipe['source_index_mode'] != 'scoped-observations-v1':
+            raise ValueError('Observed programs require the source-observation opt-in')
+        from .assembly_observed_programs import validate_observations
+        validate_observations(recipe['observed_programs'], names)
     aliases = set()
     for row in recipe['logical_aliases']:
         if (set(row) != {'segment', 'index', 'source_unit_id'} or row['segment'] not in names or
@@ -507,5 +512,8 @@ def project(recipe, originals):
     if 'program_links' in recipe:
         from .assembly_scoped_programs import project_programs
         correction['programs'] = project_programs(recipe['program_links'], contexts, listing)
+    if 'observed_programs' in recipe:
+        from .assembly_observed_programs import project_observations
+        correction['observed_programs'] = project_observations(recipe['observed_programs'], contexts, listing)
     validate_package(package)
     return package, correction

@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0023",
   "canonical_received_title": "심층적 회귀분석",
-  "status": "accepted-native-ending-segment;whole-article-assembly-pending",
+  "status": "accepted-native-segment;whole-article-assembly-complete",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -59,9 +59,9 @@
   "pending_heading_candidates": 3,
   "source_dispositions_pending": 125,
   "active_process_handles": [],
-  "whole_article_complete": false,
+  "whole_article_complete": true,
   "whole_issue_complete": false,
-  "next": "M41: assemble and independently audit the complete 심층적 회귀분석 article, actual 134–154, from all four accepted M37–M40 JPEG segments. Preserve their exact native source records, independent examples, cross-region statements, source errors and local qualifications. Then restore Visicalc의 활용, opening on 155, and every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M40 helpers or evidence.",
+  "next": "M42: restore canonical Visicalc의 활용, located opening on actual 155, from the donated JPEGs. Verify the complete source extent and following article before bounded mapping. Continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M41 helpers or evidence.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-36/regression-d/map-r01.json",
     "sha256": "2fbe4a18570befa5a3fd8db83c536c7de8371a31a3fc25791f2ee889541ae4e0",
@@ -132,10 +132,10 @@
     "sha256": "ef19dd3efad991fd672a3a882208b66902b5eae1fa4929fb6f6447516776dece",
     "bytes": 3790
   },
-  "acceptance_note": "All seven text contexts, two drawings and nine native context overlays are source-compared. Both 39-file exports, nine original-master crops, seven recognition bindings and 34 damaged-data rejections pass. All 134–154 source segments are covered; complete article assembly and independent audit remain required. Whole-issue article counters are unchanged.",
+  "acceptance_note": "The bounded native segment remains accepted and immutable. M41 independently assembled and audited the complete source 134–154 article; see accepted_whole_article. All original segment content and local source qualifications remain preserved. Whole March remains active.",
   "native_package_availability": "partial",
   "source_extent_covered": true,
-  "assembly_pending": true,
+  "assembly_pending": false,
   "accepted_result": {
     "path": "metadata/catalog/scan-restoration/1984-03-regression-ending.json",
     "sha256": "5fd6663041c5e3101c0061cd07fa04c751cfe848f5e27c513e9e8de9aeec110a",
@@ -155,5 +155,11 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-36/regression-d/native-geometry-review.json",
     "sha256": "a54b963eeb0d15131a5d535943af1ab61d06f13f20685dbd51e9b2a4151e2aee",
     "bytes": 7559
-  }
+  },
+  "accepted_whole_article": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression.json",
+    "sha256": "37992e1b6cdf69042270a1ba10bc16b909740eb8066f6ff551b645e54fc858a3",
+    "bytes": 4094
+  },
+  "whole_article_assembly_pending": false
 }

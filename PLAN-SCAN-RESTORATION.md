@@ -263,6 +263,24 @@ segments are now accepted, but the article remains partial until **M41 complete
 article assembly and independent audit**. Whole-issue counters remain unchanged.
 Then continue **Visicalc의 활용**, opening on 155, and every remaining March task.
 See [the accepted ending](metadata/catalog/scan-restoration/1984-03-regression-ending.json).
+**M41 completes the whole 심층적 회귀분석 article, actual 134–154**, in **664
+exact files**, retaining all **655 original segment files**. All four native
+segments freshly reproduce, and two whole-article exports match. The independent
+audit checks **166 original-master crops, 151 OCR bindings, 18,664 native records,
+81,108 typed references and 62,297 byte spans**; **47 damaged-data cases reject**.
+The explicit observed main program retains **964 physical rows / 613 logical
+units**, including the uncertified `:065` label and the reviewed 4215/4220
+boundary. Both DATA drawings and their label remain in article order. All **175
+source qualifications**, independent examples and original listing downloads
+stay intact. The opt-in assembly addition passes **297 fresh regressions**;
+all **38 earlier selected native packages** and **2,623 frozen predecessor files**
+remain exact. M41 freezes **56 evidence files**. Whole March remains active with
+**21 complete articles, no partial articles, 17 pending articles, three complete
+headings, three pending headings and 125 pending full-page dispositions** across
+**273 scans**. Continue **M42 with Visicalc의 활용**, opening on 155; verify its
+full source extent before bounded mapping, then complete every remaining March
+task and the whole-issue export/audit. See
+[the complete regression article](metadata/catalog/scan-restoration/1984-03-regression.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
