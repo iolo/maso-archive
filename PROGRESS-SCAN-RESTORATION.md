@@ -66,13 +66,14 @@ arithmetic examples and all 24 original figures. All 78 source crops and the
 separate source/native audit pass. M28 adds final 98–99, and M29 completes the
 whole 92–99 article. M30/M31 restore systems 100–108 in two checked segments;
 M32 completes their native assembly in 363 exact files. M33 completes
-**자동실행 테이프의 전모**, actual **109–112**, in **280 exact files** after
+**자동실행 테이프의 전모**, actual **109–112**, in **280 exact files**.
+M34 completes **자료 구조**, actual **113–117**, in **169 exact files** after
 enlarged source comparison and independent native audit. Current totals are
-**eighteen complete articles, no partial articles, twenty pending article
-candidates, two completed headings, four pending headings and 160 source images
-awaiting full-page disposition**. Continue M34 with **자료 구조**, candidate
-actual **113–117**, then all remaining articles, source dispositions and the
-reproducible whole-issue export/audit.
+**nineteen complete articles, no partial articles, nineteen pending article
+candidates, two completed headings, four pending headings and 155 source images
+awaiting full-page disposition**. Continue M35 with canonical **기계어 강좌**,
+candidate actual **118–123**, then all remaining articles, source dispositions
+and the reproducible whole-issue export/audit.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -5494,4 +5495,62 @@ located. The viewed following 113 is now located as the separate **자료 구조
 opening, with native restoration still pending. Continue **M34**, candidate
 **113–117**, and the remaining whole-issue queue. See
 [the complete tape result](metadata/catalog/scan-restoration/1984-03-tape.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M34 complete — whole data-structure article, actual 113–117
+
+Completed canonical **자료 구조**, **maso-1984-03-toc-0020**, across all verified
+**113–117**. All five full-page JPEGs and neighboring **112/118** were viewed;
+117 ends with references and a star, while 118 opens the separate Z80 tutorial.
+Two independent builds reproduce **169 exact native files**, owning all
+**43 regions** in **30 reading blocks and four original figure groups**.
+
+All **30 prose/title/caption contexts and nine code regions** have enlarged
+source comparison. Six independent source examples retain **137 physical rows,
+136 logical source units and 796 lexical fields**. The native LOW/ER identifier
+unit owns both original physical rows. The complete vending-machine flowchart
+retains **thirteen nodes, sixteen directed routes, ten yes/no labels and thirteen
+node outlines**. Its return-button loop and both branches into the shared
+give-up trunk preserve their original direction. Three original photographs and
+artworks remain intact. The single flowchart caption and its prose reference
+retain exact source associations.
+
+The package indexes **25 literal expression occurrences**, including the printed
+pair/search sequences, three-line data-structure definition, complexity claims,
+polynomial equations and dense/sparse coefficient representations. All six
+original lists retain **32 items**; all six bibliography entries and the closing
+star remain explicit. Source observations retain the institutional byline,
+`data struture`, `(a₁, a₂)`, the dot in `38.41`, the small o-like base-test glyph,
+`POLINOMIAL`, the angular negation mark, split comments and missing-looking
+declarations/punctuation. No program execution, formula evaluation or technical
+repair is claimed. All **26 local source qualifications** remain.
+
+Five initial and five refined mapping overlays were viewed before recognition.
+The preserved refinement widens outdented strokes, descenders, reference text and
+flowchart margins. All **39 initial mapped Tesseract tasks at scale 6000** finish
+with nonempty drafts and **zero retries**. The recognition audit checks
+**43 master crops, ten page renders and 3,543 TSV word rows** using `QUOTE_NONE`.
+Before export, the explicit LOW fragment reference was corrected from an earlier
+LOWER occurrence to its actual wrapped physical row; source text and rows did
+not change. The next-task title spacing was corrected from the canonical queue
+after the passing audit, preserving the initial result and all export files.
+
+The independent native audit passes **43 original-master pixel comparisons,
+39 recognition bindings, 161 raw ZIP members and 29 damaged-data cases**. It
+checks **1,883 native records, 7,318 typed references, 8,231 source/active byte
+spans and 2,025 source asset bindings**. All 795 frozen M33 files and 51 shared
+implementation pins remain exact; the unchanged 291-test baseline stays
+qualified. M34 freezes **494 evidence files**, excluding disposable bytecode
+caches only. Cleanup was previewed without deletion, and all launched jobs were
+observed terminal.
+
+Whole March remains active with **nineteen complete articles, no partial
+articles, nineteen pending article candidates, two completed headings, four
+pending headings and 155 pending full-page dispositions**, across all **273
+scans**. Source 113 had already been located; 114–117 now have complete native
+dispositions. The viewed following 118 is located as the separate printed
+**Z80 기계어 강좌** opening, with native restoration pending. Continue **M35**,
+canonical **기계어 강좌**, candidate **118–123**, then the remaining queue and
+whole-issue export/audit. See
+[the complete data-structure result](metadata/catalog/scan-restoration/1984-03-data.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

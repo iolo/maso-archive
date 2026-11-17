@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M34",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0020",
+  "canonical_received_title": "자료 구조",
+  "observed_source_title": "자료 구조",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    113,
+    114,
+    115,
+    116,
+    117
+  ],
+  "selected_package": "archive/scans/1984-03/packages/data-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/data-jpeg-r01/manifest.json",
+    "sha256": "c5be4b673f115b60dfd6f2c2694eee8eab775f359181dca7c7cbe14ea26218f7",
+    "bytes": 28294
+  },
+  "exact_files": 169,
+  "native_structure": {
+    "blocks": 30,
+    "regional_texts": 39,
+    "prose_joins": 6,
+    "code_region_joins": 3,
+    "original_figures": 4,
+    "figure_structures": 4,
+    "flowchart_nodes": 13,
+    "flowchart_routes": 16,
+    "flowchart_branch_labels": 10,
+    "flowchart_fields": 23,
+    "flowchart_paths": 29,
+    "physical_listing_rows": 137,
+    "logical_source_units": 136,
+    "listing_fields": 796,
+    "independent_listings": 6,
+    "expression_occurrences": 25,
+    "original_lists": 6,
+    "original_list_items": 32,
+    "bibliography_entries": 6,
+    "caption_associations": 1,
+    "source_qualifications": 26
+  },
+  "native_index_records": 1883,
+  "typed_references": 7318,
+  "source_and_active_byte_spans": 8231,
+  "source_asset_bindings": 2025,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-30/validation.json",
+    "sha256": "ab67f0de5cf7225d64f031814470bbc8548ccd784ed45246d7e41d4a40fcc204",
+    "bytes": 3029
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-30/data/recipe-r01.json",
+    "sha256": "39ee389ba74e822e245024b2e3060b4cc841aef24a827d101ed9db04af025435",
+    "bytes": 8909
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-30/source-ledger.json",
+    "sha256": "97001e2c5b52375afb578c71186cf27c0ae61d078334cbbd92cd1d6bde4876d6",
+    "bytes": 267118
+  },
+  "source_dispositions_pending": 155,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-30/whole-progress-m34.json",
+    "sha256": "5855f32616e4e25ecaa10ca04b0c4c0ffe88c1c8f00e4689d22ac8275d6987a9",
+    "bytes": 184952
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-30/evidence-manifest.json",
+    "sha256": "f855123d6130ffe7d0becafbb1db47a837962790c4520268c8073f68bf4525e1",
+    "bytes": 84969
+  },
+  "frozen_evidence_files": 494,
+  "shared_implementation_changed": false,
+  "source_index_mode": "scoped-observations-v1",
+  "reused_fresh_regressions": 291,
+  "next": "M35: restore 기계어 강좌,maso-1984-03-toc-0021,from donated JPEGs. Candidate118–123requires full-page extent and neighboring-material review before mapping. Preserve printed Z80title separately. Continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active."
+}

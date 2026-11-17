@@ -159,6 +159,20 @@ dispositions**. Following 113 is visually located as the separate **자료 구�
 opening; its native restoration remains pending. Continue M34 with its candidate
 113–117 extent and the remaining whole issue. See
 [the complete tape result](metadata/catalog/scan-restoration/1984-03-tape.json).
+M34 completes **자료 구조**, verified actual **113–117**, in **169 exact native
+files**. All 39 text contexts and four original figures have enlarged source
+comparison. Its native flowchart retains thirteen nodes, sixteen routes and ten
+branch labels; six independent listings retain 137 physical rows, 136 logical
+source units and 796 lexical fields. Twenty-five formula occurrences, six source
+lists/32 items, six references and the closing star remain explicit. Both builds,
+43 original-master crops, 39 OCR bindings, 1,883 native records and 29 damaged-data
+checks pass. All 26 local qualifications remain; shared implementation is
+unchanged. M34 freezes 494 evidence files. Whole March remains active with
+**nineteen complete articles, nineteen pending article candidates, two completed
+headings, four pending headings and 155 pending full-page dispositions**.
+Continue M35 with canonical **기계어 강좌**, candidate actual **118–123**, printed
+**Z80 기계어 강좌**, then the remaining whole-issue queue and final export/audit.
+See [the complete data-structure result](metadata/catalog/scan-restoration/1984-03-data.json).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 18,
+  "complete_whole_scan_articles": 19,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -3465,8 +3465,8 @@
       "title": "자료 구조",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0020",
         "title": "자료 구조",
@@ -3524,7 +3524,40 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M34",
+        "directory": "archive/scans/1984-03/packages/data-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/data-jpeg-r01/manifest.json",
+          "sha256": "c5be4b673f115b60dfd6f2c2694eee8eab775f359181dca7c7cbe14ea26218f7",
+          "bytes": 28294
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-30/validation.json",
+          "sha256": "ab67f0de5cf7225d64f031814470bbc8548ccd784ed45246d7e41d4a40fcc204",
+          "bytes": 3029
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "actual_folios": [
+          113,
+          114,
+          115,
+          116,
+          117
+        ],
+        "included_actual_folios": [
+          113,
+          114,
+          115,
+          116,
+          117
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         113,
         114,
@@ -3540,7 +3573,26 @@
           "sha256": "5ff70e66e308b8b4c0c49f5fa8f81c32c95036b3e8ca2529a4ee21dc99588bf1",
           "bytes": 1626700
         },
-        "restoration_pending": true
+        "restoration_pending": false,
+        "actual_folios": [
+          113,
+          114,
+          115,
+          116,
+          117
+        ],
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-30/transition.json",
+          "sha256": "402a00e1d7752d1a6cca027259825f2e50d66615cc59e48547bd014ce60b07f3",
+          "bytes": 708
+        },
+        "complete_native_selected": true,
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-30/validation.json",
+          "sha256": "ab67f0de5cf7225d64f031814470bbc8548ccd784ed45246d7e41d4a40fcc204",
+          "bytes": 3029
+        }
       }
     },
     {
@@ -3619,7 +3671,17 @@
         121,
         122,
         123
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 118,
+        "observed_title": "Z80 기계어 강좌",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-30/review/full-118.jpg",
+          "sha256": "8dc36f5e950abffedeb43ea7b73d3304ea387900f661f2e7178537897ec55f19",
+          "bytes": 1370741
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0022",
@@ -5749,13 +5811,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-29/source-ledger.json",
-    "sha256": "5dcbf001bca7d83d22252afa7da8e1d146a02269202968eb01d457bbfbad30cb",
-    "bytes": 262493
+    "path": "archive/scans/1984-03/restoration/whole-issue-30/source-ledger.json",
+    "sha256": "97001e2c5b52375afb578c71186cf27c0ae61d078334cbbd92cd1d6bde4876d6",
+    "bytes": 267118
   },
-  "current_checkpoint": "M33-complete",
-  "next": "M34: restore 자료 구조,maso-1984-03-toc-0020,from donated JPEGs. Candidate113–117requires full-page extent and neighboring-material review before mapping. Continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active.",
-  "pending_article_candidates": 20,
+  "current_checkpoint": "M34-complete",
+  "next": "M35: restore 기계어 강좌,maso-1984-03-toc-0021,from donated JPEGs. Candidate118–123requires full-page extent and neighboring-material review before mapping. Preserve printed Z80title separately. Continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active.",
+  "pending_article_candidates": 19,
   "pending_heading_candidates": 4,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 2
