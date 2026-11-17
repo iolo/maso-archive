@@ -223,9 +223,11 @@ original figures have enlarged JPEG comparisons recorded; 67 original-master
 crops pass independent pixel checks. The six scatterplots preserve 91 visible
 mark groups without inferring missing observations. Two bounded table retries
 and all source-specific errors and qualifications remain preserved. This is a
-source-review milestone: native indexing, the insurance plot paths, exact ranges,
-independent exports and source/native validation still remain before segment
-acceptance. Accepted whole-issue totals remain unchanged. Continue the complete
+source-review milestone. Native context geometry is now also source-compared:
+109 structures, 843 fields, 460 cells, 149 original paths and 170 physical
+listing/output rows across 46 contexts. Independent work auditing passes; exact
+occurrence indexes, joins, independent exports and source/native validation still
+remain before segment acceptance. Accepted whole-issue totals remain unchanged. Continue the complete
 regression article and every remaining March task. See the
 [M38 work record](metadata/catalog/scan-restoration/1984-03-regression-middle-work.json).
 March remains the current issue.

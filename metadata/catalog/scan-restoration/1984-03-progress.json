@@ -6015,14 +6015,14 @@
     "bytes": 298494
   },
   "current_checkpoint": "M38-working",
-  "next": "Encode all native structures in bounded 140–145: physical table/display/code rows and fields, matrix blanks, formula occurrences, explicit joins and original plot geometry. Complete the insurance plot paths and source/native audit, export twice and reject damaged cases before accepting M38. Then restore 146–151 and 152–154, assemble/audit complete 134–154, and continue every remaining March article, heading and all 273 scan dispositions before whole-issue closeout.",
+  "next": "Create native corrections with exact occurrence spans, physical/logical listing and DATA joins, prose/figure associations and lists. Then preflight, independently export twice and audit source/native content and damaged cases before accepting M38. Then restore 146–151 and 152–154, assemble/audit the complete 134–154 article and continue every remaining March article, heading and all 273 source dispositions before whole-issue closeout.",
   "pending_article_candidates": 17,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 3,
   "current_work": {
     "path": "metadata/catalog/scan-restoration/1984-03-regression-middle-work.json",
-    "sha256": "939f5fe2eddd29cf2418f503821f1f9560817b0b455a785ed671b7249f486301",
-    "bytes": 4325
+    "sha256": "65e3b96955bc457a11a9acd412a0b8ddc85c5c84b69267fa6a493637da5a7df1",
+    "bytes": 5393
   }
 }

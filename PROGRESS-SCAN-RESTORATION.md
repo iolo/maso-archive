@@ -85,6 +85,9 @@ all 59 text contexts and eight original figures on 140–145, 67 pixel-exact mas
 crops and two preserved targeted retries. Native encoding and segment acceptance
 remain pending; accepted totals above are unchanged. See the
 [M38 working record](metadata/catalog/scan-restoration/1984-03-regression-middle-work.json).
+Its 46 native context overlays now pass source comparison and independent work
+audit, retaining 109 structures, 843 fields, 460 cells and 149 original paths.
+Exact occurrence indexing, joins and native exports remain pending.
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -5806,3 +5809,19 @@ pending scan dispositions** across **273 scans**. After M38 acceptance, continue
 146–151 and 152–154, complete the 134–154 assembly/audit and every remaining March
 identity and source disposition before the whole-issue export and completion
 audit. See the [M38 work record](metadata/catalog/scan-restoration/1984-03-regression-middle-work.json).
+
+The next M38 work milestone records **46 reviewed native geometry contexts**:
+**109 structures, 843 fields, 118 rows, 460 cells including eight blanks, 149
+original paths, 170 physical listing/output rows and 63 formula contexts**.
+All selected overlays are directly reviewed or byte-identical to reviewed
+revisions. Six geometry candidates preserve the initial bounds and subsequent
+source-backed corrections, including independent numeric field spacing, matrix
+slots, subscripts, caption baselines and the original dotted insurance traces.
+The halftone artwork has no certified lettering; an initial speculative unknown
+lettering box was removed. The annotated DATA reading now omits a nonprinted
+guide-only prefix; the original brace retains its three-row association.
+The independent context-work audit passes and rechecks all 838 frozen M37 files
+and unchanged implementation. This remains working evidence: **exact occurrence
+ranges, logical listing/DATA joins, native package creation, two exports and
+source/native validation are still pending**. Whole-issue acceptance counters
+remain unchanged.

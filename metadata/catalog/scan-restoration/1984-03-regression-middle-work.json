@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0023",
   "canonical_received_title": "심층적 회귀분석",
-  "status": "source-review-milestone;native-middle-segment-pending",
+  "status": "source-and-native-context-geometry-reviewed;native-export-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -69,7 +69,7 @@
   "active_process_handles": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "Encode all native structures in bounded 140–145: physical table/display/code rows and fields, matrix blanks, formula occurrences, explicit joins and original plot geometry. Complete the insurance plot paths and source/native audit, export twice and reject damaged cases before accepting M38. Then restore 146–151 and 152–154, assemble/audit complete 134–154, and continue every remaining March article, heading and all 273 scan dispositions before whole-issue closeout.",
+  "next": "Create native corrections with exact occurrence spans, physical/logical listing and DATA joins, prose/figure associations and lists. Then preflight, independently export twice and audit source/native content and damaged cases before accepting M38. Then restore 146–151 and 152–154, assemble/audit the complete 134–154 article and continue every remaining March article, heading and all 273 source dispositions before whole-issue closeout.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/map-r01.json",
     "sha256": "45806e8d00135d6c9241dd507a931594ca9df09ce9939c0abf9afb8ef0fe2648",
@@ -101,9 +101,9 @@
     "bytes": 1287
   },
   "source_readings": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/source-compared-readings.json",
-    "sha256": "dfab4982a213bf69a4bca2ecd462dcac38520c12c01497628ce850070e2883d2",
-    "bytes": 57505
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/source-compared-readings-r02.json",
+    "sha256": "fd00236532e66b18907ade1d5e6385840261a3b7b481ec9c0476deb0672a7499",
+    "bytes": 58092
   },
   "figure_observations": {
     "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/figure-source-observations-r02.json",
@@ -112,13 +112,41 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-34/resume.json",
-    "sha256": "c3f2c87e736275fbfd02f51c99e769342cd97f2c78ece53ec756a50b44033f8f",
-    "bytes": 3186
+    "sha256": "fe44e8cdae8fcff1ce30fb8f0a8592f35a5b9206bad083dc0a35cc86baf919a6",
+    "bytes": 4333
   },
   "accepted_opening": {
     "path": "metadata/catalog/scan-restoration/1984-03-regression-opening.json",
     "sha256": "df54f87118b4998323e0a4b16618c9c50b8a2595d9e0a926135c83ea0d687ed1",
     "bytes": 3711
   },
-  "acceptance_note": "This record reports completed source review, not an accepted native segment. Accepted article and source-disposition totals remain unchanged. No whole-article or whole-issue completion is claimed."
+  "acceptance_note": "The 59 text contexts and 46 native geometry contexts are source-compared. Exact native occurrence indexes, listing/DATA joins, package exports and source/native validation remain pending. Accepted whole-article and whole-issue counts are unchanged.",
+  "native_context_geometry_review_complete": true,
+  "native_context_counts": {
+    "structures": 109,
+    "fields": 843,
+    "rows": 118,
+    "cells": 460,
+    "blank_cells": 8,
+    "original_paths": 149,
+    "source_contexts": 46,
+    "physical_rows": 170,
+    "formula_contexts": 63,
+    "visible_scatter_mark_groups": 91
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/native-geometry.json",
+    "sha256": "25b8bcc7c5033fd102a43673d927574712fec9ce7ff1041adb5913cd5638db87",
+    "bytes": 1362956
+  },
+  "native_geometry_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/native-geometry-review.json",
+    "sha256": "b18fbcd5e0e7166cdcad2122af20e64cbb5ff8a4bb4a6d4e03fc825b085d1b02",
+    "bytes": 45636
+  },
+  "native_context_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-34/native-context-work-audit.json",
+    "sha256": "2a2acd79a84e2739c1e448d70d3cf384ec801228ad880d66ad9032c401a00725",
+    "bytes": 1619
+  }
 }
