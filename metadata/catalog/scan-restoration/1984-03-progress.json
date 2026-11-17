@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 28,
+  "complete_whole_scan_articles": 29,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -5972,8 +5972,8 @@
       "title": "도형정의표의 정복",
       "parent_id": "maso-1984-03-toc-0029",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0032",
         "title": "도형정의표의 정복",
@@ -6049,16 +6049,16 @@
         }
       },
       "new_selected_restoration": {
-        "checkpoint": "M58",
+        "checkpoint": "M60",
         "article_id": "scan-maso-1984-03-toc-0032",
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "source_kind": "jpeg-set",
-        "directory": "archive/scans/1984-03/packages/shape-jpeg-a-r01",
+        "directory": "archive/scans/1984-03/packages/shape-jpeg-full-r01",
         "manifest": {
-          "path": "archive/scans/1984-03/packages/shape-jpeg-a-r01/manifest.json",
-          "sha256": "84e9e3c919b3384b6ec6e6114abf6263389680211af61275106536d7de307455",
-          "bytes": 47174
+          "path": "archive/scans/1984-03/packages/shape-jpeg-full-r01/manifest.json",
+          "sha256": "001c9ae2eb7df3c36c476e5aaf758982b4d5cb7abe462cdb7fad041f1bbb392f",
+          "bytes": 71050
         },
         "article_actual_folios": [
           218,
@@ -6085,17 +6085,17 @@
           227
         ],
         "source_extent_covered": true,
-        "assembly_pending": true,
+        "assembly_pending": false,
         "continuation_pending": [],
         "recipe": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-54/shape-a/recipe-native-01.json",
-          "sha256": "73e3a28a1d8387afa4fb14ba9c912c2a7164a2d1e9a9f796cd8e03b6bc4f87cf",
-          "bytes": 12587
+          "path": "archive/scans/1984-03/restoration/whole-issue-56/assembly-recipe-r02.json",
+          "sha256": "33c9c54e43385215a58ee52b1ee5a7e09742be8e67f03c4376bdfd4d0d65cadb",
+          "bytes": 3854
         },
         "validation": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-54/validation.json",
-          "sha256": "7787ead819521b2cb053ad802c61bb30294f9580f0aac686a2dac7e72caf6323",
-          "bytes": 7174
+          "path": "archive/scans/1984-03/restoration/whole-issue-56/validation.json",
+          "sha256": "0eae27ba225a1546ae57ff940b936861950a1630cedb3654619da11c7acab0bb",
+          "bytes": 6605
         },
         "segments": [
           {
@@ -6146,12 +6146,13 @@
             }
           }
         ],
-        "assembly_join_pending": {
-          "left": "도형의 번호를",
-          "right": "묻는다.",
-          "separator": " "
+        "ending_checkpoint": "M59",
+        "implementation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-56/implementation-after.json",
+          "sha256": "767b8f1f90311be265d74a49ae0f813192d8aff7a29de2004241fc5360f745ac",
+          "bytes": 9286
         },
-        "ending_checkpoint": "M59"
+        "note": "Complete 218–227 native article; two exact 380-file exports retain all 371 original segment files and 11072 native records, all 83 qualifications and three local unknowns. Whole March remains active."
       },
       "historical_printed_extent_candidate": [
         218,
@@ -6191,10 +6192,11 @@
           "sha256": "df76287f59b8ad50f9ba958ab59961d65fae7e947f50ebe934cd6051219bb1ca",
           "bytes": 1586
         },
-        "restoration_pending": true,
-        "partial_native_selected": true,
+        "restoration_pending": false,
+        "partial_native_selected": false,
         "complete_segment_source_coverage": true,
-        "assembly_pending": true
+        "assembly_pending": false,
+        "whole_article_assembly_pending": false
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-shape-opening-work.json",
@@ -7163,14 +7165,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-55/source-ledger.json",
-    "sha256": "e95c386c1dc0894f163023077f553e4e6d1c4fae1972c9c17e248c16df34dec7",
-    "bytes": 408815
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/source-ledger.json",
+    "sha256": "b36f8c965ca7f605f8ddb3e53dcbb74c07b047047825c15a1c7d10da9d2f08e2",
+    "bytes": 411043
   },
-  "current_checkpoint": "M59-complete",
-  "next": "M60: assemble and independently audit complete 218–227 도형정의표의 정복 from immutable M58/M59 native packages. Preserve every original segment file, source/native index, all qualifications and the 223 도형의 번호를 / 224 묻는다. join with one word space. Keep main program, independent correction patch, printed sessions, all figures and 675 grid cells in their correct source ownership; the 224 star closes prose only. Verify references to prior original Figure 2 and all cross-column/page statement fragments. Then verify the full extent and restore A/D,D/A의 이론과 실제 from located 228, followed by every remaining March article, information heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M59/M58/predecessor helpers or evidence. Shared implementation remains qualified M57 baseline, 303 tests.",
+  "current_checkpoint": "M60-complete",
+  "next": "M61: verify the full original JPEG extent of canonical A/D,D/A의 이론과 실제 (maso-1984-03-toc-0033), from located opener 228 and neighboring pages. Historical candidate 228–241 is not yet verified. Record bounded scope before recognition, restore at most six selected source views per segment, preserve every circuit, waveform, table, equation, listing, caption and source qualification, then assemble and independently audit the full article. Continue every remaining March article, the information heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M60/M59/M58/predecessor helpers or evidence. Shared implementation remains qualified M57 baseline with 303 tests; reuse successful recognition when inputs match.",
   "pending_article_candidates": 9,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5
 }

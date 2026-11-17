@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M60",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0032",
+  "status": "complete-native-article",
+  "canonical_received_title": "도형정의표의 정복",
+  "observed_source_title": "도형정의표 (Shape Table)의 정복",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/shape-jpeg-full-r01",
+  "exact_files": 380,
+  "retained_segment_files": 371,
+  "master_crops": 105,
+  "recognition_bindings": 83,
+  "recognition_tasks": 0,
+  "raw_archive_members": 362,
+  "native_index_records": 11072,
+  "typed_references": 61897,
+  "source_and_active_byte_spans": 28169,
+  "source_asset_bindings": 16134,
+  "source_qualifications": 83,
+  "unresolved_local_readings": 3,
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/shape-jpeg-full-r01/manifest.json",
+    "sha256": "001c9ae2eb7df3c36c476e5aaf758982b4d5cb7abe462cdb7fad041f1bbb392f",
+    "bytes": 71050
+  },
+  "native_structure": {
+    "native_structures": 27,
+    "source_fields": 1037,
+    "source_rows": 110,
+    "source_cells": 837,
+    "grid_cells": 675,
+    "source_paths": 389,
+    "original_figures": 22,
+    "source_sections": 11,
+    "source_paragraph_records": 73,
+    "physical_source_comparison_lines": 1128,
+    "internal_prose_joins": 17,
+    "assembly_prose_joins": 1,
+    "caption_associations": 10,
+    "illustration_text_associations": 25,
+    "main_physical_rows": 377,
+    "main_logical_units": 160,
+    "patch_physical_rows": 3,
+    "patch_logical_units": 2,
+    "interaction_contexts": 4,
+    "interaction_physical_rows": 34,
+    "interaction_utterances": 33,
+    "lexical_fields": 4333,
+    "physical_wrap_observations": 219
+  },
+  "rejected_damaged_cases": 39,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/validation.json",
+    "sha256": "0eae27ba225a1546ae57ff940b936861950a1630cedb3654619da11c7acab0bb",
+    "bytes": 6605
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/assembly-recipe-r02.json",
+    "sha256": "33c9c54e43385215a58ee52b1ee5a7e09742be8e67f03c4376bdfd4d0d65cadb",
+    "bytes": 3854
+  },
+  "boundary_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/boundary-review.json",
+    "sha256": "6f6049c74fe2e00d050977814b702d729f4bc9bad45afed42b3312dedf04ff84",
+    "bytes": 1511
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/source-ledger.json",
+    "sha256": "b36f8c965ca7f605f8ddb3e53dcbb74c07b047047825c15a1c7d10da9d2f08e2",
+    "bytes": 411043
+  },
+  "source_dispositions_pending": 64,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/whole-progress-m60.json",
+    "sha256": "47c2a4f54fd9768b1315f10c1bb8e2e6989777eae6e3b5768b48808121598de9",
+    "bytes": 235628
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/resume.json",
+    "sha256": "202c8a338dfc767e45b94c69ad5252729ce7afc7a051522c2feac5753874fb10",
+    "bytes": 2100
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/evidence-manifest.json",
+    "sha256": "aed14dbba85c18596a505d19d36246011736722f66cfa0e4324528ae7850b9ff",
+    "bytes": 4933
+  },
+  "frozen_evidence_files": 30,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-56/implementation-after.json",
+    "sha256": "767b8f1f90311be265d74a49ae0f813192d8aff7a29de2004241fc5360f745ac",
+    "bytes": 9286
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 303,
+  "fresh_regression_tests": 0,
+  "complete_whole_scan_articles": 29,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 9,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M61: verify the full original JPEG extent of canonical A/D,D/A의 이론과 실제 (maso-1984-03-toc-0033), from located opener 228 and neighboring pages. Historical candidate 228–241 is not yet verified. Record bounded scope before recognition, restore at most six selected source views per segment, preserve every circuit, waveform, table, equation, listing, caption and source qualification, then assemble and independently audit the full article. Continue every remaining March article, the information heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M60/M59/M58/predecessor helpers or evidence. Shared implementation remains qualified M57 baseline with 303 tests; reuse successful recognition when inputs match."
+}

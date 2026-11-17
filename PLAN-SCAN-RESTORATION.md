@@ -727,6 +727,24 @@ required in **M60**, followed by every remaining March task. Totals remain
 headings, one pending heading and 64 pending dispositions / 273 scans**. Whole
 March remains active. See the [M59 native handoff](docs/SCAN-RESTORATION-1984-03-M59.md).
 
+**M60 accepts the complete 218–227 Shape Table article** in two matching
+**380-file exports**, retaining all **371 original M58/M59 segment files**,
+105 pixel-exact crops and 83 original recognition bindings. Its **11,072 native
+records, 61,897 typed references, 28,169 byte spans and 16,134 asset bindings**
+pass independent audit. The source-compared 223/224 prose join uses one word
+space. All **675 grid cells**, main BASIC program, independent correction patch,
+four printed sessions, 22 raster figures, 83 qualifications and three local
+unknowns remain intact. All **39 damaged cases** reject. Shared implementation
+remains the qualified M57 baseline with 303 tests; no fresh OCR or broad tests.
+M60 evidence is frozen; never execute or modify its helpers or evidence.
+Whole March remains active with **29 complete articles, no partial articles,
+nine pending articles, five complete headings, one pending heading and 64 pending
+full-page dispositions across all 273 scans**. Continue **M61** by verifying the
+full extent of **A/D,D/A의 이론과 실제** from located 228; historical candidate
+228–241 is not yet verified. Finish every remaining March task through
+reproducible whole-issue export/completion audit. See the
+[M60 handoff](docs/SCAN-RESTORATION-1984-03-M60.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
