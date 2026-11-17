@@ -5949,3 +5949,50 @@ listing/list/formula geometry, exact occurrence encoding, two independent
 exports and native acceptance audits are required before accepting 146–151.
 Then continue 152–154, complete the full 134–154 article assembly/audit and
 every remaining whole-March task. Accepted whole-issue counters are unchanged.
+
+## M39 complete — regression program segment, actual 146–151
+
+The working milestones above are superseded by acceptance of
+[the native program segment](metadata/catalog/scan-restoration/1984-03-regression-program.json).
+Two independent exports reproduce **100 exact files**. The separate audit checks
+all **25 master crops** against original JPEG pixels, all **22 original recognition
+bindings** and **92 raw ZIP members**, including the pinned runtime record. All
+**37 damaged-data cases reject**. The qualified 291-test baseline applies to the
+unchanged shared implementation; all 1,015 frozen M38 files remain exact.
+
+Native content retains **558 physical code rows and 330 statement units** in
+three independent contexts: the fifteen-row tire DATA example, six-row equation
+DATA example and 537-row main-program segment. Their **113 literal DATA values**
+include exact **3/0→30** and **22/.4→22.4** joins. The damaged `:065` prefix starts
+its own statement with `1065` only an uncertain candidate. No digit is inferred
+from the program's apparent ordering.
+
+Reviewed geometry preserves **71 structures, 735 fields and 120 original paths**
+in **21 contexts**, including **50 flowchart nodes and 54 original routes**.
+The source keeps its literal `6000` summary target, targetless data-table box,
+separate panel stems and original outline gaps. Eight listing-frame fits follow
+the skewed ink borders. One fit assertion exposed an original six-plate-pixel
+left-border gap; an enlarged comparison confirms it and two path segments keep
+it open. All failed and refined candidates remain preserved.
+
+Exact occurrences bind **620 nonempty textual geometry fields**, **2,675 physical
+code tokens**, **19 displayed mathematical contexts**, **39 printed variable
+definitions**, **19 program ranges** and nine regional continuations. Of 79
+adjacent-token candidates, source review selects **51 explicit split tokens**;
+the other **28 boundaries remain unjoined**. Ordinary THE/FOLLOWING, GET/T$ and
+THEN/RETURN boundaries do not become concatenated words or BASIC tokens. The
+missing operator between source `2.0200` and `.02` stays unrepaired.
+
+Native validation covers **6,170 records, 25,675 typed references, 23,545 byte
+spans and 6,186 asset bindings**. The first acceptance audit had a dictionary
+counter fixture mistake; a separate retained revision counts identity keys.
+Only that fixture changed, and both selected exports stayed exact. Cleanup
+was previewed without deletion; every launched job is terminal. M39 freezes
+**489 evidence files**. Never execute or modify its frozen helpers or evidence.
+
+Accepted regression source now covers **134–151**. Continue **M40 on 152–154**,
+then assemble and audit the complete **134–154** article. March stays active with
+**20 complete articles, one partial article, 17 pending articles, three complete
+headings, three pending headings and 125 pending full-page dispositions** across
+**273 scans**. Every remaining March task and the whole-issue export/audit remain
+required before closing the issue.

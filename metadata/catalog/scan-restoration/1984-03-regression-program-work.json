@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0023",
   "canonical_received_title": "심층적 회귀분석",
-  "status": "all-text-and-diagrams-source-compared;flowchart-geometry-reviewed;remaining-native-encoding-pending",
+  "status": "accepted-native-program-segment;whole-article-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -53,9 +53,9 @@
   "variable_entries_source_compared": 39,
   "first_main_panel_physical_rows": 24,
   "first_main_panel_numbered_statements": 12,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_article_package_selected": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_article_package_selected": true,
   "complete_whole_scan_articles": 20,
   "partial_whole_scan_articles": 1,
   "pending_article_candidates": 17,
@@ -65,7 +65,7 @@
   "active_process_handles": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "Review flowchart native overlays, encode remaining listing/variable/range/formula and DATA panel geometry, then audit and export M39. Continue 152–154, complete 134–154 assembly and every remaining March task.",
+  "next": "M40: restore actual 152–154, the ending of 심층적 회귀분석, from the donated JPEGs. Preserve accepted M37–M39 segments and verified full extent 134–154. Assemble and audit the complete article, then continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M39 helpers or evidence.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/map-r01.json",
     "sha256": "ed9d9c402705aacf26ddb0382e2310b99e62c6b71dd943d9aab3c59eceff3eb8",
@@ -118,8 +118,8 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-35/resume.json",
-    "sha256": "5cbbb98e6a5bc7a236efa47de4c7165fa1db1d135ac163cd8a3101383f942503",
-    "bytes": 3066
+    "sha256": "bbe55365d50cb4b6b52b74d17b71168e64675185ec12f1b04961e00216b5b10f",
+    "bytes": 4892
   },
   "accepted_opening": {
     "path": "metadata/catalog/scan-restoration/1984-03-regression-opening.json",
@@ -131,7 +131,7 @@
     "sha256": "3b193f717e8dd6aaf66f80899afaab8a2ea1d344322da33e566612f8b0cdd56a",
     "bytes": 3734
   },
-  "acceptance_note": "This is audited working evidence. All 22 text contexts and all three original diagrams have enlarged source comparison. Both native flowcharts have reviewed 50 nodes, 90 fields and 54 printed routes. Remaining program, variable, range and formula geometry, native occurrence encoding, package creation and independent exports/audits remain required. No M39 native package is selected; accepted article and issue counters are unchanged.",
+  "acceptance_note": "All 22 text contexts, three original diagrams and 21 native contexts are source-compared. Both 100-file exports, all 25 master crops, source/native audit and 37 damaged-data rejections pass. Source 152–154 and complete article assembly remain required; whole-issue acceptance counters are unchanged.",
   "main_listing_physical_rows": 537,
   "all_code_physical_rows": 558,
   "clearly_numeric_main_statement_labels": 314,
@@ -151,5 +151,26 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/flowchart-native-geometry-review.json",
     "sha256": "d501f78e9453c5946bc95f6bcefe9587f183262def25ed98b09251ad68745fa2",
     "bytes": 1574
+  },
+  "native_package_availability": "partial",
+  "accepted_result": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-program.json",
+    "sha256": "ef19dd3efad991fd672a3a882208b66902b5eae1fa4929fb6f6447516776dece",
+    "bytes": 3790
+  },
+  "selected_manifest": {
+    "path": "archive/scans/1984-03/packages/regression-c-jpeg-r01/manifest.json",
+    "sha256": "3d028e51158673f4ed05fcb51a6d8f03a6092578cb11a4abd9c7d7d245f25498",
+    "bytes": 16976
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/native-geometry.json",
+    "sha256": "e42a43a500e0255bd3c7a986977b3927af1c166c31dedde98a58bdb2cf2c5e5d",
+    "bytes": 776506
+  },
+  "native_geometry_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/native-geometry-review.json",
+    "sha256": "0cc49927fb629263e88904359b82f015425967481d68e313f4bc3dbbcb3c4bd2",
+    "bytes": 21592
   }
 }

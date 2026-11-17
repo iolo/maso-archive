@@ -4346,6 +4346,28 @@
               "sha256": "f8727288a8d850b68bdb9b9b09cba739b2c0950ae8176cad974f1f35e6270d1d",
               "bytes": 3498
             }
+          },
+          {
+            "checkpoint": "M39",
+            "directory": "archive/scans/1984-03/packages/regression-c-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/regression-c-jpeg-r01/manifest.json",
+              "sha256": "3d028e51158673f4ed05fcb51a6d8f03a6092578cb11a4abd9c7d7d245f25498",
+              "bytes": 16976
+            },
+            "actual_folios": [
+              146,
+              147,
+              148,
+              149,
+              150,
+              151
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-35/validation-native-program-02.json",
+              "sha256": "a4ab37ec2455e367747cb0d51628020206b5624f644fa564e0a68462562815af",
+              "bytes": 3601
+            }
           }
         ],
         "observed_source_title": "심층적 회귀분석",
@@ -4354,12 +4376,6 @@
         "source_extent_verified": true,
         "source_extent_covered": false,
         "continuation_pending": [
-          146,
-          147,
-          148,
-          149,
-          150,
-          151,
           152,
           153,
           154
@@ -6026,19 +6042,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-34/source-ledger.json",
-    "sha256": "a374eacff59403c2d5dbdb3b021d234e758b01438f7e772072b192a0db7ddcc5",
-    "bytes": 299580
+    "path": "archive/scans/1984-03/restoration/whole-issue-35/source-ledger.json",
+    "sha256": "76aba6ab7c9b7820860fb77c206a29fbf78548af319c0c0774ff51e2841306be",
+    "bytes": 300804
   },
-  "current_checkpoint": "M39-working",
-  "next": "Review flowchart native overlays, encode remaining listing/variable/range/formula and DATA panel geometry, then audit and export M39. Continue 152–154, complete 134–154 assembly and every remaining March task.",
+  "current_checkpoint": "M39-complete",
+  "next": "M40: restore actual 152–154, the ending of 심층적 회귀분석, from the donated JPEGs. Preserve accepted M37–M39 segments and verified full extent 134–154. Assemble and audit the complete article, then continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M39 helpers or evidence.",
   "pending_article_candidates": 17,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 3,
-  "current_work": {
-    "path": "metadata/catalog/scan-restoration/1984-03-regression-program-work.json",
-    "sha256": "2a7937196b95a142470df240b7e51b29d4322e7a442ce013370793aee53a7e5c",
-    "bytes": 5888
-  }
+  "complete_whole_scan_headings": 3
 }

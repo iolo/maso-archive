@@ -230,21 +230,24 @@ retries, numerical disagreements, formula omissions and source qualifications
 remain preserved. Accepted whole-issue totals remain **20 complete articles,
 one partial article, 17 pending articles, three completed headings, three pending
 headings and 125 pending full-page dispositions** across **273 scans**.
-Continue **M39 on 146–151**, then 152–154, the complete 134–154 assembly/audit and
-every remaining March task. See the
+The program segment on 146–151 is now accepted. Continue **M40 on 152–154**,
+the complete 134–154 assembly/audit and every remaining March task. See the
 [accepted middle](metadata/catalog/scan-restoration/1984-03-regression-middle.json).
-**M39 is working on actual 146–151.** All six original pages, neighbors 145/152
-and both map revisions have visual comparison. Initial mapped recognition passes
-all **22 text tasks, 25 source crops and 12 page-render checks**, with no empty
-regions or retries. All **22 text contexts and three original diagrams** now
-have enlarged source comparison. They retain **558 physical code rows and 330
-statement units**, including one with the damaged printed label `:065` rather
-than a certified numeric line number. The **39 variable entries** remain literal.
-Both flowcharts have reviewed geometry for **50 nodes, 90 fields and 54 printed
-routes**; original outline gaps and the literal `6000` target remain preserved.
-Remaining program/list/formula geometry, native encoding, exports and acceptance
-audits are pending. Accepted whole-issue totals are unchanged. See the
-[M39 work record](metadata/catalog/scan-restoration/1984-03-regression-program-work.json).
+**M39 passes on actual 146–151** with **100 exact files** from two independent
+exports, **25 original-master crops, 22 OCR bindings and 37 damaged-data
+rejections**. Native content retains **558 physical rows, 330 statement units,
+113 DATA values, two DATA digit joins, 39 variable definitions, 19 program ranges
+and 19 displayed mathematical contexts**. The damaged `:065` label remains
+uncertified. All **71 structures, 735 fields and 120 original paths** are reviewed;
+both flowcharts preserve **50 nodes and 54 printed routes**. Fifty-one explicit
+split tokens are selected, while 28 ordinary physical boundaries remain unjoined.
+Original gaps, the literal `6000` target and every source qualification remain
+preserved. M39 freezes **489 evidence files**. Shared implementation is unchanged.
+Accepted article source now covers **134–151**; **152–154 and complete article
+assembly are still required**. Whole-issue counters remain **20 complete articles,
+one partial article, 17 pending articles, three complete headings, three pending
+headings and 125 pending full-page dispositions** across **273 scans**. See
+[the accepted program segment](metadata/catalog/scan-restoration/1984-03-regression-program.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
