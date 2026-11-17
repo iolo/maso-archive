@@ -37,27 +37,63 @@ looked for the runtime pin under the page output instead of the declared shared
 runtime root; it stopped before output and is preserved. The corrected audit
 changes no recognition or source bytes.
 
-All **14 text owners on 228–229** now have source-compared readings, with eleven
-explicit qualifications. The large `아` drop cap has separate physical ownership;
-graph-label search order is distinguished from physical baselines. The original
-comparator prose and Figure 14(b) disagree about their inequalities: preserve
-both source claims. Mathematical typography, original unlabelled graph contexts
-and the received/observed title difference remain explicit. **33 readings on
-230–233 and all native structural encoding/comparison remain pending**, followed
-by two exports and independent native audit. OCR success is not native acceptance.
+All **47 text owners on 228–233** now have source-compared readings, with **32
+explicit qualifications**. A fresh aggregate retains all six original per-page
+records. The separate source audit checks all 58 selected and original OCR crops
+against the original page pixels, all 47 OCR bindings and twelve damaged source
+contracts. The large `아` drop cap has separate physical ownership; graph-label
+search order is distinguished from physical baselines. The photographed whiteboard
+retains five discontinuous phrases and a local unreadable context without claiming
+a complete handwriting transcription.
 
-The checkpoint remains **unfrozen**, with no active processes. Cleanup was
-preview-only; nothing was deleted. Frozen M60 and predecessors remain immutable;
+The original comparator prose and Figure 14 disagree about their inequalities:
+preserve both source claims. Page 232's displayed numerator begins with visible
+`b`, uses Latin `W`, and prints an inequality without denominator grouping.
+Neither OCR expectation nor a mathematical correction changes those readings.
+Original `sinuso-` / `dal wave`, units, frequency claims, repeated binary values,
+nine timing `S` occurrences and the unmarked lower-comparator input stub remain
+explicit. Search serialization does not certify original encoded glyph identity.
+
+Native **Figures 12, 13, 14 and 18** now retain **four structures, 85 fields and
+137 paths**. Personal comparison covers each selected original/overlay pair;
+independent source bindings and raster-ink proximity checks pass. Figure 18 owns
+all fifteen independent binary labels, fourteen branches and four selected-path
+boxes. Figures 12/13 retain their actual staircase/error traces and independent
+diagonal dashes, with unprinted labels left empty. Figure 14 retains three open
+terminals, its drawn step symbol and the literal contradictory inequalities.
+These are approximate native observations; original rasters own exact ink.
+
+The first actual-graph geometry remains preserved. Selected R02 enlarges its
+seven binary label contexts after the first `101` context crossed an ascender.
+All eight caption associations, nine internal prose continuations, the outgoing
+233/234 continuation and the mathematical source sequence are now explicitly
+bound in the native plan.
+
+**Figures 15, 16, 17 and 19 and complete prose/title/caption/baseline, inline and
+two-dimensional mathematical encoding remain pending.** Complete opening
+integration, two independent exports and a source/native audit must follow before
+native acceptance. No opening package or whole article is accepted at this stage.
+
+The checkpoint remains **unfrozen**, with no active processes. No recognition was
+repeated in this work. The earlier cleanup was preview-only; nothing was deleted.
+Frozen M60 and predecessors remain immutable;
 never execute or modify their helpers or evidence. Shared implementation retains
 the qualified M57 baseline with 303 tests; no fresh broad tests were needed.
 
 Whole March remains active with **29 complete articles, no partial articles,
 nine pending articles, five complete headings, one pending heading and 64
 pending full-page dispositions across 273 scans**. Continue M61 opening
-restoration by reusing all 47 successful OCR tasks, then the remaining 234–241
-segments and complete article audit.
+restoration by reusing all 47 successful OCR tasks, all compared readings and
+the four checked graphics, then the remaining 234–241 segments and complete
+article audit.
 Finish every other March article, heading and source disposition, followed by
 reproducible whole-issue export and completion audit.
+
+The nine remaining article candidates are **A/D, D/A의 이론과 실제**, **한글 워드
+프로세서 프로그램**, **터널 통과 게임**, **심층취재 : 살아서 움직이는 현장 세운상가**,
+**정보 레이다**, **디버깅 룸**, **Q&A**, **광고색인** and **공모결과 발표**. The remaining
+heading is **정보모음**. Historical PDF outputs establish neither JPEG restoration
+nor source disposition for these pending entries.
 
 See the [source work record](../metadata/catalog/scan-restoration/1984-03-ad-work.json)
 and [whole-issue progress](../metadata/catalog/scan-restoration/1984-03-progress.json).

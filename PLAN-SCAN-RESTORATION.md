@@ -755,11 +755,19 @@ Table 3 and Figure 28's 8080 flowchart/listing remain required. The opening R03
 map now retains **58 pixel-exact crops**, including 47 text owners and eleven
 raster contexts. All **47 initial OCR tasks completed once**, with no retries;
 independent audit verifies every original source/map/settings/runtime binding.
-Fourteen text owners on 228–229 have source-compared readings and eleven
-qualifications; **33 readings on 230–233 and all native structures remain
-pending**, before two exports and independent native acceptance. Preserve the
-separate drop cap, graph-field search order, unlabelled graphic contexts and
-original prose/diagram discrepancy. Reuse all successful OCR. M61 remains
+All **47 text owners on 228–233** now have source-compared readings and **32
+qualifications**, including the partly unreadable whiteboard inscription.
+The separate audit verifies all original bindings and rejects twelve damaged
+source contracts. Native Figures **12, 13, 14 and 18** now retain **85 fields
+and 137 paths**, with personal overlay comparison and original-ink proximity
+checks. The first actual-graph label contexts remain preserved; selected R02
+enlarges them to retain the complete ascenders. All eight captions, nine internal
+prose joins, outgoing 233/234 join and mathematical source order are explicit.
+**Figures 15, 16, 17 and 19, complete prose/typographic/mathematical encoding,
+opening integration, two exports and independent native acceptance remain
+pending.** Preserve the separate drop cap, field search order, unlabelled graphic
+contexts, printed `b`/Latin `W`, ungrouped inequality and original comparator
+prose/diagram discrepancy. Reuse all successful OCR and compared readings. M61 remains
 **unfrozen**, with no active jobs. Accepted totals remain **29 complete articles, nine pending
 articles, five complete headings, one pending heading and 64 pending source
 dispositions / 273 scans**. Whole March remains active through every remaining

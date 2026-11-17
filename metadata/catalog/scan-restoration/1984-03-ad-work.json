@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0033",
   "canonical_received_title": "A/D, D/A의 이론과 실제",
   "observed_source_title": "A/D,D/A의 이론과 실제",
-  "status": "opening-map-and-original-recognition-audited;partial-source-comparison",
+  "status": "all47-source-readings-audited;four-native-graphics-compared;opening-incomplete",
   "native_article_accepted": false,
   "whole_article_complete": false,
   "whole_issue_complete": false,
@@ -65,8 +65,8 @@
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/resume.json",
-    "sha256": "0d1be06dfaeabaaf26f676e6051662a393d4d5ec737086775606370737665b21",
-    "bytes": 4148
+    "sha256": "306dcbe382dc10a71c90bc1fa78aa00df85ddd7bb376c334c674866a5f6ef5f0",
+    "bytes": 6187
   },
   "implementation": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/implementation-before.json",
@@ -88,8 +88,8 @@
     "source_images": 273
   },
   "review_level": "assistant-personally-source-compared;not-human-acceptance",
-  "next": "Continue unfrozen M61 native opening 228–233 of A/D, D/A의 이론과 실제: reuse all 47 successful original OCR tasks; do not rerun them. Finish source comparison of remaining 33 text owners on 230–233, then encode and personally compare all native graph/circuit fields, paths, equations, captions and prose relationships. Fourteen text owners on 228–229 are already compared in pinned per-page records. Keep the separately owned 아 drop cap and graph-field search order distinct from physical baselines; retain all 11 recorded qualifications. Preserve printed folios and observed prose flow 228 → 231 → 230 → 232, and outgoing 233 같아질때까 / 234 지 계속 증가한다. with no separator. Produce two native opening exports and an independent source/native audit before acceptance. Then restore 234–241, assemble/audit complete 228–241 and finish every remaining March article, heading, all 273 source dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains the qualified M57 baseline, 303 tests.",
-  "updated_at": "2026-11-17T21:06:12.439832+00:00",
+  "next": "Continue unfrozen M61 opening 228–233 of A/D, D/A의 이론과 실제. Reuse all 47 original successful OCR tasks, all 47 audited source readings and checked native Figures 12, 13, 14 and 18 (85 fields / 137 paths). Finish Figures 15, 16, 17 and 19, complete prose/title/caption/baseline and mathematical encoding, and all source continuations. Preserve the separate 아 drop cap, visible b and Latin W, original ungrouped inequality, comparator disagreement, nine timing S labels, unmarked comparator stub and partially unreadable whiteboard. Keep printed folios and logical prose flow 228 → 231 → 230 → 232, with the empty outgoing 233 같아질때까 / 234 지 계속 증가한다. join. Build the opening twice and independently audit before native acceptance. Then restore 234–241, assemble/audit the complete 228–241 article, and finish every remaining March article, heading, all 273 scan dispositions and reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M60/predecessor helpers or evidence; shared implementation retains the qualified M57 baseline of 303 tests.",
+  "updated_at": "2026-11-17T21:29:51.754971+00:00",
   "mapped_regions": 58,
   "master_crops": 58,
   "original_raster_contexts": 11,
@@ -99,9 +99,9 @@
   "recognition_failed_tasks": 0,
   "recognition_unattempted_tasks": 0,
   "recognition_processing_seconds": 20.49683113800711,
-  "source_readings_compared": 14,
-  "source_readings_pending": 33,
-  "source_qualifications_recorded": 11,
+  "source_readings_compared": 47,
+  "source_readings_pending": 0,
+  "source_qualifications_recorded": 32,
   "native_geometry_complete": false,
   "selected_map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/map-r03.json",
@@ -138,6 +138,26 @@
       "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-p229-01.json",
       "sha256": "2eb349daa408185f4060d8333c7ded2a5dc34e517525cc0609e00e1df736b704",
       "bytes": 8629
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-p230-01.json",
+      "sha256": "a31df2fc5b9bdb4fece2de6c22aeeda270c66729fa7b3f2f818a619bf64dd2f3",
+      "bytes": 11278
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-p231-01.json",
+      "sha256": "5e9c590936fae1dd951c98e45e3a6499b56db1216b71d8040b786500b1f9beb6",
+      "bytes": 21771
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-p232-01.json",
+      "sha256": "dcce27ebf0710a22dcc7deb9d53f58777d2f754583528b925e5cbd43f29f3879",
+      "bytes": 25257
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-p233-01.json",
+      "sha256": "92b6f28ecbe5de62978ac0ec080328d9fd2594f9800cd45ae7eb46c618557b89",
+      "bytes": 21158
     }
   ],
   "cleanup_preview": {
@@ -149,5 +169,32 @@
   "deleted_files": false,
   "qualified_regression_tests": 303,
   "fresh_regression_tests": 0,
-  "shared_implementation_changed": false
+  "shared_implementation_changed": false,
+  "assembled_source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/source-compared-readings-01.json",
+    "sha256": "17c0db3d3c37950ed2df6418b0b1718d6f3ed6f280a702458f947963354f2e06",
+    "bytes": 111042
+  },
+  "source_readings_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/source-readings-validation-01.json",
+    "sha256": "f753992bc5731158d7d137f49e11c35d53df4b5c73cb0116ff65710732ebb464",
+    "bytes": 3067
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/ad-a/native-structure-plan-01.json",
+    "sha256": "b01f405cecaaa116633ad79a2383466add3a57457c741a0436bf1c55b8af0e80",
+    "bytes": 12658
+  },
+  "native_graphics_work_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-57/native-graphics-work-validation-01.json",
+    "sha256": "6632ea4dc9abee1dbbeae91aadbf82b13d01e5f57944d0afa878ac7f925e81b3",
+    "bytes": 31880
+  },
+  "numbered_graphics_compared": 4,
+  "numbered_graphics_pending": 4,
+  "native_structures_encoded": 4,
+  "native_fields_encoded": 85,
+  "native_paths_encoded": 137,
+  "native_recipe_created": false,
+  "native_package_selected": false
 }
