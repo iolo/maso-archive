@@ -5298,4 +5298,3 @@ All launched jobs are terminal. Cleanup was previewed without deletion.
 Whole March remains at **sixteen complete articles, one partial article,
 21 pending article candidates and 164 pending full-page dispositions**.
 See [the saved ending work state](metadata/catalog/scan-restoration/1984-03-systems-ending-work.json).
-
