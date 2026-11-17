@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M45",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0025",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "서북 편란법",
+  "observed_source_title": "서북 편란법",
+  "source_kind": "jpeg-set",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "actual_folios": [
+    165,
+    166,
+    167,
+    168,
+    169,
+    170
+  ],
+  "article_actual_folios": [
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173
+  ],
+  "selected_package": "archive/scans/1984-03/packages/northwest-a-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/northwest-a-jpeg-r01/manifest.json",
+    "sha256": "9365f9c6ca4b466c8e1046673d3105fbc74e2648035d5e0e3d25ba580e256c1f",
+    "bytes": 33512
+  },
+  "exact_files": 199,
+  "native_index_records": 2932,
+  "typed_references": 14694,
+  "byte_spans": 6519,
+  "source_asset_bindings": 2897,
+  "native_structure": {
+    "status": "pass-full-native-input-contract;independent-exports-and-source-audit-pending",
+    "blocks": 37,
+    "regions": 55,
+    "text_contexts": 45,
+    "figures": 10,
+    "joins": 6,
+    "sections": 11,
+    "paragraphs": 78,
+    "range_claims": 18,
+    "formula_occurrences": 16,
+    "ellipsis_groups": 4,
+    "caption_associations": 8,
+    "figure_text_associations": 9,
+    "figure_contexts": 19,
+    "native_records": 2932,
+    "typed_references": 14694,
+    "byte_spans": 6519,
+    "source_asset_bindings": 2897,
+    "physical_listing_rows": 69,
+    "logical_listing_units": 69,
+    "native_cells": 176,
+    "native_fields": 301,
+    "native_paths": 155,
+    "whole_article_complete": false,
+    "whole_issue_complete": false
+  },
+  "master_crops": 55,
+  "recognition_bindings": 45,
+  "rejected_damaged_cases": 39,
+  "source_qualifications": 43,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/validation-native-opening.json",
+    "sha256": "306519f9dc7893fa04a05e7efd7ad9897d0192fdf75698261e9ebbce63eccdc1",
+    "bytes": 3389
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/northwest-a/recipe-native-01.json",
+    "sha256": "fa5e1dbf3240ab5cffe779abc064db4b0c0da046fcbd20434a5db71cd2504882",
+    "bytes": 10880
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/source-ledger.json",
+    "sha256": "ad7b406c291a5465284317720776905cef85a2deefab6e33f64dda005d904ad0",
+    "bytes": 320974
+  },
+  "source_dispositions_pending": 106,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/whole-progress-m45.json",
+    "sha256": "0b365ececd6e9204cfbc32b10edba815cd7335f5d9f32acb34b31c455c32b6f6",
+    "bytes": 203452
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/evidence-manifest.json",
+    "sha256": "818e7d6f2120450317b8a1c59e59ac658c8b28911d42ee886bf9c97eb8dd6537",
+    "bytes": 115184
+  },
+  "frozen_evidence_files": 643,
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 297,
+  "next": "M46: restore final actual 171–173 of canonical 서북 편란법 from the donated JPEGs, preserving accepted M45 opening165–170 and verified complete extent165–173. Continue the photographed program at10690 through12550, including physical wraps,DATA,output subroutines,error handlers and the final RESUME11390. Then assemble and independently audit the complete article; continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M45 helpers/evidence."
+}

@@ -4862,7 +4862,7 @@
       "title": "서북 편란법",
       "parent_id": "maso-1984-03-toc-0022",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0025",
@@ -4934,7 +4934,68 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M45",
+        "article_id": "scan-maso-1984-03-toc-0025",
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "directory": "archive/scans/1984-03/packages/northwest-a-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/northwest-a-jpeg-r01/manifest.json",
+          "sha256": "9365f9c6ca4b466c8e1046673d3105fbc74e2648035d5e0e3d25ba580e256c1f",
+          "bytes": 33512
+        },
+        "article_actual_folios": [
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173
+        ],
+        "covered_actual_folios": [
+          165,
+          166,
+          167,
+          168,
+          169,
+          170
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
+          171,
+          172,
+          173
+        ],
+        "segments": [
+          {
+            "checkpoint": "M45",
+            "directory": "archive/scans/1984-03/packages/northwest-a-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/northwest-a-jpeg-r01/manifest.json",
+              "sha256": "9365f9c6ca4b466c8e1046673d3105fbc74e2648035d5e0e3d25ba580e256c1f",
+              "bytes": 33512
+            },
+            "actual_folios": [
+              165,
+              166,
+              167,
+              168,
+              169,
+              170
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-41/validation-native-opening.json",
+              "sha256": "306519f9dc7893fa04a05e7efd7ad9897d0192fdf75698261e9ebbce63eccdc1",
+              "bytes": 3389
+            }
+          }
+        ]
+      },
       "historical_printed_extent_candidate": [
         165,
         166,
@@ -4946,10 +5007,32 @@
         172,
         173
       ],
-      "current_work": {
-        "path": "metadata/catalog/scan-restoration/1984-03-northwest-work.json",
-        "sha256": "785d7cf600c9a77de8b3933cfd0676dbb66ce4cc795682c5940fa04d4e0a4334",
-        "bytes": 5887
+      "located_source_evidence": {
+        "actual_folio": 165,
+        "observed_title": "서북 편란법",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-41/review/full-165.jpg",
+          "sha256": "481d260cfe48141abaa86e47e4b35dd23f54d0006f5f7f59215bae20cbeffbb7",
+          "bytes": 1394103
+        },
+        "article_actual_folios": [
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173
+        ],
+        "extent_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-41/transition.json",
+          "sha256": "af2061181d5ee9267d238a66687071648c7aa5e34e02f6eee3643f3212346bfe",
+          "bytes": 1422
+        },
+        "restoration_pending": true,
+        "partial_native_selected": true
       }
     },
     {
@@ -5015,7 +5098,22 @@
         175,
         176,
         177
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 174,
+        "observed_title": "데이터베이스패키지",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-41/review/full-174.jpg",
+          "sha256": "f5f3487b366b09433945c12c43f3dd8eb9d29efd87fabd3c6faeaa3399e72832",
+          "bytes": 1294383
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-41/transition.json",
+          "sha256": "af2061181d5ee9267d238a66687071648c7aa5e34e02f6eee3643f3212346bfe",
+          "bytes": 1422
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0027",
@@ -6265,19 +6363,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-40/source-ledger.json",
-    "sha256": "ec344552f5807792c066f6f9c1fbacf2da0450f4a474a018478e5a8361ee3aaa",
-    "bytes": 308576
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/source-ledger.json",
+    "sha256": "ad7b406c291a5465284317720776905cef85a2deefab6e33f64dda005d904ad0",
+    "bytes": 320974
   },
-  "current_checkpoint": "M45-working",
-  "next": "Complete M45 source-bound narrative joins,paragraph/list/range/formula/figure/caption associations and native opening recipe. Build twice and independently audit165–170before accepting the segment. Restore final171–173 and assemble the complete165–173article. Then complete every remaining March article,heading and all273source dispositions,followed by reproducible whole-issue export/audit.",
-  "pending_article_candidates": 16,
+  "current_checkpoint": "M45-complete",
+  "next": "M46: restore final actual 171–173 of canonical 서북 편란법 from the donated JPEGs, preserving accepted M45 opening165–170 and verified complete extent165–173. Continue the photographed program at10690 through12550, including physical wraps,DATA,output subroutines,error handlers and the final RESUME11390. Then assemble and independently audit the complete article; continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M45 helpers/evidence.",
+  "pending_article_candidates": 15,
   "pending_heading_candidates": 3,
-  "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3,
-  "current_work": {
-    "path": "metadata/catalog/scan-restoration/1984-03-northwest-work.json",
-    "sha256": "785d7cf600c9a77de8b3933cfd0676dbb66ce4cc795682c5940fa04d4e0a4334",
-    "bytes": 5887
-  }
+  "partial_whole_scan_articles": 1,
+  "complete_whole_scan_headings": 3
 }

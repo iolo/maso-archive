@@ -1,4 +1,4 @@
-# March 1984 M45 working native opening
+# March 1984 M45 accepted native opening
 
 The scope remains the whole March issue: all 273 scans, every eligible article,
 all canonical headings and source dispositions, followed by checked native
@@ -40,18 +40,35 @@ geometry contract and its repair are retained: figure contexts keep ownership,
 while nested occurrences identify their separate source text regions. Shared
 implementation remains unchanged.
 
-Narrative joins, paragraph/list/range/formula/caption associations, the complete
-opening recipe and both independent exports/source audits are still required
-before acceptance. The contract scaffold checks geometry and listing bindings;
-it is not a selected article export. Final 171–173 and whole-article assembly
-follow as separate bounded work. All processing jobs are terminal.
+The final opening now integrates six source-compared narrative joins, 78
+normalized paragraph/list lines, nine original variable entries, eighteen
+independent range descriptions, sixteen assignment/cost expressions, four
+three-dot groups, eight captions and the prose closing star. The four split-word
+joins retain 전/부, 프로/그램, 공장/으로부터 and 공급/능력. The variable list and
+fifth algebra assignment retain line boundaries. The guide's 10–2350 numbers
+remain independent from the photographed program labels.
 
-Accepted totals remain 22 complete articles, no partial articles, 16 pending
-articles, three complete headings, three pending headings and 116 pending
-full-page dispositions. The accepted M44 source ledger remains selected;
-working extent review is recorded separately until the next accepted checkpoint.
+Two independent exports reproduce all 199 files. The separate source/native
+audit passes all 55 original-master crops, 45 initial recognition bindings,
+2,932 native records, 14,694 typed references and 6,519 byte spans. All 39 damaged
+variants are rejected, including invented branch labels, repaired C2, filled
+blank nodes, omitted listing rows and hidden remaining pages. All 43 source
+qualifications remain. Shared implementation matches its 53 pins, and the
+qualified 297-test baseline is retained without another regression run.
 
-See the [working record](../metadata/catalog/scan-restoration/1984-03-northwest-work.json)
+Final 171–173 and whole-article assembly follow as M46 and a subsequent assembly
+checkpoint. All processing jobs are terminal. M45 freezes 643 evidence files;
+never execute or modify its helpers or evidence. Cleanup was previewed only.
+
+Accepted totals are 22 complete articles, one partial article, 15 pending
+articles, three complete headings, three pending headings and 106 pending
+full-page dispositions across all 273 scans. The new source ledger accepts the
+six opening pages and records the three deferred program pages and separate
+174 opening as located material whose native restoration is pending. Location
+evidence does not accept their native content.
+
+See the [accepted result](../metadata/catalog/scan-restoration/1984-03-northwest-opening.json),
+[historical working record](../metadata/catalog/scan-restoration/1984-03-northwest-work.json)
 and [whole-issue queue](../metadata/catalog/scan-restoration/1984-03-progress.json).
-Working evidence is under `archive/scans/1984-03/restoration/whole-issue-41/`.
-This directory remains open for native work and is not frozen.
+Frozen evidence is under `archive/scans/1984-03/restoration/whole-issue-41/`.
+The selected package is `archive/scans/1984-03/packages/northwest-a-jpeg-r01/`.

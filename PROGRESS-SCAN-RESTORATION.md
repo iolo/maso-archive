@@ -123,24 +123,26 @@ all 556 original segment files. Both independent exports, 157 pixel-exact crops,
 126 OCR bindings, all 7,887 native records and 44 damaged-data checks pass.
 The 160/161 boundary needs no prose join; the promised output, original chart
 and source references remain in order. All 96 source qualifications remain.
-Current whole-March totals are **22 complete articles, no partial articles,
+M44 checkpoint totals were **22 complete articles, no partial articles,
 16 pending articles, three complete headings, three pending headings and
 116 pending full-page dispositions across 273 scans**. Continue **M45 with
 서북 편란법**, located opening 165, verifying candidate 165–173 and its neighbors
 before bounded native restoration. See
 [the complete Visicalc result](metadata/catalog/scan-restoration/1984-03-visicalc.json).
-**M45 is in progress:** 서북 편란법 has a verified 165–173 extent. All 45 text
-contexts on selected 165–170 now have enlarged donated-JPEG comparison; 55 crops
-and 45 initial OCR bindings pass the source audit, with no recognition retries.
-Its native tables/screens, flowchart and 69 listing rows are now encoded and
-source-compared: 176 cells, 301 fields, 155 paths and 603 lexical fields. The
-combined typed preflight passes 1,816 records and 10,241 references. Original
-drawing bytes remain unresolved. Narrative joins, list/range/formula/caption
-integration and independent exports/audit remain pending. This is working
-evidence, with no newly accepted article
-package or change to the whole-issue totals above. Continue the opening, final
-171–173 and full article assembly, then every remaining March task. See
-[the working record](metadata/catalog/scan-restoration/1984-03-northwest-work.json).
+**M45 accepts 서북 편란법's 165–170 opening in 199 exact native files.** Both
+independent exports, 55 original-master crops, 45 initial OCR bindings and
+39 damaged-data rejections pass. The opening retains 176 cells, 301 fields,
+155 paths, 69 physical program rows, 603 lexical fields and all six narrative
+joins. Eighteen independent program-range claims, sixteen source expressions,
+nine variable entries, eight captions and the prose closing star remain explicit.
+All 43 source qualifications and eleven opaque drawing runs are preserved;
+original bytes and execution remain uncertified. M45 freezes 643 evidence files.
+Current whole-March totals are **22 complete articles, one partial article,
+15 pending articles, three complete headings, three pending headings and
+106 pending full-page dispositions across 273 scans**. Located deferred pages
+have extent evidence only. Continue **M46 on final 171–173**, then full article
+assembly/audit and every remaining March task. See
+[the accepted opening](metadata/catalog/scan-restoration/1984-03-northwest-opening.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
