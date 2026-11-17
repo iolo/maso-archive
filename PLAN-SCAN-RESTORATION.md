@@ -413,6 +413,22 @@ then assemble and audit the complete 178–185 article. Continue UPDATE from
 located 186 and every remaining March task through whole-issue export/audit.
 See the [accepted opening](metadata/catalog/scan-restoration/1984-03-medical-opening.json)
 and [M49 handoff](docs/SCAN-RESTORATION-1984-03-M49.md).
+
+**M50 is in progress on final actual 184–185.** Both selected full pages and
+neighbors 183/186 are source-compared. The selected map retains **30 regions,
+nineteen text owners and eleven original figures**. All nineteen initial OCR
+tasks completed once, with no retries; all readings now have enlarged JPEG
+comparison and all thirty crops match the original pixels. Twenty-five source
+qualifications retain sparse menus, independent dash widths, irregular period
+groups, differing date templates and the JPEG caption **약품 재고 관리 철저**
+where the historical PDF guide says 처리. A 100-case mark projection agrees
+on 85 contexts; three personally compared contacts resolve fifteen fragmented
+or faint-ink discrepancies. Native geometry for **eight menus/forms and three
+diagrams**, three ordered hierarchies, physical fragments, caption associations,
+two final-segment exports and independent source/native audit remain required,
+followed by complete 178–185 assembly/audit. Accepted totals remain unchanged;
+whole March stays active. M50 is not frozen. See the
+[M50 working handoff](docs/SCAN-RESTORATION-1984-03-M50-WORK.md).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

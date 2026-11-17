@@ -2,13 +2,19 @@
 
 Updated 2026-11-17. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Current March checkpoint: **M49 complete**, medical-article opening 178–183 of
+Latest accepted March checkpoint: **M49 complete**, medical-article opening 178–183 of
 verified 178–185, with two matching 260-file native exports. Accepted totals are
 **24 complete articles, one partial article, thirteen pending articles, three
 complete headings, three pending headings and 94 pending full-page dispositions
 across all 273 scans**. Continue **M50**, final 184–185 and the complete medical
 article assembly/audit. March remains active. See the
 [M49 handoff](docs/SCAN-RESTORATION-1984-03-M49.md).
+
+**M50 is working on final 184–185.** All nineteen text owners now have enlarged
+source comparison; thirty exact crops and all nineteen initial recognition
+bindings pass. Native structures and independent final-segment exports/audit
+remain pending, followed by the complete 178–185 assembly/audit. See the
+[M50 working handoff](docs/SCAN-RESTORATION-1984-03-M50-WORK.md).
 
 ## Current status
 
@@ -6616,3 +6622,38 @@ then assemble and audit the complete medical article. Continue UPDATE from
 located 186 and every remaining March task through whole-issue export/audit.
 See the [M49 handoff](docs/SCAN-RESTORATION-1984-03-M49.md) and
 [accepted opening](metadata/catalog/scan-restoration/1984-03-medical-opening.json).
+
+## M50 working — medical article final pages, actual 184–185
+
+The complete final two pages and neighbors 183/186 have source comparison.
+The selected map retains **thirty regions, nineteen text owners and eleven
+original figures**. Both initial and refined overlays have personal comparison;
+ten edge-contact bounds were expanded and the final diagram caption was
+separated from its list and closing star before recognition.
+
+All nineteen initial Tesseract tasks completed once with **no retries**. All
+nineteen readings now have enlarged JPEG comparison, and all **thirty crops**
+match the original pixels. The source audit verifies every raw map/settings
+binding, 53 unchanged implementation pins and 1,422 frozen M49 evidence files.
+
+Twenty-five qualifications retain sparse menu entries, independent dash widths,
+irregular periods, the 19YY/1984 date difference and literal source spellings.
+The enlarged drug caption reads **약품 재고 관리 철저**, correcting the historical
+PDF guide's 처리. A 100-case mark projection agrees on 85 contexts; three
+personally compared source contacts resolve thirteen fragmented and two faint
+ink cases. Every original probe and adjudication remains preserved.
+
+Native geometry for **eight menus/forms and three diagrams** remains pending,
+along with three function/effect hierarchies, four physical wraps, caption
+associations, two final-segment exports and independent source/native audit.
+The lower feeding diagram and all nine report descriptions remain in scope
+after the prose closing star. Complete 178–185 assembly/audit follows native
+segment acceptance; every remaining March task and whole-issue export/audit
+remain required.
+
+Accepted totals remain **24 complete articles, one partial article, thirteen
+pending articles, three complete headings, three pending headings and 94 pending
+full-page dispositions across all 273 scans**. All known jobs are terminal.
+Cleanup was preview-only at 55.5 GiB with no deletion. M50 is not frozen;
+never execute the frozen M49 helpers. See the
+[M50 working handoff](docs/SCAN-RESTORATION-1984-03-M50-WORK.md).

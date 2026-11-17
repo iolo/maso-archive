@@ -5372,6 +5372,11 @@
         },
         "restoration_pending": true,
         "partial_native_selected": true
+      },
+      "current_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-medical-ending-work.json",
+        "sha256": "5c5cb13112321c1be9e50d4e380784204a118e2dfef1908ac1cf3c1e5ba2a48b",
+        "bytes": 6245
       }
     },
     {
@@ -6556,10 +6561,15 @@
     "sha256": "56d2703e480c636193b0f2293f36b832b0a508680c36c000896f09a4abadf5bd",
     "bytes": 344572
   },
-  "current_checkpoint": "M49-complete",
-  "next": "M50: restore final actual184–185 of canonical 의료보험수가 계산 프로그램 from the donated JPEGs, preserving accepted M49 native opening178–183 and verified full extent178–185. Retain all medical-record output forms, drug-inventory functions/effects and original diagram, feeding/meal-count functions/effects and the complete lower diagram/report labels. The source closing star precedes integral diagrams and does not truncate them. Then assemble and independently audit the complete178–185 article. Continue UP DATE 프로그램의 작성 from located186 and every remaining March article, heading and all273 source dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M49 helpers/evidence. Shared implementation remains the M47 implementation-after.json baseline.",
+  "current_checkpoint": "M50-working",
+  "next": "Continue M50 with native geometry for all eight menus/forms and three source diagrams on184–185. Reuse the19 source-compared readings and unchanged OCR. Encode independent printed leaders,dots,blank value contexts,dates,source header groups,document stacks,unlabelled rear contexts,shared buses,opposing arrows,unheaded lines and visible outline gaps. Preserve the JPEG caption③약품 재고 관리 철저,all three function/effect hierarchies,four physical wraps,shared caption associations for the outputA–Dforms,and the prose closing star above the integral lower feeding diagram. Compare native overlays,build the final segment twice and run its independent source/native audit. Then assemble/audit complete178–185from immutable M49/M50segments. Continue UPDATE from located186 and every remaining March article,heading and all273 source dispositions through reproducible whole-issue export/completion audit. Never execute frozen M49 helpers;shared implementation remains M47 implementation-after.json.",
   "pending_article_candidates": 13,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-medical-ending-work.json",
+    "sha256": "5c5cb13112321c1be9e50d4e380784204a118e2dfef1908ac1cf3c1e5ba2a48b",
+    "bytes": 6245
+  }
 }
