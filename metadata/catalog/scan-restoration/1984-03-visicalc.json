@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M44",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0024",
+  "canonical_received_title": "Visicalc의 활용",
+  "observed_source_title": "VISICALC 활용",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164
+  ],
+  "selected_package": "archive/scans/1984-03/packages/visicalc-jpeg-assembly-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/visicalc-jpeg-assembly-r01/manifest.json",
+    "sha256": "3c0b0ac2ce361fc9acba3f8218d11357f1838a6d9e7796b6f18eaf428d08b5b3",
+    "bytes": 102366
+  },
+  "exact_files": 564,
+  "retained_original_segment_files": 556,
+  "native_index_records": 7887,
+  "native_index_counts": {
+    "regional_text_ranges": 126,
+    "prose_joins": 11,
+    "source_literal_index": 1326,
+    "source_uncertainties": 96,
+    "inline_source_fields": 1945,
+    "source_section_index": 26,
+    "source_regional_line_index": 815,
+    "source_paragraph_index": 244,
+    "source_table_cell_index": 749,
+    "source_table_row_index": 243,
+    "source_figure_structure_index": 55,
+    "source_figure_field_index": 1543,
+    "source_figure_connector_index": 291,
+    "source_caption_association_index": 25,
+    "source_illustration_text_association_index": 58,
+    "source_prose_claim_index": 244,
+    "source_figure_context_index": 90
+  },
+  "master_crops": 157,
+  "recognition_bindings": 126,
+  "raw_zip_members": 548,
+  "original_segment_raw_zip_members": 537,
+  "typed_references": 38518,
+  "byte_spans": 14096,
+  "source_asset_bindings": 7660,
+  "source_qualifications": 96,
+  "cross_segment_prose_joins": 0,
+  "reviewed_cross_segment_figure_relationships": 5,
+  "rejected_damaged_cases": 44,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-40/validation.json",
+    "sha256": "54a5480a75e1116d5d512a181b8a1bc581d86e7aa0afd7d5e668506d583120b7",
+    "bytes": 5161
+  },
+  "source_boundary_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-40/join-review.json",
+    "sha256": "50230eff666b36b8e2a19bec9737a487182174be9ea2664271a8bccf63080f3c",
+    "bytes": 3415
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-40/assembly-recipe-r01.json",
+    "sha256": "8658c0fcbb268f950746363fb378e18780fd8845a6062ae22644aa5d11045bf7",
+    "bytes": 8585
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-40/source-ledger.json",
+    "sha256": "ec344552f5807792c066f6f9c1fbacf2da0450f4a474a018478e5a8361ee3aaa",
+    "bytes": 308576
+  },
+  "source_dispositions_pending": 116,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-40/whole-progress-m44.json",
+    "sha256": "2be8d450dcda4f76aa06bf30f780e988448f3989acb82fa97f53180d71564369",
+    "bytes": 200009
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-40/evidence-manifest.json",
+    "sha256": "6c141b0124dae2f4547a380069376ccedfff2f45b634e727a29e22469a9d1efb",
+    "bytes": 5708
+  },
+  "frozen_evidence_files": 35,
+  "shared_implementation_changed": false,
+  "reused_fresh_regression_tests": 297,
+  "next": "M45: restore canonical 서북 편란법 (toc0025), located original opening165. Verify candidate extent165–173 and neighboring174 before bounded mapping; complete source-backed native segments and whole-article assembly. Then restore every remaining March article, heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M44 helpers/evidence."
+}

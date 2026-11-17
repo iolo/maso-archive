@@ -55,9 +55,9 @@
   "source_dispositions_pending": 120,
   "active_process_handles": [],
   "active_processes": [],
-  "whole_article_complete": false,
+  "whole_article_complete": true,
   "whole_issue_complete": false,
-  "next": "M43: restore actual 161–164 of Visicalc의 활용 from the donated JPEGs, including the integral sideways command graph on164 and the output promised on160. Preserve accepted M42 opening155–160 and verified complete extent155–164. Then assemble/audit the complete article and continue every remaining March article, heading and all273source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M42 helpers/evidence.",
+  "next": "M45: restore canonical 서북 편란법 (toc0025), located original opening165. Verify candidate extent165–173 and neighboring174 before bounded mapping; complete source-backed native segments and whole-article assembly. Then restore every remaining March article, heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M44 helpers/evidence.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-38/visicalc-a/map-r02.json",
     "sha256": "bda064677e95a7c4f80b0e020b767be868ecbb9af5268d397bcf7ab158c77b48",
@@ -130,5 +130,11 @@
     "path": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01/manifest.json",
     "sha256": "ab85f6c8a53678deabfb77a010ab5fb1251d1affdfebc0abe800249c38fdf736",
     "bytes": 49320
-  }
+  },
+  "accepted_whole_article": {
+    "path": "metadata/catalog/scan-restoration/1984-03-visicalc.json",
+    "sha256": "32d82239d5e8bf0ab9342f5a050f402dd73affa07489e44fa2290f6b1158801e",
+    "bytes": 3726
+  },
+  "whole_article_assembly_pending": false
 }

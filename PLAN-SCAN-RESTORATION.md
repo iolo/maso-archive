@@ -316,6 +316,21 @@ Whole March remains active with **21 complete articles, one partial article,
 cover 155–164; continue **M44 whole-article assembly and independent audit**, then
 every remaining March task and reproducible issue export/audit. See
 [the accepted ending](metadata/catalog/scan-restoration/1984-03-visicalc-ending.json).
+**M44 completes the full Visicalc article on 155–164 in 564 exact files**, retaining
+all **556 original segment files**. Full-page and enlarged boundary comparison
+preserves the promised Figure 15 output, references back to Figures 12/14 and
+the integral command chart, with no invented cross-segment prose join. Both
+exports and the independent audit pass: **157 original-master crops, 126 OCR
+bindings, 7,887 native records, 38,518 typed references, 14,096 source/active byte
+spans and 44 damaged-data rejections**. All **96 source qualifications** remain
+explicit. Shared implementation and its qualified 297-test baseline are unchanged;
+M44 freezes **35 evidence files**. Whole March remains active with **22 complete
+articles, no partial articles, 16 pending articles, three complete headings,
+three pending headings and 116 pending full-page dispositions across 273 scans**.
+Continue **M45 with 서북 편란법**, located opening 165, verifying candidate
+165–173 and its neighbors before bounded native restoration. Then complete every
+remaining March task and reproducible issue export/audit. See
+[the complete Visicalc result](metadata/catalog/scan-restoration/1984-03-visicalc.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

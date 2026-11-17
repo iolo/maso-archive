@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 21,
+  "complete_whole_scan_articles": 22,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -4506,8 +4506,8 @@
       "title": "Visicalc의 활용",
       "parent_id": "maso-1984-03-toc-0022",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0024",
         "title": "Visicalc의 활용",
@@ -4695,15 +4695,15 @@
         }
       },
       "new_selected_restoration": {
-        "checkpoint": "M42",
+        "checkpoint": "M44",
         "article_id": "scan-maso-1984-03-toc-0024",
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
-        "directory": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01",
+        "directory": "archive/scans/1984-03/packages/visicalc-jpeg-assembly-r01",
         "manifest": {
-          "path": "archive/scans/1984-03/packages/visicalc-a-jpeg-r01/manifest.json",
-          "sha256": "ab85f6c8a53678deabfb77a010ab5fb1251d1affdfebc0abe800249c38fdf736",
-          "bytes": 49320
+          "path": "archive/scans/1984-03/packages/visicalc-jpeg-assembly-r01/manifest.json",
+          "sha256": "3c0b0ac2ce361fc9acba3f8218d11357f1838a6d9e7796b6f18eaf428d08b5b3",
+          "bytes": 102366
         },
         "article_actual_folios": [
           155,
@@ -4730,7 +4730,7 @@
           164
         ],
         "source_extent_covered": true,
-        "assembly_pending": true,
+        "assembly_pending": false,
         "continuation_pending": [],
         "segments": [
           {
@@ -4776,7 +4776,37 @@
             }
           }
         ],
-        "latest_source_checkpoint": "M43"
+        "latest_source_checkpoint": "M43",
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-40/validation.json",
+          "sha256": "54a5480a75e1116d5d512a181b8a1bc581d86e7aa0afd7d5e668506d583120b7",
+          "bytes": 5161
+        },
+        "actual_folios": [
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164
+        ],
+        "included_actual_folios": [
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164
+        ],
+        "source_extent_verified": true
       },
       "historical_printed_extent_candidate": [
         155,
@@ -4798,8 +4828,8 @@
           "sha256": "27f9f700eca7474b298fa9bfc0c5134e4ade5d1eebadbaed5505e463782d8974",
           "bytes": 1522859
         },
-        "restoration_pending": true,
-        "partial_native_selected": true,
+        "restoration_pending": false,
+        "partial_native_selected": false,
         "article_actual_folios": [
           155,
           156,
@@ -4818,7 +4848,13 @@
           "bytes": 1613
         },
         "source_extent_covered": true,
-        "assembly_pending": true
+        "assembly_pending": false,
+        "complete_native_selected": true,
+        "assembly_validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-40/validation.json",
+          "sha256": "54a5480a75e1116d5d512a181b8a1bc581d86e7aa0afd7d5e668506d583120b7",
+          "bytes": 5161
+        }
       }
     },
     {
@@ -6224,14 +6260,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/source-ledger.json",
-    "sha256": "ee0b6fc793fd43490d0d436993b3b0d18106095b715fb8c2ddb40cfe03e392ae",
-    "bytes": 309798
+    "path": "archive/scans/1984-03/restoration/whole-issue-40/source-ledger.json",
+    "sha256": "ec344552f5807792c066f6f9c1fbacf2da0450f4a474a018478e5a8361ee3aaa",
+    "bytes": 308576
   },
-  "current_checkpoint": "M43-complete",
-  "next": "M44: assemble and independently audit complete Visicalc의 활용 on actual155–164 from accepted immutable M42 opening and M43 ending. Review source160/161and the integral chart164/following165boundary, preserve all original records, 62chart menu/route associations, independent displayed states, blanks and local qualifications. Then restore every remaining March article, heading and all273source dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M43 helpers/evidence.",
+  "current_checkpoint": "M44-complete",
+  "next": "M45: restore canonical 서북 편란법 (toc0025), located original opening165. Verify candidate extent165–173 and neighboring174 before bounded mapping; complete source-backed native segments and whole-article assembly. Then restore every remaining March article, heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M44 helpers/evidence.",
   "pending_article_candidates": 16,
   "pending_heading_candidates": 3,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 3
 }

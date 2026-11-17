@@ -105,7 +105,7 @@ Visicalc의 활용**, opening on 155, and every remaining March task. See
 **M42 accepts the Visicalc opening on 155–160 in 291 exact files.** All 65 text
 readings, 23 original figures, 617 worksheet-cell observations and 76 source
 paths are preserved. Both exports, 88 pixel-exact master crops and 33 damaged-data
-checks pass. Current totals are **21 complete articles, one partial article,
+checks pass. At M43, totals were **21 complete articles, one partial article,
 16 pending articles, three complete headings, three pending headings and
 116 pending full-page dispositions** across **273 scans**. Continue **M44
 whole-article Visicalc assembly and independent audit**, then all remaining March
@@ -118,6 +118,17 @@ crops, 61 OCR bindings and 34 damaged-data checks pass. Native structures retain
 associations. The full 155–164 article still requires assembly and independent
 validation. See the
 [accepted ending](metadata/catalog/scan-restoration/1984-03-visicalc-ending.json).
+**M44 completes the whole Visicalc article on 155–164 in 564 exact files**, retaining
+all 556 original segment files. Both independent exports, 157 pixel-exact crops,
+126 OCR bindings, all 7,887 native records and 44 damaged-data checks pass.
+The 160/161 boundary needs no prose join; the promised output, original chart
+and source references remain in order. All 96 source qualifications remain.
+Current whole-March totals are **22 complete articles, no partial articles,
+16 pending articles, three complete headings, three pending headings and
+116 pending full-page dispositions across 273 scans**. Continue **M45 with
+서북 편란법**, located opening 165, verifying candidate 165–173 and its neighbors
+before bounded native restoration. See
+[the complete Visicalc result](metadata/catalog/scan-restoration/1984-03-visicalc.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -6384,3 +6395,51 @@ articles, one partial article, 16 pending articles, three complete headings,
 three pending headings and 116 pending full-page dispositions across 273 scans**.
 Continue M44 assembly and independent audit, then every remaining March identity,
 source disposition and reproducible whole-issue export/audit.
+
+
+## M44 complete — whole Visicalc article, actual 155–164
+
+[The accepted complete article](metadata/catalog/scan-restoration/1984-03-visicalc.json)
+assembles both immutable M42/M43 segments in **564 exact native files**, retaining
+all **556 original segment files**, ten source pages, 115 blocks and 31 figures.
+All 157 regions retain one content owner. No new recognition was needed.
+
+Full original 160/161 and three enlarged boundary crops confirm that the complete
+final sentence on 160 promises the Figure 15 output at the start of 161. Its
+independent text, caption and following new bullet stay in order; no sentence or
+paragraph join is invented. Five reviewed cross-segment relationships record that
+output and each printed reference back to prompt 12 and screen 14. Full upright
+164 remains the integral command chart introduced by the closing prose on 163.
+Original 165 starts the separate 서북 편란법 article, byline 양우철, with its
+transportation-cost matrix; native restoration of that article remains pending.
+
+Both independent exports reproduce all 564 files. The source/native audit checks
+**157 pixel-exact original-master crops, 126 OCR bindings across twelve disjoint
+bundles, 7,887 original native records, 38,518 typed references, 14,096 source and
+active byte spans and 7,660 asset bindings**. The whole raw ZIP preserves all
+537 original segment members plus eleven native mapping/provenance files in
+548 unique entries. All **44 damaged cases** reject, including filled blanks,
+repaired source totals/spellings, shifted ink paths, rebound menu choices,
+duplicated wrapped keys, altered ranges and omitted source indexes. All **96
+original source qualifications** remain explicit in their immutable scopes.
+
+The initial audit expected only the original raw ZIP members; the failed log is
+retained. The corrected audit independently checks the complete 548-member set
+and every member's bytes. No source, native input or export changed. The first
+close helper invocation had an extra parenthesis and failed before execution;
+its log is retained and the corrected helper completed successfully.
+
+All 37 selected predecessor packages / 6,363 manifest files, the 1,109 frozen
+M42 files, 1,043 frozen M43 files and 53 implementation pins remain exact.
+Shared implementation is unchanged and its qualified 297-test baseline remains
+valid. The accepted segment rebuilds remain byte exact. Cleanup was previewed
+at **53.6 GiB**, with no deletion. M44 freezes **35 evidence files**; never execute
+or modify its helpers or evidence. All launched processing handles are terminal.
+
+Whole March remains active with **22 complete articles, no partial articles,
+16 pending articles, three complete headings, three pending headings and
+116 pending full-page dispositions across all 273 scans**. Continue **M45 with
+서북 편란법**, located opening 165. Verify candidate extent 165–173 and neighboring
+174 before bounded mapping, then complete native segments and article assembly.
+Every remaining March article, heading, source disposition and reproducible
+whole-issue export/completion audit remains required.
