@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M54",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0030",
+  "canonical_received_title": "기계어 테크닉",
+  "observed_source_title": "기계어 테크닉",
+  "observed_serial": "연재2회",
+  "status": "source-text-work-audited;native-restoration-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    206,
+    207,
+    208,
+    209
+  ],
+  "outside_lookup_folios": [
+    205,
+    210
+  ],
+  "mapped_regions": 41,
+  "source_compared_text_regions": 38,
+  "initial_recognition_tasks": 38,
+  "recognition_retries": 0,
+  "original_figure_regions": 3,
+  "original_diagrams": 2,
+  "original_title_artworks": 1,
+  "independent_code_contexts": 5,
+  "source_qualifications": 40,
+  "unresolved_local_glyph_cases": 3,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_article_package_selected": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "complete_whole_scan_articles": 26,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 12,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "source_images": 273,
+  "source_dispositions_pending": 86,
+  "source_accounting_note": "Accepted totals and M53 source ledger stay unchanged until native acceptance. All 273 scans remain in whole-issue scope.",
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/scope.json",
+    "sha256": "b700e878964f82938bb8e4dfc6d325fca73cd2054de8c0b8fbb1518772adba9c",
+    "bytes": 2275
+  },
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/machine/map-r03.json",
+    "sha256": "4c83f46d3e9631a79a451c4b76e679654b0f4f9a1a8dbc61527e0a116e3c8a02",
+    "bytes": 24019
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/full-page-review.json",
+    "sha256": "dbbfee23e37af2683620662dfa2ec15c7e3690142b62163f06c34f0268c48d6c",
+    "bytes": 5835
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/transition.json",
+    "sha256": "96cc8f86bb27ea6836b73fe6e2dcd91fe331709ef0f21fc35b01e2997c311f5f",
+    "bytes": 1588
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/overlay-review.json",
+    "sha256": "fdfbad8c258070255a136715420f820ddb3341cb7403826920a0238cf70a56b1",
+    "bytes": 6923
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/recognition-outcomes.json",
+    "sha256": "dfdc4b96958fe1d4891e6b8fc4700df833429e968f7ab895f07e1dc8f7a05a6f",
+    "bytes": 1972
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/machine/source-compared-readings-01.json",
+    "sha256": "bbefa8a5e7fc64b5a0472971267bd13efff8f97eaad847c82927687ceb41b516",
+    "bytes": 99461
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/machine/native-structure-plan-01.json",
+    "sha256": "9b3442cb980aa0761346ec3f0dd973c8d650d93dc8b676e470d4844b7e4e3327",
+    "bytes": 6768
+  },
+  "source_text_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/source-text-work-audit.json",
+    "sha256": "85f1a2c48be84153a8359927b5f7dbd2aee3f5ca803c10dc91d938434bcd72b8",
+    "bytes": 40984
+  },
+  "implementation_baseline": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-43/implementation-after.json",
+    "sha256": "11538b4ee4119a79cf624372736980883feaa90cff49bc1035ee7abc4258bfcc",
+    "bytes": 9298
+  },
+  "unchanged_implementation_pins": 53,
+  "unchanged_frozen_M53_files": 41,
+  "test_baseline": "Qualified M47 300-test result;implementation pins unchanged;not freshly rerun.",
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/process-outcomes-source-work.json",
+    "sha256": "a634017364d85fea4ac27a557373af80b9c587d136c6ddcbf98ed958c8a83903",
+    "bytes": 3031
+  },
+  "active_process_handles": [],
+  "active_processes": [],
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/cleanup-preview-source-work.log",
+    "sha256": "6a0f0946b54f1ffbfbab2b17b849e3f49bef2d1842e7dc04d2984a03bf8e77e6",
+    "bytes": 233
+  },
+  "deletion": false,
+  "frozen": false,
+  "next": "Encode and compare all five independent code contexts and both native diagrams, retain complete title artwork, prose, captions and bibliography, then integrate 206–209, build twice and independently audit before accepting M54. Continue all remaining March articles, information-group classification and all 273 scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M53 helpers; shared implementation remains the qualified M47 implementation-after.json.",
+  "review_level": "assistant-source-comparison;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false
+}

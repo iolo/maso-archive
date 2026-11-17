@@ -6,10 +6,30 @@ Latest accepted March checkpoint: **M53 complete**, two non-owning group
 headings on original 205, with two matching seven-file classification exports.
 Accepted totals are **26 complete articles, no partial articles, twelve pending
 articles, five complete headings, one pending heading and 86 pending full-page
-dispositions across all 273 scans**. Continue **M54**, verifying/restoring the
-complete 기계어 테크닉 article, candidate 206–209, against original 205/210
-boundaries. March remains active.
+dispositions across all 273 scans**. **M54 source work now passes** for complete
+기계어 테크닉, verified 206–209 with original 205/210 boundaries. All 38 readings
+have enlarged JPEG comparison, all 41 crops and 38 OCR bindings pass the source
+audit, and initial recognition completed once with no retries. Forty source
+qualifications retain three unresolved local glyph cases. Five independent code
+contexts and two diagrams still require native encoding, comparison, complete
+article exports and independent audit. Accepted totals and the M53 source ledger
+remain unchanged. March remains active through every remaining article and the
+whole-issue export/completion audit. See the
+[M54 working handoff](docs/SCAN-RESTORATION-1984-03-M54-WORK.md).
 See the [M53 handoff](docs/SCAN-RESTORATION-1984-03-M53.md).
+
+**M54 is working; source comparison alone does not accept the article.** All
+four selected and two neighboring full pages, nine map overlays plus three
+byte-identical selected reuses, eighteen long plates, three short-context
+contacts and both references have comparison. The blank ORG operand, empty SP,
+literal flowchart circle 1, trailing CALL 0012H comma, C7 CF CF C4 data, row 05 JR,
+row 13 ORA and qualified row 14 CB/C8 remain source-bound. The separate closing
+star and complete title artwork are retained. All 53 shared implementation pins
+and 41 frozen M53 evidence files remain exact; the unchanged qualified M47
+300-test baseline applies. A repaired audit-helper runtime path and its failed
+first log remain preserved; no OCR was repeated. All known jobs are terminal,
+cleanup was preview-only with no deletion, and M54 remains unfrozen. Continue
+native geometry and the complete 206–209 article, then all remaining March work.
 
 **M53 accepts 테크니컬 and 공모입선작 from the shared 205 navigation area.**
 Their separate four/two canonical child sets and all six source references remain

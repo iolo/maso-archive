@@ -5681,6 +5681,11 @@
         },
         "restoration_pending": true,
         "source_extent_verified": false
+      },
+      "in_progress_source_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-machine-work.json",
+        "sha256": "6d83c8608400c8981fa6bbf0b158806383d9da5f334e12924e615ee8c9275052",
+        "bytes": 4966
       }
     },
     {
@@ -6784,8 +6789,8 @@
     "sha256": "77fae2a857415591aa9327a1ef84006e6d3415cf8f368824e58572976c2fc21d",
     "bytes": 361631
   },
-  "current_checkpoint": "M53-complete",
-  "next": "M54: verify the complete 기계어 테크닉 extent, candidate actual 206–209, against original JPEGs and neighboring 205/210 before bounded native restoration. Preserve source code, byte examples, tables, figures and printed errors without execution or byte reconstruction by expectation. Then continue the remaining technical articles, contest articles, Seun feature, information bodies, final information-group classification and all 273 scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M53 helpers; shared implementation remains M47 implementation-after.json.",
+  "current_checkpoint": "M54-working-source-text-audited",
+  "next": "Encode and compare all five independent code contexts and both native diagrams, retain complete title artwork, prose, captions and bibliography, then integrate 206–209, build twice and independently audit before accepting M54. Continue all remaining March articles, information-group classification and all 273 scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M53 helpers; shared implementation remains the qualified M47 implementation-after.json.",
   "pending_article_candidates": 12,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
