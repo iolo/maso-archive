@@ -1,4 +1,10 @@
-# March M62 continuation source work
+# March M62 preparation log
+
+This historical log records the source and figure work before integration and
+acceptance. Its remaining text/export checks have since passed in **M62**.
+Use the [accepted M62 handoff](SCAN-RESTORATION-1984-03-M62.md) for current state
+and the next task, final 240–241. The preparation state below is preserved as
+history; it is not a current pending-work list.
 
 The task remains restoration of **the whole March 1984 issue**, including every
 eligible article and native structure, all **273 scans** accounted for, and

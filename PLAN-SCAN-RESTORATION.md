@@ -806,32 +806,27 @@ and captions. Then restore 240–241, assemble/audit the full article and finish
 every remaining March task through reproducible whole-issue export/completion
 audit. See the [M61 native handoff](docs/SCAN-RESTORATION-1984-03-M61.md).
 
-**M62 source work is in progress on original 234–239.** All six revised maps
-have personal comparison; **77 original pixel crops and all 64 first-attempt
-OCR bindings** pass independent checks, with no retries. All **64 text owners
-on 234–239** now have enlarged source comparison, **36 qualifications** and
-sixteen rejected source-contract damage cases. Selected native Table 3 retains
-**24 cells and nine original rule segments**, with personal source/overlay and
-independent source-value/ink checks. Fifteen selected native work contexts now
-cover Table 3, both displayed equations and all eleven Figures 20–30, including
-Figure 28's flowchart and single 21-row program: **526 fields, 44 empty contexts
-and 724 paths**, with 47 native qualifications and 32 rejected damaged cases.
-Personal overlay and independent source/ink checks pass. Preserve the independent
-pulse boundaries, all twelve ADC/eight bus lines, unprinted intermediate bit and
-device labels, `R_M`, different continuation-dot groups and terminal fills,
-the separate dashed load context and the opposing upper/lower amplifier
-polarities. **Prose, physical baselines, inline structures, captions/references,
-joins, integration, exports and acceptance remain pending.**
-Preserve the printed formula dot, integral/overbar/exponent layout, repeated
-graphic fields, two unresolved ring-shaped superscripts, `HiGH`/`HIGH`, operand
-spacing, source polarities and explicit continuations. No continuation
-package or article completion is accepted. All 901 frozen M61 files and 53
-implementation pins remain exact; the 303-test baseline applies. Whole March
-remains active with **29 complete articles, one partial, eight pending and 50
-pending source dispositions / 273 scans**. Continue M62, final 240–241, complete
-article assembly and every remaining March task through reproducible issue
-export/completion audit. See the
-[M62 work handoff](docs/SCAN-RESTORATION-1984-03-M62-WORK.md).
+**M62 accepts the native continuation on original 234–239** in **278 exact files**,
+with two fresh matching exports. All **77 source crops, 64 original OCR bindings
+and 27 damaged integration cases** pass independent checks. Fifteen native
+structures retain **526 fields, 44 empty contexts and 724 paths**, covering all
+eleven Figures 20–30, Table 3, both displayed equations, the flowchart and one
+21-row 8080 program. Text indexes preserve 484 comparison/search lines, 33 prose
+paragraphs, seven section contexts, twelve captions, nine internal prose joins
+and the pinned empty 233/234 join. All 85 qualifications and two unresolved
+ring-shaped superscripts remain explicit. Keep original formula typography,
+polarity disagreements, unprinted labels, different terminal fills, `R_M`, the
+separate dashed load context and program case/spacing/clock anomalies.
+M62 freezes **1,188 evidence files**; never execute or modify its helpers/evidence.
+All 901 frozen M61 files and 53 implementation pins remain exact; the unchanged
+303-test baseline applies. Whole March remains active with **29 complete
+articles, one partial, eight pending and 50 pending source dispositions / 273
+scans**. Continue **M63 on final 240–241**, including Figures 31–35 and the closing
+star, then complete-article assembly/audit and every remaining March task through
+reproducible whole-issue export/completion audit. Page 239 ends a complete sentence;
+do not invent a split-word join to 240. Resolve its deferred Figure 31 reference
+against the final segment. See the [M62 handoff](docs/SCAN-RESTORATION-1984-03-M62.md)
+and [accepted continuation](metadata/catalog/scan-restoration/1984-03-ad-continuation.json).
 
 ## Aim
 

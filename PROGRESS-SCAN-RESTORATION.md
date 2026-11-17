@@ -6908,7 +6908,7 @@ heading and source disposition through reproducible whole-issue export and
 completion audit. See the [M61 handoff](docs/SCAN-RESTORATION-1984-03-M61.md) and
 [accepted opening](metadata/catalog/scan-restoration/1984-03-ad-opening.json).
 
-## M62 work — March A/D, D/A continuation, actual 234–239
+## M62 preparation — historical work before acceptance below
 
 Whole March restoration continues. All six initial and revised page maps have
 personal comparison. The independent audit verifies **77 original pixel crops
@@ -6957,3 +6957,35 @@ dispositions across 273 scans**. Continue M62, final 240–241, complete article
 assembly and every remaining March task through whole-issue export and completion
 audit. See the [M62 work handoff](docs/SCAN-RESTORATION-1984-03-M62-WORK.md) and
 [source-work record](metadata/catalog/scan-restoration/1984-03-ad-continuation-work.json).
+
+## M62 complete — March A/D, D/A continuation, actual 234–239
+
+The native continuation now reproduces **278 exact files** in two independent
+fresh exports. All **77 exported source crops**, **64 original OCR bindings**,
+source/byte ownership and **27 damaged integration cases** pass the independent
+audit. Earlier geometry checks reject 32 damaged cases. No native-stage OCR or
+reader build was run.
+
+Fifteen native structures preserve **526 fields, 44 empty contexts and 724 paths**:
+all eleven Figures 20–30, Table 3's 24 cells, both equations, the ten-node
+flowchart and one 21-row 8080 program. Text structure retains **484 comparison
+lines, 33 prose paragraphs, seven section contexts, twelve captions and 24
+illustration/text associations**. All nine prose joins, the pinned empty 233/234
+join, source-specific typography and 85 qualifications remain explicit. Two
+table superscripts remain numerically unresolved. Page 239 ends a complete
+sentence and references Figure 31 on deferred 240; no split-word join is asserted.
+
+M62 freezes **1,188 evidence files**, plus its manifest. Never execute or modify
+its helpers/evidence. All 901 M61 files and 53 shared implementation pins remain
+exact; the unchanged qualified 303-test baseline applies. Cleanup was preview-only
+at 59.1 GiB, with nothing deleted.
+
+Whole March remains active: **29 complete articles, one partial, eight pending
+articles, five complete headings, one pending heading and 50 pending full-page
+dispositions across 273 scans**. These pages had already been classified, so
+native acceptance leaves the disposition count unchanged. Continue **M63 on
+240–241**, preserving Figures 31–35 and the concluding star, then independently
+assemble/rebuild/audit the full 228–241 article. Complete every remaining March
+article, heading, source disposition and whole-issue export/completion audit.
+See the [M62 handoff](docs/SCAN-RESTORATION-1984-03-M62.md) and
+[accepted continuation](metadata/catalog/scan-restoration/1984-03-ad-continuation.json).

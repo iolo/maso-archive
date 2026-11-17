@@ -3,7 +3,7 @@
   "issue_id": "1984-03",
   "checkpoint": "M62-work",
   "updated_at": "2026-11-17T23:32:36.015063+00:00",
-  "status": "all-source-readings-and-numbered-figure-work-compared;text-encoding-and-integration-pending",
+  "status": "accepted-native-continuation-segment;final-segment-and-whole-article-pending",
   "scope": "Whole March issue; this checkpoint is only the bounded A/D, D/A continuation source-work stage.",
   "toc_entry_id": "maso-1984-03-toc-0033",
   "canonical_received_title": "A/D, D/A의 이론과 실제",
@@ -70,12 +70,12 @@
   "source_readings_compared": 64,
   "source_readings_pending": 0,
   "source_qualifications_recorded": 36,
-  "native_geometry_complete": false,
-  "native_continuation_accepted": false,
+  "native_geometry_complete": true,
+  "native_continuation_accepted": true,
   "native_article_accepted": false,
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "evidence_frozen": false,
+  "evidence_frozen": true,
   "review_level": "Assistant sample review; not human acceptance.",
   "accepted_counts": {
     "complete_articles": 29,
@@ -173,13 +173,13 @@
   ],
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-58/resume.json",
-    "sha256": "d0f3c8f8917d831f7637b9db658519ac7f0031df9b55e9044cc8a706f5bbb32e",
-    "bytes": 5774
+    "sha256": "b0a02d3d759ad0b3b37aca37aa9cf2316d423b4dd79afbcf0c2fe88428044fad",
+    "bytes": 2726
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-58/process-outcomes-work-05.json",
-    "sha256": "4393ad78786112d53c5566f3adeaff5b0dd4c58895bbe2f05113f236df8da056",
-    "bytes": 2215
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/process-outcomes-final.json",
+    "sha256": "9757d3a5ec1838b755168a98fa0138bf9273af4243df3a718e7ee2181bba6352",
+    "bytes": 1286
   },
   "prior_accepted_opening": {
     "path": "metadata/catalog/scan-restoration/1984-03-ad-opening.json",
@@ -187,14 +187,14 @@
     "bytes": 5524
   },
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-57/source-ledger.json",
-    "sha256": "56296781f4df1638842ac977f122c2d97ffba932e7b52efd4e6b566044010af4",
-    "bytes": 429751
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/source-ledger.json",
+    "sha256": "5afa9116cfd87e426dc593d56dbfdf62ecd0c46cde285b0de6867b80eadf3bad",
+    "bytes": 436915
   },
   "cleanup_preview_only": true,
   "cleanup_estimated_allocated_space": "59.1 GiB",
   "deleted_files": 0,
-  "next": "Continue M62 on original 234–239 by encoding prose, headings, paragraphs, physical baselines, inline formulas/typography, all caption/reference associations and nine internal joins. Reuse all 64 successful OCR tasks and source-compared readings, all eleven numbered figure reconstructions, Table 3, both displayed equations and Figure 28's one 21-row 8080 program. Fifteen native work contexts retain 526 fields, 44 empty contexts and 724 paths. Preserve the two unresolved ring-shaped superscripts, source polarities, unprinted labels, different terminal fills, separate dashed load context and all original program/typographic anomalies. Integrate and independently build/audit the continuation before acceptance. Then restore 240–241, assemble/audit the complete 228–241 article, and finish every remaining March article, heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M61 or predecessor helpers/evidence. Whole March remains active.",
+  "next": "M63: restore final original 240–241 of A/D, D/A의 이론과 실제 (maso-1984-03-toc-0033), retaining Figures 31–35, every waveform/circuit/formula, captions, prose and the concluding star. Preserve accepted M61 opening 228–233 and M62 continuation 234–239. Page 239 ends a complete sentence: do not invent a split-word/sentence join to 240. Resolve its original Figure 31 reference against the final source segment, then assemble and independently rebuild/audit the complete 228–241 article. Finish the word-processor program, tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, 정보모음 heading and all remaining March source dispositions through reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M62, M61 or predecessor helpers/evidence. Shared implementation retains the qualified M57 baseline of 303 tests; reuse matching successful OCR.",
   "unresolved_superscript_occurrences": 2,
   "source_readings": {
     "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/source-compared-readings-01.json",
@@ -235,7 +235,7 @@
     "continuation_accepted": false
   },
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-58/cleanup-preview-work-03.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/cleanup-preview-final.log",
     "sha256": "4f32d87948b72da95b7d22cd07dab61ec9d2ecb5db31727406798cdae79711e4",
     "bytes": 233
   },
@@ -341,6 +341,44 @@
       "sha256": "cf14f1976abcebf0f3a8d16c0abc4507829d200ea9f91779d49815b1c1f76cd9",
       "bytes": 1243
     },
-    "continuation_accepted": false
+    "continuation_accepted": true
+  },
+  "native_recipe_created": true,
+  "native_package_selected": true,
+  "selected_package": "archive/scans/1984-03/packages/ad-jpeg-continuation-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/ad-jpeg-continuation-r01/manifest.json",
+    "sha256": "240598e3a35cf63c2c6ab086d3b59cfa160d02731b00731eae90df157c7ba15c",
+    "bytes": 50513
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/recipe-native-01.json",
+    "sha256": "e3017cd51b5308406fc043a24b37891839069d0b77daf1b61a4ef6eba6e77d7d",
+    "bytes": 15919
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/validation.json",
+    "sha256": "903954b61625606714e170b120370cd58a91f08f5392308b4756506e256b95cf",
+    "bytes": 6500
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-geometry-work-review-07.json",
+    "sha256": "5a83456cbebbf5610c293ca0292ad47372e44a04b37ee9ed3a9f00adb41c1295",
+    "bytes": 208445
+  },
+  "native_structures": 15,
+  "native_fields": 526,
+  "native_empty_contexts": 44,
+  "native_paths": 724,
+  "numbered_graphics_compared": 11,
+  "numbered_graphics_pending": 0,
+  "source_native_qualifications": 85,
+  "source_dispositions_pending": 50,
+  "frozen_evidence_path": "archive/scans/1984-03/restoration/whole-issue-58/evidence-manifest.json",
+  "accepted_result_path": "metadata/catalog/scan-restoration/1984-03-ad-continuation.json",
+  "historical_source_work_resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/resume-before-native-acceptance.json",
+    "sha256": "d0f3c8f8917d831f7637b9db658519ac7f0031df9b55e9044cc8a706f5bbb32e",
+    "bytes": 5774
   }
 }
