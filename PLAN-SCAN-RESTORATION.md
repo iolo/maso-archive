@@ -298,6 +298,18 @@ Whole March remains active with **21 complete articles, one partial article,
 actual 161–164**, including the command graph, then assemble/audit the complete
 Visicalc article and finish every remaining March task and whole-issue
 export/audit. See [the accepted opening](metadata/catalog/scan-restoration/1984-03-visicalc-opening.json).
+**M43 is working on the final 161–164.** Four selected pages and three outside
+boundary views are compared. The map retains **69 regions**, with a documented
+clockwise correction for the sideways chart. All **61 initial text tasks** and
+69 original crops pass their audit. One widened SAVE-heading crop replaces its
+initial clipped edge; the other **68 regions** retain exact recognition geometry.
+One narrow prompt's sole sparse retry remains weak, so its reading is selected
+from enlarged source comparison. All **29 non-chart text owners** and seven
+screen/prompt figures are source-compared, including **132 displayed worksheet
+spans and 45 blanks**. The **32 chart text clusters**, full native structures,
+ending exports/audit and complete article assembly remain pending. Accepted
+whole-issue counters above are unchanged. Continue this checkpoint; see
+[the audited ending work](metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

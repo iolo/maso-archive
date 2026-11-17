@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M43",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0024",
+  "canonical_received_title": "Visicalc의 활용",
+  "observed_source_title": "VISICALC 활용",
+  "status": "M43-working;29non-chart-readings-audited;32chart-clusters-and-native-encoding-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164
+  ],
+  "selected_work_folios": [
+    161,
+    162,
+    163,
+    164
+  ],
+  "outside_lookup_folios": [
+    155,
+    160,
+    165
+  ],
+  "original_selected_source_images": 4,
+  "selected_orientation": {
+    "source_folio": 164,
+    "clockwise_degrees": 90
+  },
+  "mapped_regions": 69,
+  "initial_text_tasks": 61,
+  "selected_text_tasks": 61,
+  "recognition_calls": 63,
+  "targeted_crop_replacements": 1,
+  "targeted_sparse_retries": 1,
+  "maximum_retries_per_affected_region": 1,
+  "source_compared_text_regions": 29,
+  "pending_source_text_regions": 32,
+  "pending_command_chart_clusters": 32,
+  "original_figure_regions": 8,
+  "descriptive_original_figure_reviews": 7,
+  "observed_displayed_spans": 132,
+  "observed_blank_spans": 45,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_article_package_selected": false,
+  "complete_whole_scan_articles": 21,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 16,
+  "complete_whole_scan_headings": 3,
+  "pending_heading_candidates": 3,
+  "source_dispositions_pending": 120,
+  "active_process_handles": [],
+  "active_processes": [],
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "next": "Continue M43: compare all32enlarged command-chart text clusters on164and encode every original label, menu field, node/box, branch/arrow and source occurrence. Preserve29compared non-chart readings,132displayed worksheet spans/45blanks, seven original screen/prompt reviews, both bounded retries and the68unchanged recognition scopes. Then complete native ending161–164, independent exports/audit and full155–164Visicalcassembly. Continue every remaining March article, heading and all273source dispositions through whole-issue export/audit. Do not execute or alter frozen M42helpers/evidence.",
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/map-r03.json",
+    "sha256": "ae1caf71a77c0330459d8dd2200259e948df969163691e13bc67976aa55e8607",
+    "bytes": 30766
+  },
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/scope.json",
+    "sha256": "07dd77f576e4b97b1089bf9201cc525e2822420744b7060227ae2723acad6b7c",
+    "bytes": 1319
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/transition.json",
+    "sha256": "0898100d7c927736ad69edaf893dc3328575d9c1e34f5a8ecf79e0bf70f564cc",
+    "bytes": 1613
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/full-page-review.json",
+    "sha256": "1a06284eca83c4c4ffda69b81a941591d331554fa8010b32242ecb63c24e6302",
+    "bytes": 6537
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/overlay-review.json",
+    "sha256": "d4a91d89b676554250b4ad9589670fecb1cce548ab77b295f393fa02f3979857",
+    "bytes": 3056
+  },
+  "initial_recognition_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/source-recognition-audit.json",
+    "sha256": "65779c5ad4785e30e8fcb50f879f4ded81992c4d1379a2f6dbcae03fe35fd555",
+    "bytes": 845
+  },
+  "selected_recognition_inputs": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/selected-recognition-inputs.json",
+    "sha256": "09b925e52f0fabbed3a6a4c9dfffbd6cd75bc6bedb7c4424a90571edb90b04ef",
+    "bytes": 97006
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/source-compared-readings.json",
+    "sha256": "bbfa4bc6038090f57da1acc2ccdc6c169f05504a969d672bcdd08d870bbec832",
+    "bytes": 41671
+  },
+  "figure_observations": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/figure-source-observations.json",
+    "sha256": "cf7deb7744cafbf866f889087e9aec1aff24a67f0c4513688dacfc428e25341a",
+    "bytes": 5729
+  },
+  "display_models": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/panel-display-models.json",
+    "sha256": "b056fd1748bde41cec4d7b1716f5bea232ac8af377cb3d5a54e471259a5d0d21",
+    "bytes": 25114
+  },
+  "source_rule_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/rule-count-source-review.json",
+    "sha256": "b1a1d0fff296f0f1858c1865afe072e5f6a0045289ff3687379543e250b0fdbe",
+    "bytes": 5188
+  },
+  "source_review_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/source-review-work-audit.json",
+    "sha256": "006b6dee3a6d3be4b22d81d8d27a7732e9e42496b52bba79a0e941a2e0289c7a",
+    "bytes": 1503
+  },
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/resume.json",
+    "sha256": "6f4798424f2b45b70dc9242ca421fa2e0c2058375963229cde428c3f78c2fabb",
+    "bytes": 3881
+  },
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/cleanup-preview-work.log",
+    "sha256": "bb3d0ea5dae2f904ac55f4ae3b9c55b78aaeca9c989f63a8f220a9bee01eed89",
+    "bytes": 233
+  },
+  "cleanup_deleted": false,
+  "acceptance_note": "Working evidence only. All four selected full pages, three outside boundary views and original/corrected chart orientation are compared. All61initial text tasks and69original crops pass their initial audit. One source-reviewed left-margin repair replaces one region; the other68retain exact recognition geometry. One empty narrow prompt received its sole sparse retry and is read from the original source. All29non-chart text owners and seven screen/prompt figures are source-compared. All32chart text clusters, full native structures, ending exports/audit and complete article assembly remain required. Accepted counters stay unchanged."
+}

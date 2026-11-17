@@ -111,6 +111,11 @@ checks pass. Current totals are **21 complete articles, one partial article,
 161–164**, including the command graph, then complete the Visicalc assembly and
 all remaining March work. See the
 [accepted opening](metadata/catalog/scan-restoration/1984-03-visicalc-opening.json).
+**M43 is working on 161–164:** all 29 non-chart text regions and seven
+screen/prompt figures are source-compared. The 32 command-chart text clusters,
+native structures, ending exports and complete article assembly remain pending.
+Accepted totals above are unchanged. See the
+[audited ending work](metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -6250,3 +6255,34 @@ including the promised output and the integral sideways command graph, then
 assemble/audit the complete **155–164** article. Every remaining March article,
 heading, source disposition and reproducible whole-issue export/audit remains
 required. Frozen M42 helpers and evidence must remain unchanged.
+
+## M43 working — Visicalc ending, actual 161–164
+
+[The audited working record](metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json)
+preserves four selected original pages and three outside boundary views. The
+ending is verified on 163, followed by the integral command chart on 164 and a
+separate article on 165. The sideways chart has an explicit clockwise orientation
+transform. All 69 mapped regions and 61 initial text tasks have source-pixel and
+recognition-binding checks. A widened SAVE-heading crop replaces one clipped
+left edge; the other 68 regions retain their exact original recognition scope.
+One initially empty STORAGE prompt received its sole sparse retry, remained
+fragmentary and has a manual reading from the original source. All attempts stay
+available; no further retry is authorized within this checkpoint.
+
+All 29 non-chart text owners and seven screen/prompt figures have enlarged
+source comparison. Four independent worksheet panels retain 132 displayed spans,
+including 45 blanks. Screen 17's amount slots and final row remain empty.
+Touching or faint printed rules have explicit count qualifications. Split prompt
+frames, source punctuation, literal totals and the closing star remain intact.
+The 32 chart text clusters, complete native geometry, ending exports, independent
+validation and whole-article assembly on 155–164 remain unfinished.
+
+The working audit verifies all 1,109 frozen M42 evidence files and all 53 shared
+implementation pins. No shared implementation changed; the existing qualified
+297-test baseline is retained. Cleanup was previewed at 52.7 GiB, with no deletion.
+This is working evidence, not an accepted native ending or complete article.
+Whole March remains active: **21 complete articles, one partial article,
+16 pending articles, three complete headings, three pending headings and
+120 pending full-page dispositions across 273 scans**. Continue the command
+chart, complete and assemble Visicalc, then every remaining March task and the
+reproducible whole-issue export/audit.

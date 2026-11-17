@@ -6206,10 +6206,15 @@
     "sha256": "b6147af633635b0986a95062ddda5632504d91fdeb0c380896df380c66409430",
     "bytes": 305002
   },
-  "current_checkpoint": "M42-complete",
-  "next": "M43: restore actual 161–164 of Visicalc의 활용 from the donated JPEGs, including the integral sideways command graph on164 and the output promised on160. Preserve accepted M42 opening155–160 and verified complete extent155–164. Then assemble/audit the complete article and continue every remaining March article, heading and all273source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M42 helpers/evidence.",
+  "current_checkpoint": "M43-working",
+  "next": "Continue M43: compare all32enlarged command-chart text clusters on164and encode every original label, menu field, node/box, branch/arrow and source occurrence. Preserve29compared non-chart readings,132displayed worksheet spans/45blanks, seven original screen/prompt reviews, both bounded retries and the68unchanged recognition scopes. Then complete native ending161–164, independent exports/audit and full155–164Visicalcassembly. Continue every remaining March article, heading and all273source dispositions through whole-issue export/audit. Do not execute or alter frozen M42helpers/evidence.",
   "pending_article_candidates": 16,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json",
+    "sha256": "d9c0e64e453d09d629a2c42bbd4f2c95bc071d2719c4204415f08f9849be0472",
+    "bytes": 6089
+  }
 }
