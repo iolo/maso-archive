@@ -69,13 +69,13 @@ M32 completes their native assembly in 363 exact files. M33 completes
 **자동실행 테이프의 전모**, actual **109–112**, in **280 exact files**.
 M34 completes **자료 구조**, actual **113–117**, in **169 exact files** after
 enlarged source comparison and independent native audit. Current totals are
-**nineteen complete articles, no partial articles, nineteen pending article
-candidates, two completed headings, four pending headings and 155 source images
-awaiting full-page disposition**. M35 is in progress on canonical **기계어 강좌**,
-verified actual **118–123**. All 37 text contexts and six figures have enlarged
-JPEG comparison; native encoding, export and independent validation remain
-pending. Continue M35, then all remaining articles, source dispositions and the
-reproducible whole-issue export/audit. March remains the current issue.
+**twenty complete articles, no partial articles, eighteen pending article
+candidates, two completed headings, four pending headings and 149 source images
+awaiting full-page disposition**. M35 completes canonical **기계어 강좌**,
+verified actual **118–123**, in **163 exact native files** after enlarged source
+comparison and independent audit. Continue M36 with canonical **비지니스**,
+candidate actual **133**, then all remaining articles, source dispositions and
+the reproducible whole-issue export/audit. March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -5591,3 +5591,63 @@ dispositions across all **273 scans**. All 494 frozen M34 files and 51 shared
 implementation pins remain exact. Cleanup was previewed without deletion.
 Continue M35 from [the working record](metadata/catalog/scan-restoration/1984-03-z80-work.json),
 then the remaining whole March queue and final issue export/audit.
+
+## M35 complete — whole Z80 tutorial, actual 118–123
+
+Completed canonical **기계어 강좌**, **maso-1984-03-toc-0021**, printed
+**Z80 기계어 강좌**, across verified **118–123**. All six full pages and
+neighboring 117/124 have source comparison. Two independent builds reproduce
+**163 exact native files**, owning all **43 regions** in **25 reading blocks
+and six original figure groups**.
+
+All **37 text contexts and six figures** have enlarged source comparison.
+Ten native structures preserve **336 fields, 112 rows, 306 cells and 152 ink
+paths**. They retain all forty numbered pinout slots, both empty pin labels,
+forty grouped pin connections, all 27 overbars, visible arrowhead directions,
+five pin-group braces, six CPU boxes, the four-ended internal bus, 22 physical
+register cells, four annotated-template associations and original artwork.
+The pin-30 subscript, pin-14 Γ-like label and decorative lettering remain
+unresolved. Diagram-specific `MREO`/`IORO`/`BUSRO`, the overbar above `GND`, the
+printed A′ register heading and the absent lower-bus width remain literal.
+
+Five independent source contexts preserve **25 physical code rows, 24 logical
+units, 213 lexical fields and 124 source code-column slots**. All 24 printed
+byte-dump fields and twelve assembly address rows retain their source placement.
+The BASIC line-30 unit owns its two physical rows. The standalone comment spans
+the middle area; the final geometry does not invent absent fields beneath it.
+The annotated template intentionally retains two searchable code/figure overlaps.
+Twelve column/page prose joins, eight source lists with **38 items**, thirteen
+expression/command occurrences, four captions, four diagram references and the
+closing star remain explicitly indexed. All **33 local source qualifications**
+remain; no program execution, technical repair or original encoded bytes are
+claimed.
+
+The independent audit passes **43 original-master pixel comparisons, 37 initial
+recognition bindings, 155 raw ZIP members and 35 damaged-data cases**. It checks
+**2,033 native records, 10,378 typed references, 4,002 source/active byte spans
+and 2,061 asset bindings**. The one targeted byte-dump retry remains preserved
+beside the empty initial attempt. All 494 frozen M34 files and 51 shared
+implementation pins remain exact; the unchanged 291-test baseline stays
+qualified. Initial geometry, refined bounds/overbars, code-column refinement,
+initial recipe and corrected metadata contract remain preserved.
+
+The first preflight fixture lacked the package corrections pin; the corrected
+fixture passes without input changes. The first native audit counted mapping
+values instead of asset keys. The second audit's damaged-data checks exposed a
+missing explicit BASIC-wrap-record requirement; the final audit verifies both
+fragments against their physical rows and rejects all 35 damaged cases. No source
+text or selected export changed during these audit refinements. M35 freezes
+**524 evidence files**, excluding disposable bytecode caches only. Cleanup was
+previewed without deletion, and all launched processes were observed terminal.
+
+Whole March remains active with **twenty complete articles, no partial articles,
+eighteen pending article candidates, two completed headings, four pending
+headings and 149 pending full-page dispositions** across **273 scans**.
+Source 118 had already been located; 119–123 now have complete native
+article dispositions. Following 124 is located as the separate **정보 레이다**
+opening, whose full article restoration remains pending. Continue **M36** with
+canonical **비지니스**, candidate actual **133**, verifying the original full
+page and neighbors before classification, then the remaining whole-issue queue
+and final export/audit. See
+[the complete Z80 result](metadata/catalog/scan-restoration/1984-03-z80.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

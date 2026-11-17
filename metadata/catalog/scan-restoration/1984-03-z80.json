@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M35",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0021",
+  "canonical_received_title": "기계어 강좌",
+  "observed_source_title": "Z80 기계어 강좌",
+  "status": "complete-native-whole-article",
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    118,
+    119,
+    120,
+    121,
+    122,
+    123
+  ],
+  "selected_package": "archive/scans/1984-03/packages/z80-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/z80-jpeg-r01/manifest.json",
+    "sha256": "1f6c14c95fbc14dca4473fc5413e4dbdeb287a8a9a4791c92a7282962fc17e0f",
+    "bytes": 27570
+  },
+  "exact_files": 163,
+  "native_structure": {
+    "blocks": 25,
+    "regional_texts": 37,
+    "prose_joins": 12,
+    "original_figures": 6,
+    "figure_and_code_structures": 10,
+    "source_fields": 336,
+    "source_rows": 112,
+    "source_cells": 306,
+    "source_paths": 152,
+    "pinout_slots": 40,
+    "usage_connections": 40,
+    "register_cells": 22,
+    "CPU_components": 6,
+    "annotated_template_fields": 4,
+    "physical_listing_rows": 25,
+    "logical_source_units": 24,
+    "listing_fields": 213,
+    "source_code_column_slots": 124,
+    "source_code_column_occurrences": 100,
+    "independent_listings": 5,
+    "expression_occurrences": 13,
+    "original_list_groups": 8,
+    "original_list_items": 38,
+    "caption_associations": 4,
+    "source_figure_references": 4,
+    "source_qualifications": 33
+  },
+  "native_index_records": 2033,
+  "typed_references": 10378,
+  "source_and_active_byte_spans": 4002,
+  "source_asset_bindings": 2061,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-31/validation.json",
+    "sha256": "05d7ed91abdeda01ce56605d125ce772d027468ff1decd9d697d6dd49874ebee",
+    "bytes": 3505
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-31/z80/recipe-r01.json",
+    "sha256": "75fa04ffe52c5d624e76822b41b2af91b9719a0cb55ac6ea6729926c0c7e129b",
+    "bytes": 9096
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-31/source-ledger.json",
+    "sha256": "4f27b5c4eaa6576cfed9a9159393366952ed1f32f9a05e24af8732cfae62a755",
+    "bytes": 272770
+  },
+  "source_dispositions_pending": 149,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-31/whole-progress-m35.json",
+    "sha256": "da366f7a939ab67d8092073d11bb78f8bb1cb95bda557b5dbc3dcb6a7fe055c5",
+    "bytes": 187639
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-31/evidence-manifest.json",
+    "sha256": "fe27a0a916319eda3f486fc41d180aa19b5cac9a491f2923937dfd3f1beb1a0d",
+    "bytes": 90724
+  },
+  "frozen_evidence_files": 524,
+  "shared_implementation_changed": false,
+  "source_index_mode": "scoped-observations-v1",
+  "reused_fresh_regressions": 291,
+  "next": "M36: restore canonical 비지니스 heading, maso-1984-03-toc-0022, from donated JPEGs. Historical actual133is a candidate only; view the complete original and neighboring material before classification/mapping. Then continue all remaining March articles and headings, including the pending information-news opening located on124, and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active."
+}

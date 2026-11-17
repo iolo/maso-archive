@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "checkpoint": "M35-in-progress",
+  "checkpoint": "M35-complete",
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0021",
-  "status": "all43regions-source-compared;native-geometry-encoding-and-article-validation-pending",
+  "status": "complete-native-whole-article;working-record-superseded-by-accepted-result",
   "canonical_received_title": "기계어 강좌",
   "observed_source_title": "Z80 기계어 강좌",
   "source_kind": "jpeg-set",
@@ -42,17 +42,17 @@
   "source_compared_code_fields": 213,
   "source_compared_original_figures": 6,
   "pending_source_text_regions": 0,
-  "native_structure_regions_pending": 6,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_article_package_selected": false,
-  "complete_whole_scan_articles": 19,
+  "native_structure_regions_pending": 0,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_article_package_selected": true,
+  "complete_whole_scan_articles": 20,
   "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 19,
-  "source_dispositions_pending": 155,
-  "whole_article_complete": false,
+  "pending_article_candidates": 18,
+  "source_dispositions_pending": 149,
+  "whole_article_complete": true,
   "whole_issue_complete": false,
-  "next": "Continue M35: encode and source-compare native geometry for all40pinout slots,40pin-usage lines,22register cells,six CPUcomponents,the annotated syntax and original artwork. Retain unresolved pin30subscript,pin14Gamma-like mark,diagram-specific MREO/IORO/BUSRO,source overbars/blanks/arrowheads and missing bottom bus width. Index all25physical code rows,24printed dump fields,assembly address/machine/label/opcode/operand/comment columns,four BASICnumbered statements,all source prose/lists/claims,12prose joins,four captions and closing star. Export complete118–123twice and independently audit source/structure/ranges/pixels before accepting the article or changing completion/disposition counts. Then continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M34helpers/evidence.",
+  "next": "M36: restore canonical 비지니스 heading, maso-1984-03-toc-0022, from donated JPEGs. Historical actual133is a candidate only; view the complete original and neighboring material before classification/mapping. Then continue all remaining March articles and headings, including the pending information-news opening located on124, and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-31/z80/map-r01.json",
     "sha256": "8d1c81a98395127aa64bdb5488ac73da4a881078597c81880e2c437042510d52",
@@ -90,7 +90,22 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-31/resume.json",
-    "sha256": "ff74e667decf5c869b6b15f141030b3f50ea214ce17bc9f995bca2b88a5cfcae",
-    "bytes": 3744
+    "sha256": "972d4eab9fe0c4c998158012ae597319050f6c9184484167952f6085c83ec543",
+    "bytes": 2394
+  },
+  "accepted_result": {
+    "path": "metadata/catalog/scan-restoration/1984-03-z80.json",
+    "sha256": "8345763ca965fad18f0aa887266fbad366bb6f0c81038a7468936737dd53fe76",
+    "bytes": 3360
+  },
+  "selected_manifest": {
+    "path": "archive/scans/1984-03/packages/z80-jpeg-r01/manifest.json",
+    "sha256": "1f6c14c95fbc14dca4473fc5413e4dbdeb287a8a9a4791c92a7282962fc17e0f",
+    "bytes": 27570
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-31/validation.json",
+    "sha256": "05d7ed91abdeda01ce56605d125ce772d027468ff1decd9d697d6dd49874ebee",
+    "bytes": 3505
   }
 }

@@ -170,20 +170,26 @@ checks pass. All 26 local qualifications remain; shared implementation is
 unchanged. M34 freezes 494 evidence files. Whole March remains active with
 **nineteen complete articles, nineteen pending article candidates, two completed
 headings, four pending headings and 155 pending full-page dispositions**.
-Continue M35 with canonical **기계어 강좌**, candidate actual **118–123**, printed
-**Z80 기계어 강좌**, then the remaining whole-issue queue and final export/audit.
 See [the complete data-structure result](metadata/catalog/scan-restoration/1984-03-data.json).
-M35 is in progress: full-page and neighboring-material review verifies **118–123**.
-All **37 text contexts and six original figures** now have enlarged JPEG
-comparison; **43 master crops**, twelve page renders and the initial OCR settings
-pass. One empty dot-matrix recognition has one preserved targeted retry.
-The **25 physical code rows**, forty pinout slots, forty pin-usage connections and
-22 register cells have saved literal source observations. Native geometry,
-structured indexes, two exports and the independent article audit remain pending.
-No article or source-disposition completion count changes. Continue M35 from
-[its working record](metadata/catalog/scan-restoration/1984-03-z80-work.json),
-then every remaining March article, heading and source disposition before issue
-closeout. March remains the current issue.
+M35 completes canonical **기계어 강좌**, printed **Z80 기계어 강좌**, verified
+actual **118–123**, in **163 exact native files**. All **37 text contexts and six
+original figures** have enlarged JPEG comparison. Ten native structures retain
+336 fields, 112 rows, 306 cells and 152 original ink paths, including all forty
+pinout slots, forty pin-usage connections, 22 register cells and six CPU boxes.
+Five independent source contexts retain **25 physical code rows, 24 logical
+units, 213 lexical fields and 124 code-column slots**. Twelve prose joins, eight
+source lists/38 items, four captions and the closing star remain explicit.
+Both builds, 43 master crops, 37 initial OCR bindings, 2,033 native records and
+35 damaged-data checks pass. One targeted retry and all 33 local source
+qualifications remain preserved; shared implementation is unchanged. M35 freezes
+524 evidence files. Whole March remains active with **twenty complete articles,
+eighteen pending article candidates, two completed headings, four pending
+headings and 149 pending full-page dispositions** across all 273 scans.
+Continue M36 with canonical **비지니스**, candidate actual **133**; verify its
+complete source and neighbors before heading classification. Then continue every
+remaining article, heading and source disposition before final issue export/audit.
+See [the complete Z80 result](metadata/catalog/scan-restoration/1984-03-z80.json).
+March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

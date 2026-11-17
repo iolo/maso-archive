@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 19,
+  "complete_whole_scan_articles": 20,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -3600,8 +3600,8 @@
       "title": "기계어 강좌",
       "parent_id": "maso-1984-03-toc-0014",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0021",
         "title": "기계어 강좌",
@@ -3663,7 +3663,42 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M35",
+        "directory": "archive/scans/1984-03/packages/z80-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/z80-jpeg-r01/manifest.json",
+          "sha256": "1f6c14c95fbc14dca4473fc5413e4dbdeb287a8a9a4791c92a7282962fc17e0f",
+          "bytes": 27570
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-31/validation.json",
+          "sha256": "05d7ed91abdeda01ce56605d125ce772d027468ff1decd9d697d6dd49874ebee",
+          "bytes": 3505
+        },
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "actual_folios": [
+          118,
+          119,
+          120,
+          121,
+          122,
+          123
+        ],
+        "included_actual_folios": [
+          118,
+          119,
+          120,
+          121,
+          122,
+          123
+        ],
+        "source_extent_verified": true,
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": []
+      },
       "historical_printed_extent_candidate": [
         118,
         119,
@@ -3674,16 +3709,36 @@
       ],
       "located_source_evidence": {
         "actual_folio": 118,
+        "actual_folios": [
+          118,
+          119,
+          120,
+          121,
+          122,
+          123
+        ],
         "observed_title": "Z80 기계어 강좌",
         "source_review": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-30/review/full-118.jpg",
+          "path": "archive/scans/1984-03/restoration/whole-issue-31/review/full-118.jpg",
           "sha256": "8dc36f5e950abffedeb43ea7b73d3304ea387900f661f2e7178537897ec55f19",
           "bytes": 1370741
         },
-        "restoration_pending": true
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-31/transition.json",
+          "sha256": "df5fa55d9631dcbba74e9464bfd239f060b7d384d855ffddc6642bb2080207b1",
+          "bytes": 740
+        },
+        "restoration_pending": false,
+        "complete_native_selected": true,
+        "assembly_required": false,
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-31/validation.json",
+          "sha256": "05d7ed91abdeda01ce56605d125ce772d027468ff1decd9d697d6dd49874ebee",
+          "bytes": 3505
+        }
       },
-      "whole_scan_work": {
-        "path": "metadata/catalog/scan-restoration/1984-03-z80-work.json",
+      "historical_whole_scan_work": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-31/z80-work-before-close.json",
         "sha256": "09e306606b58257f610a6bc56e6ed62ae2de841735522253c8c519552127db66",
         "bytes": 4108
       }
@@ -5589,7 +5644,22 @@
         129,
         130,
         131
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 124,
+        "observed_title": "정보 레이다",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-31/review/full-124.jpg",
+          "sha256": "cbc1fe684612843bd138ecd92d73de1f1f444dd7864d1e3b0989dd30abf75e6c",
+          "bytes": 1434614
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-31/transition.json",
+          "sha256": "df5fa55d9631dcbba74e9464bfd239f060b7d384d855ffddc6642bb2080207b1",
+          "bytes": 740
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0041",
@@ -5816,13 +5886,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-30/source-ledger.json",
-    "sha256": "97001e2c5b52375afb578c71186cf27c0ae61d078334cbbd92cd1d6bde4876d6",
-    "bytes": 267118
+    "path": "archive/scans/1984-03/restoration/whole-issue-31/source-ledger.json",
+    "sha256": "4f27b5c4eaa6576cfed9a9159393366952ed1f32f9a05e24af8732cfae62a755",
+    "bytes": 272770
   },
-  "current_checkpoint": "M35-in-progress",
-  "next": "Continue M35: encode and source-compare native geometry for all40pinout slots,40pin-usage lines,22register cells,six CPUcomponents,the annotated syntax and original artwork. Retain unresolved pin30subscript,pin14Gamma-like mark,diagram-specific MREO/IORO/BUSRO,source overbars/blanks/arrowheads and missing bottom bus width. Index all25physical code rows,24printed dump fields,assembly address/machine/label/opcode/operand/comment columns,four BASICnumbered statements,all source prose/lists/claims,12prose joins,four captions and closing star. Export complete118–123twice and independently audit source/structure/ranges/pixels before accepting the article or changing completion/disposition counts. Then continue every remaining March article,heading and all273source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M34helpers/evidence.",
-  "pending_article_candidates": 19,
+  "current_checkpoint": "M35-complete",
+  "next": "M36: restore canonical 비지니스 heading, maso-1984-03-toc-0022, from donated JPEGs. Historical actual133is a candidate only; view the complete original and neighboring material before classification/mapping. Then continue all remaining March articles and headings, including the pending information-news opening located on124, and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active.",
+  "pending_article_candidates": 18,
   "pending_heading_candidates": 4,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 2
