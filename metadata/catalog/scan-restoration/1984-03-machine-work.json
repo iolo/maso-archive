@@ -6,7 +6,7 @@
   "canonical_received_title": "기계어 테크닉",
   "observed_source_title": "기계어 테크닉",
   "observed_serial": "연재2회",
-  "status": "source-text-work-audited;native-restoration-pending",
+  "status": "accepted-complete-native-article",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -29,19 +29,19 @@
   "independent_code_contexts": 5,
   "source_qualifications": 40,
   "unresolved_local_glyph_cases": 3,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_article_package_selected": false,
-  "whole_article_complete": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_article_package_selected": true,
+  "whole_article_complete": true,
   "whole_issue_complete": false,
-  "complete_whole_scan_articles": 26,
+  "complete_whole_scan_articles": 27,
   "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 12,
+  "pending_article_candidates": 11,
   "complete_whole_scan_headings": 5,
   "pending_heading_candidates": 1,
   "source_images": 273,
-  "source_dispositions_pending": 86,
-  "source_accounting_note": "Accepted totals and M53 source ledger stay unchanged until native acceptance. All 273 scans remain in whole-issue scope.",
+  "source_dispositions_pending": 82,
+  "source_accounting_note": "M54 accepts complete206–209;all273scan dispositions and every remaining March article/issue gate remain in scope.",
   "scope": {
     "path": "archive/scans/1984-03/restoration/whole-issue-50/scope.json",
     "sha256": "b700e878964f82938bb8e4dfc6d325fca73cd2054de8c0b8fbb1518772adba9c",
@@ -96,21 +96,44 @@
   "unchanged_frozen_M53_files": 41,
   "test_baseline": "Qualified M47 300-test result;implementation pins unchanged;not freshly rerun.",
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-50/process-outcomes-source-work.json",
-    "sha256": "a634017364d85fea4ac27a557373af80b9c587d136c6ddcbf98ed958c8a83903",
-    "bytes": 3031
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/process-outcomes-final.json",
+    "sha256": "5a5debccbcdda957e07fd4707e5b0a875d17a0e57d63035905e0f932561827a2",
+    "bytes": 2627
   },
   "active_process_handles": [],
   "active_processes": [],
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-50/cleanup-preview-source-work.log",
-    "sha256": "6a0f0946b54f1ffbfbab2b17b849e3f49bef2d1842e7dc04d2984a03bf8e77e6",
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/cleanup-preview-final.log",
+    "sha256": "d17bb4c15a105006fff1674e0cac45706b8bfa72b26bb91aa40351d0063f9fd3",
     "bytes": 233
   },
   "deletion": false,
-  "frozen": false,
-  "next": "Encode and compare all five independent code contexts and both native diagrams, retain complete title artwork, prose, captions and bibliography, then integrate 206–209, build twice and independently audit before accepting M54. Continue all remaining March articles, information-group classification and all 273 scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M53 helpers; shared implementation remains the qualified M47 implementation-after.json.",
+  "frozen": true,
+  "next": "M55: verify canonical 컴퓨터의 마담 뚜 인터페이스 and its complete candidate extent210–217 against original JPEGs and neighboring209/218, then restore a bounded opening of at most six source views before the remaining pages and complete article assembly. Continue every remaining March article, information-group classification and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M54 helpers; shared implementation remains the qualified M47 implementation-after.json.",
   "review_level": "assistant-source-comparison;not-human-acceptance",
   "original_encoded_bytes_verified": false,
-  "execution_verified": false
+  "execution_verified": false,
+  "source_native_qualifications": 45,
+  "selected_package": "archive/scans/1984-03/packages/machine-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/machine-jpeg-r01/manifest.json",
+    "sha256": "430da4379f6eb6c4d7ef4881c63bcc457353092c3dbb146d378f460a1d874b95",
+    "bytes": 28062
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/machine/recipe-native-02.json",
+    "sha256": "b4e2b0116dbe47e760395afaa9f0e866f05b785265cd8bbfdbdb0db747cc4834",
+    "bytes": 7717
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/validation.json",
+    "sha256": "c9c926f2d47330cd6a109229ada9ec019e010acf7e87b67646ace638b4120a3d",
+    "bytes": 6021
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/machine/native-geometry-review.json",
+    "sha256": "796a6e49d65f0a62b4f3f6da651838a39028f2a3f990c01481398b1c997a863e",
+    "bytes": 13192
+  },
+  "frozen_evidence_path": "archive/scans/1984-03/restoration/whole-issue-50/evidence-manifest.json"
 }

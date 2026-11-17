@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M54",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0030",
+  "status": "complete-native-article",
+  "canonical_received_title": "기계어 테크닉",
+  "observed_source_title": "기계어 테크닉",
+  "observed_serial": "연재2회",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    206,
+    207,
+    208,
+    209
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/machine-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/machine-jpeg-r01/manifest.json",
+    "sha256": "430da4379f6eb6c4d7ef4881c63bcc457353092c3dbb146d378f460a1d874b95",
+    "bytes": 28062
+  },
+  "exact_files": 164,
+  "manifest_payload_files": 163,
+  "master_crops": 41,
+  "recognition_bindings": 38,
+  "recognition_retries": 0,
+  "native_index_records": 1835,
+  "source_qualifications": 45,
+  "unresolved_local_glyph_cases": 3,
+  "native_structure": {
+    "native_structures": 8,
+    "source_fields": 305,
+    "empty_contexts": 44,
+    "source_paths": 48,
+    "source_rows": 59,
+    "independent_code_contexts": 5,
+    "physical_code_rows": 44,
+    "original_diagrams": 2,
+    "flow_nodes": 5,
+    "flow_arrow_pairs": 5,
+    "memory_hatched_contexts": 6,
+    "sections": 7,
+    "paragraphs": 40,
+    "source_lines": 329,
+    "prose_joins": 3,
+    "interrupted_code_sentences": 1,
+    "caption_associations": 5,
+    "bibliography_entries": 2
+  },
+  "typed_references": 8400,
+  "source_and_active_byte_spans": 4578,
+  "source_asset_bindings": 1791,
+  "rejected_damaged_article_cases": 24,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/validation.json",
+    "sha256": "c9c926f2d47330cd6a109229ada9ec019e010acf7e87b67646ace638b4120a3d",
+    "bytes": 6021
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/machine/recipe-native-02.json",
+    "sha256": "b4e2b0116dbe47e760395afaa9f0e866f05b785265cd8bbfdbdb0db747cc4834",
+    "bytes": 7717
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/source-ledger.json",
+    "sha256": "23165aa2b9f796a1bb26a0de8ee9e90c034b5b167409731548d333883ad1910d",
+    "bytes": 368123
+  },
+  "source_dispositions_pending": 82,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/whole-progress-m54.json",
+    "sha256": "f0dee1fa2d8415c7baf388e10df8d53a794ec6a755f954467147cf48dbfc0e30",
+    "bytes": 222944
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/evidence-manifest.json",
+    "sha256": "9d2a7cf2f4f6ffb6028f78ddbf01cbbd0813ee26f5c81ce202291a68225c9078",
+    "bytes": 106586
+  },
+  "frozen_evidence_files": 595,
+  "complete_whole_scan_articles": 27,
+  "pending_article_candidates": 11,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M55: verify canonical 컴퓨터의 마담 뚜 인터페이스 and its complete candidate extent210–217 against original JPEGs and neighboring209/218, then restore a bounded opening of at most six source views before the remaining pages and complete article assembly. Continue every remaining March article, information-group classification and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M54 helpers; shared implementation remains the qualified M47 implementation-after.json."
+}

@@ -2,34 +2,36 @@
 
 Updated 2026-11-18. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Latest accepted March checkpoint: **M53 complete**, two non-owning group
-headings on original 205, with two matching seven-file classification exports.
-Accepted totals are **26 complete articles, no partial articles, twelve pending
-articles, five complete headings, one pending heading and 86 pending full-page
-dispositions across all 273 scans**. **M54 source work now passes** for complete
-기계어 테크닉, verified 206–209 with original 205/210 boundaries. All 38 readings
-have enlarged JPEG comparison, all 41 crops and 38 OCR bindings pass the source
-audit, and initial recognition completed once with no retries. Forty source
-qualifications retain three unresolved local glyph cases. Five independent code
-contexts and two diagrams still require native encoding, comparison, complete
-article exports and independent audit. Accepted totals and the M53 source ledger
-remain unchanged. March remains active through every remaining article and the
+Latest accepted March checkpoint: **M54 complete**, the whole 기계어 테크닉
+article on original **206–209**, in two matching **164-file native exports**.
+Accepted totals are **27 complete articles, no partial articles, eleven pending
+articles, five complete headings, one pending heading and 82 pending full-page
+dispositions across all 273 scans**. Continue **M55: verify the interface
+article**, candidate 210–217, before restoring its bounded opening and final
+assembly. March remains active through every remaining article and the final
 whole-issue export/completion audit. See the
-[M54 working handoff](docs/SCAN-RESTORATION-1984-03-M54-WORK.md).
-See the [M53 handoff](docs/SCAN-RESTORATION-1984-03-M53.md).
+[M54 handoff](docs/SCAN-RESTORATION-1984-03-M54.md).
 
-**M54 is working; source comparison alone does not accept the article.** All
-four selected and two neighboring full pages, nine map overlays plus three
-byte-identical selected reuses, eighteen long plates, three short-context
-contacts and both references have comparison. The blank ORG operand, empty SP,
-literal flowchart circle 1, trailing CALL 0012H comma, C7 CF CF C4 data, row 05 JR,
-row 13 ORA and qualified row 14 CB/C8 remain source-bound. The separate closing
-star and complete title artwork are retained. All 53 shared implementation pins
-and 41 frozen M53 evidence files remain exact; the unchanged qualified M47
-300-test baseline applies. A repaired audit-helper runtime path and its failed
-first log remain preserved; no OCR was repeated. All known jobs are terminal,
-cleanup was preview-only with no deletion, and M54 remains unfrozen. Continue
-native geometry and the complete 206–209 article, then all remaining March work.
+**M54 accepts all source and native article structures.** All 38 readings,
+41 original crops, 38 initial recognition bindings and 1,835 native records
+pass the independent audit. Five code contexts retain 44 rows; both diagrams
+retain the empty SP, six hatched contexts, circle/plus, complete bracket,
+five flowchart nodes and original paths. The complete title artwork, both
+references and closing star remain. Eight native structures retain 305 fields,
+44 empty contexts, 48 paths and 59 source rows. Seven headings, forty paragraphs,
+329 physical text/code lines, three adjacent joins, one interrupted code sentence
+and five caption associations remain source-bound. All 24 damaged cases reject.
+Forty-five qualifications retain three unresolved local glyph cases and the
+original ORG, address, comma, CALL &H12, ORA and CB/C8 claims.
+
+Twelve native overlays have personal comparison. The first integration attempt
+and corrected empty-field spans are preserved; no OCR was repeated. All 26
+preceding selected packages / 5,216 files, 41 frozen M53 files and 53 shared
+implementation pins remain exact; the qualified M47 300-test baseline applies.
+All observed jobs are terminal. Cleanup was preview-only at 56.9 GiB, with no
+deletion. M54 freezes **595 evidence files**; never execute or modify its helpers.
+The [earlier source-work handoff](docs/SCAN-RESTORATION-1984-03-M54-WORK.md)
+remains historical evidence.
 
 **M53 accepts 테크니컬 and 공모입선작 from the shared 205 navigation area.**
 Their separate four/two canonical child sets and all six source references remain

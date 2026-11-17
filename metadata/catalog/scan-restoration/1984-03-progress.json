@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 26,
+  "complete_whole_scan_articles": 27,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -5606,8 +5606,8 @@
       "title": "기계어 테크닉",
       "parent_id": "maso-1984-03-toc-0029",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0030",
         "title": "기계어 테크닉",
@@ -5658,7 +5658,44 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M54",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/machine-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/machine-jpeg-r01/manifest.json",
+          "sha256": "430da4379f6eb6c4d7ef4881c63bcc457353092c3dbb146d378f460a1d874b95",
+          "bytes": 28062
+        },
+        "covered_actual_folios": [
+          206,
+          207,
+          208,
+          209
+        ],
+        "article_actual_folios": [
+          206,
+          207,
+          208,
+          209
+        ],
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": false,
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-50/machine/recipe-native-02.json",
+          "sha256": "b4e2b0116dbe47e760395afaa9f0e866f05b785265cd8bbfdbdb0db747cc4834",
+          "bytes": 7717
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-50/validation.json",
+          "sha256": "c9c926f2d47330cd6a109229ada9ec019e010acf7e87b67646ace638b4120a3d",
+          "bytes": 6021
+        },
+        "note": "Complete four-page article with independent source/native audit,two exact164-file exports and all45qualifications."
+      },
       "historical_printed_extent_candidate": [
         206,
         207,
@@ -5682,10 +5719,10 @@
         "restoration_pending": true,
         "source_extent_verified": false
       },
-      "in_progress_source_work": {
+      "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-machine-work.json",
-        "sha256": "6d83c8608400c8981fa6bbf0b158806383d9da5f334e12924e615ee8c9275052",
-        "bytes": 4966
+        "sha256": "9a4d834f49f8f1323486f9728eb0c1a196aa540e85f829fe6f91dcfb535e82bc",
+        "bytes": 6032
       }
     },
     {
@@ -5771,7 +5808,23 @@
         215,
         216,
         217
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 210,
+        "observed_title": "컴퓨터의 마담 뚜 : 인터페이스",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-50/review/full-210.jpg",
+          "sha256": "7dc0adc3788628f94ffc172381c2be9bd9eb861dceeb97df846430d12a01843f",
+          "bytes": 2124532
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-50/transition.json",
+          "sha256": "96cc8f86bb27ea6836b73fe6e2dcd91fe331709ef0f21fc35b01e2997c311f5f",
+          "bytes": 1588
+        },
+        "source_extent_verified": false,
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0032",
@@ -6785,13 +6838,13 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-49/source-ledger.json",
-    "sha256": "77fae2a857415591aa9327a1ef84006e6d3415cf8f368824e58572976c2fc21d",
-    "bytes": 361631
+    "path": "archive/scans/1984-03/restoration/whole-issue-50/source-ledger.json",
+    "sha256": "23165aa2b9f796a1bb26a0de8ee9e90c034b5b167409731548d333883ad1910d",
+    "bytes": 368123
   },
-  "current_checkpoint": "M54-working-source-text-audited",
-  "next": "Encode and compare all five independent code contexts and both native diagrams, retain complete title artwork, prose, captions and bibliography, then integrate 206–209, build twice and independently audit before accepting M54. Continue all remaining March articles, information-group classification and all 273 scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M53 helpers; shared implementation remains the qualified M47 implementation-after.json.",
-  "pending_article_candidates": 12,
+  "current_checkpoint": "M54-complete",
+  "next": "M55: verify canonical 컴퓨터의 마담 뚜 인터페이스 and its complete candidate extent210–217 against original JPEGs and neighboring209/218, then restore a bounded opening of at most six source views before the remaining pages and complete article assembly. Continue every remaining March article, information-group classification and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M54 helpers; shared implementation remains the qualified M47 implementation-after.json.",
+  "pending_article_candidates": 11,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5

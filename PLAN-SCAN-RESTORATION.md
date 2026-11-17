@@ -501,24 +501,32 @@ full-page dispositions across all 273 scans**. Continue **M54: verify/restore
 remaining March task through whole-issue export/completion audit. See the
 [M53 handoff](docs/SCAN-RESTORATION-1984-03-M53.md).
 
-**M54 source work passes for complete 기계어 테크닉, actual 206–209.** Four
-selected pages and original 205/210 boundaries establish its extent. All 38
-readings have enlarged JPEG comparison; all 41 original-master crops and 38 raw
-map/settings bindings pass the source audit. Recognition completed once with
-no retries. Forty source qualifications preserve three unresolved local glyph
-cases, the blank ORG operand, empty SP, literal circle 1, independent code/prose
-claims, physical wraps and both references. The native plan retains five
-independent code contexts, two diagrams, complete title artwork, five caption
-associations and four explicit continuities. Native encoding/comparison,
-complete article integration, two exports and independent native audit remain
-pending. All 53 implementation pins and 41 frozen M53 files remain unchanged;
-the qualified M47 300-test baseline applies. M54 remains unfrozen; cleanup was
-preview-only with no deletion. Accepted totals and the M53 source ledger stay
-at **26 complete articles, twelve pending articles, five complete headings,
-one pending heading and 86 pending full-page dispositions across 273 scans**.
-Finish M54 and every remaining March article, heading and source disposition
-through reproducible whole-issue export/completion audit. See the
-[M54 working handoff](docs/SCAN-RESTORATION-1984-03-M54-WORK.md).
+**M54 completes the whole 기계어 테크닉 article, actual 206–209.** Four selected
+pages and original 205/210 boundaries establish its extent. Two independent
+**164-file exports** match; all **41 original-master crops, 38 recognition
+bindings and 1,835 native records** pass the independent audit. Five separate
+code contexts retain 44 source rows and all original fields. Eight structures
+retain **305 fields, 44 empty contexts, 48 paths and 59 native rows**. Both
+diagrams preserve original hatching, symbols, bracket strokes, blank SP and
+literal circle 1. The complete title artwork, seven title/section contexts,
+forty paragraphs, 329 physical text/code lines, three adjacent prose joins,
+one sentence around a code example, five captions, both references and final
+star remain. Twelve native overlays have source comparison; all **24 damaged
+cases** reject. All **45 qualifications**, including three unresolved local
+glyph cases and original code/prose disagreements, remain explicit. Original
+encoded bytes and execution remain unverified. Recognition ran once with no
+retries; failed audit/integration helpers and their repairs remain retained.
+All **26 preceding packages / 5,216 files**, **53 implementation pins** and
+**41 frozen M53 files** remain exact; the qualified M47 300-test baseline applies.
+M54 freezes **595 evidence files**; never execute or modify its helpers.
+Cleanup was preview-only at **56.9 GiB**, with no deletion. Whole March now has
+**27 complete articles, eleven pending articles, five complete headings, one
+pending heading and 82 pending full-page dispositions across all 273 scans**.
+Continue **M55: verify the interface article**, candidate **210–217**, against
+original JPEGs and neighboring 209/218, then restore a bounded opening and its
+remaining pages/complete assembly. Finish every remaining March article,
+heading and source disposition through reproducible whole-issue export and
+completion audit. See the [M54 handoff](docs/SCAN-RESTORATION-1984-03-M54.md).
 
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

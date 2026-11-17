@@ -1,5 +1,11 @@
 # March 1984 M54: machine-language article source work
 
+**Historical source-work handoff. M54 is now accepted.** The complete article
+has two matching 164-file exports and a passing independent native audit.
+M54 now freezes 595 evidence files; never execute or modify its helpers.
+The pending steps and earlier totals below describe its former work state.
+See the [M54 acceptance handoff](SCAN-RESTORATION-1984-03-M54.md).
+
 The whole March issue remains the active objective. M54 advances **기계어 테크닉**
 (`maso-1984-03-toc-0030`), **연재2회**, across verified actual **206–209**.
 All four selected full pages and neighbors **205/210** have source comparison.
