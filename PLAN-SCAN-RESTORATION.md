@@ -124,6 +124,12 @@ checks reject, and the unchanged 291-test baseline remains qualified. Continue
 with M31, final 106–108 and the explicit so-/urce continuation, then assemble and
 validate the complete article before continuing the whole issue. See
 [the accepted opening](metadata/catalog/scan-restoration/1984-03-systems-opening.json).
+M31 now has a checked three-page map and all 35 initial OCR tasks complete,
+with no empty regions or retries. Both printed assembler listings have enlarged
+source comparison: 29 physical rows and 146 explicit fields. The remaining
+33 text contexts, six native figure groups, exports and acceptance are pending;
+article-completion counts are unchanged. See
+[the ending work state](metadata/catalog/scan-restoration/1984-03-systems-ending-work.json).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

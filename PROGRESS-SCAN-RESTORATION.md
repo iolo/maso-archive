@@ -5256,3 +5256,46 @@ pending headings**. Continue **M31** on final **106–108**, preserving the expl
 **105/106 소스(so-/urce)** boundary, then **M32** for whole-article assembly and
 independent validation. See [the accepted opening](metadata/catalog/scan-restoration/1984-03-systems-opening.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M31 in progress — final systems source pages 106–108
+
+Started final **106–108** of **마이크로 컴퓨터 시스템 입문**, preserving the
+accepted M30 opening. All three original full-page JPEG views were compared
+before mapping. The map contains **41 regions: 35 text tasks and six complete
+original figure groups**. All three overlays passed source comparison before
+recognition, without a map refinement. The two separately searchable listings
+on 108 intentionally overlap their intact boxed source figures.
+
+All **35 initial pinned mapped Tesseract tasks at scale 6000** completed with
+nonempty drafts and **zero retries**. All three OCR handles were observed
+terminal with exit zero. The independent recognition audit checks every source
+image, map, text/TSV/settings and crop binding. All **821 frozen M30 evidence
+files** and **51 shared implementation pins** remain exact; the unchanged
+291-test baseline remains qualified.
+
+Both assembler listings have enlarged source comparison: **fourteen source
+program rows and fifteen output rows, 29 total, with 146 explicit fields**.
+The historical selected text matches those source readings. Printed addresses,
+object strings, source numbers, labels, opcodes, operands, comments and blank
+fields remain literal. The two EQU address fields stay blank; the parenthesized
+2000/2001 values occupy the printed object column. END retains address 1014
+and (0000). The separate **Errors 0** status row remains distinct from the
+fourteen numbered source rows. No instruction was executed, object string
+regenerated or original encoded byte claimed. Native geometry and byte ranges
+for these listings remain pending.
+
+**M31 remains in progress.** The other **33 prose/title/caption contexts**,
+all six figure groups' native structures, four references and closing star
+still require source comparison and encoding. Retain the incoming **so-/urce**
+and later **sym-/bol table** continuations. The four technical figure groups
+include two-pass and cross-assembler graphs, a classification tree and three
+separate meta-assembler panels; every source arrowhead must be observed rather
+than inferred from expected processing. Two fresh exports and an independent
+audit remain required before final-segment acceptance, followed by M32
+whole-article assembly.
+
+All launched jobs are terminal. Cleanup was previewed without deletion.
+Whole March remains at **sixteen complete articles, one partial article,
+21 pending article candidates and 164 pending full-page dispositions**.
+See [the saved ending work state](metadata/catalog/scan-restoration/1984-03-systems-ending-work.json).
+

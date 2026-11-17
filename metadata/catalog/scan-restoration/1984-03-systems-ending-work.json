@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M31-in-progress",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0018",
+  "status": "35initial-OCRtasks-audited;both-code-listings-source-compared;prose-and-native-structures-pending",
+  "canonical_received_title": "마이크로 컴퓨터 시스템 입문",
+  "observed_source_title": "마이크로컴퓨터 시스템 입문",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "selected_work_folios": [
+    106,
+    107,
+    108
+  ],
+  "outside_reused_boundary_folios": [
+    105,
+    109
+  ],
+  "mapped_regions": 41,
+  "initial_text_tasks": 35,
+  "recognition_retries": 0,
+  "empty_initial_regions": [],
+  "source_compared_code_regions": 2,
+  "source_compared_code_rows": 29,
+  "source_compared_code_fields": 146,
+  "pending_text_regions": 33,
+  "native_figure_regions_pending": 6,
+  "native_ending_package_selected": false,
+  "preceding_native_manifest": {
+    "path": "archive/scans/1984-03/packages/systems-opening-jpeg-r02/manifest.json",
+    "sha256": "f5ff018f53358015e116e199dc463e74c9d174eaf9ad79dc7ca7a08974ad8bb6",
+    "bytes": 33582
+  },
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/systems/map.json",
+    "sha256": "2c71d5bb4d1f95225573e7763bb6ba9f0512326ca708e9752ab8d845aca451c2",
+    "bytes": 20901
+  },
+  "map_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/map-review.json",
+    "sha256": "1e8fa992e8a1832868a79bfe801b4f502dd80833f9057aa0075041874f0e408b",
+    "bytes": 1353
+  },
+  "recognition_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/source-recognition-audit.json",
+    "sha256": "4cf455665d5764cb34031ef2d4854b82dde89acf4fafaab32c4c2ac3e6bc4c26",
+    "bytes": 655
+  },
+  "code_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/systems/review/source-compared-code-readings.json",
+    "sha256": "23bd46e3c5a573dfd611f73670bd66ee57232ae6992fc930bd5e5458b24d2421",
+    "bytes": 38252
+  },
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-27/resume.json",
+    "sha256": "87eb8e92e899c6d312f7ba5af2057a2a0ff8f827f2af098ecc4043dcd874a219",
+    "bytes": 2916
+  },
+  "complete_whole_scan_articles": 16,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 21,
+  "source_dispositions_pending": 164,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "next": "Compare all33remaining prose/title/caption regions against enlarged JPEG contexts,then all four technical diagram figures and both boxed listing figures. The14source rows and15output rows/146fields are already source-compared;retain their literal addresses/object strings,blanks,comments andErrors0. Encode native listing ranges/fields/geometry and all graph labels/routes/visible arrows,all source joins and four references/closing star. Export final106–108twice,audit/acceptM31,then assemble complete100–108asM32. Never rerun or change frozen M30helpers/evidence."
+}
