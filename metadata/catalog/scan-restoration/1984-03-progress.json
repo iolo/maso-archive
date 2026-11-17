@@ -5290,6 +5290,11 @@
           "bytes": 1895
         },
         "restoration_pending": true
+      },
+      "current_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-medical-opening-work.json",
+        "sha256": "cb9887b6ef43e890cb12001d8a7a47f96edf1cf47f396755388fd15feacd2d78",
+        "bytes": 5605
       }
     },
     {
@@ -6459,10 +6464,15 @@
     "sha256": "0bca4e364980df7242e1c1f5fd5e58cf73f8b99e6337d8c174ea0a47db98b093",
     "bytes": 332749
   },
-  "current_checkpoint": "M48-complete",
-  "next": "M49: restore canonical 의료보험수가 계산 프로그램 from located178. Verify candidate complete178–185and neighbors before bounded opening178–183mapping; then restore final184–185and assemble/audit the complete article. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M48evidence; use M47implementation-after.json as the current implementation baseline.",
+  "current_checkpoint": "M49-working",
+  "next": "Finish M49 native opening178–183: encode six source diagrams with original labelled/blank nodes, shared buses,opposing arrows,unheaded/broken ink and document stacks; twelve source menus/forms with individual fields,blank values,leader counts and independent CODE/quantity tables; two original illustrations, exact caption associations,nine ordered hierarchies,six source continuities and physical wrapped fragments. Build twice and independently audit all native records,pixels and raw bindings before opening acceptance. Then restore final184–185and assemble/audit the complete178–185medical article. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M48evidence;current shared implementation baseline remains M47implementation-after.json.",
   "pending_article_candidates": 14,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-medical-opening-work.json",
+    "sha256": "cb9887b6ef43e890cb12001d8a7a47f96edf1cf47f396755388fd15feacd2d78",
+    "bytes": 5605
+  }
 }

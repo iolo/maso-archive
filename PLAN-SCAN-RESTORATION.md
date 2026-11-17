@@ -391,6 +391,20 @@ restoration, then final 184–185 and whole-article assembly/audit. Every remain
 March task and reproducible whole-issue export/audit remains required. See the
 [accepted database article](metadata/catalog/scan-restoration/1984-03-database.json)
 and [M48 handoff](docs/SCAN-RESTORATION-1984-03-M48.md).
+
+**M49 is in progress for the medical article, verified actual 178–185.** Its
+bounded opening 178–183 now has all **58 text owners compared against enlarged
+JPEGs across 40 review contacts**, with 39 source qualifications retained.
+All 78 original-master crops and 58 initial OCR bindings pass; no retry was
+needed. Six diagrams, twelve menus/forms, two illustrations, caption
+associations, six source continuities and nine ordered hierarchies are mapped.
+Native fields, blank contexts, tables, diagram paths and independent exports
+remain pending, followed by final 184–185 and complete article assembly/audit.
+Accepted totals remain **24 complete articles, no partial articles, fourteen
+pending articles, three complete headings, three pending headings and 102
+pending dispositions across all 273 scans**. Continue the native opening;
+whole March remains active. See the
+[M49 work handoff](docs/SCAN-RESTORATION-1984-03-M49-WORK.md).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

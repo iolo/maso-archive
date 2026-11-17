@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M49",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0027",
+  "canonical_received_title": "의료보험수가 계산 프로그램",
+  "observed_source_title": "의료보험 수가계산 프로그램",
+  "status": "selected-source-comparison-complete;native-opening-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "selected_work_folios": [
+    178,
+    179,
+    180,
+    181,
+    182,
+    183
+  ],
+  "outside_lookup_folios": [
+    177,
+    184,
+    185,
+    186
+  ],
+  "deferred_actual_folios": [
+    184,
+    185
+  ],
+  "mapped_regions": 78,
+  "initial_text_tasks": 58,
+  "source_compared_text_regions": 58,
+  "pending_source_text_regions": 0,
+  "enlarged_source_review_views": 40,
+  "source_qualifications": 39,
+  "original_figure_regions": 20,
+  "original_diagrams": 6,
+  "original_menus_or_forms": 12,
+  "original_illustrations": 2,
+  "source_continuities": 6,
+  "ordered_source_hierarchies": 9,
+  "recognition_retries": 0,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_opening_package_selected": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "complete_whole_scan_articles": 24,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 14,
+  "complete_whole_scan_headings": 3,
+  "pending_heading_candidates": 3,
+  "source_images": 273,
+  "source_dispositions_pending": 102,
+  "active_process_handles": [],
+  "active_processes": [],
+  "source_accounting_note": "Accepted M48 source ledger remains unchanged until native acceptance. All ten extent views establish complete178–185and distinct177/186neighbors; six-page text comparison alone is not an accepted native segment or article.",
+  "cleanup_preview": "55.0 GiB;preview only;no deletion",
+  "next": "Finish M49 native opening178–183: encode six source diagrams with original labelled/blank nodes, shared buses,opposing arrows,unheaded/broken ink and document stacks; twelve source menus/forms with individual fields,blank values,leader counts and independent CODE/quantity tables; two original illustrations, exact caption associations,nine ordered hierarchies,six source continuities and physical wrapped fragments. Build twice and independently audit all native records,pixels and raw bindings before opening acceptance. Then restore final184–185and assemble/audit the complete178–185medical article. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M48evidence;current shared implementation baseline remains M47implementation-after.json.",
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/medical-a/map-r02.json",
+    "sha256": "053d3cc3ddafd78a94a7e73a58b8edb3944cca68597c3edebd7bcc6c5188ca7e",
+    "bytes": 41178
+  },
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/scope.json",
+    "sha256": "85ffb92ed28911c7602c45d6abdafd831c534fc71b3f58b20fae9b73cae68c7c",
+    "bytes": 2068
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/transition.json",
+    "sha256": "fed7e55d306ff89c6088002698d36bfd52189fdcdc1ced4baf35d4db88e91019",
+    "bytes": 2066
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/full-page-review.json",
+    "sha256": "da0369f2a690bddb85314424eba3ceda271829a07d080f8241120f9807b9b319",
+    "bytes": 9535
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/overlay-review.json",
+    "sha256": "a20aa18a11782ccad2e2bd6fa209fa472cf542b9a8ae1c442c41d15be8baf407",
+    "bytes": 4822
+  },
+  "recognition_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/recognition-plan-r02.json",
+    "sha256": "e4f41ada290dcf9b00161214d33844283f01581831eb3ca655044113a57381c4",
+    "bytes": 964
+  },
+  "recognition_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/source-recognition-audit.json",
+    "sha256": "af78ea25d0fabbf31096c28cbe1f2f7d05b6e0781c8ad9a0f105be29e42fd46b",
+    "bytes": 720
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/medical-a/source-compared-readings-03.json",
+    "sha256": "14c5c03d02cb99bfc21390a7abd0c987953d96a22ff983f5cd3fcbfe60f5a638",
+    "bytes": 56991
+  },
+  "source_text_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/source-text-work-audit.json",
+    "sha256": "60d67f3fda9957d53940ec362f053f681bf4778357017defaa5724f44eb4d1ea",
+    "bytes": 2376
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/medical-a/native-structure-plan.json",
+    "sha256": "bae4c74e39e821f12edcc8a902dc9f55cf040e7e35031fc249357abd981c41c3",
+    "bytes": 17596
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/recognition-outcomes.json",
+    "sha256": "c5381e8dc241c12335570a41df321a8dc462bce5496beceb5c9f0c755bf71990",
+    "bytes": 3210
+  },
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/resume.json",
+    "sha256": "f5771384bade99fe497b27866950d27303739a10655e2421f053404942750912",
+    "bytes": 2219
+  },
+  "cleanup_preview_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-45/clean-session-preview-01.log",
+    "sha256": "27f8a469c69dec5745e033350e98bb119a6f6407adbc1a85f0eecbf373e97b57",
+    "bytes": 233
+  }
+}
