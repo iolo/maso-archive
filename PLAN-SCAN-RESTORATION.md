@@ -141,8 +141,18 @@ intervening Figure 9 and caption remain intact. All 100 master crops, 79 OCR
 bindings, 12,889 typed references, 3,631 source/active byte spans and 46
 damaged-data checks pass. All 34 local source qualifications remain explicit.
 The unchanged 291-test baseline remains qualified. Continue M33 with
-자동 실행 테이프의 전모, candidate actual 109–112, and the remaining whole-issue
+자동실행 테이프의 전모, candidate actual 109–112, and the remaining whole-issue
 queue. See [the complete systems article](metadata/catalog/scan-restoration/1984-03-systems.json).
+M33 verifies that tape article's full 109–112 extent against preceding 108 and
+following 자료 구조 on 113. All four initial and revised mapping overlays have
+source comparison. The selected map retains 73 regions, seven original figure
+groups and six separately searchable figure/text overlaps. All 66 initial
+mapped OCR tasks finish without empty regions or retries; 73 source crops and
+eight page renders pass independent pixel checks. Enlarged comparison of the
+53 prose/title/caption contexts and thirteen code contexts, all native
+structures and final exports remain pending. Counts stay at seventeen complete
+articles and 21 pending candidates. See
+[the tape work state](metadata/catalog/scan-restoration/1984-03-tape-work.json).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

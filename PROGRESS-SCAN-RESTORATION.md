@@ -5388,7 +5388,50 @@ previewed without deletion; all launched processes were observed terminal.
 Whole March remains active with **seventeen complete articles, no partial
 articles, 21 pending article candidates, two completed headings, four pending
 headings and 164 pending full-page dispositions**, across all **273 scans**.
-Continue **M33** with **자동 실행 테이프의 전모**, candidate actual **109–112**;
+Continue **M33** with **자동실행 테이프의 전모**, candidate actual **109–112**;
 verify the full-page extent and neighboring material before mapping. See
 [the complete systems result](metadata/catalog/scan-restoration/1984-03-systems.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+## M33 in progress — tape article, actual 109–112
+
+Started canonical **자동실행 테이프의 전모**, **maso-1984-03-toc-0019**.
+The original opening prints **애플용 자동 실행 테이프의 전모**; preserve that
+distinction. All four full-page JPEG views have source comparison. Page 109
+opens the article, page 112 ends with a star, preceding 108 ends the systems
+article, and following 113 opens **자료 구조**. The verified extent is
+**109–112**.
+
+The selected map contains **73 regions: 66 text tasks and seven complete
+original figure groups**. Six annotated code figures also have separately
+searchable overlapping transcriptions. The initial overlay review caught
+outdented line clipping, a clipped first 0300 row and caption-top strokes.
+One preserved refinement corrects those bounds before recognition. All four
+initial and all four revised overlays were viewed; no recognition used the
+initial map.
+
+All **66 initial pinned mapped Tesseract tasks at scale 6000** finish with
+nonempty drafts and **zero retries**. All four OCR processes were observed
+terminal with exit zero. The independent audit checks every map/source/image,
+text/TSV/settings binding, **73 original-master region crops**, **eight full-page
+renders** and **3,054 TSV word rows**, parsed with `QUOTE_NONE`. Two audit-fixture
+corrections account for the additional page images and the eligible-page mask;
+all three audit attempts remain preserved and no OCR output changed. All
+35 frozen M32 evidence files and 51 shared implementation pins remain exact.
+
+**Native restoration remains pending.** Four enlarged boards prepare all
+**53 prose/title/caption contexts**; thirteen independent code/session/template
+contexts have separate source pointers. The sixty historical regional strings
+remain comparison guides only. Native work must preserve the keyboard/screen
+table's 85 slots and original glyph contexts, annotated placeholder boxes,
+legends and return marks, all dump and monitor fields, five captions and the
+closing star. The repeated opening introduction and each similar template are
+distinct source occurrences. No instruction execution, code regeneration or
+hardware correction is asserted.
+
+All launched jobs are terminal. Cleanup was previewed without deletion.
+Whole March remains active with **seventeen complete articles, no partial
+articles, 21 pending article candidates and 164 accepted pending full-page
+dispositions**. This working checkpoint does not select a tape article package
+or change article-completion counts. See
+[the saved tape work state](metadata/catalog/scan-restoration/1984-03-tape-work.json).

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M33-in-progress",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0019",
+  "canonical_received_title": "자동실행 테이프의 전모",
+  "observed_source_title": "애플용 자동 실행 테이프의 전모",
+  "status": "all66initial-recognitions-audited;all-enlarged-content-and-native-encoding-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    109,
+    110,
+    111,
+    112
+  ],
+  "selected_work_folios": [
+    109,
+    110,
+    111,
+    112
+  ],
+  "outside_boundary_folios": [
+    108,
+    113
+  ],
+  "selected_map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/tape/map-r01.json",
+    "sha256": "470fb0258fc099d66be5ae051019861b92d74b375c4932c86645ea954ea97293",
+    "bytes": 32817
+  },
+  "map_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/map-review.json",
+    "sha256": "165524eed8db289bc6869e6f65d2d21243e32bfcc1826fcc91cec005a60e4d2f",
+    "bytes": 2574
+  },
+  "mapped_regions": 73,
+  "initial_text_tasks": 66,
+  "recognition_retries": 0,
+  "empty_initial_regions": [],
+  "checked_master_crops": 73,
+  "checked_full_page_renders": 8,
+  "recognition_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/source-recognition-audit.json",
+    "sha256": "6d27e30fb3eb6c190bbce9748cf33fd9719f1caf95cbd09cfcf14ae95a4a823f",
+    "bytes": 768
+  },
+  "prose_title_caption_contexts_pending": 53,
+  "code_contexts_pending": 13,
+  "native_figure_groups_pending": 7,
+  "native_package_selected": false,
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/resume.json",
+    "sha256": "348f1fe7af34941aab568ef83f6f5fac75cef130d86da0f08bab2d87e9fbfd53",
+    "bytes": 2805
+  },
+  "review_attempts": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-29/work-review-attempts.json",
+    "sha256": "27ba082d618b2b9ad09f19f1eb59ba06444310d4128986d54c71e1400ea0d509",
+    "bytes": 3854
+  },
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "complete_whole_scan_articles": 17,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 21,
+  "accepted_source_dispositions_pending": 164,
+  "next": "Compare all53prose/title/caption contexts and13independent code/session/template contexts against the enlarged JPEGs. Encode all seven source figure groups,85keyboard/screen table slots,annotated placeholder fields/legends/return marks,all monitor/dump fields,source joins,five captions and closingstar. Then export and independently audit complete109–112twice before article acceptance. Never rerun or modify frozen M32helpers/evidence. Continue the rest of whole March afterward."
+}
