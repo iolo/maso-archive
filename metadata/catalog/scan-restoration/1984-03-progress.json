@@ -4332,6 +4332,11 @@
           "bytes": 1950751
         },
         "restoration_pending": true
+      },
+      "whole_scan_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-regression-work.json",
+        "sha256": "46b7c4a62bec4c6b9e863b1a0b4b49a85aa5f25b052f30c441474da543deec33",
+        "bytes": 4326
       }
     },
     {
@@ -5948,8 +5953,8 @@
     "sha256": "ace19a6de3ff77549caeb20df57c4763b777306a2199b81a11cdf11a174e6614",
     "bytes": 275418
   },
-  "current_checkpoint": "M36-complete",
-  "next": "M37: restore 심층적 회귀분석, maso-1984-03-toc-0023, candidate134–154, in bounded native segments. Verify full source extent and neighboring material; then continue every remaining March article,heading and all273source dispositions before issue export/audit.",
+  "current_checkpoint": "M37-in-progress",
+  "next": "Continue M37 for 심층적 회귀분석: encode and source-compare the bounded 134–139 opening native. Retain all original equations, eighteen transformation rows and their literal formula variants, observation-table blanks/damaged glyphs, independent DATA/display variants, matrix slots, source lists and joins. Encode twelve physical BASIC DATA rows as five logical units with explicit split-digit joins; preserve printed screen rows/columns and the annotated DATA/key contexts independently. Record opening-artwork labels/paths and reduced unresolved lettering without inventing text. Build the opening twice and independently audit all source pixels, native structures, typed ranges and damaged cases before accepting a partial segment or changing source dispositions. Then restore 140–154 in bounded segments and assemble the complete 134–154 article. Continue every remaining March article, heading and all 273 source dispositions before reproducible issue export/audit. Never execute or modify frozen M36 helpers/evidence.",
   "pending_article_candidates": 18,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,

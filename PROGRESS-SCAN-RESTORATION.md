@@ -75,9 +75,12 @@ awaiting full-page disposition**. M35 completes canonical **기계어 강좌**,
 verified actual **118–123**, in **163 exact native files** after enlarged source
 comparison and independent audit. M36 completes canonical **비지니스** as the
 non-owning divider on actual **133**, in six exact files retaining three original
-crops and six navigation rows. Continue M37 with **심층적 회귀분석**, candidate
-actual **134–154**, then all remaining articles, source dispositions and the
-reproducible whole-issue export/audit. March remains the current issue.
+crops and six navigation rows. M37 verifies the complete **심층적 회귀분석**
+extent **134–154** and begins its bounded **134–139** opening. All 63 initial OCR
+tasks and 65 master crops pass; all 63 text contexts have enlarged source reading
+comparison. Native structures, two exports and independent opening validation
+remain pending. Continue M37, then all remaining articles, source dispositions
+and the reproducible whole-issue export/audit. March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -5690,3 +5693,51 @@ all remaining articles, headings and source dispositions before final issue
 export/audit. See
 [the business heading result](metadata/catalog/scan-restoration/1984-03-business-heading.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+
+## M37 in progress — regression opening, actual 134–139
+
+Verified canonical **심층적 회귀분석**, **maso-1984-03-toc-0023**, across the
+complete original **134–154** extent. All **23 full-page views, 133–155**, were
+compared: six selected opening views **134–139** and seventeen outside lookups.
+The non-owning business divider precedes it on 133; separate **VISICALC 활용 /
+연재 5회** opens 155. Pages 140–146 continue statistical explanations and examples,
+147 is the original flowchart, and 148–154 continue the main listing through its
+last visible numbered row **19420**. The prose closing star on 148 does not end
+the article before that listing. These extent lookups do not complete native
+restoration of 140–154.
+
+The selected opening has **65 mapped regions: 63 text contexts and two original
+figures**. Initial maps and both pre-recognition refinements remain preserved.
+All six OCR processes were observed terminal with exit zero; all **63 initial
+tasks**, settings/text/TSV pins, **65 original-master crops** and twelve page-render
+checks pass. TSV parsing retains `QUOTE_NONE`; no retry was needed. All 63 text
+contexts now have enlarged source reading comparison; both original figures have
+descriptive comparison. The historical PDF transcription is preserved as an
+unaccepted comparison guide, separate from the selected JPEG readings.
+
+Source comparison retains the ninth observation's blank Y cell, the damaged
+thirteenth X₁ value, the abbreviated example's **139** versus the observation
+table's **130**, and independent DATA rows ending **1,1** versus **0,0**. The
+JPEG selects **B₅** in the exponential model where the historical guide had B₆.
+The original transformation expressions, blank table slots, matrix positions,
+physical DATA digit wraps and printed message spellings remain explicit. The
+opening artwork wraps around the introductory text; reduced symbols, signature
+and photographed monitor lettering remain qualified or unresolved.
+
+**Native equation/table/listing geometry, structured ranges and relationships,
+two exports and independent opening validation remain pending.** No new article
+package or source disposition is accepted by this working state. Whole March
+remains active with **twenty complete articles, no partial articles, eighteen
+pending article candidates, three completed headings, three pending headings
+and 146 pending full-page dispositions** across all **273 scans**. All 37 frozen
+M36 evidence files and 51 shared implementation pins remain exact; the unchanged
+291-test baseline stays qualified. Cleanup was previewed without deletion, and
+all launched processing jobs were observed terminal.
+
+Continue M37 from
+[the working record](metadata/catalog/scan-restoration/1984-03-regression-work.json):
+encode and source-compare the complete opening native, build it twice and audit
+it independently before partial-segment acceptance. Then restore 140–154,
+assemble the whole article and continue every remaining March identity/source
+disposition before the final reproducible issue export/audit.
