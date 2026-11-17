@@ -69,18 +69,18 @@ M32 completes their native assembly in 363 exact files. M33 completes
 **자동실행 테이프의 전모**, actual **109–112**, in **280 exact files**.
 M34 completes **자료 구조**, actual **113–117**, in **169 exact files** after
 enlarged source comparison and independent native audit. Current totals are
-**twenty complete articles, no partial articles, eighteen pending article
-candidates, three completed headings, three pending headings and 146 source images
+**twenty complete articles, one partial article, seventeen pending article
+candidates, three completed headings, three pending headings and 125 source images
 awaiting full-page disposition**. M35 completes canonical **기계어 강좌**,
 verified actual **118–123**, in **163 exact native files** after enlarged source
 comparison and independent audit. M36 completes canonical **비지니스** as the
 non-owning divider on actual **133**, in six exact files retaining three original
 crops and six navigation rows. M37 verifies the complete **심층적 회귀분석**
-extent **134–154** and begins its bounded **134–139** opening. All 63 initial OCR
-tasks and 65 master crops pass; all 63 text contexts have enlarged source reading
-comparison. Native structures, two exports and independent opening validation
-remain pending. Continue M37, then all remaining articles, source dispositions
-and the reproducible whole-issue export/audit. March remains the current issue.
+extent **134–154** and completes its bounded **134–139** opening in **263 exact
+native files**. All 63 initial OCR tasks, 65 master crops, native relationships,
+two builds and 38 damaged-data checks pass. Continue **M38** on **140–145**, then
+the rest of the article and all remaining March content, source dispositions and
+the reproducible whole-issue export/audit. March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -5695,7 +5695,7 @@ export/audit. See
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
 
 
-## M37 in progress — regression opening, actual 134–139
+## M37 complete — regression opening, actual 134–139
 
 Verified canonical **심층적 회귀분석**, **maso-1984-03-toc-0023**, across the
 complete original **134–154** extent. All **23 full-page views, 133–155**, were
@@ -5725,19 +5725,42 @@ physical DATA digit wraps and printed message spellings remain explicit. The
 opening artwork wraps around the introductory text; reduced symbols, signature
 and photographed monitor lettering remain qualified or unresolved.
 
-**Native equation/table/listing geometry, structured ranges and relationships,
-two exports and independent opening validation remain pending.** No new article
-package or source disposition is accepted by this working state. Whole March
-remains active with **twenty complete articles, no partial articles, eighteen
-pending article candidates, three completed headings, three pending headings
-and 146 pending full-page dispositions** across all **273 scans**. All 37 frozen
-M36 evidence files and 51 shared implementation pins remain exact; the unchanged
-291-test baseline stays qualified. Cleanup was previewed without deletion, and
-all launched processing jobs were observed terminal.
+The accepted opening encodes **37 original structures, 530 source fields,
+87 rows, 383 table/display cells and 60 original ink paths**. The observation
+panels, eighteen transformation rules, variable-index tables, repeated input
+patterns, two physical matrices and five annotated DATA rows retain separate
+source identities. Both original figures remain intact; three reduced lettering
+contexts are unresolved. Field bounds and original ink centerlines are approximate
+source contexts, with all 28 enlarged overlays compared before selection.
 
-Continue M37 from
-[the working record](metadata/catalog/scan-restoration/1984-03-regression-work.json):
-encode and source-compare the complete opening native, build it twice and audit
-it independently before partial-segment acceptance. Then restore 140–154,
-assemble the whole article and continue every remaining March identity/source
-disposition before the final reproducible issue export/audit.
+The eight independent listing/output contexts retain **101 physical rows and
+94 logical units**. The twelve physical BASIC DATA rows own five numbered units
+and **57 values**; six explicit fragment joins preserve **194, 190, 192, 220,
+52.7 and 51.7** across printed digit wraps. The typeset DATA key and annotated
+example are separate from that listing. **54 formula/transformation-cell
+occurrences**, 359 physical lexical fields and **42 items in seven lists** retain
+exact source ranges. The printed `T INVER- / SE` wrap has an explicit join to
+searchable `T INVERSE`; the original source pixels remain preserved.
+
+Both independent exports contain **263 identical files**. The separate audit
+checks all **65 master crops**, 63 original recognition bindings, 255 raw ZIP
+members, **3,538 native records, 14,893 typed references and 9,055 byte spans**.
+All **38 damaged-data cases** are rejected. The initial failed geometry parser,
+list-scope assertion and audit fixture are retained with their corrections;
+all earlier candidates and both prior exports remain preserved. All 37 frozen
+M36 files and 51 shared implementation pins remain exact, so the qualified
+291-test baseline is reused. M37 freezes **838 evidence files**. Cleanup was
+previewed without deletion; all launched jobs are terminal.
+
+Whole March remains active with **twenty complete articles, one partial article,
+seventeen pending article candidates, three completed headings, three pending
+headings and 125 pending full-page dispositions** across all **273 scans**.
+Source 140–154 is located and classified for extent only; none of that deferred
+native content is accepted. Source 155 is the separate Visicalc opening.
+
+Continue **M38** on **140–145**, preserving the
+[accepted opening](metadata/catalog/scan-restoration/1984-03-regression-opening.json).
+Then restore 146–151 and 152–154, assemble/audit the complete 134–154 article and
+continue every remaining March identity and source disposition before the final
+reproducible issue export/audit. Never execute or modify frozen M37 helpers or
+evidence.

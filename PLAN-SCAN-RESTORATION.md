@@ -201,18 +201,23 @@ with **심층적 회귀분석**, candidate actual **134–154**, verifying its f
 and neighbors before restoring bounded segments. Then continue every remaining
 article, heading and source disposition before final issue export/audit. See
 [the business heading result](metadata/catalog/scan-restoration/1984-03-business-heading.json).
-M37 is in progress on **심층적 회귀분석**. All original full pages **133–155**
-verify the complete article extent **134–154** and separate neighbors. The bounded
-opening selects **134–139**; seventeen outside lookups establish extent only.
-All **63 initial mapped OCR tasks, 65 original-master crops and twelve page-render
-checks** pass. All 63 text contexts have enlarged source reading comparison,
-and both original figures have descriptive comparison. Literal table blanks,
-damaged digits, formula variants and independent DATA/display differences remain
-explicit. **Native equation/table/listing geometry, structured relationships,
-exports and independent opening validation remain pending.** No article or source
-disposition is newly accepted; completion counts remain those of M36. Continue
-M37 from [the working record](metadata/catalog/scan-restoration/1984-03-regression-work.json),
-then the rest of this article and every remaining whole-issue task.
+M37 now completes the **134–139 opening** of **심층적 회귀분석** in **263 exact
+native files**. Original full pages **133–155** verify the complete **134–154**
+extent and separate neighbors. All 63 initial recognitions and 65 exported crops
+pass source checks. The opening retains **37 structures, 530 source fields,
+383 table/display cells, 101 physical code/output rows, 94 logical units,
+57 DATA values with six explicit split-number joins, 54 formula/cell occurrences
+and 42 list items**. Independent source/export audit, both builds and all
+**38 damaged-data checks** pass. Source blanks, damaged digits, literal formula
+variants, independent DATA/output differences and unresolved artwork lettering
+remain explicit. M37 freezes **838 evidence files**, with shared implementation
+unchanged. Whole March remains active with **twenty complete articles, one
+partial article, seventeen pending article candidates, three completed headings,
+three pending headings and 125 pending full-page dispositions** across all
+**273 scans**. Located deferred pages are classified for extent only; their native
+restoration is still required. Continue **M38** with actual **140–145**, then
+146–151 and 152–154, followed by complete 134–154 assembly/audit and every remaining
+March task. See [the accepted opening](metadata/catalog/scan-restoration/1984-03-regression-opening.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

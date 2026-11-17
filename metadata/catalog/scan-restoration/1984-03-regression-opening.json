@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M37",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0023",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "심층적 회귀분석",
+  "observed_source_title": "심층적 회귀분석",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    134,
+    135,
+    136,
+    137,
+    138,
+    139
+  ],
+  "article_actual_folios": [
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
+  ],
+  "selected_package": "archive/scans/1984-03/packages/regression-a-jpeg-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/regression-a-jpeg-r02/manifest.json",
+    "sha256": "b4c74b3994bcefa351554b50a39f86b35d0cd754bed3cb83d2631f81be31e943",
+    "bytes": 45172
+  },
+  "exact_files": 263,
+  "native_structure": {
+    "blocks": 61,
+    "text_regions": 63,
+    "prose_joins": 2,
+    "figures": 2,
+    "physical_rows": 101,
+    "logical_units": 94,
+    "independent_contexts": 8,
+    "lexical_fields": 359,
+    "DATA_values": 57,
+    "DATA_split_digit_joins": 6,
+    "list_groups": 7,
+    "list_items": 42,
+    "formula_occurrences_and_transformation_cells": 54,
+    "geometry_fields": 530,
+    "source_text_changed": false,
+    "whole_article_complete": false,
+    "whole_issue_complete": false,
+    "source_structures": 37,
+    "source_fields": 530,
+    "source_rows": 87,
+    "source_cells": 383,
+    "original_paths": 60
+  },
+  "native_index_records": 3538,
+  "typed_references": 14893,
+  "byte_spans": 9055,
+  "master_crops": 65,
+  "rejected_damaged_cases": 38,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-33/validation-native-opening-02.json",
+    "sha256": "9c6d9a22d4cfc67d0163f94dac3245cd67740759b7d03945841c01ce770d572a",
+    "bytes": 3561
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-33/regression-a/recipe-native-03.json",
+    "sha256": "7a4aafee9103fe382d0f9eecdd86f3b8299f8e2663d7651006b0eab78ca8878f",
+    "bytes": 10865
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-33/source-ledger.json",
+    "sha256": "b2f06eb52d6e051707e29c426a60f9199f3784a03b4132543c9da7e5082ee427",
+    "bytes": 298494
+  },
+  "source_dispositions_pending": 125,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-33/whole-progress-m37.json",
+    "sha256": "e01f3488e9dd5170214876f10122eadd431be6071b7cb36df6d6ff5c26190e95",
+    "bytes": 192178
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-33/evidence-manifest.json",
+    "sha256": "5d591c26b89c84107b234dd6da6e791819eb425e266749aa44310297dd9f7078",
+    "bytes": 154076
+  },
+  "frozen_evidence_files": 838,
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 291,
+  "next": "M38: restore actual 140–145 of 심층적 회귀분석 from the donated JPEGs. Preserve the accepted M37 opening, its independent source variants and verified complete extent 134–154. Then restore 146–151 and 152–154 in bounded checkpoints and assemble/audit the complete article. Continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Do not execute or modify frozen M37 helpers/evidence.",
+  "native_input_summary": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-33/regression-a/native-input-03/summary.json",
+    "sha256": "07eb3fc3593bda67803af4ccf29cdadd4377f3d23e82126844074b8483903ff8",
+    "bytes": 865
+  }
+}
