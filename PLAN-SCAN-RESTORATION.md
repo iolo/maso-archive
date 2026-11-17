@@ -185,10 +185,22 @@ qualifications remain preserved; shared implementation is unchanged. M35 freezes
 524 evidence files. Whole March remains active with **twenty complete articles,
 eighteen pending article candidates, two completed headings, four pending
 headings and 149 pending full-page dispositions** across all 273 scans.
-Continue M36 with canonical **비지니스**, candidate actual **133**; verify its
-complete source and neighbors before heading classification. Then continue every
-remaining article, heading and source disposition before final issue export/audit.
 See [the complete Z80 result](metadata/catalog/scan-restoration/1984-03-z80.json).
+M36 completes canonical **비지니스** as the non-owning divider on actual **133**:
+**six exact classification files, three original-master crops and six navigation
+rows**. Both independent builds, the separate pixel/source audit and all
+28 damaged-data checks pass. The diagonal **비지니스**, navigation **비즈니스**
+and raised mark in `Visicalc'의 활용` retain their source-specific readings.
+Neighbor 132 is a separate contest announcement without a visible printed folio;
+134 opens **심층적 회귀분석**, whose native restoration remains pending.
+M36 freezes 37 evidence files and leaves shared implementation unchanged.
+Whole March remains active with **twenty complete articles, eighteen pending
+article candidates, three completed headings, three pending headings and
+146 pending full-page dispositions** across all **273 scans**. Continue **M37**
+with **심층적 회귀분석**, candidate actual **134–154**, verifying its full extent
+and neighbors before restoring bounded segments. Then continue every remaining
+article, heading and source disposition before final issue export/audit. See
+[the business heading result](metadata/catalog/scan-restoration/1984-03-business-heading.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

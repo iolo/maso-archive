@@ -3748,8 +3748,8 @@
       "title": "비지니스",
       "parent_id": null,
       "classification_candidate": "group-heading",
-      "whole_scan_status": "pending-source-backed-heading-disposition",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-source-backed-group-heading",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0022",
         "title": "비지니스",
@@ -3769,7 +3769,55 @@
           "note": "Source section divider without independent article body."
         }
       },
-      "new_selected_restoration": null
+      "new_selected_restoration": null,
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "availability": "not-applicable",
+      "child_toc_entry_ids": [
+        "maso-1984-03-toc-0023",
+        "maso-1984-03-toc-0024",
+        "maso-1984-03-toc-0025",
+        "maso-1984-03-toc-0026",
+        "maso-1984-03-toc-0027",
+        "maso-1984-03-toc-0028"
+      ],
+      "located_source_evidence": {
+        "actual_folio": 133,
+        "observed_heading": "비지니스",
+        "observed_navigation_heading": "비즈니스",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-32/review/full-133.jpg",
+          "sha256": "e46491a4024a6d2bd23165a2d78cde310703c64d84d518613299f1e2c0519ea1",
+          "bytes": 1445487
+        },
+        "classification_pending": false,
+        "selected_source_classification": {
+          "path": "archive/scans/1984-03/classifications/business-jpeg-r01/group-0022.json",
+          "sha256": "678dcc159babe3cf551c9a72691eef5e20b8ff02334375aec7791a5c0f6852a6",
+          "bytes": 6625
+        }
+      },
+      "new_selected_classification": {
+        "checkpoint": "M36",
+        "directory": "archive/scans/1984-03/classifications/business-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/classifications/business-jpeg-r01/manifest.json",
+          "sha256": "7e5c42bfa032c5ede0e06b1a99be6018ea146f090c13948a3a74c02a43fbe71b",
+          "bytes": 866
+        },
+        "record": {
+          "path": "archive/scans/1984-03/classifications/business-jpeg-r01/group-0022.json",
+          "sha256": "678dcc159babe3cf551c9a72691eef5e20b8ff02334375aec7791a5c0f6852a6",
+          "bytes": 6625
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-32/validation.json",
+          "sha256": "c732e00382c7acea48fd015f2d02733ea11908cd0f92c908d419b45d52bb3ab5",
+          "bytes": 2451
+        },
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0023",
@@ -4274,7 +4322,17 @@
         152,
         153,
         154
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 134,
+        "observed_title": "심층적 회귀분석",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-32/review/full-134.jpg",
+          "sha256": "4885dd9ea5716edd98ababc76299844c852f4d9183a61ec69865f11fb9153f43",
+          "bytes": 1950751
+        },
+        "restoration_pending": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0024",
@@ -5886,14 +5944,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-31/source-ledger.json",
-    "sha256": "4f27b5c4eaa6576cfed9a9159393366952ed1f32f9a05e24af8732cfae62a755",
-    "bytes": 272770
+    "path": "archive/scans/1984-03/restoration/whole-issue-32/source-ledger.json",
+    "sha256": "ace19a6de3ff77549caeb20df57c4763b777306a2199b81a11cdf11a174e6614",
+    "bytes": 275418
   },
-  "current_checkpoint": "M35-complete",
-  "next": "M36: restore canonical 비지니스 heading, maso-1984-03-toc-0022, from donated JPEGs. Historical actual133is a candidate only; view the complete original and neighboring material before classification/mapping. Then continue all remaining March articles and headings, including the pending information-news opening located on124, and all273source dispositions before reproducible whole-issue export/audit. Whole March remains active.",
+  "current_checkpoint": "M36-complete",
+  "next": "M37: restore 심층적 회귀분석, maso-1984-03-toc-0023, candidate134–154, in bounded native segments. Verify full source extent and neighboring material; then continue every remaining March article,heading and all273source dispositions before issue export/audit.",
   "pending_article_candidates": 18,
-  "pending_heading_candidates": 4,
+  "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 2
+  "complete_whole_scan_headings": 3
 }

@@ -70,12 +70,14 @@ M32 completes their native assembly in 363 exact files. M33 completes
 M34 completes **자료 구조**, actual **113–117**, in **169 exact files** after
 enlarged source comparison and independent native audit. Current totals are
 **twenty complete articles, no partial articles, eighteen pending article
-candidates, two completed headings, four pending headings and 149 source images
+candidates, three completed headings, three pending headings and 146 source images
 awaiting full-page disposition**. M35 completes canonical **기계어 강좌**,
 verified actual **118–123**, in **163 exact native files** after enlarged source
-comparison and independent audit. Continue M36 with canonical **비지니스**,
-candidate actual **133**, then all remaining articles, source dispositions and
-the reproducible whole-issue export/audit. March remains the current issue.
+comparison and independent audit. M36 completes canonical **비지니스** as the
+non-owning divider on actual **133**, in six exact files retaining three original
+crops and six navigation rows. Continue M37 with **심층적 회귀분석**, candidate
+actual **134–154**, then all remaining articles, source dispositions and the
+reproducible whole-issue export/audit. March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
 All completed records are assistant
@@ -5650,4 +5652,41 @@ canonical **비지니스**, candidate actual **133**, verifying the original ful
 page and neighbors before classification, then the remaining whole-issue queue
 and final export/audit. See
 [the complete Z80 result](metadata/catalog/scan-restoration/1984-03-z80.json)
+and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).
+
+
+## M36 complete — business divider, actual 133
+
+Completed canonical **비지니스**, **maso-1984-03-toc-0022**, as a non-owning
+section divider on actual **133**. Two independent builds reproduce **six exact
+classification files** retaining **three original-master crops and six navigation
+rows**. Full-page and enlarged comparisons preserve the diagonal **비지니스**,
+the small navigation heading **비즈니스**, the original photograph and all six
+child references. The raised stroke in `Visicalc'의 활용` is transcribed as an
+apostrophe with its exact glyph/blemish status qualified; the received canonical
+child title remains separate. Navigation references do not establish child extents.
+
+Neighbor 132 is visually classified as a separate **제1회(1984년도) 전국 퍼스널컴퓨터
+경진대회 개최 안내** announcement, with no visible printed folio and no article
+body owner. This disposition does not claim full transcription of the notice.
+Following 134 opens **심층적 회귀분석**, with the deck **개인용 컴퓨터를 이용한**
+and byline **신동완 / 대림산업 기획조정실**; its native article restoration remains
+pending. All source indices come from the pinned inventory.
+
+The independent audit verifies both builds, all three original-master pixel
+crops, six navigation rows and six canonical children, and rejects all
+**28 damaged classification cases**. All 524 frozen M35 evidence files and 51
+shared implementation pins remain exact; the unchanged 291-test baseline stays
+qualified. The initial candidate without the raised Visicalc mark and the
+source-selected revision remain preserved. M36 freezes **37 evidence files**.
+Cleanup was previewed without deletion; no OCR was needed for this classification.
+
+Whole March remains active with **twenty complete articles, no partial articles,
+eighteen pending article candidates, three completed headings, three pending
+headings and 146 pending full-page dispositions** across **273 scans**.
+Continue **M37** with **심층적 회귀분석**, candidate actual **134–154**, verifying
+the complete source extent and neighbors before bounded native segments. Continue
+all remaining articles, headings and source dispositions before final issue
+export/audit. See
+[the business heading result](metadata/catalog/scan-restoration/1984-03-business-heading.json)
 and [active progress](metadata/catalog/scan-restoration/1984-03-progress.json).

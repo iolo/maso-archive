@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M36",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0022",
+  "canonical_received_title": "비지니스",
+  "observed_source_heading": "비지니스",
+  "observed_navigation_heading": "비즈니스",
+  "status": "complete-source-backed-group-heading",
+  "whole_heading_complete": true,
+  "whole_issue_complete": false,
+  "body_owner": false,
+  "restoration": null,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    133
+  ],
+  "selected_classification": "archive/scans/1984-03/classifications/business-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/classifications/business-jpeg-r01/manifest.json",
+    "sha256": "7e5c42bfa032c5ede0e06b1a99be6018ea146f090c13948a3a74c02a43fbe71b",
+    "bytes": 866
+  },
+  "record": {
+    "path": "archive/scans/1984-03/classifications/business-jpeg-r01/group-0022.json",
+    "sha256": "678dcc159babe3cf551c9a72691eef5e20b8ff02334375aec7791a5c0f6852a6",
+    "bytes": 6625
+  },
+  "exact_files": 6,
+  "master_crops": 3,
+  "navigation_rows": 6,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-32/validation.json",
+    "sha256": "c732e00382c7acea48fd015f2d02733ea11908cd0f92c908d419b45d52bb3ab5",
+    "bytes": 2451
+  },
+  "builder": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-32/build-heading.py",
+    "sha256": "8ddc99179090aee24002d2f73310249115b87e7d3e587e97dcf0676318a854b7",
+    "bytes": 3008
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-32/source-ledger.json",
+    "sha256": "ace19a6de3ff77549caeb20df57c4763b777306a2199b81a11cdf11a174e6614",
+    "bytes": 275418
+  },
+  "source_dispositions_pending": 146,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-32/whole-progress-m36.json",
+    "sha256": "ed03ced355043716144363e42c1c467570d75f1d0dc45f7c1e93eda43f85ed3a",
+    "bytes": 189857
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-32/evidence-manifest.json",
+    "sha256": "65043be18b20da0728b78f93109dd6da7e9c10663c4c1d06ae43bf3fcc9c1782",
+    "bytes": 6051
+  },
+  "frozen_evidence_files": 37,
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 291,
+  "next": "M37: restore 심층적 회귀분석, maso-1984-03-toc-0023, candidate134–154, in bounded native segments. Verify full source extent and neighboring material; then continue every remaining March article,heading and all273source dispositions before issue export/audit."
+}
