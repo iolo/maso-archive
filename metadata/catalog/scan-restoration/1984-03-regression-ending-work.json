@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M40",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0023",
+  "canonical_received_title": "심층적 회귀분석",
+  "status": "mapped-recognition-audited;partial-source-review;native-encoding-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154
+  ],
+  "selected_work_folios": [
+    152,
+    153,
+    154
+  ],
+  "outside_lookup_folios": [
+    151,
+    155
+  ],
+  "mapped_regions": 9,
+  "initial_text_tasks": 7,
+  "recognition_retries": 0,
+  "source_compared_text_regions": 3,
+  "pending_source_text_regions": 4,
+  "original_diagram_regions": 2,
+  "descriptive_original_figure_reviews": 2,
+  "compared_physical_code_rows": 148,
+  "compared_numbered_statements": 110,
+  "compared_blank_code_rows": 2,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_article_package_selected": false,
+  "complete_whole_scan_articles": 20,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 17,
+  "complete_whole_scan_headings": 3,
+  "pending_heading_candidates": 3,
+  "source_dispositions_pending": 125,
+  "active_process_handles": [],
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "next": "Compare both enlarged listing columns on153and154; preserve cross-column12125and cross-page15040statement ownership. Encode all original rows,DATAareas, source spelling/rules/qualifications, dashed paths and arrow before independent native ending exports/audits. Then assemble/audit full134–154article and every remaining March task.",
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/regression-d/map-r01.json",
+    "sha256": "2fbe4a18570befa5a3fd8db83c536c7de8371a31a3fc25791f2ee889541ae4e0",
+    "bytes": 9666
+  },
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/scope.json",
+    "sha256": "a201494e4979a580500015d7e2492bc31b16b2cd8891d05bb03c6bccd4136a23",
+    "bytes": 3440
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/transition.json",
+    "sha256": "49080e0461d747ed61933217ee10e455a9bb79dd0009c12a5a8608a4c22c9273",
+    "bytes": 3851
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/full-page-review.json",
+    "sha256": "989e669471ea75e71a289dc5172706e43f0f15e1ee8e874810aeccb0788583b8",
+    "bytes": 5319
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/overlay-review.json",
+    "sha256": "48c83421c332286950f4a3b02e1febac6b162bacb0a0e09e268dc114e7802e35",
+    "bytes": 3181
+  },
+  "recognition_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/source-recognition-audit.json",
+    "sha256": "b607760850b3460615e40230f375ae1e1515e14d75a9c2857d1a8a4740beecba",
+    "bytes": 765
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/regression-d/source-compared-readings.json",
+    "sha256": "301296dfba3d5bd30d5ca7b556c3f1f67e6a4db022f5921f8812d8aa73371f67",
+    "bytes": 17650
+  },
+  "figure_observations": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/regression-d/figure-source-observations.json",
+    "sha256": "e14929c4bcb20ad3885ebed28860f6b4757d435968e945a919c84ca038c91bff",
+    "bytes": 2185
+  },
+  "source_review_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/source-review-work-audit.json",
+    "sha256": "ca528839c21926a4530752f389e538b7aae3be8dd59a6170f3d3c94164367977",
+    "bytes": 1285
+  },
+  "terminal_logs": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/terminal-process-log-pins.json",
+    "sha256": "1ee313e53870bfcea1a88187b0aee254d119e0221a6180999d3bdc2f175279bb",
+    "bytes": 815
+  },
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-36/resume.json",
+    "sha256": "44015df7df9a8ddd81de726758129679ca32094257df25c85c4f1835e240666b",
+    "bytes": 3033
+  },
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-opening.json",
+    "sha256": "df54f87118b4998323e0a4b16618c9c50b8a2595d9e0a926135c83ea0d687ed1",
+    "bytes": 3711
+  },
+  "accepted_middle": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-middle.json",
+    "sha256": "3b193f717e8dd6aaf66f80899afaab8a2ea1d344322da33e566612f8b0cdd56a",
+    "bytes": 3734
+  },
+  "accepted_program": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-program.json",
+    "sha256": "ef19dd3efad991fd672a3a882208b66902b5eae1fa4929fb6f6447516776dece",
+    "bytes": 3790
+  },
+  "acceptance_note": "This is working evidence. Three selected original pages and two neighbors, all selected map overlays, seven initial recognitions and nine original-master crops are checked. Three text contexts on 152 and both DATA drawing parts are source-compared. Four listing contexts and all native geometry/occurrence encoding remain pending. No M40 native package is selected; accepted article and issue counters are unchanged."
+}

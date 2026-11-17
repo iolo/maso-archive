@@ -248,6 +248,17 @@ assembly are still required**. Whole-issue counters remain **20 complete article
 one partial article, 17 pending articles, three complete headings, three pending
 headings and 125 pending full-page dispositions** across **273 scans**. See
 [the accepted program segment](metadata/catalog/scan-restoration/1984-03-regression-program.json).
+**M40 is working on actual 152–154.** All three selected originals, neighbors
+151/155 and both map revisions have source comparison. Initial mapped recognition
+passes all **seven text tasks, nine master crops and six page-render checks**,
+with no empty regions or retries. Three text contexts on 152 and both original
+DATA drawing parts are source-compared: **148 physical code rows and 110 numbered
+statements**, with two original blank rows. The source retains `12000`, a selected
+`R6` glyph, five **19/20-dash** rules and the missing division operator in 10100.
+Four listing contexts and native encoding remain pending. Explicit links must
+preserve statement **12125 across columns** and **15040 across pages**. The ending
+is the visible **19420** on 154, followed by VISICALC on 155; no missing 19430 is
+inferred. See [the ending work record](metadata/catalog/scan-restoration/1984-03-regression-ending-work.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

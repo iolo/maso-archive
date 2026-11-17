@@ -5996,3 +5996,51 @@ then assemble and audit the complete **134–154** article. March stays active w
 headings, three pending headings and 125 pending full-page dispositions** across
 **273 scans**. Every remaining March task and the whole-issue export/audit remain
 required before closing the issue.
+
+## M40 working — regression ending, actual 152–154
+
+This checkpoint selects three ending pages, **152–154**, with **151/155** as its
+two outside continuity lookups. All five original full pages and all three
+selected map overlays have visual comparison. The selected map retains **nine
+regions**: six listing columns, the separately searchable Korean DATA label and
+two original drawing parts. Six complete listing frames remain in their crops.
+The label bounds were padded, and the left drawing crop excludes the preceding
+8230 row while keeping its original dashed top stroke. Both map revisions remain.
+
+All three OCR processes are terminal. The recognition audit checks **seven text
+tasks, nine original-master crops, six page renders and 2,276 TSV word rows** with
+unquoted TSV parsing. There are **no empty regions and no retries**. Its first
+runtime-pin fixture looked in the OCR output directory; the passing revision
+checks the pin in its owning global toolchain. Recognition settings and results
+are unchanged. All **489 frozen M39 files** and **51 shared implementation files**
+remain exact.
+
+The first source-work milestone compares both listing columns on 152 and the
+two-line **데이터 / 입력부분** label: **148 physical code rows, 110 numbered
+statements and two original blank rows**. Printed 8004 visibly targets **12000**,
+correcting the old guide's 1200. Printed 8220 independently has `RS=WS` and a
+six-shaped `R6` in its later numerator; retain `R6` with `RS` as a qualified
+alternative. All five rules on the right have **19/20** physical dash pieces.
+The source's omitted division operator before `P` in 10100 remains omitted.
+An enlarged detail confirms the original 11160 label. Printed order, token
+wraps, detached ink and independent DATA literals remain preserved.
+
+Both DATA drawing parts have enlarged source comparison. The left has a dashed
+top and sides, an open bottom and a left-pointing annotation arrow beside rows
+9000–9040. The right has sides and a lower dashed path around 9050, with an open
+top. No closing edge or connector across columns is invented. The label and
+listing own searchable text separately; native paths remain pending.
+
+Full-page comparison identifies two statement continuations that the native
+ending must bind explicitly: **12125** continues from the left to right column
+on 153, and **15040** continues into the first unnumbered `TO OT` row on 154.
+The last visible statement is **19420**, followed by blank space in its frame.
+Page 155 begins **VISICALC 활용**. The earlier narrative 19430 endpoint does not
+authorize fabricating an additional source line or RETURN.
+
+The independent partial source-work audit passes. **No M40 native package is
+selected.** Continue enlarged comparison of the four listing contexts on 153–154,
+then native row/statement/annotation encoding, two exports and source audits.
+Assemble and audit the full **134–154** article afterward, then continue every
+remaining March article, heading and all **273** source dispositions. Accepted
+whole-issue counters remain unchanged.

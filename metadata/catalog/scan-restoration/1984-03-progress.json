@@ -6046,10 +6046,15 @@
     "sha256": "76aba6ab7c9b7820860fb77c206a29fbf78548af319c0c0774ff51e2841306be",
     "bytes": 300804
   },
-  "current_checkpoint": "M39-complete",
-  "next": "M40: restore actual 152–154, the ending of 심층적 회귀분석, from the donated JPEGs. Preserve accepted M37–M39 segments and verified full extent 134–154. Assemble and audit the complete article, then continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M39 helpers or evidence.",
+  "current_checkpoint": "M40-working",
+  "next": "Compare both enlarged listing columns on153and154; preserve cross-column12125and cross-page15040statement ownership. Encode all original rows,DATAareas, source spelling/rules/qualifications, dashed paths and arrow before independent native ending exports/audits. Then assemble/audit full134–154article and every remaining March task.",
   "pending_article_candidates": 17,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-ending-work.json",
+    "sha256": "8438ba018b204dd03e5e1beaa7b851997b23220634c836be38e38b2366f342e3",
+    "bytes": 5230
+  }
 }
