@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M46",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0025",
+  "status": "complete-native-ending-segment",
+  "canonical_received_title": "서북 편란법",
+  "source_kind": "jpeg-set",
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "actual_folios": [
+    171,
+    172,
+    173
+  ],
+  "article_actual_folios": [
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173
+  ],
+  "selected_package": "archive/scans/1984-03/packages/northwest-b-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/northwest-b-jpeg-r01/manifest.json",
+    "sha256": "31fa005909f9ae725b3c158aba8be8a8afc45e5fb295ee53f0fc0061a8ad00b8",
+    "bytes": 3365
+  },
+  "exact_files": 21,
+  "physical_listing_rows": 206,
+  "logical_listing_units": 187,
+  "physical_wraps": 19,
+  "lexical_fields": 2667,
+  "DATA_values": 15,
+  "literal_target_occurrences": 56,
+  "formula_contexts": 21,
+  "native_index_records": 3597,
+  "typed_references": 24455,
+  "byte_spans": 12659,
+  "source_asset_bindings": 6754,
+  "master_crops": 3,
+  "recognition_bindings": 3,
+  "recognition_retries": 0,
+  "rejected_damaged_cases": 23,
+  "source_qualifications": 27,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-42/validation-native-ending.json",
+    "sha256": "186b57431754231f1e53f9cb9a8c0d77d2e6c747e4c2d922ef8f83302365c530",
+    "bytes": 2228
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-42/northwest-b/recipe-native-01.json",
+    "sha256": "378d6a16edc1b00eec194d41da6ed39026228669367692d30db89e1194852a3e",
+    "bytes": 3655
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-42/source-ledger.json",
+    "sha256": "793c1d6d51871f565c4ad0e3dd61f1e50d6d7fc4043352efaf845d31e2005342",
+    "bytes": 321784
+  },
+  "source_dispositions_pending": 106,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-42/whole-progress-m46.json",
+    "sha256": "f1d100d586d92a9457f4558c184a68877e5064cbae2c8e0488a7d8b36f6eeb16",
+    "bytes": 204388
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-42/evidence-manifest.json",
+    "sha256": "4031d21c8949e1768481ec7c64371a71b3842f55795aa98a240642196839d1e3",
+    "bytes": 22160
+  },
+  "frozen_evidence_files": 129,
+  "shared_implementation_changed": false,
+  "reused_fresh_regressions": 297,
+  "next": "M47: assemble and independently audit the complete 서북 편란법 article165–173from immutable M45/M46native segments. Preserve the complete10680/10690boundary,all275physical program rows/256numbered units,all source qualifications and original segment bytes. Then restore 데이터 베이스 패키지 from located174and every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M45/M46helpers or evidence."
+}

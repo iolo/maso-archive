@@ -346,8 +346,20 @@ implementation or its qualified 297-test baseline. Whole March remains active:
 headings, three pending headings and 106 pending full-page dispositions across
 273 scans**. The three deferred program pages and separate opening on 174 are
 classified for location/extent only; their native restoration remains pending.
-Continue **M46 on final 171–173**, then complete 165–173 assembly/audit and every
-remaining March task through reproducible issue export/audit. See
+M46 now accepts **final 171–173 in 21 exact native files**: all 206 physical
+program rows, 187 numbered units, nineteen physical wraps, fifteen DATA values,
+2,667 lexical fields, 56 printed target occurrences and 21 assignment/cost
+contexts. Both independent exports, three pixel-exact original crops, three
+initial OCR bindings and all 23 damaged-data checks pass. All 27 source
+qualifications remain, including the READ punctuation alternative and original
+printed errors. M46 freezes 129 evidence files without changing shared code.
+All 165–173 source pages now have accepted native segments; the complete article
+still requires **M47 assembly and independent audit**. Whole-March totals remain
+22 complete articles, one partial article, 15 pending articles, three completed
+headings, three pending headings and 106 pending dispositions across all 273 scans.
+Then restore the separate database article opening on 174 and every remaining
+March task through reproducible issue export/audit. See
+[the accepted ending](metadata/catalog/scan-restoration/1984-03-northwest-ending.json) and
 [the accepted opening](metadata/catalog/scan-restoration/1984-03-northwest-opening.json).
 March remains the current issue.
 Track execution in

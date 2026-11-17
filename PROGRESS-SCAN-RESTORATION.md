@@ -139,9 +139,17 @@ All 43 source qualifications and eleven opaque drawing runs are preserved;
 original bytes and execution remain uncertified. M45 freezes 643 evidence files.
 Current whole-March totals are **22 complete articles, one partial article,
 15 pending articles, three complete headings, three pending headings and
-106 pending full-page dispositions across 273 scans**. Located deferred pages
-have extent evidence only. Continue **M46 on final 171–173**, then full article
-assembly/audit and every remaining March task. See
+106 pending full-page dispositions across 273 scans**. M46 now accepts final
+171–173 in **21 exact native files**, retaining 206 physical program rows,
+187 numbered units, nineteen physical wraps, fifteen DATA values and 2,667
+lexical fields. Both independent exports, all three pixel-exact crops, three
+initial OCR bindings and 23 damaged-data rejections pass. All 27 qualifications
+remain. M46 freezes 129 evidence files; shared implementation is unchanged.
+All 165–173 source pages now have accepted native segments. Continue **M47
+whole-article assembly/audit**, then every remaining March article, heading,
+source disposition and reproducible issue export/audit. Totals remain unchanged
+until the whole article passes. See
+[the accepted ending](metadata/catalog/scan-restoration/1984-03-northwest-ending.json) and
 [the accepted opening](metadata/catalog/scan-restoration/1984-03-northwest-opening.json).
 March remains the current issue.
 Prior PDF and supplement outputs

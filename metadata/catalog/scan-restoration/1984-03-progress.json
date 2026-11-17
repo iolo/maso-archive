@@ -4962,15 +4962,14 @@
           167,
           168,
           169,
-          170
-        ],
-        "source_extent_covered": false,
-        "assembly_pending": true,
-        "continuation_pending": [
+          170,
           171,
           172,
           173
         ],
+        "source_extent_covered": true,
+        "assembly_pending": true,
+        "continuation_pending": [],
         "segments": [
           {
             "checkpoint": "M45",
@@ -4993,8 +4992,28 @@
               "sha256": "306519f9dc7893fa04a05e7efd7ad9897d0192fdf75698261e9ebbce63eccdc1",
               "bytes": 3389
             }
+          },
+          {
+            "checkpoint": "M46",
+            "directory": "archive/scans/1984-03/packages/northwest-b-jpeg-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/northwest-b-jpeg-r01/manifest.json",
+              "sha256": "31fa005909f9ae725b3c158aba8be8a8afc45e5fb295ee53f0fc0061a8ad00b8",
+              "bytes": 3365
+            },
+            "actual_folios": [
+              171,
+              172,
+              173
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-42/validation-native-ending.json",
+              "sha256": "186b57431754231f1e53f9cb9a8c0d77d2e6c747e4c2d922ef8f83302365c530",
+              "bytes": 2228
+            }
           }
-        ]
+        ],
+        "note": "All original165–173source pages now have accepted native segments; selected whole-article assembly remains pending."
       },
       "historical_printed_extent_candidate": [
         165,
@@ -5032,7 +5051,9 @@
           "bytes": 1422
         },
         "restoration_pending": true,
-        "partial_native_selected": true
+        "partial_native_selected": true,
+        "source_extent_native_segments_complete": true,
+        "whole_article_assembly_pending": true
       }
     },
     {
@@ -6363,12 +6384,12 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-41/source-ledger.json",
-    "sha256": "ad7b406c291a5465284317720776905cef85a2deefab6e33f64dda005d904ad0",
-    "bytes": 320974
+    "path": "archive/scans/1984-03/restoration/whole-issue-42/source-ledger.json",
+    "sha256": "793c1d6d51871f565c4ad0e3dd61f1e50d6d7fc4043352efaf845d31e2005342",
+    "bytes": 321784
   },
-  "current_checkpoint": "M45-complete",
-  "next": "M46: restore final actual 171–173 of canonical 서북 편란법 from the donated JPEGs, preserving accepted M45 opening165–170 and verified complete extent165–173. Continue the photographed program at10690 through12550, including physical wraps,DATA,output subroutines,error handlers and the final RESUME11390. Then assemble and independently audit the complete article; continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M45 helpers/evidence.",
+  "current_checkpoint": "M46-complete",
+  "next": "M47: assemble and independently audit the complete 서북 편란법 article165–173from immutable M45/M46native segments. Preserve the complete10680/10690boundary,all275physical program rows/256numbered units,all source qualifications and original segment bytes. Then restore 데이터 베이스 패키지 from located174and every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M45/M46helpers or evidence.",
   "pending_article_candidates": 15,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
