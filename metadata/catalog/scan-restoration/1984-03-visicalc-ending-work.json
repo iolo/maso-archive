@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0024",
   "canonical_received_title": "Visicalc의 활용",
   "observed_source_title": "VISICALC 활용",
-  "status": "M43-working;29non-chart-readings-audited;32chart-clusters-and-native-encoding-pending",
+  "status": "M43-working;all61-text-owners-and-eight-figures-source-compared;native-encoding-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -39,15 +39,15 @@
   "mapped_regions": 69,
   "initial_text_tasks": 61,
   "selected_text_tasks": 61,
-  "recognition_calls": 63,
-  "targeted_crop_replacements": 1,
+  "recognition_calls": 71,
+  "targeted_crop_replacements": 9,
   "targeted_sparse_retries": 1,
   "maximum_retries_per_affected_region": 1,
-  "source_compared_text_regions": 29,
-  "pending_source_text_regions": 32,
-  "pending_command_chart_clusters": 32,
+  "source_compared_text_regions": 61,
+  "pending_source_text_regions": 0,
+  "pending_command_chart_clusters": 0,
   "original_figure_regions": 8,
-  "descriptive_original_figure_reviews": 7,
+  "descriptive_original_figure_reviews": 8,
   "observed_displayed_spans": 132,
   "observed_blank_spans": 45,
   "native_geometry_complete": false,
@@ -63,11 +63,11 @@
   "active_processes": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "Continue M43: compare all32enlarged command-chart text clusters on164and encode every original label, menu field, node/box, branch/arrow and source occurrence. Preserve29compared non-chart readings,132displayed worksheet spans/45blanks, seven original screen/prompt reviews, both bounded retries and the68unchanged recognition scopes. Then complete native ending161–164, independent exports/audit and full155–164Visicalcassembly. Continue every remaining March article, heading and all273source dispositions through whole-issue export/audit. Do not execute or alter frozen M42helpers/evidence.",
+  "next": "Continue M43 native encoding for the source-compared Visicalc ending on actual 161–164. Encode all original command-chart labels, menus, nodes, boxes, branches/arrows, ink marks and exact occurrences, the four independent worksheet displays, prompt frames and prose relationships. Preserve all 61 compared text owners, eight original figures, 132 displayed spans including 45 blanks, explicit glyph qualifications and six disjoint recognition bundles. Build and independently audit the ending, then assemble/audit the full 155–164 article. Continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Do not execute or alter frozen M42 evidence/helpers.",
   "map": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/map-r03.json",
-    "sha256": "ae1caf71a77c0330459d8dd2200259e948df969163691e13bc67976aa55e8607",
-    "bytes": 30766
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/map-r04.json",
+    "sha256": "9696d91e1c5f409fd6fdc0cf8f03886bb9f969d05b8032c8297853fa67b56d3b",
+    "bytes": 30765
   },
   "scope": {
     "path": "archive/scans/1984-03/restoration/whole-issue-39/scope.json",
@@ -85,9 +85,9 @@
     "bytes": 6537
   },
   "overlay_review": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/overlay-review.json",
-    "sha256": "d4a91d89b676554250b4ad9589670fecb1cce548ab77b295f393fa02f3979857",
-    "bytes": 3056
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/overlay-review-02.json",
+    "sha256": "86fdb5e1bd317cdbebe259c1607216fd79d0bfc88df027b5675081b5c1c2223b",
+    "bytes": 3359
   },
   "initial_recognition_audit": {
     "path": "archive/scans/1984-03/restoration/whole-issue-39/source-recognition-audit.json",
@@ -95,19 +95,19 @@
     "bytes": 845
   },
   "selected_recognition_inputs": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/selected-recognition-inputs.json",
-    "sha256": "09b925e52f0fabbed3a6a4c9dfffbd6cd75bc6bedb7c4424a90571edb90b04ef",
-    "bytes": 97006
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/selected-recognition-inputs-02.json",
+    "sha256": "6e620564dcf25dc52537e072df35fd60a77551fef876503f98d6511991c569e7",
+    "bytes": 97975
   },
   "source_readings": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/source-compared-readings.json",
-    "sha256": "bbfa4bc6038090f57da1acc2ccdc6c169f05504a969d672bcdd08d870bbec832",
-    "bytes": 41671
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/source-compared-readings-02.json",
+    "sha256": "53188a714f9a08abf52d3ec4482cb8d5bf403b8b902d05a0fed95bb7f3aa4697",
+    "bytes": 74298
   },
   "figure_observations": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/figure-source-observations.json",
-    "sha256": "cf7deb7744cafbf866f889087e9aec1aff24a67f0c4513688dacfc428e25341a",
-    "bytes": 5729
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/figure-source-observations-02.json",
+    "sha256": "49a04424112742df21b8f7827d41bd43b0cb8fe353077d70874fafe7c2f23812",
+    "bytes": 7838
   },
   "display_models": {
     "path": "archive/scans/1984-03/restoration/whole-issue-39/visicalc-b/panel-display-models.json",
@@ -120,20 +120,35 @@
     "bytes": 5188
   },
   "source_review_work_audit": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/source-review-work-audit.json",
-    "sha256": "006b6dee3a6d3be4b22d81d8d27a7732e9e42496b52bba79a0e941a2e0289c7a",
-    "bytes": 1503
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/chart-source-work-audit.json",
+    "sha256": "ac9c1a076cb09cd3afec3ef6a2885917d9b3605f44553a70af1a026fbbef9105",
+    "bytes": 1736
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-39/resume.json",
-    "sha256": "6f4798424f2b45b70dc9242ca421fa2e0c2058375963229cde428c3f78c2fabb",
-    "bytes": 3881
+    "sha256": "c55121015ce3e83a3a47f45378f1d029ecfb3974c49d3484499f7254a81a9008",
+    "bytes": 4285
   },
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-39/cleanup-preview-work.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/cleanup-preview-chart-work.log",
     "sha256": "bb3d0ea5dae2f904ac55f4ae3b9c55b78aaeca9c989f63a8f220a9bee01eed89",
     "bytes": 233
   },
   "cleanup_deleted": false,
-  "acceptance_note": "Working evidence only. All four selected full pages, three outside boundary views and original/corrected chart orientation are compared. All61initial text tasks and69original crops pass their initial audit. One source-reviewed left-margin repair replaces one region; the other68retain exact recognition geometry. One empty narrow prompt received its sole sparse retry and is read from the original source. All29non-chart text owners and seven screen/prompt figures are source-compared. All32chart text clusters, full native structures, ending exports/audit and complete article assembly remain required. Accepted counters stay unchanged."
+  "acceptance_note": "Working source evidence only. All four selected pages and three outside boundary views have been compared. All 61 text owners, including all 32 enlarged command-chart clusters, and all eight original figures are source-compared. Nine source-reviewed margin replacements and one sparse prompt retry retain every initial attempt; each affected region has only one retry. Sixty regions reuse initial recognition, one uses the prior SAVE-heading replacement, and eight use the chart replacement bundle. All 69 selected source crops and 61 OCR bindings pass. Native structures, ending exports/audit and the full 155–164 article assembly remain unfinished. The whole March issue remains active; accepted counters are unchanged.",
+  "original_recognition_regions_reused": 60,
+  "prior_replacement_region_reused": 1,
+  "new_chart_replacement_regions": 8,
+  "disjoint_ocr_bundles": 6,
+  "native_command_graph_complete": false,
+  "prior_source_review_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/source-review-work-audit.json",
+    "sha256": "006b6dee3a6d3be4b22d81d8d27a7732e9e42496b52bba79a0e941a2e0289c7a",
+    "bytes": 1503
+  },
+  "chart_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-39/chart-source-review.json",
+    "sha256": "6fdb42948f7d9a83f1bbeec06243b2865519d043e63836486e1a67596d03374d",
+    "bytes": 1116
+  }
 }

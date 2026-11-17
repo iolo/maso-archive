@@ -111,9 +111,10 @@ checks pass. Current totals are **21 complete articles, one partial article,
 161–164**, including the command graph, then complete the Visicalc assembly and
 all remaining March work. See the
 [accepted opening](metadata/catalog/scan-restoration/1984-03-visicalc-opening.json).
-**M43 is working on 161–164:** all 29 non-chart text regions and seven
-screen/prompt figures are source-compared. The 32 command-chart text clusters,
-native structures, ending exports and complete article assembly remain pending.
+**M43 is working on 161–164:** all 61 text regions, including the 32 command-chart
+clusters, and all eight original figures are source-compared. All 69 selected
+crops and 61 OCR bindings pass. Native structures, ending exports and complete
+article assembly remain pending.
 Accepted totals above are unchanged. See the
 [audited ending work](metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json).
 March remains the current issue.
@@ -6286,3 +6287,28 @@ Whole March remains active: **21 complete articles, one partial article,
 120 pending full-page dispositions across 273 scans**. Continue the command
 chart, complete and assemble Visicalc, then every remaining March task and the
 reproducible whole-issue export/audit.
+
+The next M43 source milestone completes enlarged comparison of all **32 chart
+text owners**, bringing the ending to **61 compared text regions and eight
+compared original figures**. Eight chart margin replacements retain complete
+repeated command letters and edge prose. With the earlier SAVE-heading repair,
+there are nine crop replacements and one separate sparse-prompt retry, each on
+a different affected region. All initial outcomes remain available. The selected
+69 crops and 61 OCR bindings pass an independent mixed-map audit: sixty regions
+reuse initial recognition, one retains the prior replacement and eight use the
+new chart replacement, in six disjoint bundles. The initial audit's incorrect
+image-count assumption is retained as a failed log; the corrected audit includes
+both full-page evidence images as well as the eight replacement crops.
+
+Chart observations preserve the printed `Reaval Order`, `Sourec`, plural
+`Titles:`, `H V 1 S U`, the independent 1980 version box, repeated menus and
+return symbols, source prompt punctuation and the original company credit/logo.
+Tiny punctuation and a broken syllable in the replication branch remain
+qualified. The original full chart, all enlarged clusters, replacement crops and
+full replacement overlay have source comparison; native nodes, fields, boxes,
+paths, exact occurrences and relationships still require encoding. The four
+worksheet models retain 132 displayed spans and 45 blanks. All 1,109 frozen M42
+files and 53 implementation pins still match. Cleanup remains preview-only at
+52.7 GiB. No native ending or whole-article completion is claimed, and accepted
+whole-March counters above remain unchanged. Continue native encoding, ending
+exports/audit and the full 155–164 assembly before the remaining March queue.

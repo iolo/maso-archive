@@ -301,14 +301,16 @@ export/audit. See [the accepted opening](metadata/catalog/scan-restoration/1984-
 **M43 is working on the final 161–164.** Four selected pages and three outside
 boundary views are compared. The map retains **69 regions**, with a documented
 clockwise correction for the sideways chart. All **61 initial text tasks** and
-69 original crops pass their audit. One widened SAVE-heading crop replaces its
-initial clipped edge; the other **68 regions** retain exact recognition geometry.
-One narrow prompt's sole sparse retry remains weak, so its reading is selected
-from enlarged source comparison. All **29 non-chart text owners** and seven
-screen/prompt figures are source-compared, including **132 displayed worksheet
-spans and 45 blanks**. The **32 chart text clusters**, full native structures,
-ending exports/audit and complete article assembly remain pending. Accepted
-whole-issue counters above are unchanged. Continue this checkpoint; see
+69 original crops pass their audit. Enlarged comparison also verifies all
+**32 command-chart text clusters**, making **61 compared text owners and eight
+compared original figures**. Nine bounded margin replacements retain complete
+branch letters and edge text; sixty regions reuse initial recognition and each
+affected region has only one retry. One narrow prompt's sparse retry remains
+weak, so its reading comes from enlarged source comparison. All 69 selected
+crops and 61 OCR bindings pass. Four independent worksheets retain **132 displayed
+spans and 45 blanks**. Full native structures, ending exports/audit and complete
+article assembly remain pending. Accepted whole-issue counters above are
+unchanged. Continue this checkpoint; see
 [the audited ending work](metadata/catalog/scan-restoration/1984-03-visicalc-ending-work.json).
 March remains the current issue.
 Track execution in
