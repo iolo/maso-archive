@@ -129,6 +129,14 @@ Current whole-March totals are **22 complete articles, no partial articles,
 서북 편란법**, located opening 165, verifying candidate 165–173 and its neighbors
 before bounded native restoration. See
 [the complete Visicalc result](metadata/catalog/scan-restoration/1984-03-visicalc.json).
+**M45 is in progress:** 서북 편란법 has a verified 165–173 extent. All 45 text
+contexts on selected 165–170 now have enlarged donated-JPEG comparison; 55 crops
+and 45 initial OCR bindings pass the source audit, with no recognition retries.
+Its native tables/screens, flowchart, 69 listing rows, joins and independent
+exports remain pending. This is working evidence, with no newly accepted article
+package or change to the whole-issue totals above. Continue the opening, final
+171–173 and full article assembly, then every remaining March task. See
+[the working record](metadata/catalog/scan-restoration/1984-03-northwest-work.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).

@@ -331,6 +331,17 @@ Continue **M45 with 서북 편란법**, located opening 165, verifying candidate
 165–173 and its neighbors before bounded native restoration. Then complete every
 remaining March task and reproducible issue export/audit. See
 [the complete Visicalc result](metadata/catalog/scan-restoration/1984-03-visicalc.json).
+**M45 is working on 서북 편란법, verified actual 165–173.** The bounded opening
+165–170 has 55 pixel-exact mapped crops, 45 completed initial OCR tasks and
+enlarged source comparison of all 45 text contexts. Native table/screen cells,
+flowchart geometry, the 69 physical listing rows, source joins and independent
+exports remain pending; the eleven drawn-grid PRINT runs retain explicit opaque
+markers until their native observations are encoded. No new native package is
+accepted yet. Accepted totals remain 22 complete articles, 16 pending articles,
+three pending headings and 116 pending dispositions across all 273 scans.
+Finish this opening, restore final 171–173, assemble the complete article, then
+continue the whole March queue and issue export/audit. See
+[the current work record](metadata/catalog/scan-restoration/1984-03-northwest-work.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

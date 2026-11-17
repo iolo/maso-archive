@@ -4945,7 +4945,12 @@
         171,
         172,
         173
-      ]
+      ],
+      "current_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-northwest-work.json",
+        "sha256": "6efc0aad6e7296de49a070830a6064eb4bd9aca1956ccf8fedd597bd8a7080d8",
+        "bytes": 4152
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0026",
@@ -6264,10 +6269,15 @@
     "sha256": "ec344552f5807792c066f6f9c1fbacf2da0450f4a474a018478e5a8361ee3aaa",
     "bytes": 308576
   },
-  "current_checkpoint": "M44-complete",
-  "next": "M45: restore canonical 서북 편란법 (toc0025), located original opening165. Verify candidate extent165–173 and neighboring174 before bounded mapping; complete source-backed native segments and whole-article assembly. Then restore every remaining March article, heading and all273source dispositions through reproducible whole-issue export/audit. Never execute or modify frozen M44 helpers/evidence.",
+  "current_checkpoint": "M45-working",
+  "next": "Finish M45 native tables/screens, flowchart geometry, all69physical listing rows including11opaque drawn-grid runs, source joins/ranges/captions and descriptive figure observations on165–170. Then build twice and independently audit the opening before accepting it. Restore final171–173 in the next bounded segment and assemble the complete165–173article. Continue every remaining March article, heading and all273source dispositions, then reproducible whole-issue export/audit.",
   "pending_article_candidates": 16,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-northwest-work.json",
+    "sha256": "6efc0aad6e7296de49a070830a6064eb4bd9aca1956ccf8fedd597bd8a7080d8",
+    "bytes": 4152
+  }
 }
