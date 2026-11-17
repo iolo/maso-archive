@@ -84,15 +84,19 @@ bindings and 36 damaged-data checks pass. Its 46 reviewed contexts retain
 109 structures, 843 fields, 460 cells, 149 paths, 170 physical output/DATA rows,
 169 logical units, 63 formula contexts and the explicit 11/5→115 source join.
 All original qualifications and both targeted retries remain preserved. The
-article remains partial, with whole-issue totals unchanged. Continue **M39 on
-146–151**, then 152–154, complete article assembly/audit and all remaining March
-content, dispositions and the reproducible whole-issue export/audit. See the
+article remains partial, with whole-issue totals unchanged. Continue complete
+article assembly/audit and all remaining March content, dispositions and the
+reproducible whole-issue export/audit. See the
 [accepted middle](metadata/catalog/scan-restoration/1984-03-regression-middle.json).
-**M39 is now working on 146–151:** 22 initial text tasks and all 25 source crops
-pass independent recognition auditing. Fifteen text contexts are source-compared;
-seven listing contexts, detailed flowchart review and native encoding remain
-pending. Accepted totals are unchanged. See the
-[M39 work record](metadata/catalog/scan-restoration/1984-03-regression-program-work.json).
+**M39 accepts 146–151 in 100 exact files**, including both original flowcharts,
+558 physical code rows and 113 DATA values. **M40 accepts final 152–154 in 39
+exact files**: 427 physical rows, 298 statements, both cross-region continuations,
+29 DATA values and the original open dashed brackets/arrow. Both exports, all
+nine source crops and 34 damaged-data rejections pass. All **134–154** source
+segments are covered. **M41 complete article assembly and independent audit**
+are next; the article remains partial. Then continue Visicalc의 활용 on 155 and
+every remaining March task. See the
+[accepted ending](metadata/catalog/scan-restoration/1984-03-regression-ending.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -6044,3 +6048,51 @@ then native row/statement/annotation encoding, two exports and source audits.
 Assemble and audit the full **134–154** article afterward, then continue every
 remaining March article, heading and all **273** source dispositions. Accepted
 whole-issue counters remain unchanged.
+
+## M40 complete — regression ending, actual 152–154
+
+The working milestone above is superseded by
+[the accepted native ending](metadata/catalog/scan-restoration/1984-03-regression-ending.json).
+Two independent builds reproduce **39 exact files**. All **nine original-master
+crops**, **seven recognition bindings** and **31 raw ZIP members** pass the
+separate audit. All **34 damaged-data cases reject**. No recognition retry was
+needed. The unchanged implementation retains its qualified 291-test baseline;
+all **489 frozen M39 files** and **51 implementation files** remain exact.
+
+All seven text contexts and both drawings have enlarged source comparison.
+Native content retains **427 physical rows, 298 numbered statements, five blank
+rows, 29 DATA values in seven statements and twenty printed rules**. Statements
+**12125** and **15040** each own their physical fragments in both source regions.
+The six-statement DATA input area preserves 9000–9040 in the lower left and 9050
+in the upper right, with both complementary open dashed brackets and the single
+left-pointing annotation arrow. The Korean label has separate searchable ownership.
+
+Source comparison retains the six-shaped `R6` and `S6` readings with qualified
+alternatives, the missing operator in 10100, double semicolons in 12090, the
+apostrophe in 13190 and the comma in 19370. The 12010 rule has **11/28** dashes;
+19295 and 19365 have **18/20**, while the other seventeen rules have **19/20**.
+Seventeen explicit split tokens remain separate from twenty ordinary unjoined
+boundaries. The final source is **19420**, followed by blank framed space;
+neither 19430 nor RETURN is invented.
+
+All **nine native structures, 432 fields and 105 original paths** have overlay
+comparison. An initial regular row grid crossed glyphs where the original
+spacing varies; the selected revision follows source ink bands. An initial DATA
+recognizer also matched the quoted DATA PLOT heading; its retained revision
+requires DATA at the start of a numbered statement. The first contract check
+rejected an unsupported plural identity field, and the selected candidate uses
+existing typed singular references. The first independent audit used the wrong
+figure-region key; its corrected fixture leaves both selected exports unchanged.
+Every attempt remains preserved.
+
+Validation covers **3,978 native records, 16,983 typed references, 15,847 byte
+spans and 3,727 asset bindings**. Cleanup was previewed without deletion and all
+launched processes are terminal. M40 freezes **281 evidence files**. Never
+execute or modify its frozen helpers or evidence.
+
+All four accepted segments now cover **134–154**. Continue **M41 complete article
+assembly and independent audit** before marking the regression article complete.
+Then restore **Visicalc의 활용**, opening on 155, and every remaining March task.
+The whole issue stays active with **20 complete articles, one partial article,
+17 pending articles, three complete headings, three pending headings and 125
+pending full-page dispositions** across all **273 scans**.

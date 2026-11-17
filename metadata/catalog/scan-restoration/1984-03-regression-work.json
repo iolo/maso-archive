@@ -76,7 +76,7 @@
   "active_process_handles": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "M40: restore actual 152–154, the ending of 심층적 회귀분석, from the donated JPEGs. Preserve accepted M37–M39 segments and verified full extent 134–154. Assemble and audit the complete article, then continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M39 helpers or evidence.",
+  "next": "M41: assemble and independently audit the complete 심층적 회귀분석 article, actual 134–154, from all four accepted M37–M40 JPEG segments. Preserve their exact native source records, independent examples, cross-region statements, source errors and local qualifications. Then restore Visicalc의 활용, opening on 155, and every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Never execute or modify frozen M40 helpers or evidence.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-33/regression-a/map-r02.json",
     "sha256": "2d9bd00e7f662264f91d045839dab743879002b668312d82bf4833c5f1010591",
@@ -137,5 +137,10 @@
     "path": "metadata/catalog/scan-restoration/1984-03-regression-program.json",
     "sha256": "ef19dd3efad991fd672a3a882208b66902b5eae1fa4929fb6f6447516776dece",
     "bytes": 3790
+  },
+  "accepted_ending": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-ending.json",
+    "sha256": "5fd6663041c5e3101c0061cd07fa04c751cfe848f5e27c513e9e8de9aeec110a",
+    "bytes": 3868
   }
 }
