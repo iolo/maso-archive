@@ -2,6 +2,14 @@
 
 Updated 2026-11-17. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
+Current March checkpoint: **M48 working**, complete database article 174–177.
+All 25 text owners are source-compared; native structures and article validation
+remain pending. Accepted totals are **23 complete articles, 15 pending articles,
+three complete headings, three pending headings and 106 pending dispositions
+across all 273 scans**. March remains active. See the
+[M48 handoff](docs/SCAN-RESTORATION-1984-03-M48.md) and
+[accepted M47 result](docs/SCAN-RESTORATION-1984-03-M47.md).
+
 ## Current status
 
 **November 1984 is complete through R61:** 34 complete article packages, six
@@ -6475,3 +6483,46 @@ Whole March remains active with **22 complete articles, no partial articles,
 174 before bounded mapping, then complete native segments and article assembly.
 Every remaining March article, heading, source disposition and reproducible
 whole-issue export/completion audit remains required.
+
+## M48 working — database article, actual 174–177
+
+The original full pages verify the complete extent of canonical
+데이터 베이스 패키지 (`maso-1984-03-toc-0026`). The selected enlarged title reads
+데이터베이스 패키지. Original 173 ends the accepted northwest article; 178 opens
+the separate medical-insurance program. Four selected source pages and two
+outside extent lookups stay within the checkpoint bounds.
+
+All four initial and four selected overlays have personal source comparison.
+The selected map has 31 regions: 25 text owners and six original figures.
+All 25 initial pinned Tesseract tasks completed without retries. The separate
+recognition audit verifies all 31 original-master crops pixel-exactly, all raw
+text/settings bindings, 53 unchanged implementation pins and the 39 frozen M47
+evidence files.
+
+All 27 enlarged text views now have source comparison, covering every text
+owner and retaining 44 qualifications. The readings preserve the independent
+printed records, blank values, NEME, 00040, 00077, DISPAY, physical hyphens and
+uncertain ink/brackets. No historical PDF reading is accepted without JPEG
+comparison. The audit checks complete view/part coverage, raw bindings, the
+four immutable reading versions and original source pins. Native structures,
+geometry, source joins, two exports and independent article validation remain
+pending; no new article is accepted by this text milestone.
+
+An accidental invocation of an unrelated historical August helper began moving
+and copying its OCR tree before model initialization failed. No inference ran.
+The intact accepted tree was restored, the failed clone preserved separately,
+and the overwritten pre-repair map recovered from its original pinned copy.
+Read-only verification passes 922 accepted files, 923 original evidence pins
+and eight crop pins. The initial recovery audit's path-prefix error is retained;
+the corrected audit resolves non-OCR paths separately. March evidence was
+unaffected. The incident and recovery are pinned in the M48 work record.
+
+All processing handles are terminal. Cleanup was previewed at 54.8 GiB with no
+deletion. M48 evidence remains working and is not frozen. Accepted totals stay
+23 complete articles, no partial articles, 15 pending articles, three complete
+headings, three pending headings and 106 pending dispositions across 273 scans.
+Continue all native structures of 174–177, then the article beginning on 178
+and every remaining March task through reproducible whole-issue completion.
+
+See the [work record](metadata/catalog/scan-restoration/1984-03-database-work.json)
+and [handoff](docs/SCAN-RESTORATION-1984-03-M48.md).

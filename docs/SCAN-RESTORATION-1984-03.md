@@ -1,5 +1,12 @@
 # March 1984 supplementary-source restoration handoff
 
+This is the historical **M01–M04 supplementary campaign**, not whole-issue
+restoration completion. The active scope is all 273 March scans under
+[PLAN-SCAN-RESTORATION.md](../PLAN-SCAN-RESTORATION.md). Current work is
+[M48, the complete database article](SCAN-RESTORATION-1984-03-M48.md);
+March has 23 accepted complete articles and remains active. Completion and
+next-issue statements below describe the superseded supplementary scope.
+
 Completed 2026-11-16 through M01–M04 under
 [PLAN-SCAN-RESTORATION.md](../PLAN-SCAN-RESTORATION.md#4-finish-the-pilot-issue-then-expand).
 The new native issue is `archive/scans/1984-03/reference/issue-r01/`:

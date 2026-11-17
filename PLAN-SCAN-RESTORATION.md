@@ -372,6 +372,20 @@ and reproducible issue export/audit. See
 [the accepted ending](metadata/catalog/scan-restoration/1984-03-northwest-ending.json) and
 [the accepted opening](metadata/catalog/scan-restoration/1984-03-northwest-opening.json).
 March remains the current issue.
+**M48 is working on the complete database article, verified actual 174–177.**
+All four selected full pages and both neighbors (173 and 178), eight mapping
+overlays and 27 enlarged text views have been compared. All 25 text owners now
+have source-compared readings with 44 explicit qualifications. The original
+31 crops and 25 initial OCR bindings pass their pixel/provenance audit; no OCR
+retry was needed. Native figures, tables, displays, command contexts and joins
+still require reconstruction, two independent exports and validation. Accepted
+totals remain **23 complete articles, no partial articles, 15 pending articles,
+three complete headings, three pending headings and 106 pending dispositions
+across all 273 scans**. This working milestone does not complete the article or
+the issue. Continue M48 native work, then every remaining March task and the
+whole-issue export/audit. See the
+[M48 work record](metadata/catalog/scan-restoration/1984-03-database-work.json)
+and [current handoff](docs/SCAN-RESTORATION-1984-03-M48.md).
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

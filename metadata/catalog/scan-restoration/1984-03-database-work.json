@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M48",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0026",
+  "canonical_received_title": "데이터 베이스 패키지",
+  "observed_source_title": "데이터베이스 패키지",
+  "status": "source-comparison-complete;native-article-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    174,
+    175,
+    176,
+    177
+  ],
+  "selected_work_folios": [
+    174,
+    175,
+    176,
+    177
+  ],
+  "outside_lookup_folios": [
+    173,
+    178
+  ],
+  "mapped_regions": 31,
+  "initial_text_tasks": 25,
+  "source_compared_text_regions": 25,
+  "pending_source_text_regions": 0,
+  "enlarged_source_review_views": 27,
+  "source_qualifications": 44,
+  "original_figure_regions": 6,
+  "recognition_retries": 0,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_article_package_selected": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "complete_whole_scan_articles": 23,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 15,
+  "complete_whole_scan_headings": 3,
+  "pending_heading_candidates": 3,
+  "source_images": 273,
+  "source_dispositions_pending": 106,
+  "active_process_handles": [],
+  "active_processes": [],
+  "source_accounting_note": "The accepted M47 ledger remains unchanged until native acceptance. Working review verifies complete174–177and separate178opener; source comparison does not establish an accepted native article.",
+  "cleanup_preview": "54.8 GiB;preview only;no deletion",
+  "next": "Finish M48 native structures for the complete174–177database article: six original figures, title-card labels, eight-field specification, CREATE response rows and eleven stars/legend, eight blank record values, forty guest-table cells and physical fragments, structure display metadata and fifty cells/blank DEC values, five control-key definitions, five operators, both independent query outputs, command placeholders, explicit narrative joins and closing star. Build twice and independently audit source pixels, raw bindings and all native records before article acceptance. Then continue the medical-insurance article opening178and every remaining March article, heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M47evidence; use M47implementation-after.json.",
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/database/map-r02.json",
+    "sha256": "72df41c31db1d0db5e87481b9afd1c1b5dfb22a78deccb895cea494590e62762",
+    "bytes": 18339
+  },
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/scope.json",
+    "sha256": "4edbc2ecd340dfba3dd6396ebcd1cbf0affe7472ace201f8f62490e187aa8339",
+    "bytes": 1912
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/transition.json",
+    "sha256": "6e82ab3bef6f741462610ff2d2223fbb5f3a5ef7061e3202b04b6b239bb1ffbe",
+    "bytes": 1895
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/full-page-review.json",
+    "sha256": "17e5ad46bda7f717a40778a5fe10a7e4c1de6b69cacc4f64fb529d7d4d75251f",
+    "bytes": 5709
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/overlay-review.json",
+    "sha256": "ad3a52b5d6fde3b3ade36c68dd5bc6361b31eda238619391212f35623961f388",
+    "bytes": 2991
+  },
+  "recognition_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/source-recognition-audit.json",
+    "sha256": "fee44fb2cf3fdc74b4e732c2e27c67f2c89b721e6b024291c3a2dc4ffb4ce69d",
+    "bytes": 718
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/database/source-compared-readings-04.json",
+    "sha256": "894c3f3134fe3a4de030a9cca99493e39ddc9655713b9cbf3032cd7eb6b58de9",
+    "bytes": 48255
+  },
+  "source_text_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/source-text-work-audit.json",
+    "sha256": "69fbc60c73ba0396bc2df1957d822ff4e2a1ef5a6e85b18495ae2b08ff9bc852",
+    "bytes": 2027
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/recognition-outcomes.json",
+    "sha256": "42997bffa365ee0ee3e1d022428df7aaf83a9a2b0a0a855c397888e27c0c87ff",
+    "bytes": 2234
+  },
+  "work_state": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/resume.json",
+    "sha256": "dc91f0e5296c82ddfa5ea4150d11edde9a894aa3d6d8741f0e80e90e618353ec",
+    "bytes": 1890
+  },
+  "unrelated_invocation_recovery": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-44/unrelated-invocation-recovery.json",
+    "sha256": "787764319c80e4ea5ff03d1e94810c210a48d418d96c68d313fad1bbc021304e",
+    "bytes": 1401
+  }
+}

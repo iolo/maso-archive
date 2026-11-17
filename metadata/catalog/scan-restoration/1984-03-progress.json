@@ -5139,6 +5139,11 @@
           "bytes": 1422
         },
         "restoration_pending": true
+      },
+      "current_work": {
+        "path": "metadata/catalog/scan-restoration/1984-03-database-work.json",
+        "sha256": "06e2f19fe714f9692c94470cc96d20b32b0a50473774d2ba66d32d8ba332c821",
+        "bytes": 4804
       }
     },
     {
@@ -6393,10 +6398,15 @@
     "sha256": "888329204516a1072ba43af164824a81a25a858ba4fdf67eec16fdc20c140bf9",
     "bytes": 326275
   },
-  "current_checkpoint": "M47-complete",
-  "next": "M48: restore 데이터 베이스 패키지 from located174after verifying its complete extent and neighbors. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/audit. Preserve frozen M45–M47evidence; use M47implementation-after.json as the current implementation baseline.",
+  "current_checkpoint": "M48-working",
+  "next": "Finish M48 native structures for the complete174–177database article: six original figures, title-card labels, eight-field specification, CREATE response rows and eleven stars/legend, eight blank record values, forty guest-table cells and physical fragments, structure display metadata and fifty cells/blank DEC values, five control-key definitions, five operators, both independent query outputs, command placeholders, explicit narrative joins and closing star. Build twice and independently audit source pixels, raw bindings and all native records before article acceptance. Then continue the medical-insurance article opening178and every remaining March article, heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M47evidence; use M47implementation-after.json.",
   "pending_article_candidates": 15,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 3,
+  "current_work": {
+    "path": "metadata/catalog/scan-restoration/1984-03-database-work.json",
+    "sha256": "06e2f19fe714f9692c94470cc96d20b32b0a50473774d2ba66d32d8ba332c821",
+    "bytes": 4804
+  }
 }
