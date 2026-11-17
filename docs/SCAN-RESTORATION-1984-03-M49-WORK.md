@@ -30,11 +30,34 @@ labels belong to their original occurrences. The entry and edit forms retain
 independent CODE/quantity tables. No runnable program listing appears in this
 selected opening.
 
-Native encoding is still pending. Next, encode and review individual fields,
-blank contexts, tables, physical fragments, original diagram paths and shared
-buses, document stacks, captions and source joins. Then build twice and run the
-independent native/source audit before accepting the opening segment. Restore
-184–185 afterward and assemble and audit the complete eight-page article.
+The twelve forms now have reviewed native geometry: **538 fields, 89 named blank
+contexts, 52 blank table cells, ten table rows and twelve original outer frames**.
+All 141 value contexts remain empty. Twenty-six initial and refined overlays
+have source comparison. Individual header groups, menu keys and leaders,
+physician-value wraps, repeated labels and independent CODE/quantity tables keep
+their original occurrences. Context boxes do not assert an internal ruled grid.
+
+A separate source-contract audit checks 397 nonblank field occurrences against
+exact regional text. Its 682 native records retain 4,362 typed references and
+682 source asset bindings. All twelve damaged-data cases reject. A pixel
+projection probe agreed on 148 of 162 placeholder contexts; personal comparison
+of four retained contacts resolves the remaining fourteen as fragmented or faint
+ink, or neighboring option keys. Source text and all OCR results are unchanged.
+The probe does not establish transcription by itself.
+
+Both original uncaptioned illustrations and the enlarged opening drop cap now
+have source-compared native contexts. The 182 artwork contains four standing
+human figures and retains the available original left edge. No captions or
+labels are invented. The large 19 binds the first two characters of the existing
+1970년대 prose owner; it does not create another searchable occurrence.
+
+Next, encode the **six diagrams**, preserving labelled and empty nodes, shared
+buses, opposing arrows, unheaded or broken ink, document stacks and external
+labels. Complete the ordered hierarchies, physical fragments, captions and
+source joins, then integrate the full opening, build twice and run its independent
+native/source audit before acceptance. Restore 184–185 afterward and assemble
+and audit the complete eight-page article. The isolated form-contract preflight
+is not a selected opening or article export.
 
 Accepted whole-issue totals remain **24 complete articles, no partial articles,
 14 pending articles, three complete headings, three pending headings and 102

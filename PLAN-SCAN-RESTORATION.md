@@ -398,8 +398,13 @@ JPEGs across 40 review contacts**, with 39 source qualifications retained.
 All 78 original-master crops and 58 initial OCR bindings pass; no retry was
 needed. Six diagrams, twelve menus/forms, two illustrations, caption
 associations, six source continuities and nine ordered hierarchies are mapped.
-Native fields, blank contexts, tables, diagram paths and independent exports
-remain pending, followed by final 184–185 and complete article assembly/audit.
+The twelve forms now retain **538 reviewed native fields, 89 named blank contexts,
+52 blank table cells and ten table rows**. All 141 value contexts remain empty;
+397 nonblank fields bind exact regional text, and twelve damaged-data cases
+reject. Both original illustrations and the existing prose drop cap have reviewed
+contexts. The six diagrams, remaining narrative/list structures and full opening
+exports/audit remain pending, followed by final 184–185 and complete article
+assembly/audit. No new OCR was needed for this native work.
 Accepted totals remain **24 complete articles, no partial articles, fourteen
 pending articles, three complete headings, three pending headings and 102
 pending dispositions across all 273 scans**. Continue the native opening;

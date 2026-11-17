@@ -5293,8 +5293,8 @@
       },
       "current_work": {
         "path": "metadata/catalog/scan-restoration/1984-03-medical-opening-work.json",
-        "sha256": "cb9887b6ef43e890cb12001d8a7a47f96edf1cf47f396755388fd15feacd2d78",
-        "bytes": 5605
+        "sha256": "459dd46a57383e9f1312471c0fe82e3b9397709dbc712b6b9bc06894c43dab58",
+        "bytes": 7640
       }
     },
     {
@@ -6465,14 +6465,14 @@
     "bytes": 332749
   },
   "current_checkpoint": "M49-working",
-  "next": "Finish M49 native opening178–183: encode six source diagrams with original labelled/blank nodes, shared buses,opposing arrows,unheaded/broken ink and document stacks; twelve source menus/forms with individual fields,blank values,leader counts and independent CODE/quantity tables; two original illustrations, exact caption associations,nine ordered hierarchies,six source continuities and physical wrapped fragments. Build twice and independently audit all native records,pixels and raw bindings before opening acceptance. Then restore final184–185and assemble/audit the complete178–185medical article. Continue every remaining March article,heading and all273source dispositions through reproducible whole-issue export/completion audit. Preserve frozen M45–M48evidence;current shared implementation baseline remains M47implementation-after.json.",
+  "next": "Continue M49 with the six source diagrams on 179–183: encode labelled and empty nodes, original shared buses, opposing arrows, unheaded or broken ink, document stacks and external labels. Reuse the reviewed native-forms-03.json and native-illustration-contexts-01.json; no form OCR or source text changed. Complete the nine ordered hierarchies, six source continuities, physical word fragments and explicit caption associations, then integrate the full 178–183 native opening, build twice and run the independent source/native audit. After opening acceptance, restore final 184–185 and assemble and audit the complete 178–185 medical article. Continue every remaining March article, heading and all 273 source dispositions through reproducible whole-issue export and completion audit. Preserve frozen M45–M48 evidence; the unchanged implementation baseline remains M47 implementation-after.json.",
   "pending_article_candidates": 14,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 3,
   "current_work": {
     "path": "metadata/catalog/scan-restoration/1984-03-medical-opening-work.json",
-    "sha256": "cb9887b6ef43e890cb12001d8a7a47f96edf1cf47f396755388fd15feacd2d78",
-    "bytes": 5605
+    "sha256": "459dd46a57383e9f1312471c0fe82e3b9397709dbc712b6b9bc06894c43dab58",
+    "bytes": 7640
   }
 }
