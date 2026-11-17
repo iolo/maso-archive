@@ -58,13 +58,30 @@ checks pass. The SAC remark remains three physical lines in one cell; both dashe
 remain printed values, both ring-shaped exponents remain unresolved, and no
 horizontal body row dividers are invented.
 
-**Remaining native circuit, waveform, flowchart, program, mathematical and prose
-structures, integration, two independent exports and acceptance audit remain
-pending.** No new continuation package is selected. Reuse every successful OCR
+Six selected native work contexts now retain **258 fields, 25 empty contexts
+and 112 paths**: Table 3, the displayed integral and ratio, Figure 20's circuit
+and ramp, Figure 28's ten-node flowchart and its single 21-row 8080 program.
+Personal source/overlay comparison and independent field/row/original-ink checks
+pass, with eighteen native qualifications and twelve rejected damaged cases.
+The program retains fifteen unprinted labels, two unprinted final comments,
+seven unprinted initial clock positions, all fourteen printed clock values and
+the printed total 104. R02 only widens five legend-key contexts; its other
+fields, rows and paths exactly reuse the compared R01 candidate. Figure 20
+preserves its negative offset, unprinted origin value and source-specific slope.
+The flowchart preserves both return routes, four branch labels and the broken
+ADC-read box rule without an invented return arrowhead. Both equations retain
+their original two-dimensional bounds, fractions, overbar and exponent layout.
+
+**Figures 21–27 and 29–30, all prose and inline structures, integration, two
+independent exports and acceptance audit remain pending.** No new continuation
+package is selected. Reuse every successful OCR
 task and compared reading. This checkpoint is unfrozen; no processing jobs remain
 active. All **901 frozen M61 files** and **53 implementation pins** remain exact.
 The qualified M57 baseline of 303 tests applies without fresh broad tests.
-Cleanup was preview-only at 59.1 GiB; nothing was deleted.
+Cleanup was preview-only at 59.1 GiB; nothing was deleted. After a tool result was
+truncated, recovery checked the completed six-context audit/review files and
+cleanup preview log, with no remaining process and no blind rerun. Terminal exit
+codes for those two jobs were unavailable; their completed outputs are pinned.
 
 Whole-issue totals remain **29 complete articles, one partial article, eight
 pending articles, five complete headings, one pending heading and 50 pending

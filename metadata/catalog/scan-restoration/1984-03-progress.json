@@ -6478,8 +6478,8 @@
         ],
         "record": {
           "path": "metadata/catalog/scan-restoration/1984-03-ad-continuation-work.json",
-          "sha256": "f24cc749294ff9e6895eca2b32861a3627ec44e09456d2768709d8139ad64c55",
-          "bytes": 9300
+          "sha256": "1796fc9e3ec594a05677fa0f6750834ee35e55e134fdd4773f08053c5f32e338",
+          "bytes": 11299
         },
         "native_accepted": false
       }
@@ -7291,7 +7291,7 @@
     "bytes": 429751
   },
   "current_checkpoint": "M62-work",
-  "next": "Continue M62 native restoration on original 234–239. Reuse all 64 successful OCR tasks, all 64 source-compared readings and selected Table 3 R02 (24 cells, nine rule segments). Encode and compare remaining Figures 20–30, circuit/waveform paths, displayed integral/ratio equations, Figure 28 flowchart and one 8080 program with comments/clock column, and all prose, headings, physical baselines, inline typography, captions and references. Preserve two unresolved ring-shaped superscripts, the literal HiGH/HIGH difference, H,2 000 H spacing, unprinted graphic labels, source polarities and all nine internal joins. Integrate and independently build/audit the continuation before acceptance. Then restore 240–241, assemble/audit the complete 228–241 article, and finish every remaining March article, heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M61 or predecessor helpers/evidence. Whole March remains active.",
+  "next": "Continue M62 native restoration on original 234–239. Reuse all64 successful OCR tasks and source-compared readings, plus six selected native work contexts: Table3R02, integral, ratio, Figure20, Figure28 flowchart and its one8080programR02. These retain258fields,25empty contexts and112paths. Encode and compare remaining Figures21,22,23,24,25,26,27,29,30 and all prose, headings, physical baselines, inline typography, captions and references. Preserve two unresolved ring-shaped superscripts, HiGH/HIGH, H,2 000 H, source polarities, unprinted labels and all nine internal joins. Integrate and independently build/audit the continuation before acceptance. Then restore240–241, assemble/audit the complete228–241article, and finish every remaining March article, heading and all273scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M61 or predecessor helpers/evidence. Whole March remains active.",
   "pending_article_candidates": 8,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
@@ -7300,8 +7300,8 @@
     "checkpoint": "M62-work",
     "record": {
       "path": "metadata/catalog/scan-restoration/1984-03-ad-continuation-work.json",
-      "sha256": "f24cc749294ff9e6895eca2b32861a3627ec44e09456d2768709d8139ad64c55",
-      "bytes": 9300
+      "sha256": "1796fc9e3ec594a05677fa0f6750834ee35e55e134fdd4773f08053c5f32e338",
+      "bytes": 11299
     },
     "accepted": false
   }

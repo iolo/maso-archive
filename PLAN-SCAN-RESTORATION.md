@@ -812,8 +812,12 @@ OCR bindings** pass independent checks, with no retries. All **64 text owners
 on 234–239** now have enlarged source comparison, **36 qualifications** and
 sixteen rejected source-contract damage cases. Selected native Table 3 retains
 **24 cells and nine original rule segments**, with personal source/overlay and
-independent source-value/ink checks. Remaining native continuation structures,
-integration, exports and acceptance remain pending.
+independent source-value/ink checks. Six selected native work contexts now cover
+Table 3, both displayed equations, Figure 20 and Figure 28's flowchart and single
+21-row program: **258 fields, 25 empty contexts and 112 paths**, with eighteen
+native qualifications and twelve rejected damaged cases. Personal overlay and
+independent source/ink checks pass. **Figures 21–27 and 29–30, prose and inline
+structures, integration, exports and acceptance remain pending.**
 Preserve the printed formula dot, integral/overbar/exponent layout, repeated
 graphic fields, two unresolved ring-shaped superscripts, `HiGH`/`HIGH`, operand
 spacing, source polarities and explicit continuations. No continuation

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "issue_id": "1984-03",
   "checkpoint": "M62-work",
-  "updated_at": "2026-11-17T22:50:15.040207+00:00",
-  "status": "all-source-readings-compared;Table3-work-selected;remaining-native-pending",
+  "updated_at": "2026-11-17T23:09:33.312235+00:00",
+  "status": "all-source-readings-compared;six-native-work-contexts-selected;remaining-native-pending",
   "scope": "Whole March issue; this checkpoint is only the bounded A/D, D/A continuation source-work stage.",
   "toc_entry_id": "maso-1984-03-toc-0033",
   "canonical_received_title": "A/D, D/A의 이론과 실제",
@@ -173,13 +173,13 @@
   ],
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-58/resume.json",
-    "sha256": "852dadfc29fa4535c8210ae680d60e7a375d7dbdeffcc5f862f4fb1c7f0b0dbf",
-    "bytes": 5267
+    "sha256": "5395f84d217ba1ecef2c25cbb10a149190f7ea88796575547fea291de987eeeb",
+    "bytes": 5699
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-58/process-outcomes-work-02.json",
-    "sha256": "c8474e9027044d2710774db7478b3bc4abf0710c2b54042474ed489015b00a93",
-    "bytes": 708
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/process-outcomes-work-03.json",
+    "sha256": "0343ff4fec565e22576000fc8651cf916a33cd66913c63d09dd35f24987595fa",
+    "bytes": 1903
   },
   "prior_accepted_opening": {
     "path": "metadata/catalog/scan-restoration/1984-03-ad-opening.json",
@@ -194,7 +194,7 @@
   "cleanup_preview_only": true,
   "cleanup_estimated_allocated_space": "59.1 GiB",
   "deleted_files": 0,
-  "next": "Continue M62 native restoration on original 234–239. Reuse all 64 successful OCR tasks, all 64 source-compared readings and selected Table 3 R02 (24 cells, nine rule segments). Encode and compare remaining Figures 20–30, circuit/waveform paths, displayed integral/ratio equations, Figure 28 flowchart and one 8080 program with comments/clock column, and all prose, headings, physical baselines, inline typography, captions and references. Preserve two unresolved ring-shaped superscripts, the literal HiGH/HIGH difference, H,2 000 H spacing, unprinted graphic labels, source polarities and all nine internal joins. Integrate and independently build/audit the continuation before acceptance. Then restore 240–241, assemble/audit the complete 228–241 article, and finish every remaining March article, heading and all 273 scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M61 or predecessor helpers/evidence. Whole March remains active.",
+  "next": "Continue M62 native restoration on original 234–239. Reuse all64 successful OCR tasks and source-compared readings, plus six selected native work contexts: Table3R02, integral, ratio, Figure20, Figure28 flowchart and its one8080programR02. These retain258fields,25empty contexts and112paths. Encode and compare remaining Figures21,22,23,24,25,26,27,29,30 and all prose, headings, physical baselines, inline typography, captions and references. Preserve two unresolved ring-shaped superscripts, HiGH/HIGH, H,2 000 H, source polarities, unprinted labels and all nine internal joins. Integrate and independently build/audit the continuation before acceptance. Then restore240–241, assemble/audit the complete228–241article, and finish every remaining March article, heading and all273scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M61 or predecessor helpers/evidence. Whole March remains active.",
   "unresolved_superscript_occurrences": 2,
   "source_readings": {
     "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/source-compared-readings-01.json",
@@ -207,9 +207,9 @@
     "bytes": 1321
   },
   "native_structure_plan": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-structure-plan-02.json",
-    "sha256": "ddec2f4b5da03101471d9d5268b1ad0e04093f61985eb35ab27dc20fb3013cb4",
-    "bytes": 27516
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-structure-plan-03.json",
+    "sha256": "524ddecac7f66f5db517a8810d6c22ad04a3461d813de40cd8c5ca45521b4a2c",
+    "bytes": 29321
   },
   "native_table3_work": {
     "validation": {
@@ -235,9 +235,60 @@
     "continuation_accepted": false
   },
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-58/cleanup-preview-work-02.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/cleanup-preview-work-03.log",
     "sha256": "4f32d87948b72da95b7d22cd07dab61ec9d2ecb5db31727406798cdae79711e4",
     "bytes": 233
   },
-  "source_contract_damage_rejections": 16
+  "source_contract_damage_rejections": 16,
+  "native_work": {
+    "validation": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/native-work-validation-02.json",
+      "sha256": "e4547a832cd51e0ed81b38cf1aedce29c483b718f942431c03629a017695e8ec",
+      "bytes": 1949
+    },
+    "review": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-geometry-work-review-02.json",
+      "sha256": "0a63a3b0d24aacbbf5ac229a202bf255b98ca34d21861d24c84ccf8d22cf33d7",
+      "bytes": 42852
+    },
+    "geometry": [
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-table3-02.json",
+        "sha256": "7bddbbc44af1335ae9f1f8b9129e3128539949bb8b88137acfc68951bf510ef7",
+        "bytes": 51264
+      },
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-integral-01.json",
+        "sha256": "19b27cab11d0c7d5873f653331c665d38557398edd159298d27298d37ac3ee65",
+        "bytes": 34392
+      },
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-ratio-01.json",
+        "sha256": "41c3a1059e9b4183480a39e6cb309e58d364b5a8521d01ac86a4655916ace5a6",
+        "bytes": 22038
+      },
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-flowchart-01.json",
+        "sha256": "a989744f977544c74903f81e0fbc7e5900c6895f296dd0b23d3d2346548ac8a2",
+        "bytes": 45587
+      },
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-integrator-01.json",
+        "sha256": "0770b5f4ed1c9483239973509d680d0b7a3c718c64aa53cc5f19361d3a1241a8",
+        "bytes": 74069
+      },
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/native-program-02.json",
+        "sha256": "3b72ac8aab567303dffcfa4a72fffdb0f7bf3becfd5d053bb553ab9f2e6226d5",
+        "bytes": 167175
+      }
+    ],
+    "structures": 6,
+    "fields": 258,
+    "empty_contexts": 25,
+    "paths": 112,
+    "qualifications": 18,
+    "rejected_damaged_cases": 12,
+    "continuation_accepted": false
+  }
 }
