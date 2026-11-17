@@ -4948,8 +4948,8 @@
       ],
       "current_work": {
         "path": "metadata/catalog/scan-restoration/1984-03-northwest-work.json",
-        "sha256": "6efc0aad6e7296de49a070830a6064eb4bd9aca1956ccf8fedd597bd8a7080d8",
-        "bytes": 4152
+        "sha256": "785d7cf600c9a77de8b3933cfd0676dbb66ce4cc795682c5940fa04d4e0a4334",
+        "bytes": 5887
       }
     },
     {
@@ -6270,14 +6270,14 @@
     "bytes": 308576
   },
   "current_checkpoint": "M45-working",
-  "next": "Finish M45 native tables/screens, flowchart geometry, all69physical listing rows including11opaque drawn-grid runs, source joins/ranges/captions and descriptive figure observations on165–170. Then build twice and independently audit the opening before accepting it. Restore final171–173 in the next bounded segment and assemble the complete165–173article. Continue every remaining March article, heading and all273source dispositions, then reproducible whole-issue export/audit.",
+  "next": "Complete M45 source-bound narrative joins,paragraph/list/range/formula/figure/caption associations and native opening recipe. Build twice and independently audit165–170before accepting the segment. Restore final171–173 and assemble the complete165–173article. Then complete every remaining March article,heading and all273source dispositions,followed by reproducible whole-issue export/audit.",
   "pending_article_candidates": 16,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 3,
   "current_work": {
     "path": "metadata/catalog/scan-restoration/1984-03-northwest-work.json",
-    "sha256": "6efc0aad6e7296de49a070830a6064eb4bd9aca1956ccf8fedd597bd8a7080d8",
-    "bytes": 4152
+    "sha256": "785d7cf600c9a77de8b3933cfd0676dbb66ce4cc795682c5940fa04d4e0a4334",
+    "bytes": 5887
   }
 }

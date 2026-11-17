@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0025",
   "canonical_received_title": "서북 편란법",
   "observed_source_title": "서북 편란법",
-  "status": "source-comparison-complete;native-opening-pending",
+  "status": "native-figures-and-opening-listing-reviewed;article-integration-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -55,7 +55,7 @@
   "active_process_handles": [],
   "active_processes": [],
   "source_accounting_note": "Accepted M44 ledger is retained until the next accepted native checkpoint. Working full-page reviews verify165–173extent and separate174opening; they do not establish native acceptance.",
-  "next": "Finish M45 native tables/screens, flowchart geometry, all69physical listing rows including11opaque drawn-grid runs, source joins/ranges/captions and descriptive figure observations on165–170. Then build twice and independently audit the opening before accepting it. Restore final171–173 in the next bounded segment and assemble the complete165–173article. Continue every remaining March article, heading and all273source dispositions, then reproducible whole-issue export/audit.",
+  "next": "Complete M45 source-bound narrative joins,paragraph/list/range/formula/figure/caption associations and native opening recipe. Build twice and independently audit165–170before accepting the segment. Restore final171–173 and assemble the complete165–173article. Then complete every remaining March article,heading and all273source dispositions,followed by reproducible whole-issue export/audit.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-41/northwest-a/map-r02.json",
     "sha256": "ecb4a03fc1a3229b8f22b0b6f0f196299d4f39cef4135d1e494fa9a8db7ac7e9",
@@ -103,7 +103,50 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-41/resume.json",
-    "sha256": "5c43920bf50798c8a7e0f8f015764b69fcf174c2159ebd0cb41a94d36362369f",
-    "bytes": 1606
+    "sha256": "3a6ddf2d56d321f285dba234b40e21925ff31b2ce0d468c572bfba48f156658a",
+    "bytes": 2371
+  },
+  "native_figure_geometry_complete": true,
+  "native_listing_index_complete": true,
+  "physical_listing_rows": 69,
+  "logical_listing_units": 69,
+  "lexical_fields": 603,
+  "numeric_occurrences": 106,
+  "opaque_graphic_runs": 11,
+  "native_cells": 176,
+  "native_fields": 301,
+  "native_paths": 155,
+  "flow_nodes": 36,
+  "flow_routes": 39,
+  "descriptive_original_figure_reviews": 10,
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/northwest-a/native-geometry-05.json",
+    "sha256": "0e5dd34178074b2173dad42a139d3ef33c1ba9d7b949e63bc5a89d47b0b62d90",
+    "bytes": 532951
+  },
+  "native_geometry_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/northwest-a/native-geometry-review.json",
+    "sha256": "4d653d5da6b7c30b60adab4c6300590f902472399e5a33a8718f4279855930c8",
+    "bytes": 6024
+  },
+  "figure_observations": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/northwest-a/figure-source-observations.json",
+    "sha256": "5877008e662296cee91928102a8bff57c0c6f72bdba467576d8584b0ee517729",
+    "bytes": 9554
+  },
+  "native_listing": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/northwest-a/native-listing-03.json",
+    "sha256": "2f5296024cd58fadc9c739a613e1bb165567eb61b37d8a21efdc2eefe217750d",
+    "bytes": 758147
+  },
+  "native_listing_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/northwest-a/native-listing-review.json",
+    "sha256": "9105cbd486075644e2898ad054463aeeff643cdead1d123c55e7caab0582cfda",
+    "bytes": 2781
+  },
+  "native_structures_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-41/native-structures-work-audit.json",
+    "sha256": "21da27159b52ff34d6f0ed944f2af9c3284c908a19fbafeb05f730142c895ecb",
+    "bytes": 1427
   }
 }

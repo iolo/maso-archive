@@ -132,8 +132,12 @@ before bounded native restoration. See
 **M45 is in progress:** 서북 편란법 has a verified 165–173 extent. All 45 text
 contexts on selected 165–170 now have enlarged donated-JPEG comparison; 55 crops
 and 45 initial OCR bindings pass the source audit, with no recognition retries.
-Its native tables/screens, flowchart, 69 listing rows, joins and independent
-exports remain pending. This is working evidence, with no newly accepted article
+Its native tables/screens, flowchart and 69 listing rows are now encoded and
+source-compared: 176 cells, 301 fields, 155 paths and 603 lexical fields. The
+combined typed preflight passes 1,816 records and 10,241 references. Original
+drawing bytes remain unresolved. Narrative joins, list/range/formula/caption
+integration and independent exports/audit remain pending. This is working
+evidence, with no newly accepted article
 package or change to the whole-issue totals above. Continue the opening, final
 171–173 and full article assembly, then every remaining March task. See
 [the working record](metadata/catalog/scan-restoration/1984-03-northwest-work.json).

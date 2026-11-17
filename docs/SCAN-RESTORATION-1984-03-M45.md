@@ -1,4 +1,4 @@
-# March 1984 M45 working source comparison
+# March 1984 M45 working native opening
 
 The scope remains the whole March issue: all 273 scans, every eligible article,
 all canonical headings and source dispositions, followed by checked native
@@ -17,15 +17,33 @@ independent table totals, INPOT in the flowchart, an UNE/LINE ambiguity, an I/1
 predicate ambiguity, blank flow nodes and unlabeled branches. Program rows
 10000–10680 remain independent from the prose's 10–2350 range guide. Eleven
 PRINT rows contain photographed drawing runs whose original encoded bytes are
-uncertified; explicit opaque markers remain pending native grid observations.
+uncertified; explicit opaque markers now bind to native grid and physical-row
+observations without inventing replacement characters.
 Whitespace candidates in photographed code are qualified. No execution or
 algorithm correction is claimed.
 
 The working source-text audit checks all 45 review/crop/result bindings and
 preserves the unchanged 53 implementation pins and 35 frozen M44 evidence files.
-Native tables, screen grids, flowchart geometry, listing units/ranges, source
-joins, captions, figure observations and both independent exports are still
-required before opening acceptance. Final 171–173 and whole-article assembly
+All ten original figures and the separate ruled pullquote now have compared
+native contexts: 37 rows, 176 cells, 301 fields and 155 paths. The flowchart
+retains 36 printed shapes, 39 routes, seven printed branch labels and two blank
+nodes. Its open continuation and unlabeled shared bus remain explicit. Initial
+displaced code-grid borders and pullquote rules are preserved alongside the
+compared corrections.
+
+The opening listing retains 69 physical rows and numbered units, 603 lexical
+fields, 106 numeric occurrences and eleven opaque drawing runs. Initial tail-row
+boxes drifted; all 69 row contexts were relocated from original line-number ink,
+and all three refined overlays were compared. The combined typed preflight
+passes 1,816 records, 10,241 references and 2,820 byte spans. The initial failed
+geometry contract and its repair are retained: figure contexts keep ownership,
+while nested occurrences identify their separate source text regions. Shared
+implementation remains unchanged.
+
+Narrative joins, paragraph/list/range/formula/caption associations, the complete
+opening recipe and both independent exports/source audits are still required
+before acceptance. The contract scaffold checks geometry and listing bindings;
+it is not a selected article export. Final 171–173 and whole-article assembly
 follow as separate bounded work. All processing jobs are terminal.
 
 Accepted totals remain 22 complete articles, no partial articles, 16 pending
