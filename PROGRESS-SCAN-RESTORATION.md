@@ -6704,3 +6704,44 @@ full-page dispositions across all 273 scans**. All known jobs are terminal.
 Cleanup was preview-only at 55.5 GiB with no deletion. M50 is not frozen;
 never execute the frozen M49 helpers. See the
 [M50 working handoff](docs/SCAN-RESTORATION-1984-03-M50-WORK.md).
+
+## M55 source work — March interface opening, actual 210–215
+
+Verified canonical **컴퓨터의 마담 뚜 인터페이스**, **maso-1984-03-toc-0031**,
+across original **210–217**, with separate 209/218 neighbors and a hollow-square
+ending on 217. The bounded opening selects six views, 210–215; four outside
+views establish extent. All ten full pages and ten initial/refined overlays have
+personal source comparison, with two exact selected-overlay reuses. Ten bound
+refinements preceded recognition.
+
+All **42 original mapped Tesseract tasks** completed once with **no retries**.
+Every reading has enlarged JPEG comparison. The independent source audit checks
+all **52 pixel-exact crops**, every recognition/map/settings/runtime/position
+binding, all 53 unchanged implementation pins and 595 frozen M54 files. The
+qualified M47 300-test baseline applies; no broad tests were freshly rerun.
+Summed recognition processing time was 33.315 seconds. The prospective source
+comparison interval was 570.876 seconds elapsed, excluding earlier page/overlay
+review; neither measure establishes active human effort.
+
+Thirty qualifications preserve literal maker spellings CMPHENOL/AMPHENOL,
+individual signal overbars, both RETURN owners, Carrage Return, the repeated
+ACK-low claim, source voltage/rate claims, figure/prose TRANSMIT/TRANSMITTED
+differences and stacked 1½. Four glyph contexts retain alternatives. Original
+raster ownership and assistant-review limits remain explicit.
+
+Ten figure regions retain title artwork, two photographs, three road panels and
+four numbered diagrams. The native plan records 25 RS-232 rows, five empty
+directions, four captions and fourteen prose joins. Native geometry, recipe,
+two independent opening exports and native audit remain pending. No native
+opening package or whole-article completion is claimed. Continue those tasks,
+then restore 216–217 with figures 5/6 and the closing square and assemble/audit
+the full 210–217 article. The outgoing 벗/어나지만 word join has an empty separator.
+
+The whole issue stays active with **27 complete articles, no partial articles,
+eleven pending articles, five complete headings, one pending heading and
+82 pending full-page dispositions across all 273 scans**. Accepted counters and
+M54 source ledger are unchanged. Every remaining March task and reproducible
+whole-issue export/completion audit remain required. All jobs are terminal;
+cleanup was preview-only at 56.9 GiB, with no deletion. M55 evidence is unfrozen.
+See the [M55 work handoff](docs/SCAN-RESTORATION-1984-03-M55-WORK.md) and
+[working record](metadata/catalog/scan-restoration/1984-03-interface-opening-work.json).

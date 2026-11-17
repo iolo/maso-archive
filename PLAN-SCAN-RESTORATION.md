@@ -528,6 +528,24 @@ remaining pages/complete assembly. Finish every remaining March article,
 heading and source disposition through reproducible whole-issue export and
 completion audit. See the [M54 handoff](docs/SCAN-RESTORATION-1984-03-M54.md).
 
+**M55 source work verifies the interface article, actual 210–217**, with the
+bounded opening on **210–215** and four outside extent views. All **52 crops**
+match original pixels; all **42 original OCR tasks** finished once with **no
+retries**, and every reading has enlarged JPEG comparison. Thirty source
+qualifications retain printed anomalies and four unresolved local glyph contexts.
+The opening preserves ten original figure regions, four numbered diagrams and
+source requirements for all 25 RS-232 pin rows, five empty direction contexts,
+four captions and fourteen prose joins. All **53 implementation pins** and
+**595 frozen M54 files** remain exact; the M47 300-test baseline applies without
+a fresh broad test run. **Native geometry, recipe, two exports and native audit
+remain pending.** No opening package or whole article is accepted. M55 evidence
+is unfrozen. Accepted totals remain **27 complete articles, eleven pending
+articles, five complete headings, one pending heading and 82 pending full-page
+dispositions across all 273 scans**. Continue M55 native work, then restore
+**216–217** and assemble/audit the full article. Every remaining March task and
+whole-issue export/completion audit remain required. See the
+[M55 work handoff](docs/SCAN-RESTORATION-1984-03-M55-WORK.md).
+
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

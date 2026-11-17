@@ -5824,6 +5824,34 @@
         },
         "source_extent_verified": false,
         "restoration_pending": true
+      },
+      "active_source_work": {
+        "checkpoint": "M55",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-interface-opening-work.json",
+          "sha256": "e96d7131479691273c7219b8d7663a4c48a6c5d66ea0a802064b55c732c16edc",
+          "bytes": 5529
+        },
+        "article_actual_folios": [
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217
+        ],
+        "selected_opening_folios": [
+          210,
+          211,
+          212,
+          213,
+          214,
+          215
+        ],
+        "source_compared_text_regions": 42,
+        "native_acceptance_pending": true
       }
     },
     {
@@ -6842,8 +6870,8 @@
     "sha256": "23165aa2b9f796a1bb26a0de8ee9e90c034b5b167409731548d333883ad1910d",
     "bytes": 368123
   },
-  "current_checkpoint": "M54-complete",
-  "next": "M55: verify canonical 컴퓨터의 마담 뚜 인터페이스 and its complete candidate extent210–217 against original JPEGs and neighboring209/218, then restore a bounded opening of at most six source views before the remaining pages and complete article assembly. Continue every remaining March article, information-group classification and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M54 helpers; shared implementation remains the qualified M47 implementation-after.json.",
+  "current_checkpoint": "M55-source-work",
+  "next": "M55: encode and personally compare all native structures and prose relationships for the source-compared interface opening210–215. Create its recipe,two independent exports and complete native audit before accepting the opening. Then restore216–217 with figures5/6 and closing square,and assemble/audit the whole210–217 article. Continue every remaining March article,information-group classification and all273scan dispositions through reproducible whole-issue export and completion audit. Reuse the42 original OCR outcomes;no retries were run. M55 evidence remains unfrozen;never execute or modify frozen M54/predecessor helpers. Shared implementation remains the qualified M47 implementation-after.json.",
   "pending_article_candidates": 11,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,

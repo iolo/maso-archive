@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M55",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0031",
+  "canonical_received_title": "컴퓨터의 마담 뚜 인터페이스",
+  "observed_source_title": "컴퓨터의 마담 뚜 : 인터페이스",
+  "status": "source-text-work-audit-passed;native-acceptance-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217
+  ],
+  "selected_opening_folios": [
+    210,
+    211,
+    212,
+    213,
+    214,
+    215
+  ],
+  "outside_lookup_folios": [
+    209,
+    216,
+    217,
+    218
+  ],
+  "deferred_source_folios": [
+    216,
+    217
+  ],
+  "mapped_regions": 52,
+  "source_compared_text_regions": 42,
+  "initial_recognition_tasks": 42,
+  "recognition_retries": 0,
+  "original_figure_regions": 10,
+  "original_numbered_figures": 4,
+  "original_photographs": 2,
+  "original_title_artworks": 1,
+  "original_unlisted_illustration_panels": 3,
+  "source_qualifications": 30,
+  "unresolved_local_glyph_contexts": 4,
+  "planned_prose_continuations": 14,
+  "planned_RS232_pin_rows": 25,
+  "planned_RS232_empty_direction_contexts": 5,
+  "planned_caption_associations": 4,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_package_selected": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "complete_whole_scan_articles": 27,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 11,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "source_images": 273,
+  "source_dispositions_pending": 82,
+  "source_accounting_note": "Source work only;accepted article/heading totals and M54 ledger remain unchanged. All273scans and every remaining March task stay in scope.",
+  "unchanged_implementation_pins": 53,
+  "unchanged_frozen_M54_files": 595,
+  "qualified_test_baseline": "M47 implementation-after.json;300 tests;unchanged implementation;not freshly rerun",
+  "review_status": "assistant-personally-source-compared;not-human-acceptance",
+  "cleanup": "preview-only;no deletion",
+  "evidence_frozen": false,
+  "active_process_handles": [],
+  "next": "M55: encode and personally compare all native structures and prose relationships for the source-compared interface opening210–215. Create its recipe,two independent exports and complete native audit before accepting the opening. Then restore216–217 with figures5/6 and closing square,and assemble/audit the whole210–217 article. Continue every remaining March article,information-group classification and all273scan dispositions through reproducible whole-issue export and completion audit. Reuse the42 original OCR outcomes;no retries were run. M55 evidence remains unfrozen;never execute or modify frozen M54/predecessor helpers. Shared implementation remains the qualified M47 implementation-after.json.",
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/scope.json",
+    "sha256": "895823feb6024848401d0121a39dfeb7879ae53e0e65e7c7e7331627032c3cfb",
+    "bytes": 2336
+  },
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/map-r02.json",
+    "sha256": "61e208b7bc91164c6ca476f9248f26494e8a8400ae7fd1f30ece464b9b848196",
+    "bytes": 30976
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/full-page-review.json",
+    "sha256": "40001ef8fc9ad892de515defbe3f5e2dbf24336ffc824595f20f3957087e186c",
+    "bytes": 9320
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/transition.json",
+    "sha256": "5f5d35f72ad9fb5f928efe8ded212c28a445b3e194035b178fda0694f5a0a655",
+    "bytes": 1601
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/overlay-review.json",
+    "sha256": "84fd715d749c1e160a106bbbf031ed48ca12bccd9ea2cd9782ee8f855c27a317",
+    "bytes": 30122
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/recognition-outcomes.json",
+    "sha256": "19ad65a63affa39e1269e83a67153b6670b7d7ff102f384f51471b8300df5e8f",
+    "bytes": 4533
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/source-compared-readings-01.json",
+    "sha256": "f6da5985706f71998b645e2d3b951d0ed5c82ea865a64c6aec7e0353db3b63af",
+    "bytes": 118378
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/interface-a/native-structure-plan-01.json",
+    "sha256": "e9840f59be0100d3c436791ae83abbe65a2a39cd9459d2a55daf0583b93483dd",
+    "bytes": 14008
+  },
+  "source_text_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/source-text-work-audit.json",
+    "sha256": "4ed46d7fe7747a8f4c74d844843aca177f50010c6611b81a9d9940e2d6b85db2",
+    "bytes": 44095
+  },
+  "source_review_timing": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/source-review-timing-01.json",
+    "sha256": "d80ac53731ae8b941d625fdc9e4be1cb6ef68b2fc1e0f9000ea78c8f33b8d1cf",
+    "bytes": 345
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/resume.json",
+    "sha256": "6d9ba9f89854a8f397ba09c58b3cd9987e2677280ceeb6c95b0436019314a69d",
+    "bytes": 1741
+  },
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-51/cleanup-preview-source-work.log",
+    "sha256": "d17bb4c15a105006fff1674e0cac45706b8bfa72b26bb91aa40351d0063f9fd3",
+    "bytes": 233
+  }
+}
