@@ -612,6 +612,38 @@ neighbors before bounded native restoration. Finish every remaining March task
 through whole-issue export/completion audit. See the
 [complete interface article](metadata/catalog/scan-restoration/1984-03-interface.json).
 
+**M58 source work verifies 도형정의표의 정복 across actual 218–227.**
+All twelve original 217–228 full pages establish extent and separate neighbors.
+The prose star on 224 precedes integral listings and printed sessions on 225–227;
+all remain part of this article. The bounded opening selects 218–223, with
+**72 pixel-exact crops, 61 enlarged source-compared text contexts and eleven
+original figures**. The independent source-work audit passes every crop,
+recognition/map/settings/runtime/position binding and preserved reading part.
+Thirty-three initial successes are reused; 26 unattempted regions and two targeted
+retries complete the selected 61 bindings in 63 total attempts. Three original
+outer jobs exited 143 for an unknown external reason; their partial directories
+remain unchanged. All processing is terminal. One successful task duration and
+interrupted durations remain unknown. Known successful processing totals
+34.545 seconds; enlarged source comparison spans 958.310 elapsed seconds,
+excluding earlier page/overlay work. Neither measure is active human effort.
+
+The native plan retains **six tables, 450 grid cells, eight variable definitions,
+fifteen internal continuations and eight caption associations**. Thirty-four
+qualifications preserve literal binary/prose disagreements, 34300/38400,
+25/26 sector statements, CREAT/CREATE, original dotted rules, braces, blanks,
+physical wraps and two unresolved local readings. Native geometry, recipe,
+two opening exports and independent native audit remain pending. Continue those
+M58 tasks, then restore 224–227 and assemble/audit the full article, followed by
+every remaining March article, heading, disposition and whole-issue export/audit.
+Accepted totals and the M57 ledger remain **28 complete articles, no partial
+articles, ten pending articles, five complete headings, one pending heading and
+74 pending dispositions across 273 scans**. All 53 implementation pins, 41 frozen
+M57 evidence files and 272 accepted interface files remain exact; the qualified
+M57 303-test baseline applies without fresh broad testing. Cleanup was preview-only
+at 57.8 GiB with no deletion. M58 is unfrozen; never execute or modify frozen
+predecessor helpers/evidence. See the
+[M58 work handoff](docs/SCAN-RESTORATION-1984-03-M58-WORK.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

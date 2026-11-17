@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M58",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0032",
+  "canonical_received_title": "도형정의표의 정복",
+  "observed_source_title": "도형정의표 (Shape Table)의 정복",
+  "observed_subtitle": "보다 효율적인 설계 및 설계프로그램에 관하여",
+  "status": "source-text-work-audit-passed;native-acceptance-pending",
+  "source_kind": "jpeg-set",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227
+  ],
+  "selected_opening_folios": [
+    218,
+    219,
+    220,
+    221,
+    222,
+    223
+  ],
+  "outside_lookup_folios": [
+    217,
+    224,
+    225,
+    226,
+    227,
+    228
+  ],
+  "deferred_source_folios": [
+    224,
+    225,
+    226,
+    227
+  ],
+  "prose_closing_folio": 224,
+  "integral_listing_folios": [
+    225,
+    226,
+    227
+  ],
+  "mapped_regions": 72,
+  "source_compared_text_regions": 61,
+  "initial_recognition_tasks": 61,
+  "successful_first_pass_tasks_reused": 33,
+  "initially_unattempted_tasks_completed": 26,
+  "recognition_retries": 2,
+  "total_task_attempts": 63,
+  "original_figure_regions": 11,
+  "original_photographs": 1,
+  "original_title_artworks": 1,
+  "source_qualifications": 34,
+  "unresolved_local_readings": 2,
+  "planned_tables": 6,
+  "planned_grid_cells": 450,
+  "planned_variable_definitions": 8,
+  "planned_prose_continuations": 15,
+  "planned_caption_associations": 8,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_package_selected": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "complete_whole_scan_articles": 28,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 10,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "source_images": 273,
+  "source_dispositions_pending": 74,
+  "source_accounting_note": "Audited source work only;accepted article/heading counters and frozen M57source ledger remain unchanged until native acceptance. All12original217–228fullpage comparisons are retained for later source-disposition reconciliation.",
+  "unchanged_implementation_pins": 53,
+  "unchanged_frozen_M57_files": 41,
+  "unchanged_accepted_interface_files": 272,
+  "qualified_test_baseline": "M57 implementation-after.json;303 tests;unchanged implementation;not freshly rerun",
+  "known_successful_processing_seconds": 34.54523796206922,
+  "known_successful_processing_tasks": 60,
+  "unknown_successful_task_durations": [
+    "p219-section-one-psm6"
+  ],
+  "interrupted_attempt_durations": "unknown;not estimated",
+  "source_review_elapsed_seconds": 958.309977,
+  "timing_note": "Known successful OCR processing sum and prospective source-comparison elapsed interval are different measures;neither establishes active human effort.",
+  "review_status": "assistant-personally-source-compared;not-human-acceptance",
+  "cleanup": "preview-only;no deletion",
+  "evidence_frozen": false,
+  "active_process_handles": [],
+  "next": "M58: encode and personally compare every native structure of the source-compared 도형정의표의 정복 opening218–223 (maso-1984-03-toc-0032). Retain six original tables,the vector-path drawing,both15×15grids/all450cellcontexts,eight variable definitions,eleven original figures,eight captions,fifteen internal source continuations and all34qualifications/two unresolved local readings. Create the recipe,two independent exports and independent native audit before accepting the opening. Reuse all61 selected recognition bindings from recognition-outcomes.json,including fresh completion folders and the assembled219bundle;never rerun successful OCR or use original interrupted folders as selected results. Preserve the outgoing223 도형의 번호를 /224 묻는다. word space. Then restore224–227,including224error-correctionlisting and all225–227mainlisting/printed displays after the prose closing star,and assemble/audit the complete218–227article. Continue every remaining March article,the information-group heading and all273scan dispositions through reproducible whole-issue export/completion audit. Wholeissue remains active. M58 evidence is unfrozen;never execute or modify frozen M57/predecessor helpers/evidence. Shared implementation is qualified M57 implementation-after.json,303tests.",
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/scope.json",
+    "sha256": "e32b6058a7f2f06ac54d193df83098ec479302c8ab610592962160bf1e1b1e87",
+    "bytes": 2566
+  },
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/shape-a/map-r03.json",
+    "sha256": "b7edf38dbb9064bd4f06cf479a5c7e06bed40066482a9181b5c2e74ac4a091c9",
+    "bytes": 36338
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/full-page-review.json",
+    "sha256": "d343a316a0b3f6f0803a193b2aa53567475db9d92d37fb510bbcc6f52c6aac99",
+    "bytes": 11064
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/transition.json",
+    "sha256": "df76287f59b8ad50f9ba958ab59961d65fae7e947f50ebe934cd6051219bb1ca",
+    "bytes": 1586
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/overlay-review.json",
+    "sha256": "698a62662eb60f102aabb0eae94c9cca53126af6574d5614f8665996bf1471e2",
+    "bytes": 8600
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/recognition-outcomes.json",
+    "sha256": "866d182c3c1034b7e301d4bf0cb5edd5297bb844d3496496b79fd704b4a22407",
+    "bytes": 6194
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/shape-a/source-compared-readings-01.json",
+    "sha256": "c5cf1d4b542b828e02d985b18cd97010c92b4850954aef6b7a7a50c56f894f66",
+    "bytes": 140620
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/shape-a/native-structure-plan-01.json",
+    "sha256": "6b352ebb610079aa58231f3a94eef2e1b91c449e4e1a56d5aacacfa63aac3e5c",
+    "bytes": 21924
+  },
+  "source_text_work_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/source-text-work-audit.json",
+    "sha256": "2f999ab2f208e332ed0d304a9f88fa59f1a614691d342dd030bf895cb312a6bd",
+    "bytes": 63175
+  },
+  "source_review_timing": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/source-review-timing-01.json",
+    "sha256": "f05caa2621c8c904eeb338e0f7c70185d4e030814af83aa7343a1f3a12ccfe1c",
+    "bytes": 386
+  },
+  "recognition_recovery_timing": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/recognition-recovery-timing-01.json",
+    "sha256": "1c5293aa65d96850af1ac594d6e1965559e1071b2dc58f4acd4471334173ab3c",
+    "bytes": 278
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/resume.json",
+    "sha256": "33313011231819a1cf90026b6e1f05514aba12268800b2ae2694010b24ca248b",
+    "bytes": 2517
+  },
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/cleanup-preview-source-work.log",
+    "sha256": "42ade8b5ae6bc874b2b8ca8fc5c4fb3383948bc3d3448a533b72235061bff42e",
+    "bytes": 233
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-54/process-outcomes-source-work.json",
+    "sha256": "47089a67d2fd295f0986d778219d2e9ca882df51d6ff064812fccaa69ca0315f",
+    "bytes": 2180
+  }
+}

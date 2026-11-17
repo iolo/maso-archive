@@ -6076,6 +6076,36 @@
         },
         "source_extent_verified": false,
         "restoration_pending": true
+      },
+      "active_source_work": {
+        "checkpoint": "M58",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-shape-opening-work.json",
+          "sha256": "51caf7abe8a4909e5f6c0d06858ed9de22c6c735c85c10e3a677b9387125fba1",
+          "bytes": 7437
+        },
+        "article_actual_folios": [
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227
+        ],
+        "selected_opening_folios": [
+          218,
+          219,
+          220,
+          221,
+          222,
+          223
+        ],
+        "source_compared_text_regions": 61,
+        "native_acceptance_pending": true
       }
     },
     {
@@ -6999,8 +7029,8 @@
     "sha256": "4899ce50ba07a4568253c0c716a76d1eed4746629d3584cb35179ec06e998397",
     "bytes": 385336
   },
-  "current_checkpoint": "M57-complete",
-  "next": "M58: verify complete source extent of canonical 도형정의표의 정복 (maso-1984-03-toc-0032),candidate original218–227,from the original JPEGs and neighboring217/228 before bounded restoration. Restore at most six opening views,then the remaining ending and complete article assembly/audit. Preserve every source listing,table,diagram,caption,prose join and local uncertainty. Continue all remaining March articles,the information-group heading and all273scan dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M57/M56/M55/predecessor helpers/evidence. Use the qualified M57 implementation-after.json baseline,303passing tests.",
+  "current_checkpoint": "M58-source-work",
+  "next": "M58: encode and personally compare every native structure of the source-compared 도형정의표의 정복 opening218–223 (maso-1984-03-toc-0032). Retain six original tables,the vector-path drawing,both15×15grids/all450cellcontexts,eight variable definitions,eleven original figures,eight captions,fifteen internal source continuations and all34qualifications/two unresolved local readings. Create the recipe,two independent exports and independent native audit before accepting the opening. Reuse all61 selected recognition bindings from recognition-outcomes.json,including fresh completion folders and the assembled219bundle;never rerun successful OCR or use original interrupted folders as selected results. Preserve the outgoing223 도형의 번호를 /224 묻는다. word space. Then restore224–227,including224error-correctionlisting and all225–227mainlisting/printed displays after the prose closing star,and assemble/audit the complete218–227article. Continue every remaining March article,the information-group heading and all273scan dispositions through reproducible whole-issue export/completion audit. Wholeissue remains active. M58 evidence is unfrozen;never execute or modify frozen M57/predecessor helpers/evidence. Shared implementation is qualified M57 implementation-after.json,303tests.",
   "pending_article_candidates": 10,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,

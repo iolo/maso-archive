@@ -7,9 +7,13 @@ on original **210–217**, in two matching **272-file native exports** retaining
 all **264 original segment files**. All 303 applicable regression tests pass.
 Totals are **28 complete articles, no partial articles, ten pending articles,
 five complete headings, one pending heading and 74 pending full-page dispositions
-across all 273 scans**. Continue **M58: verify 도형정의표의 정복**, candidate
-218–227, before bounded native restoration and every remaining March task through
-whole-issue export/completion audit. See the
+across all 273 scans**. **M58 source work now verifies 도형정의표의 정복,
+218–227**, with enlarged comparison of all 61 opening text contexts on 218–223.
+All 72 crops and 61 recognition bindings pass the independent source audit; native
+opening reconstruction and exports remain pending. Then restore 224–227,
+including integral listings after the prose closing star, assemble the complete
+article and finish every remaining March task through whole-issue export/audit.
+See the [M58 work handoff](docs/SCAN-RESTORATION-1984-03-M58-WORK.md) and
 [M57 handoff](docs/SCAN-RESTORATION-1984-03-M57.md).
 
 **M54 accepts all source and native article structures.** All 38 readings,
