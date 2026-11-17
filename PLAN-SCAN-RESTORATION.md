@@ -218,18 +218,21 @@ three pending headings and 125 pending full-page dispositions** across all
 restoration is still required. Continue **M38** with actual **140–145**, then
 146–151 and 152–154, followed by complete 134–154 assembly/audit and every remaining
 March task. See [the accepted opening](metadata/catalog/scan-restoration/1984-03-regression-opening.json).
-**M38 is in progress on actual 140–145.** All 59 text contexts and eight
-original figures have enlarged JPEG comparisons recorded; 67 original-master
-crops pass independent pixel checks. The six scatterplots preserve 91 visible
-mark groups without inferring missing observations. Two bounded table retries
-and all source-specific errors and qualifications remain preserved. This is a
-source-review milestone. Native context geometry is now also source-compared:
-109 structures, 843 fields, 460 cells, 149 original paths and 170 physical
-listing/output rows across 46 contexts. Independent work auditing passes; exact
-occurrence indexes, joins, independent exports and source/native validation still
-remain before segment acceptance. Accepted whole-issue totals remain unchanged. Continue the complete
-regression article and every remaining March task. See the
-[M38 work record](metadata/catalog/scan-restoration/1984-03-regression-middle-work.json).
+**M38 completes the bounded native middle on actual 140–145** in **253 exact
+files**. Both independent builds, all **67 original-master crops**, 59 initial
+recognition bindings and **36 damaged-data checks** pass. The segment retains
+**109 structures, 843 fields, 460 cells including eight blanks, 149 original
+paths, 170 physical output/DATA rows, 169 logical units, 63 formula contexts,
+31 DATA values and the explicit 11/5→115 join**. Eight prose joins and six plot
+caption associations have exact source ranges. The six scatterplots retain
+91 visible mark groups; no missing observation is inferred. Both targeted table
+retries, numerical disagreements, formula omissions and source qualifications
+remain preserved. Accepted whole-issue totals remain **20 complete articles,
+one partial article, 17 pending articles, three completed headings, three pending
+headings and 125 pending full-page dispositions** across **273 scans**.
+Continue **M39 on 146–151**, then 152–154, the complete 134–154 assembly/audit and
+every remaining March task. See the
+[accepted middle](metadata/catalog/scan-restoration/1984-03-regression-middle.json).
 March remains the current issue.
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).

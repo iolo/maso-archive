@@ -78,16 +78,16 @@ non-owning divider on actual **133**, in six exact files retaining three origina
 crops and six navigation rows. M37 verifies the complete **심층적 회귀분석**
 extent **134–154** and completes its bounded **134–139** opening in **263 exact
 native files**. All 63 initial OCR tasks, 65 master crops, native relationships,
-two builds and 38 damaged-data checks pass. Continue **M38** on **140–145**, then
-the rest of the article and all remaining March content, source dispositions and
-the reproducible whole-issue export/audit. **M38 source review is now recorded:**
-all 59 text contexts and eight original figures on 140–145, 67 pixel-exact master
-crops and two preserved targeted retries. Native encoding and segment acceptance
-remain pending; accepted totals above are unchanged. See the
-[M38 working record](metadata/catalog/scan-restoration/1984-03-regression-middle-work.json).
-Its 46 native context overlays now pass source comparison and independent work
-audit, retaining 109 structures, 843 fields, 460 cells and 149 original paths.
-Exact occurrence indexing, joins and native exports remain pending.
+two builds and 38 damaged-data checks pass. **M38 completes native 140–145 in
+253 exact files**. Both builds, 67 pixel-exact master crops, 59 recognition
+bindings and 36 damaged-data checks pass. Its 46 reviewed contexts retain
+109 structures, 843 fields, 460 cells, 149 paths, 170 physical output/DATA rows,
+169 logical units, 63 formula contexts and the explicit 11/5→115 source join.
+All original qualifications and both targeted retries remain preserved. The
+article remains partial, with whole-issue totals unchanged. Continue **M39 on
+146–151**, then 152–154, complete article assembly/audit and all remaining March
+content, dispositions and the reproducible whole-issue export/audit. See the
+[accepted middle](metadata/catalog/scan-restoration/1984-03-regression-middle.json).
 March remains the current issue.
 Prior PDF and supplement outputs
 remain unchanged. See the [historical supplement handoff](docs/SCAN-RESTORATION-1984-03.md).
@@ -5825,3 +5825,45 @@ and unchanged implementation. This remains working evidence: **exact occurrence
 ranges, logical listing/DATA joins, native package creation, two exports and
 source/native validation are still pending**. Whole-issue acceptance counters
 remain unchanged.
+
+## M38 complete — regression middle, actual 140–145
+
+The working milestones above are superseded by acceptance of
+[the native middle](metadata/catalog/scan-restoration/1984-03-regression-middle.json).
+Two independent builds reproduce **253 exact files**. The separate audit checks
+all **67 master crops** against the original JPEG pixels, **59 initial OCR
+bindings**, all **245 raw ZIP members** and the selected source readings. All
+**36 damaged-data cases** reject. The unchanged shared implementation retains
+the qualified 291-test baseline; all 838 frozen M37 evidence files remain exact.
+
+Native content preserves **109 structures, 843 fields, 118 rows, 460 cells
+including eight blanks and 149 original paths**. All **170 physical rows** and
+**169 logical units** belong to eleven independent output/DATA contexts. The
+five insurance DATA statements retain **31 literal values**; the split printed
+**11 / 5** has an explicit **115** join with exact physical pieces. The typeset
+abbreviated DATA example remains a separate prose context with its original
+three-row brace and literal annotation.
+
+Exact occurrences retain all **63 formula contexts**, **484 physical lexical
+fields**, **eleven numbered screen steps**, **eight regional prose joins**,
+**six caption associations** and **both ditto marks**. Every nonblank textual
+geometry field has one source-linked occurrence. Native checking covers
+**4,978 records, 23,557 typed references, 13,850 byte spans and 5,845 asset
+bindings**. The six scatterplots preserve **91 visible mark groups** and the
+insurance plot preserves seven visible ink clusters and its original dotted
+traces. No omitted observation or mathematical correction is inferred.
+
+The first native preflight rejected a scalar plot-mark ordinal named
+`source_order`, a key reserved for typed column-reference arrays. The selected
+encoding names that scalar `visible_mark_ordinal`; the reviewed geometry and
+source text are unchanged. The first export audit used a wrong ZIP-member
+count; only that fixture changed. Both failed attempts remain preserved.
+Cleanup was previewed without deletion and every launched job is terminal.
+
+March remains active with **20 complete articles, one partial article, 17 pending
+article candidates, three complete headings, three pending headings and 125
+pending full-page dispositions** across **273 scans**. Accepted regression source
+now covers **134–145**; **146–154 and complete article assembly remain required**.
+Continue **M39 on 146–151**, then 152–154, assemble/audit the full 134–154 article
+and finish every remaining March task before whole-issue export and acceptance.
+Never execute or modify frozen M38 helpers or evidence.

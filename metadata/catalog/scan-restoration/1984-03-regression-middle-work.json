@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0023",
   "canonical_received_title": "심층적 회귀분석",
-  "status": "source-and-native-context-geometry-reviewed;native-export-pending",
+  "status": "accepted-native-middle-segment;whole-article-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -57,9 +57,9 @@
     16,
     15
   ],
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_article_package_selected": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_article_package_selected": true,
   "complete_whole_scan_articles": 20,
   "partial_whole_scan_articles": 1,
   "pending_article_candidates": 17,
@@ -69,7 +69,7 @@
   "active_process_handles": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "Create native corrections with exact occurrence spans, physical/logical listing and DATA joins, prose/figure associations and lists. Then preflight, independently export twice and audit source/native content and damaged cases before accepting M38. Then restore 146–151 and 152–154, assemble/audit the complete 134–154 article and continue every remaining March article, heading and all 273 source dispositions before whole-issue closeout.",
+  "next": "M39: restore actual 146–151 of 심층적 회귀분석 from the donated JPEGs. Preserve accepted M37/M38 segments and verified complete extent 134–154. Then restore 152–154, assemble/audit the complete article and continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Do not execute or modify frozen M38 helpers/evidence.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-34/regression-b/map-r01.json",
     "sha256": "45806e8d00135d6c9241dd507a931594ca9df09ce9939c0abf9afb8ef0fe2648",
@@ -112,15 +112,15 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-34/resume.json",
-    "sha256": "fe44e8cdae8fcff1ce30fb8f0a8592f35a5b9206bad083dc0a35cc86baf919a6",
-    "bytes": 4333
+    "sha256": "d4777f489ada91458f44a1277e1e901e24083aacaec0673d154db6b0a55e6922",
+    "bytes": 4902
   },
   "accepted_opening": {
     "path": "metadata/catalog/scan-restoration/1984-03-regression-opening.json",
     "sha256": "df54f87118b4998323e0a4b16618c9c50b8a2595d9e0a926135c83ea0d687ed1",
     "bytes": 3711
   },
-  "acceptance_note": "The 59 text contexts and 46 native geometry contexts are source-compared. Exact native occurrence indexes, listing/DATA joins, package exports and source/native validation remain pending. Accepted whole-article and whole-issue counts are unchanged.",
+  "acceptance_note": "All59text contexts, eight original figures and46native contexts are source-compared. Both253-file exports, all67master crops, source/native audit and36damaged-data rejections pass. The article remains partial; whole-issue acceptance counters are unchanged.",
   "native_context_geometry_review_complete": true,
   "native_context_counts": {
     "structures": 109,
@@ -148,5 +148,16 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-34/native-context-work-audit.json",
     "sha256": "2a2acd79a84e2739c1e448d70d3cf384ec801228ad880d66ad9032c401a00725",
     "bytes": 1619
+  },
+  "native_package_availability": "partial",
+  "accepted_result": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-middle.json",
+    "sha256": "3b193f717e8dd6aaf66f80899afaab8a2ea1d344322da33e566612f8b0cdd56a",
+    "bytes": 3734
+  },
+  "selected_manifest": {
+    "path": "archive/scans/1984-03/packages/regression-b-jpeg-r01/manifest.json",
+    "sha256": "a04b321f8be74ef8d959b466fb3624c9ad0fb60224d03b7775467889760388a7",
+    "bytes": 43480
   }
 }

@@ -76,7 +76,7 @@
   "active_process_handles": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "M38: restore actual 140–145 of 심층적 회귀분석 from the donated JPEGs. Preserve the accepted M37 opening, its independent source variants and verified complete extent 134–154. Then restore 146–151 and 152–154 in bounded checkpoints and assemble/audit the complete article. Continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Do not execute or modify frozen M37 helpers/evidence.",
+  "next": "M39: restore actual 146–151 of 심층적 회귀분석 from the donated JPEGs. Preserve accepted M37/M38 segments and verified complete extent 134–154. Then restore 152–154, assemble/audit the complete article and continue every remaining March article, heading and all 273 source dispositions before reproducible whole-issue export/audit. Do not execute or modify frozen M38 helpers/evidence.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-33/regression-a/map-r02.json",
     "sha256": "2d9bd00e7f662264f91d045839dab743879002b668312d82bf4833c5f1010591",
@@ -127,5 +127,10 @@
     "path": "archive/scans/1984-03/packages/regression-a-jpeg-r02/manifest.json",
     "sha256": "b4c74b3994bcefa351554b50a39f86b35d0cd754bed3cb83d2631f81be31e943",
     "bytes": 45172
+  },
+  "accepted_middle": {
+    "path": "metadata/catalog/scan-restoration/1984-03-regression-middle.json",
+    "sha256": "3b193f717e8dd6aaf66f80899afaab8a2ea1d344322da33e566612f8b0cdd56a",
+    "bytes": 3734
   }
 }
