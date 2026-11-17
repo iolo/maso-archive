@@ -5533,8 +5533,8 @@
       "title": "테크니컬",
       "parent_id": null,
       "classification_candidate": "group-heading",
-      "whole_scan_status": "pending-source-backed-heading-disposition",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-source-backed-group-heading",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0029",
         "title": "테크니컬",
@@ -5554,7 +5554,52 @@
           "note": "Source section divider without independent articlebody."
         }
       },
-      "new_selected_restoration": null
+      "new_selected_restoration": null,
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "availability": "not-applicable",
+      "child_toc_entry_ids": [
+        "maso-1984-03-toc-0030",
+        "maso-1984-03-toc-0031",
+        "maso-1984-03-toc-0032",
+        "maso-1984-03-toc-0033"
+      ],
+      "located_source_evidence": {
+        "actual_folio": 205,
+        "observed_heading": "테크니컬",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-49/review/full-205.jpg",
+          "sha256": "e7a54ac994bc88deb6c3871b26521457b9053ad0cb0c65adb9e126671b18663b",
+          "bytes": 1452872
+        },
+        "classification_pending": false,
+        "selected_source_classification": {
+          "path": "archive/scans/1984-03/classifications/technical-jpeg-r01/group-0029.json",
+          "sha256": "7e61e62fd6dae74f3e10e67a41ad02a8145093bd299f6b291dbf4f8fb40d663e",
+          "bytes": 9184
+        }
+      },
+      "new_selected_classification": {
+        "checkpoint": "M53",
+        "directory": "archive/scans/1984-03/classifications/technical-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/classifications/technical-jpeg-r01/manifest.json",
+          "sha256": "3bf4409253915415af70558e37c85c209218bc684d54eba194084c2631e32ee6",
+          "bytes": 1016
+        },
+        "record": {
+          "path": "archive/scans/1984-03/classifications/technical-jpeg-r01/group-0029.json",
+          "sha256": "7e61e62fd6dae74f3e10e67a41ad02a8145093bd299f6b291dbf4f8fb40d663e",
+          "bytes": 9184
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-49/validation.json",
+          "sha256": "8f8e2a10882988ab8e75a303ae25f26a8bd64fd434ff132844c6c09ccf973a72",
+          "bytes": 7282
+        },
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0030",
@@ -5619,7 +5664,24 @@
         207,
         208,
         209
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 206,
+        "observed_title": "기계어 테크닉",
+        "observed_serial": "연재2회",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-49/review/full-206.jpg",
+          "sha256": "df38a2539fa35164f6e479786eba6f29a6f781e6945502f131dc67552061b210",
+          "bytes": 1730976
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-49/transition.json",
+          "sha256": "a1e746df204d00df3f9c816b8a952d51b1dfb07957470713a5f4be3299bb91e2",
+          "bytes": 782
+        },
+        "restoration_pending": true,
+        "source_extent_verified": false
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0031",
@@ -5921,8 +5983,8 @@
       "title": "공모입선작",
       "parent_id": null,
       "classification_candidate": "group-heading",
-      "whole_scan_status": "pending-source-backed-heading-disposition",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-source-backed-group-heading",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0034",
         "title": "공모입선작",
@@ -5948,7 +6010,50 @@
           "note": "Canonical section owns two awarded articles; source244최우수상 andPDF250/printed252우수상 banners support grouping. No separate body or divider invented."
         }
       },
-      "new_selected_restoration": null
+      "new_selected_restoration": null,
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "availability": "not-applicable",
+      "child_toc_entry_ids": [
+        "maso-1984-03-toc-0035",
+        "maso-1984-03-toc-0036"
+      ],
+      "located_source_evidence": {
+        "actual_folio": 205,
+        "observed_heading": "공모입선작",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-49/review/full-205.jpg",
+          "sha256": "e7a54ac994bc88deb6c3871b26521457b9053ad0cb0c65adb9e126671b18663b",
+          "bytes": 1452872
+        },
+        "classification_pending": false,
+        "selected_source_classification": {
+          "path": "archive/scans/1984-03/classifications/technical-jpeg-r01/group-0034.json",
+          "sha256": "9422cf766679fe21a9e4100ed6d00cd7fb6d4ca479d3864bcae4cae954164551",
+          "bytes": 8399
+        }
+      },
+      "new_selected_classification": {
+        "checkpoint": "M53",
+        "directory": "archive/scans/1984-03/classifications/technical-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/classifications/technical-jpeg-r01/manifest.json",
+          "sha256": "3bf4409253915415af70558e37c85c209218bc684d54eba194084c2631e32ee6",
+          "bytes": 1016
+        },
+        "record": {
+          "path": "archive/scans/1984-03/classifications/technical-jpeg-r01/group-0034.json",
+          "sha256": "9422cf766679fe21a9e4100ed6d00cd7fb6d4ca479d3864bcae4cae954164551",
+          "bytes": 8399
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-49/validation.json",
+          "sha256": "8f8e2a10882988ab8e75a303ae25f26a8bd64fd434ff132844c6c09ccf973a72",
+          "bytes": 7282
+        },
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0035",
@@ -6224,7 +6329,18 @@
           "sha256": "8b52f04fa61831b4720a56aacabba15d9c60540d1f30f38b3dbbcf4100ebf41f",
           "bytes": 1567
         },
-        "note": "Located outside lookup only. Verify canonical identity and complete article extent at its later queue position; do not jump the technical heading/articles."
+        "note": "Located outside lookup only. Verify canonical identity and complete article extent at its later queue position; do not jump the technical heading/articles.",
+        "additional_ending_candidate": {
+          "actual_folio": 204,
+          "observed_running_title": "살아서 움직이는 현장",
+          "source_review": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-49/review/full-204.jpg",
+            "sha256": "6c3296d86dc4ec0c60d062b393431189f92948a9c53930026c7429eb8c926c67",
+            "bytes": 1246678
+          },
+          "native_restoration_pending": true,
+          "note": "Only an outside boundary comparison. The intervening source pages and complete feature extent still require verification;lower204belongs to the separate advertising index."
+        }
       }
     },
     {
@@ -6591,7 +6707,24 @@
       "new_selected_restoration": null,
       "historical_printed_extent_candidate": [
         204
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 204,
+        "observed_title": "광고색인",
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-49/review/full-204.jpg",
+          "sha256": "6c3296d86dc4ec0c60d062b393431189f92948a9c53930026c7429eb8c926c67",
+          "bytes": 1246678
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-49/transition.json",
+          "sha256": "a1e746df204d00df3f9c816b8a952d51b1dfb07957470713a5f4be3299bb91e2",
+          "bytes": 782
+        },
+        "restoration_pending": true,
+        "shared_source_page": true,
+        "note": "Lower original204is the separate TOC-listed advertising index. Upper204is the Seun-feature ending. Preserve both body owners and the original tree illustration during later native restoration."
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0044",
@@ -6647,14 +6780,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-48/source-ledger.json",
-    "sha256": "7c50049b6a5315c933000fbbe39cc55e6a2b09dbba8ee54a8f82d3a22fc70438",
-    "bytes": 357692
+    "path": "archive/scans/1984-03/restoration/whole-issue-49/source-ledger.json",
+    "sha256": "77fae2a857415591aa9327a1ef84006e6d3415cf8f368824e58572976c2fc21d",
+    "bytes": 361631
   },
-  "current_checkpoint": "M52-complete",
-  "next": "M53: verify and classify canonical heading 테크니컬 (maso-1984-03-toc-0029), candidate actual205, against the original JPEG and neighboring204/206before creating its non-owning native outcome. Then restore canonical 기계어 테크닉 (toc-0030), candidate206–209, after source extent verification. Preserve the newly located separate Seun feature190–191for its later canonical task; identity and complete extent remain unverified. Continue every remaining March article,heading and all273scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M52 helpers; shared implementation remains M47 implementation-after.json.",
+  "current_checkpoint": "M53-complete",
+  "next": "M54: verify the complete 기계어 테크닉 extent, candidate actual 206–209, against original JPEGs and neighboring 205/210 before bounded native restoration. Preserve source code, byte examples, tables, figures and printed errors without execution or byte reconstruction by expectation. Then continue the remaining technical articles, contest articles, Seun feature, information bodies, final information-group classification and all 273 scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M53 helpers; shared implementation remains M47 implementation-after.json.",
   "pending_article_candidates": 12,
-  "pending_heading_candidates": 3,
+  "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 3
+  "complete_whole_scan_headings": 5
 }

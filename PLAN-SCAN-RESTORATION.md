@@ -480,6 +480,27 @@ later task. Continue **M53: verify/classify 테크니컬**, canonical heading 00
 candidate 205 and neighboring 204/206, then verify and restore **기계어 테크닉**,
 candidate 206–209. Finish every remaining March task and whole-issue export/audit.
 See the [M52 handoff](docs/SCAN-RESTORATION-1984-03-M52.md).
+
+**M53 completes two non-owning group headings on original 205: 테크니컬 and
+공모입선작.** The same divider explicitly prints both groups, their separate
+four/two canonical child contexts and six navigation references. Three original
+crops retain both technical heading occurrences, the contest heading, every
+navigation title/reference and the complete computer/drawing photograph.
+Printed **250** for 터널 통과 게임 remains a literal source claim; it is not
+repaired to the later article's historical 252 candidate. Two independent
+**seven-file classification exports** match; all three original-master crops
+and **33 damaged classification cases** pass. No OCR or owning article package
+is invented. Neighboring 204 locates the separate Seun-feature ending and
+eligible advertising index; 206 locates the next machine-language article.
+Both article restorations remain pending. M53 freezes **41 evidence files**;
+never execute its helpers. Shared implementation and the qualified 300-test
+baseline remain unchanged. Whole March now has **26 complete articles, twelve
+pending articles, five complete headings, one pending heading and 86 pending
+full-page dispositions across all 273 scans**. Continue **M54: verify/restore
+기계어 테크닉**, candidate 206–209 and original 205/210 boundaries, then every
+remaining March task through whole-issue export/completion audit. See the
+[M53 handoff](docs/SCAN-RESTORATION-1984-03-M53.md).
+
 Track execution in
 [PROGRESS-SCAN-RESTORATION.md](PROGRESS-SCAN-RESTORATION.md).
 

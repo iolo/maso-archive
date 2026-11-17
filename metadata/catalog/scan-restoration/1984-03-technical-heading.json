@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M53",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0029",
+  "canonical_received_title": "테크니컬",
+  "observed_source_heading": "테크니컬",
+  "status": "complete-source-backed-group-heading",
+  "whole_heading_complete": true,
+  "whole_issue_complete": false,
+  "body_owner": false,
+  "restoration": null,
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    205
+  ],
+  "selected_classification": "archive/scans/1984-03/classifications/technical-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/classifications/technical-jpeg-r01/manifest.json",
+    "sha256": "3bf4409253915415af70558e37c85c209218bc684d54eba194084c2631e32ee6",
+    "bytes": 1016
+  },
+  "record": {
+    "path": "archive/scans/1984-03/classifications/technical-jpeg-r01/group-0029.json",
+    "sha256": "7e61e62fd6dae74f3e10e67a41ad02a8145093bd299f6b291dbf4f8fb40d663e",
+    "bytes": 9184
+  },
+  "exact_files": 7,
+  "shared_classification_package": true,
+  "shared_package_heading_count": 2,
+  "master_crops": 3,
+  "navigation_rows": 4,
+  "shared_navigation_rows": 6,
+  "canonical_children": [
+    "maso-1984-03-toc-0030",
+    "maso-1984-03-toc-0031",
+    "maso-1984-03-toc-0032",
+    "maso-1984-03-toc-0033"
+  ],
+  "heading_occurrences": [
+    {
+      "literal": "테크니컬",
+      "region_id": "diagonal-heading"
+    },
+    {
+      "literal": "테크니컬",
+      "region_id": "navigation"
+    }
+  ],
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-49/validation.json",
+    "sha256": "8f8e2a10882988ab8e75a303ae25f26a8bd64fd434ff132844c6c09ccf973a72",
+    "bytes": 7282
+  },
+  "builder": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-49/build-heading.py",
+    "sha256": "580e212408383d0f906ecaa3ecedaf19d61793940df112bf5594c4cf490bbb65",
+    "bytes": 3505
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-49/source-ledger.json",
+    "sha256": "77fae2a857415591aa9327a1ef84006e6d3415cf8f368824e58572976c2fc21d",
+    "bytes": 361631
+  },
+  "source_dispositions_pending": 86,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-49/whole-progress-m53.json",
+    "sha256": "7f56cf25bc83a612691c9dc6608b5a1b924c48b24fa1607f9efd5769a3f72d9b",
+    "bytes": 220719
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-49/evidence-manifest.json",
+    "sha256": "7976d3a3fd8fdd53e5449cc949b73f9257ec5bf0e72f39111321c8b1d4f6a313",
+    "bytes": 6814
+  },
+  "frozen_evidence_files": 41,
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 300,
+  "fresh_regression_tests": 0,
+  "rejected_damaged_cases": 33,
+  "next": "M54: verify the complete 기계어 테크닉 extent, candidate actual 206–209, against original JPEGs and neighboring 205/210 before bounded native restoration. Preserve source code, byte examples, tables, figures and printed errors without execution or byte reconstruction by expectation. Then continue the remaining technical articles, contest articles, Seun feature, information bodies, final information-group classification and all 273 scan dispositions through reproducible whole-issue export and completion audit. Never execute frozen M49–M53 helpers; shared implementation remains M47 implementation-after.json."
+}

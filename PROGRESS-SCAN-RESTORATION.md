@@ -2,14 +2,23 @@
 
 Updated 2026-11-18. Follow [PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md).
 
-Latest accepted March checkpoint: **M52 complete**, complete UPDATE article on
-186–189, with two matching 143-file native exports. Accepted totals are
-**26 complete articles, no partial articles, twelve pending articles, three
-complete headings, three pending headings and 89 pending full-page dispositions
-across all 273 scans**. Continue **M53**, verifying/classifying the technical
-heading on candidate 205 and neighboring 204/206 before the next technical
-article. March remains active.
-See the [M52 handoff](docs/SCAN-RESTORATION-1984-03-M52.md).
+Latest accepted March checkpoint: **M53 complete**, two non-owning group
+headings on original 205, with two matching seven-file classification exports.
+Accepted totals are **26 complete articles, no partial articles, twelve pending
+articles, five complete headings, one pending heading and 86 pending full-page
+dispositions across all 273 scans**. Continue **M54**, verifying/restoring the
+complete 기계어 테크닉 article, candidate 206–209, against original 205/210
+boundaries. March remains active.
+See the [M53 handoff](docs/SCAN-RESTORATION-1984-03-M53.md).
+
+**M53 accepts 테크니컬 and 공모입선작 from the shared 205 navigation area.**
+Their separate four/two canonical child sets and all six source references remain
+explicit. Printed 250 is retained independently of the later 252 article
+candidate. The original photograph and all three heading occurrences are
+source-compared; all three crops match original pixels and 33 damaged cases
+reject. No OCR or article body was created. M53 freezes 41 evidence files.
+Original 204 locates the separate feature ending and eligible advertising index;
+206 locates the next technical article. Those article restorations remain pending.
 
 **M52 has complete source and native geometry comparison for UPDATE, 186–189.**
 All 32 readings, 38 original crops and initial recognition bindings pass. Three
