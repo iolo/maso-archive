@@ -5914,3 +5914,38 @@ logical listing units, panel/flowchart geometry and source relationships before
 two independent exports and native validation. Then restore 152–154 and assemble
 the complete 134–154 article. All remaining March articles, headings and 273
 source dispositions stay in scope; accepted whole-issue counters are unchanged.
+
+## M39 working — all source contexts and flowchart geometry reviewed
+
+The next source-work milestone compares all **22 text contexts** and all **three
+original diagram contexts** on 146–151. All eight main-listing panels retain
+**537 physical rows and 315 statement units**: 314 have clearly numeric labels,
+while one visibly reads `:065`, with `1065` retained only as an uncertain
+candidate. That damaged label starts a separate statement; it cannot become
+part of the preceding line. With the two independent DATA examples, selected
+code has **558 physical rows and 330 statement units**.
+
+Enlarged comparison corrects the historical guide's rule-glyph counts on 148
+and 149. The 150 menu key has a selected six-shaped `6`, with `S` retained as an
+alternative independently of the clearly printed `S` branch in the next column.
+The damaged `IF NF >` fragment, missing operator between the physical `2.0200`
+and `.02` pieces, omitted rounding term, independent numeric precision and all
+original spelling and index expressions remain qualified and unrepaired.
+
+Both flowcharts now have reviewed native geometry: **50 nodes, 90 fields, 23
+external ranges, 17 branch labels and 54 original routes**. Fifty-two structures
+and **106 original paths** preserve node outlines, loops, separate terminal
+stems and two original outline gaps. The first B overlay clipped a few branch
+label strokes; ten contexts were expanded in a separate retained revision.
+The printed summary target stays `6000`, and the data-table box has no invented
+target. No cross-panel line, function return route or missing negative branch
+label is supplied from program expectations.
+
+The independent source-work audit passes and rechecks all **1,015 frozen M38
+files** and **51 unchanged shared implementation files**. Every reading revision,
+detail crop, initial recognition and geometry revision remains preserved. This
+is working evidence; **no M39 native article package is selected**. Remaining
+listing/list/formula geometry, exact occurrence encoding, two independent
+exports and native acceptance audits are required before accepting 146–151.
+Then continue 152–154, complete the full 134–154 article assembly/audit and
+every remaining whole-March task. Accepted whole-issue counters are unchanged.

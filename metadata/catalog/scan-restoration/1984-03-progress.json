@@ -6031,14 +6031,14 @@
     "bytes": 299580
   },
   "current_checkpoint": "M39-working",
-  "next": "Continue enlarged source comparison with148right-column listing26through81, then both columns149–151; review every label/range/route in both147flowcharts. Encode all physical/logical rows,DATAjoins,formulas,19program ranges,39variable entries,panel/flowchart geometry and source joins before independent two-export/native audits. Then restore152–154, assemble/audit complete134–154article and continue every remaining March task.",
+  "next": "Review flowchart native overlays, encode remaining listing/variable/range/formula and DATA panel geometry, then audit and export M39. Continue 152–154, complete 134–154 assembly and every remaining March task.",
   "pending_article_candidates": 17,
   "pending_heading_candidates": 3,
   "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 3,
   "current_work": {
     "path": "metadata/catalog/scan-restoration/1984-03-regression-program-work.json",
-    "sha256": "ba2f3fd5cac1f4a9ec90379d761fe254d9e7a9bd902ec40b2ac11eaf94b49965",
-    "bytes": 5152
+    "sha256": "2a7937196b95a142470df240b7e51b29d4322e7a442ce013370793aee53a7e5c",
+    "bytes": 5888
   }
 }

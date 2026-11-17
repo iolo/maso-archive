@@ -236,10 +236,14 @@ every remaining March task. See the
 **M39 is working on actual 146–151.** All six original pages, neighbors 145/152
 and both map revisions have visual comparison. Initial mapped recognition passes
 all **22 text tasks, 25 source crops and 12 page-render checks**, with no empty
-regions or retries. Fifteen text contexts are now source-compared, including
-the **39 printed variable entries** and first main-listing panel. Seven listing
-contexts, detailed flowchart review and native encoding remain pending. Accepted
-whole-issue totals are unchanged. See the
+regions or retries. All **22 text contexts and three original diagrams** now
+have enlarged source comparison. They retain **558 physical code rows and 330
+statement units**, including one with the damaged printed label `:065` rather
+than a certified numeric line number. The **39 variable entries** remain literal.
+Both flowcharts have reviewed geometry for **50 nodes, 90 fields and 54 printed
+routes**; original outline gaps and the literal `6000` target remain preserved.
+Remaining program/list/formula geometry, native encoding, exports and acceptance
+audits are pending. Accepted whole-issue totals are unchanged. See the
 [M39 work record](metadata/catalog/scan-restoration/1984-03-regression-program-work.json).
 March remains the current issue.
 Track execution in

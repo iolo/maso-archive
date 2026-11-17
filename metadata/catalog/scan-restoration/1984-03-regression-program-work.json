@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0023",
   "canonical_received_title": "심층적 회귀분석",
-  "status": "mapped-recognition-audited;partial-source-review;native-encoding-pending",
+  "status": "all-text-and-diagrams-source-compared;flowchart-geometry-reviewed;remaining-native-encoding-pending",
   "source_kind": "jpeg-set",
   "source_extent_verified": true,
   "article_actual_folios": [
@@ -45,11 +45,11 @@
   "mapped_regions": 25,
   "initial_text_tasks": 22,
   "recognition_retries": 0,
-  "source_compared_text_regions": 15,
-  "pending_source_text_regions": 7,
+  "source_compared_text_regions": 22,
+  "pending_source_text_regions": 0,
   "original_diagram_regions": 3,
-  "descriptive_original_figure_reviews": 1,
-  "pending_enlarged_flowchart_reviews": 2,
+  "descriptive_original_figure_reviews": 3,
+  "pending_enlarged_flowchart_reviews": 0,
   "variable_entries_source_compared": 39,
   "first_main_panel_physical_rows": 24,
   "first_main_panel_numbered_statements": 12,
@@ -65,7 +65,7 @@
   "active_process_handles": [],
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "next": "Continue enlarged source comparison with148right-column listing26through81, then both columns149–151; review every label/range/route in both147flowcharts. Encode all physical/logical rows,DATAjoins,formulas,19program ranges,39variable entries,panel/flowchart geometry and source joins before independent two-export/native audits. Then restore152–154, assemble/audit complete134–154article and continue every remaining March task.",
+  "next": "Review flowchart native overlays, encode remaining listing/variable/range/formula and DATA panel geometry, then audit and export M39. Continue 152–154, complete 134–154 assembly and every remaining March task.",
   "map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/map-r01.json",
     "sha256": "ed9d9c402705aacf26ddb0382e2310b99e62c6b71dd943d9aab3c59eceff3eb8",
@@ -97,19 +97,19 @@
     "bytes": 771
   },
   "source_readings": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/source-compared-readings-r02.json",
-    "sha256": "75a14cd40a3e17c28af328a6f2df877aee56c1e43ce3598b77326d8ba56bcea7",
-    "bytes": 27733
+    "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/source-compared-readings-r06.json",
+    "sha256": "76e1fedf9382a754f15ec996bad645410f06fc8f19a185baeaca553d97059956",
+    "bytes": 73793
   },
   "figure_observations": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/figure-source-observations-01.json",
-    "sha256": "3de21c5eec413c4cc9084683a7de62be1066f3b95f13467ae7580c24e8116040",
-    "bytes": 823
+    "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/figure-source-observations-02.json",
+    "sha256": "46c52be69d8d9dad41bf0f22e9a649ab8794bebd7c9e2d9a7113ec49c56f7d35",
+    "bytes": 10831
   },
   "source_review_work_audit": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-35/source-review-work-audit.json",
-    "sha256": "57b4c04832ff63690f0a53b4753edaec659850de35221c97fbc497881e82b45b",
-    "bytes": 1160
+    "path": "archive/scans/1984-03/restoration/whole-issue-35/source-review-work-audit-02.json",
+    "sha256": "170ed9545c0534c917c9a4de241589b3e744f2fc49b47c59e1a59c97eed0c7f8",
+    "bytes": 1685
   },
   "terminal_logs": {
     "path": "archive/scans/1984-03/restoration/whole-issue-35/terminal-process-log-pins.json",
@@ -118,8 +118,8 @@
   },
   "work_state": {
     "path": "archive/scans/1984-03/restoration/whole-issue-35/resume.json",
-    "sha256": "becf8294f63916c88cefd5d1c93077fd839d8b47263e78594868283f0a07337c",
-    "bytes": 2663
+    "sha256": "5cbbb98e6a5bc7a236efa47de4c7165fa1db1d135ac163cd8a3101383f942503",
+    "bytes": 3066
   },
   "accepted_opening": {
     "path": "metadata/catalog/scan-restoration/1984-03-regression-opening.json",
@@ -131,5 +131,25 @@
     "sha256": "3b193f717e8dd6aaf66f80899afaab8a2ea1d344322da33e566612f8b0cdd56a",
     "bytes": 3734
   },
-  "acceptance_note": "This is working evidence. Six original pages and two neighbors, all selected overlays, 22 initial recognitions and 25 source crops are checked. Fifteen text contexts are source-compared; seven main-listing contexts and detailed native flowchart/structure work remain. No M39 native package is selected; accepted article/issue counters are unchanged."
+  "acceptance_note": "This is audited working evidence. All 22 text contexts and all three original diagrams have enlarged source comparison. Both native flowcharts have reviewed 50 nodes, 90 fields and 54 printed routes. Remaining program, variable, range and formula geometry, native occurrence encoding, package creation and independent exports/audits remain required. No M39 native package is selected; accepted article and issue counters are unchanged.",
+  "main_listing_physical_rows": 537,
+  "all_code_physical_rows": 558,
+  "clearly_numeric_main_statement_labels": 314,
+  "damaged_main_statement_labels": 1,
+  "main_statement_units": 315,
+  "all_code_statement_units": 330,
+  "flowchart_nodes": 50,
+  "flowchart_fields": 90,
+  "flowchart_original_routes": 54,
+  "flowchart_original_paths": 106,
+  "flowchart_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/flowchart-native-geometry-02.json",
+    "sha256": "fe7049a6f521f1643cca7747a70e2094bba6b01d824ab4fd85615aececd92d08",
+    "bytes": 160765
+  },
+  "flowchart_geometry_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-35/regression-c/flowchart-native-geometry-review.json",
+    "sha256": "d501f78e9453c5946bc95f6bcefe9587f183262def25ed98b09251ad68745fa2",
+    "bytes": 1574
+  }
 }
