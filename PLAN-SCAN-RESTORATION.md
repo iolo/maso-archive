@@ -871,6 +871,22 @@ before reuse. Then finish every remaining March task through whole-issue export
 and completion audit. See the [M64 handoff](docs/SCAN-RESTORATION-1984-03-M64.md)
 and [complete article](metadata/catalog/scan-restoration/1984-03-ad.json).
 
+**M65 is unfinished work on the word processor opening, actual 244–249.**
+Personal full-page comparison verifies its complete **244–251** extent and
+separate neighbors 243/252. All six map overlays, **28 original-master crops**
+and **26 first-attempt OCR bindings** pass coverage/provenance checks. All raw
+drafts were read before source correction; **eight page-244 owners** now have
+enlarged comparison with nine qualifications. **Eighteen owners and all native
+encoding/export/acceptance checks remain pending.** Final 250–251 and complete
+article assembly/audit are also required. Eight new full-page dispositions leave
+**42 pending / 273 scans**; article/heading acceptance totals remain unchanged
+at **30 complete articles, eight pending articles, five complete headings and
+one pending heading**. The checkpoint stays unfrozen; no new article is accepted.
+Preserve every successful OCR attempt and the unchanged 53 implementation pins /
+306-test baseline. Continue every remaining March task through whole-issue export
+and completion audit. See the [M65 work handoff](docs/SCAN-RESTORATION-1984-03-M65-WORK.md)
+and [work record](metadata/catalog/scan-restoration/1984-03-word-opening-work.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

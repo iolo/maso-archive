@@ -6695,7 +6695,50 @@
         249,
         250,
         251
-      ]
+      ],
+      "opening_work": {
+        "checkpoint": "M65-work",
+        "selected_actual_folios": [
+          244,
+          245,
+          246,
+          247,
+          248,
+          249
+        ],
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-word-opening-work.json",
+          "sha256": "b1b1e28e78551cbb4e3ec931a75f0a2e98cfe061fcebe77370d17434dad6d373",
+          "bytes": 8202
+        },
+        "native_accepted": false
+      },
+      "located_source_evidence": {
+        "actual_folios": [
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251
+        ],
+        "observed_title": "한글 워드프로세서 프로그램",
+        "canonical_identity_verified": true,
+        "source_extent_verified": true,
+        "restoration_pending": true,
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-61/full-page-review.json",
+          "sha256": "2190c7df61cf25d4947b65c96bac1b77e50bf4d29a445a01b5525356b5528216",
+          "bytes": 9394
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-61/transition.json",
+          "sha256": "74e349ac07caceb97f54a66da6f1fefc2f0798da23728add5cba8914a9f0b633",
+          "bytes": 1314
+        }
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0036",
@@ -6757,7 +6800,25 @@
         252,
         253,
         254
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 252,
+        "observed_title": "터널 통과 게임",
+        "canonical_identity_verified": false,
+        "source_extent_verified": false,
+        "restoration_pending": true,
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-61/full-page-review.json",
+          "sha256": "2190c7df61cf25d4947b65c96bac1b77e50bf4d29a445a01b5525356b5528216",
+          "bytes": 9394
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-61/transition.json",
+          "sha256": "74e349ac07caceb97f54a66da6f1fefc2f0798da23728add5cba8914a9f0b633",
+          "bytes": 1314
+        },
+        "note": "Outside context only; verify full canonical identity and extent at its own native checkpoint."
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0037",
@@ -7344,18 +7405,45 @@
       "new_selected_restoration": null,
       "historical_printed_extent_candidate": [
         243
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 243,
+        "observed_title": "소프트웨어 / 2차공모 결과 발표",
+        "canonical_identity_verified": false,
+        "source_extent_verified": false,
+        "restoration_pending": true,
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-61/full-page-review.json",
+          "sha256": "2190c7df61cf25d4947b65c96bac1b77e50bf4d29a445a01b5525356b5528216",
+          "bytes": 9394
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-61/transition.json",
+          "sha256": "74e349ac07caceb97f54a66da6f1fefc2f0798da23728add5cba8914a9f0b633",
+          "bytes": 1314
+        },
+        "note": "Outside context only; verify full canonical identity and extent at its own native checkpoint."
+      }
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-60/source-ledger.json",
-    "sha256": "4cac4a94dfc18a8be3e2f8a4f86ffd827cb0450afc67b6fc4037c0e98886b40d",
-    "bytes": 445561
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-ledger.json",
+    "sha256": "f1195a222c8f4e4298511fae01431f091918ce7676bc04f13622d8ac01cab9a1",
+    "bytes": 452422
   },
-  "current_checkpoint": "M64-complete",
-  "next": "M65: verify the complete donated-JPEG extent of canonical 한글 워드 프로세서 프로그램 (maso-1984-03-toc-0035), historical candidate actual 244–251, with neighbors 243 and 252. Restore a bounded opening of at most six source views, candidate 244–249, then the final 250–251 and complete-article assembly/audit. Historical M01–M04 supplements and mixed PDF/JPEG revisions remain evidence only until matching source-backed comparison supports reuse; do not substitute them for whole-JPEG restoration. Preserve code rows/wraps, identifiers, DATA and control characters, source mistakes, diagrams/captions and qualifications. Continue the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and all remaining March source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M64, M63, M62, M61 or predecessor helpers/evidence. Shared implementation is qualified by 306 tests with 53 pins; reuse successful OCR only when its inputs match.",
+  "current_checkpoint": "M65-work",
+  "next": "Continue unfrozen M65 source comparison on actual 245–249: eighteen text owners remain after all 26 raw drafts were read and eight page-244 owners compared. Preserve every physical code row and wrap, original labels, digits, operators and literals, Hangul variable/range glyphs, complete flowchart routes/connectors, original monitor and inline key boxes. Do not repair from expected Applesoft syntax or execution. Encode all native structures and reading/relationship ownership; produce two matching opening exports and an independent source/native audit before accepting 244–249. Then restore final 250–251 with matching historical-source reuse where proven, explicitly join statement 3190, and assemble/audit the complete 244–251 article. Continue the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and every remaining source disposition through reproducible whole-March export and completion audit. Reuse all 26 successful OCR tasks and eight compared readings. Never execute or modify frozen predecessors.",
   "pending_article_candidates": 8,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 5
+  "complete_whole_scan_headings": 5,
+  "current_work": {
+    "checkpoint": "M65-work",
+    "record": {
+      "path": "metadata/catalog/scan-restoration/1984-03-word-opening-work.json",
+      "sha256": "b1b1e28e78551cbb4e3ec931a75f0a2e98cfe061fcebe77370d17434dad6d373",
+      "bytes": 8202
+    },
+    "accepted": false
+  }
 }

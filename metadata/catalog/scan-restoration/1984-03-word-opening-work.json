@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "issue_id": "1984-03",
+  "checkpoint": "M65-work",
+  "updated_at": "2026-11-18T01:38:05.287757+00:00",
+  "status": "eight-opening-page-readings-compared;eighteen-readings-and-all-native-structures-pending",
+  "scope": "Whole donated-scan issue restoration, including every eligible article and native structure, all source-image dispositions and independent native article/issue rebuilds.",
+  "toc_entry_id": "maso-1984-03-toc-0035",
+  "canonical_received_title": "한글 워드 프로세서 프로그램",
+  "source_extent_verified": true,
+  "article_actual_folios": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251
+  ],
+  "selected_source_folios": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249
+  ],
+  "deferred_source_folios": [
+    250,
+    251
+  ],
+  "selected_source_views": 6,
+  "outside_lookup_views": 4,
+  "mapped_regions": 28,
+  "original_raster_contexts": 2,
+  "code_text_owners": 7,
+  "recognition_tasks": 26,
+  "recognition_retries": 0,
+  "recognition_failed_engine_tasks": 0,
+  "recognition_unattempted_tasks": 0,
+  "recognition_processing_seconds": 25.29841413597751,
+  "master_crops": 28,
+  "source_readings_compared": 8,
+  "source_readings_pending": 18,
+  "source_qualifications_recorded": 9,
+  "native_geometry_complete": false,
+  "native_opening_segment_accepted": false,
+  "native_article_accepted": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "evidence_frozen": false,
+  "review_level": "assistant-source-comparison;not-human-acceptance",
+  "accepted_counts": {
+    "complete_articles": 30,
+    "partial_articles": 0,
+    "pending_articles": 8,
+    "complete_headings": 5,
+    "pending_headings": 1,
+    "source_dispositions_pending": 42,
+    "source_images": 273
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 306,
+  "fresh_regression_tests": 0,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/implementation-before.json",
+    "sha256": "fd52a098b1e8f7be162adb27aa447cd4e53dc6a2d42b3dd9160f8d7227fae3a8",
+    "bytes": 9409
+  },
+  "scope_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/scope.json",
+    "sha256": "cfe3efbb2bc039dd5d4084f9d616cb80f659bd7d549ddfc092f38e13280fff4a",
+    "bytes": 4628
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/full-page-review.json",
+    "sha256": "2190c7df61cf25d4947b65c96bac1b77e50bf4d29a445a01b5525356b5528216",
+    "bytes": 9394
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/transition.json",
+    "sha256": "74e349ac07caceb97f54a66da6f1fefc2f0798da23728add5cba8914a9f0b633",
+    "bytes": 1314
+  },
+  "selected_map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/map-r01.json",
+    "sha256": "e842d90a7166dd1727c47f0732ddfae2546067f20802e6874889a1926e86e2d4",
+    "bytes": 19733
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/selected-map-review.json",
+    "sha256": "6bff44eedd323e74a8759ba3b5dbda2cd511c8570fdca8219adb2a9c6c0bf753",
+    "bytes": 3667
+  },
+  "recognition_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/recognition-plan-r01.json",
+    "sha256": "c9542b97c838551083140665e4915637713e0120bac6e3f91dadf5eea71c835a",
+    "bytes": 779
+  },
+  "recognition_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/recognition-validation-01.json",
+    "sha256": "065fcd0bc6477a4e757c16caca4135c7468a93fd6a49efef9b76e0dbae08f8d8",
+    "bytes": 1027
+  },
+  "raw_drafts_read": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/raw-drafts-read-01.json",
+    "sha256": "4e968603c5d8707373b928848bbd90ad31b352c28294548f157d99293b9516ce",
+    "bytes": 9683
+  },
+  "source_pass": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-pass-01.json",
+    "sha256": "37dd1a3698ee2ed5846a56f2a546f6f58dcd995acd8532ab12a102b67d7ebdf2",
+    "bytes": 1181
+  },
+  "source_compared_records": [
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-p244-01.json",
+      "sha256": "204d16e730b862fa20c8d1b280356b29179901921190d7216291ff9835601057",
+      "bytes": 27077
+    }
+  ],
+  "source_work_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-work-validation-01.json",
+    "sha256": "8190590cd2f3d87d9d0426d3a6009828b73f9cbff29c8a263afefd8c8419bacf",
+    "bytes": 769
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-ledger.json",
+    "sha256": "f1195a222c8f4e4298511fae01431f091918ce7676bc04f13622d8ac01cab9a1",
+    "bytes": 452422
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/resume.json",
+    "sha256": "119e51e0abcec27bdb57a45b1d22c113ded7c735188299686eba9a6075069063",
+    "bytes": 4695
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/process-outcomes-01.json",
+    "sha256": "bc5d5d30e8c5da2f1fa8b1a335638b7fda94f105d1396f69f5908da490aaab0b",
+    "bytes": 1018
+  },
+  "historical_comparison_packages": [
+    {
+      "record": {
+        "path": "metadata/catalog/scan-restoration/1984-03-word-supplement.json",
+        "sha256": "ecf6f5e7209a3d6f7c8ba1e408ca69d355ba5e5ada0218315794a08fce4fbfe8",
+        "bytes": 2073
+      },
+      "manifest": {
+        "path": "archive/scans/1984-03/packages/word-supplement-r01/manifest.json",
+        "sha256": "00e445279ce671f402a1304ab8269e44d764424226264cf41cd48252fede2c84",
+        "bytes": 4612
+      },
+      "frozen_evidence": {
+        "path": "archive/scans/1984-03/restoration/supplement-01/evidence-manifest.json",
+        "sha256": "958fe572d435862eb7a8ac66c9e8c3dd3fb4dee77e6f72d7f0e038245dddb18f",
+        "bytes": 19622
+      },
+      "frozen_files": 118,
+      "comparison_status": "preserved;not-selected-for-whole-JPEG-restoration"
+    },
+    {
+      "record": {
+        "path": "metadata/catalog/scan-restoration/1984-03-word-revision.json",
+        "sha256": "d3f7e7448e8152f71792f7dc39fdd85e7af06c77d2a3d4d812ad98fa8309bc88",
+        "bytes": 2515
+      },
+      "manifest": {
+        "path": "archive/scans/1984-03/packages/word-complete-r02/manifest.json",
+        "sha256": "4d7332537674b75ae4640807523c568afb0c142d0cf1167f0cda4a3db79c7a52",
+        "bytes": 23553
+      },
+      "frozen_evidence": {
+        "path": "archive/scans/1984-03/restoration/revision-01/evidence-manifest.json",
+        "sha256": "3ec4112cb1754e6b053c146ba115830c659604304cde083a4887653740730c11",
+        "bytes": 2878
+      },
+      "frozen_files": 19,
+      "comparison_status": "preserved;not-selected-for-whole-JPEG-restoration"
+    }
+  ],
+  "native_recipe_created": false,
+  "native_package_selected": false,
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/cleanup-preview-01.log",
+    "sha256": "a4498280ad1af450713829dfd2bfea200526d23885a720a57a17cab9bfc5df03",
+    "bytes": 233
+  },
+  "cleanup_preview_only": true,
+  "deleted_files": 0,
+  "next": "Continue unfrozen M65 source comparison on actual 245–249: eighteen text owners remain after all 26 raw drafts were read and eight page-244 owners compared. Preserve every physical code row and wrap, original labels, digits, operators and literals, Hangul variable/range glyphs, complete flowchart routes/connectors, original monitor and inline key boxes. Do not repair from expected Applesoft syntax or execution. Encode all native structures and reading/relationship ownership; produce two matching opening exports and an independent source/native audit before accepting 244–249. Then restore final 250–251 with matching historical-source reuse where proven, explicitly join statement 3190, and assemble/audit the complete 244–251 article. Continue the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and every remaining source disposition through reproducible whole-March export and completion audit. Reuse all 26 successful OCR tasks and eight compared readings. Never execute or modify frozen predecessors."
+}
