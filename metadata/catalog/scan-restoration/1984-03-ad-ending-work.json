@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "issue_id": "1984-03",
+  "checkpoint": "M63-work",
+  "updated_at": "2026-11-18T00:19:14.866824+00:00",
+  "status": "all25-source-readings-and-four-native-work-structures-compared;ending-unaccepted",
+  "scope": "Whole donated-scan issue restoration, including every eligible article and native structure, all source-image dispositions and independent native article/issue rebuilds.",
+  "toc_entry_id": "maso-1984-03-toc-0033",
+  "canonical_received_title": "A/D, D/A의 이론과 실제",
+  "article_actual_folios": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241
+  ],
+  "prior_accepted_actual_folios": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239
+  ],
+  "selected_source_folios": [
+    240,
+    241
+  ],
+  "deferred_source_folios": [],
+  "selected_source_views": 2,
+  "outside_lookup_views": 2,
+  "mapped_regions": 30,
+  "original_raster_contexts": 5,
+  "numbered_figures": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "code_text_owners": 0,
+  "recognition_tasks": 25,
+  "recognition_retries": 0,
+  "recognition_failed_tasks": 0,
+  "recognition_unattempted_tasks": 0,
+  "recognition_processing_seconds": 10.78124348698475,
+  "master_crops": 30,
+  "source_readings_compared": 25,
+  "source_readings_pending": 0,
+  "source_qualifications_recorded": 14,
+  "native_geometry_complete": false,
+  "native_final_segment_accepted": false,
+  "native_article_accepted": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "evidence_frozen": false,
+  "review_level": "assistant-source-comparison;not-human-acceptance",
+  "accepted_counts": {
+    "complete_articles": 29,
+    "partial_articles": 1,
+    "pending_articles": 8,
+    "complete_headings": 5,
+    "pending_headings": 1,
+    "source_dispositions_pending": 50,
+    "source_images": 273
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 303,
+  "fresh_regression_tests": 0,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/implementation-before.json",
+    "sha256": "767b8f1f90311be265d74a49ae0f813192d8aff7a29de2004241fc5360f745ac",
+    "bytes": 9286
+  },
+  "scope_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/scope.json",
+    "sha256": "2891d8d487c9dbedb600d775cd58ff0002b6312c777fbebd56010e4b138d1792",
+    "bytes": 3407
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/full-page-review.json",
+    "sha256": "ca34c8459b9c6c2c06dff69497b6bcbb5a56ef2a0f739c0ae9767d9896c495d1",
+    "bytes": 5258
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/transition.json",
+    "sha256": "ddd5214d5920f8565181afb00ecc48bca265e00afa69592bf201569772db1d15",
+    "bytes": 2584
+  },
+  "selected_map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/map-r02.json",
+    "sha256": "e5efb4fe15957c02a9b478482b9ba6c7f963354f323d16dcac5812052edab930",
+    "bytes": 17914
+  },
+  "overlay_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/selected-map-review.json",
+    "sha256": "2ab10afcbb8d3d987a16886a022103d9340c38bc668ccc84268cf2a8e5295f35",
+    "bytes": 1890
+  },
+  "recognition_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/recognition-plan-r02.json",
+    "sha256": "1c9a9fe9cd775fae5d009a2b89ff3cf617ab498e65ec8a3416ff1347fda57c31",
+    "bytes": 751
+  },
+  "recognition_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/recognition-validation-01.json",
+    "sha256": "d95c33101ad43f5a99994a3fc89084d3658130e2a95c043e741a90da38f1f20e",
+    "bytes": 1023
+  },
+  "source_work_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/source-readings-validation-01.json",
+    "sha256": "7ec67c74def11c52da25cd42cdfcb36c08420ecc9cd39cd97e7dc844d4b6cd72",
+    "bytes": 2087
+  },
+  "source_pass": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/source-pass-01.json",
+    "sha256": "93cc6dcb666bcf4ad021eb1bf909311963dd9074f96335a523e143cf6ad912eb",
+    "bytes": 7348
+  },
+  "source_compared_records": [
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/source-compared-p240-01.json",
+      "sha256": "1366038be07a3db6891e31429458bea2c67fdc3079b53e07f1090130ade82199",
+      "bytes": 32098
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/source-compared-p241-01.json",
+      "sha256": "627360c99b6e7276f750c1b15c16789aa87e8f63d698ac44bccce97acfcda5e2",
+      "bytes": 37331
+    }
+  ],
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/source-compared-readings-01.json",
+    "sha256": "be4d8f502c3aa0f82278251b6e78c57c943e1ea4b5060ab5c82cc80308681596",
+    "bytes": 69317
+  },
+  "source_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/native-structure-plan-01.json",
+    "sha256": "4c6ffbd44c1d49189c798809e456d96f2515d0071be83a6aacd7a0d33c325deb",
+    "bytes": 9419
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/resume.json",
+    "sha256": "b1c1c20002804737ee90f9ecf1ca0fab54cf0f5960b3aba56198e162a5ed7a5d",
+    "bytes": 5599
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/process-outcomes-01.json",
+    "sha256": "1356a83cfd3ed2b4e1aa01934ef799687808a5b464a19066260f5d0ea938adc1",
+    "bytes": 1513
+  },
+  "prior_accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-ad-opening.json",
+    "sha256": "f202ddada89967ecd61bfa3147669c66a9e9c7f0db2f920b342a87dae95cf8b3",
+    "bytes": 5524
+  },
+  "prior_accepted_continuation": {
+    "path": "metadata/catalog/scan-restoration/1984-03-ad-continuation.json",
+    "sha256": "8b0e605eec0a0b85803937eb6cf622cec8c7e23b446803cd65400bcb71170a80",
+    "bytes": 5700
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-58/source-ledger.json",
+    "sha256": "5afa9116cfd87e426dc593d56dbfdf62ecd0c46cde285b0de6867b80eadf3bad",
+    "bytes": 436915
+  },
+  "native_work": {
+    "equations_validation": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-59/native-equations-validation-01.json",
+      "sha256": "5e10e33f53f8a122e007d5dd8a17eec8ca057bfae13b80289bd3b44123262d6f",
+      "bytes": 1361
+    },
+    "equations_review": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/native-equations-review-01.json",
+      "sha256": "ed3f4071baf568814f057f49e3aab39480c32ebcb7c36a57bd9cb13ecff1fa94",
+      "bytes": 10432
+    },
+    "cmos_validation": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-59/native-cmos-validation-01.json",
+      "sha256": "77fc656d5f1c4aa3073be223e211cd23cb3042b5e7a13e946859924c767b2435",
+      "bytes": 1389
+    },
+    "cmos_review": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/native-cmos-review-01.json",
+      "sha256": "a737b48e43e1cef7950bcf8cd5ab699c14c38f84d6661a88086f21832e0c2d7f",
+      "bytes": 7868
+    },
+    "geometry": [
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/native-differential-equation-02.json",
+        "sha256": "0c8c38402a325617a63d1837f90fe1c7aa7c65670818d229d2c697be27326c74",
+        "bytes": 16954
+      },
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/native-common-graphic-equation-02.json",
+        "sha256": "95b9fa1a0b2820eb316b6c415d76d6988bfe01e6b959879b1a82e5cec2de2536",
+        "bytes": 37700
+      },
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/native-common-body-equation-02.json",
+        "sha256": "acda8f651762edca304ff913bbfeabf02c5db96ab292a52dfec0c09302ce2650",
+        "bytes": 38805
+      },
+      {
+        "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/native-cmos-switch-01.json",
+        "sha256": "5d76fc59d7b3451f67efdd6db488e892f612daf1e11abd820787fa1313544cfb",
+        "bytes": 38043
+      }
+    ],
+    "structures": 4,
+    "fields": 95,
+    "empty_contexts": 2,
+    "paths": 40,
+    "qualifications": 10,
+    "rejected_damaged_cases": 12,
+    "numbered_figures_compared": [
+      34
+    ],
+    "numbered_figures_pending": [
+      31,
+      32,
+      33,
+      35
+    ]
+  },
+  "native_recipe_created": false,
+  "native_package_selected": false,
+  "source_native_qualifications": 24,
+  "source_contract_damage_rejections": 8,
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/cleanup-preview-01.log",
+    "sha256": "a4498280ad1af450713829dfd2bfea200526d23885a720a57a17cab9bfc5df03",
+    "bytes": 233
+  },
+  "cleanup_preview_only": true,
+  "cleanup_estimated_allocated_space": "59.1 GiB",
+  "deleted_files": 0,
+  "next": "Continue unfrozen M63 with native Figures 31–33 and 35, preserving all repeated labels, original circuit/timing paths, separate formula owners and source anomalies. Then encode all prose, physical baselines, inline structures, five captions, three prose continuations, the final physical A/–D wrap and independent star; resolve the M62 Figure 31 reference. Produce two fresh matching ending exports and an independent source/native audit before acceptance. Assemble and independently reproduce/audit the whole article on 228–241. Finish every remaining March article and heading and all 273 scan dispositions through whole-issue export and completion audit. Reuse all 25 successful OCR tasks and compared readings; never execute or modify frozen predecessor helpers or evidence."
+}
