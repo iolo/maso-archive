@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M79",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0038",
+  "canonical_received_title": "정보모음",
+  "observed_source_heading": "정보모음",
+  "status": "complete-source-backed-group-heading",
+  "whole_heading_complete": true,
+  "whole_issue_complete": false,
+  "body_owner": false,
+  "restoration": null,
+  "source_kind": "jpeg-set",
+  "source_filename_numbers": [
+    9
+  ],
+  "actual_folios": [],
+  "source_note": "Unpaginated original TOC;filename009 is not an observed printed folio.",
+  "selected_classification": "archive/scans/1984-03/classifications/information-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/classifications/information-jpeg-r01/manifest.json",
+    "sha256": "610b10efde722500e4ba366d68f0fd67b0a89465691ad83c1c7068454c4f290d",
+    "bytes": 1025
+  },
+  "record": {
+    "path": "archive/scans/1984-03/classifications/information-jpeg-r01/group-0038.json",
+    "sha256": "76a1f3cb11203a64fe7b8c8f88c92ecb70bd85e39efcea25331b2a4d798b013a",
+    "bytes": 17510
+  },
+  "exact_files": 7,
+  "master_crops": 4,
+  "navigation_rows": 6,
+  "native_fields": 13,
+  "canonical_children": [
+    "maso-1984-03-toc-0039",
+    "maso-1984-03-toc-0040",
+    "maso-1984-03-toc-0041",
+    "maso-1984-03-toc-0042",
+    "maso-1984-03-toc-0043",
+    "maso-1984-03-toc-0044"
+  ],
+  "heading_occurrences": [
+    {
+      "literal": "정보모음",
+      "region_id": "heading"
+    }
+  ],
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-75/validation-01.json",
+    "sha256": "ebab2ba4e6d815a5614dd5a92d3d68a98271d93b3550d5f8b6e0c9d8621f18aa",
+    "bytes": 3386
+  },
+  "builder": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-75/build-heading-01.py",
+    "sha256": "c3a7ba9f56d4a1284a35a9b05257ccf2b0df455f109772dcd321074e5b0ed5f0",
+    "bytes": 4123
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/source-ledger-01.json",
+    "sha256": "f1f48518c19ce5acb8ffb3002771e7de1d21a7363ccd39ffbe9decfec4b63c3d",
+    "bytes": 504314
+  },
+  "source_dispositions_pending": 16,
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 315,
+  "fresh_regression_tests": 0,
+  "rejected_damaged_cases": 13,
+  "next": "M80: Account for the first six pending front source images,filename001–006/source indices9–14,in fresh whole-issue-76. Inspect every complete original page and record evidenced ad/form/other dispositions without inventing TOC bodies or unnecessary OCR. Keep maxsix selected views/twenty outside lookups per checkpoint. Then remaining front007,008,010 and back260–266 (ten pages) in further bounded checkpoints. Preserve all273 original images and all44 completed canonical outcomes. Finally build two reproducible whole-issue JSON/assets exports and complete independent all-source/accounting/ownership/continuity/range/asset/native rebuild audit. Whole March remains active. Frozen M79/predecessors are data only;never execute/import/modify frozen helpers or snapshots. Shared315-test/58-pin implementation unchanged;cleanup preview only.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-75/evidence-manifest.json",
+    "sha256": "da8847683c4d10ba154b1d00984efb4ff0f93fb8c6691caa8417f2543d312d38",
+    "bytes": 6149
+  },
+  "frozen_evidence_files": 36,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-75/whole-progress-m79.json",
+    "sha256": "0cb39b17df21b07fb1a0cfa44300ebaa2f3e8bcf5289c0693b8f032c57c06d77",
+    "bytes": 277709
+  }
+}

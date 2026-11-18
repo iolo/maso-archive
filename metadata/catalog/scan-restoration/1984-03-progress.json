@@ -7381,8 +7381,8 @@
       "title": "정보모음",
       "parent_id": null,
       "classification_candidate": "group-heading",
-      "whole_scan_status": "pending-source-backed-heading-disposition",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-source-backed-group-heading",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0038",
         "title": "정보모음",
@@ -7400,7 +7400,54 @@
           "note": "Canonical non-owning parent groups six separately identified bodies:editorial13,news124–131,debugPDF253/printed255,Q&Aprinted256–259,index204 andresults243. No independent body or divider is evidenced or invented. TOCorder differs fromphysicalorder."
         }
       },
-      "new_selected_restoration": null
+      "new_selected_restoration": null,
+      "classification": "group-heading",
+      "body_owner": false,
+      "restoration": null,
+      "availability": "not-applicable",
+      "child_toc_entry_ids": [
+        "maso-1984-03-toc-0039",
+        "maso-1984-03-toc-0040",
+        "maso-1984-03-toc-0041",
+        "maso-1984-03-toc-0042",
+        "maso-1984-03-toc-0043",
+        "maso-1984-03-toc-0044"
+      ],
+      "located_source_evidence": {
+        "source_filename_number": 9,
+        "observed_heading": "정보모음",
+        "classification_pending": false,
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-75/source-compared-classification-01.json",
+          "sha256": "22f559ae8ece9b944ab640a1413ff933a3c5e5afb086188214a6bf6b1066a409",
+          "bytes": 14484
+        },
+        "selected_source_classification": {
+          "path": "archive/scans/1984-03/classifications/information-jpeg-r01/group-0038.json",
+          "sha256": "76a1f3cb11203a64fe7b8c8f88c92ecb70bd85e39efcea25331b2a4d798b013a",
+          "bytes": 17510
+        }
+      },
+      "new_selected_classification": {
+        "checkpoint": "M79",
+        "directory": "archive/scans/1984-03/classifications/information-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/classifications/information-jpeg-r01/manifest.json",
+          "sha256": "610b10efde722500e4ba366d68f0fd67b0a89465691ad83c1c7068454c4f290d",
+          "bytes": 1025
+        },
+        "record": {
+          "path": "archive/scans/1984-03/classifications/information-jpeg-r01/group-0038.json",
+          "sha256": "76a1f3cb11203a64fe7b8c8f88c92ecb70bd85e39efcea25331b2a4d798b013a",
+          "bytes": 17510
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-75/validation-01.json",
+          "sha256": "ebab2ba4e6d815a5614dd5a92d3d68a98271d93b3550d5f8b6e0c9d8621f18aa",
+          "bytes": 3386
+        },
+        "owns_standalone_body": false
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0039",
@@ -8246,18 +8293,18 @@
     "sha256": "f1f48518c19ce5acb8ffb3002771e7de1d21a7363ccd39ffbe9decfec4b63c3d",
     "bytes": 504314
   },
-  "current_checkpoint": "M78",
-  "next": "M79: Resolve the final non-owning information heading,maso-1984-03-toc-0038,with original source TOC evidence and six separately accepted child bodies (editorial13,news124–131,debug255,Q&A256–259,index204,contestresults243). Do not invent a standalone divider/body or assume canonical order equals physical order. Use fresh whole-issue-75,reading all frozen predecessors as DATA ONLY. Then account for all16 pending full-page dispositions in bounded checkpoints,max six selected source views and20 outside lookups,retain unlisted ads/forms in the source set,and produce reproducible whole-issue exports/completion audit covering all273 scans/all44 identities. All38 articles are accepted but March is not complete. Shared implementation315 tests/58 pins unchanged;no OCR reruns;cleanup preview only.",
+  "current_checkpoint": "M79",
+  "next": "M80: Account for the first six pending front source images,filename001–006/source indices9–14,in fresh whole-issue-76. Inspect every complete original page and record evidenced ad/form/other dispositions without inventing TOC bodies or unnecessary OCR. Keep maxsix selected views/twenty outside lookups per checkpoint. Then remaining front007,008,010 and back260–266 (ten pages) in further bounded checkpoints. Preserve all273 original images and all44 completed canonical outcomes. Finally build two reproducible whole-issue JSON/assets exports and complete independent all-source/accounting/ownership/continuity/range/asset/native rebuild audit. Whole March remains active. Frozen M79/predecessors are data only;never execute/import/modify frozen helpers or snapshots. Shared315-test/58-pin implementation unchanged;cleanup preview only.",
   "pending_article_candidates": 0,
-  "pending_heading_candidates": 1,
+  "pending_heading_candidates": 0,
   "partial_whole_scan_articles": 0,
-  "complete_whole_scan_headings": 5,
+  "complete_whole_scan_headings": 6,
   "current_work": {
-    "checkpoint": "M78",
+    "checkpoint": "M79",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-contest-results.json",
-      "sha256": "bd7f0a5f8fd2778f2697c24ca223d0122c61dbbd942c85bdb36efe55dceb7148",
-      "bytes": 5959
+      "path": "metadata/catalog/scan-restoration/1984-03-information-heading.json",
+      "sha256": "8e38b22f201ae11ee26033ac81c0314724056239ec5bec5a82b109d8cd910ebc",
+      "bytes": 3601
     },
     "accepted": true
   }

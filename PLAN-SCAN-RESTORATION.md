@@ -1308,6 +1308,19 @@ dispositions /273 scans**. Continue M79 information heading in fresh whole-issue
 then every source disposition and reproducible whole-issue exports/completion audit.
 See the [M78 handoff](docs/SCAN-RESTORATION-1984-03-M78.md).
 
+
+**M79 completes the non-owning information heading**,from original TOC source
+filename009. Two exact seven-file classification exports retain six navigation
+rows,13 native fields and four source crops;all13 damaged cases reject. Printed
+253 remains distinct from actual debugging255;no group body/divider is invented.
+All **44 canonical identities are complete:38 articles/six headings**. March
+remains active with **16 pending full-page dispositions /273 scans** and whole-issue
+export/rebuild/completion audit pending. Continue M80 front001–006 in fresh
+whole-issue-76,then remaining front007/008/010 and back260–266 in bounded batches.
+All **36 M79 evidence files are frozen**,data only;never execute/import/modify
+frozen helpers or snapshots. Shared315-test/58-pin implementation is unchanged.
+See the [M79 handoff](docs/SCAN-RESTORATION-1984-03-M79.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
