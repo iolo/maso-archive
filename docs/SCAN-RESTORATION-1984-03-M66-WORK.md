@@ -1,5 +1,11 @@
 # March M66 — word processor ending in progress
 
+This is the historical preparation record. M66 now accepts native 250–251 in
+two exact 33-file exports and freezes 237 evidence files. See the
+[accepted M66 handoff](SCAN-RESTORATION-1984-03-M66.md) for the current result.
+Complete 244–251 assembly/reproduction/audit and the rest of March remain active.
+The unfinished states below describe the earlier work checkpoint.
+
 The task remains the **whole March 1984 donated-scan issue**. M65 accepts the
 word processor opening on **244–249**. M66 is restoring final **250–251**, after
 which the complete **244–251** article must be assembled, reproduced and audited.

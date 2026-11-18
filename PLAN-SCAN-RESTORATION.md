@@ -904,35 +904,38 @@ remaining March article, heading and disposition through reproducible whole-issu
 export and completion audit. See the [M65 native handoff](docs/SCAN-RESTORATION-1984-03-M65.md)
 and [accepted opening](metadata/catalog/scan-restoration/1984-03-word-opening.json).
 
-**M66 is unfinished work on final 250–251.** Fresh full-page review verifies the
-incoming 3190 fragment, original ending **4150 GOTO 1330** and separate tunnel-game
-neighbor 252. Four successful historical M01 recognitions pass exact
-source/map/crop/runtime/settings proof at their recorded **3,000-pixel** scale;
-no new OCR ran. The selected map keeps those four code owners and adds four
-complete original frame figures at **6,000 pixels**. Native geometry uses the
-complete frames to retain glyph margins outside the old crop. All four raw
-drafts were read before one prospective comparison pass; **all four readings**
-now have enlarged source comparison, retaining **sixteen qualifications** and
-unchanged historical corrected text. The source index retains **293 nonempty
-code rows, 96 new labels, 97 source units and 3,341 display fields**, with
-3470/3670/3870 spanning columns/pages. The incoming 3190 remains incomplete
-without M65. Keep the source's local marks, repeated `3` in 3960, physical wraps
-and final 4150; `⟦:⟧` in 3490 is an explicit search qualification, not printed
-brackets or recovered bytes.
+**M66 accepts the native word processor ending, actual 250–251**, in two fresh
+exports matching exactly across **33 files**. Independent audit checks all
+**eight original source crops**, **four unchanged historical OCR bindings**,
+complete native/source ownership and fourteen damaged-contract rejections;
+the preceding work audit rejects fifteen damaged cases. The ending retains
+**293 nonempty code rows, two explicit layout-gap search separators, 97 source
+units, 96 new labels and 3,341 display fields**; **eight structures, 3,638 native
+fields, four original frame paths and 21 source/native qualifications**, including
+all sixteen current qualifications and three historical local candidates.
+Complete original frames own native geometry; exact **3,000-pixel** historical
+recognition inputs remain separate from **6,000-pixel** frame/source review.
+No recognition was rerun or source text repaired. Three expanded contexts retain
+the standalone `6` and qualified high marks; the other 290 rows and all frame
+paths are unchanged. Preserve uncertain `⟦:⟧` in 3490, the repeated `3` in 3960,
+all physical wraps and original **4150 GOTO 1330**. Search qualification brackets
+are not printed glyphs or recovered bytes.
 
-Reviewed native work has **eight structures, 293 row fields, four separate code
-contexts, four original frame paths, 3,341 field-to-row bindings and 268 layout-gap
-contexts**. Three refined contexts include a faint standalone `6` and two high
-marks; the other 290 rows and all frame paths are unchanged. Fifteen damaged
-source/native-work cases reject. Earlier failed attempts and candidates remain
-preserved. **Final native integration, two matching exports, independent ending
-acceptance and complete 244–251 assembly/reproduction/audit remain pending**.
-M66 stays unfrozen. The **309-test / 55-pin** shared baseline is unchanged;
-cleanup was preview-only with no deletion. Article/heading acceptance and the
-42 pending full-page dispositions are unchanged. Continue every remaining March
-task through whole-issue export and completion audit. See the
-[M66 work handoff](docs/SCAN-RESTORATION-1984-03-M66-WORK.md) and
-[work record](metadata/catalog/scan-restoration/1984-03-word-ending-work.json).
+M66 freezes **237 evidence files**; never execute or modify its helpers/evidence
+or data-only snapshots. The shared **309-test / 55-pin** baseline is unchanged;
+cleanup was preview-only with no deletion. Whole March remains active with
+**30 complete articles, one partial article, seven pending articles, five complete
+headings, one pending heading and 42 pending full-page dispositions / 273 scans**.
+Continue **M67** with complete **244–251** assembly, reproduction and audit.
+Preserve both accepted segments byte for byte and explicitly join 3190 from
+249 `HPLOT` to 250's unnumbered `X + 1,Y - 3 TO X + 10,Y - 3:`. The M65 listing
+lacks a terminal newline; retain exactly one physical boundary newline without
+changing original source components or claiming encoded bytes. Existing scoped
+complete-unit links do not cover this split statement; qualify necessary strict
+assembly support before two complete-article exports and independent audit.
+Then finish every remaining March task through whole-issue export/completion
+audit. See the [M66 native handoff](docs/SCAN-RESTORATION-1984-03-M66.md) and
+[accepted ending](metadata/catalog/scan-restoration/1984-03-word-ending.json).
 
 ## Aim
 

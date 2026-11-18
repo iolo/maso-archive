@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M66",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0035",
+  "status": "complete-native-ending-segment",
+  "canonical_received_title": "한글 워드 프로세서 프로그램",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    250,
+    251
+  ],
+  "article_actual_folios": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251
+  ],
+  "prior_native_actual_folios": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249
+  ],
+  "selected_package": "archive/scans/1984-03/packages/word-jpeg-ending-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/word-jpeg-ending-r01/manifest.json",
+    "sha256": "d98d49377d71b5dc351ea2dd5b3b3891fcabd06af7860eda3795f303896852d0",
+    "bytes": 5571
+  },
+  "exact_files": 33,
+  "manifest_payload_files": 32,
+  "master_crops": 8,
+  "retained_historical_recognition_bindings": 4,
+  "new_recognition_tasks": 0,
+  "recognition_reruns": 0,
+  "recognition_render_scale": 3000,
+  "complete_frame_geometry_scale": 6000,
+  "native_index_records": 8573,
+  "typed_references": 68731,
+  "source_and_active_byte_spans": 22815,
+  "source_asset_bindings": 9037,
+  "source_qualifications": 16,
+  "source_native_qualifications": 21,
+  "native_structure": {
+    "structures": 8,
+    "fields": 3638,
+    "physical_context_rows": 293,
+    "paths": 4,
+    "code_nonempty_ink_rows": 293,
+    "physical_serialization_rows": 295,
+    "layout_gap_search_rows": 2,
+    "source_units": 97,
+    "new_statement_labels": 96,
+    "display_fields": 3341,
+    "original_rasters": 4
+  },
+  "incoming_source_unit": {
+    "printed_label": "3190",
+    "printed_header_on_250": false,
+    "external_predecessor_required": true,
+    "complete_without_predecessor": false
+  },
+  "final_statement": "4150 GOTO 1330",
+  "nonprinted_search_qualification_delimiters": 2,
+  "rejected_damaged_work_cases": 15,
+  "rejected_damaged_contract_cases": 14,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/native-ending-validation-01.json",
+    "sha256": "6d0fa74b77b0b4b99a21a303705ae477b00a3aa9d94cda8cb8eb2f60022fadad",
+    "bytes": 3073
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/word-b/recipe-native-01.json",
+    "sha256": "31ed38cca237af02d940743de08f11e565d7f1f0e1e8e91cd68bccb36a9396a6",
+    "bytes": 8981
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/word-b/source-compared-readings-01.json",
+    "sha256": "862d90e5205390cb77616d266c85e531d487d88c05fc2ca9403829f2bd6bd4d0",
+    "bytes": 49185
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/word-b/native-program-review-01.json",
+    "sha256": "6b3996be2144594d706444f65921de6ced3836956e4558de5ff36e743578b77f",
+    "bytes": 4186
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/source-ledger-native-01.json",
+    "sha256": "951b3e2b843acc339074671af9a3c227dca4e4defecd75255892d7788e00f0cb",
+    "bytes": 458517
+  },
+  "source_dispositions_pending": 42,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/resume.json",
+    "sha256": "1fe8783f663822169075558d1b37ba37eb7b3f7ad1c657594c8cc88361616d9d",
+    "bytes": 8598
+  },
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-word-opening.json",
+    "sha256": "2cac761d7f0d37c3dd0beca07e8eee377a001e5923ccb18d2ba13989241bbe32",
+    "bytes": 5458
+  },
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/implementation-after-01.json",
+    "sha256": "ee7113c8921e8f45c82952cc2ed1209be1ae0df666a5a94a45b6ab4e0ff831f3",
+    "bytes": 10400
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 309,
+  "fresh_regression_tests": 0,
+  "complete_whole_scan_articles": 30,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 7,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "native_ending_segment_accepted": true,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "next": "M67: assemble, reproduce and independently audit the complete donated-JPEG word processor article 244–251 (maso-1984-03-toc-0035). Preserve frozen M65 opening 244–249 and frozen M66 ending 250–251 byte for byte. Explicitly join source unit 3190 from 249 HPLOT to the unnumbered 250 beginning X + 1,Y - 3 TO X + 10,Y - 3:. The M65 listing lacks a terminal newline; preserve exactly one physical boundary newline in the assembled reading without changing either original source component or claiming recovered encoded bytes. Current scoped complete-unit program links do not cover this split statement; implement only explicit, strict, reviewed split-statement assembly support and retain all original source records/scopes. Preserve all 702 nonempty ink rows, the two ending layout-gap search separators, 316 complete source units after the 3190 join, 7236 source display fragments including two nonprinted qualification delimiters, all 13 original rasters, 90 structures, 8380 native fields, 120 paths and 91 source/native qualifications. Verify complete 244–251 source order, final 4150 and separate neighbors 243/252. Build two exact full-article exports and independently audit every native/source occurrence and original retained file before completing the article. Then continue all seven pending March articles, information heading and 42 pending full-page dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M66/M65/M01/predecessor helpers/evidence or data-only snapshots. Shared baseline is 309 tests /55 pins before any new assembly support; qualify necessary shared changes with fresh applicable tests.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/evidence-manifest.json",
+    "sha256": "ccab70bfe26ce361c6cc87569ee49748feef8420f4dbe045d330f662e53c31fd",
+    "bytes": 42688
+  },
+  "frozen_evidence_files": 237,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/whole-progress-m66.json",
+    "sha256": "ab9cda6f1e22714205e63c1054a99117bc6df13d2bcac20476ec5cd1f27682c9",
+    "bytes": 250221
+  }
+}

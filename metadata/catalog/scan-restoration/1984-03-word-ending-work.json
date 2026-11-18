@@ -4,8 +4,8 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0035",
   "canonical_received_title": "한글 워드 프로세서 프로그램",
-  "status": "all-ending-readings-and-native-geometry-reviewed;native-integration-and-exports-pending",
-  "updated_at": "2026-11-18T12:32:31.578839+00:00",
+  "status": "superseded-by-accepted-M66-native-ending",
+  "updated_at": "2026-11-18T12:45:54.013658+00:00",
   "scope": "Bounded native ending 250–251 of verified 244–251 word processor article, within the active whole-March campaign.",
   "article_actual_folios": [
     244,
@@ -53,18 +53,25 @@
     "layout_gap_contexts": 268,
     "refined_contexts": 3,
     "unchanged_other_rows": 290,
-    "native_contract_integration_pending": true
+    "native_contract_integration_pending": false,
+    "fields": 3638,
+    "source_native_qualifications": 21,
+    "complete_export_validation": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-62/native-ending-validation-01.json",
+      "sha256": "6d0fa74b77b0b4b99a21a303705ae477b00a3aa9d94cda8cb8eb2f60022fadad",
+      "bytes": 3073
+    }
   },
   "damaged_source_native_work_rejections": 15,
   "reviewed_source_geometry_complete": true,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_package_selected": false,
-  "native_ending_segment_accepted": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_package_selected": true,
+  "native_ending_segment_accepted": true,
   "native_article_accepted": false,
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "evidence_frozen": false,
+  "evidence_frozen": true,
   "review_level": "assistant-source-compared;not-human-acceptance",
   "accepted_counts": {
     "complete_whole_scan_articles": 30,
@@ -145,9 +152,9 @@
     "bytes": 2663
   },
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-ledger-native-01.json",
-    "sha256": "3815bae96a7ef2b90798d1c690529dc986e411bbf0bce682e2769d5800c30e13",
-    "bytes": 456912
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/source-ledger-native-01.json",
+    "sha256": "951b3e2b843acc339074671af9a3c227dca4e4defecd75255892d7788e00f0cb",
+    "bytes": 458517
   },
   "shared_implementation_changed": false,
   "implementation": {
@@ -160,20 +167,30 @@
   "fresh_regression_tests": 0,
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-62/resume.json",
-    "sha256": "16f099c51ac10245d4894bf3397fa1a859ce709b4ec8d09adf408149f0181f22",
-    "bytes": 7269
+    "sha256": "1fe8783f663822169075558d1b37ba37eb7b3f7ad1c657594c8cc88361616d9d",
+    "bytes": 8598
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-62/process-outcomes-01.json",
-    "sha256": "a1781114ded2538d14d7a8868c3b1d2f44b69200aca8c85197923750a70a2c22",
-    "bytes": 2165
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/process-outcomes-02.json",
+    "sha256": "d19d56208935cefe48c8db69f5b48bc02bc736ba2f1dce7ebc72084361caaa29",
+    "bytes": 1084
   },
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-62/cleanup-preview-01.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/cleanup-preview-02.log",
     "sha256": "4f32d87948b72da95b7d22cd07dab61ec9d2ecb5db31727406798cdae79711e4",
     "bytes": 233
   },
   "cleanup_preview_only": true,
   "deleted_files": 0,
-  "next": "Continue unfrozen M66 with final native integration of original 250–251. All four readings and sixteen qualifications, 293 nonempty source rows, 97 source units and 3341 display fields are compared and indexed. Use selected program index R02 and reviewed geometry R02, including all 293 row fields, four independent code contexts, four original frame paths, 3341 field-to-row bindings and 268 layout-gap contexts. Geometry belongs to the complete original frame regions; the unchanged historical code owners remain exact 3000-pixel recognition inputs. Two ⟦ ⟧ search delimiters on 3490 are not printed source glyphs. Preserve incoming incomplete 3190, cross-region 3470/3670/3870, all local marks/coordinate candidates, both source layout-gap search separators and final 4150. Integrate a complete typed native contract, build two fresh matching ending exports and independently audit before acceptance. Then explicitly join 3190 to frozen M65 and assemble/reproduce/audit the full 244–251 article. Existing scoped complete-unit program links must not silently reinterpret this split statement; retain original segment records and exact physical newline/source bytes in any assembly support. Finish all seven other pending March articles, the information heading and 42 remaining full-page dispositions through reproducible issue export/completion audit. Never execute or modify frozen M65/M01/predecessor helpers/evidence or snapshots. Shared implementation remains qualified by 309 tests and 55 pins; no recognition rerun is required."
+  "next": "M67: assemble, reproduce and independently audit the complete donated-JPEG word processor article 244–251 (maso-1984-03-toc-0035). Preserve frozen M65 opening 244–249 and frozen M66 ending 250–251 byte for byte. Explicitly join source unit 3190 from 249 HPLOT to the unnumbered 250 beginning X + 1,Y - 3 TO X + 10,Y - 3:. The M65 listing lacks a terminal newline; preserve exactly one physical boundary newline in the assembled reading without changing either original source component or claiming recovered encoded bytes. Current scoped complete-unit program links do not cover this split statement; implement only explicit, strict, reviewed split-statement assembly support and retain all original source records/scopes. Preserve all 702 nonempty ink rows, the two ending layout-gap search separators, 316 complete source units after the 3190 join, 7236 source display fragments including two nonprinted qualification delimiters, all 13 original rasters, 90 structures, 8380 native fields, 120 paths and 91 source/native qualifications. Verify complete 244–251 source order, final 4150 and separate neighbors 243/252. Build two exact full-article exports and independently audit every native/source occurrence and original retained file before completing the article. Then continue all seven pending March articles, information heading and 42 pending full-page dispositions through reproducible whole-issue export/completion audit. Never execute or modify frozen M66/M65/M01/predecessor helpers/evidence or data-only snapshots. Shared baseline is 309 tests /55 pins before any new assembly support; qualify necessary shared changes with fresh applicable tests.",
+  "accepted_ending": {
+    "path": "metadata/catalog/scan-restoration/1984-03-word-ending.json",
+    "sha256": "7d4b123eaedbf4dfe34cebf671eedce2dc172d9c620a6df0d194ccab1bb785d4",
+    "bytes": 6465
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/evidence-manifest.json",
+    "sha256": "ccab70bfe26ce361c6cc87569ee49748feef8420f4dbe045d330f662e53c31fd",
+    "bytes": 42688
+  }
 }
