@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M83",
+  "completedOn": "2026-11-19",
+  "accepted_at": "2026-11-18T19:33:54.719834+00:00",
+  "issue_id": "maso-1984-03",
+  "status": "complete-whole-issue-native-restoration",
+  "whole_scan_complete": true,
+  "whole_issue_complete": true,
+  "package_kind": "jpeg-issue",
+  "selected_package": "archive/scans/1984-03/packages/issue-whole-r01",
+  "package_manifest": {
+    "path": "archive/scans/1984-03/packages/issue-whole-r01/manifest.json",
+    "sha256": "7f0e8e6f44e22c8f9a291077d6301fe1d7a273dbccf983e51a90144ade043990",
+    "bytes": 1657076
+  },
+  "availability": "complete",
+  "verification": "sample-reviewed",
+  "nativeFiles": 7940,
+  "counts": {
+    "canonical_identities": 44,
+    "article_packages": 38,
+    "group_headings": 6,
+    "source_images": 273,
+    "selected_article_source_images": 239,
+    "cover_faces": 4,
+    "other_source_images": 30,
+    "source_classifications": {
+      "cover": 4,
+      "advertisement": 18,
+      "table-of-contents": 1,
+      "selected-article-source": 239,
+      "section-divider": 4,
+      "unlisted-notice": 2,
+      "unlisted-form": 4,
+      "retained-alternative": 1
+    }
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/validation.json",
+    "sha256": "7493d6d85a227a684ef480997983dda97c17b099347168beff7bc9c33783341f",
+    "bytes": 1809
+  },
+  "completion_audit": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/completion-audit.json",
+    "sha256": "51676567ac90f57d009ef52260283e682ab7ca99846e6bb9cc06ce0227cdef91",
+    "bytes": 76007
+  },
+  "native_recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/issue-recipe.json",
+    "sha256": "a29e0ea4b35bc23e9a05213a29495497006de48e8623e0e663cef20aca48e94b",
+    "bytes": 911
+  },
+  "ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/issue-ledger.json",
+    "sha256": "6d70e05a0c1995e46946aa804f86414589babe981dd1b41ed09283da3d5adc5a",
+    "bytes": 30121
+  },
+  "source_accounting": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/source-accounting.json",
+    "sha256": "8b4c0025f2706fe6160b891d8141f64ab4f603530cdfafc54082e3bace61fdf0",
+    "bytes": 337824
+  },
+  "accepted_source_review_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-78/source-ledger-01.json",
+    "sha256": "2d7e09b0392169fc1479249b713005168d623c7f530a49433cf9b0ae0996d5a9",
+    "bytes": 516870
+  },
+  "source_disposition_mode": "source-dispositions-v2",
+  "unsequenced_source_indices": [
+    8
+  ],
+  "article_rebuild_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/article-rebuild-validation.json",
+    "sha256": "fd1b784d2b759adf90c4ef7f23bee2e0d4d12dfcb5940595ede612b57af75f8f",
+    "bytes": 1599860
+  },
+  "article_rebuild_jobs": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/article-rebuild-jobs.json",
+    "sha256": "1b449367adddb03315dfdca03b8ee2949b8019770ee9cfa7f3b4cf411d078ba2",
+    "bytes": 28523
+  },
+  "articleRebuilds": [
+    {
+      "toc_entry_id": "maso-1984-03-toc-0001",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/feature-jpeg-assembly-r01/assembly-recipe.json",
+        "sha256": "99f2ad34ba1d60247ba57b0e979a5041fae94aef74bb60664cab3af39c304185",
+        "bytes": 28233
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/feature-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/feature-jpeg-assembly-r01/manifest.json",
+          "sha256": "bd1dedc028b8b430162f6e3135aa7b04813d20c1c9f4f8536e5b4befa0b04422",
+          "bytes": 108252
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0003",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/reasoning-jpeg-assembly-r01/assembly-recipe.json",
+        "sha256": "084f4a7b0f059a8355b893cedc3d8207f37318c87dfa59367b088a0f7c9230d2",
+        "bytes": 4319
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/reasoning-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/reasoning-jpeg-assembly-r01/manifest.json",
+          "sha256": "39f8094b57dceca4254c461d07bd6324fd3104e9054ebd00a9ccbcfa6e60513b",
+          "bytes": 20568
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0004",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-10/hourglass/recipe.json",
+        "sha256": "239d75be7cc912b60afa8ec00f2164462d4e169bb2ba5f44fb183d936b69b408",
+        "bytes": 4937
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/hourglass-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/hourglass-jpeg-r01/manifest.json",
+          "sha256": "6b56c1426470106ffbbb99f515337ce2e7a38988aab01d7d18ae5bce82dfc990",
+          "bytes": 13277
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0005",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-11/paddles/recipe.json",
+        "sha256": "51bc0093015442b6bf730dad4d4bbd88a856c31b693175155a4b54ceb19b4a6f",
+        "bytes": 8630
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/paddles-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/paddles-jpeg-r01/manifest.json",
+          "sha256": "9698040f18f933f3bf1cc8cfafde08d3578a01f6bdb8c288c384343d69388a3e",
+          "bytes": 16685
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0006",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-12/apples/recipe.json",
+        "sha256": "80ee0862cbcb35737248ece2b4b65383635954a1bba60e02ae4c1811b7e1b638",
+        "bytes": 4669
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/apples-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/apples-jpeg-r01/manifest.json",
+          "sha256": "47499791027c015708a33d7f43f023ff278ae8de3c75ce6beb94458e7f0e4aee",
+          "bytes": 8261
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0007",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-13/golf/recipe.json",
+        "sha256": "743f592752fc61df3a36e505ef18e2e26cf0bf17c10fbb97b93827cbeb3784a6",
+        "bytes": 7535
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/golf-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/golf-jpeg-r01/manifest.json",
+          "sha256": "3a6dc0106cee952da94398793abc4068e0d796d17aee283da0a09c7a579e3b88",
+          "bytes": 12499
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0008",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-14/dreidel/recipe.json",
+        "sha256": "6e97f35c536eb82e8753176843fa0dc136ca3927181d247832ef13553e9385be",
+        "bytes": 6706
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/dreidel-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/dreidel-jpeg-r01/manifest.json",
+          "sha256": "80e2d10d92e8c5f18e1a1ff23f01edc3a9eb137acd4358b84b295cae9d1d7ab3",
+          "bytes": 8200
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0009",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-15/hunting/recipe.json",
+        "sha256": "444087e1c561c79df7afc7ff3cdd1313154fe581fb3539a0433167cbe8326352",
+        "bytes": 13387
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/hunting-jpeg-r02",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/hunting-jpeg-r02/manifest.json",
+          "sha256": "8d27830301bd26563f4721004088d6089e77e6114f81890caaff1b5396e457b6",
+          "bytes": 32009
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0010",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-16/puzzle/recipe.json",
+        "sha256": "1b730944e19df17e714ce7ed58995df0f5f1c8219b5d2298c2ff056a9c032b47",
+        "bytes": 6055
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/puzzle-jpeg-r03",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/puzzle-jpeg-r03/manifest.json",
+          "sha256": "c439c22f04069770f9b9a7a9a060a5ac178704d26222be7001a8af9fc32c29ff",
+          "bytes": 9172
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0011",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-17/magic/recipe.json",
+        "sha256": "a7fd41cc5d113ad4bdca47564a8d12898315bb26b0f21f7ca41949293b40cc87",
+        "bytes": 5385
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/magic-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/magic-jpeg-r01/manifest.json",
+          "sha256": "c32470dbd0ed75d6c90ab6ef999ca17dc3519e3f18dd405ff32a7d22ec4c18d2",
+          "bytes": 8989
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0012",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-18/mental/recipe.json",
+        "sha256": "8c4d625a121ef9d472091a249aeb221067f9b7cff223eea910b93559ca00395d",
+        "bytes": 4814
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/mental-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/mental-jpeg-r01/manifest.json",
+          "sha256": "21104927a3883bbf1b5cd0a5bfd7a3d290d6451cbb2144caa8867ca255ba3fb4",
+          "bytes": 10365
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0013",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-19/fireworks/recipe.json",
+        "sha256": "4bd7c0ceedd82de35d10adb3a64db5deb80c19a2bb7e6fb9d7d137d6f94650a0",
+        "bytes": 4373
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/fireworks-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/fireworks-jpeg-r01/manifest.json",
+          "sha256": "b972d7d06ff5b8c7f48de9251d21c91368370c5ba6d5bf7ce4c9e799f183c2c9",
+          "bytes": 5074
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0015",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-21/basic/recipe.json",
+        "sha256": "88b9c3491f0b7a68b6ac9abfece63d18248c37d082f31aa6efb6fffc36e4597d",
+        "bytes": 9139
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/basic-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/basic-jpeg-r01/manifest.json",
+          "sha256": "39d0087eff1944a1b0ad2a5f4a5c2f51d86e75f0fe12d1975c397bcbe8b8d33f",
+          "bytes": 26682
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0016",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-22/protection/recipe.json",
+        "sha256": "7bef98fbf8290a7d455f1bcecd85a51f02a80f32ff0aaa6b88ed731f76ac21f6",
+        "bytes": 9686
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/protection-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/protection-jpeg-r01/manifest.json",
+          "sha256": "fa1000425b9e3f87161d43c288f143ba527180922d575a45a3ad72cab9bb7f7f",
+          "bytes": 26636
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0017",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/numbers-jpeg-assembly-r01/assembly-recipe.json",
+        "sha256": "90181ad7b17e050f3526e961f4472d9f90e824e6665dda433144637fd4e7bed4",
+        "bytes": 4537
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/numbers-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/numbers-jpeg-assembly-r01/manifest.json",
+          "sha256": "335436be1ce632a63e26ca8c2b98261795ff511b9eeeca55bebded2475162be6",
+          "bytes": 61639
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0018",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/systems-jpeg-assembly-r01/assembly-recipe.json",
+        "sha256": "21a8e3d28112435d6653389a3d6edf92c7ea2d87dd64fcf32f67b4dae4521801",
+        "bytes": 5607
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/systems-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/systems-jpeg-assembly-r01/manifest.json",
+          "sha256": "f85695eed5a47e158ee53e6feee61a28c3b40f0f89ce5aa5ecfe2bf0497bd98c",
+          "bytes": 64839
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0019",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-29/tape/recipe.json",
+        "sha256": "6944c5cea6326733cc092a80ca072e25bc8224455edf67bc05c3c47a4ad07e50",
+        "bytes": 14706
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/tape-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/tape-jpeg-r01/manifest.json",
+          "sha256": "6db6fa949e188d757742247d4c8f35b40d4a879b2c27c52e57cbc3bc696b5ee9",
+          "bytes": 47564
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0020",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-30/data/recipe-r01.json",
+        "sha256": "39ee389ba74e822e245024b2e3060b4cc841aef24a827d101ed9db04af025435",
+        "bytes": 8909
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/data-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/data-jpeg-r01/manifest.json",
+          "sha256": "c5be4b673f115b60dfd6f2c2694eee8eab775f359181dca7c7cbe14ea26218f7",
+          "bytes": 28294
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0021",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-31/z80/recipe-r01.json",
+        "sha256": "75fa04ffe52c5d624e76822b41b2af91b9719a0cb55ac6ea6729926c0c7e129b",
+        "bytes": 9096
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/z80-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/z80-jpeg-r01/manifest.json",
+          "sha256": "1f6c14c95fbc14dca4473fc5413e4dbdeb287a8a9a4791c92a7282962fc17e0f",
+          "bytes": 27570
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0023",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/regression-jpeg-assembly-r01/assembly-recipe.json",
+        "sha256": "2fbc9c4cdbcff1bc1c8115712b44d763eb52ccd57bd1305211e44701cf185a78",
+        "bytes": 16609
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/regression-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/regression-jpeg-assembly-r01/manifest.json",
+          "sha256": "0cfffdfc41a6b5539c8abe6ea85e53169aebfa6e2596029d32180492ea207a4f",
+          "bytes": 120495
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0024",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/visicalc-jpeg-assembly-r01/assembly-recipe.json",
+        "sha256": "8658c0fcbb268f950746363fb378e18780fd8845a6062ae22644aa5d11045bf7",
+        "bytes": 8585
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/visicalc-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/visicalc-jpeg-assembly-r01/manifest.json",
+          "sha256": "3c0b0ac2ce361fc9acba3f8218d11357f1838a6d9e7796b6f18eaf428d08b5b3",
+          "bytes": 102366
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0025",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/northwest-jpeg-assembly-r01/assembly-recipe.json",
+        "sha256": "d2770255387031e3b1cc73fb1df82cd6cf459a3c792958682ee3887b0dc096db",
+        "bytes": 11303
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/northwest-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/northwest-jpeg-assembly-r01/manifest.json",
+          "sha256": "594deb5d066eebd2dbec2b58859d33377f91d1636372b8334dd2a6734555bc41",
+          "bytes": 40555
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0026",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-44/database/recipe-native-01.json",
+        "sha256": "cfb3a7651a76a2928e03114706f73df6abfb15ab839fb0566f46c9f0d98c6b6c",
+        "bytes": 7225
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/database-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/database-jpeg-r01/manifest.json",
+          "sha256": "08c2fccb89307733031dcd94b92b5386f8d181779b00a1204f6ebab78fa56680",
+          "bytes": 19219
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0027",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/medical-jpeg-assembly-r01/assembly-recipe.json",
+        "sha256": "ef80a78c4e3b5d31362eb96ba711acbecfad2823060390b17be840d0e2340d5e",
+        "bytes": 4123
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/medical-jpeg-assembly-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/medical-jpeg-assembly-r01/manifest.json",
+          "sha256": "0060714ee95d958f8066eda4c29bb5b9027c3968e5dcb334a5d05be2374b202c",
+          "bytes": 66687
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0028",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-48/update/recipe-native-01.json",
+        "sha256": "9f58bac0dcaae46a6e717fadb14d3c5a6e0e1f684840afc951e323d0d3ce4456",
+        "bytes": 8188
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/update-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/update-jpeg-r01/manifest.json",
+          "sha256": "58dd3c8b6494b558a37887b5958c1b4ef70d5f2e1a8f60df8f1797b20d791ff1",
+          "bytes": 24596
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0030",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-50/machine/recipe-native-02.json",
+        "sha256": "b4e2b0116dbe47e760395afaa9f0e866f05b785265cd8bbfdbdb0db747cc4834",
+        "bytes": 7717
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/machine-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/machine-jpeg-r01/manifest.json",
+          "sha256": "430da4379f6eb6c4d7ef4881c63bcc457353092c3dbb146d378f460a1d874b95",
+          "bytes": 28062
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0031",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/interface-jpeg-r01/assembly-recipe.json",
+        "sha256": "be588a1952f593d5347427aa74240d0a3f7c6300ff57f7fd0a3db903ab5b26e3",
+        "bytes": 5095
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/interface-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/interface-jpeg-r01/manifest.json",
+          "sha256": "3a2ae8aea36ca9d749fae8678ed516e96df138a92e2b736d97e17b47cf94a50f",
+          "bytes": 49809
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0032",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/shape-jpeg-full-r01/assembly-recipe.json",
+        "sha256": "33c9c54e43385215a58ee52b1ee5a7e09742be8e67f03c4376bdfd4d0d65cadb",
+        "bytes": 3854
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/shape-jpeg-full-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/shape-jpeg-full-r01/manifest.json",
+          "sha256": "001c9ae2eb7df3c36c476e5aaf758982b4d5cb7abe462cdb7fad041f1bbb392f",
+          "bytes": 71050
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0033",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/ad-jpeg-full-r01/assembly-recipe.json",
+        "sha256": "8a642ae0e898b3824863220c7e490aa0d0bd2f85641d0d8c69a79c27f8276156",
+        "bytes": 8366
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/ad-jpeg-full-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/ad-jpeg-full-r01/manifest.json",
+          "sha256": "342e571d0e397f439f8bc8366f801e7a29c3c54f3c9a93e476f8782011ad04fc",
+          "bytes": 115014
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0035",
+      "module": "tools.pdf_restore.assemble",
+      "recipe": {
+        "path": "archive/scans/1984-03/packages/word-jpeg-full-r01/assembly-recipe.json",
+        "sha256": "4056b94e4a442772c8953ba44f0291a3d60e1d86172ef739352c07cd6d43e30f",
+        "bytes": 6938
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/word-jpeg-full-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/word-jpeg-full-r01/manifest.json",
+          "sha256": "7ec49dfdac68eb610edb3f8640543f7be3e3276956d369452a5f97f479ee79e8",
+          "bytes": 31571
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0036",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-64/tunnel/recipe-native-02.json",
+        "sha256": "c13838973110a861da8277df4b263c48b0320aaf4867de35d85c43283eccb01b",
+        "bytes": 7093
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/tunnel-jpeg-r02",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/tunnel-jpeg-r02/manifest.json",
+          "sha256": "39afa7dff55f33a4cd84aaf333892cbf8681ff0725ff12ef3de3c8d8bc52df91",
+          "bytes": 12195
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0037",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-68/sewoon-complete/recipe-native-01.json",
+        "sha256": "ed04bd0891950c2b7d20a45af834820a6595413c3896c3c8a79723245e7659b9",
+        "bytes": 19414
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/sewoon-jpeg-complete-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/sewoon-jpeg-complete-r01/manifest.json",
+          "sha256": "c5e1e274c1985239c5eed738cb1685a663837c5126f2aa6ff8986bcfa51d3b20",
+          "bytes": 48509
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0039",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-01/editorial/recipe.json",
+        "sha256": "6ab34d14494a00d233e3ea8252c32e733dfa91d515b9d47918f4904e7d6277d0",
+        "bytes": 2944
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/editorial-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/editorial-jpeg-r01/manifest.json",
+          "sha256": "958521f45f342ecb413ce0314740319247bb7a05c0f7795e8027a2c7c10e0564",
+          "bytes": 7356
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0040",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-71/radar-complete/recipe-native-01.json",
+        "sha256": "cb317da0bde9dc4b06b203ab1f0a1de43fa948e39e9497cbc6a8f4983fe96cc4",
+        "bytes": 19268
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/radar-jpeg-complete-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/radar-jpeg-complete-r01/manifest.json",
+          "sha256": "909bdfa70d7f795499cdd5dbe68cc468a5a00b477881403ab11269d968cd93d1",
+          "bytes": 67457
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0041",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-72/debugging/recipe-native-01.json",
+        "sha256": "a4754ae7f04dc990916d5227e213f7f11850f20b3e1d6f45db1735a1b312948e",
+        "bytes": 5890
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/debugging-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/debugging-jpeg-r01/manifest.json",
+          "sha256": "8296fbdf2627489ee69bfa6f2601043b30d2f61fa371c07450a58b99a50cabd4",
+          "bytes": 12836
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0042",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-73/qa/recipe-native-01.json",
+        "sha256": "86668daeb02ef6a3cf0b22a1737058a01c2c5d9923b5fe572b37af3514cd48e5",
+        "bytes": 9792
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/qa-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/qa-jpeg-r01/manifest.json",
+          "sha256": "718620111680e1b618a369dabf6d0ac235b24f61fc193351f2eade1554a2446c",
+          "bytes": 39847
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0043",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-67/ads/recipe-native-01.json",
+        "sha256": "16105685cf72f7d9a678806502af256ec9e018b5fccec0ad6aaf106d18ef8acc",
+        "bytes": 3987
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/advertising-index-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/advertising-index-jpeg-r01/manifest.json",
+          "sha256": "a8cea5987a9f94200e06efa9dda6096d42a00d4127671c6b5146e1c6d2215da2",
+          "bytes": 3844
+        }
+      }
+    },
+    {
+      "toc_entry_id": "maso-1984-03-toc-0044",
+      "module": "tools.pdf_restore.build",
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-74/contest/recipe-native-02.json",
+        "sha256": "c497b63db0ce50107c604893e3949030c0a8648cbe42616d7b71582f6de9c959",
+        "bytes": 3612
+      },
+      "selected_package": {
+        "path": "archive/scans/1984-03/packages/contest-results-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/contest-results-jpeg-r01/manifest.json",
+          "sha256": "9e31a79882071daea55ab1a02f5430bac965e39aec4df6e8e258bb3600574624",
+          "bytes": 5455
+        }
+      }
+    }
+  ],
+  "freshly_rebuilt_article_files": 7878,
+  "exact_whole_issue_builds": 2,
+  "preservation_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/preservation-validation.json",
+    "sha256": "2b135d6ade7299ad11b3dc3d7c1269c755cb1414d38dea35dab672ece2bd4b9e",
+    "bytes": 19711
+  },
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/implementation-after-01.json",
+    "sha256": "920f5fb3a4eea9889638133f447ebb7c65814429906c99ab7263271e453d2eea",
+    "bytes": 12779
+  },
+  "tests": 318,
+  "damaged_actual_accounting_cases_rejected": 32,
+  "standalone_check": {
+    "status": "pass",
+    "opened_files": 7942,
+    "original_archive_work_private_donor_inputs_forbidden": true,
+    "code_and_repository_schemas_available": true
+  },
+  "retained_article_gap_notes": 318,
+  "retained_qualifications": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/retained-source-qualifications.json",
+    "sha256": "9d1b1b4c0c878ea8caeb65c2d7e96c8f21c1849e5b20d62f8d75e2e2c8fb9dc4",
+    "bytes": 560036
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/process-outcomes-01.json",
+    "sha256": "41701978ea93f6f07c3b47ede686b2b70c64b756dcc6a5d90c9522d9e82113a6",
+    "bytes": 1703
+  },
+  "timing": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/timing.json",
+    "sha256": "f976750753d136cf0f102b7465aa6c26ba219e985f2e874c2c73e36d7d121bb1",
+    "bytes": 431
+  },
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/cleanup-preview-01.log",
+    "sha256": "0a4976fd672a3bb0b8049fff1aaa692cbc23e5003c6bf49fbf442ccd675e3c33",
+    "bytes": 201
+  },
+  "cleanup_deletions": 0,
+  "new_ocr_tasks": 0,
+  "new_source_views": 0,
+  "reader_builds": 0,
+  "original_pdf_preserved": true,
+  "historical_supplement_issue_preserved": true,
+  "historical_supplement_record": "metadata/catalog/scan-restoration/1984-03-issue.json",
+  "handoff": "docs/SCAN-RESTORATION-1984-03-WHOLE.md",
+  "checkpoint_handoff": "docs/SCAN-RESTORATION-1984-03-M83.md",
+  "next_full_new_issue": "1983-12",
+  "next_issue_started": false,
+  "limitations": [
+    "Complete means structural article/source accounting and reproducible native artifacts;human acceptance and character-perfect proofreading are not claimed.",
+    "Article packages retain their own source ranges,exclusions,glyph alternatives,gaps and verification limits;original encoded bytes and execution remain unverified.",
+    "Unlisted material retains full original rasters and selected visual-disposition labels;complete unlisted-text transcription is not claimed.",
+    "Source-image coverage does not claim every printed region was transcribed or that every physical page was supplied.",
+    "External repository-relative evidence and reconstruction-input pins remain provenance references;the issue contains native component artifacts and unlisted rasters,not the entire working archive."
+  ],
+  "frozen_helpers_executed": false,
+  "evidence_manifest": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/evidence-manifest.json",
+    "sha256": "57dff66bbe2d28663e9b91e4e498a499dc17af90a359789b9a3f7ca58730bd4d",
+    "bytes": 19023
+  },
+  "frozen_evidence_files": 103,
+  "frozen_evidence_policy": "Data only;never execute/import/modify frozen checkpoint helpers,evidence or snapshots."
+}

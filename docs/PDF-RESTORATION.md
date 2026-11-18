@@ -4009,6 +4009,16 @@ separate fresh export must reproduce every output file exactly. Rebuild selected
 articles from their saved recipes as a separate gate; copying checked packages
 into an issue is not an article rebuild.
 
+For source sets containing an explicitly unsequenced alternative, opt in with
+`source_disposition_mode: "source-dispositions-v2"` in source accounting and list
+the exact `unsequenced_source_indices`. Such images retain `reading_order: null`
+and the `retained-alternative` classification. They serialize after ordered pages
+without receiving an invented page position or article owner. In this mode,
+every unlisted disposition also pins `review_evidence`; an observed printed folio
+may be a nonempty source label string. Original source geometry and order remain
+unchanged. Without the opt-in, the existing ordered-source and null-folio rules
+continue to apply.
+
 `complete` means complete structural article/source accounting with reproducible
 native artifacts. It does not claim character-perfect proofreading, human
 acceptance, recovered original encoded bytes, execution, full transcription of

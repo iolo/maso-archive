@@ -20,6 +20,8 @@ from .inventory import ROOT, pin, write_json
 
 SCHEMA = ROOT / 'schemas/image-issue.schema.json'
 OTHER = {'advertisement', 'table-of-contents', 'unlisted-notice', 'section-divider', 'unlisted-form'}
+DISPOSITIONS_V2 = 'source-dispositions-v2'
+OTHER_V2 = OTHER | {'retained-alternative'}
 LIMITATIONS = [
     'Complete means structural article/source accounting and reproducible native artifacts;human acceptance and character-perfect proofreading are not claimed.',
     'Article packages retain their own source ranges,exclusions,glyph alternatives,gaps and verification limits;original encoded bytes and execution remain unverified.',
@@ -49,6 +51,24 @@ def toc_rows(path, issue_id):
             for row in [json.loads(line)] if row['issue_id'] == issue_id]
 
 
+def source_order_key(page):
+    """Keep unsequenced alternatives after ordered pages without assigning a folio."""
+    order = page['reading_order']
+    return (order is None, page['source_index'] if order is None else order)
+
+
+def reviewed_disposition(disposition, mode):
+    folio = disposition['printed_folio_observed']
+    if mode is None:
+        return folio is None
+    evidence = disposition.get('review_evidence', {})
+    return (folio is None or isinstance(folio, str) and bool(folio.strip())) and (
+        isinstance(evidence, dict) and isinstance(evidence.get('path'), str) and
+        bool(evidence['path']) and isinstance(evidence.get('sha256'), str) and
+        re.fullmatch(r'[0-9a-f]{64}', evidence['sha256']) is not None and
+        type(evidence.get('bytes')) is int and evidence['bytes'] >= 0)
+
+
 def validate_accounting(ledger, toc, source, accounting, articles, covers):
     """Cross-check actual native ownership against canonical identities and sources."""
     issue_id = ledger['issue_id']
@@ -65,8 +85,16 @@ def validate_accounting(ledger, toc, source, accounting, articles, covers):
     by_index = {p['source_index']:p for p in pages}
     require(len(by_index) == len(pages) and len({p['image']['path'] for p in pages}) == len(pages),
             'Duplicate source identity')
-    orders = [p['reading_order'] for p in pages]
-    require(all(isinstance(n, int) and n > 0 for n in orders) and len(set(orders)) == len(orders),
+    mode = accounting.get('source_disposition_mode')
+    require(mode in (None, DISPOSITIONS_V2), 'Unknown source disposition mode')
+    unordered = [p['source_index'] for p in pages if p['reading_order'] is None]
+    declared = accounting.get('unsequenced_source_indices', [])
+    require((not unordered and not declared) if mode is None else
+            (isinstance(declared, list) and all(type(i) is int for i in declared) and
+             len(set(declared)) == len(declared) and sorted(declared) == sorted(unordered)),
+            'Unsequenced source alternatives require exact explicit accounting')
+    orders = [p['reading_order'] for p in pages if p['reading_order'] is not None]
+    require(all(type(n) is int and n > 0 for n in orders) and len(set(orders)) == len(orders),
             'Missing/duplicate source order')
     for e, t in zip(entries, toc, strict=True):
         require(e['title'] == t['title_candidate'] and e['parent_id'] == t['parent_id'],
@@ -111,7 +139,7 @@ def validate_accounting(ledger, toc, source, accounting, articles, covers):
     cover_faces = {f['source_index']:f for f in covers['faces']}
     require(not set(owners) & set(cover_faces), 'Cover acquired canonical article ownership')
     rows = accounting['records']
-    ordered = sorted(pages, key=lambda p:p['reading_order'])
+    ordered = sorted(pages, key=source_order_key)
     require(accounting['kind'] == 'jpeg-issue-source-accounting' and
             accounting['total_source_images'] == len(rows) == len(pages) and
             accounting['all_source_images_visually_disposed'] is True and
@@ -124,6 +152,9 @@ def validate_accounting(ledger, toc, source, accounting, articles, covers):
             require(row.get(key) == original.get(key), 'Disposition source geometry/identity differs')
         require(row['source_image'] == original['image'], 'Disposition source pin differs')
         i, kind = row['source_index'], row['classification']
+        require((i not in unordered or kind == 'retained-alternative') and
+                (kind != 'retained-alternative' or mode == DISPOSITIONS_V2 and i in unordered),
+                'Unsequenced source acquired ordered page/body ownership')
         if i in owners:
             require(kind == 'selected-article-source' and row['article_owners'] == owners[i] and
                     'visual_disposition' not in row, 'Native article source ownership differs')
@@ -132,13 +163,14 @@ def validate_accounting(ledger, toc, source, accounting, articles, covers):
                     row['cover_package_manifest'] == accounting['cover_package_manifest'] and
                     'article_owners' not in row, 'Cover source ownership differs')
         else:
-            require(kind in OTHER and 'article_owners' not in row, 'Unclassified/unowned source image')
+            require(kind in (OTHER_V2 if mode == DISPOSITIONS_V2 else OTHER) and
+                    'article_owners' not in row, 'Unclassified/unowned source image')
             d = row['visual_disposition']
             require(d['source_index'] == i and d['source_image'] == row['source_image'] and
                     d['source_filename_number'] == row.get('source_filename_number') and
                     d['reading_order'] == row['reading_order'] and d['classification'] == kind and
                     d['body_owner_toc_entry_id'] is None and d['complete_text_transcription'] is False and
-                    d['printed_folio_observed'] is None and d['observed_label'] and d['notes'],
+                    reviewed_disposition(d, mode) and d['observed_label'] and d['notes'],
                     'Unlisted disposition/claim differs')
             require(set(d.get('related_nonowning_heading_ids', [])) <= set(headings),
                     'Divider references unknown/non-heading identity')
@@ -172,7 +204,7 @@ def projection(ledger, accounting, articles, counts):
                 original_evidence=e['group_reference']['evidence'],original_validation=e['group_reference']['validation']))
     result['covers'] = dict(path='covers/cover-set.json',original_manifest=ledger['cover_set']['manifest'])
     for row in accounting['records']:
-        if row['classification'] in OTHER:
+        if row['classification'] in OTHER_V2:
             result['other_sources'].append(dict(source_index=row['source_index'],
                 classification=row['classification'], original=row['source_image'],
                 asset=dict(row['source_image'],path='other-sources/source-' + str(row['source_index']) + '.jpg')))
@@ -272,6 +304,10 @@ def build(recipe_path, output, root=ROOT):
     Draft202012Validator(read(SCHEMA)).validate(package)
     for p in source['pages']:
         extra_inputs.append(checked(root,p['image']))
+    if accounting.get('source_disposition_mode') == DISPOSITIONS_V2:
+        for row in accounting['records']:
+            if 'visual_disposition' in row:
+                extra_inputs.append(checked(root, row['visual_disposition']['review_evidence']))
     for item in package['headings']:
         for key in ('evidence','validation'):extra_inputs.append(checked(root,item['original_'+key]))
     require(not any(output == p or (p.is_dir() and output.is_relative_to(p)) or p.is_relative_to(output)

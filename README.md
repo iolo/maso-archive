@@ -275,6 +275,13 @@ See [the November progress log](docs/progress/8511.md).
 
 ## Validation and handoff
 
+Donated-scan restoration is tracked separately in
+[PLAN-SCAN-RESTORATION.md](PLAN-SCAN-RESTORATION.md). The whole March 1984 issue
+now has 38 complete native articles, six non-owning headings and dispositions for
+all 273 supplied images. Its 7,940-file export reproduces exactly; see the
+[whole-issue handoff](docs/SCAN-RESTORATION-1984-03-WHOLE.md). Original PDF and
+supplementary outcomes remain preserved.
+
 ```sh
 make test-reading-room    # Python adapter tests, Vitest, TypeScript and build
 make check-reading-room   # Prepared private data: inventory, hashes and links

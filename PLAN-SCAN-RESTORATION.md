@@ -21,7 +21,18 @@ are resolved. See the [reproduction handoff](docs/SCAN-RESTORATION-1984-11.md).
 The reading room was a one-time human visual sanity check. Do not change its
 implementation or schedule further reader work during restoration.
 
-**March 1984 whole-issue scan restoration is active.** The owner clarified that
+**March 1984 whole-issue scan restoration is complete at M83.** All **44 canonical
+identities** have accepted outcomes: **38 complete JPEG-backed articles and six
+non-owning headings**, with no partial articles or pending identities. All **273
+supplied scans** have dispositions: 239 article-source images, four covers and
+30 other retained scans. All 38 articles freshly reproduce **7,878 native files**;
+two independent whole-issue builds reproduce **7,940 files** exactly. The completion
+audit, standalone check, 32 damaged actual accounting cases and **318 fresh tests**
+pass. Preserve all 318 original article gap/limitation notes and source-local
+qualifications. See the [whole-issue handoff](docs/SCAN-RESTORATION-1984-03-WHOLE.md).
+December 1983 is next in the chronological new-issue queue; it is not started here.
+
+The owner clarified that
 the requested scope is the whole March issue, not the M01–M04 supplement-only
 campaign. Those checkpoints preserve useful work on actual 250–251, a mixed
 PDF/JPEG article revision and four original cover faces. Their 7,016-file export
@@ -1349,6 +1360,21 @@ No OCR or article body was created. All14 M82 evidence files are frozen,data
 only;never execute/import/modify frozen helpers. Shared implementation315 tests/
 58 pins unchanged. See [M82 handoff](docs/SCAN-RESTORATION-1984-03-M82.md).
 
+**M83 completes the whole March issue.** All 38 selected native article packages
+freshly reproduce 7,878 files through public build/assemble APIs without OCR.
+Two whole-issue exports reproduce 7,940 files, covering all 44 canonical outcomes
+and 273 source images. The independent audit retains native ownership, typed
+references, ranges, assets, continuities, original qualifications and all 318
+gap/limitation notes. All 32 damaged actual accounting cases reject; the standalone
+checker passes with original inputs blocked. The opt-in source-disposition mode
+retains the original unsequenced spine and reviewed folio labels; November's
+existing issue still passes. All 318 fresh tests pass with 60 implementation pins.
+Original masters, two ZIPs, PDF and supplement packages, and historical evidence
+remain intact. Cleanup was preview-only. All M83 evidence in whole-issue-79 is
+frozen, data only; never execute/import/modify frozen helpers or snapshots. See
+[M83](docs/SCAN-RESTORATION-1984-03-M83.md) and the
+[whole-issue result](metadata/catalog/scan-restoration/1984-03-whole-issue.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
@@ -1534,11 +1560,11 @@ both actual folios in the donated JPEGs. A checked new source-linked supplement
 and a mixed-source native revision now supply them, preserving the original PDF
 package and its historical missing-source outcome. Matching filenames alone
 were not used as folio evidence. The owner subsequently clarified that the task
-is **whole March issue restoration**. Continue through every eligible article,
-all source-image dispositions, native structural checks and independent rebuilds;
-the limited supplement export does not close that task. Preserve existing useful
-work and original PDF outcomes. Do not advance to another issue until the whole
-March issue meets the closeout gates.
+is **whole March issue restoration**. M83 now passes every eligible article,
+all source-image dispositions, native structural checks and independent rebuilds.
+The limited supplement export remains historical; the separate whole-issue
+export and completion audit close the requested task. Preserve existing useful
+work and original PDF outcomes.
 February 1984 likewise needs targeted source comparison only where there is a
 documented gap or improvement worth making.
 

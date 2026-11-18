@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "issue_id": "maso-1984-03",
-  "status": "active",
+  "status": "complete",
   "scope": "Whole donated-scan issue restoration, including every eligible article and native structure, all source-image dispositions and independent native article/issue rebuilds.",
   "scope_correction": "Owner explicitly requested the whole issue. M01–M04 supplement-only work does not satisfy that request.",
   "historical_supplement_progress": {
@@ -8293,19 +8293,39 @@
     "sha256": "2d7e09b0392169fc1479249b713005168d623c7f530a49433cf9b0ae0996d5a9",
     "bytes": 516870
   },
-  "current_checkpoint": "M82",
-  "next": "M83: In fresh whole-issue-79,build and independently audit the whole March1984 JSON/assets issue from all38 accepted native article packages,six non-owning heading outcomes and complete273-image source ledger. All source dispositions and44 canonical identities are complete,but issue export/rebuild/completion audit remains required. Use existing tools.pdf_restore image_issue/issue capabilities and pinned recipes;never execute/import/modify frozen checkpoint helpers or snapshots. Preserve all native structures,source ownership/continuities,assets,ranges,original source gaps/uncertainties,cover/spine/forms and unlisted sources. Build two fresh exact whole-issue exports and fresh selected-native rebuilds without OCR;validate all accounting/typed references/byte spans/assets and reject damaged issue cases before final completion. Original PDF and historical supplements must remain preserved. Shared implementation315 tests/58 pins unchanged;cleanup preview only.",
+  "current_checkpoint": "M83",
+  "next": "Whole March native restoration is complete. Preserve all accepted article/heading/source outcomes,original qualifications,PDF and M01–M04 supplementary evidence. Reproduce/check using public shared APIs and pinned recipes;never execute/import/modify frozen checkpoint helpers or snapshots. Next new scan issue in chronological order is1983-12;start a fresh bounded source-selection checkpoint when continuing the restoration queue. Human proofreading,reading-room work,execution and cosmetic reconstruction remain separate.",
   "pending_article_candidates": 0,
   "pending_heading_candidates": 0,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 6,
   "current_work": {
-    "checkpoint": "M82",
+    "checkpoint": "M83",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-dispositions-back-final.json",
-      "sha256": "d9a788404284a228e15a000a2d6b0707aa5f42cee404ff1cb7b3e9915da607cd",
-      "bytes": 2721
+      "path": "metadata/catalog/scan-restoration/1984-03-whole-issue.json",
+      "sha256": "f18697ce38f3b22c5c464d2e16b83a7152b0b6acd18c8726683ab59ebdca1ed3",
+      "bytes": 31817
     },
     "accepted": true
+  },
+  "whole_scan_complete": true,
+  "whole_issue_complete": true,
+  "whole_issue_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/issue-ledger.json",
+    "sha256": "6d70e05a0c1995e46946aa804f86414589babe981dd1b41ed09283da3d5adc5a",
+    "bytes": 30121
+  },
+  "whole_issue_source_accounting": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-79/source-accounting.json",
+    "sha256": "8b4c0025f2706fe6160b891d8141f64ab4f603530cdfafc54082e3bace61fdf0",
+    "bytes": 337824
+  },
+  "selected_whole_issue": {
+    "directory": "archive/scans/1984-03/packages/issue-whole-r01",
+    "manifest": {
+      "path": "archive/scans/1984-03/packages/issue-whole-r01/manifest.json",
+      "sha256": "7f0e8e6f44e22c8f9a291077d6301fe1d7a273dbccf983e51a90144ade043990",
+      "bytes": 1657076
+    }
   }
 }
