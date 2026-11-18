@@ -1330,6 +1330,15 @@ audit. Continue M81 filenames007/008/010/260/261/262 in fresh whole-issue-77,
 then263–266. All18 M80 evidence files are frozen,data only;never execute or
 modify frozen helpers. See [M80 handoff](docs/SCAN-RESTORATION-1984-03-M80.md).
 
+
+**M81 accounts for six more source pages**,filenames007/008/010/260/261/262,
+as five advertisements and one publisher magazine/book promotion. Only260 has an
+observed printed folio;late filenames remain distinct. No OCR or article body was
+created. March remains active with **four pending full-page dispositions /273 scans**
+and whole-issue exports/completion audit pending. Continue M82 filenames263–266
+in fresh whole-issue-78. All16 M81 evidence files are frozen,data only;never
+execute/import/modify frozen helpers. See [M81 handoff](docs/SCAN-RESTORATION-1984-03-M81.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M81",
+  "issue_id": "maso-1984-03",
+  "status": "accepted-six-additional-source-dispositions;whole-issue-pending",
+  "source_filename_numbers": [
+    7,
+    8,
+    10,
+    260,
+    261,
+    262
+  ],
+  "source_indices": [
+    15,
+    16,
+    18,
+    266,
+    267,
+    268
+  ],
+  "source_dispositions": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-77/source-dispositions-01.json",
+    "sha256": "2088402325f92bf2e36cf2e32785a14a0f7f90bde55cb4fdf33c3f80c2eeb67d",
+    "bytes": 6901
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-77/validation-01.json",
+    "sha256": "aff6def8b40e7b71ad74e711ca7552357846e825e1505ba52e1ca08d09210729",
+    "bytes": 385
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-77/source-ledger-01.json",
+    "sha256": "21c3a68398147267b43eb675a8ce5348890ae8a5cc04400450e886ae23b94cb7",
+    "bytes": 513587
+  },
+  "source_dispositions_pending": 4,
+  "total_source_images": 273,
+  "complete_whole_scan_articles": 38,
+  "complete_whole_scan_headings": 6,
+  "ocr_tasks": 0,
+  "body_packages_created": 0,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "shared_implementation_changed": false,
+  "whole_issue_complete": false,
+  "next": "M82: Personally disposition the final four original images,filenames263–266/sourceindices269–272,in fresh whole-issue-78. Preserve original reading order and do not infer printed folios from filenames. Then all273 scans and44 canonical outcomes must pass reproducible whole-issue JSON/assets exports,independent native rebuild/source-accounting/ownership/continuity/range/asset checks and final completion audit. Whole March stays active until final gates pass. Frozen predecessors are data only;never execute/import/modify frozen helpers or snapshots;shared implementation315 tests/58 pins unchanged.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-77/evidence-manifest.json",
+    "sha256": "e6bcf443ce0995bf0d09ce1c5ed9993bccf33587b5a125756fb8efe2e06bfd35",
+    "bytes": 2677
+  },
+  "frozen_evidence_files": 16
+}

@@ -8289,22 +8289,22 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-76/source-ledger-01.json",
-    "sha256": "7ed8582e663ac30ee6ba86fc2cc377550cf4539037903bff39cbd1d71859ae9a",
-    "bytes": 508886
+    "path": "archive/scans/1984-03/restoration/whole-issue-77/source-ledger-01.json",
+    "sha256": "21c3a68398147267b43eb675a8ce5348890ae8a5cc04400450e886ae23b94cb7",
+    "bytes": 513587
   },
-  "current_checkpoint": "M80",
-  "next": "M81: Classify six more pending original full pages in fresh whole-issue-77:front filenames007,008,010 and back260,261,262 (sourceindices15,16,18,266,267,268). Review all six complete images;retain ads/forms/unlisted matter as original sources without unnecessary OCR or invented article bodies. Do not assume back filenames equal printed folios. Then remaining263–266 in another bounded checkpoint,and two reproducible whole-issue exports plus independent all273-source/all44-identity completion audit. Whole March active;frozen predecessors data only;never execute/import/modify frozen helpers.",
+  "current_checkpoint": "M81",
+  "next": "M82: Personally disposition the final four original images,filenames263–266/sourceindices269–272,in fresh whole-issue-78. Preserve original reading order and do not infer printed folios from filenames. Then all273 scans and44 canonical outcomes must pass reproducible whole-issue JSON/assets exports,independent native rebuild/source-accounting/ownership/continuity/range/asset checks and final completion audit. Whole March stays active until final gates pass. Frozen predecessors are data only;never execute/import/modify frozen helpers or snapshots;shared implementation315 tests/58 pins unchanged.",
   "pending_article_candidates": 0,
   "pending_heading_candidates": 0,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 6,
   "current_work": {
-    "checkpoint": "M80",
+    "checkpoint": "M81",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-dispositions-front-a.json",
-      "sha256": "f3f698f11721b054f51c0959caaf011048d20b0617e9129f92809601c560830d",
-      "bytes": 2352
+      "path": "metadata/catalog/scan-restoration/1984-03-dispositions-front-back.json",
+      "sha256": "f52c55ca50ea6a4de2158d23940362b5bef69925101917e69f93b98848bddcd3",
+      "bytes": 2370
     },
     "accepted": true
   }
