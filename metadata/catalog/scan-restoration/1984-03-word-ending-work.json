@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M66-work",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0035",
+  "canonical_received_title": "한글 워드 프로세서 프로그램",
+  "status": "all-ending-readings-and-native-geometry-reviewed;native-integration-and-exports-pending",
+  "updated_at": "2026-11-18T12:32:31.578839+00:00",
+  "scope": "Bounded native ending 250–251 of verified 244–251 word processor article, within the active whole-March campaign.",
+  "article_actual_folios": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251
+  ],
+  "selected_source_folios": [
+    250,
+    251
+  ],
+  "outside_lookup_views": 2,
+  "selected_source_views": 2,
+  "mapped_regions": 8,
+  "code_text_owners": 4,
+  "original_raster_contexts": 4,
+  "source_extent_verified": true,
+  "retained_historical_recognition_bindings": 4,
+  "new_recognition_tasks": 0,
+  "recognition_reruns": 0,
+  "recognition_render_scale": 3000,
+  "enlarged_source_and_native_frame_scale": 6000,
+  "source_readings_compared": 4,
+  "source_readings_pending": 0,
+  "source_qualifications": 16,
+  "historical_corrected_text_unchanged": true,
+  "historical_local_qualifications_retained": 3,
+  "physical_nonempty_code_rows": 293,
+  "visible_statement_labels": 96,
+  "source_units": 97,
+  "incoming_incomplete_source_units": 1,
+  "display_fields": 3341,
+  "nonprinted_search_qualification_delimiters": 2,
+  "source_layout_gap_search_separators": 2,
+  "native_work": {
+    "structures": 8,
+    "row_fields": 293,
+    "separate_code_contexts": 4,
+    "frame_paths": 4,
+    "display_field_row_bindings": 3341,
+    "layout_gap_contexts": 268,
+    "refined_contexts": 3,
+    "unchanged_other_rows": 290,
+    "native_contract_integration_pending": true
+  },
+  "damaged_source_native_work_rejections": 15,
+  "reviewed_source_geometry_complete": true,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_package_selected": false,
+  "native_ending_segment_accepted": false,
+  "native_article_accepted": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "evidence_frozen": false,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "accepted_counts": {
+    "complete_whole_scan_articles": 30,
+    "partial_whole_scan_articles": 1,
+    "pending_article_candidates": 7,
+    "complete_whole_scan_headings": 5,
+    "pending_heading_candidates": 1
+  },
+  "source_dispositions_pending": 42,
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-word-opening.json",
+    "sha256": "2cac761d7f0d37c3dd0beca07e8eee377a001e5923ccb18d2ba13989241bbe32",
+    "bytes": 5458
+  },
+  "scope_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/scope.json",
+    "sha256": "41a801fab09c55b2b5090694ca7d45e94a50007637078557d1c4601478c89969",
+    "bytes": 2782
+  },
+  "full_page_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/full-page-review-01.json",
+    "sha256": "cb4e7cd595564d60ce09a05117763930de627d9a272a074525682a38b5479d24",
+    "bytes": 1122
+  },
+  "selected_map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/word-b/map-r02.json",
+    "sha256": "39bdb49ec0a48a01e8a0824a3f332e108ba58ff678c4e10c4b828c3285b865b5",
+    "bytes": 6584
+  },
+  "map_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/selected-map-review-01.json",
+    "sha256": "ec3944c6ed8b7cf6b5e53625f7b44995734bb8e6b8673e3726c09a96c15b0ecb",
+    "bytes": 3624
+  },
+  "source_crops": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/selected-review-crops-01.json",
+    "sha256": "00f456b7e0430c27acfe1f4098bbd32ce1114d8053fbf4e26fe602f6d55d8f41",
+    "bytes": 19777
+  },
+  "historical_recognition_selection": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/historical-recognition-selection-01.json",
+    "sha256": "27c0f073d98ebb7fcaae2f5fdfdb0a3ec7581e6b520e2126cc5adc6cb23451b5",
+    "bytes": 10362
+  },
+  "raw_drafts_read": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/raw-drafts-read-01.json",
+    "sha256": "7062b2faeaa50ad8e3efd7d1983f0b0c742770cb0fb290e375c78458e54b82db",
+    "bytes": 1879
+  },
+  "source_pass": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/source-pass-01.json",
+    "sha256": "47c860b7b6eb71efb5b31e02917b4ad9ef9f4a712c78de20ce5c01f323687623",
+    "bytes": 3036
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/word-b/source-compared-readings-01.json",
+    "sha256": "862d90e5205390cb77616d266c85e531d487d88c05fc2ca9403829f2bd6bd4d0",
+    "bytes": 49185
+  },
+  "program_source_index": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/word-b/native-program-source-index-02.json",
+    "sha256": "97c413b5da6e784990abcf4357fed1de71ef62809170af9843bc7bc7b0a51789",
+    "bytes": 1576186
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/word-b/native-program-geometry-02.json",
+    "sha256": "6ee270ed8a074da66e3c50fd8ce12652a8d77616a50d31027f84e68d22a7046f",
+    "bytes": 3471244
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/word-b/native-program-review-01.json",
+    "sha256": "6b3996be2144594d706444f65921de6ced3836956e4558de5ff36e743578b77f",
+    "bytes": 4186
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/source-native-work-validation-01.json",
+    "sha256": "c72283dce5631c942430fcacba82ffdc7a4b018d967003331e33a61722d38a8a",
+    "bytes": 2663
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-ledger-native-01.json",
+    "sha256": "3815bae96a7ef2b90798d1c690529dc986e411bbf0bce682e2769d5800c30e13",
+    "bytes": 456912
+  },
+  "shared_implementation_changed": false,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/implementation-after-01.json",
+    "sha256": "ee7113c8921e8f45c82952cc2ed1209be1ae0df666a5a94a45b6ab4e0ff831f3",
+    "bytes": 10400
+  },
+  "implementation_pins": 55,
+  "qualified_regression_tests": 309,
+  "fresh_regression_tests": 0,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/resume.json",
+    "sha256": "16f099c51ac10245d4894bf3397fa1a859ce709b4ec8d09adf408149f0181f22",
+    "bytes": 7269
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/process-outcomes-01.json",
+    "sha256": "a1781114ded2538d14d7a8868c3b1d2f44b69200aca8c85197923750a70a2c22",
+    "bytes": 2165
+  },
+  "cleanup_preview": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-62/cleanup-preview-01.log",
+    "sha256": "4f32d87948b72da95b7d22cd07dab61ec9d2ecb5db31727406798cdae79711e4",
+    "bytes": 233
+  },
+  "cleanup_preview_only": true,
+  "deleted_files": 0,
+  "next": "Continue unfrozen M66 with final native integration of original 250–251. All four readings and sixteen qualifications, 293 nonempty source rows, 97 source units and 3341 display fields are compared and indexed. Use selected program index R02 and reviewed geometry R02, including all 293 row fields, four independent code contexts, four original frame paths, 3341 field-to-row bindings and 268 layout-gap contexts. Geometry belongs to the complete original frame regions; the unchanged historical code owners remain exact 3000-pixel recognition inputs. Two ⟦ ⟧ search delimiters on 3490 are not printed source glyphs. Preserve incoming incomplete 3190, cross-region 3470/3670/3870, all local marks/coordinate candidates, both source layout-gap search separators and final 4150. Integrate a complete typed native contract, build two fresh matching ending exports and independently audit before acceptance. Then explicitly join 3190 to frozen M65 and assemble/reproduce/audit the full 244–251 article. Existing scoped complete-unit program links must not silently reinterpret this split statement; retain original segment records and exact physical newline/source bytes in any assembly support. Finish all seven other pending March articles, the information heading and 42 remaining full-page dispositions through reproducible issue export/completion audit. Never execute or modify frozen M65/M01/predecessor helpers/evidence or snapshots. Shared implementation remains qualified by 309 tests and 55 pins; no recognition rerun is required."
+}

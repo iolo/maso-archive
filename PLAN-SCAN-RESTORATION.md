@@ -904,6 +904,36 @@ remaining March article, heading and disposition through reproducible whole-issu
 export and completion audit. See the [M65 native handoff](docs/SCAN-RESTORATION-1984-03-M65.md)
 and [accepted opening](metadata/catalog/scan-restoration/1984-03-word-opening.json).
 
+**M66 is unfinished work on final 250–251.** Fresh full-page review verifies the
+incoming 3190 fragment, original ending **4150 GOTO 1330** and separate tunnel-game
+neighbor 252. Four successful historical M01 recognitions pass exact
+source/map/crop/runtime/settings proof at their recorded **3,000-pixel** scale;
+no new OCR ran. The selected map keeps those four code owners and adds four
+complete original frame figures at **6,000 pixels**. Native geometry uses the
+complete frames to retain glyph margins outside the old crop. All four raw
+drafts were read before one prospective comparison pass; **all four readings**
+now have enlarged source comparison, retaining **sixteen qualifications** and
+unchanged historical corrected text. The source index retains **293 nonempty
+code rows, 96 new labels, 97 source units and 3,341 display fields**, with
+3470/3670/3870 spanning columns/pages. The incoming 3190 remains incomplete
+without M65. Keep the source's local marks, repeated `3` in 3960, physical wraps
+and final 4150; `⟦:⟧` in 3490 is an explicit search qualification, not printed
+brackets or recovered bytes.
+
+Reviewed native work has **eight structures, 293 row fields, four separate code
+contexts, four original frame paths, 3,341 field-to-row bindings and 268 layout-gap
+contexts**. Three refined contexts include a faint standalone `6` and two high
+marks; the other 290 rows and all frame paths are unchanged. Fifteen damaged
+source/native-work cases reject. Earlier failed attempts and candidates remain
+preserved. **Final native integration, two matching exports, independent ending
+acceptance and complete 244–251 assembly/reproduction/audit remain pending**.
+M66 stays unfrozen. The **309-test / 55-pin** shared baseline is unchanged;
+cleanup was preview-only with no deletion. Article/heading acceptance and the
+42 pending full-page dispositions are unchanged. Continue every remaining March
+task through whole-issue export and completion audit. See the
+[M66 work handoff](docs/SCAN-RESTORATION-1984-03-M66-WORK.md) and
+[work record](metadata/catalog/scan-restoration/1984-03-word-ending-work.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

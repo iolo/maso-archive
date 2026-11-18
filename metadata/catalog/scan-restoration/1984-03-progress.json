@@ -6798,6 +6798,19 @@
           "bytes": 5458
         },
         "native_accepted": true
+      },
+      "ending_work": {
+        "checkpoint": "M66-work",
+        "selected_actual_folios": [
+          250,
+          251
+        ],
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-word-ending-work.json",
+          "sha256": "53e4a9d71fa0f842bf502e00c70e3ac773a8718fb1a87c3cd8fbc1df7077373b",
+          "bytes": 8383
+        },
+        "native_accepted": false
       }
     },
     {
@@ -7491,19 +7504,19 @@
     "sha256": "3815bae96a7ef2b90798d1c690529dc986e411bbf0bce682e2769d5800c30e13",
     "bytes": 456912
   },
-  "current_checkpoint": "M65",
-  "next": "M66: restore the final original 250–251 of 한글 워드 프로세서 프로그램 (maso-1984-03-toc-0035). Preserve accepted M65 opening 244–249 and verified full 244–251 extent. Review source-backed historical M01 evidence before reuse; retain all successful OCR whose exact source/map/crop/runtime/settings match. Preserve the incoming unnumbered continuation of 3190 from 249 HPLOT, every physical/logical listing row, Hangul program glyphs, original listing frames and final 4150. Complete explicit split-statement source continuity, then assemble/reproduce/audit the whole 244–251 article. Continue all seven other pending March articles, the information heading and 42 pending full-page dispositions through reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M65/M64/predecessor helpers/evidence or implementation snapshots. Shared implementation is qualified by 309 tests and 55 pins; broaden tests only for new shared changes.",
+  "current_checkpoint": "M66-work",
+  "next": "Continue unfrozen M66 with final native integration of original 250–251. All four readings and sixteen qualifications, 293 nonempty source rows, 97 source units and 3341 display fields are compared and indexed. Use selected program index R02 and reviewed geometry R02, including all 293 row fields, four independent code contexts, four original frame paths, 3341 field-to-row bindings and 268 layout-gap contexts. Geometry belongs to the complete original frame regions; the unchanged historical code owners remain exact 3000-pixel recognition inputs. Two ⟦ ⟧ search delimiters on 3490 are not printed source glyphs. Preserve incoming incomplete 3190, cross-region 3470/3670/3870, all local marks/coordinate candidates, both source layout-gap search separators and final 4150. Integrate a complete typed native contract, build two fresh matching ending exports and independently audit before acceptance. Then explicitly join 3190 to frozen M65 and assemble/reproduce/audit the full 244–251 article. Existing scoped complete-unit program links must not silently reinterpret this split statement; retain original segment records and exact physical newline/source bytes in any assembly support. Finish all seven other pending March articles, the information heading and 42 remaining full-page dispositions through reproducible issue export/completion audit. Never execute or modify frozen M65/M01/predecessor helpers/evidence or snapshots. Shared implementation remains qualified by 309 tests and 55 pins; no recognition rerun is required.",
   "pending_article_candidates": 7,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M65",
+    "checkpoint": "M66-work",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-word-opening.json",
-      "sha256": "2cac761d7f0d37c3dd0beca07e8eee377a001e5923ccb18d2ba13989241bbe32",
-      "bytes": 5458
+      "path": "metadata/catalog/scan-restoration/1984-03-word-ending-work.json",
+      "sha256": "53e4a9d71fa0f842bf502e00c70e3ac773a8718fb1a87c3cd8fbc1df7077373b",
+      "bytes": 8383
     },
-    "accepted": true
+    "accepted": false
   }
 }
