@@ -967,6 +967,31 @@ reproducible whole-issue export and completion audit. See the
 [M67 handoff](docs/SCAN-RESTORATION-1984-03-M67.md) and
 [complete word processor article](metadata/catalog/scan-restoration/1984-03-word.json).
 
+**M68 source work verifies the complete tunnel game, actual 252–254**, and separate
+neighbors 251/255. All three initial overlays and the targeted pre-OCR lower-edge
+refinement were reviewed. All **13 first-attempt recognitions** succeeded and
+every raw draft was read before **one now-closed prospective source pass**. The
+saved source work retains **29 qualifications**, **27 program-range descriptions**,
+**197 serialization rows / 191 nonempty code rows / six layout-gap search rows**,
+**97 complete source units**, **1,783 display fragments** and **29 DATA155 numeric
+fields**. Independent source-work audit checks all **18 original-master crops**,
+**13 recognition bindings** and **15 damaged-case rejections**. The recovered
+numeric-leading continuation parser failure is preserved without source changes.
+
+**Native geometry, correction integration, two exact article exports and native
+acceptance remain pending.** Continue M68 inside the existing **unfrozen**
+`whole-issue-64` checkpoint using its saved native structure plan. Do not rerun
+successful recognition, silently reopen the closed source pass or execute frozen
+predecessor helpers/snapshots. Preserve the original monitor's obscured leading
+glyphs, stacked fraction, source punctuation/variable candidates, physical wraps,
+isolated credit-gap dot, DATA values and final **5140 RETURN**. Shared baseline
+**312 tests / 57 pins** remains unchanged; cleanup was preview-only with no deletion.
+Whole-March totals remain **31 complete articles, seven pending articles, one
+pending heading and 42 pending full-page dispositions / 273 scans**. Finish all
+remaining March work through reproducible whole-issue export/completion audit.
+See the [M68 work handoff](docs/SCAN-RESTORATION-1984-03-M68-WORK.md) and
+[audited tunnel source work](metadata/catalog/scan-restoration/1984-03-tunnel-work.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

@@ -6943,20 +6943,30 @@
       "located_source_evidence": {
         "actual_folio": 252,
         "observed_title": "터널 통과 게임",
-        "canonical_identity_verified": false,
-        "source_extent_verified": false,
+        "canonical_identity_verified": true,
+        "source_extent_verified": true,
         "restoration_pending": true,
         "source_review": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-61/full-page-review.json",
-          "sha256": "2190c7df61cf25d4947b65c96bac1b77e50bf4d29a445a01b5525356b5528216",
-          "bytes": 9394
+          "path": "archive/scans/1984-03/restoration/whole-issue-64/full-page-review-01.json",
+          "sha256": "d5233e1b2c0c7af758f616dba9f261f9aab7b80671c856ac1fb5bcdaa87d1849",
+          "bytes": 4155
         },
         "boundary_evidence": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-61/transition.json",
-          "sha256": "74e349ac07caceb97f54a66da6f1fefc2f0798da23728add5cba8914a9f0b633",
-          "bytes": 1314
+          "path": "archive/scans/1984-03/restoration/whole-issue-64/full-page-review-01.json",
+          "sha256": "d5233e1b2c0c7af758f616dba9f261f9aab7b80671c856ac1fb5bcdaa87d1849",
+          "bytes": 4155
         },
-        "note": "Outside context only; verify full canonical identity and extent at its own native checkpoint."
+        "note": "Complete donated-JPEG source extent personally verified;13text owners source-compared with29qualifications. Native geometry,strict correction contract,two exact exports and independent full native audit remain pending.",
+        "actual_folios": [
+          252,
+          253,
+          254
+        ]
+      },
+      "source_work_evidence": {
+        "path": "metadata/catalog/scan-restoration/1984-03-tunnel-work.json",
+        "sha256": "b6f48efa16e34b021eec056f2ddc0450fcbde66925455ede6aec55776c94e42a",
+        "bytes": 6699
       }
     },
     {
@@ -7570,19 +7580,19 @@
     "sha256": "ec3526f04afb17f89470252b1824b0eae95a8c075fba752e1c85fd9407d56fce",
     "bytes": 461387
   },
-  "current_checkpoint": "M67",
-  "next": "M68: restore the complete donated-JPEG 터널 통과 게임 article, maso-1984-03-toc-0036, candidate actual252–254. Verify original title, complete extent and separate neighbors251/255 before bounded mapping. Keep native program rows, fields, tables, figures and local uncertainties source-backed; preserve all historical PDF and supplementary outcomes. Then finish the remaining Seun feature (candidate190–204), information radar124–131, debugging room255, Q&A256–259, advertising index lower204, contest results243, information heading disposition, all42 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M67/M65/M66/predecessor helpers or evidence; implementation snapshots are data only. No successful recognition reruns or cleanup deletion. Current qualified shared baseline is312 tests/57 pins.",
+  "current_checkpoint": "M68-work",
+  "next": "Continue M68 in the existing unfrozen whole-issue-64 checkpoint. All13first-attempt OCR drafts were read before one now-closed source pass;do not rerun successful recognition or silently reopen source correction. Audited source work preserves complete252–254 tunnel game,29qualifications,197physical serialization rows/191ink rows/6search-gap rows,97complete source units,1783display fields,27range entries and29DATA155numeric literals. Native geometry and a selected native package are still absent. Follow tunnel/native-structure-plan-01.json:prepare full-frame code-row/display-field geometry;handle the isolated3002dot separately;recover the narrow standalone1continuation of130;merge the split Korean baseline in the left range overview. Encode/review all source baselines,27range descriptions,stacked1/10fraction with nonprinted search slash,original monitor labels/sixicons/obscured leading marks,DATA/memory/string fields and three original frames. Keep source quirks and all29qualifications unchanged. Personally review overlays,integrate strict corrections,build two exact complete-article exports and independently audit all source/native occurrences before accepting tunnel. Then continue the remaining six March articles,information heading,all42pending full-page dispositions and reproducible whole-issue export/completion audit. Whole March remains active. M67/M65/M66/predecessor evidence and implementation snapshots are frozen/data only;never execute or modify them. Current shared baseline312tests/57pins is unchanged.",
   "pending_article_candidates": 7,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M67",
+    "checkpoint": "M68-work",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-word.json",
-      "sha256": "6c0b0edf5a96f53702da68d2afeec1fb0dcfcf4f231261864f70dd996339f320",
-      "bytes": 4992
+      "path": "metadata/catalog/scan-restoration/1984-03-tunnel-work.json",
+      "sha256": "b6f48efa16e34b021eec056f2ddc0450fcbde66925455ede6aec55776c94e42a",
+      "bytes": 6699
     },
-    "accepted": true
+    "accepted": false
   }
 }
