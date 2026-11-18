@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M63",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0033",
+  "status": "complete-native-final-segment",
+  "canonical_received_title": "A/D, D/A의 이론과 실제",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    240,
+    241
+  ],
+  "prior_native_actual_folios": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239
+  ],
+  "article_actual_folios": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241
+  ],
+  "deferred_actual_folios": [],
+  "source_extent_covered_by_segments": true,
+  "assembly_pending": true,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/ad-jpeg-ending-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/ad-jpeg-ending-r01/manifest.json",
+    "sha256": "2f967c4245375c87d41af537d62d2003cd9bb90b33ac79644495e339a750ec21",
+    "bytes": 20797
+  },
+  "exact_files": 113,
+  "manifest_payload_files": 112,
+  "master_crops": 30,
+  "recognition_bindings": 25,
+  "recognition_tasks": 25,
+  "recognition_retries": 0,
+  "new_native_stage_recognition_calls": 0,
+  "raw_archive_members": 106,
+  "native_index_records": 1402,
+  "typed_references": 6490,
+  "source_and_active_byte_spans": 3110,
+  "source_asset_bindings": 1558,
+  "source_qualifications": 14,
+  "source_native_qualifications": 41,
+  "native_structure": {
+    "structures": 8,
+    "fields": 190,
+    "empty_contexts": 15,
+    "paths": 295,
+    "source_sections": 2,
+    "paragraphs": 15,
+    "source_comparison_lines": 180,
+    "internal_prose_joins": 3,
+    "physical_baseline_wraps": 1,
+    "incoming_split_prose_joins": 0,
+    "captions": 5,
+    "illustration_text_associations": 7,
+    "source_reference_occurrences": 4,
+    "prior_figure_references": 2,
+    "located_prior_reference_targets": 1,
+    "displayed_mathematical_contexts": 3,
+    "original_raster_contexts": 5,
+    "numbered_figures": 5,
+    "closing_marks": 1
+  },
+  "personally_compared_selected_native_views": 10,
+  "rejected_damaged_cases": 16,
+  "native_geometry_rejected_cases": 14,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/validation.json",
+    "sha256": "2981da043729e607b99a8b151d96bfaef947e1d8afd1fb60d5f8f20978461761",
+    "bytes": 5457
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/recipe-native-03.json",
+    "sha256": "a21bd612ba887f7f80d1c1ea8c90c67242716aedde04dea851f1ec5c492833ba",
+    "bytes": 8731
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/source-compared-readings-02.json",
+    "sha256": "8f1874c06cf47fb7927a9b677f59d19a50b341c675d0ed8bb64a2aece93dfb72",
+    "bytes": 69702
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/native-geometry-work-review-02.json",
+    "sha256": "bcb714c08e79d1089da95f4d102c5afb1b4275647b7cd4b926eb0845c41e4ca6",
+    "bytes": 109999
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/source-ledger.json",
+    "sha256": "27c339ab76e7647529a6eb3e8787b680442df32bef09816d3bda0dd11c0d61df",
+    "bytes": 440973
+  },
+  "source_dispositions_pending": 50,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/whole-progress-m63.json",
+    "sha256": "995571103182f9465f97c780be79b206eb337b2985ff651d526ebb452aadfe36",
+    "bytes": 241191
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/resume.json",
+    "sha256": "e5135abb796e3d3eb7a38a93e7f2ff4e62cd8de372d4500d9adb0dcc8156b679",
+    "bytes": 2740
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/evidence-manifest.json",
+    "sha256": "b46f75e02d848d33dbf209e3c0972fb709d36f6a2d76193524af2ef89eca8d0f",
+    "bytes": 103812
+  },
+  "frozen_evidence_files": 555,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/implementation-after.json",
+    "sha256": "767b8f1f90311be265d74a49ae0f813192d8aff7a29de2004241fc5360f745ac",
+    "bytes": 9286
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 303,
+  "fresh_regression_tests": 0,
+  "complete_whole_scan_articles": 29,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 8,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M64: assemble and independently reproduce/audit the complete A/D, D/A의 이론과 실제 article on 228–241 from immutable M61 opening, M62 continuation and M63 ending. Preserve the M61 prose flow, accepted 233/234 split-word join, complete 239/240 sentence boundary, all source qualifications and source-specific graphic/formula/circuit/program contexts. Resolve the M62 Figure 31 reference against M63 and M63 references to prior Figures 25/26 in explicit scoped article indexes. Then continue the word-processor program, tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and all remaining March source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M63, M62, M61 or predecessor helpers/evidence. Reuse all successful OCR; shared implementation retains the qualified 303-test baseline."
+}

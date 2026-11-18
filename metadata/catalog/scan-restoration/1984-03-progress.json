@@ -6330,16 +6330,16 @@
         }
       },
       "new_selected_restoration": {
-        "checkpoint": "M62",
+        "checkpoint": "M63",
         "article_id": "scan-maso-1984-03-toc-0033",
         "availability": "partial",
         "verification": "sample-reviewed",
         "source_kind": "jpeg-set",
-        "directory": "archive/scans/1984-03/packages/ad-jpeg-continuation-r01",
+        "directory": "archive/scans/1984-03/packages/ad-jpeg-ending-r01",
         "manifest": {
-          "path": "archive/scans/1984-03/packages/ad-jpeg-continuation-r01/manifest.json",
-          "sha256": "240598e3a35cf63c2c6ab086d3b59cfa160d02731b00731eae90df157c7ba15c",
-          "bytes": 50513
+          "path": "archive/scans/1984-03/packages/ad-jpeg-ending-r01/manifest.json",
+          "sha256": "2f967c4245375c87d41af537d62d2003cd9bb90b33ac79644495e339a750ec21",
+          "bytes": 20797
         },
         "article_actual_folios": [
           228,
@@ -6369,23 +6369,22 @@
           236,
           237,
           238,
-          239
-        ],
-        "source_extent_covered": false,
-        "assembly_pending": true,
-        "continuation_pending": [
+          239,
           240,
           241
         ],
+        "source_extent_covered": true,
+        "assembly_pending": true,
+        "continuation_pending": [],
         "recipe": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-58/ad-b/recipe-native-01.json",
-          "sha256": "e3017cd51b5308406fc043a24b37891839069d0b77daf1b61a4ef6eba6e77d7d",
-          "bytes": 15919
+          "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/recipe-native-03.json",
+          "sha256": "a21bd612ba887f7f80d1c1ea8c90c67242716aedde04dea851f1ec5c492833ba",
+          "bytes": 8731
         },
         "validation": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-58/validation.json",
-          "sha256": "903954b61625606714e170b120370cd58a91f08f5392308b4756506e256b95cf",
-          "bytes": 6500
+          "path": "archive/scans/1984-03/restoration/whole-issue-59/validation.json",
+          "sha256": "2981da043729e607b99a8b151d96bfaef947e1d8afd1fb60d5f8f20978461761",
+          "bytes": 5457
         },
         "segments": [
           {
@@ -6430,6 +6429,24 @@
               "path": "archive/scans/1984-03/restoration/whole-issue-58/validation.json",
               "sha256": "903954b61625606714e170b120370cd58a91f08f5392308b4756506e256b95cf",
               "bytes": 6500
+            }
+          },
+          {
+            "checkpoint": "M63",
+            "directory": "archive/scans/1984-03/packages/ad-jpeg-ending-r01",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/ad-jpeg-ending-r01/manifest.json",
+              "sha256": "2f967c4245375c87d41af537d62d2003cd9bb90b33ac79644495e339a750ec21",
+              "bytes": 20797
+            },
+            "actual_folios": [
+              240,
+              241
+            ],
+            "validation": {
+              "path": "archive/scans/1984-03/restoration/whole-issue-59/validation.json",
+              "sha256": "2981da043729e607b99a8b151d96bfaef947e1d8afd1fb60d5f8f20978461761",
+              "bytes": 5457
             }
           }
         ],
@@ -6507,17 +6524,17 @@
         "native_accepted": true
       },
       "ending_work": {
-        "checkpoint": "M63-work",
+        "checkpoint": "M63",
         "selected_actual_folios": [
           240,
           241
         ],
         "record": {
           "path": "metadata/catalog/scan-restoration/1984-03-ad-ending-work.json",
-          "sha256": "d91c6b1b7b9e9c47d9ed04035158b4a788b60b76f8f6bb8cc884c0d31c0a32fc",
-          "bytes": 9651
+          "sha256": "31f1e21812fdf0be447558b7df41513b445fad21fb1e06bae34f57101aaee955",
+          "bytes": 11825
         },
-        "native_accepted": false
+        "native_accepted": true
       }
     },
     {
@@ -7322,23 +7339,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-58/source-ledger.json",
-    "sha256": "5afa9116cfd87e426dc593d56dbfdf62ecd0c46cde285b0de6867b80eadf3bad",
-    "bytes": 436915
+    "path": "archive/scans/1984-03/restoration/whole-issue-59/source-ledger.json",
+    "sha256": "27c339ab76e7647529a6eb3e8787b680442df32bef09816d3bda0dd11c0d61df",
+    "bytes": 440973
   },
-  "current_checkpoint": "M63-work",
-  "next": "Continue unfrozen M63 with native Figures 31–33 and 35, preserving all repeated labels, original circuit/timing paths, separate formula owners and source anomalies. Then encode all prose, physical baselines, inline structures, five captions, three prose continuations, the final physical A/–D wrap and independent star; resolve the M62 Figure 31 reference. Produce two fresh matching ending exports and an independent source/native audit before acceptance. Assemble and independently reproduce/audit the whole article on 228–241. Finish every remaining March article and heading and all 273 scan dispositions through whole-issue export and completion audit. Reuse all 25 successful OCR tasks and compared readings; never execute or modify frozen predecessor helpers or evidence.",
+  "current_checkpoint": "M63-complete",
+  "next": "M64: assemble and independently reproduce/audit the complete A/D, D/A의 이론과 실제 article on 228–241 from immutable M61 opening, M62 continuation and M63 ending. Preserve the M61 prose flow, accepted 233/234 split-word join, complete 239/240 sentence boundary, all source qualifications and source-specific graphic/formula/circuit/program contexts. Resolve the M62 Figure 31 reference against M63 and M63 references to prior Figures 25/26 in explicit scoped article indexes. Then continue the word-processor program, tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and all remaining March source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M63, M62, M61 or predecessor helpers/evidence. Reuse all successful OCR; shared implementation retains the qualified 303-test baseline.",
   "pending_article_candidates": 8,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
-  "complete_whole_scan_headings": 5,
-  "current_work": {
-    "checkpoint": "M63-work",
-    "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-ad-ending-work.json",
-      "sha256": "d91c6b1b7b9e9c47d9ed04035158b4a788b60b76f8f6bb8cc884c0d31c0a32fc",
-      "bytes": 9651
-    },
-    "accepted": false
-  }
+  "complete_whole_scan_headings": 5
 }

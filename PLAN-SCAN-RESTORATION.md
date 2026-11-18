@@ -828,22 +828,27 @@ do not invent a split-word join to 240. Resolve its deferred Figure 31 reference
 against the final segment. See the [M62 handoff](docs/SCAN-RESTORATION-1984-03-M62.md)
 and [accepted continuation](metadata/catalog/scan-restoration/1984-03-ad-continuation.json).
 
-**M63 is in progress on final 240–241.** All 25 text owners now have enlarged
-source comparison; all thirty paired source crops, original OCR bindings and
-eight damaged source contracts pass. Preserve fourteen qualifications, including
-the printed Figure 35(c) `C_P` versus body-equation `C_F` disagreement and the
-original capacitance claims. Three native equations and Figure 34 now pass
-source/overlay/original-ink checks: **four structures, 95 fields, two empty
-contexts and forty paths**, with ten native qualifications. **Figures 31–33
-and 35, text/caption/reference integration, two exports and final-segment
-acceptance remain pending.** Complete 228–241 assembly and every remaining
-March task are still required. No final-segment package is selected; accepted
-whole-issue counts remain **29 complete articles, one partial, eight pending,
-five completed headings, one pending heading and fifty pending source
-dispositions / 273 scans**. M63 is unfrozen; all predecessor evidence stays
-immutable. Shared implementation retains the qualified 303-test baseline.
-See the [M63 work handoff](docs/SCAN-RESTORATION-1984-03-M63-WORK.md) and
-[current work record](metadata/catalog/scan-restoration/1984-03-ad-ending-work.json).
+**M63 accepts the native ending on original 240–241** in **113 exact files**,
+with two fresh matching exports. All **thirty source crops, 25 original OCR
+bindings and sixteen damaged integration cases** pass independent checks.
+Figures 31–35 and three independent equations retain **eight structures,
+190 fields, fifteen empty contexts and 295 original ink paths**. All 81 complete
+graphic label occurrences have exact source ranges; ten resistor paths are
+refined against original ink. Text indexes retain 180 comparison/search lines,
+fifteen prose paragraphs, two section contexts, five captions, three prose
+continuations, the final physical wrap and independent star. Keep all **41
+qualifications**, including Figure 35(c)'s `C_P` versus body-equation `C_F`
+disagreement and the original capacitance claims. M63 freezes **555 evidence
+files**; never execute or modify its helpers/evidence. All predecessor files
+and 53 implementation pins remain exact; the qualified 303-test baseline applies.
+Whole March remains active with **29 complete articles, one partial, eight
+pending, five complete headings, one pending heading and fifty pending source
+dispositions / 273 scans**. All 228–241 source folios now have accepted segment
+coverage. Continue **M64 complete-article assembly/audit**, resolving the M62
+Figure 31 reference and M63's references to prior Figures 25/26, then every
+remaining March task through whole-issue export/completion audit.
+See the [M63 handoff](docs/SCAN-RESTORATION-1984-03-M63.md) and
+[accepted ending](metadata/catalog/scan-restoration/1984-03-ad-ending.json).
 
 ## Aim
 

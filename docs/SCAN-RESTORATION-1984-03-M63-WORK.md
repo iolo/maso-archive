@@ -1,5 +1,11 @@
 # March M63 — final A/D, D/A pages in progress
 
+This historical log records the earlier source and partial native work. Its
+remaining drawing, text, export and acceptance checks have since passed in
+**M63**. Use the [accepted M63 handoff](SCAN-RESTORATION-1984-03-M63.md) for current
+state and the next task, complete **228–241** article assembly. The preparation
+state below is preserved as history; it is not a current pending-work list.
+
 The task remains restoration of **the whole March 1984 donated-scan issue**:
 every eligible article and native structure, all **273 scans** accounted for,
 and reproducible article and whole-issue exports with a completion audit.
