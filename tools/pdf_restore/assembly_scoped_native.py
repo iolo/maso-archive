@@ -45,14 +45,16 @@ def validate_recipe(recipe):
         'inventory', 'evidence', 'uncertainties', 'resolved_notes', 'prose_joins',
         'paragraph_links', 'logical_aliases'}
     fields = set(recipe) - {'figure_reference_links'}
-    if (fields not in (required, required | {'program_links'}, required | {'observed_programs'}) or recipe['source_index_mode'] not in (MODE, 'scoped-observations-v1') or
+    split = recipe.get('source_index_mode') == 'scoped-split-programs-v1'
+    allowed = (required | {'split_programs'},) if split else (required, required | {'program_links'}, required | {'observed_programs'})
+    if (fields not in allowed or recipe['source_index_mode'] not in (MODE, 'scoped-observations-v1', 'scoped-split-programs-v1') or
             recipe['index_mode'] != 'structured-programs-v1'):
         raise ValueError('Invalid scoped native recipe fields or mode')
     # Reuse the common strict inventory, segment, note and prose-join contract.
     from .assembly_structured import validate_recipe as validate_common
     common = {k: v for k, v in recipe.items()
-              if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases', 'program_links', 'observed_programs', 'figure_reference_links'}}
-    if recipe['source_index_mode'] == 'scoped-observations-v1':
+              if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases', 'program_links', 'observed_programs', 'figure_reference_links', 'split_programs'}}
+    if recipe['source_index_mode'] in ('scoped-observations-v1', 'scoped-split-programs-v1'):
         from .assembly_examples import validate_joins
         validate_joins(recipe['prose_joins'], regional=True)
         common['prose_joins'] = [{k: v for k, v in row.items() if k != 'intervening'}
@@ -60,6 +62,9 @@ def validate_recipe(recipe):
     common.update(relationship_links=[], program_links=[], group_links=[], example_links=[])
     validate_common(common)
     names = [r['name'] for r in recipe['segments']]
+    if split:
+        from .assembly_split_programs import validate_splits
+        validate_splits(recipe['split_programs'], names)
     if 'figure_reference_links' in recipe:
         if recipe['source_index_mode'] != 'scoped-observations-v1':
             raise ValueError('Figure reference links require the source-observation opt-in')
@@ -371,7 +376,7 @@ class Scope:
 def project(recipe, originals):
     validate_recipe(recipe)
     scope_type = Scope
-    if recipe['source_index_mode'] == 'scoped-observations-v1':
+    if recipe['source_index_mode'] in ('scoped-observations-v1', 'scoped-split-programs-v1'):
         from .assembly_scoped_observations import ObservationScope, validate_continuations
         scope_type = ObservationScope
     contexts, offset = [], 0
@@ -384,7 +389,7 @@ def project(recipe, originals):
         offset += len(context.listing)
     if [r for c in contexts for r in c.used_aliases] != recipe['logical_aliases']:
         raise ValueError('Unused or reordered logical identity alias')
-    if recipe['source_index_mode'] == 'scoped-observations-v1':
+    if recipe['source_index_mode'] in ('scoped-observations-v1', 'scoped-split-programs-v1'):
         validate_continuations(recipe, contexts)
         if 'figure_reference_links' in recipe:
             from .assembly_scoped_observations import bind_reference_scopes
@@ -459,6 +464,10 @@ def project(recipe, originals):
                     str(contexts[i + 1].package['pages'][0]['printed_page']) != str(outgoing['next_folio'])):
                 raise ValueError('Native prose join differs from original outgoing declaration')
     positions, joined = join_blocks(recipe, package, contexts)
+    expected_listing = b''.join(c.listing for c in contexts)
+    if 'split_programs' in recipe:
+        from .assembly_split_programs import join_split_programs
+        expected_listing, split_programs = join_split_programs(recipe['split_programs'], contexts, package, positions)
     for c in contexts:
         for (kind, _, id), binding in c.definitions.items():
             if kind == 'block':
@@ -466,7 +475,7 @@ def project(recipe, originals):
                 binding.update(id=target, offset_in_block=within)
     ranges = block_ranges(package)
     article, listing = text_bytes(package)
-    if listing != b''.join(c.listing for c in contexts):
+    if listing != expected_listing:
         raise ValueError('Native assembly changed independent source code bytes')
     native = {field: [] for field in scope_type.native_indexes}
     for c in contexts:
@@ -524,6 +533,8 @@ def project(recipe, originals):
     if 'observed_programs' in recipe:
         from .assembly_observed_programs import project_observations
         correction['observed_programs'] = project_observations(recipe['observed_programs'], contexts, listing)
+    if 'split_programs' in recipe:
+        correction['split_programs'] = split_programs
     if 'figure_reference_links' in recipe:
         from .assembly_scoped_observations import project_figure_reference_links
         correction['figure_reference_resolutions'] = project_figure_reference_links(

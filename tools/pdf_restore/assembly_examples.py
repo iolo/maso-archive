@@ -48,7 +48,7 @@ def join_blocks(recipe, package, contexts):
         order = package['content_order']
         i = order.index(dict(type='block', id=ids[0]))
         j = order.index(dict(type='block', id=ids[1]))
-        if recipe.get('source_index_mode') == 'scoped-observations-v1':
+        if recipe.get('source_index_mode') in ('scoped-observations-v1', 'scoped-split-programs-v1'):
             from .assembly_scoped_observations import check_intervening
             check_intervening(row['intervening'], order[i + 1:j], contexts)
         elif recipe.get('index_mode') in ('regional-prose-v1', 'regional-listing-v1', 'regional-table-listing-v1', 'interrupted-wrapped-listing-v1', 'aligned-assembly-listing-v1', 'wrapped-reference-listing-v1', 'wrapped-literal-reference-v1', 'wrapped-source-reference-v1'):

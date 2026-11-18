@@ -28,7 +28,7 @@ LOCAL_KEYS = {'line_id', 'source_unit_id', 'label_id', 'occurrence_id', 'row_id'
 
 
 def validate_recipe(recipe):
-    if recipe.get('source_index_mode') in ('scoped-native-v1', 'scoped-observations-v1'):
+    if recipe.get('source_index_mode') in ('scoped-native-v1', 'scoped-observations-v1', 'scoped-split-programs-v1'):
         from .assembly_scoped_native import validate_recipe as validate_native
         return validate_native(recipe)
     if recipe.get('source_index_mode') == 'regional-news-v1':
@@ -292,7 +292,7 @@ class Context:
 
 
 def project_structured(recipe, originals):
-    if recipe.get('source_index_mode') in ('scoped-native-v1', 'scoped-observations-v1'):
+    if recipe.get('source_index_mode') in ('scoped-native-v1', 'scoped-observations-v1', 'scoped-split-programs-v1'):
         from .assembly_scoped_native import project as project_native
         return project_native(recipe, originals)
     if recipe.get('source_index_mode') == 'regional-news-v1':

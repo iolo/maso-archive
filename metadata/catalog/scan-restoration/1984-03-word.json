@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M67",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0035",
+  "status": "complete-native-article",
+  "canonical_received_title": "한글 워드 프로세서 프로그램",
+  "observed_source_title": "한글 워드프로세서 프로그램",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/word-jpeg-full-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/word-jpeg-full-r01/manifest.json",
+    "sha256": "7ec49dfdac68eb610edb3f8640543f7be3e3276956d369452a5f97f479ee79e8",
+    "bytes": 31571
+  },
+  "exact_files": 170,
+  "retained_segment_files": 161,
+  "master_crops": 43,
+  "recognition_bindings": 30,
+  "new_recognition_tasks": 0,
+  "raw_archive_members": 151,
+  "native_index_records": 27131,
+  "typed_references": 173872,
+  "source_and_active_byte_spans": 64360,
+  "source_asset_bindings": 27731,
+  "source_qualifications": 61,
+  "total_source_native_qualifications": 91,
+  "native_structure": {
+    "structures": 90,
+    "fields": 8380,
+    "context_rows": 860,
+    "paths": 120,
+    "original_rasters": 13,
+    "code_nonempty_ink_rows": 702,
+    "physical_serialization_rows": 704,
+    "layout_gap_search_rows": 2,
+    "complete_source_units": 316,
+    "display_fields": 7236,
+    "explicit_split_statement_joins": 1,
+    "joined_printed_label": "3190",
+    "editorial_physical_boundary_newlines": 1,
+    "final_statement": "4150 GOTO 1330",
+    "nonprinted_qualification_delimiters": 2
+  },
+  "rejected_damaged_cases": 21,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/validation-01.json",
+    "sha256": "194f17b835c3216f6362ba97b97487f0c7e6cb15cf8ec294d934854944b7143f",
+    "bytes": 11163
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/assembly-recipe-01.json",
+    "sha256": "4056b94e4a442772c8953ba44f0291a3d60e1d86172ef739352c07cd6d43e30f",
+    "bytes": 6938
+  },
+  "boundary_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/boundary-review-01.json",
+    "sha256": "7c6335cc578301a1b20bf930f3de7766b9440635d867a4affb7b5b84b8366024",
+    "bytes": 8214
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/source-ledger-01.json",
+    "sha256": "ec3526f04afb17f89470252b1824b0eae95a8c075fba752e1c85fd9407d56fce",
+    "bytes": 461387
+  },
+  "source_dispositions_pending": 42,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
+    "sha256": "d2af804cb6eb8622745c3127966136d28507152a403f9e2fc058c95c163697c9",
+    "bytes": 10345
+  },
+  "implementation_snapshot": "archive/scans/1984-03/restoration/whole-issue-63/implementation-snapshot-01",
+  "shared_implementation_changed": true,
+  "implementation_pins": 57,
+  "fresh_regression_tests": 312,
+  "qualified_regression_tests": 312,
+  "complete_whole_scan_articles": 31,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 7,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M68: restore the complete donated-JPEG 터널 통과 게임 article, maso-1984-03-toc-0036, candidate actual252–254. Verify original title, complete extent and separate neighbors251/255 before bounded mapping. Keep native program rows, fields, tables, figures and local uncertainties source-backed; preserve all historical PDF and supplementary outcomes. Then finish the remaining Seun feature (candidate190–204), information radar124–131, debugging room255, Q&A256–259, advertising index lower204, contest results243, information heading disposition, all42 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M67/M65/M66/predecessor helpers or evidence; implementation snapshots are data only. No successful recognition reruns or cleanup deletion. Current qualified shared baseline is312 tests/57 pins.",
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/resume.json",
+    "sha256": "87c9f1fc767149dde69cd66a0336984fdf707ab230df684c03224595e77d1eb7",
+    "bytes": 2463
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/evidence-manifest.json",
+    "sha256": "0d675a5be97976c69c964d9ff3f56c386b75fed10a0f1a26173363f32bc972c1",
+    "bytes": 50516
+  },
+  "frozen_evidence_files": 256,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/whole-progress-m67.json",
+    "sha256": "47f8e703fb19907ac5ebcbd647541bfbb1c427fb28f1181903a16775846376d6",
+    "bytes": 250282
+  }
+}

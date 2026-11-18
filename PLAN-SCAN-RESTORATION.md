@@ -937,6 +937,36 @@ Then finish every remaining March task through whole-issue export/completion
 audit. See the [M66 native handoff](docs/SCAN-RESTORATION-1984-03-M66.md) and
 [accepted ending](metadata/catalog/scan-restoration/1984-03-word-ending.json).
 
+**M67 completes the whole native word processor article, actual 244–251**, in
+**170 exact files**, retaining all **161 original M65/M66 segment files**.
+The required `scoped-split-programs-v1` opt-in joins only printed unit **3190**:
+249's final `HPLOT`, exactly one declared physical boundary newline, then 250's
+five unnumbered continuation rows. All original source scopes, partial-unit flags,
+downloads and geometry remain immutable. Seven intervening original frames are
+explicitly enumerated; the final source statement remains **4150 GOTO 1330**.
+
+The complete article retains **704 physical serialization rows / 702 nonempty ink
+rows / two layout-gap search separators**, **316 complete source units**, **7,236
+display fields**, **13 rasters**, **90 structures**, **8,380 native fields**,
+**860 contexts**, **120 paths** and **91 source/native qualifications**. Independent
+audit checks all **43 original-master crops**, **30 unchanged OCR bindings**,
+**27,131 native records**, **173,872 typed references**, **64,360 byte spans** and
+**27,731 asset bindings**, and rejects **21 damaged full-article cases**. Both
+complete exports match; **312 fresh applicable regressions pass**. Historical
+assembly modes remain unchanged. No original encoding or execution is certified.
+
+M67 evidence and its **57-pin** implementation snapshot are frozen; never execute
+or modify frozen helpers, evidence or data-only snapshots. Cleanup was preview-only
+with no deletion. Whole March remains active with **31 complete articles, no
+partial articles, seven pending articles, five complete headings, one pending
+heading and 42 pending full-page dispositions / 273 scans**. Continue **M68** with
+**터널 통과 게임**, candidate actual **252–254**, verifying its original title,
+complete extent and separate neighbors **251/255** before bounded mapping. Then
+finish every remaining March article, heading and source disposition through
+reproducible whole-issue export and completion audit. See the
+[M67 handoff](docs/SCAN-RESTORATION-1984-03-M67.md) and
+[complete word processor article](metadata/catalog/scan-restoration/1984-03-word.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
