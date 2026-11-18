@@ -1065,6 +1065,24 @@ remaining March task through reproducible whole-issue export/completion audit.
 See the [M69 handoff](docs/SCAN-RESTORATION-1984-03-M69.md) and
 [accepted opening](metadata/catalog/scan-restoration/1984-03-sewoon-opening.json).
 
+**M70 middle source work is audited, actual 196–201**: six selected original
+views and two outside continuity contexts, 195/202. All six map overlays are
+reviewed. All 18 first-attempt recognition tasks succeeded and all raw drafts
+were read before one prospective source pass, now closed with 33 qualifications.
+The independent source audit passes 22 original crop pixel checks, 18 raw bindings
+and 17 damaged-source rejection cases. There were no retries, successful-task
+reruns or changes after the pass. Shared implementation remains unchanged at
+312 tests / 57 pins. Preserve all 72 physical table cells, six blanks, the shared
+three-model FC ruled row group and shared 기타 cell, nine logical model rows,
+30 company occurrences, six internal continuities, source category anomalies
+and four original rasters. **Native middle geometry, exports and audit remain
+pending** in existing unfrozen whole-issue-66. Then restore 202–204 and the separate
+lower 204 index, assemble/audit the full feature, and finish every remaining March
+article, heading and source disposition through reproducible whole-issue export
+and completion audit for all 273 scans. See the
+[M70 work handoff](docs/SCAN-RESTORATION-1984-03-M70-WORK.md) and
+[middle work record](metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

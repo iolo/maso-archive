@@ -7251,9 +7251,9 @@
         "note": "Complete source extent190–204 verified. Opening190–195 accepted as a native partial segment;native196–204 and whole-article assembly/audit remain pending. Lower204index is separate owner0043."
       },
       "source_work_evidence": {
-        "path": "metadata/catalog/scan-restoration/1984-03-sewoon-work.json",
-        "sha256": "41fec927d34a27f033e26ededebd90e855ef855a37e4a77176b014b3dcfb22a2",
-        "bytes": 8228
+        "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json",
+        "sha256": "b20479fcb901363996d226e774014d224e4916dcad0bffdd203a7929b820dca8",
+        "bytes": 7475
       },
       "opening_segment": {
         "checkpoint": "M69",
@@ -7263,6 +7263,15 @@
           "bytes": 7067
         },
         "native_accepted": true
+      },
+      "middle_work": {
+        "checkpoint": "M70-work",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json",
+          "sha256": "b20479fcb901363996d226e774014d224e4916dcad0bffdd203a7929b820dca8",
+          "bytes": 7475
+        },
+        "native_accepted": false
       }
     },
     {
@@ -7724,19 +7733,19 @@
     "sha256": "2d54a6b699f6f7f32ea97fe0a09b35a6962ece8ae92604fb6a4e402629f31dac",
     "bytes": 470019
   },
-  "current_checkpoint": "M69",
-  "next": "M70: restore the next Seun Sangga feature segment on actual196–201 in fresh whole-issue-66 evidence. Preserve accepted M69 opening190–195 and the verified full190–204 extent. Incoming196프로세서를 completes195워드. Personally verify selected original views and neighbors before mapping. Preserve the196 product table with source cell/blank ownership and its dated caption,chip illustration,the197directory heading and company entries through201,original workshop photographs,cross-column/page entry continuations and distinct repeated company-name occurrences. Native202–204 remains deferred;the lower204advertising index is separate canonical owner0043. Stay within two articles/six selected views/twenty outside contexts,map and review before OCR,and read all raw drafts before one prospective source pass. Reuse successful OCR only with exact source/map/settings/implementation evidence. Then finish feature ending and full article assembly,the remaining five March articles,the information heading,all36pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M69/M68/predecessor helpers,evidence or snapshots. Current shared baseline312tests/57pins remains unchanged. No successful OCR reruns or cleanup deletion.",
+  "current_checkpoint": "M70-work",
+  "next": "Continue M70 native restoration in existing unfrozen whole-issue-66. All 18 first recognition tasks succeeded, all raw drafts were read, and one prospective source pass is closed and audited: 22 original crop pixel checks, 18 raw bindings and 17 rejected damaged source cases. Use sewoon-b/map-r02.json, selected-review-crops-02.json and the saved native-structure-plan-01.json; never rerun successful OCR or alter compared source text without an explicitly recorded new pass. Encode and personally review physical text geometry, all 72 physical table cells, six blanks, shared FC row group and shared 기타 cell, nine logical model rows, and all 30 distinct company occurrences with their addresses, phones, categories and bullets. Preserve the extra 두리 category, empty 선경 본체, two separate 부광 entries, six internal continuities, incoming 195/196 midword join, outgoing 201/202 company/category continuation, and four original rasters. Build two exact partial middle exports and independently audit native references, text ranges and assets before accepting. Then restore 202–204 and the separate lower 204 index in a fresh bounded checkpoint, assemble/audit the full feature, finish every remaining March article, heading and source disposition, and produce the reproducible whole-issue export/completion audit for all 273 scans. March remains active. Frozen predecessors are read-only data; do not execute or modify their helpers. Shared baseline remains 312 tests and 57 implementation pins. Cleanup is preview-only.",
   "pending_article_candidates": 5,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M69",
+    "checkpoint": "M70-work",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-opening.json",
-      "sha256": "3cfca536b8d46a8588e417f47a2cc8564536fb7a5f7ac7eff5eb858f0316edd8",
-      "bytes": 7067
+      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json",
+      "sha256": "b20479fcb901363996d226e774014d224e4916dcad0bffdd203a7929b820dca8",
+      "bytes": 7475
     },
-    "accepted": true
+    "accepted": false
   }
 }
