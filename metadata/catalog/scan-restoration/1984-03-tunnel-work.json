@@ -5,7 +5,7 @@
   "toc_entry_id": "maso-1984-03-toc-0036",
   "canonical_received_title": "터널 통과 게임",
   "observed_source_title": "터널 통과 게임",
-  "status": "source-compared;native-geometry-and-package-pending",
+  "status": "superseded-by-accepted-M68-native-article",
   "source_kind": "jpeg-set",
   "actual_folios": [
     252,
@@ -103,13 +103,13 @@
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-64/resume.json",
-    "sha256": "235e7128dd9dfe7a63a90cd2f340c87d8a3034e0dcf3072b882d845d001b92c9",
-    "bytes": 4213
+    "sha256": "56e43f013dda508797a0fdb934a052b746f674aefa3438f1b1409f5719ddb1b6",
+    "bytes": 2733
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-64/process-outcomes-01.json",
-    "sha256": "af9da87f83b80ab95805ba2ce4321d3c2cc3ce4c26753b4aec3963fffe8bbd3b",
-    "bytes": 1589
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/process-outcomes-02.json",
+    "sha256": "259ce76247d03fda45f38ba1e34f86d63170a9f48a6ae1bd22b3c7eedf4bb28d",
+    "bytes": 1793
   },
   "implementation": {
     "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
@@ -120,23 +120,53 @@
   "qualified_regression_tests": 312,
   "fresh_regression_tests": 0,
   "implementation_pins": 57,
-  "complete_whole_scan_articles": 31,
+  "complete_whole_scan_articles": 32,
   "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 7,
+  "pending_article_candidates": 6,
   "complete_whole_scan_headings": 5,
   "pending_heading_candidates": 1,
-  "source_dispositions_pending": 42,
+  "source_dispositions_pending": 40,
   "source_images": 273,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_package_selected": false,
-  "evidence_frozen": false,
-  "whole_article_complete": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_package_selected": true,
+  "evidence_frozen": true,
+  "whole_article_complete": true,
   "whole_issue_complete": false,
   "review_level": "assistant-source-compared;not-human-acceptance",
   "original_encoded_bytes_verified": false,
   "execution_verified": false,
   "cleanup_preview_only": true,
   "deleted_files": false,
-  "next": "Continue M68 in the existing unfrozen whole-issue-64 checkpoint. All13first-attempt OCR drafts were read before one now-closed source pass;do not rerun successful recognition or silently reopen source correction. Audited source work preserves complete252–254 tunnel game,29qualifications,197physical serialization rows/191ink rows/6search-gap rows,97complete source units,1783display fields,27range entries and29DATA155numeric literals. Native geometry and a selected native package are still absent. Follow tunnel/native-structure-plan-01.json:prepare full-frame code-row/display-field geometry;handle the isolated3002dot separately;recover the narrow standalone1continuation of130;merge the split Korean baseline in the left range overview. Encode/review all source baselines,27range descriptions,stacked1/10fraction with nonprinted search slash,original monitor labels/sixicons/obscured leading marks,DATA/memory/string fields and three original frames. Keep source quirks and all29qualifications unchanged. Personally review overlays,integrate strict corrections,build two exact complete-article exports and independently audit all source/native occurrences before accepting tunnel. Then continue the remaining six March articles,information heading,all42pending full-page dispositions and reproducible whole-issue export/completion audit. Whole March remains active. M67/M65/M66/predecessor evidence and implementation snapshots are frozen/data only;never execute or modify them. Current shared baseline312tests/57pins is unchanged."
+  "next": "M69: restore the Seun Sangga feature, maso-1984-03-toc-0037, candidate actual 190–204. Start fresh whole-issue-65 evidence. Verify the complete original title, article extent, source continuity and separate neighbors 189/205 before bounded mapping. The lower 204 advertising index is a separate canonical owner, maso-1984-03-toc-0043; do not duplicate or absorb it into the feature. Select at most six opening source views (candidate 190–195) after full extent verification, retain later continuation explicitly, and stay within two articles / six selected views / twenty outside lookup views. Then finish the remaining March information radar 124–131, debugging room 255, Q&A 256–259, advertising index lower 204, contest results 243, information-heading disposition, all 40 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M68/M67/predecessor helpers, evidence or data-only snapshots. Current shared baseline remains 312 qualified tests / 57 pins. Do not rerun successful recognition or apply cleanup deletion.",
+  "accepted_article": {
+    "path": "metadata/catalog/scan-restoration/1984-03-tunnel.json",
+    "sha256": "9be35036f829c0ece09b1c0365da7b47607b618da80db6b5deeb85cd6a915957",
+    "bytes": 6304
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/evidence-manifest.json",
+    "sha256": "d87659a6a0fc38afa2914ae0a5f2de14232500722d2c023509f037c8084af86f",
+    "bytes": 89464
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/source-ledger-native-01.json",
+    "sha256": "048af4103c8bf1dade8982834e2bda8941df2e3357e6aa5f0b442259e9a06f07",
+    "bytes": 464971
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/native-validation-01.json",
+    "sha256": "6bd715df1e360690e8f2b0dc6271ae1e99f2f48ed00838442306f16b84db78fd",
+    "bytes": 7246
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/tunnel/native-geometry-selection-03.json",
+    "sha256": "a533c9d2c8e7425786496d7255fd4dcd29ff1a73abd910d3ff01f1075558f1a3",
+    "bytes": 6762
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/tunnel/native-review-01.json",
+    "sha256": "93a8de4b5075eb2ce3799379573175afaa25a2b896e6d1d03ba499272e6b07f7",
+    "bytes": 11205
+  }
 }

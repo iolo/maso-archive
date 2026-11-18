@@ -992,6 +992,36 @@ remaining March work through reproducible whole-issue export/completion audit.
 See the [M68 work handoff](docs/SCAN-RESTORATION-1984-03-M68-WORK.md) and
 [audited tunnel source work](metadata/catalog/scan-restoration/1984-03-tunnel-work.json).
 
+**M68 completes the whole native tunnel game article, actual 252–254**, in two
+exact **69-file** exports. The selected contract retains **197 serialization rows
+/ 191 nonempty code rows / six layout-gap search rows**, **97 source units**,
+**1,783 display fragments**, **27 range descriptions**, **29 DATA155 literals**,
+**15 structures**, **2,145 fields**, **292 contexts**, **four paths** and **five
+original rasters**. The prose page boundary is explicit; the final source statement
+remains **5140 RETURN**. The stacked fraction's search slash, obscured monitor
+leading glyphs, six icon contexts and isolated credit-gap dot remain qualified.
+
+Independent audit checks all **18 original-master crops**, **13 unchanged OCR
+bindings**, **58 raw members**, **7,258 native records**, **50,062 typed references**,
+**18,762 byte spans** and **7,479 asset bindings**, and rejects **24 damaged native
+cases**. All **29 source / 32 total source-native qualifications** remain intact.
+Personal geometry review includes six code bands and targeted margin/frame-rule
+refinements. Both trial exports and the provenance refinement are retained without
+source text or recognition changes. The historical PDF package remains exact.
+Shared implementation is unchanged at **312 qualified tests / 57 pins**; no broad
+tests were rerun. Cleanup was preview-only with no deletion.
+
+M68 evidence is frozen; never execute or modify frozen helpers, evidence or
+data-only snapshots. Whole March remains active with **32 complete articles, no
+partial articles, six pending articles, five complete headings, one pending heading
+and 40 pending full-page dispositions / 273 scans**. Continue **M69** with the
+**Seun Sangga feature**, candidate actual **190–204**, verifying complete original
+identity, extent and neighbors **189/205** before bounded mapping. Preserve the
+lower **204 advertising index** as a separate canonical owner. Then finish every
+remaining March task through reproducible whole-issue export/completion audit.
+See the [M68 native handoff](docs/SCAN-RESTORATION-1984-03-M68.md) and
+[complete tunnel article](metadata/catalog/scan-restoration/1984-03-tunnel.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M68",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0036",
+  "status": "complete-native-article",
+  "canonical_received_title": "터널 통과 게임",
+  "observed_source_title": "터널 통과 게임",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    252,
+    253,
+    254
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/tunnel-jpeg-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/tunnel-jpeg-r02/manifest.json",
+    "sha256": "39afa7dff55f33a4cd84aaf333892cbf8681ff0725ff12ef3de3c8d8bc52df91",
+    "bytes": 12195
+  },
+  "exact_files": 69,
+  "master_crops": 18,
+  "recognition_bindings": 13,
+  "recognition_tasks": 13,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "source_comparison_passes": 1,
+  "post_pass_source_changes": 0,
+  "source_qualifications": 29,
+  "total_source_native_qualifications": 32,
+  "raw_archive_members": 58,
+  "native_index_records": 7258,
+  "typed_references": 50062,
+  "source_and_active_byte_spans": 18762,
+  "source_asset_bindings": 7479,
+  "native_structure": {
+    "structures": 15,
+    "fields": 2145,
+    "context_rows": 292,
+    "paths": 4,
+    "original_rasters": 5,
+    "physical_serialization_rows": 197,
+    "code_nonempty_ink_rows": 191,
+    "layout_gap_search_rows": 6,
+    "complete_source_units": 97,
+    "display_fields": 1783,
+    "program_range_entries": 27,
+    "DATA155_numeric_fields": 29,
+    "source_comparison_lines": 269,
+    "source_paragraph_records": 7,
+    "complete_prose_paragraphs": 6,
+    "visible_monitor_labels": 4,
+    "monitor_icon_contexts": 6,
+    "obscured_leading_glyph_contexts": 2,
+    "isolated_credit_dot_is_statement": false,
+    "fraction_search_slash_printed": false,
+    "final_statement": "5140 RETURN"
+  },
+  "rejected_damaged_source_work_cases": 15,
+  "rejected_damaged_native_cases": 24,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/native-validation-01.json",
+    "sha256": "6bd715df1e360690e8f2b0dc6271ae1e99f2f48ed00838442306f16b84db78fd",
+    "bytes": 7246
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/tunnel/recipe-native-02.json",
+    "sha256": "c13838973110a861da8277df4b263c48b0320aaf4867de35d85c43283eccb01b",
+    "bytes": 7093
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/tunnel/source-compared-readings-01.json",
+    "sha256": "0d5aca3fba3d416c0aaa5d51569920e18a0a69148c43e2e5d2219a25b36236ef",
+    "bytes": 55277
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/tunnel/native-geometry-selection-03.json",
+    "sha256": "a533c9d2c8e7425786496d7255fd4dcd29ff1a73abd910d3ff01f1075558f1a3",
+    "bytes": 6762
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/tunnel/native-review-01.json",
+    "sha256": "93a8de4b5075eb2ce3799379573175afaa25a2b896e6d1d03ba499272e6b07f7",
+    "bytes": 11205
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/full-page-review-01.json",
+    "sha256": "d5233e1b2c0c7af758f616dba9f261f9aab7b80671c856ac1fb5bcdaa87d1849",
+    "bytes": 4155
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/source-ledger-native-01.json",
+    "sha256": "048af4103c8bf1dade8982834e2bda8941df2e3357e6aa5f0b442259e9a06f07",
+    "bytes": 464971
+  },
+  "source_dispositions_pending": 40,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
+    "sha256": "d2af804cb6eb8622745c3127966136d28507152a403f9e2fc058c95c163697c9",
+    "bytes": 10345
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 312,
+  "fresh_regression_tests": 0,
+  "implementation_pins": 57,
+  "complete_whole_scan_articles": 32,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 6,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "historical_pdf_manifest": {
+    "path": "archive/pdf/1984-03/packages/12-1984-03-batch-41/tunnel/manifest.json",
+    "sha256": "417868a402a88fab4810ea7348914d8e77ef7481657f0a47464e1bded568b688",
+    "bytes": 8744
+  },
+  "historical_pdf_preserved": true,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M69: restore the Seun Sangga feature, maso-1984-03-toc-0037, candidate actual 190–204. Start fresh whole-issue-65 evidence. Verify the complete original title, article extent, source continuity and separate neighbors 189/205 before bounded mapping. The lower 204 advertising index is a separate canonical owner, maso-1984-03-toc-0043; do not duplicate or absorb it into the feature. Select at most six opening source views (candidate 190–195) after full extent verification, retain later continuation explicitly, and stay within two articles / six selected views / twenty outside lookup views. Then finish the remaining March information radar 124–131, debugging room 255, Q&A 256–259, advertising index lower 204, contest results 243, information-heading disposition, all 40 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M68/M67/predecessor helpers, evidence or data-only snapshots. Current shared baseline remains 312 qualified tests / 57 pins. Do not rerun successful recognition or apply cleanup deletion.",
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/resume.json",
+    "sha256": "56e43f013dda508797a0fdb934a052b746f674aefa3438f1b1409f5719ddb1b6",
+    "bytes": 2733
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/evidence-manifest.json",
+    "sha256": "d87659a6a0fc38afa2914ae0a5f2de14232500722d2c023509f037c8084af86f",
+    "bytes": 89464
+  },
+  "frozen_evidence_files": 473,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-64/whole-progress-m68.json",
+    "sha256": "a188e9780317cd0456c038a2a57244ff7d7fc1eccf0e49eeafcb90a34f226889",
+    "bytes": 253275
+  }
+}

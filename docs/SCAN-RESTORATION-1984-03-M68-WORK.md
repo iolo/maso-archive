@@ -1,5 +1,9 @@
 # March M68 — tunnel game source work
 
+Historical work handoff, superseded by the [accepted complete M68 article](SCAN-RESTORATION-1984-03-M68.md).
+The checkpoint is now frozen. Do not execute or modify its helpers or evidence.
+The pending steps below describe the earlier work state.
+
 The complete donated-scan **터널 통과 게임** source extent is **252–254**,
 `maso-1984-03-toc-0036`. Full original-page comparison verifies the opening title,
 badge/byline and illustrations, the prose continuation and program explanations
