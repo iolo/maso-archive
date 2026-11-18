@@ -873,14 +873,14 @@ and [complete article](metadata/catalog/scan-restoration/1984-03-ad.json).
 
 **M65 is unfinished work on the word processor opening, actual 244–249.**
 Personal full-page comparison verifies its complete **244–251** extent and
-separate neighbors 243/252. All six map overlays, **28 original-master crops**
+separate neighbors 243/252. All six original R01 map overlays, **28 recognition crops**
 and **26 first-attempt OCR bindings** pass coverage/provenance checks. All raw
 drafts were read before source correction; **all 26 text owners** now have
 enlarged comparison with **45 qualifications**. Exact source indexes retain
 **409 nonempty code rows, 220 statement labels, 3,895 display fields**, six
 variable groups, 29 program overview entries, 77 flowchart fields and five
 monitor lines. Source-work audit and eleven damaged-contract rejections pass;
-**all native geometry/encoding/export/acceptance checks remain pending.**
+full native integration, exports and acceptance still require completion.
 Keep the source's duplicate `X +` in 3160, `= <` in 1280 and outgoing incomplete
 3190. R01's failed overview ownership assertion is preserved; selected R02 keeps
 the 1440 sublist under 1420–1480. Final 250–251 and complete
@@ -888,8 +888,18 @@ article assembly/audit are also required. Eight new full-page dispositions leave
 **42 pending / 273 scans**; article/heading acceptance totals remain unchanged
 at **30 complete articles, eight pending articles, five complete headings and
 one pending heading**. The checkpoint stays unfrozen; no new article is accepted.
-Preserve every successful OCR attempt and the unchanged 53 implementation pins /
-306-test baseline. Continue every remaining March task through whole-issue export
+Selected R02 now preserves seven original listing-frame rasters through an
+explicit added-figure OCR-reuse contract. All **35 source crops** match original
+pixels; all **26 original recognitions** remain unchanged. Reviewed native work
+retains **fourteen structures, 409 row fields, seven code contexts, seven frame
+paths, 3,895 field-to-row bindings and 2,875 layout-gap contexts**. Two clipped
+standalone numeral contexts are repaired in program R03; other 407 rows are
+unchanged. Ten damaged native-work cases reject. **Flowchart, monitor, inline
+key/glyph and variable/range geometry, full native integration, exports and
+acceptance remain pending.** Shared builder/segment-reader support passes
+**309 fresh tests with 55 qualified implementation/test pins**. Preserve every
+successful OCR attempt and all failed geometry attempts. Continue every remaining
+March task through whole-issue export
 and completion audit. See the [M65 work handoff](docs/SCAN-RESTORATION-1984-03-M65-WORK.md)
 and [work record](metadata/catalog/scan-restoration/1984-03-word-opening-work.json).
 

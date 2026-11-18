@@ -135,7 +135,8 @@ def read_segment(folder, manifest):
             scope = bundle.get('region_ids', [r['id'] for r in regions.values()
                                              if page_index(r) == page_index(page)])
             validate_recognition_map(original, mapped, region_ids=set(scope),
-                unselected_note_revisions=bundle.get('unselected_note_revisions'))
+                unselected_note_revisions=bundle.get('unselected_note_revisions'),
+                added_figure_regions=bundle.get('added_figure_regions'))
         if (settings['package']['sha256'] != recognition['sha256'] or
             settings['source_sha256'] != package['source']['sha256'] or
             page_index(settings) != page_index(page) or settings[selector] != page[selector] or

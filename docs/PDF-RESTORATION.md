@@ -408,6 +408,21 @@ to name the original map hash. The export retains that map under the bundle's
 bundle and record the derived figure asset and its review separately. This
 opt-in path supports both PDF and JPEG maps and never reruns recognition.
 
+To preserve an additional original figure context, such as the printed frame
+around an already recognized listing, a retained bundle can explicitly name
+`added_figure_regions` alongside its original `recognition_map` and unchanged
+`region_ids` scope. The list must name every newly added region exactly once;
+each must be a `figure` outside that recognition scope. All original regions,
+their relative order, text, notes, source/page records and exclusions retain the
+existing exact-match gates. Without this opt-in, additions still reject. Supply
+the new figure pixels in a separate, explicitly scoped asset-only bundle with
+an empty `results` list, normal source/runtime pins and reviewed crop assets.
+Every added region still needs its correction/review outcome, figure owner,
+reading-order entry and exactly one source asset. The immutable segment reader
+checks the same declaration during standalone checking and later assembly.
+Original OCR bundles, results and settings remain byte-preserved; the new pixels
+are derived source crops, not new recognition evidence.
+
 For a targeted text-crop repair, preserve the old map and bundle, revise the
 selected map, and run the same `ocr page` command into a fresh directory with
 `--mode regions --region-id REGION_ID`. Repeat `--region-id` for an explicit

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "issue_id": "1984-03",
   "checkpoint": "M65-work",
-  "updated_at": "2026-11-18T01:56:31.762044+00:00",
-  "status": "all26-source-readings-compared;exact-source-indexes-prepared;native-geometry-and-exports-pending",
+  "updated_at": "2026-11-18T11:18:48.906914+00:00",
+  "status": "reviewed-native-program-rows-and-listing-frames;remaining-native-geometry-and-exports-pending",
   "scope": "Whole donated-scan issue restoration, including every eligible article and native structure, all source-image dispositions and independent native article/issue rebuilds.",
   "toc_entry_id": "maso-1984-03-toc-0035",
   "canonical_received_title": "한글 워드 프로세서 프로그램",
@@ -32,15 +32,15 @@
   ],
   "selected_source_views": 6,
   "outside_lookup_views": 4,
-  "mapped_regions": 28,
-  "original_raster_contexts": 2,
+  "mapped_regions": 35,
+  "original_raster_contexts": 9,
   "code_text_owners": 7,
   "recognition_tasks": 26,
   "recognition_retries": 0,
   "recognition_failed_engine_tasks": 0,
   "recognition_unattempted_tasks": 0,
   "recognition_processing_seconds": 25.29841413597751,
-  "master_crops": 28,
+  "master_crops": 35,
   "source_readings_compared": 26,
   "source_readings_pending": 0,
   "source_qualifications_recorded": 45,
@@ -60,13 +60,13 @@
     "source_dispositions_pending": 42,
     "source_images": 273
   },
-  "shared_implementation_changed": false,
-  "qualified_regression_tests": 306,
-  "fresh_regression_tests": 0,
+  "shared_implementation_changed": true,
+  "qualified_regression_tests": 309,
+  "fresh_regression_tests": 309,
   "implementation": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/implementation-before.json",
-    "sha256": "fd52a098b1e8f7be162adb27aa447cd4e53dc6a2d42b3dd9160f8d7227fae3a8",
-    "bytes": 9409
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/implementation-after-01.json",
+    "sha256": "ee7113c8921e8f45c82952cc2ed1209be1ae0df666a5a94a45b6ab4e0ff831f3",
+    "bytes": 10400
   },
   "scope_evidence": {
     "path": "archive/scans/1984-03/restoration/whole-issue-61/scope.json",
@@ -84,9 +84,9 @@
     "bytes": 1314
   },
   "selected_map": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/map-r01.json",
-    "sha256": "e842d90a7166dd1727c47f0732ddfae2546067f20802e6874889a1926e86e2d4",
-    "bytes": 19733
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/map-r02.json",
+    "sha256": "dd420ccf09f705de5bd6cc5f9acc6b69ca7b77832898b0ee9eb4a0afc4ae3b1c",
+    "bytes": 22970
   },
   "overlay_review": {
     "path": "archive/scans/1984-03/restoration/whole-issue-61/selected-map-review.json",
@@ -157,13 +157,13 @@
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-61/resume.json",
-    "sha256": "7b9f428de19e34101d01abc0d51204713fb5000dc0b12459247753f1755c53e8",
-    "bytes": 5755
+    "sha256": "6f9470ca0b1ceb40bc094ea615f8e21e86d7da09c5a2dd82016d60aa030c8a23",
+    "bytes": 8761
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/process-outcomes-02.json",
-    "sha256": "2b4b923e4d453108cfee4231681c76ddc91b789f2690f8f0816dd439e2406c94",
-    "bytes": 1724
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/process-outcomes-03.json",
+    "sha256": "4c632b51acc131f13014d68f0390bc0a97146272b1e4c9f3e6a2899e89f6b09b",
+    "bytes": 3076
   },
   "historical_comparison_packages": [
     {
@@ -208,13 +208,13 @@
   "native_recipe_created": false,
   "native_package_selected": false,
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/cleanup-preview-02.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/cleanup-preview-03.log",
     "sha256": "a4498280ad1af450713829dfd2bfea200526d23885a720a57a17cab9bfc5df03",
     "bytes": 233
   },
   "cleanup_preview_only": true,
   "deleted_files": 0,
-  "next": "Continue unfrozen M65 with native geometry and exact occurrence ownership for all compared 244–249 content. Encode and personally compare source code baselines, blank/quote spans, 409 physical rows and 3,895 printed fields; six variable definitions, 29 range entries and every Hangul glyph; original monitor, both inline key boxes and the complete flowchart, including node outlines, routes, thirteen connector identities, twelve Yes labels and caption/inset-listing relationships. Bind prose, paragraphs, exact token/number wraps, cross-page 1890/2610 continuations, printed source mistakes and all 45 qualifications into the final native contract. Produce two fresh matching opening exports and an independent full source/native audit before accepting 244–249. Then restore final 250–251, explicitly join outgoing 3190, and assemble/reproduce/audit the full 244–251 article. Finish the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and all remaining 42 scan dispositions through whole-March export and completion audit. Reuse all 26 successful OCR tasks and compared readings; never execute or modify frozen predecessors.",
+  "next": "Continue unfrozen M65 with the complete original flowchart, monitor, inline key/glyph and variable/range geometry on selected 244–249. Preserve all 26 compared owners and 45 qualifications, selected program R03 row contexts, seven reviewed listing-frame rasters/outlines and exact 3,895 field-to-row bindings. Those bindings have physical-row specificity, not individual glyph bounds or encoded blank/control-byte claims. Bind every remaining native field/path, source paragraph, caption/reference, physical/logical program row and exact source wrap into the final contract. Use selected map R02 with explicit added_figure_regions and four asset-only bundles; every retained OCR bundle must keep its original R01 recognition_map and exact original region scope/settings. Produce two fresh matching opening exports and an independent full source/native audit before accepting 244–249. Then restore final 250–251 with source-backed historical reuse only where proven, explicitly join outgoing 3190, and assemble/reproduce/audit the complete 244–251 article. Continue all eight pending March articles, the information heading and 42 remaining full-page dispositions through whole-March export and completion audit. Never execute or modify frozen M64/predecessors or implementation snapshots. Shared support is qualified by 309 fresh tests and 55 pins; no recognition rerun is required.",
   "physical_nonempty_code_rows": 409,
   "visible_source_statement_labels": 220,
   "complete_source_units": 219,
@@ -244,5 +244,86 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-61/native-plan-attempt-01.json",
     "sha256": "f30a41ef7fed00dd10fdc945defffdb8d9252c9e7516d9476d1f1e193a8a630d",
     "bytes": 873
+  },
+  "recognition_map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/map-r01.json",
+    "sha256": "e842d90a7166dd1727c47f0732ddfae2546067f20802e6874889a1926e86e2d4",
+    "bytes": 19733
+  },
+  "listing_frame_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/listing-frame-plan-01.json",
+    "sha256": "4da9cb69bc028c452cfab6760a64583796a4d512e7609306bf2ee6fddba25fb4",
+    "bytes": 19377
+  },
+  "frame_asset_provenance": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/frame-asset-provenance-01.json",
+    "sha256": "ce88d7e3245276f9db7bc7d5b8932603b61ee3d7e002d2495bc7955812d9a5bb",
+    "bytes": 4221
+  },
+  "selected_review_crops": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/selected-review-crops-r02.json",
+    "sha256": "4939083836a2eedf6f16d1d91dc55c0413c184538ad0ed3a6730a43883c97cff",
+    "bytes": 57462
+  },
+  "new_recognition_tasks": 0,
+  "recognition_reruns": 0,
+  "native_work": {
+    "structures": 14,
+    "row_fields": 409,
+    "separate_code_contexts": 7,
+    "frame_paths": 7,
+    "display_field_row_bindings": 3895,
+    "layout_gap_contexts": 2875,
+    "program_geometry": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/native-program-geometry-03.json",
+      "sha256": "b1a36c0ce4070f2b75df2695c4661ca06f15d7c6d14304bd65946b7196569320",
+      "bytes": 4576609
+    },
+    "frame_geometry": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/native-listing-frames-02.json",
+      "sha256": "526c4850b58b34ee504c33fc9971ecd8a0f4c6c976e227f88fbf8d3d1755a82f",
+      "bytes": 59021
+    },
+    "program_review": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/native-program-review-01.json",
+      "sha256": "ec4f6b5c2d3923e4bff302f030c89bb24bb4198bac60466454a6e2b12e4ff264",
+      "bytes": 9909
+    },
+    "frame_review": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/native-frame-review-01.json",
+      "sha256": "f6a558a4c56eb06569f793fea20a72d24ecc789ce7585b483e5448442f7807ba",
+      "bytes": 13247
+    },
+    "validation": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/native-program-frames-validation-01.json",
+      "sha256": "3180fc61e586be3e203ccb2fe11939b406bb847dac256b45fcba1e34202db45c",
+      "bytes": 3170
+    },
+    "damaged_native_work_rejections": 10,
+    "spatial_specificity": "Observed physical-row contexts and exact source text spans; no individual glyph bounds or encoded blank/control bytes are certified.",
+    "remaining_geometry": [
+      "complete original flowchart",
+      "original monitor",
+      "inline key boxes and glyphs",
+      "six variable groups",
+      "29 program overview entries"
+    ],
+    "full_native_integration_pending": true
+  },
+  "changed_implementation_files": [
+    "tools/pdf_restore/assemble.py",
+    "tools/pdf_restore/build.py",
+    "tests/test_recognition_map.py"
+  ],
+  "implementation_before": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/implementation-before.json",
+    "sha256": "fd52a098b1e8f7be162adb27aa447cd4e53dc6a2d42b3dd9160f8d7227fae3a8",
+    "bytes": 9409
+  },
+  "implementation_pins": 55,
+  "regression_summary": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/regression-summary-01.json",
+    "sha256": "57a92eb9d038093f48b175ce2db2b544d71d9d38b44278b9a8a3e7ab39604c31",
+    "bytes": 1533
   }
 }

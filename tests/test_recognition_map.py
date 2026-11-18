@@ -12,11 +12,141 @@ from PIL import Image
 from tools.pdf_restore.build import build, check_export, validate_recognition_map
 from tools.pdf_restore.assemble import read_segment
 from tools.pdf_restore.inventory import pin, write_json
-from tools.pdf_restore.ocr import page_ocr
+from tools.pdf_restore.ocr import page_ocr, pixel_box
 from tests import test_image_source, test_pdf_build
 
 
 class RecognitionMapTests(unittest.TestCase):
+    def added_figure_fixture(self, root, jpeg):
+        fixture = test_image_source.ImageSourceTests() if jpeg else test_pdf_build.PDFBuildTests()
+        path = fixture.fixture(root)
+        base = path.parent
+        recipe = json.loads(path.read_bytes())
+        original = (base / 'map.json').read_bytes()
+        (base / 'recognition-map.json').write_bytes(original)
+        current = json.loads(original)
+        region = dict(current['regions'][1], id='r4', bbox=[.05, .39, .95, .59],
+                      notes='Additional original listing-frame context; no new recognition.')
+        current['regions'].append(region)
+        write_json(base / 'map.json', current)
+        recipe['map'] = pin(base, 'map.json')
+        recipe['ocr_bundles'][0].update(region_ids=['r1', 'r2', 'r3'],
+            recognition_map=pin(base, 'recognition-map.json'), added_figure_regions=['r4'])
+        assets = base / 'frame-assets'
+        assets.mkdir()
+        if jpeg:
+            with Image.open(root / current['pages'][0]['image']['path']) as image:
+                image.crop(pixel_box(region['bbox'], image.size)).save(assets / 'r4.png')
+        else:
+            Image.new('RGB', (30, 12), 'green').save(assets / 'r4.png')
+        evidence = json.loads((base / 'ocr/evidence.json').read_bytes())
+        evidence.update(results=[], images=[pin(assets, 'r4.png')])
+        write_json(assets / 'evidence.json', evidence)
+        recipe['ocr_bundles'].append(dict(directory='frame-assets', region_ids=['r4'],
+            manifest=pin(base, 'frame-assets/evidence.json')))
+        corrections = json.loads((base / 'corrections.json').read_bytes())
+        corrections['map'] = recipe['map']
+        corrections['records'].append(dict(id='r4', scan=pin(base, 'frame-assets/r4.png'), raw_ocr=None))
+        write_json(base / 'corrections.json', corrections)
+        recipe['corrections'] = pin(base, 'corrections.json')
+        recipe['figures'].append(dict(id='frame', region_id='r4', region_ids=['r4'], caption=None))
+        recipe['content_order'].append(dict(type='figure', id='frame'))
+        recipe['verification']['reviewed_region_ids'].append('r4')
+        write_json(path, recipe)
+        return path
+
+    def test_added_original_figures_rebuild_without_changing_recognition(self):
+        for jpeg in (False, True):
+            with self.subTest(jpeg=jpeg), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                path = self.added_figure_fixture(root, jpeg)
+                base = path.parent
+                old_evidence = (base / 'ocr/evidence.json').read_bytes()
+                old_files = {p.name: p.read_bytes() for p in (base / 'ocr').iterdir() if p.is_file()}
+                outputs = [root / 'work' / name for name in ('one', 'two')]
+                with patch('tools.pdf_restore.ocr.run_region', side_effect=AssertionError('No recognition')):
+                    for output in outputs:
+                        package = build(path, output, root)
+                        self.assertEqual(check_export(output), package)
+                        self.assertEqual(read_segment(output, pin(output, 'manifest.json'))[0], package)
+                        self.assertEqual(len(package['raw_ocr']), 2)
+                        self.assertEqual(len(package['region_assets']), 4)
+                        self.assertEqual(len(package['figures']), 2)
+                        for name, data in old_files.items():
+                            if name not in ('evidence.json', 'page.png'):
+                                self.assertEqual((output / 'ocr' / name).read_bytes(), data)
+                        self.assertEqual((output / 'frame-assets/r4.png').read_bytes(),
+                                         (base / 'frame-assets/r4.png').read_bytes())
+                        self.assertEqual((output / 'ocr/recognition-map.json').read_bytes(),
+                                         (base / 'recognition-map.json').read_bytes())
+                self.assertEqual((base / 'ocr/evidence.json').read_bytes(), old_evidence)
+                files = lambda folder: {p.relative_to(folder).as_posix(): p.read_bytes()
+                                        for p in folder.rglob('*') if p.is_file()}
+                self.assertEqual(files(outputs[0]), files(outputs[1]))
+
+    def test_added_figure_declarations_keep_all_original_map_gates(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path = self.added_figure_fixture(Path(temporary), True)
+            original = json.loads((path.parent / 'recognition-map.json').read_bytes())
+            current = json.loads((path.parent / 'map.json').read_bytes())
+            before, after = copy.deepcopy(original), copy.deepcopy(current)
+            validate_recognition_map(original, current, region_ids={'r1', 'r2', 'r3'},
+                                     added_figure_regions=['r4'])
+            self.assertEqual(original, before)
+            self.assertEqual(current, after)
+            for additions in (None, [], ['r4', 'r4'], ['unknown'], ['r2'], 'r4', [4], [['r4']]):
+                with self.subTest(additions=additions), self.assertRaises(ValueError):
+                    validate_recognition_map(original, current, region_ids={'r1', 'r2', 'r3'},
+                                             added_figure_regions=additions)
+            for scope in (None, {'r1', 'r2', 'r3', 'r4'}):
+                with self.subTest(scope=scope), self.assertRaises(ValueError):
+                    validate_recognition_map(original, current, region_ids=scope, added_figure_regions=['r4'])
+            mutations = {
+                'new text region': lambda p: p['regions'][-1].update(kind='prose'),
+                'undeclared extra figure': lambda p: p['regions'].append(dict(p['regions'][-1], id='r5')),
+                'changed selected bounds': lambda p: p['regions'][0].update(bbox=[.01, 0, .5, .4]),
+                'changed original note': lambda p: p['regions'][1].update(notes='changed'),
+                'removed original figure': lambda p: p['regions'].pop(1),
+                'reordered original regions': lambda p: p['regions'].reverse(),
+                'changed source': lambda p: p['source'].update(sha256='0' * 64),
+                'changed page': lambda p: p['pages'][0].update(printed_page='different'),
+                'changed exclusion': lambda p: p['excluded_regions'][0].update(bbox=[0, .61, 1, 1]),
+            }
+            for name, mutate in mutations.items():
+                bad = copy.deepcopy(current)
+                mutate(bad)
+                with self.subTest(name=name), self.assertRaises(ValueError):
+                    validate_recognition_map(original, bad, region_ids={'r1', 'r2', 'r3'},
+                                             added_figure_regions=['r4'])
+
+    def test_added_figure_bundle_requires_explicit_old_map_scope_and_asset_review(self):
+        for fault in ('no original map', 'no scope', 'no declaration', 'no asset', 'no review', 'wrong asset pin'):
+            with self.subTest(fault=fault), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                path = self.added_figure_fixture(root, True)
+                base = path.parent
+                recipe = json.loads(path.read_bytes())
+                if fault == 'no original map':
+                    del recipe['ocr_bundles'][0]['recognition_map']
+                elif fault == 'no scope':
+                    del recipe['ocr_bundles'][0]['region_ids']
+                elif fault == 'no declaration':
+                    del recipe['ocr_bundles'][0]['added_figure_regions']
+                elif fault == 'no asset':
+                    recipe['ocr_bundles'].pop()
+                elif fault == 'no review':
+                    corrections = json.loads((base / 'corrections.json').read_bytes())
+                    corrections['records'].pop()
+                    write_json(base / 'corrections.json', corrections)
+                    recipe['corrections'] = pin(base, 'corrections.json')
+                else:
+                    (base / 'frame-assets/r4.png').write_bytes(b'changed')
+                write_json(path, recipe)
+                output = root / 'work/rejected'
+                with self.assertRaises(ValueError):
+                    build(path, output, root)
+                self.assertFalse(output.exists())
+
     def test_targeted_recognition_calls_engine_only_for_selected_region(self):
         for jpeg in (False, True):
             with self.subTest(jpeg=jpeg), tempfile.TemporaryDirectory() as temporary:

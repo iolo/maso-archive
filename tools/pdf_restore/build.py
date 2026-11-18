@@ -42,7 +42,8 @@ def copy_pin(source_root, stage, record, destination=None):
     return pin(stage, destination)
 
 
-def validate_recognition_map(original, current, *, region_ids=None, unselected_note_revisions=None):
+def validate_recognition_map(original, current, *, region_ids=None, unselected_note_revisions=None,
+                             added_figure_regions=None):
     """Reuse OCR when the selected recognition regions are unchanged.
 
     Recognition settings still name the original, pinned map. Compare the full
@@ -50,13 +51,30 @@ def validate_recognition_map(original, current, *, region_ids=None, unselected_n
     bundle scope permits other regions' bounds to change for a targeted repair;
     all identities, roles, source/page records and exclusions still match.
     Notes match unless exact dispositions qualify annotations outside the scope.
-    Without a scope only figure bounds may differ, as before.
+    Without a scope only figure bounds may differ, as before. An explicit
+    added_figure_regions list may account for new figure-only contexts outside
+    the retained recognition scope. It must name every added region exactly;
+    source/page records, old regions and all text remain bound to the old map.
     """
     before, after = (deepcopy(validate_package(p)) for p in (original, current))
     if region_ids is not None:
         known = {r['id'] for r in before['regions']}
         if not region_ids or not set(region_ids) <= known:
             raise ValueError('Recognition scope must name mapped regions')
+    if added_figure_regions is not None:
+        if (region_ids is None or not isinstance(added_figure_regions, list) or
+                not added_figure_regions or
+                any(not isinstance(id, str) or not id.strip() for id in added_figure_regions) or
+                len(set(added_figure_regions)) != len(added_figure_regions)):
+            raise ValueError('Added figures require an explicit recognition scope and distinct region IDs')
+        old_regions = {r['id']: r for r in before['regions']}
+        new_regions = {r['id']: r for r in after['regions']}
+        additions = set(added_figure_regions)
+        if (additions != new_regions.keys() - old_regions.keys() or
+                additions & set(region_ids) or
+                any(new_regions[id]['kind'] != 'figure' for id in additions)):
+            raise ValueError('Added figure disposition must cover only every new unrecognized figure region')
+        after['regions'] = [r for r in after['regions'] if r['id'] not in additions]
     if unselected_note_revisions is not None:
         if region_ids is None or not isinstance(unselected_note_revisions, list) or not unselected_note_revisions:
             raise ValueError('Note revisions require explicit recognition scope and dispositions')
@@ -224,6 +242,8 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
         for bundle in recipe['ocr_bundles']:
             if 'unselected_note_revisions' in bundle and 'recognition_map' not in bundle:
                 raise ValueError('Note dispositions require an original recognition map')
+            if 'added_figure_regions' in bundle and 'recognition_map' not in bundle:
+                raise ValueError('Added figure dispositions require an original recognition map')
             folder = safe_path(base, bundle['directory'])
             manifest = json.loads(checked(base, bundle['manifest']))
             bundle_page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)
@@ -243,7 +263,8 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                 # Compare the input map, before blocks/assets are added below.
                 current = json.loads(checked(base, recipe['map']))
                 validate_recognition_map(original, current, region_ids=selected_ids,
-                    unselected_note_revisions=bundle.get('unselected_note_revisions'))
+                    unselected_note_revisions=bundle.get('unselected_note_revisions'),
+                    added_figure_regions=bundle.get('added_figure_regions'))
                 copy_pin(base, stage, recognition_map,
                          f'{bundle["directory"]}/recognition-map.json')
             page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)
