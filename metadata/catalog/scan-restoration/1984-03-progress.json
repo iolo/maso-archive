@@ -7828,7 +7828,7 @@
       "title": "Q&A",
       "parent_id": "maso-1984-03-toc-0038",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "source-compared-native-restoration-pending",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0042",
@@ -7888,7 +7888,36 @@
         257,
         258,
         259
-      ]
+      ],
+      "source_work_evidence": {
+        "path": "metadata/catalog/scan-restoration/1984-03-qa-work.json",
+        "sha256": "5d0a4fafdf89837565c775c5a5b31f2fcf0c20255984ab6c48a7d4b0e6b12d93",
+        "bytes": 6250
+      },
+      "located_source_evidence": {
+        "actual_folio": 256,
+        "actual_folios": [
+          256,
+          257,
+          258,
+          259
+        ],
+        "observed_title": "Q.A",
+        "canonical_identity_verified": true,
+        "source_extent_verified": true,
+        "restoration_pending": true,
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-73/full-page-review-01.json",
+          "sha256": "f437a1992f67fa8a2eb7668f4bee9216b605a231b7c4c192b3cf9756ce8364ae",
+          "bytes": 5918
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-73/full-page-review-01.json",
+          "sha256": "f437a1992f67fa8a2eb7668f4bee9216b605a231b7c4c192b3cf9756ce8364ae",
+          "bytes": 5918
+        },
+        "note": "Complete four-page Q&A and independent255/260 boundaries personally verified; one source pass and complete source-work audit are closed. Native structure,exports and acceptance remain pending."
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0043",
@@ -8101,23 +8130,24 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-72/source-ledger-01.json",
-    "sha256": "a64a8e09a458350c0c19eb022bbe9614ea38eaf09cb85be38225ab866bf520f2",
-    "bytes": 498092
+    "path": "archive/scans/1984-03/restoration/whole-issue-73/source-ledger-source-01.json",
+    "sha256": "64149d1beed4d5cc477aa0860bb5b34f90da5d591d6130bb72e7679739787f5c",
+    "bytes": 502344
   },
-  "current_checkpoint": "M76",
-  "next": "M77: Restore Q&A, maso-1984-03-toc-0042, candidate actual256–259, in fresh whole-issue-73. Verify complete original source extent, title, all questions/answers and separate255/260 neighbors before mapping; previously viewed256 is outside context only, not restored. Stay within two articles/six selected views/twenty outside contexts. Review full-page maps before first-attempt pinned OCR, read every raw draft, then make one prospective source comparison. Preserve physical code rows, independent program contexts, tables/figures, question/answer ownership, source errors, uncertainties and original raster associations. Encode and personally review native source contexts, build two exact exports and independently audit all source/native occurrences, typed references, ranges, assets and damaged cases before acceptance. Then restore contest results243, resolve non-owning information heading0038, account for all20 currently pending page dispositions and build/audit reproducible whole-issue exports across all273 scans. Whole March remains active. Frozen M76 and predecessors are DATA ONLY; never execute, import or modify frozen helpers, evidence or snapshots. Shared implementation315 tests/58 pins unchanged; no successful OCR reruns; cleanup preview only.",
+  "current_checkpoint": "M77",
+  "next": "Continue M77 inside unfrozen whole-issue-73. Complete Q&A256–259 source comparison is audited:52 text owners,56 crops,52 first-attempt OCR bindings,11 Q&A contexts,420 native table cells/48 blanks,14 physical code rows/10 source units,44 source qualifications and30 rejected damaged source cases. Read source-compared-readings-01.json,qa-source-ownership-01.json,native-structure-plan-01.json andnative-implementation-plan-02.json as authoritative closed source input; do not rerun OCR or reopen/correct the source pass. Encode and personally review native structures for all source contexts, preserve question/answer and source-table ownership,code wraps/unknowns and qualified table2 association, then build two exact exports and independently audit all native source values,typed references,ranges,assets and damaged cases before accepting Q&A. The source work is not a selected native package. Then restore contest results243,resolve non-owning information heading0038,account for all16 currently pending full-page dispositions and produce reproducible whole-issue exports/completion audit for all273 scans. Whole March remains active. All frozen predecessors,including M76,are DATA ONLY:never execute/import/modify frozen helpers or snapshots. Shared implementation315 tests/58 pins unchanged;cleanup preview only.",
   "pending_article_candidates": 2,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M76",
+    "checkpoint": "M77",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-debugging.json",
-      "sha256": "b3fd9134c3dc8e8f47369a75b3f760d4817deb7a2ec15fb98f7ddf9e55229939",
-      "bytes": 6339
+      "path": "metadata/catalog/scan-restoration/1984-03-qa-work.json",
+      "sha256": "5d0a4fafdf89837565c775c5a5b31f2fcf0c20255984ab6c48a7d4b0e6b12d93",
+      "bytes": 6250
     },
-    "accepted": true
+    "accepted": false,
+    "source_work_audited": true
   }
 }

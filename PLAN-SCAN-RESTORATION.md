@@ -1258,6 +1258,23 @@ resolve the information heading,account for every remaining source page and
 finish reproducible whole-issue exports/completion audit. See the
 [M76 native handoff](docs/SCAN-RESTORATION-1984-03-M76.md).
 
+
+**M77 Q&A source work covers all actual256–259 and remains native pending.**
+The independent source audit verifies56 original-master crops,52 unchanged OCR
+bindings,52 source owners and11 question/answer contexts;all30 damaged source
+cases reject. Both token tables retain420 cells,including48 blanks. Three
+independent code contexts retain14 physical rows/10 units;all44 source
+qualifications and the single bibliography entry remain. One prospective source
+pass is closed with no retries or post-pass source changes. Continue native
+encoding,personal geometry review,two exact exports and independent native audit
+inside **unfrozen whole-issue-73**, using resume-source-work-01.json. Do not rerun
+OCR or reopen the closed source pass. Shared implementation remains315 tests/58
+pins. Whole March remains active: **36 complete articles,zero partial,two pending
+articles,one pending heading and16 pending full-page dispositions /273 scans**.
+Then restore contest results243,resolve the information heading,account for all
+remaining source pages and finish reproducible whole-issue exports/completion
+audit. See the [M77 source handoff](docs/SCAN-RESTORATION-1984-03-M77-SOURCE-WORK.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
