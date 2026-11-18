@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M65",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0035",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "한글 워드 프로세서 프로그램",
+  "observed_source_title": "한글 워드프로세서 프로그램",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249
+  ],
+  "article_actual_folios": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251
+  ],
+  "deferred_actual_folios": [
+    250,
+    251
+  ],
+  "selected_package": "archive/scans/1984-03/packages/word-jpeg-opening-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/word-jpeg-opening-r01/manifest.json",
+    "sha256": "874b7778e2b34dba15f1e1936fbbe5631cca9c5d655e917f234ce5d33fd86a97",
+    "bytes": 22970
+  },
+  "exact_files": 128,
+  "manifest_payload_files": 127,
+  "master_crops": 35,
+  "recognition_bindings": 26,
+  "recognition_tasks": 26,
+  "recognition_retries": 0,
+  "new_native_stage_recognition_calls": 0,
+  "native_index_records": 18558,
+  "typed_references": 105141,
+  "source_and_active_byte_spans": 41545,
+  "source_asset_bindings": 18694,
+  "source_qualifications": 45,
+  "source_native_qualifications": 70,
+  "native_structure": {
+    "structures": 82,
+    "fields": 4742,
+    "reviewed_geometry_fields": 847,
+    "physical_context_rows": 567,
+    "paths": 116,
+    "code_physical_rows": 409,
+    "code_source_units": 220,
+    "display_fields": 3895,
+    "paragraphs": 16,
+    "qualifications": 70
+  },
+  "variable_groups": 6,
+  "program_overview_entries": 29,
+  "flowchart_search_fields": 77,
+  "monitor_lines": 5,
+  "original_raster_contexts": 9,
+  "rejected_damaged_geometry_cases": 18,
+  "rejected_damaged_contract_cases": 14,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/native-opening-validation-01.json",
+    "sha256": "fb34496f6148551c4a225e7be7d6d54d5963d66b01a2d736cce8ae617531c9cb",
+    "bytes": 2964
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/recipe-native-02.json",
+    "sha256": "11bc7976a804ee5c76b332ebd295b4633aab417668fbe317854159201835195d",
+    "bytes": 15461
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-readings-01.json",
+    "sha256": "2f2d02d2420f208f924b871afccb9b028b31cdff99c935346fc6937d7c234c8b",
+    "bytes": 114130
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/native-geometry-selection-01.json",
+    "sha256": "ec186e22485594d66f6e31ada1e6b2227682ddd4d3e05294ddf4b3c86cc5ba9a",
+    "bytes": 9110
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-ledger-native-01.json",
+    "sha256": "3815bae96a7ef2b90798d1c690529dc986e411bbf0bce682e2769d5800c30e13",
+    "bytes": 456912
+  },
+  "source_dispositions_pending": 42,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/resume.json",
+    "sha256": "55d5d34b5f116ec2a5a55a90e4f1328fd43bfb804e25feb1028dd91f322c6309",
+    "bytes": 10474
+  },
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/implementation-after-01.json",
+    "sha256": "ee7113c8921e8f45c82952cc2ed1209be1ae0df666a5a94a45b6ab4e0ff831f3",
+    "bytes": 10400
+  },
+  "shared_implementation_changed": true,
+  "qualified_regression_tests": 309,
+  "fresh_regression_tests": 309,
+  "complete_whole_scan_articles": 30,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 7,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "native_opening_segment_accepted": true,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "next": "M66: restore the final original 250–251 of 한글 워드 프로세서 프로그램 (maso-1984-03-toc-0035). Preserve accepted M65 opening 244–249 and verified full 244–251 extent. Review source-backed historical M01 evidence before reuse; retain all successful OCR whose exact source/map/crop/runtime/settings match. Preserve the incoming unnumbered continuation of 3190 from 249 HPLOT, every physical/logical listing row, Hangul program glyphs, original listing frames and final 4150. Complete explicit split-statement source continuity, then assemble/reproduce/audit the whole 244–251 article. Continue all seven other pending March articles, the information heading and 42 pending full-page dispositions through reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M65/M64/predecessor helpers/evidence or implementation snapshots. Shared implementation is qualified by 309 tests and 55 pins; broaden tests only for new shared changes.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/evidence-manifest.json",
+    "sha256": "cf902c372e55475269df647a9a01c79705d64a3b8e5bc1dd258c2e4446ab07de",
+    "bytes": 138386
+  },
+  "frozen_evidence_files": 733,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/whole-progress-m65.json",
+    "sha256": "88def4b9e4780c64a98a3fc6cc1a296ac3edc091426a0c6dffe815569d2697b0",
+    "bytes": 247245
+  }
+}

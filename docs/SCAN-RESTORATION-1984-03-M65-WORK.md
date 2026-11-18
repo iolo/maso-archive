@@ -1,5 +1,11 @@
 # March M65 — word processor opening in progress
 
+This is the historical preparation record. M65 now accepts the native 244–249
+opening in two exact 128-file exports and freezes 733 evidence files. See the
+[accepted M65 handoff](SCAN-RESTORATION-1984-03-M65.md) for the current result.
+Final 250–251, complete-article assembly and the rest of March remain active.
+The unfinished states below describe the earlier work checkpoints.
+
 The task remains **the whole March 1984 donated-scan issue**: every eligible
 article and native structure, all **273 scans** accounted for, and reproducible
 article and whole-issue exports with a completion audit. The historical

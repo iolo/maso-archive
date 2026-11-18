@@ -2,8 +2,8 @@
   "schema_version": 1,
   "issue_id": "1984-03",
   "checkpoint": "M65-work",
-  "updated_at": "2026-11-18T11:18:48.906914+00:00",
-  "status": "reviewed-native-program-rows-and-listing-frames;remaining-native-geometry-and-exports-pending",
+  "updated_at": "2026-11-18T12:01:37.816785+00:00",
+  "status": "superseded-by-accepted-M65-native-opening",
   "scope": "Whole donated-scan issue restoration, including every eligible article and native structure, all source-image dispositions and independent native article/issue rebuilds.",
   "toc_entry_id": "maso-1984-03-toc-0035",
   "canonical_received_title": "한글 워드 프로세서 프로그램",
@@ -44,21 +44,19 @@
   "source_readings_compared": 26,
   "source_readings_pending": 0,
   "source_qualifications_recorded": 45,
-  "native_geometry_complete": false,
-  "native_opening_segment_accepted": false,
+  "native_geometry_complete": true,
+  "native_opening_segment_accepted": true,
   "native_article_accepted": false,
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "evidence_frozen": false,
+  "evidence_frozen": true,
   "review_level": "assistant-source-comparison;not-human-acceptance",
   "accepted_counts": {
-    "complete_articles": 30,
-    "partial_articles": 0,
-    "pending_articles": 8,
-    "complete_headings": 5,
-    "pending_headings": 1,
-    "source_dispositions_pending": 42,
-    "source_images": 273
+    "complete_whole_scan_articles": 30,
+    "partial_whole_scan_articles": 1,
+    "pending_article_candidates": 7,
+    "complete_whole_scan_headings": 5,
+    "pending_heading_candidates": 1
   },
   "shared_implementation_changed": true,
   "qualified_regression_tests": 309,
@@ -151,19 +149,19 @@
     "bytes": 1927
   },
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-ledger.json",
-    "sha256": "f1195a222c8f4e4298511fae01431f091918ce7676bc04f13622d8ac01cab9a1",
-    "bytes": 452422
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-ledger-native-01.json",
+    "sha256": "3815bae96a7ef2b90798d1c690529dc986e411bbf0bce682e2769d5800c30e13",
+    "bytes": 456912
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-61/resume.json",
-    "sha256": "6f9470ca0b1ceb40bc094ea615f8e21e86d7da09c5a2dd82016d60aa030c8a23",
-    "bytes": 8761
+    "sha256": "55d5d34b5f116ec2a5a55a90e4f1328fd43bfb804e25feb1028dd91f322c6309",
+    "bytes": 10474
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/process-outcomes-03.json",
-    "sha256": "4c632b51acc131f13014d68f0390bc0a97146272b1e4c9f3e6a2899e89f6b09b",
-    "bytes": 3076
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/process-outcomes-04.json",
+    "sha256": "6cedfcf65662f35e47d21075b03675555b925c2ed0861b8e0c1a0bd0b69e05dc",
+    "bytes": 2669
   },
   "historical_comparison_packages": [
     {
@@ -205,16 +203,16 @@
       "comparison_status": "preserved;not-selected-for-whole-JPEG-restoration"
     }
   ],
-  "native_recipe_created": false,
-  "native_package_selected": false,
+  "native_recipe_created": true,
+  "native_package_selected": true,
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/cleanup-preview-03.log",
-    "sha256": "a4498280ad1af450713829dfd2bfea200526d23885a720a57a17cab9bfc5df03",
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/cleanup-preview-04.log",
+    "sha256": "4f32d87948b72da95b7d22cd07dab61ec9d2ecb5db31727406798cdae79711e4",
     "bytes": 233
   },
   "cleanup_preview_only": true,
   "deleted_files": 0,
-  "next": "Continue unfrozen M65 with the complete original flowchart, monitor, inline key/glyph and variable/range geometry on selected 244–249. Preserve all 26 compared owners and 45 qualifications, selected program R03 row contexts, seven reviewed listing-frame rasters/outlines and exact 3,895 field-to-row bindings. Those bindings have physical-row specificity, not individual glyph bounds or encoded blank/control-byte claims. Bind every remaining native field/path, source paragraph, caption/reference, physical/logical program row and exact source wrap into the final contract. Use selected map R02 with explicit added_figure_regions and four asset-only bundles; every retained OCR bundle must keep its original R01 recognition_map and exact original region scope/settings. Produce two fresh matching opening exports and an independent full source/native audit before accepting 244–249. Then restore final 250–251 with source-backed historical reuse only where proven, explicitly join outgoing 3190, and assemble/reproduce/audit the complete 244–251 article. Continue all eight pending March articles, the information heading and 42 remaining full-page dispositions through whole-March export and completion audit. Never execute or modify frozen M64/predecessors or implementation snapshots. Shared support is qualified by 309 fresh tests and 55 pins; no recognition rerun is required.",
+  "next": "M66: restore the final original 250–251 of 한글 워드 프로세서 프로그램 (maso-1984-03-toc-0035). Preserve accepted M65 opening 244–249 and verified full 244–251 extent. Review source-backed historical M01 evidence before reuse; retain all successful OCR whose exact source/map/crop/runtime/settings match. Preserve the incoming unnumbered continuation of 3190 from 249 HPLOT, every physical/logical listing row, Hangul program glyphs, original listing frames and final 4150. Complete explicit split-statement source continuity, then assemble/reproduce/audit the whole 244–251 article. Continue all seven other pending March articles, the information heading and 42 pending full-page dispositions through reproducible whole-issue export/completion audit. Whole March remains active. Never execute or modify frozen M65/M64/predecessor helpers/evidence or implementation snapshots. Shared implementation is qualified by 309 tests and 55 pins; broaden tests only for new shared changes.",
   "physical_nonempty_code_rows": 409,
   "visible_source_statement_labels": 220,
   "complete_source_units": 219,
@@ -268,7 +266,7 @@
   "new_recognition_tasks": 0,
   "recognition_reruns": 0,
   "native_work": {
-    "structures": 14,
+    "structures": 82,
     "row_fields": 409,
     "separate_code_contexts": 7,
     "frame_paths": 7,
@@ -301,14 +299,25 @@
     },
     "damaged_native_work_rejections": 10,
     "spatial_specificity": "Observed physical-row contexts and exact source text spans; no individual glyph bounds or encoded blank/control bytes are certified.",
-    "remaining_geometry": [
-      "complete original flowchart",
-      "original monitor",
-      "inline key boxes and glyphs",
-      "six variable groups",
-      "29 program overview entries"
-    ],
-    "full_native_integration_pending": true
+    "remaining_geometry": [],
+    "full_native_integration_pending": false,
+    "fields": 4742,
+    "paths": 116,
+    "geometry_selection": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/native-geometry-selection-01.json",
+      "sha256": "ec186e22485594d66f6e31ada1e6b2227682ddd4d3e05294ddf4b3c86cc5ba9a",
+      "bytes": 9110
+    },
+    "complete_geometry_validation": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/native-geometry-validation-01.json",
+      "sha256": "fb58b21ec71593d36874907a335229a4dfbc4ac87f510a0ae92a038664660e00",
+      "bytes": 2956
+    },
+    "complete_export_validation": {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/native-opening-validation-01.json",
+      "sha256": "fb34496f6148551c4a225e7be7d6d54d5963d66b01a2d736cce8ae617531c9cb",
+      "bytes": 2964
+    }
   },
   "changed_implementation_files": [
     "tools/pdf_restore/assemble.py",
@@ -325,5 +334,15 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-61/regression-summary-01.json",
     "sha256": "57a92eb9d038093f48b175ce2db2b544d71d9d38b44278b9a8a3e7ab39604c31",
     "bytes": 1533
+  },
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-word-opening.json",
+    "sha256": "2cac761d7f0d37c3dd0beca07e8eee377a001e5923ccb18d2ba13989241bbe32",
+    "bytes": 5458
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/evidence-manifest.json",
+    "sha256": "cf902c372e55475269df647a9a01c79705d64a3b8e5bc1dd258c2e4446ab07de",
+    "bytes": 138386
   }
 }

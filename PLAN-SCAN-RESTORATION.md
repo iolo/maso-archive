@@ -871,37 +871,38 @@ before reuse. Then finish every remaining March task through whole-issue export
 and completion audit. See the [M64 handoff](docs/SCAN-RESTORATION-1984-03-M64.md)
 and [complete article](metadata/catalog/scan-restoration/1984-03-ad.json).
 
-**M65 is unfinished work on the word processor opening, actual 244–249.**
-Personal full-page comparison verifies its complete **244–251** extent and
-separate neighbors 243/252. All six original R01 map overlays, **28 recognition crops**
-and **26 first-attempt OCR bindings** pass coverage/provenance checks. All raw
-drafts were read before source correction; **all 26 text owners** now have
-enlarged comparison with **45 qualifications**. Exact source indexes retain
-**409 nonempty code rows, 220 statement labels, 3,895 display fields**, six
-variable groups, 29 program overview entries, 77 flowchart fields and five
-monitor lines. Source-work audit and eleven damaged-contract rejections pass;
-full native integration, exports and acceptance still require completion.
-Keep the source's duplicate `X +` in 3160, `= <` in 1280 and outgoing incomplete
-3190. R01's failed overview ownership assertion is preserved; selected R02 keeps
-the 1440 sublist under 1420–1480. Final 250–251 and complete
-article assembly/audit are also required. Eight new full-page dispositions leave
-**42 pending / 273 scans**; article/heading acceptance totals remain unchanged
-at **30 complete articles, eight pending articles, five complete headings and
-one pending heading**. The checkpoint stays unfrozen; no new article is accepted.
-Selected R02 now preserves seven original listing-frame rasters through an
-explicit added-figure OCR-reuse contract. All **35 source crops** match original
-pixels; all **26 original recognitions** remain unchanged. Reviewed native work
-retains **fourteen structures, 409 row fields, seven code contexts, seven frame
-paths, 3,895 field-to-row bindings and 2,875 layout-gap contexts**. Two clipped
-standalone numeral contexts are repaired in program R03; other 407 rows are
-unchanged. Ten damaged native-work cases reject. **Flowchart, monitor, inline
-key/glyph and variable/range geometry, full native integration, exports and
-acceptance remain pending.** Shared builder/segment-reader support passes
-**309 fresh tests with 55 qualified implementation/test pins**. Preserve every
-successful OCR attempt and all failed geometry attempts. Continue every remaining
-March task through whole-issue export
-and completion audit. See the [M65 work handoff](docs/SCAN-RESTORATION-1984-03-M65-WORK.md)
-and [work record](metadata/catalog/scan-restoration/1984-03-word-opening-work.json).
+**M65 accepts the native word processor opening, actual 244–249**, of the verified
+**244–251** article. Two fresh exports match exactly across **128 files**.
+Independent audit checks all **35 original source crops**, **26 unchanged
+first-attempt OCR bindings**, exact source/native ownership and fourteen damaged
+contract rejections; the preceding geometry audit rejects eighteen damaged cases.
+The opening preserves **409 physical code rows, 220 source units and 3,895 exact
+display fields**; **82 structures, 4,742 native fields, 567 physical context rows
+and 116 paths**; six variable groups, 29 program-range entries, sixteen prose
+paragraphs, all nine original raster contexts and **70 source/native
+qualifications**, including all 45 source qualifications. Code display fields
+have observed row contexts and exact text spans; original encoded/control/blank
+bytes and individual code glyph bounds are not certified.
+
+The complete original flowchart, monitor, inline keys/glyphs, listing frames,
+caption/inset relationships and prose star now have reviewed native integration.
+Keep literal `할입니다.`, `= <` in 1280, the duplicate `X +` in 3160, the nested
+1440 explanation and outgoing incomplete 3190. Monitor R02 repairs drifting
+contours; overview R02 expands 23 clipped labels. All earlier candidates and
+failed attempts remain preserved. Shared support retains **309 fresh applicable
+tests and 55 qualified implementation/test pins**. M65 freezes **733 evidence
+files**; never execute or modify its helpers/evidence or snapshots. Cleanup was
+preview-only with no deletion.
+
+Whole March remains active with **30 complete articles, one partial article,
+seven pending articles, five complete headings, one pending heading and
+42 pending full-page dispositions / 273 scans**. Continue **M66** with final
+**250–251**, prove exact source-backed historical reuse before selecting it,
+explicitly join 3190's unnumbered continuation after 249 `HPLOT`, and
+assemble/reproduce/audit the complete **244–251** article. Then finish every
+remaining March article, heading and disposition through reproducible whole-issue
+export and completion audit. See the [M65 native handoff](docs/SCAN-RESTORATION-1984-03-M65.md)
+and [accepted opening](metadata/catalog/scan-restoration/1984-03-word-opening.json).
 
 ## Aim
 
