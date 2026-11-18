@@ -43,7 +43,7 @@ def copy_pin(source_root, stage, record, destination=None):
 
 
 def validate_recognition_map(original, current, *, region_ids=None, unselected_note_revisions=None,
-                             added_figure_regions=None):
+                             added_figure_regions=None, recognition_source_indices=None):
     """Reuse OCR when the selected recognition regions are unchanged.
 
     Recognition settings still name the original, pinned map. Compare the full
@@ -57,6 +57,27 @@ def validate_recognition_map(original, current, *, region_ids=None, unselected_n
     source/page records, old regions and all text remain bound to the old map.
     """
     before, after = (deepcopy(validate_package(p)) for p in (original, current))
+    if recognition_source_indices is not None:
+        # A complete JPEG article may combine disjoint, unchanged segment maps.
+        # Keep the pinned original mapping commentary with its recognition map;
+        # only the combined map's commentary and pages outside this scope differ.
+        indices = recognition_source_indices
+        if (before['schema_version'] != 2 or after['schema_version'] != 2 or
+                not isinstance(indices, list) or not indices or
+                any(type(n) is not int or n < 0 for n in indices) or
+                len(set(indices)) != len(indices) or
+                indices != [p['source_index'] for p in before['pages']] or
+                not set(indices) < {p['source_index'] for p in after['pages']} or
+                region_ids is None or not region_ids or
+                not set(region_ids) <= {r['id'] for r in before['regions']} or
+                unselected_note_revisions is not None or added_figure_regions is not None):
+            raise ValueError('Recognition source scope requires exact original JPEG pages and region IDs')
+        for field in ('pages', 'regions', 'excluded_regions'):
+            after[field] = [r for r in after[field] if r['source_index'] in indices]
+        after['mapping'] = deepcopy(before['mapping'])
+        if before != after:
+            raise ValueError('Recognition source scope differs from its complete original map')
+        return
     if region_ids is not None:
         known = {r['id'] for r in before['regions']}
         if not region_ids or not set(region_ids) <= known:
@@ -240,6 +261,8 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
         raw_regions = set()
         selector = page_selector(package)
         for bundle in recipe['ocr_bundles']:
+            if 'recognition_source_indices' in bundle and 'recognition_map' not in bundle:
+                raise ValueError('Recognition source scope requires an original recognition map')
             if 'unselected_note_revisions' in bundle and 'recognition_map' not in bundle:
                 raise ValueError('Note dispositions require an original recognition map')
             if 'added_figure_regions' in bundle and 'recognition_map' not in bundle:
@@ -264,7 +287,8 @@ def build(recipe_path, output, root=ROOT, *, preview=False):
                 current = json.loads(checked(base, recipe['map']))
                 validate_recognition_map(original, current, region_ids=selected_ids,
                     unselected_note_revisions=bundle.get('unselected_note_revisions'),
-                    added_figure_regions=bundle.get('added_figure_regions'))
+                    added_figure_regions=bundle.get('added_figure_regions'),
+                    recognition_source_indices=bundle.get('recognition_source_indices'))
                 copy_pin(base, stage, recognition_map,
                          f'{bundle["directory"]}/recognition-map.json')
             page = next((p for p in package['pages'] if p[selector] == manifest[selector]), None)

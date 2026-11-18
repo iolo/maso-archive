@@ -408,6 +408,17 @@ to name the original map hash. The export retains that map under the bundle's
 bundle and record the derived figure asset and its review separately. This
 opt-in path supports both PDF and JPEG maps and never reruns recognition.
 
+For a complete JPEG article composed from disjoint accepted maps, each bundle
+may additionally declare `recognition_source_indices`: the ordered, complete
+source-index list of its pinned original map. The combined map must contain a
+strict superset of those pages. Projecting it onto that scope must reproduce
+every original page, region, exclusion, crop, note and identity exactly. Only
+the combined mapping commentary may differ; the original commentary remains
+in the pinned recognition map. This scope cannot be combined with crop, added
+figure or note revisions. Original OCR settings still name the original map,
+and both export and later immutable-segment reading check this contract. This
+assembly-only opt-in never changes legacy map comparison or reruns recognition.
+
 To preserve an additional original figure context, such as the printed frame
 around an already recognized listing, a retained bundle can explicitly name
 `added_figure_regions` alongside its original `recognition_map` and unchanged

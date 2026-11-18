@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M72",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0037",
+  "status": "complete-native-article",
+  "canonical_received_title": "심층취재 : 살아서 움직이는 현장 세운상가",
+  "observed_source_title": "살아서 숨쉬는 현장",
+  "observed_running_title": "살아서 움직이는 현장",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "source_indices": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/sewoon-jpeg-complete-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/sewoon-jpeg-complete-r01/manifest.json",
+    "sha256": "c5e1e274c1985239c5eed738cb1685a663837c5126f2aa6ff8986bcfa51d3b20",
+    "bytes": 48509
+  },
+  "exact_files": 271,
+  "manifest_payload_files": 270,
+  "raw_archive_members": 249,
+  "master_crops": 71,
+  "recognition_bindings": 59,
+  "new_recognition_calls": 0,
+  "new_source_comparison_passes": 0,
+  "successful_recognition_reruns": 0,
+  "source_local_values_unchanged": true,
+  "source_qualifications": 71,
+  "original_source_native_qualifications": 82,
+  "total_source_native_qualifications": 85,
+  "native_index_records": 7702,
+  "typed_references": 53735,
+  "byte_spans": 16160,
+  "asset_bindings": 10057,
+  "native_structure": {
+    "structures": 113,
+    "fields": 3291,
+    "context_rows": 1113,
+    "paths": 24,
+    "original_rasters": 12,
+    "printed_directory_headings": 43,
+    "company_contexts": 44,
+    "physical_table_cells": 72,
+    "blank_table_cells": 6,
+    "logical_models": 9
+  },
+  "resolved_continuation_declarations": 4,
+  "internal_assembly_resolutions": 4,
+  "rejected_damaged_cases": 32,
+  "source_segments": [
+    {
+      "name": "opening",
+      "manifest": {
+        "path": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01/manifest.json",
+        "sha256": "4e22746a2bcb053f959ffadb95d2de2067174387a8f49264327fa01a9b5a61f1",
+        "bytes": 26997
+      },
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/recipe-native-01.json",
+        "sha256": "4ac9a3763e86c33da76c3c14da30139af6ad2322fae156d13b0f58c6f1c3e54e",
+        "bytes": 9786
+      },
+      "validation": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-65/native-validation-01.json",
+        "sha256": "cf99730ed052b1d3d5853fd3a2eeb9894854548cb3120d46b38ff6360cb07b30",
+        "bytes": 9815
+      },
+      "corrections": {
+        "path": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01/corrections.json",
+        "sha256": "22343259df3016c02e0ae8015c334b11e53b193bd7c145b199aea411d3a7360d",
+        "bytes": 2624173
+      },
+      "original_segment_continuations": [
+        {
+          "kind": "explicit-outgoing-mid-word-source-fragment",
+          "source_occurrence": {
+            "block_id": "p195-software-right",
+            "literal": "워드",
+            "start_byte": 1015,
+            "end_byte": 1021,
+            "source_segments": [
+              {
+                "region_id": "p195-software-right",
+                "scan": {
+                  "path": "ocr-r01/p195/p195-software-right.png",
+                  "sha256": "0ccadfee372bce6886357e8e709a6c57ebbbc03cec4d1c10f71694637bcaf281",
+                  "bytes": 4377124
+                },
+                "literal": "워드",
+                "regional_start_byte": 1015,
+                "regional_end_byte": 1021,
+                "start_byte": 1015,
+                "end_byte": 1021
+              }
+            ],
+            "download": "article.txt",
+            "utf8_byte_start": 20443,
+            "utf8_byte_end_exclusive": 20449
+          },
+          "to_actual_folio": 196,
+          "expected_incoming_literal": "프로세서를",
+          "logical_separator": "",
+          "source_extent_verified": true,
+          "target_native_pending": true,
+          "source_view": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-65/review/full-196.jpg",
+            "sha256": "0b476d0b05f94f5f89b0c5faea9775b12afc99acc0e328b15ae83e10de393952",
+            "bytes": 675006
+          }
+        }
+      ],
+      "original_coverage": {
+        "complete_article": false,
+        "article_extent_verified": true,
+        "source_pages_missing": false,
+        "included_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ],
+        "article_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "deferred_actual_folios": [
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "included_source_indices": [
+          196,
+          197,
+          198,
+          199,
+          200,
+          201
+        ],
+        "assembly_required": true,
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-65/full-page-review-01.json",
+          "sha256": "2efb682bb9fa37212c50ac60f7cc0685e478954848f915e121e9232f313a87da",
+          "bytes": 16284
+        }
+      },
+      "original_limitations": [
+        "Partial native feature opening190–195;complete source extent190–204 verified. Later native196–204 remains deferred and whole March remains active.",
+        "The outlined title preserves four original glyph contexts. Physical text wraps and historical spelling/model/price/capability claims remain unchanged. No original encoded bytes or independent technical validation is certified.",
+        "Original 192/193 photograph panels remain separate. Shop-sign search fields are partial and qualified; small, clipped and obscured letters and two AVECO telephone lines remain unresolved. No replacement imagery or missing digits are invented.",
+        "Native geometry is approximate source context with exact text spans,not individual glyph-bound certification. Two exact exports and independent audit remain acceptance gates."
+      ],
+      "original_reading_policy": {
+        "physical_prose_wraps_preserved": true,
+        "search_line_breaks_are_not_original_encoded_bytes": true,
+        "source_picture_lettering_is_partial": true,
+        "source_errors_retained": true
+      },
+      "rebased_active_spans": 954
+    },
+    {
+      "name": "middle",
+      "manifest": {
+        "path": "archive/scans/1984-03/packages/sewoon-jpeg-middle-r01/manifest.json",
+        "sha256": "c34e877a83ef01817009bde736ec9727328770cbc7ed211dd177c09b87d09981",
+        "bytes": 15928
+      },
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-66/sewoon-b/recipe-native-01.json",
+        "sha256": "a27d7f48583d78485276556b24b35a9e628040df714eaec7f22572ff80994d07",
+        "bytes": 9095
+      },
+      "validation": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-66/native-validation-01.json",
+        "sha256": "2a105a015f0e79ba31319bb35d671cf9552eaf6c00268f998b836677392f2a52",
+        "bytes": 8374
+      },
+      "corrections": {
+        "path": "archive/scans/1984-03/packages/sewoon-jpeg-middle-r01/corrections.json",
+        "sha256": "8440848b45caf85b5b5b8a4d04e784d861bf35281374ed9c5dd35d5ca4320eaf",
+        "bytes": 6291005
+      },
+      "original_segment_continuations": [
+        {
+          "kind": "explicit-incoming-mid-word-source-fragment",
+          "source_occurrence": {
+            "block_id": "p196-software-left-continuation",
+            "literal": "프로세서를",
+            "start_byte": 0,
+            "end_byte": 15,
+            "source_segments": [
+              {
+                "region_id": "p196-software-left-continuation",
+                "scan": {
+                  "path": "ocr-r01/p196/p196-software-left-continuation.png",
+                  "sha256": "89ae68ed3addd70b53eb850f1fbf05844ccdda337963b24112f6c361d078fad2",
+                  "bytes": 3685262
+                },
+                "literal": "프로세서를",
+                "regional_start_byte": 0,
+                "regional_end_byte": 15,
+                "start_byte": 0,
+                "end_byte": 15
+              }
+            ],
+            "download": "article.txt",
+            "utf8_byte_start": 0,
+            "utf8_byte_end_exclusive": 15
+          },
+          "from_actual_folio": 195,
+          "expected_outgoing_literal": "워드",
+          "logical_separator": "",
+          "source_extent_verified": true,
+          "prior_opening_source_readings": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/source-compared-readings-01.json",
+            "sha256": "d6ed591e8ca4a109dd21ae6880a771c7ceb027c1b59b59711c19b85d7b97939c",
+            "bytes": 115572
+          },
+          "source_view": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-66/review/full-195.jpg",
+            "sha256": "0f71add814054ad690a632f5f773e1176ad1d58dc1a3c5c44d862fe33ea2d444",
+            "bytes": 1421541
+          }
+        },
+        {
+          "kind": "explicit-outgoing-company-category-continuation",
+          "source_occurrence": {
+            "block_id": "p201-directory-right",
+            "literal": "·각종 기종의 애플Ⅱ",
+            "start_byte": 1062,
+            "end_byte": 1090,
+            "source_segments": [
+              {
+                "region_id": "p201-directory-right",
+                "scan": {
+                  "path": "ocr-r01/p201/p201-directory-right.png",
+                  "sha256": "43ea4437be82baf447391834827f9381d3cbdcb6661bb34c4b9e319802e4f8c7",
+                  "bytes": 6361400
+                },
+                "literal": "·각종 기종의 애플Ⅱ",
+                "regional_start_byte": 1062,
+                "regional_end_byte": 1090,
+                "start_byte": 1062,
+                "end_byte": 1090
+              }
+            ],
+            "download": "article.txt",
+            "utf8_byte_start": 15484,
+            "utf8_byte_end_exclusive": 15512
+          },
+          "company_structure": {
+            "structure_id": "directory-company-30"
+          },
+          "category_literal": "본체",
+          "to_actual_folio": 202,
+          "expected_incoming_literal": "·MZ-80, PC-8001",
+          "source_extent_verified": true,
+          "target_native_pending": true,
+          "source_view": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-66/review/full-202.jpg",
+            "sha256": "ddff5cd5cf99ad7f4c10a5b2d921e1eb5e297f0e7bfa7f184cbc66108e132067",
+            "bytes": 892804
+          }
+        }
+      ],
+      "original_coverage": {
+        "complete_article": false,
+        "article_extent_verified": true,
+        "source_pages_missing": false,
+        "included_actual_folios": [
+          196,
+          197,
+          198,
+          199,
+          200,
+          201
+        ],
+        "article_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "accepted_opening_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ],
+        "deferred_actual_folios": [
+          202,
+          203,
+          204
+        ],
+        "included_source_indices": [
+          202,
+          203,
+          204,
+          205,
+          206,
+          207
+        ],
+        "assembly_required": true,
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-66/full-page-review-01.json",
+          "sha256": "d9a9632e22e92eaf4d6fab7d7e8df9317d68fe26d42842530c29bbc146b4da00",
+          "bytes": 7966
+        }
+      },
+      "original_limitations": [
+        "Partial native feature middle196–201;full source extent190–204 verified. Accepted opening190–195 remains separate and native ending202–204 is deferred. Whole March remains active.",
+        "Every compared source spelling,numeric claim,physical wrap,empty category,table blank and repeated company occurrence remains preserved without technical repair or original-byte certification.",
+        "Native boxes are approximate source contexts with exact source text spans,not individual glyph bounds. Original illustrations and photographs remain rasters;small or clipped photographic lettering is unresolved.",
+        "The201/202 outgoing company/category remains incomplete. Lower204 advertising index is independent canonical owner0043. Two exact middle exports and independent audit remain acceptance gates."
+      ],
+      "original_reading_policy": {
+        "physical_prose_wraps_preserved": true,
+        "search_line_breaks_are_not_original_encoded_bytes": true,
+        "table_search_serialization_is_printed_baselines": false,
+        "source_picture_lettering_is_partial": true,
+        "source_errors_retained": true
+      },
+      "rebased_active_spans": 2977
+    },
+    {
+      "name": "ending",
+      "manifest": {
+        "path": "archive/scans/1984-03/packages/sewoon-jpeg-ending-r02/manifest.json",
+        "sha256": "757bf21fb073badfe341382ffcced5f9d639b2406e290218693ece5d11d98f89",
+        "bytes": 8030
+      },
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/recipe-native-02.json",
+        "sha256": "591a307c5aa221c355ff18b2449ccd23bb2007d85a2334a9f4ebb1d6d24fd832",
+        "bytes": 6030
+      },
+      "validation": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/native-validation-01.json",
+        "sha256": "b91fc4817dff33e5292ab5c3af6449655b12fdfa92ee0b64e601d940c755b768",
+        "bytes": 6139
+      },
+      "corrections": {
+        "path": "archive/scans/1984-03/packages/sewoon-jpeg-ending-r02/corrections.json",
+        "sha256": "a69c56b316f7fd6f49becc64ca913cee8739c27998f48fc0b1caee6e89f00e76",
+        "bytes": 2894050
+      },
+      "original_segment_continuations": [
+        {
+          "kind": "explicit-incoming-company-category-continuation",
+          "source_occurrence": {
+            "block_id": "p202-directory-left",
+            "literal": "·MZ-80, PC-8001",
+            "start_byte": 0,
+            "end_byte": 16,
+            "source_segments": [
+              {
+                "region_id": "p202-directory-left",
+                "scan": {
+                  "path": "ocr-r01/p202/p202-directory-left.png",
+                  "sha256": "498678350d863de7869d354ab9aea463753dee60db61861e2de17d5100c833d4",
+                  "bytes": 6984109
+                },
+                "literal": "·MZ-80, PC-8001",
+                "regional_start_byte": 0,
+                "regional_end_byte": 16,
+                "start_byte": 0,
+                "end_byte": 16
+              }
+            ],
+            "download": "article.txt",
+            "utf8_byte_start": 0,
+            "utf8_byte_end_exclusive": 16
+          },
+          "from_actual_folio": 201,
+          "prior_company_heading": "창명 시스템 산업",
+          "prior_category_literal": "본체",
+          "expected_outgoing_literal": "·각종 기종의 애플Ⅱ",
+          "company_structure": {
+            "structure_id": "directory-ending-company-incoming"
+          },
+          "source_extent_verified": true,
+          "accepted_middle_source_readings": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-66/sewoon-b/source-compared-readings-01.json",
+            "sha256": "2c9ee09bf00114020b3db4a7468dc350248f5f98e7c635f731ebd792b2701083",
+            "bytes": 87522
+          },
+          "source_view": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-67/review/full-201.jpg",
+            "sha256": "2c22e669bc43cfa87017ba2fffec8c772c7cd6861ab922dacd698fa3dfba8e59",
+            "bytes": 950191
+          }
+        }
+      ],
+      "original_coverage": {
+        "complete_article": false,
+        "article_extent_verified": true,
+        "source_pages_missing": false,
+        "included_actual_folios": [
+          202,
+          203,
+          204
+        ],
+        "article_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "accepted_prior_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201
+        ],
+        "deferred_actual_folios": [],
+        "assembly_required": true,
+        "included_source_indices": [
+          208,
+          209,
+          210
+        ],
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-67/full-page-review-01.json",
+          "sha256": "ef578801fda98675b3e57664390ab4bd3559f2708182e874b216e07fa408a649",
+          "bytes": 5845
+        }
+      },
+      "original_limitations": [
+        "Partial native ending202–204 of source-verified feature190–204. Accepted opening190–195 and middle196–201 remain separate;complete-feature assembly/audit is required.",
+        "Historical spellings,phone layers,unheaded categories,source-absent TIME phone,physical wraps and technical claims remain uncorrected. No original character bytes or execution behavior is certified.",
+        "Native contexts are approximate with exact search spans. Original photograph,altered phone context and closing separator remain rasters;small photographic lettering is not inferred.",
+        "Lower204 advertising index and following205 technical divider are independent canonical owners."
+      ],
+      "original_reading_policy": {
+        "physical_source_wraps_preserved": true,
+        "source_errors_retained": true,
+        "original_encoded_bytes_verified": false,
+        "index_tabs_are_printed": false,
+        "handwriting_is_separate_source_layer": true
+      },
+      "rebased_active_spans": 1422
+    }
+  ],
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/validation-01.json",
+    "sha256": "617236156fd4c0f4a94f634d353455d1d89bca2d22bd9fb1507ba762fd69d1c0",
+    "bytes": 15027
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/sewoon-complete/recipe-native-01.json",
+    "sha256": "ed04bd0891950c2b7d20a45af834820a6595413c3896c3c8a79723245e7659b9",
+    "bytes": 19414
+  },
+  "boundary_resolutions": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/boundary-resolutions-01.json",
+    "sha256": "465958181f92a7aec35699997a3fb003dc529a158b7140f4ba0a62809980a047",
+    "bytes": 25439
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/source-ledger-01.json",
+    "sha256": "a1fe13e1a6a2a93499f132a4cb12a9aa54d328a0685d8e7fd7c8c3d08c691cde",
+    "bytes": 486184
+  },
+  "source_dispositions_pending": 28,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "implementation_pins": 58,
+  "shared_implementation_changed": true,
+  "qualified_regression_tests": 315,
+  "fresh_regression_tests": 315,
+  "complete_whole_scan_articles": 34,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 4,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "historical_pdf_manifest": {
+    "path": "archive/pdf/1984-03/packages/12-1984-03-sewoon/manifest.json",
+    "sha256": "f9d4aaf24892520db630d53bcb73b722985fe414f7ebd8cac329c2c7a744448e",
+    "bytes": 71168
+  },
+  "historical_pdf_preserved": true,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M73: restore information radar,maso-1984-03-toc-0040,candidate actual124–131. Verify donated originals,title,complete extent,internal article ownership and separate neighbors before bounded source mapping. Use at most6 new selected source views and2 articles per restoration batch;long source extents require bounded native segments followed by complete assembly/audit. Read frozen M72/M71/M70/M69 packages and evidence as data only;never execute or modify frozen helpers or snapshots. Preserve all first-attempt OCR and source/native qualifications. Then complete debugging room255,Q&A256–259,contest results243,information parent heading0038,all28 pending full-page dispositions and reproducible whole-issue export/completion audit for all273 scans. March remains active. Qualified shared implementation is315 tests/58 pins. No successful recognition reruns;cleanup preview-only.",
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/resume.json",
+    "sha256": "d9caee06041dd59b4d1a7420735593fec29f229b80fa16cfa6ed12adbfec3d61",
+    "bytes": 2756
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/evidence-manifest.json",
+    "sha256": "bfa67fbe4984cc25b9a70d4b1fbce5593d64d16f16890a71868807c3ca41758b",
+    "bytes": 159486
+  },
+  "frozen_evidence_files": 827,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/whole-progress-m72.json",
+    "sha256": "6842d8264b81d3204ad45c6f19f1d177139cdd4b3362dfab470b02cd52ed58c3",
+    "bytes": 262171
+  }
+}

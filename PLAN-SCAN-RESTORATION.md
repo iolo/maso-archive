@@ -1107,6 +1107,24 @@ completion audit. Shared page 204 was already located, so the pending-page count
 falls by two. See the [M71 handoff](docs/SCAN-RESTORATION-1984-03-M71.md) and
 [accepted checkpoint](metadata/catalog/scan-restoration/1984-03-sewoon-ending-index.json).
 
+**M72 completes the whole native Seun Sangga feature 190–204.** Two complete
+exports match in 271 exact files, retaining all 71 original crops/59 unchanged OCR
+bindings, 113 structures, 3291 fields, 1113 row contexts, 24 paths and 12 original
+rasters. All 82 original source/native qualifications remain with three assembly
+qualifications. Both segment boundaries and both printed table references are
+resolved explicitly; 43 printed company headings, 72 physical table cells/six
+blanks/shared FC group, nine models, phone layers and original source wraps remain.
+The independent audit verifies every native value/range and all 71 master crop
+pixels; 32 damaged cases reject. Explicit JPEG recognition-source scopes reuse
+only exact original maps/settings; 315 applicable regressions pass. Whole March
+remains active: **34 complete articles, zero partial, four pending articles, one
+pending heading and 28 pending full-page dispositions / 273 scans**. Continue
+**M73 information radar 124–131**, then every remaining article, heading and source
+disposition through reproducible whole-issue export/completion audit. See the
+[M72 handoff](docs/SCAN-RESTORATION-1984-03-M72.md) and
+[accepted feature](metadata/catalog/scan-restoration/1984-03-sewoon.json).
+
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
