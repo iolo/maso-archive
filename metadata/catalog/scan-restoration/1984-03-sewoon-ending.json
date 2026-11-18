@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M71",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0037",
+  "status": "complete-native-ending-segment",
+  "canonical_received_title": "심층취재 : 살아서 움직이는 현장 세운상가",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    202,
+    203,
+    204
+  ],
+  "article_actual_folios": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "accepted_native_actual_folios": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "deferred_actual_folios": [],
+  "source_extent_verified": true,
+  "canonical_identity_verified": true,
+  "selected_package": "archive/scans/1984-03/packages/sewoon-jpeg-ending-r02",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/sewoon-jpeg-ending-r02/manifest.json",
+    "sha256": "757bf21fb073badfe341382ffcced5f9d639b2406e290218693ece5d11d98f89",
+    "bytes": 8030
+  },
+  "exact_files": 46,
+  "manifest_payload_files": 45,
+  "master_crops": 11,
+  "recognition_bindings": 8,
+  "recognition_tasks": 8,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "new_native_stage_recognition_calls": 0,
+  "source_comparison_passes": 1,
+  "post_pass_source_changes": 0,
+  "source_qualifications": 14,
+  "total_source_native_qualifications": 18,
+  "raw_archive_members": 36,
+  "native_index_records": 1702,
+  "typed_references": 12540,
+  "source_and_active_byte_spans": 4277,
+  "source_asset_bindings": 2464,
+  "native_structure": {
+    "structures": 25,
+    "fields": 814,
+    "context_rows": 186,
+    "paths": 5,
+    "figures": 3,
+    "source_comparison_lines": 186,
+    "section_records": 13,
+    "source_literal_records": 342
+  },
+  "source_occurrence_counts": {
+    "directory_companies": 14,
+    "new_printed_company_headings": 13,
+    "printed_telephone_fields": 12,
+    "directory_categories": 35,
+    "directory_bullets": 80,
+    "internal_company_continuities": 4,
+    "directory_physical_baselines": 184
+  },
+  "rejected_damaged_source_work_cases": 17,
+  "rejected_damaged_native_cases": 24,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/native-validation-01.json",
+    "sha256": "b91fc4817dff33e5292ab5c3af6449655b12fdfa92ee0b64e601d940c755b768",
+    "bytes": 6139
+  },
+  "checkpoint_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/native-validation-01.json",
+    "sha256": "d5ba44725197bb616ea55cfb4d2db3dbbdd75303084e853c837ae778ac8ff09a",
+    "bytes": 13499
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/recipe-native-02.json",
+    "sha256": "591a307c5aa221c355ff18b2449ccd23bb2007d85a2334a9f4ebb1d6d24fd832",
+    "bytes": 6030
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/source-compared-readings-01.json",
+    "sha256": "60dd569dab72afa8b4b519f662d3c79c8499b48561172433a4547dac9f647d20",
+    "bytes": 37300
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/native-geometry-selection-03.json",
+    "sha256": "b3911b8c737f15fac3bd7fc22fa7a90d5e6e3d6ad3f59812e8f28eabf9913953",
+    "bytes": 7399
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/native-review-01.json",
+    "sha256": "e04e634f178d98179c84a02aee081100e94d32df3be5e23e7d2163781e4afb5a",
+    "bytes": 8848
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/full-page-review-01.json",
+    "sha256": "ef578801fda98675b3e57664390ab4bd3559f2708182e874b216e07fa408a649",
+    "bytes": 5845
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/source-ledger-native-01.json",
+    "sha256": "c2ce1f3276e369e08bccada32e41fdb283e45c9d062eb12b67a58789f77b1414",
+    "bytes": 480394
+  },
+  "source_dispositions_pending": 28,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
+    "sha256": "d2af804cb6eb8622745c3127966136d28507152a403f9e2fc058c95c163697c9",
+    "bytes": 10345
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 312,
+  "fresh_regression_tests": 0,
+  "implementation_pins": 57,
+  "complete_whole_scan_articles": 33,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 4,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "historical_pdf_manifest": {
+    "path": "archive/pdf/1984-03/packages/12-1984-03-sewoon/manifest.json",
+    "sha256": "f9d4aaf24892520db630d53bcb73b722985fe414f7ebd8cac329c2c7a744448e",
+    "bytes": 71168
+  },
+  "historical_pdf_preserved": true,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "complete_native_article": false,
+  "native_ending_segment_accepted": true,
+  "whole_article_complete": false,
+  "whole_feature_complete": false,
+  "whole_issue_complete": false,
+  "next": "M72: assemble and independently audit the complete Seun Sangga feature190–204 in fresh whole-issue-68. All native source segments are accepted:opening190–195,middle196–201 and ending202–204. The advertising index on lower204 is complete and remains a separate canonical owner. Read/copy frozen package JSON and assets only;never execute or modify frozen M71/M70/M69 helpers. Combine the three accepted native maps/corrections/assets in a fresh complete-feature recipe,using exact original OCR bundle recognition maps and no recognition reruns. Rebase active download spans while preserving exact source-local text/geometry and pinned original segment evidence. Resolve195워드/196프로세서를 and201/202창명 company/category continuity;retain all internal joins,43 printed directory company headings,source-absent/empty/unheaded fields,phone layers,72 table cells/six blanks/shared FC group,nine models,original pictures and all source/native qualifications. Preserve the original custom segment-continuation declarations in pinned segment evidence;the complete package must resolve them into explicit internal relationships rather than inventing remaining source pages. Build two exact complete-feature exports and independently audit every preserved source/native occurrence,asset and damaged case before marking the feature complete. Then restore information radar124–131,debugging room255,Q&A256–259,contest results243,the information heading0038,all28 pending full-page dispositions,and reproducible whole-issue export/completion audit for all273 scans. March remains active. Shared implementation baseline remains312 tests/57 pins. Cleanup is preview-only.",
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-sewoon-opening.json",
+    "sha256": "3cfca536b8d46a8588e417f47a2cc8564536fb7a5f7ac7eff5eb858f0316edd8",
+    "bytes": 7067
+  },
+  "accepted_middle": {
+    "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle.json",
+    "sha256": "5b8370b68e8b0bd6f7474c8596ec0094d9a924bccb454c9f8f4f62a3d7e5e79a",
+    "bytes": 7652
+  },
+  "source_continuity": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/source-continuity-01.json",
+    "sha256": "338220b95077449acaa3d563e45e7d8d95dcba2b3e08aaaf0c3c318b05b7633e",
+    "bytes": 3174
+  },
+  "assembly_required": true,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/m71-final-handoff.json",
+    "sha256": "dc0ade1430835d04390d4ce74862443cd3c937e2432adfb723d79dcf4d23c955",
+    "bytes": 6159
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/evidence-manifest.json",
+    "sha256": "70d53be7ed0c4e73be0ce0adff6780c9b517e1275081201cd14f3064e441bea6",
+    "bytes": 62997
+  },
+  "frozen_evidence_files": 339,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/whole-progress-m71.json",
+    "sha256": "c845be930dc1780e869dc5a240c8c2e6537922378868998619595989998141a1",
+    "bytes": 262276
+  },
+  "handoff_correction": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/m71-handoff-correction-01.json",
+    "sha256": "5e61c300f478e8b3f4bf13b70b2452b7d23e8156a1286c5996eec18b76a903a5",
+    "bytes": 1708
+  }
+}

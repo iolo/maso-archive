@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M71",
+  "issue_id": "maso-1984-03",
+  "toc_entry_ids": [
+    "maso-1984-03-toc-0037",
+    "maso-1984-03-toc-0043"
+  ],
+  "status": "accepted-native-ending-and-complete-advertising-index",
+  "accepted_owners": [
+    {
+      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-ending.json",
+      "sha256": "3b976490712120e24f4c9505f81cfe43fdb2c7a75ba16cc59551129a3586d472",
+      "bytes": 8470
+    },
+    {
+      "path": "metadata/catalog/scan-restoration/1984-03-advertising-index.json",
+      "sha256": "fcf4236d870148a81b3aab57f13c423558924e3f7e2bf536865fba21cae5a69d",
+      "bytes": 7637
+    }
+  ],
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/native-validation-01.json",
+    "sha256": "d5ba44725197bb616ea55cfb4d2db3dbbdd75303084e853c837ae778ac8ff09a",
+    "bytes": 13499
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/source-ledger-native-01.json",
+    "sha256": "c2ce1f3276e369e08bccada32e41fdb283e45c9d062eb12b67a58789f77b1414",
+    "bytes": 480394
+  },
+  "complete_whole_scan_articles": 33,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 4,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "source_dispositions_pending": 28,
+  "source_images": 273,
+  "source_comparison_passes": 1,
+  "post_pass_source_changes": 0,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "source_qualifications": 19,
+  "total_source_native_qualifications": 26,
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 312,
+  "implementation_pins": 57,
+  "complete_index_accepted": true,
+  "partial_feature_ending_accepted": true,
+  "whole_feature_complete": false,
+  "whole_issue_complete": false,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/m71-final-handoff.json",
+    "sha256": "dc0ade1430835d04390d4ce74862443cd3c937e2432adfb723d79dcf4d23c955",
+    "bytes": 6159
+  },
+  "next": "M72: assemble and independently audit the complete Seun Sangga feature190–204 in fresh whole-issue-68. All native source segments are accepted:opening190–195,middle196–201 and ending202–204. The advertising index on lower204 is complete and remains a separate canonical owner. Read/copy frozen package JSON and assets only;never execute or modify frozen M71/M70/M69 helpers. Combine the three accepted native maps/corrections/assets in a fresh complete-feature recipe,using exact original OCR bundle recognition maps and no recognition reruns. Rebase active download spans while preserving exact source-local text/geometry and pinned original segment evidence. Resolve195워드/196프로세서를 and201/202창명 company/category continuity;retain all internal joins,43 printed directory company headings,source-absent/empty/unheaded fields,phone layers,72 table cells/six blanks/shared FC group,nine models,original pictures and all source/native qualifications. Preserve the original custom segment-continuation declarations in pinned segment evidence;the complete package must resolve them into explicit internal relationships rather than inventing remaining source pages. Build two exact complete-feature exports and independently audit every preserved source/native occurrence,asset and damaged case before marking the feature complete. Then restore information radar124–131,debugging room255,Q&A256–259,contest results243,the information heading0038,all28 pending full-page dispositions,and reproducible whole-issue export/completion audit for all273 scans. March remains active. Shared implementation baseline remains312 tests/57 pins. Cleanup is preview-only.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/evidence-manifest.json",
+    "sha256": "70d53be7ed0c4e73be0ce0adff6780c9b517e1275081201cd14f3064e441bea6",
+    "bytes": 62997
+  },
+  "frozen_evidence_files": 339,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/whole-progress-m71.json",
+    "sha256": "c845be930dc1780e869dc5a240c8c2e6537922378868998619595989998141a1",
+    "bytes": 262276
+  },
+  "handoff_correction": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/m71-handoff-correction-01.json",
+    "sha256": "5e61c300f478e8b3f4bf13b70b2452b7d23e8156a1286c5996eec18b76a903a5",
+    "bytes": 1708
+  }
+}

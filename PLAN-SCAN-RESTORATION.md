@@ -1085,23 +1085,27 @@ March article, heading and source disposition through reproducible whole-issue
 export and completion audit. See the [M70 handoff](docs/SCAN-RESTORATION-1984-03-M70.md)
 and [accepted middle](metadata/catalog/scan-restoration/1984-03-sewoon-middle.json).
 
-**M71 ending and index source work is audited, actual 202–204**: two canonical
-articles across three distinct selected originals and two outside contexts 201/205.
-All four overlays are reviewed. All 11 first recognition tasks succeeded and all
-raw drafts were read before one prospective source pass, now closed with 19 source
-qualifications. The source audit passes 16 original crop pixel checks,11 raw
-bindings and 17 damaged-source rejection cases. There were no retries, successful
-OCR reruns or changes after the pass. Preserve 14 ending company occurrences,
-13 new printed headings,12 printed telephone fields, four internal continuities,
-TIME's absent phone, the separate struck printed/handwritten telephone layers,
-the closing star/blue separator, and independent lower 204 index with 22 rows,
-44 fields, cover/multipage references and original tree/layout. **Native structures,
-exports and audit remain pending** in existing unfrozen whole-issue-67. Use both
-saved native plans, then assemble/audit the complete feature in M72 and finish
-all remaining March work through reproducible whole-issue export/completion
-audit for all 273 scans. See the
-[M71 work handoff](docs/SCAN-RESTORATION-1984-03-M71-WORK.md) and
-[active work record](metadata/catalog/scan-restoration/1984-03-sewoon-ending-index-work.json).
+**M71 accepts the native feature ending 202–204 and complete lower 204 advertising
+index.** Two exact 46-file ending exports and two exact 23-file index exports pass
+independent audits: 16 original crops, 11 unchanged OCR bindings and 45 damaged
+native rejection cases. The ending retains 25 structures, 814 fields, 14 company
+occurrences, 35 categories, 80 bullets, separate printed/handwritten phone layers,
+an absent TIME phone, the original photograph, closing star and blue separator.
+The index retains 22 row pairs, 44 source fields, 22 original leaders, cover and
+multi-page references, and original layout/tree. All 19 source / 26 source-native
+qualifications remain. The closing-star block enum is corrected in native contract
+02; failed inputs and diagnostics are preserved. Source readings and OCR are
+unchanged. All **339 M71 evidence files are frozen**; never execute frozen helpers.
+The final handoff’s preliminary child links are superseded by a corrected pinned
+handoff in fresh M72 evidence; frozen M71 bytes remain intact. Shared implementation
+remains at 312 tests / 57 pins. Whole March remains active: **33 complete articles,
+one partial article, four pending articles, one pending heading and 28 pending
+full-page dispositions / 273 scans**. All native feature segments 190–204 are
+accepted. Continue **M72 full-feature assembly/audit** in fresh whole-issue-68,
+then every remaining March task through reproducible whole-issue export and
+completion audit. Shared page 204 was already located, so the pending-page count
+falls by two. See the [M71 handoff](docs/SCAN-RESTORATION-1984-03-M71.md) and
+[accepted checkpoint](metadata/catalog/scan-restoration/1984-03-sewoon-ending-index.json).
 
 ## Aim
 

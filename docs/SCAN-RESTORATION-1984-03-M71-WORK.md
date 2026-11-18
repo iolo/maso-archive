@@ -1,3 +1,5 @@
+> Historical source-work handoff, superseded by the [accepted M71 native ending and advertising index](SCAN-RESTORATION-1984-03-M71.md). All M71 evidence is frozen; do not execute or modify its helpers. Whole March remains active.
+
 # March M71 — Ending and advertising index source work audited
 
 The whole March issue remains active: **all 273 scans**, every eligible article and source disposition, and the final reproducible issue export and completion audit.
