@@ -1209,6 +1209,29 @@ pending heading and21 pending full-page dispositions /273 scans**. Finish
 every remaining March task through reproducible whole-issue export/completion
 audit. See the [M74 native handoff](docs/SCAN-RESTORATION-1984-03-M74.md).
 
+**M75 completes the whole native information radar, actual124–131**, in two
+exact **374-file** exports. All97 original-master crops,87 unchanged OCR bindings,
+359 raw members and4,342 native records pass independent audit;36 damaged cases
+reject. All22 printed news items retain their23 original source contexts,100
+regional paragraph fragments,80 physical table cells,packet graph,key/fraction
+contexts,five Sharp features,four partial photo fields andten original rasters.
+The129/130Sr.Partner sentence is explicitly resolved without a repeated heading;
+a focused independent audit verifies every complete news owner against original
+native source contexts. Both partial-segment declarations and all65 original
+source/native qualifications remain,withthree assembly qualifications. Original
+source-local values and geometry are unchanged;only active download spans were
+rebased. Shared implementation remains315 tests /58 pins. All **877 M75
+evidence files are frozen**; never execute/import/modify frozen helpers/snapshots.
+Whole March remains active: **35 complete articles,zero partial,three pending
+articles,one pending heading and21 pending full-page dispositions /273 scans**.
+Continue **M76 debugging room**, candidate255, in fresh whole-issue-72,verifying
+extent and separate254/256neighbors before mapping. Then Q&A256–259,contest
+results243,information heading andevery remaining source disposition through
+reproducible whole-issue export/completion audit. See the
+[M75 native handoff](docs/SCAN-RESTORATION-1984-03-M75.md) and
+[complete radar](metadata/catalog/scan-restoration/1984-03-radar.json).
+
+
 
 
 

@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 34,
+  "complete_whole_scan_articles": 35,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -7475,8 +7475,8 @@
       "title": "정보 레이다",
       "parent_id": "maso-1984-03-toc-0038",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0040",
         "title": "정보 레이다",
@@ -7545,18 +7545,18 @@
         }
       },
       "new_selected_restoration": {
-        "checkpoint": "M74",
+        "checkpoint": "M75",
         "article_id": "scan-maso-1984-03-toc-0040",
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "source_kind": "jpeg-set",
-        "directory": "archive/scans/1984-03/packages/radar-jpeg-ending-r01",
+        "directory": "archive/scans/1984-03/packages/radar-jpeg-complete-r01",
         "manifest": {
-          "path": "archive/scans/1984-03/packages/radar-jpeg-ending-r01/manifest.json",
-          "sha256": "99d3c1df3e272502ff0e80ef42d44f54ddcd8f457b6bd04a5bd93012e3e0dccd",
-          "bytes": 19843
+          "path": "archive/scans/1984-03/packages/radar-jpeg-complete-r01/manifest.json",
+          "sha256": "909bdfa70d7f795499cdd5dbe68cc468a5a00b477881403ab11269d968cd93d1",
+          "bytes": 67457
         },
-        "article_actual_folios": [
+        "covered_actual_folios": [
           124,
           125,
           126,
@@ -7566,7 +7566,13 @@
           130,
           131
         ],
-        "covered_actual_folios": [
+        "article_actual_folios": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
           130,
           131
         ],
@@ -7580,62 +7586,32 @@
           130,
           131
         ],
-        "accepted_segments": [
-          {
-            "checkpoint": "M73",
-            "manifest": {
-              "path": "archive/scans/1984-03/packages/radar-jpeg-opening-r01/manifest.json",
-              "sha256": "d09f510bae9de845b2c342a14f9d19f99784adf070696bebb8b804fa741f12c1",
-              "bytes": 48837
-            },
-            "actual_folios": [
-              124,
-              125,
-              126,
-              127,
-              128,
-              129
-            ]
-          },
-          {
-            "checkpoint": "M74",
-            "manifest": {
-              "path": "archive/scans/1984-03/packages/radar-jpeg-ending-r01/manifest.json",
-              "sha256": "99d3c1df3e272502ff0e80ef42d44f54ddcd8f457b6bd04a5bd93012e3e0dccd",
-              "bytes": 19843
-            },
-            "actual_folios": [
-              130,
-              131
-            ]
-          }
-        ],
-        "source_extent_covered": false,
+        "source_extent_covered": true,
         "accepted_native_source_extent_covered": true,
-        "selected_package_covers_whole_article": false,
-        "assembly_pending": true,
+        "selected_package_covers_whole_article": true,
+        "assembly_pending": false,
         "continuation_pending": [],
         "recipe": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/recipe-native-01.json",
-          "sha256": "500f65b3f76b7a4ea1c2c3f73c075b42e4b4a11b1b322b26a96076b6d095a33e",
-          "bytes": 6233
+          "path": "archive/scans/1984-03/restoration/whole-issue-71/radar-complete/recipe-native-01.json",
+          "sha256": "cb317da0bde9dc4b06b203ab1f0a1de43fa948e39e9497cbc6a8f4983fe96cc4",
+          "bytes": 19268
         },
         "validation": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-70/native-validation-01.json",
-          "sha256": "059459ac415770b3d649988226c4e1977b0e48e00be6f63dd9ca17eeed3017cf",
-          "bytes": 6137
+          "path": "archive/scans/1984-03/restoration/whole-issue-71/validation-02.json",
+          "sha256": "a12c32778c0b800edd501fdae839bc2529fd9b1dc1d1091ef53ec85dd9cef64e",
+          "bytes": 17338
         },
         "source_ledger": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-70/source-ledger-native-01.json",
-          "sha256": "eaa26277ef8ff45b38ede89399514ca5279560473040ce6b58554c77f16e561b",
-          "bytes": 492975
+          "path": "archive/scans/1984-03/restoration/whole-issue-71/source-ledger-01.json",
+          "sha256": "afa86dee3cc4450dba92ae65cf30093570e77576c4ce022e29fd8f8e4849ea6f",
+          "bytes": 496831
         },
         "implementation": {
           "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
           "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
           "bytes": 10399
         },
-        "directory_scope": "native-ending-segment"
+        "note": "Complete native124–131radar:two exact374-fileexports,97originalcrops,87unchangedOCRbindings,22newsitems,4342native records,68qualifications and36damagedcaserejections."
       },
       "historical_printed_extent_candidate": [
         124,
@@ -7672,8 +7648,13 @@
         },
         "source_extent_verified": true,
         "canonical_identity_verified": true,
-        "restoration_pending": true,
-        "note": "Fullradar124–131verified. Both native source segments124–129and130–131are accepted;completearticleassembly/audit remains required. IncomingSr.Partner,all10internaljoins,22distinctnewsitems,threephysicaltables,packetgraph,sourcekey/fractioncontexts andoriginalrasters remain preserved. Original131ends before independent132announcement."
+        "restoration_pending": false,
+        "note": "Complete124–131radar nativearticle accepted. Both original segments and every source-local native value remain exact;22newsitems in23originalcontexts and129/130Sr.Partnercontinuity are independently verified. Original131ends before independent132announcement.",
+        "native_validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-71/validation-02.json",
+          "sha256": "a12c32778c0b800edd501fdae839bc2529fd9b1dc1d1091ef53ec85dd9cef64e",
+          "bytes": 17338
+        }
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-radar-opening-work.json",
@@ -7704,6 +7685,15 @@
           "path": "metadata/catalog/scan-restoration/1984-03-radar-ending.json",
           "sha256": "a3911e8b45c2adc73a0f17e92ffc4879648be3857f23d210e932f597666e7bef",
           "bytes": 7376
+        },
+        "native_accepted": true
+      },
+      "complete_article_restoration": {
+        "checkpoint": "M75",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-radar.json",
+          "sha256": "11b626fc9fc34262b93a1dbc95164312fb45ca6e990e18148a77c42d0f2047f8",
+          "bytes": 16380
         },
         "native_accepted": true
       }
@@ -8038,22 +8028,22 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-70/source-ledger-native-01.json",
-    "sha256": "eaa26277ef8ff45b38ede89399514ca5279560473040ce6b58554c77f16e561b",
-    "bytes": 492975
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/source-ledger-01.json",
+    "sha256": "afa86dee3cc4450dba92ae65cf30093570e77576c4ce022e29fd8f8e4849ea6f",
+    "bytes": 496831
   },
-  "current_checkpoint": "M74",
-  "next": "M75: assemble and independently audit the complete information radar124–131 in fresh whole-issue-71. Accepted native source segments are M73opening124–129 and M74ending130–131. Read/copy frozen package JSON and assets only;never execute/import/modify frozen helpers,snapshots or evidence. Combine maps/corrections/assets with exact original source-scoped OCR recognition maps and no successful recognition reruns. Preserve every original source-local native value and geometry while rebasing active download spans;retain original partial coverage/continuation declarations in immutable component evidence. Resolve129마쓰시타가/130PC와 호환성이 있는 컴퓨터를 발표하였다. as one source-owned Sr.Partner news item without an invented repeated heading or new punctuation. Preserve all22distinct whole-article news items (15opening contexts plus8ending contexts with one shared incoming item),100regional paragraph fragments,all10internal joins,three original tables/80physical cells/39groups,the packetgraph,jamo/key/fractionobservations,fiveSharpfeatures,fourphotofields,tenoriginalrasters andall65source/native qualifications. Close the original131ending before independent132announcement. Build two exact complete-article exports and independently audit every source/native occurrence,typedreference,range,asset anddamagedcase beforemarkingradarcomplete. Then restore debuggingroom255,Q&A256–259,contestresults243,informationheading0038,all21currentlypendingfullpage dispositions,andreproduciblewholeissueexport/completionaudit for all273scans. WholeMarchremainsactive. Sharedimplementation315tests/58pins unchanged;cleanup previewonly.",
+  "current_checkpoint": "M75",
+  "next": "M76:restore debugging room,maso-1984-03-toc-0041,candidate actual255,in fresh whole-issue-72. Verify the donated original,title,complete extent and separate neighbors254/256before mapping;Q&A256–259is a separate next canonical article. Stay within twoarticles/sixselectedviews/twentyoutsidecontexts. Preserve all original code,questions,answers,figures,headings,physicalwraps,sourceerrors andlocalunknowns. Review mapping before pinned first-attempt OCR;read all raw drafts before one prospective source pass. Encode and personally review all native structures,build two exact exports and independently audit every source/native occurrence,typedreference,range,asset anddamagedcase beforeacceptance. Then complete Q&A256–259,contestresults243,non-owning informationheading0038,all21pendingfullpage dispositions,andreproduciblewholeissueexport/completionaudit for all273scans. Marchremainsactive. Read frozen M75/M74/M73packages andevidenceasdataonly;neverexecute/import/modifyfrozenhelpers or snapshots. Sharedimplementation315tests/58pins unchanged. NosuccessfulOCRreruns;cleanup previewonly.",
   "pending_article_candidates": 3,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M74",
+    "checkpoint": "M75",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-radar-ending.json",
-      "sha256": "a3911e8b45c2adc73a0f17e92ffc4879648be3857f23d210e932f597666e7bef",
-      "bytes": 7376
+      "path": "metadata/catalog/scan-restoration/1984-03-radar.json",
+      "sha256": "11b626fc9fc34262b93a1dbc95164312fb45ca6e990e18148a77c42d0f2047f8",
+      "bytes": 16380
     },
     "accepted": true
   }

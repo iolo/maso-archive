@@ -1,5 +1,7 @@
 # March M73 — Native radar opening accepted
 
+The complete124–131 article is now accepted in [M75](SCAN-RESTORATION-1984-03-M75.md). This document remains the immutable-segment handoff; whole March is still active.
+
 The bounded **124–129** opening of **정보 레이다** is accepted in two identical **272-file** native exports. The complete source extent is **124–131**; native 130–131 and full article assembly/audit remain required. Whole March remains active across **all 273 scans**.
 
 The independent audit verifies **72 original-master crops, 62 unchanged first-attempt OCR bindings, 259 exact raw archive members and 3,217 native records**. All **17,710 typed references, 3,887 source/active byte spans and 3,221 asset bindings** close. All **35 damaged native cases reject**. Shared implementation remains **315 qualified tests / 58 pins**; no shared code changed or broad regression run was repeated.

@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M75",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0040",
+  "status": "complete-native-article",
+  "canonical_received_title": "정보 레이다",
+  "observed_running_title": "정보레이다",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+  ],
+  "source_indices": [
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137
+  ],
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "selected_package": "archive/scans/1984-03/packages/radar-jpeg-complete-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/radar-jpeg-complete-r01/manifest.json",
+    "sha256": "909bdfa70d7f795499cdd5dbe68cc468a5a00b477881403ab11269d968cd93d1",
+    "bytes": 67457
+  },
+  "exact_files": 374,
+  "manifest_payload_files": 373,
+  "raw_archive_members": 359,
+  "master_crops": 97,
+  "recognition_bindings": 87,
+  "new_recognition_calls": 0,
+  "new_source_comparison_passes": 0,
+  "successful_recognition_reruns": 0,
+  "source_local_values_unchanged": true,
+  "source_qualifications": 58,
+  "original_source_native_qualifications": 65,
+  "total_source_native_qualifications": 68,
+  "native_index_records": 4342,
+  "typed_references": 23819,
+  "byte_spans": 5454,
+  "asset_bindings": 4329,
+  "native_structure": {
+    "structures": 125,
+    "fields": 1579,
+    "context_rows": 581,
+    "paths": 78,
+    "paragraph_fragments": 100,
+    "physical_table_cells": 80,
+    "original_source_news_contexts": 23,
+    "whole_news_items": 22,
+    "internal_source_continuities": 10,
+    "cross_segment_resolutions": 1,
+    "figures": 10
+  },
+  "resolved_continuation_declarations": 2,
+  "internal_assembly_resolutions": 1,
+  "rejected_damaged_cases": 36,
+  "source_segments": [
+    {
+      "name": "opening",
+      "manifest": {
+        "path": "archive/scans/1984-03/packages/radar-jpeg-opening-r01/manifest.json",
+        "sha256": "d09f510bae9de845b2c342a14f9d19f99784adf070696bebb8b804fa741f12c1",
+        "bytes": 48837
+      },
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/recipe-native-01.json",
+        "sha256": "d3cbf12363b8104568a6732f0d2594de977b02b2b04c06b62205424def3941b9",
+        "bytes": 15176
+      },
+      "validation": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-69/native-validation-01.json",
+        "sha256": "828cbfae75e8735f15bdd3013eb6ed2bd99a96ac9f65e33da70cac37f9f9a085",
+        "bytes": 16306
+      },
+      "corrections": {
+        "path": "archive/scans/1984-03/packages/radar-jpeg-opening-r01/corrections.json",
+        "sha256": "133f313f241d94b839f9642d80c94fe3e2ebd9b054df7210e6cc77efb96656d9",
+        "bytes": 3822891
+      },
+      "source_readings": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/source-compared-readings-01.json",
+        "sha256": "b524ad85ba4ebf46ad4be1ed99e56261c7e864a995b8371a8f90b90cedd3ac17",
+        "bytes": 206765
+      },
+      "original_segment_continuations": [
+        {
+          "kind": "explicit-outgoing-news-sentence-continuation",
+          "structure_id": "news-srpartner",
+          "source_occurrence": {
+            "block_id": "p129-matsushita-body",
+            "literal": "마쓰시타가",
+            "start_byte": 132,
+            "end_byte": 147,
+            "source_segments": [
+              {
+                "region_id": "p129-matsushita-body",
+                "scan": {
+                  "path": "ocr-r01/p129/p129-matsushita-body.png",
+                  "sha256": "56344dbceb85a0e4ef9d8538581a2c7d170daaa209a338a0457d54b5ab783635",
+                  "bytes": 432499
+                },
+                "literal": "마쓰시타가",
+                "regional_start_byte": 132,
+                "regional_end_byte": 147,
+                "start_byte": 132,
+                "end_byte": 147
+              }
+            ],
+            "download": "article.txt",
+            "utf8_byte_start": 21382,
+            "utf8_byte_end_exclusive": 21397
+          },
+          "from_actual_folio": 129,
+          "to_actual_folio": 130,
+          "expected_incoming_literal": "PC와 호환성이 있는 컴퓨터를 발표하였다.",
+          "logical_separator": " ",
+          "outside_source_view": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-69/review/full-130.jpg",
+            "sha256": "c960444414761f26754bec6eb51bbaff01865cd04a7f26150f08fb33da48417a",
+            "bytes": 1452645
+          },
+          "target_native_pending": true
+        }
+      ],
+      "original_coverage": {
+        "complete_article": false,
+        "article_extent_verified": true,
+        "source_pages_missing": false,
+        "included_actual_folios": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          129
+        ],
+        "article_actual_folios": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131
+        ],
+        "deferred_actual_folios": [
+          130,
+          131
+        ],
+        "assembly_required": true,
+        "included_source_indices": [
+          130,
+          131,
+          132,
+          133,
+          134,
+          135
+        ],
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-69/full-page-review-01.json",
+          "sha256": "9c01937d1e30b4fb18e5087331ccf6388e20143bcfb6aa904e225f1ed60e4b7d",
+          "bytes": 10428
+        }
+      },
+      "original_limitations": [
+        "Partial native opening124–129of verifiedradar124–131;ending130–131and full assembly/audit remain required. WholeMarch remains active.",
+        "Original source spellings,technical/legal claims,jamo errors,mergedcells,physicalwraps,nonprinted searchseparators andlocalunknowns are retained. No original character bytes,execution,arithmetic or historicalaccuracy is certified.",
+        "Approximate native contexts and exact searchspans preserve alltenoriginalrasters without generatedreplacements. Four photographicfields do not claim complete photo lettering."
+      ],
+      "original_reading_policy": {
+        "physical_source_wraps_preserved": true,
+        "source_errors_retained": true,
+        "original_encoded_bytes_verified": false,
+        "source_claims_independently_verified": false,
+        "table_tabs_printed": false,
+        "fraction_slash_printed": false,
+        "unresolved_placeholder_printed": false
+      },
+      "rebased_active_spans": 1274
+    },
+    {
+      "name": "ending",
+      "manifest": {
+        "path": "archive/scans/1984-03/packages/radar-jpeg-ending-r01/manifest.json",
+        "sha256": "99d3c1df3e272502ff0e80ef42d44f54ddcd8f457b6bd04a5bd93012e3e0dccd",
+        "bytes": 19843
+      },
+      "recipe": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/recipe-native-01.json",
+        "sha256": "500f65b3f76b7a4ea1c2c3f73c075b42e4b4a11b1b322b26a96076b6d095a33e",
+        "bytes": 6233
+      },
+      "validation": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-70/native-validation-01.json",
+        "sha256": "059459ac415770b3d649988226c4e1977b0e48e00be6f63dd9ca17eeed3017cf",
+        "bytes": 6137
+      },
+      "corrections": {
+        "path": "archive/scans/1984-03/packages/radar-jpeg-ending-r01/corrections.json",
+        "sha256": "3d64c5be3dd3fd5bd77cf06e821c7cda103d1b8ad5c5c3f3fb9d664d8acfe5d2",
+        "bytes": 1311084
+      },
+      "source_readings": {
+        "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/source-compared-readings-01.json",
+        "sha256": "463a18dead1084dcab47543649989aa28466e5c50e74cbd2e58338073a262c09",
+        "bytes": 73895
+      },
+      "original_segment_continuations": [
+        {
+          "kind": "explicit-incoming-news-sentence-continuation",
+          "structure_id": "ending-news-srpartner",
+          "source_occurrence": {
+            "block_id": "p130-matsushita-body-continuation",
+            "literal": "PC와 호환성이 있는 컴퓨터를 발표하였다.",
+            "start_byte": 0,
+            "end_byte": 55,
+            "source_segments": [
+              {
+                "region_id": "p130-matsushita-body-continuation",
+                "scan": {
+                  "path": "ocr-r01/p130/p130-matsushita-body-continuation.png",
+                  "sha256": "28b44bf95d74be2d614b70e9a00066770bcb8418e9c9f1d75f014bafcd9005fd",
+                  "bytes": 2087715
+                },
+                "literal": "PC와 호환성이 있는 컴퓨터를 발표하였다.",
+                "regional_start_byte": 0,
+                "regional_end_byte": 55,
+                "start_byte": 0,
+                "end_byte": 55
+              }
+            ],
+            "download": "article.txt",
+            "utf8_byte_start": 0,
+            "utf8_byte_end_exclusive": 55
+          },
+          "from_actual_folio": 129,
+          "to_actual_folio": 130,
+          "prior_source_region": "p129-matsushita-body",
+          "expected_outgoing_literal": "마쓰시타가",
+          "logical_separator": " ",
+          "accepted_opening": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-70/accepted-m73-snapshot/1984-03-radar-opening.json",
+            "sha256": "bf7336354b61a4f31fb47c7f95d14f4f6975cd2f478719a3c57cc46a9a517ea0",
+            "bytes": 7144
+          },
+          "prior_source_readings": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/source-compared-readings-01.json",
+            "sha256": "b524ad85ba4ebf46ad4be1ed99e56261c7e864a995b8371a8f90b90cedd3ac17",
+            "bytes": 206765
+          },
+          "prior_native_manifest": {
+            "path": "archive/scans/1984-03/packages/radar-jpeg-opening-r01/manifest.json",
+            "sha256": "d09f510bae9de845b2c342a14f9d19f99784adf070696bebb8b804fa741f12c1",
+            "bytes": 48837
+          },
+          "outside_source_view": {
+            "path": "archive/scans/1984-03/restoration/whole-issue-70/review/full-129.jpg",
+            "sha256": "f79adb401228ab8a4c3cb73e8e4ca0e6460b4700665a50bc1f8d6f4c0a97b23b",
+            "bytes": 1567336
+          },
+          "source_continuity_verified": true
+        }
+      ],
+      "original_coverage": {
+        "complete_article": false,
+        "article_extent_verified": true,
+        "source_pages_missing": false,
+        "included_actual_folios": [
+          130,
+          131
+        ],
+        "article_actual_folios": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131
+        ],
+        "accepted_prior_actual_folios": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          129
+        ],
+        "deferred_actual_folios": [],
+        "assembly_required": true,
+        "included_source_indices": [
+          136,
+          137
+        ],
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-70/full-page-review-01.json",
+          "sha256": "9ef19c3819474ce44f3631b7aef4846ee294dad42754bf5255ccb02c64646506",
+          "bytes": 4354
+        }
+      },
+      "original_limitations": [
+        "Partial native ending130–131of source-verifiedradar124–131. Opening124–129is accepted separately;completearticleassembly/audit remains required. WholeMarchactive.",
+        "All physicalwraps,source errors,numberedfeatures,technical spellings,cross/Roman/range search symbols and historical sourceclaims remain unchanged. No original encodedbytes,technical behavior,computation or historical accuracy is certified.",
+        "Approximate native line/title contexts retain all25original crops. No photographs,tables,closingstar or repeatedincomingnewsheading are invented."
+      ],
+      "original_reading_policy": {
+        "physical_source_wraps_preserved": true,
+        "source_errors_retained": true,
+        "original_encoded_bytes_verified": false,
+        "historically_verified": false,
+        "numbered_features_are_not_table_cells": true
+      },
+      "rebased_active_spans": 513
+    }
+  ],
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/validation-02.json",
+    "sha256": "a12c32778c0b800edd501fdae839bc2529fd9b1dc1d1091ef53ec85dd9cef64e",
+    "bytes": 17338
+  },
+  "original_source_native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/validation-01.json",
+    "sha256": "1fe410efbea38fd74351bec6b4594672754e0539c3527a9ce6b9ef4332b6b749",
+    "bytes": 16210
+  },
+  "independent_news_owner_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/news-owner-validation-01.json",
+    "sha256": "758780a70ee402021115ff4affa6ef6a079edb00eca418fbcfdf19ed193a7c9f",
+    "bytes": 13741
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/radar-complete/recipe-native-01.json",
+    "sha256": "cb317da0bde9dc4b06b203ab1f0a1de43fa948e39e9497cbc6a8f4983fe96cc4",
+    "bytes": 19268
+  },
+  "boundary_resolutions": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/boundary-resolutions-01.json",
+    "sha256": "741f7cceab0df49726fd3a33fc477921d16993380a65b9f27dc63eda4ed18166",
+    "bytes": 25655
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/source-ledger-01.json",
+    "sha256": "afa86dee3cc4450dba92ae65cf30093570e77576c4ce022e29fd8f8e4849ea6f",
+    "bytes": 496831
+  },
+  "source_dispositions_pending": 21,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "implementation_pins": 58,
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 315,
+  "fresh_regression_tests": 0,
+  "complete_whole_scan_articles": 35,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 3,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "historical_pdf_manifest": {
+    "path": "archive/pdf/1984-03/packages/12-1984-03-news/manifest.json",
+    "sha256": "b625c5b89ecc664800a6d46b16e10d6b53ecfe67933c2bcc5ea39977df191a8d",
+    "bytes": 46613
+  },
+  "historical_pdf_preserved": true,
+  "review_level": "assistant-source-compared-and-independently-audited;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "next": "M76:restore debugging room,maso-1984-03-toc-0041,candidate actual255,in fresh whole-issue-72. Verify the donated original,title,complete extent and separate neighbors254/256before mapping;Q&A256–259is a separate next canonical article. Stay within twoarticles/sixselectedviews/twentyoutsidecontexts. Preserve all original code,questions,answers,figures,headings,physicalwraps,sourceerrors andlocalunknowns. Review mapping before pinned first-attempt OCR;read all raw drafts before one prospective source pass. Encode and personally review all native structures,build two exact exports and independently audit every source/native occurrence,typedreference,range,asset anddamagedcase beforeacceptance. Then complete Q&A256–259,contestresults243,non-owning informationheading0038,all21pendingfullpage dispositions,andreproduciblewholeissueexport/completionaudit for all273scans. Marchremainsactive. Read frozen M75/M74/M73packages andevidenceasdataonly;neverexecute/import/modifyfrozenhelpers or snapshots. Sharedimplementation315tests/58pins unchanged. NosuccessfulOCRreruns;cleanup previewonly.",
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/resume.json",
+    "sha256": "006b5809adad7def8340e0d0dc83bb5ad35cf20f5fb3772bffdbebe72ffeb345",
+    "bytes": 2961
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/evidence-manifest.json",
+    "sha256": "dfc4c9332f5777fed6590849b527efc31b03d7207aeb2cead6a753ba8e5121b6",
+    "bytes": 171561
+  },
+  "frozen_evidence_files": 877,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-71/whole-progress-m75.json",
+    "sha256": "6ff7cfdfd5f3d31172e1f2260db3415e0a314d4b99bf7147eb978d95436434b5",
+    "bytes": 267102
+  }
+}

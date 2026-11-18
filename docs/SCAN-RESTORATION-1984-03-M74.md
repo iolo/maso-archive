@@ -1,5 +1,7 @@
 # March M74 — Native radar ending accepted
 
+The complete124–131 article is now accepted in [M75](SCAN-RESTORATION-1984-03-M75.md). This document remains the immutable-segment handoff; whole March is still active.
+
 The ending **130–131** of **정보 레이다** is accepted in two identical **110-file** native exports. Both source segments now cover **124–131**, but complete article assembly and its independent audit remain required in **M75**. Whole March remains active across all **273 scans**.
 
 The independent audit verifies **25 original-master crops, 25 unchanged first-attempt OCR bindings, 101 exact raw archive members and 1,101 native records**. All **5,951 typed references, 1,567 source/active byte spans and 1,108 asset bindings** close. All **28 damaged native cases reject**. Shared implementation remains **315 qualified tests / 58 pins**, with no changes or repeated broad regressions.

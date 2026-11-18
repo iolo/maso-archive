@@ -1,0 +1,15 @@
+# March M75 — Complete native radar accepted
+
+**정보 레이다**, actual **124–131**, is complete in two identical **374-file** native exports. All **97 original-master crops and 87 unchanged OCR bindings** remain exact. The independent full audit and focused original-context news audit reject **36 damaged cases**. Whole March remains active across **all273 scans**.
+
+The complete package retains **4,342 native records, 23,819 typed references, 5,454 source/active byte spans and 4,329 asset bindings**. Its **125 structures, 1,579 fields, 581 physical row contexts, 78 paths, 100 regional paragraph fragments, 80 table cells and ten original rasters** are preserved. All359 raw archive members match their exported bytes. No recognition or source-comparison pass was repeated.
+
+The article contains **22 distinct printed news items in 23 original segment contexts**. The separate source contexts for Sr.Partner are explicitly one item: **129 마쓰시타가 /130 PC와 호환성이 있는 컴퓨터를 발표하였다.** No repeated heading or punctuation is invented. A focused independent audit derives all22 complete news owners directly from the immutable native contexts and verifies their exact regions and headings. All ten internal source joins, five Sharp numbered features, three original table grids, packet-network graph, Hangul key/jamo/fraction contexts and four partial photographic fields remain intact. Original131 ends before the independent132 announcement.
+
+All **58 source qualifications and 65 original source/native qualifications** remain, with three assembly qualifications for **68 total**. Only active article download coordinates were rebased; every original source-local value, physical wrap, geometry and partial-segment annotation remains unchanged. Both original continuation declarations are retained in component evidence and resolved explicitly. Apparent errors, local unknowns, qualified search symbols and historical source claims remain. No original encoding, arithmetic, hardware behavior or historical accuracy is certified.
+
+Shared implementation is unchanged at **315 qualified tests /58 pins**; no broad regression run was repeated. Original PDF radar payloads and all1,539 frozen M73/M74 evidence files verify unchanged. All **877 M75 evidence files are frozen**. Never execute, import or modify frozen helpers, snapshots or evidence. The final handoff is `whole-issue-71/resume.json`. Cleanup was preview-only, with no deletion.
+
+March now has **35 complete articles, zero partial articles, three pending articles, one pending heading and21 pending full-page dispositions /273 scans**. Continue **M76** with debugging room, candidate actual255, in fresh `whole-issue-72`, verifying complete source extent and separate254/256 neighbors before mapping. Then restore Q&A256–259 and contest results243, resolve the information heading, account for every remaining source page, and build/audit reproducible whole-issue exports. March is not complete until those gates pass.
+
+See the [complete radar](../metadata/catalog/scan-restoration/1984-03-radar.json) and [whole-issue progress](../metadata/catalog/scan-restoration/1984-03-progress.json).
