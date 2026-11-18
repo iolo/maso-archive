@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 29,
+  "complete_whole_scan_articles": 30,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -6237,8 +6237,8 @@
       "title": "A/D, D/A의 이론과 실제",
       "parent_id": "maso-1984-03-toc-0029",
       "classification_candidate": "article",
-      "whole_scan_status": "partial-native-article",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0033",
         "title": "A/D, D/A의 이론과 실제",
@@ -6330,16 +6330,16 @@
         }
       },
       "new_selected_restoration": {
-        "checkpoint": "M63",
+        "checkpoint": "M64",
         "article_id": "scan-maso-1984-03-toc-0033",
-        "availability": "partial",
+        "availability": "readable",
         "verification": "sample-reviewed",
         "source_kind": "jpeg-set",
-        "directory": "archive/scans/1984-03/packages/ad-jpeg-ending-r01",
+        "directory": "archive/scans/1984-03/packages/ad-jpeg-full-r01",
         "manifest": {
-          "path": "archive/scans/1984-03/packages/ad-jpeg-ending-r01/manifest.json",
-          "sha256": "2f967c4245375c87d41af537d62d2003cd9bb90b33ac79644495e339a750ec21",
-          "bytes": 20797
+          "path": "archive/scans/1984-03/packages/ad-jpeg-full-r01/manifest.json",
+          "sha256": "342e571d0e397f439f8bc8366f801e7a29c3c54f3c9a93e476f8782011ad04fc",
+          "bytes": 115014
         },
         "article_actual_folios": [
           228,
@@ -6374,17 +6374,17 @@
           241
         ],
         "source_extent_covered": true,
-        "assembly_pending": true,
+        "assembly_pending": false,
         "continuation_pending": [],
         "recipe": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-59/ad-c/recipe-native-03.json",
-          "sha256": "a21bd612ba887f7f80d1c1ea8c90c67242716aedde04dea851f1ec5c492833ba",
-          "bytes": 8731
+          "path": "archive/scans/1984-03/restoration/whole-issue-60/assembly-recipe-r02.json",
+          "sha256": "8a642ae0e898b3824863220c7e490aa0d0bd2f85641d0d8c69a79c27f8276156",
+          "bytes": 8366
         },
         "validation": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-59/validation.json",
-          "sha256": "2981da043729e607b99a8b151d96bfaef947e1d8afd1fb60d5f8f20978461761",
-          "bytes": 5457
+          "path": "archive/scans/1984-03/restoration/whole-issue-60/validation.json",
+          "sha256": "6050548324db1ab8c867db46dbcf62fcea6eca3d5b0e2a58e553f45817e1f0ce",
+          "bytes": 6497
         },
         "segments": [
           {
@@ -6450,7 +6450,13 @@
             }
           }
         ],
-        "directory_scope": "latest-segment-only; covered folios are the union of the separately pinned segments"
+        "directory_scope": "complete-native-article; all three immutable segment exports embedded",
+        "implementation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-60/implementation-after.json",
+          "sha256": "fd52a098b1e8f7be162adb27aa447cd4e53dc6a2d42b3dd9160f8d7227fae3a8",
+          "bytes": 9409
+        },
+        "note": "Complete 228–241 native article. Two exact 607-file exports retain all 598 original segment files, 7105 native records, 206 qualifications and three local glyph unknowns. Three cross-segment figure resolutions preserve original records; whole March remains active."
       },
       "historical_printed_extent_candidate": [
         228,
@@ -6498,8 +6504,11 @@
           "sha256": "896e6894391fd190664ec1981c3ce364b51f697e1399d6a8ca5daf9c3ed3a6a8",
           "bytes": 15689
         },
-        "restoration_pending": true,
-        "partial_native_selected": true
+        "restoration_pending": false,
+        "partial_native_selected": false,
+        "complete_segment_source_coverage": true,
+        "assembly_pending": false,
+        "whole_article_assembly_pending": false
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-ad-work.json",
@@ -7339,14 +7348,14 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-59/source-ledger.json",
-    "sha256": "27c339ab76e7647529a6eb3e8787b680442df32bef09816d3bda0dd11c0d61df",
-    "bytes": 440973
+    "path": "archive/scans/1984-03/restoration/whole-issue-60/source-ledger.json",
+    "sha256": "4cac4a94dfc18a8be3e2f8a4f86ffd827cb0450afc67b6fc4037c0e98886b40d",
+    "bytes": 445561
   },
-  "current_checkpoint": "M63-complete",
-  "next": "M64: assemble and independently reproduce/audit the complete A/D, D/A의 이론과 실제 article on 228–241 from immutable M61 opening, M62 continuation and M63 ending. Preserve the M61 prose flow, accepted 233/234 split-word join, complete 239/240 sentence boundary, all source qualifications and source-specific graphic/formula/circuit/program contexts. Resolve the M62 Figure 31 reference against M63 and M63 references to prior Figures 25/26 in explicit scoped article indexes. Then continue the word-processor program, tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and all remaining March source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M63, M62, M61 or predecessor helpers/evidence. Reuse all successful OCR; shared implementation retains the qualified 303-test baseline.",
+  "current_checkpoint": "M64-complete",
+  "next": "M65: verify the complete donated-JPEG extent of canonical 한글 워드 프로세서 프로그램 (maso-1984-03-toc-0035), historical candidate actual 244–251, with neighbors 243 and 252. Restore a bounded opening of at most six source views, candidate 244–249, then the final 250–251 and complete-article assembly/audit. Historical M01–M04 supplements and mixed PDF/JPEG revisions remain evidence only until matching source-backed comparison supports reuse; do not substitute them for whole-JPEG restoration. Preserve code rows/wraps, identifiers, DATA and control characters, source mistakes, diagrams/captions and qualifications. Continue the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and all remaining March source dispositions through reproducible whole-issue export and completion audit. Whole March remains active. Never execute or modify frozen M64, M63, M62, M61 or predecessor helpers/evidence. Shared implementation is qualified by 306 tests with 53 pins; reuse successful OCR only when its inputs match.",
   "pending_article_candidates": 8,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 1,
+  "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5
 }

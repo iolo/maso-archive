@@ -3869,6 +3869,22 @@ Use this mode for the March numbers article on actual92–99. It neither changes
 the original `scoped-native-v1` contract nor establishes technical correctness,
 execution, original encoded bytes or character-perfect proofreading.
 
+An optional `figure_reference_links` array resolves references whose numbered
+figure lies in another source segment. Each row names `source` (segment, original
+`source_literal_index` index and exact literal), `target` (segment and original
+figure ID), `printed_number` and review `evidence`. This option requires a
+disposition for every original deferred or pinned-prior figure reference. It
+checks the target's printed caption and its exact source-caption association,
+the deferred source folio or pinned prior manifest/figure, and unique source
+occurrences. It accepts only the source-observation mode.
+
+With this option, `figure_reference_resolutions` records the original correction
+pointer, closed typed source references, active text ranges, scoped target figure
+and regions, original raster asset and source-caption pointer. Original native
+values and all embedded files remain unchanged. A prior-region observation also
+requires its exact preceding manifest and region; binding it does not create a
+prose continuation. Omitting this option preserves historical projections.
+
 An optional `program_links` array adds complete numbered-unit program continuity
 within this mode. Omitting it preserves the historical projection exactly.
 Each link names the left/right source segment and listing, the observed last/

@@ -4,6 +4,8 @@ Literal arithmetic, conversion groups, tables and bit drawings are observations,
 never evaluated values. Legacy scoped-native-v1 accepts exactly its old fields.
 """
 from collections import Counter
+from copy import deepcopy
+import re
 from .assembly_scoped_native import Scope, NATIVE_INDEXES, SOURCE_METADATA, REFS, REF_LISTS, walk
 
 EXTRA_INDEXES = (
@@ -49,6 +51,114 @@ DEFINITIONS = {
 def require(value, message):
     if not value:
         raise ValueError(message)
+
+
+CROSS_FIGURE_KINDS = {'original-source-reference-to-deferred-figure',
+                      'original-source-reference-to-pinned-prior-figure'}
+
+
+def validate_figure_reference_links(links, names):
+    """Opt in to complete, source-backed cross-segment numbered figure links."""
+    require(isinstance(links, list) and links, 'Figure reference links require a nonempty array')
+    used = set()
+    for link in links:
+        require(isinstance(link, dict) and
+                set(link) == {'source', 'target', 'printed_number', 'evidence'},
+                'Invalid figure reference link fields')
+        source, target = link['source'], link['target']
+        require(isinstance(source, dict) and set(source) == {'segment', 'index', 'literal'} and
+                source['segment'] in names and type(source['index']) is int and source['index'] >= 0 and
+                isinstance(source['literal'], str), 'Invalid figure reference source occurrence')
+        require(isinstance(target, dict) and set(target) == {'segment', 'figure_id'} and
+                target['segment'] in names and isinstance(target['figure_id'], str) and
+                target['figure_id'] and target['segment'] != source['segment'],
+                'Figure reference target must name another declared source scope')
+        number = link['printed_number']
+        require(isinstance(number, str) and re.fullmatch(r'[1-9][0-9]*', number) and
+                re.fullmatch(r'그림\s*' + re.escape(number), source['literal']) and
+                isinstance(link['evidence'], str) and link['evidence'].strip(),
+                'Figure link requires the exact printed reference and review evidence')
+        key = (source['segment'], source['index'])
+        require(key not in used, 'Duplicate source figure reference occurrence')
+        used.add(key)
+
+
+def bind_reference_scopes(contexts):
+    """A pinned prior-region observation does not imply a prose continuation."""
+    for i, context in enumerate(contexts):
+        for field in context.native_indexes:
+            for row in context.correction.get(field, []):
+                for _, value in walk(row):
+                    keys = {'prior_region_name', 'prior_region_id'} & value.keys()
+                    if not keys:
+                        continue
+                    require(i > 0 and len(keys) == 1 and
+                            value.get('prior_native_manifest') == contexts[i - 1].spec['manifest'],
+                            'Prior-region observation requires its exact preceding manifest')
+                    prior = contexts[i - 1]
+                    prior.reference('region', value[next(iter(keys))])
+                    require(not hasattr(context, 'prior') or context.prior is prior,
+                            'Conflicting preceding observation scope')
+                    context.prior = prior
+
+
+def project_figure_reference_links(links, contexts, native):
+    """Add current targets while preserving each original native value verbatim."""
+    from .assemble import rebase
+    sources = {c.name: c for c in contexts}
+    required = {(c.name, i) for c in contexts
+                for i, row in enumerate(c.correction.get('source_literal_index', []))
+                if row.get('kind') in CROSS_FIGURE_KINDS}
+    used, result = set(), []
+    for link in links:
+        source, target = sources[link['source']['segment']], sources[link['target']['segment']]
+        index = link['source']['index']
+        rows = source.correction.get('source_literal_index', [])
+        require(index < len(rows), 'Unknown source figure reference occurrence')
+        row = rows[index]
+        require(row.get('kind') in CROSS_FIGURE_KINDS and
+                row.get('literal') == link['source']['literal'] and
+                row.get('printed_number') == link['printed_number'],
+                'Figure link differs from its original printed reference')
+        candidates = [f for f in target.package['figures'] if f['id'] == link['target']['figure_id']]
+        require(len(candidates) == 1, 'Unknown or ambiguous target figure')
+        figure = candidates[0]
+        require(isinstance(figure.get('caption'), str) and
+                re.match(r'^그림\s*' + re.escape(link['printed_number']) + r'(?![0-9])', figure['caption']),
+                'Target caption differs from the printed figure number')
+        captions = [(i, r) for i, r in enumerate(target.correction.get('source_caption_association_index', []))
+                    if r.get('figure_id') == figure['id'] and
+                    r.get('figure_region_id') in figure['region_ids'] and
+                    r.get('caption_occurrence', {}).get('literal') == figure['caption']]
+        require(len(captions) == 1, 'Figure target lacks one exact original caption association')
+        if row['kind'] == 'original-source-reference-to-pinned-prior-figure':
+            require(contexts.index(target) < contexts.index(source) and
+                    row.get('prior_native_manifest') == target.spec['manifest'] and
+                    row.get('prior_figure_name') == figure['id'],
+                    'Prior figure target differs from its original pinned source')
+        else:
+            require(contexts.index(target) > contexts.index(source) and row.get('target_native_pending') is True,
+                    'Deferred figure requires a later represented source target')
+            regions = [r for r in target.package['regions'] if r['id'] in figure['region_ids']]
+            folios = {str(p['printed_page']) for p in target.package['pages']
+                      if any(r['source_index'] == p['source_index'] for r in regions)}
+            require(str(row.get('target_actual_folio')) in folios,
+                    'Deferred figure target differs from its declared source folio')
+        entry = next(v for v in native['source_literal_index'] if v['scope'] == source.name and
+                     v['source_ref']['pointer'] == f'/source_literal_index/{index}')
+        caption_index, _ = captions[0]
+        result.append(dict(kind='source-figure-reference-resolution',
+            source=dict(scope=source.name, source_ref=deepcopy(entry['source_ref']),
+                literal=row['literal'], printed_number=link['printed_number'],
+                references=deepcopy(entry['references']), ranges=deepcopy(entry['ranges'])),
+            target=dict(scope=target.name, figure_id=target.reference('figure', figure['id']),
+                source_figure_id=figure['id'], region_ids=[target.reference('region', r) for r in figure['region_ids']],
+                asset=rebase(figure['asset'], target.prefix), caption_literal=figure['caption'],
+                caption_source_ref=target.source_ref(f'/source_caption_association_index/{caption_index}')),
+            evidence=link['evidence'], original_record_preserved=True))
+        used.add((source.name, index))
+    require(used == required, 'Cross-segment figure reference lacks an explicit disposition')
+    return result
 
 
 class ObservationScope(Scope):

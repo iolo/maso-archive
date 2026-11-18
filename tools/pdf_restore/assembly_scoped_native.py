@@ -44,13 +44,14 @@ def validate_recipe(recipe):
     required = {'index_mode', 'source_index_mode', 'segments', 'expected_source_indices',
         'inventory', 'evidence', 'uncertainties', 'resolved_notes', 'prose_joins',
         'paragraph_links', 'logical_aliases'}
-    if (set(recipe) not in (required, required | {'program_links'}, required | {'observed_programs'}) or recipe['source_index_mode'] not in (MODE, 'scoped-observations-v1') or
+    fields = set(recipe) - {'figure_reference_links'}
+    if (fields not in (required, required | {'program_links'}, required | {'observed_programs'}) or recipe['source_index_mode'] not in (MODE, 'scoped-observations-v1') or
             recipe['index_mode'] != 'structured-programs-v1'):
         raise ValueError('Invalid scoped native recipe fields or mode')
     # Reuse the common strict inventory, segment, note and prose-join contract.
     from .assembly_structured import validate_recipe as validate_common
     common = {k: v for k, v in recipe.items()
-              if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases', 'program_links', 'observed_programs'}}
+              if k not in {'source_index_mode', 'paragraph_links', 'logical_aliases', 'program_links', 'observed_programs', 'figure_reference_links'}}
     if recipe['source_index_mode'] == 'scoped-observations-v1':
         from .assembly_examples import validate_joins
         validate_joins(recipe['prose_joins'], regional=True)
@@ -59,6 +60,11 @@ def validate_recipe(recipe):
     common.update(relationship_links=[], program_links=[], group_links=[], example_links=[])
     validate_common(common)
     names = [r['name'] for r in recipe['segments']]
+    if 'figure_reference_links' in recipe:
+        if recipe['source_index_mode'] != 'scoped-observations-v1':
+            raise ValueError('Figure reference links require the source-observation opt-in')
+        from .assembly_scoped_observations import validate_figure_reference_links
+        validate_figure_reference_links(recipe['figure_reference_links'], names)
     if 'program_links' in recipe:
         from .assembly_scoped_programs import validate_links
         validate_links(recipe['program_links'], names)
@@ -380,6 +386,9 @@ def project(recipe, originals):
         raise ValueError('Unused or reordered logical identity alias')
     if recipe['source_index_mode'] == 'scoped-observations-v1':
         validate_continuations(recipe, contexts)
+        if 'figure_reference_links' in recipe:
+            from .assembly_scoped_observations import bind_reference_scopes
+            bind_reference_scopes(contexts)
     first = contexts[0].package
     package = deepcopy(first)
     for key in ('pages', 'regions', 'excluded_regions', 'blocks', 'figures',
@@ -515,5 +524,9 @@ def project(recipe, originals):
     if 'observed_programs' in recipe:
         from .assembly_observed_programs import project_observations
         correction['observed_programs'] = project_observations(recipe['observed_programs'], contexts, listing)
+    if 'figure_reference_links' in recipe:
+        from .assembly_scoped_observations import project_figure_reference_links
+        correction['figure_reference_resolutions'] = project_figure_reference_links(
+            recipe['figure_reference_links'], contexts, native)
     validate_package(package)
     return package, correction

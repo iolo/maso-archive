@@ -850,6 +850,27 @@ remaining March task through whole-issue export/completion audit.
 See the [M63 handoff](docs/SCAN-RESTORATION-1984-03-M63.md) and
 [accepted ending](metadata/catalog/scan-restoration/1984-03-ad-ending.json).
 
+**M64 completes the whole A/D, D/A article on 228–241** in **607 exact files**,
+retaining all **598 immutable segment files**. Both independent builds, all
+**165 original-master crops, 136 OCR bindings and twenty damaged-data checks**
+pass. Its scoped indexes retain **7,105 native records**, all **206 source/native
+qualifications**, 36 structures, 1,024 fields, 79 empty contexts, 1,397 ink paths,
+Table 3 and the complete 21-row 8080 program. The empty 233/234 join preserves
+intervening Figure 19, text and caption. Three opt-in figure reference resolutions
+close Figure 31 forward and Figures 25/26 backward, with exact source-caption
+pointers and unchanged original records. All **306 fresh regression tests** and
+five real historical assembly checks pass; the qualified implementation has
+53 pins. M64 freezes **700 evidence files** and retains all 2,644 M61–M63 files
+unchanged. Whole March remains active with **30 complete articles, no partial
+articles, eight pending articles, five completed headings, one pending heading
+and fifty pending full-page dispositions / 273 scans**. Continue **M65** with
+**한글 워드 프로세서 프로그램**, candidate actual **244–251**: verify its complete
+JPEG extent and neighbors before restoring a bounded opening. Existing M01–M04
+supplements and mixed PDF/JPEG revisions require matching source comparison
+before reuse. Then finish every remaining March task through whole-issue export
+and completion audit. See the [M64 handoff](docs/SCAN-RESTORATION-1984-03-M64.md)
+and [complete article](metadata/catalog/scan-restoration/1984-03-ad.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
