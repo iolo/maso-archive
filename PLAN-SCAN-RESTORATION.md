@@ -1136,6 +1136,22 @@ articles, zero partial, four pending articles, one pending heading and 28 pendin
 full-page dispositions / 273 scans. See the
 [M73 work handoff](docs/SCAN-RESTORATION-1984-03-M73-WORK.md).
 
+**M73 source comparison is now complete; native restoration remains pending.**
+One closed prospective pass compares all 62 selected text owners and ten original
+rasters on 124–129. Independent audit verifies 72 exact crop-byte bindings,
+62 unchanged OCR bindings, four original-pixel detail views and 41 qualifications;
+21 damaged source-work cases reject. Fifteen news contexts, seven internal joins,
+59 regional narrative paragraph fragments, three original tables, the packet graph,
+key/jamo examples and local unknowns remain source-backed. Continue native geometry,
+typed source indexes, two exact partial exports and independent native audit inside
+unfrozen whole-issue-69; then restore 130–131 and assemble the whole article.
+Use resume-source-work-01.json, not the historical mapped-stage resume.json.
+No source pass is reopened or successful OCR rerun. Shared implementation remains
+315 tests / 58 pins. Accepted totals remain 34 complete articles, zero partial,
+four pending articles, one pending heading and 28 pending dispositions / 273 scans.
+See the [M73 source-work handoff](docs/SCAN-RESTORATION-1984-03-M73-SOURCE-WORK.md).
+
+
 
 
 ## Aim

@@ -1,5 +1,7 @@
 # March M73 — Radar opening mapped; native restoration pending
 
+Historical mapped/OCR-stage handoff. Superseded by the [closed source-pass handoff](SCAN-RESTORATION-1984-03-M73-SOURCE-WORK.md); no native segment is accepted.
+
 M73 verifies **정보 레이다** across actual **124–131**, with independent neighbors 123 and 132. The current bounded opening selects **124–129**, six source views plus four extent/neighbor lookups. No new native article or segment is accepted.
 
 The final map has **72 regions: 62 text regions and 10 original raster contexts**. All six overlays were personally reviewed. Two final-page heading crops were widened before recognition; trial and selected maps remain. All **62 first-attempt OCR tasks succeeded**, with zero retries or reruns, and every raw draft was read before any source-comparison pass. Four successful OCR drafts are empty; the original source ink is retained for manual reading. All 72 selected crop files match the recognized crop bytes exactly.

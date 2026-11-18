@@ -7475,7 +7475,7 @@
       "title": "정보 레이다",
       "parent_id": "maso-1984-03-toc-0038",
       "classification_candidate": "article",
-      "whole_scan_status": "source-mapped-native-restoration-pending",
+      "whole_scan_status": "source-compared-native-restoration-pending",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0040",
@@ -7581,12 +7581,12 @@
         "source_extent_verified": true,
         "canonical_identity_verified": true,
         "restoration_pending": true,
-        "note": "Complete radar extent124–131 personally verified. Bounded124–129map and first-attempt OCR complete;all62drafts read. Source comparison,native encoding,exports and acceptance remain pending.130–131native ending and full assembly remain required."
+        "note": "Complete radar extent124–131verified. Bounded124–129source pass is closed and independently audited:62text owners,10rasters,41qualifications and seven internal continuities. Native geometry,typed source indexes,exports and acceptance remain pending;130–131ending and full assembly are required."
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-radar-opening-work.json",
-        "sha256": "4cc33b3137d67647a5a483236c58f32f8ea0b4c7df0121e1284a6e6168e517b7",
-        "bytes": 6667
+        "sha256": "75cd2cfc4fff74de5f24abc769686f7172b61044570d4ef248ecbb10c85570d9",
+        "bytes": 9421
       }
     },
     {
@@ -7924,7 +7924,7 @@
     "bytes": 486184
   },
   "current_checkpoint": "M73",
-  "next": "Continue M73 inside existing unfrozen whole-issue-69. All62 first-attempt OCR tasks succeeded and all raw drafts are read and pinned in radar-a/raw-draft-readings-01.json. No source-comparison pass has started. Start one prospective source pass,compare every selected124–129reading and original raster against selected-review-crops-02.json,write source-compared readings with physical wraps,source mistakes,glyph qualifications,three tables and original network labels. Empty/poor successful OCR is manually corrected without rerunning recognition. Follow radar-a/native-structure-plan-01.json:all15 news contexts,72 regions,three specification tables with physical cells/merged labels/source blanks/rules,packet graph nodes/edges/legends,Hangul jamo/control-key/fraction observations,source headlines/claims/paragraphs and original photographic contexts. Review native geometry and typed source ranges,then create two exact native opening exports and independent source/native audit before acceptance. Complete130–131 in a fresh bounded ending and assemble/audit124–131. Then debugging room255,Q&A256–259,contest results243,non-owning information heading0038,all28 currently pending full-page dispositions,and reproducible whole-issue export/completion audit for all273 scans. Whole March remains active. Shared baseline315 tests/58 pins;read frozen checkpoints as data only;never execute or modify frozen helpers/snapshots. No successful OCR reruns or cleanup deletion.",
+  "next": "Continue M73 in existing unfrozen whole-issue-69. The single prospective source pass is CLOSED:all62text owners and10original rasters on124–129are compared,41source qualifications are pinned,all72crop-byte/62raw bindings and four source-pixel details pass independent audit,and21damaged source-work cases reject. Do not reopen source comparison or rerun successful OCR. Use radar-a/source-compared-readings-01.json,news-source-anatomy-01.json,source-continuity-01.json and native-structure-plan-02.json. Encode and personally review native baselines/59paragraph fragments/fifteen news contexts,three tables with original physical cells and merged labels,the packet graph,jamo/key/fraction observations,unresolvedMIKRONmark,and four legible photo fields while preserving local unknowns and every qualification. Build two exact partial native opening exports and independently audit all native values,references,ranges,assets and damaged cases before acceptance. Then restore130–131in a fresh bounded ending and assemble/audit124–131. Complete debugging room255,Q&A256–259,contest results243,information heading0038,all28currently pending full-page dispositions,and reproducible whole-issue export/completion audit for all273scans. March remains active. Shared implementation315tests/58pins is unchanged;read frozen helpers/snapshots as data only. Cleanup preview-only. Authoritative current source-work resume is resume-source-work-01.json;the earlier resume.json remains the immutable mapped/OCR-stage handoff.",
   "pending_article_candidates": 4,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
@@ -7933,11 +7933,13 @@
     "checkpoint": "M73",
     "record": {
       "path": "metadata/catalog/scan-restoration/1984-03-radar-opening-work.json",
-      "sha256": "4cc33b3137d67647a5a483236c58f32f8ea0b4c7df0121e1284a6e6168e517b7",
-      "bytes": 6667
+      "sha256": "75cd2cfc4fff74de5f24abc769686f7172b61044570d4ef248ecbb10c85570d9",
+      "bytes": 9421
     },
     "accepted": false,
-    "source_comparison_pass_started": false,
+    "source_comparison_pass_started": true,
+    "source_comparison_pass_complete": true,
+    "source_work_audited": true,
     "native_restoration_pending": true
   }
 }
