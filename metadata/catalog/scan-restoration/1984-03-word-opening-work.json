@@ -2,8 +2,8 @@
   "schema_version": 1,
   "issue_id": "1984-03",
   "checkpoint": "M65-work",
-  "updated_at": "2026-11-18T01:38:05.287757+00:00",
-  "status": "eight-opening-page-readings-compared;eighteen-readings-and-all-native-structures-pending",
+  "updated_at": "2026-11-18T01:56:31.762044+00:00",
+  "status": "all26-source-readings-compared;exact-source-indexes-prepared;native-geometry-and-exports-pending",
   "scope": "Whole donated-scan issue restoration, including every eligible article and native structure, all source-image dispositions and independent native article/issue rebuilds.",
   "toc_entry_id": "maso-1984-03-toc-0035",
   "canonical_received_title": "한글 워드 프로세서 프로그램",
@@ -41,9 +41,9 @@
   "recognition_unattempted_tasks": 0,
   "recognition_processing_seconds": 25.29841413597751,
   "master_crops": 28,
-  "source_readings_compared": 8,
-  "source_readings_pending": 18,
-  "source_qualifications_recorded": 9,
+  "source_readings_compared": 26,
+  "source_readings_pending": 0,
+  "source_qualifications_recorded": 45,
   "native_geometry_complete": false,
   "native_opening_segment_accepted": false,
   "native_article_accepted": false,
@@ -110,20 +110,45 @@
   },
   "source_pass": {
     "path": "archive/scans/1984-03/restoration/whole-issue-61/source-pass-01.json",
-    "sha256": "37dd1a3698ee2ed5846a56f2a546f6f58dcd995acd8532ab12a102b67d7ebdf2",
-    "bytes": 1181
+    "sha256": "a09dcad592b4b14ea925aa1341757b1e6c31f3b5c30c135e0b52874a4b7726f8",
+    "bytes": 2627
   },
   "source_compared_records": [
     {
       "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-p244-01.json",
       "sha256": "204d16e730b862fa20c8d1b280356b29179901921190d7216291ff9835601057",
       "bytes": 27077
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-p245-01.json",
+      "sha256": "b0d35bb9ba8b5222d2e79668ded517b48f7b49990d604edcfdf595a32cb3c646",
+      "bytes": 30353
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-p246-01.json",
+      "sha256": "56896ae223501572a63d4d1ebe5dc9068527d1d40f69ea9416e5d587442f3c9a",
+      "bytes": 13200
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-p247-01.json",
+      "sha256": "9c30d30125715e6c85b4e647b2d8ee4ac1cb5a3e9e72398b5c845bc8bea4259c",
+      "bytes": 14034
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-p248-01.json",
+      "sha256": "34f8cda1e21a671620ffc44937cb6dd0a64faf0f83a2ef61860a86c4def93321",
+      "bytes": 15378
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-p249-01.json",
+      "sha256": "baa1dbb5eecde199a4d19e1f450538d11935dd6257f52001c076275ca722ad6d",
+      "bytes": 15588
     }
   ],
   "source_work_validation": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-work-validation-01.json",
-    "sha256": "8190590cd2f3d87d9d0426d3a6009828b73f9cbff29c8a263afefd8c8419bacf",
-    "bytes": 769
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/source-readings-validation-02.json",
+    "sha256": "d0bf86aec9aae43032ad4239df73d42f10709c0dc8cff90a214a08567f92f206",
+    "bytes": 1927
   },
   "source_ledger": {
     "path": "archive/scans/1984-03/restoration/whole-issue-61/source-ledger.json",
@@ -132,13 +157,13 @@
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-61/resume.json",
-    "sha256": "119e51e0abcec27bdb57a45b1d22c113ded7c735188299686eba9a6075069063",
-    "bytes": 4695
+    "sha256": "7b9f428de19e34101d01abc0d51204713fb5000dc0b12459247753f1755c53e8",
+    "bytes": 5755
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/process-outcomes-01.json",
-    "sha256": "bc5d5d30e8c5da2f1fa8b1a335638b7fda94f105d1396f69f5908da490aaab0b",
-    "bytes": 1018
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/process-outcomes-02.json",
+    "sha256": "2b4b923e4d453108cfee4231681c76ddc91b789f2690f8f0816dd439e2406c94",
+    "bytes": 1724
   },
   "historical_comparison_packages": [
     {
@@ -183,11 +208,41 @@
   "native_recipe_created": false,
   "native_package_selected": false,
   "cleanup_preview": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-61/cleanup-preview-01.log",
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/cleanup-preview-02.log",
     "sha256": "a4498280ad1af450713829dfd2bfea200526d23885a720a57a17cab9bfc5df03",
     "bytes": 233
   },
   "cleanup_preview_only": true,
   "deleted_files": 0,
-  "next": "Continue unfrozen M65 source comparison on actual 245–249: eighteen text owners remain after all 26 raw drafts were read and eight page-244 owners compared. Preserve every physical code row and wrap, original labels, digits, operators and literals, Hangul variable/range glyphs, complete flowchart routes/connectors, original monitor and inline key boxes. Do not repair from expected Applesoft syntax or execution. Encode all native structures and reading/relationship ownership; produce two matching opening exports and an independent source/native audit before accepting 244–249. Then restore final 250–251 with matching historical-source reuse where proven, explicitly join statement 3190, and assemble/audit the complete 244–251 article. Continue the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and every remaining source disposition through reproducible whole-March export and completion audit. Reuse all 26 successful OCR tasks and eight compared readings. Never execute or modify frozen predecessors."
+  "next": "Continue unfrozen M65 with native geometry and exact occurrence ownership for all compared 244–249 content. Encode and personally compare source code baselines, blank/quote spans, 409 physical rows and 3,895 printed fields; six variable definitions, 29 range entries and every Hangul glyph; original monitor, both inline key boxes and the complete flowchart, including node outlines, routes, thirteen connector identities, twelve Yes labels and caption/inset-listing relationships. Bind prose, paragraphs, exact token/number wraps, cross-page 1890/2610 continuations, printed source mistakes and all 45 qualifications into the final native contract. Produce two fresh matching opening exports and an independent full source/native audit before accepting 244–249. Then restore final 250–251, explicitly join outgoing 3190, and assemble/reproduce/audit the full 244–251 article. Finish the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and all remaining 42 scan dispositions through whole-March export and completion audit. Reuse all 26 successful OCR tasks and compared readings; never execute or modify frozen predecessors.",
+  "physical_nonempty_code_rows": 409,
+  "visible_source_statement_labels": 220,
+  "complete_source_units": 219,
+  "incomplete_source_units": 1,
+  "display_fields": 3895,
+  "variable_groups": 6,
+  "program_overview_entries": 29,
+  "flowchart_search_fields": 77,
+  "monitor_search_lines": 5,
+  "damaged_source_work_cases_rejected": 11,
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/source-compared-readings-01.json",
+    "sha256": "2f2d02d2420f208f924b871afccb9b028b31cdff99c935346fc6937d7c234c8b",
+    "bytes": 114130
+  },
+  "source_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/native-structure-plan-02.json",
+    "sha256": "b06aed7736a2b18155c175849f30b472b4f14aea56168fdebf41ac763db31d45",
+    "bytes": 50072
+  },
+  "program_source_index": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/word-a/native-program-source-index-02.json",
+    "sha256": "da4ac811f6c192d1c36909cd10b6773429269b16610b0f2d09638d7603fcdd0b",
+    "bytes": 1589038
+  },
+  "preserved_failed_native_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-61/native-plan-attempt-01.json",
+    "sha256": "f30a41ef7fed00dd10fdc945defffdb8d9252c9e7516d9476d1f1e193a8a630d",
+    "bytes": 873
+  }
 }

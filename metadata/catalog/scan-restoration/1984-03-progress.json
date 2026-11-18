@@ -6708,8 +6708,8 @@
         ],
         "record": {
           "path": "metadata/catalog/scan-restoration/1984-03-word-opening-work.json",
-          "sha256": "b1b1e28e78551cbb4e3ec931a75f0a2e98cfe061fcebe77370d17434dad6d373",
-          "bytes": 8202
+          "sha256": "837322b0963e1dff6d23e11bfd79566a648670582fb8aeb2152d9f7b15ba912a",
+          "bytes": 10709
         },
         "native_accepted": false
       },
@@ -7432,7 +7432,7 @@
     "bytes": 452422
   },
   "current_checkpoint": "M65-work",
-  "next": "Continue unfrozen M65 source comparison on actual 245–249: eighteen text owners remain after all 26 raw drafts were read and eight page-244 owners compared. Preserve every physical code row and wrap, original labels, digits, operators and literals, Hangul variable/range glyphs, complete flowchart routes/connectors, original monitor and inline key boxes. Do not repair from expected Applesoft syntax or execution. Encode all native structures and reading/relationship ownership; produce two matching opening exports and an independent source/native audit before accepting 244–249. Then restore final 250–251 with matching historical-source reuse where proven, explicitly join statement 3190, and assemble/audit the complete 244–251 article. Continue the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and every remaining source disposition through reproducible whole-March export and completion audit. Reuse all 26 successful OCR tasks and eight compared readings. Never execute or modify frozen predecessors.",
+  "next": "Continue unfrozen M65 with native geometry and exact occurrence ownership for all compared 244–249 content. Encode and personally compare source code baselines, blank/quote spans, 409 physical rows and 3,895 printed fields; six variable definitions, 29 range entries and every Hangul glyph; original monitor, both inline key boxes and the complete flowchart, including node outlines, routes, thirteen connector identities, twelve Yes labels and caption/inset-listing relationships. Bind prose, paragraphs, exact token/number wraps, cross-page 1890/2610 continuations, printed source mistakes and all 45 qualifications into the final native contract. Produce two fresh matching opening exports and an independent full source/native audit before accepting 244–249. Then restore final 250–251, explicitly join outgoing 3190, and assemble/reproduce/audit the full 244–251 article. Finish the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index, contest results, information heading and all remaining 42 scan dispositions through whole-March export and completion audit. Reuse all 26 successful OCR tasks and compared readings; never execute or modify frozen predecessors.",
   "pending_article_candidates": 8,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
@@ -7441,8 +7441,8 @@
     "checkpoint": "M65-work",
     "record": {
       "path": "metadata/catalog/scan-restoration/1984-03-word-opening-work.json",
-      "sha256": "b1b1e28e78551cbb4e3ec931a75f0a2e98cfe061fcebe77370d17434dad6d373",
-      "bytes": 8202
+      "sha256": "837322b0963e1dff6d23e11bfd79566a648670582fb8aeb2152d9f7b15ba912a",
+      "bytes": 10709
     },
     "accepted": false
   }

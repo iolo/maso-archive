@@ -875,9 +875,15 @@ and [complete article](metadata/catalog/scan-restoration/1984-03-ad.json).
 Personal full-page comparison verifies its complete **244–251** extent and
 separate neighbors 243/252. All six map overlays, **28 original-master crops**
 and **26 first-attempt OCR bindings** pass coverage/provenance checks. All raw
-drafts were read before source correction; **eight page-244 owners** now have
-enlarged comparison with nine qualifications. **Eighteen owners and all native
-encoding/export/acceptance checks remain pending.** Final 250–251 and complete
+drafts were read before source correction; **all 26 text owners** now have
+enlarged comparison with **45 qualifications**. Exact source indexes retain
+**409 nonempty code rows, 220 statement labels, 3,895 display fields**, six
+variable groups, 29 program overview entries, 77 flowchart fields and five
+monitor lines. Source-work audit and eleven damaged-contract rejections pass;
+**all native geometry/encoding/export/acceptance checks remain pending.**
+Keep the source's duplicate `X +` in 3160, `= <` in 1280 and outgoing incomplete
+3190. R01's failed overview ownership assertion is preserved; selected R02 keeps
+the 1440 sublist under 1420–1480. Final 250–251 and complete
 article assembly/audit are also required. Eight new full-page dispositions leave
 **42 pending / 273 scans**; article/heading acceptance totals remain unchanged
 at **30 complete articles, eight pending articles, five complete headings and

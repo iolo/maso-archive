@@ -24,18 +24,37 @@ All **26 first-attempt recognitions** completed, with no retries or failed engin
 exits. Independent audit passes all **28 pixel-exact crops**, original
 map/source/runtime/settings bindings and 53 unchanged implementation pins.
 Recorded engine processing is **25.298414 seconds**; the surrounding process
-wall interval is separate. Read all raw drafts before the prospectively recorded
-source-comparison pass. Successful recognition is not a fidelity finding: the
-badge, monitor and much of the dot-matrix listing need source correction.
+wall interval is separate. All raw drafts were read before the prospectively
+recorded source-comparison pass. Raw recognition substantially misread the badge,
+monitor and much of the dot-matrix listing; the compared readings below retain
+their source-backed corrections and qualifications.
 
-All **eight page-244 text owners** now have enlarged source comparison, retaining
-**nine qualifications**. Keep the screen's literal `할입니다.` rather than adding
-an expected syllable. Preserve its faint footer/raster and local glyph candidates,
+All **26 text owners** now have enlarged source comparison, retaining **45
+qualifications**. Keep the screen's literal `할입니다.` rather than adding an
+expected syllable. Preserve its faint footer/raster and local glyph candidates,
 the printed vowel and both outlined keys, compound-consonant forms, the physical
 `13` / `10행` reference wrap, and independent 22-character versus 21-column claims.
-The raw attempts remain unchanged. **Eighteen text owners still need source
-comparison**, followed by all native geometry/physical-row/relationship encoding,
-two matching opening exports and independent source/native validation.
+The source pass is closed; its wall interval includes tools and turn handoff and
+does not measure active human effort. All raw attempts remain unchanged.
+
+Exact source indexes retain **409 nonempty physical code rows, 220 visible
+statement labels and 3,895 printed display fields**. There are **219 complete
+source units and one incomplete outgoing unit, 3190**. Statements 1890 and 2610
+continue across pages inside this opening. Keep the printed `= <` in 1280 and
+the duplicate `X +` across the physical wrap in 3160. The 1020/1060 decoration
+each has nineteen stars on its first physical row and eleven on its continuation.
+Blank-byte counts and executable reconstruction are not certified; native row
+and blank-span geometry still requires source comparison.
+
+The selected R02 structure plan also retains **six variable groups, 29 program
+overview entries, 77 flowchart search fields and five original monitor lines**.
+The 1440 control-key sublist remains inside the 1420–1480 overview entry. R01's
+failed ownership assertion and partial index remain preserved. R02 succeeds
+without recognition reruns. Independent source-work audit passes exact byte
+spans, complete ordered row/field coverage, range continuations and **eleven
+damaged-contract rejections**. This is source-index evidence; **all native
+geometry, reading/relationship encoding, two matching opening exports and final
+source/native acceptance remain pending**.
 
 Full-page identity/extent review accounts for eight previously pending scans;
 **42 full-page dispositions remain**. This does not accept another article.
@@ -49,9 +68,9 @@ implementation is unchanged, so the qualified **306-test** M64 baseline applies;
 no broad regression rerun is claimed. Never execute or modify frozen M64 or
 predecessor helpers/evidence. Cleanup is preview-only; nothing is deleted.
 
-Continue source comparison on 245–249, complete and validate this opening, then
-restore final 250–251 and assemble/audit the whole article. Continue the tunnel
-game, Seun feature, information radar, debugging room, Q&A, advertising index,
+Continue native encoding and enlarged geometry comparison, complete and validate
+this opening, then restore final 250–251 and assemble/audit the whole article.
+Continue the tunnel game, Seun feature, information radar, debugging room, Q&A, advertising index,
 contest results, information heading and every remaining scan disposition.
 March remains active through whole-issue export and completion audit.
 
