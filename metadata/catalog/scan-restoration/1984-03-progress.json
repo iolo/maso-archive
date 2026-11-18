@@ -7293,9 +7293,9 @@
         "note": "Full feature190–204 verified. Native opening190–195 and middle196–201 are accepted as separate partial segments. Ending202–204 and full-feature assembly/audit remain pending. Lower204 index is separate owner0043."
       },
       "source_work_evidence": {
-        "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json",
-        "sha256": "ac3085d9a56466af2868fa05b8179e7ae39998cc60de0ccfce95235ab89b0bf1",
-        "bytes": 9059
+        "path": "metadata/catalog/scan-restoration/1984-03-sewoon-ending-index-work.json",
+        "sha256": "738b7145b6b69fd4db1bf35eab45c78d5a1df98b3b5679e50897d2acba80f5f7",
+        "bytes": 8991
       },
       "opening_segment": {
         "checkpoint": "M69",
@@ -7323,6 +7323,15 @@
           "bytes": 7652
         },
         "native_accepted": true
+      },
+      "ending_work": {
+        "checkpoint": "M71-work",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-sewoon-ending-index-work.json",
+          "sha256": "738b7145b6b69fd4db1bf35eab45c78d5a1df98b3b5679e50897d2acba80f5f7",
+          "bytes": 8991
+        },
+        "native_accepted": false
       }
     },
     {
@@ -7706,6 +7715,20 @@
         "restoration_pending": true,
         "shared_source_page": true,
         "note": "Lower original204is the separate TOC-listed advertising index. Upper204is the Seun-feature ending. Preserve both body owners and the original tree illustration during later native restoration."
+      },
+      "source_work_evidence": {
+        "path": "metadata/catalog/scan-restoration/1984-03-sewoon-ending-index-work.json",
+        "sha256": "738b7145b6b69fd4db1bf35eab45c78d5a1df98b3b5679e50897d2acba80f5f7",
+        "bytes": 8991
+      },
+      "index_work": {
+        "checkpoint": "M71-work",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-sewoon-ending-index-work.json",
+          "sha256": "738b7145b6b69fd4db1bf35eab45c78d5a1df98b3b5679e50897d2acba80f5f7",
+          "bytes": 8991
+        },
+        "native_accepted": false
       }
     },
     {
@@ -7784,19 +7807,19 @@
     "sha256": "e86bdd6d4a28bc9269d0ea91fdad6dec402e0a0d2fc1105b20782074e074af43",
     "bytes": 476156
   },
-  "current_checkpoint": "M70",
-  "next": "M71: restore the Seun Sangga feature ending202–204 and the separate lower204 advertising index in fresh whole-issue-67 evidence. Preserve accepted native opening190–195 and middle196–201. The full feature190–204 extent and lower204 index boundary are verified;personally review the three selected originals and any needed outside continuity context before mapping. Incoming202 MZ-80,PC-8001 continues201 창명 시스템 산업 under the same 본체 category. Preserve all directory names,addresses,telephone pictograms,category circles,bullets,empty or unheaded categories,physical wraps,original pictures,and printed/handwritten telephone alterations on202 without conflating layers. The feature ends at its final204 star and blue separator;the lower204 광고색인 is independent canonical owner maso-1984-03-toc-0043. Stay within two articles,six selected views and twenty outside contexts;review maps before OCR and all raw drafts before one prospective source pass. Never rerun successful OCR. Accept the audited native ending and index,then assemble/audit the full feature in M72. Finish the remaining March information radar124–131,debugging room255,Q&A256–259,contest results243,information heading0038,all30 pending full-page dispositions,and reproducible whole-issue export/completion audit for all273 scans. March remains active. Frozen M70/M69/predecessor helpers,evidence and snapshots are read-only data;never execute or modify them. Shared baseline remains312 tests/57 pins. Cleanup is preview-only.",
+  "current_checkpoint": "M71-work",
+  "next": "Continue M71 native restoration in existing unfrozen whole-issue-67. All 11 first recognition tasks succeeded, all raw drafts were read, and one prospective source pass is closed and audited: 16 original crop checks, 11 raw bindings and 17 rejected damaged source cases. Use both map-r01.json files, selected-review-crops-01.json and the saved native plans in sewoon-c/ads. Never rerun successful OCR or change compared readings without an explicitly recorded new pass. Encode and personally review physical directory baselines and fields, 14 company occurrences with 13 new printed headings, 12 printed phone fields, four internal continuities and the incoming 201/202 company/category. Preserve TIME’s unprinted phone, the unheaded KOAS/해종 bullets, struck printed 269-4917 and separate handwritten (272)9980. Keep the original monitor photograph, closing star and blue separator. The independent index needs 22 advertiser/reference pairs, 44 fields, original dotted leaders and bars, qualified nonprinted tabs, cover references 표2/표3/표4, multi-page reference 6, 7, and original layout/tree rasters. Build two exact partial ending exports and two exact complete index exports, then independently audit native references, spans, assets, original pixels and damaged cases before acceptance. M72 must assemble and audit the full 190–204 feature. Finish all remaining March articles, the heading, 30 pending full-page dispositions, and reproducible whole-issue export/completion audit for all 273 scans. Frozen M70/M69/predecessor helpers and evidence are read-only data; never execute or modify them. Fresh B67 source_helpers.py supports both owners and has no global F; adapt new geometry helpers locally. Shared baseline remains 312 tests and 57 pins. Cleanup is preview-only.",
   "pending_article_candidates": 5,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M70",
+    "checkpoint": "M71-work",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle.json",
-      "sha256": "5b8370b68e8b0bd6f7474c8596ec0094d9a924bccb454c9f8f4f62a3d7e5e79a",
-      "bytes": 7652
+      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-ending-index-work.json",
+      "sha256": "738b7145b6b69fd4db1bf35eab45c78d5a1df98b3b5679e50897d2acba80f5f7",
+      "bytes": 8991
     },
-    "accepted": true
+    "accepted": false
   }
 }

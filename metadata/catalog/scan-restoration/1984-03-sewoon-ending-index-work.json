@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M71-work",
+  "issue_id": "maso-1984-03",
+  "toc_entry_ids": [
+    "maso-1984-03-toc-0037",
+    "maso-1984-03-toc-0043"
+  ],
+  "canonical_received_titles": [
+    "심층취재 : 살아서 움직이는 현장 세운상가",
+    "광고색인"
+  ],
+  "status": "ending-and-index-source-work-audited;native-structures-and-packages-pending",
+  "source_kind": "jpeg-set",
+  "feature_article_actual_folios": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "selected_ending_actual_folios": [
+    202,
+    203,
+    204
+  ],
+  "advertising_index_actual_folios": [
+    204
+  ],
+  "selected_distinct_source_views": 3,
+  "outside_lookup_views": 2,
+  "articles": 2,
+  "canonical_identity_verified": true,
+  "source_extent_verified": true,
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-sewoon-opening.json",
+    "sha256": "3cfca536b8d46a8588e417f47a2cc8564536fb7a5f7ac7eff5eb858f0316edd8",
+    "bytes": 7067
+  },
+  "accepted_middle": {
+    "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle.json",
+    "sha256": "5b8370b68e8b0bd6f7474c8596ec0094d9a924bccb454c9f8f4f62a3d7e5e79a",
+    "bytes": 7652
+  },
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/scope.json",
+    "sha256": "d99fb8851dddb513cb8f4580d2ab326d6c539213df9412e3ce00edac8aeeb6af",
+    "bytes": 5391
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/full-page-review-01.json",
+    "sha256": "ef578801fda98675b3e57664390ab4bd3559f2708182e874b216e07fa408a649",
+    "bytes": 5845
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/transition-01.json",
+    "sha256": "e63b1936ee69622cee8008275243b8aeb24a30e4652ef2dbf46fc055129a9c3f",
+    "bytes": 1034
+  },
+  "maps": [
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/map-r01.json",
+      "sha256": "e21202ce819e8311350363330de84d5995a25fcf359aa8b41327bb2d6631effb",
+      "bytes": 10275
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-67/ads/map-r01.json",
+      "sha256": "21ce26341c6c53bc14fcaaae39e60a74e651239cec525766342d9e252f208bc1",
+      "bytes": 5192
+    }
+  ],
+  "selected_crops": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/selected-review-crops-01.json",
+    "sha256": "a3cc4a0902f4017efea93fcba537b34c3ebc3bb88248a71e4ef6dec585d3acf6",
+    "bytes": 17690
+  },
+  "map_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/map-review-01.json",
+    "sha256": "a71c6c17985e1a20dbf823980cdeece5bd6f189e0e0eafb404eaa390d7c08f67",
+    "bytes": 3234
+  },
+  "recognition_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/recognition-plan-01.json",
+    "sha256": "6cfb20685ea7605d8797cd5da36205561f3385526c257fdd51ae8a4b8248b0f5",
+    "bytes": 1018
+  },
+  "recognition_progress_path": "archive/scans/1984-03/restoration/whole-issue-67/recognition-outcomes-01.json",
+  "recognition_session_id": 45174,
+  "recognition_completion_requires_check": false,
+  "recognition_started": true,
+  "raw_drafts_read": true,
+  "source_comparison_passes": 1,
+  "mapped_regions": 16,
+  "text_owners": 11,
+  "original_rasters": 5,
+  "native_geometry_complete": false,
+  "native_package_selected": false,
+  "evidence_frozen": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
+    "sha256": "d2af804cb6eb8622745c3127966136d28507152a403f9e2fc058c95c163697c9",
+    "bytes": 10345
+  },
+  "qualified_regression_tests": 312,
+  "implementation_pins": 57,
+  "shared_implementation_changed": false,
+  "fresh_regression_tests": 0,
+  "complete_whole_scan_articles": 32,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 5,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "source_dispositions_pending": 30,
+  "source_images": 273,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/resume.json",
+    "sha256": "87e89a3f16a22f0798750154d6b084d96745e2a43ca14e7760c0dd37d4153ff1",
+    "bytes": 6566
+  },
+  "review_level": "assistant-source-reviewed;not-human-acceptance",
+  "next": "Continue M71 native restoration in existing unfrozen whole-issue-67. All 11 first recognition tasks succeeded, all raw drafts were read, and one prospective source pass is closed and audited: 16 original crop checks, 11 raw bindings and 17 rejected damaged source cases. Use both map-r01.json files, selected-review-crops-01.json and the saved native plans in sewoon-c/ads. Never rerun successful OCR or change compared readings without an explicitly recorded new pass. Encode and personally review physical directory baselines and fields, 14 company occurrences with 13 new printed headings, 12 printed phone fields, four internal continuities and the incoming 201/202 company/category. Preserve TIME’s unprinted phone, the unheaded KOAS/해종 bullets, struck printed 269-4917 and separate handwritten (272)9980. Keep the original monitor photograph, closing star and blue separator. The independent index needs 22 advertiser/reference pairs, 44 fields, original dotted leaders and bars, qualified nonprinted tabs, cover references 표2/표3/표4, multi-page reference 6, 7, and original layout/tree rasters. Build two exact partial ending exports and two exact complete index exports, then independently audit native references, spans, assets, original pixels and damaged cases before acceptance. M72 must assemble and audit the full 190–204 feature. Finish all remaining March articles, the heading, 30 pending full-page dispositions, and reproducible whole-issue export/completion audit for all 273 scans. Frozen M70/M69/predecessor helpers and evidence are read-only data; never execute or modify them. Fresh B67 source_helpers.py supports both owners and has no global F; adapt new geometry helpers locally. Shared baseline remains 312 tests and 57 pins. Cleanup is preview-only.",
+  "recognition_finished": true,
+  "source_comparison_pass_closed": true,
+  "source_readings_compared": 11,
+  "source_readings_pending": 0,
+  "source_qualifications": 19,
+  "successful_recognition_tasks": 11,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "post_pass_source_changes": 0,
+  "source_work_audited": true,
+  "ending_company_occurrences": 14,
+  "new_printed_company_headings": 13,
+  "printed_telephone_fields": 12,
+  "internal_company_continuities": 4,
+  "index_rows": 22,
+  "index_fields": 44,
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/recognition-outcomes-01.json",
+    "sha256": "27e52f5ed75d5bde04de009bb91980de4db77b62d2abc20660a7c33367f11bb8",
+    "bytes": 3750
+  },
+  "source_pass": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/source-pass-01.json",
+    "sha256": "839b2dc924ce08c316ea6808efefb7b6155918334ffc23a287d72eff0508fe42",
+    "bytes": 7258
+  },
+  "source_readings": [
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/source-compared-readings-01.json",
+      "sha256": "60dd569dab72afa8b4b519f662d3c79c8499b48561172433a4547dac9f647d20",
+      "bytes": 37300
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-67/ads/source-compared-readings-01.json",
+      "sha256": "7b2a893ae2b2b80c654ed9f9e115dc5f144cd4e9e5089aceb02607b0c93bcc37",
+      "bytes": 11269
+    }
+  ],
+  "source_continuity": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/source-continuity-01.json",
+    "sha256": "338220b95077449acaa3d563e45e7d8d95dcba2b3e08aaaf0c3c318b05b7633e",
+    "bytes": 3174
+  },
+  "directory_source_anatomy": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/directory-source-anatomy-01.json",
+    "sha256": "82af54e7b269573db4ff057b2ab5b39f1175c85111fd239a68bd38550ae729c3",
+    "bytes": 61243
+  },
+  "index_source_anatomy": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/ads/index-source-anatomy-01.json",
+    "sha256": "b70a87fc84c8ae002310a49c22dfd79f72fd7d0da3a528c8b828c6eeabc8f4b3",
+    "bytes": 2598
+  },
+  "source_work_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-67/source-work-validation-01.json",
+    "sha256": "4762cdcd275639cecf9b215641b99c3dcd7f348d290bcc8f35151ae9a9a0d337",
+    "bytes": 3700
+  },
+  "native_structure_plans": [
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-67/sewoon-c/native-structure-plan-01.json",
+      "sha256": "f6ffa0c994b10cf2ec49f3e782b52d2ecdbf59642905c006c028bd6d23d713ce",
+      "bytes": 2322
+    },
+    {
+      "path": "archive/scans/1984-03/restoration/whole-issue-67/ads/native-structure-plan-01.json",
+      "sha256": "860c0c79c7d1a7c3fce6c15a92e792c433c72cbb04418e9608fbe44407b4849e",
+      "bytes": 1929
+    }
+  ]
+}
