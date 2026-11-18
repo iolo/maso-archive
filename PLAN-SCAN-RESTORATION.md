@@ -1124,6 +1124,19 @@ disposition through reproducible whole-issue export/completion audit. See the
 [M72 handoff](docs/SCAN-RESTORATION-1984-03-M72.md) and
 [accepted feature](metadata/catalog/scan-restoration/1984-03-sewoon.json).
 
+**M73 is in progress: information radar opening 124–129 is mapped and recognized.**
+Full source review verifies the complete 124–131 extent and independent neighbors
+123/132. The bounded map has 72 regions, including three specification tables,
+the original packet-network diagram and ten raster contexts. All 62 first-attempt
+OCR tasks succeeded without retries/reruns; all drafts were read. No source pass
+has started and no native package is accepted. Continue inside unfrozen
+whole-issue-69 with one prospective source comparison, native encoding and audit,
+then ending 130–131 and complete assembly. Accepted totals remain 34 complete
+articles, zero partial, four pending articles, one pending heading and 28 pending
+full-page dispositions / 273 scans. See the
+[M73 work handoff](docs/SCAN-RESTORATION-1984-03-M73-WORK.md).
+
+
 
 ## Aim
 

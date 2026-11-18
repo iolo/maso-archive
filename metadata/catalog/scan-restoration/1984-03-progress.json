@@ -7475,7 +7475,7 @@
       "title": "정보 레이다",
       "parent_id": "maso-1984-03-toc-0038",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "source-mapped-native-restoration-pending",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0040",
@@ -7556,19 +7556,37 @@
         131
       ],
       "located_source_evidence": {
-        "actual_folio": 124,
+        "actual_folios": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131
+        ],
         "observed_title": "정보 레이다",
+        "observed_running_title": "정보레이다",
         "source_review": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-31/review/full-124.jpg",
-          "sha256": "cbc1fe684612843bd138ecd92d73de1f1f444dd7864d1e3b0989dd30abf75e6c",
-          "bytes": 1434614
+          "path": "archive/scans/1984-03/restoration/whole-issue-69/full-page-review-01.json",
+          "sha256": "9c01937d1e30b4fb18e5087331ccf6388e20143bcfb6aa904e225f1ed60e4b7d",
+          "bytes": 10428
         },
         "boundary_evidence": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-31/transition.json",
-          "sha256": "df5fa55d9631dcbba74e9464bfd239f060b7d384d855ffddc6642bb2080207b1",
-          "bytes": 740
+          "path": "archive/scans/1984-03/restoration/whole-issue-69/transition-01.json",
+          "sha256": "fd25d898a63ac56d0f66407451b2c67f23e9c1c2c20fe01f23f890580507fe3c",
+          "bytes": 1019
         },
-        "restoration_pending": true
+        "source_extent_verified": true,
+        "canonical_identity_verified": true,
+        "restoration_pending": true,
+        "note": "Complete radar extent124–131 personally verified. Bounded124–129map and first-attempt OCR complete;all62drafts read. Source comparison,native encoding,exports and acceptance remain pending.130–131native ending and full assembly remain required."
+      },
+      "source_work_evidence": {
+        "path": "metadata/catalog/scan-restoration/1984-03-radar-opening-work.json",
+        "sha256": "4cc33b3137d67647a5a483236c58f32f8ea0b4c7df0121e1284a6e6168e517b7",
+        "bytes": 6667
       }
     },
     {
@@ -7905,19 +7923,21 @@
     "sha256": "a1fe13e1a6a2a93499f132a4cb12a9aa54d328a0685d8e7fd7c8c3d08c691cde",
     "bytes": 486184
   },
-  "current_checkpoint": "M72",
-  "next": "M73: restore information radar,maso-1984-03-toc-0040,candidate actual124–131. Verify donated originals,title,complete extent,internal article ownership and separate neighbors before bounded source mapping. Use at most6 new selected source views and2 articles per restoration batch;long source extents require bounded native segments followed by complete assembly/audit. Read frozen M72/M71/M70/M69 packages and evidence as data only;never execute or modify frozen helpers or snapshots. Preserve all first-attempt OCR and source/native qualifications. Then complete debugging room255,Q&A256–259,contest results243,information parent heading0038,all28 pending full-page dispositions and reproducible whole-issue export/completion audit for all273 scans. March remains active. Qualified shared implementation is315 tests/58 pins. No successful recognition reruns;cleanup preview-only.",
+  "current_checkpoint": "M73",
+  "next": "Continue M73 inside existing unfrozen whole-issue-69. All62 first-attempt OCR tasks succeeded and all raw drafts are read and pinned in radar-a/raw-draft-readings-01.json. No source-comparison pass has started. Start one prospective source pass,compare every selected124–129reading and original raster against selected-review-crops-02.json,write source-compared readings with physical wraps,source mistakes,glyph qualifications,three tables and original network labels. Empty/poor successful OCR is manually corrected without rerunning recognition. Follow radar-a/native-structure-plan-01.json:all15 news contexts,72 regions,three specification tables with physical cells/merged labels/source blanks/rules,packet graph nodes/edges/legends,Hangul jamo/control-key/fraction observations,source headlines/claims/paragraphs and original photographic contexts. Review native geometry and typed source ranges,then create two exact native opening exports and independent source/native audit before acceptance. Complete130–131 in a fresh bounded ending and assemble/audit124–131. Then debugging room255,Q&A256–259,contest results243,non-owning information heading0038,all28 currently pending full-page dispositions,and reproducible whole-issue export/completion audit for all273 scans. Whole March remains active. Shared baseline315 tests/58 pins;read frozen checkpoints as data only;never execute or modify frozen helpers/snapshots. No successful OCR reruns or cleanup deletion.",
   "pending_article_candidates": 4,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M72",
+    "checkpoint": "M73",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-sewoon.json",
-      "sha256": "a718358056716ee4407e259a436206bae248158dfd6ea3af25a713051d719997",
-      "bytes": 22074
+      "path": "metadata/catalog/scan-restoration/1984-03-radar-opening-work.json",
+      "sha256": "4cc33b3137d67647a5a483236c58f32f8ea0b4c7df0121e1284a6e6168e517b7",
+      "bytes": 6667
     },
-    "accepted": true
+    "accepted": false,
+    "source_comparison_pass_started": false,
+    "native_restoration_pending": true
   }
 }
