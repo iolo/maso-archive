@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M78",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0044",
+  "status": "complete-native-article",
+  "canonical_received_title": "공모결과 발표",
+  "printed_eyebrow": "소프트웨어",
+  "printed_title": "2차공모 결과 발표",
+  "printed_subtitle": "깜직한 아이디어로 가득차",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    243
+  ],
+  "article_actual_folios": [
+    243
+  ],
+  "source_extent_verified": true,
+  "canonical_identity_verified": true,
+  "selected_package": "archive/scans/1984-03/packages/contest-results-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/contest-results-jpeg-r01/manifest.json",
+    "sha256": "9e31a79882071daea55ab1a02f5430bac965e39aec4df6e8e258bb3600574624",
+    "bytes": 5455
+  },
+  "exact_files": 33,
+  "manifest_payload_files": 32,
+  "master_crops": 6,
+  "recognition_bindings": 6,
+  "recognition_tasks": 6,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "source_comparison_passes": 1,
+  "post_pass_source_changes": 0,
+  "pre_ocr_maps": 1,
+  "pre_ocr_refinements": 0,
+  "source_qualifications": 9,
+  "total_source_native_qualifications": 10,
+  "raw_archive_members": 25,
+  "native_index_records": 499,
+  "typed_references": 2893,
+  "source_and_active_byte_spans": 1530,
+  "source_asset_bindings": 748,
+  "native_structure": {
+    "structures": 6,
+    "fields": 105,
+    "physical_text_contexts": 105,
+    "physical_prose_rows": 102,
+    "heading_contexts": 3,
+    "complete_prose_paragraphs": 11,
+    "physical_paragraph_fragments": 13,
+    "current_program_subjects": 11,
+    "column_continuations": 2,
+    "program_listing_rows": 0,
+    "tables": 0,
+    "figures": 0
+  },
+  "rejected_damaged_native_cases": 26,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/native-validation-01.json",
+    "sha256": "a64d5f17563766308efc6c6f46e91859fad89f43567cc4bb224c904c086e071b",
+    "bytes": 7570
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/contest/recipe-native-02.json",
+    "sha256": "c497b63db0ce50107c604893e3949030c0a8648cbe42616d7b71582f6de9c959",
+    "bytes": 3612
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/contest/source-compared-readings-01.json",
+    "sha256": "fde5c7c4dbf6a83833d404f60747b91ad2d6bde079f469db7a5884973cf2e3c1",
+    "bytes": 14611
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/contest/native-geometry-01.json",
+    "sha256": "d587dad30d0849002db284284bac07663cdfff54de4a41e47058a976e7a39590",
+    "bytes": 174339
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/contest/native-review-01.json",
+    "sha256": "b8547d6b3cc2d3878079d13b364c14def06d6fb91e24e30b0cc7b6f9ff567270",
+    "bytes": 1211
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/full-page-review-01.json",
+    "sha256": "cdc046505c55d5df8c025b97a3f1b4e9d3e12a67f0276e2e8eeb2b545288b417",
+    "bytes": 3131
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/source-ledger-01.json",
+    "sha256": "f1f48518c19ce5acb8ffb3002771e7de1d21a7363ccd39ffbe9decfec4b63c3d",
+    "bytes": 504314
+  },
+  "source_dispositions_pending": 16,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 315,
+  "fresh_regression_tests": 0,
+  "implementation_pins": 58,
+  "complete_whole_scan_articles": 38,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 0,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "historical_pdf_manifest": {
+    "path": "archive/pdf/1984-03/packages/12-1984-03-batch-39/contest/manifest.json",
+    "sha256": "34f54139bcbdbd91a1de230e94e8e6fb3045c5678e9c6d42eb2ec1933f188e92",
+    "bytes": 5068
+  },
+  "historical_pdf_preserved": true,
+  "review_level": "assistant-source-compared-and-independently-audited;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "assembly_required": false,
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/resume.json",
+    "sha256": "91e2c8b0c48476f7d4acbabc44b682952d32a823348239ee067771e5aa0392de",
+    "bytes": 3788
+  },
+  "next": "M79: Resolve the final non-owning information heading,maso-1984-03-toc-0038,with original source TOC evidence and six separately accepted child bodies (editorial13,news124–131,debug255,Q&A256–259,index204,contestresults243). Do not invent a standalone divider/body or assume canonical order equals physical order. Use fresh whole-issue-75,reading all frozen predecessors as DATA ONLY. Then account for all16 pending full-page dispositions in bounded checkpoints,max six selected source views and20 outside lookups,retain unlisted ads/forms in the source set,and produce reproducible whole-issue exports/completion audit covering all273 scans/all44 identities. All38 articles are accepted but March is not complete. Shared implementation315 tests/58 pins unchanged;no OCR reruns;cleanup preview only.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/evidence-manifest.json",
+    "sha256": "352e3903ad274a72ab79cd89c1ab90e963fe33a7f117e420ea416ca9bfb93bb8",
+    "bytes": 21404
+  },
+  "frozen_evidence_files": 123,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-74/whole-progress-m78.json",
+    "sha256": "a4c9a631da7f81d9a49cd8d916a627bcf5a4cd08297dd915d5bffa7f9b08058f",
+    "bytes": 275707
+  }
+}

@@ -1292,6 +1292,22 @@ in fresh whole-issue-74,then information heading,all remaining page dispositions
 and reproducible whole-issue exports/completion audit. See the
 [M77 native handoff](docs/SCAN-RESTORATION-1984-03-M77.md).
 
+
+**M78 completes contest results,actual243**,in two exact **33-file** exports.
+All six original crops/six unchanged OCR bindings,25 raw archive members and499
+native records pass independent audit;all26 damaged cases reject. Three headings,
+102 prose baselines,eleven logical paragraphs/eleven current program subjects and
+two column continuations retain exact source relationships. Current awards,
+prior-month award and digital-clock exclusion remain distinct. All nine source/
+ten source-native qualifications remain. One closed source pass;no OCR retries
+or post-pass source changes. All **123 M78 evidence files are frozen**,data only;
+never execute/import/modify frozen helpers or snapshots. Shared315-test/58-pin
+implementation is unchanged. March remains active with **all38 articles complete,
+zero partial/pending articles,one pending heading and16 pending full-page
+dispositions /273 scans**. Continue M79 information heading in fresh whole-issue-75,
+then every source disposition and reproducible whole-issue exports/completion audit.
+See the [M78 handoff](docs/SCAN-RESTORATION-1984-03-M78.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
