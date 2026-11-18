@@ -1022,6 +1022,30 @@ remaining March task through reproducible whole-issue export/completion audit.
 See the [M68 native handoff](docs/SCAN-RESTORATION-1984-03-M68.md) and
 [complete tunnel article](metadata/catalog/scan-restoration/1984-03-tunnel.json).
 
+**M69 verifies the full Seun Sangga feature extent, actual 190–204**, with all
+fifteen feature pages and separate neighbors 189/205 personally reviewed. The
+printed opening title uses 숨쉬는 while the received/running title uses 움직이는;
+preserve both. Select opening **190–195** for bounded mapping: six selected views
+and eleven outside lookup views. Native 196–204 remains deferred. Upper 204 ends
+the directory; lower 204 광고색인 and its tree illustration remain separate owner
+0043. Map and review overlays before recognition, read all raw drafts before one
+prospective source pass, then complete native segment exports and assembly.
+M69 evidence remains unfrozen. Whole March remains active with **32 complete
+articles, six pending articles, one pending heading and 40 pending full-page
+dispositions / 273 scans**. Finish every remaining March task through reproducible
+whole-issue export and completion audit. See the
+[M69 work handoff](docs/SCAN-RESTORATION-1984-03-M69-WORK.md) and
+[feature work record](metadata/catalog/scan-restoration/1984-03-sewoon-work.json).
+
+**M69 opening source work is audited:** all six overlays reviewed, 33 first-attempt
+recognitions successful, every raw draft read before one closed prospective source
+pass. The compared opening retains 24 qualifications and eleven internal
+continuities; all 38 original crops and 33 OCR bindings verify, and twelve damaged
+cases reject. Native geometry, two exact opening exports and independent native
+audit remain pending. Continue inside the existing unfrozen whole-issue-65; do
+not rerun successful recognition or reopen source readings silently. Native
+196–204 remains deferred. Whole March and all completion gates remain active.
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

@@ -7147,34 +7147,42 @@
       "located_source_evidence": {
         "actual_folios": [
           190,
-          191
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
         ],
-        "observed_title_candidate": "살아서 숨쉬는 현장 / 한국판 아끼하바라를 파헤쳐 본다 / 세운상가",
-        "canonical_identity_verified": false,
-        "source_extent_verified": false,
+        "observed_title": "살아서 숨쉬는 현장",
+        "observed_running_title": "살아서 움직이는 현장",
+        "canonical_identity_verified": true,
+        "source_extent_verified": true,
         "restoration_pending": true,
         "source_review": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-48/full-page-review.json",
-          "sha256": "f3dc8b8d0ae26b9062ae51661ae5ba42aa6e5c7b77d14c706d80a280caa14c12",
-          "bytes": 6725
+          "path": "archive/scans/1984-03/restoration/whole-issue-65/full-page-review-01.json",
+          "sha256": "2efb682bb9fa37212c50ac60f7cc0685e478954848f915e121e9232f313a87da",
+          "bytes": 16284
         },
         "boundary_evidence": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-48/transition.json",
-          "sha256": "8b52f04fa61831b4720a56aacabba15d9c60540d1f30f38b3dbbcf4100ebf41f",
-          "bytes": 1567
+          "path": "archive/scans/1984-03/restoration/whole-issue-65/transition-01.json",
+          "sha256": "a882ab6c7de95e721d93d90363479b8306d0935f33775cb58da6d7c8a02d24e1",
+          "bytes": 1161
         },
-        "note": "Located outside lookup only. Verify canonical identity and complete article extent at its later queue position; do not jump the technical heading/articles.",
-        "additional_ending_candidate": {
-          "actual_folio": 204,
-          "observed_running_title": "살아서 움직이는 현장",
-          "source_review": {
-            "path": "archive/scans/1984-03/restoration/whole-issue-49/review/full-204.jpg",
-            "sha256": "6c3296d86dc4ec0c60d062b393431189f92948a9c53930026c7429eb8c926c67",
-            "bytes": 1246678
-          },
-          "native_restoration_pending": true,
-          "note": "Only an outside boundary comparison. The intervening source pages and complete feature extent still require verification;lower204belongs to the separate advertising index."
-        }
+        "note": "Complete feature extent190–204 and separate neighbors personally verified;opening190–195 source-compared in one prospective pass with24qualifications. Native geometry,exports and audit remain pending;196–204and lower204 separate index remain deferred."
+      },
+      "source_work_evidence": {
+        "path": "metadata/catalog/scan-restoration/1984-03-sewoon-work.json",
+        "sha256": "c48800da3be05ef2daac96b66b50e0471bd4ec278d91bba9bd53a3359fd4bdd3",
+        "bytes": 6758
       }
     },
     {
@@ -7636,19 +7644,19 @@
     "sha256": "048af4103c8bf1dade8982834e2bda8941df2e3357e6aa5f0b442259e9a06f07",
     "bytes": 464971
   },
-  "current_checkpoint": "M68",
-  "next": "M69: restore the Seun Sangga feature, maso-1984-03-toc-0037, candidate actual 190–204. Start fresh whole-issue-65 evidence. Verify the complete original title, article extent, source continuity and separate neighbors 189/205 before bounded mapping. The lower 204 advertising index is a separate canonical owner, maso-1984-03-toc-0043; do not duplicate or absorb it into the feature. Select at most six opening source views (candidate 190–195) after full extent verification, retain later continuation explicitly, and stay within two articles / six selected views / twenty outside lookup views. Then finish the remaining March information radar 124–131, debugging room 255, Q&A 256–259, advertising index lower 204, contest results 243, information-heading disposition, all 40 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M68/M67/predecessor helpers, evidence or data-only snapshots. Current shared baseline remains 312 qualified tests / 57 pins. Do not rerun successful recognition or apply cleanup deletion.",
+  "current_checkpoint": "M69-work",
+  "next": "Continue M69 inside the existing unfrozen whole-issue-65 checkpoint. All 33 first-attempt OCR drafts were read before one now-closed source-comparison pass; do not rerun successful OCR or silently reopen readings. Audited opening 190–195 retains 24 source qualifications, 11 internal continuities, the four outlined title glyphs, shaped introduction, original illustration, both building photograph panels and two shop photographs with qualified lettering. Encode and personally review native baseline, paragraph, section, technical-literal and original-picture contexts. Preserve 195 워드 / 196 프로세서를 as the outgoing mid-word continuation, and keep native 196–204 deferred. Lower204 advertising index remains separate canonical owner0043. Build two exact partial-opening exports and independently audit all source/native occurrences before acceptance. Then complete the feature, every remaining March article and heading, all 40 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen predecessor evidence. Shared implementation remains qualified at312tests/57pins, unchanged. No successful OCR reruns or cleanup deletion.",
   "pending_article_candidates": 6,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M68",
+    "checkpoint": "M69-work",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-tunnel.json",
-      "sha256": "9be35036f829c0ece09b1c0365da7b47607b618da80db6b5deeb85cd6a915957",
-      "bytes": 6304
+      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-work.json",
+      "sha256": "c48800da3be05ef2daac96b66b50e0471bd4ec278d91bba9bd53a3359fd4bdd3",
+      "bytes": 6758
     },
-    "accepted": true
+    "accepted": false
   }
 }

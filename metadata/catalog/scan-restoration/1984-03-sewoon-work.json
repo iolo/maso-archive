@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M69-work",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0037",
+  "canonical_received_title": "심층취재 : 살아서 움직이는 현장 세운상가",
+  "observed_opening_title": "살아서 숨쉬는 현장",
+  "observed_running_title": "살아서 움직이는 현장",
+  "status": "opening-source-compared;native-geometry-and-package-pending",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "selected_opening_actual_folios": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195
+  ],
+  "deferred_actual_folios": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "selected_source_views": 6,
+  "outside_lookup_views": 11,
+  "canonical_identity_verified": true,
+  "source_extent_verified": true,
+  "separate_lower204_index_owner": "maso-1984-03-toc-0043",
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/scope.json",
+    "sha256": "46b2df9b646c5ee09731e0cf050e642c5dd219a095f614c8c0ceb92d63f5037e",
+    "bytes": 11641
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/full-page-review-01.json",
+    "sha256": "2efb682bb9fa37212c50ac60f7cc0685e478954848f915e121e9232f313a87da",
+    "bytes": 16284
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/transition-01.json",
+    "sha256": "a882ab6c7de95e721d93d90363479b8306d0935f33775cb58da6d7c8a02d24e1",
+    "bytes": 1161
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/resume.json",
+    "sha256": "f631892b3c69a6066eb9f17453dead332bde470cc5e3af391f0be6dfa0379c93",
+    "bytes": 4370
+  },
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
+    "sha256": "d2af804cb6eb8622745c3127966136d28507152a403f9e2fc058c95c163697c9",
+    "bytes": 10345
+  },
+  "qualified_regression_tests": 312,
+  "implementation_pins": 57,
+  "shared_implementation_changed": false,
+  "fresh_regression_tests": 0,
+  "recognition_started": true,
+  "source_comparison_passes": 1,
+  "native_geometry_complete": false,
+  "native_package_selected": false,
+  "evidence_frozen": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "complete_whole_scan_articles": 32,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 6,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "source_dispositions_pending": 40,
+  "source_images": 273,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "next": "Continue M69 inside the existing unfrozen whole-issue-65 checkpoint. All 33 first-attempt OCR drafts were read before one now-closed source-comparison pass; do not rerun successful OCR or silently reopen readings. Audited opening 190–195 retains 24 source qualifications, 11 internal continuities, the four outlined title glyphs, shaped introduction, original illustration, both building photograph panels and two shop photographs with qualified lettering. Encode and personally review native baseline, paragraph, section, technical-literal and original-picture contexts. Preserve 195 워드 / 196 프로세서를 as the outgoing mid-word continuation, and keep native 196–204 deferred. Lower204 advertising index remains separate canonical owner0043. Build two exact partial-opening exports and independently audit all source/native occurrences before acceptance. Then complete the feature, every remaining March article and heading, all 40 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen predecessor evidence. Shared implementation remains qualified at312tests/57pins, unchanged. No successful OCR reruns or cleanup deletion.",
+  "source_map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/map-r01.json",
+    "sha256": "59bfb4c401123f5b51fad4eb8e5c90338f761b9ec7c75c23725d93f3cca6d976",
+    "bytes": 22156
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/source-compared-readings-01.json",
+    "sha256": "d6ed591e8ca4a109dd21ae6880a771c7ceb027c1b59b59711c19b85d7b97939c",
+    "bytes": 115572
+  },
+  "source_continuity": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/source-continuity-01.json",
+    "sha256": "a82ec0476864257a0c198ce49eb03979cb77bad50a2fd8c3d4eda875b1ec8247",
+    "bytes": 3643
+  },
+  "source_pass": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/source-pass-01.json",
+    "sha256": "2a15b8951054b617c43c089386e78984475bea9e394234daab2e211d8b1c0f9a",
+    "bytes": 14230
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/native-structure-plan-01.json",
+    "sha256": "18bde33ae920bd03a711fac303a5209f34f54da5a9f78634ea5ed7b434964b1a",
+    "bytes": 1807
+  },
+  "source_work_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/source-work-validation-01.json",
+    "sha256": "770b39a05f2339e3eaaeb4297a83617fe5d708698bf8f750d727f432441a9240",
+    "bytes": 2379
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/recognition-outcomes-01.json",
+    "sha256": "02e05c49016c697caa7fcdd7686c67020a246e1ee8ef35a06325c69316058f73",
+    "bytes": 4597
+  },
+  "map_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/map-review-01.json",
+    "sha256": "966051480065c199b85964bcb27dbd8700708debce60f47f7cb1557b87bd66f0",
+    "bytes": 4329
+  },
+  "selected_crops": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/selected-review-crops-01.json",
+    "sha256": "ead03176871f59f94af5b909c8462038e1b0197e06470f2d0376138cd5724bc2",
+    "bytes": 40862
+  },
+  "native_band_analysis": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/native-band-analysis-01.json",
+    "sha256": "7486e6ab15e70e4f6f8dfe374cd9217bd07d76bb3bc3b6491834996c7f99dc9e",
+    "bytes": 43245
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/process-outcomes-01.json",
+    "sha256": "dffa8fd0f9d721480988ca2c5725e0c362f29a18ec2fd64d180ca17a1b5cab0a",
+    "bytes": 1237
+  },
+  "recognition_tasks": 33,
+  "recognition_successes": 33,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "post_pass_source_changes": 0,
+  "source_qualifications": 24,
+  "internal_continuities": 11,
+  "mapped_regions": 38,
+  "text_owners": 33,
+  "original_rasters": 5,
+  "source_work_pixel_checks": 38,
+  "rejected_damaged_source_work_cases": 12
+}
