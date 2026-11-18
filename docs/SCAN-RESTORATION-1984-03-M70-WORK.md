@@ -1,3 +1,5 @@
+> Historical source-work handoff, superseded by the [accepted M70 native middle](SCAN-RESTORATION-1984-03-M70.md). All M70 evidence is frozen; do not execute or modify its helpers. Whole March remains active.
+
 # March M70 — Seun Sangga middle source work audited
 
 The requested scope remains the **whole March 1984 issue: all 273 scans**, every eligible article, all source dispositions, and the final reproducible issue export and completion audit. March remains active.

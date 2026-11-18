@@ -1065,23 +1065,25 @@ remaining March task through reproducible whole-issue export/completion audit.
 See the [M69 handoff](docs/SCAN-RESTORATION-1984-03-M69.md) and
 [accepted opening](metadata/catalog/scan-restoration/1984-03-sewoon-opening.json).
 
-**M70 middle source work is audited, actual 196–201**: six selected original
-views and two outside continuity contexts, 195/202. All six map overlays are
-reviewed. All 18 first-attempt recognition tasks succeeded and all raw drafts
-were read before one prospective source pass, now closed with 33 qualifications.
-The independent source audit passes 22 original crop pixel checks, 18 raw bindings
-and 17 damaged-source rejection cases. There were no retries, successful-task
-reruns or changes after the pass. Shared implementation remains unchanged at
-312 tests / 57 pins. Preserve all 72 physical table cells, six blanks, the shared
-three-model FC ruled row group and shared 기타 cell, nine logical model rows,
-30 company occurrences, six internal continuities, source category anomalies
-and four original rasters. **Native middle geometry, exports and audit remain
-pending** in existing unfrozen whole-issue-66. Then restore 202–204 and the separate
-lower 204 index, assemble/audit the full feature, and finish every remaining March
-article, heading and source disposition through reproducible whole-issue export
-and completion audit for all 273 scans. See the
-[M70 work handoff](docs/SCAN-RESTORATION-1984-03-M70-WORK.md) and
-[middle work record](metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json).
+**M70 accepts the native Seun Sangga middle, actual 196–201**, in two exact
+90-file exports. The independent audit verifies 22 original crops, 18 unchanged
+OCR bindings, 77 raw archive members and 29 damaged native rejection cases.
+The package retains 52 structures, 1,740 fields, 458 physical baselines, 72 physical
+table cells, six blanks, nine logical models, 19 original rules, 30 companies,
+81 category occurrences, 161 product/service bullets and four original rasters.
+The FC-series models share one printed row group and one 기타 cell; distinct
+부광 entries, extra/empty categories and all six company continuities remain.
+All 33 source / 37 source-native qualifications are preserved. One source pass
+is closed with no OCR retries, successful-task reruns or changes after the pass.
+All 424 M70 evidence files are frozen; never execute or modify frozen helpers.
+Shared implementation remains at 312 tests / 57 pins. Whole March stays active:
+**32 complete articles, one partial article, five pending articles, one pending
+heading and 30 pending full-page dispositions / 273 scans**. Continue **M71**
+with the native ending **202–204** and separate lower204 advertising index in fresh
+whole-issue-67, then **M72** full-feature assembly/audit. Finish every remaining
+March article, heading and source disposition through reproducible whole-issue
+export and completion audit. See the [M70 handoff](docs/SCAN-RESTORATION-1984-03-M70.md)
+and [accepted middle](metadata/catalog/scan-restoration/1984-03-sewoon-middle.json).
 
 ## Aim
 

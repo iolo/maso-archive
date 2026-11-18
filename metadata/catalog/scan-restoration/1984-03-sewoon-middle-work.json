@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0037",
   "canonical_received_title": "심층취재 : 살아서 움직이는 현장 세운상가",
-  "status": "source-work-audited;native-geometry-and-package-pending",
+  "status": "superseded-by-accepted-M70-native-middle",
   "source_kind": "jpeg-set",
   "article_actual_folios": [
     190,
@@ -89,9 +89,9 @@
   "mapped_regions": 22,
   "text_owners": 18,
   "original_rasters": 4,
-  "native_geometry_complete": false,
-  "native_package_selected": false,
-  "evidence_frozen": false,
+  "native_geometry_complete": true,
+  "native_package_selected": true,
+  "evidence_frozen": true,
   "whole_article_complete": false,
   "whole_issue_complete": false,
   "implementation": {
@@ -108,15 +108,15 @@
   "pending_article_candidates": 5,
   "complete_whole_scan_headings": 5,
   "pending_heading_candidates": 1,
-  "source_dispositions_pending": 36,
+  "source_dispositions_pending": 30,
   "source_images": 273,
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-66/resume.json",
-    "sha256": "d0d29e14b333a73363d552ea8eb75697865468bafcef81a82ffac61d1adb6104",
-    "bytes": 5376
+    "sha256": "c3f72432823dafcacb38c0376186de11f0da2e14c479b7dab4ad911d530db2ff",
+    "bytes": 3790
   },
   "review_level": "assistant-source-reviewed;not-human-acceptance",
-  "next": "Continue M70 native restoration in existing unfrozen whole-issue-66. All 18 first recognition tasks succeeded, all raw drafts were read, and one prospective source pass is closed and audited: 22 original crop pixel checks, 18 raw bindings and 17 rejected damaged source cases. Use sewoon-b/map-r02.json, selected-review-crops-02.json and the saved native-structure-plan-01.json; never rerun successful OCR or alter compared source text without an explicitly recorded new pass. Encode and personally review physical text geometry, all 72 physical table cells, six blanks, shared FC row group and shared 기타 cell, nine logical model rows, and all 30 distinct company occurrences with their addresses, phones, categories and bullets. Preserve the extra 두리 category, empty 선경 본체, two separate 부광 entries, six internal continuities, incoming 195/196 midword join, outgoing 201/202 company/category continuation, and four original rasters. Build two exact partial middle exports and independently audit native references, text ranges and assets before accepting. Then restore 202–204 and the separate lower 204 index in a fresh bounded checkpoint, assemble/audit the full feature, finish every remaining March article, heading and source disposition, and produce the reproducible whole-issue export/completion audit for all 273 scans. March remains active. Frozen predecessors are read-only data; do not execute or modify their helpers. Shared baseline remains 312 tests and 57 implementation pins. Cleanup is preview-only.",
+  "next": "M71: restore the Seun Sangga feature ending202–204 and the separate lower204 advertising index in fresh whole-issue-67 evidence. Preserve accepted native opening190–195 and middle196–201. The full feature190–204 extent and lower204 index boundary are verified;personally review the three selected originals and any needed outside continuity context before mapping. Incoming202 MZ-80,PC-8001 continues201 창명 시스템 산업 under the same 본체 category. Preserve all directory names,addresses,telephone pictograms,category circles,bullets,empty or unheaded categories,physical wraps,original pictures,and printed/handwritten telephone alterations on202 without conflating layers. The feature ends at its final204 star and blue separator;the lower204 광고색인 is independent canonical owner maso-1984-03-toc-0043. Stay within two articles,six selected views and twenty outside contexts;review maps before OCR and all raw drafts before one prospective source pass. Never rerun successful OCR. Accept the audited native ending and index,then assemble/audit the full feature in M72. Finish the remaining March information radar124–131,debugging room255,Q&A256–259,contest results243,information heading0038,all30 pending full-page dispositions,and reproducible whole-issue export/completion audit for all273 scans. March remains active. Frozen M70/M69/predecessor helpers,evidence and snapshots are read-only data;never execute or modify them. Shared baseline remains312 tests/57 pins. Cleanup is preview-only.",
   "recognition_finished": true,
   "source_comparison_pass_closed": true,
   "source_readings_compared": 18,
@@ -165,5 +165,42 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-66/sewoon-b/native-structure-plan-01.json",
     "sha256": "17c1cda5bc5a3b7b7cd1bf4ec3f6c9965718d4b1a4bdae2cc78abb46ff5b2d00",
     "bytes": 2525
+  },
+  "native_recipe_created": true,
+  "native_middle_segment_accepted": true,
+  "accepted_middle": {
+    "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle.json",
+    "sha256": "5b8370b68e8b0bd6f7474c8596ec0094d9a924bccb454c9f8f4f62a3d7e5e79a",
+    "bytes": 7652
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-66/evidence-manifest.json",
+    "sha256": "7a7954c1857cee66eb9d7a18dac160febcb4c02c1a0462556e952036526ba8c7",
+    "bytes": 79797
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-66/source-ledger-native-01.json",
+    "sha256": "e86bdd6d4a28bc9269d0ea91fdad6dec402e0a0d2fc1105b20782074e074af43",
+    "bytes": 476156
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-66/native-validation-01.json",
+    "sha256": "2a105a015f0e79ba31319bb35d671cf9552eaf6c00268f998b836677392f2a52",
+    "bytes": 8374
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-66/sewoon-b/native-geometry-selection-03.json",
+    "sha256": "1f963584d7007ed359676a790bde57c41b5de167c0675e64d12cf7ebbb69092f",
+    "bytes": 17550
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-66/sewoon-b/native-review-01.json",
+    "sha256": "71e6b6d7b054f82a10c89e1af5da8e96ce623ecbb5cca276f5e8157e1edbce1a",
+    "bytes": 16360
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-66/process-outcomes-01.json",
+    "sha256": "a9d58af58031cec5196c7794bd0a5ce59fde99221a7728c27f28ef3cc251b7e6",
+    "bytes": 1513
   }
 }

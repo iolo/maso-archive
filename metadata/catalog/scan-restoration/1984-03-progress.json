@@ -7127,16 +7127,16 @@
         }
       },
       "new_selected_restoration": {
-        "checkpoint": "M69",
+        "checkpoint": "M70",
         "article_id": "scan-maso-1984-03-toc-0037",
         "availability": "partial",
         "verification": "sample-reviewed",
         "source_kind": "jpeg-set",
-        "directory": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01",
+        "directory": "archive/scans/1984-03/packages/sewoon-jpeg-middle-r01",
         "manifest": {
-          "path": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01/manifest.json",
-          "sha256": "4e22746a2bcb053f959ffadb95d2de2067174387a8f49264327fa01a9b5a61f1",
-          "bytes": 26997
+          "path": "archive/scans/1984-03/packages/sewoon-jpeg-middle-r01/manifest.json",
+          "sha256": "c34e877a83ef01817009bde736ec9727328770cbc7ed211dd177c09b87d09981",
+          "bytes": 15928
         },
         "article_actual_folios": [
           190,
@@ -7156,47 +7156,89 @@
           204
         ],
         "covered_actual_folios": [
-          190,
-          191,
-          192,
-          193,
-          194,
-          195
-        ],
-        "source_extent_covered": false,
-        "assembly_pending": true,
-        "continuation_pending": [
           196,
           197,
           198,
           199,
           200,
-          201,
+          201
+        ],
+        "accepted_native_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201
+        ],
+        "accepted_segments": [
+          {
+            "checkpoint": "M69",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01/manifest.json",
+              "sha256": "4e22746a2bcb053f959ffadb95d2de2067174387a8f49264327fa01a9b5a61f1",
+              "bytes": 26997
+            },
+            "actual_folios": [
+              190,
+              191,
+              192,
+              193,
+              194,
+              195
+            ]
+          },
+          {
+            "checkpoint": "M70",
+            "manifest": {
+              "path": "archive/scans/1984-03/packages/sewoon-jpeg-middle-r01/manifest.json",
+              "sha256": "c34e877a83ef01817009bde736ec9727328770cbc7ed211dd177c09b87d09981",
+              "bytes": 15928
+            },
+            "actual_folios": [
+              196,
+              197,
+              198,
+              199,
+              200,
+              201
+            ]
+          }
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
           202,
           203,
           204
         ],
         "recipe": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/recipe-native-01.json",
-          "sha256": "4ac9a3763e86c33da76c3c14da30139af6ad2322fae156d13b0f58c6f1c3e54e",
-          "bytes": 9786
+          "path": "archive/scans/1984-03/restoration/whole-issue-66/sewoon-b/recipe-native-01.json",
+          "sha256": "a27d7f48583d78485276556b24b35a9e628040df714eaec7f22572ff80994d07",
+          "bytes": 9095
         },
         "validation": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-65/native-validation-01.json",
-          "sha256": "cf99730ed052b1d3d5853fd3a2eeb9894854548cb3120d46b38ff6360cb07b30",
-          "bytes": 9815
+          "path": "archive/scans/1984-03/restoration/whole-issue-66/native-validation-01.json",
+          "sha256": "2a105a015f0e79ba31319bb35d671cf9552eaf6c00268f998b836677392f2a52",
+          "bytes": 8374
         },
         "source_ledger": {
-          "path": "archive/scans/1984-03/restoration/whole-issue-65/source-ledger-native-01.json",
-          "sha256": "2d54a6b699f6f7f32ea97fe0a09b35a6962ece8ae92604fb6a4e402629f31dac",
-          "bytes": 470019
+          "path": "archive/scans/1984-03/restoration/whole-issue-66/source-ledger-native-01.json",
+          "sha256": "e86bdd6d4a28bc9269d0ea91fdad6dec402e0a0d2fc1105b20782074e074af43",
+          "bytes": 476156
         },
         "implementation": {
           "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
           "sha256": "d2af804cb6eb8622745c3127966136d28507152a403f9e2fc058c95c163697c9",
           "bytes": 10345
         },
-        "directory_scope": "native-opening-segment"
+        "directory_scope": "native-middle-segment"
       },
       "historical_printed_extent_candidate": [
         190,
@@ -7248,12 +7290,12 @@
           "sha256": "a882ab6c7de95e721d93d90363479b8306d0935f33775cb58da6d7c8a02d24e1",
           "bytes": 1161
         },
-        "note": "Complete source extent190–204 verified. Opening190–195 accepted as a native partial segment;native196–204 and whole-article assembly/audit remain pending. Lower204index is separate owner0043."
+        "note": "Full feature190–204 verified. Native opening190–195 and middle196–201 are accepted as separate partial segments. Ending202–204 and full-feature assembly/audit remain pending. Lower204 index is separate owner0043."
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json",
-        "sha256": "b20479fcb901363996d226e774014d224e4916dcad0bffdd203a7929b820dca8",
-        "bytes": 7475
+        "sha256": "ac3085d9a56466af2868fa05b8179e7ae39998cc60de0ccfce95235ab89b0bf1",
+        "bytes": 9059
       },
       "opening_segment": {
         "checkpoint": "M69",
@@ -7265,13 +7307,22 @@
         "native_accepted": true
       },
       "middle_work": {
-        "checkpoint": "M70-work",
+        "checkpoint": "M70",
         "record": {
-          "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json",
-          "sha256": "b20479fcb901363996d226e774014d224e4916dcad0bffdd203a7929b820dca8",
-          "bytes": 7475
+          "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle.json",
+          "sha256": "5b8370b68e8b0bd6f7474c8596ec0094d9a924bccb454c9f8f4f62a3d7e5e79a",
+          "bytes": 7652
         },
-        "native_accepted": false
+        "native_accepted": true
+      },
+      "middle_segment": {
+        "checkpoint": "M70",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle.json",
+          "sha256": "5b8370b68e8b0bd6f7474c8596ec0094d9a924bccb454c9f8f4f62a3d7e5e79a",
+          "bytes": 7652
+        },
+        "native_accepted": true
       }
     },
     {
@@ -7729,23 +7780,23 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-65/source-ledger-native-01.json",
-    "sha256": "2d54a6b699f6f7f32ea97fe0a09b35a6962ece8ae92604fb6a4e402629f31dac",
-    "bytes": 470019
+    "path": "archive/scans/1984-03/restoration/whole-issue-66/source-ledger-native-01.json",
+    "sha256": "e86bdd6d4a28bc9269d0ea91fdad6dec402e0a0d2fc1105b20782074e074af43",
+    "bytes": 476156
   },
-  "current_checkpoint": "M70-work",
-  "next": "Continue M70 native restoration in existing unfrozen whole-issue-66. All 18 first recognition tasks succeeded, all raw drafts were read, and one prospective source pass is closed and audited: 22 original crop pixel checks, 18 raw bindings and 17 rejected damaged source cases. Use sewoon-b/map-r02.json, selected-review-crops-02.json and the saved native-structure-plan-01.json; never rerun successful OCR or alter compared source text without an explicitly recorded new pass. Encode and personally review physical text geometry, all 72 physical table cells, six blanks, shared FC row group and shared 기타 cell, nine logical model rows, and all 30 distinct company occurrences with their addresses, phones, categories and bullets. Preserve the extra 두리 category, empty 선경 본체, two separate 부광 entries, six internal continuities, incoming 195/196 midword join, outgoing 201/202 company/category continuation, and four original rasters. Build two exact partial middle exports and independently audit native references, text ranges and assets before accepting. Then restore 202–204 and the separate lower 204 index in a fresh bounded checkpoint, assemble/audit the full feature, finish every remaining March article, heading and source disposition, and produce the reproducible whole-issue export/completion audit for all 273 scans. March remains active. Frozen predecessors are read-only data; do not execute or modify their helpers. Shared baseline remains 312 tests and 57 implementation pins. Cleanup is preview-only.",
+  "current_checkpoint": "M70",
+  "next": "M71: restore the Seun Sangga feature ending202–204 and the separate lower204 advertising index in fresh whole-issue-67 evidence. Preserve accepted native opening190–195 and middle196–201. The full feature190–204 extent and lower204 index boundary are verified;personally review the three selected originals and any needed outside continuity context before mapping. Incoming202 MZ-80,PC-8001 continues201 창명 시스템 산업 under the same 본체 category. Preserve all directory names,addresses,telephone pictograms,category circles,bullets,empty or unheaded categories,physical wraps,original pictures,and printed/handwritten telephone alterations on202 without conflating layers. The feature ends at its final204 star and blue separator;the lower204 광고색인 is independent canonical owner maso-1984-03-toc-0043. Stay within two articles,six selected views and twenty outside contexts;review maps before OCR and all raw drafts before one prospective source pass. Never rerun successful OCR. Accept the audited native ending and index,then assemble/audit the full feature in M72. Finish the remaining March information radar124–131,debugging room255,Q&A256–259,contest results243,information heading0038,all30 pending full-page dispositions,and reproducible whole-issue export/completion audit for all273 scans. March remains active. Frozen M70/M69/predecessor helpers,evidence and snapshots are read-only data;never execute or modify them. Shared baseline remains312 tests/57 pins. Cleanup is preview-only.",
   "pending_article_candidates": 5,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M70-work",
+    "checkpoint": "M70",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle-work.json",
-      "sha256": "b20479fcb901363996d226e774014d224e4916dcad0bffdd203a7929b820dca8",
-      "bytes": 7475
+      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-middle.json",
+      "sha256": "5b8370b68e8b0bd6f7474c8596ec0094d9a924bccb454c9f8f4f62a3d7e5e79a",
+      "bytes": 7652
     },
-    "accepted": false
+    "accepted": true
   }
 }
