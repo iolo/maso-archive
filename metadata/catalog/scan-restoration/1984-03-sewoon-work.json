@@ -6,7 +6,7 @@
   "canonical_received_title": "심층취재 : 살아서 움직이는 현장 세운상가",
   "observed_opening_title": "살아서 숨쉬는 현장",
   "observed_running_title": "살아서 움직이는 현장",
-  "status": "opening-source-compared;native-geometry-and-package-pending",
+  "status": "superseded-by-accepted-M69-native-opening",
   "source_kind": "jpeg-set",
   "actual_folios": [
     190,
@@ -66,8 +66,8 @@
   },
   "resume": {
     "path": "archive/scans/1984-03/restoration/whole-issue-65/resume.json",
-    "sha256": "f631892b3c69a6066eb9f17453dead332bde470cc5e3af391f0be6dfa0379c93",
-    "bytes": 4370
+    "sha256": "54eb2c1154d2a7ac38dabfaf494a76c55233e9095b052c5aaef69a7f5121e0ad",
+    "bytes": 3560
   },
   "implementation": {
     "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
@@ -80,20 +80,20 @@
   "fresh_regression_tests": 0,
   "recognition_started": true,
   "source_comparison_passes": 1,
-  "native_geometry_complete": false,
-  "native_package_selected": false,
-  "evidence_frozen": false,
+  "native_geometry_complete": true,
+  "native_package_selected": true,
+  "evidence_frozen": true,
   "whole_article_complete": false,
   "whole_issue_complete": false,
   "complete_whole_scan_articles": 32,
-  "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 6,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 5,
   "complete_whole_scan_headings": 5,
   "pending_heading_candidates": 1,
-  "source_dispositions_pending": 40,
+  "source_dispositions_pending": 36,
   "source_images": 273,
   "review_level": "assistant-source-compared;not-human-acceptance",
-  "next": "Continue M69 inside the existing unfrozen whole-issue-65 checkpoint. All 33 first-attempt OCR drafts were read before one now-closed source-comparison pass; do not rerun successful OCR or silently reopen readings. Audited opening 190–195 retains 24 source qualifications, 11 internal continuities, the four outlined title glyphs, shaped introduction, original illustration, both building photograph panels and two shop photographs with qualified lettering. Encode and personally review native baseline, paragraph, section, technical-literal and original-picture contexts. Preserve 195 워드 / 196 프로세서를 as the outgoing mid-word continuation, and keep native 196–204 deferred. Lower204 advertising index remains separate canonical owner0043. Build two exact partial-opening exports and independently audit all source/native occurrences before acceptance. Then complete the feature, every remaining March article and heading, all 40 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen predecessor evidence. Shared implementation remains qualified at312tests/57pins, unchanged. No successful OCR reruns or cleanup deletion.",
+  "next": "M70: restore the next Seun Sangga feature segment on actual196–201 in fresh whole-issue-66 evidence. Preserve accepted M69 opening190–195 and the verified full190–204 extent. Incoming196프로세서를 completes195워드. Personally verify selected original views and neighbors before mapping. Preserve the196 product table with source cell/blank ownership and its dated caption,chip illustration,the197directory heading and company entries through201,original workshop photographs,cross-column/page entry continuations and distinct repeated company-name occurrences. Native202–204 remains deferred;the lower204advertising index is separate canonical owner0043. Stay within two articles/six selected views/twenty outside contexts,map and review before OCR,and read all raw drafts before one prospective source pass. Reuse successful OCR only with exact source/map/settings/implementation evidence. Then finish feature ending and full article assembly,the remaining five March articles,the information heading,all36pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M69/M68/predecessor helpers,evidence or snapshots. Current shared baseline312tests/57pins remains unchanged. No successful OCR reruns or cleanup deletion.",
   "source_map": {
     "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/map-r01.json",
     "sha256": "59bfb4c401123f5b51fad4eb8e5c90338f761b9ec7c75c23725d93f3cca6d976",
@@ -145,9 +145,9 @@
     "bytes": 43245
   },
   "process_outcomes": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-65/process-outcomes-01.json",
-    "sha256": "dffa8fd0f9d721480988ca2c5725e0c362f29a18ec2fd64d180ca17a1b5cab0a",
-    "bytes": 1237
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/process-outcomes-02.json",
+    "sha256": "894baffddd72378460b63a3a082d09a28511f5736e81a57315d36452f9dcc867",
+    "bytes": 2128
   },
   "recognition_tasks": 33,
   "recognition_successes": 33,
@@ -160,5 +160,37 @@
   "text_owners": 33,
   "original_rasters": 5,
   "source_work_pixel_checks": 38,
-  "rejected_damaged_source_work_cases": 12
+  "rejected_damaged_source_work_cases": 12,
+  "native_recipe_created": true,
+  "native_opening_segment_accepted": true,
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-sewoon-opening.json",
+    "sha256": "3cfca536b8d46a8588e417f47a2cc8564536fb7a5f7ac7eff5eb858f0316edd8",
+    "bytes": 7067
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/evidence-manifest.json",
+    "sha256": "04d9452f0f70826b23eec039913950d5583e53f6c08723ab407be60e7a42883b",
+    "bytes": 119853
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/source-ledger-native-01.json",
+    "sha256": "2d54a6b699f6f7f32ea97fe0a09b35a6962ece8ae92604fb6a4e402629f31dac",
+    "bytes": 470019
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/native-validation-01.json",
+    "sha256": "cf99730ed052b1d3d5853fd3a2eeb9894854548cb3120d46b38ff6360cb07b30",
+    "bytes": 9815
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/native-geometry-selection-03.json",
+    "sha256": "1d4cf0f6df8bced4a6ec8234e833d1f64dcf10c9775ca114cd6513c889f0ba19",
+    "bytes": 22495
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/native-review-01.json",
+    "sha256": "b866e6121da93394462bf184f947ef20cd4887ebd9c6023f3bf06536292bf999",
+    "bytes": 22438
+  }
 }

@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M69",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0037",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "심층취재 : 살아서 움직이는 현장 세운상가",
+  "observed_opening_title": "살아서 숨쉬는 현장",
+  "observed_running_title": "살아서 움직이는 현장",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195
+  ],
+  "article_actual_folios": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "deferred_actual_folios": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "source_extent_verified": true,
+  "canonical_identity_verified": true,
+  "selected_package": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01/manifest.json",
+    "sha256": "4e22746a2bcb053f959ffadb95d2de2067174387a8f49264327fa01a9b5a61f1",
+    "bytes": 26997
+  },
+  "exact_files": 151,
+  "manifest_payload_files": 150,
+  "master_crops": 38,
+  "recognition_bindings": 33,
+  "recognition_tasks": 33,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "new_native_stage_recognition_calls": 0,
+  "source_comparison_passes": 1,
+  "post_pass_source_changes": 0,
+  "source_qualifications": 24,
+  "total_source_native_qualifications": 27,
+  "raw_archive_members": 138,
+  "native_index_records": 2255,
+  "typed_references": 13246,
+  "source_and_active_byte_spans": 2916,
+  "source_asset_bindings": 2230,
+  "native_structure": {
+    "structures": 36,
+    "fields": 737,
+    "reviewed_geometry_fields": 485,
+    "context_rows": 461,
+    "paths": 0,
+    "original_rasters": 5,
+    "source_comparison_lines": 474,
+    "source_paragraph_records": 86,
+    "section_records": 23,
+    "source_literal_records": 254,
+    "internal_continuities": 11,
+    "outlined_title_glyphs": 4,
+    "unresolved_photo_contexts": 4
+  },
+  "rejected_damaged_source_work_cases": 12,
+  "rejected_damaged_native_cases": 22,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/native-validation-01.json",
+    "sha256": "cf99730ed052b1d3d5853fd3a2eeb9894854548cb3120d46b38ff6360cb07b30",
+    "bytes": 9815
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/recipe-native-01.json",
+    "sha256": "4ac9a3763e86c33da76c3c14da30139af6ad2322fae156d13b0f58c6f1c3e54e",
+    "bytes": 9786
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/source-compared-readings-01.json",
+    "sha256": "d6ed591e8ca4a109dd21ae6880a771c7ceb027c1b59b59711c19b85d7b97939c",
+    "bytes": 115572
+  },
+  "source_continuity": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/source-continuity-01.json",
+    "sha256": "a82ec0476864257a0c198ce49eb03979cb77bad50a2fd8c3d4eda875b1ec8247",
+    "bytes": 3643
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/native-geometry-selection-03.json",
+    "sha256": "1d4cf0f6df8bced4a6ec8234e833d1f64dcf10c9775ca114cd6513c889f0ba19",
+    "bytes": 22495
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/native-review-01.json",
+    "sha256": "b866e6121da93394462bf184f947ef20cd4887ebd9c6023f3bf06536292bf999",
+    "bytes": 22438
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/full-page-review-01.json",
+    "sha256": "2efb682bb9fa37212c50ac60f7cc0685e478954848f915e121e9232f313a87da",
+    "bytes": 16284
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/source-ledger-native-01.json",
+    "sha256": "2d54a6b699f6f7f32ea97fe0a09b35a6962ece8ae92604fb6a4e402629f31dac",
+    "bytes": 470019
+  },
+  "source_dispositions_pending": 36,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
+    "sha256": "d2af804cb6eb8622745c3127966136d28507152a403f9e2fc058c95c163697c9",
+    "bytes": 10345
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 312,
+  "fresh_regression_tests": 0,
+  "implementation_pins": 57,
+  "complete_whole_scan_articles": 32,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 5,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "historical_pdf_manifest": {
+    "path": "archive/pdf/1984-03/packages/12-1984-03-sewoon/manifest.json",
+    "sha256": "f9d4aaf24892520db630d53bcb73b722985fe414f7ebd8cac329c2c7a744448e",
+    "bytes": 71168
+  },
+  "historical_pdf_preserved": true,
+  "review_level": "assistant-source-compared;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "native_opening_segment_accepted": true,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "next": "M70: restore the next Seun Sangga feature segment on actual196–201 in fresh whole-issue-66 evidence. Preserve accepted M69 opening190–195 and the verified full190–204 extent. Incoming196프로세서를 completes195워드. Personally verify selected original views and neighbors before mapping. Preserve the196 product table with source cell/blank ownership and its dated caption,chip illustration,the197directory heading and company entries through201,original workshop photographs,cross-column/page entry continuations and distinct repeated company-name occurrences. Native202–204 remains deferred;the lower204advertising index is separate canonical owner0043. Stay within two articles/six selected views/twenty outside contexts,map and review before OCR,and read all raw drafts before one prospective source pass. Reuse successful OCR only with exact source/map/settings/implementation evidence. Then finish feature ending and full article assembly,the remaining five March articles,the information heading,all36pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M69/M68/predecessor helpers,evidence or snapshots. Current shared baseline312tests/57pins remains unchanged. No successful OCR reruns or cleanup deletion.",
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/resume.json",
+    "sha256": "54eb2c1154d2a7ac38dabfaf494a76c55233e9095b052c5aaef69a7f5121e0ad",
+    "bytes": 3560
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/evidence-manifest.json",
+    "sha256": "04d9452f0f70826b23eec039913950d5583e53f6c08723ab407be60e7a42883b",
+    "bytes": 119853
+  },
+  "frozen_evidence_files": 628,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/whole-progress-m69.json",
+    "sha256": "c74f228a0c3c03c50c8dcd3f95d8e5a2751a3110d82f041744dcc117cdea6b76",
+    "bytes": 255859
+  }
+}

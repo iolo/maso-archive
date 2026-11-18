@@ -1,3 +1,7 @@
+> Superseded by the [accepted M69 native opening](SCAN-RESTORATION-1984-03-M69.md).
+> This work handoff is historical. M69 evidence is frozen; continue M70 in fresh
+> evidence. The full feature and whole March issue remain active.
+
 # March M69 — Seun Sangga feature in progress
 
 The complete donated-scan feature, `maso-1984-03-toc-0037`, occupies actual **190–204**. All fifteen feature pages and the separate neighbors **189/205** were personally reviewed. The opening prints **살아서 숨쉬는 현장**; the received and running title uses **살아서 움직이는 현장**. Preserve that source difference.

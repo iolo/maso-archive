@@ -7030,7 +7030,7 @@
       "title": "심층취재 : 살아서 움직이는 현장 세운상가",
       "parent_id": null,
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0037",
@@ -7126,7 +7126,78 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M69",
+        "article_id": "scan-maso-1984-03-toc-0037",
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/sewoon-jpeg-opening-r01/manifest.json",
+          "sha256": "4e22746a2bcb053f959ffadb95d2de2067174387a8f49264327fa01a9b5a61f1",
+          "bytes": 26997
+        },
+        "article_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "covered_actual_folios": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-65/sewoon-a/recipe-native-01.json",
+          "sha256": "4ac9a3763e86c33da76c3c14da30139af6ad2322fae156d13b0f58c6f1c3e54e",
+          "bytes": 9786
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-65/native-validation-01.json",
+          "sha256": "cf99730ed052b1d3d5853fd3a2eeb9894854548cb3120d46b38ff6360cb07b30",
+          "bytes": 9815
+        },
+        "source_ledger": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-65/source-ledger-native-01.json",
+          "sha256": "2d54a6b699f6f7f32ea97fe0a09b35a6962ece8ae92604fb6a4e402629f31dac",
+          "bytes": 470019
+        },
+        "implementation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-63/implementation-after-01.json",
+          "sha256": "d2af804cb6eb8622745c3127966136d28507152a403f9e2fc058c95c163697c9",
+          "bytes": 10345
+        },
+        "directory_scope": "native-opening-segment"
+      },
       "historical_printed_extent_candidate": [
         190,
         191,
@@ -7177,12 +7248,21 @@
           "sha256": "a882ab6c7de95e721d93d90363479b8306d0935f33775cb58da6d7c8a02d24e1",
           "bytes": 1161
         },
-        "note": "Complete feature extent190–204 and separate neighbors personally verified;opening190–195 source-compared in one prospective pass with24qualifications. Native geometry,exports and audit remain pending;196–204and lower204 separate index remain deferred."
+        "note": "Complete source extent190–204 verified. Opening190–195 accepted as a native partial segment;native196–204 and whole-article assembly/audit remain pending. Lower204index is separate owner0043."
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-sewoon-work.json",
-        "sha256": "c48800da3be05ef2daac96b66b50e0471bd4ec278d91bba9bd53a3359fd4bdd3",
-        "bytes": 6758
+        "sha256": "41fec927d34a27f033e26ededebd90e855ef855a37e4a77176b014b3dcfb22a2",
+        "bytes": 8228
+      },
+      "opening_segment": {
+        "checkpoint": "M69",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-sewoon-opening.json",
+          "sha256": "3cfca536b8d46a8588e417f47a2cc8564536fb7a5f7ac7eff5eb858f0316edd8",
+          "bytes": 7067
+        },
+        "native_accepted": true
       }
     },
     {
@@ -7640,23 +7720,23 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-64/source-ledger-native-01.json",
-    "sha256": "048af4103c8bf1dade8982834e2bda8941df2e3357e6aa5f0b442259e9a06f07",
-    "bytes": 464971
+    "path": "archive/scans/1984-03/restoration/whole-issue-65/source-ledger-native-01.json",
+    "sha256": "2d54a6b699f6f7f32ea97fe0a09b35a6962ece8ae92604fb6a4e402629f31dac",
+    "bytes": 470019
   },
-  "current_checkpoint": "M69-work",
-  "next": "Continue M69 inside the existing unfrozen whole-issue-65 checkpoint. All 33 first-attempt OCR drafts were read before one now-closed source-comparison pass; do not rerun successful OCR or silently reopen readings. Audited opening 190–195 retains 24 source qualifications, 11 internal continuities, the four outlined title glyphs, shaped introduction, original illustration, both building photograph panels and two shop photographs with qualified lettering. Encode and personally review native baseline, paragraph, section, technical-literal and original-picture contexts. Preserve 195 워드 / 196 프로세서를 as the outgoing mid-word continuation, and keep native 196–204 deferred. Lower204 advertising index remains separate canonical owner0043. Build two exact partial-opening exports and independently audit all source/native occurrences before acceptance. Then complete the feature, every remaining March article and heading, all 40 pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen predecessor evidence. Shared implementation remains qualified at312tests/57pins, unchanged. No successful OCR reruns or cleanup deletion.",
-  "pending_article_candidates": 6,
+  "current_checkpoint": "M69",
+  "next": "M70: restore the next Seun Sangga feature segment on actual196–201 in fresh whole-issue-66 evidence. Preserve accepted M69 opening190–195 and the verified full190–204 extent. Incoming196프로세서를 completes195워드. Personally verify selected original views and neighbors before mapping. Preserve the196 product table with source cell/blank ownership and its dated caption,chip illustration,the197directory heading and company entries through201,original workshop photographs,cross-column/page entry continuations and distinct repeated company-name occurrences. Native202–204 remains deferred;the lower204advertising index is separate canonical owner0043. Stay within two articles/six selected views/twenty outside contexts,map and review before OCR,and read all raw drafts before one prospective source pass. Reuse successful OCR only with exact source/map/settings/implementation evidence. Then finish feature ending and full article assembly,the remaining five March articles,the information heading,all36pending full-page dispositions and reproducible whole-issue export/completion audit. Never execute or modify frozen M69/M68/predecessor helpers,evidence or snapshots. Current shared baseline312tests/57pins remains unchanged. No successful OCR reruns or cleanup deletion.",
+  "pending_article_candidates": 5,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 0,
+  "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M69-work",
+    "checkpoint": "M69",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-work.json",
-      "sha256": "c48800da3be05ef2daac96b66b50e0471bd4ec278d91bba9bd53a3359fd4bdd3",
-      "bytes": 6758
+      "path": "metadata/catalog/scan-restoration/1984-03-sewoon-opening.json",
+      "sha256": "3cfca536b8d46a8588e417f47a2cc8564536fb7a5f7ac7eff5eb858f0316edd8",
+      "bytes": 7067
     },
-    "accepted": false
+    "accepted": true
   }
 }

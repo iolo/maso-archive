@@ -1046,6 +1046,25 @@ audit remain pending. Continue inside the existing unfrozen whole-issue-65; do
 not rerun successful recognition or reopen source readings silently. Native
 196–204 remains deferred. Whole March and all completion gates remain active.
 
+**M69 accepts the native Seun Sangga opening, actual 190–195**, in two exact
+151-file exports. Audit verifies 38 original crops, 33 unchanged OCR bindings,
+138 raw archive members, 36 structures, 737 fields, 461 physical row contexts,
+23 heading records and five original rasters. All 24 source / 27 source-native
+qualifications remain intact; 22 damaged native cases reject. The printed title
+difference, four outlined title glyphs, shaped introduction, separate photograph
+panels, qualified shop lettering and eleven internal continuities are preserved.
+The outgoing **195 워드 / 196 프로세서를** join remains explicit. All 628 M69
+evidence files are frozen; never execute or modify frozen helpers or evidence.
+Whole March remains active with **32 complete articles, one partial article,
+five pending articles, one pending heading and 36 pending full-page dispositions
+/ 273 scans**. Continue **M70** with actual **196–201** in fresh whole-issue-66:
+preserve the product table and dated caption, chip illustration, directory
+heading, company-entry boundaries, distinct repeated names and original pictures.
+Native 202–204 and the separate lower 204 index remain deferred. Finish every
+remaining March task through reproducible whole-issue export/completion audit.
+See the [M69 handoff](docs/SCAN-RESTORATION-1984-03-M69.md) and
+[accepted opening](metadata/catalog/scan-restoration/1984-03-sewoon-opening.json).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
