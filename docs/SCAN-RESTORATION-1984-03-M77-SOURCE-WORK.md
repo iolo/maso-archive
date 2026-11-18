@@ -1,4 +1,6 @@
-# March M77 — Complete Q&A source work, native pending
+# March M77 — Historical Q&A source-work checkpoint
+
+This source-only checkpoint is superseded by [accepted complete native Q&A](SCAN-RESTORATION-1984-03-M77.md). The following records its preserved state before native integration.
 
 All of **Q&A**, actual **256–259**, is source-compared and independently audited. This is an unfinished native restoration checkpoint. Continue inside **unfrozen `whole-issue-73`** using `resume-source-work-01.json`; no native package is selected and Q&A is not counted complete.
 

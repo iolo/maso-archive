@@ -1275,6 +1275,23 @@ Then restore contest results243,resolve the information heading,account for all
 remaining source pages and finish reproducible whole-issue exports/completion
 audit. See the [M77 source handoff](docs/SCAN-RESTORATION-1984-03-M77-SOURCE-WORK.md).
 
+
+**M77 completes native Q&A,actual256–259**,in two exact **225-file** exports.
+All56 original-master crops,52 unchanged OCR bindings,213 raw archive members
+and2,474 native records pass independent audit;all50 damaged native cases reject.
+Eleven Q&A contexts,two tables/420 cells/48 blanks,14 physical code rows/10 source
+units,one bibliography and four original rasters retain exact source ownership.
+All44 source/47 source-native qualifications remain,including table2 inferred
+attachment,source code errors,duplicate tokens and unknown glyphs. One closed
+source pass;no OCR retries or post-pass source changes. All **829 M77 evidence
+files are frozen**,data only;never execute/import/modify frozen helpers or snapshots.
+Shared implementation remains315 tests/58 pins. March remains active:
+**37 complete articles,zero partial,one pending article,one pending heading and16
+pending full-page dispositions /273 scans**. Continue **M78 contest results243**
+in fresh whole-issue-74,then information heading,all remaining page dispositions
+and reproducible whole-issue exports/completion audit. See the
+[M77 native handoff](docs/SCAN-RESTORATION-1984-03-M77.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and
