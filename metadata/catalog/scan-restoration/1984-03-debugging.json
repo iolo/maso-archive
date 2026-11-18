@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M76",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0041",
+  "status": "complete-native-article",
+  "canonical_received_title": "디버깅 룸",
+  "printed_title": "디버깅룸",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    255
+  ],
+  "article_actual_folios": [
+    255
+  ],
+  "source_extent_verified": true,
+  "canonical_identity_verified": true,
+  "selected_package": "archive/scans/1984-03/packages/debugging-jpeg-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/debugging-jpeg-r01/manifest.json",
+    "sha256": "8296fbdf2627489ee69bfa6f2601043b30d2f61fa371c07450a58b99a50cabd4",
+    "bytes": 12836
+  },
+  "exact_files": 74,
+  "manifest_payload_files": 73,
+  "master_crops": 19,
+  "recognition_bindings": 15,
+  "recognition_tasks": 15,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "source_comparison_passes": 1,
+  "post_pass_source_changes": 0,
+  "pre_ocr_maps": 2,
+  "pre_ocr_refinements": 2,
+  "source_qualifications": 13,
+  "total_source_native_qualifications": 14,
+  "raw_archive_members": 65,
+  "native_index_records": 714,
+  "typed_references": 5198,
+  "source_and_active_byte_spans": 1789,
+  "source_asset_bindings": 736,
+  "native_structure": {
+    "structures": 16,
+    "fields": 258,
+    "context_rows": 42,
+    "physical_text_baselines": 36,
+    "flowchart_labels": 6,
+    "flowchart_nodes": 4,
+    "branch_labels": 2,
+    "paths": 6,
+    "return_arrowheads": 2,
+    "original_rasters": 4,
+    "physical_code_rows": 22,
+    "source_replacement_units": 7,
+    "independent_program_contexts": 3,
+    "complete_programs": 0
+  },
+  "rejected_damaged_native_cases": 34,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/native-validation-01.json",
+    "sha256": "dfe033b8caa8869e12b4ee138d179fa7147b5e5999eb528fd69131d51e88a3fe",
+    "bytes": 10636
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/debugging/recipe-native-01.json",
+    "sha256": "a4754ae7f04dc990916d5227e213f7f11850f20b3e1d6f45db1735a1b312948e",
+    "bytes": 5890
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/debugging/source-compared-readings-01.json",
+    "sha256": "e2966769aedc6af2d932e43b5f4003f434a1aa1b233a78a1dada30cf4fc65bce",
+    "bytes": 23616
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/debugging/native-geometry-01.json",
+    "sha256": "d19912f8251ffd6aa17124b8f8be26988314890203d17dd135e4ab29de940dc0",
+    "bytes": 268029
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/debugging/native-review-01.json",
+    "sha256": "eea2e7c142f12efb85361ff4a04d014b5fec76e1ba40e3a02765a3026c156210",
+    "bytes": 1774
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/full-page-review-01.json",
+    "sha256": "6c1ca1f1d347a749b1fd5b2fb7e1a84b96dfa97731cac5febe51304d78b2a53d",
+    "bytes": 2776
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/source-ledger-01.json",
+    "sha256": "a64a8e09a458350c0c19eb022bbe9614ea38eaf09cb85be38225ab866bf520f2",
+    "bytes": 498092
+  },
+  "source_dispositions_pending": 20,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 315,
+  "fresh_regression_tests": 0,
+  "implementation_pins": 58,
+  "complete_whole_scan_articles": 36,
+  "partial_whole_scan_articles": 0,
+  "pending_article_candidates": 2,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "historical_pdf_manifest": {
+    "path": "archive/pdf/1984-03/packages/12-1984-03-batch-41/debug/manifest.json",
+    "sha256": "3fb6763a57fcbb0291d7620af44198b94d2431c1951c7f7fddf6b04bf7834478",
+    "bytes": 8085
+  },
+  "historical_pdf_preserved": true,
+  "review_level": "assistant-source-compared-and-independently-audited;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "assembly_required": false,
+  "whole_article_complete": true,
+  "whole_issue_complete": false,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/resume.json",
+    "sha256": "69675d85a466d3664b02b71a10a19abb4ff289bc717f2e6f8de7cce905289d58",
+    "bytes": 4332
+  },
+  "next": "M77: Restore Q&A, maso-1984-03-toc-0042, candidate actual256–259, in fresh whole-issue-73. Verify complete original source extent, title, all questions/answers and separate255/260 neighbors before mapping; previously viewed256 is outside context only, not restored. Stay within two articles/six selected views/twenty outside contexts. Review full-page maps before first-attempt pinned OCR, read every raw draft, then make one prospective source comparison. Preserve physical code rows, independent program contexts, tables/figures, question/answer ownership, source errors, uncertainties and original raster associations. Encode and personally review native source contexts, build two exact exports and independently audit all source/native occurrences, typed references, ranges, assets and damaged cases before acceptance. Then restore contest results243, resolve non-owning information heading0038, account for all20 currently pending page dispositions and build/audit reproducible whole-issue exports across all273 scans. Whole March remains active. Frozen M76 and predecessors are DATA ONLY; never execute, import or modify frozen helpers, evidence or snapshots. Shared implementation315 tests/58 pins unchanged; no successful OCR reruns; cleanup preview only.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/evidence-manifest.json",
+    "sha256": "c1ba225a882ce1236e0e992159dd289491d558c5edcd00090960cc82fc68d953",
+    "bytes": 50772
+  },
+  "frozen_evidence_files": 279,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/whole-progress-m76.json",
+    "sha256": "ef5a65c893cd5b614e8573f81152a35e3ba9ba4289c18803cd9b15c89234be8c",
+    "bytes": 270428
+  }
+}

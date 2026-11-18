@@ -1239,6 +1239,25 @@ reproducible whole-issue export/completion audit. See the
 
 
 
+
+**M76 completes native debugging room, actual255**, in two exact **74-file**
+exports. All19 original-master crops,15 unchanged OCR bindings,65 raw archive
+members and714 native records pass independent audit; all34 damaged cases
+reject. Three independent code-correction contexts retain seven replacement
+units/22 physical rows, and the original flowchart retains four nodes,two branch
+labels,six paths and two upward return arrows. Four original rasters and all13
+source/14 source-native qualifications remain, including ZO/Z0 and the
+unresolved inline graphic. One prospective source pass; no OCR retry or post-pass
+source change. Shared implementation remains315 tests/58 pins. All **279 M76
+evidence files are frozen**, data only; never execute/import/modify frozen helpers.
+March remains active: **36 complete articles,zero partial,two pending articles,
+one pending heading and20 pending full-page dispositions /273 scans**. Continue
+**M77 Q&A**, candidate256–259,in fresh whole-issue-73,checking complete extent
+and separate255/260 neighbors beforemapping. Then restore contest results243,
+resolve the information heading,account for every remaining source page and
+finish reproducible whole-issue exports/completion audit. See the
+[M76 native handoff](docs/SCAN-RESTORATION-1984-03-M76.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

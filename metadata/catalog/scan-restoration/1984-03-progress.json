@@ -12,7 +12,7 @@
   "canonical_identities": 44,
   "article_candidates": 38,
   "heading_candidates": 6,
-  "complete_whole_scan_articles": 35,
+  "complete_whole_scan_articles": 36,
   "entries": [
     {
       "toc_entry_id": "maso-1984-03-toc-0001",
@@ -7703,8 +7703,8 @@
       "title": "디버깅 룸",
       "parent_id": "maso-1984-03-toc-0038",
       "classification_candidate": "article",
-      "whole_scan_status": "pending-source-backed-restoration",
-      "whole_scan_complete": false,
+      "whole_scan_status": "complete-native-article",
+      "whole_scan_complete": true,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0041",
         "title": "디버깅 룸",
@@ -7745,10 +7745,83 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M76",
+        "article_id": "scan-maso-1984-03-toc-0041",
+        "availability": "readable",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/debugging-jpeg-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/debugging-jpeg-r01/manifest.json",
+          "sha256": "8296fbdf2627489ee69bfa6f2601043b30d2f61fa371c07450a58b99a50cabd4",
+          "bytes": 12836
+        },
+        "article_actual_folios": [
+          255
+        ],
+        "covered_actual_folios": [
+          255
+        ],
+        "source_extent_covered": true,
+        "assembly_pending": false,
+        "continuation_pending": [],
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-72/debugging/recipe-native-01.json",
+          "sha256": "a4754ae7f04dc990916d5227e213f7f11850f20b3e1d6f45db1735a1b312948e",
+          "bytes": 5890
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-72/native-validation-01.json",
+          "sha256": "dfe033b8caa8869e12b4ee138d179fa7147b5e5999eb528fd69131d51e88a3fe",
+          "bytes": 10636
+        },
+        "source_ledger": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-72/source-ledger-01.json",
+          "sha256": "a64a8e09a458350c0c19eb022bbe9614ea38eaf09cb85be38225ab866bf520f2",
+          "bytes": 498092
+        },
+        "implementation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+          "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+          "bytes": 10399
+        },
+        "directory_scope": "complete-native-article",
+        "note": "Complete native one-page errata, independently audited in two exact74-file exports; source code targets remain separate and no earlier restored program is patched."
+      },
       "historical_printed_extent_candidate": [
         255
-      ]
+      ],
+      "located_source_evidence": {
+        "actual_folio": 255,
+        "actual_folios": [
+          255
+        ],
+        "observed_title": "디버깅룸",
+        "canonical_identity_verified": true,
+        "source_extent_verified": true,
+        "restoration_pending": false,
+        "source_review": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-72/full-page-review-01.json",
+          "sha256": "6c1ca1f1d347a749b1fd5b2fb7e1a84b96dfa97731cac5febe51304d78b2a53d",
+          "bytes": 2776
+        },
+        "boundary_evidence": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-72/full-page-review-01.json",
+          "sha256": "6c1ca1f1d347a749b1fd5b2fb7e1a84b96dfa97731cac5febe51304d78b2a53d",
+          "bytes": 2776
+        },
+        "note": "Complete255 errata ends with independent star;254 tunnel ending and256 Q&A opening are separate."
+      },
+      "complete_article": {
+        "checkpoint": "M76",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-debugging.json",
+          "sha256": "b3fd9134c3dc8e8f47369a75b3f760d4817deb7a2ec15fb98f7ddf9e55229939",
+          "bytes": 6339
+        },
+        "native_accepted": true
+      }
     },
     {
       "toc_entry_id": "maso-1984-03-toc-0042",
@@ -8028,22 +8101,22 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-71/source-ledger-01.json",
-    "sha256": "afa86dee3cc4450dba92ae65cf30093570e77576c4ce022e29fd8f8e4849ea6f",
-    "bytes": 496831
+    "path": "archive/scans/1984-03/restoration/whole-issue-72/source-ledger-01.json",
+    "sha256": "a64a8e09a458350c0c19eb022bbe9614ea38eaf09cb85be38225ab866bf520f2",
+    "bytes": 498092
   },
-  "current_checkpoint": "M75",
-  "next": "M76:restore debugging room,maso-1984-03-toc-0041,candidate actual255,in fresh whole-issue-72. Verify the donated original,title,complete extent and separate neighbors254/256before mapping;Q&A256–259is a separate next canonical article. Stay within twoarticles/sixselectedviews/twentyoutsidecontexts. Preserve all original code,questions,answers,figures,headings,physicalwraps,sourceerrors andlocalunknowns. Review mapping before pinned first-attempt OCR;read all raw drafts before one prospective source pass. Encode and personally review all native structures,build two exact exports and independently audit every source/native occurrence,typedreference,range,asset anddamagedcase beforeacceptance. Then complete Q&A256–259,contestresults243,non-owning informationheading0038,all21pendingfullpage dispositions,andreproduciblewholeissueexport/completionaudit for all273scans. Marchremainsactive. Read frozen M75/M74/M73packages andevidenceasdataonly;neverexecute/import/modifyfrozenhelpers or snapshots. Sharedimplementation315tests/58pins unchanged. NosuccessfulOCRreruns;cleanup previewonly.",
-  "pending_article_candidates": 3,
+  "current_checkpoint": "M76",
+  "next": "M77: Restore Q&A, maso-1984-03-toc-0042, candidate actual256–259, in fresh whole-issue-73. Verify complete original source extent, title, all questions/answers and separate255/260 neighbors before mapping; previously viewed256 is outside context only, not restored. Stay within two articles/six selected views/twenty outside contexts. Review full-page maps before first-attempt pinned OCR, read every raw draft, then make one prospective source comparison. Preserve physical code rows, independent program contexts, tables/figures, question/answer ownership, source errors, uncertainties and original raster associations. Encode and personally review native source contexts, build two exact exports and independently audit all source/native occurrences, typed references, ranges, assets and damaged cases before acceptance. Then restore contest results243, resolve non-owning information heading0038, account for all20 currently pending page dispositions and build/audit reproducible whole-issue exports across all273 scans. Whole March remains active. Frozen M76 and predecessors are DATA ONLY; never execute, import or modify frozen helpers, evidence or snapshots. Shared implementation315 tests/58 pins unchanged; no successful OCR reruns; cleanup preview only.",
+  "pending_article_candidates": 2,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M75",
+    "checkpoint": "M76",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-radar.json",
-      "sha256": "11b626fc9fc34262b93a1dbc95164312fb45ca6e990e18148a77c42d0f2047f8",
-      "bytes": 16380
+      "path": "metadata/catalog/scan-restoration/1984-03-debugging.json",
+      "sha256": "b3fd9134c3dc8e8f47369a75b3f760d4817deb7a2ec15fb98f7ddf9e55229939",
+      "bytes": 6339
     },
     "accepted": true
   }
