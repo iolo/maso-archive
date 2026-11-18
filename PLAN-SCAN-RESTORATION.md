@@ -1321,6 +1321,15 @@ All **36 M79 evidence files are frozen**,data only;never execute/import/modify
 frozen helpers or snapshots. Shared315-test/58-pin implementation is unchanged.
 See the [M79 handoff](docs/SCAN-RESTORATION-1984-03-M79.md).
 
+
+**M80 accounts for front source001–006** as six original full-page advertisements.
+Only those six ledger records changed;no OCR or article package was created.
+All44 canonical identities remain complete. March remains active with **ten
+pending full-page dispositions /273 scans**,then whole-issue exports/completion
+audit. Continue M81 filenames007/008/010/260/261/262 in fresh whole-issue-77,
+then263–266. All18 M80 evidence files are frozen,data only;never execute or
+modify frozen helpers. See [M80 handoff](docs/SCAN-RESTORATION-1984-03-M80.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

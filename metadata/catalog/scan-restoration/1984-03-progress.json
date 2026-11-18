@@ -8289,22 +8289,22 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-74/source-ledger-01.json",
-    "sha256": "f1f48518c19ce5acb8ffb3002771e7de1d21a7363ccd39ffbe9decfec4b63c3d",
-    "bytes": 504314
+    "path": "archive/scans/1984-03/restoration/whole-issue-76/source-ledger-01.json",
+    "sha256": "7ed8582e663ac30ee6ba86fc2cc377550cf4539037903bff39cbd1d71859ae9a",
+    "bytes": 508886
   },
-  "current_checkpoint": "M79",
-  "next": "M80: Account for the first six pending front source images,filename001–006/source indices9–14,in fresh whole-issue-76. Inspect every complete original page and record evidenced ad/form/other dispositions without inventing TOC bodies or unnecessary OCR. Keep maxsix selected views/twenty outside lookups per checkpoint. Then remaining front007,008,010 and back260–266 (ten pages) in further bounded checkpoints. Preserve all273 original images and all44 completed canonical outcomes. Finally build two reproducible whole-issue JSON/assets exports and complete independent all-source/accounting/ownership/continuity/range/asset/native rebuild audit. Whole March remains active. Frozen M79/predecessors are data only;never execute/import/modify frozen helpers or snapshots. Shared315-test/58-pin implementation unchanged;cleanup preview only.",
+  "current_checkpoint": "M80",
+  "next": "M81: Classify six more pending original full pages in fresh whole-issue-77:front filenames007,008,010 and back260,261,262 (sourceindices15,16,18,266,267,268). Review all six complete images;retain ads/forms/unlisted matter as original sources without unnecessary OCR or invented article bodies. Do not assume back filenames equal printed folios. Then remaining263–266 in another bounded checkpoint,and two reproducible whole-issue exports plus independent all273-source/all44-identity completion audit. Whole March active;frozen predecessors data only;never execute/import/modify frozen helpers.",
   "pending_article_candidates": 0,
   "pending_heading_candidates": 0,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 6,
   "current_work": {
-    "checkpoint": "M79",
+    "checkpoint": "M80",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-information-heading.json",
-      "sha256": "8e38b22f201ae11ee26033ac81c0314724056239ec5bec5a82b109d8cd910ebc",
-      "bytes": 3601
+      "path": "metadata/catalog/scan-restoration/1984-03-dispositions-front-a.json",
+      "sha256": "f3f698f11721b054f51c0959caaf011048d20b0617e9129f92809601c560830d",
+      "bytes": 2352
     },
     "accepted": true
   }

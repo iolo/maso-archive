@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M80",
+  "issue_id": "maso-1984-03",
+  "status": "accepted-six-front-advertising-dispositions;whole-issue-pending",
+  "source_filename_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_indices": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "source_dispositions": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-76/source-dispositions-01.json",
+    "sha256": "731d1544fe57fd56412a3e35a01d74455bb8d62a17dfe5e2639a0ffb4c5d23fa",
+    "bytes": 6731
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-76/validation-01.json",
+    "sha256": "6f05c210d2a1710c512a331d45db66c9f8fb9b377f34bc883d8a9f64a1d3c847",
+    "bytes": 820
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-76/source-ledger-01.json",
+    "sha256": "7ed8582e663ac30ee6ba86fc2cc377550cf4539037903bff39cbd1d71859ae9a",
+    "bytes": 508886
+  },
+  "source_dispositions_pending": 10,
+  "total_source_images": 273,
+  "complete_whole_scan_articles": 38,
+  "complete_whole_scan_headings": 6,
+  "ocr_tasks": 0,
+  "body_packages_created": 0,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "shared_implementation_changed": false,
+  "whole_issue_complete": false,
+  "next": "M81: Classify six more pending original full pages in fresh whole-issue-77:front filenames007,008,010 and back260,261,262 (sourceindices15,16,18,266,267,268). Review all six complete images;retain ads/forms/unlisted matter as original sources without unnecessary OCR or invented article bodies. Do not assume back filenames equal printed folios. Then remaining263–266 in another bounded checkpoint,and two reproducible whole-issue exports plus independent all273-source/all44-identity completion audit. Whole March active;frozen predecessors data only;never execute/import/modify frozen helpers.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-76/evidence-manifest.json",
+    "sha256": "9cca2c955276ec0f95832d946c69ceecf8d66cd5e27247bbffcf3d733d41a785",
+    "bytes": 2998
+  },
+  "frozen_evidence_files": 18
+}
