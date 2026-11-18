@@ -1,5 +1,7 @@
 # March M73 — Radar opening mapped; native restoration pending
 
+Historical handoff, superseded by the [accepted M73 native opening](SCAN-RESTORATION-1984-03-M73.md). M73 evidence is frozen; use resume-native-01.json for the final handoff. Whole March remains active.
+
 Historical mapped/OCR-stage handoff. Superseded by the [closed source-pass handoff](SCAN-RESTORATION-1984-03-M73-SOURCE-WORK.md); no native segment is accepted.
 
 M73 verifies **정보 레이다** across actual **124–131**, with independent neighbors 123 and 132. The current bounded opening selects **124–129**, six source views plus four extent/neighbor lookups. No new native article or segment is accepted.

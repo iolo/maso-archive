@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0040",
   "canonical_received_title": "정보 레이다",
-  "status": "source-compared-and-audited;native-opening-restoration-pending",
+  "status": "superseded-by-accepted-M73-native-opening;ending-and-assembly-pending",
   "source_kind": "jpeg-set",
   "article_actual_folios": [
     124,
@@ -40,12 +40,12 @@
   "raw_drafts_read": 62,
   "source_comparison_pass_started": true,
   "source_comparison_passes": 1,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_package_selected": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_package_selected": true,
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "evidence_frozen": false,
+  "evidence_frozen": true,
   "selected_package": null,
   "scope": {
     "path": "archive/scans/1984-03/restoration/whole-issue-69/scope.json",
@@ -122,24 +122,24 @@
   "shared_implementation_changed": false,
   "fresh_regression_tests": 0,
   "complete_whole_scan_articles": 34,
-  "partial_whole_scan_articles": 0,
-  "pending_article_candidates": 4,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 3,
   "complete_whole_scan_headings": 5,
   "pending_heading_candidates": 1,
-  "source_dispositions_pending": 28,
+  "source_dispositions_pending": 23,
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-68/source-ledger-01.json",
-    "sha256": "a1fe13e1a6a2a93499f132a4cb12a9aa54d328a0685d8e7fd7c8c3d08c691cde",
-    "bytes": 486184
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/source-ledger-native-01.json",
+    "sha256": "fbf9bcfc040eb50719588aed6fe313d14140083754d0b42b17cb5f53808f7703",
+    "bytes": 491190
   },
   "source_ledger_policy": "Accepted ledger retained until source/native acceptance;extent/mapping observations are pinned separately and do not claim native completion.",
   "resume": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-69/resume-source-work-01.json",
-    "sha256": "24c058f0e2cc56ff2744ab305a6eb17f75f1115a3eaca126cdc022e0ef5952db",
-    "bytes": 4506
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/resume-native-01.json",
+    "sha256": "f6f67091a260bf21cad112799ceb5147bb55e0a00ebcf67e2973229e4a3e0375",
+    "bytes": 4648
   },
   "review_level": "assistant-source-compared-and-independently-audited;not-human-acceptance",
-  "next": "Continue M73 in existing unfrozen whole-issue-69. The single prospective source pass is CLOSED:all62text owners and10original rasters on124–129are compared,41source qualifications are pinned,all72crop-byte/62raw bindings and four source-pixel details pass independent audit,and21damaged source-work cases reject. Do not reopen source comparison or rerun successful OCR. Use radar-a/source-compared-readings-01.json,news-source-anatomy-01.json,source-continuity-01.json and native-structure-plan-02.json. Encode and personally review native baselines/59paragraph fragments/fifteen news contexts,three tables with original physical cells and merged labels,the packet graph,jamo/key/fraction observations,unresolvedMIKRONmark,and four legible photo fields while preserving local unknowns and every qualification. Build two exact partial native opening exports and independently audit all native values,references,ranges,assets and damaged cases before acceptance. Then restore130–131in a fresh bounded ending and assemble/audit124–131. Complete debugging room255,Q&A256–259,contest results243,information heading0038,all28currently pending full-page dispositions,and reproducible whole-issue export/completion audit for all273scans. March remains active. Shared implementation315tests/58pins is unchanged;read frozen helpers/snapshots as data only. Cleanup preview-only. Authoritative current source-work resume is resume-source-work-01.json;the earlier resume.json remains the immutable mapped/OCR-stage handoff.",
+  "next": "M74:restore the native radar ending130–131in fresh whole-issue-70,then M75assemble/audit the complete124–131informationradar. Preserve accepted M73opening124–129and its15newscontexts,three physicaltables/80cells,packetgraph,jamo/key/fractionobservations,tenoriginalrasters and all45source/nativequalifications. Incoming130PC와 호환성이 있는 컴퓨터를 발표하였다. continues129마쓰시타가;do not invent punctuation or completion. Reuse verified full124–131extent and independentneighbors123/132,but personally inspect selected130–131sourceviews beforemapping. Stay within twoarticles/sixselectedviews/twentyoutsidelookups. Map/review before recognition;read every rawdraft before one prospective source pass. Preserve native news/category/story/claim/caption/table/photo ownership and every sourceerror/localunknown. Build two exact ending exports and independently audit all source/native references,ranges,assets and damagedcases beforeacceptance. Then assemble124–131with exact original source-scoped OCR reuse and no successful-task reruns. Complete debuggingroom255,Q&A256–259,contestresults243,informationheading0038,all23currentlypendingfull-page dispositions,and reproducible whole-issue export/completionaudit for all273scans. Marchremainsactive. Sharedimplementation315tests/58pins unchanged;never execute/import/modify frozen M73/M72helpers,snapshots or evidence. Cleanup previewonly.",
   "source_comparison_pass_complete": true,
   "post_pass_source_changes": 0,
   "source_qualifications": 41,
@@ -201,5 +201,20 @@
     "sha256": "e9adc1bdc763103d2f898da4ee32de722ab7bca6d1bf71e5d4e1076e916dcc0e",
     "bytes": 201
   },
-  "cleanup_preview_only": true
+  "cleanup_preview_only": true,
+  "accepted_opening": {
+    "path": "metadata/catalog/scan-restoration/1984-03-radar-opening.json",
+    "sha256": "bf7336354b61a4f31fb47c7f95d14f4f6975cd2f478719a3c57cc46a9a517ea0",
+    "bytes": 7144
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/evidence-manifest.json",
+    "sha256": "960fb70a324d1587e276f3dbf18e28ae5e75562f6aae9744ad3f29c64d46c063",
+    "bytes": 215659
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/native-validation-01.json",
+    "sha256": "828cbfae75e8735f15bdd3013eb6ed2bd99a96ac9f65e33da70cac37f9f9a085",
+    "bytes": 16306
+  }
 }

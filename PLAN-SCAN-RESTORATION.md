@@ -1151,6 +1151,26 @@ No source pass is reopened or successful OCR rerun. Shared implementation remain
 four pending articles, one pending heading and 28 pending dispositions / 273 scans.
 See the [M73 source-work handoff](docs/SCAN-RESTORATION-1984-03-M73-SOURCE-WORK.md).
 
+**M73 accepts the native radar opening, actual 124–129**, in two exact
+**272-file** exports. Independent audit checks 72 original-master crops,
+62 unchanged OCR bindings, 259 raw archive members and 3,217 native records;
+all 35 damaged native cases reject. Fifteen news contexts, 59 paragraph fragments,
+seven internal joins, 80 physical table cells/39 row groups, the original packet
+graph, key/jamo/fraction contexts, four photographic fields and ten original
+rasters remain source-backed. All 41 source / 45 source-native qualifications
+remain, including unresolved MIKRON ink and nonprinted search notation.
+Trial overlays and a corrected audit-harness assumption are retained; source
+readings and successful OCR are unchanged. Shared implementation remains
+315 tests / 58 pins. All **1122 M73 evidence files are frozen**; never execute,
+import or modify frozen helpers or snapshots. Whole March remains active:
+**34 complete articles, one partial article, three pending articles, one pending
+heading and 23 pending full-page dispositions / 273 scans**. Continue **M74**
+with native 130–131 in fresh whole-issue-70, then **M75** full 124–131 radar
+assembly/audit. Preserve 129 마쓰시타가 / 130 PC와 호환성이 있는 컴퓨터를 발표하였다.
+Finish every remaining March task through reproducible whole-issue export and
+completion audit. See the [M73 native handoff](docs/SCAN-RESTORATION-1984-03-M73.md).
+
+
 
 
 

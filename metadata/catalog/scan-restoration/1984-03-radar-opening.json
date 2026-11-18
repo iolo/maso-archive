@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M73",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0040",
+  "status": "complete-native-opening-segment",
+  "canonical_received_title": "정보 레이다",
+  "observed_running_title": "정보레이다",
+  "source_kind": "jpeg-set",
+  "actual_folios": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129
+  ],
+  "article_actual_folios": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+  ],
+  "deferred_actual_folios": [
+    130,
+    131
+  ],
+  "source_extent_verified": true,
+  "canonical_identity_verified": true,
+  "selected_package": "archive/scans/1984-03/packages/radar-jpeg-opening-r01",
+  "manifest": {
+    "path": "archive/scans/1984-03/packages/radar-jpeg-opening-r01/manifest.json",
+    "sha256": "d09f510bae9de845b2c342a14f9d19f99784adf070696bebb8b804fa741f12c1",
+    "bytes": 48837
+  },
+  "exact_files": 272,
+  "manifest_payload_files": 271,
+  "master_crops": 72,
+  "recognition_bindings": 62,
+  "recognition_tasks": 62,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "new_native_stage_recognition_calls": 0,
+  "source_comparison_passes": 1,
+  "post_pass_source_changes": 0,
+  "source_qualifications": 41,
+  "total_source_native_qualifications": 45,
+  "raw_archive_members": 259,
+  "native_index_records": 3217,
+  "typed_references": 17710,
+  "source_and_active_byte_spans": 3887,
+  "source_asset_bindings": 3221,
+  "native_structure": {
+    "structures": 87,
+    "fields": 1202,
+    "context_rows": 427,
+    "paths": 78,
+    "physical_table_cells": 80,
+    "physical_table_row_groups": 39,
+    "paragraph_fragments": 59,
+    "news_contexts": 15,
+    "internal_continuities": 7,
+    "sections": 33,
+    "figures": 10
+  },
+  "rejected_damaged_source_work_cases": 21,
+  "rejected_damaged_native_cases": 35,
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/native-validation-01.json",
+    "sha256": "828cbfae75e8735f15bdd3013eb6ed2bd99a96ac9f65e33da70cac37f9f9a085",
+    "bytes": 16306
+  },
+  "recipe": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/recipe-native-01.json",
+    "sha256": "d3cbf12363b8104568a6732f0d2594de977b02b2b04c06b62205424def3941b9",
+    "bytes": 15176
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/source-compared-readings-01.json",
+    "sha256": "b524ad85ba4ebf46ad4be1ed99e56261c7e864a995b8371a8f90b90cedd3ac17",
+    "bytes": 206765
+  },
+  "source_continuity": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/source-continuity-01.json",
+    "sha256": "c7b75b4091a91135ae71b9dd73160bdf6ed4e77967f101401f98a59ddc6431a3",
+    "bytes": 4370
+  },
+  "native_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/native-geometry-selection-04.json",
+    "sha256": "8e6f3929269c2f5f28eec8d2b532176461bd1a31c63230fc9a7207b74df98d44",
+    "bytes": 39480
+  },
+  "audited_candidate_geometry": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/native-geometry-selection-03.json",
+    "sha256": "b84a167f67f4463bb8d384efd8d3ff73b5592c6e85d7083bfb36c447f400c0c4",
+    "bytes": 38797
+  },
+  "native_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/native-review-02.json",
+    "sha256": "07ea83391312394e5fe8b25db38c31e4cc13a2e315e9e54c7a41113a10e1971b",
+    "bytes": 24247
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/full-page-review-01.json",
+    "sha256": "9c01937d1e30b4fb18e5087331ccf6388e20143bcfb6aa904e225f1ed60e4b7d",
+    "bytes": 10428
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/source-ledger-native-01.json",
+    "sha256": "fbf9bcfc040eb50719588aed6fe313d14140083754d0b42b17cb5f53808f7703",
+    "bytes": 491190
+  },
+  "source_dispositions_pending": 23,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "shared_implementation_changed": false,
+  "qualified_regression_tests": 315,
+  "fresh_regression_tests": 0,
+  "implementation_pins": 58,
+  "complete_whole_scan_articles": 34,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 3,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "historical_pdf_manifest": {
+    "path": "archive/pdf/1984-03/packages/12-1984-03-news/manifest.json",
+    "sha256": "b625c5b89ecc664800a6d46b16e10d6b53ecfe67933c2bcc5ea39977df191a8d",
+    "bytes": 46613
+  },
+  "historical_pdf_preserved": true,
+  "review_level": "assistant-source-compared-and-independently-audited;not-human-acceptance",
+  "original_encoded_bytes_verified": false,
+  "execution_verified": false,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "native_opening_segment_accepted": true,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/resume-native-01.json",
+    "sha256": "f6f67091a260bf21cad112799ceb5147bb55e0a00ebcf67e2973229e4a3e0375",
+    "bytes": 4648
+  },
+  "next": "M74:restore the native radar ending130–131in fresh whole-issue-70,then M75assemble/audit the complete124–131informationradar. Preserve accepted M73opening124–129and its15newscontexts,three physicaltables/80cells,packetgraph,jamo/key/fractionobservations,tenoriginalrasters and all45source/nativequalifications. Incoming130PC와 호환성이 있는 컴퓨터를 발표하였다. continues129마쓰시타가;do not invent punctuation or completion. Reuse verified full124–131extent and independentneighbors123/132,but personally inspect selected130–131sourceviews beforemapping. Stay within twoarticles/sixselectedviews/twentyoutsidelookups. Map/review before recognition;read every rawdraft before one prospective source pass. Preserve native news/category/story/claim/caption/table/photo ownership and every sourceerror/localunknown. Build two exact ending exports and independently audit all source/native references,ranges,assets and damagedcases beforeacceptance. Then assemble124–131with exact original source-scoped OCR reuse and no successful-task reruns. Complete debuggingroom255,Q&A256–259,contestresults243,informationheading0038,all23currentlypendingfull-page dispositions,and reproducible whole-issue export/completionaudit for all273scans. Marchremainsactive. Sharedimplementation315tests/58pins unchanged;never execute/import/modify frozen M73/M72helpers,snapshots or evidence. Cleanup previewonly.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/evidence-manifest.json",
+    "sha256": "960fb70a324d1587e276f3dbf18e28ae5e75562f6aae9744ad3f29c64d46c063",
+    "bytes": 215659
+  },
+  "frozen_evidence_files": 1122,
+  "checkpoint_progress": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/whole-progress-m73-native.json",
+    "sha256": "eebf559a591a424dad74617b88654a8b797d3a8f6f435d8ab69903a51f60c2ba",
+    "bytes": 265861
+  }
+}

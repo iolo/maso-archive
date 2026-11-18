@@ -1,5 +1,7 @@
 # March M73 — Radar source pass complete; native work pending
 
+Historical handoff, superseded by the [accepted M73 native opening](SCAN-RESTORATION-1984-03-M73.md). M73 evidence is frozen; use resume-native-01.json for the final handoff. Whole March remains active.
+
 The single prospective source pass for **정보 레이다**, selected actual **124–129**, is closed. All **62 text owners and ten original rasters** were compared with the donated scans. The complete article extent remains **124–131**, with native 130–131 and full assembly still required. No native segment or article is accepted.
 
 The independent source audit verifies all **72 original crop-byte bindings, 62 unchanged first-attempt OCR bindings, four exact source-pixel detail views and 41 source qualifications**. All **21 damaged source-work cases reject**. An initial audit-harness attempt misused a dictionary as a count mapping; its diagnostic is retained, and the corrected audit passes without changing source text or reopening comparison.

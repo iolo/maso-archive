@@ -7475,7 +7475,7 @@
       "title": "정보 레이다",
       "parent_id": "maso-1984-03-toc-0038",
       "classification_candidate": "article",
-      "whole_scan_status": "source-compared-native-restoration-pending",
+      "whole_scan_status": "partial-native-article",
       "whole_scan_complete": false,
       "historical_outcome": {
         "toc_entry_id": "maso-1984-03-toc-0040",
@@ -7544,7 +7544,64 @@
           }
         }
       },
-      "new_selected_restoration": null,
+      "new_selected_restoration": {
+        "checkpoint": "M73",
+        "article_id": "scan-maso-1984-03-toc-0040",
+        "availability": "partial",
+        "verification": "sample-reviewed",
+        "source_kind": "jpeg-set",
+        "directory": "archive/scans/1984-03/packages/radar-jpeg-opening-r01",
+        "manifest": {
+          "path": "archive/scans/1984-03/packages/radar-jpeg-opening-r01/manifest.json",
+          "sha256": "d09f510bae9de845b2c342a14f9d19f99784adf070696bebb8b804fa741f12c1",
+          "bytes": 48837
+        },
+        "article_actual_folios": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131
+        ],
+        "covered_actual_folios": [
+          124,
+          125,
+          126,
+          127,
+          128,
+          129
+        ],
+        "source_extent_covered": false,
+        "assembly_pending": true,
+        "continuation_pending": [
+          130,
+          131
+        ],
+        "recipe": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-69/radar-a/recipe-native-01.json",
+          "sha256": "d3cbf12363b8104568a6732f0d2594de977b02b2b04c06b62205424def3941b9",
+          "bytes": 15176
+        },
+        "validation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-69/native-validation-01.json",
+          "sha256": "828cbfae75e8735f15bdd3013eb6ed2bd99a96ac9f65e33da70cac37f9f9a085",
+          "bytes": 16306
+        },
+        "source_ledger": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-69/source-ledger-native-01.json",
+          "sha256": "fbf9bcfc040eb50719588aed6fe313d14140083754d0b42b17cb5f53808f7703",
+          "bytes": 491190
+        },
+        "implementation": {
+          "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+          "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+          "bytes": 10399
+        },
+        "directory_scope": "native-opening-segment"
+      },
       "historical_printed_extent_candidate": [
         124,
         125,
@@ -7581,12 +7638,21 @@
         "source_extent_verified": true,
         "canonical_identity_verified": true,
         "restoration_pending": true,
-        "note": "Complete radar extent124–131verified. Bounded124–129source pass is closed and independently audited:62text owners,10rasters,41qualifications and seven internal continuities. Native geometry,typed source indexes,exports and acceptance remain pending;130–131ending and full assembly are required."
+        "note": "Fullradar124–131and neighborsverified. Opening124–129is an acceptednativepartialsegment:twoexact272-fileexports,72originalcrops,62unchangedOCRbindings,15newscontexts,80physicaltablecells,packetgraph,jamo/fractioncontexts andtenoriginalrasters. Native130–131and full124–131assembly/audit remain pending."
       },
       "source_work_evidence": {
         "path": "metadata/catalog/scan-restoration/1984-03-radar-opening-work.json",
-        "sha256": "75cd2cfc4fff74de5f24abc769686f7172b61044570d4ef248ecbb10c85570d9",
-        "bytes": 9421
+        "sha256": "14360df44dadb8d7e877585ab6b4e7e439cfe25cf42a05f6f3c1f19e5f082129",
+        "bytes": 9977
+      },
+      "opening_segment": {
+        "checkpoint": "M73",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-radar-opening.json",
+          "sha256": "bf7336354b61a4f31fb47c7f95d14f4f6975cd2f478719a3c57cc46a9a517ea0",
+          "bytes": 7144
+        },
+        "native_accepted": true
       }
     },
     {
@@ -7919,27 +7985,23 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-68/source-ledger-01.json",
-    "sha256": "a1fe13e1a6a2a93499f132a4cb12a9aa54d328a0685d8e7fd7c8c3d08c691cde",
-    "bytes": 486184
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/source-ledger-native-01.json",
+    "sha256": "fbf9bcfc040eb50719588aed6fe313d14140083754d0b42b17cb5f53808f7703",
+    "bytes": 491190
   },
   "current_checkpoint": "M73",
-  "next": "Continue M73 in existing unfrozen whole-issue-69. The single prospective source pass is CLOSED:all62text owners and10original rasters on124–129are compared,41source qualifications are pinned,all72crop-byte/62raw bindings and four source-pixel details pass independent audit,and21damaged source-work cases reject. Do not reopen source comparison or rerun successful OCR. Use radar-a/source-compared-readings-01.json,news-source-anatomy-01.json,source-continuity-01.json and native-structure-plan-02.json. Encode and personally review native baselines/59paragraph fragments/fifteen news contexts,three tables with original physical cells and merged labels,the packet graph,jamo/key/fraction observations,unresolvedMIKRONmark,and four legible photo fields while preserving local unknowns and every qualification. Build two exact partial native opening exports and independently audit all native values,references,ranges,assets and damaged cases before acceptance. Then restore130–131in a fresh bounded ending and assemble/audit124–131. Complete debugging room255,Q&A256–259,contest results243,information heading0038,all28currently pending full-page dispositions,and reproducible whole-issue export/completion audit for all273scans. March remains active. Shared implementation315tests/58pins is unchanged;read frozen helpers/snapshots as data only. Cleanup preview-only. Authoritative current source-work resume is resume-source-work-01.json;the earlier resume.json remains the immutable mapped/OCR-stage handoff.",
-  "pending_article_candidates": 4,
+  "next": "M74:restore the native radar ending130–131in fresh whole-issue-70,then M75assemble/audit the complete124–131informationradar. Preserve accepted M73opening124–129and its15newscontexts,three physicaltables/80cells,packetgraph,jamo/key/fractionobservations,tenoriginalrasters and all45source/nativequalifications. Incoming130PC와 호환성이 있는 컴퓨터를 발표하였다. continues129마쓰시타가;do not invent punctuation or completion. Reuse verified full124–131extent and independentneighbors123/132,but personally inspect selected130–131sourceviews beforemapping. Stay within twoarticles/sixselectedviews/twentyoutsidelookups. Map/review before recognition;read every rawdraft before one prospective source pass. Preserve native news/category/story/claim/caption/table/photo ownership and every sourceerror/localunknown. Build two exact ending exports and independently audit all source/native references,ranges,assets and damagedcases beforeacceptance. Then assemble124–131with exact original source-scoped OCR reuse and no successful-task reruns. Complete debuggingroom255,Q&A256–259,contestresults243,informationheading0038,all23currentlypendingfull-page dispositions,and reproducible whole-issue export/completionaudit for all273scans. Marchremainsactive. Sharedimplementation315tests/58pins unchanged;never execute/import/modify frozen M73/M72helpers,snapshots or evidence. Cleanup previewonly.",
+  "pending_article_candidates": 3,
   "pending_heading_candidates": 1,
-  "partial_whole_scan_articles": 0,
+  "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5,
   "current_work": {
     "checkpoint": "M73",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-radar-opening-work.json",
-      "sha256": "75cd2cfc4fff74de5f24abc769686f7172b61044570d4ef248ecbb10c85570d9",
-      "bytes": 9421
+      "path": "metadata/catalog/scan-restoration/1984-03-radar-opening.json",
+      "sha256": "bf7336354b61a4f31fb47c7f95d14f4f6975cd2f478719a3c57cc46a9a517ea0",
+      "bytes": 7144
     },
-    "accepted": false,
-    "source_comparison_pass_started": true,
-    "source_comparison_pass_complete": true,
-    "source_work_audited": true,
-    "native_restoration_pending": true
+    "accepted": true
   }
 }
