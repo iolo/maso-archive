@@ -8289,22 +8289,22 @@
     }
   ],
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-77/source-ledger-01.json",
-    "sha256": "21c3a68398147267b43eb675a8ce5348890ae8a5cc04400450e886ae23b94cb7",
-    "bytes": 513587
+    "path": "archive/scans/1984-03/restoration/whole-issue-78/source-ledger-01.json",
+    "sha256": "2d7e09b0392169fc1479249b713005168d623c7f530a49433cf9b0ae0996d5a9",
+    "bytes": 516870
   },
-  "current_checkpoint": "M81",
-  "next": "M82: Personally disposition the final four original images,filenames263–266/sourceindices269–272,in fresh whole-issue-78. Preserve original reading order and do not infer printed folios from filenames. Then all273 scans and44 canonical outcomes must pass reproducible whole-issue JSON/assets exports,independent native rebuild/source-accounting/ownership/continuity/range/asset checks and final completion audit. Whole March stays active until final gates pass. Frozen predecessors are data only;never execute/import/modify frozen helpers or snapshots;shared implementation315 tests/58 pins unchanged.",
+  "current_checkpoint": "M82",
+  "next": "M83: In fresh whole-issue-79,build and independently audit the whole March1984 JSON/assets issue from all38 accepted native article packages,six non-owning heading outcomes and complete273-image source ledger. All source dispositions and44 canonical identities are complete,but issue export/rebuild/completion audit remains required. Use existing tools.pdf_restore image_issue/issue capabilities and pinned recipes;never execute/import/modify frozen checkpoint helpers or snapshots. Preserve all native structures,source ownership/continuities,assets,ranges,original source gaps/uncertainties,cover/spine/forms and unlisted sources. Build two fresh exact whole-issue exports and fresh selected-native rebuilds without OCR;validate all accounting/typed references/byte spans/assets and reject damaged issue cases before final completion. Original PDF and historical supplements must remain preserved. Shared implementation315 tests/58 pins unchanged;cleanup preview only.",
   "pending_article_candidates": 0,
   "pending_heading_candidates": 0,
   "partial_whole_scan_articles": 0,
   "complete_whole_scan_headings": 6,
   "current_work": {
-    "checkpoint": "M81",
+    "checkpoint": "M82",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-dispositions-front-back.json",
-      "sha256": "f52c55ca50ea6a4de2158d23940362b5bef69925101917e69f93b98848bddcd3",
-      "bytes": 2370
+      "path": "metadata/catalog/scan-restoration/1984-03-dispositions-back-final.json",
+      "sha256": "d9a788404284a228e15a000a2d6b0707aa5f42cee404ff1cb7b3e9915da607cd",
+      "bytes": 2721
     },
     "accepted": true
   }

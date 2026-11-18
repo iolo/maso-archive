@@ -1339,6 +1339,16 @@ and whole-issue exports/completion audit pending. Continue M82 filenames263–26
 in fresh whole-issue-78. All16 M81 evidence files are frozen,data only;never
 execute/import/modify frozen helpers. See [M81 handoff](docs/SCAN-RESTORATION-1984-03-M81.md).
 
+
+**M82 accounts for final source263–266** as four original full-page advertisements.
+All **273 source images have dispositions and all44 canonical identities have
+completed outcomes:38 native articles/six non-owning headings**. March remains
+active through reproducible whole-issue JSON/assets exports,fresh selected-native
+rebuilds and independent completion audit. Continue M83 in fresh whole-issue-79.
+No OCR or article body was created. All14 M82 evidence files are frozen,data
+only;never execute/import/modify frozen helpers. Shared implementation315 tests/
+58 pins unchanged. See [M82 handoff](docs/SCAN-RESTORATION-1984-03-M82.md).
+
 ## Aim
 
 Restore the cleaned scans as **reproducible, presentation-independent article and

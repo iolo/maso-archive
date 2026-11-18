@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M82",
+  "issue_id": "maso-1984-03",
+  "status": "accepted-final-four-source-dispositions;all273-accounted;issue-export-pending",
+  "source_filename_numbers": [
+    263,
+    264,
+    265,
+    266
+  ],
+  "source_indices": [
+    269,
+    270,
+    271,
+    272
+  ],
+  "source_dispositions": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-78/source-dispositions-01.json",
+    "sha256": "05915e7d8d795be89b74e8afa7246c58bea72dd751788ca177e0efd7dc9d4f43",
+    "bytes": 4864
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-78/validation-01.json",
+    "sha256": "fdf99e056bd7a120546bd82a3fc109f9eb268f6c8d54c097e378a08183d04eb1",
+    "bytes": 393
+  },
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-78/source-ledger-01.json",
+    "sha256": "2d7e09b0392169fc1479249b713005168d623c7f530a49433cf9b0ae0996d5a9",
+    "bytes": 516870
+  },
+  "source_dispositions_pending": 0,
+  "total_source_images": 273,
+  "complete_whole_scan_articles": 38,
+  "complete_whole_scan_headings": 6,
+  "ocr_tasks": 0,
+  "body_packages_created": 0,
+  "cleanup_preview_only": true,
+  "deleted_files": false,
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "shared_implementation_changed": false,
+  "whole_issue_complete": false,
+  "next": "M83: In fresh whole-issue-79,build and independently audit the whole March1984 JSON/assets issue from all38 accepted native article packages,six non-owning heading outcomes and complete273-image source ledger. All source dispositions and44 canonical identities are complete,but issue export/rebuild/completion audit remains required. Use existing tools.pdf_restore image_issue/issue capabilities and pinned recipes;never execute/import/modify frozen checkpoint helpers or snapshots. Preserve all native structures,source ownership/continuities,assets,ranges,original source gaps/uncertainties,cover/spine/forms and unlisted sources. Build two fresh exact whole-issue exports and fresh selected-native rebuilds without OCR;validate all accounting/typed references/byte spans/assets and reject damaged issue cases before final completion. Original PDF and historical supplements must remain preserved. Shared implementation315 tests/58 pins unchanged;cleanup preview only.",
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-78/evidence-manifest.json",
+    "sha256": "3354068b185a17e73ec4eca030e1e414642f8811336b1084620b4670550f53a1",
+    "bytes": 2363
+  },
+  "frozen_evidence_files": 14
+}
