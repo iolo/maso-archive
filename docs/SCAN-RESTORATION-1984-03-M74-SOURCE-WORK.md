@@ -1,5 +1,7 @@
 # March M74 — Radar ending source pass complete
 
+Historical handoff, superseded by the [accepted M74 native ending](SCAN-RESTORATION-1984-03-M74.md). M74 evidence is frozen; use resume-native-01.json. Whole March remains active.
+
 The single prospective comparison of **130–131** is closed. All **25 text owners** were compared with the donated scans, retaining **eight news contexts, seven new heading/headline pairs, 41 paragraph fragments, five Sharp features, three internal continuities and 17 source qualifications**. Native ending encoding, review and acceptance remain pending.
 
 The independent audit verifies all **25 exact crop-byte bindings, 25 original-master pixel checks and 25 unchanged first-attempt OCR bindings**. All **21 damaged source-work cases reject**. Every raw draft was read before the source pass; successful empty/poor drafts were manually read without retries or reruns. Shared implementation remains **315 qualified tests / 58 pins**, with no changes or fresh broad regressions.

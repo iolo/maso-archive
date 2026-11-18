@@ -1193,6 +1193,23 @@ Whole March remains active at34 complete articles, one partial, three pending
 articles, one pending heading and23 pending dispositions /273 scans. See the
 [M74 source-work handoff](docs/SCAN-RESTORATION-1984-03-M74-SOURCE-WORK.md).
 
+**M74 accepts the native radar ending, actual130–131**, in two matching
+**110-file** exports. Independent audit verifies25 original-master crops,
+25 unchanged OCR bindings,101 raw archive members and1,101 native records;
+all28 damaged native cases reject. Eight news contexts,41 paragraph fragments,
+five Sharp numbered features,three internal joins and154 physical baselines
+remain source-backed. All17 source /20 source-native qualifications are preserved.
+Original131 ends before independent132; incomingSr.Partner has no invented
+repeated heading. Shared implementation remains315 tests /58 pins. All
+**417 M74 evidence files are frozen**; never execute/import/modify frozen helpers.
+All native source segments124–131 are accepted; **M75 complete radar assembly
+and independent audit remain required**, in fresh whole-issue-71. Whole March
+stays active: **34 complete articles,one partial,three pending articles,one
+pending heading and21 pending full-page dispositions /273 scans**. Finish
+every remaining March task through reproducible whole-issue export/completion
+audit. See the [M74 native handoff](docs/SCAN-RESTORATION-1984-03-M74.md).
+
+
 
 
 

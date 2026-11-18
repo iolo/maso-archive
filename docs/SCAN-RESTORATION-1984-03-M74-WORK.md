@@ -1,5 +1,7 @@
 # March M74 — Radar ending mapped; native work pending
 
+Historical handoff, superseded by the [accepted M74 native ending](SCAN-RESTORATION-1984-03-M74.md). M74 evidence is frozen; use resume-native-01.json. Whole March remains active.
+
 Historical mapped/OCR-stage handoff, superseded by the [closed source-work handoff](SCAN-RESTORATION-1984-03-M74-SOURCE-WORK.md). No native ending is accepted.
 
 The ending **130–131** of **정보 레이다** is mapped in fresh `whole-issue-70`. Both selected originals and outside 129/132 were personally inspected. The accepted opening **124–129** is preserved as frozen data. Page132 remains an independent contest announcement.

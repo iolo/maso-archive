@@ -4,7 +4,7 @@
   "issue_id": "maso-1984-03",
   "toc_entry_id": "maso-1984-03-toc-0040",
   "canonical_received_title": "정보 레이다",
-  "status": "source-compared-and-audited;native-ending-restoration-pending",
+  "status": "superseded-by-accepted-M74-native-ending;full-article-assembly-pending",
   "source_kind": "jpeg-set",
   "article_actual_folios": [
     124,
@@ -40,12 +40,12 @@
   "raw_drafts_read": 25,
   "source_comparison_pass_started": true,
   "source_comparison_passes": 1,
-  "native_geometry_complete": false,
-  "native_recipe_created": false,
-  "native_package_selected": false,
+  "native_geometry_complete": true,
+  "native_recipe_created": true,
+  "native_package_selected": true,
   "whole_article_complete": false,
   "whole_issue_complete": false,
-  "evidence_frozen": false,
+  "evidence_frozen": true,
   "selected_package": null,
   "scope": {
     "path": "archive/scans/1984-03/restoration/whole-issue-70/scope.json",
@@ -131,18 +131,18 @@
   "pending_article_candidates": 3,
   "complete_whole_scan_headings": 5,
   "pending_heading_candidates": 1,
-  "source_dispositions_pending": 23,
+  "source_dispositions_pending": 21,
   "source_ledger": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-69/source-ledger-native-01.json",
-    "sha256": "fbf9bcfc040eb50719588aed6fe313d14140083754d0b42b17cb5f53808f7703",
-    "bytes": 491190
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/source-ledger-native-01.json",
+    "sha256": "eaa26277ef8ff45b38ede89399514ca5279560473040ce6b58554c77f16e561b",
+    "bytes": 492975
   },
   "resume": {
-    "path": "archive/scans/1984-03/restoration/whole-issue-70/resume-source-work-01.json",
-    "sha256": "bc6c9a9b9aa20bdb0d307ea6cced0ce3fc92f4603a9aa9ca46287ab05983fb3e",
-    "bytes": 4608
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/resume-native-01.json",
+    "sha256": "aa9aa48c294882c7f51b908dca78f5be3e459c36cddee4d4075bcefd49668028",
+    "bytes": 5226
   },
-  "next": "Continue M74 in existing unfrozen whole-issue-70. The single prospective source pass is CLOSED: all 25 text owners on 130–131 are compared, with 17 source qualifications, eight news contexts, 41 paragraph fragments, five Sharp numbered features and three internal continuities. All 25 crop-byte/original-pixel/raw bindings pass independent audit; 21 damaged source-work cases reject. Do not reopen source comparison or rerun successful OCR. Use radar-b/source-compared-readings-01.json, news-source-anatomy-01.json, source-continuity-01.json and native-structure-plan-02.json. Encode and personally review all native baselines, paragraph/news/claim ownership, technical fields, source heading/headline contexts and Sharp feature groups. Preserve incoming Sr.Partner, Hitachi 2천/～3천1백엔 and the OS 현/재 midword edge, all apparent source errors and original physical wraps. Build two exact partial ending exports and independently audit every source/native value, reference, range, asset and damaged case before acceptance. Then M75 assemble/audit complete 124–131 radar with accepted frozen M73 opening read as data only and exact original source-scoped OCR reuse. Complete debugging room 255, Q&A 256–259, contest results 243, information heading 0038, all 23 currently pending full-page dispositions and reproducible whole-issue export/completion audit for all 273 scans. March remains active. Shared implementation 315 tests/58 pins is unchanged; never execute/import/modify frozen helpers or snapshots. Cleanup preview-only. Current handoff is resume-source-work-01.json; resume-mapped-01.json is historical.",
+  "next": "M75: assemble and independently audit the complete information radar124–131 in fresh whole-issue-71. Accepted native source segments are M73opening124–129 and M74ending130–131. Read/copy frozen package JSON and assets only;never execute/import/modify frozen helpers,snapshots or evidence. Combine maps/corrections/assets with exact original source-scoped OCR recognition maps and no successful recognition reruns. Preserve every original source-local native value and geometry while rebasing active download spans;retain original partial coverage/continuation declarations in immutable component evidence. Resolve129마쓰시타가/130PC와 호환성이 있는 컴퓨터를 발표하였다. as one source-owned Sr.Partner news item without an invented repeated heading or new punctuation. Preserve all22distinct whole-article news items (15opening contexts plus8ending contexts with one shared incoming item),100regional paragraph fragments,all10internal joins,three original tables/80physical cells/39groups,the packetgraph,jamo/key/fractionobservations,fiveSharpfeatures,fourphotofields,tenoriginalrasters andall65source/native qualifications. Close the original131ending before independent132announcement. Build two exact complete-article exports and independently audit every source/native occurrence,typedreference,range,asset anddamagedcase beforemarkingradarcomplete. Then restore debuggingroom255,Q&A256–259,contestresults243,informationheading0038,all21currentlypendingfullpage dispositions,andreproduciblewholeissueexport/completionaudit for all273scans. WholeMarchremainsactive. Sharedimplementation315tests/58pins unchanged;cleanup previewonly.",
   "source_comparison_pass_complete": true,
   "post_pass_source_changes": 0,
   "source_work_audited": true,
@@ -192,5 +192,20 @@
     "path": "archive/scans/1984-03/restoration/whole-issue-70/source-work-validation-01.json",
     "sha256": "afd4b478afac61d798ee368a98bc128f2c194a91a2ccf03a1aa608b04447b8c1",
     "bytes": 3471
+  },
+  "accepted_ending": {
+    "path": "metadata/catalog/scan-restoration/1984-03-radar-ending.json",
+    "sha256": "a3911e8b45c2adc73a0f17e92ffc4879648be3857f23d210e932f597666e7bef",
+    "bytes": 7376
+  },
+  "frozen_evidence": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/evidence-manifest.json",
+    "sha256": "cb75fdfc28f3267dabda8687312030e1341c65a7f56f6d601d1c026ed5139093",
+    "bytes": 79200
+  },
+  "native_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/native-validation-01.json",
+    "sha256": "059459ac415770b3d649988226c4e1977b0e48e00be6f63dd9ca17eeed3017cf",
+    "bytes": 6137
   }
 }
