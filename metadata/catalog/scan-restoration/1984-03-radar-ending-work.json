@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "checkpoint": "M74",
+  "issue_id": "maso-1984-03",
+  "toc_entry_id": "maso-1984-03-toc-0040",
+  "canonical_received_title": "정보 레이다",
+  "status": "source-compared-and-audited;native-ending-restoration-pending",
+  "source_kind": "jpeg-set",
+  "article_actual_folios": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+  ],
+  "selected_actual_folios": [
+    130,
+    131
+  ],
+  "accepted_prior_actual_folios": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129
+  ],
+  "source_extent_verified": true,
+  "canonical_identity_verified": true,
+  "selected_source_views": 2,
+  "outside_lookup_views": 2,
+  "mapped_regions": 25,
+  "original_rasters": 0,
+  "recognition_tasks": 25,
+  "recognition_retries": 0,
+  "successful_recognition_reruns": 0,
+  "raw_drafts_read": 25,
+  "source_comparison_pass_started": true,
+  "source_comparison_passes": 1,
+  "native_geometry_complete": false,
+  "native_recipe_created": false,
+  "native_package_selected": false,
+  "whole_article_complete": false,
+  "whole_issue_complete": false,
+  "evidence_frozen": false,
+  "selected_package": null,
+  "scope": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/scope.json",
+    "sha256": "2c8619fd4d56254e0c6d33d26ef359b0fb08f1a182125cb10dcd83b69710002c",
+    "bytes": 4498
+  },
+  "map": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/map-r01.json",
+    "sha256": "3ad31f4b264257df5422c054e176f822f8b7db24a283c19eacc3e735c66cf5f6",
+    "bytes": 13450
+  },
+  "source_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/full-page-review-01.json",
+    "sha256": "9ef19c3819474ce44f3631b7aef4846ee294dad42754bf5255ccb02c64646506",
+    "bytes": 4354
+  },
+  "selected_crops": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/selected-review-crops-01.json",
+    "sha256": "6d51e5eaee0b210b52222df330dd8ed9f1c6a809cfe496d39e338c31287bdfac",
+    "bytes": 26943
+  },
+  "recognition_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/recognition-outcomes-01.json",
+    "sha256": "46577bba38709bd069944c120e9f2cf5e6bf1101ab5624e416da1f982c11bd10",
+    "bytes": 2144
+  },
+  "raw_drafts": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/raw-draft-readings-01.json",
+    "sha256": "25bae0a4ada6be3ae321f79cc080e97c400695c2832844178a7ccc7a13a7c0e1",
+    "bytes": 38634
+  },
+  "raw_draft_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/raw-draft-review-01.json",
+    "sha256": "510e76b0ad9da683379dc3bf1569cde9b2e5af0c0aff57953d920e6ee522ebe7",
+    "bytes": 478
+  },
+  "native_structure_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/native-structure-plan-02.json",
+    "sha256": "99a286ead477d74fba1fdabbf1020c2c2438f70f9fa421de46e3903fe1d02e21",
+    "bytes": 3087
+  },
+  "validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/source-work-validation-01.json",
+    "sha256": "afd4b478afac61d798ee368a98bc128f2c194a91a2ccf03a1aa608b04447b8c1",
+    "bytes": 3471
+  },
+  "process_outcomes": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/process-outcomes-02.json",
+    "sha256": "b7a6963a1d39cd1952c31f5d87a28d61c31283c82f51343d8aef1eff9b36e8c7",
+    "bytes": 858
+  },
+  "implementation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-68/implementation-after-01.json",
+    "sha256": "5d7a891dc02d84464646abd6a56e3a30da80c963ebbff5d3d5aa62b31cfb092c",
+    "bytes": 10399
+  },
+  "accepted_opening": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/accepted-m73-snapshot/1984-03-radar-opening.json",
+    "sha256": "bf7336354b61a4f31fb47c7f95d14f4f6975cd2f478719a3c57cc46a9a517ea0",
+    "bytes": 7144
+  },
+  "transition": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/transition-01.json",
+    "sha256": "66d14b00397114c773085ee1057ca9d4440d09c0d0963e91ad95e308925bf669",
+    "bytes": 1025
+  },
+  "map_review": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/map-review-01.json",
+    "sha256": "ec180661c8da3044fac595717a590081684769c0f0fae935cfa6fcd2f777ac0d",
+    "bytes": 1944
+  },
+  "recognition_plan": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/recognition-plan-01.json",
+    "sha256": "fc4aaf41a382014e692842d6fe5aa2c515a90e6667f214dd4e3dd8426723f324",
+    "bytes": 977
+  },
+  "qualified_regression_tests": 315,
+  "implementation_pins": 58,
+  "shared_implementation_changed": false,
+  "fresh_regression_tests": 0,
+  "complete_whole_scan_articles": 34,
+  "partial_whole_scan_articles": 1,
+  "pending_article_candidates": 3,
+  "complete_whole_scan_headings": 5,
+  "pending_heading_candidates": 1,
+  "source_dispositions_pending": 23,
+  "source_ledger": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-69/source-ledger-native-01.json",
+    "sha256": "fbf9bcfc040eb50719588aed6fe313d14140083754d0b42b17cb5f53808f7703",
+    "bytes": 491190
+  },
+  "resume": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/resume-source-work-01.json",
+    "sha256": "bc6c9a9b9aa20bdb0d307ea6cced0ce3fc92f4603a9aa9ca46287ab05983fb3e",
+    "bytes": 4608
+  },
+  "next": "Continue M74 in existing unfrozen whole-issue-70. The single prospective source pass is CLOSED: all 25 text owners on 130–131 are compared, with 17 source qualifications, eight news contexts, 41 paragraph fragments, five Sharp numbered features and three internal continuities. All 25 crop-byte/original-pixel/raw bindings pass independent audit; 21 damaged source-work cases reject. Do not reopen source comparison or rerun successful OCR. Use radar-b/source-compared-readings-01.json, news-source-anatomy-01.json, source-continuity-01.json and native-structure-plan-02.json. Encode and personally review all native baselines, paragraph/news/claim ownership, technical fields, source heading/headline contexts and Sharp feature groups. Preserve incoming Sr.Partner, Hitachi 2천/～3천1백엔 and the OS 현/재 midword edge, all apparent source errors and original physical wraps. Build two exact partial ending exports and independently audit every source/native value, reference, range, asset and damaged case before acceptance. Then M75 assemble/audit complete 124–131 radar with accepted frozen M73 opening read as data only and exact original source-scoped OCR reuse. Complete debugging room 255, Q&A 256–259, contest results 243, information heading 0038, all 23 currently pending full-page dispositions and reproducible whole-issue export/completion audit for all 273 scans. March remains active. Shared implementation 315 tests/58 pins is unchanged; never execute/import/modify frozen helpers or snapshots. Cleanup preview-only. Current handoff is resume-source-work-01.json; resume-mapped-01.json is historical.",
+  "source_comparison_pass_complete": true,
+  "post_pass_source_changes": 0,
+  "source_work_audited": true,
+  "source_qualifications": 17,
+  "source_text_owners": 25,
+  "source_raster_owners": 0,
+  "narrative_paragraph_fragments": 41,
+  "selected_news_contexts": 8,
+  "new_news_items": 7,
+  "numbered_features": 5,
+  "internal_news_continuities": 3,
+  "original_pixel_checks": 25,
+  "source_crop_byte_checks": 25,
+  "unchanged_recognition_bindings": 25,
+  "rejected_damaged_source_work_cases": 21,
+  "historical_mapped_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/mapped-work-validation-01.json",
+    "sha256": "596e5c95f4a9509b69002a4adc4398eb5e20369ac37e2c3c8c811330fdf20e16",
+    "bytes": 929
+  },
+  "historical_mapped_work_snapshot": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/mapped-stage-before-source-publication/1984-03-radar-ending-work.json",
+    "sha256": "3c806e4b8ac20e534dac4bc4505240fb5279d42b2199b041e42ff3a3100c3843",
+    "bytes": 6276
+  },
+  "source_readings": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/source-compared-readings-01.json",
+    "sha256": "463a18dead1084dcab47543649989aa28466e5c50e74cbd2e58338073a262c09",
+    "bytes": 73895
+  },
+  "source_pass": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/source-pass-01.json",
+    "sha256": "322d5b3851e65bd1292d9161cff966f2f11e14e9d1fadf974ea87a9d9d011f46",
+    "bytes": 2418
+  },
+  "source_anatomy": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/news-source-anatomy-01.json",
+    "sha256": "7a5002d1db70f74245ec6feea10b9a60de7d0a39cfea506e6e94a1ef428268cf",
+    "bytes": 8440
+  },
+  "source_continuity": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/radar-b/source-continuity-01.json",
+    "sha256": "5f2b95eea3c710b90610f3c232338a04523f89983cc23ac5544588bf24e4d3ef",
+    "bytes": 3571
+  },
+  "source_validation": {
+    "path": "archive/scans/1984-03/restoration/whole-issue-70/source-work-validation-01.json",
+    "sha256": "afd4b478afac61d798ee368a98bc128f2c194a91a2ccf03a1aa608b04447b8c1",
+    "bytes": 3471
+  }
+}

@@ -7653,6 +7653,15 @@
           "bytes": 7144
         },
         "native_accepted": true
+      },
+      "ending_work": {
+        "checkpoint": "M74",
+        "record": {
+          "path": "metadata/catalog/scan-restoration/1984-03-radar-ending-work.json",
+          "sha256": "df1fd619879dc62decfd5b76f6dc9ba653d9f768d67f41d2d46da407d2390414",
+          "bytes": 8958
+        },
+        "native_accepted": false
       }
     },
     {
@@ -7989,19 +7998,23 @@
     "sha256": "fbf9bcfc040eb50719588aed6fe313d14140083754d0b42b17cb5f53808f7703",
     "bytes": 491190
   },
-  "current_checkpoint": "M73",
-  "next": "M74:restore the native radar ending130–131in fresh whole-issue-70,then M75assemble/audit the complete124–131informationradar. Preserve accepted M73opening124–129and its15newscontexts,three physicaltables/80cells,packetgraph,jamo/key/fractionobservations,tenoriginalrasters and all45source/nativequalifications. Incoming130PC와 호환성이 있는 컴퓨터를 발표하였다. continues129마쓰시타가;do not invent punctuation or completion. Reuse verified full124–131extent and independentneighbors123/132,but personally inspect selected130–131sourceviews beforemapping. Stay within twoarticles/sixselectedviews/twentyoutsidelookups. Map/review before recognition;read every rawdraft before one prospective source pass. Preserve native news/category/story/claim/caption/table/photo ownership and every sourceerror/localunknown. Build two exact ending exports and independently audit all source/native references,ranges,assets and damagedcases beforeacceptance. Then assemble124–131with exact original source-scoped OCR reuse and no successful-task reruns. Complete debuggingroom255,Q&A256–259,contestresults243,informationheading0038,all23currentlypendingfull-page dispositions,and reproducible whole-issue export/completionaudit for all273scans. Marchremainsactive. Sharedimplementation315tests/58pins unchanged;never execute/import/modify frozen M73/M72helpers,snapshots or evidence. Cleanup previewonly.",
+  "current_checkpoint": "M74",
+  "next": "Continue M74 in existing unfrozen whole-issue-70. The single prospective source pass is CLOSED: all 25 text owners on 130–131 are compared, with 17 source qualifications, eight news contexts, 41 paragraph fragments, five Sharp numbered features and three internal continuities. All 25 crop-byte/original-pixel/raw bindings pass independent audit; 21 damaged source-work cases reject. Do not reopen source comparison or rerun successful OCR. Use radar-b/source-compared-readings-01.json, news-source-anatomy-01.json, source-continuity-01.json and native-structure-plan-02.json. Encode and personally review all native baselines, paragraph/news/claim ownership, technical fields, source heading/headline contexts and Sharp feature groups. Preserve incoming Sr.Partner, Hitachi 2천/～3천1백엔 and the OS 현/재 midword edge, all apparent source errors and original physical wraps. Build two exact partial ending exports and independently audit every source/native value, reference, range, asset and damaged case before acceptance. Then M75 assemble/audit complete 124–131 radar with accepted frozen M73 opening read as data only and exact original source-scoped OCR reuse. Complete debugging room 255, Q&A 256–259, contest results 243, information heading 0038, all 23 currently pending full-page dispositions and reproducible whole-issue export/completion audit for all 273 scans. March remains active. Shared implementation 315 tests/58 pins is unchanged; never execute/import/modify frozen helpers or snapshots. Cleanup preview-only. Current handoff is resume-source-work-01.json; resume-mapped-01.json is historical.",
   "pending_article_candidates": 3,
   "pending_heading_candidates": 1,
   "partial_whole_scan_articles": 1,
   "complete_whole_scan_headings": 5,
   "current_work": {
-    "checkpoint": "M73",
+    "checkpoint": "M74",
     "record": {
-      "path": "metadata/catalog/scan-restoration/1984-03-radar-opening.json",
-      "sha256": "bf7336354b61a4f31fb47c7f95d14f4f6975cd2f478719a3c57cc46a9a517ea0",
-      "bytes": 7144
+      "path": "metadata/catalog/scan-restoration/1984-03-radar-ending-work.json",
+      "sha256": "df1fd619879dc62decfd5b76f6dc9ba653d9f768d67f41d2d46da407d2390414",
+      "bytes": 8958
     },
-    "accepted": true
+    "accepted": false,
+    "source_comparison_pass_started": true,
+    "source_comparison_pass_complete": true,
+    "source_work_audited": true,
+    "native_restoration_pending": true
   }
 }

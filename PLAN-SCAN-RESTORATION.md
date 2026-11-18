@@ -1170,6 +1170,31 @@ assembly/audit. Preserve 129 마쓰시타가 / 130 PC와 호환성이 있는 컴
 Finish every remaining March task through reproducible whole-issue export and
 completion audit. See the [M73 native handoff](docs/SCAN-RESTORATION-1984-03-M73.md).
 
+**M74 ending130–131is mapped and recognized;native restoration remains pending.**
+Two selected source views and two outside129/132contexts are personally reviewed.
+All25first-attemptOCRtasks succeeded and all drafts were read;25originalcrop-byte
+and recognitionbindings verify. No source pass has started. Continue one prospective
+comparison,encode/review eight news contexts,seven heading/headline pairs,Sharp's
+five features,three internal continuities andincomingSr.Partner,then two exact
+endingexports andindependentnativeaudit. M75full124–131assembly remains required.
+March totals remain34complete articles,onepartial,threepending articles,onepending
+heading and23pendingdispositions/273scans. See the
+[M74 work handoff](docs/SCAN-RESTORATION-1984-03-M74-WORK.md).
+
+**M74 ending source comparison is complete; native restoration remains pending.**
+One closed prospective pass compares all 25 title/prose owners on130–131,
+retaining eight news contexts, 41 paragraph fragments, five numbered features,
+three internal joins and 17 qualifications. Independent audit verifies all25
+crop-byte/original-pixel/OCR bindings and rejects21 damaged source-work cases.
+Continue native geometry, exact source ownership, two matching ending exports
+and independent native audit inside unfrozen whole-issue-70; then M75 full
+124–131 assembly/audit. Do not reopen the source pass or rerun successful OCR.
+Whole March remains active at34 complete articles, one partial, three pending
+articles, one pending heading and23 pending dispositions /273 scans. See the
+[M74 source-work handoff](docs/SCAN-RESTORATION-1984-03-M74-SOURCE-WORK.md).
+
+
+
 
 
 
